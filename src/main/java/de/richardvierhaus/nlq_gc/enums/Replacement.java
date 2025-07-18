@@ -4,20 +4,26 @@ public enum Replacement {
     // TODO
     QUERY {
         @Override
-        String getName() {
+        public String getName() {
             return "[QUERY]";
         }
     },
     USER {
         @Override
-        String getName() {
+        public String getName() {
             return "[USER]";
         }
     },
     ENCODING {
         @Override
-        String getName() {
+        public String getName() {
             return "[ENCODING]";
+        }
+    },
+    KEYWORDS {
+        @Override
+        public String getName() {
+            return "[KEYWORDS]";
         }
     };
 
@@ -26,6 +32,6 @@ public enum Replacement {
      *
      * @return The replacements name.
      */
-    abstract String getName();
+    public abstract String getName();
 
 }

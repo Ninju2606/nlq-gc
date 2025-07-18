@@ -1,0 +1,2 @@
+[USER] asked following query:
+[QUERY]

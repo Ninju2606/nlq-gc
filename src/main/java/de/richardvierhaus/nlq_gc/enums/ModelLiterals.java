@@ -6,7 +6,7 @@ import de.richardvierhaus.nlq_gc.llm.QWen;
 public enum ModelLiterals {
     QWEN {
         @Override
-        LanguageModel getLLM() {
+        public LanguageModel getLLM() {
             // TODO
             return new QWen("1234");
         }
@@ -17,5 +17,5 @@ public enum ModelLiterals {
      *
      * @return A {@link LanguageModel} instance.
      */
-    abstract LanguageModel getLLM();
+    public abstract LanguageModel getLLM();
 }

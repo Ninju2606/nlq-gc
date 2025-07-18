@@ -12,7 +12,7 @@ public enum PromptKeyword implements Prompt {
 
         @Override
         public String getResource() {
-            return "";
+            return "prompts/keywordExtraction/abc.txt";
         }
     }
 }

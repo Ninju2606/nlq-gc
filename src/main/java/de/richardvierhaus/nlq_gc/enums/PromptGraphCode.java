@@ -12,7 +12,7 @@ public enum PromptGraphCode implements Prompt {
 
         @Override
         public String getResource() {
-            return "";
+            return "prompts/graphCode/abc.txt";
         }
     }
 }
