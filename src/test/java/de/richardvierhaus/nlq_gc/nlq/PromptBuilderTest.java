@@ -25,6 +25,8 @@ public class PromptBuilderTest {
         assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> builder.replace(Replacement.KEYWORDS, "ABC"));
 
         // Replacements
+        assertThat(builder.replaceIfRequired(Replacement.KEYWORDS, "TEST")).isEqualTo(builder);
+        assertThat(builder.getLeftoverReplacements()).containsExactlyInAnyOrder(Replacement.USER, Replacement.QUERY);
         assertThat(builder.replace(Replacement.USER, "Test User")).isEqualTo(builder);
         assertThat(builder.getLeftoverReplacements()).containsExactly(Replacement.QUERY);
 

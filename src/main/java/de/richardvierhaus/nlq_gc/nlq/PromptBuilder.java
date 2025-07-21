@@ -32,11 +32,27 @@ public class PromptBuilder {
      * @throws UnsupportedOperationException
      *         in case the given replacement is not required (anymore).
      */
-    protected PromptBuilder replace(final Replacement replacement, final String replacementText) {
+    public PromptBuilder replace(final Replacement replacement, final String replacementText) {
         if (!leftoverReplacements.remove(replacement))
             throw new UnsupportedOperationException(
                     String.format("The replacement %s either has already been replaced or is not required for the specified prompt.", replacement));
         prompt = prompt.replace(replacement.getName(), replacementText);
+        return this;
+    }
+
+    /**
+     * Performs a safe replacement on the prompt in case it is left to be performed.
+     *
+     * @param replacement
+     *         The {@link Replacement} to be performed.
+     * @param replacementText
+     *         The text to replace the replacement.
+     * @return Current instance for the opportunity to keep building the prompt.
+     */
+    public PromptBuilder replaceIfRequired(final Replacement replacement, final String replacementText) {
+        if (leftoverReplacements.remove(replacement)) {
+            prompt = prompt.replace(replacement.getName(), replacementText);
+        }
         return this;
     }
 
@@ -69,8 +85,8 @@ public class PromptBuilder {
         return String.join("\n", reader.lines().toArray(String[]::new));
     }
 
-    protected List<Replacement> getLeftoverReplacements() {
-        return leftoverReplacements;
+    public List<Replacement> getLeftoverReplacements() {
+        return List.copyOf(leftoverReplacements);
     }
 
 }
