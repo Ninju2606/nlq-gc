@@ -1,18 +1,21 @@
 package de.richardvierhaus.nlq_gc;
 
 import de.richardvierhaus.nlq_gc.enums.State;
+import de.richardvierhaus.nlq_gc.llm.LanguageModel;
 
 import java.util.List;
 
 public class GraphCode {
 
     private State state;
+    private final LanguageModel llm;
     private List<String> dictionary;
     private int[][] matrix;
     private String error;
     private String description;
+    private final long start;
 
-    private static final GraphCode NOT_AVAILABLE = new GraphCode(State.NOT_AVAILABLE);
+    private static final GraphCode NOT_AVAILABLE = new GraphCode(State.NOT_AVAILABLE, null);
     protected static final String ERROR_DEFAULT = "An error occurred while parsing the query. Please try again.";
 
     /**
@@ -20,8 +23,8 @@ public class GraphCode {
      *
      * @return A new {@link GraphCode} instance.
      */
-    public static GraphCode getPendingGC() {
-        return new GraphCode(State.PENDING);
+    public static GraphCode getPendingGC(final LanguageModel llm) {
+        return new GraphCode(State.PENDING, llm);
     }
 
     /**
@@ -33,8 +36,10 @@ public class GraphCode {
         return NOT_AVAILABLE;
     }
 
-    private GraphCode(final State state) {
+    private GraphCode(final State state, final LanguageModel llm) {
         this.state = state;
+        this.llm = llm;
+        this.start = System.currentTimeMillis();
     }
 
     /**
@@ -128,6 +133,14 @@ public class GraphCode {
 
     public String getDescription() {
         return description;
+    }
+
+    public long getStart() {
+        return start;
+    }
+
+    public LanguageModel getLLM() {
+        return llm;
     }
 
 }
