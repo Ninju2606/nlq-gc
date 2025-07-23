@@ -2,6 +2,7 @@ package de.richardvierhaus.nlq_gc;
 
 import de.richardvierhaus.nlq_gc.enums.State;
 import de.richardvierhaus.nlq_gc.llm.LanguageModel;
+import org.springframework.core.style.ToStringCreator;
 
 import java.util.List;
 
@@ -110,7 +111,7 @@ public class GraphCode {
      */
     private void checkStateUpdate() {
         if (getState() != State.PENDING)
-            throw new UnsupportedOperationException(String.format("This GraphCode of State %s cannot be modified.", this.state));
+            throw new UnsupportedOperationException(String.format("This GraphCode of state %s cannot be modified.", this.state));
     }
 
     // Getter
@@ -141,6 +142,25 @@ public class GraphCode {
 
     public LanguageModel getLLM() {
         return llm;
+    }
+
+    @Override
+    public String toString() {
+        ToStringCreator creator = new ToStringCreator(this);
+        creator.append("state", state);
+        if (state == State.NOT_AVAILABLE) return creator.toString();
+
+        creator.append("start", start)
+                .append("llm", llm);
+
+        if (state == State.FINISHED)
+            creator.append("dictionary", dictionary)
+                    .append("matrix", matrix)
+                    .append("description", description);
+        else if (state == State.ERROR)
+            creator.append("error", error);
+
+        return creator.toString();
     }
 
 }

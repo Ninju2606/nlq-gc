@@ -5,6 +5,8 @@ import de.richardvierhaus.nlq_gc.GraphCode;
 import de.richardvierhaus.nlq_gc.KeywordResponse;
 import de.richardvierhaus.nlq_gc.enums.Replacement;
 import de.richardvierhaus.nlq_gc.nlq.PromptBuilder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
 import java.util.Iterator;
@@ -20,6 +22,7 @@ public class AsyncLLMService {
     private static volatile AsyncLLMService INSTANCE;
     private static final int INTERVAL_SECONDS = 3; // 3 seconds between polling
     private static final int TIMEOUT = 300000;  // 5 minutes before deletion
+    private static final Logger LOGGER = LoggerFactory.getLogger(AsyncLLMService.class);
 
     private final Map<String, GraphCode> pendingKeywordTransactions;
     private final Map<String, GraphCode> pendingGraphCodeTransactions;
@@ -48,6 +51,7 @@ public class AsyncLLMService {
             synchronized (AsyncLLMService.class) {
                 if (INSTANCE == null) {
                     INSTANCE = new AsyncLLMService();
+                    LOGGER.info("Created AsyncLLMService instance");
                 }
             }
         }
@@ -61,6 +65,7 @@ public class AsyncLLMService {
         if (!running) {
             running = true;
             scheduler.scheduleWithFixedDelay(this::processTransactions, 0, INTERVAL_SECONDS, TimeUnit.SECONDS);
+            LOGGER.info("Started AsyncLLMService scheduler");
         }
     }
 
@@ -75,9 +80,11 @@ public class AsyncLLMService {
                 if (!scheduler.awaitTermination(30, TimeUnit.SECONDS)) {
                     scheduler.shutdownNow();
                 }
+                LOGGER.info("Terminated AsyncLLMService scheduler");
             } catch (InterruptedException e) {
                 scheduler.shutdownNow();
                 Thread.currentThread().interrupt();
+                LOGGER.info("Terminated AsyncLLMService scheduler", e);
             }
         }
     }
@@ -87,6 +94,8 @@ public class AsyncLLMService {
      */
     private void processTransactions() {
         if (!running) return;
+
+        LOGGER.trace("Routine scheduler run");
 
         long currentTime = System.currentTimeMillis();
         removeTimeouts(finishedGraphCodes, currentTime);
@@ -114,6 +123,8 @@ public class AsyncLLMService {
 
         final String transactionId = UUID.randomUUID().toString();
         String llmTransaction = llm.handlePrompt(prompt);
+        LOGGER.debug("Started keyword transaction [{}]", transactionId);
+        LOGGER.trace("Executing keyword transaction [{}] with following prompt: {}", transactionId, prompt);
 
         transactionMapping.put(transactionId, llmTransaction);
         pendingKeywordTransactions.put(transactionId, GraphCode.getPendingGC(llm));
@@ -148,8 +159,11 @@ public class AsyncLLMService {
      */
     private String addGCPrompt(final String prompt, final GraphCode graphCode, final String transactionId) {
         String llmTransaction = graphCode.getLLM().handlePrompt(prompt);
+        LOGGER.debug("Started graph code transaction [{}]", transactionId);
+        LOGGER.trace("Executing graph code transaction [{}] with following prompt: {}", transactionId, prompt);
+
         transactionMapping.put(transactionId, llmTransaction);
-        //        pendingGraphCodeTransactions.put(transactionId, graphCode);
+        pendingGraphCodeTransactions.put(transactionId, graphCode);
 
         return transactionId;
     }
@@ -163,15 +177,15 @@ public class AsyncLLMService {
      */
     public GraphCode getGraphCode(final String transactionId) {
         GraphCode result = finishedGraphCodes.remove(transactionId);
-        if (result != null) return result;
-
-        result = pendingKeywordTransactions.get(transactionId);
-        if (result != null) return result;
-
-        result = checkPendingGraphCodeTransaction(transactionId);
-        if (result != null) return result;
-
-        return GraphCode.getNotAvailable();
+        if (result == null) {
+            result = pendingKeywordTransactions.get(transactionId);
+            if (result == null) {
+                result = checkPendingGraphCodeTransaction(transactionId);
+                if (result == null) result = GraphCode.getNotAvailable();
+            }
+        }
+        LOGGER.trace("Transaction [{}] found graph code {}", transactionId, result);
+        return result;
     }
 
     /**
@@ -192,6 +206,7 @@ public class AsyncLLMService {
                 iterator.remove();
                 transactionMapping.remove(transactionId);
                 preparedGCPrompts.remove(transactionId);
+                LOGGER.debug("Removed transaction [{}] due to timeout", transactionId);
             }
         }
 
@@ -211,20 +226,24 @@ public class AsyncLLMService {
             String response = graphCode.getLLM().getResponse(transactionMapping.get(transactionId));
             if (!StringUtils.hasText(response)) continue;
 
+            LOGGER.trace("Found response for keyword transaction [{}]: {}", transactionId, response);
+
             try {
-                transactionMapping.remove(transactionId);
                 KeywordResponse responseParsed = gson.fromJson(response, KeywordResponse.class);
 
                 if (StringUtils.hasText(responseParsed.getError())) {
                     graphCode.error(responseParsed.getError());
                     preparedGCPrompts.remove(transactionId);
                     finishedGraphCodes.put(transactionId, graphCode);
+                    LOGGER.debug("Found errors during keyword extraction [{}]: {}", transactionId, graphCode);
                 } else {
+                    LOGGER.debug("Keyword extraction [{}] found keywords: {}", transactionId, responseParsed.getDictionary());
                     PromptBuilder builder = preparedGCPrompts.remove(transactionId);
                     builder.replace(Replacement.KEYWORDS, gson.toJson(responseParsed.getDictionary()));
                     addGCPrompt(builder.toString(), graphCode, transactionId);
                 }
             } finally {
+                transactionMapping.remove(transactionId);
                 iterator.remove();
             }
         }
@@ -237,15 +256,20 @@ public class AsyncLLMService {
         String response = graphCode.getLLM().getResponse(transactionMapping.get(transactionId));
         if (!StringUtils.hasText(response)) return null;
 
+        LOGGER.trace("Found response for graph code transaction [{}]: {}", transactionId, response);
+
         try {
             GraphCode responseParsed = gson.fromJson(response, GraphCode.class);
             if (StringUtils.hasText(responseParsed.getError())) {
                 graphCode.error(responseParsed.getError());
+                LOGGER.debug("Found errors during graph code generation [{}]: {}", transactionId, graphCode);
             } else {
                 graphCode.finished(responseParsed.getDictionary(), responseParsed.getMatrix(), responseParsed.getDescription());
+                LOGGER.debug("Graph code generation [{}] finished: {}", transactionId, graphCode);
             }
         } finally {
             transactionMapping.remove(transactionId);
+            pendingGraphCodeTransactions.remove(transactionId);
         }
         return graphCode;
     }

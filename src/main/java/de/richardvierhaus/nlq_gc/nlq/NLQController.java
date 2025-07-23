@@ -41,7 +41,7 @@ public class NLQController {
      * code.
      *
      * @param transactionId
-     *         The transactions id.
+     *         The transactions' id.
      * @return The graph code.
      */
     @GetMapping("/graphCode")

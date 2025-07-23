@@ -70,7 +70,7 @@ public class NLQService {
      * Looks up the {@link GraphCode} corresponding to the given transactionId.
      *
      * @param transactionId
-     *         The transactions id.
+     *         The transactions' id.
      * @return The {@link GraphCode} behind the transactionId.
      */
     protected GraphCode getGraphCode(final String transactionId) {
