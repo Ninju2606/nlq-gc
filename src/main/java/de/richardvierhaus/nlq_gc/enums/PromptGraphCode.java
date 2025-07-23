@@ -14,5 +14,23 @@ public enum PromptGraphCode implements Prompt {
         public String getResource() {
             return "prompts/graphCode/abc.txt";
         }
+    };
+
+    /**
+     * Determines whether an additional {@link PromptKeyword} is required.
+     *
+     * @return boolean value specifying the necessity of a {@link PromptKeyword}.
+     */
+    public boolean requiresKeywords() {
+        return getRequiredReplacements().contains(Replacement.KEYWORDS);
+    }
+
+    /**
+     * Provides the default {@link PromptGraphCode} in case no one was specified.
+     *
+     * @return The default {@link PromptGraphCode}.
+     */
+    public static PromptGraphCode getDefault() {
+        return TEST;
     }
 }

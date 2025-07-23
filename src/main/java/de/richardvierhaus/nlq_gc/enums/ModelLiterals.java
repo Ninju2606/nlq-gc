@@ -18,4 +18,13 @@ public enum ModelLiterals {
      * @return A {@link LanguageModel} instance.
      */
     public abstract LanguageModel getLLM();
+
+    /**
+     * Provides the default {@link LanguageModel} instance in case no one was specified.
+     *
+     * @return The default {@link LanguageModel} instance.
+     */
+    public static LanguageModel getDefault() {
+        return QWEN.getLLM();
+    }
 }

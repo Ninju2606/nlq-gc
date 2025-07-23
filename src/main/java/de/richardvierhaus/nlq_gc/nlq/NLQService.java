@@ -47,15 +47,12 @@ public class NLQService {
      */
     protected String handleNLQ(final String query, final String user, final PromptKeyword promptKeyword,
                                final PromptGraphCode promptGraphCode, final LanguageModel llm) {
-        if (promptGraphCode.getRequiredReplacements().contains(Replacement.KEYWORDS) && promptKeyword == null)
-            throw new UnsupportedOperationException("The given GC prompt requires an keyword prompt.");
-
         PromptBuilder promptBuilderGC = new PromptBuilder(promptGraphCode);
         promptBuilderGC.replaceIfRequired(Replacement.QUERY, query)
                 .replaceIfRequired(Replacement.USER, user)
                 .replaceIfRequired(Replacement.ENCODING, "TODO"); // TODO
 
-        if (promptGraphCode.getRequiredReplacements().contains(Replacement.KEYWORDS)) {
+        if (promptGraphCode.requiresKeywords()) {
             PromptBuilder promptBuilderKeyword = new PromptBuilder(promptKeyword);
             promptBuilderKeyword.replaceIfRequired(Replacement.QUERY, query)
                     .replaceIfRequired(Replacement.USER, user)

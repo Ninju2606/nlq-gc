@@ -14,5 +14,14 @@ public enum PromptKeyword implements Prompt {
         public String getResource() {
             return "prompts/keywordExtraction/abc.txt";
         }
+    };
+
+    /**
+     * Provides the default {@link PromptKeyword} in case no one was specified.
+     *
+     * @return The default {@link PromptKeyword}.
+     */
+    public static PromptKeyword getDefault() {
+        return TEST;
     }
 }

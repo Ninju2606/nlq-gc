@@ -1,6 +1,11 @@
 package de.richardvierhaus.nlq_gc.nlq;
 
 import de.richardvierhaus.nlq_gc.GraphCode;
+import de.richardvierhaus.nlq_gc.enums.ModelLiterals;
+import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
+import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
+import de.richardvierhaus.nlq_gc.llm.LanguageModel;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -32,8 +37,39 @@ public class NLQController {
     public String handleNLQ(@RequestParam final String query, @RequestParam final String user,
                             @RequestParam final String promptKeyword, @RequestParam final String promptGC,
                             @RequestParam final String model) {
-        // TODO verification, parsing & call
-        throw new UnsupportedOperationException("Not implemented yet");
+        if (!StringUtils.hasText(query))
+            throw new UnsupportedOperationException("No query has been provided.");
+        if (!StringUtils.hasText(user))
+            throw new UnsupportedOperationException("No user identification has been provided.");
+
+        // Preparation of the graph code prompt
+        PromptGraphCode gcPrompt;
+        try {
+            gcPrompt = PromptGraphCode.valueOf(promptGC);
+        } catch (IllegalArgumentException e) {
+            gcPrompt = PromptGraphCode.getDefault();
+        }
+
+        // Preparation of the keyword prompt
+        PromptKeyword keywordPrompt = null;
+        if (gcPrompt.requiresKeywords()) {
+            try {
+                keywordPrompt = PromptKeyword.valueOf(promptKeyword);
+            } catch (IllegalArgumentException e) {
+                keywordPrompt = PromptKeyword.getDefault();
+            }
+        }
+
+        // Preparation of the llm
+        LanguageModel llm;
+        try {
+            ModelLiterals modelLiteral = ModelLiterals.valueOf(model);
+            llm = modelLiteral.getLLM();
+        } catch (IllegalArgumentException e) {
+            llm = ModelLiterals.getDefault();
+        }
+
+        return service.handleNLQ(query, user, keywordPrompt, gcPrompt, llm);
     }
 
     /**
@@ -46,7 +82,8 @@ public class NLQController {
      */
     @GetMapping("/graphCode")
     public GraphCode getGraphCode(@RequestParam final String transactionId) {
-        // TODO verification
+        if (!StringUtils.hasText(transactionId))
+            throw new UnsupportedOperationException("No transactionId has been provided.");
         return service.getGraphCode(transactionId);
     }
 
