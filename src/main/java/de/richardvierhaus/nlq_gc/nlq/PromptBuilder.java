@@ -18,7 +18,7 @@ public class PromptBuilder {
 
     protected PromptBuilder(final Prompt prompt) {
         leftoverReplacements = new ArrayList<>(prompt.getRequiredReplacements());
-        this.prompt = readFile(prompt.getResource());
+        this.prompt = readPrompt(prompt);
     }
 
     /**
@@ -71,16 +71,16 @@ public class PromptBuilder {
     }
 
     /**
-     * Reads the content of a file behind the given path.
+     * Reads the content of a file behind the given prompt.
      *
-     * @param path
-     *         The path to the file to be read.
+     * @param prompt
+     *         The {@link Prompt} to be read.
      * @return The files content.
      */
-    private String readFile(final String path) {
-        InputStream inputStream = PromptBuilder.class.getClassLoader().getResourceAsStream(path);
+    public static String readPrompt(final Prompt prompt) {
+        InputStream inputStream = PromptBuilder.class.getClassLoader().getResourceAsStream(prompt.getResource());
         if (inputStream == null)
-            throw new RuntimeException(String.format("The file with path %s could not be loaded.", path));
+            throw new RuntimeException(String.format("The file with path %s could not be loaded.", prompt.getResource()));
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
         return String.join("\n", reader.lines().toArray(String[]::new));
     }
