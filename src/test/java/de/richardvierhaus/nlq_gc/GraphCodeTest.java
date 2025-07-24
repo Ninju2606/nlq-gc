@@ -4,14 +4,12 @@ import de.richardvierhaus.nlq_gc.enums.State;
 import de.richardvierhaus.nlq_gc.llm.LanguageModel;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
-@SpringBootTest
 public class GraphCodeTest {
 
     @Mock

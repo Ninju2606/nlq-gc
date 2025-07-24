@@ -4,7 +4,6 @@ import de.richardvierhaus.nlq_gc.enums.Prompt;
 import de.richardvierhaus.nlq_gc.enums.Replacement;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 import java.util.MissingFormatArgumentException;
@@ -12,7 +11,6 @@ import java.util.MissingFormatArgumentException;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
-@SpringBootTest
 public class PromptBuilderTest {
 
     @Test

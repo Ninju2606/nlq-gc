@@ -1,7 +1,6 @@
 package de.richardvierhaus.nlq_gc.enums;
 
 public enum Replacement {
-    // TODO
     QUERY {
         @Override
         public String getName() {

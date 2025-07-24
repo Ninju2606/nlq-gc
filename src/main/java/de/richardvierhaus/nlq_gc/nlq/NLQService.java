@@ -1,6 +1,7 @@
 package de.richardvierhaus.nlq_gc.nlq;
 
 import de.richardvierhaus.nlq_gc.GraphCode;
+import de.richardvierhaus.nlq_gc.encoding.EncodingService;
 import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
 import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
 import de.richardvierhaus.nlq_gc.enums.Replacement;
@@ -14,6 +15,7 @@ import org.springframework.stereotype.Service;
 public class NLQService {
 
     private final AsyncLLMService llmService;
+    private EncodingService encodingService;
 
     public NLQService() {
         llmService = AsyncLLMService.getInstance();
@@ -50,13 +52,13 @@ public class NLQService {
         PromptBuilder promptBuilderGC = new PromptBuilder(promptGraphCode);
         promptBuilderGC.replaceIfRequired(Replacement.QUERY, query)
                 .replaceIfRequired(Replacement.USER, user)
-                .replaceIfRequired(Replacement.ENCODING, "TODO"); // TODO
+                .replaceIfRequired(Replacement.ENCODING, getEncodingService().getEncodingMappingsAsString());
 
         if (promptGraphCode.requiresKeywords()) {
             PromptBuilder promptBuilderKeyword = new PromptBuilder(promptKeyword);
             promptBuilderKeyword.replaceIfRequired(Replacement.QUERY, query)
                     .replaceIfRequired(Replacement.USER, user)
-                    .replaceIfRequired(Replacement.ENCODING, "TODO"); // TODO
+                    .replaceIfRequired(Replacement.ENCODING, getEncodingService().getEncodingMappingsAsString());
 
             return llmService.addKeywordPrompt(promptBuilderKeyword.toString(), llm, promptBuilderGC);
         }
@@ -72,6 +74,12 @@ public class NLQService {
      */
     protected GraphCode getGraphCode(final String transactionId) {
         return llmService.getGraphCode(transactionId);
+    }
+
+    private EncodingService getEncodingService() {
+        if (encodingService == null)
+            encodingService = EncodingService.getInstance();
+        return encodingService;
     }
 
 }
