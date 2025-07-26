@@ -4,11 +4,10 @@ import de.richardvierhaus.nlq_gc.llm.LanguageModel;
 import de.richardvierhaus.nlq_gc.llm.QWen;
 
 public enum ModelLiterals {
-    QWEN {
+    QWEN3_1_7_B {
         @Override
         public LanguageModel getLLM() {
-            // TODO
-            return new QWen("1234");
+            return new QWen("Qwen/Qwen3-1.7B");
         }
     };
 
@@ -25,6 +24,6 @@ public enum ModelLiterals {
      * @return The default {@link LanguageModel} instance.
      */
     public static LanguageModel getDefault() {
-        return QWEN.getLLM();
+        return QWEN3_1_7_B.getLLM();
     }
 }
