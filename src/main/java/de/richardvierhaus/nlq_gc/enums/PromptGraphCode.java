@@ -4,15 +4,15 @@ import java.util.List;
 
 public enum PromptGraphCode implements Prompt {
     // TODO
-    TEST {
+    NO_KEYWORDS_01_FS {
         @Override
         public List<Replacement> getRequiredReplacements() {
-            return List.of();
+            return List.of(Replacement.USER, Replacement.ENCODING, Replacement.QUERY);
         }
 
         @Override
         public String getResource() {
-            return "prompts/graphCode/abc.txt";
+            return "prompts/graphCode/PromptGraphCode_NoKeywords_01_FS.txt";
         }
     };
 
@@ -31,6 +31,6 @@ public enum PromptGraphCode implements Prompt {
      * @return The default {@link PromptGraphCode}.
      */
     public static PromptGraphCode getDefault() {
-        return TEST;
+        return NO_KEYWORDS_01_FS;
     }
 }
