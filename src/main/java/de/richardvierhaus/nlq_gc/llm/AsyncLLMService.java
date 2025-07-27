@@ -3,6 +3,7 @@ package de.richardvierhaus.nlq_gc.llm;
 import com.google.gson.Gson;
 import de.richardvierhaus.nlq_gc.GraphCode;
 import de.richardvierhaus.nlq_gc.KeywordResponse;
+import de.richardvierhaus.nlq_gc.enums.ModelLiterals;
 import de.richardvierhaus.nlq_gc.enums.Replacement;
 import de.richardvierhaus.nlq_gc.nlq.PromptBuilder;
 import org.slf4j.Logger;
@@ -110,24 +111,24 @@ public class AsyncLLMService {
      *
      * @param prompt
      *         The prompt to be executed.
-     * @param llm
-     *         The {@link LanguageModel} to be used.
+     * @param model
+     *         The {@link ModelLiterals} instance to be used.
      * @param preparedGCPrompt
      *         A {@link PromptBuilder} instance that is only missing keywords to be replaced.
      * @return A transactionId to poll the resulting graph code.
      */
-    public String addKeywordPrompt(final String prompt, final LanguageModel llm,
+    public String addKeywordPrompt(final String prompt, final ModelLiterals model,
                                    final PromptBuilder preparedGCPrompt) {
         if (preparedGCPrompt.getLeftoverReplacements().size() != 1 || !preparedGCPrompt.getLeftoverReplacements().contains(Replacement.KEYWORDS))
             throw new UnsupportedOperationException("The given PromptBuilder does not contain exactly the replacement KEYWORDS");
 
         final String transactionId = UUID.randomUUID().toString();
-        String llmTransaction = llm.handlePrompt(prompt);
+        String llmTransaction = model.getLLM().handlePrompt(prompt);
         LOGGER.debug("Started keyword transaction [{}]", transactionId);
         LOGGER.trace("Executing keyword transaction [{}] with following prompt: {}", transactionId, prompt);
 
         transactionMapping.put(transactionId, llmTransaction);
-        pendingKeywordTransactions.put(transactionId, GraphCode.getPendingGC(llm));
+        pendingKeywordTransactions.put(transactionId, GraphCode.getPendingGC(model));
         preparedGCPrompts.put(transactionId, preparedGCPrompt);
 
         return transactionId;
@@ -138,12 +139,12 @@ public class AsyncLLMService {
      *
      * @param prompt
      *         The prompt to be executed.
-     * @param llm
-     *         The {@link LanguageModel} to be used.
+     * @param model
+     *         The {@link ModelLiterals} instance to be used.
      * @return A transactionId to poll the resulting graph code.
      */
-    public String addGCPrompt(final String prompt, final LanguageModel llm) {
-        return addGCPrompt(prompt, GraphCode.getPendingGC(llm), UUID.randomUUID().toString());
+    public String addGCPrompt(final String prompt, final ModelLiterals model) {
+        return addGCPrompt(prompt, GraphCode.getPendingGC(model), UUID.randomUUID().toString());
     }
 
     /**
@@ -158,7 +159,7 @@ public class AsyncLLMService {
      * @return A transactionId to poll the resulting graph code.
      */
     private String addGCPrompt(final String prompt, final GraphCode graphCode, final String transactionId) {
-        String llmTransaction = graphCode.getLLM().handlePrompt(prompt);
+        String llmTransaction = graphCode.getModel().getLLM().handlePrompt(prompt);
         LOGGER.debug("Started graph code transaction [{}]", transactionId);
         LOGGER.trace("Executing graph code transaction [{}] with following prompt: {}", transactionId, prompt);
 
@@ -201,7 +202,7 @@ public class AsyncLLMService {
         Iterator<Map.Entry<String, GraphCode>> iterator = mapping.entrySet().iterator();
         while (iterator.hasNext()) {
             Map.Entry<String, GraphCode> entry = iterator.next();
-            if (entry.getValue().getStart() + TIMEOUT > currentTime) {
+            if (entry.getValue().getStart() + TIMEOUT < currentTime) {
                 String transactionId = entry.getKey();
                 iterator.remove();
                 transactionMapping.remove(transactionId);
@@ -223,7 +224,7 @@ public class AsyncLLMService {
             String transactionId = entry.getKey();
             GraphCode graphCode = entry.getValue();
 
-            String response = graphCode.getLLM().getResponse(transactionMapping.get(transactionId));
+            String response = graphCode.getModel().getLLM().getResponse(transactionMapping.get(transactionId));
             if (!StringUtils.hasText(response)) continue;
 
             LOGGER.trace("Found response for keyword transaction [{}]: {}", transactionId, response);
@@ -253,7 +254,7 @@ public class AsyncLLMService {
         GraphCode graphCode = pendingGraphCodeTransactions.get(transactionId);
         if (graphCode == null) return null;
 
-        String response = graphCode.getLLM().getResponse(transactionMapping.get(transactionId));
+        String response = graphCode.getModel().getLLM().getResponse(transactionMapping.get(transactionId));
         if (!StringUtils.hasText(response)) return null;
 
         LOGGER.trace("Found response for graph code transaction [{}]: {}", transactionId, response);

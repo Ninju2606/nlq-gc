@@ -39,7 +39,7 @@ public class EncodingServiceTest {
 
         service.removeMapping(2);
         assertThat(service.getEncodingMappings()).hasSize(1)
-                .allMatch(mapping -> mapping.getId() == 1 && mapping.getAttribute().equals("TEST2") && !mapping.isIdentityMapping());
+                .allMatch(mapping -> mapping.getId() == 1 && mapping.getAttribute().equals("ABC2") && !mapping.isIdentityMapping());
 
         service.clear();
         assertThat(service.getEncodingMappings()).isEmpty();

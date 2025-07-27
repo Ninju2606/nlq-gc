@@ -4,9 +4,10 @@ import de.richardvierhaus.nlq_gc.GraphCode;
 import de.richardvierhaus.nlq_gc.enums.ModelLiterals;
 import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
 import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
-import de.richardvierhaus.nlq_gc.llm.LanguageModel;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Optional;
 
 @RestController
 @RequestMapping("")
@@ -35,8 +36,9 @@ public class NLQController {
      */
     @PostMapping("/handleNLQ")
     public String handleNLQ(@RequestParam final String query, @RequestParam final String user,
-                            @RequestParam final String promptKeyword, @RequestParam final String promptGC,
-                            @RequestParam final String model) {
+                            @RequestParam final Optional<String> promptKeyword,
+                            @RequestParam final Optional<String> promptGC,
+                            @RequestParam final Optional<String> model) {
         if (!StringUtils.hasText(query))
             throw new UnsupportedOperationException("No query has been provided.");
         if (!StringUtils.hasText(user))
@@ -45,8 +47,8 @@ public class NLQController {
         // Preparation of the graph code prompt
         PromptGraphCode gcPrompt;
         try {
-            gcPrompt = PromptGraphCode.valueOf(promptGC);
-        } catch (IllegalArgumentException e) {
+            gcPrompt = PromptGraphCode.valueOf(promptGC.orElse(null));
+        } catch (IllegalArgumentException | NullPointerException e) {
             gcPrompt = PromptGraphCode.getDefault();
         }
 
@@ -54,22 +56,21 @@ public class NLQController {
         PromptKeyword keywordPrompt = null;
         if (gcPrompt.requiresKeywords()) {
             try {
-                keywordPrompt = PromptKeyword.valueOf(promptKeyword);
-            } catch (IllegalArgumentException e) {
+                keywordPrompt = PromptKeyword.valueOf(promptKeyword.orElse(null));
+            } catch (IllegalArgumentException | NullPointerException e) {
                 keywordPrompt = PromptKeyword.getDefault();
             }
         }
 
         // Preparation of the llm
-        LanguageModel llm;
+        ModelLiterals modelLiteral;
         try {
-            ModelLiterals modelLiteral = ModelLiterals.valueOf(model);
-            llm = modelLiteral.getLLM();
-        } catch (IllegalArgumentException e) {
-            llm = ModelLiterals.getDefault();
+            modelLiteral = ModelLiterals.valueOf(model.orElse(null));
+        } catch (IllegalArgumentException | NullPointerException e) {
+            modelLiteral = ModelLiterals.getDefault();
         }
 
-        return service.handleNLQ(query, user, keywordPrompt, gcPrompt, llm);
+        return service.handleNLQ(query, user, keywordPrompt, gcPrompt, modelLiteral);
     }
 
     /**

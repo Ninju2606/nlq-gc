@@ -1,7 +1,7 @@
 package de.richardvierhaus.nlq_gc;
 
+import de.richardvierhaus.nlq_gc.enums.ModelLiterals;
 import de.richardvierhaus.nlq_gc.enums.State;
-import de.richardvierhaus.nlq_gc.llm.LanguageModel;
 import org.springframework.core.style.ToStringCreator;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 public class GraphCode {
 
     private State state;
-    private final LanguageModel llm;
+    private final ModelLiterals model;
     private List<String> dictionary;
     private int[][] matrix;
     private String error;
@@ -24,8 +24,8 @@ public class GraphCode {
      *
      * @return A new {@link GraphCode} instance.
      */
-    public static GraphCode getPendingGC(final LanguageModel llm) {
-        return new GraphCode(State.PENDING, llm);
+    public static GraphCode getPendingGC(final ModelLiterals model) {
+        return new GraphCode(State.PENDING, model);
     }
 
     /**
@@ -37,9 +37,9 @@ public class GraphCode {
         return NOT_AVAILABLE;
     }
 
-    private GraphCode(final State state, final LanguageModel llm) {
+    private GraphCode(final State state, final ModelLiterals model) {
         this.state = state;
-        this.llm = llm;
+        this.model = model;
         this.start = System.currentTimeMillis();
     }
 
@@ -140,26 +140,20 @@ public class GraphCode {
         return start;
     }
 
-    public LanguageModel getLLM() {
-        return llm;
+    public ModelLiterals getModel() {
+        return model;
     }
 
     @Override
     public String toString() {
         ToStringCreator creator = new ToStringCreator(this);
-        creator.append("state", state);
-        if (state == State.NOT_AVAILABLE) return creator.toString();
-
-        creator.append("start", start)
-                .append("llm", llm);
-
-        if (state == State.FINISHED)
-            creator.append("dictionary", dictionary)
-                    .append("matrix", matrix)
-                    .append("description", description);
-        else if (state == State.ERROR)
-            creator.append("error", error);
-
+        creator.append("state", state)
+                .append("start", start)
+                .append("model", model.name())
+                .append("dictionary", dictionary)
+                .append("matrix", matrix)
+                .append("description", description)
+                .append("error", error);
         return creator.toString();
     }
 

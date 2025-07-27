@@ -2,6 +2,8 @@ package de.richardvierhaus.nlq_gc.llm;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,6 +16,8 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class QWen extends LanguageModel {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(QWen.class);
 
     private final String version;
     private final String handleUrl = getLLMProperties().getProperty("QWEN_HANDLE");
@@ -33,6 +37,8 @@ public class QWen extends LanguageModel {
     @Override
     public String handlePrompt(final String prompt) {
         try {
+            LOGGER.info("Transmitting following prompt to QWen:\n{}", prompt);
+
             URI uri = URI.create(handleUrl);
             URL url = uri.toURL();
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -54,6 +60,7 @@ public class QWen extends LanguageModel {
             }
 
             String response = readResponse(conn);
+            LOGGER.info("Received response to /handle: {}", response);
             JsonObject jsonResponse = gson.fromJson(response, JsonObject.class);
             return jsonResponse.get("transaction_id").getAsString();
 
@@ -76,6 +83,7 @@ public class QWen extends LanguageModel {
             }
 
             String response = readResponse(conn);
+            LOGGER.info("Received response to /response: {}", response);
             JsonObject jsonResponse = gson.fromJson(response, JsonObject.class);
             return jsonResponse.get("response").isJsonNull() ? null : jsonResponse.get("response").getAsString();
 

@@ -23,7 +23,7 @@ public enum ModelLiterals {
      *
      * @return The default {@link LanguageModel} instance.
      */
-    public static LanguageModel getDefault() {
-        return QWEN3_1_7_B.getLLM();
+    public static ModelLiterals getDefault() {
+        return QWEN3_1_7_B;
     }
 }
