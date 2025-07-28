@@ -37,7 +37,7 @@ public class QWen extends LanguageModel {
     @Override
     public String handlePrompt(final String prompt) {
         try {
-            LOGGER.info("Transmitting following prompt to QWen:\n{}", prompt);
+            LOGGER.trace("Transmitting following prompt to QWen:\n{}", prompt);
 
             URI uri = URI.create(handleUrl);
             URL url = uri.toURL();

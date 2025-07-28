@@ -1,5 +1,7 @@
 package de.richardvierhaus.nlq_gc.nlq;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 import de.richardvierhaus.nlq_gc.GraphCode;
 import de.richardvierhaus.nlq_gc.enums.ModelLiterals;
 import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
@@ -14,9 +16,11 @@ import java.util.Optional;
 public class NLQController {
 
     private final NLQService service;
+    private final Gson gson;
 
     public NLQController(final NLQService nlqService) {
         this.service = nlqService;
+        this.gson = new Gson();
     }
 
     /**
@@ -70,7 +74,10 @@ public class NLQController {
             modelLiteral = ModelLiterals.getDefault();
         }
 
-        return service.handleNLQ(query, user, keywordPrompt, gcPrompt, modelLiteral);
+        final String transactionId = service.handleNLQ(query, user, keywordPrompt, gcPrompt, modelLiteral);
+        JsonObject jsonObject = new JsonObject();
+        jsonObject.addProperty("transactionId", transactionId);
+        return gson.toJson(jsonObject);
     }
 
     /**
