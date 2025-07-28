@@ -1,0 +1,5 @@
+Überführe die folgende Anfrage in einen GraphCode nach Wagenpfeil, also in eine typcodierte Adjazenzmatrix, bei der die Begriffe im Text die Reihen/Spalten bilden, die Beziehungen untereinander die Typwerte.
+Gib die Daten als JSON-Objekt aus, verwende das Attribut dictionary für die Begriffe und das Attribut matrix für die Matrixwerte.
+Verwende dafür folgende Typkodierungen: [ENCODING]
+
+Anfrage: [QUERY]

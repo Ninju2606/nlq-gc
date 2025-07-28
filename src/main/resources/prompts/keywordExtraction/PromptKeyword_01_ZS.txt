@@ -1,0 +1,34 @@
+Informationen:
+- Ein GraphCode dient der Suche innerhalb eines Medienobjekts.
+- In diesem Kontext ist das Medienobjekt eine Aufnahme einer Szene im Metaverse.
+- Der GraphCode beinhaltet ein Vokabular und eine Bewertungsmatrix.
+- Das Vokabular besteht aus den Begriffen der Anfrage.
+- Einträge der Bewertungsmatrix geben typkodiert die Beziehung zwischen zwei Begriffen an.
+- Die Einträge der Bewertungsmatrix bestehen aus den Attributen zwischen zwei Begriffen und tauchen daher nicht im Vokabular auf.
+
+Aufgabe:
+- Generiere aus der gegebenen Nutzeranfrage Stichwörter, die in dem Vokabular eines GraphCodes enthalten sind.
+
+Eingabe:
+- Folgende Anfrage wurde von dem Nutzer gestellt. Aus dieser soll der GraphCode generiert werden: [QUERY]
+- Die Identifikation des Nutzers ist: [USER]
+
+Ausgabe:
+- Das Ausgabeformat muss JSON sein.
+- Im Erfolgsfall ist die Antwort von folgendem Format. Dabei entspricht "dictionary" dem Vokabular:
+{
+    "dictionary":String[]
+}
+- Im Fehlerfall ist die Antwort von folgendem Format:
+{
+    "error":String
+}
+
+Regeln:
+- Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, soll im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers verwendet werden.
+- Neben den spezifizierten Ausgabeformaten für Erfolg und Fehler soll kein zusätzlicher Text generiert werden.
+- Die Einträge des Vokabulars müssen zwingend in Englisch angegeben werden.
+- Die Einträge der Felder "description" oder "error" sollen in der gleichen Sprache, wie die Anfrage des Nutzers sein.
+- Verallgemeinere Wortstämme. Beispiel: verwende "play" anstatt "playing", "plays" oder "played".
+- Teile der Anfrage, wie "Ich suche" oder "Zeig mir Situationen", welche der Anfragenbeschreibung dienen und keine Szenenbeschreibung einer Metaverse-Situation sind, werden im GraphCode nicht berücksichtigt.
+- Bei unklaren oder grammatikalisch wirren Anfragen sowie fehlenden Informationen für einen sinnvollen GraphCode soll kein GraphCode generiert werden, sondern ein beschreibender Fehler in das JSON geschrieben werden.

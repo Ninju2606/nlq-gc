@@ -12,11 +12,11 @@ Informationen:
 
 Aufgabe:
 - Generiere aus der gegebenen Nutzeranfrage einen GraphCode, der den gestellten Regeln folgt.
-- Orientiere dich an den Beispielen unten, um ein umfangreiches Verständnis der erwarteten Antwort zu erhalten.
 
 Eingabe:
 - Folgende Anfrage wurde von dem Nutzer gestellt. Aus dieser soll der GraphCode generiert werden: [QUERY]
 - Die Identifikation des Nutzers ist: [USER]
+- Das zu verwendende englischsprachige Vokabular ist: [KEYWORDS]
 
 Ausgabe:
 - Das Ausgabeformat muss JSON sein.
@@ -32,51 +32,14 @@ Ausgabe:
 }
 
 Regeln:
-- Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, soll im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers verwendet werden.
+- Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, taucht im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers auf.
 - Neben den spezifizierten Ausgabeformaten für Erfolg und Fehler soll kein zusätzlicher Text generiert werden.
 - Optional können Beschreibungen des GraphCodes im zugehörigen Feld "description" hinzugefügt werden.
 - Einträge in der Bewertungsmatrix dürfen auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) nur die Werte beinhalten, bei denen identityMapping==true ist.
 - Einträge in der Bewertungsmatrix dürfen außerhalb der Einheitsdiagonalen (Einträge (i,j) mit i!=j) nur 0 oder Werte beinhalten, bei denen identityMapping==false ist.
-- Die Werte auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) müssen gefüllt sein.
-- Gibt es innerhalb der vorgegebenen Typkodierungen keinen passenden Eintrag, dann soll ein entsprechender Fehler ausgegeben werden.
-- Die Einträge des Vokabulars müssen zwingend in Englisch angegeben werden.
+- Alle Werte auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) müssen gefüllt sein.
+- Gibt es innerhalb der vorgegebenen Typkodierungen keinen passenden Eintrag, um die Relation zwischen zwei Einträgen darzustellen, dann soll ein entsprechender Fehler ausgegeben werden.
+- Die Einträge des gegebenen Vokabulars müssen so beibehalten und übernommen werden.
 - Die Einträge der Felder "description" oder "error" sollen in der gleichen Sprache, wie die Anfrage des Nutzers sein.
-- Verallgemeinere Wortstämme. Beispiel: verwende "play" anstatt "playing", "plays" oder "played".
 - Teile der Anfrage, wie "Ich suche" oder "Zeig mir Situationen", welche der Anfragenbeschreibung dienen und keine Szenenbeschreibung einer Metaverse-Situation sind, werden im GraphCode nicht berücksichtigt.
 - Bei unklaren oder grammatikalisch wirren Anfragen sowie fehlenden Informationen für einen sinnvollen GraphCode soll kein GraphCode generiert werden, sondern ein beschreibender Fehler in das JSON geschrieben werden.
-
-
-Beispiele:
-- In folgenden Beispielen wird die Person mit Max Mustermann identifiziert.
-- Die Typkodierungen bestehen aus folgenden Einträgen:
-[{"id":1,"attribute":"object","identityMapping":true},{"id":2,"attribute":"synonym","identityMapping":true},{"id":3,"attribute":"context","identityMapping":true},{"id":4,"attribute":"attached","identityMapping":false},{"id":5,"attribute":"above","identityMapping":false},{"id":6,"attribute":"in","identityMapping":false},{"id":7,"attribute":"perform","identityMapping":false},{"id":8,"attribute":"target","identityMapping":false},{"id":9,"attribute":"activity","identityMapping":true},{"id":10,"attribute":"son","identityMapping":false}]
-
-* Beispiel1:
-Anfrage: Ich suche eine Szene, wo ich tennis spiele
-Antwort:
-{
-    "dictionary":["Max Mustermann", "play", "tennis"],
-    "matrix":[[1,7,0],[0,2,8],[0,0,1]]
-}
-
-* Beispiel2:
-Anfrage: Mein Sohn sitzt im Schlafzimmer auf dem Bett
-Antwort:
-{
-    "dictionary":["Max Mustermann", "person", "sit", "bed", "bedroom"],
-    "matrix":[[1,10,0,0,0],[0,1,7,0,0],[0,0,9,5,6],[0,0,0,1,6],[0,0,0,0,1]]
-}
-
-* Beispiel3:
-Anfrage: Ich bin unter einem Baum
-Antwort:
-{
-    "error":["Die Relation 'Unter' ist nicht bekannt."]
-}
-
-* Beispiel4:
-Anfrage: "qwertz und ist laufen groß"
-Antwort:
-{
-    "error":["Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage."]
-}

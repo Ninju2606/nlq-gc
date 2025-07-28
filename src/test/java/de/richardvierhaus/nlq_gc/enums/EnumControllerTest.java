@@ -14,14 +14,12 @@ public class EnumControllerTest {
 
     @Test
     public void testGetPromptsKeyword() {
-        // TODO uncomment when enum filled and files created
-        //        assertThat(controller.getPromptsKeyword()).hasSize(PromptKeyword.values().length);
+        assertThat(controller.getPromptsKeyword()).hasSize(PromptKeyword.values().length);
     }
 
     @Test
     public void testGetPromptsGC() {
-        // TODO uncomment when enum filled and files created
-        //        assertThat(controller.getPromptsGC()).hasSize(PromptGraphCode.values().length);
+        assertThat(controller.getPromptsGC()).hasSize(PromptGraphCode.values().length);
     }
 
     @Test

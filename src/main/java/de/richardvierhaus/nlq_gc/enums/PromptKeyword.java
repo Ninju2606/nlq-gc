@@ -3,16 +3,26 @@ package de.richardvierhaus.nlq_gc.enums;
 import java.util.List;
 
 public enum PromptKeyword implements Prompt {
-    // TODO
-    TEST {
+    KEYWORDS_01_FS {
         @Override
         public List<Replacement> getRequiredReplacements() {
-            return List.of();
+            return List.of(Replacement.USER, Replacement.QUERY);
         }
 
         @Override
         public String getResource() {
-            return "prompts/keywordExtraction/abc.txt";
+            return "prompts/keywordExtraction/PromptKeyword_01_FS.txt";
+        }
+    },
+    KEYWORDS_01_ZS {
+        @Override
+        public List<Replacement> getRequiredReplacements() {
+            return List.of(Replacement.USER, Replacement.QUERY);
+        }
+
+        @Override
+        public String getResource() {
+            return "prompts/keywordExtraction/PromptKeyword_01_ZS.txt";
         }
     };
 
@@ -22,6 +32,6 @@ public enum PromptKeyword implements Prompt {
      * @return The default {@link PromptKeyword}.
      */
     public static PromptKeyword getDefault() {
-        return TEST;
+        return KEYWORDS_01_FS;
     }
 }
