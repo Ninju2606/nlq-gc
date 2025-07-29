@@ -255,7 +255,7 @@ public class AsyncLLMService {
         if (graphCode == null) return null;
 
         String response = graphCode.getModel().getLLM().getResponse(transactionMapping.get(transactionId));
-        if (!StringUtils.hasText(response)) return null;
+        if (!StringUtils.hasText(response)) return graphCode;
 
         LOGGER.trace("Found response for graph code transaction [{}]: {}", transactionId, response);
 
