@@ -56,7 +56,7 @@ Anfrage: Ich suche eine Szene, wo ich tennis spiele
 Antwort:
 {
     "dictionary":["Max Mustermann", "play", "tennis"],
-    "matrix":[[1,7,0],[0,2,8],[0,0,1]]
+    "matrix":[[1,7,0],[0,9,8],[0,0,1]]
 }
 
 * Beispiel2:
