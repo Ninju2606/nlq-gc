@@ -229,24 +229,23 @@ public class AsyncLLMService {
 
             LOGGER.trace("Found response for keyword transaction [{}]: {}", transactionId, response);
 
-            try {
-                KeywordResponse responseParsed = gson.fromJson(response, KeywordResponse.class);
+            transactionMapping.remove(transactionId);
+            iterator.remove();
 
-                if (StringUtils.hasText(responseParsed.getError())) {
-                    graphCode.error(responseParsed.getError());
-                    preparedGCPrompts.remove(transactionId);
-                    finishedGraphCodes.put(transactionId, graphCode);
-                    LOGGER.debug("Found errors during keyword extraction [{}]: {}", transactionId, graphCode);
-                } else {
-                    LOGGER.debug("Keyword extraction [{}] found keywords: {}", transactionId, responseParsed.getDictionary());
-                    PromptBuilder builder = preparedGCPrompts.remove(transactionId);
-                    builder.replace(Replacement.KEYWORDS, gson.toJson(responseParsed.getDictionary()));
-                    addGCPrompt(builder.toString(), graphCode, transactionId);
-                }
-            } finally {
-                transactionMapping.remove(transactionId);
-                iterator.remove();
+            KeywordResponse responseParsed = gson.fromJson(response, KeywordResponse.class);
+
+            if (StringUtils.hasText(responseParsed.getError())) {
+                graphCode.error(responseParsed.getError());
+                preparedGCPrompts.remove(transactionId);
+                finishedGraphCodes.put(transactionId, graphCode);
+                LOGGER.debug("Found errors during keyword extraction [{}]: {}", transactionId, graphCode);
+            } else {
+                LOGGER.debug("Keyword extraction [{}] found keywords: {}", transactionId, responseParsed.getDictionary());
+                PromptBuilder builder = preparedGCPrompts.remove(transactionId);
+                builder.replace(Replacement.KEYWORDS, gson.toJson(responseParsed.getDictionary()));
+                addGCPrompt(builder.toString(), graphCode, transactionId);
             }
+
         }
     }
 
