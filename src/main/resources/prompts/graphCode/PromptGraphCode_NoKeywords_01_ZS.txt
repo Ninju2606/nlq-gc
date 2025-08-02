@@ -2,7 +2,7 @@ Informationen:
 - Ein GraphCode dient der Suche innerhalb eines Medienobjekts.
 - In diesem Kontext ist das Medienobjekt eine Aufnahme einer Szene im Metaverse.
 - Der GraphCode besteht aus einer quadratischen Bewertungsmatrix sowie einem Vokabular.
-- Das Vokabular besteht aus den Begriffen der Anfrage.
+- Das Vokabular besteht aus den Begriffen der Anfrage. Es enthält die Objekte, Attribute oder Aktivitäten.
 - Einträge der Bewertungsmatrix geben typkodiert die Beziehung zwischen zwei Begriffen an.
 - In der Einheitsdiagonalen (Einträge (i,j) mit i=j) ist der Typ des jeweils verwendeten Begriffs definiert.
 - Eintrag i des Vokabulars entspricht Zeile i sowie Spalte i der Bewertungsmatrix
@@ -27,11 +27,13 @@ Ausgabe:
 }
 - Im Fehlerfall ist die Antwort von folgendem Format:
 {
-    "error":String
+    "error":String,
+    "description":String
 }
 
 Regeln:
 - Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, soll im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers verwendet werden.
+- Kommen keine selbst identifizierenden Wörter, wie "ich" oder "mein", vor, dann kann die Identifikation des Nutzers ignoriert werden.
 - Neben den spezifizierten Ausgabeformaten für Erfolg und Fehler soll kein zusätzlicher Text generiert werden.
 - Optional können Beschreibungen des GraphCodes im zugehörigen Feld "description" hinzugefügt werden.
 - Einträge in der Bewertungsmatrix dürfen auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) nur die Werte beinhalten, bei denen identityMapping==true ist.
