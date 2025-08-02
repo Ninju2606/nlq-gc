@@ -11,12 +11,17 @@ Informationen:
 [ENCODING]
 
 Aufgabe:
-- Generiere aus der gegebenen Nutzeranfrage einen GraphCode, der den gestellten Regeln folgt.
-- Orientiere dich an den Beispielen unten, um ein umfangreiches Verständnis der erwarteten Antwort zu erhalten.
+1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen.
+2. Erkläre die Attributeigenschaften der vorliegenden Stichwörter.
+3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen.
+4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt. Falls ja, gib die entsprechende ID an, ansonsten gib einen Fehler aus.
+5. Setze die Informationen der Stichwörter und der Typkodierungen zu einem GraphCode zusammen.
+-> Orientiere dich an den Beispielen unten, um ein umfangreiches Verständnis der erwarteten Antwort zu erhalten.
 
 Eingabe:
 - Folgende Anfrage wurde von dem Nutzer gestellt. Aus dieser soll der GraphCode generiert werden: [QUERY]
 - Die Identifikation des Nutzers ist: [USER]
+- Das zu verwendende englischsprachige Vokabular ist: [KEYWORDS]
 
 Ausgabe:
 - Das Ausgabeformat muss JSON sein.
@@ -36,14 +41,13 @@ Regeln:
 - Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, soll im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers verwendet werden.
 - Kommen keine selbst identifizierenden Wörter, wie "ich" oder "mein", vor, dann kann die Identifikation des Nutzers ignoriert werden.
 - Neben den spezifizierten Ausgabeformaten für Erfolg und Fehler soll kein zusätzlicher Text generiert werden.
-- Optional können Beschreibungen des GraphCodes im zugehörigen Feld "description" hinzugefügt werden.
+- Beantworte die Aufgaben 1-4 des im zugehörigen Feld "description". Aufgabe 5 wird mit dem gesamten JSON erfüllt.
 - Einträge in der Bewertungsmatrix dürfen auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) nur die Werte beinhalten, bei denen identityMapping==true ist.
 - Einträge in der Bewertungsmatrix dürfen außerhalb der Einheitsdiagonalen (Einträge (i,j) mit i!=j) nur 0 oder Werte beinhalten, bei denen identityMapping==false ist.
 - Alle Werte auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) müssen gefüllt sein.
 - Gibt es innerhalb der vorgegebenen Typkodierungen keinen passenden Eintrag, um die Relation zwischen zwei Einträgen darzustellen, dann soll ein entsprechender Fehler ausgegeben werden.
-- Die Einträge des Vokabulars müssen zwingend in Englisch angegeben werden.
-- Die Einträge der Felder "description" oder "error" sollen in der gleichen Sprache, wie die Anfrage des Nutzers sein.
-- Verallgemeinere Wortstämme. Beispiel: verwende "play" anstatt "playing", "plays" oder "played".
+- Die Einträge des gegebenen Vokabulars müssen so beibehalten und übernommen werden.
+- Die Bearbeitung der Zwischenaufgaben erfolgt in den Feldern "description" oder "error" und soll in der gleichen Sprache, wie die Anfrage des Nutzers sein.
 - Teile der Anfrage, wie "Ich suche" oder "Zeig mir Situationen", welche der Anfragenbeschreibung dienen und keine Szenenbeschreibung einer Metaverse-Situation sind, werden im GraphCode nicht berücksichtigt.
 - Bei unklaren oder grammatikalisch wirren Anfragen sowie fehlenden Informationen für einen sinnvollen GraphCode soll kein GraphCode generiert werden, sondern ein beschreibender Fehler in das JSON geschrieben werden.
 - Die Typkodierungen der Beispiele sind komplett den Beispielen vorenthalten. Es kann sein, dass sich die IDs der Beispiele von den Tatsächlichen unterscheiden. Verwende für den GraphCode nur die oben unter "Informationen" angegebenen Typkodierungen.
@@ -57,38 +61,52 @@ Beispiele:
 
 * Beispiel1:
 Anfrage: Ich suche eine Szene, wo ich Tennis spiele
+Vokabular: ["Max Mustermann", "play", "tennis"]
 Antwort:
 {
     "dictionary":["Max Mustermann", "play", "tennis"],
-    "matrix":[[1,7,0],[0,9,8],[0,0,1]]
+    "matrix":[[1,7,0],[0,9,8],[0,0,1]],
+    "description":"1. Es gibt keine relativen Verweise. \"Ich\" wurde zu \"Max Mustermann\".
+        2. \"Max Mustermann\" und \"tennis\" sind Objekte der Anfrage. \"play\" ist eine Aktivität.
+        3. \"Max Mustermann\" führt die Aktivität \"play\" aus. \"play\" bezieht sich auf \"tennis\".
+        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8."
 }
 
 * Beispiel2:
 Anfrage: Mein Sohn sitzt im Schlafzimmer auf dem Bett
+Vokabular: ["Max Mustermann", "person", "sit", "bed", "bedroom"]
 Antwort:
 {
     "dictionary":["Max Mustermann", "person", "sit", "bed", "bedroom"],
-    "matrix":[[1,0,0,0,0],[10,1,7,5,6],[0,0,9,8,0],[0,0,0,1,6],[0,0,0,0,1]]
+    "matrix":[[1,0,0,0,0],[10,1,7,5,6],[0,0,9,8,0],[0,0,0,1,6],[0,0,0,0,1]],
+    "description":"1. \"Mein Sohn\" wurde zu den Stichwörtern \"Max Mustermann\" und \"person\", wobei \"person\" der Sohn von \"Max Mustermann\" ist.
+        2. \"Max Mustermann\", \"person\", \"bed\" und \"bedroom\" sind Objekte der Anfrage. \"sit\" ist eine Aktivität.
+        3. \"person\" ist Sohn von \"Max Mustermann\". \"person\" führt die Aktivität \"sit\" aus. \"person\" befindet sich auf \"bed\", \"person\" befindet sich in \"bedroom\". \"sit\" bezieht sich auf \"bed\". \"bed\" befindet sich in \"bedroom\".
+        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Sohn (son) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf (above) ist 5. Die ID für in (in) ist 6. Die ID für Beziehen (target) ist 8."
 }
 
 * Beispiel3:
 Anfrage: Ich bin unter einem Baum
+Vokabular: ["Max Mustermann", "tree"]
 Antwort:
 {
-    "error":["Die Relation \"Unter\" ist nicht bekannt."]
+    "error":["Die Relation \"Unter\" ist nicht bekannt."],
+    "description":"1. Es gibt keine relativen Verweise. \"Ich\" wurde zu \"Max Mustermann\".
+        2. \"Max Mustermann\" und \"tree\" sind Objekte der Anfrage.
+        3. \"Max Mustermann\" befindet sich unter \"tree\".
+        4. Die Relation \"Unter\" ist nicht bekannt."
+    }
 }
 
 * Beispiel4:
-Anfrage: "qwertz und ist laufen groß"
-Antwort:
-{
-    "error":["Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage."]
-}
-
-* Beispiel5:
 Anfrage: "Tom trägt ein rotes Shirt und redet mit Lea"
+Vokabular: ["Tom", "wear", "shirt", "red", "talk", "Lea"]
 Antwort:
 {
     "dictionary":["Tom", "wear", "shirt", "red", "talk", "Lea"],
-    "matrix":[[1,7,0,0,7,4],[0,9,8,0,0,0],[0,0,1,0,0,0],[0,0,3,11,0,0],[0,0,0,0,9,8],[4,0,0,0,0,1]]
+    "matrix":[[1,7,0,0,7,4],[0,9,8,0,0,0],[0,0,1,0,0,0],[0,0,3,11,0,0],[0,0,0,0,9,8],[4,0,0,0,0,1]],
+    "description":"1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.
+        2. \"Tom\", \"shirt\" und \"Lea\" sind Objekte der Anfrage. \"wear\" und \"talk\" sind Aktivitäten. \"red\" ist eine Eigenschaft.
+        3. \"Tom\" führt die Aktivität \"wear\" aus. \"Tom\" führt die Aktivität \"talk\" aus. \"Tom\" steht in Verbindung zu \"Lea\". Die Aktivität \"wear\" bezieht sich auf \"shirt\". Die Eigenschaft \"red\" trifft auf \"shirt\" zu. Die Aktivität \"talk\" bezieht sich auf \"Lea\". \"Lea\" steht in Verbindung zu \"Tom\".
+        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Eigenschaft (characteristic) ist 11. Die ID für Ausführen (perform) ist 7. Die ID für Verbindung (attached) ist 4. Die ID für Beziehen (target) ist 8. Die ID für Zutreffen (context) ist 3."
 }

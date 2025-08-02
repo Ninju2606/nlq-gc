@@ -11,7 +11,14 @@ Informationen:
 [ENCODING]
 
 Aufgabe:
-- Generiere aus der gegebenen Nutzeranfrage einen GraphCode, der den gestellten Regeln folgt.
+1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage. Ist das nicht möglich, gib einen Fehler zurück.
+2. Löse relative Verweise auf und merke dir diese für die späteren Relationen.
+3. Übersetze die ermittelten Stichwörter ins Englische. Bei englischsprachigen Anfragen ist dieser Punkt hinfällig.
+4. Ersetze in den potenziellen Stichwörtern die Identifikation des Nutzers, wenn die Person auf den Anfragensteller referenziert ("ich", "mein", "mir").
+5. Erkläre die Attributeigenschaften.
+6. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen.
+7. Überprüfe, ob es für alle diese Relationen aus Schritten 4 und 5 einen Eintrag in den bereitgestellten Typkodierungen gibt. Falls ja, gib die entsprechende ID an, ansonsten gib einen Fehler aus.
+8. Setze die Informationen der Stichwörter und der Typkodierungen zu einem GraphCode zusammen.
 
 Eingabe:
 - Folgende Anfrage wurde von dem Nutzer gestellt. Aus dieser soll der GraphCode generiert werden: [QUERY]
@@ -35,13 +42,13 @@ Regeln:
 - Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, soll im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers verwendet werden.
 - Kommen keine selbst identifizierenden Wörter, wie "ich" oder "mein", vor, dann kann die Identifikation des Nutzers ignoriert werden.
 - Neben den spezifizierten Ausgabeformaten für Erfolg und Fehler soll kein zusätzlicher Text generiert werden.
-- Optional können Beschreibungen des GraphCodes im zugehörigen Feld "description" hinzugefügt werden.
+- Beantworte die Aufgaben 1-7 des im zugehörigen Feld "description". Aufgabe 8 wird mit dem gesamten JSON erfüllt.
 - Einträge in der Bewertungsmatrix dürfen auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) nur die Werte beinhalten, bei denen identityMapping==true ist.
 - Einträge in der Bewertungsmatrix dürfen außerhalb der Einheitsdiagonalen (Einträge (i,j) mit i!=j) nur 0 oder Werte beinhalten, bei denen identityMapping==false ist.
-- Alle Werte auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) müssen gefüllt sein.
+- Die Werte auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) müssen gefüllt sein.
 - Gibt es innerhalb der vorgegebenen Typkodierungen keinen passenden Eintrag, um die Relation zwischen zwei Einträgen darzustellen, dann soll ein entsprechender Fehler ausgegeben werden.
 - Die Einträge des Vokabulars müssen zwingend in Englisch angegeben werden.
-- Die Einträge der Felder "description" oder "error" sollen in der gleichen Sprache, wie die Anfrage des Nutzers sein.
+- Die Bearbeitung der Zwischenaufgaben erfolgt in den Feldern "description" oder "error" und soll in der gleichen Sprache, wie die Anfrage des Nutzers sein.
 - Verallgemeinere Wortstämme. Beispiel: verwende "play" anstatt "playing", "plays" oder "played".
 - Teile der Anfrage, wie "Ich suche" oder "Zeig mir Situationen", welche der Anfragenbeschreibung dienen und keine Szenenbeschreibung einer Metaverse-Situation sind, werden im GraphCode nicht berücksichtigt.
 - Bei unklaren oder grammatikalisch wirren Anfragen sowie fehlenden Informationen für einen sinnvollen GraphCode soll kein GraphCode generiert werden, sondern ein beschreibender Fehler in das JSON geschrieben werden.

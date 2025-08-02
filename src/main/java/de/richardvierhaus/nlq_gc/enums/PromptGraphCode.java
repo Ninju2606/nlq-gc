@@ -58,6 +58,51 @@ public enum PromptGraphCode implements Prompt {
         public String getResource() {
             return "prompts/graphCode/PromptGraphCode_WithKeywords_01_ZS.txt";
         }
+    },
+    NO_KEYWORDS_02_COT_FS {
+        @Override
+        public List<Replacement> getRequiredReplacements() {
+            return List.of(Replacement.USER, Replacement.ENCODING, Replacement.QUERY);
+        }
+
+        @Override
+        public String getResource() {
+            return "prompts/graphCode/PromptGraphCode_NoKeywords_02_CoT_FS.txt";
+        }
+    },
+    NO_KEYWORDS_02_COT_ZS {
+        @Override
+        public List<Replacement> getRequiredReplacements() {
+            return List.of(Replacement.USER, Replacement.ENCODING, Replacement.QUERY);
+        }
+
+        @Override
+        public String getResource() {
+            return "prompts/graphCode/PromptGraphCode_NoKeywords_02_CoT_ZS.txt";
+        }
+    },
+
+    WITH_KEYWORDS_02_COT_FS {
+        @Override
+        public List<Replacement> getRequiredReplacements() {
+            return List.of(Replacement.USER, Replacement.ENCODING, Replacement.QUERY, Replacement.KEYWORDS);
+        }
+
+        @Override
+        public String getResource() {
+            return "prompts/graphCode/PromptGraphCode_WithKeywords_02_CoT_FS.txt";
+        }
+    },
+    WITH_KEYWORDS_02_COT_ZS {
+        @Override
+        public List<Replacement> getRequiredReplacements() {
+            return List.of(Replacement.USER, Replacement.ENCODING, Replacement.QUERY, Replacement.KEYWORDS);
+        }
+
+        @Override
+        public String getResource() {
+            return "prompts/graphCode/PromptGraphCode_WithKeywords_02_CoT_ZS.txt";
+        }
     };
 
     /**
