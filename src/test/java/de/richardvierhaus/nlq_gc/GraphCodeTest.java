@@ -21,7 +21,7 @@ public class GraphCodeTest {
         checkGCValues(gc, State.NOT_AVAILABLE, null, null, null, null);
         assertThat(gc.getModel()).isNull();
 
-        assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.error("ABC"));
+        assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.error("ABC", "TEST"));
         assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.finished(List.of(), null, "ABC"));
     }
 
@@ -33,10 +33,10 @@ public class GraphCodeTest {
         assertThat(gc.getModel()).isEqualTo(model);
         checkGCValues(gc, State.PENDING, null, null, null, null);
 
-        gc.error("ABC");
-        checkGCValues(gc, State.ERROR, null, null, "ABC", null);
+        gc.error("ABC", "TEST");
+        checkGCValues(gc, State.ERROR, null, null, "ABC", "TEST");
 
-        assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.error("ABC"));
+        assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.error("ABC", "TEST"));
         assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.finished(List.of(), null, "ABC"));
     }
 
@@ -50,7 +50,7 @@ public class GraphCodeTest {
         gc.finished(dictionary, matrix, "ABC");
         checkGCValues(gc, State.FINISHED, dictionary, matrix, null, "ABC");
 
-        assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.error("ABC"));
+        assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.error("ABC", "TEST"));
         assertThatExceptionOfType(UnsupportedOperationException.class).isThrownBy(() -> gc.finished(List.of(), null, "ABC"));
     }
 
