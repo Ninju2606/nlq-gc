@@ -49,10 +49,11 @@ public class GraphCode {
      * @param error
      *         The errors description.
      */
-    public void error(final String error) {
+    public void error(final String error, final String description) {
         checkStateUpdate();
         this.state = State.ERROR;
         this.error = error;
+        this.description = description;
     }
 
     /**

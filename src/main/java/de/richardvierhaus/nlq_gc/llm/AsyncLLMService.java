@@ -234,15 +234,15 @@ public class AsyncLLMService {
 
             KeywordResponse responseParsed = gson.fromJson(response, KeywordResponse.class);
 
-            if (StringUtils.hasText(responseParsed.getError())) {
-                graphCode.error(responseParsed.getError());
+            if (StringUtils.hasText(responseParsed.error())) {
+                graphCode.error(responseParsed.error(), responseParsed.description());
                 preparedGCPrompts.remove(transactionId);
                 finishedGraphCodes.put(transactionId, graphCode);
                 LOGGER.debug("Found errors during keyword extraction [{}]: {}", transactionId, graphCode);
             } else {
-                LOGGER.debug("Keyword extraction [{}] found keywords: {}", transactionId, responseParsed.getDictionary());
+                LOGGER.debug("Keyword extraction [{}] found keywords: {}", transactionId, responseParsed.dictionary());
                 PromptBuilder builder = preparedGCPrompts.remove(transactionId);
-                builder.replace(Replacement.KEYWORDS, gson.toJson(responseParsed.getDictionary()));
+                builder.replace(Replacement.KEYWORDS, gson.toJson(responseParsed.dictionary()));
                 addGCPrompt(builder.toString(), graphCode, transactionId);
             }
 
@@ -261,7 +261,7 @@ public class AsyncLLMService {
         try {
             GraphCode responseParsed = gson.fromJson(response, GraphCode.class);
             if (StringUtils.hasText(responseParsed.getError())) {
-                graphCode.error(responseParsed.getError());
+                graphCode.error(responseParsed.getError(), responseParsed.getDescription());
                 LOGGER.debug("Found errors during graph code generation [{}]: {}", transactionId, graphCode);
             } else {
                 graphCode.finished(responseParsed.getDictionary(), responseParsed.getMatrix(), responseParsed.getDescription());
