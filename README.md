@@ -1,4 +1,4 @@
-#NLQ-GC
+# NLQ-GC
 
 This Java Spring Boot application provides a service to transform natural language queries (NLQs) into graph codes (GCs) by using large language models (LLMs).
 
