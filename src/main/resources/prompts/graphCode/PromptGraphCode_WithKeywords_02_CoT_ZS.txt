@@ -46,6 +46,6 @@ Regeln:
 - Alle Werte auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) müssen gefüllt sein.
 - Gibt es innerhalb der vorgegebenen Typkodierungen keinen passenden Eintrag, um die Relation zwischen zwei Einträgen darzustellen, dann soll ein entsprechender Fehler ausgegeben werden.
 - Die Einträge des gegebenen Vokabulars müssen so beibehalten und übernommen werden.
-- Die Bearbeitung der Zwischenaufgaben erfolgt in den Feldern "description" oder "error" und soll in der gleichen Sprache, wie die Anfrage des Nutzers sein.
+- Die Einträge der Felder "description" oder "error" sollen in der gleichen Sprache, wie die Anfrage des Nutzers sein.
 - Teile der Anfrage, wie "Ich suche" oder "Zeig mir Situationen", welche der Anfragenbeschreibung dienen und keine Szenenbeschreibung einer Metaverse-Situation sind, werden im GraphCode nicht berücksichtigt.
 - Bei unklaren oder grammatikalisch wirren Anfragen sowie fehlenden Informationen für einen sinnvollen GraphCode soll kein GraphCode generiert werden, sondern ein beschreibender Fehler in das JSON geschrieben werden.
