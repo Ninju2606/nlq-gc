@@ -7,7 +7,10 @@ Informationen:
 - Die Einträge der Bewertungsmatrix bestehen aus den Attributen zwischen zwei Begriffen und tauchen daher nicht im Vokabular auf.
 
 Aufgabe:
-- Generiere aus der gegebenen Nutzeranfrage Stichwörter, die in dem Vokabular eines GraphCodes enthalten sind.
+1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage. Ist das nicht möglich, gib einen Fehler zurück.
+2. Löse relative Verweise auf und merke dir diese für die späteren Relationen.
+3. Übersetze die ermittelten Stichwörter ins Englische. Bei englischsprachigen Anfragen ist dieser Punkt hinfällig.
+4. Ersetze in den potenziellen Stichwörtern die Identifikation des Nutzers, wenn die Person auf den Anfragensteller referenziert ("ich", "mein", "mir").
 
 Eingabe:
 - Folgende Anfrage wurde von dem Nutzer gestellt. Aus dieser soll der GraphCode generiert werden: [QUERY]
@@ -30,8 +33,9 @@ Regeln:
 - Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, soll im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers verwendet werden.
 - Kommen keine selbst identifizierenden Wörter, wie "ich" oder "mein", vor, dann kann die Identifikation des Nutzers ignoriert werden.
 - Neben den spezifizierten Ausgabeformaten für Erfolg und Fehler soll kein zusätzlicher Text generiert werden.
+- Beantworte die Aufgaben Feld "description". Aufgabe 4 wird mit dem gesamten JSON erfüllt.
 - Die Einträge des Vokabulars müssen zwingend in Englisch angegeben werden.
-- Die Einträge der Felder "description" oder "error" sollen in der gleichen Sprache, wie die Anfrage des Nutzers sein.
+- Die Bearbeitung der Zwischenaufgaben erfolgt in den Feldern "description" oder "error" und soll in der gleichen Sprache, wie die Anfrage des Nutzers sein.
 - Verallgemeinere Wortstämme. Beispiel: verwende "play" anstatt "playing", "plays" oder "played".
 - Teile der Anfrage, wie "Ich suche" oder "Zeig mir Situationen", welche der Anfragenbeschreibung dienen und keine Szenenbeschreibung einer Metaverse-Situation sind, werden im GraphCode nicht berücksichtigt.
 - Bei unklaren oder grammatikalisch wirren Anfragen sowie fehlenden Informationen für einen sinnvollen GraphCode soll kein GraphCode generiert werden, sondern ein beschreibender Fehler in das JSON geschrieben werden.

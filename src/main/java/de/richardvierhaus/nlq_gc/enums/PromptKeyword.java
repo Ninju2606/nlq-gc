@@ -24,6 +24,28 @@ public enum PromptKeyword implements Prompt {
         public String getResource() {
             return "prompts/keywordExtraction/PromptKeyword_01_ZS.txt";
         }
+    },
+    KEYWORDS_02_COT_FS {
+        @Override
+        public List<Replacement> getRequiredReplacements() {
+            return List.of(Replacement.USER, Replacement.QUERY);
+        }
+
+        @Override
+        public String getResource() {
+            return "prompts/keywordExtraction/PromptKeyword_02_CoT_FS.txt";
+        }
+    },
+    KEYWORDS_02_COT_ZS {
+        @Override
+        public List<Replacement> getRequiredReplacements() {
+            return List.of(Replacement.USER, Replacement.QUERY);
+        }
+
+        @Override
+        public String getResource() {
+            return "prompts/keywordExtraction/PromptKeyword_02_CoT_ZS.txt";
+        }
     };
 
     /**

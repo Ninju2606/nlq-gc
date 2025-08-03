@@ -42,7 +42,7 @@ Regeln:
 - Wenn der Nutzer angibt, dass er etwas tut oder etwas mit seiner Person zu tun hat, soll im Vokabular des GraphCodes die in der Eingabe spezifizierte Identifikation des Nutzers verwendet werden.
 - Kommen keine selbst identifizierenden Wörter, wie "ich" oder "mein", vor, dann kann die Identifikation des Nutzers ignoriert werden.
 - Neben den spezifizierten Ausgabeformaten für Erfolg und Fehler soll kein zusätzlicher Text generiert werden.
-- Beantworte die Aufgaben 1-7 des im zugehörigen Feld "description". Aufgabe 8 wird mit dem gesamten JSON erfüllt.
+- Beantworte die Aufgaben 1-7 im Feld "description". Aufgabe 8 wird mit dem gesamten JSON erfüllt.
 - Einträge in der Bewertungsmatrix dürfen auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) nur die Werte beinhalten, bei denen identityMapping==true ist.
 - Einträge in der Bewertungsmatrix dürfen außerhalb der Einheitsdiagonalen (Einträge (i,j) mit i!=j) nur 0 oder Werte beinhalten, bei denen identityMapping==false ist.
 - Die Werte auf der Einheitsdiagonalen (Einträge (i,j) mit i=j) müssen gefüllt sein.

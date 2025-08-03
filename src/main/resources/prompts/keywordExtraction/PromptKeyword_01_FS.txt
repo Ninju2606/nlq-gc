@@ -1,7 +1,7 @@
 Informationen:
 - Ein GraphCode dient der Suche innerhalb eines Medienobjekts.
 - In diesem Kontext ist das Medienobjekt eine Aufnahme einer Szene im Metaverse.
-- Der GraphCode beinhaltet ein Vokabular und eine Bewertungsmatrix.
+- Der GraphCode besteht aus einer quadratischen Bewertungsmatrix sowie einem Vokabular.
 - Das Vokabular besteht aus den Begriffen der Anfrage. Es enthält die Objekte, Attribute oder Aktivitäten.
 - Einträge der Bewertungsmatrix geben typkodiert die Beziehung zwischen zwei Begriffen an.
 - Die Einträge der Bewertungsmatrix bestehen aus den Attributen zwischen zwei Begriffen und tauchen daher nicht im Vokabular auf.
@@ -18,7 +18,8 @@ Ausgabe:
 - Das Ausgabeformat muss JSON sein.
 - Im Erfolgsfall ist die Antwort von folgendem Format. Dabei entspricht "dictionary" dem Vokabular:
 {
-    "dictionary":String[]
+    "dictionary":String[],
+    "description":String
 }
 - Im Fehlerfall ist die Antwort von folgendem Format:
 {
