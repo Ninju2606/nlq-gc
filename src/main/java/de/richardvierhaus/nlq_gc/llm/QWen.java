@@ -11,7 +11,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URI;
-import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
@@ -43,9 +42,7 @@ public class QWen extends LanguageModel {
         try {
             LOGGER.trace("Transmitting following prompt to QWen:\n{}", prompt);
 
-            URI uri = URI.create(handleUrl);
-            URL url = uri.toURL();
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            HttpURLConnection conn = getHttpURLConnection(handleUrl);
 
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/json");
@@ -76,8 +73,7 @@ public class QWen extends LanguageModel {
     @Override
     public String getResponse(final String transactionId) {
         try {
-            URI uri = new URI(responseUrl + "?transaction_id=" + URLEncoder.encode(transactionId, StandardCharsets.UTF_8));
-            HttpURLConnection conn = (HttpURLConnection) uri.toURL().openConnection();
+            HttpURLConnection conn = getHttpURLConnection(responseUrl + "?transaction_id=" + URLEncoder.encode(transactionId, StandardCharsets.UTF_8));
 
             conn.setRequestMethod("GET");
             conn.setRequestProperty("Accept", "application/json");
@@ -94,6 +90,19 @@ public class QWen extends LanguageModel {
         } catch (Exception e) {
             throw new RuntimeException("Error in getResponse: " + e.getMessage(), e);
         }
+    }
+
+    /**
+     * Provides a {@link HttpURLConnection} for a given url.
+     *
+     * @param url
+     *         The requested url route.
+     * @return A {@link HttpURLConnection} for the given url.
+     * @throws IOException
+     *         if an I/O exception occurs during connection opening.
+     */
+    protected HttpURLConnection getHttpURLConnection(final String url) throws IOException {
+        return (HttpURLConnection) URI.create(url).toURL().openConnection();
     }
 
     /**
