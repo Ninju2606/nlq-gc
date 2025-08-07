@@ -202,7 +202,7 @@ public class AsyncLLMService {
         Iterator<Map.Entry<String, GraphCode>> iterator = mapping.entrySet().iterator();
         while (iterator.hasNext()) {
             Map.Entry<String, GraphCode> entry = iterator.next();
-            if (entry.getValue().getStart() + TIMEOUT < currentTime) {
+            if (entry.getValue().getStart() + getTimeout() < currentTime) {
                 String transactionId = entry.getKey();
                 iterator.remove();
                 transactionMapping.remove(transactionId);
@@ -272,6 +272,15 @@ public class AsyncLLMService {
             pendingGraphCodeTransactions.remove(transactionId);
         }
         return graphCode;
+    }
+
+    /**
+     * Provides the timeout for transaction removal in milliseconds.
+     *
+     * @return Milliseconds of timeout.
+     */
+    protected int getTimeout() {
+        return TIMEOUT;
     }
 
 }

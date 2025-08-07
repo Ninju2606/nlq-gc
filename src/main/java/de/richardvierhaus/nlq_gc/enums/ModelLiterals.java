@@ -7,7 +7,7 @@ public enum ModelLiterals {
     QWEN3_1_7_B {
         @Override
         public LanguageModel getLLM() {
-            return new QWen("Qwen/Qwen3-1.7B");
+            return QWen.getInstance();
         }
     };
 

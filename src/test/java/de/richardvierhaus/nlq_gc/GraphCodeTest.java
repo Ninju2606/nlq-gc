@@ -9,6 +9,8 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.spy;
 
 public class GraphCodeTest {
 
@@ -78,6 +80,17 @@ public class GraphCodeTest {
         gc = GraphCode.getPendingGC(model);
         gc.finished(dictionary, matrix, null);
         checkGCValues(gc, State.ERROR, null, null, GraphCode.ERROR_DEFAULT, null);
+    }
+
+    @Test
+    public void testToString() {
+        int[][] matrix = {{1}};
+        GraphCode gc = spy(GraphCode.getPendingGC(ModelLiterals.QWEN3_1_7_B));
+        doReturn(12345L).when(gc).getStart();
+        assertThat(gc.toString()).contains("state = PENDING, start = 12345, model = 'QWEN3_1_7_B', dictionary = [null], matrix = [null], description = [null], error = [null]]");
+
+        gc.finished(List.of("TEST"), matrix, "DESCRIPTION");
+        assertThat(gc.toString()).contains("state = FINISHED, start = 12345, model = 'QWEN3_1_7_B', dictionary = list['TEST'], matrix = array<int[]>[array<Integer>[1]], description = 'DESCRIPTION', error = [null]]");
     }
 
     private void checkGCValues(final GraphCode gc, final State state, final List<String> dictionary,

@@ -19,19 +19,23 @@ public class QWen extends LanguageModel {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(QWen.class);
 
-    private final String version;
+    private static QWen INSTANCE;
+
     private final String handleUrl = getLLMProperties().getProperty("QWEN_HANDLE");
     private final String responseUrl = getLLMProperties().getProperty("QWEN_RESPONSE");
     private final Gson gson = new Gson();
 
-    /**
-     * Initializes a QWen instance with the given version.
-     *
-     * @param version
-     *         The version of QWen to use.
-     */
-    public QWen(final String version) {
-        this.version = version;
+    private QWen() {
+    }
+
+    public static QWen getInstance() {
+        if (INSTANCE == null) INSTANCE = new QWen();
+        return INSTANCE;
+    }
+
+    // Not necessary in production. Only for testing purposes
+    public static void setInstance(final QWen instance) {
+        if (INSTANCE == null) INSTANCE = instance;
     }
 
     @Override

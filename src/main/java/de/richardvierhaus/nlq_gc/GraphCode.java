@@ -148,13 +148,13 @@ public class GraphCode {
     @Override
     public String toString() {
         ToStringCreator creator = new ToStringCreator(this);
-        creator.append("state", state)
-                .append("start", start)
-                .append("model", model.name())
-                .append("dictionary", dictionary)
-                .append("matrix", matrix)
-                .append("description", description)
-                .append("error", error);
+        creator.append("state", getState())
+                .append("start", getStart())
+                .append("model", getModel() == null ? null : getModel().name())
+                .append("dictionary", getDictionary())
+                .append("matrix", getMatrix())
+                .append("description", getDescription())
+                .append("error", getError());
         return creator.toString();
     }
 
