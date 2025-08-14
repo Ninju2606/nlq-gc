@@ -16,7 +16,7 @@ public class PromptBuilder {
     private final List<Replacement> leftoverReplacements;
     private String prompt;
 
-    protected PromptBuilder(final Prompt prompt) {
+    public PromptBuilder(final Prompt prompt) {
         leftoverReplacements = new ArrayList<>(prompt.getRequiredReplacements());
         this.prompt = readPrompt(prompt);
     }
