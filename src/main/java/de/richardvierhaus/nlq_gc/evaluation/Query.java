@@ -11,7 +11,7 @@ public enum Query {
 
         @Override
         protected List<String> getKeywords() {
-            return List.of("Maria", "play", "basketball");
+            return List.of("maria", "play", "basketball");
         }
 
         @Override

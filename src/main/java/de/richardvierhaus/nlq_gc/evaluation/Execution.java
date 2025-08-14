@@ -21,7 +21,6 @@ public class Execution {
 
     private final Prompt prompt;
     private final Query nlq;
-    private ExecutionState state = null;
 
     private String fullPrompt;
 
@@ -41,7 +40,7 @@ public class Execution {
         return String.format("evaluation/%s/%s/%s/", goal, prompt.toString(), nlq.name());
     }
 
-    public String getFileName() {
+    public String getFileName(final ExecutionState state) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH:mm:ss");
         return String.format("%s%s_%s.json", getPath(), state.name(), LocalDateTime.now().format(formatter));
     }
@@ -62,14 +61,6 @@ public class Execution {
             fullPrompt = builder.toString();
         }
         return fullPrompt;
-    }
-
-    public void setState(final ExecutionState state) {
-        this.state = state;
-    }
-
-    public ExecutionState getState() {
-        return state;
     }
 
     public Query getNlq() {

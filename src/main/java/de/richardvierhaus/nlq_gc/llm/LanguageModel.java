@@ -16,7 +16,7 @@ public abstract class LanguageModel {
      *         The prompt to be executed.
      * @return A transactionId.
      */
-    abstract String handlePrompt(final String prompt);
+    public abstract String handlePrompt(final String prompt);
 
     /**
      * Checks whether the execution of the prompt with the given transactionId is finished and gives the LLMs response.
@@ -25,7 +25,7 @@ public abstract class LanguageModel {
      *         The transactions' id.
      * @return The LLMs response in case it is available. Otherwise <code>null</code>.
      */
-    abstract String getResponse(final String transactionId);
+    public abstract String getResponse(final String transactionId);
 
     /**
      * Provides an {@link Properties} instance of the llm.properties file. Can be used to store models parameters like

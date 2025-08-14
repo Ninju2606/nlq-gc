@@ -6,7 +6,10 @@ import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 public class Evaluator {
@@ -53,7 +56,20 @@ public class Evaluator {
     }
 
     private void runExecution(final Execution execution) {
+        LOGGER.info("Starting execution of prompt [{}] with query [{}]", execution.getPrompt(), execution.getNlq());
+        String transaction = MODEL.getLLM().handlePrompt(execution.getFullPrompt());
+        // TODO wait for transaction finish
 
+        String response = MODEL.getLLM().getResponse(transaction);
+
+        LOGGER.debug(response);
+
+        final ResponseChecker checker = new ResponseChecker(response, execution);
+        String checkedResult = checker.check();
+
+        writeFile(execution.getFileName(checker.getState()), checkedResult);
+
+        LOGGER.info("Finished execution of prompt [{}] with query [{}]. State: {}", execution.getPrompt(), execution.getNlq(), checker.getState());
     }
 
     private void print() {
@@ -76,6 +92,15 @@ public class Evaluator {
         File[] files = file.listFiles();
 
         return files == null ? 0 : (int) Arrays.stream(files).filter(File::isFile).count();
+    }
+
+    private void writeFile(final String path, final String content) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+            writer.write(content);
+            LOGGER.debug("Wrote file {}", path);
+        } catch (IOException e) {
+            LOGGER.error("Error creating or writing to file", e);
+        }
     }
 
 }
