@@ -1,8 +1,10 @@
 package de.richardvierhaus.nlq_gc.evaluation;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonSyntaxException;
 import de.richardvierhaus.nlq_gc.encoding.EncodingMapping;
+import org.springframework.util.StringUtils;
 
 import java.util.HashSet;
 import java.util.List;
@@ -11,7 +13,7 @@ import java.util.function.Predicate;
 
 public class ResponseChecker {
 
-    private static final Gson GSON = new Gson();
+    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
     private final Execution execution;
     private final ResponseDTO responseDTO;
@@ -27,28 +29,51 @@ public class ResponseChecker {
         return responseDTO.state;
     }
 
-    protected String check() {
+    protected ResponseChecker check() {
         try {
             ResponseDTO responseParsed = GSON.fromJson(responseDTO.responsePlain, ResponseDTO.class);
             responseDTO.copyValues(responseParsed);
         } catch (JsonSyntaxException e) {
             responseDTO.state = ExecutionState.NON_PARSABLE_JSON;
-            return GSON.toJson(responseDTO);
+            return this;
         }
 
-        if (!checkKeywords()) {
+        if (execution.expectErrors()) {
+            if (!checkErrors()) // check whether expected errors occurred
+                responseDTO.state = ExecutionState.EXPECTED_ERROR;
+        } else if (!checkFalseErrors()) {
+            responseDTO.state = ExecutionState.EXPECTED_NO_ERROR;
+        } else if (!checkKeywords()) { // check keywords matching
             responseDTO.state = ExecutionState.WRONG_KEYWORDS;
-        }
-        if (!execution.isKeywordPrompt()) {
-            if (!checkMatrixSize()) {
+        } else if (!execution.isKeywordPrompt()) { // GC prompts need to check correct matrix as well
+            if (!checkMatrixSize())
                 responseDTO.state = ExecutionState.NON_MATCHING_MATRIX;
-            } else if (!checkMatrixValues()) {
+            else if (!checkMatrixValues())
                 responseDTO.state = ExecutionState.NON_EXISTENT_MATRIX_ENTRIES;
-            } else if (!checkMatrixMatching()) {
+            else if (!checkMatrixMatching())
                 responseDTO.state = ExecutionState.WRONG_MATRIX_ENTRY;
-            }
+            else if (responseDTO.matrixSimilarity < 1) // if no error due to wrong matrix entries but similarity not 100% set warning
+                responseDTO.state = ExecutionState.WARNING_MATRIX;
         }
+        return this;
+    }
+
+    protected String getAsString() {
         return GSON.toJson(responseDTO);
+    }
+
+    private boolean checkErrors() {
+        if (execution.getNlq().getKeywords() == null) // expect an error while keyword extraction
+            return StringUtils.hasText(responseDTO.error) && (responseDTO.dictionary == null || responseDTO.dictionary.isEmpty());
+        else if (execution.getNlq().getMatrix() == null && !execution.isKeywordPrompt()) // expect an error while gc generation
+            return StringUtils.hasText(responseDTO.error) && (responseDTO.matrix == null || responseDTO.matrix.length == 0);
+
+        return true;
+    }
+
+    private boolean checkFalseErrors() {
+        if (execution.getNlq().getKeywords() != null && StringUtils.hasText(responseDTO.error)) return false;
+        return execution.isKeywordPrompt() || execution.getNlq().getMatrix() == null || !StringUtils.hasText(responseDTO.error);
     }
 
     private boolean checkKeywords() {
@@ -102,16 +127,24 @@ public class ResponseChecker {
     private boolean checkMatrixMatching() {
         final int[][] matrix = responseDTO.matrix;
 
+        boolean falseEntry = false;
+        int matchingEntries = 0;
+
         // check for all entries whether the same keyword combination has the same matrix value
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {
                 String keyword1 = responseDTO.dictionary.get(i).toLowerCase();
                 String keyword2 = responseDTO.dictionary.get(j).toLowerCase();
-                if (matrix[i][j] != getValueByKeywords(keyword1, keyword2))
-                    return false;
+                int expectedValue = getValueByKeywords(keyword1, keyword2);
+
+                if (matrix[i][j] == expectedValue) matchingEntries++;
+                else if (matrix[i][j] != 0 && expectedValue != 0) falseEntry = true;
             }
         }
-        return true;
+
+        responseDTO.matrixSimilarity = (double) matchingEntries / (matrix.length * matrix.length);
+
+        return !falseEntry && responseDTO.matrixSimilarity > 0.85;
     }
 
     private int getValueByKeywords(final String keyword1, final String keyword2) {
@@ -126,6 +159,7 @@ public class ResponseChecker {
         public ExecutionState state;
         public List<String> dictionary;
         public int[][] matrix;
+        public double matrixSimilarity;
         public String description;
         public String error;
         public String responsePlain;

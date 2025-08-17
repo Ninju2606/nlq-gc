@@ -5,17 +5,19 @@ import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
 import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.StringUtils;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 
 public class Evaluator {
 
-    private static final int RUNS_PER_EXECUTION = 10;
-    private static final ModelLiterals MODEL = ModelLiterals.QWEN3_1_7_B;
+    private static final int RUNS_PER_EXECUTION = 1;
+    private static final ModelLiterals MODEL = ModelLiterals.QWEN3_235B_FREE;
 
     private final Logger LOGGER = LoggerFactory.getLogger(Evaluator.class);
     private final List<Execution> executions = new ArrayList<>();
@@ -32,7 +34,8 @@ public class Evaluator {
         for (PromptGraphCode prompt : PromptGraphCode.values()) {
             for (Query nlq : Query.values()) {
                 Execution execution = new Execution(prompt, nlq);
-                completedExecutions.put(execution, getNumberOfFiles(execution.getPath()));
+                if (execution.isPossible())
+                    completedExecutions.put(execution, getNumberOfFiles(execution.getPath()));
             }
         }
         for (PromptKeyword prompt : PromptKeyword.values()) {
@@ -56,20 +59,42 @@ public class Evaluator {
     }
 
     private void runExecution(final Execution execution) {
-        LOGGER.info("Starting execution of prompt [{}] with query [{}]", execution.getPrompt(), execution.getNlq());
-        String transaction = MODEL.getLLM().handlePrompt(execution.getFullPrompt());
-        // TODO wait for transaction finish
+        try {
+            LOGGER.info("Starting execution of prompt [{}] with query [{}]", execution.getPrompt(), execution.getNlq());
+            String transaction = MODEL.getLLM().handlePrompt(execution.getFullPrompt());
+            String response = pollResponse(transaction);
+            LOGGER.debug("Response: {}", response);
+            if (!StringUtils.hasText(response)) return;
 
-        String response = MODEL.getLLM().getResponse(transaction);
+            final ResponseChecker checker = new ResponseChecker(response, execution);
+            String checkedResult = checker.check().getAsString();
 
-        LOGGER.debug(response);
+            writeFile(execution.getFileName(checker.getState()), checkedResult);
 
-        final ResponseChecker checker = new ResponseChecker(response, execution);
-        String checkedResult = checker.check();
+            LOGGER.info("Finished execution of prompt [{}] with query [{}]. State: {}", execution.getPrompt(), execution.getNlq(), checker.getState());
+        } catch (Exception e) {
+            LOGGER.error("Error while running an execution", e);
+        }
+    }
 
-        writeFile(execution.getFileName(checker.getState()), checkedResult);
+    private String pollResponse(final String transactionID) {
+        int maxAttempts = 60; // 60 seconds
+        int attempts = 0;
+        String response = null;
 
-        LOGGER.info("Finished execution of prompt [{}] with query [{}]. State: {}", execution.getPrompt(), execution.getNlq(), checker.getState());
+        while (attempts < maxAttempts) {
+            try {
+                response = MODEL.getLLM().getResponse(transactionID);
+                if (StringUtils.hasText(response)) break;
+
+                Thread.sleep(1000);
+                attempts++;
+            } catch (Exception e) {
+                LOGGER.error("Error while polling a response", e);
+            }
+        }
+
+        return response;
     }
 
     private void print() {
@@ -78,7 +103,7 @@ public class Evaluator {
             String query = entry.getKey().getNlq().name();
             int amount = entry.getValue();
 
-            LOGGER.info(String.format("Prompt: %-30s Query: %-10s Amount: %02d/%d",
+            LOGGER.info(String.format("Prompt: %-30s Query: %-10s Amount: %02d/%02d",
                     prompt, query, amount, RUNS_PER_EXECUTION));
         }
     }
@@ -95,11 +120,12 @@ public class Evaluator {
     }
 
     private void writeFile(final String path, final String content) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
-            writer.write(content);
-            LOGGER.debug("Wrote file {}", path);
+        Path filePath = Paths.get(path);
+        try {
+            Files.write(filePath, content.getBytes());
+            LOGGER.debug("Successfully created file: {}", path);
         } catch (IOException e) {
-            LOGGER.error("Error creating or writing to file", e);
+            LOGGER.error("Error while creating file", e);
         }
     }
 

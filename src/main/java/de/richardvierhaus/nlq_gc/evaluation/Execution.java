@@ -24,7 +24,7 @@ public class Execution {
 
     private String fullPrompt;
 
-    public Execution(final Prompt prompt, final Query nlq) {
+    protected Execution(final Prompt prompt, final Query nlq) {
         this.prompt = prompt;
         this.nlq = nlq;
     }
@@ -35,23 +35,33 @@ public class Execution {
         this.fullPrompt = fullPrompt;
     }
 
-    public String getPath() {
+    protected String getPath() {
         String goal = isKeywordPrompt() ? "keywords" : "gc";
         return String.format("evaluation/%s/%s/%s/", goal, prompt.toString(), nlq.name());
     }
 
-    public String getFileName(final ExecutionState state) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH:mm:ss");
+    protected String getFileName(final ExecutionState state) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss");
         return String.format("%s%s_%s.json", getPath(), state.name(), LocalDateTime.now().format(formatter));
     }
 
-    public boolean isKeywordPrompt() {
+    protected boolean isKeywordPrompt() {
         if (prompt instanceof PromptKeyword) return true;
         if (prompt instanceof PromptGraphCode) return false;
         throw new IllegalArgumentException("Prompt Class unknown");
     }
 
-    public String getFullPrompt() {
+    protected boolean isPossible() {
+        // GC prompts that require keywords cannot be performed when the query does not provide keywords
+        return isKeywordPrompt() || !((PromptGraphCode) prompt).requiresKeywords() || (getNlq().getKeywords() != null && !getNlq().getKeywords().isEmpty());
+    }
+
+    protected boolean expectErrors() {
+        return nlq.getKeywords() == null || nlq.getMatrix() == null;
+    }
+
+    protected String getFullPrompt() {
+        // lazy initialization
         if (!StringUtils.hasText(fullPrompt)) {
             PromptBuilder builder = new PromptBuilder(prompt)
                     .replace(Replacement.QUERY, nlq.getQuery())
@@ -63,21 +73,26 @@ public class Execution {
         return fullPrompt;
     }
 
-    public Query getNlq() {
+    protected Query getNlq() {
         return nlq;
     }
 
-    public Prompt getPrompt() {
+    protected Prompt getPrompt() {
         return prompt;
     }
 
     private static List<EncodingMapping> createEncodings() {
         return List.of(
-                new EncodingMapping(1, "", true),
-                new EncodingMapping(2, "", true),
-                new EncodingMapping(3, "", true),
-                new EncodingMapping(4, "", true),
-                new EncodingMapping(5, "", true)
+                new EncodingMapping(1, "object", true),
+                new EncodingMapping(2, "context", true),
+                new EncodingMapping(3, "synonym", true),
+                new EncodingMapping(4, "activity", true),
+                new EncodingMapping(5, "attached", false),
+                new EncodingMapping(6, "under", false),
+                new EncodingMapping(7, "above", false),
+                new EncodingMapping(8, "perform", false),
+                new EncodingMapping(9, "target", false),
+                new EncodingMapping(10, "daughter", false)
         );
     }
 
@@ -85,7 +100,7 @@ public class Execution {
         return ENCODINGS;
     }
 
-    public Execution copy() {
+    protected Execution copy() {
         return new Execution(prompt, nlq, getFullPrompt());
     }
 
