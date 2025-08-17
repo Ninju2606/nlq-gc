@@ -53,7 +53,7 @@ Regeln:
 Beispiele:
 - In folgenden Beispielen wird die Person mit Max Mustermann identifiziert.
 - Die Typkodierungen bestehen aus folgenden Einträgen:
-[{"id":1,"attribute":"object","identityMapping":true},{"id":2,"attribute":"synonym","identityMapping":true},{"id":3,"attribute":"context","identityMapping":true},{"id":4,"attribute":"attached","identityMapping":false},{"id":5,"attribute":"above","identityMapping":false},{"id":6,"attribute":"in","identityMapping":false},{"id":7,"attribute":"perform","identityMapping":false},{"id":8,"attribute":"target","identityMapping":false},{"id":9,"attribute":"activity","identityMapping":true},{"id":10,"attribute":"son","identityMapping":false},{"id":11,"attribute":"characteristic","identityMapping":true}]
+[{"id":1,"attribute":"object","identityMapping":true},{"id":2,"attribute":"synonym","identityMapping":true},{"id":3,"attribute":"context","identityMapping":true},{"id":4,"attribute":"attached","identityMapping":false},{"id":5,"attribute":"above","identityMapping":false},{"id":6,"attribute":"in","identityMapping":false},{"id":7,"attribute":"perform","identityMapping":false},{"id":8,"attribute":"target","identityMapping":false},{"id":9,"attribute":"activity","identityMapping":true},{"id":10,"attribute":"son","identityMapping":false},{"id":11,"attribute":"characteristic","identityMapping":false}]
 
 * Beispiel1:
 Anfrage: Ich suche eine Szene, wo ich Tennis spiele
@@ -90,5 +90,5 @@ Anfrage: "Tom trägt ein rotes Shirt und redet mit Lea"
 Antwort:
 {
     "dictionary":["Tom", "wear", "shirt", "red", "talk", "Lea"],
-    "matrix":[[1,7,0,0,7,4],[0,9,8,0,0,0],[0,0,1,0,0,0],[0,0,3,11,0,0],[0,0,0,0,9,8],[4,0,0,0,0,1]]
+    "matrix":[[1,7,0,0,7,4],[0,9,8,0,0,0],[0,0,1,0,0,0],[0,0,11,3,0,0],[0,0,0,0,9,8],[4,0,0,0,0,1]]
 }
