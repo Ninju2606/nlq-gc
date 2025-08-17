@@ -230,7 +230,6 @@ public class AsyncLLMService {
             LOGGER.trace("Found response for keyword transaction [{}]: {}", transactionId, response);
 
             transactionMapping.remove(transactionId);
-            iterator.remove();
 
             KeywordResponse responseParsed = gson.fromJson(response, KeywordResponse.class);
 
@@ -246,6 +245,7 @@ public class AsyncLLMService {
                 addGCPrompt(builder.toString(), graphCode, transactionId);
             }
 
+            iterator.remove();
         }
     }
 
