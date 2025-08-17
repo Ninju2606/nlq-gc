@@ -92,7 +92,8 @@ public class Execution {
                 new EncodingMapping(7, "above", false),
                 new EncodingMapping(8, "perform", false),
                 new EncodingMapping(9, "target", false),
-                new EncodingMapping(10, "daughter", false)
+                new EncodingMapping(10, "daughter", false),
+                new EncodingMapping(14, "characteristic", false)
         );
     }
 

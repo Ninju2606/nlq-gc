@@ -16,8 +16,8 @@ import java.util.*;
 
 public class Evaluator {
 
-    private static final int RUNS_PER_EXECUTION = 1;
-    private static final ModelLiterals MODEL = ModelLiterals.QWEN3_235B_FREE;
+    private static final int RUNS_PER_EXECUTION = 50;
+    private static final ModelLiterals MODEL = ModelLiterals.QWEN3_CODER;
 
     private final Logger LOGGER = LoggerFactory.getLogger(Evaluator.class);
     private final List<Execution> executions = new ArrayList<>();
