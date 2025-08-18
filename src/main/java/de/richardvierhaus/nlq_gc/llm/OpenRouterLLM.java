@@ -70,7 +70,7 @@ public class OpenRouterLLM extends LanguageModel {
             JsonElement responseJSON = JsonParser.parseString(response.body());
             String responseParsed = responseJSON.getAsJsonObject().getAsJsonArray("choices").get(0).getAsJsonObject()
                     .getAsJsonObject("message").get("content").getAsString();
-            responseParsed = responseParsed.replace("```json", "").replace("```", "");
+            responseParsed = responseParsed.replace("```json", "").replace("```", "").trim();
             LOGGER.debug(responseParsed);
 
             String transactionID = UUID.randomUUID().toString();
