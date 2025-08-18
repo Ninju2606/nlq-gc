@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die Aktivität \u0027schwimmen\u0027 im Kontext eines Pools, wobei die Person durch ihren Namen \u0027Maria\u0027 identifiziert wird.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"description\": \"Die Anfrage enthält die Aktivität \u0027schwimmen\u0027 im Kontext eines Pools, wobei die Person durch ihren Namen \u0027Maria\u0027 identifiziert wird.\"\n}\n"
+}

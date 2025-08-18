@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027schwimme\u0027 (als Verb, vereinfacht zu \u0027swim\u0027), \u0027Pool\u0027 (als Objekt) und \u0027Maria\u0027 (als ersetztes Subjekt für \u0027ich\u0027 und \u0027mein\u0027). Die Identifikation des Nutzers wurde entsprechend verwendet, da in der Anfrage \u0027ich\u0027 und \u0027mein\u0027 vorkommen.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027schwimme\u0027 (als Verb, vereinfacht zu \u0027swim\u0027), \u0027Pool\u0027 (als Objekt) und \u0027Maria\u0027 (als ersetztes Subjekt für \u0027ich\u0027 und \u0027mein\u0027). Die Identifikation des Nutzers wurde entsprechend verwendet, da in der Anfrage \u0027ich\u0027 und \u0027mein\u0027 vorkommen.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      0,
+      0
+    ],
+    [
+      9,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      9,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "Der GraphCode wurde aus der Nutzeranfrage generiert. Die Matrix beschreibt die Beziehungen zwischen den Begriffen. \u0027maria\u0027 ist vom Typ \u0027object\u0027 (1) und ist Ziel (\u0027target\u0027\u003d9) der Aktivität \u0027swim\u0027. \u0027swim\u0027 ist eine Aktivität (\u0027activity\u0027\u003d4). \u0027own\u0027 ist eine Beziehung vom Typ \u0027attached\u0027\u003d5, hier jedoch nicht direkt genutzt. \u0027pool\u0027 ist ein Objekt (\u0027object\u0027\u003d1). \u0027maria\u0027 schwimmt im Pool (\u0027swim\u0027 -\u003e \u0027pool\u0027 mit target\u003d9), und \u0027maria\u0027 besitzt den Pool (\u0027own\u0027 -\u003e \u0027pool\u0027 mit attached\u003d5, hier implizit durch \u0027gehört\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 9, 0, 0],\n    [9, 4, 0, 0],\n    [0, 0, 1, 9],\n    [0, 0, 9, 2]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Nutzeranfrage generiert. Die Matrix beschreibt die Beziehungen zwischen den Begriffen. \u0027maria\u0027 ist vom Typ \u0027object\u0027 (1) und ist Ziel (\u0027target\u0027\u003d9) der Aktivität \u0027swim\u0027. \u0027swim\u0027 ist eine Aktivität (\u0027activity\u0027\u003d4). \u0027own\u0027 ist eine Beziehung vom Typ \u0027attached\u0027\u003d5, hier jedoch nicht direkt genutzt. \u0027pool\u0027 ist ein Objekt (\u0027object\u0027\u003d1). \u0027maria\u0027 schwimmt im Pool (\u0027swim\u0027 -\u003e \u0027pool\u0027 mit target\u003d9), und \u0027maria\u0027 besitzt den Pool (\u0027own\u0027 -\u003e \u0027pool\u0027 mit attached\u003d5, hier implizit durch \u0027gehört\u0027).\"\n}\n"
+}

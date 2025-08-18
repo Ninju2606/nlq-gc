@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      8,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      5,
+      5,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.375,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\"ich\", \"gelben\", \"Hut\", \"trage\"]\n2. Relative Verweise aufgelöst: \"ich\" → \"Maria\"\n3. Übersetzung ins Englische: [\"Maria\", \"wear\", \"yellow\", \"hat\"]\n4. Ersetzung der Nutzeridentifikation: \"ich\" wurde durch \"Maria\" ersetzt.\n5. Attributeigenschaften: \"gelb\" ist ein Attribut des Objekts \"Hut\". \"tragen\" ist eine Aktivität.\n6. Relationen: Maria führt die Aktivität \"tragen\" aus (perform). Der Hut ist gelb (attached). Der Hut wird von Maria getragen (attached).\n7. Typkodierungen gefunden:\n   - Maria: object (1)\n   - wear/trage: activity (4) → perform (8)\n   - yellow: context (2)\n   - hat: object (1)\n   - attached: attached (5)",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [8, 4, 0, 5],\n    [0, 0, 2, 5],\n    [5, 5, 5, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\\\"ich\\\", \\\"gelben\\\", \\\"Hut\\\", \\\"trage\\\"]\\n2. Relative Verweise aufgelöst: \\\"ich\\\" → \\\"Maria\\\"\\n3. Übersetzung ins Englische: [\\\"Maria\\\", \\\"wear\\\", \\\"yellow\\\", \\\"hat\\\"]\\n4. Ersetzung der Nutzeridentifikation: \\\"ich\\\" wurde durch \\\"Maria\\\" ersetzt.\\n5. Attributeigenschaften: \\\"gelb\\\" ist ein Attribut des Objekts \\\"Hut\\\". \\\"tragen\\\" ist eine Aktivität.\\n6. Relationen: Maria führt die Aktivität \\\"tragen\\\" aus (perform). Der Hut ist gelb (attached). Der Hut wird von Maria getragen (attached).\\n7. Typkodierungen gefunden:\\n   - Maria: object (1)\\n   - wear/trage: activity (4) → perform (8)\\n   - yellow: context (2)\\n   - hat: object (1)\\n   - attached: attached (5)\"\n}"
+}

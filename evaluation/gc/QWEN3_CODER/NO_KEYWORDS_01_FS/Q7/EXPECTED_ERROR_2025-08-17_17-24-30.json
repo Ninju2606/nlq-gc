@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Häuser malt, die mit dem Begriff \u0027Fragen\u0027 in Verbindung stehen. Die Matrix zeigt an, dass Maria (object) die Tätigkeit \u0027paint\u0027 (activity) ausführt, wobei \u0027house\u0027 das Ziel (target) ist und \u0027question\u0027 als Zielattribut (target) von \u0027house\u0027 fungiert.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 1, 8, 9],\n        [0, 0, 4, 8],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Häuser malt, die mit dem Begriff \u0027Fragen\u0027 in Verbindung stehen. Die Matrix zeigt an, dass Maria (object) die Tätigkeit \u0027paint\u0027 (activity) ausführt, wobei \u0027house\u0027 das Ziel (target) ist und \u0027question\u0027 als Zielattribut (target) von \u0027house\u0027 fungiert.\"\n}\n"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \"ich\" wurde zu \"Maria\" aufgelöst.\n2. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist eine Beziehung, die angibt, dass etwas einem gehört.\n3. \"Maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". \"Maria\" besitzt (\"own\") \"pool\". \"pool\" ist Ziel (\"target\") der Aktivität \"swim\". \"own\" zeigt von \"Maria\" auf \"pool\", und \"pool\" ist Eigentum (\"daughter\"-ähnlich, aber hier besser \"attached\" oder direkte Beziehung) von \"Maria\" - allerdings passt laut Typdefinition \"attached\" (ID 5) hier für Ownership.\n4. Die IDs der Typen sind: Objekt (object) \u003d 1, Aktivität (activity) \u003d 4, Beziehung (attached) \u003d 5, Zielbeziehung (target) \u003d 9, Perform (perform) \u003d 8. Die Werte auf der Diagonale entsprechen den korrekten identityMapping\u003dtrue Typen (1 für Objekte, 4 für Aktivitäten).",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 4, 0], [0, 4, 0, 9], [0, 0, 1, 0], [0, 0, 5, 1]],\n    \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde zu \\\"Maria\\\" aufgelöst.\\n2. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist eine Beziehung, die angibt, dass etwas einem gehört.\\n3. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"Maria\\\" besitzt (\\\"own\\\") \\\"pool\\\". \\\"pool\\\" ist Ziel (\\\"target\\\") der Aktivität \\\"swim\\\". \\\"own\\\" zeigt von \\\"Maria\\\" auf \\\"pool\\\", und \\\"pool\\\" ist Eigentum (\\\"daughter\\\"-ähnlich, aber hier besser \\\"attached\\\" oder direkte Beziehung) von \\\"Maria\\\" - allerdings passt laut Typdefinition \\\"attached\\\" (ID 5) hier für Ownership.\\n4. Die IDs der Typen sind: Objekt (object) \u003d 1, Aktivität (activity) \u003d 4, Beziehung (attached) \u003d 5, Zielbeziehung (target) \u003d 9, Perform (perform) \u003d 8. Die Werte auf der Diagonale entsprechen den korrekten identityMapping\u003dtrue Typen (1 für Objekte, 4 für Aktivitäten).\"\n}\n"
+}

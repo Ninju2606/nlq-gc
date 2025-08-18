@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. \"Meine Tochter\" wurde zu den Stichwörtern \"person\" und \"maria\", wobei \"person\" die Tochter von \"maria\" ist.\n        2. \"maria\", \"person\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität.\n        3. \"maria\" ist Vater/Elternteil von \"person\". \"person\" führt die Aktivität \"drive\" aus. \"person\" befindet sich auf \"boat\". \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich in/on \"lake\".\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für auf (above) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 8, 0, 0],\n        [0, 1, 8, 7, 0],\n        [0, 0, 4, 8, 9],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"1. \\\"Meine Tochter\\\" wurde zu den Stichwörtern \\\"person\\\" und \\\"maria\\\", wobei \\\"person\\\" die Tochter von \\\"maria\\\" ist.\\n        2. \\\"maria\\\", \\\"person\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\\n        3. \\\"maria\\\" ist Vater/Elternteil von \\\"person\\\". \\\"person\\\" führt die Aktivität \\\"drive\\\" aus. \\\"person\\\" befindet sich auf \\\"boat\\\". \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich in/on \\\"lake\\\".\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für auf (above) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.\"\n}\n"
+}

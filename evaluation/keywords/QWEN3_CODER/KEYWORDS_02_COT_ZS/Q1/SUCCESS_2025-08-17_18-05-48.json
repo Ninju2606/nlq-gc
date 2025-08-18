@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Es gibt keine relativen Verweise in der Anfrage.\n3. Die Übersetzung der Stichwörter ins Englische ergibt: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Nutzeridentifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Der Begriff \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt, da die Handlung sich auf den Nutzer bezieht.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"1. Die potenziellen Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Es gibt keine relativen Verweise in der Anfrage.\\n3. Die Übersetzung der Stichwörter ins Englische ergibt: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Nutzeridentifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Der Begriff \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt, da die Handlung sich auf den Nutzer bezieht.\"\n}\n"
+}

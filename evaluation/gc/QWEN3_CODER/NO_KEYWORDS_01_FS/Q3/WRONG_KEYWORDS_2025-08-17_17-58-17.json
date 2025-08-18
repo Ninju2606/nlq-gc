@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      6
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in einem Pool, der ihr gehört. Die Matrix bildet die Beziehung zwischen Maria (Person), der Aktivität schwimmen und dem Objekt Pool ab. Maria performt die Aktivität schwimmen (7) und der Pool ist der Zielort (8) und steht in Relation zur Aktivität über \u0027in\u0027 (6). Der Pool ist ein Objekt (1) und das Schwimmen eine Aktivität (4).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [[1, 7, 6], [0, 4, 8], [0, 0, 1]],\n  \"description\": \"Maria schwimmt in einem Pool, der ihr gehört. Die Matrix bildet die Beziehung zwischen Maria (Person), der Aktivität schwimmen und dem Objekt Pool ab. Maria performt die Aktivität schwimmen (7) und der Pool ist der Zielort (8) und steht in Relation zur Aktivität über \u0027in\u0027 (6). Der Pool ist ein Objekt (1) und das Schwimmen eine Aktivität (4).\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "travel"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene im Metaverse, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehung zwischen den Begriffen wird durch Typkodierungen wie \u0027daughter\u0027 (Kind-Beziehung), \u0027boat\u0027 (Objekt), \u0027lake\u0027 (Umgebung) und \u0027travel\u0027 (Aktivität) dargestellt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"travel\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 8],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 6, 7],\n    [0, 0, 0, 1, 7],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene im Metaverse, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehung zwischen den Begriffen wird durch Typkodierungen wie \u0027daughter\u0027 (Kind-Beziehung), \u0027boat\u0027 (Objekt), \u0027lake\u0027 (Umgebung) und \u0027travel\u0027 (Aktivität) dargestellt.\"\n}\n"
+}

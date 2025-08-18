@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage wurde erfolgreich verarbeitet. Das Vokabular enthält die identifizierende Person, das Verb und das Objekt der beschriebenen Aktivität.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Die Anfrage wurde erfolgreich verarbeitet. Das Vokabular enthält die identifizierende Person, das Verb und das Objekt der beschriebenen Aktivität.\"\n}"
+}

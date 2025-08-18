@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage bezieht sich auf das Ausmachen eines Termins, was keine direkte Beschreibung einer Szene, Aktivität oder Objekte im Metaverse darstellt. Daher kann kein GraphCode generiert werden.",
+  "error": "Die Anfrage enthält keine spezifische Szenenbeschreibung im Metaverse, die für die Generierung eines GraphCodes notwendig ist.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifische Szenenbeschreibung im Metaverse, die für die Generierung eines GraphCodes notwendig ist.\",\n  \"description\": \"Die Anfrage bezieht sich auf das Ausmachen eines Termins, was keine direkte Beschreibung einer Szene, Aktivität oder Objekte im Metaverse darstellt. Daher kann kein GraphCode generiert werden.\"\n}"
+}

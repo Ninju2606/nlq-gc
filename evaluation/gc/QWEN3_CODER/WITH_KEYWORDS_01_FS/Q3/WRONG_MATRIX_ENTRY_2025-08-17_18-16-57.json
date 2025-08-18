@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt und einen Pool besitzt. Die Matrix zeigt die Beziehungen zwischen den Begriffen an.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 9, 0],\n        [0, 0, 4, 8],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt und einen Pool besitzt. Die Matrix zeigt die Beziehungen zwischen den Begriffen an.\"\n}\n\n"
+}

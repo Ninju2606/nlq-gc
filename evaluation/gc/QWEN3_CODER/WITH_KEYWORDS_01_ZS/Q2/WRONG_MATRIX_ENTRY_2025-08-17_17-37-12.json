@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode wurde aus der Nutzeranfrage \"Tim rennt\" generiert. Es sind die Begriffe \"tim\" und \"run\" im Vokabular enthalten. In der Matrix wird \"tim\" (object) als Akteur von \"run\" (activity) identifiziert, wobei die Beziehung \"perform\" (8) zwischen den Begriffen steht.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Nutzeranfrage \\\"Tim rennt\\\" generiert. Es sind die Begriffe \\\"tim\\\" und \\\"run\\\" im Vokabular enthalten. In der Matrix wird \\\"tim\\\" (object) als Akteur von \\\"run\\\" (activity) identifiziert, wobei die Beziehung \\\"perform\\\" (8) zwischen den Begriffen steht.\"\n}\n\n"
+}

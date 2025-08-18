@@ -1,0 +1,27 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n    \"matrix\": [[1, 0, 8], [0, 1, 4], [0, 0, 9]]\n}\n"
+}

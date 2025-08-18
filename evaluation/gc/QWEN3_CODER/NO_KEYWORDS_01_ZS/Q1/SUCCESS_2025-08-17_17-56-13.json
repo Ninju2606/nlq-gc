@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Der Nutzer spielt Basketball. Die Matrix bildet die Beziehung zwischen dem Nutzer (Maria), der Aktivität (play) und dem Objekt (basketball) ab.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer spielt Basketball. Die Matrix bildet die Beziehung zwischen dem Nutzer (Maria), der Aktivität (play) und dem Objekt (basketball) ab.\"\n}\n"
+}

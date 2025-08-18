@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Der Nutzer bezieht sich implizit auf sich selbst, indem er sagt \u0027wir müssen\u0027, daher wird die Identifikation \u0027Maria\u0027 als Akteur eingesetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027make\u0027 ist eine Aktivität (activity), \u0027appointment\u0027 ist ein Kontext (context). 3. Relationen zwischen den Stichwörtern: Maria führt die Aktivität \u0027make\u0027 aus (perform), und \u0027make\u0027 ist mit \u0027appointment\u0027 verbunden (attached), da der Termin erstellt wird. \u0027appointment\u0027 ist der Zielkontext der Aktion. 4. Prüfung der Typkodierungen: \u0027maria\u0027 → object (id\u003d1), \u0027make\u0027 → activity (id\u003d4), \u0027appointment\u0027 → context (id\u003d2), perform (id\u003d8), attached (id\u003d5), target (id\u003d9) sind alle vorhanden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 5],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Der Nutzer bezieht sich implizit auf sich selbst, indem er sagt \u0027wir müssen\u0027, daher wird die Identifikation \u0027Maria\u0027 als Akteur eingesetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027make\u0027 ist eine Aktivität (activity), \u0027appointment\u0027 ist ein Kontext (context). 3. Relationen zwischen den Stichwörtern: Maria führt die Aktivität \u0027make\u0027 aus (perform), und \u0027make\u0027 ist mit \u0027appointment\u0027 verbunden (attached), da der Termin erstellt wird. \u0027appointment\u0027 ist der Zielkontext der Aktion. 4. Prüfung der Typkodierungen: \u0027maria\u0027 → object (id\u003d1), \u0027make\u0027 → activity (id\u003d4), \u0027appointment\u0027 → context (id\u003d2), perform (id\u003d8), attached (id\u003d5), target (id\u003d9) sind alle vorhanden.\"\n}\n"
+}

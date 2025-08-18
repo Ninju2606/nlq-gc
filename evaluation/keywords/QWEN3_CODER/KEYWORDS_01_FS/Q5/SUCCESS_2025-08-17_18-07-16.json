@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt eine Szene, in der Maria einen gelben Hut trägt. Daher werden die entsprechenden Begriffe ins Vokabular übernommen.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n    \"description\": \"Die Anfrage beschreibt eine Szene, in der Maria einen gelben Hut trägt. Daher werden die entsprechenden Begriffe ins Vokabular übernommen.\"\n}"
+}

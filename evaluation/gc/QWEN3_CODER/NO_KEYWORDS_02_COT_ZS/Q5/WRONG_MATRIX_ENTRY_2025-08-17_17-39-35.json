@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027gelben Hut trage\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 → \u0027Maria\u0027.\n3. Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027trage\u0027 → \u0027wear\u0027, \u0027gelben Hut\u0027 → \u0027yellow hat\u0027.\n4. Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften wurden erläutert: \u0027yellow\u0027 (characteristic), \u0027hat\u0027 (object), \u0027wear\u0027 (activity).\n6. Relationen wurden erklärt: \u0027Maria\u0027 führt \u0027wear\u0027 aus, \u0027wear\u0027 bezieht sich auf \u0027hat\u0027, \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027.\n7. Alle Relationen haben gültige Typkodierungen in der vorgegebenen Liste gefunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [8, 4, 0, 0],\n    [0, 0, 2, 5],\n    [0, 0, 5, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027gelben Hut trage\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 → \u0027Maria\u0027.\\n3. Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027trage\u0027 → \u0027wear\u0027, \u0027gelben Hut\u0027 → \u0027yellow hat\u0027.\\n4. Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften wurden erläutert: \u0027yellow\u0027 (characteristic), \u0027hat\u0027 (object), \u0027wear\u0027 (activity).\\n6. Relationen wurden erklärt: \u0027Maria\u0027 führt \u0027wear\u0027 aus, \u0027wear\u0027 bezieht sich auf \u0027hat\u0027, \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027.\\n7. Alle Relationen haben gültige Typkodierungen in der vorgegebenen Liste gefunden.\"\n}"
+}

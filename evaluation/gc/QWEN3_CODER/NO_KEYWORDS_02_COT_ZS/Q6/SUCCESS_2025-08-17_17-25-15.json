@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Relationen, die sich für die Erstellung eines GraphCodes eignen. Es fehlen konkrete Hinweise auf Szene, handelnde Personen, Objekte oder räumliche/zeitliche Relationen.",
+  "error": "Unklare oder unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Relationen, die sich für die Erstellung eines GraphCodes eignen. Es fehlen konkrete Hinweise auf Szene, handelnde Personen, Objekte oder räumliche/zeitliche Relationen.\"\n}"
+}

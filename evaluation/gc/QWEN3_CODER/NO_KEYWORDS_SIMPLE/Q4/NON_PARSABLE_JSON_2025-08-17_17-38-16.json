@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 0],\n    [0, 0, 0, 9],\n    [0, 0, 0, 1],\n    [0, 0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n#### Begriffe (Dictionary):\n- **Ich** – handelndes Subjekt\n- **schwimme** – Tätigkeit / Aktivität\n- **meinem** – Kontext / Besitzverhältnis („mein“)\n- **Pool** – Objekt / Ort der Handlung\n\n#### Beziehungen (Matrix):\n\n- **Ich → schwimme**: Typ **8 \u003d perform** (Ich führe die Tätigkeit \"schwimmen\" aus)\n- **schwimme → Pool**: Typ **9 \u003d target** (Schwimmen hat den Pool als Ziel)\n- **meinem → Pool**: Typ **1 \u003d object** („meinem“ bezieht sich auf „Pool“ als Objekt)\n\nDie Matrix ist eine 4x4-Matrix basierend auf den Begriffen des Satzes. Weitere Beziehungen sind nicht explizit im Satz enthalten und wurden daher nicht kodiert."
+}

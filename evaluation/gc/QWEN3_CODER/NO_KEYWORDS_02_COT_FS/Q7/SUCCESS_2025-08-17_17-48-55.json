@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 abgeleitet werden, da diese keine klare semantische Struktur aufweist. Die verwendeten Präpositionen und Verben ergeben im Kontext keine sinnvolle Handlung oder Beziehung zwischen Objekten.",
+  "error": "Die Anfrage enthält grammatikalisch wirrende oder unklare Formulierungen, die keine sinnvolle Szenenbeschreibung im Metaverse ergeben. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält grammatikalisch wirrende oder unklare Formulierungen, die keine sinnvolle Szenenbeschreibung im Metaverse ergeben. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 abgeleitet werden, da diese keine klare semantische Struktur aufweist. Die verwendeten Präpositionen und Verben ergeben im Kontext keine sinnvolle Handlung oder Beziehung zwischen Objekten.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte Szenen finden, in denen Häuser im Zusammenhang mit dem Stellen oder Beantworten von Fragen und dem Akt des Malens stehen. Die Begriffe wurden ins Englische übersetzt und auf ihre Stammformen reduziert. Es wurden keine relativen Verweise oder selbstreferenzierenden Ausdrücke identifiziert.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"description\": \"Der Nutzer möchte Szenen finden, in denen Häuser im Zusammenhang mit dem Stellen oder Beantworten von Fragen und dem Akt des Malens stehen. Die Begriffe wurden ins Englische übersetzt und auf ihre Stammformen reduziert. Es wurden keine relativen Verweise oder selbstreferenzierenden Ausdrücke identifiziert.\"\n}\n"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es liegen keine aufgelösten relativen Verweise oder direkten Selbstidentifikationen des Nutzers vor. Die Identifikation \u0027Maria\u0027 wird daher nicht verwendet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027tim\u0027 ist ein Objekt (object, ID 1), \u0027run\u0027 ist eine Aktivität (activity, ID 4). 3. Die Beziehung zwischen den Stichwörtern ist, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. Dies wird durch den Eintrag \u0027perform\u0027 (ID 8) dargestellt. 4. Alle erforderlichen Relationen sind durch die gegebenen Typkodierungen abgedeckt: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4) und \u0027perform\u0027 (ID 8).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es liegen keine aufgelösten relativen Verweise oder direkten Selbstidentifikationen des Nutzers vor. Die Identifikation \u0027Maria\u0027 wird daher nicht verwendet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027tim\u0027 ist ein Objekt (object, ID 1), \u0027run\u0027 ist eine Aktivität (activity, ID 4). 3. Die Beziehung zwischen den Stichwörtern ist, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. Dies wird durch den Eintrag \u0027perform\u0027 (ID 8) dargestellt. 4. Alle erforderlichen Relationen sind durch die gegebenen Typkodierungen abgedeckt: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4) und \u0027perform\u0027 (ID 8).\"\n}\n"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der relative Verweis \\\"Ich\\\" wurde aufgelöst und der Nutzeridentifikation \\\"Maria\\\" zugeordnet.\n2. \\\"Maria\\\" ist ein Objekt. \\\"play\\\" ist eine Aktivität. \\\"basketball\\\" ist ein Objekt.\n3. \\\"Maria\\\" führt die Aktivität \\\"play\\\" aus. Die Aktivität \\\"play\\\" bezieht sich auf \\\"basketball\\\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehung (target) ist 9.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [[1, 8, 9], [0, 4, 0], [0, 0, 1]],\n  \"description\": \"1. Der relative Verweis \\\\\\\"Ich\\\\\\\" wurde aufgelöst und der Nutzeridentifikation \\\\\\\"Maria\\\\\\\" zugeordnet.\\n2. \\\\\\\"Maria\\\\\\\" ist ein Objekt. \\\\\\\"play\\\\\\\" ist eine Aktivität. \\\\\\\"basketball\\\\\\\" ist ein Objekt.\\n3. \\\\\\\"Maria\\\\\\\" führt die Aktivität \\\\\\\"play\\\\\\\" aus. Die Aktivität \\\\\\\"play\\\\\\\" bezieht sich auf \\\\\\\"basketball\\\\\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehung (target) ist 9.\"\n}\n"
+}

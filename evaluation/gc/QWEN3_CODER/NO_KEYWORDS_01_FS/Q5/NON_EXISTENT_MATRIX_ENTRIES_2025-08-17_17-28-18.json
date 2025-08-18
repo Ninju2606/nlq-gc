@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      11
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage: \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage.\u0027 Der Nutzer \u0027Maria\u0027 (Index 0) trägt (Index 1) einen Hut (Index 2), wobei der Hut gelb (Index 3) ist. Die Beziehung zwischen \u0027Maria\u0027 und \u0027trage\u0027 wird durch \u0027perform\u0027 kodiert (ID 7), zwischen \u0027trage\u0027 und \u0027Hut\u0027 durch \u0027object\u0027 (ID 9) und \u0027Hut\u0027 und \u0027gelb\u0027 durch \u0027characteristic\u0027 (ID 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 11],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage: \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage.\u0027 Der Nutzer \u0027Maria\u0027 (Index 0) trägt (Index 1) einen Hut (Index 2), wobei der Hut gelb (Index 3) ist. Die Beziehung zwischen \u0027Maria\u0027 und \u0027trage\u0027 wird durch \u0027perform\u0027 kodiert (ID 7), zwischen \u0027trage\u0027 und \u0027Hut\u0027 durch \u0027object\u0027 (ID 9) und \u0027Hut\u0027 und \u0027gelb\u0027 durch \u0027characteristic\u0027 (ID 14).\"\n}"
+}

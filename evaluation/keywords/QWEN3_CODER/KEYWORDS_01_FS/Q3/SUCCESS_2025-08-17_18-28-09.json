@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer schwimmt in einem Pool, der ihm gehört. Die Szene beschreibt eine spezifische Aktivität (schwimmen) an einem Ort (Pool), mit dem Besitzverhältnis (gehört dem Nutzer).",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"description\": \"Der Nutzer schwimmt in einem Pool, der ihm gehört. Die Szene beschreibt eine spezifische Aktivität (schwimmen) an einem Ort (Pool), mit dem Besitzverhältnis (gehört dem Nutzer).\"\n}\n"
+}

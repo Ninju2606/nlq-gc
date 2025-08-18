@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der GraphCode bildet die Szene ab, in der Maria schwimmt, in einem Pool, der ihr gehört. Die Beziehung \u0027perform\u0027 verbindet Maria mit der Aktivität \u0027swim\u0027. Die Beziehung \u0027target\u0027 zeigt von \u0027swim\u0027 auf \u0027pool\u0027. Die Beziehung \u0027attached\u0027 zeigt, dass der Pool \u0027owned\u0027 ist, wobei \u0027own\u0027 als Objekt behandelt wird. Alle Begriffe sind durch die Einheitsdiagonale als eigene Typen definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode bildet die Szene ab, in der Maria schwimmt, in einem Pool, der ihr gehört. Die Beziehung \u0027perform\u0027 verbindet Maria mit der Aktivität \u0027swim\u0027. Die Beziehung \u0027target\u0027 zeigt von \u0027swim\u0027 auf \u0027pool\u0027. Die Beziehung \u0027attached\u0027 zeigt, dass der Pool \u0027owned\u0027 ist, wobei \u0027own\u0027 als Objekt behandelt wird. Alle Begriffe sind durch die Einheitsdiagonale als eigene Typen definiert.\"\n}"
+}

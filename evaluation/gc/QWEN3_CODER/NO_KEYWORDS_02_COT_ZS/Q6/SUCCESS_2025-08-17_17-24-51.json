@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu abstrakt und allgemein gehalten, um eindeutige Stichwörter, Relationen und eine sinnvolle Bewertungsmatrix zu erstellen. Sie beschreibt keine Szene mit Objekten, Attributen oder Aktivitäten im Kontext des Metaverses.",
+  "error": "Die Anfrage enthält keine spezifischen Szenenbeschreibungen oder relevante Objekte, Attribute oder Aktivitäten, die zur Generierung eines gültigen GraphCodes benötigt werden.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifischen Szenenbeschreibungen oder relevante Objekte, Attribute oder Aktivitäten, die zur Generierung eines gültigen GraphCodes benötigt werden.\",\n  \"description\": \"Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu abstrakt und allgemein gehalten, um eindeutige Stichwörter, Relationen und eine sinnvolle Bewertungsmatrix zu erstellen. Sie beschreibt keine Szene mit Objekten, Attributen oder Aktivitäten im Kontext des Metaverses.\"\n}"
+}

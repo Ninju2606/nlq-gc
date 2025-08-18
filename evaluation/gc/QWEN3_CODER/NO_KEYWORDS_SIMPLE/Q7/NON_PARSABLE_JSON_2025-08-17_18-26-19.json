@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Häuser\", \"Fragen\", \"malen\"],\n  \"matrix\": [\n    [0, 2, 4],\n    [0, 0, 4],\n    [0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n- **\"Häuser\"**, **\"Fragen\"** und **\"malen\"** sind die drei Begriffe, die als Knoten dienen.\n- Beziehungen:\n  - Häuser → **context (2)** → Fragen (Häuser sind der Kontext, in dem Fragen gestellt werden)\n  - Häuser → **activity (4)** → malen (Häuser zu malen ist eine Aktivität)\n  - Fragen → **activity (4)** → malen (Fragen können im Zuge des Malens auftreten oder Teil der Aktivität sein)\n\nDie Matrix ist typcodiert entsprechend den vorgegebenen Relationstypen."
+}

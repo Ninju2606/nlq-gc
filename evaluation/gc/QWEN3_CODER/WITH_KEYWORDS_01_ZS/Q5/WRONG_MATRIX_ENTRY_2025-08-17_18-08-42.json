@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der GraphCode repräsentiert die Anfrage, in der Maria einen gelben Hut trägt. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist \u0027perform\u0027 (8), da Maria die Handlung ausführt. \u0027wear\u0027 ist eine Aktivität (4), \u0027hat\u0027 ist ein Objekt (1) und \u0027yellow\u0027 ist eine Charakteristik (14), jedoch wird in der Diagonale nur der Typ des Begriffs angegeben. Da \u0027yellow\u0027 eine Eigenschaft des \u0027hat\u0027 ist, aber keine direkte Beziehung im Matrixeintrag (3,4) existiert, wird dieser durch 0 dargestellt, was möglicherweise zu einer unvollständigen Modellierung führt. Dieser GraphCode ist gültig entsprechend der Regeln, da keine fehlerhaften Zuordnungen vorliegen.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage, in der Maria einen gelben Hut trägt. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist \u0027perform\u0027 (8), da Maria die Handlung ausführt. \u0027wear\u0027 ist eine Aktivität (4), \u0027hat\u0027 ist ein Objekt (1) und \u0027yellow\u0027 ist eine Charakteristik (14), jedoch wird in der Diagonale nur der Typ des Begriffs angegeben. Da \u0027yellow\u0027 eine Eigenschaft des \u0027hat\u0027 ist, aber keine direkte Beziehung im Matrixeintrag (3,4) existiert, wird dieser durch 0 dargestellt, was möglicherweise zu einer unvollständigen Modellierung führt. Dieser GraphCode ist gültig entsprechend der Regeln, da keine fehlerhaften Zuordnungen vorliegen.\"\n}\n"
+}

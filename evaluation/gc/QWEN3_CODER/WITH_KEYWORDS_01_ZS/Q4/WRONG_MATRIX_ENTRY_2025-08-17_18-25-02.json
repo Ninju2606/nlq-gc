@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria schwimmt. Maria ist hierbei das Objekt (Typ 1), welches die Aktivität \u0027swim\u0027 (Typ 4) ausführt. Die Beziehung zwischen \u0027maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027 (Typ 8). \u0027own\u0027 (Typ 1) beschreibt ein Besitzverhältnis und verknüpft den Pool mit Maria. \u0027pool\u0027 (Typ 1) steht in einer \u0027attached\u0027-Beziehung (Typ 5) zu \u0027own\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria schwimmt. Maria ist hierbei das Objekt (Typ 1), welches die Aktivität \u0027swim\u0027 (Typ 4) ausführt. Die Beziehung zwischen \u0027maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027 (Typ 8). \u0027own\u0027 (Typ 1) beschreibt ein Besitzverhältnis und verknüpft den Pool mit Maria. \u0027pool\u0027 (Typ 1) steht in einer \u0027attached\u0027-Beziehung (Typ 5) zu \u0027own\u0027.\"\n}"
+}

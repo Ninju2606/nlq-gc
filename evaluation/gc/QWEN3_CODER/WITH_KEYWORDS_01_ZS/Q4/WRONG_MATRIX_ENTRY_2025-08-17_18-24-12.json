@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der Nutzer führt eine Aktivität (schwimmen) aus, wobei \u0027maria\u0027 als Objekt (Person) definiert ist. Die Beziehung zwischen \u0027swim\u0027 und \u0027pool\u0027 wird durch die Relation \u0027target\u0027 ausgedrückt, während \u0027own\u0027 als Kontextattribut fungiert, das den Pool als Eigentum kennzeichnet.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 0, 9],\n        [0, 0, 1, 5],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der Nutzer führt eine Aktivität (schwimmen) aus, wobei \u0027maria\u0027 als Objekt (Person) definiert ist. Die Beziehung zwischen \u0027swim\u0027 und \u0027pool\u0027 wird durch die Relation \u0027target\u0027 ausgedrückt, während \u0027own\u0027 als Kontextattribut fungiert, das den Pool als Eigentum kennzeichnet.\"\n}\n"
+}

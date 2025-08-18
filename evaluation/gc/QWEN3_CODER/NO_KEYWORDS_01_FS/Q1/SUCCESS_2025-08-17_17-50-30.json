@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität \u0027play\u0027, und \u0027target\u0027 (9) zeigt an, dass \u0027play\u0027 auf \u0027basketball\u0027 zielt.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität \u0027play\u0027, und \u0027target\u0027 (9) zeigt an, dass \u0027play\u0027 auf \u0027basketball\u0027 zielt.\"\n}\n"
+}

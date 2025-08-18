@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter \u0027schwimme\u0027, \u0027Pool\u0027 und \u0027gehört\u0027 wurden identifiziert. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da der Nutzer sich selbst bezieht. Die Wörter wurden ins Englische übersetzt: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027. Die relativen Verweise \u0027mir gehört\u0027 wurden als \u0027own\u0027 interpretiert und im Vokabular berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Die Stichwörter \u0027schwimme\u0027, \u0027Pool\u0027 und \u0027gehört\u0027 wurden identifiziert. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da der Nutzer sich selbst bezieht. Die Wörter wurden ins Englische übersetzt: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027. Die relativen Verweise \u0027mir gehört\u0027 wurden als \u0027own\u0027 interpretiert und im Vokabular berücksichtigt.\"\n}"
+}

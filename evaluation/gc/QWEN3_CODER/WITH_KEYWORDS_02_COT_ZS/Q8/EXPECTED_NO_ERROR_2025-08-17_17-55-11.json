@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die übergebene Anfrage enthält grammatikalisch verwirrende Elemente oder unklare Formulierungen, die eine sinnvolle Interpretation und Abbildung in einen GraphCode verhindern. Insbesondere ist die Formulierung \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 nicht eindeutig genug, um alle notwendigen semantischen Relationen zu identifizieren und korrekt zuzuordnen. Bitte präzisieren Sie Ihre Anfrage.",
+  "error": "Fehler in der Eingabe",
+  "responsePlain": "{\n  \"error\": \"Fehler in der Eingabe\",\n  \"description\": \"Die übergebene Anfrage enthält grammatikalisch verwirrende Elemente oder unklare Formulierungen, die eine sinnvolle Interpretation und Abbildung in einen GraphCode verhindern. Insbesondere ist die Formulierung \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 nicht eindeutig genug, um alle notwendigen semantischen Relationen zu identifizieren und korrekt zuzuordnen. Bitte präzisieren Sie Ihre Anfrage.\"\n}"
+}

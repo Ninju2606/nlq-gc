@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch wirr oder unklar. Es lassen sich keine sinnvollen Stichwörter ableiten, um einen GraphCode zu generieren.",
+  "error": "Invalid request",
+  "responsePlain": "{\n  \"error\": \"Invalid request\",\n  \"description\": \"Die Anfrage ist grammatikalisch wirr oder unklar. Es lassen sich keine sinnvollen Stichwörter ableiten, um einen GraphCode zu generieren.\"\n}"
+}

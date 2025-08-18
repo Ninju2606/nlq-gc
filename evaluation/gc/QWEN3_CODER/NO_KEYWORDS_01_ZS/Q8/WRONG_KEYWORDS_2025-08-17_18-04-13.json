@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Beteiligten (Maria, Tochter), der Aktivität (fahren) und dem Objekt (Boot) sowie dem Kontext (See) ab.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [10, 1, 8, 0, 0],\n    [8, 8, 4, 5, 0],\n    [0, 0, 5, 1, 6],\n    [0, 0, 0, 6, 2]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Beteiligten (Maria, Tochter), der Aktivität (fahren) und dem Objekt (Boot) sowie dem Kontext (See) ab.\"\n}"
+}

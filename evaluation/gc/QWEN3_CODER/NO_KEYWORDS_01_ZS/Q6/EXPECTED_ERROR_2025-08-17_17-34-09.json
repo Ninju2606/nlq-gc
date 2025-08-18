@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9,
+      2
+    ],
+    [
+      0,
+      4,
+      9,
+      2
+    ],
+    [
+      0,
+      0,
+      4,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Nutzeranfrage, einen Termin in naher Zukunft zu vereinbaren. Maria (object) führt (perform) die Aktivität (activity) des Planens (schedule) aus, wobei der Termin (appointment) das Ziel (target) darstellt und dieser bald (soon) stattfinden soll (context).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 8, 9, 2],\n    [0, 4, 9, 2],\n    [0, 0, 4, 2],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Nutzeranfrage, einen Termin in naher Zukunft zu vereinbaren. Maria (object) führt (perform) die Aktivität (activity) des Planens (schedule) aus, wobei der Termin (appointment) das Ziel (target) darstellt und dieser bald (soon) stattfinden soll (context).\"\n}\n"
+}

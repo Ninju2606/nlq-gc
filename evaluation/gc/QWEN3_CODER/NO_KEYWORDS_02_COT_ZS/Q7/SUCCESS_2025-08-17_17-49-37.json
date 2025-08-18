@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr oder unklar. Es fehlen präzise Angaben zu Objekten, Attributen oder Aktivitäten, die sich eindeutig auf eine Szene im Metaverse beziehen. Insbesondere ist unklar, was mit \u0027um Fragen zu malen\u0027 gemeint ist. Daher kann kein sinnvoller GraphCode erstellt werden.",
+  "error": "Kein gültiger GraphCode konnte generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Kein gültiger GraphCode konnte generiert werden.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr oder unklar. Es fehlen präzise Angaben zu Objekten, Attributen oder Aktivitäten, die sich eindeutig auf eine Szene im Metaverse beziehen. Insbesondere ist unklar, was mit \u0027um Fragen zu malen\u0027 gemeint ist. Daher kann kein sinnvoller GraphCode erstellt werden.\"\n}"
+}

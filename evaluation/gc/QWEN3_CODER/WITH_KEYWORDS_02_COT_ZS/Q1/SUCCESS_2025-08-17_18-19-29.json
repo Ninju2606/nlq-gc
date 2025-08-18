@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027Ich\u0027 wurde durch die vom Nutzer angegebene Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ-ID 1), \u0027play\u0027 ist eine Aktivität (Typ-ID 4), \u0027basketball\u0027 ist ein Objekt (Typ-ID 1). 3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt aus (\u0027perform\u0027, Typ-ID 8) \u0027play\u0027. \u0027play\u0027 hat als Ziel (\u0027target\u0027, Typ-ID 9) \u0027basketball\u0027. \u0027basketball\u0027 wird gespielt. 4. Verfügbarkeit der Typkodierungen: Alle erforderlichen Beziehungen konnten mithilfe der vorgegebenen Typkodierungen abgedeckt werden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027Ich\u0027 wurde durch die vom Nutzer angegebene Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ-ID 1), \u0027play\u0027 ist eine Aktivität (Typ-ID 4), \u0027basketball\u0027 ist ein Objekt (Typ-ID 1). 3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt aus (\u0027perform\u0027, Typ-ID 8) \u0027play\u0027. \u0027play\u0027 hat als Ziel (\u0027target\u0027, Typ-ID 9) \u0027basketball\u0027. \u0027basketball\u0027 wird gespielt. 4. Verfügbarkeit der Typkodierungen: Alle erforderlichen Beziehungen konnten mithilfe der vorgegebenen Typkodierungen abgedeckt werden.\"\n}\n"
+}

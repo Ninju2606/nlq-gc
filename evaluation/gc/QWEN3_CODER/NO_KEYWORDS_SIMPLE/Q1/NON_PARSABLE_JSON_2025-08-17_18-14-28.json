@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Ich\", \"spiele\", \"Basketball\"],\n  \"matrix\": [\n    [0, 8, 9],\n    [0, 0, 4],\n    [0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n- **Begriffe (Dictionary)**:\n  - \"Ich\"\n  - \"spiele\"\n  - \"Basketball\"\n\n- **Beziehungen (Matrix)**:\n  - **Ich → spiele**: `8` → *perform* (Ich führe die Aktivität \"spielen\" aus)\n  - **Ich → Basketball**: `9` → *target* (Basketball ist das Ziel der Handlung)\n  - **spiele → Basketball**: `4` → *activity* (Spielen ist eine Aktivität, hier konkret mit Basketball verbunden)\n\nDie Matrix ist typcodiert nach Wagenpfeilnotation und spiegelt die semantischen Relationen wider."
+}

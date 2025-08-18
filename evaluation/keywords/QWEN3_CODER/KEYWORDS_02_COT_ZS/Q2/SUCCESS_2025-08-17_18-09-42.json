@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält die Stichwörter \u0027Tim\u0027 und \u0027rennt\u0027. Es gibt keine relativen Verweise oder selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält die Stichwörter \u0027Tim\u0027 und \u0027rennt\u0027. Es gibt keine relativen Verweise oder selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\"\n}\n"
+}

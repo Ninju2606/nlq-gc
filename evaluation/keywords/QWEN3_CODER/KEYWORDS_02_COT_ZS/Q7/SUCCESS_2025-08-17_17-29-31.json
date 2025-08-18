@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die Begriffe \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt und ggf. auf ihre Grundform zurückgeführt. Keine relativen Verweise oder selbstreferenziellen Ausdrücke gefunden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"description\": \"Die Anfrage enthält die Begriffe \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt und ggf. auf ihre Grundform zurückgeführt. Keine relativen Verweise oder selbstreferenziellen Ausdrücke gefunden.\"\n}\n"
+}

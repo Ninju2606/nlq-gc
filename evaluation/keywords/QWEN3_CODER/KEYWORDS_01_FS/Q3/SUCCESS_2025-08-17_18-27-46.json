@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Das Vokabular des GraphCodes enthält die relevanten Begriffe aus der Anfrage, darunter die Aktivität \u0027swim\u0027, das Objekt \u0027pool\u0027 und das Attribut \u0027own\u0027, das auf die Besitzverhältnisse hinweist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"description\": \"Das Vokabular des GraphCodes enthält die relevanten Begriffe aus der Anfrage, darunter die Aktivität \u0027swim\u0027, das Objekt \u0027pool\u0027 und das Attribut \u0027own\u0027, das auf die Besitzverhältnisse hinweist.\"\n}"
+}

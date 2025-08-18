@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "gelben",
+    "Hut"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist das Subjekt (object), das die Aktivität \u0027hat\u0027 (activity) ausführt. Der Begriff \u0027gelben\u0027 beschreibt eine charakteristische Eigenschaft (characteristic) des \u0027Hut\u0027 (object).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"hat\", \"gelben\", \"Hut\"],\n  \"matrix\": [\n    [1, 8, 0, 9],\n    [0, 4, 0, 0],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist das Subjekt (object), das die Aktivität \u0027hat\u0027 (activity) ausführt. Der Begriff \u0027gelben\u0027 beschreibt eine charakteristische Eigenschaft (characteristic) des \u0027Hut\u0027 (object).\"\n}\n"
+}

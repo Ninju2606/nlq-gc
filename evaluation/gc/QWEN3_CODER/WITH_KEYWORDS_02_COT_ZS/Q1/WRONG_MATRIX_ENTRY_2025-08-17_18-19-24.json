@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      8,
+      4,
+      9
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, was in der Regel auf die Identifikation \u0027Maria\u0027 verweist. Daher wird \u0027Ich\u0027 durch \u0027maria\u0027 ersetzt. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist eine Identifikation und wird als Objekt interpretiert (Typ 1 - object). \u0027play\u0027 beschreibt eine Tätigkeit und wird als Aktivität interpretiert (Typ 4 - activity). \u0027basketball\u0027 beschreibt ein konkretes Objekt und wird ebenfalls als Objekt interpretiert (Typ 1 - object). 3. Die Beziehungen der Stichwörter zueinander sind wie folgt definiert: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus, was mit dem Typ \u0027perform\u0027 (ID 8) kodiert wird. \u0027play\u0027 bezieht sich auf das Zielobjekt \u0027basketball\u0027, was durch den Typ \u0027target\u0027 (ID 9) repräsentiert wird. 4. Alle erforderlichen Relationen sind in den Typkodierungen vorhanden: object (1), activity (4), perform (8), und target (9). Somit können alle Einträge korrekt zugewiesen werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [8, 4, 9],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, was in der Regel auf die Identifikation \u0027Maria\u0027 verweist. Daher wird \u0027Ich\u0027 durch \u0027maria\u0027 ersetzt. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist eine Identifikation und wird als Objekt interpretiert (Typ 1 - object). \u0027play\u0027 beschreibt eine Tätigkeit und wird als Aktivität interpretiert (Typ 4 - activity). \u0027basketball\u0027 beschreibt ein konkretes Objekt und wird ebenfalls als Objekt interpretiert (Typ 1 - object). 3. Die Beziehungen der Stichwörter zueinander sind wie folgt definiert: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus, was mit dem Typ \u0027perform\u0027 (ID 8) kodiert wird. \u0027play\u0027 bezieht sich auf das Zielobjekt \u0027basketball\u0027, was durch den Typ \u0027target\u0027 (ID 9) repräsentiert wird. 4. Alle erforderlichen Relationen sind in den Typkodierungen vorhanden: object (1), activity (4), perform (8), und target (9). Somit können alle Einträge korrekt zugewiesen werden.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist zu vage, um eine valide Bewertungsmatrix auf Grundlage der vorgegebenen Typkodierungen zu erstellen, da keine spezifischen Beziehungen zwischen den Stichwörtern definiert sind.",
+  "error": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich direkt auf die angegebenen Vokabeln [\"maria\", \"make\", \"appointment\"] beziehen. Es fehlen konkrete Relationsangaben für die Bewertungsmatrix.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich direkt auf die angegebenen Vokabeln [\\\"maria\\\", \\\"make\\\", \\\"appointment\\\"] beziehen. Es fehlen konkrete Relationsangaben für die Bewertungsmatrix.\",\n  \"description\": \"Die Anfrage ist zu vage, um eine valide Bewertungsmatrix auf Grundlage der vorgegebenen Typkodierungen zu erstellen, da keine spezifischen Beziehungen zwischen den Stichwörtern definiert sind.\"\n}"
+}

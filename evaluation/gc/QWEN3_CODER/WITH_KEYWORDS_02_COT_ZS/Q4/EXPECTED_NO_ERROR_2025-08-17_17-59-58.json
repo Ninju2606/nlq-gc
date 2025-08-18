@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Beziehung zwischen \u0027own\u0027 und \u0027maria\u0027 (Eigentümerschaft) kann nicht durch die vorhandenen Typkodierungen abgebildet werden, da kein passender Eintrag mit identityMapping\u003d\u003dfalse für diesen semantischen Zusammenhang existiert.",
+  "error": "Fehler bei der Zuordnung der Typkodierungen",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Zuordnung der Typkodierungen\",\n  \"description\": \"Die Beziehung zwischen \u0027own\u0027 und \u0027maria\u0027 (Eigentümerschaft) kann nicht durch die vorhandenen Typkodierungen abgebildet werden, da kein passender Eintrag mit identityMapping\u003d\u003dfalse für diesen semantischen Zusammenhang existiert.\"\n}"
+}

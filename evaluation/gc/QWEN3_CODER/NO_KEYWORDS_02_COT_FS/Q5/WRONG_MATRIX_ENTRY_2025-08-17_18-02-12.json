@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Die relevanten Stichwörter sind \\\"ich\\\", \\\"trage\\\", \\\"gelben Hut\\\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"wear\\\", \\\"hat\\\", \\\"yellow\\\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"wear\\\", \\\"hat\\\", \\\"yellow\\\".\n        5. \\\"Maria\\\" und \\\"hat\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität. \\\"yellow\\\" ist ein Kontext.\n        6. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus. Die Aktivität \\\"wear\\\" bezieht sich auf \\\"hat\\\". Der Kontext \\\"yellow\\\" ist eine Charakteristik von \\\"hat\\\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 3. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 8, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\\\\\"ich\\\\\\\", \\\\\\\"trage\\\\\\\", \\\\\\\"gelben Hut\\\\\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\\\\\"I\\\\\\\", \\\\\\\"wear\\\\\\\", \\\\\\\"hat\\\\\\\", \\\\\\\"yellow\\\\\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\\\\\"Maria\\\\\\\", \\\\\\\"wear\\\\\\\", \\\\\\\"hat\\\\\\\", \\\\\\\"yellow\\\\\\\".\\n        5. \\\\\\\"Maria\\\\\\\" und \\\\\\\"hat\\\\\\\" sind Objekte der Anfrage. \\\\\\\"wear\\\\\\\" ist eine Aktivität. \\\\\\\"yellow\\\\\\\" ist ein Kontext.\\n        6. \\\\\\\"Maria\\\\\\\" führt die Aktivität \\\\\\\"wear\\\\\\\" aus. Die Aktivität \\\\\\\"wear\\\\\\\" bezieht sich auf \\\\\\\"hat\\\\\\\". Der Kontext \\\\\\\"yellow\\\\\\\" ist eine Charakteristik von \\\\\\\"hat\\\\\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 3. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14.\"\n}"
+}

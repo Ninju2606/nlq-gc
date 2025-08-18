@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es konnte kein sinnvoller GraphCode generiert werden, da die Bedingungen für eine vollständige und korrekte Zuordnung der Begriffe und deren Relationen nicht erfüllt sind. Insbesondere fehlen eindeutige Angaben zu Aktivitäten oder klar definierte räumliche bzw. inhaltliche Beziehungen zwischen den Objekten.",
+  "error": "Die Anfrage enthält unzureichende Informationen zur Generierung eines gültigen GraphCodes.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält unzureichende Informationen zur Generierung eines gültigen GraphCodes.\",\n  \"description\": \"Es konnte kein sinnvoller GraphCode generiert werden, da die Bedingungen für eine vollständige und korrekte Zuordnung der Begriffe und deren Relationen nicht erfüllt sind. Insbesondere fehlen eindeutige Angaben zu Aktivitäten oder klar definierte räumliche bzw. inhaltliche Beziehungen zwischen den Objekten.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt (Marie -\u003e swim, perform\u003d8), in einem Pool (swim -\u003e pool, target\u003d9), der ihr gehört (Maria -\u003e own, attached\u003d5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt (Marie -\u003e swim, perform\u003d8), in einem Pool (swim -\u003e pool, target\u003d9), der ihr gehört (Maria -\u003e own, attached\u003d5).\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer sucht eine Szene, in der Tim rennt. Die Identifikation des Nutzers ist Maria, was jedoch nicht direkt in die Szene einfließt, da keine selbstidentifizierenden Pronomen verwendet wurden.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"Tim\", \"run\"],\n    \"description\": \"Der Nutzer sucht eine Szene, in der Tim rennt. Die Identifikation des Nutzers ist Maria, was jedoch nicht direkt in die Szene einfließt, da keine selbstidentifizierenden Pronomen verwendet wurden.\"\n}\n"
+}

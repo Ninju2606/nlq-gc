@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      2
+    ],
+    [
+      5,
+      4,
+      8,
+      2
+    ],
+    [
+      9,
+      9,
+      4,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte in naher Zukunft einen Termin mit Maria abstimmen. Die Matrix bildet diese Absicht durch die Beziehungen zwischen den Begriffen ab: Maria (object) ist target einer activity (appointment), die unter dem Kontext (soon) perform-t wird.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 5, 8, 2],\n    [5, 4, 8, 2],\n    [9, 9, 4, 2],\n    [2, 2, 2, 4]\n  ],\n  \"description\": \"Der Nutzer möchte in naher Zukunft einen Termin mit Maria abstimmen. Die Matrix bildet diese Absicht durch die Beziehungen zwischen den Begriffen ab: Maria (object) ist target einer activity (appointment), die unter dem Kontext (soon) perform-t wird.\"\n}\n"
+}

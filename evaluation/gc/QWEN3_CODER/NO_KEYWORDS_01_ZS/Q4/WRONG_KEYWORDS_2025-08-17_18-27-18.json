@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. \u0027Maria\u0027 ist das Objekt (Typ 1), \u0027swim\u0027 ist die Aktivität (Typ 4), und \u0027pool\u0027 ist der Ort bzw. Ziel der Aktivität (Typ 1). Die Beziehung zwischen Maria und swim ist \u0027perform\u0027 (Typ 8), zwischen swim und pool ist es \u0027target\u0027 (Typ 9). Maria ist mit dem Pool über \u0027attached\u0027 (Typ 5) verbunden, da sie sich darin befindet.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. \u0027Maria\u0027 ist das Objekt (Typ 1), \u0027swim\u0027 ist die Aktivität (Typ 4), und \u0027pool\u0027 ist der Ort bzw. Ziel der Aktivität (Typ 1). Die Beziehung zwischen Maria und swim ist \u0027perform\u0027 (Typ 8), zwischen swim und pool ist es \u0027target\u0027 (Typ 9). Maria ist mit dem Pool über \u0027attached\u0027 (Typ 5) verbunden, da sie sich darin befindet.\"\n}\n"
+}

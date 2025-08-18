@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      8
+    ],
+    [
+      9,
+      1,
+      8
+    ],
+    [
+      8,
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.4444444444444444,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Maria ist eine \u0027object\u0027 (Typ 1), Basketball ist ebenfalls ein \u0027object\u0027 (Typ 1), und \u0027play\u0027 ist eine \u0027activity\u0027 (Typ 4). Die Beziehung zwischen Maria und Basketball ist \u0027target\u0027 (Typ 9), da Basketball das Ziel der Aktivität ist. Zwischen Maria und play sowie Basketball und play besteht jeweils eine \u0027perform\u0027-Beziehung (Typ 8), da Maria die Aktivität ausführt. Innerhalb der Diagonaleintragungen wurden die korrekten Identitätstypen eingetragen.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"basketball\", \"play\"],\n  \"matrix\": [\n    [1, 9, 8],\n    [9, 1, 8],\n    [8, 8, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Maria ist eine \u0027object\u0027 (Typ 1), Basketball ist ebenfalls ein \u0027object\u0027 (Typ 1), und \u0027play\u0027 ist eine \u0027activity\u0027 (Typ 4). Die Beziehung zwischen Maria und Basketball ist \u0027target\u0027 (Typ 9), da Basketball das Ziel der Aktivität ist. Zwischen Maria und play sowie Basketball und play besteht jeweils eine \u0027perform\u0027-Beziehung (Typ 8), da Maria die Aktivität ausführt. Innerhalb der Diagonaleintragungen wurden die korrekten Identitätstypen eingetragen.\"\n}\n"
+}

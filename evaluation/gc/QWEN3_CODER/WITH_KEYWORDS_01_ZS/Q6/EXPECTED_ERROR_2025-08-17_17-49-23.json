@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Nutzeranfrage, einen Termin auszumachen. \u0027Maria\u0027 ist der Nutzer und fungiert als Objekt. \u0027Make\u0027 beschreibt eine Aktivität und ist somit vom Typ \u0027activity\u0027. \u0027Appointment\u0027 ist ein Objekt. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist \u0027perform\u0027 (Typ 8), und die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 ist \u0027target\u0027 (Typ 9).",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n    \"matrix\": [\n        [1, 8, 9],\n        [0, 4, 0],\n        [0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Nutzeranfrage, einen Termin auszumachen. \u0027Maria\u0027 ist der Nutzer und fungiert als Objekt. \u0027Make\u0027 beschreibt eine Aktivität und ist somit vom Typ \u0027activity\u0027. \u0027Appointment\u0027 ist ein Objekt. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist \u0027perform\u0027 (Typ 8), und die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 ist \u0027target\u0027 (Typ 9).\"\n}\n"
+}

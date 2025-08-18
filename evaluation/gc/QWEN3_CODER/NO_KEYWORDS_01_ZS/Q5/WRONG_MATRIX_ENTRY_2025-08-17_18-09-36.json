@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die vom Nutzer gewünschte Szene im Metaverse, in der die Person \u0027Maria\u0027 (\u0027object\u0027) eine Aktivität (\u0027activity\u0027) ausführt, nämlich einen Hut (\u0027object\u0027) mit der Eigenschaft \u0027gelb\u0027 (\u0027synonym\u0027) zu tragen. Die Matrix bildet die Beziehungen zwischen den Begriffen ab, wobei \u0027Maria\u0027 als Subjekt (\u0027object\u0027) die Handlung \u0027wear\u0027 (\u0027activity\u0027) ausführt, und der Hut (\u0027object\u0027) die Zielausprägung (\u0027target\u0027) der Handlung darstellt. \u0027Yellow\u0027 fungiert als Synonym (\u0027synonym\u0027) zur Beschreibung des Objekts.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 3, 0],\n    [0, 9, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die vom Nutzer gewünschte Szene im Metaverse, in der die Person \u0027Maria\u0027 (\u0027object\u0027) eine Aktivität (\u0027activity\u0027) ausführt, nämlich einen Hut (\u0027object\u0027) mit der Eigenschaft \u0027gelb\u0027 (\u0027synonym\u0027) zu tragen. Die Matrix bildet die Beziehungen zwischen den Begriffen ab, wobei \u0027Maria\u0027 als Subjekt (\u0027object\u0027) die Handlung \u0027wear\u0027 (\u0027activity\u0027) ausführt, und der Hut (\u0027object\u0027) die Zielausprägung (\u0027target\u0027) der Handlung darstellt. \u0027Yellow\u0027 fungiert als Synonym (\u0027synonym\u0027) zur Beschreibung des Objekts.\"\n}"
+}

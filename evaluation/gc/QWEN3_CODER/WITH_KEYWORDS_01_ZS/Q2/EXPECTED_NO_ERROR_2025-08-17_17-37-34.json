@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es fehlen relevante Informationen zur Beziehung zwischen den Begriffen, um eine vollständige Bewertungsmatrix gemäß den vorgegebenen Regeln zu generieren. Insbesondere ist nicht ersichtlich, ob der Nutzer \u0027Maria\u0027 mit der Szene in Verbindung steht oder nicht.",
+  "error": "Die Anfrage ist unvollständig oder unklar.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unvollständig oder unklar.\",\n  \"description\": \"Es fehlen relevante Informationen zur Beziehung zwischen den Begriffen, um eine vollständige Bewertungsmatrix gemäß den vorgegebenen Regeln zu generieren. Insbesondere ist nicht ersichtlich, ob der Nutzer \u0027Maria\u0027 mit der Szene in Verbindung steht oder nicht.\"\n}"
+}

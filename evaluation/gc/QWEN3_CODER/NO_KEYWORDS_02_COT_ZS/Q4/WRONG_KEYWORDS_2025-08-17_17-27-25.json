@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"]\n2. Relative Verweise aufgelöst: [\"Ich\" -\u003e \"Maria\"]\n3. Übersetzung ins Englische: [\"Maria\", \"swim\", \"pool\"]\n4. Nutzeridentifikation ersetzt: \"Ich\" wurde durch \"Maria\" ersetzt.\n5. Attributeigenschaften erklärt: \n   - \"Maria\" ist ein Objekt (object)\n   - \"schwimme\" ist eine Aktivität (activity)\n   - \"pool\" ist ein Objekt (object)\n6. Beziehungen erklärt: \n   - Maria performt die Aktivität schwimmen (perform)\n   - Die Aktivität schwimmen hat als Ziel den Pool (target)\n   - Maria ist mit dem Pool verbunden (attached)\n7. Typkodierungen geprüft: Alle gefundenen Beziehungen entsprechen gültigen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"meinem\\\", \\\"Pool\\\"]\\n2. Relative Verweise aufgelöst: [\\\"Ich\\\" -\u003e \\\"Maria\\\"]\\n3. Übersetzung ins Englische: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\"]\\n4. Nutzeridentifikation ersetzt: \\\"Ich\\\" wurde durch \\\"Maria\\\" ersetzt.\\n5. Attributeigenschaften erklärt: \\n   - \\\"Maria\\\" ist ein Objekt (object)\\n   - \\\"schwimme\\\" ist eine Aktivität (activity)\\n   - \\\"pool\\\" ist ein Objekt (object)\\n6. Beziehungen erklärt: \\n   - Maria performt die Aktivität schwimmen (perform)\\n   - Die Aktivität schwimmen hat als Ziel den Pool (target)\\n   - Maria ist mit dem Pool verbunden (attached)\\n7. Typkodierungen geprüft: Alle gefundenen Beziehungen entsprechen gültigen Typkodierungen.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027ich\u0027, \u0027spielen\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: \u0027ich\u0027 referenziert auf den Nutzer, hier ersetzt durch \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Eigenname bleibt), \u0027spielen\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Ersetzung von \u0027ich\u0027 durch die Identifikation des Nutzers: \u0027Maria\u0027.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1).\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1).\n   - \u0027play\u0027 ist eine Aktivität (Typ 4).\n6. Relationen:\n   - Maria führt die Aktivität \u0027play\u0027 aus (Relation: perform → Typ 8).\n   - \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 (keine direkte Typkodierung für diese Verknüpfung, daher implizit durch Matrixposition).\n7. Alle Relationen haben gültige Typkodierungen: \u0027perform\u0027 \u003d 8, \u0027object\u0027 \u003d 1, \u0027activity\u0027 \u003d 4.\n8. Der GraphCode wurde erfolgreich zusammengesetzt aus Vokabular und Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\", \"play\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 1, 0],\n    [8, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027ich\u0027, \u0027spielen\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: \u0027ich\u0027 referenziert auf den Nutzer, hier ersetzt durch \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Eigenname bleibt), \u0027spielen\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Ersetzung von \u0027ich\u0027 durch die Identifikation des Nutzers: \u0027Maria\u0027.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1).\\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n   - \u0027play\u0027 ist eine Aktivität (Typ 4).\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027play\u0027 aus (Relation: perform → Typ 8).\\n   - \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 (keine direkte Typkodierung für diese Verknüpfung, daher implizit durch Matrixposition).\\n7. Alle Relationen haben gültige Typkodierungen: \u0027perform\u0027 \u003d 8, \u0027object\u0027 \u003d 1, \u0027activity\u0027 \u003d 4.\\n8. Der GraphCode wurde erfolgreich zusammengesetzt aus Vokabular und Bewertungsmatrix.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      2
+    ],
+    [
+      5,
+      4,
+      8,
+      2
+    ],
+    [
+      9,
+      9,
+      4,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte mit sich selbst (Maria) einen Termin in naher Zukunft planen. Die Aktivität \u0027schedule\u0027 bezieht sich auf den Termin, der inhaltlich durch \u0027appointment\u0027 beschrieben wird. \u0027Soon\u0027 wird als zeitlicher Kontext eingeordnet.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 5, 8, 2],\n    [5, 4, 8, 2],\n    [9, 9, 4, 2],\n    [2, 2, 2, 2]\n  ],\n  \"description\": \"Der Nutzer möchte mit sich selbst (Maria) einen Termin in naher Zukunft planen. Die Aktivität \u0027schedule\u0027 bezieht sich auf den Termin, der inhaltlich durch \u0027appointment\u0027 beschrieben wird. \u0027Soon\u0027 wird als zeitlicher Kontext eingeordnet.\"\n}\n"
+}

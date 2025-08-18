@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      5
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria führt die Aktivität \u0027swim\u0027 aus (perform), \u0027swim\u0027 ist eine Aktivität (activity) und hat das Ziel \u0027pool\u0027 (target). \u0027Own\u0027 dient als Kontext (context) und \u0027pool\u0027 ist ein Objekt (object).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 5], [0, 0, 2, 1], [0, 0, 0, 1]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria führt die Aktivität \u0027swim\u0027 aus (perform), \u0027swim\u0027 ist eine Aktivität (activity) und hat das Ziel \u0027pool\u0027 (target). \u0027Own\u0027 dient als Kontext (context) und \u0027pool\u0027 ist ein Objekt (object).\"\n}"
+}

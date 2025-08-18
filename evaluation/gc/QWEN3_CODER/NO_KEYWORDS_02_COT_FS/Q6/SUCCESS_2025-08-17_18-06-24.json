@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter aus der Anfrage \"Wir müssen bald einen Termin ausmachen\" sind nicht eindeutig beschreibend für eine Szene im Metaverse.\n        2. Es gibt keine relativen Verweise.\n        3. Es lassen sich keine klar identifizierbaren Objekte, Attribute oder Aktivitäten ableiten, die eine Szene beschreiben.\n        4. Daher kann kein valider GraphCode erstellt werden.",
+  "error": "Es können keine sinnvollen Stichwörter ermittelt werden.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\",\n  \"description\": \"1. Die relevanten Stichwörter aus der Anfrage \\\"Wir müssen bald einen Termin ausmachen\\\" sind nicht eindeutig beschreibend für eine Szene im Metaverse.\\n        2. Es gibt keine relativen Verweise.\\n        3. Es lassen sich keine klar identifizierbaren Objekte, Attribute oder Aktivitäten ableiten, die eine Szene beschreiben.\\n        4. Daher kann kein valider GraphCode erstellt werden.\"\n}"
+}

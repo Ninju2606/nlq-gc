@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "person",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tochter\", \"Ich\", \"fahren\", \"Boot\", \"See\".\n        2. Es gibt relative Verweise: \"Meine Tochter\" bezieht sich auf eine Person in Beziehung zu \"Ich\". Neue Stichwörter sind \"Ich\", \"Person\" (Tochter), \"fahren\", \"Boot\", \"See\". Dabei ist \"Person\" die Tochter von \"Ich\".\n        3. Die englischen Stichwörter sind \"I\", \"person\", \"ride\", \"boat\", \"lake\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"person\", \"ride\", \"boat\", \"lake\".\n        5. \"Maria\" und \"person\" sind Objekte der Anfrage. \"ride\" ist eine Aktivität. \"boat\" und \"lake\" sind ebenfalls Objekte.\n        6. \"person\" ist Tochter von \"Maria\". \"person\" führt die Aktivität \"ride\" aus. \"person\" befindet sich mit \"boat\" verbunden. Die Aktivität \"ride\" bezieht sich auf \"boat\". \"boat\" befindet sich im \"lake\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Verbindung (attached) ist 4. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"person\", \"ride\", \"boat\", \"lake\"],\n  \"matrix\": [[1,10,7,0,0],[0,1,7,8,0],[0,0,4,8,0],[0,0,0,1,6],[0,0,0,0,1]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Tochter\\\", \\\"Ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n        2. Es gibt relative Verweise: \\\"Meine Tochter\\\" bezieht sich auf eine Person in Beziehung zu \\\"Ich\\\". Neue Stichwörter sind \\\"Ich\\\", \\\"Person\\\" (Tochter), \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\". Dabei ist \\\"Person\\\" die Tochter von \\\"Ich\\\".\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"person\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"person\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\".\\n        5. \\\"Maria\\\" und \\\"person\\\" sind Objekte der Anfrage. \\\"ride\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind ebenfalls Objekte.\\n        6. \\\"person\\\" ist Tochter von \\\"Maria\\\". \\\"person\\\" führt die Aktivität \\\"ride\\\" aus. \\\"person\\\" befindet sich mit \\\"boat\\\" verbunden. Die Aktivität \\\"ride\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich im \\\"lake\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Verbindung (attached) ist 4. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.\"\n}"
+}

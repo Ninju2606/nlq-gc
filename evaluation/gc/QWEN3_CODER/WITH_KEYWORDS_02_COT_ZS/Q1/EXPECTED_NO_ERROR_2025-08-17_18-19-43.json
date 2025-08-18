@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine aussagekräftigen Szenenbeschreibungen oder Elemente, die sich auf Objekte, Attribute oder Aktivitäten innerhalb einer Metaverse-Szene beziehen. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Fehlerhafte Eingabe",
+  "responsePlain": "\n{\n  \"error\": \"Fehlerhafte Eingabe\",\n  \"description\": \"Die Anfrage enthält keine aussagekräftigen Szenenbeschreibungen oder Elemente, die sich auf Objekte, Attribute oder Aktivitäten innerhalb einer Metaverse-Szene beziehen. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}\n"
+}

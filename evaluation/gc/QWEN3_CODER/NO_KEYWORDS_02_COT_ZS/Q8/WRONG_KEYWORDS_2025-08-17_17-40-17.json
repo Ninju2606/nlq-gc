@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027Meine Tochter\u0027 → \u0027Tochter\u0027, \u0027ich\u0027 → \u0027Maria\u0027.\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 (bereits ersetzt) → \u0027Maria\u0027, \u0027fahren\u0027 → \u0027boat\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\n4. In den Stichwörtern wurde die Identifikation des Nutzers ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Die Attributeigenschaften wurden erklärt: \u0027Maria\u0027 ist eine Person (object), \u0027daughter\u0027 ist eine Beziehung (daughter), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Kontext (context).\n6. Die Relationen zwischen den Stichwörtern wurden erklärt: \u0027Maria\u0027 ist die \u0027daughter\u0027 von \u0027daughter\u0027 (und umgekehrt), \u0027boat\u0027 steht im Zusammenhang mit \u0027lake\u0027 (\u0027under\u0027), und \u0027lake\u0027 ist der \u0027context\u0027 für die Szene.\n7. Für alle Relationen wurden passende Typkodierungen gefunden. Die IDs der Typkodierungen sind wie folgt: \u0027Maria\u0027 → 1 (object), \u0027daughter\u0027 → 1 (object), \u0027boat\u0027 → 1 (object), \u0027lake\u0027 → 2 (context). Die Relationen sind wie folgt kodiert: \u0027Maria\u0027 und \u0027daughter\u0027 haben die Beziehung \u0027daughter\u0027 (ID 10), \u0027boat\u0027 ist \u0027above\u0027 lake (ID 7), und \u0027lake\u0027 ist der Kontext (ID 2).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [10, 1, 0, 0],\n    [0, 0, 1, 6],\n    [0, 0, 7, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027Meine Tochter\u0027 → \u0027Tochter\u0027, \u0027ich\u0027 → \u0027Maria\u0027.\\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 (bereits ersetzt) → \u0027Maria\u0027, \u0027fahren\u0027 → \u0027boat\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\\n4. In den Stichwörtern wurde die Identifikation des Nutzers ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Die Attributeigenschaften wurden erklärt: \u0027Maria\u0027 ist eine Person (object), \u0027daughter\u0027 ist eine Beziehung (daughter), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Kontext (context).\\n6. Die Relationen zwischen den Stichwörtern wurden erklärt: \u0027Maria\u0027 ist die \u0027daughter\u0027 von \u0027daughter\u0027 (und umgekehrt), \u0027boat\u0027 steht im Zusammenhang mit \u0027lake\u0027 (\u0027under\u0027), und \u0027lake\u0027 ist der \u0027context\u0027 für die Szene.\\n7. Für alle Relationen wurden passende Typkodierungen gefunden. Die IDs der Typkodierungen sind wie folgt: \u0027Maria\u0027 → 1 (object), \u0027daughter\u0027 → 1 (object), \u0027boat\u0027 → 1 (object), \u0027lake\u0027 → 2 (context). Die Relationen sind wie folgt kodiert: \u0027Maria\u0027 und \u0027daughter\u0027 haben die Beziehung \u0027daughter\u0027 (ID 10), \u0027boat\u0027 ist \u0027above\u0027 lake (ID 7), und \u0027lake\u0027 ist der Kontext (ID 2).\"\n}\n"
+}

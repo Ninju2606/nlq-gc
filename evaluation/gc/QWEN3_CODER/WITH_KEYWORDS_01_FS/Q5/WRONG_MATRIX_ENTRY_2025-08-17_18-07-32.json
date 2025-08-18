@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist vom Typ \u0027target\u0027, zwischen \u0027wear\u0027 und \u0027hat\u0027 ist es \u0027activity\u0027 und \u0027target\u0027, und \u0027yellow\u0027 ist eine \u0027characteristic\u0027 des \u0027hat\u0027.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 1, 14], [0, 0, 0, 3]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist vom Typ \u0027target\u0027, zwischen \u0027wear\u0027 und \u0027hat\u0027 ist es \u0027activity\u0027 und \u0027target\u0027, und \u0027yellow\u0027 ist eine \u0027characteristic\u0027 des \u0027hat\u0027.\"\n}\n"
+}

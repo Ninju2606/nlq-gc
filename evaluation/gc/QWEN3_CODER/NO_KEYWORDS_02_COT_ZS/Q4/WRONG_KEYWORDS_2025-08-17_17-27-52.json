@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"].\n2. Relative Verweise aufgelöst: \"Ich\" → \"Maria\", \"meinem\" → \"Maria\".\n3. Übersetzung ins Englische: [\"Maria\", \"swim\", \"pool\"].\n4. Identifikation des Nutzers ersetzt: \"Ich\" → \"Maria\".\n5. Attributeigenschaften: \"Maria\" ist ein Objekt (object), \"swim\" ist eine Aktivität (activity), \"pool\" ist ein Objekt (object).\n6. Relationen: Maria führt die Aktivität \"schwimmen\" aus (perform), Maria ist im/unter dem Pool (attached).\n7. Überprüfung der Typkodierungen: \n   - Maria (object) \u003d Typ 1,\n   - swim (activity) \u003d Typ 4,\n   - perform (perform) \u003d Typ 8,\n   - pool (object) \u003d Typ 1,\n   - attached (attached) \u003d Typ 5.\nAlle erforderlichen Typkodierungen vorhanden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"meinem\\\", \\\"Pool\\\"].\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" → \\\"Maria\\\", \\\"meinem\\\" → \\\"Maria\\\".\\n3. Übersetzung ins Englische: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\"].\\n4. Identifikation des Nutzers ersetzt: \\\"Ich\\\" → \\\"Maria\\\".\\n5. Attributeigenschaften: \\\"Maria\\\" ist ein Objekt (object), \\\"swim\\\" ist eine Aktivität (activity), \\\"pool\\\" ist ein Objekt (object).\\n6. Relationen: Maria führt die Aktivität \\\"schwimmen\\\" aus (perform), Maria ist im/unter dem Pool (attached).\\n7. Überprüfung der Typkodierungen: \\n   - Maria (object) \u003d Typ 1,\\n   - swim (activity) \u003d Typ 4,\\n   - perform (perform) \u003d Typ 8,\\n   - pool (object) \u003d Typ 1,\\n   - attached (attached) \u003d Typ 5.\\nAlle erforderlichen Typkodierungen vorhanden.\"\n}\n"
+}

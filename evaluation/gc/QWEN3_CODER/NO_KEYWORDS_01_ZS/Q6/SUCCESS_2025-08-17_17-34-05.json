@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine relevanten semantischen Elemente (Objekte, Attribute, Aktivitäten), um einen gültigen GraphCode gemäß den vorgegebenen Regeln zu generieren. Die Identifikation \u0027Maria\u0027 kann nicht sinnvoll in den GraphCode integriert werden, da keine selbst-identifizierenden Begriffe wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten sind.",
+  "error": "Die Anfrage enthält keine spezifische Szenenbeschreibung im Metaverse-Kontext. Sie drückt lediglich einen allgemeinen Wunsch nach Terminvereinbarung aus, ohne Objekte, Attribute oder Aktivitäten zu benennen, die für einen GraphCode erforderlich wären.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifische Szenenbeschreibung im Metaverse-Kontext. Sie drückt lediglich einen allgemeinen Wunsch nach Terminvereinbarung aus, ohne Objekte, Attribute oder Aktivitäten zu benennen, die für einen GraphCode erforderlich wären.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine relevanten semantischen Elemente (Objekte, Attribute, Aktivitäten), um einen gültigen GraphCode gemäß den vorgegebenen Regeln zu generieren. Die Identifikation \u0027Maria\u0027 kann nicht sinnvoll in den GraphCode integriert werden, da keine selbst-identifizierenden Begriffe wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten sind.\"\n}"
+}

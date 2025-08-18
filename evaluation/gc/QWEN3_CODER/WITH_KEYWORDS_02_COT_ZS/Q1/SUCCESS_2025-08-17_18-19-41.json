@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer verwendet \u0027Ich\u0027, was als relative Selbstreferenz auf \u0027Maria\u0027 aufgelöst wurde. 2. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027play\u0027 ist eine \u0027activity\u0027 und \u0027basketball\u0027 ist ein \u0027object\u0027. 3. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist \u0027perform\u0027 (8), da Maria die Aktivität ausführt. Zwischen \u0027play\u0027 und \u0027basketball\u0027 besteht eine \u0027target\u0027-Beziehung (9), da Basketball das Ziel der Aktivität ist. \u0027Basketball\u0027 ist ein Objekt und steht nicht in weiteren spezifischen Relationen. 4. Alle Beziehungen finden eine Entsprechung in den vorgegebenen Typkodierungen. 5. Der resultierende GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet \u0027Ich\u0027, was als relative Selbstreferenz auf \u0027Maria\u0027 aufgelöst wurde. 2. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027play\u0027 ist eine \u0027activity\u0027 und \u0027basketball\u0027 ist ein \u0027object\u0027. 3. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist \u0027perform\u0027 (8), da Maria die Aktivität ausführt. Zwischen \u0027play\u0027 und \u0027basketball\u0027 besteht eine \u0027target\u0027-Beziehung (9), da Basketball das Ziel der Aktivität ist. \u0027Basketball\u0027 ist ein Objekt und steht nicht in weiteren spezifischen Relationen. 4. Alle Beziehungen finden eine Entsprechung in den vorgegebenen Typkodierungen. 5. Der resultierende GraphCode wurde erfolgreich generiert.\"\n}\n"
+}

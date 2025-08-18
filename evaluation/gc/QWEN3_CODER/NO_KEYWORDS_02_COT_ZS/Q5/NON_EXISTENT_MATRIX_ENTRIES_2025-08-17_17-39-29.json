@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      9,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027gelben Hut trage\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde ersetzt durch \u0027Maria\u0027.\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027trage\u0027 → \u0027wear\u0027, \u0027Hut\u0027 → \u0027hat\u0027, \u0027gelb\u0027 → \u0027yellow\u0027.\n4. Die Identifikation des Nutzers wurde korrekt ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Die Attributeigenschaften wurden wie folgt erklärt: \u0027yellow\u0027 ist eine charakteristische Eigenschaft (characteristic), \u0027hat\u0027 ist ein Objekt (object), \u0027trage\u0027 repräsentiert eine Tätigkeit (activity).\n6. Die Beziehungen zwischen den Stichwörtern sind wie folgt definiert: Maria -\u003e perform -\u003e wear; wear -\u003e target -\u003e hat; hat -\u003e characteristic -\u003e yellow; yellow -\u003e attached -\u003e hat.\n7. Es wurden entsprechende Typkodierungen gefunden: perform (8), target (9), characteristic (14), attached (5).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 14, 5],\n    [0, 9, 5, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027gelben Hut trage\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde ersetzt durch \u0027Maria\u0027.\\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027trage\u0027 → \u0027wear\u0027, \u0027Hut\u0027 → \u0027hat\u0027, \u0027gelb\u0027 → \u0027yellow\u0027.\\n4. Die Identifikation des Nutzers wurde korrekt ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Die Attributeigenschaften wurden wie folgt erklärt: \u0027yellow\u0027 ist eine charakteristische Eigenschaft (characteristic), \u0027hat\u0027 ist ein Objekt (object), \u0027trage\u0027 repräsentiert eine Tätigkeit (activity).\\n6. Die Beziehungen zwischen den Stichwörtern sind wie folgt definiert: Maria -\u003e perform -\u003e wear; wear -\u003e target -\u003e hat; hat -\u003e characteristic -\u003e yellow; yellow -\u003e attached -\u003e hat.\\n7. Es wurden entsprechende Typkodierungen gefunden: perform (8), target (9), characteristic (14), attached (5).\"\n}"
+}

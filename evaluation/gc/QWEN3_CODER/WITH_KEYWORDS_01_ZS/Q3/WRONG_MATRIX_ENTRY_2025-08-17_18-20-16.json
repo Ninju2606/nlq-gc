@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria schwimmt. Maria ist durch den Begriff \u0027maria\u0027 repräsentiert (Typ: object). Die Aktivität des Schwimmens wird durch \u0027swim\u0027 ausgedrückt (Typ: activity). Die Beziehung zwischen Maria und dem Schwimmen wird durch \u0027perform\u0027 dargestellt. Der Pool (\u0027pool\u0027, Typ: object) ist das Ziel der Aktivität, was durch \u0027target\u0027 kodiert ist. Die Beziehung zwischen Maria und dem Pool wird durch \u0027own\u0027 beschrieben, wobei Maria den Pool besitzt (\u0027pool\u0027 ist \u0027attached\u0027 zu \u0027own\u0027).",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 0, 9],\n        [0, 0, 1, 5],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria schwimmt. Maria ist durch den Begriff \u0027maria\u0027 repräsentiert (Typ: object). Die Aktivität des Schwimmens wird durch \u0027swim\u0027 ausgedrückt (Typ: activity). Die Beziehung zwischen Maria und dem Schwimmen wird durch \u0027perform\u0027 dargestellt. Der Pool (\u0027pool\u0027, Typ: object) ist das Ziel der Aktivität, was durch \u0027target\u0027 kodiert ist. Die Beziehung zwischen Maria und dem Pool wird durch \u0027own\u0027 beschrieben, wobei Maria den Pool besitzt (\u0027pool\u0027 ist \u0027attached\u0027 zu \u0027own\u0027).\"\n}\n"
+}

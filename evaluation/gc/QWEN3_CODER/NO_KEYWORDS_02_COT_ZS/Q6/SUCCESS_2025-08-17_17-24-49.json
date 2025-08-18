@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist zu vage und enthält keine spezifischen Szenen-, Objekt-, Aktivitäts- oder Kontextbeschreibungen, die für einen GraphCode notwendig wären. Es fehlen relevante Begriffe zur Erstellung eines Vokabulars und einer Bewertungsmatrix.",
+  "error": "Kein sinnvoller GraphCode konnte generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Kein sinnvoller GraphCode konnte generiert werden.\",\n  \"description\": \"Die Anfrage ist zu vage und enthält keine spezifischen Szenen-, Objekt-, Aktivitäts- oder Kontextbeschreibungen, die für einen GraphCode notwendig wären. Es fehlen relevante Begriffe zur Erstellung eines Vokabulars und einer Bewertungsmatrix.\"\n}\n"
+}

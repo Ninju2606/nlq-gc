@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "meeting",
+    "schedule",
+    "plan"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027Termin\u0027, \u0027ausmachen\u0027 und \u0027bald\u0027, welche im Vokabular als \u0027meeting\u0027, \u0027schedule\u0027 und \u0027plan\u0027 übersetzt wurden. Der Nutzer Maria wird in der Anfrage nicht direkt identifiziert, daher wird ihr Name nicht im Vokabular berücksichtigt. Die Wörter wurden verallgemeinert und auf die in der Anfrage implizierte Aktion ausgerichtet.",
+  "responsePlain": "{\n  \"dictionary\": [\"meeting\", \"schedule\", \"plan\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027Termin\u0027, \u0027ausmachen\u0027 und \u0027bald\u0027, welche im Vokabular als \u0027meeting\u0027, \u0027schedule\u0027 und \u0027plan\u0027 übersetzt wurden. Der Nutzer Maria wird in der Anfrage nicht direkt identifiziert, daher wird ihr Name nicht im Vokabular berücksichtigt. Die Wörter wurden verallgemeinert und auf die in der Anfrage implizierte Aktion ausgerichtet.\"\n}"
+}

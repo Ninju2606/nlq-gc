@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria den Hut trägt. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027hat\u0027 ist eine \u0027activity\u0027, \u0027yellow\u0027 ist ein \u0027synonym\u0027 für eine Farbe, und der zweite Eintrag \u0027hat\u0027 ist der konkrete Gegenstand, ebenfalls vom Typ \u0027object\u0027. Die Beziehung zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist \u0027attached\u0027, um auszudrücken, dass der Hut die Eigenschaft \u0027gelb\u0027 hat.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 3, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria den Hut trägt. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027hat\u0027 ist eine \u0027activity\u0027, \u0027yellow\u0027 ist ein \u0027synonym\u0027 für eine Farbe, und der zweite Eintrag \u0027hat\u0027 ist der konkrete Gegenstand, ebenfalls vom Typ \u0027object\u0027. Die Beziehung zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist \u0027attached\u0027, um auszudrücken, dass der Hut die Eigenschaft \u0027gelb\u0027 hat.\"\n}\n"
+}

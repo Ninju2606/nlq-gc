@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\" und \"rennt\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Tim\" und \"run\".\n        4. Da \"Tim\" nicht auf den Nutzer referenziert, wird die Nutzeridentifikation \"Maria\" nicht eingesetzt. Das Vokabular bleibt unverändert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\" und \\\"rennt\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Tim\\\" und \\\"run\\\".\\n        4. Da \\\"Tim\\\" nicht auf den Nutzer referenziert, wird die Nutzeridentifikation \\\"Maria\\\" nicht eingesetzt. Das Vokabular bleibt unverändert.\"\n}"
+}

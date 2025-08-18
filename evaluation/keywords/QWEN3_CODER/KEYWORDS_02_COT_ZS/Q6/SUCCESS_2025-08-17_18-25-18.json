@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment",
+    "schedule",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer äußert die Notwendigkeit, bald einen Termin auszumachen. Die relevanten Stichwörter wurden identifiziert und ins Englische übersetzt. Die Identifikation des Nutzers (Maria) war nicht erforderlich, da keine selbstreferenzierenden Pronomen wie „ich“ oder „mein“ verwendet wurden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"appointment\", \"schedule\", \"soon\"],\n  \"description\": \"Der Nutzer äußert die Notwendigkeit, bald einen Termin auszumachen. Die relevanten Stichwörter wurden identifiziert und ins Englische übersetzt. Die Identifikation des Nutzers (Maria) war nicht erforderlich, da keine selbstreferenzierenden Pronomen wie „ich“ oder „mein“ verwendet wurden.\"\n}\n"
+}

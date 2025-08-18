@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      8,
+      4,
+      0,
+      9
+    ],
+    [
+      5,
+      0,
+      1,
+      5
+    ],
+    [
+      9,
+      9,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.4375,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt, was der vom Nutzer angegebene Identifikationsname ist. \u0027Meinem\u0027 wurde durch \u0027own\u0027 wiedergegeben, da es sich um den englischen Entsprechung handelt.\n\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des Nutzers und damit vom Typ \u0027object\u0027 (ID 1). \u0027swim\u0027 beschreibt eine Tätigkeit und ist ein \u0027activity\u0027 (ID 4). \u0027own\u0027 drückt einen Besitzzusammenhang aus und wird hier als \u0027attached\u0027 (ID 5) interpretiert. \u0027pool\u0027 beschreibt ein konkretes Objekt und ist daher vom Typ \u0027object\u0027 (ID 1).\n\n3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform, ID 8), \u0027swim\u0027 hat \u0027pool\u0027 als Ziel (target, ID 9). \u0027maria\u0027 besitzt den Pool (\u0027own\u0027, attached, ID 5). \u0027pool\u0027 ist Ziel der Aktivität \u0027swim\u0027. \u0027own\u0027 verknüpft \u0027maria\u0027 mit \u0027pool\u0027.\n\n4. Alle erforderlichen Typkodierungen sind in der Liste vorhanden und wurden entsprechend zugeordnet. Die IDs der verwendeten Typen sind: 1 (object), 4 (activity), 5 (attached), 8 (perform), 9 (target).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [8, 4, 0, 9],\n    [5, 0, 1, 5],\n    [9, 9, 5, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt, was der vom Nutzer angegebene Identifikationsname ist. \u0027Meinem\u0027 wurde durch \u0027own\u0027 wiedergegeben, da es sich um den englischen Entsprechung handelt.\\n\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des Nutzers und damit vom Typ \u0027object\u0027 (ID 1). \u0027swim\u0027 beschreibt eine Tätigkeit und ist ein \u0027activity\u0027 (ID 4). \u0027own\u0027 drückt einen Besitzzusammenhang aus und wird hier als \u0027attached\u0027 (ID 5) interpretiert. \u0027pool\u0027 beschreibt ein konkretes Objekt und ist daher vom Typ \u0027object\u0027 (ID 1).\\n\\n3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform, ID 8), \u0027swim\u0027 hat \u0027pool\u0027 als Ziel (target, ID 9). \u0027maria\u0027 besitzt den Pool (\u0027own\u0027, attached, ID 5). \u0027pool\u0027 ist Ziel der Aktivität \u0027swim\u0027. \u0027own\u0027 verknüpft \u0027maria\u0027 mit \u0027pool\u0027.\\n\\n4. Alle erforderlichen Typkodierungen sind in der Liste vorhanden und wurden entsprechend zugeordnet. Die IDs der verwendeten Typen sind: 1 (object), 4 (activity), 5 (attached), 8 (perform), 9 (target).\"\n}"
+}

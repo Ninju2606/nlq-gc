@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0
+    ],
+    [
+      1,
+      1,
+      9,
+      0
+    ],
+    [
+      4,
+      9,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert eine Szene im Metaverse, in der Maria (Nutzeridentifikation) die Aktivität des Malens durchführt. Die zu malende Objekte sind \"Häuser\" und \"Fragen\". Die Matrix zeigt die Beziehungen: Maria performt (8) das Malen; Malen hat (9) ein Zielobjekt \"Fragen\" und \"Häuser\" wird (5) an das Malen angehängt. Die Typen auf der Diagonalen sind: Objekt (1), Kontext (1), Aktivität (4) und Objekt (1).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"house\", \"question\", \"paint\", \"Maria\"],\n  \"matrix\": [\n    [1, 5, 8, 0],\n    [1, 1, 9, 0],\n    [4, 9, 4, 8],\n    [0, 0, 8, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert eine Szene im Metaverse, in der Maria (Nutzeridentifikation) die Aktivität des Malens durchführt. Die zu malende Objekte sind \\\"Häuser\\\" und \\\"Fragen\\\". Die Matrix zeigt die Beziehungen: Maria performt (8) das Malen; Malen hat (9) ein Zielobjekt \\\"Fragen\\\" und \\\"Häuser\\\" wird (5) an das Malen angehängt. Die Typen auf der Diagonalen sind: Objekt (1), Kontext (1), Aktivität (4) und Objekt (1).\"\n}\n"
+}

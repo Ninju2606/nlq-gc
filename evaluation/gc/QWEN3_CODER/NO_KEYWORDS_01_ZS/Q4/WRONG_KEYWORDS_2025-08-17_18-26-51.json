@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer führt die Aktivität „schwimmen“ im Kontext seines Pools aus. Die Identifikation „Maria“ wurde aus der Nutzeranfrage übernommen und bildet den Subjekt-Knoten. Die Beziehung zwischen „Maria“ und „swim“ ist ‚perform‘, zwischen „swim“ und „pool“ ist es ‚attached‘. Die Diagonaleinträge entsprechen den Einzeltypen: object (Maria), activity (swim), object (pool).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer führt die Aktivität „schwimmen“ im Kontext seines Pools aus. Die Identifikation „Maria“ wurde aus der Nutzeranfrage übernommen und bildet den Subjekt-Knoten. Die Beziehung zwischen „Maria“ und „swim“ ist ‚perform‘, zwischen „swim“ und „pool“ ist es ‚attached‘. Die Diagonaleinträge entsprechen den Einzeltypen: object (Maria), activity (swim), object (pool).\"\n}\n"
+}

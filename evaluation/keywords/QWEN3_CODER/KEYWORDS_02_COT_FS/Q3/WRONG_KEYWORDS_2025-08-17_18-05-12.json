@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\".\n        2. Es gibt einen relativen Verweis: \"der mir gehört\" bezieht sich auf den Nutzer. Die erweiterten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\". \"Ich\" wird später durch den Nutzernamen ersetzt.\n        3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\", \"belong\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\". Das Attribut \"belong\" wird nicht ins Vokabular aufgenommen, da es eine Relation beschreibt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\".\\n        2. Es gibt einen relativen Verweis: \\\"der mir gehört\\\" bezieht sich auf den Nutzer. Die erweiterten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\". \\\"Ich\\\" wird später durch den Nutzernamen ersetzt.\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\". Das Attribut \\\"belong\\\" wird nicht ins Vokabular aufgenommen, da es eine Relation beschreibt.\"\n}"
+}

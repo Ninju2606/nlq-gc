@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da es sich um die explizit angegebene Identifikation des Nutzers handelt. \u0027Meinem\u0027 wurde als Possessivpronomen interpretiert, das auf \u0027maria\u0027 verweist, und mit dem Attribut \u0027own\u0027 ausgedrückt.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist vom Typ \u0027object\u0027, da es eine Person bezeichnet; \u0027swim\u0027 ist eine \u0027activity\u0027, also eine durchgeführte Handlung; \u0027own\u0027 fungiert hier als Objekt (\u0027object\u0027), das eine Besitzbeziehung ausdrückt; \u0027pool\u0027 ist ein konkretes \u0027object\u0027, das Objekt der Szene.\n3. Relationen zwischen den Stichwörtern: maria führt die Aktivität swim aus (Relation mit Typ \u0027perform\u0027 \u003d ID 8). swim hat pool als Ziel (Relation mit Typ \u0027target\u0027 \u003d ID 9). maria besitzt den pool über own (vermittelt durch \u0027meinem\u0027, kodiert als \u0027own\u0027) (Relation mit Typ \u0027attached\u0027 \u003d ID 5).\n4. Alle Relationen haben gültige Typkodierungen: \u0027maria\u0027 (object \u003d 1), \u0027swim\u0027 (activity \u003d 4), \u0027own\u0027 (object \u003d 1), \u0027pool\u0027 (object \u003d 1); \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027attached\u0027 (5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da es sich um die explizit angegebene Identifikation des Nutzers handelt. \u0027Meinem\u0027 wurde als Possessivpronomen interpretiert, das auf \u0027maria\u0027 verweist, und mit dem Attribut \u0027own\u0027 ausgedrückt.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist vom Typ \u0027object\u0027, da es eine Person bezeichnet; \u0027swim\u0027 ist eine \u0027activity\u0027, also eine durchgeführte Handlung; \u0027own\u0027 fungiert hier als Objekt (\u0027object\u0027), das eine Besitzbeziehung ausdrückt; \u0027pool\u0027 ist ein konkretes \u0027object\u0027, das Objekt der Szene.\\n3. Relationen zwischen den Stichwörtern: maria führt die Aktivität swim aus (Relation mit Typ \u0027perform\u0027 \u003d ID 8). swim hat pool als Ziel (Relation mit Typ \u0027target\u0027 \u003d ID 9). maria besitzt den pool über own (vermittelt durch \u0027meinem\u0027, kodiert als \u0027own\u0027) (Relation mit Typ \u0027attached\u0027 \u003d ID 5).\\n4. Alle Relationen haben gültige Typkodierungen: \u0027maria\u0027 (object \u003d 1), \u0027swim\u0027 (activity \u003d 4), \u0027own\u0027 (object \u003d 1), \u0027pool\u0027 (object \u003d 1); \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027attached\u0027 (5).\"\n}"
+}

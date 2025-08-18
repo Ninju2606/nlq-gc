@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria spielt Basketball. Die Beziehung zwischen den Begriffen ergibt sich aus der Aktivität der Nutzerin. Es wurden keine relativen Verweise verwendet. Die Identifikation „Ich“ wurde durch „Maria“ ersetzt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Die Nutzerin Maria spielt Basketball. Die Beziehung zwischen den Begriffen ergibt sich aus der Aktivität der Nutzerin. Es wurden keine relativen Verweise verwendet. Die Identifikation „Ich“ wurde durch „Maria“ ersetzt.\"\n}"
+}

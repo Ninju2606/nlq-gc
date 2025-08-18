@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der relative Verweis „ich“ wurde dem Nutzer „Maria“ zugeordnet. Das Adjektiv „meinem“ zeigt einen Besitzverhältnis-Indikator (ähnlich zu „own“) an.\n2. „Maria“ und „pool“ sind Objekte der Anfrage. „swim“ ist eine Aktivität. „own“ kennzeichnet ein Besitzverhältnis und kann als Objekt- oder Kontextattribut interpretiert werden – hier sinnvoll als Objekt im Sinne einer Relation. \n3. „Maria“ führt die Aktivität „swim“ aus. „swim“ bezieht sich auf „pool“. „own“ steht in Verbindung mit „pool“, d.h. „pool“ gehört „Maria“.  \n4. Die Typkodierung für Objekt (object) ist ID 1. Die Typkodierung für Aktivität (activity) ist ID 4. Die Typkodierung für Beziehen (target) ist ID 9. Die Typkodierung für attached ist ID 5. Alle verwendeten Beziehungen besitzen eine entsprechende Typkodierung.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 0, 9], [0, 0, 1, 5], [0, 0, 0, 1]],\n    \"description\": \"1. Der relative Verweis „ich“ wurde dem Nutzer „Maria“ zugeordnet. Das Adjektiv „meinem“ zeigt einen Besitzverhältnis-Indikator (ähnlich zu „own“) an.\\n2. „Maria“ und „pool“ sind Objekte der Anfrage. „swim“ ist eine Aktivität. „own“ kennzeichnet ein Besitzverhältnis und kann als Objekt- oder Kontextattribut interpretiert werden – hier sinnvoll als Objekt im Sinne einer Relation. \\n3. „Maria“ führt die Aktivität „swim“ aus. „swim“ bezieht sich auf „pool“. „own“ steht in Verbindung mit „pool“, d.h. „pool“ gehört „Maria“.  \\n4. Die Typkodierung für Objekt (object) ist ID 1. Die Typkodierung für Aktivität (activity) ist ID 4. Die Typkodierung für Beziehen (target) ist ID 9. Die Typkodierung für attached ist ID 5. Alle verwendeten Beziehungen besitzen eine entsprechende Typkodierung.\"\n}\n"
+}

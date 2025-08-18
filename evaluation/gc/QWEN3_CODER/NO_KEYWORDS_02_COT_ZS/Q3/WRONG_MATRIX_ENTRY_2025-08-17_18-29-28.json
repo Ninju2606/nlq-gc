@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\"Ich\", \"schwimme\", \"Pool\", \"gehört\", \"mir\"]\n2. Relative Verweise aufgelöst: \"Ich\" → \"Maria\", \"mir\" → \"Maria\"\n3. Stichwörter ins Englische übersetzt: [\"Maria\", \"swim\", \"pool\", \"own\"]\n4. Identifikation des Nutzers ersetzt: \"Maria\" statt \"ich\" oder \"mir\"\n5. Attributeigenschaften erklärt: Maria ist ein Objekt (Typ 1), \"swim\" ist eine Aktivität (Typ 4), \"pool\" ist ein Objekt (Typ 1), \"own\" beschreibt eine Beziehung (Typ 5)\n6. Relationen: Maria führt die Aktivität \"schwimmen\" (perform), \"schwimmen\" findet im \"Pool\" statt (target), der \"Pool\" steht in Beziehung zu Maria durch \"gehört\" (attached)\n7. Typkodierungen gefunden: Maria \u003d Typ 1 (object), swim \u003d Typ 4 (activity), pool \u003d Typ 1 (object), own \u003d Typ 5 (attached). Verknüpfungen: perform \u003d Typ 8, target \u003d Typ 9, attached \u003d Typ 5",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\", \\\"mir\\\"]\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" → \\\"Maria\\\", \\\"mir\\\" → \\\"Maria\\\"\\n3. Stichwörter ins Englische übersetzt: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\"]\\n4. Identifikation des Nutzers ersetzt: \\\"Maria\\\" statt \\\"ich\\\" oder \\\"mir\\\"\\n5. Attributeigenschaften erklärt: Maria ist ein Objekt (Typ 1), \\\"swim\\\" ist eine Aktivität (Typ 4), \\\"pool\\\" ist ein Objekt (Typ 1), \\\"own\\\" beschreibt eine Beziehung (Typ 5)\\n6. Relationen: Maria führt die Aktivität \\\"schwimmen\\\" (perform), \\\"schwimmen\\\" findet im \\\"Pool\\\" statt (target), der \\\"Pool\\\" steht in Beziehung zu Maria durch \\\"gehört\\\" (attached)\\n7. Typkodierungen gefunden: Maria \u003d Typ 1 (object), swim \u003d Typ 4 (activity), pool \u003d Typ 1 (object), own \u003d Typ 5 (attached). Verknüpfungen: perform \u003d Typ 8, target \u003d Typ 9, attached \u003d Typ 5\"\n}"
+}

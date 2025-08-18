@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Meine Tochter\u0027 wurde interpretiert als eine weitere Person im Kontext (\u0027person\u0027), da keine explizite Benennung vorlag. Der Nutzer bezieht sich selbst mit \u0027ich\u0027, was durch die Identifikation \u0027maria\u0027 aufgelöst wurde. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object, id\u003d1), \u0027person\u0027 ist ein Objekt (object, id\u003d1), \u0027drive\u0027 ist eine Aktivität (activity, id\u003d4), \u0027boat\u0027 ist ein Objekt (object, id\u003d1), \u0027lake\u0027 ist ein Kontext (context, id\u003d2). 3. Relationen: Maria fährt Boot -\u003e perform (id\u003d8); Tochter fährt Boot -\u003e perform (id\u003d8); Boot ist auf dem See -\u003e attached (id\u003d5); See ist Kontext -\u003e context (id\u003d2). 4. Alle Relationen sind in den Typkodierungen enthalten. Es wurden keine fehlenden Typkodierungen gefunden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 5],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Meine Tochter\u0027 wurde interpretiert als eine weitere Person im Kontext (\u0027person\u0027), da keine explizite Benennung vorlag. Der Nutzer bezieht sich selbst mit \u0027ich\u0027, was durch die Identifikation \u0027maria\u0027 aufgelöst wurde. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object, id\u003d1), \u0027person\u0027 ist ein Objekt (object, id\u003d1), \u0027drive\u0027 ist eine Aktivität (activity, id\u003d4), \u0027boat\u0027 ist ein Objekt (object, id\u003d1), \u0027lake\u0027 ist ein Kontext (context, id\u003d2). 3. Relationen: Maria fährt Boot -\u003e perform (id\u003d8); Tochter fährt Boot -\u003e perform (id\u003d8); Boot ist auf dem See -\u003e attached (id\u003d5); See ist Kontext -\u003e context (id\u003d2). 4. Alle Relationen sind in den Typkodierungen enthalten. Es wurden keine fehlenden Typkodierungen gefunden.\"\n}\n"
+}

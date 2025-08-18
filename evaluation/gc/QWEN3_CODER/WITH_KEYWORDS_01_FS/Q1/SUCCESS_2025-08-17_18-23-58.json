@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: maria (object) -\u003e perform (play) -\u003e target (basketball).",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: maria (object) -\u003e perform (play) -\u003e target (basketball).\"\n}\n"
+}

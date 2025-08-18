@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 abgeleitet werden, da diese inhaltlich unklar und nicht als Beschreibung einer Szene im Metaverse interpretierbar ist.",
+  "error": "Die Anfrage enthält grammatikalisch wirren oder unklaren Inhalt. Es kann kein sinnvoller GraphCode generiert werden.",
+  "responsePlain": "\n{\n    \"error\": \"Die Anfrage enthält grammatikalisch wirren oder unklaren Inhalt. Es kann kein sinnvoller GraphCode generiert werden.\",\n    \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 abgeleitet werden, da diese inhaltlich unklar und nicht als Beschreibung einer Szene im Metaverse interpretierbar ist.\"\n}\n"
+}

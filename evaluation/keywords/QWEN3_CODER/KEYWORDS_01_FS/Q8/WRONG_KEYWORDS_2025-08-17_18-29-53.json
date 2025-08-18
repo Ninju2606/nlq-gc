@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "travel"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Das Vokabular des GraphCodes enthält die wesentlichen Begriffe aus der Anfrage: die Person (Maria), ihre Tochter, das Medium (Boot), der Ort (See) und die Handlung (Fahren/Reisen).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"travel\"],\n  \"description\": \"Das Vokabular des GraphCodes enthält die wesentlichen Begriffe aus der Anfrage: die Person (Maria), ihre Tochter, das Medium (Boot), der Ort (See) und die Handlung (Fahren/Reisen).\"\n}"
+}

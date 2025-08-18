@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer führt die Aktivität \u0027rennen\u0027 aus. Daher wird die Identifikation des Nutzers \u0027Maria\u0027 verwendet, um die Szene zu repräsentieren, in der Maria rennt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"Der Nutzer führt die Aktivität \u0027rennen\u0027 aus. Daher wird die Identifikation des Nutzers \u0027Maria\u0027 verwendet, um die Szene zu repräsentieren, in der Maria rennt.\"\n}\n"
+}

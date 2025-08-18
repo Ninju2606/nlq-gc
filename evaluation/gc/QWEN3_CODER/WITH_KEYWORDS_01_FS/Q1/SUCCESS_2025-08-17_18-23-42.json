@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Maria führt die Aktivität \u0027play\u0027 (Spielen) mit Basketball als Ziel aus.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n    \"description\": \"Maria führt die Aktivität \u0027play\u0027 (Spielen) mit Basketball als Ziel aus.\"\n}\n"
+}

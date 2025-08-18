@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      0,
+      8,
+      0
+    ],
+    [
+      9,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Maria und \u0027person\u0027 sind über die Beziehung \u0027target\u0027 verbunden, da \u0027person\u0027 auf Maria als Ziel verweist. \u0027drive\u0027 ist eine Aktivität (Typ 4) und steht in Verbindung zum Boot (\u0027boat\u0027) durch die Relation \u0027perform\u0027 (Typ 8). Das Boot befindet sich \u0027above\u0027 (Typ 7) dem See, welcher wiederum den Kontext (\u0027context\u0027, Typ 2) darstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 9, 0, 8, 0],\n    [9, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [8, 0, 0, 1, 6],\n    [0, 0, 0, 7, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Maria und \u0027person\u0027 sind über die Beziehung \u0027target\u0027 verbunden, da \u0027person\u0027 auf Maria als Ziel verweist. \u0027drive\u0027 ist eine Aktivität (Typ 4) und steht in Verbindung zum Boot (\u0027boat\u0027) durch die Relation \u0027perform\u0027 (Typ 8). Das Boot befindet sich \u0027above\u0027 (Typ 7) dem See, welcher wiederum den Kontext (\u0027context\u0027, Typ 2) darstellt.\"\n}"
+}

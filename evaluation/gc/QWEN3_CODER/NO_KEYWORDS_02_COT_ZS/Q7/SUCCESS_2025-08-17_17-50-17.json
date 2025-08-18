@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch nicht eindeutig und enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich direkt in Stichwörter übersetzen lassen. Es fehlen konkrete Hinweise darauf, was \u0027malen\u0027 bezieht sich auf, und wie \u0027Fragen\u0027 und \u0027Häuser\u0027 in Relation stehen. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Unklare Anfragestruktur",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfragestruktur\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch nicht eindeutig und enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich direkt in Stichwörter übersetzen lassen. Es fehlen konkrete Hinweise darauf, was \u0027malen\u0027 bezieht sich auf, und wie \u0027Fragen\u0027 und \u0027Häuser\u0027 in Relation stehen. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

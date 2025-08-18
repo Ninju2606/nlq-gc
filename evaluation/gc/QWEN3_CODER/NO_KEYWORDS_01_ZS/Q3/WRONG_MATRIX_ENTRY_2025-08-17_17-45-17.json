@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der Nutzer führt die Identifikation \u0027Maria\u0027 an und beschreibt eine Szene, in der sie schwimmt. Die Begriffe \u0027swim\u0027 und \u0027pool\u0027 werden in Beziehung gesetzt, wobei \u0027Maria\u0027 die Aktivität \u0027swim\u0027 ausführt. Der Pool gehört dem Nutzer, was durch die Beziehung \u0027own\u0027 ausgedrückt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer führt die Identifikation \u0027Maria\u0027 an und beschreibt eine Szene, in der sie schwimmt. Die Begriffe \u0027swim\u0027 und \u0027pool\u0027 werden in Beziehung gesetzt, wobei \u0027Maria\u0027 die Aktivität \u0027swim\u0027 ausführt. Der Pool gehört dem Nutzer, was durch die Beziehung \u0027own\u0027 ausgedrückt wird.\"\n}"
+}

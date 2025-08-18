@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relative Identifikation \u0027ich\u0027 wurde durch den Nutzernamen \u0027maria\u0027 ersetzt. 2. Die Begriffe wurden wie folgt klassifiziert: \u0027maria\u0027 ist eine Identität (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist eine Relation ohne Identität (attached), und \u0027pool\u0027 ist ein Objekt (object). 3. Die Relationen sind wie folgt: maria führt swim aus (perform), maria besitzt den pool (attached), und der pool ist Zielort der Aktivität swim (target). 4. Alle verwendeten Relationen sind in den Typkodierungen enthalten und korrekt verwendet worden (IDs: 1\u003dobject, 4\u003dactivity, 5\u003dattached, 8\u003dperform, 9\u003dtarget).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relative Identifikation \u0027ich\u0027 wurde durch den Nutzernamen \u0027maria\u0027 ersetzt. 2. Die Begriffe wurden wie folgt klassifiziert: \u0027maria\u0027 ist eine Identität (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist eine Relation ohne Identität (attached), und \u0027pool\u0027 ist ein Objekt (object). 3. Die Relationen sind wie folgt: maria führt swim aus (perform), maria besitzt den pool (attached), und der pool ist Zielort der Aktivität swim (target). 4. Alle verwendeten Relationen sind in den Typkodierungen enthalten und korrekt verwendet worden (IDs: 1\u003dobject, 4\u003dactivity, 5\u003dattached, 8\u003dperform, 9\u003dtarget).\"\n}\n"
+}

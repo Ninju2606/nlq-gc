@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: \u0027Meine Tochter\u0027 wurde interpretiert als eine Person vom Typ \u0027person\u0027, in Beziehung zu \u0027Maria\u0027 (Nutzeridentifikation) über die Relation \u0027daughter\u0027. \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027person\u0027 ist ein Objekt (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2).\n3. Relationen: Maria ist die Tochter der Person (\u0027daughter\u0027, Typ 10). Maria und die Person fahren Boot (\u0027drive\u0027, Typ 8). \u0027drive\u0027 wird auf \u0027boat\u0027 ausgeführt (\u0027target\u0027, Typ 9). Das Boot ist auf dem See (\u0027above\u0027, Typ 7). Der See ist der Kontext der Szene (\u0027context\u0027, Typ 2).\n4. Alle Relationen konnten erfolgreich auf die vorgegebenen Typkodierungen abgebildet werden: object\u003d1, context\u003d2, activity\u003d4, above\u003d7, target\u003d9, daughter\u003d10, perform\u003d8.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 0, 0],\n    [5, 1, 8, 0, 0],\n    [8, 8, 4, 9, 0],\n    [0, 0, 9, 1, 6],\n    [0, 0, 0, 6, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: \u0027Meine Tochter\u0027 wurde interpretiert als eine Person vom Typ \u0027person\u0027, in Beziehung zu \u0027Maria\u0027 (Nutzeridentifikation) über die Relation \u0027daughter\u0027. \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027person\u0027 ist ein Objekt (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2).\\n3. Relationen: Maria ist die Tochter der Person (\u0027daughter\u0027, Typ 10). Maria und die Person fahren Boot (\u0027drive\u0027, Typ 8). \u0027drive\u0027 wird auf \u0027boat\u0027 ausgeführt (\u0027target\u0027, Typ 9). Das Boot ist auf dem See (\u0027above\u0027, Typ 7). Der See ist der Kontext der Szene (\u0027context\u0027, Typ 2).\\n4. Alle Relationen konnten erfolgreich auf die vorgegebenen Typkodierungen abgebildet werden: object\u003d1, context\u003d2, activity\u003d4, above\u003d7, target\u003d9, daughter\u003d10, perform\u003d8.\"\n}"
+}

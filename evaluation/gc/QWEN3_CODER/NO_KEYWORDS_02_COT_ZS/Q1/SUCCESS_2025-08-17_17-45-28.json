@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: [\u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027]. 2. Es wurden keine relativen Verweise gefunden. 3. Die Stichwörter wurden ins Englische übersetzt: [\u0027I\u0027 → \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027]. 4. Die Identifikation des Nutzers wurde ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027. 5. Die Attributierungen sind: \u0027Maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object). 6. Die Beziehungen wurden wie folgt ermittelt: Maria -\u003e führt aus -\u003e play (Typ: perform, ID: 8), play -\u003e Ziel -\u003e basketball (Typ: target, ID: 9). 7. Alle Beziehungen sind durch die vorgegebenen Typkodierungen abgedeckt (IDs: 1, 4, 1, 8, 9, 1).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: [\u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027]. 2. Es wurden keine relativen Verweise gefunden. 3. Die Stichwörter wurden ins Englische übersetzt: [\u0027I\u0027 → \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027]. 4. Die Identifikation des Nutzers wurde ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027. 5. Die Attributierungen sind: \u0027Maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object). 6. Die Beziehungen wurden wie folgt ermittelt: Maria -\u003e führt aus -\u003e play (Typ: perform, ID: 8), play -\u003e Ziel -\u003e basketball (Typ: target, ID: 9). 7. Alle Beziehungen sind durch die vorgegebenen Typkodierungen abgedeckt (IDs: 1, 4, 1, 8, 9, 1).\"\n}\n"
+}

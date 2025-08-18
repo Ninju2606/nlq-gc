@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es ist unklar, ob ein Termin zwischen Personen ausgemacht werden soll oder welche Objekte, Attribute oder Aktivitäten konkret gemeint sind. Daher kann kein GraphCode generiert werden.",
+  "error": "Es können keine sinnvollen Stichwörter ermittelt werden.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\",\n  \"description\": \"Es ist unklar, ob ein Termin zwischen Personen ausgemacht werden soll oder welche Objekte, Attribute oder Aktivitäten konkret gemeint sind. Daher kann kein GraphCode generiert werden.\"\n}"
+}

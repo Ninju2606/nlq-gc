@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run",
+    "Tim"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      4
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      4,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\", \"rennt\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Tim\", \"run\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"run\", \"Tim\".\n        5. \"Maria\" und \"Tim\" sind Objekte der Anfrage. \"run\" ist eine Aktivität.\n        6. \"Tim\" führt die Aktivität \"run\" aus. \"run\" bezieht sich auf \"Tim\". \n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivit채t (activity) ist 4. Die ID f체r Ausf체hren (perform) ist 7. Die ID f체r Beziehen (target) ist 8. Die ID f체r Verbindung (attached) ist 4.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"run\", \"Tim\"],\n    \"matrix\": [[1,7,4],[0,4,8],[4,0,1]],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\", \\\"rennt\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Tim\\\", \\\"run\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"run\\\", \\\"Tim\\\".\\n        5. \\\"Maria\\\" und \\\"Tim\\\" sind Objekte der Anfrage. \\\"run\\\" ist eine Aktivität.\\n        6. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus. \\\"run\\\" bezieht sich auf \\\"Tim\\\". \\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivit채t (activity) ist 4. Die ID f체r Ausf체hren (perform) ist 7. Die ID f체r Beziehen (target) ist 8. Die ID f체r Verbindung (attached) ist 4.\"\n}\n"
+}

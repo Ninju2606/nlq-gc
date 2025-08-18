@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      9,
+      6
+    ],
+    [
+      5,
+      1,
+      8,
+      9,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      6
+    ],
+    [
+      7,
+      7,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.52,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Begriffen unter Berücksichtigung der vorgegebenen Typkodierungen ab.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 9, 6],\n    [5, 1, 8, 9, 6],\n    [0, 0, 4, 9, 0],\n    [0, 0, 9, 1, 6],\n    [7, 7, 0, 7, 2]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Begriffen unter Berücksichtigung der vorgegebenen Typkodierungen ab.\"\n}"
+}

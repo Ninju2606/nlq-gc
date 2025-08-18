@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\"Ich\", \"schwimme\", \"Pool\", \"gehört\", \"mir\"]. 2. Relative Verweise aufgelöst: [\"mir\" → \"Ich\"]. 3. Stichwörter ins Englische übersetzt: [\"Ich\" → \"Maria\" (gemäß Regel, da direkte Referenz auf Nutzer), \"schwimme\" → \"swim\", \"Pool\" → \"pool\", \"gehört mir\" → \"own\"]. 4. Identifikation des Nutzers eingesetzt: \"Ich\" wurde ersetzt durch \"Maria\". Die Attribute oder Relationen selbst tauchen nicht im Vokabular auf, sondern werden später in der Bewertungsmatrix kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\", \\\"mir\\\"]. 2. Relative Verweise aufgelöst: [\\\"mir\\\" → \\\"Ich\\\"]. 3. Stichwörter ins Englische übersetzt: [\\\"Ich\\\" → \\\"Maria\\\" (gemäß Regel, da direkte Referenz auf Nutzer), \\\"schwimme\\\" → \\\"swim\\\", \\\"Pool\\\" → \\\"pool\\\", \\\"gehört mir\\\" → \\\"own\\\"]. 4. Identifikation des Nutzers eingesetzt: \\\"Ich\\\" wurde ersetzt durch \\\"Maria\\\". Die Attribute oder Relationen selbst tauchen nicht im Vokabular auf, sondern werden später in der Bewertungsmatrix kodiert.\"\n}"
+}

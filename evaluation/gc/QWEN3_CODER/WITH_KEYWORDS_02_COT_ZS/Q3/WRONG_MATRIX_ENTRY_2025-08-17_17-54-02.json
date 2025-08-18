@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist eine Besitzbeziehung (attached), \u0027pool\u0027 ist ein Objekt (object). 3. Die Beziehungen sind: Maria führt die Aktivität \u0027swim\u0027 aus (perform), \u0027swim\u0027 findet im \u0027pool\u0027 statt (target), Maria besitzt den \u0027pool\u0027 (attached), \u0027pool\u0027 ist Ziel der Aktivität \u0027swim\u0027 (target). 4. Für alle Beziehungen gibt es passende Typkodierungen: maria (1), swim (4), own (5), pool (1), perform (8), target (9), attached (5).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist eine Besitzbeziehung (attached), \u0027pool\u0027 ist ein Objekt (object). 3. Die Beziehungen sind: Maria führt die Aktivität \u0027swim\u0027 aus (perform), \u0027swim\u0027 findet im \u0027pool\u0027 statt (target), Maria besitzt den \u0027pool\u0027 (attached), \u0027pool\u0027 ist Ziel der Aktivität \u0027swim\u0027 (target). 4. Für alle Beziehungen gibt es passende Typkodierungen: maria (1), swim (4), own (5), pool (1), perform (8), target (9), attached (5).\"\n}\n"
+}

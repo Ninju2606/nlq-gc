@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Maria ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 beschreibt den Besitz (attached, Typ 5) und \u0027pool\u0027 ist ebenfalls ein Objekt (Typ 1). Die Matrix zeigt, dass Maria die Aktivität \u0027swim\u0027 ausführt und der Pool das Ziel (target, Typ 9) dieser Aktivität ist. \u0027own\u0027 verbindet Maria mit dem Pool.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Maria ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 beschreibt den Besitz (attached, Typ 5) und \u0027pool\u0027 ist ebenfalls ein Objekt (Typ 1). Die Matrix zeigt, dass Maria die Aktivität \u0027swim\u0027 ausführt und der Pool das Ziel (target, Typ 9) dieser Aktivität ist. \u0027own\u0027 verbindet Maria mit dem Pool.\"\n}\n"
+}

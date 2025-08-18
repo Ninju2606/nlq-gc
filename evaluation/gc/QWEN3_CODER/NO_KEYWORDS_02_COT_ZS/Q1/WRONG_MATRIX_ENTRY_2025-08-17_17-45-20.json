@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde ersetzt durch die Identifikation des Nutzers \u0027Maria\u0027.\n3. Stichwörter ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Identifikation des Nutzers eingesetzt: \u0027Maria\u0027 statt \u0027Ich\u0027.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\n6. Relationen erklärt: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (perform, Typ 8), \u0027basketball\u0027 ist das Ziel (target, Typ 9) von \u0027play\u0027.\n7. Alle erforderlichen Relationen haben gültige Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde ersetzt durch die Identifikation des Nutzers \u0027Maria\u0027.\\n3. Stichwörter ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Identifikation des Nutzers eingesetzt: \u0027Maria\u0027 statt \u0027Ich\u0027.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n6. Relationen erklärt: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (perform, Typ 8), \u0027basketball\u0027 ist das Ziel (target, Typ 9) von \u0027play\u0027.\\n7. Alle erforderlichen Relationen haben gültige Typkodierungen.\"\n}"
+}

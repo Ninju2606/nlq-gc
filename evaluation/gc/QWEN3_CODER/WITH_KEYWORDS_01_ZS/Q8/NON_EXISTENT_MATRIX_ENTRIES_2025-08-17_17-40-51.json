@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      1,
+      0,
+      8,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Beziehung zwischen Nutzer (Maria) und Person ist \u0027person\u0027 (object), da beide Personen sind. Maria \u0027perform\u0027 (8) die Aktivität \u0027drive\u0027. Die Aktivität \u0027drive\u0027 ist vom Typ \u0027activity\u0027 (4). Das Boot ist das Ziel der Aktivität (\u0027target\u0027 \u003d 9), und der See ist der Kontext (\u0027context\u0027 \u003d 2).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 1, 0, 8, 0],\n    [1, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"GraphCode basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Beziehung zwischen Nutzer (Maria) und Person ist \u0027person\u0027 (object), da beide Personen sind. Maria \u0027perform\u0027 (8) die Aktivität \u0027drive\u0027. Die Aktivität \u0027drive\u0027 ist vom Typ \u0027activity\u0027 (4). Das Boot ist das Ziel der Aktivität (\u0027target\u0027 \u003d 9), und der See ist der Kontext (\u0027context\u0027 \u003d 2).\"\n}\n\n"
+}

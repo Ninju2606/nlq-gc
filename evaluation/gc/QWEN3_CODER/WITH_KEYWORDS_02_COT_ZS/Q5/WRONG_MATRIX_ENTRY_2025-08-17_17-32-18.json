@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer verwendet \u0027ich\u0027 in der Anfrage, was auf seine eigene Identität \u0027Maria\u0027 verweist. Daher wird \u0027Maria\u0027 als Subjekt in die Szene eingebracht. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027: Objekt (Identifikation des Nutzers), \u0027wear\u0027: Aktivität (trägt etwas), \u0027hat\u0027: Objekt (Kopfbedeckung), \u0027yellow\u0027: Attribut (Farbeigenschaft des Hutes). 3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus (Eintrag 8: perform). \u0027hat\u0027 wird getragen (trägt eine Aktivität durch \u0027maria\u0027). \u0027yellow\u0027 ist eine Eigenschaft des \u0027hat\u0027 (Eintrag 5: attached). 4. Alle erforderlichen Relationen sind in den gegebenen Typkodierungen vorhanden: \u0027maria\u0027 (object, ID 1), \u0027wear\u0027 (activity, ID 4), \u0027hat\u0027 (object, ID 1), \u0027yellow\u0027 (attached, ID 5). Die Relationen \u0027perform\u0027 (ID 8) und \u0027attached\u0027 (ID 5) sind korrekt zugewiesen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer verwendet \u0027ich\u0027 in der Anfrage, was auf seine eigene Identität \u0027Maria\u0027 verweist. Daher wird \u0027Maria\u0027 als Subjekt in die Szene eingebracht. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027: Objekt (Identifikation des Nutzers), \u0027wear\u0027: Aktivität (trägt etwas), \u0027hat\u0027: Objekt (Kopfbedeckung), \u0027yellow\u0027: Attribut (Farbeigenschaft des Hutes). 3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus (Eintrag 8: perform). \u0027hat\u0027 wird getragen (trägt eine Aktivität durch \u0027maria\u0027). \u0027yellow\u0027 ist eine Eigenschaft des \u0027hat\u0027 (Eintrag 5: attached). 4. Alle erforderlichen Relationen sind in den gegebenen Typkodierungen vorhanden: \u0027maria\u0027 (object, ID 1), \u0027wear\u0027 (activity, ID 4), \u0027hat\u0027 (object, ID 1), \u0027yellow\u0027 (attached, ID 5). Die Relationen \u0027perform\u0027 (ID 8) und \u0027attached\u0027 (ID 5) sind korrekt zugewiesen.\"\n}"
+}

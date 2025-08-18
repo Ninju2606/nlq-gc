@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "run",
+    "Tim"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027rennt\u0027 (als Verb) und \u0027Tim\u0027 (als Subjekt). Da die Anfrage nicht mit \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 beginnt, wird der Nutzer Maria nicht in das Vokabular übernommen. Die Wörter wurden ins Englische übersetzt: \u0027rennt\u0027 wird zu \u0027run\u0027, \u0027Tim\u0027 bleibt unverändert. Die Identifikation des Nutzers wird ignoriert, da sie nicht referenziert wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"run\", \"Tim\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027rennt\u0027 (als Verb) und \u0027Tim\u0027 (als Subjekt). Da die Anfrage nicht mit \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 beginnt, wird der Nutzer Maria nicht in das Vokabular übernommen. Die Wörter wurden ins Englische übersetzt: \u0027rennt\u0027 wird zu \u0027run\u0027, \u0027Tim\u0027 bleibt unverändert. Die Identifikation des Nutzers wird ignoriert, da sie nicht referenziert wird.\"\n}"
+}

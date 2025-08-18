@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: [\"Ich\", \"spiele\", \"Basketball\"].\n2. Es wurden keine relativen Verweise gefunden.\n3. Die Stichwörter wurden ins Englische übersetzt: [\"I\" → \"Maria\", \"play\", \"basketball\"].\n4. Die Identifikation des Nutzers wurde ersetzt: \"I\" → \"Maria\".\n5. Die Attribut-Eigenschaften wurden erkannt: \"Maria\" ist ein Objekt (object), \"play\" ist eine Aktivität (activity), \"basketball\" ist ein Objekt (object).\n6. Die Relationen wurden bestimmt: Maria führt die Aktivität \"play\" aus (perform), und \"basketball\" ist das Ziel (target) dieser Aktivität.\n7. Es wurden passende Typkodierungen gefunden:\n   - Maria (object): ID 1\n   - play (activity): ID 4\n   - basketball (object): ID 1\n   - perform (Relation Maria → play): ID 8\n   - target (Relation play → basketball): ID 9\n   - perform (Relation basketball → play): ID 8",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 9],\n    [0, 8, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: [\\\"Ich\\\", \\\"spiele\\\", \\\"Basketball\\\"].\\n2. Es wurden keine relativen Verweise gefunden.\\n3. Die Stichwörter wurden ins Englische übersetzt: [\\\"I\\\" → \\\"Maria\\\", \\\"play\\\", \\\"basketball\\\"].\\n4. Die Identifikation des Nutzers wurde ersetzt: \\\"I\\\" → \\\"Maria\\\".\\n5. Die Attribut-Eigenschaften wurden erkannt: \\\"Maria\\\" ist ein Objekt (object), \\\"play\\\" ist eine Aktivität (activity), \\\"basketball\\\" ist ein Objekt (object).\\n6. Die Relationen wurden bestimmt: Maria führt die Aktivität \\\"play\\\" aus (perform), und \\\"basketball\\\" ist das Ziel (target) dieser Aktivität.\\n7. Es wurden passende Typkodierungen gefunden:\\n   - Maria (object): ID 1\\n   - play (activity): ID 4\\n   - basketball (object): ID 1\\n   - perform (Relation Maria → play): ID 8\\n   - target (Relation play → basketball): ID 9\\n   - perform (Relation basketball → play): ID 8\"\n}\n"
+}

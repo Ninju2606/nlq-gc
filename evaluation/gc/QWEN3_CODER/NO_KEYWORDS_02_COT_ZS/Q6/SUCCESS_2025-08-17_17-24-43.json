@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Relationen, die für die Erstellung eines GraphCodes notwendig sind. Es fehlen konkrete inhaltliche Elemente zur Generierung sinnvoller Stichwörter und deren Beziehungen.",
+  "error": "Unklare oder unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Relationen, die für die Erstellung eines GraphCodes notwendig sind. Es fehlen konkrete inhaltliche Elemente zur Generierung sinnvoller Stichwörter und deren Beziehungen.\"\n}"
+}

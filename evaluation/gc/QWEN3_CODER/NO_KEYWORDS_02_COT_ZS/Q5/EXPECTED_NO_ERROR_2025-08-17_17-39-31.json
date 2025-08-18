@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine hinreichend spezifischen oder klaren Beziehungen zwischen den Begriffen, um alle notwendigen Relationen gemäß den vorgegebenen Typkodierungen abzubilden. Insbesondere fehlt eine eindeutige Aktivität oder Handlung, die eine Verbindung zwischen dem Subjekt (Maria) und dem Objekt (gelber Hut) herstellt.",
+  "error": "Kein gültiger GraphCode konnte generiert werden",
+  "responsePlain": "{\n  \"error\": \"Kein gültiger GraphCode konnte generiert werden\",\n  \"description\": \"Die Anfrage enthält keine hinreichend spezifischen oder klaren Beziehungen zwischen den Begriffen, um alle notwendigen Relationen gemäß den vorgegebenen Typkodierungen abzubilden. Insbesondere fehlt eine eindeutige Aktivität oder Handlung, die eine Verbindung zwischen dem Subjekt (Maria) und dem Objekt (gelber Hut) herstellt.\"\n}"
+}

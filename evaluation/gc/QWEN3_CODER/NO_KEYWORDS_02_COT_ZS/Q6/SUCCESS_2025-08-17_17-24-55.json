@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Wir müssen bald einen Termin ausmachen\" enthält keine spezifischen Objekte, Attribute, Aktivitäten oder räumlichen/topologischen Relationen, die sich auf eine Szene im Metaverse beziehen. Ein Termin ist abstrakt und liefert keine Aussagen über darstellbare Szeneninhalte. Daher kann kein GraphCode erstellt werden.",
+  "error": "Kein sinnvoller GraphCode konnte generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Kein sinnvoller GraphCode konnte generiert werden.\",\n  \"description\": \"Die Anfrage \\\"Wir müssen bald einen Termin ausmachen\\\" enthält keine spezifischen Objekte, Attribute, Aktivitäten oder räumlichen/topologischen Relationen, die sich auf eine Szene im Metaverse beziehen. Ein Termin ist abstrakt und liefert keine Aussagen über darstellbare Szeneninhalte. Daher kann kein GraphCode erstellt werden.\"\n}"
+}

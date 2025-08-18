@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0,
+      5
+    ],
+    [
+      5,
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      5,
+      8,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.4375,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist als Objekt (Typ 1) definiert, welches eine Beziehung zu \u0027hat\u0027 (Typ 5, attached) aufweist. \u0027yellow\u0027 ist eine characteristic (Typ 14) des Objekts \u0027hat\u0027 (Typ 1).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 5, 0, 5],\n    [5, 1, 0, 8],\n    [0, 0, 1, 14],\n    [5, 8, 14, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist als Objekt (Typ 1) definiert, welches eine Beziehung zu \u0027hat\u0027 (Typ 5, attached) aufweist. \u0027yellow\u0027 ist eine characteristic (Typ 14) des Objekts \u0027hat\u0027 (Typ 1).\"\n}\n"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "maria"
+  ],
+  "matrix": [
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene: \u0027Ich schwimme in meinem Pool\u0027, wobei \u0027ich\u0027 durch \u0027maria\u0027 ersetzt wird. \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object). Die Beziehung zwischen \u0027maria\u0027 und \u0027schwimme\u0027 ist eine Kontextbeziehung (context), zwischen \u0027schwimme\u0027 und \u0027Pool\u0027 ist eine \u0027attached\u0027-Beziehung.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"maria\"],\n  \"matrix\": [\n    [4, 0, 0],\n    [0, 1, 0],\n    [0, 5, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene: \u0027Ich schwimme in meinem Pool\u0027, wobei \u0027ich\u0027 durch \u0027maria\u0027 ersetzt wird. \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object). Die Beziehung zwischen \u0027maria\u0027 und \u0027schwimme\u0027 ist eine Kontextbeziehung (context), zwischen \u0027schwimme\u0027 und \u0027Pool\u0027 ist eine \u0027attached\u0027-Beziehung.\"\n}"
+}

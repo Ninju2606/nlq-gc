@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 abgeleitet werden, da diese grammatikalisch verwirrend ist und keine klare Szenenbeschreibung darstellt. Daher ist die Generierung eines GraphCodes nicht möglich.",
+  "error": "Die Anfrage enthält unklare oder mehrdeutige Begriffe, die keine direkte semantische Entsprechung in den Typkodierungen haben.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält unklare oder mehrdeutige Begriffe, die keine direkte semantische Entsprechung in den Typkodierungen haben.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 abgeleitet werden, da diese grammatikalisch verwirrend ist und keine klare Szenenbeschreibung darstellt. Daher ist die Generierung eines GraphCodes nicht möglich.\"\n}"
+}

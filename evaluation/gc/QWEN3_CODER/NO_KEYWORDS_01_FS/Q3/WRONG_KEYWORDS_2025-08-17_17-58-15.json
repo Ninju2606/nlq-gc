@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      4
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria im Pool schwimmt. Die Beziehung \u0027perform\u0027 zeigt, dass Maria die Aktivität \u0027swim\u0027 ausführt. Die Beziehung \u0027target\u0027 zeigt, dass \u0027swim\u0027 auf \u0027pool\u0027 zielt. Die Einträge auf der Diagonale definieren die Begriffe: \u0027Maria\u0027 ist eine Person (object), \u0027swim\u0027 ist eine Aktivität (activity) und \u0027pool\u0027 ist ein Objekt (object).",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"matrix\": [\n        [1, 7, 4],\n        [0, 4, 8],\n        [0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria im Pool schwimmt. Die Beziehung \u0027perform\u0027 zeigt, dass Maria die Aktivität \u0027swim\u0027 ausführt. Die Beziehung \u0027target\u0027 zeigt, dass \u0027swim\u0027 auf \u0027pool\u0027 zielt. Die Einträge auf der Diagonale definieren die Begriffe: \u0027Maria\u0027 ist eine Person (object), \u0027swim\u0027 ist eine Aktivität (activity) und \u0027pool\u0027 ist ein Objekt (object).\"\n}\n"
+}

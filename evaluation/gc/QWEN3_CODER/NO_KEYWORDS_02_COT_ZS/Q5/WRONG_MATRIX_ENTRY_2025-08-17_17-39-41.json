@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      14,
+      0
+    ],
+    [
+      0,
+      14,
+      1,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\"ich\", \"gelben\", \"Hut\", \"trage\"].\n2. Relative Verweise aufgelöst: \"ich\" → \"Maria\".\n3. Stichwörter ins Englische übersetzt: [\"Maria\", \"yellow\", \"hat\", \"wear\"].\n4. Identifikation des Nutzers ersetzt: \"ich\" → \"Maria\".\n5. Attributeigenschaften erklärt: \"yellow\" ist eine charakteristische Eigenschaft (characteristic) des \"hat\".\n6. Relationen erklärt: Maria trägt (perform) den Hut; der Hut ist Ziel (target) der Handlung; der Hut ist gelb (characteristic).\n7. Alle Relationen entsprechen Typkodierungen: perform\u003d8, target\u003d9, characteristic\u003d14. Identitäts-Typen sind korrekt: object\u003d1.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 1, 14, 0],\n    [0, 14, 1, 0],\n    [9, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\\\"ich\\\", \\\"gelben\\\", \\\"Hut\\\", \\\"trage\\\"].\\n2. Relative Verweise aufgelöst: \\\"ich\\\" → \\\"Maria\\\".\\n3. Stichwörter ins Englische übersetzt: [\\\"Maria\\\", \\\"yellow\\\", \\\"hat\\\", \\\"wear\\\"].\\n4. Identifikation des Nutzers ersetzt: \\\"ich\\\" → \\\"Maria\\\".\\n5. Attributeigenschaften erklärt: \\\"yellow\\\" ist eine charakteristische Eigenschaft (characteristic) des \\\"hat\\\".\\n6. Relationen erklärt: Maria trägt (perform) den Hut; der Hut ist Ziel (target) der Handlung; der Hut ist gelb (characteristic).\\n7. Alle Relationen entsprechen Typkodierungen: perform\u003d8, target\u003d9, characteristic\u003d14. Identitäts-Typen sind korrekt: object\u003d1.\"\n}"
+}

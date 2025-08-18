@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt.\n3. Stichwörter ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Nutzeridentifikation ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027: Typ \u0027object\u0027 (Person/Objekt).\n   - \u0027play\u0027: Typ \u0027activity\u0027 (Tätigkeit).\n   - \u0027basketball\u0027: Typ \u0027object\u0027 (Sportart/Szene).\n6. Relationen:\n   - \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relationstyp: perform, ID: 8).\n   - \u0027play\u0027 ist die Tätigkeit im Kontext von \u0027basketball\u0027 (keine explizite Kodierung notwendig, daher 0).\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1).\n7. Prüfung der Typkodierungen: Alle verwendeten Relationen und Attribute haben gültige Einträge in den Typkodierungen.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt.\\n3. Stichwörter ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Nutzeridentifikation ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027: Typ \u0027object\u0027 (Person/Objekt).\\n   - \u0027play\u0027: Typ \u0027activity\u0027 (Tätigkeit).\\n   - \u0027basketball\u0027: Typ \u0027object\u0027 (Sportart/Szene).\\n6. Relationen:\\n   - \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relationstyp: perform, ID: 8).\\n   - \u0027play\u0027 ist die Tätigkeit im Kontext von \u0027basketball\u0027 (keine explizite Kodierung notwendig, daher 0).\\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n7. Prüfung der Typkodierungen: Alle verwendeten Relationen und Attribute haben gültige Einträge in den Typkodierungen.\"\n}\n"
+}

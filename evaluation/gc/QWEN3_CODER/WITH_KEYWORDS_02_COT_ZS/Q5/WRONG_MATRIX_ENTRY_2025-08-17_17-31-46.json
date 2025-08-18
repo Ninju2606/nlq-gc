@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer verwendet \u0027ich\u0027 in der Anfrage, was auf seine eigene Person (Maria) verweist. Daher wird \u0027maria\u0027 als Begriff aufgenommen. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des Nutzers und wird als Objekt klassifiziert. \u0027wear\u0027 beschreibt eine Aktivität. \u0027hat\u0027 ist ein Objekt. \u0027yellow\u0027 ist eine Eigenschaft bzw. Merkmal des Objekts \u0027hat\u0027. 3. Relationen: maria -\u003e perform -\u003e wear (Typ 8), wear -\u003e target -\u003e hat (nicht direkt, aber implizit über Aktivität), hat -\u003e attached -\u003e yellow (Typ 5), yellow -\u003e characteristic -\u003e (kein direkter Verweis nötig, aber Eigenwert-Typ). 4. Alle Relationen sind durch die bereitgestellten Typkodierungen abgedeckt: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027attached\u0027 (5), \u0027perform\u0027 (8). 5. Der GraphCode wurde entsprechend zusammengesetzt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer verwendet \u0027ich\u0027 in der Anfrage, was auf seine eigene Person (Maria) verweist. Daher wird \u0027maria\u0027 als Begriff aufgenommen. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des Nutzers und wird als Objekt klassifiziert. \u0027wear\u0027 beschreibt eine Aktivität. \u0027hat\u0027 ist ein Objekt. \u0027yellow\u0027 ist eine Eigenschaft bzw. Merkmal des Objekts \u0027hat\u0027. 3. Relationen: maria -\u003e perform -\u003e wear (Typ 8), wear -\u003e target -\u003e hat (nicht direkt, aber implizit über Aktivität), hat -\u003e attached -\u003e yellow (Typ 5), yellow -\u003e characteristic -\u003e (kein direkter Verweis nötig, aber Eigenwert-Typ). 4. Alle Relationen sind durch die bereitgestellten Typkodierungen abgedeckt: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027attached\u0027 (5), \u0027perform\u0027 (8). 5. Der GraphCode wurde entsprechend zusammengesetzt.\"\n}\n"
+}

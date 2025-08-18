@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Der Nutzer verwendet das Pronomen \u0027ich\u0027, was auf die angegebene Identifikation \u0027Maria\u0027 verweist. Daher wird \u0027Maria\u0027 als Subjekt in die GraphCode-Repräsentation übernommen.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1, object). \u0027wear\u0027 ist eine Aktivität (Typ 4, activity). \u0027hat\u0027 ist ein Objekt (Typ 1, object). \u0027yellow\u0027 ist eine Eigenschaft (Typ 14, characteristic).\n3. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027wear\u0027 aus (perform, Typ 8), \u0027hat\u0027 ist das Ziel der Aktivität \u0027wear\u0027 (target, Typ 9 - hier implizit durch Semantik). \u0027yellow\u0027 ist eine Eigenschaft von \u0027hat\u0027 (attached, Typ 5).\n4. Verfügbarkeit der Typkodierungen: Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen vorhanden. \u0027perform\u0027 (8) und \u0027attached\u0027 (5) sind korrekt zugeordnet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Der Nutzer verwendet das Pronomen \u0027ich\u0027, was auf die angegebene Identifikation \u0027Maria\u0027 verweist. Daher wird \u0027Maria\u0027 als Subjekt in die GraphCode-Repräsentation übernommen.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1, object). \u0027wear\u0027 ist eine Aktivität (Typ 4, activity). \u0027hat\u0027 ist ein Objekt (Typ 1, object). \u0027yellow\u0027 ist eine Eigenschaft (Typ 14, characteristic).\\n3. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027wear\u0027 aus (perform, Typ 8), \u0027hat\u0027 ist das Ziel der Aktivität \u0027wear\u0027 (target, Typ 9 - hier implizit durch Semantik). \u0027yellow\u0027 ist eine Eigenschaft von \u0027hat\u0027 (attached, Typ 5).\\n4. Verfügbarkeit der Typkodierungen: Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen vorhanden. \u0027perform\u0027 (8) und \u0027attached\u0027 (5) sind korrekt zugeordnet.\"\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die im Vokabular spezifizierten Begriffe \u0027Maria\u0027 und \u0027run\u0027, da der Nutzer in der Anfrage angibt, dass Tim rennt, und der Nutzer identifiziert sich als Maria. Da \u0027Tim\u0027 nicht als selbst identifizierendes Wort vorkommt, wird die Identität des Nutzers verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"description\": \"Der GraphCode enthält die im Vokabular spezifizierten Begriffe \u0027Maria\u0027 und \u0027run\u0027, da der Nutzer in der Anfrage angibt, dass Tim rennt, und der Nutzer identifiziert sich als Maria. Da \u0027Tim\u0027 nicht als selbst identifizierendes Wort vorkommt, wird die Identität des Nutzers verwendet.\"\n}"
+}

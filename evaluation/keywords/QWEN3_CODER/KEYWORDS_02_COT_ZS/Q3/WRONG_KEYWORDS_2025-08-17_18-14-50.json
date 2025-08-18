@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027schwimme\u0027, \u0027Pool\u0027 und \u0027gehört\u0027. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da der Nutzer sich auf sich selbst bezieht. Die Wörter wurden ins Englische übersetzt: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e \u0027own\u0027. Die Einträge in der Bewertungsmatrix würden die Beziehungen zwischen diesen Begriffen kodieren, aber sie sind nicht im Vokabular enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027schwimme\u0027, \u0027Pool\u0027 und \u0027gehört\u0027. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da der Nutzer sich auf sich selbst bezieht. Die Wörter wurden ins Englische übersetzt: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e \u0027own\u0027. Die Einträge in der Bewertungsmatrix würden die Beziehungen zwischen diesen Begriffen kodieren, aber sie sind nicht im Vokabular enthalten.\"\n}"
+}

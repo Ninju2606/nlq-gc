@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter oder Relationen aus der Eingabe abgeleitet werden.",
+  "error": "Die Anfrage ist zu kurz und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren. Bitte formuliere eine detailliertere Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist zu kurz und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren. Bitte formuliere eine detailliertere Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter oder Relationen aus der Eingabe abgeleitet werden.\"\n}"
+}

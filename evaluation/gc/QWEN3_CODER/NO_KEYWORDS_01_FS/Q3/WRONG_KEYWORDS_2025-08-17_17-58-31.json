@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      6
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Szene zeigt Maria, die in einem Pool schwimmt. Die Beziehung zwischen Maria und swim wird durch \u0027perform\u0027 dargestellt, und zwischen swim und pool durch \u0027target\u0027.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"matrix\": [[1, 7, 6], [0, 9, 8], [0, 0, 1]],\n    \"description\": \"Die Szene zeigt Maria, die in einem Pool schwimmt. Die Beziehung zwischen Maria und swim wird durch \u0027perform\u0027 dargestellt, und zwischen swim und pool durch \u0027target\u0027.\"\n}\n"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Es liegen keine relativen Verweise vor.\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Nutzeridentifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Der Begriff \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object).\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (perform), \u0027play\u0027 hat das Zielobjekt \u0027basketball\u0027 (target).\n7. Für alle ermittelten Relationen existieren passende Typkodierungen mit identityMapping\u003dfalse außerhalb der Diagonalen und korrekten identityMapping\u003dTrue-Werten auf der Diagonale.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Es liegen keine relativen Verweise vor.\\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Nutzeridentifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Der Begriff \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object).\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (perform), \u0027play\u0027 hat das Zielobjekt \u0027basketball\u0027 (target).\\n7. Für alle ermittelten Relationen existieren passende Typkodierungen mit identityMapping\u003dfalse außerhalb der Diagonalen und korrekten identityMapping\u003dTrue-Werten auf der Diagonale.\"\n}"
+}

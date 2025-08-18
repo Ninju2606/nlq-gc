@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\"schwimme\", \"Pool\", \"gehört\", \"mir\"]. 2. Relative Verweise aufgelöst: [\"mir\" → \"Maria\"]. 3. Stichwörter ins Englische übersetzt: [\"schwimme\" → \"swim\", \"Pool\" → \"pool\", \"gehört\" → \"own\"]. 4. Identifikation des Nutzers ersetzt: [\"mir\" → \"Maria\"], somit wird \"swim\", \"pool\", und \"Maria\" verwendet. \"own\" entfällt, da es keine eigenständige Entität im Vokabular darstellt und nur relationale Information trägt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\", \\\"mir\\\"]. 2. Relative Verweise aufgelöst: [\\\"mir\\\" → \\\"Maria\\\"]. 3. Stichwörter ins Englische übersetzt: [\\\"schwimme\\\" → \\\"swim\\\", \\\"Pool\\\" → \\\"pool\\\", \\\"gehört\\\" → \\\"own\\\"]. 4. Identifikation des Nutzers ersetzt: [\\\"mir\\\" → \\\"Maria\\\"], somit wird \\\"swim\\\", \\\"pool\\\", und \\\"Maria\\\" verwendet. \\\"own\\\" entfällt, da es keine eigenständige Entität im Vokabular darstellt und nur relationale Information trägt.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027Häuser\u0027, \u0027um Fragen\u0027 und \u0027zu malen\u0027. Da keine Selbst-Identifikatoren wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Identifikation des Nutzers (Maria) nicht im Vokabular verwendet. Die Wörter wurden ins Englische übersetzt: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027. Relative Verweise wurden aufgelöst und die verwendeten Begriffe sind Objekte, Attribute und Aktivitäten, die zur Beschreibung einer Szene im Metaverse passen.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027Häuser\u0027, \u0027um Fragen\u0027 und \u0027zu malen\u0027. Da keine Selbst-Identifikatoren wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Identifikation des Nutzers (Maria) nicht im Vokabular verwendet. Die Wörter wurden ins Englische übersetzt: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027. Relative Verweise wurden aufgelöst und die verwendeten Begriffe sind Objekte, Attribute und Aktivitäten, die zur Beschreibung einer Szene im Metaverse passen.\"\n}"
+}

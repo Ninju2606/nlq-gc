@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die umgewandelte Anfrage in eine typcodierte Adjazenzmatrix (GraphCode) als JSON-Objekt:\n\n\n{\n  \"dictionary\": [\n    \"Situationen\",\n    \"ich\",\n    \"einen\",\n    \"gelben\",\n    \"Hut\",\n    \"trage\"\n  ],\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erläuterung:\nDa die Anfrage **„Zeig mir Situationen, in denen ich einen gelben Hut trage“** lediglich beschreibt, was du sehen willst (ein Bild oder eine Liste von Situationen), keine expliziten Beziehungen zwischen den Begriffen („Situationen“, „ich“, „gelber Hut“, „trage“) im Sinne von semantischen Relationen wie *object*, *context*, *synonym*, *activity*, etc. enthalten, ist die Adjazenzmatrix mit Nullen gefüllt.\n\nFalls du eine andere Interpretation oder eine detailliertere Semantik der Beziehungen hättest, kann ich die Matrix entsprechend anpassen."
+}

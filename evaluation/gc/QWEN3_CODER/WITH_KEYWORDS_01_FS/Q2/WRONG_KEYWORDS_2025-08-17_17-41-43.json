@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria beobachtet, wie Tim rennt. \u0027Maria\u0027 ist das Subjekt, das die Handlung ausführt oder im Zusammenhang steht (\u0027perform\u0027). \u0027Tim\u0027 ist ebenfalls als Objekt im Vokabular enthalten und wird als Ziel (\u0027target\u0027) der Aktivität \u0027run\u0027 gesehen. Die Aktivität selbst ist \u0027run\u0027, was als eigenständige Tätigkeit dargestellt wird.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n    \"matrix\": [[1, 8, 0], [0, 1, 7], [0, 0, 4]],\n    \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria beobachtet, wie Tim rennt. \u0027Maria\u0027 ist das Subjekt, das die Handlung ausführt oder im Zusammenhang steht (\u0027perform\u0027). \u0027Tim\u0027 ist ebenfalls als Objekt im Vokabular enthalten und wird als Ziel (\u0027target\u0027) der Aktivität \u0027run\u0027 gesehen. Die Aktivität selbst ist \u0027run\u0027, was als eigenständige Tätigkeit dargestellt wird.\"\n}\n"
+}

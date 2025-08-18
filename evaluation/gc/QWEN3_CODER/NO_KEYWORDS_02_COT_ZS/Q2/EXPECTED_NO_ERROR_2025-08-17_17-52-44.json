@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält nicht genügend Informationen, um sinnvolle Relationen oder ein Szenario im Metaverse zu beschreiben. Ein GraphCode kann nicht erstellt werden.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält nicht genügend Informationen, um sinnvolle Relationen oder ein Szenario im Metaverse zu beschreiben. Ein GraphCode kann nicht erstellt werden.\"\n}"
+}

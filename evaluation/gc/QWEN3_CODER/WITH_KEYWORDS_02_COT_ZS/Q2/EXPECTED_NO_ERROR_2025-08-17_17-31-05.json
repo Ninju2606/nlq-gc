@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält keine Hinweise auf relative Verweise, kontextuelle Relationen oder weitere Begriffe, die eine sinnvolle Bewertungsmatrix ermöglichen. Es fehlen z. B. Angaben zum Kontext, zur Aktivität oder zu Beziehungen zwischen den Begriffen jenseits der einfachen Nennung. Daher kann kein vollständiger und korrekter GraphCode generiert werden.",
+  "error": "Unvollständige Informationen zur Erstellung eines gültigen GraphCodes.",
+  "responsePlain": "\n{\n  \"error\": \"Unvollständige Informationen zur Erstellung eines gültigen GraphCodes.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält keine Hinweise auf relative Verweise, kontextuelle Relationen oder weitere Begriffe, die eine sinnvolle Bewertungsmatrix ermöglichen. Es fehlen z. B. Angaben zum Kontext, zur Aktivität oder zu Beziehungen zwischen den Begriffen jenseits der einfachen Nennung. Daher kann kein vollständiger und korrekter GraphCode generiert werden.\"\n}\n"
+}

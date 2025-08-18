@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Vokabulareinträge für die Suchanfrage, wobei \u0027Maria\u0027 als Identifikation des Nutzers verwendet wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Der GraphCode enthält die Vokabulareinträge für die Suchanfrage, wobei \u0027Maria\u0027 als Identifikation des Nutzers verwendet wird.\"\n}"
+}

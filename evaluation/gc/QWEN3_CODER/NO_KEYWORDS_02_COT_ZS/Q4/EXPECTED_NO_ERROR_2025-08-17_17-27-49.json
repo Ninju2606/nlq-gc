@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält keine ausreichenden Informationen zur Bestimmung der erforderlichen Relationen und Attribute. Insbesondere kann die räumliche oder funktionale Beziehung zwischen den Begriffen nicht eindeutig bestimmt werden, um gültige Typkodierungen zuzuordnen. Daher ist die Generierung eines GraphCodes nicht möglich.",
+  "error": "Es konnte kein GraphCode generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Es konnte kein GraphCode generiert werden.\",\n  \"description\": \"Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält keine ausreichenden Informationen zur Bestimmung der erforderlichen Relationen und Attribute. Insbesondere kann die räumliche oder funktionale Beziehung zwischen den Begriffen nicht eindeutig bestimmt werden, um gültige Typkodierungen zuzuordnen. Daher ist die Generierung eines GraphCodes nicht möglich.\"\n}\n"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria beobachtet, wie Tim rennt. \u0027Maria\u0027 ist als Beobachter identifiziert, \u0027tim\u0027 ist das Objekt, das die Aktivität \u0027run\u0027 ausführt.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n    \"matrix\": [[1, 0, 8], [0, 1, 4], [0, 0, 9]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria beobachtet, wie Tim rennt. \u0027Maria\u0027 ist als Beobachter identifiziert, \u0027tim\u0027 ist das Objekt, das die Aktivität \u0027run\u0027 ausführt.\"\n}\n"
+}

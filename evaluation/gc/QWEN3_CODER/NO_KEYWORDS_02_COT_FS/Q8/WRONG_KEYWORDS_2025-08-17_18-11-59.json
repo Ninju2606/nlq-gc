@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\".\n        2. \"Meine Tochter\" ist ein relativer Verweis. \"Ich\" entspricht der Nutzeridentifikation. Die neuen Stichwörter sind \"Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\". Dabei ist \"Tochter\" die Tochter von \"ich\".\n        3. Die englischen Stichwörter sind \"daughter\", \"I\", \"drive\", \"boat\", \"lake\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\".\n        5. \"Maria\", \"daughter\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität.\n        6. \"daughter\" ist Tochter von \"Maria\". \"Maria\" und \"daughter\" führen die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich auf \"lake\".\n        7. Es wurden alle benötigten Relationen gefunden: Objekt (object) \u003d 1, Tochter (daughter) \u003d 10, Aktivität (activity) \u003d 4, Ausführen (perform) \u003d 7, Beziehung (attached) \u003d 0 (keine direkte Beziehung zwischen Maria und Tochter im Graph), Zielen (target) \u003d 8, Auf (above) \u003d 0, In (in) \u003d 6 (angenommen See ist ein Kontext, aber hier als Objekt behandelt).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n        2. \\\"Meine Tochter\\\" ist ein relativer Verweis. \\\"Ich\\\" entspricht der Nutzeridentifikation. Die neuen Stichwörter sind \\\"Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\". Dabei ist \\\"Tochter\\\" die Tochter von \\\"ich\\\".\\n        3. Die englischen Stichwörter sind \\\"daughter\\\", \\\"I\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\\n        5. \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\\n        6. \\\"daughter\\\" ist Tochter von \\\"Maria\\\". \\\"Maria\\\" und \\\"daughter\\\" führen die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\\n        7. Es wurden alle benötigten Relationen gefunden: Objekt (object) \u003d 1, Tochter (daughter) \u003d 10, Aktivität (activity) \u003d 4, Ausführen (perform) \u003d 7, Beziehung (attached) \u003d 0 (keine direkte Beziehung zwischen Maria und Tochter im Graph), Zielen (target) \u003d 8, Auf (above) \u003d 0, In (in) \u003d 6 (angenommen See ist ein Kontext, aber hier als Objekt behandelt).\"\n}"
+}

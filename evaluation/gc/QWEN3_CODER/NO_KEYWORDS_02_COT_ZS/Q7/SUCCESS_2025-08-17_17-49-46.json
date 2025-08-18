@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und inhaltlich unklar. Es lassen sich keine sinnvollen Stichwörter oder Relationen ableiten, die eine valide GraphCode-Generierung ermöglichen würden.",
+  "error": "Unklare Anfragestruktur",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfragestruktur\",\n  \"description\": \"Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und inhaltlich unklar. Es lassen sich keine sinnvollen Stichwörter oder Relationen ableiten, die eine valide GraphCode-Generierung ermöglichen würden.\"\n}"
+}

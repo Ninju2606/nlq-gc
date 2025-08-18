@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt eine Szene, in der Maria Basketball spielt. Daher sind die Begriffe \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027 im Vokabular enthalten.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Die Anfrage beschreibt eine Szene, in der Maria Basketball spielt. Daher sind die Begriffe \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027 im Vokabular enthalten.\"\n}\n"
+}

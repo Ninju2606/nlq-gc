@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die sich auf eine Szene im Metaverse beziehen. Daher kann kein GraphCode generiert werden.",
+  "error": "Keine relevanten Stichwörter gefunden, die zur Generierung eines GraphCodes geeignet wären.",
+  "responsePlain": "{\n  \"error\": \"Keine relevanten Stichwörter gefunden, die zur Generierung eines GraphCodes geeignet wären.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die sich auf eine Szene im Metaverse beziehen. Daher kann kein GraphCode generiert werden.\"\n}\n"
+}

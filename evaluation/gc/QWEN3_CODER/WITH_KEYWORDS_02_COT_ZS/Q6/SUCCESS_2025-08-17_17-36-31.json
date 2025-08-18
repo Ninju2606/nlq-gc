@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist zu vage und bezieht sich nicht auf eine spezifische Szene mit erkennbaren Elementen wie Objekten, Attributen oder Aktivitäten. Daher kann kein sinnvoller GraphCode erstellt werden.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen zur Beschreibung einer Szene im Metaverse. Sie drückt lediglich einen Wunsch nach Terminvereinbarung aus, ohne spezifische Objekte, Attribute oder Aktivitäten zu nennen, die für die Generierung eines GraphCodes notwendig wären.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen zur Beschreibung einer Szene im Metaverse. Sie drückt lediglich einen Wunsch nach Terminvereinbarung aus, ohne spezifische Objekte, Attribute oder Aktivitäten zu nennen, die für die Generierung eines GraphCodes notwendig wären.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist zu vage und bezieht sich nicht auf eine spezifische Szene mit erkennbaren Elementen wie Objekten, Attributen oder Aktivitäten. Daher kann kein sinnvoller GraphCode erstellt werden.\"\n}"
+}

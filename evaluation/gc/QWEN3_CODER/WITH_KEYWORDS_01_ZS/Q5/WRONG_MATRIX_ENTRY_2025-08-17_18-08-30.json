@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria einen gelben Hut trägt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: Maria (Person) führt die Aktivität \u0027tragen\u0027 (perform) mit dem Objekt \u0027Hut\u0027 (object), der die Eigenschaft \u0027gelb\u0027 (characteristic) zugeordnet ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 14],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria einen gelben Hut trägt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: Maria (Person) führt die Aktivität \u0027tragen\u0027 (perform) mit dem Objekt \u0027Hut\u0027 (object), der die Eigenschaft \u0027gelb\u0027 (characteristic) zugeordnet ist.\"\n}"
+}

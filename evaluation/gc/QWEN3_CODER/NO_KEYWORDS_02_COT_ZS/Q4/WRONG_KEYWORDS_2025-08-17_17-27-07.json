@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      6
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027meinem\u0027 -\u003e \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027.\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027schwimme\u0027 ist eine Aktivität (Typ 4), \u0027Pool\u0027 ist ein Objekt (Typ 1).\n6. Relationen erklärt: Maria performt das Schwimmen (Typ 8 - perform), das Schwimmen hat den Pool als Ziel (Typ 9 - target), Maria befindet sich unterhalb des Pools (Typ 6 - under – hier implizit interpretiert als Position im Kontext des Pools, alternativ könnte attached oder above sinnvoll sein, hier im Sinne des Sitzens/Bewegens im Pool \u0027under\u0027 gewählt).\n7. Alle Relationen entsprechen existierenden Typkodierungen.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 6],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027meinem\u0027 -\u003e \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027.\\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027schwimme\u0027 ist eine Aktivität (Typ 4), \u0027Pool\u0027 ist ein Objekt (Typ 1).\\n6. Relationen erklärt: Maria performt das Schwimmen (Typ 8 - perform), das Schwimmen hat den Pool als Ziel (Typ 9 - target), Maria befindet sich unterhalb des Pools (Typ 6 - under – hier implizit interpretiert als Position im Kontext des Pools, alternativ könnte attached oder above sinnvoll sein, hier im Sinne des Sitzens/Bewegens im Pool \u0027under\u0027 gewählt).\\n7. Alle Relationen entsprechen existierenden Typkodierungen.\"\n}\n"
+}

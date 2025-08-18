@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es fehlt eine spezifizierte Beziehung zwischen den Begriffen, die einem nicht-identityMapping Typ zugeordnet werden könnte. Daher kann die Bewertungsmatrix nicht erstellt werden.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen zur Generierung eines GraphCodes, da keine Beziehung zwischen den Begriffen \u0027tim\u0027 und \u0027run\u0027 abgeleitet werden kann, die einem der definierten Typen außerhalb der Diagonalen entspricht.",
+  "responsePlain": "\n{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen zur Generierung eines GraphCodes, da keine Beziehung zwischen den Begriffen \u0027tim\u0027 und \u0027run\u0027 abgeleitet werden kann, die einem der definierten Typen außerhalb der Diagonalen entspricht.\",\n  \"description\": \"Es fehlt eine spezifizierte Beziehung zwischen den Begriffen, die einem nicht-identityMapping Typ zugeordnet werden könnte. Daher kann die Bewertungsmatrix nicht erstellt werden.\"\n}\n"
+}

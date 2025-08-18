@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \u0027ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027meinem\u0027 verweisen auf den Nutzer \u0027Maria\u0027.\n3. Die ermittelten Stichwörter werden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027.\n4. Die Identifikation des Nutzers ersetzt die relativen Verweise: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Die Attributeigenschaften sind: \u0027Maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object).\n6. Die Relationen sind: Maria führt die Aktivität \u0027swim\u0027 aus (perform), Maria ist im/attached zu \u0027pool\u0027 (attached).\n7. Alle Relationen haben gültige Typkodierungen: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027object\u0027 (1) auf der Diagonale; \u0027perform\u0027 (8), \u0027attached\u0027 (5) außerhalb.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \u0027ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027meinem\u0027 verweisen auf den Nutzer \u0027Maria\u0027.\\n3. Die ermittelten Stichwörter werden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027.\\n4. Die Identifikation des Nutzers ersetzt die relativen Verweise: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Die Attributeigenschaften sind: \u0027Maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object).\\n6. Die Relationen sind: Maria führt die Aktivität \u0027swim\u0027 aus (perform), Maria ist im/attached zu \u0027pool\u0027 (attached).\\n7. Alle Relationen haben gültige Typkodierungen: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027object\u0027 (1) auf der Diagonale; \u0027perform\u0027 (8), \u0027attached\u0027 (5) außerhalb.\"\n}"
+}

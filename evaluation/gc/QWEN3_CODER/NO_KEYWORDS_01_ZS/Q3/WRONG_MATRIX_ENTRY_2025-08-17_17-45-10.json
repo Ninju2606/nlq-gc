@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria schwimmt, in einem Pool, der ihr gehört. Die Beziehungen sind wie folgt kodiert: Maria (object) führt die Aktivität (activity) schwimmen (swim) aus, was durch den Eintrag 8 (perform) zwischen Maria und swim dargestellt wird. Der Pool ist ein Objekt (object), das mit dem Schwimmen verbunden ist, was durch attached (5) modelliert wird. Der Eintrag target (9) zeigt, dass der Pool das Ziel oder Ort des Schwimmens ist. Das Attribut own wird verwendet, um darzustellen, dass der Pool Maria gehört, wobei own als target (9) interpretiert wird, da es keine direkte Beziehung für Besitz definiert ist, die nicht auf identityMapping beruht.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 5, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria schwimmt, in einem Pool, der ihr gehört. Die Beziehungen sind wie folgt kodiert: Maria (object) führt die Aktivität (activity) schwimmen (swim) aus, was durch den Eintrag 8 (perform) zwischen Maria und swim dargestellt wird. Der Pool ist ein Objekt (object), das mit dem Schwimmen verbunden ist, was durch attached (5) modelliert wird. Der Eintrag target (9) zeigt, dass der Pool das Ziel oder Ort des Schwimmens ist. Das Attribut own wird verwendet, um darzustellen, dass der Pool Maria gehört, wobei own als target (9) interpretiert wird, da es keine direkte Beziehung für Besitz definiert ist, die nicht auf identityMapping beruht.\"\n}"
+}

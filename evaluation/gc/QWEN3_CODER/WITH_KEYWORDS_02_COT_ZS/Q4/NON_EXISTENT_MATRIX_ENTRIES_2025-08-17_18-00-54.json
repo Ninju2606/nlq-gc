@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027maria\u0027, da es sich um die Identifikation des Nutzers handelt. \u0027Mein\u0027 wurde als Possessivattribut interpretiert und als \u0027own\u0027 ins Vokabular übernommen. 2. \u0027maria\u0027: objekt.typ(1), \u0027swim\u0027: Aktivität.typ(4), \u0027own\u0027: attached.typ(5), \u0027pool\u0027: objekt.typ(1). 3. Die Relationen sind wie folgt: maria --perform--\u003e swim (typ 8), maria --attached--\u003e own (typ 5), own --target--\u003e pool (typ 9), swim ist eine Aktivität (typ 4), maria ist ein Objekt (typ 1), pool ist ein Objekt (typ 1). 4. Alle erforderlichen Relationen haben gültige Einträge in den Typkodierungen. swim(activity) und maria(object) sind auf der Diagonale mit identityMapping\u003dtrue kodiert, \u0027perform\u0027(8), \u0027attached\u0027(5), und \u0027target\u0027(9) sind zulässige Relationen außerhalb der Diagonale.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027maria\u0027, da es sich um die Identifikation des Nutzers handelt. \u0027Mein\u0027 wurde als Possessivattribut interpretiert und als \u0027own\u0027 ins Vokabular übernommen. 2. \u0027maria\u0027: objekt.typ(1), \u0027swim\u0027: Aktivität.typ(4), \u0027own\u0027: attached.typ(5), \u0027pool\u0027: objekt.typ(1). 3. Die Relationen sind wie folgt: maria --perform--\u003e swim (typ 8), maria --attached--\u003e own (typ 5), own --target--\u003e pool (typ 9), swim ist eine Aktivität (typ 4), maria ist ein Objekt (typ 1), pool ist ein Objekt (typ 1). 4. Alle erforderlichen Relationen haben gültige Einträge in den Typkodierungen. swim(activity) und maria(object) sind auf der Diagonale mit identityMapping\u003dtrue kodiert, \u0027perform\u0027(8), \u0027attached\u0027(5), und \u0027target\u0027(9) sind zulässige Relationen außerhalb der Diagonale.\"\n}\n"
+}

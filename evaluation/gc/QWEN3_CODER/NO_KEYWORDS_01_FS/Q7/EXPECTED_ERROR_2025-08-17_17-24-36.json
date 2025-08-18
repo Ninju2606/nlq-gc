@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Szene zeigt Maria, die Häuser malt, wobei die Motivation oder Ziel der Malerei Fragen sind. Die Relationen wurden entsprechend der Typkodierungen abgebildet.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 1, 8, 9],\n        [0, 0, 4, 0],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Die Szene zeigt Maria, die Häuser malt, wobei die Motivation oder Ziel der Malerei Fragen sind. Die Relationen wurden entsprechend der Typkodierungen abgebildet.\"\n}\n"
+}

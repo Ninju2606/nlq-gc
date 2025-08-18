@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist durch \u0027daughter\u0027 (10) ausgedrückt. Maria und Tochter sind Personen (1), die die Aktivität \u0027drive\u0027 (7) ausführen. Die Aktivität \u0027drive\u0027 wird auf das Objekt \u0027boat\u0027 (8) angewandt. Das Boot befindet sich auf dem See (6 - \u0027above\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist durch \u0027daughter\u0027 (10) ausgedrückt. Maria und Tochter sind Personen (1), die die Aktivität \u0027drive\u0027 (7) ausführen. Die Aktivität \u0027drive\u0027 wird auf das Objekt \u0027boat\u0027 (8) angewandt. Das Boot befindet sich auf dem See (6 - \u0027above\u0027).\"\n}"
+}

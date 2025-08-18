@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (als Objekt) einen gelben Hut (Objekt) trägt (Aktivität). Die Beziehung zwischen Maria und dem Hut wird über die Aktivität \"wear\" (perform) abgebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (als Objekt) einen gelben Hut (Objekt) trägt (Aktivität). Die Beziehung zwischen Maria und dem Hut wird über die Aktivität \\\"wear\\\" (perform) abgebildet.\"\n}"
+}

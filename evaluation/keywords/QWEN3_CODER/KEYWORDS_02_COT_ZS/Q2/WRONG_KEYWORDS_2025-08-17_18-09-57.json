@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "run",
+    "tim",
+    "maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage \u0027Tim rennt\u0027 wurden ermittelt. Da \u0027Tim\u0027 ein Name ist, wird er im Vokabular behalten. \u0027Rennt\u0027 wird als Verben im Stammform (run) interpretiert. Da im Kontext keine direkte Referenz auf den Nutzer \u0027Maria\u0027 enthalten ist, wird sie nicht explizit im Vokabular verwendet, aber in der Beschreibung berücksichtigt. Die Identifikation des Nutzers wurde nicht durch \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 ausgedrückt, daher wird sie nicht ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"run\", \"tim\", \"maria\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage \u0027Tim rennt\u0027 wurden ermittelt. Da \u0027Tim\u0027 ein Name ist, wird er im Vokabular behalten. \u0027Rennt\u0027 wird als Verben im Stammform (run) interpretiert. Da im Kontext keine direkte Referenz auf den Nutzer \u0027Maria\u0027 enthalten ist, wird sie nicht explizit im Vokabular verwendet, aber in der Beschreibung berücksichtigt. Die Identifikation des Nutzers wurde nicht durch \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 ausgedrückt, daher wird sie nicht ersetzt.\"\n}"
+}

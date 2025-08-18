@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist dabei als Person im Kontext ihrer Tochter (implizit durch „Meine Tochter“) dargestellt, wobei ‚Tochter‘ hier als Attribut von Maria interpretiert wird. Das Fahren (drive) ist die Aktivität, das Boot (boat) das Ziel der Aktivität, und der See (lake) der Kontext, in dem die Szene stattfindet.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [[1, 10, 0, 0, 0], [0, 1, 7, 0, 0], [0, 0, 9, 8, 6], [0, 0, 0, 1, 6], [0, 0, 0, 0, 2]],\n    \"description\": \"Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist dabei als Person im Kontext ihrer Tochter (implizit durch „Meine Tochter“) dargestellt, wobei ‚Tochter‘ hier als Attribut von Maria interpretiert wird. Das Fahren (drive) ist die Aktivität, das Boot (boat) das Ziel der Aktivität, und der See (lake) der Kontext, in dem die Szene stattfindet.\"\n}"
+}

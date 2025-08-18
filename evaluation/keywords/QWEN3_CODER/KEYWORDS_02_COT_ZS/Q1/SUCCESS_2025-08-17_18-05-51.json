@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. 2. Relative Verweise werden aufgelöst: \u0027Ich\u0027 wird zu \u0027Maria\u0027. 3. Stichwörter werden ins Englische übersetzt: \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027. \u0027Maria\u0027 bleibt unverändert. 4. \u0027Ich\u0027 wird durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt. Das Vokabular des GraphCodes enthält nur die englischen Begriffe der Szenenbeschreibung.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. 2. Relative Verweise werden aufgelöst: \u0027Ich\u0027 wird zu \u0027Maria\u0027. 3. Stichwörter werden ins Englische übersetzt: \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027. \u0027Maria\u0027 bleibt unverändert. 4. \u0027Ich\u0027 wird durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt. Das Vokabular des GraphCodes enthält nur die englischen Begriffe der Szenenbeschreibung.\"\n}\n"
+}

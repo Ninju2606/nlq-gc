@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine hinreichend spezifischen Szenenbeschreibungen im Metaverse. Phrasen wie \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 fehlen an konkreten Aktivitäten oder weiteren Objekten, die zur Erstellung eines vollständigen GraphCodes notwendig wären. Insbesondere fehlen Relationen zwischen Objekten oder Aktivitäten, um eine Bewertungsmatrix zu füllen.",
+  "error": "Unklare oder unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage\",\n  \"description\": \"Die Anfrage enthält keine hinreichend spezifischen Szenenbeschreibungen im Metaverse. Phrasen wie \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 fehlen an konkreten Aktivitäten oder weiteren Objekten, die zur Erstellung eines vollständigen GraphCodes notwendig wären. Insbesondere fehlen Relationen zwischen Objekten oder Aktivitäten, um eine Bewertungsmatrix zu füllen.\"\n}"
+}

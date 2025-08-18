@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen Hut trägt. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist vom Typ \u0027perform\u0027 (id\u003d8), da Maria die Aktivität des Tragens ausführt. \u0027wear\u0027 steht in Beziehung zu \u0027hat\u0027 als Ziel der Aktivität (\u0027target\u0027, id\u003d9). Der Hut ist gelb, daher verbindet \u0027hat\u0027 mit \u0027yellow\u0027 über \u0027characteristic\u0027 (id\u003d14). \u0027yellow\u0027 selbst ist eine Eigenschaft und erhält den Typ \u0027synonym\u0027 (id\u003d3), was hier als allgemeiner Merkmalstyp genutzt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 1, 14], [0, 0, 0, 3]],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen Hut trägt. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist vom Typ \u0027perform\u0027 (id\u003d8), da Maria die Aktivität des Tragens ausführt. \u0027wear\u0027 steht in Beziehung zu \u0027hat\u0027 als Ziel der Aktivität (\u0027target\u0027, id\u003d9). Der Hut ist gelb, daher verbindet \u0027hat\u0027 mit \u0027yellow\u0027 über \u0027characteristic\u0027 (id\u003d14). \u0027yellow\u0027 selbst ist eine Eigenschaft und erhält den Typ \u0027synonym\u0027 (id\u003d3), was hier als allgemeiner Merkmalstyp genutzt wird.\"\n}"
+}

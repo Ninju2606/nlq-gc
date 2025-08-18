@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage beschreibt eine aktuelle Handlung (Schwimmen in einem Pool), die nicht als Szenenbeschreibung im Metaverse interpretiert werden kann. Daher kann kein gültiger GraphCode generiert werden.",
+  "error": "Nutzeranfrage entspricht nicht dem erforderlichen Kontext",
+  "responsePlain": "{\n  \"error\": \"Nutzeranfrage entspricht nicht dem erforderlichen Kontext\",\n  \"description\": \"Die Nutzeranfrage beschreibt eine aktuelle Handlung (Schwimmen in einem Pool), die nicht als Szenenbeschreibung im Metaverse interpretiert werden kann. Daher kann kein gültiger GraphCode generiert werden.\"\n}"
+}

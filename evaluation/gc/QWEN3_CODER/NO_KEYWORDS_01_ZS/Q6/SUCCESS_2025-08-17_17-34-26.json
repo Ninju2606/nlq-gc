@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Beziehungen, die sich in einen GraphCode überführen lassen. Lediglich eine allgemeine Absicht (\u0027Termin ausmachen\u0027) ist erkennbar, aber keine Szenenbeschreibung im Metaverse-Kontext.",
+  "error": "Unklare oder unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage\",\n  \"description\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Beziehungen, die sich in einen GraphCode überführen lassen. Lediglich eine allgemeine Absicht (\u0027Termin ausmachen\u0027) ist erkennbar, aber keine Szenenbeschreibung im Metaverse-Kontext.\"\n}"
+}

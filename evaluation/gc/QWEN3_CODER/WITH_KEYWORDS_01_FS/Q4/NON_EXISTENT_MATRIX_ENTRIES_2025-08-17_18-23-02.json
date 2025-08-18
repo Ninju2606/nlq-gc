@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria in ihrem Pool schwimmt. Die Beziehung zwischen den Begriffen wurde entsprechend der vorgegebenen Typkodierungen modelliert.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 2, 1], [0, 6, 0, 1]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria in ihrem Pool schwimmt. Die Beziehung zwischen den Begriffen wurde entsprechend der vorgegebenen Typkodierungen modelliert.\"\n}"
+}

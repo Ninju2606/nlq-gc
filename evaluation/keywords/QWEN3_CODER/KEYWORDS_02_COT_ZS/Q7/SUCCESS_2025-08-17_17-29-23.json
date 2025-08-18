@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027Häuser\u0027, \u0027fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt und auf ihre grundlegende Form vereinfacht. Da in der Anfrage kein Bezug auf den Nutzer (z. B. \u0027ich\u0027, \u0027mein\u0027) enthalten ist, wurde der Nutzername \u0027Maria\u0027 nicht in das Vokabular aufgenommen. Die Relationen zwischen den Begriffen werden durch die Bewertungsmatrix später definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027Häuser\u0027, \u0027fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt und auf ihre grundlegende Form vereinfacht. Da in der Anfrage kein Bezug auf den Nutzer (z. B. \u0027ich\u0027, \u0027mein\u0027) enthalten ist, wurde der Nutzername \u0027Maria\u0027 nicht in das Vokabular aufgenommen. Die Relationen zwischen den Begriffen werden durch die Bewertungsmatrix später definiert.\"\n}"
+}

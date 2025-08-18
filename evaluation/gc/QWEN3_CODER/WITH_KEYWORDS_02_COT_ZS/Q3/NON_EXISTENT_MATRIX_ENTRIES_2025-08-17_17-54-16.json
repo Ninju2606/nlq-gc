@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Der Nutzer verwendet \u0027Ich\u0027, was durch die Identifikation \u0027maria\u0027 aufgelöst wird. \u0027Mir gehört\u0027 wurde interpretiert als ein Besitzverhältnis, weshalb der Begriff \u0027own\u0027 als Verbindungselement fungiert.\n\n2. Attributeigenschaften der Stichwörter:\n   - maria: Ist eine Person, daher vom Typ \u0027object\u0027.\n   - swim: Ist eine Tätigkeit, daher vom Typ \u0027activity\u0027.\n   - own: Verbindet ein Subjekt mit einem Objekt, was dem Typ \u0027attached\u0027 entspricht.\n   - pool: Ist ein physisches Objekt, daher vom Typ \u0027object\u0027.\n\n3. Inhaltliche Relationen:\n   - maria führt die Tätigkeit swim aus (\u0027perform\u0027 -\u003e Typ 8).\n   - maria besitzt den Pool (\u0027attached\u0027 -\u003e Typ 5).\n   - swim hat pool als Zielobjekt (\u0027target\u0027 -\u003e Typ 9).\n   - own bezieht sich auf pool (\u0027attached\u0027 -\u003e Typ 5).\n\n4. Verfügbarkeit der erforderlichen Typkodierungen:\n   - object: Typ 1 (ID\u003d1)\n   - activity: Typ 4 (ID\u003d4)\n   - attached: Typ 5 (ID\u003d5)\n   - perform: Typ 8 (ID\u003d8)\n   - target: Typ 9 (ID\u003d9)\n\n5. Zusammenstellung des GraphCodes:\n   - Das Vokabular lautet: [\u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027]\n   - Die Bewertungsmatrix wurde gemäß den Relationen und Typkodierungen erstellt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 9],\n    [0, 0, 0, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Der Nutzer verwendet \u0027Ich\u0027, was durch die Identifikation \u0027maria\u0027 aufgelöst wird. \u0027Mir gehört\u0027 wurde interpretiert als ein Besitzverhältnis, weshalb der Begriff \u0027own\u0027 als Verbindungselement fungiert.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - maria: Ist eine Person, daher vom Typ \u0027object\u0027.\\n   - swim: Ist eine Tätigkeit, daher vom Typ \u0027activity\u0027.\\n   - own: Verbindet ein Subjekt mit einem Objekt, was dem Typ \u0027attached\u0027 entspricht.\\n   - pool: Ist ein physisches Objekt, daher vom Typ \u0027object\u0027.\\n\\n3. Inhaltliche Relationen:\\n   - maria führt die Tätigkeit swim aus (\u0027perform\u0027 -\u003e Typ 8).\\n   - maria besitzt den Pool (\u0027attached\u0027 -\u003e Typ 5).\\n   - swim hat pool als Zielobjekt (\u0027target\u0027 -\u003e Typ 9).\\n   - own bezieht sich auf pool (\u0027attached\u0027 -\u003e Typ 5).\\n\\n4. Verfügbarkeit der erforderlichen Typkodierungen:\\n   - object: Typ 1 (ID\u003d1)\\n   - activity: Typ 4 (ID\u003d4)\\n   - attached: Typ 5 (ID\u003d5)\\n   - perform: Typ 8 (ID\u003d8)\\n   - target: Typ 9 (ID\u003d9)\\n\\n5. Zusammenstellung des GraphCodes:\\n   - Das Vokabular lautet: [\u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027]\\n   - Die Bewertungsmatrix wurde gemäß den Relationen und Typkodierungen erstellt.\"\n}\n"
+}

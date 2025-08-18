@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"wir\", \"bald\", \"Termin\", \"ausmachen\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"we\", \"soon\", \"appointment\", \"schedule\".\n        4. Da \"wir\" verwendet wird und keine selbstidentifizierenden Wörter wie \"ich\" oder \"mein\" vorkommen, bleibt \"we\" zunächst unverändert. Allerdings wird aufgrund der Regel, dass bei Nutzerbezug die Identifikation ersetzt werden soll, \"we\" durch \"Maria\" ersetzt, da es sich um eine gemeinsame Handlung handelt, in der der Nutzer involviert ist. Daher ergibt sich das finale Vokabular aus: \"Maria\", \"schedule\", \"appointment\".",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"schedule\", \"appointment\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"wir\\\", \\\"bald\\\", \\\"Termin\\\", \\\"ausmachen\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"we\\\", \\\"soon\\\", \\\"appointment\\\", \\\"schedule\\\".\\n        4. Da \\\"wir\\\" verwendet wird und keine selbstidentifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" vorkommen, bleibt \\\"we\\\" zunächst unverändert. Allerdings wird aufgrund der Regel, dass bei Nutzerbezug die Identifikation ersetzt werden soll, \\\"we\\\" durch \\\"Maria\\\" ersetzt, da es sich um eine gemeinsame Handlung handelt, in der der Nutzer involviert ist. Daher ergibt sich das finale Vokabular aus: \\\"Maria\\\", \\\"schedule\\\", \\\"appointment\\\".\"\n}"
+}

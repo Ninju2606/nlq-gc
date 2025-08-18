@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027Häuser\u0027, \u0027um Fragen zu stellen\u0027 und \u0027malen\u0027. \u0027Häuser\u0027 wird als Objekt interpretiert, \u0027um Fragen zu stellen\u0027 als Aktivität und \u0027malen\u0027 als Handlung. Da keine Selbstbezugswörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Identifikation des Nutzers (Maria) nicht im Vokabular verwendet. Die Wörter wurden ins Englische übersetzt: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027Häuser\u0027, \u0027um Fragen zu stellen\u0027 und \u0027malen\u0027. \u0027Häuser\u0027 wird als Objekt interpretiert, \u0027um Fragen zu stellen\u0027 als Aktivität und \u0027malen\u0027 als Handlung. Da keine Selbstbezugswörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Identifikation des Nutzers (Maria) nicht im Vokabular verwendet. Die Wörter wurden ins Englische übersetzt: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027.\"\n}"
+}

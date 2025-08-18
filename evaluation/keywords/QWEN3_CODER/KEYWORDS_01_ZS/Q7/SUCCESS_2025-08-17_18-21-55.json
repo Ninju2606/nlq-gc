@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Das Vokabular des GraphCodes enthält die Stichwörter, die in der Nutzeranfrage \u0027Häuser um Fragen zu malen\u0027 vorkommen. Da der Nutzer nicht direkt identifiziert wird, wird der Name \u0027Maria\u0027 nicht im Vokabular berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"description\": \"Das Vokabular des GraphCodes enthält die Stichwörter, die in der Nutzeranfrage \u0027Häuser um Fragen zu malen\u0027 vorkommen. Da der Nutzer nicht direkt identifiziert wird, wird der Name \u0027Maria\u0027 nicht im Vokabular berücksichtigt.\"\n}"
+}

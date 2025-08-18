@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode repräsentiert die Beziehung zwischen den Begriffen in der Anfrage: Maria (person) fährt (drive) ein Boot (boat) auf einem See (lake). Die Matrix zeigt die Typkodierungen der Beziehungen, wobei Einträge auf der Diagonalen den Typen der Begriffe entsprechen und außerhalb der Diagonalen die Beziehungen zwischen den Begriffen codieren.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 8, 5, 6],\n    [0, 0, 5, 1, 0],\n    [0, 0, 6, 0, 1]\n  ],\n  \"description\": \"GraphCode repräsentiert die Beziehung zwischen den Begriffen in der Anfrage: Maria (person) fährt (drive) ein Boot (boat) auf einem See (lake). Die Matrix zeigt die Typkodierungen der Beziehungen, wobei Einträge auf der Diagonalen den Typen der Begriffe entsprechen und außerhalb der Diagonalen die Beziehungen zwischen den Begriffen codieren.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode beschreibt eine Szene, in der Maria und ihre Tochter gemeinsam Boot fahren auf einem See. Maria und Tochter sind als Personen dargestellt, wobei das Fahren als Aktivität auf dem Boot stattfindet, das sich auf dem See befindet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 14, 7, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode beschreibt eine Szene, in der Maria und ihre Tochter gemeinsam Boot fahren auf einem See. Maria und Tochter sind als Personen dargestellt, wobei das Fahren als Aktivität auf dem Boot stattfindet, das sich auf dem See befindet.\"\n}"
+}

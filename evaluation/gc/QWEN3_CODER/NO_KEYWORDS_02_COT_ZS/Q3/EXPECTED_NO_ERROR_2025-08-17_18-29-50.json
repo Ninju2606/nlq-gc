@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält grammatikalische Unklarheiten oder ist nicht präzise genug, um einen sinnvollen GraphCode zu generieren. Insbesondere ist unklar, ob der Pool dem Nutzer gehört oder ob dieser in einem Pool schwimmt, der sich im Besitz des Nutzers befindet. Eine genauere Formulierung ist notwendig.",
+  "error": "Die Anfrage ist grammatisch nicht korrekt oder unvollständig. Bitte formuliere eine klare Beschreibung der Szene, die du suchst.",
+  "responsePlain": "\n{\n  \"error\": \"Die Anfrage ist grammatisch nicht korrekt oder unvollständig. Bitte formuliere eine klare Beschreibung der Szene, die du suchst.\",\n  \"description\": \"Die Anfrage enthält grammatikalische Unklarheiten oder ist nicht präzise genug, um einen sinnvollen GraphCode zu generieren. Insbesondere ist unklar, ob der Pool dem Nutzer gehört oder ob dieser in einem Pool schwimmt, der sich im Besitz des Nutzers befindet. Eine genauere Formulierung ist notwendig.\"\n}\n"
+}

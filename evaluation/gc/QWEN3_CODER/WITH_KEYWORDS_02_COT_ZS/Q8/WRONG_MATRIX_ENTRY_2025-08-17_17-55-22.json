@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027ich\u0027 wurde durch die angegebene Identifikation \u0027maria\u0027 ersetzt. \u0027Meine Tochter\u0027 wurde allgemein als \u0027person\u0027 interpretiert, da keine spezifische Identifikation vorlag.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des nutzenden Subjekts und wird als object (ID: 1) klassifiziert. \u0027person\u0027 steht stellvertretend für \u0027Tochter\u0027 und wird ebenfalls als object (ID: 1) klassifiziert. \u0027drive\u0027 beschreibt eine Aktivität und wird als activity (ID: 4) klassifiziert. \u0027boat\u0027 ist ein Objekt und wird als object (ID: 1) klassifiziert. \u0027lake\u0027 ist ein Kontextbezug und wird als context (ID: 2) klassifiziert.\n3. Relationen zwischen den Stichwörtern: maria ist mit person über attached (ID: 5) verbunden, da es sich um die Beziehung zwischen Nutzer und Tochter handelt. person führt die activity drive aus (drive hat Eintrag perform zu person, ID: 8), drive hat boat als target (ID: 9), boat ist attached (ID: 5) an lake. lake ist der räumliche context (ID: 2) für die Szene.\n4. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen vorhanden und korrekt verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 0, 0, 0],\n    [5, 1, 8, 0, 0],\n    [0, 8, 4, 9, 0],\n    [0, 0, 9, 1, 5],\n    [0, 0, 0, 5, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027ich\u0027 wurde durch die angegebene Identifikation \u0027maria\u0027 ersetzt. \u0027Meine Tochter\u0027 wurde allgemein als \u0027person\u0027 interpretiert, da keine spezifische Identifikation vorlag.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des nutzenden Subjekts und wird als object (ID: 1) klassifiziert. \u0027person\u0027 steht stellvertretend für \u0027Tochter\u0027 und wird ebenfalls als object (ID: 1) klassifiziert. \u0027drive\u0027 beschreibt eine Aktivität und wird als activity (ID: 4) klassifiziert. \u0027boat\u0027 ist ein Objekt und wird als object (ID: 1) klassifiziert. \u0027lake\u0027 ist ein Kontextbezug und wird als context (ID: 2) klassifiziert.\\n3. Relationen zwischen den Stichwörtern: maria ist mit person über attached (ID: 5) verbunden, da es sich um die Beziehung zwischen Nutzer und Tochter handelt. person führt die activity drive aus (drive hat Eintrag perform zu person, ID: 8), drive hat boat als target (ID: 9), boat ist attached (ID: 5) an lake. lake ist der räumliche context (ID: 2) für die Szene.\\n4. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen vorhanden und korrekt verwendet.\"\n}"
+}

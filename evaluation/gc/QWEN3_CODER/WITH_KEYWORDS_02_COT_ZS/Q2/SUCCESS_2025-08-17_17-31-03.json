@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine aufgelösten relativen Verweise oder Identifikationen des Nutzers, da die Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthält. Daher wird die Identifikation \u0027Maria\u0027 ignoriert.\n2. Die Attributeigenschaften der Stichwörter sind:\n   - \u0027tim\u0027: Typ \u0027object\u0027 (ID 1), da es sich um ein Objekt handelt.\n   - \u0027run\u0027: Typ \u0027activity\u0027 (ID 4), da es sich um eine Aktivität handelt.\n3. Die Beziehung zwischen den Stichwörtern ist:\n   - Tim führt die Aktivität \u0027rennen\u0027 aus. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID 8) ausgedrückt.\n4. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten:\n   - \u0027tim\u0027 → Typ 1 (\u0027object\u0027)\n   - \u0027run\u0027 → Typ 4 (\u0027activity\u0027)\n   - Beziehung \u0027tim\u0027 → \u0027run\u0027 → Typ 8 (\u0027perform\u0027)",
+  "responsePlain": "\n{\n    \"dictionary\": [\"tim\", \"run\"],\n    \"matrix\": [\n        [1, 8],\n        [0, 4]\n    ],\n    \"description\": \"1. Es gibt keine aufgelösten relativen Verweise oder Identifikationen des Nutzers, da die Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthält. Daher wird die Identifikation \u0027Maria\u0027 ignoriert.\\n2. Die Attributeigenschaften der Stichwörter sind:\\n   - \u0027tim\u0027: Typ \u0027object\u0027 (ID 1), da es sich um ein Objekt handelt.\\n   - \u0027run\u0027: Typ \u0027activity\u0027 (ID 4), da es sich um eine Aktivität handelt.\\n3. Die Beziehung zwischen den Stichwörtern ist:\\n   - Tim führt die Aktivität \u0027rennen\u0027 aus. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID 8) ausgedrückt.\\n4. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten:\\n   - \u0027tim\u0027 → Typ 1 (\u0027object\u0027)\\n   - \u0027run\u0027 → Typ 4 (\u0027activity\u0027)\\n   - Beziehung \u0027tim\u0027 → \u0027run\u0027 → Typ 8 (\u0027perform\u0027)\"\n}\n"
+}

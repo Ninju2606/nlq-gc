@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria mit ihrer Tochter Boot fährt. Maria und \u0027daughter\u0027 sind über die Beziehung \u0027daughter\u0027 (10) verbunden. Beide führen die Aktivität \u0027drive boat\u0027 (8). \u0027drive\u0027 ist eine Aktivität (4) und wird auf einem See (lake) (6) ausgeführt, wobei das Boot (boat) ein Objekt (1) ist, das sich auf dem See befindet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [10, 1, 8, 0, 0],\n    [8, 8, 4, 5, 0],\n    [0, 0, 5, 1, 6],\n    [0, 0, 0, 6, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria mit ihrer Tochter Boot fährt. Maria und \u0027daughter\u0027 sind über die Beziehung \u0027daughter\u0027 (10) verbunden. Beide führen die Aktivität \u0027drive boat\u0027 (8). \u0027drive\u0027 ist eine Aktivität (4) und wird auf einem See (lake) (6) ausgeführt, wobei das Boot (boat) ein Objekt (1) ist, das sich auf dem See befindet.\"\n}"
+}

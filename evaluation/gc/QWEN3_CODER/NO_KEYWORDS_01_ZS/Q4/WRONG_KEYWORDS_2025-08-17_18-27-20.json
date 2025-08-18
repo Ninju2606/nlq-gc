@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer Maria führt die Aktivität \u0027swim\u0027 im Kontext eines \u0027pool\u0027 aus. Die Beziehung zwischen den Begriffen ist durch die Typkodierungen aktivitäts- und kontextbasiert dargestellt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der Nutzer Maria führt die Aktivität \u0027swim\u0027 im Kontext eines \u0027pool\u0027 aus. Die Beziehung zwischen den Begriffen ist durch die Typkodierungen aktivitäts- und kontextbasiert dargestellt.\"\n}\n"
+}

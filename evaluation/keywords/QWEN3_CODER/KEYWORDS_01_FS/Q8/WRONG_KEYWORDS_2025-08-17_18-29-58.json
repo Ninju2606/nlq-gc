@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "child",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Das Vokabular des GraphCodes enthält die relevanten Begriffe aus der Anfrage, um eine Szene im Metaverse zu beschreiben, in der Maria mit ihrer Tochter bootet auf einem See.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"child\", \"boat\", \"lake\"],\n  \"description\": \"Das Vokabular des GraphCodes enthält die relevanten Begriffe aus der Anfrage, um eine Szene im Metaverse zu beschreiben, in der Maria mit ihrer Tochter bootet auf einem See.\"\n}"
+}

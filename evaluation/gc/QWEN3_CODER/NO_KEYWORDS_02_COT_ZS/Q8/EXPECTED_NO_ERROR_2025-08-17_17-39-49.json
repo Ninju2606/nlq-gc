@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält nicht alle notwendigen Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, die in eine Bewertungsmatrix überführt werden können.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage enthält nicht alle notwendigen Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, die in eine Bewertungsmatrix überführt werden können.\"\n}"
+}

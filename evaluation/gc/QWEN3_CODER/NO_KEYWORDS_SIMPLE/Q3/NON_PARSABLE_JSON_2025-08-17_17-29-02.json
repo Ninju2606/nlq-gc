@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Ich übersetze die Anfrage in eine typcodierte Adjazenzmatrix nach Wagenpfeil.\n\nDie Anfrage lautet: \"Ich schwimme in einem Pool, der mir gehört\"\n\nExtrahierte Begriffe und Beziehungen:\n- \"schwimme\" (Aktivität) → \"Pool\" (Objekt) \n- \"Pool\" (Objekt) → \"gehört\" (attached-Beziehung)\n- \"gehört\" (attached) → \"mir\" (Ziel)\n\n\n{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"Pool\", \"gehört\", \"mir\"],\n  \"matrix\": [\n    [0, 4, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 5, 0],\n    [0, 0, 0, 0, 9],\n    [0, 0, 0, 0, 0]\n  ]\n}\n"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf den Anfragensteller, hier spezifiziert als \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Ersetze \u0027Ich\u0027 durch die Identifikation des Nutzers: \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ ID 1), \u0027basketball\u0027 ist eine Aktivität oder ein Objekt, hier als Objekt interpretiert (Typ ID 1), und \u0027play\u0027 ist eine Aktivität (Typ ID 8).\n6. Relationen: Maria führt die Aktivität \u0027play\u0027 mit \u0027basketball\u0027 aus. Die Relation von Maria zu \u0027play\u0027 ist nicht direkt kodiert, stattdessen wird \u0027play\u0027 als Relation von Maria zu basketball interpretiert.\n7. Verfügbare Typkodierungen: \u0027object\u0027 (ID 1) für Maria und basketball, \u0027perform\u0027 bzw. \u0027activity\u0027 kann durch \u0027play\u0027 dargestellt werden, was auf ID 8 (perform) passt. Alle Relationen sind durch die Typkodierungen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf den Anfragensteller, hier spezifiziert als \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Ersetze \u0027Ich\u0027 durch die Identifikation des Nutzers: \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ ID 1), \u0027basketball\u0027 ist eine Aktivität oder ein Objekt, hier als Objekt interpretiert (Typ ID 1), und \u0027play\u0027 ist eine Aktivität (Typ ID 8).\\n6. Relationen: Maria führt die Aktivität \u0027play\u0027 mit \u0027basketball\u0027 aus. Die Relation von Maria zu \u0027play\u0027 ist nicht direkt kodiert, stattdessen wird \u0027play\u0027 als Relation von Maria zu basketball interpretiert.\\n7. Verfügbare Typkodierungen: \u0027object\u0027 (ID 1) für Maria und basketball, \u0027perform\u0027 bzw. \u0027activity\u0027 kann durch \u0027play\u0027 dargestellt werden, was auf ID 8 (perform) passt. Alle Relationen sind durch die Typkodierungen abgedeckt.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine eindeutigen Informationen über Szenen oder Objekte, die im Metaverse beschrieben werden. Es fehlen spezifische Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden könnten.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "\n{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage enthält keine eindeutigen Informationen über Szenen oder Objekte, die im Metaverse beschrieben werden. Es fehlen spezifische Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden könnten.\"\n}\n"
+}

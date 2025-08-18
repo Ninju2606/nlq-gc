@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      5
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. \u0027meinem\u0027 wurde als Possessivpronomen aufgelöst und zum Attribut \u0027own\u0027 umgewandelt.\n2. Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist eine Identifikation, daher ein Objekt (object). \u0027swim\u0027 beschreibt eine Aktivität (activity). \u0027own\u0027 ist eine besitzanzeigende Beziehung (attached). \u0027pool\u0027 ist ein Objekt (object).\n3. Die Relationen zwischen den Stichwörtern sind:\n   - maria führt swim aus (perform)\n   - swim hat pool als Ziel (target)\n   - swim ist mit pool verbunden (attached)\n   - own bezieht sich auf pool (attached)\n4. Alle Relationen haben eine passende Typkodierung in den vorgegebenen Typen: \n   - maria (object): ID 1\n   - swim (activity): ID 4\n   - own (attached): ID 5\n   - pool (object): ID 1\n   - perform (perform): ID 8\n   - target (target): ID 9",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 5],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. \u0027meinem\u0027 wurde als Possessivpronomen aufgelöst und zum Attribut \u0027own\u0027 umgewandelt.\\n2. Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist eine Identifikation, daher ein Objekt (object). \u0027swim\u0027 beschreibt eine Aktivität (activity). \u0027own\u0027 ist eine besitzanzeigende Beziehung (attached). \u0027pool\u0027 ist ein Objekt (object).\\n3. Die Relationen zwischen den Stichwörtern sind:\\n   - maria führt swim aus (perform)\\n   - swim hat pool als Ziel (target)\\n   - swim ist mit pool verbunden (attached)\\n   - own bezieht sich auf pool (attached)\\n4. Alle Relationen haben eine passende Typkodierung in den vorgegebenen Typen: \\n   - maria (object): ID 1\\n   - swim (activity): ID 4\\n   - own (attached): ID 5\\n   - pool (object): ID 1\\n   - perform (perform): ID 8\\n   - target (target): ID 9\"\n}"
+}

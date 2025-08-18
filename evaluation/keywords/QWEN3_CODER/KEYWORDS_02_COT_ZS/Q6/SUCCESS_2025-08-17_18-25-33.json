@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir muessen bald einen Termin ausmachen.\u0027 beschreibt keine Szenenbeschreibung innerhalb eines Metaverse-Medienobjekts und enthält keine relevanten Begriffe fuer einen GraphCode. Es fehlen Objekte, Attribute oder Aktivitaeten, die in einem Vokabular repraesentiert werden koennen.",
+  "error": "Ungueltige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Ungueltige Anfrage\",\n  \"description\": \"Die Anfrage \u0027Wir muessen bald einen Termin ausmachen.\u0027 beschreibt keine Szenenbeschreibung innerhalb eines Metaverse-Medienobjekts und enthält keine relevanten Begriffe fuer einen GraphCode. Es fehlen Objekte, Attribute oder Aktivitaeten, die in einem Vokabular repraesentiert werden koennen.\"\n}"
+}

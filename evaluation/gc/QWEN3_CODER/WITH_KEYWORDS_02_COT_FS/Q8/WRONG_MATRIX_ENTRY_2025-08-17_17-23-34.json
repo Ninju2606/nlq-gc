@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Der relative Verweis \"meine Tochter\" wurde zu \"person\" aufgelöst. \"Ich\" wurde zur Identifikation des Nutzers \"maria\" zugeordnet.\n2. \"maria\" und \"person\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität. \"boat\" ist ein Objekt. \"lake\" ist ein Kontext.\n3. \"maria\" ist die Mutter der \"person\". \"person\" führt die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich auf \"lake\".\n4. Die ID für Objekt (object) ist 1. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8. Die ID für auf (above) ist 7. Die ID für See (context) ist 2.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [[1, 10, 7, 0, 0], [0, 1, 7, 0, 0], [0, 0, 4, 8, 0], [0, 0, 0, 1, 6], [0, 0, 0, 0, 1]],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wurde zu \\\"person\\\" aufgelöst. \\\"Ich\\\" wurde zur Identifikation des Nutzers \\\"maria\\\" zugeordnet.\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" ist ein Objekt. \\\"lake\\\" ist ein Kontext.\\n3. \\\"maria\\\" ist die Mutter der \\\"person\\\". \\\"person\\\" führt die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8. Die ID für auf (above) ist 7. Die ID für See (context) ist 2.\"\n}"
+}

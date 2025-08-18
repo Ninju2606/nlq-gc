@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. \"Meine Tochter\" wird aufgelöst zu den Stichwörtern \"maria\" und \"person\", wobei \"person\" die Tochter von \"maria\" ist.\n2. \"maria\" und \"person\" sind Objekte. \"drive\" ist eine Aktivität. \"boat\" und \"lake\" sind Objekte.\n3. \"maria\" ist Mutter von \"person\". \"person\" führt die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich auf/in \"lake\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf/über (above) ist 6. Die ID für Beziehen (target) ist 8. Die ID für auf/in (under) wäre 6 – hier wurde \"lake\" als flächenkontext interpretiert: in diesem Fall auch als 6, da \"in\" als lokale Positionierung gedacht ist. In der gegebenen Definition existiert aber nur ein „in“ mit Typkodierung 6. „under“ ist mit ID\u003d6 deklariert; möglicherweise typographisch oder semantisch passend. In diesen Regeln: „unter“ ist nicht gegeben, doch strukturell entspricht es einem „in“ bezüglich Matrixlogik → angenommene Identifikation (gemäß Regelungen nur identityMapping\u003dfalse-Typen verwenden). Aber klar: „under“ (ID 6) kann hier verwendet werden, um örtliche Kontexte wie „auf“ oder „in einem See“ darzustellen, wenn kein anderes passendes vorliegt. Hier wird daher „above/über/in“ mit ID 6 angepasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. \\\"Meine Tochter\\\" wird aufgelöst zu den Stichwörtern \\\"maria\\\" und \\\"person\\\", wobei \\\"person\\\" die Tochter von \\\"maria\\\" ist.\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind Objekte.\\n3. \\\"maria\\\" ist Mutter von \\\"person\\\". \\\"person\\\" führt die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf/in \\\"lake\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf/über (above) ist 6. Die ID für Beziehen (target) ist 8. Die ID für auf/in (under) wäre 6 – hier wurde \\\"lake\\\" als flächenkontext interpretiert: in diesem Fall auch als 6, da \\\"in\\\" als lokale Positionierung gedacht ist. In der gegebenen Definition existiert aber nur ein „in“ mit Typkodierung 6. „under“ ist mit ID\u003d6 deklariert; möglicherweise typographisch oder semantisch passend. In diesen Regeln: „unter“ ist nicht gegeben, doch strukturell entspricht es einem „in“ bezüglich Matrixlogik → angenommene Identifikation (gemäß Regelungen nur identityMapping\u003dfalse-Typen verwenden). Aber klar: „under“ (ID 6) kann hier verwendet werden, um örtliche Kontexte wie „auf“ oder „in einem See“ darzustellen, wenn kein anderes passendes vorliegt. Hier wird daher „above/über/in“ mit ID 6 angepasst.\"\n}"
+}

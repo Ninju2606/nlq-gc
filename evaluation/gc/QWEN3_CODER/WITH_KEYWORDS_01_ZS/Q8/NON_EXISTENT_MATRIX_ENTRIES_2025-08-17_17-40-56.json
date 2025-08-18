@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode repräsentiert die Beziehung zwischen den Begriffen aus der Anfrage: Maria (person) fährt (drive) ein Boot (boat) auf einem See (lake). Die Matrix zeigt Typkodes wie \u0027perform\u0027 (8), \u0027attached\u0027 (5) und \u0027under\u0027 (6).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 8, 5, 6],\n    [0, 0, 5, 1, 0],\n    [0, 0, 6, 0, 1]\n  ],\n  \"description\": \"GraphCode repräsentiert die Beziehung zwischen den Begriffen aus der Anfrage: Maria (person) fährt (drive) ein Boot (boat) auf einem See (lake). Die Matrix zeigt Typkodes wie \u0027perform\u0027 (8), \u0027attached\u0027 (5) und \u0027under\u0027 (6).\"\n}"
+}

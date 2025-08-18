@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027].\n2. Relative Verweise aufgelöst: \u0027mir\u0027 bezieht sich auf \u0027Ich\u0027.\n3. Stichwörter ins Englische übersetzt: [\u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e \u0027attached\u0027].\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da \u0027Ich\u0027 und \u0027mir\u0027 vorkommen.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Kontext (Typ 2).\n6. Relationen erklärt: Maria führt die Aktivität \u0027swim\u0027 aus (perform, Typ 8), \u0027swim\u0027 findet im \u0027pool\u0027 statt (target, Typ 9), \u0027pool\u0027 gehört Maria (attached, Typ 5).\n7. Alle Relationen haben gültige Typkodierungen in der Liste.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027].\\n2. Relative Verweise aufgelöst: \u0027mir\u0027 bezieht sich auf \u0027Ich\u0027.\\n3. Stichwörter ins Englische übersetzt: [\u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e \u0027attached\u0027].\\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da \u0027Ich\u0027 und \u0027mir\u0027 vorkommen.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Kontext (Typ 2).\\n6. Relationen erklärt: Maria führt die Aktivität \u0027swim\u0027 aus (perform, Typ 8), \u0027swim\u0027 findet im \u0027pool\u0027 statt (target, Typ 9), \u0027pool\u0027 gehört Maria (attached, Typ 5).\\n7. Alle Relationen haben gültige Typkodierungen in der Liste.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      9,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027ich\u0027 wurde durch die Identifikation \u0027maria\u0027 ersetzt. \u0027Mir gehört\u0027 wurde als Relation zwischen \u0027maria\u0027 und \u0027pool\u0027 interpretiert.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1: object). \u0027swim\u0027 ist eine Aktivität (Typ 4: activity). \u0027own\u0027 ist eine Beziehung, die anzeigt, dass etwas im Besitz ist (Typ 5: attached im Sinne von Besitz). \u0027pool\u0027 ist ein Objekt (Typ 1: object).\n3. Relationen der Stichwörter zueinander: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Relation \u0027perform\u0027, Typ 8). \u0027swim\u0027 hat den \u0027pool\u0027 als Ziel (Relation \u0027target\u0027, Typ 9). \u0027maria\u0027 steht im Besitzverhältnis zum \u0027pool\u0027 (Relation \u0027attached\u0027, Typ 5).\n4. Zuordnung zu Typkodierungen: Alle Relationen und Attribute konnten auf die vorgegebenen Typkodierungen abgebildet werden. Die Identifikationen sind korrekt: \u0027maria\u0027(1), \u0027swim\u0027(4), \u0027own\u0027(5), \u0027pool\u0027(1). Relationen: \u0027maria\u0027 -\u003e \u0027swim\u0027 \u003d perform(8), \u0027swim\u0027 -\u003e \u0027pool\u0027 \u003d target(9), \u0027maria\u0027 -\u003e \u0027pool\u0027 \u003d attached(5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [8, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 9, 5, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027ich\u0027 wurde durch die Identifikation \u0027maria\u0027 ersetzt. \u0027Mir gehört\u0027 wurde als Relation zwischen \u0027maria\u0027 und \u0027pool\u0027 interpretiert.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1: object). \u0027swim\u0027 ist eine Aktivität (Typ 4: activity). \u0027own\u0027 ist eine Beziehung, die anzeigt, dass etwas im Besitz ist (Typ 5: attached im Sinne von Besitz). \u0027pool\u0027 ist ein Objekt (Typ 1: object).\\n3. Relationen der Stichwörter zueinander: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Relation \u0027perform\u0027, Typ 8). \u0027swim\u0027 hat den \u0027pool\u0027 als Ziel (Relation \u0027target\u0027, Typ 9). \u0027maria\u0027 steht im Besitzverhältnis zum \u0027pool\u0027 (Relation \u0027attached\u0027, Typ 5).\\n4. Zuordnung zu Typkodierungen: Alle Relationen und Attribute konnten auf die vorgegebenen Typkodierungen abgebildet werden. Die Identifikationen sind korrekt: \u0027maria\u0027(1), \u0027swim\u0027(4), \u0027own\u0027(5), \u0027pool\u0027(1). Relationen: \u0027maria\u0027 -\u003e \u0027swim\u0027 \u003d perform(8), \u0027swim\u0027 -\u003e \u0027pool\u0027 \u003d target(9), \u0027maria\u0027 -\u003e \u0027pool\u0027 \u003d attached(5).\"\n}"
+}

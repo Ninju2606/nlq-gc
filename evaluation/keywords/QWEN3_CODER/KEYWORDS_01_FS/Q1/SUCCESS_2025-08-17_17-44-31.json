@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die Aktivität \u0027Spielen\u0027 mit dem Objekt \u0027Basketball\u0027 und bezieht sich auf die identifizierte Person \u0027Maria\u0027.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Die Anfrage enthält die Aktivität \u0027Spielen\u0027 mit dem Objekt \u0027Basketball\u0027 und bezieht sich auf die identifizierte Person \u0027Maria\u0027.\"\n}\n"
+}

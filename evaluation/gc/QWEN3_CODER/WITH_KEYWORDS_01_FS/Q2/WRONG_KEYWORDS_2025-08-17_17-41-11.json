@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde aus der Anfrage \u0027Tim rennt\u0027 generiert. Da die Identifikation des Nutzers als \u0027Maria\u0027 angegeben ist, wurde diese in das Vokabular aufgenommen. Die Matrix zeigt, dass \u0027Maria\u0027 die Aktivität \u0027run\u0027 ausführt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [[1, 0, 8], [0, 1, 8], [0, 0, 1]],\n  \"description\": \"Der GraphCode wurde aus der Anfrage \u0027Tim rennt\u0027 generiert. Da die Identifikation des Nutzers als \u0027Maria\u0027 angegeben ist, wurde diese in das Vokabular aufgenommen. Die Matrix zeigt, dass \u0027Maria\u0027 die Aktivität \u0027run\u0027 ausführt.\"\n}\n\n"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      11
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Szene zeigt Maria, die einen gelben Hut trägt. Die Matrix bildet die Beziehungen zwischen den Begriffen ab, wobei Maria als Objekt (1) definiert ist, das die Aktivität \u0027wear\u0027 (7) mit dem Objekt \u0027hat\u0027 (8) durchführt, welches die Eigenschaft \u0027yellow\u0027 (11) besitzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [[1, 7, 0, 0], [0, 9, 8, 0], [0, 0, 1, 11], [0, 0, 0, 3]],\n  \"description\": \"Die Szene zeigt Maria, die einen gelben Hut trägt. Die Matrix bildet die Beziehungen zwischen den Begriffen ab, wobei Maria als Objekt (1) definiert ist, das die Aktivität \u0027wear\u0027 (7) mit dem Objekt \u0027hat\u0027 (8) durchführt, welches die Eigenschaft \u0027yellow\u0027 (11) besitzt.\"\n}"
+}

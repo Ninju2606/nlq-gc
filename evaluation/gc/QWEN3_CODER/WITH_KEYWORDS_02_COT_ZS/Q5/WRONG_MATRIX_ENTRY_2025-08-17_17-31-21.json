@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027ich\u0027 wurde durch die Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (ID 1); \u0027wear\u0027 ist eine Aktivität (ID 4); \u0027hat\u0027 ist ein Objekt (ID 1); \u0027yellow\u0027 ist ein Attribut (Objekt, ID 1). 3. Relationen zwischen den Stichwörtern: maria führt die Aktivität \u0027wear\u0027 aus (ID 8); \u0027wear\u0027 bezieht sich auf \u0027hat\u0027; \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 (ID 5). 4. Alle Relationen sind durch die vorgegebenen Typkodierungen abgedeckt und korrekt verwendet worden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027ich\u0027 wurde durch die Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (ID 1); \u0027wear\u0027 ist eine Aktivität (ID 4); \u0027hat\u0027 ist ein Objekt (ID 1); \u0027yellow\u0027 ist ein Attribut (Objekt, ID 1). 3. Relationen zwischen den Stichwörtern: maria führt die Aktivität \u0027wear\u0027 aus (ID 8); \u0027wear\u0027 bezieht sich auf \u0027hat\u0027; \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 (ID 5). 4. Alle Relationen sind durch die vorgegebenen Typkodierungen abgedeckt und korrekt verwendet worden.\"\n}\n"
+}

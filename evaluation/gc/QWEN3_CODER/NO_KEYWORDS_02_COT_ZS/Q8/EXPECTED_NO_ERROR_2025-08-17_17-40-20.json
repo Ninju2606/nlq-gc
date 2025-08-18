@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 enthält keine eindeutigen Szenenobjekte, Attribute oder Aktivitäten, die für die Erstellung eines sinnvollen GraphCodes mit den gegebenen Typkodierungen geeignet wären. Es fehlen klare Relationen zwischen den Begriffen.",
+  "error": "Fehler bei der Erstellung des GraphCodes",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Erstellung des GraphCodes\",\n  \"description\": \"Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 enthält keine eindeutigen Szenenobjekte, Attribute oder Aktivitäten, die für die Erstellung eines sinnvollen GraphCodes mit den gegebenen Typkodierungen geeignet wären. Es fehlen klare Relationen zwischen den Begriffen.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      8
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria eine Aktivität durchführt, bei der es darum geht, einen Termin zu planen. Die Beziehung zwischen \u0027Maria\u0027 und \u0027schedule\u0027 ist vom Typ \u0027perform\u0027 (ID 8), da Maria die Handlung ausführt. \u0027schedule\u0027 ist eine Aktivität (ID 9) und hat als Ziel (\u0027target\u0027, ID 9) den Begriff \u0027appointment\u0027. \u0027appointment\u0027 wird als Objekt (ID 1) klassifiziert.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"schedule\", \"appointment\"],\n    \"matrix\": [[1, 7, 8], [0, 9, 8], [0, 0, 1]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria eine Aktivität durchführt, bei der es darum geht, einen Termin zu planen. Die Beziehung zwischen \u0027Maria\u0027 und \u0027schedule\u0027 ist vom Typ \u0027perform\u0027 (ID 8), da Maria die Handlung ausführt. \u0027schedule\u0027 ist eine Aktivität (ID 9) und hat als Ziel (\u0027target\u0027, ID 9) den Begriff \u0027appointment\u0027. \u0027appointment\u0027 wird als Objekt (ID 1) klassifiziert.\"\n}\n"
+}

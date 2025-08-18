@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria mit ihrer Tochter auf einem Boot auf einem See fährt. Maria ist vom Typ \u0027object\u0027, \u0027person\u0027 repräsentiert ihre Tochter, \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 das Fahrzeug, das auf dem \u0027lake\u0027 ist.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [[1, 10, 0, 0, 0], [0, 1, 7, 0, 0], [0, 0, 9, 8, 6], [0, 0, 0, 1, 6], [0, 0, 0, 0, 3]],\n    \"description\": \"Der GraphCode beschreibt die Szene, in der Maria mit ihrer Tochter auf einem Boot auf einem See fährt. Maria ist vom Typ \u0027object\u0027, \u0027person\u0027 repräsentiert ihre Tochter, \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 das Fahrzeug, das auf dem \u0027lake\u0027 ist.\"\n}"
+}

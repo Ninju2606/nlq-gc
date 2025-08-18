@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 ist grammatikalisch korrekt, enthält jedoch keine klaren Bezüge zu Objekten, Attributen oder Aktivitäten, die sich zur Erstellung eines GraphCodes eignen. Insbesondere fehlen eindeutige Relationen zwischen Begriffen, die über relative Verweise (z. B. \u0027in\u0027, \u0027unter\u0027, \u0027über\u0027) definiert werden können. Daher kann kein sinnvoller GraphCode erstellt werden.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen zur Generierung eines GraphCodes.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen zur Generierung eines GraphCodes.\",\n  \"description\": \"Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 ist grammatikalisch korrekt, enthält jedoch keine klaren Bezüge zu Objekten, Attributen oder Aktivitäten, die sich zur Erstellung eines GraphCodes eignen. Insbesondere fehlen eindeutige Relationen zwischen Begriffen, die über relative Verweise (z. B. \u0027in\u0027, \u0027unter\u0027, \u0027über\u0027) definiert werden können. Daher kann kein sinnvoller GraphCode erstellt werden.\"\n}"
+}

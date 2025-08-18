@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage „Wir müssen bald einen Termin ausmachen“ beschreibt keine Szene im Metaverse mit erkennbaren Objekten, Attributen oder Aktivitäten. Daher kann kein GraphCode generiert werden.",
+  "error": "Die Anfrage ist nicht spezifisch genug, um einen sinnvollen GraphCode zu generieren. Es fehlen konkrete Angaben zu Objekten, Attributen oder Aktivitäten innerhalb einer Metaverse-Szene.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist nicht spezifisch genug, um einen sinnvollen GraphCode zu generieren. Es fehlen konkrete Angaben zu Objekten, Attributen oder Aktivitäten innerhalb einer Metaverse-Szene.\",\n  \"description\": \"Die Anfrage „Wir müssen bald einen Termin ausmachen“ beschreibt keine Szene im Metaverse mit erkennbaren Objekten, Attributen oder Aktivitäten. Daher kann kein GraphCode generiert werden.\"\n}"
+}

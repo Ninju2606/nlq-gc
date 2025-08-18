@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "Die Nutzerin Maria und ihre Tochter (als Person) fahren mit dem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Begriffen ab, wobei Maria und die Person jeweils das Verb \u0027drive\u0027 ausführen, das auf das Boot zielt. Das Boot steht im Kontext des Sees (\u0027lake\u0027).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 0, 7, 0, 0],\n        [0, 1, 7, 0, 0],\n        [0, 0, 4, 8, 0],\n        [0, 0, 0, 1, 0],\n        [0, 0, 0, 0, 2]\n    ],\n    \"description\": \"Die Nutzerin Maria und ihre Tochter (als Person) fahren mit dem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Begriffen ab, wobei Maria und die Person jeweils das Verb \u0027drive\u0027 ausführen, das auf das Boot zielt. Das Boot steht im Kontext des Sees (\u0027lake\u0027).\"\n}"
+}

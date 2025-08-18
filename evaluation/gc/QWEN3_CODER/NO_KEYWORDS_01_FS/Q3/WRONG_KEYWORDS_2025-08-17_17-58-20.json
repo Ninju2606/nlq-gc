@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode basierend auf der Anfrage, dass Maria in einem Pool schwimmt, der ihr gehört. Die Matrix kodiert die Beziehung zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [[1, 7, 0], [0, 4, 8], [0, 0, 1]],\n  \"description\": \"GraphCode basierend auf der Anfrage, dass Maria in einem Pool schwimmt, der ihr gehört. Die Matrix kodiert die Beziehung zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.\"\n}\n"
+}

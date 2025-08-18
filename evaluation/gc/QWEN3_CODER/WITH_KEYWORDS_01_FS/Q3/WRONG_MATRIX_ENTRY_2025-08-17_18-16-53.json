@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Maria führt die Aktivität schwimmen in einem Pool aus, der ihr gehört. Die Beziehung zwischen den Begriffen wurde entsprechend der vorgegebenen Typkodierungen abgebildet.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 7, 0, 0], [0, 4, 9, 8], [0, 0, 4, 5], [0, 6, 0, 1]],\n    \"description\": \"Maria führt die Aktivität schwimmen in einem Pool aus, der ihr gehört. Die Beziehung zwischen den Begriffen wurde entsprechend der vorgegebenen Typkodierungen abgebildet.\"\n}\n"
+}

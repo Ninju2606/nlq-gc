@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine eindeutigen Stichwörter oder Relationen aus der Anfrage \"Häuser um Fragen zu malen\" abgeleitet werden. Die semantische Struktur ist nicht validierbar.",
+  "error": "Die Anfrage enthält grammatikalische oder inhaltliche Unklarheiten. Bitte formuliere eine präzisere Anfrage, die eine klare Szenenbeschreibung im Metaverse darstellt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält grammatikalische oder inhaltliche Unklarheiten. Bitte formuliere eine präzisere Anfrage, die eine klare Szenenbeschreibung im Metaverse darstellt.\",\n  \"description\": \"Es können keine eindeutigen Stichwörter oder Relationen aus der Anfrage \\\"Häuser um Fragen zu malen\\\" abgeleitet werden. Die semantische Struktur ist nicht validierbar.\"\n}"
+}

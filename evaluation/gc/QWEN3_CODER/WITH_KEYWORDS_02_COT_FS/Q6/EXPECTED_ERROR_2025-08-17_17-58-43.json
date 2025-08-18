@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Relative Verweise oder Identifikationen des Nutzers wurden nicht aufgelöst, da die Anfrage keine relativen Ausdrücke wie \"ich\" enthält.\n2. \"maria\" ist ein Objekt. \"make\" ist eine Aktivität. \"appointment\" ist ein Objekt.\n3. \"maria\" führt die Aktivität \"make\" aus. Die Aktivität \"make\" bezieht sich auf \"appointment\".\n4. Es existieren entsprechende Typkodierungen: object (1), activity (4), perform (7), target (8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [[1, 7, 0], [0, 4, 8], [0, 0, 1]],\n  \"description\": \"1. Relative Verweise oder Identifikationen des Nutzers wurden nicht aufgelöst, da die Anfrage keine relativen Ausdrücke wie \\\"ich\\\" enthält.\\n2. \\\"maria\\\" ist ein Objekt. \\\"make\\\" ist eine Aktivität. \\\"appointment\\\" ist ein Objekt.\\n3. \\\"maria\\\" führt die Aktivität \\\"make\\\" aus. Die Aktivität \\\"make\\\" bezieht sich auf \\\"appointment\\\".\\n4. Es existieren entsprechende Typkodierungen: object (1), activity (4), perform (7), target (8).\"\n}"
+}

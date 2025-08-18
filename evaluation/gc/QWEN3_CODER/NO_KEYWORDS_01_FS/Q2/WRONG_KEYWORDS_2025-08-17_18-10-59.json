@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Szene zeigt, dass Tim rennt. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 verwendet wurden, bleibt die Identifikation \u0027Maria\u0027 unberücksichtigt.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"Tim\", \"run\"],\n    \"matrix\": [[1, 0, 0], [0, 1, 0], [0, 0, 9]],\n    \"description\": \"Die Szene zeigt, dass Tim rennt. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 verwendet wurden, bleibt die Identifikation \u0027Maria\u0027 unberücksichtigt.\"\n}\n"
+}

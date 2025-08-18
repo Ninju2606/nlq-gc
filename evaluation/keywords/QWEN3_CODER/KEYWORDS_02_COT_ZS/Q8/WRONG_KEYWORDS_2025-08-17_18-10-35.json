@@ -1,0 +1,14 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "drive",
+    "water"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter der Anfrage wurden identifiziert und ins Englische übersetzt. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da in der Anfrage ein Bezug auf die identifizierte Person steht. Relative Verweise wie \u0027meine Tochter\u0027 wurden aufgelöst. Die Wörter wurden vereinfacht und verallgemeinert (z. B. \u0027fahre\u0027 -\u003e \u0027drive\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"drive\", \"water\"],\n  \"description\": \"Die Stichwörter der Anfrage wurden identifiziert und ins Englische übersetzt. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da in der Anfrage ein Bezug auf die identifizierte Person steht. Relative Verweise wie \u0027meine Tochter\u0027 wurden aufgelöst. Die Wörter wurden vereinfacht und verallgemeinert (z. B. \u0027fahre\u0027 -\u003e \u0027drive\u0027).\"\n}"
+}

@@ -1,0 +1,63 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Wir",
+    "müssen",
+    "bald",
+    "einen",
+    "Termin",
+    "ausmachen"
+  ],
+  "matrix": [
+    [
+      0,
+      8,
+      0,
+      0,
+      9,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Wir\", \"müssen\", \"bald\", \"einen\", \"Termin\", \"ausmachen\"],\n  \"matrix\": [\n    [0, 8, 0, 0, 9, 4],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n"
+}

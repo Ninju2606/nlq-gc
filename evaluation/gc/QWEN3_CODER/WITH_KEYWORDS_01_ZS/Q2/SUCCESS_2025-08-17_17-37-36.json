@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der \u0027Tim\u0027 (object) die Aktivität \u0027run\u0027 (activity) ausführt. Die Beziehung zwischen \u0027Tim\u0027 und \u0027run\u0027 ist durch den Typ \u0027perform\u0027 (id\u003d8) kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der \u0027Tim\u0027 (object) die Aktivität \u0027run\u0027 (activity) ausführt. Die Beziehung zwischen \u0027Tim\u0027 und \u0027run\u0027 ist durch den Typ \u0027perform\u0027 (id\u003d8) kodiert.\"\n}"
+}

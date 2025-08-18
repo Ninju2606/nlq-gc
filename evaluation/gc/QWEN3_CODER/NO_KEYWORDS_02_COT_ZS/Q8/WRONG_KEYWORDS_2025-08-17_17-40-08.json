@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      5
+    ],
+    [
+      10,
+      1,
+      8,
+      5
+    ],
+    [
+      8,
+      8,
+      1,
+      5
+    ],
+    [
+      5,
+      5,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Auflösung relativer Verweise: \u0027ich\u0027 -\u003e \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 -\u003e \u0027daughter\u0027, \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027fahren\u0027 -\u003e \u0027ride\u0027, \u0027Boot\u0027 -\u003e \u0027boat\u0027, \u0027See\u0027 -\u003e \u0027lake\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027daughter\u0027 ist eine Beziehung (id\u003d10), \u0027boat\u0027 ist ein Objekt (id\u003d1), \u0027lake\u0027 ist ein Kontext/Ort (id\u003d2).\n6. Relationen zwischen Stichwörtern: Maria ist die Mutter der Tochter (daughter\u003d10), Maria und Tochter fahren mit dem Boot (perform\u003d8), das Boot ist auf dem See (attached\u003d5), der See ist der Kontext (context\u003d2).\n7. Überprüfung der Typkodierungen: Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen vorhanden.\n8. Zusammenstellung des GraphCodes abgeschlossen.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 5],\n    [10, 1, 8, 5],\n    [8, 8, 1, 5],\n    [5, 5, 5, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Auflösung relativer Verweise: \u0027ich\u0027 -\u003e \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 -\u003e \u0027daughter\u0027, \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027fahren\u0027 -\u003e \u0027ride\u0027, \u0027Boot\u0027 -\u003e \u0027boat\u0027, \u0027See\u0027 -\u003e \u0027lake\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027daughter\u0027 ist eine Beziehung (id\u003d10), \u0027boat\u0027 ist ein Objekt (id\u003d1), \u0027lake\u0027 ist ein Kontext/Ort (id\u003d2).\\n6. Relationen zwischen Stichwörtern: Maria ist die Mutter der Tochter (daughter\u003d10), Maria und Tochter fahren mit dem Boot (perform\u003d8), das Boot ist auf dem See (attached\u003d5), der See ist der Kontext (context\u003d2).\\n7. Überprüfung der Typkodierungen: Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen vorhanden.\\n8. Zusammenstellung des GraphCodes abgeschlossen.\"\n}\n"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 wurden identifiziert und ins Englische übersetzt. Der Nutzer \u0027Maria\u0027 wird im Vokabular durch ihren Namen ersetzt, da in der Anfrage \u0027ich\u0027 und \u0027mein\u0027 verwendet wurden. Die Wörter \u0027swim\u0027 und \u0027pool\u0027 wurden als Objekte/Attribute und Aktivitäten erkannt, wobei \u0027Maria\u0027 als Subjekt der Handlung fungiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 wurden identifiziert und ins Englische übersetzt. Der Nutzer \u0027Maria\u0027 wird im Vokabular durch ihren Namen ersetzt, da in der Anfrage \u0027ich\u0027 und \u0027mein\u0027 verwendet wurden. Die Wörter \u0027swim\u0027 und \u0027pool\u0027 wurden als Objekte/Attribute und Aktivitäten erkannt, wobei \u0027Maria\u0027 als Subjekt der Handlung fungiert.\"\n}"
+}

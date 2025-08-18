@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält lediglich ein Subjekt und eine Aktivität, aber keine Objekte, Attribute oder weiteren Kontext, der für die Erstellung einer vollständigen Bewertungsmatrix notwendig wäre. Es fehlen Relationen zwischen mehreren Begriffen, um einen GraphCode sinnvoll zu erstellen.",
+  "error": "Die Anfrage ist zu kurz und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist zu kurz und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält lediglich ein Subjekt und eine Aktivität, aber keine Objekte, Attribute oder weiteren Kontext, der für die Erstellung einer vollständigen Bewertungsmatrix notwendig wäre. Es fehlen Relationen zwischen mehreren Begriffen, um einen GraphCode sinnvoll zu erstellen.\"\n}"
+}

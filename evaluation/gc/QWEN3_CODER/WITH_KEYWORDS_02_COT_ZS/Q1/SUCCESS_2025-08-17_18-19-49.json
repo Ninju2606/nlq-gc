@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027Ich\u0027 wurde durch die Identifikation des Nutzers \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object, id\u003d1), \u0027play\u0027 ist eine Aktivität (activity, id\u003d4), \u0027basketball\u0027 ist ein Objekt (object, id\u003d1). 3. Relationen zwischen den Stichwörtern: maria --perform--\u003e play (maria führt die Aktivität play aus, perform\u003did\u003d8), play --target--\u003e basketball (play hat basketball als Ziel, target\u003did\u003d9). 4. Alle Relationen haben gültige Typkodierungen: \u0027maria\u0027\u003dobject(1), \u0027play\u0027\u003dactivity(4), \u0027basketball\u0027\u003dobject(1), \u0027perform\u0027\u003d8, \u0027target\u0027\u003d9. 5. Der GraphCode wurde entsprechend zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027Ich\u0027 wurde durch die Identifikation des Nutzers \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object, id\u003d1), \u0027play\u0027 ist eine Aktivität (activity, id\u003d4), \u0027basketball\u0027 ist ein Objekt (object, id\u003d1). 3. Relationen zwischen den Stichwörtern: maria --perform--\u003e play (maria führt die Aktivität play aus, perform\u003did\u003d8), play --target--\u003e basketball (play hat basketball als Ziel, target\u003did\u003d9). 4. Alle Relationen haben gültige Typkodierungen: \u0027maria\u0027\u003dobject(1), \u0027play\u0027\u003dactivity(4), \u0027basketball\u0027\u003dobject(1), \u0027perform\u0027\u003d8, \u0027target\u0027\u003d9. 5. Der GraphCode wurde entsprechend zusammengesetzt.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine allgemeine Handlung, aber enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einem Metaverse-Szenario relevant wären. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "\n{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine allgemeine Handlung, aber enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einem Metaverse-Szenario relevant wären. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}\n"
+}

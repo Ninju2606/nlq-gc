@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist \u0027daughter\u0027, ihre gemeinsame Aktivität ist \u0027perform\u0027 (fahren/booten), und das Boot ist \u0027attached\u0027 zum See, der als Kontext (\u0027context\u0027) interpretiert wird.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 8, 0],\n        [10, 1, 8, 0],\n        [0, 0, 1, 5],\n        [0, 0, 5, 2]\n    ],\n    \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist \u0027daughter\u0027, ihre gemeinsame Aktivität ist \u0027perform\u0027 (fahren/booten), und das Boot ist \u0027attached\u0027 zum See, der als Kontext (\u0027context\u0027) interpretiert wird.\"\n}"
+}

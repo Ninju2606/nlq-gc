@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria schwimmt in einem Pool, der ihr gehört. Die identifizierenden Ausdrücke wurden entsprechend ersetzt und die Verben auf ihre Stammformen reduziert.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"description\": \"Die Nutzerin Maria schwimmt in einem Pool, der ihr gehört. Die identifizierenden Ausdrücke wurden entsprechend ersetzt und die Verben auf ihre Stammformen reduziert.\"\n}\n"
+}

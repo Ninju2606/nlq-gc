@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.\n3. Übersetzung der Stichwörter ins Englische: \u0027Maria\u0027 bleibt unverändert, \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\n6. Relationen erklärt: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typ 8), \u0027play\u0027 hat das Ziel oder den Gegenstand \u0027basketball\u0027 (Typ 9).\n7. Alle verwendeten Relationen sind in den vorgegebenen Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.\\n3. Übersetzung der Stichwörter ins Englische: \u0027Maria\u0027 bleibt unverändert, \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n6. Relationen erklärt: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typ 8), \u0027play\u0027 hat das Ziel oder den Gegenstand \u0027basketball\u0027 (Typ 9).\\n7. Alle verwendeten Relationen sind in den vorgegebenen Typkodierungen enthalten.\"\n}"
+}

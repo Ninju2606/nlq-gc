@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Beziehungen zwischen den Begriffen in der Anfrage: Maria (Person) fährt (Activity) ein Boot (Object) auf einem See (Context). Die Matrix zeigt die Typbeziehungen zwischen den Einträge, wobei Einträge auf der Diagonalen den Typ des jeweiligen Begriffs angeben und außerhalb der Diagonalen Relationen wie \u0027perform\u0027, \u0027attached\u0027 und \u0027under\u0027 darstellen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 8, 5, 6],\n    [0, 0, 5, 1, 0],\n    [0, 0, 6, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Beziehungen zwischen den Begriffen in der Anfrage: Maria (Person) fährt (Activity) ein Boot (Object) auf einem See (Context). Die Matrix zeigt die Typbeziehungen zwischen den Einträge, wobei Einträge auf der Diagonalen den Typ des jeweiligen Begriffs angeben und außerhalb der Diagonalen Relationen wie \u0027perform\u0027, \u0027attached\u0027 und \u0027under\u0027 darstellen.\"\n}"
+}

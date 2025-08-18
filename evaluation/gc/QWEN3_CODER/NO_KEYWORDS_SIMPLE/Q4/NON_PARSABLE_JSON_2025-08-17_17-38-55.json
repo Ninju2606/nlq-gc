@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1],\n    [0, 0, 0, 0]\n  ]\n}\n \n\n### Erläuterung:\n\n- **Begriffe (dictionary):** Die im Text vorkommenden Begriffe bilden die Knoten des Graphen:  \n  `[\"Ich\", \"schwimme\", \"meinem\", \"Pool\"]`\n\n- **Adjazenzmatrix (matrix):**\n  - Zeilen und Spalten entsprechen den Begriffen.\n  - Die Einträge in der Matrix sind **Typcodes** entsprechend der vorgegebenen Kodierung:\n    - `8` für **perform** (zwischen \"Ich\" und \"schwimme\")\n    - `1` für **object** (zwischen \"meinem\" und \"Pool\", da \"mein Pool\" eine Objektbeziehung darstellt)\n\nDie restlichen Beziehungen sind null, da keine weiteren semantischen Relationen laut Vorgabe bestehen."
+}

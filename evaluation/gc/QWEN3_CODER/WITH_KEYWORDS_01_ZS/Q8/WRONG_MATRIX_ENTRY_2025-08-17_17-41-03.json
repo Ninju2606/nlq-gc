@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehungen zwischen den Begriffen sind wie folgt kodiert: Maria und Person sind über \u0027attached\u0027 verbunden, da es sich um die gleiche Entität handelt. Die Aktivität \u0027drive\u0027 wird von der Person ausgeführt (\u0027perform\u0027). Das Boot ist das Ziel der Aktivität (\u0027target\u0027). Der See steht im Zusammenhang mit dem Boot, da es darauf stattfindet (\u0027above\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 0, 0, 0],\n    [5, 1, 8, 0, 0],\n    [0, 8, 4, 9, 0],\n    [0, 0, 9, 1, 6],\n    [0, 0, 0, 6, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehungen zwischen den Begriffen sind wie folgt kodiert: Maria und Person sind über \u0027attached\u0027 verbunden, da es sich um die gleiche Entität handelt. Die Aktivität \u0027drive\u0027 wird von der Person ausgeführt (\u0027perform\u0027). Das Boot ist das Ziel der Aktivität (\u0027target\u0027). Der See steht im Zusammenhang mit dem Boot, da es darauf stattfindet (\u0027above\u0027).\"\n}"
+}

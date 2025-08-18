@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      6
+    ],
+    [
+      10,
+      1,
+      8,
+      6
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria mit ihrer Tochter auf einem Boot auf einem See fährt. Maria und ihre Tochter sind durch die Beziehung \u0027daughter\u0027 verbunden. Beide führen die Aktivität \u0027perform\u0027 (fahren) mit dem Objekt \u0027boat\u0027 durch. Das Boot steht in der Beziehung \u0027under\u0027 zum See, was den Kontext darstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 6],\n    [10, 1, 8, 6],\n    [0, 0, 1, 5],\n    [0, 0, 5, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria mit ihrer Tochter auf einem Boot auf einem See fährt. Maria und ihre Tochter sind durch die Beziehung \u0027daughter\u0027 verbunden. Beide führen die Aktivität \u0027perform\u0027 (fahren) mit dem Objekt \u0027boat\u0027 durch. Das Boot steht in der Beziehung \u0027under\u0027 zum See, was den Kontext darstellt.\"\n}"
+}

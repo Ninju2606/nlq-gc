@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die Stichwörter \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt und ggf. auf ihre Grundform zurückgeführt. Es kommen keine selbstreferenzierenden Pronomen vor, daher wird die Identifikation des Nutzers nicht benötigt. Die Stichwörter beschreiben ein Szenario mit Häusern, das im Kontext von Fragen steht, und eine Aktivität des Malens.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"house\", \"question\", \"paint\"],\n    \"description\": \"Die Anfrage enthält die Stichwörter \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt und ggf. auf ihre Grundform zurückgeführt. Es kommen keine selbstreferenzierenden Pronomen vor, daher wird die Identifikation des Nutzers nicht benötigt. Die Stichwörter beschreiben ein Szenario mit Häusern, das im Kontext von Fragen steht, und eine Aktivität des Malens.\"\n}\n"
+}

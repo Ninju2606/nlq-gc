@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen Termin ausmacht. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist \u0027perform\u0027 (Typ 8). Die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 ist \u0027target\u0027 (Typ 9).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n    \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen Termin ausmacht. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist \u0027perform\u0027 (Typ 8). Die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 ist \u0027target\u0027 (Typ 9).\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist über \u0027daughter\u0027 abgebildet, das Fahren mit \u0027drive\u0027 und das Boot als Ziel mit \u0027target\u0027. Der See stellt den Kontext dar.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 7, 0, 0],\n        [0, 1, 7, 0, 0],\n        [0, 0, 4, 8, 0],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist über \u0027daughter\u0027 abgebildet, das Fahren mit \u0027drive\u0027 und das Boot als Ziel mit \u0027target\u0027. Der See stellt den Kontext dar.\"\n}\n"
+}

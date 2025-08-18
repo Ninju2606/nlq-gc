@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage unklar ist.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung. Bitte formuliere eine präzise Anfrage, die eine Szene im Metaverse beschreibt.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung. Bitte formuliere eine präzise Anfrage, die eine Szene im Metaverse beschreibt.\",\n    \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage unklar ist.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 enthält grammatikalische Unklarheiten. Es fehlt eine eindeutige Aktivität (\u0027fahren Boot\u0027 ist unklar; vermutlich ist \u0027fahren\u0027 mit \u0027Boot\u0027 als Zielobjekt gemeint). Auch die Präposition \u0027auf einem See\u0027 ist hier semantisch unpassend für die Bootsfahrt. Daher kann kein valider GraphCode erstellt werden.",
+  "error": "Fehler bei der Erkennung relevanter Stichwörter oder fehlerhafte Semantik in der Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Erkennung relevanter Stichwörter oder fehlerhafte Semantik in der Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 enthält grammatikalische Unklarheiten. Es fehlt eine eindeutige Aktivität (\u0027fahren Boot\u0027 ist unklar; vermutlich ist \u0027fahren\u0027 mit \u0027Boot\u0027 als Zielobjekt gemeint). Auch die Präposition \u0027auf einem See\u0027 ist hier semantisch unpassend für die Bootsfahrt. Daher kann kein valider GraphCode erstellt werden.\"\n}"
+}

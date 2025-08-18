@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Szene mit Häusern, in denen Fragen gemalt werden. Maria ist der Kontext der Anfrage.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\", \"Maria\"],\n  \"matrix\": [\n    [1, 9, 8, 0],\n    [0, 1, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"GraphCode für die Szene mit Häusern, in denen Fragen gemalt werden. Maria ist der Kontext der Anfrage.\"\n}"
+}

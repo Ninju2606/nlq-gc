@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: [Situationen, ich, gelben Hut trage]. 2. Relative Verweise aufgelöst: \u0027ich\u0027 referenziert auf den Nutzer mit der Identifikation \u0027Maria\u0027. 3. Stichwörter ins Englische übersetzt: [Maria, wear, hat, yellow]. 4. Nutzeridentifikation ersetzt: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: [Situationen, ich, gelben Hut trage]. 2. Relative Verweise aufgelöst: \u0027ich\u0027 referenziert auf den Nutzer mit der Identifikation \u0027Maria\u0027. 3. Stichwörter ins Englische übersetzt: [Maria, wear, hat, yellow]. 4. Nutzeridentifikation ersetzt: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\"\n}\n"
+}

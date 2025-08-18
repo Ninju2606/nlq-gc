@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, welche die Grundlage für einen GraphCode bilden könnten. Lediglich ein allgemeiner Hinweis auf einen Termin wird gegeben, ohne inhaltliche Ausgestaltung, die eine sinnvolle Bewertungsmatrix ermöglichen würde.",
+  "error": "Unklare oder unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage\",\n  \"description\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, welche die Grundlage für einen GraphCode bilden könnten. Lediglich ein allgemeiner Hinweis auf einen Termin wird gegeben, ohne inhaltliche Ausgestaltung, die eine sinnvolle Bewertungsmatrix ermöglichen würde.\"\n}"
+}

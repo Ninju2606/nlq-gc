@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es könnten potenziell \"Häuser\", \"Fragen\" und \"malen\" als Stichwörter identifiziert werden, jedoch fehlt eine sinnvolle inhaltliche oder grammatische Verknüpfung zwischen diesen Begriffen. Insbesondere ist unklar, wie \"Häuser\" im Kontext \"um Fragen zu malen\" stehen sollen. Daher ist die Anfrage nicht interpretierbar.",
+  "error": "Die Anfrage ist unklar oder grammatikalisch verwirrend. Es können keine sinnvollen Stichwörter ermittelt werden, um einen gültigen GraphCode zu generieren.",
+  "responsePlain": "\n{\n    \"error\": \"Die Anfrage ist unklar oder grammatikalisch verwirrend. Es können keine sinnvollen Stichwörter ermittelt werden, um einen gültigen GraphCode zu generieren.\",\n    \"description\": \"Es könnten potenziell \\\"Häuser\\\", \\\"Fragen\\\" und \\\"malen\\\" als Stichwörter identifiziert werden, jedoch fehlt eine sinnvolle inhaltliche oder grammatische Verknüpfung zwischen diesen Begriffen. Insbesondere ist unklar, wie \\\"Häuser\\\" im Kontext \\\"um Fragen zu malen\\\" stehen sollen. Daher ist die Anfrage nicht interpretierbar.\"\n}\n"
+}

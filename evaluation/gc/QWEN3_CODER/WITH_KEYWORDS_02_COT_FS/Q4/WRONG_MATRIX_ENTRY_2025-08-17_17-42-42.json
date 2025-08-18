@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. \"Ich\" wurde zu \"Maria\" aufgelöst. Es gibt keine weiteren relativen Verweise.\n2. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist ein Kontext.\n3. \"Maria\" besitzt \"pool\". \"Maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für Besitz (attached) ist 5. Die ID für Ausführen (perform) ist 8. Die ID für Beziehung (target) ist 9.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 5, 0], [0, 4, 9, 8], [0, 0, 1, 5], [0, 0, 0, 1]],\n    \"description\": \"1. \\\"Ich\\\" wurde zu \\\"Maria\\\" aufgelöst. Es gibt keine weiteren relativen Verweise.\\n2. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist ein Kontext.\\n3. \\\"Maria\\\" besitzt \\\"pool\\\". \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für Besitz (attached) ist 5. Die ID für Ausführen (perform) ist 8. Die ID für Beziehung (target) ist 9.\"\n}\n"
+}

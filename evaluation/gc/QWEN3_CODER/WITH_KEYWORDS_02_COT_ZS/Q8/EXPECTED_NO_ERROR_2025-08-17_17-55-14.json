@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält den Begriff \u0027Tochter\u0027, welcher nicht Bestandteil des übergebenen englischsprachigen Vokabulars ist. Ohne eine eindeutige Entsprechung im Vokabular kann keine vollständige und korrekte Matrix erstellt werden. Zudem fehlt die Identifikation eines spezifischen Objekts oder Attributs für den Begriff \u0027Boot\u0027 abgesehen vom Kontext. Dies verhindert die Erstellung eines gültigen GraphCodes.",
+  "error": "Unvollständige semantische Zuordnung: Das Attribut \u0027daughter\u0027 ist nicht im vorgegebenen Vokabular enthalten. Eine Abbildung in die Bewertungsmatrix ist daher nicht möglich.",
+  "responsePlain": "{\n  \"error\": \"Unvollständige semantische Zuordnung: Das Attribut \u0027daughter\u0027 ist nicht im vorgegebenen Vokabular enthalten. Eine Abbildung in die Bewertungsmatrix ist daher nicht möglich.\",\n  \"description\": \"Die Anfrage enthält den Begriff \u0027Tochter\u0027, welcher nicht Bestandteil des übergebenen englischsprachigen Vokabulars ist. Ohne eine eindeutige Entsprechung im Vokabular kann keine vollständige und korrekte Matrix erstellt werden. Zudem fehlt die Identifikation eines spezifischen Objekts oder Attributs für den Begriff \u0027Boot\u0027 abgesehen vom Kontext. Dies verhindert die Erstellung eines gültigen GraphCodes.\"\n}"
+}

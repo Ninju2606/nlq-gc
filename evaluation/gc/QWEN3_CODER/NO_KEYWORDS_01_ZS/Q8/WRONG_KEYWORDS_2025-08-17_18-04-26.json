@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      6
+    ],
+    [
+      10,
+      1,
+      8,
+      6
+    ],
+    [
+      5,
+      5,
+      1,
+      2
+    ],
+    [
+      7,
+      7,
+      4,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter auf einem Boot auf einem See fährt. Die Beziehung zwischen den Begriffen ist durch die vorgegebenen Typkodierungen modelliert.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 6],\n    [10, 1, 8, 6],\n    [5, 5, 1, 2],\n    [7, 7, 4, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter auf einem Boot auf einem See fährt. Die Beziehung zwischen den Begriffen ist durch die vorgegebenen Typkodierungen modelliert.\"\n}\n"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte Situationen finden, in denen er (identifiziert als Maria) einen gelben Hut trägt. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 wurden durch die spezifizierte Nutzeridentifikation \u0027Maria\u0027 ersetzt. Abstraktionen und Verben wurden auf ihre Stammform reduziert.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"description\": \"Der Nutzer möchte Situationen finden, in denen er (identifiziert als Maria) einen gelben Hut trägt. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 wurden durch die spezifizierte Nutzeridentifikation \u0027Maria\u0027 ersetzt. Abstraktionen und Verben wurden auf ihre Stammform reduziert.\"\n}\n"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      4,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \"Tim\" wurde nicht durch die Identifikation des Nutzers ersetzt, da keine selbst-identifizierenden Wörter wie \"ich\" oder \"mein\" verwendet wurden. \n2. \"Maria\" ist ein Objekt (object), \"tim\" ist ein Objekt (object) und \"run\" ist eine Aktivität (activity).\n3. \"tim\" führt die Aktivität \"run\" aus. \"Maria\" steht in keiner direkten Beziehung zu \"tim\" oder \"run\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [[1, 8, 0], [4, 1, 7], [0, 0, 4]],\n  \"description\": \"1. Der relative Verweis \\\"Tim\\\" wurde nicht durch die Identifikation des Nutzers ersetzt, da keine selbst-identifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" verwendet wurden. \\n2. \\\"Maria\\\" ist ein Objekt (object), \\\"tim\\\" ist ein Objekt (object) und \\\"run\\\" ist eine Aktivität (activity).\\n3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus. \\\"Maria\\\" steht in keiner direkten Beziehung zu \\\"tim\\\" oder \\\"run\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.\"\n}"
+}

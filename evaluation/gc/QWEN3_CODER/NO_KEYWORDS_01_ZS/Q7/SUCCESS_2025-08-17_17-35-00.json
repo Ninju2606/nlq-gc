@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält keine klare Szenenbeschreibung, aus der ein sinnvoller GraphCode generiert werden könnte.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "\n{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält keine klare Szenenbeschreibung, aus der ein sinnvoller GraphCode generiert werden könnte.\"\n}\n"
+}

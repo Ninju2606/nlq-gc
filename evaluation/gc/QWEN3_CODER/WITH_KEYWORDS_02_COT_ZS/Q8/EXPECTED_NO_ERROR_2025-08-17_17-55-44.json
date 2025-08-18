@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 ist grammatikalisch nicht korrekt. Es fehlt ein Verb, um die Beziehung zwischen den Begriffen eindeutig zu definieren, sowie eine präzise Formulierung der Szene. Daher kann kein gültiger GraphCode generiert werden.",
+  "error": "Die Anfrage enthält unklare oder grammatikalisch wirre Formulierungen, die eine eindeutige Interpretation verhindern. Bitte formuliere deine Anfrage präzise und beschreibe die Szene im Metaverse klar.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält unklare oder grammatikalisch wirre Formulierungen, die eine eindeutige Interpretation verhindern. Bitte formuliere deine Anfrage präzise und beschreibe die Szene im Metaverse klar.\",\n  \"description\": \"Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 ist grammatikalisch nicht korrekt. Es fehlt ein Verb, um die Beziehung zwischen den Begriffen eindeutig zu definieren, sowie eine präzise Formulierung der Szene. Daher kann kein gültiger GraphCode generiert werden.\"\n}"
+}

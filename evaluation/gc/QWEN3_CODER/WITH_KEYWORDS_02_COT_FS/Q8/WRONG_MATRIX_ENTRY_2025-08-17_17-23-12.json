@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Der relative Verweis \\\"meine Tochter\\\" wurde aufgelöst zu den Stichwörtern \\\"person\\\" (als Tochter von Maria) und \\\"maria\\\" (Identifikation des Nutzers). \\\"Ich\\\" wurde ersetzt durch \\\"maria\\\".\n        2. \\\"maria\\\", \\\"person\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\n        3. \\\"maria\\\" und \\\"person\\\" stehen in der Beziehung Tochter/Vater (oder Mutter). \\\"maria\\\" und \\\"person\\\" führen gemeinsam \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\n        4. Die IDs sind wie folgt zugeordnet: Objekt (object) \u003d 1, Aktivität (activity) \u003d 4, Ausführen (perform) \u003d 7, Bezug (target) \u003d 8, auf/über (above) \u003d 7, in/unter (context) \u003d 6, Tochter (daughter) \u003d 10, Synonym \u003d 3. Es gibt für alle verwendeten Relationen entsprechende Typkodierungen.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 7, 0, 0],\n        [0, 1, 7, 0, 0],\n        [0, 0, 4, 8, 0],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"1. Der relative Verweis \\\\\\\"meine Tochter\\\\\\\" wurde aufgelöst zu den Stichwörtern \\\\\\\"person\\\\\\\" (als Tochter von Maria) und \\\\\\\"maria\\\\\\\" (Identifikation des Nutzers). \\\\\\\"Ich\\\\\\\" wurde ersetzt durch \\\\\\\"maria\\\\\\\".\\n        2. \\\\\\\"maria\\\\\\\", \\\\\\\"person\\\\\\\", \\\\\\\"boat\\\\\\\" und \\\\\\\"lake\\\\\\\" sind Objekte der Anfrage. \\\\\\\"drive\\\\\\\" ist eine Aktivität.\\n        3. \\\\\\\"maria\\\\\\\" und \\\\\\\"person\\\\\\\" stehen in der Beziehung Tochter/Vater (oder Mutter). \\\\\\\"maria\\\\\\\" und \\\\\\\"person\\\\\\\" führen gemeinsam \\\\\\\"drive\\\\\\\" aus. \\\\\\\"drive\\\\\\\" bezieht sich auf \\\\\\\"boat\\\\\\\". \\\\\\\"boat\\\\\\\" befindet sich auf \\\\\\\"lake\\\\\\\".\\n        4. Die IDs sind wie folgt zugeordnet: Objekt (object) \u003d 1, Aktivität (activity) \u003d 4, Ausführen (perform) \u003d 7, Bezug (target) \u003d 8, auf/über (above) \u003d 7, in/unter (context) \u003d 6, Tochter (daughter) \u003d 10, Synonym \u003d 3. Es gibt für alle verwendeten Relationen entsprechende Typkodierungen.\"\n}\n"
+}

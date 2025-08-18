@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 ist zu unvollständig und liefert nicht genügend Informationen, um sinnvolle Stichwörter oder Relationen für einen GraphCode zu generieren.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 ist zu unvollständig und liefert nicht genügend Informationen, um sinnvolle Stichwörter oder Relationen für einen GraphCode zu generieren.\"\n}\n"
+}

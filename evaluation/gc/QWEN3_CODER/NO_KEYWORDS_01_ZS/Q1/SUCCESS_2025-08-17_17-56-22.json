@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Der Nutzer spielt Basketball. Daher ist die Nutzerin \u0027Maria\u0027 als Objekt (Typ 1) definiert, die die Aktivität \u0027play\u0027 (Typ 4) ausführt, wobei \u0027basketball\u0027 (Typ 1) als Ziel (Typ 9) dieser Aktivität dient.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer spielt Basketball. Daher ist die Nutzerin \u0027Maria\u0027 als Objekt (Typ 1) definiert, die die Aktivität \u0027play\u0027 (Typ 4) ausführt, wobei \u0027basketball\u0027 (Typ 1) als Ziel (Typ 9) dieser Aktivität dient.\"\n}"
+}

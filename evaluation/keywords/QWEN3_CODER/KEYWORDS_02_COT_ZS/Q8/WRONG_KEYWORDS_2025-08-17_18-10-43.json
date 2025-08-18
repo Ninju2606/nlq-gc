@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027. 2. Relative Verweise aufgelöst: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027, \u0027fahren\u0027 → \u0027boat\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027. 4. Identifikation des Nutzers wurde korrekt ersetzt und das Vokabular entsprechend angepasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027. 2. Relative Verweise aufgelöst: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027, \u0027fahren\u0027 → \u0027boat\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027. 4. Identifikation des Nutzers wurde korrekt ersetzt und das Vokabular entsprechend angepasst.\"\n}"
+}

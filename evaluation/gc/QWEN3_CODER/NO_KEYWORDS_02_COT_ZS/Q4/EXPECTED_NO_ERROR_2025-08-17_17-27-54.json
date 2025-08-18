@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine ausreichenden Informationen zur Generierung eines sinnvollen GraphCodes. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, die sich auf die Szene im Metaverse beziehen.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage enthält keine ausreichenden Informationen zur Generierung eines sinnvollen GraphCodes. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, die sich auf die Szene im Metaverse beziehen.\"\n}"
+}

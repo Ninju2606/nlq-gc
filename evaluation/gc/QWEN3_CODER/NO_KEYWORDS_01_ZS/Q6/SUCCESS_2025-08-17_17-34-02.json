@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine spezifischen Objekte%2C Attribute oder Aktivitäten%2C die sich für eine GraphCode-gestützte Suche in einer Szene des Metaverse eignen. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage enthält keine spezifischen Objekte%2C Attribute oder Aktivitäten%2C die sich für eine GraphCode-gestützte Suche in einer Szene des Metaverse eignen. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

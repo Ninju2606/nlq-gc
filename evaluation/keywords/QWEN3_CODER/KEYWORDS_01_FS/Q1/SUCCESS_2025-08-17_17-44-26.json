@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Begriffe, die die vom Nutzer beschriebene Szene im Metaverse charakterisieren.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Begriffe, die die vom Nutzer beschriebene Szene im Metaverse charakterisieren.\"\n}\n"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden.",
+  "error": "Es können keine sinnvollen Stichwörter ermittelt werden.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\"\n}"
+}

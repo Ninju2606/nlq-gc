@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\" und \"rennt\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Tim\" und \"run\".\n        4. Da \"Tim\" nicht auf den Nutzer referenziert, wird die Nutzeridentifikation nicht verwendet. Die Stichwörter bleiben \"Tim\" und \"run\".\n        5. \"Tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität.\n        6. \"Tim\" führt die Aktivität \"run\" aus.\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [[1, 7], [0, 4]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\" und \\\"rennt\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Tim\\\" und \\\"run\\\".\\n        4. Da \\\"Tim\\\" nicht auf den Nutzer referenziert, wird die Nutzeridentifikation nicht verwendet. Die Stichwörter bleiben \\\"Tim\\\" und \\\"run\\\".\\n        5. \\\"Tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität.\\n        6. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8.\"\n}"
+}

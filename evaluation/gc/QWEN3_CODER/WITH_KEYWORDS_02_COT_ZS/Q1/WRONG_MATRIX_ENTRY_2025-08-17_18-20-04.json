@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      8,
+      4,
+      9
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der relative Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027maria\u0027, basierend auf der vom Nutzer angegebenen Identifikation. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027: Typ \u0027object\u0027 (Identität); \u0027play\u0027: Typ \u0027activity\u0027 (Tätigkeit); \u0027basketball\u0027: Typ \u0027object\u0027 (Objekt/Sportart). 3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (perform, ID 8); \u0027play\u0027 hat das Ziel oder Objekt \u0027basketball\u0027 (target, ID 9). 4. Alle Relationen sind durch die vorgegebenen Typkodierungen abgedeckt: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [8, 4, 9],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der relative Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027maria\u0027, basierend auf der vom Nutzer angegebenen Identifikation. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027: Typ \u0027object\u0027 (Identität); \u0027play\u0027: Typ \u0027activity\u0027 (Tätigkeit); \u0027basketball\u0027: Typ \u0027object\u0027 (Objekt/Sportart). 3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (perform, ID 8); \u0027play\u0027 hat das Ziel oder Objekt \u0027basketball\u0027 (target, ID 9). 4. Alle Relationen sind durch die vorgegebenen Typkodierungen abgedeckt: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).\"\n}"
+}

@@ -1,0 +1,19 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Tim",
+    "rennt"
+  ],
+  "matrix": [
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 4],\n    [0, 0]\n  ]\n}\n\n"
+}

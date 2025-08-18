@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      14,
+      0
+    ],
+    [
+      0,
+      14,
+      1,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\"ich\", \"gelben\", \"Hut\", \"trage\"].\n2. Relative Verweise aufgelöst: \"ich\" bezieht sich auf \"Maria\".\n3. Stichwörter ins Englische übersetzt: [\"Maria\", \"yellow\", \"hat\", \"wear\"].\n4. Nutzeridentifikation eingesetzt: \"ich\" → \"Maria\".\n5. Attributeigenschaften erklärt: \"gelb\" ist eine charakteristische Eigenschaft des Huts.\n6. Relationen ermittelt: Maria trägt (perform) einen Hut; der Hut ist gelb (characteristic).\n7. Alle Relationen haben gültige Typkodierungen: object (1), characteristic (14), perform (8), activity (4).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 1, 14, 0],\n    [0, 14, 1, 0],\n    [8, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\\\"ich\\\", \\\"gelben\\\", \\\"Hut\\\", \\\"trage\\\"].\\n2. Relative Verweise aufgelöst: \\\"ich\\\" bezieht sich auf \\\"Maria\\\".\\n3. Stichwörter ins Englische übersetzt: [\\\"Maria\\\", \\\"yellow\\\", \\\"hat\\\", \\\"wear\\\"].\\n4. Nutzeridentifikation eingesetzt: \\\"ich\\\" → \\\"Maria\\\".\\n5. Attributeigenschaften erklärt: \\\"gelb\\\" ist eine charakteristische Eigenschaft des Huts.\\n6. Relationen ermittelt: Maria trägt (perform) einen Hut; der Hut ist gelb (characteristic).\\n7. Alle Relationen haben gültige Typkodierungen: object (1), characteristic (14), perform (8), activity (4).\"\n}"
+}

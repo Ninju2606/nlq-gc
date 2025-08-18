@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Tim rennt\" ist nicht ausreichend, um sinnvolle Szenenbeschreibungen oder Relationen im geforderten Metaverse-Kontext abzuleiten. Es fehlen Objekte, Attribute oder Aktivitäten, die eine semantische Bewertung ermöglichen würden.",
+  "error": "Es können keine sinnvollen Stichwörter ermittelt werden.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\",\n  \"description\": \"Die Anfrage \\\"Tim rennt\\\" ist nicht ausreichend, um sinnvolle Szenenbeschreibungen oder Relationen im geforderten Metaverse-Kontext abzuleiten. Es fehlen Objekte, Attribute oder Aktivitäten, die eine semantische Bewertung ermöglichen würden.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 ermittelt: \u0027Tim\u0027 (Objekt), \u0027rennt\u0027 (Aktivität).\n2. Relative Verweise werden hier nicht benötigt, da keine Pronomen oder relativen Bezüge vorliegen.\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\n4. Keine Ersetzung der Nutzeridentifikation nötig, da kein selbstidentifizierendes Wort wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet wurde.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\n6. Relation: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus – dies entspricht der Relation \u0027perform\u0027 (Typ 8).\n7. Für alle Relationen existieren passende Typkodierungen in der Liste. \u0027Tim\u0027 (object, id\u003d1), \u0027run\u0027 (activity, id\u003d4), \u0027perform\u0027 (id\u003d8) sind alle valide.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 ermittelt: \u0027Tim\u0027 (Objekt), \u0027rennt\u0027 (Aktivität).\\n2. Relative Verweise werden hier nicht benötigt, da keine Pronomen oder relativen Bezüge vorliegen.\\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\\n4. Keine Ersetzung der Nutzeridentifikation nötig, da kein selbstidentifizierendes Wort wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet wurde.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\\n6. Relation: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus – dies entspricht der Relation \u0027perform\u0027 (Typ 8).\\n7. Für alle Relationen existieren passende Typkodierungen in der Liste. \u0027Tim\u0027 (object, id\u003d1), \u0027run\u0027 (activity, id\u003d4), \u0027perform\u0027 (id\u003d8) sind alle valide.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte bald einen Termin ausmachen. Der GraphCode umfasst die Aktivität \u0027make\u0027 mit Zielobjekt \u0027appointment\u0027, wobei Maria als ausführende Person identifiziert wird.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n    \"matrix\": [[1, 7, 0], [0, 9, 8], [0, 0, 1]],\n    \"description\": \"Der Nutzer möchte bald einen Termin ausmachen. Der GraphCode umfasst die Aktivität \u0027make\u0027 mit Zielobjekt \u0027appointment\u0027, wobei Maria als ausführende Person identifiziert wird.\"\n}\n"
+}

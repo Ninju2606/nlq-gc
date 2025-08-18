@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Häuser mit Fragen bemalt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: Maria (object) ist mit paint (activity) durch \u0027perform\u0027 verbunden und paint ist mit house (object) durch \u0027target\u0027 verbunden. House ist weiterhin mit question (object) durch \u0027target\u0027 verbunden, um die spezifische Art des Malens zu beschreiben.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 1, 8, 9],\n        [0, 0, 4, 0],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Häuser mit Fragen bemalt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: Maria (object) ist mit paint (activity) durch \u0027perform\u0027 verbunden und paint ist mit house (object) durch \u0027target\u0027 verbunden. House ist weiterhin mit question (object) durch \u0027target\u0027 verbunden, um die spezifische Art des Malens zu beschreiben.\"\n}\n"
+}

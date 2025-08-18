@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Meine Tochter\u0027 wurde nicht explizit benannt, daher bleibt es unbeachtet. \u0027Ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 und \u0027person\u0027 sind Objekte (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2). 3. Relationen: Maria ist eine Tochter (\u003d attached, Typ 5) von \u0027person\u0027; \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus (Typ 8); \u0027drive\u0027 hat \u0027boat\u0027 als Ziel (Typ 9); \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Typ 6); \u0027lake\u0027 ist der Kontext (Typ 2). 4. Alle Relationen haben eine passende Typkodierung aus der vorgegebenen Liste.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 0, 0, 0],\n    [5, 1, 8, 0, 0],\n    [0, 8, 4, 9, 0],\n    [0, 0, 9, 1, 6],\n    [0, 0, 0, 6, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Meine Tochter\u0027 wurde nicht explizit benannt, daher bleibt es unbeachtet. \u0027Ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 und \u0027person\u0027 sind Objekte (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2). 3. Relationen: Maria ist eine Tochter (\u003d attached, Typ 5) von \u0027person\u0027; \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus (Typ 8); \u0027drive\u0027 hat \u0027boat\u0027 als Ziel (Typ 9); \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Typ 6); \u0027lake\u0027 ist der Kontext (Typ 2). 4. Alle Relationen haben eine passende Typkodierung aus der vorgegebenen Liste.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage muss entweder vom Nutzer selbst ausgeführt werden (z. B. \u0027Ich renne\u0027) oder klar mit dem Nutzer in Verbindung stehen, um seine Identifikation in den GraphCode aufzunehmen. In diesem Fall fehlt diese Verbindung.",
+  "error": "Die Anfrage \u0027Tim rennt\u0027 enthält keine Aktivität, die direkt mit der Nutzeridentifikation \u0027Maria\u0027 verknüpft ist. Laut Regel wird die Nutzeridentifikation nur dann in das Vokabular aufgenommen, wenn die Handlung vom Nutzer selbst ausgeführt wird. Daher kann kein gültiger GraphCode generiert werden.",
+  "responsePlain": "\n{\n  \"error\": \"Die Anfrage \u0027Tim rennt\u0027 enthält keine Aktivität, die direkt mit der Nutzeridentifikation \u0027Maria\u0027 verknüpft ist. Laut Regel wird die Nutzeridentifikation nur dann in das Vokabular aufgenommen, wenn die Handlung vom Nutzer selbst ausgeführt wird. Daher kann kein gültiger GraphCode generiert werden.\",\n  \"description\": \"Die Anfrage muss entweder vom Nutzer selbst ausgeführt werden (z. B. \u0027Ich renne\u0027) oder klar mit dem Nutzer in Verbindung stehen, um seine Identifikation in den GraphCode aufzunehmen. In diesem Fall fehlt diese Verbindung.\"\n}\n"
+}

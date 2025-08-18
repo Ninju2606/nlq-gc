@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer führt die Aktivität \u0027swim\u0027 (Schwimmen) aus, identifiziert sich als \u0027Maria\u0027 und befindet sich im Kontext eines \u0027pool\u0027 (Pool). Maria performt die Aktivität des Schwimmens, welche auf den Pool als Ziel verweist. Der Pool ist ein Objekt, das mit der Aktivität verbunden ist, während Maria als Akteur fungiert.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der Nutzer führt die Aktivität \u0027swim\u0027 (Schwimmen) aus, identifiziert sich als \u0027Maria\u0027 und befindet sich im Kontext eines \u0027pool\u0027 (Pool). Maria performt die Aktivität des Schwimmens, welche auf den Pool als Ziel verweist. Der Pool ist ein Objekt, das mit der Aktivität verbunden ist, während Maria als Akteur fungiert.\"\n}\n"
+}

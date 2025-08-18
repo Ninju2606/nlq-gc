@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027schwimme\u0027 und \u0027Pool\u0027. Da der Nutzer in der Anfrage \u0027ich\u0027 und \u0027mein\u0027 verwendet, wurde der Name \u0027Maria\u0027 als Ersatz für den Nutzer verwendet. Alle Wörter wurden ins Englische übersetzt: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027. Die Identifikation des Nutzers \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da sie sich auf die Aktion bezieht. Die Formulierung \u0027Ich schwimme in meinem Pool\u0027 wurde als Szenenbeschreibung im Metaverse interpretiert, weshalb die Aktivität und der Ort in das Vokabular aufgenommen wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027schwimme\u0027 und \u0027Pool\u0027. Da der Nutzer in der Anfrage \u0027ich\u0027 und \u0027mein\u0027 verwendet, wurde der Name \u0027Maria\u0027 als Ersatz für den Nutzer verwendet. Alle Wörter wurden ins Englische übersetzt: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027. Die Identifikation des Nutzers \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da sie sich auf die Aktion bezieht. Die Formulierung \u0027Ich schwimme in meinem Pool\u0027 wurde als Szenenbeschreibung im Metaverse interpretiert, weshalb die Aktivität und der Ort in das Vokabular aufgenommen wurden.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Haus\", \"Fragen\", \"malen\"],\n  \"matrix\": [\n    [0, 6, 8],\n    [0, 0, 4],\n    [0, 9, 0]\n  ]\n}\n \n\n### Erläuterung:\n\n- **\"Haus\"**, **\"Fragen\"**, **\"malen\"** sind die Knoten des Graphen.\n- Die Kante von *Haus* zu *Fragen* ist semantisch durch \"um...zu\"-Konstruktion geprägt, was auf eine **Zielbeziehung** hinweist – daher `6` (**under**) als Platzhalter für eine kontextuelle Unterkategorie oder Zweckbeziehung (ähnlich wie „im Kontext von“).\n- Von *Haus* zu *malen* besteht eine **Aktivitätsbeziehung**: `8` (**perform**) → Jemand malt Häuser.\n- Zwischen *Fragen* und *malen* besteht eine **Aktivitätsbeziehung** (`4`: **activity**) – also die Tätigkeit des Malens im Kontext von „Fragen“ (z. B. grafisch gestellt oder thematisiert).\n\nWenn du eine andere Interpretation der Beziehungen möchtest oder weitere Begriffe hinzugefügt werden sollen, lass es mich wissen!"
+}

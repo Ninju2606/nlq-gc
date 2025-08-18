@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Ich\u0027 und \u0027Basketball\u0027.\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.\n3. Stichwörter ins Englische übersetzt: \u0027Maria\u0027 bleibt unverändert, \u0027Basketball\u0027 bleibt gleich.\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027basketball\u0027 ist eine Aktivität (Typ 4).\n6. Relationen zwischen Stichwörtern erklärt: Maria führt die Aktivität \u0027basketball\u0027 aus, kodiert durch den Typ \u0027perform\u0027 (Typ 8).\n7. Überprüfung der Typkodierungen: Alle verwendeten Typen sind in den vorgegebenen Typkodierungen vorhanden. Die IDs lauten: 1 (object), 8 (perform), 4 (activity).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Ich\u0027 und \u0027Basketball\u0027.\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.\\n3. Stichwörter ins Englische übersetzt: \u0027Maria\u0027 bleibt unverändert, \u0027Basketball\u0027 bleibt gleich.\\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027basketball\u0027 ist eine Aktivität (Typ 4).\\n6. Relationen zwischen Stichwörtern erklärt: Maria führt die Aktivität \u0027basketball\u0027 aus, kodiert durch den Typ \u0027perform\u0027 (Typ 8).\\n7. Überprüfung der Typkodierungen: Alle verwendeten Typen sind in den vorgegebenen Typkodierungen vorhanden. Die IDs lauten: 1 (object), 8 (perform), 4 (activity).\"\n}"
+}

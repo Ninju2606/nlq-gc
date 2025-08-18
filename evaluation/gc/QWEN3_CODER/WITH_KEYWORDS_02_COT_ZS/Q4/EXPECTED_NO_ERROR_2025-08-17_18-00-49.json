@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es fehlt eine klare semantische Verknüpfung zwischen der Nutzeridentifikation und den beschriebenen Szenenelementen. Die Angabe \u0027Maria\u0027 lässt sich nicht direkt als Akteur der Szene interpretieren, da keine Aktivitätszuordnung vorliegt.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen zur Erstellung eines gültigen GraphCodes. Die Identifikation des Nutzers \u0027Maria\u0027 kann nicht sinnvoll in die Szene integriert werden, da keine Beziehung zu den anderen Elementen (\u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027) hergestellt werden kann.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen zur Erstellung eines gültigen GraphCodes. Die Identifikation des Nutzers \u0027Maria\u0027 kann nicht sinnvoll in die Szene integriert werden, da keine Beziehung zu den anderen Elementen (\u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027) hergestellt werden kann.\",\n  \"description\": \"Es fehlt eine klare semantische Verknüpfung zwischen der Nutzeridentifikation und den beschriebenen Szenenelementen. Die Angabe \u0027Maria\u0027 lässt sich nicht direkt als Akteur der Szene interpretieren, da keine Aktivitätszuordnung vorliegt.\"\n}"
+}

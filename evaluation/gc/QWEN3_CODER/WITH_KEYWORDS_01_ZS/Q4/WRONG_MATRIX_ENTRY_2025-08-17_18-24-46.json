@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode repräsentiert die Situation, dass Maria im Pool schwimmt. \u0027maria\u0027 ist eine Person (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist der Kontext (context) und \u0027pool\u0027 ist ein Objekt (object).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situation, dass Maria im Pool schwimmt. \u0027maria\u0027 ist eine Person (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist der Kontext (context) und \u0027pool\u0027 ist ein Objekt (object).\"\n}"
+}

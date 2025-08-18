@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\", \"rennt\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Tim\", \"run\".\n        4. Da die Identifikation des Nutzers (Maria) nicht in der Anfrage vorkommt, bleibt das Vokabular unverändert.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\", \\\"rennt\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Tim\\\", \\\"run\\\".\\n        4. Da die Identifikation des Nutzers (Maria) nicht in der Anfrage vorkommt, bleibt das Vokabular unverändert.\"\n}"
+}

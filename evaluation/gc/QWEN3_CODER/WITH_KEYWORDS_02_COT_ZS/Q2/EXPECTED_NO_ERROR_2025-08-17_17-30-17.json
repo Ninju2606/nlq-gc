@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die Begriffe \u0027tim\u0027 (object) und \u0027run\u0027 (activity). Es gibt jedoch keine expliziten Relationen zwischen diesen Begriffen, die eine Verknüpfung über die verfügbaren Typkodierungen (z. B. perform) ermöglichen würden. Ohne weitere Angaben kann kein sinnvoller GraphCode erstellt werden.",
+  "error": "Die Anfrage \u0027Tim rennt\u0027 enthält keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation des Nutzers \u0027Maria\u0027 nicht in den GraphCode übernommen. Es fehlen zudem notwendige semantische Relationen zwischen den Begriffen, um eine vollständige Bewertungsmatrix mit den gegebenen Typkodierungen zu generieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Tim rennt\u0027 enthält keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation des Nutzers \u0027Maria\u0027 nicht in den GraphCode übernommen. Es fehlen zudem notwendige semantische Relationen zwischen den Begriffen, um eine vollständige Bewertungsmatrix mit den gegebenen Typkodierungen zu generieren.\",\n  \"description\": \"Die Anfrage enthält die Begriffe \u0027tim\u0027 (object) und \u0027run\u0027 (activity). Es gibt jedoch keine expliziten Relationen zwischen diesen Begriffen, die eine Verknüpfung über die verfügbaren Typkodierungen (z. B. perform) ermöglichen würden. Ohne weitere Angaben kann kein sinnvoller GraphCode erstellt werden.\"\n}"
+}

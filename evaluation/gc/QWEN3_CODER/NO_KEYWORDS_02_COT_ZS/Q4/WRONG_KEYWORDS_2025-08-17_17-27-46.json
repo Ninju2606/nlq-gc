@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027 sind: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise: \u0027Ich\u0027 sowie \u0027meinem\u0027 referenzieren den Nutzer, also \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027schwimme\u0027 → \u0027swim\u0027, \u0027meinem Pool\u0027 → \u0027pool\u0027.\n4. Ersetzen der Nutzeridentifikation: \u0027Ich\u0027 bzw. \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (object).\n   - \u0027swim\u0027 ist eine Aktivität (activity).\n   - \u0027pool\u0027 ist ein Objekt (object).\n6. Relationen:\n   - Maria führt die Aktivität \u0027swim\u0027 aus (perform).\n   - Die Aktivität \u0027swim\u0027 wird im \u0027pool\u0027 ausgeführt (target).\n   - Maria ist mit dem Pool verbunden (attached).\n7. Überprüfung der Typkodierungen:\n   - \u0027Maria\u0027 → object (ID 1)\n   - \u0027swim\u0027 → activity (ID 4)\n   - \u0027pool\u0027 → object (ID 1)\n   - Relation \u0027perform\u0027 (Maria → swim) → ID 8\n   - Relation \u0027target\u0027 (swim → pool) → ID 9\n   - Relation \u0027attached\u0027 (Maria → pool) → ID 5\n   Alle erforderlichen Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027 sind: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 sowie \u0027meinem\u0027 referenzieren den Nutzer, also \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027schwimme\u0027 → \u0027swim\u0027, \u0027meinem Pool\u0027 → \u0027pool\u0027.\\n4. Ersetzen der Nutzeridentifikation: \u0027Ich\u0027 bzw. \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (object).\\n   - \u0027swim\u0027 ist eine Aktivität (activity).\\n   - \u0027pool\u0027 ist ein Objekt (object).\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027swim\u0027 aus (perform).\\n   - Die Aktivität \u0027swim\u0027 wird im \u0027pool\u0027 ausgeführt (target).\\n   - Maria ist mit dem Pool verbunden (attached).\\n7. Überprüfung der Typkodierungen:\\n   - \u0027Maria\u0027 → object (ID 1)\\n   - \u0027swim\u0027 → activity (ID 4)\\n   - \u0027pool\u0027 → object (ID 1)\\n   - Relation \u0027perform\u0027 (Maria → swim) → ID 8\\n   - Relation \u0027target\u0027 (swim → pool) → ID 9\\n   - Relation \u0027attached\u0027 (Maria → pool) → ID 5\\n   Alle erforderlichen Typkodierungen sind vorhanden.\"\n}"
+}

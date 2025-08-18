@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage enthält die Begriffe \"Termin\" und \"bald\", was auf die Notwendigkeit eines zeitnahen Treffens hindeutet. Diese wurden ins Englische übersetzt und in das Vokabular aufgenommen. Da keine relativen Verweise oder selbstidentifizierenden Begriffe enthalten sind, wird die Identifikation des Nutzers nicht benötigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"schedule\", \"appointment\", \"soon\"],\n  \"description\": \"Die Nutzeranfrage enthält die Begriffe \\\"Termin\\\" und \\\"bald\\\", was auf die Notwendigkeit eines zeitnahen Treffens hindeutet. Diese wurden ins Englische übersetzt und in das Vokabular aufgenommen. Da keine relativen Verweise oder selbstidentifizierenden Begriffe enthalten sind, wird die Identifikation des Nutzers nicht benötigt.\"\n}"
+}

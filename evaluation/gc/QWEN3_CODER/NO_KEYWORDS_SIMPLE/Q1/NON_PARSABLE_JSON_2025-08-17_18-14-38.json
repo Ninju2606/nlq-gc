@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Here is the requested JSON object that represents the given text as a typed adjacency matrix using the provided type codings. The terms form the rows and columns of the matrix, and the relationships (types) are represented by their corresponding IDs.\n\n\n{\n  \"dictionary\": [\n    \"Ich\",\n    \"spiele\",\n    \"Basketball\"\n  ],\n  \"matrix\": [\n    [0, 8, 0],\n    [0, 0, 9],\n    [0, 0, 0]\n  ]\n}\n\n\n### Explanation:\n\n- Terms in the request:\n  - `\"Ich\"` (I)\n  - `\"spiele\"` (play)\n  - `\"Basketball\"` (Basketball)\n\n- Matrix structure:\n  - Rows and columns correspond to these terms in order.\n  - The matrix entries represent the **typed relationships**.\n    - `8` is the ID for `\"perform\"` — the relationship from `\"Ich\"` to `\"spiele\"`.\n    - `9` is the ID for `\"target\"` — the relationship from `\"spiele\"` to `\"Basketball\"`.\n\nThis structure encodes a directed graph where:\n- `\"Ich\"` performs `\"spiele\"`\n- `\"spiele\"` targets `\"Basketball\"`\n\nLet me know if you\u0027d like to include additional terms or relationships!"
+}

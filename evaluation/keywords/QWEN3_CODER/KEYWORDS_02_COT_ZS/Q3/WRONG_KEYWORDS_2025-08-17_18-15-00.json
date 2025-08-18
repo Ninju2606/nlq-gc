@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Die Identifikation des Nutzers \u0027Maria\u0027 wird in den Begriffen \u0027own\u0027 (gehört) und \u0027swim\u0027 (schwimme) berücksichtigt, da diese Handlungen oder Zustände des Nutzers beschreiben. Die Wörter wurden ins Englische übersetzt und Verben in Grundform verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Die Identifikation des Nutzers \u0027Maria\u0027 wird in den Begriffen \u0027own\u0027 (gehört) und \u0027swim\u0027 (schwimme) berücksichtigt, da diese Handlungen oder Zustände des Nutzers beschreiben. Die Wörter wurden ins Englische übersetzt und Verben in Grundform verallgemeinert.\"\n}"
+}

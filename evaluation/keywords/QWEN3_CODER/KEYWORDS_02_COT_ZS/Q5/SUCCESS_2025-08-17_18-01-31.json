@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer wünscht sich Situationen, in denen er (identifiziert als Maria) einen gelben Hut trägt. Die Anfrage enthält selbstreferenzielle Begriffe (\u0027ich\u0027), welche durch die spezifizierte Nutzeridentifikation (\u0027Maria\u0027) ersetzt wurden. Die Stichwörter wurden ins Englische übersetzt und umfassen die handelnden Personen sowie beschreibende Attribute und Objekte.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"description\": \"Der Nutzer wünscht sich Situationen, in denen er (identifiziert als Maria) einen gelben Hut trägt. Die Anfrage enthält selbstreferenzielle Begriffe (\u0027ich\u0027), welche durch die spezifizierte Nutzeridentifikation (\u0027Maria\u0027) ersetzt wurden. Die Stichwörter wurden ins Englische übersetzt und umfassen die handelnden Personen sowie beschreibende Attribute und Objekte.\"\n}"
+}

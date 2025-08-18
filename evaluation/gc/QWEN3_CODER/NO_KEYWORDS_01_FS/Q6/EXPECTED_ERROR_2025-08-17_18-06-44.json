@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria möchte einen Termin ausmachen. Der GraphCode repräsentiert diese Absicht durch die Begriffe \u0027Maria\u0027, \u0027schedule\u0027 und \u0027appointment\u0027, wobei die Beziehungen die Aktivität und das Ziel darstellen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\"],\n  \"matrix\": [[1, 8, 9], [0, 9, 8], [0, 0, 1]],\n  \"description\": \"Die Nutzerin Maria möchte einen Termin ausmachen. Der GraphCode repräsentiert diese Absicht durch die Begriffe \u0027Maria\u0027, \u0027schedule\u0027 und \u0027appointment\u0027, wobei die Beziehungen die Aktivität und das Ziel darstellen.\"\n}"
+}

@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "boat",
+    "see",
+    "drive",
+    "daughter",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 wurden identifiziert. Der Nutzer \u0027Maria\u0027 wurde in den Begriffen \u0027daughter\u0027 und \u0027Maria\u0027 verwendet, wobei \u0027daughter\u0027 als Bezug auf die Tochter des Nutzers interpretiert wurde. Die Verben \u0027fahre\u0027 und \u0027fahren\u0027 wurden zu \u0027drive\u0027 vereinfacht, und die Objekte \u0027Boot\u0027 und \u0027See\u0027 wurden in englischer Sprache übernommen.",
+  "responsePlain": "{\n  \"dictionary\": [\"boat\", \"see\", \"drive\", \"daughter\", \"Maria\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 wurden identifiziert. Der Nutzer \u0027Maria\u0027 wurde in den Begriffen \u0027daughter\u0027 und \u0027Maria\u0027 verwendet, wobei \u0027daughter\u0027 als Bezug auf die Tochter des Nutzers interpretiert wurde. Die Verben \u0027fahre\u0027 und \u0027fahren\u0027 wurden zu \u0027drive\u0027 vereinfacht, und die Objekte \u0027Boot\u0027 und \u0027See\u0027 wurden in englischer Sprache übernommen.\"\n}"
+}

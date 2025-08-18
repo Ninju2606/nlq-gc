@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "maria"
+  ],
+  "matrix": [
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode zur Abbildung der Szene \u0027Maria schwimmt in ihrem Pool\u0027. Die Beziehung zwischen \u0027swim\u0027 und \u0027maria\u0027 ist als Aktivität (activity) mit der Identität \u0027maria\u0027 kodiert. Die Beziehung zwischen \u0027pool\u0027 und \u0027maria\u0027 ist als \u0027attached\u0027 kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"maria\"],\n  \"matrix\": [\n    [4, 0, 0],\n    [0, 1, 0],\n    [0, 5, 2]\n  ],\n  \"description\": \"GraphCode zur Abbildung der Szene \u0027Maria schwimmt in ihrem Pool\u0027. Die Beziehung zwischen \u0027swim\u0027 und \u0027maria\u0027 ist als Aktivität (activity) mit der Identität \u0027maria\u0027 kodiert. Die Beziehung zwischen \u0027pool\u0027 und \u0027maria\u0027 ist als \u0027attached\u0027 kodiert.\"\n}"
+}

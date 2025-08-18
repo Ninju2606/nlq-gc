@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist durch den Typ \u0027perform\u0027 (8) gegeben, da Maria die Aktivität des Spielens durchführt. Die Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027 ist ebenfalls vom Typ \u0027perform\u0027 (8), da das Spielen auf den Basketball bezogen ist. \u0027maria\u0027 und \u0027basketball\u0027 stehen nicht direkt in Beziehung, daher ist der entsprechende Eintrag 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 8, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist durch den Typ \u0027perform\u0027 (8) gegeben, da Maria die Aktivität des Spielens durchführt. Die Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027 ist ebenfalls vom Typ \u0027perform\u0027 (8), da das Spielen auf den Basketball bezogen ist. \u0027maria\u0027 und \u0027basketball\u0027 stehen nicht direkt in Beziehung, daher ist der entsprechende Eintrag 0.\"\n}"
+}

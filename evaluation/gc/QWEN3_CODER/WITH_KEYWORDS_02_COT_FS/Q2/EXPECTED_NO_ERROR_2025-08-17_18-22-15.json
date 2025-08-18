@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wurde als Objekt übernommen.\n        2. \"Tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität.\n        3. \"Tim\" führt die Aktivität \"run\" aus.\n        4. Die Typkodierung für \"object\" ist vorhanden (ID: 1). Die Typkodierung für \"activity\" ist vorhanden (ID: 4). Die Typkodierung für \"perform\" ist vorhanden (ID: 8).\n        Allerdings ist die deutsche Aktivität \"rennt\" nicht in den vorgegebenen Typkodierungen enthalten. Damit kann kein gültiger GraphCode generiert werden.",
+  "error": "Die Relation \"rennt\" ist nicht bekannt.",
+  "responsePlain": "{\n    \"error\": \"Die Relation \\\"rennt\\\" ist nicht bekannt.\",\n    \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wurde als Objekt übernommen.\\n        2. \\\"Tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität.\\n        3. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus.\\n        4. Die Typkodierung für \\\"object\\\" ist vorhanden (ID: 1). Die Typkodierung für \\\"activity\\\" ist vorhanden (ID: 4). Die Typkodierung für \\\"perform\\\" ist vorhanden (ID: 8).\\n        Allerdings ist die deutsche Aktivität \\\"rennt\\\" nicht in den vorgegebenen Typkodierungen enthalten. Damit kann kein gültiger GraphCode generiert werden.\"\n}"
+}

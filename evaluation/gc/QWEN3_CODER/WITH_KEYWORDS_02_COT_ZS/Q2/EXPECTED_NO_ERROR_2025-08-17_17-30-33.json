@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Angaben des Nutzers enthalten keine ausreichenden relationalen Informationen zwischen den Begriffen, um alle erforderlichen Einträge in der Bewertungsmatrix gemäß den vorgegebenen Typkodierungen zu füllen. Daher kann kein gültiger GraphCode erstellt werden.",
+  "error": "Die Anfrage ist unvollständig. Es fehlen kontextuelle Informationen, um alle notwendigen Relationen sinnvoll zu bestimmen und einen vollständigen GraphCode zu generieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unvollständig. Es fehlen kontextuelle Informationen, um alle notwendigen Relationen sinnvoll zu bestimmen und einen vollständigen GraphCode zu generieren.\",\n  \"description\": \"Die Angaben des Nutzers enthalten keine ausreichenden relationalen Informationen zwischen den Begriffen, um alle erforderlichen Einträge in der Bewertungsmatrix gemäß den vorgegebenen Typkodierungen zu füllen. Daher kann kein gültiger GraphCode erstellt werden.\"\n}"
+}

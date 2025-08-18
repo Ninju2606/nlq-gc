@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\"Meine Tochter\", \"ich\", \"fahren Boot\", \"See\"].\n2. Relative Verweise aufgelöst: \"Meine Tochter\" → explizit als \u0027Tochter\u0027 interpretiert, \"ich\" → ersetzt durch Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: [\"Meine Tochter\" → \"daughter\", \"ich\" → \"Maria\", \"fahren Boot\" → \"boat\", \"See\" → \"lake\"].\n4. Ersetzung der Nutzeridentifikation: \"ich\" wurde durch \"Maria\" ersetzt.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist eine Person (object), \u0027Tochter\u0027 ist eine Person mit Bezug zu Maria (object), \u0027Boot\u0027 ist ein Objekt (object), \u0027See\u0027 ist ein Kontext/Ort (context).\n6. Relationen erklärt: Maria ↔ Tochter (Beziehung: daughter), Maria ↔ Boot (keine direkte Beziehung), Tochter ↔ Boot (keine explizite Beziehung), Boot ↔ Lake (Beziehung: above/under), Maria ↔ Lake (keine direkte Beziehung), Tochter ↔ Lake (keine explizite Beziehung).\n7. Typkodierungen überprüft: \u0027daughter\u0027 (10), \u0027object\u0027 (1), \u0027above\u0027 (7), \u0027under\u0027 (6), \u0027context\u0027 (2) sind alle vorhanden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [10, 1, 0, 0],\n    [0, 0, 1, 6],\n    [0, 0, 7, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\\\"Meine Tochter\\\", \\\"ich\\\", \\\"fahren Boot\\\", \\\"See\\\"].\\n2. Relative Verweise aufgelöst: \\\"Meine Tochter\\\" → explizit als \u0027Tochter\u0027 interpretiert, \\\"ich\\\" → ersetzt durch Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: [\\\"Meine Tochter\\\" → \\\"daughter\\\", \\\"ich\\\" → \\\"Maria\\\", \\\"fahren Boot\\\" → \\\"boat\\\", \\\"See\\\" → \\\"lake\\\"].\\n4. Ersetzung der Nutzeridentifikation: \\\"ich\\\" wurde durch \\\"Maria\\\" ersetzt.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist eine Person (object), \u0027Tochter\u0027 ist eine Person mit Bezug zu Maria (object), \u0027Boot\u0027 ist ein Objekt (object), \u0027See\u0027 ist ein Kontext/Ort (context).\\n6. Relationen erklärt: Maria ↔ Tochter (Beziehung: daughter), Maria ↔ Boot (keine direkte Beziehung), Tochter ↔ Boot (keine explizite Beziehung), Boot ↔ Lake (Beziehung: above/under), Maria ↔ Lake (keine direkte Beziehung), Tochter ↔ Lake (keine explizite Beziehung).\\n7. Typkodierungen überprüft: \u0027daughter\u0027 (10), \u0027object\u0027 (1), \u0027above\u0027 (7), \u0027under\u0027 (6), \u0027context\u0027 (2) sind alle vorhanden.\"\n}\n"
+}

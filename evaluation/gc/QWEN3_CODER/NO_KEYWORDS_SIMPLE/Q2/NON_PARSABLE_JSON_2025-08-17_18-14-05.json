@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n \n\n### Erklärung:\n- **\"Tim\"** und **\"rennt\"** sind die beiden Begriffe im Text.\n- Die Beziehung zwischen **\"Tim\"** und **\"rennt\"** wird als **\"perform\"** interpretiert (Tim führt die Aktivität \"rennen\" aus).\n- Der Typcode für **\"perform\"** ist **8**.\n- In der Adjazenzmatrix wird diese Beziehung in der Zeile von **\"Tim\"** und der Spalte von **\"rennt\"** eingetragen.\n- Die Matrix ist typcodiert, d.h. eine `0` bedeutet keine Beziehung, und eine Zahl steht für den Typ der Beziehung laut Vorgabe."
+}

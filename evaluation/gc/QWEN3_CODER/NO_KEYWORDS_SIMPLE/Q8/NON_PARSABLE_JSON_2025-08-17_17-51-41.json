@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\n    \"Meine\",\n    \"Tochter\",\n    \"ich\",\n    \"fahren\",\n    \"Boot\",\n    \"See\"\n  ],\n  \"matrix\": [\n    [0, 10, 1, 0, 0, 0],\n    [0, 0, 0, 8, 0, 0],\n    [0, 0, 0, 8, 0, 0],\n    [0, 0, 0, 0, 9, 0],\n    [0, 0, 0, 0, 0, 2],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erläuterung:\n\n- **\"Meine\" (1)** ist ein Kontextbezug zu **\"Tochter\" (2)** → Typ 10 (**daughter**)\n- **\"Tochter\" (2)** führt die Handlung aus (**fährt**) → Typ 8 (**perform**) zu **\"fahren\" (4)**\n- **\"ich\" (3)** ist ebenfalls Subjekt von **\"fahren\" (4)** → Typ 8 (**perform**)\n- **\"fahren\" (4)** hat das Zielobjekt **\"Boot\" (5)** → Typ 9 (**target**)\n- **\"Boot\" (5)** steht im Kontext von **\"See\" (6)** → Typ 2 (**context**)\n\nDie Begriffe bilden die Knoten, und ihre Beziehungen sind in der Matrix als gerichtete Kanten mit den entsprechenden Typ-IDs kodiert."
+}

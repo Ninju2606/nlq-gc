@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      11
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria trägt (wear) einen Hut, der gelb (yellow) ist. Der Hut ist ein Objekt (object), Gelb ist eine Eigenschaft (characteristic).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 11],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria trägt (wear) einen Hut, der gelb (yellow) ist. Der Hut ist ein Objekt (object), Gelb ist eine Eigenschaft (characteristic).\"\n}"
+}

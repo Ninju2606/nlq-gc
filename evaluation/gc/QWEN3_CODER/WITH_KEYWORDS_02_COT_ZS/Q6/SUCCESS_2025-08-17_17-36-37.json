@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher kann die Identifikation des Nutzers \u0027Maria\u0027 nicht in den GraphCode übernommen werden. Zudem fehlt eine sinnvolle Szenenbeschreibung, die zur Erstellung eines GraphCodes mit Kontext und Relationen führen würde.",
+  "error": "Ungültige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Ungültige Anfrage\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher kann die Identifikation des Nutzers \u0027Maria\u0027 nicht in den GraphCode übernommen werden. Zudem fehlt eine sinnvolle Szenenbeschreibung, die zur Erstellung eines GraphCodes mit Kontext und Relationen führen würde.\"\n}"
+}

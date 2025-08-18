@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Keine relativen Verweise vorhanden.\n3. Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wurde zu \u0027run\u0027.\n4. Keine Ersetzung durch Nutzeridentifikation nötig, da keine selbstreferenziellen Begriffe vorhanden.\n5. Attributierungen: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\n6. Die Beziehung zwischen den Stichwörtern ist: Tim führt die Aktivität rennen aus. Dies entspricht der Relation \u0027perform\u0027.\n7. Alle Relationen wurden erfolgreich auf Typkodierungen abgebildet. Objekt: ID 1, Activity: ID 4, Perform: ID 8.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Keine relativen Verweise vorhanden.\\n3. Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wurde zu \u0027run\u0027.\\n4. Keine Ersetzung durch Nutzeridentifikation nötig, da keine selbstreferenziellen Begriffe vorhanden.\\n5. Attributierungen: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\\n6. Die Beziehung zwischen den Stichwörtern ist: Tim führt die Aktivität rennen aus. Dies entspricht der Relation \u0027perform\u0027.\\n7. Alle Relationen wurden erfolgreich auf Typkodierungen abgebildet. Objekt: ID 1, Activity: ID 4, Perform: ID 8.\"\n}\n"
+}

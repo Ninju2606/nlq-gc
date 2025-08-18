@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, was aufgelöst auf die Identifikation \u0027Maria\u0027 verweist. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist vom Typ \u0027object\u0027 (Identifikation), \u0027play\u0027 ist eine \u0027activity\u0027, \u0027basketball\u0027 ist ein \u0027object\u0027. 3. Relationen: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation perform, Typ-ID 8), \u0027play\u0027 hat das Ziel \u0027basketball\u0027 (Relation target, Typ-ID 9). 4. Alle erforderlichen Typkodierungen sind vorhanden: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, was aufgelöst auf die Identifikation \u0027Maria\u0027 verweist. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist vom Typ \u0027object\u0027 (Identifikation), \u0027play\u0027 ist eine \u0027activity\u0027, \u0027basketball\u0027 ist ein \u0027object\u0027. 3. Relationen: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation perform, Typ-ID 8), \u0027play\u0027 hat das Ziel \u0027basketball\u0027 (Relation target, Typ-ID 9). 4. Alle erforderlichen Typkodierungen sind vorhanden: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).\"\n}"
+}

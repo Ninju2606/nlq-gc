@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine ausreichenden Informationen zur Beschreibung einer Szene im Metaverse. Die Angabe \u0027Ich spiele Basketball\u0027 ist unvollständig, da keine klaren Objekte, Attribute oder Aktivitäten identifiziert werden konnten, die zur Erstellung eines GraphCodes notwendig sind.",
+  "error": "Keine relevanten Szeneninformationen in der Anfrage gefunden.",
+  "responsePlain": "{\n  \"error\": \"Keine relevanten Szeneninformationen in der Anfrage gefunden.\",\n  \"description\": \"Die Anfrage enthält keine ausreichenden Informationen zur Beschreibung einer Szene im Metaverse. Die Angabe \u0027Ich spiele Basketball\u0027 ist unvollständig, da keine klaren Objekte, Attribute oder Aktivitäten identifiziert werden konnten, die zur Erstellung eines GraphCodes notwendig sind.\"\n}\n"
+}

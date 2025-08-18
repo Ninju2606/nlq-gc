@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027Tim\u0027 wurde nicht aufgelöst, da keine Nutzeridentifikation erforderlich war. Die Identifikation \u0027Maria\u0027 wurde ignoriert, da sie nicht in der Anfrage verwendet wird.\n        2. \u0027tim\u0027 und \u0027run\u0027 sind Objekte bzw. Begriffe der Anfrage. \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\n        3. \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. \u0027run\u0027 bezieht sich auf \u0027tim\u0027.\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n    \"matrix\": [[1, 0, 0], [0, 1, 8], [0, 0, 4]],\n    \"description\": \"1. Der relative Verweis \u0027Tim\u0027 wurde nicht aufgelöst, da keine Nutzeridentifikation erforderlich war. Die Identifikation \u0027Maria\u0027 wurde ignoriert, da sie nicht in der Anfrage verwendet wird.\\n        2. \u0027tim\u0027 und \u0027run\u0027 sind Objekte bzw. Begriffe der Anfrage. \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\\n        3. \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. \u0027run\u0027 bezieht sich auf \u0027tim\u0027.\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.\"\n}\n"
+}

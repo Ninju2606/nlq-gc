@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      6,
+      5
+    ],
+    [
+      0,
+      4,
+      6,
+      9
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027.\n2. Relative Verweise aufgelöst: \u0027mir\u0027 → \u0027Maria\u0027.\n3. Stichwörter ins Englische übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027.\n4. Nutzeridentifikation eingesetzt: \u0027Ich\u0027 durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object), \u0027gehört\u0027 ist eine Zugehörigkeitsbeziehung (attached).\n6. Relationen erklärt: Maria führt die Aktivität \u0027swim\u0027 aus (perform), Maria befindet sich im Pool (under), der Pool gehört Maria (attached).\n7. Für alle Relationen wurden passende Typkodierungen gefunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 6, 5],\n    [0, 4, 6, 9],\n    [0, 0, 2, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027.\\n2. Relative Verweise aufgelöst: \u0027mir\u0027 → \u0027Maria\u0027.\\n3. Stichwörter ins Englische übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027.\\n4. Nutzeridentifikation eingesetzt: \u0027Ich\u0027 durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object), \u0027gehört\u0027 ist eine Zugehörigkeitsbeziehung (attached).\\n6. Relationen erklärt: Maria führt die Aktivität \u0027swim\u0027 aus (perform), Maria befindet sich im Pool (under), der Pool gehört Maria (attached).\\n7. Für alle Relationen wurden passende Typkodierungen gefunden.\"\n}"
+}

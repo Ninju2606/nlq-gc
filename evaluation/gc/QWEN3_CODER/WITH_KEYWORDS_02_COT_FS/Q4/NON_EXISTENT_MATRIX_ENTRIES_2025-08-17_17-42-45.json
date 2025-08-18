@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \\\"Ich\\\" wurde zu \\\"Maria\\\" aufgelöst.\n        2. \\\"Maria\\\" ist eine Person/Objekt. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist ein Kontext. \\\"pool\\\" ist ein Objekt.\n        3. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf den Kontext \\\"own\\\". \\\"own\\\" bezieht sich auf \\\"pool\\\".\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform (perform) ist 8. Die ID für target (target) ist 9. Die ID für context (context) ist 2. Die ID für attached (attached) ist 4.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1,8,0,0],[0,4,9,0],[0,0,2,1],[0,0,0,1]],\n    \"description\": \"1. Der relative Verweis \\\\\\\"Ich\\\\\\\" wurde zu \\\\\\\"Maria\\\\\\\" aufgelöst.\\n        2. \\\\\\\"Maria\\\\\\\" ist eine Person/Objekt. \\\\\\\"swim\\\\\\\" ist eine Aktivität. \\\\\\\"own\\\\\\\" ist ein Kontext. \\\\\\\"pool\\\\\\\" ist ein Objekt.\\n        3. \\\\\\\"Maria\\\\\\\" führt die Aktivität \\\\\\\"swim\\\\\\\" aus. \\\\\\\"swim\\\\\\\" bezieht sich auf den Kontext \\\\\\\"own\\\\\\\". \\\\\\\"own\\\\\\\" bezieht sich auf \\\\\\\"pool\\\\\\\".\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform (perform) ist 8. Die ID für target (target) ist 9. Die ID für context (context) ist 2. Die ID für attached (attached) ist 4.\"\n}\n"
+}

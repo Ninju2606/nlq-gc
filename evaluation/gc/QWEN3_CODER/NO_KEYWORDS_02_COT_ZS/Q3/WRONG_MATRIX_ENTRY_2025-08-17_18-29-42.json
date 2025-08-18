@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\"Ich\", \"schwimme\", \"Pool\", \"gehört\"]\n2. Relative Verweise aufgelöst: \"Ich\" → \"Maria\"\n3. Übersetzung ins Englische: [\"Maria\", \"swim\", \"pool\", \"own\"]\n4. Identifikation des Nutzers ersetzt: \"Ich\" → \"Maria\"\n5. Attributeigenschaften erklärt: \"Maria\" ist ein Objekt (object), \"schwimme\" ist eine Aktivität (activity), \"Pool\" ist ein Objekt (object), \"gehört\" ist eine Beziehung (attached/target)\n6. Relationen erklärt: Maria führt die Aktivität \"swim\" aus (perform), Maria befindet sich im \"pool\" (context), der \"pool\" steht in Beziehung zu \"own\" (attached), \"own\" bezieht sich auf Maria (target)\n7. Typkodierungen verfügbar: object\u003d1, activity\u003d4, perform\u003d8, attached\u003d5, target\u003d9, context\u003d2. Alle benötigten Beziehungen sind vorhanden und korrekt kodiert.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 9],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\"]\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" → \\\"Maria\\\"\\n3. Übersetzung ins Englische: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\"]\\n4. Identifikation des Nutzers ersetzt: \\\"Ich\\\" → \\\"Maria\\\"\\n5. Attributeigenschaften erklärt: \\\"Maria\\\" ist ein Objekt (object), \\\"schwimme\\\" ist eine Aktivität (activity), \\\"Pool\\\" ist ein Objekt (object), \\\"gehört\\\" ist eine Beziehung (attached/target)\\n6. Relationen erklärt: Maria führt die Aktivität \\\"swim\\\" aus (perform), Maria befindet sich im \\\"pool\\\" (context), der \\\"pool\\\" steht in Beziehung zu \\\"own\\\" (attached), \\\"own\\\" bezieht sich auf Maria (target)\\n7. Typkodierungen verfügbar: object\u003d1, activity\u003d4, perform\u003d8, attached\u003d5, target\u003d9, context\u003d2. Alle benötigten Beziehungen sind vorhanden und korrekt kodiert.\"\n}\n"
+}

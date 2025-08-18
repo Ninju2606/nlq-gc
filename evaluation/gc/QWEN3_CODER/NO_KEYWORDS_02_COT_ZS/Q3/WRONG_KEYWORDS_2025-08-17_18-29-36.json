@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\"Ich\", \"schwimme\", \"Pool\", \"mir gehört\"]\n2. Relative Verweise aufgelöst: \"Ich\" → \"Maria\"\n3. Stichwörter ins Englische übersetzt: [\"Maria\", \"swim\", \"pool\", \"belong to me\"]\n4. Identifikation des Nutzers ersetzt: \"Ich\" → \"Maria\". Somit wird \"belong to me\" interpretiert als \"pool belongs to Maria\"\n5. Attribut-Eigenschaften erklärt: \"Maria\" ist eine Person (Objekt), \"swim\" ist eine Aktivität, \"pool\" ist ein Objekt. \"belongs to\" beschreibt eine Besitzrelation (attached).\n6. Relationen erklärt: Maria führt die Aktivität \"swim\" (perform). Die Aktivität \"swim\" wird auf das Objekt \"pool\" angewandt (target). Das Objekt \"pool\" steht in einer attached-Beziehung zu Maria (gehört mir).\n7. Alle Relationen haben passende Typkodierungen: object (1), activity (4), context (2), perform (8), target (9), attached (5).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"mir gehört\\\"]\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" → \\\"Maria\\\"\\n3. Stichwörter ins Englische übersetzt: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong to me\\\"]\\n4. Identifikation des Nutzers ersetzt: \\\"Ich\\\" → \\\"Maria\\\". Somit wird \\\"belong to me\\\" interpretiert als \\\"pool belongs to Maria\\\"\\n5. Attribut-Eigenschaften erklärt: \\\"Maria\\\" ist eine Person (Objekt), \\\"swim\\\" ist eine Aktivität, \\\"pool\\\" ist ein Objekt. \\\"belongs to\\\" beschreibt eine Besitzrelation (attached).\\n6. Relationen erklärt: Maria führt die Aktivität \\\"swim\\\" (perform). Die Aktivität \\\"swim\\\" wird auf das Objekt \\\"pool\\\" angewandt (target). Das Objekt \\\"pool\\\" steht in einer attached-Beziehung zu Maria (gehört mir).\\n7. Alle Relationen haben passende Typkodierungen: object (1), activity (4), context (2), perform (8), target (9), attached (5).\"\n}"
+}

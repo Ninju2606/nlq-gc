@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt, in einem Pool, der ihr gehört. Die Beziehungen werden durch Typkodierungen dargestellt: \u0027swim\u0027 als Aktivität von \u0027maria\u0027, \u0027pool\u0027 als Ziel der Aktivität, \u0027own\u0027 als Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt, in einem Pool, der ihr gehört. Die Beziehungen werden durch Typkodierungen dargestellt: \u0027swim\u0027 als Aktivität von \u0027maria\u0027, \u0027pool\u0027 als Ziel der Aktivität, \u0027own\u0027 als Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027.\"\n}"
+}

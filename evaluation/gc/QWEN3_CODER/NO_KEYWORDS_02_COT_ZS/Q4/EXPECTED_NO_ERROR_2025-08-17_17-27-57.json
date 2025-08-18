@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 bezieht sich auf eine Aktivität und einen Ort, jedoch sind keine spezifischen Objekte, Attribute oder Beziehungen vorhanden, die zur Erstellung eines vollständigen GraphCodes mit Beziehungen und Typkodierungen benötigt würden. Es fehlen klare semantische Einträge, um passende Relationen im Vokabular und die zugehörigen Typkodierungen zu bestimmen.",
+  "error": "Nutzeranfrage enthält keine ausreichenden Informationen für einen sinnvollen GraphCode",
+  "responsePlain": "{\n  \"error\": \"Nutzeranfrage enthält keine ausreichenden Informationen für einen sinnvollen GraphCode\",\n  \"description\": \"Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 bezieht sich auf eine Aktivität und einen Ort, jedoch sind keine spezifischen Objekte, Attribute oder Beziehungen vorhanden, die zur Erstellung eines vollständigen GraphCodes mit Beziehungen und Typkodierungen benötigt würden. Es fehlen klare semantische Einträge, um passende Relationen im Vokabular und die zugehörigen Typkodierungen zu bestimmen.\"\n}"
+}

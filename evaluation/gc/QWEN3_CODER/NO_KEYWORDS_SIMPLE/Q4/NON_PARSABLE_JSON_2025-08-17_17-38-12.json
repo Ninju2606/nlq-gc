@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "\n{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 0],\n    [0, 0, 0, 9],\n    [0, 0, 0, 1],\n    [0, 0, 0, 0]\n  ]\n}\n \n\n### Erläuterung:\n\n- **\"Ich\"** führt die **Aktivität** \"schwimme\" aus → Beziehung `perform` (Typ 8).\n- **\"schwimme\"** ist eine **Aktivität** (Typ 4) und hat den **Zielort** \"Pool\" → Beziehung `target` (Typ 9).\n- **\"meinem\"** beschreibt einen **Besitzkontext** bzw. eine Zugehörigkeit und ist attributiv zu \"Pool\" → hier wurde eine **Objektbeziehung** (Typ 1) verwendet.\n- **\"Pool\"** ist ein konkretes **Objekt** (Typ 1).\n\n_die Zeilen repräsentieren von welchem Begriff eine Beziehung ausgeht, die Spalten wohin diese führt._  \n_z.B. matrix[0][1] \u003d 8 entspricht: \"Ich\" --perform--\u003e \"schwimme\"_\n\nWenn du weitere Anfragen in GraphCode umwandeln willst – immer her damit!"
+}

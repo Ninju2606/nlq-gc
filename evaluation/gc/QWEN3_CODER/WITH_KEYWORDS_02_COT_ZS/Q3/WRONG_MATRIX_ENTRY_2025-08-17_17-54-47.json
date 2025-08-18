@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      9,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Attribut (characteristic), \u0027pool\u0027 ist ein Objekt (object). 3. Die Relationen zwischen den Stichwörtern sind: maria -\u003e swim (perform), swim -\u003e pool (target), maria -\u003e pool (own \u003d\u003e attached), pool -\u003e own (attached), swim -\u003e target (pool), own -\u003e pool (attached). 4. Alle erforderlichen Relationen sind in den bereitgestellten Typkodierungen enthalten: \u0027maria\u0027 (1), \u0027swim\u0027 (4), \u0027own\u0027 (14), \u0027pool\u0027 (1), \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027attached\u0027 (5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [8, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 9, 5, 2]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Attribut (characteristic), \u0027pool\u0027 ist ein Objekt (object). 3. Die Relationen zwischen den Stichwörtern sind: maria -\u003e swim (perform), swim -\u003e pool (target), maria -\u003e pool (own \u003d\u003e attached), pool -\u003e own (attached), swim -\u003e target (pool), own -\u003e pool (attached). 4. Alle erforderlichen Relationen sind in den bereitgestellten Typkodierungen enthalten: \u0027maria\u0027 (1), \u0027swim\u0027 (4), \u0027own\u0027 (14), \u0027pool\u0027 (1), \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027attached\u0027 (5).\"\n}"
+}

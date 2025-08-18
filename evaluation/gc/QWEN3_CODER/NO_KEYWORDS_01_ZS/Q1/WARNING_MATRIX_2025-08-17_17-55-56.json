@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. \u0027Maria\u0027 ist als Objekt (Typ 1) identifiziert, \u0027play\u0027 als Aktivität (Typ 4), und \u0027basketball\u0027 als Objekt (Typ 1). Die Beziehung zeigt, dass Maria die Aktivität \u0027play\u0027 ausführt mit \u0027basketball\u0027 als Ziel (target).",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. \u0027Maria\u0027 ist als Objekt (Typ 1) identifiziert, \u0027play\u0027 als Aktivität (Typ 4), und \u0027basketball\u0027 als Objekt (Typ 1). Die Beziehung zeigt, dass Maria die Aktivität \u0027play\u0027 ausführt mit \u0027basketball\u0027 als Ziel (target).\"\n}\n"
+}

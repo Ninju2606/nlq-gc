@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält keine klaren Szenenbeschreibungen oder sinnvollen Beziehungen zwischen Objekten, Aktivitäten oder Attributen, die sich in einen GraphCode übersetzen ließen. Insbesondere ist die intendierte semantische Relation zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027 unklar. Bitte geben Sie eine präzisere Anfrage ab.",
+  "error": "Fehler bei der Analyse der Anfrage",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Analyse der Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält keine klaren Szenenbeschreibungen oder sinnvollen Beziehungen zwischen Objekten, Aktivitäten oder Attributen, die sich in einen GraphCode übersetzen ließen. Insbesondere ist die intendierte semantische Relation zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027 unklar. Bitte geben Sie eine präzisere Anfrage ab.\"\n}"
+}

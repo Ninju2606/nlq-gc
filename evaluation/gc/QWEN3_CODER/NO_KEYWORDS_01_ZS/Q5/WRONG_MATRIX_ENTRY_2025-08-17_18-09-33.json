@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9,
+      14
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist das Objekt (Typ 1), \u0027wear\u0027 ist die Aktivität (Typ 4) und wird mit Maria über \u0027perform\u0027 (Typ 8) verbunden. Der Hut ist das Ziel der Handlung (Target, Typ 9) und ist gelb, was eine characteristic (Typ 14) des Huts darstellt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 9, 14],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist das Objekt (Typ 1), \u0027wear\u0027 ist die Aktivität (Typ 4) und wird mit Maria über \u0027perform\u0027 (Typ 8) verbunden. Der Hut ist das Ziel der Handlung (Target, Typ 9) und ist gelb, was eine characteristic (Typ 14) des Huts darstellt.\"\n}\n"
+}

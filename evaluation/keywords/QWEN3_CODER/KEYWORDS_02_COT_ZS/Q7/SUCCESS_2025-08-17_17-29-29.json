@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte Szenen finden, in denen Häuser im Zusammenhang mit dem Malen von Fragen vorkommen. Die Begriffe wurden ins Englische übersetzt und grammatikalisch auf ihren Stamm reduziert. Es wurden keine relativen Verweise identifiziert. Die Benutzeridentifikation \u0027Maria\u0027 wurde nicht verwendet, da keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 in der Anfrage enthalten sind.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"description\": \"Der Nutzer möchte Szenen finden, in denen Häuser im Zusammenhang mit dem Malen von Fragen vorkommen. Die Begriffe wurden ins Englische übersetzt und grammatikalisch auf ihren Stamm reduziert. Es wurden keine relativen Verweise identifiziert. Die Benutzeridentifikation \u0027Maria\u0027 wurde nicht verwendet, da keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 in der Anfrage enthalten sind.\"\n}\n"
+}

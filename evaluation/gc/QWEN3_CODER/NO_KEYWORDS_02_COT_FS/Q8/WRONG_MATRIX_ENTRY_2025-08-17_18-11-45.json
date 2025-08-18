@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Die relevanten Stichwörter sind \"Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\".\n        2. Es gibt relative Verweise. \"Meine Tochter\" wird aufgelöst in \"Ich\" und \"Tochter\".\n        3. Die englischen Stichwörter sind \"daughter\", \"I\", \"drive\", \"boat\", \"lake\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"person\", \"drive\", \"boat\", \"lake\".\n        5. \"Maria\" und \"person\" sind Objekte. \"drive\" ist eine Aktivität. \"boat\" und \"lake\" sind Objekte.\n        6. \"person\" ist die Tochter von \"Maria\". \"Maria\" und \"person\" führen die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich im \"lake\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"Maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [[1,10,7,0,0],[0,1,7,0,0],[0,0,4,8,0],[0,0,0,1,6],[0,0,0,0,1]],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n        2. Es gibt relative Verweise. \\\"Meine Tochter\\\" wird aufgelöst in \\\"Ich\\\" und \\\"Tochter\\\".\\n        3. Die englischen Stichwörter sind \\\"daughter\\\", \\\"I\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"person\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\\n        5. \\\"Maria\\\" und \\\"person\\\" sind Objekte. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind Objekte.\\n        6. \\\"person\\\" ist die Tochter von \\\"Maria\\\". \\\"Maria\\\" und \\\"person\\\" führen die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich im \\\"lake\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.\"\n}\n"
+}

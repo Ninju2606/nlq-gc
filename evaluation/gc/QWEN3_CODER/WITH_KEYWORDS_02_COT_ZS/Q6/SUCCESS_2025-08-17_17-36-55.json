@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch korrekt, aber nicht spezifisch genug für die Generierung eines GraphCodes. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, die in einer Szene des Metaverse dargestellt werden können. Auch die Identifikation \u0027Maria\u0027 kann nicht sinnvoll verwendet werden, da keine selbst-identifizierenden Wörter (\u0027ich\u0027, \u0027mein\u0027) vorhanden sind.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen zur Beschreibung einer Szene im Metaverse. Begriffe wie \u0027bald\u0027, \u0027wir\u0027 und \u0027Termin ausmachen\u0027 sind zu vage, um eine spezifische Szenenbeschreibung oder präzise Beziehungen zwischen den Vokabulareinträgen zu definieren.",
+  "responsePlain": "\n{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen zur Beschreibung einer Szene im Metaverse. Begriffe wie \u0027bald\u0027, \u0027wir\u0027 und \u0027Termin ausmachen\u0027 sind zu vage, um eine spezifische Szenenbeschreibung oder präzise Beziehungen zwischen den Vokabulareinträgen zu definieren.\",\n  \"description\": \"Die Anfrage ist grammatikalisch korrekt, aber nicht spezifisch genug für die Generierung eines GraphCodes. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, die in einer Szene des Metaverse dargestellt werden können. Auch die Identifikation \u0027Maria\u0027 kann nicht sinnvoll verwendet werden, da keine selbst-identifizierenden Wörter (\u0027ich\u0027, \u0027mein\u0027) vorhanden sind.\"\n}\n"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise aufgelöst: \u0027Meine Tochter\u0027 → \u0027Tochter\u0027, \u0027ich\u0027 → \u0027Maria\u0027.\n3. Stichwörter ins Englische übersetzt: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027drive\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\n4. Identifikation des Nutzers eingesetzt: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027Tochter\u0027 ist ein Objekt und in Beziehung zu Maria als \u0027daughter\u0027, \u0027fahren\u0027 ist eine Aktivität (activity), \u0027Boot\u0027 ist ein Objekt und wird genutzt (attached), \u0027See\u0027 ist ein Kontext (context).\n6. Relationen erklärt: Maria und daughter haben die Beziehung \u0027daughter\u0027 (10), beide \u0027perform\u0027 (8) die activity drive, drive bezieht sich auf boat (\u0027attached\u0027\u003d5), boat liegt im See (\u0027under\u0027\u003d6), See ist der context (\u0027context\u0027\u003d2).\n7. Alle Relationen haben gültige Typkodierungen gemäß Liste gefunden.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [10, 1, 8, 0, 0],\n    [8, 8, 4, 5, 0],\n    [0, 0, 5, 1, 6],\n    [0, 0, 0, 6, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise aufgelöst: \u0027Meine Tochter\u0027 → \u0027Tochter\u0027, \u0027ich\u0027 → \u0027Maria\u0027.\\n3. Stichwörter ins Englische übersetzt: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027drive\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\\n4. Identifikation des Nutzers eingesetzt: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027Tochter\u0027 ist ein Objekt und in Beziehung zu Maria als \u0027daughter\u0027, \u0027fahren\u0027 ist eine Aktivität (activity), \u0027Boot\u0027 ist ein Objekt und wird genutzt (attached), \u0027See\u0027 ist ein Kontext (context).\\n6. Relationen erklärt: Maria und daughter haben die Beziehung \u0027daughter\u0027 (10), beide \u0027perform\u0027 (8) die activity drive, drive bezieht sich auf boat (\u0027attached\u0027\u003d5), boat liegt im See (\u0027under\u0027\u003d6), See ist der context (\u0027context\u0027\u003d2).\\n7. Alle Relationen haben gültige Typkodierungen gemäß Liste gefunden.\"\n}\n"
+}

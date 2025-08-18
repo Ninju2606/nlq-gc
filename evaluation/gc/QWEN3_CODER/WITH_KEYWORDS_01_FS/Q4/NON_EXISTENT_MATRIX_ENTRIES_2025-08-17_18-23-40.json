@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist die Handelnde, \u0027schwimmen\u0027 die Aktivität, \u0027besitzen\u0027 die Beziehung zum Pool und \u0027im Pool\u0027 die Kontextualisierung.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 5, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist die Handelnde, \u0027schwimmen\u0027 die Aktivität, \u0027besitzen\u0027 die Beziehung zum Pool und \u0027im Pool\u0027 die Kontextualisierung.\"\n}\n"
+}

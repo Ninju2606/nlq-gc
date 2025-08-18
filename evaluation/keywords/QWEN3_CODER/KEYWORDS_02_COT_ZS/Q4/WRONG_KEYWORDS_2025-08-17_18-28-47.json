@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\"Ich\", \"schwimme\", \"in\", \"meinem\", \"Pool\"]. 2. Relative Verweise aufgelöst: \"Ich\" und \"meinem\" beziehen sich auf den Nutzer -\u003e \"Maria\". 3. Übersetzung ins Englische: [\"Maria\", \"swim\", \"pool\"]. 4. Ersetzung der Nutzeridentifikation: \"Ich\" wurde durch \"Maria\" ersetzt.",
+  "responsePlain": "\n{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"in\\\", \\\"meinem\\\", \\\"Pool\\\"]. 2. Relative Verweise aufgelöst: \\\"Ich\\\" und \\\"meinem\\\" beziehen sich auf den Nutzer -\u003e \\\"Maria\\\". 3. Übersetzung ins Englische: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\"]. 4. Ersetzung der Nutzeridentifikation: \\\"Ich\\\" wurde durch \\\"Maria\\\" ersetzt.\"\n}\n"
+}

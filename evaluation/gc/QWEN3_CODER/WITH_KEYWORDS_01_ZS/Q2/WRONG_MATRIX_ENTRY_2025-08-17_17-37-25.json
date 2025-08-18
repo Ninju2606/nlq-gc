@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die Beziehung zwischen \u0027tim\u0027 (Objekt) und \u0027run\u0027 (Aktivität). \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). Es gibt keine relationale Beziehung außerhalb der Diagonalen, da keine weiteren Informationen zur Verknüpfung vorliegen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Beziehung zwischen \u0027tim\u0027 (Objekt) und \u0027run\u0027 (Aktivität). \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). Es gibt keine relationale Beziehung außerhalb der Diagonalen, da keine weiteren Informationen zur Verknüpfung vorliegen.\"\n}"
+}

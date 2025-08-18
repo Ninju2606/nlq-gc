@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter aus der Anfrage sind \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027 und \u0027See\u0027. Da \u0027ich\u0027 auf den Anfragensteller (Maria) bezieht, wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Die Wörter wurden ins Englische übersetzt: \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027lake\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"description\": \"Die potenziellen Stichwörter aus der Anfrage sind \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027 und \u0027See\u0027. Da \u0027ich\u0027 auf den Anfragensteller (Maria) bezieht, wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Die Wörter wurden ins Englische übersetzt: \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027lake\u0027.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      5,
+      0
+    ],
+    [
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [ich, gelben, Hut, trage].\n2. Relative Verweise aufgelöst: \u0027ich\u0027 → \u0027Maria\u0027.\n3. Übersetzung ins Englische: [Maria, yellow, hat, wear].\n4. Identifikation des Nutzers ersetzt: \u0027ich\u0027 → \u0027Maria\u0027 bereits in Schritt 2 berücksichtigt.\n5. Attributeigenschaften erklärt: \u0027yellow\u0027 ist eine characteristic (14), \u0027hat\u0027 ist ein Objekt (1), \u0027wear\u0027 ist eine Aktivität (4), \u0027Maria\u0027 ist eine Person (object, 1).\n6. Relationen zwischen den Stichwörtern:\n   - Maria trägt (perform/wears) → \u0027wear\u0027 (8)\n   - Hut hat Farbe (attached) → \u0027yellow\u0027 (5)\n   - Maria ist Ziel der Handlung (target) → \u0027wear\u0027 (9)\n   - \u0027yellow\u0027 ist Attribut von \u0027hat\u0027 (attached) (5)\n7. Alle Relationen haben Entsprechungen in den Typkodierungen mit gültigen IDs.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 1, 5, 0],\n    [0, 5, 1, 0],\n    [9, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [ich, gelben, Hut, trage].\\n2. Relative Verweise aufgelöst: \u0027ich\u0027 → \u0027Maria\u0027.\\n3. Übersetzung ins Englische: [Maria, yellow, hat, wear].\\n4. Identifikation des Nutzers ersetzt: \u0027ich\u0027 → \u0027Maria\u0027 bereits in Schritt 2 berücksichtigt.\\n5. Attributeigenschaften erklärt: \u0027yellow\u0027 ist eine characteristic (14), \u0027hat\u0027 ist ein Objekt (1), \u0027wear\u0027 ist eine Aktivität (4), \u0027Maria\u0027 ist eine Person (object, 1).\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria trägt (perform/wears) → \u0027wear\u0027 (8)\\n   - Hut hat Farbe (attached) → \u0027yellow\u0027 (5)\\n   - Maria ist Ziel der Handlung (target) → \u0027wear\u0027 (9)\\n   - \u0027yellow\u0027 ist Attribut von \u0027hat\u0027 (attached) (5)\\n7. Alle Relationen haben Entsprechungen in den Typkodierungen mit gültigen IDs.\"\n}"
+}

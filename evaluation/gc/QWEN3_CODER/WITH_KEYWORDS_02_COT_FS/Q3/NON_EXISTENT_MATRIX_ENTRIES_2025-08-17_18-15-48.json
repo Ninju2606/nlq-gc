@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      4
+    ],
+    [
+      0,
+      4,
+      8,
+      8
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \\\"Ich\\\" wurde zu \\\"maria\\\" aufgelöst. Es gibt keine weiteren relativen Verweise.\n        2. \\\"maria\\\" ist ein Objekt. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist eine Verbindung (attached). \\\"pool\\\" ist ein Objekt.\n        3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"maria\\\" steht in Verbindung mit \\\"pool\\\" über \\\"own\\\".\n        4. Folgende IDs wurden verwendet: object \u003d 1, activity \u003d 4, attached \u003d 4, target \u003d 8, perform \u003d 7, own \u003d 4 (attached), pool \u003d 1 (object), swim \u003d 4 (activity). Alle Relationen konnten erfolgreich aufgelöst werden.",
+  "responsePlain": "\n{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 7, 0, 4],\n        [0, 4, 8, 8],\n        [0, 0, 4, 9],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"1. Der relative Verweis \\\\\\\"Ich\\\\\\\" wurde zu \\\\\\\"maria\\\\\\\" aufgelöst. Es gibt keine weiteren relativen Verweise.\\n        2. \\\\\\\"maria\\\\\\\" ist ein Objekt. \\\\\\\"swim\\\\\\\" ist eine Aktivität. \\\\\\\"own\\\\\\\" ist eine Verbindung (attached). \\\\\\\"pool\\\\\\\" ist ein Objekt.\\n        3. \\\\\\\"maria\\\\\\\" führt die Aktivität \\\\\\\"swim\\\\\\\" aus. \\\\\\\"swim\\\\\\\" bezieht sich auf \\\\\\\"pool\\\\\\\". \\\\\\\"maria\\\\\\\" steht in Verbindung mit \\\\\\\"pool\\\\\\\" über \\\\\\\"own\\\\\\\".\\n        4. Folgende IDs wurden verwendet: object \u003d 1, activity \u003d 4, attached \u003d 4, target \u003d 8, perform \u003d 7, own \u003d 4 (attached), pool \u003d 1 (object), swim \u003d 4 (activity). Alle Relationen konnten erfolgreich aufgelöst werden.\"\n}\n"
+}

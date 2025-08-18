@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Einträge in der Bewertungsmatrix sind unvollständig. Es fehlen Relationen außerhalb der Diagonalen.",
+  "error": "Die Anzahl der Einträge im Vokabular stimmt nicht mit der Größe der Bewertungsmatrix überein.",
+  "responsePlain": "{\n  \"error\": \"Die Anzahl der Einträge im Vokabular stimmt nicht mit der Größe der Bewertungsmatrix überein.\",\n  \"description\": \"Die Einträge in der Bewertungsmatrix sind unvollständig. Es fehlen Relationen außerhalb der Diagonalen.\"\n}"
+}

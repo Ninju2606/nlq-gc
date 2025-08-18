@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 ist grammatikalisch verwirrend formuliert. Es fehlen präzise Angaben zu den Beziehungen und Aktivitäten, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Unklare Anfragestruktur",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfragestruktur\",\n  \"description\": \"Die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 ist grammatikalisch verwirrend formuliert. Es fehlen präzise Angaben zu den Beziehungen und Aktivitäten, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}
