@@ -1,6 +1,5 @@
 package de.richardvierhaus.nlq_gc.evaluation;
 
-import de.richardvierhaus.nlq_gc.enums.ModelLiterals;
 import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
 import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
 import org.slf4j.Logger;
@@ -16,8 +15,7 @@ import java.util.*;
 
 public class Evaluator {
 
-    private static final int RUNS_PER_EXECUTION = 50;
-    private static final ModelLiterals MODEL = ModelLiterals.QWEN3_CODER;
+    private static final int RUNS_PER_EXECUTION = 10;
 
     private final Logger LOGGER = LoggerFactory.getLogger(Evaluator.class);
     private final List<Execution> executions = new ArrayList<>();
@@ -61,7 +59,7 @@ public class Evaluator {
     private void runExecution(final Execution execution) {
         try {
             LOGGER.info("Starting execution of prompt [{}] with query [{}]", execution.getPrompt(), execution.getNlq());
-            String transaction = MODEL.getLLM().handlePrompt(execution.getFullPrompt());
+            String transaction = Execution.getModel().getLLM().handlePrompt(execution.getFullPrompt());
             String response = pollResponse(transaction);
             LOGGER.debug("Response: {}", response);
             if (!StringUtils.hasText(response)) return;
@@ -84,7 +82,7 @@ public class Evaluator {
 
         while (attempts < maxAttempts) {
             try {
-                response = MODEL.getLLM().getResponse(transactionID);
+                response = Execution.getModel().getLLM().getResponse(transactionID);
                 if (StringUtils.hasText(response)) break;
 
                 Thread.sleep(1000);

@@ -2,10 +2,7 @@ package de.richardvierhaus.nlq_gc.evaluation;
 
 import com.google.gson.Gson;
 import de.richardvierhaus.nlq_gc.encoding.EncodingMapping;
-import de.richardvierhaus.nlq_gc.enums.Prompt;
-import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
-import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
-import de.richardvierhaus.nlq_gc.enums.Replacement;
+import de.richardvierhaus.nlq_gc.enums.*;
 import de.richardvierhaus.nlq_gc.nlq.PromptBuilder;
 import org.springframework.util.StringUtils;
 
@@ -18,6 +15,7 @@ public class Execution {
     private static final Gson GSON = new Gson();
     private static final String USER = "Maria";
     private static final List<EncodingMapping> ENCODINGS = createEncodings();
+    private static final ModelLiterals MODEL = ModelLiterals.QWEN3_CODER;
 
     private final Prompt prompt;
     private final Query nlq;
@@ -37,7 +35,7 @@ public class Execution {
 
     protected String getPath() {
         String goal = isKeywordPrompt() ? "keywords" : "gc";
-        return String.format("evaluation/%s/%s/%s/", goal, prompt.toString(), nlq.name());
+        return String.format("evaluation/%s/%s/%s/%s/", goal, MODEL, prompt.toString(), nlq.name());
     }
 
     protected String getFileName(final ExecutionState state) {
@@ -99,6 +97,10 @@ public class Execution {
 
     protected static List<EncodingMapping> getEncodings() {
         return ENCODINGS;
+    }
+
+    public static ModelLiterals getModel() {
+        return MODEL;
     }
 
     protected Execution copy() {
