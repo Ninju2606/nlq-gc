@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es ist nicht möglich, einen sinnvollen GraphCode aus der gegebenen Anfrage zu generieren, da sie keine Informationen über eine Szene im Metaverse bereitstellt.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung im Metaverse. Es werden nur die Worte \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027 verwendet, ohne einen direkten Bezug zu Objekten, Attributen oder Aktivitäten in einer spezifischen Szene.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung im Metaverse. Es werden nur die Worte \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027 verwendet, ohne einen direkten Bezug zu Objekten, Attributen oder Aktivitäten in einer spezifischen Szene.\",\n  \"description\": \"Es ist nicht möglich, einen sinnvollen GraphCode aus der gegebenen Anfrage zu generieren, da sie keine Informationen über eine Szene im Metaverse bereitstellt.\"\n}"
+}

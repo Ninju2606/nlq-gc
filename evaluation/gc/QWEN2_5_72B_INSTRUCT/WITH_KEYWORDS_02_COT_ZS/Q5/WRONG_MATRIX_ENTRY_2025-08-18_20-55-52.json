@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert, und die Anfrage bezieht sich auf Maria, die einen gelben Hut trägt. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 (Objekt), \u0027wear\u0027 (Aktivität), \u0027hat\u0027 (Objekt), \u0027yellow\u0027 (Attribut). 3. Die Relationen sind: Maria führt die Aktivität \u0027tragen\u0027 aus, \u0027hat\u0027 ist durch das Attribut \u0027gelb\u0027 charakterisiert. 4. Die passenden Typkodierungen für diese Relationen sind identifiziert: Maria (1), wear (4), hat (1), yellow (3). Die Relationen maria-wear (8), wear-hat (0), hat-yellow (5) sind ebenfalls dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert, und die Anfrage bezieht sich auf Maria, die einen gelben Hut trägt. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 (Objekt), \u0027wear\u0027 (Aktivität), \u0027hat\u0027 (Objekt), \u0027yellow\u0027 (Attribut). 3. Die Relationen sind: Maria führt die Aktivität \u0027tragen\u0027 aus, \u0027hat\u0027 ist durch das Attribut \u0027gelb\u0027 charakterisiert. 4. Die passenden Typkodierungen für diese Relationen sind identifiziert: Maria (1), wear (4), hat (1), yellow (3). Die Relationen maria-wear (8), wear-hat (0), hat-yellow (5) sind ebenfalls dargestellt.\"\n}"
+}

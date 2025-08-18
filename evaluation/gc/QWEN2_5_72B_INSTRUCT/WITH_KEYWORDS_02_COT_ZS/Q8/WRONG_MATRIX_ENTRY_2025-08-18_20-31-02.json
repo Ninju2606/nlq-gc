@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Begriff \u0027maria\u0027 im Vokabular zugeordnet. \u0027Ich\u0027 wurde ebenfalls zu \u0027maria\u0027 zugeordnet. \u0027Meine Tochter\u0027 wurde als \u0027person\u0027 identifiziert.\n2. \u0027maria\u0027 ist eine \u0027person\u0027. \u0027person\u0027 ist auch eine \u0027person\u0027. \u0027drive\u0027 ist eine \u0027activity\u0027. \u0027boat\u0027 ist ein \u0027object\u0027. \u0027lake\u0027 ist ein \u0027context\u0027.\n3. \u0027maria\u0027 ist mit der \u0027person\u0027 (Tochter) verbunden durch den Typ \u0027daughter\u0027 (Tochter). \u0027maria\u0027 und \u0027person\u0027 führen die \u0027activity\u0027 (Fahren) aus, also haben sie die Relation \u0027perform\u0027. \u0027boat\u0027 ist auf dem \u0027lake\u0027 und das \u0027lake\u0027 ist das Ziel des \u0027boat\u0027, also haben \u0027boat\u0027 und \u0027lake\u0027 die Relation \u0027target\u0027.\n4. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen: \u0027daughter\u0027 (ID 10), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 5, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [5, 0, 0, 1, 9],\n    [0, 0, 0, 9, 1]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Begriff \u0027maria\u0027 im Vokabular zugeordnet. \u0027Ich\u0027 wurde ebenfalls zu \u0027maria\u0027 zugeordnet. \u0027Meine Tochter\u0027 wurde als \u0027person\u0027 identifiziert.\\n2. \u0027maria\u0027 ist eine \u0027person\u0027. \u0027person\u0027 ist auch eine \u0027person\u0027. \u0027drive\u0027 ist eine \u0027activity\u0027. \u0027boat\u0027 ist ein \u0027object\u0027. \u0027lake\u0027 ist ein \u0027context\u0027.\\n3. \u0027maria\u0027 ist mit der \u0027person\u0027 (Tochter) verbunden durch den Typ \u0027daughter\u0027 (Tochter). \u0027maria\u0027 und \u0027person\u0027 führen die \u0027activity\u0027 (Fahren) aus, also haben sie die Relation \u0027perform\u0027. \u0027boat\u0027 ist auf dem \u0027lake\u0027 und das \u0027lake\u0027 ist das Ziel des \u0027boat\u0027, also haben \u0027boat\u0027 und \u0027lake\u0027 die Relation \u0027target\u0027.\\n4. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen: \u0027daughter\u0027 (ID 10), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).\"\n}"
+}

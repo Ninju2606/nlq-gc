@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Der Nutzer Maria wird als \u0027maria\u0027 im Vokabular verwendet, da sie selbst angibt, dass sie etwas tut (Ich spiele). 2. \u0027maria\u0027 ist ein Objekt (Type: object), \u0027play\u0027 ist eine Aktivität (Type: activity), und \u0027basketball\u0027 ist ein Objekt (Type: object). 3. Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 ist eine Aktivität (Type: perform), und die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist das Ziel der Aktivität (Type: target). 4. Die Relationen haben passende Typkodierungen in den vorgegebenen Einträgen: \u0027maria\u0027 (Type: 1 - object), \u0027play\u0027 (Type: 4 - activity), \u0027basketball\u0027 (Type: 1 - object), \u0027perform\u0027 (Type: 8), \u0027target\u0027 (Type: 9).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"matrix\": [\n        [1, 0, 0],\n        [0, 4, 9],\n        [0, 0, 1]\n    ],\n    \"description\": \"1. Der Nutzer Maria wird als \u0027maria\u0027 im Vokabular verwendet, da sie selbst angibt, dass sie etwas tut (Ich spiele). 2. \u0027maria\u0027 ist ein Objekt (Type: object), \u0027play\u0027 ist eine Aktivität (Type: activity), und \u0027basketball\u0027 ist ein Objekt (Type: object). 3. Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 ist eine Aktivität (Type: perform), und die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist das Ziel der Aktivität (Type: target). 4. Die Relationen haben passende Typkodierungen in den vorgegebenen Einträgen: \u0027maria\u0027 (Type: 1 - object), \u0027play\u0027 (Type: 4 - activity), \u0027basketball\u0027 (Type: 1 - object), \u0027perform\u0027 (Type: 8), \u0027target\u0027 (Type: 9).\"\n}"
+}

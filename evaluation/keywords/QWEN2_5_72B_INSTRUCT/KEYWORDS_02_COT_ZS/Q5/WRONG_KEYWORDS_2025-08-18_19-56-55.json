@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter \u0027Maria\u0027, \u0027gelben\u0027, und \u0027Hut\u0027 wurden aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 ermittelt und ins Englische übersetzt. Die Referenz auf \u0027ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"description\": \"Die Stichwörter \u0027Maria\u0027, \u0027gelben\u0027, und \u0027Hut\u0027 wurden aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 ermittelt und ins Englische übersetzt. Die Referenz auf \u0027ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und grammatikalisch verwirrt. Es kann nicht eindeutig bestimmt werden, welche Objekte, Attribute oder Aktivitäten relevant sind. Bitte formuliere deine Anfrage klarer und präziser.",
+  "error": "Die Anfrage ist unklar oder grammatikalisch verwirrt. Es konnte kein sinnvoller GraphCode generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unklar oder grammatikalisch verwirrt. Es konnte kein sinnvoller GraphCode generiert werden.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und grammatikalisch verwirrt. Es kann nicht eindeutig bestimmt werden, welche Objekte, Attribute oder Aktivitäten relevant sind. Bitte formuliere deine Anfrage klarer und präziser.\"\n}"
+}

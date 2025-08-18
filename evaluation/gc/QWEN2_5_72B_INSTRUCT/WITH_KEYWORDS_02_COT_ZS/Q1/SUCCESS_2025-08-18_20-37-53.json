@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer Maria wird im Vokabular als \u0027maria\u0027 verwendet, da sie in der Anfrage angibt, dass sie etwas tut. 2. \u0027maria\u0027 wird als \u0027object\u0027 (Typ 1) eingetragen, \u0027play\u0027 als \u0027activity\u0027 (Typ 4), und \u0027basketball\u0027 als \u0027object\u0027 (Typ 1). 3. \u0027maria\u0027 und \u0027play\u0027 stehen in der Relation \u0027perform\u0027 (Typ 8), \u0027play\u0027 und \u0027basketball\u0027 stehen in der Relation \u0027target\u0027 (Typ 9). 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: \u0027maria\u0027 (Typ 1), \u0027play\u0027 (Typ 4), \u0027basketball\u0027 (Typ 1), \u0027perform\u0027 (Typ 8), und \u0027target\u0027 (Typ 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria wird im Vokabular als \u0027maria\u0027 verwendet, da sie in der Anfrage angibt, dass sie etwas tut. 2. \u0027maria\u0027 wird als \u0027object\u0027 (Typ 1) eingetragen, \u0027play\u0027 als \u0027activity\u0027 (Typ 4), und \u0027basketball\u0027 als \u0027object\u0027 (Typ 1). 3. \u0027maria\u0027 und \u0027play\u0027 stehen in der Relation \u0027perform\u0027 (Typ 8), \u0027play\u0027 und \u0027basketball\u0027 stehen in der Relation \u0027target\u0027 (Typ 9). 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: \u0027maria\u0027 (Typ 1), \u0027play\u0027 (Typ 4), \u0027basketball\u0027 (Typ 1), \u0027perform\u0027 (Typ 8), und \u0027target\u0027 (Typ 9).\"\n}"
+}

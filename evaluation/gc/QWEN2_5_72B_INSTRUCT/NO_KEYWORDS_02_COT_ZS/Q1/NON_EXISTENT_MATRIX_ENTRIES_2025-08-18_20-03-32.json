@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: ich, spiele, Basketball\n2. Relative Verweise aufgelöst: Ich -\u003e Maria\n3. Übersetzung in Englisch: Maria, play, basketball\n4. Identifikation des Nutzers ersetzt: ich -\u003e Maria\n5. Attribut-Eigenschaften: Maria (object), play (activity), basketball (object)\n6. Relationen: Maria perform play, play target basketball\n7. Typkodierung für alle Relationen gefunden: Maria (1), play (4), basketball (1)",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 4, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: ich, spiele, Basketball\\n2. Relative Verweise aufgelöst: Ich -\u003e Maria\\n3. Übersetzung in Englisch: Maria, play, basketball\\n4. Identifikation des Nutzers ersetzt: ich -\u003e Maria\\n5. Attribut-Eigenschaften: Maria (object), play (activity), basketball (object)\\n6. Relationen: Maria perform play, play target basketball\\n7. Typkodierung für alle Relationen gefunden: Maria (1), play (4), basketball (1)\"\n}"
+}

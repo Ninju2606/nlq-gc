@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer wird als Maria identifiziert, da in der Anfrage \u0027ich\u0027 verwendet wird und Maria die Nutzer-Identifikation ist. Die Anfrage beschreibt eine Situation, in der Maria einen gelben Hut trägt. 2. Die Attributeigenschaften sind: \u0027maria\u0027 (Objekt), \u0027wear\u0027 (Aktivität), \u0027hat\u0027 (Objekt), \u0027yellow\u0027 (Attribut). 3. Die Relationen sind: Maria führt eine Aktivität (wear) aus, die auf den Hut (hat) zielend ist. Der Hut hat das Attribut \u0027yellow\u0027. 4. Alle Relationen haben entsprechende Einträge in den Typkodierungen: \u0027maria\u0027 (1), \u0027wear\u0027 (4), \u0027hat\u0027 (1), \u0027yellow\u0027 (3), \u0027wear target hat\u0027 (9), \u0027hat characteristic yellow\u0027 (14).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer wird als Maria identifiziert, da in der Anfrage \u0027ich\u0027 verwendet wird und Maria die Nutzer-Identifikation ist. Die Anfrage beschreibt eine Situation, in der Maria einen gelben Hut trägt. 2. Die Attributeigenschaften sind: \u0027maria\u0027 (Objekt), \u0027wear\u0027 (Aktivität), \u0027hat\u0027 (Objekt), \u0027yellow\u0027 (Attribut). 3. Die Relationen sind: Maria führt eine Aktivität (wear) aus, die auf den Hut (hat) zielend ist. Der Hut hat das Attribut \u0027yellow\u0027. 4. Alle Relationen haben entsprechende Einträge in den Typkodierungen: \u0027maria\u0027 (1), \u0027wear\u0027 (4), \u0027hat\u0027 (1), \u0027yellow\u0027 (3), \u0027wear target hat\u0027 (9), \u0027hat characteristic yellow\u0027 (14).\"\n}"
+}

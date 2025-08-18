@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittelte Stichwörter: ich, Tochter, fahren, Boot, See.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wird zu \u0027Maria\u0027.\n3. Übersetzung ins Englische: ich -\u003e \u0027Maria\u0027, Tochter -\u003e \u0027daughter\u0027, fahren -\u003e \u0027drive\u0027, Boot -\u003e \u0027boat\u0027, See -\u003e \u0027lake\u0027.\n4. Ersetzt \u0027ich\u0027 durch \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027daughter\u0027 ist ein Objekt, \u0027drive\u0027 ist eine Aktivität, \u0027boat\u0027 ist ein Objekt, \u0027lake\u0027 ist ein Kontext.\n6. Relationen: Maria fährt das Boot (8), Tochter fährt das Boot (8), Boot wird auf dem See getrieben (6).\n7. Für alle Relationen gibt es passende Typkodierungen: IdentityMapping für Objekte und Kontext (1, 2), IdentityMapping für Aktivität (4), Relationen (8, 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: ich, Tochter, fahren, Boot, See.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wird zu \u0027Maria\u0027.\\n3. Übersetzung ins Englische: ich -\u003e \u0027Maria\u0027, Tochter -\u003e \u0027daughter\u0027, fahren -\u003e \u0027drive\u0027, Boot -\u003e \u0027boat\u0027, See -\u003e \u0027lake\u0027.\\n4. Ersetzt \u0027ich\u0027 durch \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027daughter\u0027 ist ein Objekt, \u0027drive\u0027 ist eine Aktivität, \u0027boat\u0027 ist ein Objekt, \u0027lake\u0027 ist ein Kontext.\\n6. Relationen: Maria fährt das Boot (8), Tochter fährt das Boot (8), Boot wird auf dem See getrieben (6).\\n7. Für alle Relationen gibt es passende Typkodierungen: IdentityMapping für Objekte und Kontext (1, 2), IdentityMapping für Aktivität (4), Relationen (8, 6).\"\n}"
+}

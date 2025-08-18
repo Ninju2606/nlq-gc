@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      7
+    ],
+    [
+      0,
+      14,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, gelben, Hut, trage. 2. \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027gelben\u0027 -\u003e \u0027yellow\u0027, \u0027Hut\u0027 -\u003e \u0027hat\u0027, \u0027trage\u0027 -\u003e \u0027wear\u0027. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 (Begriff) ist ein Object (Typ 1), \u0027yellow\u0027 (Begriff) ist eine Characteristic (Typ 14), \u0027hat\u0027 (Begriff) ist ein Object (Typ 1), und \u0027wear\u0027 (Begriff) ist eine Activity (Typ 4). 6. Maria hat eine Beziehung \u0027wear\u0027 (tragen) zu dem gelben Hut, der gelbe Hut steht in einer Beziehung \u0027above\u0027 (oberhalb) zu Maria. 7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 7],\n    [0, 14, 0, 0],\n    [0, 0, 1, 0],\n    [7, 0, 0, 4]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, gelben, Hut, trage. 2. \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027gelben\u0027 -\u003e \u0027yellow\u0027, \u0027Hut\u0027 -\u003e \u0027hat\u0027, \u0027trage\u0027 -\u003e \u0027wear\u0027. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 (Begriff) ist ein Object (Typ 1), \u0027yellow\u0027 (Begriff) ist eine Characteristic (Typ 14), \u0027hat\u0027 (Begriff) ist ein Object (Typ 1), und \u0027wear\u0027 (Begriff) ist eine Activity (Typ 4). 6. Maria hat eine Beziehung \u0027wear\u0027 (tragen) zu dem gelben Hut, der gelbe Hut steht in einer Beziehung \u0027above\u0027 (oberhalb) zu Maria. 7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren. Es ist nicht klar, was genau gemeint ist oder in welcher Beziehung die Begriffe zueinander stehen. Bitte präzisieren Sie Ihre Anfrage.",
+  "error": "Fehlende Informationen",
+  "responsePlain": "{\n  \"error\": \"Fehlende Informationen\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren. Es ist nicht klar, was genau gemeint ist oder in welcher Beziehung die Begriffe zueinander stehen. Bitte präzisieren Sie Ihre Anfrage.\"\n}"
+}

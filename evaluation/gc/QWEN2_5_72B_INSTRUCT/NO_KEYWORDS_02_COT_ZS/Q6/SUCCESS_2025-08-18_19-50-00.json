@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Begriffe, Objekte, Attribute oder Aktivitäten, die in der Metaverse-Situation relevant wären. Es liegt kein sinnvoller Inhalt vor, um einen GraphCode zu generieren.",
+  "error": "Keine passenden Stichwörter gefunden.",
+  "responsePlain": "{\n  \"error\": \"Keine passenden Stichwörter gefunden.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Begriffe, Objekte, Attribute oder Aktivitäten, die in der Metaverse-Situation relevant wären. Es liegt kein sinnvoller Inhalt vor, um einen GraphCode zu generieren.\"\n}"
+}

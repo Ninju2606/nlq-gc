@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "i",
+    "maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: Tochter, ich, Boot, See.\n2. \u0027ich\u0027 und \u0027Tochter\u0027 stehen in einer familialen Relation (\u0027Tochter\u0027 referenziert auf die Nutzerin \u0027Maria\u0027).\n3. Übersetzung ins Englische: daughter, i, boat, lake.\n4. Der Anfragensteller ist Maria, also ersetzen wir \u0027ich\u0027 mit \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027daughter\u0027 und \u0027i\u0027 (Maria) sind Objekte, \u0027boat\u0027 und \u0027lake\u0027 sind Kontexte, \u0027i\u0027 steht für eine Person, die in der Szene vorkommt.\n6. Relationen: \u0027daughter\u0027 und \u0027i\u0027 (Maria) stehen miteinander in einer familialen Beziehung (Tochter). \u0027i\u0027 (Maria) und \u0027daughter\u0027 performs \u0027fahren\u0027. \u0027boat\u0027 ist das Ziel der Aktivität \u0027fahren\u0027. \u0027lake\u0027 ist der Kontext, in dem die Aktivität stattfindet.\n7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle ermittelten Relationen: \u0027daughter\u0027 (Eintrag 10), \u0027i\u0027 (Eintrag 1), \u0027boat\u0027 (Eintrag 1), \u0027lake\u0027 (Eintrag 2).\n8. GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n    \"dictionary\": [\"daughter\", \"i\", \"maria\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 0, 0, 0],\n        [10, 1, 0, 0, 0],\n        [0, 0, 1, 0, 0],\n        [0, 0, 0, 1, 0],\n        [0, 0, 0, 0, 2]\n    ],\n    \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: Tochter, ich, Boot, See.\\n2. \u0027ich\u0027 und \u0027Tochter\u0027 stehen in einer familialen Relation (\u0027Tochter\u0027 referenziert auf die Nutzerin \u0027Maria\u0027).\\n3. Übersetzung ins Englische: daughter, i, boat, lake.\\n4. Der Anfragensteller ist Maria, also ersetzen wir \u0027ich\u0027 mit \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027daughter\u0027 und \u0027i\u0027 (Maria) sind Objekte, \u0027boat\u0027 und \u0027lake\u0027 sind Kontexte, \u0027i\u0027 steht für eine Person, die in der Szene vorkommt.\\n6. Relationen: \u0027daughter\u0027 und \u0027i\u0027 (Maria) stehen miteinander in einer familialen Beziehung (Tochter). \u0027i\u0027 (Maria) und \u0027daughter\u0027 performs \u0027fahren\u0027. \u0027boat\u0027 ist das Ziel der Aktivität \u0027fahren\u0027. \u0027lake\u0027 ist der Kontext, in dem die Aktivität stattfindet.\\n7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle ermittelten Relationen: \u0027daughter\u0027 (Eintrag 10), \u0027i\u0027 (Eintrag 1), \u0027boat\u0027 (Eintrag 1), \u0027lake\u0027 (Eintrag 2).\\n8. GraphCode wurde erfolgreich generiert.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"error\": [\"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\"],\n    \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage ist grammatikalisch wirr und enthält keine klaren Beziehungen zwischen Objekten, Attributen oder Aktivitäten.\"\n}"
+}

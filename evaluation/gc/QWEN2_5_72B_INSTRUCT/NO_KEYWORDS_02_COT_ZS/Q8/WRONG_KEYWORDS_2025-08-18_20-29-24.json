@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "maria",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      2,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Tochter, ich, fahren, Boot, See. 2. Relative Verweise aufgelöst: \u0027ich\u0027 referenziert Maria. 3. Übersetzung ins Englische: daughter, maria, drive, boat, lake. 4. Identifikation des Nutzers im Vokabular ersetzt: \u0027ich\u0027 -\u003e \u0027maria\u0027. 5. Attributeigenschaften erklärt: \u0027daughter\u0027, \u0027maria\u0027, und \u0027lake\u0027 sind Objekte (Typ 2), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1). 6. Relationen erklärt: \u0027daughter\u0027 und \u0027maria\u0027 sind in einem \u0027daughter\u0027 Verhältnis (Typ 10), \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus (Typ 8), \u0027drive\u0027 richtet sich auf \u0027boat\u0027 (Typ 9), \u0027boat\u0027 befindet sich auf \u0027lake\u0027 (Typ 2). 7. Alle Relationen haben einen Eintrag in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"maria\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [2, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Tochter, ich, fahren, Boot, See. 2. Relative Verweise aufgelöst: \u0027ich\u0027 referenziert Maria. 3. Übersetzung ins Englische: daughter, maria, drive, boat, lake. 4. Identifikation des Nutzers im Vokabular ersetzt: \u0027ich\u0027 -\u003e \u0027maria\u0027. 5. Attributeigenschaften erklärt: \u0027daughter\u0027, \u0027maria\u0027, und \u0027lake\u0027 sind Objekte (Typ 2), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1). 6. Relationen erklärt: \u0027daughter\u0027 und \u0027maria\u0027 sind in einem \u0027daughter\u0027 Verhältnis (Typ 10), \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus (Typ 8), \u0027drive\u0027 richtet sich auf \u0027boat\u0027 (Typ 9), \u0027boat\u0027 befindet sich auf \u0027lake\u0027 (Typ 2). 7. Alle Relationen haben einen Eintrag in den bereitgestellten Typkodierungen.\"\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim runs",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"description\": \"Tim runs\"\n}"
+}

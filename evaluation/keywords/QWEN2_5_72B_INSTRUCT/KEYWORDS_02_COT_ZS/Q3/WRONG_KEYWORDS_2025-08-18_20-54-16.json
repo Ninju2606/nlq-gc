@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ersetzt \u0027ich\u0027 und \u0027mir\u0027 mit \u0027Maria\u0027. Verallgemeinert \u0027schwimme\u0027 zu \u0027swim\u0027 und behält \u0027pool\u0027 und \u0027geht mir\u0027 (übersetzt als \u0027own\u0027) bei.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Ersetzt \u0027ich\u0027 und \u0027mir\u0027 mit \u0027Maria\u0027. Verallgemeinert \u0027schwimme\u0027 zu \u0027swim\u0027 und behält \u0027pool\u0027 und \u0027geht mir\u0027 (übersetzt als \u0027own\u0027) bei.\"\n}"
+}

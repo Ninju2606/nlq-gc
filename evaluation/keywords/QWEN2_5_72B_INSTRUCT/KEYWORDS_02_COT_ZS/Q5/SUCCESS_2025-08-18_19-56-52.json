@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, and \u0027wear\u0027 have been identified and translated into English. The user\u0027s identification \u0027Maria\u0027 has replaced the self-referential words \u0027I\u0027 and \u0027my\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"The keywords \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, and \u0027wear\u0027 have been identified and translated into English. The user\u0027s identification \u0027Maria\u0027 has replaced the self-referential words \u0027I\u0027 and \u0027my\u0027.\"\n}"
+}

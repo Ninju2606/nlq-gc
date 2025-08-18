@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"ich\", \"schwimme\", \"Pool\", \"gehört\". 2. \"Ich\" und \"gehört\" sind relative Verweise auf Maria. 3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\", \"own\". 4. Die Stichwörter mit Nutzentifikation sind \"Maria\", \"swim\", \"pool\", \"own\".",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\". 2. \\\"Ich\\\" und \\\"gehört\\\" sind relative Verweise auf Maria. 3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\". 4. Die Stichwörter mit Nutzentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\"\n}"
+}

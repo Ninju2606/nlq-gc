@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Begriffe oder Objekte, die eine Szene im Metaverse beschreiben. Es fehlen wesentliche Informationen, um einen GraphCode generieren zu können.",
+  "error": "Fehlende Informationen für eine sinnvolle Szenenbeschreibung",
+  "responsePlain": "{\n  \"error\": \"Fehlende Informationen für eine sinnvolle Szenenbeschreibung\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Begriffe oder Objekte, die eine Szene im Metaverse beschreiben. Es fehlen wesentliche Informationen, um einen GraphCode generieren zu können.\"\n}"
+}

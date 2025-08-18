@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Keine relativen Verweise in der Anfrage. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers in der Anfrage. 5. Tim ist ein Objekt, run ist eine Aktivität. 6. Tim führt die Aktivität \u0027run\u0027 aus. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: Tim (Objekt) und run (Aktivität), sowie die Relation perform (8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [8, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Keine relativen Verweise in der Anfrage. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers in der Anfrage. 5. Tim ist ein Objekt, run ist eine Aktivität. 6. Tim führt die Aktivität \u0027run\u0027 aus. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: Tim (Objekt) und run (Aktivität), sowie die Relation perform (8).\"\n}"
+}

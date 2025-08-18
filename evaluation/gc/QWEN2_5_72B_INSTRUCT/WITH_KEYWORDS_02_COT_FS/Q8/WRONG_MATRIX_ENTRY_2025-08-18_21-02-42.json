@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      8,
+      6
+    ],
+    [
+      0,
+      1,
+      7,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Es gibt relative Verweise und Identifikationen des Nutzers. »Ich« wurde zu »maria« und »Tochter« wurde zu »person«. \n2. »maria«, »person«, »boat« und »lake« sind Objekte der Anfrage. »drive« ist eine Aktivität. \n3. »maria« führt die Aktivität »drive« aus. »drive« bezieht sich auf »boat«. »person« (Tochter) führt ebenfalls die Aktivität »drive« aus. »maria« und »person« befinden sich auf dem »lake«. \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für auf (above) ist 7, hier verwendet als synonymer Platzhalter für »auf dem See fahren«.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [[1, 0, 7, 8, 6], [0, 1, 7, 10, 0], [0, 0, 4, 9, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]],\n    \"description\": \"1. Es gibt relative Verweise und Identifikationen des Nutzers. »Ich« wurde zu »maria« und »Tochter« wurde zu »person«. \\n2. »maria«, »person«, »boat« und »lake« sind Objekte der Anfrage. »drive« ist eine Aktivität. \\n3. »maria« führt die Aktivität »drive« aus. »drive« bezieht sich auf »boat«. »person« (Tochter) führt ebenfalls die Aktivität »drive« aus. »maria« und »person« befinden sich auf dem »lake«. \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für auf (above) ist 7, hier verwendet als synonymer Platzhalter für »auf dem See fahren«.\"\n}"
+}

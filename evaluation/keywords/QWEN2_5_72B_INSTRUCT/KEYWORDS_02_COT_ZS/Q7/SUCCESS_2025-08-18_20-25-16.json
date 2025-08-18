@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es ist nicht eindeutig zu erkennen, was mit \u0027Häuser um Fragen zu malen\u0027 gemeint ist. Die Anfrage entält keine eindeutigen Begriffe oder Relationen, die eine Szene im Metaverse beschreiben.",
+  "error": "Die Anfrage ist nicht klar oder grammatikalisch verwirrend.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist nicht klar oder grammatikalisch verwirrend.\",\n  \"description\": \"Es ist nicht eindeutig zu erkennen, was mit \u0027Häuser um Fragen zu malen\u0027 gemeint ist. Die Anfrage entält keine eindeutigen Begriffe oder Relationen, die eine Szene im Metaverse beschreiben.\"\n}"
+}

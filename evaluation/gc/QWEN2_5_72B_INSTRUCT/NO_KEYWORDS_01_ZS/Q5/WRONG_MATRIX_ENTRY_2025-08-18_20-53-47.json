@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "GraphCode for the query: Show me situations where I wear a yellow hat.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode for the query: Show me situations where I wear a yellow hat.\"\n}"
+}

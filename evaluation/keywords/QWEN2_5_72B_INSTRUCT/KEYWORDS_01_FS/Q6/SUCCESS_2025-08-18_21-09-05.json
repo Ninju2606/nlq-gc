@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "responsePlain": "{\n    \"dictionary\": [\"make\", \"appointment\"],\n    \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

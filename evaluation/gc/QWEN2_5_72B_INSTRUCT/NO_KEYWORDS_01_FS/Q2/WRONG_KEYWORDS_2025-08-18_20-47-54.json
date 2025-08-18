@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim runs. The user Maria is identified and included in the vocabulary.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 7],\n    [0, 4]\n  ],\n  \"description\": \"Tim runs. The user Maria is identified and included in the vocabulary.\"\n}"
+}

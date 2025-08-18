@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Successful generation of GraphCode vocabulary from user query.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Successful generation of GraphCode vocabulary from user query.\"\n}"
+}

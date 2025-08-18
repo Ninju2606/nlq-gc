@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: Tochter, ich, fahren, Boot, See\n2. Relative Verweise: Tochter (Maria\u0027s daughter), ich (Maria)\n3. Übersetzung ins Englische: daughter, I, drive, boat, lake\n4. Ersetzen des Anfragenstellers: Maria und daughter, anstatt I und meine Tochter\n5. Attribut-Eigenschaften: Maria (object), daughter (context), drive (activity), boat (object), lake (context)\n6. Relationen: Maria ist die Mutter der daughter, Maria und daughter perform drive, drive target boat, boat under lake\n7. Typkodierungen für alle Relationen sind verfügbar.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [10, 2, 0, 0, 0],\n    [8, 0, 4, 9, 0],\n    [0, 0, 9, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Stichwörter: Tochter, ich, fahren, Boot, See\\n2. Relative Verweise: Tochter (Maria\u0027s daughter), ich (Maria)\\n3. Übersetzung ins Englische: daughter, I, drive, boat, lake\\n4. Ersetzen des Anfragenstellers: Maria und daughter, anstatt I und meine Tochter\\n5. Attribut-Eigenschaften: Maria (object), daughter (context), drive (activity), boat (object), lake (context)\\n6. Relationen: Maria ist die Mutter der daughter, Maria und daughter perform drive, drive target boat, boat under lake\\n7. Typkodierungen für alle Relationen sind verfügbar.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      8,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer wurde als \u0027Maria\u0027 identifiziert. Die Stichwörter \u0027ich\u0027 und \u0027mein\u0027 in der Anfrage wurden durch \u0027Maria\u0027 ersetzt.\n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 (Objekt), \u0027swim\u0027 (Aktivität), \u0027own\u0027 (Aktivität), \u0027pool\u0027 (Objekt).\n3. Die Relationen zwischen den Stichwörtern sind: \u0027maria\u0027 führt \u0027swim\u0027 aus, \u0027swim\u0027 ist in \u0027pool\u0027, \u0027maria\u0027 führt \u0027own\u0027 aus, \u0027own\u0027 hat \u0027pool\u0027 als Ziel.\n4. Es gibt für alle Relationen einen passenden Eintrag in den bereitgestellten Typkodierungen: \u0027maria\u0027 (1), \u0027swim\u0027 (4), \u0027own\u0027 (4), \u0027pool\u0027 (1). Die Relationen sind: \u0027maria\u0027 --\u003e \u0027swim\u0027 (8), \u0027swim\u0027 --\u003e \u0027pool\u0027 (8), \u0027maria\u0027 --\u003e \u0027own\u0027 (0), \u0027own\u0027 --\u003e \u0027pool\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 8],\n    [0, 0, 4, 9],\n    [0, 8, 9, 1]\n  ],\n  \"description\": \"1. Der Nutzer wurde als \u0027Maria\u0027 identifiziert. Die Stichwörter \u0027ich\u0027 und \u0027mein\u0027 in der Anfrage wurden durch \u0027Maria\u0027 ersetzt.\\n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 (Objekt), \u0027swim\u0027 (Aktivität), \u0027own\u0027 (Aktivität), \u0027pool\u0027 (Objekt).\\n3. Die Relationen zwischen den Stichwörtern sind: \u0027maria\u0027 führt \u0027swim\u0027 aus, \u0027swim\u0027 ist in \u0027pool\u0027, \u0027maria\u0027 führt \u0027own\u0027 aus, \u0027own\u0027 hat \u0027pool\u0027 als Ziel.\\n4. Es gibt für alle Relationen einen passenden Eintrag in den bereitgestellten Typkodierungen: \u0027maria\u0027 (1), \u0027swim\u0027 (4), \u0027own\u0027 (4), \u0027pool\u0027 (1). Die Relationen sind: \u0027maria\u0027 --\u003e \u0027swim\u0027 (8), \u0027swim\u0027 --\u003e \u0027pool\u0027 (8), \u0027maria\u0027 --\u003e \u0027own\u0027 (0), \u0027own\u0027 --\u003e \u0027pool\u0027 (9).\"\n}"
+}

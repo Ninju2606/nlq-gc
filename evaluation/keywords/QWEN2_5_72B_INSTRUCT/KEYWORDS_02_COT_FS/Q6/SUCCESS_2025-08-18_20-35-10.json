@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "The input \u0027Wir müssen bald einen Termin ausmachen\u0027 does not provide any information about objects, attributes, or activities within a Metaverse scene. The request is about scheduling and does not describe a specific scene.",
+  "error": "The user\u0027s request does not contain any keywords relevant to a Metaverse scene description.",
+  "responsePlain": "{\n    \"error\": \"The user\u0027s request does not contain any keywords relevant to a Metaverse scene description.\",\n    \"description\": \"The input \u0027Wir müssen bald einen Termin ausmachen\u0027 does not provide any information about objects, attributes, or activities within a Metaverse scene. The request is about scheduling and does not describe a specific scene.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      9
+    ],
+    [
+      10,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Tochter, ich, fahren, Boot, See. 2. Relative Verweise aufgelöst: Tochter -\u003e daughter, ich -\u003e Maria. 3. Übersetzung ins Englische: daughter, Maria, boat, lake. 4. Ersetzung der Identifikation des Nutzers: Maria. 5. Attribut-Eigenschaften: daughter (characteristic), Maria (object), boat (object), lake (context). 6. Relationen: daughter and Maria (perform) fahren (activity) boat (target), boat (perform) lake (context). 7. Typkodierungen: daughter (14), Maria (1), boat (1), lake (2), fahren (8), target (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"Maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 10, 0],\n    [0, 1, 8, 9],\n    [10, 8, 1, 0],\n    [0, 9, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Tochter, ich, fahren, Boot, See. 2. Relative Verweise aufgelöst: Tochter -\u003e daughter, ich -\u003e Maria. 3. Übersetzung ins Englische: daughter, Maria, boat, lake. 4. Ersetzung der Identifikation des Nutzers: Maria. 5. Attribut-Eigenschaften: daughter (characteristic), Maria (object), boat (object), lake (context). 6. Relationen: daughter and Maria (perform) fahren (activity) boat (target), boat (perform) lake (context). 7. Typkodierungen: daughter (14), Maria (1), boat (1), lake (2), fahren (8), target (9).\"\n}"
+}

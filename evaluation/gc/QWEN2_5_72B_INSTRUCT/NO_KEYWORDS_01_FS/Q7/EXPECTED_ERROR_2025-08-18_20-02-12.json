@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Anfrage: Häuser um Fragen zu malen",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"GraphCode für die Anfrage: Häuser um Fragen zu malen\"\n}"
+}

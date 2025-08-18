@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer Maria hat eine Anfrage gestellt, in der Tim rennt. Es kommen keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor, daher kann die Identifikation des Nutzers ignoriert werden.\n2. Das Stichwort \u0027tim\u0027 ist ein Objekt (Typ: object, ID: 1).\n   Das Stichwort \u0027run\u0027 ist eine Aktivität (Typ: activity, ID: 4).\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 ausführt.\n4. Für die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 gibt es einen passenden Eintrag in den Typkodierungen (\u0027perform\u0027, ID: 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat eine Anfrage gestellt, in der Tim rennt. Es kommen keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor, daher kann die Identifikation des Nutzers ignoriert werden.\\n2. Das Stichwort \u0027tim\u0027 ist ein Objekt (Typ: object, ID: 1).\\n   Das Stichwort \u0027run\u0027 ist eine Aktivität (Typ: activity, ID: 4).\\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 ausführt.\\n4. Für die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 gibt es einen passenden Eintrag in den Typkodierungen (\u0027perform\u0027, ID: 8).\"\n}"
+}

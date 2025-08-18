@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die potenziellen Stichwörter sind: ich, gelben, Hut, trage. 2. \u0027Ich\u0027 referenziert auf die Identifikation des Nutzers \u0027Maria\u0027. 3. Die Stichwörter übersetzt ins Englische: Maria, yellow, hat, wear. 4. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Die Attributeigenschaften sind: Maria (object), yellow (context), hat (object), wear (activity). 6. Die Relationen sind: Maria wears hat (ID 9), wear involves wearing a yellow hat (ID 8), yellow describes hat (ID 14, aber nicht in der Matrix dargestellt, da \u0027characteristic\u0027 in den bereitgestellten Typkodierungen nicht vorhanden ist). 7. Alle Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 9],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [8, 0, 0, 4]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter sind: ich, gelben, Hut, trage. 2. \u0027Ich\u0027 referenziert auf die Identifikation des Nutzers \u0027Maria\u0027. 3. Die Stichwörter übersetzt ins Englische: Maria, yellow, hat, wear. 4. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Die Attributeigenschaften sind: Maria (object), yellow (context), hat (object), wear (activity). 6. Die Relationen sind: Maria wears hat (ID 9), wear involves wearing a yellow hat (ID 8), yellow describes hat (ID 14, aber nicht in der Matrix dargestellt, da \u0027characteristic\u0027 in den bereitgestellten Typkodierungen nicht vorhanden ist). 7. Alle Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.\"\n}"
+}

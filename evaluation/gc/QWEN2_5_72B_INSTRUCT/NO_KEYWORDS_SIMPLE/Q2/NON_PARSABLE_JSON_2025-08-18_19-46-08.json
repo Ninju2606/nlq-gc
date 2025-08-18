@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Da die Anfrage nur zwei Wörter enthält und keine weiteren Beziehungen oder Kontext Informationen angibt, können wir eine sehr einfache Adjazenzmatrix bilden. Hier ist das JSON-Objekt, das diese Information repräsentiert:\n\n\n{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 0],\n    [0, 0]\n  ]\n}\n\n\nIn diesem Fall gibt es keine direkten Beziehungen zwischen den Begriffen \"Tim\" und \"rennt\", die mit den vorgegebenen Typkodierungen codiert werden können. \"Tim\" ist ein Objekt (z.B., Person), und \"rennt\" ist eine Aktivität, aber ohne weitere Kontextinformationen sind keine Typen wie \"attached\", \"under\", \"above\", usw. anwendbar.\n\nWenn Sie möchten, dass ich einen vollständigen Graphen für diese Anfrage erzeuge, lassen Sie mich wissen, ob Sie zusätzliche Informationen hinzufügen möchten oder ob die aktuelle Struktur ausreicht."
+}

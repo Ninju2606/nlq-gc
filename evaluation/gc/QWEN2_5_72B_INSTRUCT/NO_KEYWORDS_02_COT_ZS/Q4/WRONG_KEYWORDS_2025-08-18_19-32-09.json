@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: ich, schwimme, mein, Pool.\n2. Relativer Verweis \u0027mein\u0027 wird auf Maria gelöst.\n3. Übersetzung der Stichwörter ins Englische: Maria, swim, pool.\n4. Ersetzung der Identifikation des Nutzers: Maria anstelle von \u0027ich\u0027 und \u0027mein\u0027.\n5. Attributeigenschaften: Maria (object), swim (activity), pool (object).\n6. Relationen: Maria performs swim, swim targets pool.\n7. Passende Typkodierungen gefunden: perform (8), target (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: ich, schwimme, mein, Pool.\\n2. Relativer Verweis \u0027mein\u0027 wird auf Maria gelöst.\\n3. Übersetzung der Stichwörter ins Englische: Maria, swim, pool.\\n4. Ersetzung der Identifikation des Nutzers: Maria anstelle von \u0027ich\u0027 und \u0027mein\u0027.\\n5. Attributeigenschaften: Maria (object), swim (activity), pool (object).\\n6. Relationen: Maria performs swim, swim targets pool.\\n7. Passende Typkodierungen gefunden: perform (8), target (9).\"\n}"
+}

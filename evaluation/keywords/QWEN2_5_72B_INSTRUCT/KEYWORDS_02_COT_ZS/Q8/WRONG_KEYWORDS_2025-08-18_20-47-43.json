@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "drive",
+    "lake",
+    "boat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria and daughter drive boat on lake",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"drive\", \"lake\", \"boat\"],\n  \"description\": \"Maria and daughter drive boat on lake\"\n}"
+}

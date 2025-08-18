@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Maria plays basketball. \u0027maria\u0027 is identified as an object, \u0027play\u0027 as an activity, and \u0027basketball\u0027 as an object. The activity \u0027play\u0027 is performed by \u0027maria\u0027 and targets \u0027basketball\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"matrix\": [\n        [1, 8, 0],\n        [0, 4, 9],\n        [0, 0, 1]\n    ],\n    \"description\": \"Maria plays basketball. \u0027maria\u0027 is identified as an object, \u0027play\u0027 as an activity, and \u0027basketball\u0027 as an object. The activity \u0027play\u0027 is performed by \u0027maria\u0027 and targets \u0027basketball\u0027.\"\n}"
+}

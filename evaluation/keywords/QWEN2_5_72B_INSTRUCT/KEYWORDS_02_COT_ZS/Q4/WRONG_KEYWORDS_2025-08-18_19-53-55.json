@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden erfolgreich ermittelt. Relative Verweise wurden aufgelöst. Ermittelte Stichwörter wurden ins Englische übersetzt. Identifikation des Nutzers wurde berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Stichwörter wurden erfolgreich ermittelt. Relative Verweise wurden aufgelöst. Ermittelte Stichwörter wurden ins Englische übersetzt. Identifikation des Nutzers wurde berücksichtigt.\"\n}"
+}

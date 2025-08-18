@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run",
+    "Tim"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Erfolgreiche Erstellung des Vokabulars für die Anfrage \u0027Tim rennt\u0027 mit der Identifikation \u0027Maria\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\", \"Tim\"],\n    \"description\": \"Erfolgreiche Erstellung des Vokabulars für die Anfrage \u0027Tim rennt\u0027 mit der Identifikation \u0027Maria\u0027.\"\n}"
+}

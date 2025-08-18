@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter basierend auf der Nutzanfrage \u0027Häuser um Fragen zu malen\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"question\", \"paint\"],\n    \"description\": \"Stichwörter basierend auf der Nutzanfrage \u0027Häuser um Fragen zu malen\u0027.\"\n}"
+}

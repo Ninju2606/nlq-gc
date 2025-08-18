@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine Informationen über eine spezifische Szene oder Situation im Metaverse.",
+  "error": "Die Anfrage enthält keine spezifische Szenenbeschreibung, aus der ein GraphCode generiert werden könnte. Bitte beschreibe eine Szene im Metaverse.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine spezifische Szenenbeschreibung, aus der ein GraphCode generiert werden könnte. Bitte beschreibe eine Szene im Metaverse.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine Informationen über eine spezifische Szene oder Situation im Metaverse.\"\n}"
+}

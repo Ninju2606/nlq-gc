@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      7
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "Maria performs the activity of swimming in a pool, which she owns.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 7],\n    [0, 4, 9, 0],\n    [0, 0, 1, 0],\n    [0, 0, 10, 1]\n  ],\n  \"description\": \"Maria performs the activity of swimming in a pool, which she owns.\"\n}"
+}

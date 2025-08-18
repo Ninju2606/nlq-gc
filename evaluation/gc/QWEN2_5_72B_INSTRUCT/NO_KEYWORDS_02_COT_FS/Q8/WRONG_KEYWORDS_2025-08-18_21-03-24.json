@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      6
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Dierelevanten Stichwörter sind \"Meine Tochter\", \"Ich\", \"fahren\", \"Boot\", \"See\". 2. Es gibt die relativen Verweise \"Meine Tochter\" und \"Ich\", die auf \"Maria\" und \"daughter\" referieren. 3. Die englischen Stichwörter sind \"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\". 4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\". 5. \"Maria\" und \"daughter\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität. \"boat\" und \"lake\" sind Objekte. 6. \"Maria\" und \"daughter\" stehen in der Beziehung \"daughter\" zueinander. \"Maria\" und \"daughter\" führen die Aktivität \"drive\" aus. \"boat\" befindet sich in \"lake\". 7. Die ID für Objekt (object) ist 1. Die ID für Tochter (daughter) ist 10. Die ID für Aktivität (activity) ist 4. Die ID für ausführen (perform) ist 7. Die ID für in (in) ist 6. Die ID für beziehen (target) ist 8.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 7, 0, 0],\n        [10, 1, 7, 0, 0],\n        [0, 0, 4, 8, 6],\n        [0, 0, 8, 1, 0],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"1. Dierelevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"Ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\". 2. Es gibt die relativen Verweise \\\"Meine Tochter\\\" und \\\"Ich\\\", die auf \\\"Maria\\\" und \\\"daughter\\\" referieren. 3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\". 5. \\\"Maria\\\" und \\\"daughter\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind Objekte. 6. \\\"Maria\\\" und \\\"daughter\\\" stehen in der Beziehung \\\"daughter\\\" zueinander. \\\"Maria\\\" und \\\"daughter\\\" führen die Aktivität \\\"drive\\\" aus. \\\"boat\\\" befindet sich in \\\"lake\\\". 7. Die ID für Objekt (object) ist 1. Die ID für Tochter (daughter) ist 10. Die ID für Aktivität (activity) ist 4. Die ID für ausführen (perform) ist 7. Die ID für in (in) ist 6. Die ID für beziehen (target) ist 8.\"\n}"
+}

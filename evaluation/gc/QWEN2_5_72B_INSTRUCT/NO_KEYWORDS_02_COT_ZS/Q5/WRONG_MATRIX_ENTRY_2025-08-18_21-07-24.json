@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, gelben, Hut, trage. 2. Die relative Verweise \u0027ich\u0027 wurde auf Maria umgesetzt. 3. Die Stichwörter wurden ins Englische übersetzt: Maria, yellow, hat, wear. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Die Eigenschaften der Stichwörter sind: Maria (object), yellow (context), hat (object), wear (activity). 6. Die Stichwörter stehen in folgenden Relationen zueinander: Maria wear hat, yellow ist ein context des hats. 7. Für alle Relationen gibt es einen Eintrag in den bereitgestellten Typkodierungen: Maria (id: 1), yellow (id: 2), hat (id: 1), wear (id: 4), Maria wear hat (id: 9), yellow context hat (id: 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 9],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [9, 0, 0, 4]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, gelben, Hut, trage. 2. Die relative Verweise \u0027ich\u0027 wurde auf Maria umgesetzt. 3. Die Stichwörter wurden ins Englische übersetzt: Maria, yellow, hat, wear. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Die Eigenschaften der Stichwörter sind: Maria (object), yellow (context), hat (object), wear (activity). 6. Die Stichwörter stehen in folgenden Relationen zueinander: Maria wear hat, yellow ist ein context des hats. 7. Für alle Relationen gibt es einen Eintrag in den bereitgestellten Typkodierungen: Maria (id: 1), yellow (id: 2), hat (id: 1), wear (id: 4), Maria wear hat (id: 9), yellow context hat (id: 2).\"\n}"
+}

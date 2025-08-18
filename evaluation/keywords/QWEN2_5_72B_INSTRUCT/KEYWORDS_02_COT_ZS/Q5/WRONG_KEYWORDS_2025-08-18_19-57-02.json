@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s request contains the keywords \u0027ich\u0027 which refers to \u0027Maria\u0027, \u0027gelb\u0027 (yellow), and \u0027Hut\u0027 (hat). The self-referencing keyword \u0027ich\u0027 has been replaced with the user\u0027s identification \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"description\": \"The user\u0027s request contains the keywords \u0027ich\u0027 which refers to \u0027Maria\u0027, \u0027gelb\u0027 (yellow), and \u0027Hut\u0027 (hat). The self-referencing keyword \u0027ich\u0027 has been replaced with the user\u0027s identification \u0027Maria\u0027.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Szene im Metaverse und enthält keine beschreibenden Begriffe für Objekte, Attribute oder Aktivitäten.",
+  "error": "Keine passenden Stichwörter für die Szene im Metaverse gefunden",
+  "responsePlain": "{\n    \"error\": \"Keine passenden Stichwörter für die Szene im Metaverse gefunden\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Szene im Metaverse und enthält keine beschreibenden Begriffe für Objekte, Attribute oder Aktivitäten.\"\n}"
+}

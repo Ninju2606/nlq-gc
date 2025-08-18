@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Ermittelte Stichwörter aus der Nutzeranfrage: ich, gelben, Hut, trage.\n2. Löste relative Verweise auf: \u0027ich\u0027 referenziert auf Maria.\n3. Übersetzung der ermittelten Stichwörter ins Englische: ich -\u003e Maria, gelben -\u003e yellow, Hut -\u003e hat, trage -\u003e wear.\n4. Ersetzte in den potenziellen Stichwörtern die Identifikation des Nutzers: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: Maria (Person), yellow (Farbe), hat (Objekt), wear (Aktivität).\n6. Relationen: Maria wear Hut, yellow characteristic Hut.\n7. Überprüfte, ob es für alle Relationen einen Eintrag in den bereitgestellten Typkodierungen gibt: Maria (object, ID 1), yellow (characteristic, ID 14), hat (object, ID 1), wear (activity, ID 4). Die Relation zwischen Maria und wear ist \u0027target\u0027 (ID 9), die Relation zwischen yellow und hat ist \u0027characteristic\u0027 (ID 14).",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n    \"matrix\": [\n        [1, 0, 0, 5],\n        [0, 2, 0, 0],\n        [0, 0, 1, 0],\n        [5, 0, 0, 4]\n    ],\n    \"description\": \"1. Ermittelte Stichwörter aus der Nutzeranfrage: ich, gelben, Hut, trage.\\n2. Löste relative Verweise auf: \u0027ich\u0027 referenziert auf Maria.\\n3. Übersetzung der ermittelten Stichwörter ins Englische: ich -\u003e Maria, gelben -\u003e yellow, Hut -\u003e hat, trage -\u003e wear.\\n4. Ersetzte in den potenziellen Stichwörtern die Identifikation des Nutzers: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: Maria (Person), yellow (Farbe), hat (Objekt), wear (Aktivität).\\n6. Relationen: Maria wear Hut, yellow characteristic Hut.\\n7. Überprüfte, ob es für alle Relationen einen Eintrag in den bereitgestellten Typkodierungen gibt: Maria (object, ID 1), yellow (characteristic, ID 14), hat (object, ID 1), wear (activity, ID 4). Die Relation zwischen Maria und wear ist \u0027target\u0027 (ID 9), die Relation zwischen yellow und hat ist \u0027characteristic\u0027 (ID 14).\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the key terms from the user\u0027s query, including the specified user identification \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\", \"own\"],\n  \"description\": \"The vocabulary contains the key terms from the user\u0027s query, including the specified user identification \u0027Maria\u0027.\"\n}"
+}

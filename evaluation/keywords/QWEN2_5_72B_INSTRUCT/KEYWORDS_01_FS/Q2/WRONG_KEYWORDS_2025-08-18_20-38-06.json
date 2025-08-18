@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run",
+    "Tim"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt, dass Tim rennt. Die Identifikation des Nutzers Maria wurde berücksichtigt, da sie in der Anfrage implizit enthalten ist.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\", \"Tim\"],\n    \"description\": \"Die Anfrage beschreibt, dass Tim rennt. Die Identifikation des Nutzers Maria wurde berücksichtigt, da sie in der Anfrage implizit enthalten ist.\"\n}"
+}

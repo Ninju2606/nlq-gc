@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält Begriffe, deren Beziehung nicht durch die vorgegebenen Typkodierungen ausgedrückt werden kann. Es fehlen spezifische Relationen wie \u0027must\u0027, \u0027soon\u0027 oder \u0027coordinate\u0027.",
+  "error": "Keine passende Typkodierung für die Beziehung zwischen den Einträgen im Vokabular gefunden.",
+  "responsePlain": "{\n  \"error\": \"Keine passende Typkodierung für die Beziehung zwischen den Einträgen im Vokabular gefunden.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält Begriffe, deren Beziehung nicht durch die vorgegebenen Typkodierungen ausgedrückt werden kann. Es fehlen spezifische Relationen wie \u0027must\u0027, \u0027soon\u0027 oder \u0027coordinate\u0027.\"\n}"
+}

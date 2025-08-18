@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Die Tochter des Nutzers wird nicht explizit im Vokabular definiert, stattdessen wird \u0027person\u0027 verwendet. Der Nutzer \u0027Maria\u0027 wird identifiziert und benannt. 2. Erkläre die Attributigenschaften der vorliegenden Stichwörter: \u0027maria\u0027 ist eine Person (object, ID: 1), \u0027person\u0027 ist ein Kontext (context, ID: 2), \u0027drive\u0027 ist eine Aktivität (activity, ID: 4), \u0027boat\u0027 ist ein Objekt (object, ID: 1), \u0027lake\u0027 ist ein Kontext (context, ID: 2). 3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria (maria) führt die Aktivität (drive) aus, die ein Boot (boat) als Ziel hat. Das Boot befindet sich auf einem See (lake). Die Aktivität \u0027drive\u0027 ist in Relation zu \u0027boat\u0027 und \u0027lake\u0027. 4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt entsprechende IDs für alle Relationen.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 0, 8, 0, 0], \n        [0, 2, 0, 0, 0], \n        [0, 0, 4, 9, 0], \n        [0, 0, 0, 1, 0], \n        [0, 0, 0, 0, 2]\n    ],\n    \"description\": \"1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Die Tochter des Nutzers wird nicht explizit im Vokabular definiert, stattdessen wird \u0027person\u0027 verwendet. Der Nutzer \u0027Maria\u0027 wird identifiziert und benannt. 2. Erkläre die Attributigenschaften der vorliegenden Stichwörter: \u0027maria\u0027 ist eine Person (object, ID: 1), \u0027person\u0027 ist ein Kontext (context, ID: 2), \u0027drive\u0027 ist eine Aktivität (activity, ID: 4), \u0027boat\u0027 ist ein Objekt (object, ID: 1), \u0027lake\u0027 ist ein Kontext (context, ID: 2). 3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria (maria) führt die Aktivität (drive) aus, die ein Boot (boat) als Ziel hat. Das Boot befindet sich auf einem See (lake). Die Aktivität \u0027drive\u0027 ist in Relation zu \u0027boat\u0027 und \u0027lake\u0027. 4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt entsprechende IDs für alle Relationen.\"\n}"
+}

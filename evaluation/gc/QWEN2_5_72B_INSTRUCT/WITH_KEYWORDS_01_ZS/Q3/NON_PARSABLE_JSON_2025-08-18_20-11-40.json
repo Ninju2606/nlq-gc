@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 4, 0, 9],\n    [0, 0, 4, 0],\n    [7, 0, 0, 1]\n  ],\n  \"description\": \"Maria swims in a pool that she owns.\"\n}\n\n\n**Erläuterung:**\n- `maria` ist als Person (Typ 1) identifiziert.\n- `swim` ist eine Aktivität (Typ 4).\n- `own` zeigt die Beziehung zwischen Maria und dem Pool (Typ 4, da es auch eine Aktivität darstellt).\n- `pool` ist ein Objekt (Typ 1).\n\nDie Bewertungsmatrix wurde wie folgt gefüllt:\n- `(1,1)` und `(4,4)` sind auf der Diagonalen und entsprechen `object` (Typ 1).\n- `(2,2)` ist auf der Diagonalen und entsprechen `activity` (Typ 4).\n- `(3,3)` ist auf der Diagonalen und entsprechen `activity` (Typ 4).\n- `(1,4)` zeigt, dass Maria im Pool schwimmt (Typ 8: `perform`).\n- `(2,4)` zeigt, dass das Schwimmen das Ziel des Pools ist (Typ 9: `target`).\n- `(4,1)` zeigt, dass der Pool über Maria steht (Typ 7: `above`), was grammatikalisch korrekt interpretiert wird, obwohl es hier eher eine semantische Interpretation ist."
+}

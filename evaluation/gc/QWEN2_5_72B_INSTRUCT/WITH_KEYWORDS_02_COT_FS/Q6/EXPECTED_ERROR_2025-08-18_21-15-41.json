@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wurde die Identifikation des Nutzers ignoriert.\n2. \u0027maria\u0027 ist ein Objekt der Anfrage. \u0027make\u0027 ist eine Aktivität. \u0027appointment\u0027 ist ebenfalls ein Objekt.\n3. Die Aktivität \u0027make\u0027 bezieht sich auf \u0027appointment\u0027.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 9.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n    \"matrix\": [\n        [1, 0, 0],\n        [0, 4, 9],\n        [0, 9, 1]\n    ],\n    \"description\": \"1. Es gibt keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wurde die Identifikation des Nutzers ignoriert.\\n2. \u0027maria\u0027 ist ein Objekt der Anfrage. \u0027make\u0027 ist eine Aktivität. \u0027appointment\u0027 ist ebenfalls ein Objekt.\\n3. Die Aktivität \u0027make\u0027 bezieht sich auf \u0027appointment\u0027.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 9.\"\n}"
+}

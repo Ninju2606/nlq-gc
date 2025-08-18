@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat sich in der Anfrage selbst identifiziert. \n2. \u0027maria\u0027 ist ein Objekt (ID: 1), \u0027wear\u0027 ist eine Aktivität (ID: 4), \u0027hat\u0027 ist ein Objekt (ID: 1), \u0027yellow\u0027 ist ein Attribut (ID: 14). \n3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027wear\u0027 hat \u0027hat\u0027 als Ziel, \u0027hat\u0027 hat das Attribut \u0027yellow\u0027. \n4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat sich in der Anfrage selbst identifiziert. \\n2. \u0027maria\u0027 ist ein Objekt (ID: 1), \u0027wear\u0027 ist eine Aktivität (ID: 4), \u0027hat\u0027 ist ein Objekt (ID: 1), \u0027yellow\u0027 ist ein Attribut (ID: 14). \\n3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027wear\u0027 hat \u0027hat\u0027 als Ziel, \u0027hat\u0027 hat das Attribut \u0027yellow\u0027. \\n4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.\"\n}"
+}

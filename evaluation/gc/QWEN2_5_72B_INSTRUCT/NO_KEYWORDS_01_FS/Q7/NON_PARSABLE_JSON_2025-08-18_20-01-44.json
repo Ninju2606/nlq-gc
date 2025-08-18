@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"paint\", \"house\", \"questions\"],\n    \"matrix\": [\n        [1, 7, 0, 0],\n        [0, 9, 8, 0],\n        [0, 0, 1, 0],\n        [0, 0, 0, 2]\n    ],\n    \"description\": \"Maria malt Häuser und stellt Fragen.\"\n}\n\n\n**Erklärung:**\n- Das Vokabular enthält die Begriffe \"Maria\" (als Person), \"paint\" (als Aktivität), \"house\" (als Objekt) und \"questions\" (als Kontext oder Synonym).\n- Die Bewertungsmatrix kodiert die Relationen:\n  - Maria (1) malt (7) die Häuser (0).\n  - Paint (0) ist eine Aktivität (9) und bezieht sich auf Häuser (8).\n  - House (0) ist ein Objekt (1).\n  - Questions (0) sind im Kontext der Szene (2)."
+}

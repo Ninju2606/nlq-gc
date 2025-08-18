@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "Maria",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter wurden erfolgreich ermittelt, relative Verweise aufgelöst, ins Englische übersetzt und die Referenz auf den Nutzer ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"Maria\", \"drive\", \"boat\", \"lake\"],\n  \"description\": \"Potenzielle Stichwörter wurden erfolgreich ermittelt, relative Verweise aufgelöst, ins Englische übersetzt und die Referenz auf den Nutzer ersetzt.\"\n}"
+}

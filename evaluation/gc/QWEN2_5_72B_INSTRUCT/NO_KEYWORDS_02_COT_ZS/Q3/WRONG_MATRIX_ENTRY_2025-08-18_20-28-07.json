@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Stichwörter: ich, schwimme, Pool, gehört. 2. Relative Verweise: ich -\u003e Maria, gehört -\u003e mein. 3. Übersetzung ins Englische: ich -\u003e Maria, schwimme -\u003e swim, Pool -\u003e pool, gehört -\u003e own. 4. Ersetzung des Nutzers: ich -\u003e Maria. 5. Attribut-Eigenschaften: Maria (object), swim (activity), pool (object), own (characteristic). 6. Relationen: Maria swim (perform), Maria own pool (target). 7. Alle Relationen haben passende Einträge in den Typkodierungen: Maria (object, ID 1), swim (activity, ID 4), pool (object, ID 1), own (characteristic, ID 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 9],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: ich, schwimme, Pool, gehört. 2. Relative Verweise: ich -\u003e Maria, gehört -\u003e mein. 3. Übersetzung ins Englische: ich -\u003e Maria, schwimme -\u003e swim, Pool -\u003e pool, gehört -\u003e own. 4. Ersetzung des Nutzers: ich -\u003e Maria. 5. Attribut-Eigenschaften: Maria (object), swim (activity), pool (object), own (characteristic). 6. Relationen: Maria swim (perform), Maria own pool (target). 7. Alle Relationen haben passende Einträge in den Typkodierungen: Maria (object, ID 1), swim (activity, ID 4), pool (object, ID 1), own (characteristic, ID 14).\"\n}"
+}

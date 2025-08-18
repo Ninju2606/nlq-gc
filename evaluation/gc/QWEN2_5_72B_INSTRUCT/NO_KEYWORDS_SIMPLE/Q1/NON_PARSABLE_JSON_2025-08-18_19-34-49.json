@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"spiele\", \"Basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 1, 0],\n    [0, 0, 1]\n  ]\n}\n\n\n### Erklärung:\n- **Ich (1, 1)**: Das Pronomen \"Ich\" ist selbstständig und wird als Objekt betrachtet (Typ 1).\n- **spiele (2, 2)**: Das Verb \"spiele\" ist eine Aktivität (Typ 4).\n- **Basketball (3, 3)**: \"Basketball\" ist das Ziel der Aktivität (Typ 9).\n\n- **Beziehungen:**\n  - \"Ich\" führt die Aktivität \"spiele\" aus (Typ 8: perform).\n  - \"Basketball\" ist das Ziel der Aktivität \"spiele\" (Typ 9: target).\n\nDie Matrix wird wie folgt interpretiert:\n- Die Hauptdiagonale ist immer 1, da jedes Element selbstständig existiert.\n- Die Beziehung von \"Ich\" zu \"spiele\" ist 8 (perform).\n- Die Beziehung von \"spiele\" zu \"Basketball\" ist 9 (target)."
+}

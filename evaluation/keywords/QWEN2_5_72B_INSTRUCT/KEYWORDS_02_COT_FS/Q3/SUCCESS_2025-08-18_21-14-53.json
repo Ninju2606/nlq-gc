@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n2. \"Ich\" und \"mir\" sind relative Verweise, die auf den Nutzer referenzieren. Die neuen Stichwörter sind \"Maria\", \"schwimme\", \"Pool\", \"gehört\".\n3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"own\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"own\".",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n2. \\\"Ich\\\" und \\\"mir\\\" sind relative Verweise, die auf den Nutzer referenzieren. Die neuen Stichwörter sind \\\"Maria\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\"\n}"
+}

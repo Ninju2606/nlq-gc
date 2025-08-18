@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält Wörter, die keine direkte Beziehung zu Objekten, Aktivitäten oder Attributen im Metaverse haben. Es gibt keine vorgegebene Typkodierung, um diese Beziehung darzustellen.",
+  "error": "Die Relation \u0027bald\u0027 und \u0027ausmachen\u0027 sind nicht bekannt. Die Anfrage enthält keine Informationen, die in den vorgegebenen Typkodierungen dargestellt werden können.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \u0027bald\u0027 und \u0027ausmachen\u0027 sind nicht bekannt. Die Anfrage enthält keine Informationen, die in den vorgegebenen Typkodierungen dargestellt werden können.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält Wörter, die keine direkte Beziehung zu Objekten, Aktivitäten oder Attributen im Metaverse haben. Es gibt keine vorgegebene Typkodierung, um diese Beziehung darzustellen.\"\n}"
+}

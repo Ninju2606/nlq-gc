@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      10
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Die Stichwörter sind: ich, gelben, Hut, trage. 2. Der Nutzer \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: I (Maria), yellow, hat (hat), wear (trage). 4. Ersatz von \u0027ich\u0027 durch \u0027Maria\u0027. 5. Eigenschaften: Maria ist ein Begriff vom Typ \u0027object\u0027, yellow ist ein Begriff vom Typ \u0027characteristic\u0027, hat ist ein Begriff vom Typ \u0027object\u0027, wear ist ein Begriff vom Typ \u0027activity\u0027. 6. Relationen: Maria und wear stehen in der Relation target (tragen), yellow und hat stehen in der Relation characteristic (gelb). 7. Alle Relationen haben eine gültige ID in den bereitgestellten Typkodierungen: Maria (1), yellow (14), hat (1), wear (4).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 10],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Stichwörter sind: ich, gelben, Hut, trage. 2. Der Nutzer \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: I (Maria), yellow, hat (hat), wear (trage). 4. Ersatz von \u0027ich\u0027 durch \u0027Maria\u0027. 5. Eigenschaften: Maria ist ein Begriff vom Typ \u0027object\u0027, yellow ist ein Begriff vom Typ \u0027characteristic\u0027, hat ist ein Begriff vom Typ \u0027object\u0027, wear ist ein Begriff vom Typ \u0027activity\u0027. 6. Relationen: Maria und wear stehen in der Relation target (tragen), yellow und hat stehen in der Relation characteristic (gelb). 7. Alle Relationen haben eine gültige ID in den bereitgestellten Typkodierungen: Maria (1), yellow (14), hat (1), wear (4).\"\n}"
+}

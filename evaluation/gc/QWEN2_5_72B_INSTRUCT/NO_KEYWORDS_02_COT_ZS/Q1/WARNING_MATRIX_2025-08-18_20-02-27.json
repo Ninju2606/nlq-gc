@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Stichwörter: ich, spiele, Basketball.\n2. Relative Verweise: \u0027ich\u0027 auf Maria.\n3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027I\u0027, \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027.\n4. Ersetzen der Identifikation: \u0027I\u0027 -\u003e \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Person), \u0027play\u0027 ist eine Aktivität, \u0027basketball\u0027 ist ein Objekt.\n6. Relationen: Maria (i\u003d0) performs play (j\u003d1), play (i\u003d1) is an activity, basketball (i\u003d2) is an object.\n7. Typkodierungen: (0,0) \u003d 1 (object), (0,1) \u003d 8 (perform), (1,1) \u003d 4 (activity), (2,2) \u003d 1 (object). Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: ich, spiele, Basketball.\\n2. Relative Verweise: \u0027ich\u0027 auf Maria.\\n3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027I\u0027, \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027.\\n4. Ersetzen der Identifikation: \u0027I\u0027 -\u003e \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Person), \u0027play\u0027 ist eine Aktivität, \u0027basketball\u0027 ist ein Objekt.\\n6. Relationen: Maria (i\u003d0) performs play (j\u003d1), play (i\u003d1) is an activity, basketball (i\u003d2) is an object.\\n7. Typkodierungen: (0,0) \u003d 1 (object), (0,1) \u003d 8 (perform), (1,1) \u003d 4 (activity), (2,2) \u003d 1 (object). Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

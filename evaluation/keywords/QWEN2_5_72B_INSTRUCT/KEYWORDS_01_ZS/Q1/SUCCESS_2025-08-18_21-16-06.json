@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Vokabular für die Nutzeranfrage \u0027Ich spiele Basketball\u0027 mit der Identifikation \u0027Maria\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"description\": \"Vokabular für die Nutzeranfrage \u0027Ich spiele Basketball\u0027 mit der Identifikation \u0027Maria\u0027.\"\n}"
+}

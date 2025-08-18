@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht klar und grammatikalisch verworren. Es ist nicht möglich, daraus sinnvolle Stichwörter zu extrahieren, die eine Szene im Metaverse beschreiben könnten. Bitte gib eine klarere und präzisere Anfrage ein.",
+  "error": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und grammatikalisch verworren. Es können keine sinnvollen Stichwörter ermittelt werden, die eine Szene im Metaverse beschreiben.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und grammatikalisch verworren. Es können keine sinnvollen Stichwörter ermittelt werden, die eine Szene im Metaverse beschreiben.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht klar und grammatikalisch verworren. Es ist nicht möglich, daraus sinnvolle Stichwörter zu extrahieren, die eine Szene im Metaverse beschreiben könnten. Bitte gib eine klarere und präzisere Anfrage ein.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine sinnvollen Stichwörter für die Erstellung eines GraphCodes im Kontext einer Metaverse-Szene.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage enthält keine sinnvollen Stichwörter für die Erstellung eines GraphCodes im Kontext einer Metaverse-Szene.\"\n}"
+}

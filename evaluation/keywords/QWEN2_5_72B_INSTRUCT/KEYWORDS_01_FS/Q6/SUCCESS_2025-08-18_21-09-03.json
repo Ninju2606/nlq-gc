@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine Handlung, die im Metaverse nicht direkt als Szene interpretierbar ist.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die eine Szene im Metaverse beschreiben.",
+  "responsePlain": "{\n    \"error\": \"Ich kann die Anfrage leider nicht verstehen. Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die eine Szene im Metaverse beschreiben.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine Handlung, die im Metaverse nicht direkt als Szene interpretierbar ist.\"\n}"
+}

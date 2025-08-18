@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      6
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5,
+  "description": "1. Maria wird der Nutzeridentifikation zugeordnet. Es gibt keinen relativen Verweis auf eine andere Person oder Objekt.\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist eine Charakteristik.\n3. Maria führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" bezieht sich auf den Pool. Maria steht in der Relation \"own\" zu dem Pool. Der Pool ist \"under\" Maria.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14. Die ID für \"under\" ist 6. Die ID für \"above\" ist 7.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 7, 0, 6],\n        [0, 4, 8, 0],\n        [0, 0, 1, 0],\n        [5, 0, 0, 1]\n    ],\n    \"description\": \"1. Maria wird der Nutzeridentifikation zugeordnet. Es gibt keinen relativen Verweis auf eine andere Person oder Objekt.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist eine Charakteristik.\\n3. Maria führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" bezieht sich auf den Pool. Maria steht in der Relation \\\"own\\\" zu dem Pool. Der Pool ist \\\"under\\\" Maria.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14. Die ID für \\\"under\\\" ist 6. Die ID für \\\"above\\\" ist 7.\"\n}"
+}

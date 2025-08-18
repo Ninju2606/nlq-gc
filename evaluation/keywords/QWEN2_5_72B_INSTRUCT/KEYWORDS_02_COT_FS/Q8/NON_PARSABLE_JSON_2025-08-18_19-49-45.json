@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"daughter\", \"ride\", \"boat\", \"lake\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\\\"Tochter\\\\\", \\\\\"fahren\\\\\", \\\\\"Boot\\\\\", \\\\\"See\\\\\".\\n2. Es gibt keine relativen Verweise, aber \\\\\"Meine Tochter\\\\\" wurde aufgelöst in \\\\\"Maria\\\\\" und \\\\\"Tochter\\\\\".\\n3. Die englischen Stichwörter sind \\\\\"Maria\\\\\", \\\\\"daughter\\\\\", \\\\\"ride\\\\\", \\\\\"boat\\\\\", \\\\\"lake\\\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\\\"Maria\\\\\", \\\\\"daughter\\\\\", \\\\\"ride\\\\\", \\\\\"boat\\\\\", \\\\\"lake\\\\\".\"\n}"
+}

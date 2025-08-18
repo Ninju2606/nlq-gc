@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stencil words derived from the user\u0027s request and translated into English: \u0027Maria\u0027 (user identification), \u0027yellow\u0027, \u0027hat\u0027. User-specific identifiers \u0027ich\u0027 and \u0027mein\u0027 have been replaced with \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"description\": \"Stencil words derived from the user\u0027s request and translated into English: \u0027Maria\u0027 (user identification), \u0027yellow\u0027, \u0027hat\u0027. User-specific identifiers \u0027ich\u0027 and \u0027mein\u0027 have been replaced with \u0027Maria\u0027.\"\n}"
+}

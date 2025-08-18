@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Maria hat keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet. Daher wird die Identifikation des Nutzers ignoriert.\n2. Das Attribut \u0027tim\u0027 ist ein Objekt (ID: 1), da es eine Person bezeichnet. Das Attribut \u0027run\u0027 ist eine Aktivität (ID: 4), da es eine Aktion beschreibt.\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027rennen\u0027 durchführt. Diese Relation ist durch \u0027perform\u0027 (ID: 8) darstellbar.\n4. Für die gefundenen Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [8, 4]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet. Daher wird die Identifikation des Nutzers ignoriert.\\n2. Das Attribut \u0027tim\u0027 ist ein Objekt (ID: 1), da es eine Person bezeichnet. Das Attribut \u0027run\u0027 ist eine Aktivität (ID: 4), da es eine Aktion beschreibt.\\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027rennen\u0027 durchführt. Diese Relation ist durch \u0027perform\u0027 (ID: 8) darstellbar.\\n4. Für die gefundenen Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen.\"\n}"
+}

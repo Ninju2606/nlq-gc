@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "yellow",
+    "hat",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Task 1: Ermittelte Stichwörter: ich, gelber, Hut. Task 2: Ermittelte relative Verweise: ich. Task 3: Übersetzung ins Englische: yellow, hat. Task 4: Ersetzung des Identifikators: Maria.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow\", \"hat\", \"Maria\"],\n  \"description\": \"Task 1: Ermittelte Stichwörter: ich, gelber, Hut. Task 2: Ermittelte relative Verweise: ich. Task 3: Übersetzung ins Englische: yellow, hat. Task 4: Ersetzung des Identifikators: Maria.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Häuser um Fragen zu malen: Maria stellt eine Szene dar, in der Häuser um Fragen zum Malen herum sind.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"ask\", \"paint\"],\n    \"matrix\": [\n        [1, 0, 0],\n        [0, 4, 9],\n        [0, 0, 1]\n    ],\n    \"description\": \"Häuser um Fragen zu malen: Maria stellt eine Szene dar, in der Häuser um Fragen zum Malen herum sind.\"\n}"
+}

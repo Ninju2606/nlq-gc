@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      9,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5555555555555556,
+  "description": "1. Der Nutzer wurde als \u0027Maria\u0027 identifiziert und das Wort \u0027maria\u0027 wurde in das Vokabular aufgenommen. Das Wort \u0027ich\u0027 in der Anfrage wird durch die Identifikation des Nutzers ersetzt. Die Wörter \u0027play\u0027 und \u0027basketball\u0027 wurden aus der Anfrage übernommen. 2. \u0027maria\u0027 ist ein Charakter (Type: object), \u0027play\u0027 ist eine Aktivität (Type: activity), und \u0027basketball\u0027 ist ein Objekt (Type: object). 3. \u0027maria\u0027 steht in einer Beziehung zu \u0027play\u0027, da sie die Aktivität ausführt (maria perform play). \u0027play\u0027 steht in einer Beziehung zu \u0027basketball\u0027, da \u0027maria\u0027 \u0027basketball\u0027 spielt (play target basketball). 4. Es gibt passende Typkodierungen für alle Relationen: maria (1), play (4), basketball (1), maria perform play (8), play target basketball (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 4, 0],\n    [9, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer wurde als \u0027Maria\u0027 identifiziert und das Wort \u0027maria\u0027 wurde in das Vokabular aufgenommen. Das Wort \u0027ich\u0027 in der Anfrage wird durch die Identifikation des Nutzers ersetzt. Die Wörter \u0027play\u0027 und \u0027basketball\u0027 wurden aus der Anfrage übernommen. 2. \u0027maria\u0027 ist ein Charakter (Type: object), \u0027play\u0027 ist eine Aktivität (Type: activity), und \u0027basketball\u0027 ist ein Objekt (Type: object). 3. \u0027maria\u0027 steht in einer Beziehung zu \u0027play\u0027, da sie die Aktivität ausführt (maria perform play). \u0027play\u0027 steht in einer Beziehung zu \u0027basketball\u0027, da \u0027maria\u0027 \u0027basketball\u0027 spielt (play target basketball). 4. Es gibt passende Typkodierungen für alle Relationen: maria (1), play (4), basketball (1), maria perform play (8), play target basketball (9).\"\n}"
+}

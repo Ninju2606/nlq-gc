@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, schwimme, Pool, gehört, mir. 2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wird zu \u0027Maria\u0027, \u0027mir\u0027 wird zu \u0027Maria\u0027. 3. Die Stichwörter im Englischen lauten: Maria, swim, pool. 4. Die Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 und \u0027mir\u0027 werden zu \u0027Maria\u0027. 5. \u0027Maria\u0027 ist eine Person (ID 2), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027pool\u0027 ist ein Objekt (ID 1). 6. Die Relationsbegriffe sind: \u0027swim\u0027 (Tätigkeit) steht in einer Beziehung zur \u0027Maria\u0027 (Anfragensteller), \u0027pool\u0027 gehört zu \u0027Maria\u0027. 7. Alle Relationen haben passende Typkodierungen in den vorgegebenen Möglichkeiten: \u0027swim\u0027 -\u003e \u0027Maria\u0027 hat die ID 8 (perform), \u0027pool\u0027 -\u003e \u0027Maria\u0027 hat die ID 9 (target). 8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, schwimme, Pool, gehört, mir. 2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wird zu \u0027Maria\u0027, \u0027mir\u0027 wird zu \u0027Maria\u0027. 3. Die Stichwörter im Englischen lauten: Maria, swim, pool. 4. Die Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 und \u0027mir\u0027 werden zu \u0027Maria\u0027. 5. \u0027Maria\u0027 ist eine Person (ID 2), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027pool\u0027 ist ein Objekt (ID 1). 6. Die Relationsbegriffe sind: \u0027swim\u0027 (Tätigkeit) steht in einer Beziehung zur \u0027Maria\u0027 (Anfragensteller), \u0027pool\u0027 gehört zu \u0027Maria\u0027. 7. Alle Relationen haben passende Typkodierungen in den vorgegebenen Möglichkeiten: \u0027swim\u0027 -\u003e \u0027Maria\u0027 hat die ID 8 (perform), \u0027pool\u0027 -\u003e \u0027Maria\u0027 hat die ID 9 (target). 8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

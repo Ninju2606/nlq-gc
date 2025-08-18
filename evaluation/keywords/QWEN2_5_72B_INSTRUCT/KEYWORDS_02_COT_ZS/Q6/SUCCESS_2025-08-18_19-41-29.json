@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzanfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die für den GraphCode relevant sind.",
+  "error": "Keine passenden Stichwörter gefunden",
+  "responsePlain": "{\n    \"error\": \"Keine passenden Stichwörter gefunden\",\n    \"description\": \"Die Nutzanfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die für den GraphCode relevant sind.\"\n}"
+}

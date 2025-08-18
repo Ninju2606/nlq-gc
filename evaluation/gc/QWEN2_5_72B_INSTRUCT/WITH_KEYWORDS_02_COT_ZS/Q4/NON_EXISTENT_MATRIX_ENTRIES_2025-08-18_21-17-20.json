@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      8,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: - \u0027Ich\u0027 wurde zu \u0027maria\u0027 aufgelöst. - \u0027mein\u0027 wurde zu einer Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 als Besitz aufgelöst.\n2. Erklärung der Attributigenschaften der vorliegenden Stichwörter: - \u0027maria\u0027: Objekt (Person) - \u0027swim\u0027: Aktivität - \u0027own\u0027: nicht direkt in den Typkodierungen enthalten, aber impliziert durch die Beziehung \u0027target\u0027. - \u0027pool\u0027: Objekt\n3. Erklärung, wie die jeweiligen Stichwörter in Relation zueinander stehen: - \u0027maria\u0027 hat eine Beziehung \u0027target\u0027 zu \u0027pool\u0027: Maria besitzt den Pool. - \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus: Maria schwimmt. - \u0027swim\u0027 bezieht sich auf das \u0027pool\u0027: Maria schwimmt im Pool.\n4. Überprüfung, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: - \u0027maria\u0027 als Person: ID 1 (object) - \u0027swim\u0027 als Aktivität: ID 4 (activity) - \u0027own\u0027 als Besitz: ID 9 (target) - \u0027pool\u0027 als Objekt: ID 1 (object)",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 9],\n    [0, 4, 0, 8],\n    [0, 0, 0, 0],\n    [9, 8, 0, 1]\n  ],\n  \"description\": \"1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: - \u0027Ich\u0027 wurde zu \u0027maria\u0027 aufgelöst. - \u0027mein\u0027 wurde zu einer Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 als Besitz aufgelöst.\\n2. Erklärung der Attributigenschaften der vorliegenden Stichwörter: - \u0027maria\u0027: Objekt (Person) - \u0027swim\u0027: Aktivität - \u0027own\u0027: nicht direkt in den Typkodierungen enthalten, aber impliziert durch die Beziehung \u0027target\u0027. - \u0027pool\u0027: Objekt\\n3. Erklärung, wie die jeweiligen Stichwörter in Relation zueinander stehen: - \u0027maria\u0027 hat eine Beziehung \u0027target\u0027 zu \u0027pool\u0027: Maria besitzt den Pool. - \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus: Maria schwimmt. - \u0027swim\u0027 bezieht sich auf das \u0027pool\u0027: Maria schwimmt im Pool.\\n4. Überprüfung, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: - \u0027maria\u0027 als Person: ID 1 (object) - \u0027swim\u0027 als Aktivität: ID 4 (activity) - \u0027own\u0027 als Besitz: ID 9 (target) - \u0027pool\u0027 als Objekt: ID 1 (object)\"\n}"
+}

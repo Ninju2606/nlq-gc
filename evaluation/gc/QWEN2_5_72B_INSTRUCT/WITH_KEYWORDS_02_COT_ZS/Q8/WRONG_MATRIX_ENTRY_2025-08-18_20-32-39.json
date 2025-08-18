@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      10,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Maria wurde als Nutzer identifiziert. \u0027Ich\u0027 wurde ebenfalls auf Maria zugeordnet. Tochter wurde als Maria\u0027s Tochter erkannt.\n2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte (object, ID: 1).\n\u0027drive\u0027 ist eine Aktivität (activity, ID: 4).\n\u0027boat\u0027 ist ein Objekt (object, ID: 1).\n\u0027lake\u0027 ist ein Objekt (object, ID: 1).\n3. \u0027Maria\u0027 und \u0027Tochter\u0027 (\u0027maria\u0027 und \u0027person\u0027) führen die Aktivität \u0027fahren\u0027 (\u0027drive\u0027) aus.\n\u0027Maria\u0027 und \u0027Tochter\u0027 (\u0027maria\u0027 und \u0027person\u0027) sind im Boot (\u0027boat\u0027), was als \u0027attached\u0027 (ID: 5) kodiert werden kann.\n\u0027See\u0027 (\u0027lake\u0027) ist das Ziel der Aktivität \u0027fahren\u0027 (\u0027drive\u0027), was als \u0027target\u0027 (ID: 9) kodiert werden kann.\n4. Alle erforderlichen Relationsattribute für die Relationen existieren in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 0, 8, 10, 0], \n        [0, 1, 8, 0, 0], \n        [0, 0, 4, 0, 9], \n        [0, 0, 0, 1, 0], \n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"1. Maria wurde als Nutzer identifiziert. \u0027Ich\u0027 wurde ebenfalls auf Maria zugeordnet. Tochter wurde als Maria\u0027s Tochter erkannt.\\n2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte (object, ID: 1).\\n\u0027drive\u0027 ist eine Aktivität (activity, ID: 4).\\n\u0027boat\u0027 ist ein Objekt (object, ID: 1).\\n\u0027lake\u0027 ist ein Objekt (object, ID: 1).\\n3. \u0027Maria\u0027 und \u0027Tochter\u0027 (\u0027maria\u0027 und \u0027person\u0027) führen die Aktivität \u0027fahren\u0027 (\u0027drive\u0027) aus.\\n\u0027Maria\u0027 und \u0027Tochter\u0027 (\u0027maria\u0027 und \u0027person\u0027) sind im Boot (\u0027boat\u0027), was als \u0027attached\u0027 (ID: 5) kodiert werden kann.\\n\u0027See\u0027 (\u0027lake\u0027) ist das Ziel der Aktivität \u0027fahren\u0027 (\u0027drive\u0027), was als \u0027target\u0027 (ID: 9) kodiert werden kann.\\n4. Alle erforderlichen Relationsattribute für die Relationen existieren in den bereitgestellten Typkodierungen.\"\n}"
+}

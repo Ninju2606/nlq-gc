@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      9,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.64,
+  "description": "1. Maria wird als Nutzer identifiziert und mit \u0027person\u0027 in Beziehung gesetzt.\n2. \u0027maria\u0027: Objekt (object), \u0027person\u0027: Objekt (object), \u0027drive\u0027: Aktivität (activity), \u0027boat\u0027: Objekt (object), \u0027lake\u0027: Kontext (context).\n3. Maria und person stehen in einer Tochter-Beziehung (\u0027maria\u0027 -\u003e \u0027person\u0027: 10), Maria und boat in einer target-Beziehung (\u0027maria\u0027 -\u003e \u0027boat\u0027: 9), drive und boat in einer perform-Beziehung (\u0027drive\u0027 -\u003e \u0027boat\u0027: 8), boat und lake in einer auf-einem-Verhältnis (\u0027boat\u0027 -\u003e \u0027lake\u0027: 9), person und lake in keiner direkten Beziehung.\n4. Alle benötigten Typkodierungen sind vorhanden: \u0027object\u0027 (1), \u0027context\u0027 (2), \u0027activity\u0027 (4), \u0027target\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 5, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [5, 0, 0, 1, 9],\n    [0, 0, 0, 9, 2]\n  ],\n  \"description\": \"1. Maria wird als Nutzer identifiziert und mit \u0027person\u0027 in Beziehung gesetzt.\\n2. \u0027maria\u0027: Objekt (object), \u0027person\u0027: Objekt (object), \u0027drive\u0027: Aktivität (activity), \u0027boat\u0027: Objekt (object), \u0027lake\u0027: Kontext (context).\\n3. Maria und person stehen in einer Tochter-Beziehung (\u0027maria\u0027 -\u003e \u0027person\u0027: 10), Maria und boat in einer target-Beziehung (\u0027maria\u0027 -\u003e \u0027boat\u0027: 9), drive und boat in einer perform-Beziehung (\u0027drive\u0027 -\u003e \u0027boat\u0027: 8), boat und lake in einer auf-einem-Verhältnis (\u0027boat\u0027 -\u003e \u0027lake\u0027: 9), person und lake in keiner direkten Beziehung.\\n4. Alle benötigten Typkodierungen sind vorhanden: \u0027object\u0027 (1), \u0027context\u0027 (2), \u0027activity\u0027 (4), \u0027target\u0027 (9).\"\n}"
+}

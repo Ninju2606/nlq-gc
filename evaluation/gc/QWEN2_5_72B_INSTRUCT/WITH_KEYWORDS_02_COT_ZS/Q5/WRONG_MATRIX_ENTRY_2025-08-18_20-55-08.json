@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      14
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der Nutzer Maria wird als Identifikation verwendet, da die Anfrage \u0027ich\u0027 beinhaltet. 2. Die Attributigenschaften: \u0027maria\u0027 ist ein Object (Typ 1), \u0027wear\u0027 ist eine Activity (Typ 4), \u0027hat\u0027 ist ein Object (Typ 1), \u0027yellow\u0027 ist ein Characteristic (Typ 2). 3. Die Relationen: Maria (maria) führt die Activity \u0027wear\u0027 aus (Typ 8 - perform), \u0027wear\u0027 bezieht sich auf \u0027hat\u0027 (Typ 9 - target), \u0027hat\u0027 hat die Characteristic \u0027yellow\u0027 (Typ 14 - characteristic). 4. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 14],\n    [0, 4, 9, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria wird als Identifikation verwendet, da die Anfrage \u0027ich\u0027 beinhaltet. 2. Die Attributigenschaften: \u0027maria\u0027 ist ein Object (Typ 1), \u0027wear\u0027 ist eine Activity (Typ 4), \u0027hat\u0027 ist ein Object (Typ 1), \u0027yellow\u0027 ist ein Characteristic (Typ 2). 3. Die Relationen: Maria (maria) führt die Activity \u0027wear\u0027 aus (Typ 8 - perform), \u0027wear\u0027 bezieht sich auf \u0027hat\u0027 (Typ 9 - target), \u0027hat\u0027 hat die Characteristic \u0027yellow\u0027 (Typ 14 - characteristic). 4. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.\"\n}"
+}

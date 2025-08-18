@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      14
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      5,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer hat die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 gestellt. Die Identifikation des Nutzers ist \u0027Maria\u0027. \u0027Ich\u0027 wurde im Vokabular durch \u0027maria\u0027 ersetzt.\n2. \u0027maria\u0027 (Objekt), \u0027wear\u0027 (Aktivität), \u0027hat\u0027 (Objekt), \u0027yellow\u0027 (Attribut).\n3. \u0027maria\u0027 führt \u0027wear\u0027 aus, \u0027wear\u0027 hat \u0027hat\u0027 als Ziel, \u0027hat\u0027 hat \u0027yellow\u0027 als Attribut.\n4. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen: \u0027maria\u0027 hat den Typ 1 (Objekt), \u0027wear\u0027 hat den Typ 4 (Aktivität), \u0027hat\u0027 hat den Typ 1 (Objekt), \u0027yellow\u0027 hat den Typ 2 (Attribut). Die Relationen sind: \u0027maria\u0027 führt \u0027wear\u0027 aus (perform, ID 8), \u0027wear\u0027 hat \u0027hat\u0027 als Ziel (target, ID 9), \u0027hat\u0027 hat \u0027yellow\u0027 als Attribut (characteristic, ID 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 14],\n    [0, 4, 9, 0],\n    [5, 0, 1, 0],\n    [0, 0, 5, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 gestellt. Die Identifikation des Nutzers ist \u0027Maria\u0027. \u0027Ich\u0027 wurde im Vokabular durch \u0027maria\u0027 ersetzt.\\n2. \u0027maria\u0027 (Objekt), \u0027wear\u0027 (Aktivität), \u0027hat\u0027 (Objekt), \u0027yellow\u0027 (Attribut).\\n3. \u0027maria\u0027 führt \u0027wear\u0027 aus, \u0027wear\u0027 hat \u0027hat\u0027 als Ziel, \u0027hat\u0027 hat \u0027yellow\u0027 als Attribut.\\n4. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen: \u0027maria\u0027 hat den Typ 1 (Objekt), \u0027wear\u0027 hat den Typ 4 (Aktivität), \u0027hat\u0027 hat den Typ 1 (Objekt), \u0027yellow\u0027 hat den Typ 2 (Attribut). Die Relationen sind: \u0027maria\u0027 führt \u0027wear\u0027 aus (perform, ID 8), \u0027wear\u0027 hat \u0027hat\u0027 als Ziel (target, ID 9), \u0027hat\u0027 hat \u0027yellow\u0027 als Attribut (characteristic, ID 14).\"\n}"
+}

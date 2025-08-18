@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 7, 0, 8],\n    [0, 4, 0, 6],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt.\"\n}\n\n\n**Erklärung:**\n- **Dictionary**: Das Vokabular enthält die Begriffe \"maria\", \"swim\", \"own\" und \"pool\".\n- **Matrix**:\n  - `maria` (1) ist ein Objekt.\n  - `swim` (4) ist eine Aktivität.\n  - `own` (1) ist ein Objekt, aber da es keine spezifische Beziehung zu anderen Begriffen gibt, bleibt der Eintrag 0.\n  - `pool` (1) ist ein Objekt.\n  - Die Beziehung zwischen `maria` und `swim` wird durch `7` (perform) dargestellt.\n  - Die Beziehung zwischen `swim` und `pool` wird durch `6` (in) dargestellt.\n  - Die Beziehung zwischen `maria` und `pool` wird durch `8` (target) dargestellt, da Maria den Pool als Ziel haben kann."
+}

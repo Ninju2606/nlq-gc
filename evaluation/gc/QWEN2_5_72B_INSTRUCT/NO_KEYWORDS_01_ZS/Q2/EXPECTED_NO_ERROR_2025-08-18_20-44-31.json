@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält nur ein Subjekt und eine Aktivität, aber keine Relationen oder zusätzliche Objekte oder Attribute, die erforderlich wären, um eine quadratische Bewertungsmatrix zu erzeugen.",
+  "error": "Die Anfrage enthält nicht genügend Informationen für einen sinnvollen GraphCode.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält nicht genügend Informationen für einen sinnvollen GraphCode.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält nur ein Subjekt und eine Aktivität, aber keine Relationen oder zusätzliche Objekte oder Attribute, die erforderlich wären, um eine quadratische Bewertungsmatrix zu erzeugen.\"\n}"
+}

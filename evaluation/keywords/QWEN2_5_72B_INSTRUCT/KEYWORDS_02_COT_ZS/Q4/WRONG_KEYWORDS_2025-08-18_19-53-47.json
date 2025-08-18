@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter wurden erfolgreich ermittelt. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. Die Wörter wurden verallgemeinert und ins Englische übersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Die Stichwörter wurden erfolgreich ermittelt. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. Die Wörter wurden verallgemeinert und ins Englische übersetzt.\"\n}"
+}

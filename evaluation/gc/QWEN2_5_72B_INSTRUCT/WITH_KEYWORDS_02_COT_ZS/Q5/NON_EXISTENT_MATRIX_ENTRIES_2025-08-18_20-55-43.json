@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      2,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria stellt eine Anfrage, in der sie sich selbst als \u0027ich\u0027 identifiziert und einen gelben Hut tragen möchte. Die Stichworte \u0027ich\u0027, \u0027tragen\u0027, \u0027Hut\u0027 und \u0027gelb\u0027 werden zugeordnet.\n2. \u0027maria\u0027 ist der Kontext (Typ 2), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027hat\u0027 ist ein Objekt (Typ 1) und \u0027yellow\u0027 ist ein Attribut (Typ 14).\n3. Maria führt die Aktivität \u0027wear\u0027 aus, die auf das Objekt \u0027hat\u0027 bezogen ist, und der Hut hat das Attribut \u0027yellow\u0027.\n4. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen: Maria (2), wear (8), hat (1), yellow (14).",
+  "responsePlain": "{\n  \"error\": null,\n  \"description\": \"1. Der Nutzer Maria stellt eine Anfrage, in der sie sich selbst als \u0027ich\u0027 identifiziert und einen gelben Hut tragen möchte. Die Stichworte \u0027ich\u0027, \u0027tragen\u0027, \u0027Hut\u0027 und \u0027gelb\u0027 werden zugeordnet.\\n2. \u0027maria\u0027 ist der Kontext (Typ 2), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027hat\u0027 ist ein Objekt (Typ 1) und \u0027yellow\u0027 ist ein Attribut (Typ 14).\\n3. Maria führt die Aktivität \u0027wear\u0027 aus, die auf das Objekt \u0027hat\u0027 bezogen ist, und der Hut hat das Attribut \u0027yellow\u0027.\\n4. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen: Maria (2), wear (8), hat (1), yellow (14).\",\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [2, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 14]\n  ]\n}"
+}

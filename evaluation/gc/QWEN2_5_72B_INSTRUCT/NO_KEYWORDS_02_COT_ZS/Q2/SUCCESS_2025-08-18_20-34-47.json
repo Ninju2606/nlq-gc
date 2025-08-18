@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027. 2. Es gibt keine relativen Verweise, die aufgelöst werden müssen. 3. Die Stichwörter sind bereits in englischer Sprache: \u0027Tim\u0027 und \u0027run\u0027. 4. Keine Identifikation des Nutzers (Maria) in der Anfrage, daher keine Ersetzung notwendig. 5. \u0027Tim\u0027 ist ein Objekt (Typ 1) und \u0027run\u0027 ist eine Aktivität (Typ 4). 6. \u0027Tim\u0027 und \u0027run\u0027 stehen in der Relation \u0027perform\u0027, da Tim die Aktivität \u0027run\u0027 ausführt. 7. Es gibt passende Typkodierungen für alle Relationen: \u0027Tim\u0027 (Typ 1) und \u0027run\u0027 (Typ 4). Die Relation \u0027perform\u0027 hat die ID 8. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027. 2. Es gibt keine relativen Verweise, die aufgelöst werden müssen. 3. Die Stichwörter sind bereits in englischer Sprache: \u0027Tim\u0027 und \u0027run\u0027. 4. Keine Identifikation des Nutzers (Maria) in der Anfrage, daher keine Ersetzung notwendig. 5. \u0027Tim\u0027 ist ein Objekt (Typ 1) und \u0027run\u0027 ist eine Aktivität (Typ 4). 6. \u0027Tim\u0027 und \u0027run\u0027 stehen in der Relation \u0027perform\u0027, da Tim die Aktivität \u0027run\u0027 ausführt. 7. Es gibt passende Typkodierungen für alle Relationen: \u0027Tim\u0027 (Typ 1) und \u0027run\u0027 (Typ 4). Die Relation \u0027perform\u0027 hat die ID 8. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

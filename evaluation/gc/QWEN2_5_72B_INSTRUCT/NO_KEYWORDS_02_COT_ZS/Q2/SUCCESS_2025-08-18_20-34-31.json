@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Stichwörter: Tim, rennt. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Keine Ersatzwörter für die Identifikation des Nutzers erforderlich. 5. Tim ist ein Objekt, run ist eine Aktivität. 6. Tim (Objekt) performt die Aktivität run. 7. Es gibt die entsprechenden Typkodierungen: 1 für Objekt, 4 für Aktivität, 8 für perform. 8. GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Stichwörter: Tim, rennt. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Keine Ersatzwörter für die Identifikation des Nutzers erforderlich. 5. Tim ist ein Objekt, run ist eine Aktivität. 6. Tim (Objekt) performt die Aktivität run. 7. Es gibt die entsprechenden Typkodierungen: 1 für Objekt, 4 für Aktivität, 8 für perform. 8. GraphCode wurde erfolgreich generiert.\"\n}"
+}

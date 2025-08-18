@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer hat sich als Maria identifiziert und gibt an, dass er (sie) schwimmt und den Pool besitzt.\n2. \u0027maria\u0027 ist ein Objekt (person), \u0027swim\u0027 ist eine Aktivität, \u0027own\u0027 ist ein Attribut (Besitz), \u0027pool\u0027 ist ein Objekt.\n3. Maria schwimmt im Pool und besitzt den Pool. \u0027Swim\u0027 und \u0027own\u0027 haben keine direkte Beziehung zu einander im Kontext der Anfrage.\n4. Alle Relationen haben eine passende Typkodierung: Maria (1) schwimmt (8) im Pool (1), Maria (9) besitzt (14) den Pool (1).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 0, 0, 8],\n        [0, 4, 0, 0],\n        [0, 0, 14, 0],\n        [9, 0, 0, 1]\n    ],\n    \"description\": \"1. Der Nutzer hat sich als Maria identifiziert und gibt an, dass er (sie) schwimmt und den Pool besitzt.\\n2. \u0027maria\u0027 ist ein Objekt (person), \u0027swim\u0027 ist eine Aktivität, \u0027own\u0027 ist ein Attribut (Besitz), \u0027pool\u0027 ist ein Objekt.\\n3. Maria schwimmt im Pool und besitzt den Pool. \u0027Swim\u0027 und \u0027own\u0027 haben keine direkte Beziehung zu einander im Kontext der Anfrage.\\n4. Alle Relationen haben eine passende Typkodierung: Maria (1) schwimmt (8) im Pool (1), Maria (9) besitzt (14) den Pool (1).\"\n}"
+}

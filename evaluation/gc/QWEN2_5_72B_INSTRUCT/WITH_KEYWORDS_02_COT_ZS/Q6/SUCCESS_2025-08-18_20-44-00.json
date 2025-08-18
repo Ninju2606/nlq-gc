@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es ist keine klare oder grammatikalisch korrekte Szenenbeschreibung in der Anfrage vorhanden, die für die Generierung eines GraphCodes verwendet werden kann. Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine Handlung und kein spezifisches Medienobjekt oder eine Szene im Metaverse.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Es ist keine klare oder grammatikalisch korrekte Szenenbeschreibung in der Anfrage vorhanden, die für die Generierung eines GraphCodes verwendet werden kann. Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine Handlung und kein spezifisches Medienobjekt oder eine Szene im Metaverse.\"\n}"
+}

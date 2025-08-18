@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und fehlt an klaren Informationen, um einen sinnvollen GraphCode zu generieren. Es ist nicht klar, welche Objekte, Attribute oder Aktivitäten genau gemeint sind.",
+  "error": "Fehler bei der Generierung des GraphCodes",
+  "responsePlain": "{\n    \"error\": \"Fehler bei der Generierung des GraphCodes\",\n    \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und fehlt an klaren Informationen, um einen sinnvollen GraphCode zu generieren. Es ist nicht klar, welche Objekte, Attribute oder Aktivitäten genau gemeint sind.\"\n}"
+}

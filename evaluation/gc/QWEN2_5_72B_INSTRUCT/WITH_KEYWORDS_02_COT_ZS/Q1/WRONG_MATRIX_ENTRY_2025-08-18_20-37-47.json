@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer \u0027Maria\u0027 wurde der Anfrage \u0027Ich spiele Basketball\u0027 zugeordnet. 2. \u0027Maria\u0027 ist als Objekt (id: 1) deklariert, \u0027play\u0027 als Aktivität (id: 4) und \u0027basketball\u0027 als Objekt (id: 1). 3. \u0027Maria\u0027 ist der Akteur, der die Aktivität \u0027play\u0027 ausführt, und \u0027basketball\u0027 ist das Ziel der Aktivität \u0027play\u0027. 4. Für alle Relationen gibt es passende Einträge in den Typkodierungen: \u0027Maria\u0027 (id: 1), \u0027play\u0027 (id: 4), \u0027basketball\u0027 (id: 1), \u0027perform\u0027 (id: 8) und \u0027target\u0027 (id: 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 wurde der Anfrage \u0027Ich spiele Basketball\u0027 zugeordnet. 2. \u0027Maria\u0027 ist als Objekt (id: 1) deklariert, \u0027play\u0027 als Aktivität (id: 4) und \u0027basketball\u0027 als Objekt (id: 1). 3. \u0027Maria\u0027 ist der Akteur, der die Aktivität \u0027play\u0027 ausführt, und \u0027basketball\u0027 ist das Ziel der Aktivität \u0027play\u0027. 4. Für alle Relationen gibt es passende Einträge in den Typkodierungen: \u0027Maria\u0027 (id: 1), \u0027play\u0027 (id: 4), \u0027basketball\u0027 (id: 1), \u0027perform\u0027 (id: 8) und \u0027target\u0027 (id: 9).\"\n}"
+}

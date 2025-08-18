@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse relevant sind. Die Anfrage beschreibt eher eine abstrakte Handlung oder ein Ziel, aber nicht konkrete Elemente, die visualisiert werden können.",
+  "error": "Unzulängliche Informationen für eine Situationsbeschreibung im Metaverse.",
+  "responsePlain": "{\n  \"error\": \"Unzulängliche Informationen für eine Situationsbeschreibung im Metaverse.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse relevant sind. Die Anfrage beschreibt eher eine abstrakte Handlung oder ein Ziel, aber nicht konkrete Elemente, die visualisiert werden können.\"\n}"
+}

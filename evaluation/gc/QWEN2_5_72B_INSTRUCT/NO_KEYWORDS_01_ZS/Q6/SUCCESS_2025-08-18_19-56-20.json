@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist eher eine Aktion oder ein umgangssprachlicher Satz und enthält keine spezifischen Elemente, die für die Erstellung eines GraphCodes verwendet werden können.",
+  "error": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einem Metaverse-Szenario dargestellt werden können.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einem Metaverse-Szenario dargestellt werden können.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist eher eine Aktion oder ein umgangssprachlicher Satz und enthält keine spezifischen Elemente, die für die Erstellung eines GraphCodes verwendet werden können.\"\n}"
+}

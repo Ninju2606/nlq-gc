@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine klar definierten Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse dargestellt werden können. Es fehlen relevante Informationen, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Fehler beim Generieren des GraphCodes",
+  "responsePlain": "{\n  \"error\": \"Fehler beim Generieren des GraphCodes\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine klar definierten Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse dargestellt werden können. Es fehlen relevante Informationen, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

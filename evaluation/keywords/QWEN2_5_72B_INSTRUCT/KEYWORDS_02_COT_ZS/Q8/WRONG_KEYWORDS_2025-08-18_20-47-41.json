@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "maria",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittelt die potenziellen Stichwörter \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027 und \u0027See\u0027. Entfernt die Wörter, die die Anfragedescription beschreiben. Löst den relativen Verweis \u0027ich\u0027 auf und ersetzt ihn mit der Identifikation des Nutzers \u0027Maria\u0027. Übersetzt die Stichwörter ins Englische: \u0027daughter\u0027, \u0027maria\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"maria\", \"drive\", \"boat\", \"lake\"],\n  \"description\": \"Ermittelt die potenziellen Stichwörter \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027 und \u0027See\u0027. Entfernt die Wörter, die die Anfragedescription beschreiben. Löst den relativen Verweis \u0027ich\u0027 auf und ersetzt ihn mit der Identifikation des Nutzers \u0027Maria\u0027. Übersetzt die Stichwörter ins Englische: \u0027daughter\u0027, \u0027maria\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Stichwörter oder Relationen, die in den bereitgestellten Typkodierungen abgebildet werden können. Ein GraphCode kann daher nicht erstellt werden.",
+  "error": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und es sind nicht genug Informationen vorhanden, um einen sinnvollen GraphCode zu generieren.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und es sind nicht genug Informationen vorhanden, um einen sinnvollen GraphCode zu generieren.\",\n    \"description\": \"Die Anfrage enthält keine klaren Stichwörter oder Relationen, die in den bereitgestellten Typkodierungen abgebildet werden können. Ein GraphCode kann daher nicht erstellt werden.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine potenziellen Stichwörter, die Objekte, Attribute oder Aktivitäten in einer Metaverse-Szene beschreiben. Die Anfrage scheint eher eine allgemeine Kommunikation zu sein und kann daher keinen sinnvollen GraphCode erzeugen.",
+  "error": "Die Anfrage enthält keine potenziellen Stichwörter, die eine Szene im Metaverse beschreiben.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine potenziellen Stichwörter, die eine Szene im Metaverse beschreiben.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine potenziellen Stichwörter, die Objekte, Attribute oder Aktivitäten in einer Metaverse-Szene beschreiben. Die Anfrage scheint eher eine allgemeine Kommunikation zu sein und kann daher keinen sinnvollen GraphCode erzeugen.\"\n}"
+}

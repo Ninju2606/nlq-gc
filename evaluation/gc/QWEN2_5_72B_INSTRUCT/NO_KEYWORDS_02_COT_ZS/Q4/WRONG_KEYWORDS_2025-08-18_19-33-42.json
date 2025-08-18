@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, schwimmen, mein, Pool.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027mein\u0027 referenzieren auf Maria.\n3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027swim\u0027, \u0027schwimmen\u0027 -\u003e \u0027swim\u0027, \u0027mein\u0027 -\u003e \u0027pool\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027.\n4. Ersetzen der selbstidentifizierenden Wörter: \u0027ich\u0027 wird zu \u0027Maria\u0027.\n5. Attributigkeitseigenschaften: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist ein Kontext (context).\n6. Relationen: \u0027swim\u0027 wird ausgeführt (\u0027perform\u0027) von \u0027Maria\u0027, \u0027swim\u0027 hat das Ziel (\u0027target\u0027) \u0027pool\u0027.\n7. Überprüfung der Typkodierungen: Alle Relationship-Typen sind in den bereitgestellten Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [4, 9, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, schwimmen, mein, Pool.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027mein\u0027 referenzieren auf Maria.\\n3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027swim\u0027, \u0027schwimmen\u0027 -\u003e \u0027swim\u0027, \u0027mein\u0027 -\u003e \u0027pool\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027.\\n4. Ersetzen der selbstidentifizierenden Wörter: \u0027ich\u0027 wird zu \u0027Maria\u0027.\\n5. Attributigkeitseigenschaften: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist ein Kontext (context).\\n6. Relationen: \u0027swim\u0027 wird ausgeführt (\u0027perform\u0027) von \u0027Maria\u0027, \u0027swim\u0027 hat das Ziel (\u0027target\u0027) \u0027pool\u0027.\\n7. Überprüfung der Typkodierungen: Alle Relationship-Typen sind in den bereitgestellten Typkodierungen enthalten.\"\n}"
+}

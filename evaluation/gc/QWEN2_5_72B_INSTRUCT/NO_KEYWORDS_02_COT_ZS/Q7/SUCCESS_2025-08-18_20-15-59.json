@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält Stichwörter, aber die Relationen zwischen diesen sind unklar. Es ist nicht deutlich, wie \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 miteinander in Beziehung stehen. Für die Generierung eines sinnvollen GraphCodes sind klare Relationen zwischen den Stichwörtern erforderlich.",
+  "error": "Fehlende oder unklare Relationen in der Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Fehlende oder unklare Relationen in der Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält Stichwörter, aber die Relationen zwischen diesen sind unklar. Es ist nicht deutlich, wie \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 miteinander in Beziehung stehen. Für die Generierung eines sinnvollen GraphCodes sind klare Relationen zwischen den Stichwörtern erforderlich.\"\n}"
+}

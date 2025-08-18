@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. 2. \u0027ich\u0027 wird auf Maria gemappt. 3. Die übersetzten Stichwörter sind: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. 4. \u0027ich\u0027 wird ersetzt durch \u0027Maria\u0027. 5. \u0027Maria\u0027 ist ein Objekt (1), \u0027play\u0027 ist eine Aktivität (4), \u0027basketball\u0027 ist ein Objekt (1). 6. Maria spielt Basketball, also steht \u0027Maria\u0027 in einer perform-Beziehung zu \u0027basketball\u0027. 7. Es gibt Einträge für alle Relationen in den bereitgestellten Typkodierungen. 8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. 2. \u0027ich\u0027 wird auf Maria gemappt. 3. Die übersetzten Stichwörter sind: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. 4. \u0027ich\u0027 wird ersetzt durch \u0027Maria\u0027. 5. \u0027Maria\u0027 ist ein Objekt (1), \u0027play\u0027 ist eine Aktivität (4), \u0027basketball\u0027 ist ein Objekt (1). 6. Maria spielt Basketball, also steht \u0027Maria\u0027 in einer perform-Beziehung zu \u0027basketball\u0027. 7. Es gibt Einträge für alle Relationen in den bereitgestellten Typkodierungen. 8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

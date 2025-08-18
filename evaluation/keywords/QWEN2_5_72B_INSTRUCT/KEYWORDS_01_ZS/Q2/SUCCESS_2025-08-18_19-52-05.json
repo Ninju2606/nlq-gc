@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": " successful generation of the GraphCode vocabulary from the user\u0027s request: \u0027Tim rennt\u0027. The vocabulary contains the subject \u0027Tim\u0027 and the action \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \" successful generation of the GraphCode vocabulary from the user\u0027s request: \u0027Tim rennt\u0027. The vocabulary contains the subject \u0027Tim\u0027 and the action \u0027run\u0027.\"\n}"
+}

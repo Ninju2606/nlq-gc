@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": \"Es konnte kein passender GraphCode generiert werden, da die Anfrage keine klare Szene im Metaverse beschreibt und auch die Relation zwischen den Begriffen nicht direkt erkennbar ist.\",\n  \"description\": \"\"\n}\n\n\n**Erklärung:**\n- Die Nutzeranfrage \"Wir müssen bald einen Termin ausmachen\" ist eher eine Aussage oder Bitte und beschreibt keine spezifische Szene im Metaverse.\n- Die Begriffe \"maria\", \"make\", und \"appointment\" sind zwar identifiziert, aber es gibt keine klare Beziehung zwischen ihnen in der Form einer Szene, wie sie im Metaverse dargestellt werden könnte.\n- Es gibt keine unmissverständliche Aktivität oder Positionierung der Objekte, die mit den vorgegebenen Typkodierungen abgebildet werden könnten.\n\nDa die Anfrage keine sinnvolle Szene für den Metaverse beschreibt und keine klaren Relationen zwischen den Begriffen auftreten, wird ein Fehler ausgegeben."
+}

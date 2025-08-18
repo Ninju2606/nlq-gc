@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Anfrage: Häuser um Fragen zu malen. Das Vokabular enthält \u0027house\u0027, \u0027ask\u0027, und \u0027paint\u0027. Die Bewertungsmatrix definiert \u0027house\u0027 als Objekt (object) und \u0027ask\u0027 und \u0027paint\u0027 als Aktivitäten (activity).",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"GraphCode für die Anfrage: Häuser um Fragen zu malen. Das Vokabular enthält \u0027house\u0027, \u0027ask\u0027, und \u0027paint\u0027. Die Bewertungsmatrix definiert \u0027house\u0027 als Objekt (object) und \u0027ask\u0027 und \u0027paint\u0027 als Aktivitäten (activity).\"\n}"
+}

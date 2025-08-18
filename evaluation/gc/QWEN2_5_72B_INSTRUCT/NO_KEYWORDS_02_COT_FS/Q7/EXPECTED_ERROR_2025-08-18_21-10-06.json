@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"fragen\\\", \\\"malen\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"house\\\", \\\"ask\\\", \\\"paint\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"house\\\", \\\"ask\\\", \\\"paint\\\". 5. \\\"Maria\\\" und \\\"house\\\" sind Objekte der Anfrage. \\\"ask\\\" ist eine Aktivität. \\\"paint\\\" ist ebenfalls eine Aktivität. 6. \\\"Maria\\\" führt die Aktivität \\\"ask\\\" aus. \\\"ask\\\" bezieht sich auf \\\"paint\\\". 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"house\", \"ask\", \"paint\"],\n    \"matrix\": [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 4, 8], [0, 0, 0, 1]],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\\\\\"Häuser\\\\\\\", \\\\\\\"fragen\\\\\\\", \\\\\\\"malen\\\\\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\\\\\"house\\\\\\\", \\\\\\\"ask\\\\\\\", \\\\\\\"paint\\\\\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\\\\\"Maria\\\\\\\", \\\\\\\"house\\\\\\\", \\\\\\\"ask\\\\\\\", \\\\\\\"paint\\\\\\\". 5. \\\\\\\"Maria\\\\\\\" und \\\\\\\"house\\\\\\\" sind Objekte der Anfrage. \\\\\\\"ask\\\\\\\" ist eine Aktivität. \\\\\\\"paint\\\\\\\" ist ebenfalls eine Aktivität. 6. \\\\\\\"Maria\\\\\\\" führt die Aktivität \\\\\\\"ask\\\\\\\" aus. \\\\\\\"ask\\\\\\\" bezieht sich auf \\\\\\\"paint\\\\\\\". 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.\"\n}"
+}

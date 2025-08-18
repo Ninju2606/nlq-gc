@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "maria"
+  ],
+  "matrix": [
+    [
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      9,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode represents the scene where Maria is swimming in her pool.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"maria\"],\n  \"matrix\": [\n    [4, 8, 0],\n    [0, 1, 0],\n    [9, 0, 2]\n  ],\n  \"description\": \"GraphCode represents the scene where Maria is swimming in her pool.\"\n}"
+}

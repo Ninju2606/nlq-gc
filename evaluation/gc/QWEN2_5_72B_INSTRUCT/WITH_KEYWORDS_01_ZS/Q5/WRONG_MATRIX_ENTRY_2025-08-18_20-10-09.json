@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      14,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "GraphCode for the query \u0027 Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 with the user identified as \u0027Maria\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 4, 0, 0],\n        [0, 9, 1, 0],\n        [0, 14, 0, 3]\n    ],\n    \"description\": \"GraphCode for the query \u0027 Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 with the user identified as \u0027Maria\u0027.\"\n}"
+}

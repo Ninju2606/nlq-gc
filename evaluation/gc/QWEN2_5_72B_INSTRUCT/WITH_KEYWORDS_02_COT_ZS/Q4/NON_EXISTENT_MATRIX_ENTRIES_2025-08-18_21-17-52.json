@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ],
+    [
+      7,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria wird als \u0027maria\u0027 im Vokabular dargestellt, da sie sich selbst identifiziert. \u0027swim\u0027 repräsentiert die Aktivität des Schwimmens, \u0027own\u0027 die Beziehung zum eigenen Pool und \u0027pool\u0027 das Objekt. 2. \u0027maria\u0027 ist eine Person (ID 1: object), \u0027swim\u0027 eine Aktivität (ID 4: activity), \u0027own\u0027 eine Beziehung (ID 9: target), \u0027pool\u0027 ein Objekt (ID 1: object). 3. Maria führt die Aktivität \u0027swim\u0027 aus (Relation durch ID 8: perform), Maria besitzt den Pool (Relation durch ID 9: target), der Pool befindet sich über Maria (Relation durch ID 7: above). 4. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 4, 0, 0],\n    [0, 0, 0, 9],\n    [7, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria wird als \u0027maria\u0027 im Vokabular dargestellt, da sie sich selbst identifiziert. \u0027swim\u0027 repräsentiert die Aktivität des Schwimmens, \u0027own\u0027 die Beziehung zum eigenen Pool und \u0027pool\u0027 das Objekt. 2. \u0027maria\u0027 ist eine Person (ID 1: object), \u0027swim\u0027 eine Aktivität (ID 4: activity), \u0027own\u0027 eine Beziehung (ID 9: target), \u0027pool\u0027 ein Objekt (ID 1: object). 3. Maria führt die Aktivität \u0027swim\u0027 aus (Relation durch ID 8: perform), Maria besitzt den Pool (Relation durch ID 9: target), der Pool befindet sich über Maria (Relation durch ID 7: above). 4. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\\\"ich\\\\\", \\\\\"trage\\\\\", \\\\\"Hut\\\\\", \\\\\"gelb\\\\\".\\r\\n            2. Es gibt keine relativen Verweise.\\r\\n            3. Die englischen Stichwörter sind \\\\\"I\\\\\", \\\\\"wear\\\\\", \\\\\"hat\\\\\", \\\\\"yellow\\\\\".\\r\\n            4. Die Stichwörter mit Nutzeridentifikation sind \\\\\"Maria\\\\\", \\\\\"wear\\\\\", \\\\\"hat\\\\\", \\\\\"yellow\\\".\"\n}"
+}

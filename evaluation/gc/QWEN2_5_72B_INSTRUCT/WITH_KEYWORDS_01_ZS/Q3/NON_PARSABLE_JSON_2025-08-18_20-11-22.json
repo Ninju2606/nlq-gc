@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 10, 0],\n    [9, 0, 0, 1]\n  ],\n  \"description\": \"Maria swims in a pool that she owns.\"\n}\n\n\n**Erklärung:**\n- **maria**: Objekt (ID 1) und Ziel der Besitzrelation (ID 9)\n- **swim**: Aktivität (ID 4)\n- **own**: Besitzrelation (ID 10)\n- **pool**: Objekt (ID 1)\n\nDie Matrix spiegelt die Beziehungen wider:\n- Maria (1) schwimmt in dem Pool (5), also wird an der Position (1, 4) ein `5` eingetragen.\n- Maria (1) ist das Ziel der Besitzrelation (10) des Pools (4), also wird an der Position (4, 1) ein `9` eingetragen."
+}

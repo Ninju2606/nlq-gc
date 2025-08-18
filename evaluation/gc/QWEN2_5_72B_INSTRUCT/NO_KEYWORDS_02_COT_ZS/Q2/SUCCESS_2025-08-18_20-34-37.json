@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers in der Anfrage. 5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). 6. Relationen: \u0027Tim\u0027 (Objekt) performt \u0027run\u0027 (Aktivität). 7. Es gibt passende Einträge in den Typkodierungen: Tim (1, object), run (4, activity), perform (8, perform). 8. GraphCode generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers in der Anfrage. 5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). 6. Relationen: \u0027Tim\u0027 (Objekt) performt \u0027run\u0027 (Aktivität). 7. Es gibt passende Einträge in den Typkodierungen: Tim (1, object), run (4, activity), perform (8, perform). 8. GraphCode generiert.\"\n}"
+}

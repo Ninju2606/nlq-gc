@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool, mein, gehört. 2. Relative Verweise wurden gelöst: \u0027mein\u0027 und \u0027gehört\u0027 beziehen sich auf \u0027Maria\u0027. 3. Übersetzung der Stichwörter ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027mein\u0027 -\u003e \u0027Maria\u0027, \u0027gehört\u0027 -\u003e \u0027own\u0027. 4. Ersetzt \u0027ich\u0027 und \u0027mein\u0027 durch \u0027Maria\u0027. 5. \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027own\u0027 ist ein Kontext (context), \u0027Maria\u0027 ist eine Person (context). 6. \u0027Maria\u0027 schwimmt (perform) im Pool, der Maria gehört (attached). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. 8. GraphCode wurde zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 5, 1, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool, mein, gehört. 2. Relative Verweise wurden gelöst: \u0027mein\u0027 und \u0027gehört\u0027 beziehen sich auf \u0027Maria\u0027. 3. Übersetzung der Stichwörter ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027mein\u0027 -\u003e \u0027Maria\u0027, \u0027gehört\u0027 -\u003e \u0027own\u0027. 4. Ersetzt \u0027ich\u0027 und \u0027mein\u0027 durch \u0027Maria\u0027. 5. \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027own\u0027 ist ein Kontext (context), \u0027Maria\u0027 ist eine Person (context). 6. \u0027Maria\u0027 schwimmt (perform) im Pool, der Maria gehört (attached). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. 8. GraphCode wurde zusammengesetzt.\"\n}"
+}

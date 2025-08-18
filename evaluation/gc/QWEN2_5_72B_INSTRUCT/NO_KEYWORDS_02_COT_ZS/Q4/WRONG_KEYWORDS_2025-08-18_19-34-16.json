@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027schwimme\u0027, \u0027Pool\u0027 und \u0027Maria\u0027. 2. Es gibt relative Verweise auf den Nutzer, die auf \u0027Maria\u0027 referenzieren (\u0027ich\u0027, \u0027mein\u0027). 3. Übersetzung ins Englische: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027Maria\u0027 bleibt unverändert. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 und \u0027mein\u0027 werden durch \u0027Maria\u0027 ersetzt. 5. \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist im Kontext (context) der Person. 6. Die Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 ist \u0027target\u0027 (Maria schwimmt im Pool). Die Relation zwischen \u0027Maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027 (Maria führt das Schwimmen aus). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 9, 0],\n    [0, 1, 0],\n    [8, 0, 1]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027schwimme\u0027, \u0027Pool\u0027 und \u0027Maria\u0027. 2. Es gibt relative Verweise auf den Nutzer, die auf \u0027Maria\u0027 referenzieren (\u0027ich\u0027, \u0027mein\u0027). 3. Übersetzung ins Englische: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027Maria\u0027 bleibt unverändert. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 und \u0027mein\u0027 werden durch \u0027Maria\u0027 ersetzt. 5. \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist im Kontext (context) der Person. 6. Die Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 ist \u0027target\u0027 (Maria schwimmt im Pool). Die Relation zwischen \u0027Maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027 (Maria führt das Schwimmen aus). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.\"\n}"
+}

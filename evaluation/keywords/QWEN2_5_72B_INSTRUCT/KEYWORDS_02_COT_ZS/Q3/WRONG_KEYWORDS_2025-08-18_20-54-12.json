@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter: Ich, schwimme, Pool, gehört. Relative Verweise aufgelöst: Pool gehört mir -\u003e Pool gehört Maria. Ersatz der Identifikation des Nutzers: Ich -\u003e Maria. Übersetzung ins Englische: Ich -\u003e Maria, schwimme -\u003e swim, Pool -\u003e pool, gehört -\u003e own.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Stichwörter: Ich, schwimme, Pool, gehört. Relative Verweise aufgelöst: Pool gehört mir -\u003e Pool gehört Maria. Ersatz der Identifikation des Nutzers: Ich -\u003e Maria. Übersetzung ins Englische: Ich -\u003e Maria, schwimme -\u003e swim, Pool -\u003e pool, gehört -\u003e own.\"\n}"
+}

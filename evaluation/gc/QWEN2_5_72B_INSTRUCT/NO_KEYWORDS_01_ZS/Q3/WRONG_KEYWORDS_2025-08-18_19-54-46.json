@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer schwimmt in einem Pool, der dem Nutzer gehört.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [4, 8, 0],\n    [0, 1, 9],\n    [0, 0, 14]\n  ],\n  \"description\": \"Der Nutzer schwimmt in einem Pool, der dem Nutzer gehört.\"\n}"
+}

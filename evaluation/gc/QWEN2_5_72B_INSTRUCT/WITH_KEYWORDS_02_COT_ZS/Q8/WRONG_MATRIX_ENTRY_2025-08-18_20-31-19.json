@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Die Nutzerin Maria und die Person \u0027ich\u0027 (Maria) werden als \u0027person\u0027 identifiziert. Maria und die Person \u0027ich\u0027 fahren ein Boot auf einem See. 2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2). 3. \u0027maria\u0027 und \u0027person\u0027 sind identisch. \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus. \u0027drive\u0027 hat das Ziel \u0027boat\u0027. \u0027boat\u0027 befindet sich über \u0027lake\u0027. 4. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen: \u0027person\u0027 (Typ 1), \u0027drive\u0027 (Typ 4), \u0027boat\u0027 (Typ 1), \u0027lake\u0027 (Typ 2), \u0027perform\u0027 (Typ 8), \u0027target\u0027 (Typ 9), \u0027above\u0027 (Typ 7).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [2, 0, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 9],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 7, 2]\n  ],\n  \"description\": \"1. Die Nutzerin Maria und die Person \u0027ich\u0027 (Maria) werden als \u0027person\u0027 identifiziert. Maria und die Person \u0027ich\u0027 fahren ein Boot auf einem See. 2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2). 3. \u0027maria\u0027 und \u0027person\u0027 sind identisch. \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus. \u0027drive\u0027 hat das Ziel \u0027boat\u0027. \u0027boat\u0027 befindet sich über \u0027lake\u0027. 4. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen: \u0027person\u0027 (Typ 1), \u0027drive\u0027 (Typ 4), \u0027boat\u0027 (Typ 1), \u0027lake\u0027 (Typ 2), \u0027perform\u0027 (Typ 8), \u0027target\u0027 (Typ 9), \u0027above\u0027 (Typ 7).\"\n}"
+}

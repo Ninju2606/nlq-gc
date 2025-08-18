@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine Planung oder Koordination, die nicht direkt mit einer Szene im Metaverse in Verbindung gebracht werden kann. Es fehlen relevante Begriffe oder Beschreibungen, die eine Szene darstellen. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "The user\u0027s request does not contain sufficient information to generate a meaningful GraphCode.",
+  "responsePlain": "{\n  \"error\": \"The user\u0027s request does not contain sufficient information to generate a meaningful GraphCode.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine Planung oder Koordination, die nicht direkt mit einer Szene im Metaverse in Verbindung gebracht werden kann. Es fehlen relevante Begriffe oder Beschreibungen, die eine Szene darstellen. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

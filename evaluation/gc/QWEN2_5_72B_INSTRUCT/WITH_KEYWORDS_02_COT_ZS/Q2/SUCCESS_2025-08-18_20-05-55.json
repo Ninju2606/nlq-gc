@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer hat eine Anfrage gestellt, in der er Tim und das Rennen erwähnt. Die Identifikation des Nutzers ist Maria, aber da in der Anfrage keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Identifikation ignoriert.\n2. Das Stichwort \u0027tim\u0027 ist von dem Typ \u0027object\u0027 (ID 1), da es eine Person bezeichnet. Das Stichwort \u0027run\u0027 ist von dem Typ \u0027activity\u0027 (ID 4), da es eine Aktivität bezeichnet.\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Dies entspricht der Typkodierung \u0027perform\u0027 (ID 8).\n4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. \u0027tim\u0027 hat die ID 1 (object), \u0027run\u0027 hat die ID 4 (activity), und die Relation \u0027perform\u0027 hat die ID 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer hat eine Anfrage gestellt, in der er Tim und das Rennen erwähnt. Die Identifikation des Nutzers ist Maria, aber da in der Anfrage keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Identifikation ignoriert.\\n2. Das Stichwort \u0027tim\u0027 ist von dem Typ \u0027object\u0027 (ID 1), da es eine Person bezeichnet. Das Stichwort \u0027run\u0027 ist von dem Typ \u0027activity\u0027 (ID 4), da es eine Aktivität bezeichnet.\\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Dies entspricht der Typkodierung \u0027perform\u0027 (ID 8).\\n4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. \u0027tim\u0027 hat die ID 1 (object), \u0027run\u0027 hat die ID 4 (activity), und die Relation \u0027perform\u0027 hat die ID 8.\"\n}"
+}

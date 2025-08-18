@@ -1,0 +1,20 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "appointment",
+    "make"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "responsePlain": "{\n    \"dictionary\": [\"appointment\", \"make\"],\n    \"matrix\": [[1, 8], [0, 9]],\n    \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

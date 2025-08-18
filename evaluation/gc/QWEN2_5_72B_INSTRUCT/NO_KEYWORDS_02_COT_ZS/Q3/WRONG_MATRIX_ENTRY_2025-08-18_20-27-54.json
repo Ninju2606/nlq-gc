@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      14
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      1,
+      0
+    ],
+    [
+      14,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5,
+  "description": "1. Ermittelte Stichwörter: Maria, schwimmen, Pool, besitzen\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde zu \u0027Maria\u0027 und \u0027mir\u0027 wurde zu \u0027Maria\u0027\n3. Übersetzung der Stichwörter ins Englische: Maria, swim, pool, own\n4. Ersetzung der Identifikation des Nutzers: Maria\n5. Attributeigenschaften:\n   - Maria: object (Person)\n   - swim: activity\n   - pool: object\n   - own: characteristic\n6. Relationen:\n   - Maria performs swim (Typ 8, perform)\n   - Maria has characteristic of owning the pool (Typ 14, characteristic)\n7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 8, 14],\n    [0, 4, 0, 0],\n    [8, 0, 1, 0],\n    [14, 0, 0, 1]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: Maria, schwimmen, Pool, besitzen\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde zu \u0027Maria\u0027 und \u0027mir\u0027 wurde zu \u0027Maria\u0027\\n3. Übersetzung der Stichwörter ins Englische: Maria, swim, pool, own\\n4. Ersetzung der Identifikation des Nutzers: Maria\\n5. Attributeigenschaften:\\n   - Maria: object (Person)\\n   - swim: activity\\n   - pool: object\\n   - own: characteristic\\n6. Relationen:\\n   - Maria performs swim (Typ 8, perform)\\n   - Maria has characteristic of owning the pool (Typ 14, characteristic)\\n7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen.\"\n}"
+}

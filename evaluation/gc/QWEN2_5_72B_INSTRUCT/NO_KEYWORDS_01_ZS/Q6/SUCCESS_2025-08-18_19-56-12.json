@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist eher eine Koordination oder eine Verabredung und beschreibt keine spezifische Szene oder Situation, die mit Objekten, Attributen oder Aktivitäten im Metaverse in Zusammenhang steht.",
+  "error": "Die Anfrage enthält keine Informationen, die einer Szenenbeschreibung im Metaverse entsprechen.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Informationen, die einer Szenenbeschreibung im Metaverse entsprechen.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist eher eine Koordination oder eine Verabredung und beschreibt keine spezifische Szene oder Situation, die mit Objekten, Attributen oder Aktivitäten im Metaverse in Zusammenhang steht.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält nicht genug Informationen, um eine Szene im Metaverse zu beschreiben. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die eine sinnvolle Bewertungsmatrix und ein Vokabular erlauben. Die Anfrage scheint eher eine Aufforderung oder eine Absprache zu sein, anstatt eine Szenenbeschreibung.",
+  "error": "Unsufficient Information",
+  "responsePlain": "{\n    \"error\": \"Unsufficient Information\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält nicht genug Informationen, um eine Szene im Metaverse zu beschreiben. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die eine sinnvolle Bewertungsmatrix und ein Vokabular erlauben. Die Anfrage scheint eher eine Aufforderung oder eine Absprache zu sein, anstatt eine Szenenbeschreibung.\"\n}"
+}

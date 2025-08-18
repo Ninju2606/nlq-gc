@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Dierelevanten Stichwörter sind \"ich\", \"tragen\", \"gelben Hut\".\r\n    2. Es gibt keine relativen Verweise.\r\n    3. Die englischen Stichwörter sind \"I\", \"wear\", \"yellow hat\".\r\n    4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"wear\", \"yellow hat\".",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"yellow hat\"],\n    \"description\": \"1. Dierelevanten Stichwörter sind \\\"ich\\\", \\\"tragen\\\", \\\"gelben Hut\\\".\\r\\n    2. Es gibt keine relativen Verweise.\\r\\n    3. Die englischen Stichwörter sind \\\"I\\\", \\\"wear\\\", \\\"yellow hat\\\".\\r\\n    4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"wear\\\", \\\"yellow hat\\\".\"\n}"
+}

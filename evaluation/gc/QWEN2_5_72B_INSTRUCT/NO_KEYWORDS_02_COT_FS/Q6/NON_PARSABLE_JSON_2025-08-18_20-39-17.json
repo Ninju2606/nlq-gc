@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"error\": [\"Fehlende Informationen oder unklare Anfrage. Es sind keine sinnvollen Stichwörter für eine Szene- oder Metaverse-Situation beschriebener Räume, Objekte oder Aktivitäten in der Anfrage vorhanden.\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter wären \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027appointment\u0027, \u0027arrange\u0027. 4. Die Stichwörter mit Nutzeridentifikation wären \u0027Maria\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027appointment\u0027, \u0027arrange\u0027. 5. \u0027Maria\u0027 ist ein Objekt, \u0027arrange\u0027 ist eine Aktivität, \u0027appointment\u0027 ist ein Kontext. 6. Maria führt die Aktivität \u0027arrange\u0027 aus, die sich auf den Kontext \u0027appointment\u0027 bezieht. 7. Es gibt keine passende Typkodierung für die Relation \u0027must\u0027 oder \u0027bald\u0027.\"\n}"
+}

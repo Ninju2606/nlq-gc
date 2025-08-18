@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": \"Keine passende Typkodierung für die Relation zwischen den Begriffen \u0027bald\u0027 und \u0027termin\u0027 gefunden.\",\n  \"description\": \"Die Anfrage enthält Begriffe, deren Beziehung nicht auf Basis der vorgegebenen Typkodierungen dargestellt werden kann.\"\n}\n\n\n**Erläuterung:**\n- Die Anfrage \"Wir müssen bald einen Termin ausmachen\" enthält die Begriffe \"bald\" und \"Termin\", die eine zeitliche oder kausale Beziehung haben.\n- Im vorgegebenen Vokabular sind jedoch nur \"maria\", \"make\", und \"appointment\" enthalten.\n- Die Beziehung zwischen \"bald\" (which could be related to time) und \"termin\" (which is an object or activity) ist nicht in den vorgegebenen Typkodierungen enthalten.\n- Daher kann kein gültiger GraphCode generiert werden, und es wird ein Fehler ausgegeben."
+}

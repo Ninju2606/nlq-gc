@@ -1,0 +1,38 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Stichwörter: Maria, gelb, Hut, tragen. 2. Relative Verweise: \u0027ich\u0027 wird zu \u0027Maria\u0027. 3. Übersetzung ins Englische: Maria, yellow, hat, wear. 4. Identifikation des Nutzers: \u0027ich\u0027 wird zu \u0027Maria\u0027. 5. Attribut-Eigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Kontext, \u0027hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität. 6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027hat\u0027 hat den Kontext \u0027yellow\u0027. 7. Typkodierungen: \u0027Maria\u0027 (1), \u0027yellow\u0027 (2), \u0027hat\u0027 (1), \u0027wear\u0027 (4). Relationen: \u0027Maria\u0027 führt \u0027wear\u0027 aus (8), \u0027hat\u0027 hat den Kontext \u0027yellow\u0027 (2).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Stichwörter: Maria, gelb, Hut, tragen. 2. Relative Verweise: \u0027ich\u0027 wird zu \u0027Maria\u0027. 3. Übersetzung ins Englische: Maria, yellow, hat, wear. 4. Identifikation des Nutzers: \u0027ich\u0027 wird zu \u0027Maria\u0027. 5. Attribut-Eigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Kontext, \u0027hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität. 6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027hat\u0027 hat den Kontext \u0027yellow\u0027. 7. Typkodierungen: \u0027Maria\u0027 (1), \u0027yellow\u0027 (2), \u0027hat\u0027 (1), \u0027wear\u0027 (4). Relationen: \u0027Maria\u0027 führt \u0027wear\u0027 aus (8), \u0027hat\u0027 hat den Kontext \u0027yellow\u0027 (2).\"\n}"
+}

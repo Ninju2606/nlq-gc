@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Tim performs the activity of running.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 7], [0, 4]],\n  \"description\": \"Tim performs the activity of running.\"\n}"
+}

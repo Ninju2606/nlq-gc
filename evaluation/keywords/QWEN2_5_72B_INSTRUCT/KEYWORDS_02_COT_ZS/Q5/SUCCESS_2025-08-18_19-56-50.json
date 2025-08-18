@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Potenzielle Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\"\n}"
+}

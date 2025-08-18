@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9,
+      2
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wurde verwendet, da der Nutzer die Aktion \u0027schwimme\u0027 ausführt.\n2. \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Synonym (ID 3), \u0027pool\u0027 ist ein Objekt (ID 1).\n3. Die Relationen sind: \u0027maria\u0027 führt \u0027swim\u0027 aus (ID 8), \u0027maria\u0027 ist der Besitzer des \u0027pool\u0027 (ID 9), \u0027own\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 (ID 2).\n4. Alle Relationen können mit den vorgegebenen Typkodierungen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 9, 2],\n    [0, 4, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wurde verwendet, da der Nutzer die Aktion \u0027schwimme\u0027 ausführt.\\n2. \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Synonym (ID 3), \u0027pool\u0027 ist ein Objekt (ID 1).\\n3. Die Relationen sind: \u0027maria\u0027 führt \u0027swim\u0027 aus (ID 8), \u0027maria\u0027 ist der Besitzer des \u0027pool\u0027 (ID 9), \u0027own\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 (ID 2).\\n4. Alle Relationen können mit den vorgegebenen Typkodierungen dargestellt werden.\"\n}"
+}

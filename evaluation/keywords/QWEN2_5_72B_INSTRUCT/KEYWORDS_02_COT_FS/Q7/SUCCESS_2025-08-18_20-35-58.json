@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält keine klare Szenenbeschreibung.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält keine klare Szenenbeschreibung.\"\n}"
+}

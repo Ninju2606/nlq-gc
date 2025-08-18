@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "drive"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      9
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      9,
+      9,
+      8,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter der Anfrage: Maria, Tochter, Boot, See, fahren. 2. Relative Verweise wurden aufgelöst, \u0027meine Tochter\u0027 wurde zu \u0027daughter\u0027 und \u0027ich\u0027 zu \u0027Maria\u0027. 3. Übersetzung in Englisch: Maria, daughter, boat, lake, drive. 4. \u0027Ich\u0027 wurde in \u0027Maria\u0027 und \u0027meine\u0027 wurde aufgelöst. 5. Attribut-Eigenschaften: Maria und daughter sind Objekte, boat ist ein Objekt, lake ist ein Kontext, drive ist eine Aktivität. 6. Relationen: Maria und daughter sind in einer familialen Beziehung (daughter), boat und drive sind in einer Aktivitätsbeziehung (perform), boat und lake sind in einer Standortbeziehung (context), Maria und drive sind in einer Aktivitätsbeziehung (target). 7. Alle Relationen sind in den Typkodierungen vorhanden: Maria (1), daughter (1), boat (1), lake (2), drive (4), daughter (10), drive (9), boat (8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"drive\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 9],\n    [10, 1, 0, 0, 9],\n    [0, 0, 1, 0, 8],\n    [0, 0, 0, 2, 0],\n    [9, 9, 8, 0, 4]\n  ],\n  \"description\": \"1. Stichwörter der Anfrage: Maria, Tochter, Boot, See, fahren. 2. Relative Verweise wurden aufgelöst, \u0027meine Tochter\u0027 wurde zu \u0027daughter\u0027 und \u0027ich\u0027 zu \u0027Maria\u0027. 3. Übersetzung in Englisch: Maria, daughter, boat, lake, drive. 4. \u0027Ich\u0027 wurde in \u0027Maria\u0027 und \u0027meine\u0027 wurde aufgelöst. 5. Attribut-Eigenschaften: Maria und daughter sind Objekte, boat ist ein Objekt, lake ist ein Kontext, drive ist eine Aktivität. 6. Relationen: Maria und daughter sind in einer familialen Beziehung (daughter), boat und drive sind in einer Aktivitätsbeziehung (perform), boat und lake sind in einer Standortbeziehung (context), Maria und drive sind in einer Aktivitätsbeziehung (target). 7. Alle Relationen sind in den Typkodierungen vorhanden: Maria (1), daughter (1), boat (1), lake (2), drive (4), daughter (10), drive (9), boat (8).\"\n}"
+}

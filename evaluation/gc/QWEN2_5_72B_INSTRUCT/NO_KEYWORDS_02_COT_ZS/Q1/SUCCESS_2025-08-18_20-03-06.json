@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Stichwörter: Ich, spiele, Basketball. 2. Relative Verweise wurden aufgelöst, \u0027Ich\u0027 referenziert auf Maria. 3. Übersetzung der Stichwörter ins Englische: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. 4. Ersatz der Identifikation des Nutzers: \u0027Ich\u0027 wurde zu \u0027Maria\u0027 ersetzt. 5. Attributsinformationen: \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027play\u0027 ist vom Typ \u0027activity\u0027, \u0027basketball\u0027 ist vom Typ \u0027object\u0027. 6. Relationen: \u0027Maria\u0027 hat das \u0027activity\u0027 \u0027play\u0027, \u0027play\u0027 hat als \u0027target\u0027 den Begriff \u0027basketball\u0027. 7. Prüfung der Typkodierungen: Es gibt Einträge für die identifizierten Relationen in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: Ich, spiele, Basketball. 2. Relative Verweise wurden aufgelöst, \u0027Ich\u0027 referenziert auf Maria. 3. Übersetzung der Stichwörter ins Englische: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. 4. Ersatz der Identifikation des Nutzers: \u0027Ich\u0027 wurde zu \u0027Maria\u0027 ersetzt. 5. Attributsinformationen: \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027play\u0027 ist vom Typ \u0027activity\u0027, \u0027basketball\u0027 ist vom Typ \u0027object\u0027. 6. Relationen: \u0027Maria\u0027 hat das \u0027activity\u0027 \u0027play\u0027, \u0027play\u0027 hat als \u0027target\u0027 den Begriff \u0027basketball\u0027. 7. Prüfung der Typkodierungen: Es gibt Einträge für die identifizierten Relationen in den bereitgestellten Typkodierungen.\"\n}"
+}

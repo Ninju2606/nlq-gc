@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "sail",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027. 2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde zur Identifikation des Nutzers \u0027Maria\u0027 aufgelöst. 3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027daughter\u0027, \u0027Maria\u0027, \u0027sail\u0027, \u0027lake\u0027. 4. Die Identifikation des Nutzers \u0027Maria\u0027 wurde verwendet, da \u0027ich\u0027 auf den Anfragensteller referenziert. 5. Die Attributeigenschaften sind: \u0027Maria\u0027 (object), \u0027daughter\u0027 (object), \u0027sail\u0027 (activity), \u0027lake\u0027 (context). 6. Die Relationen sind: \u0027Maria\u0027 und \u0027daughter\u0027 (daughter), \u0027Maria\u0027 und \u0027sail\u0027 (perform), \u0027sail\u0027 und \u0027lake\u0027 (context). 7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"sail\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0],\n    [10, 1, 0, 0],\n    [8, 0, 4, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027. 2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde zur Identifikation des Nutzers \u0027Maria\u0027 aufgelöst. 3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027daughter\u0027, \u0027Maria\u0027, \u0027sail\u0027, \u0027lake\u0027. 4. Die Identifikation des Nutzers \u0027Maria\u0027 wurde verwendet, da \u0027ich\u0027 auf den Anfragensteller referenziert. 5. Die Attributeigenschaften sind: \u0027Maria\u0027 (object), \u0027daughter\u0027 (object), \u0027sail\u0027 (activity), \u0027lake\u0027 (context). 6. Die Relationen sind: \u0027Maria\u0027 und \u0027daughter\u0027 (daughter), \u0027Maria\u0027 und \u0027sail\u0027 (perform), \u0027sail\u0027 und \u0027lake\u0027 (context). 7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen.\"\n}"
+}

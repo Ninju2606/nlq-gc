@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage keinen direkten Bezug zu einer Szene im Metaverse aufweist.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage, die eine Szene im Metaverse beschreibt.",
+  "responsePlain": "{\n    \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage, die eine Szene im Metaverse beschreibt.\",\n    \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage keinen direkten Bezug zu einer Szene im Metaverse aufweist.\"\n}"
+}

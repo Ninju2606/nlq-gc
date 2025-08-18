@@ -1,0 +1,38 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Stichwörter: ich, trage, gelben, Hut. 2. Relative Verweise: \u0027ich\u0027 wird auf Maria gelöst. 3. Übersetzung: ich -\u003e I, trage -\u003e wear, gelben -\u003e yellow, Hut -\u003e hat. 4. Ersetzung: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: \u0027Maria\u0027 (Person/Subject), \u0027wear\u0027 (Activity), \u0027yellow\u0027 (Attribute), \u0027hat\u0027 (Object). 6. Relationen: Maria hat die Aktivität \u0027wear\u0027, \u0027yellow\u0027 ist ein Attribut von \u0027hat\u0027. 7. Typkodierungen: \u0027Maria\u0027 (1), \u0027wear\u0027 (4), \u0027yellow\u0027 (2), \u0027hat\u0027 (1). 8. Zusammengefasst: Die Matrix zeigt die Beziehungen zwischen den Begriffen.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 0, 0],\n        [0, 0, 2, 0],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"1. Stichwörter: ich, trage, gelben, Hut. 2. Relative Verweise: \u0027ich\u0027 wird auf Maria gelöst. 3. Übersetzung: ich -\u003e I, trage -\u003e wear, gelben -\u003e yellow, Hut -\u003e hat. 4. Ersetzung: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: \u0027Maria\u0027 (Person/Subject), \u0027wear\u0027 (Activity), \u0027yellow\u0027 (Attribute), \u0027hat\u0027 (Object). 6. Relationen: Maria hat die Aktivität \u0027wear\u0027, \u0027yellow\u0027 ist ein Attribut von \u0027hat\u0027. 7. Typkodierungen: \u0027Maria\u0027 (1), \u0027wear\u0027 (4), \u0027yellow\u0027 (2), \u0027hat\u0027 (1). 8. Zusammengefasst: Die Matrix zeigt die Beziehungen zwischen den Begriffen.\"\n}"
+}

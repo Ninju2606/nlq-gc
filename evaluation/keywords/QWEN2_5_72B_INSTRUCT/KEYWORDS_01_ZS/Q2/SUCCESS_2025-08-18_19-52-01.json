@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Generierte Stichwörter aus der Anfrage \u0027Tim rennt\u0027",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Generierte Stichwörter aus der Anfrage \u0027Tim rennt\u0027\"\n}"
+}

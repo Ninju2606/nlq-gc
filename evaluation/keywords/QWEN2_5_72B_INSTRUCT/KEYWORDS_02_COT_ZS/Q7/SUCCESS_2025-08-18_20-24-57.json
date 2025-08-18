@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027HÄUSER um FRAGEN zu malen\u0027 ist grammatikalisch unklar und lässt sich nicht eindeutig interpretieren. Es ist nicht klar, ob die HÄUSER die Fragen zum Malen stellen oder ob es sich um Fragen zum Malen in der Umgebung der HÄUSER handelt. Bitte kläre deine Anfrage und gib mehr Kontext.",
+  "error": "Die Anfrage ist unklar. Es ist nicht deutlich, ob die HÄUSER die Fragen zum Malen stellen oder ob es sich um Fragen zum Malen in der Umgebung der HÄUSER handelt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unklar. Es ist nicht deutlich, ob die HÄUSER die Fragen zum Malen stellen oder ob es sich um Fragen zum Malen in der Umgebung der HÄUSER handelt.\",\n  \"description\": \"Die Anfrage \u0027HÄUSER um FRAGEN zu malen\u0027 ist grammatikalisch unklar und lässt sich nicht eindeutig interpretieren. Es ist nicht klar, ob die HÄUSER die Fragen zum Malen stellen oder ob es sich um Fragen zum Malen in der Umgebung der HÄUSER handelt. Bitte kläre deine Anfrage und gib mehr Kontext.\"\n}"
+}

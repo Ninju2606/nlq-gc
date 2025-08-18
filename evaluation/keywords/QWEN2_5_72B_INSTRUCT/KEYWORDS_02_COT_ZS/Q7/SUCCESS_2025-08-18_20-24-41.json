@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht eindeutig verständlich. Es fehlen klare Objekte, Attribute oder Aktivitäten, die für die Generierung eines sinnvollen GraphCodes benötigt werden.",
+  "error": "Die Anfrage ist grammatikalisch unklar und enthält keine klaren Objekte, Attribute oder Aktivitäten.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar und enthält keine klaren Objekte, Attribute oder Aktivitäten.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht eindeutig verständlich. Es fehlen klare Objekte, Attribute oder Aktivitäten, die für die Generierung eines sinnvollen GraphCodes benötigt werden.\"\n}"
+}

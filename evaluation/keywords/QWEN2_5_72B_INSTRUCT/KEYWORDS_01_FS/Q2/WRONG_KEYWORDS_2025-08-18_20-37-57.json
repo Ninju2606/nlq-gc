@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run",
+    "Tim"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria runs and Tim is involved in the scene.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\", \"Tim\"],\n    \"description\": \"Maria runs and Tim is involved in the scene.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die relevanten Stichwörter sind „ich“, „trage“, „gelb“ und „Hut“.\n2. „ich“ wird durch die Nutzeridentifikation „Maria“ ersetzt.\n3. Die englischen Stichwörter sind „Maria“, „wear“, „yellow“, „hat“.\n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „wear“, „yellow“, „hat“.\n5. „Maria“ ist ein Objekt, „wear“ ist eine Aktivität, „yellow“ ist ein Kontext, und „hat“ ist ein Objekt.\n6. „Maria“ führt die Aktivität „wear“ aus. „wear“ bezieht sich auf „hat“. „yellow“ ist eine Charakteristik von „hat“.\n7. Die ID für Objekt (object) ist 1, die ID für Aktivität (activity) ist 4, die ID für Kontext (context) ist 3, und die ID für Charakteristik (characteristic) ist 14.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n    \"matrix\": [[1, 7, 0, 0], [0, 4, 8, 0], [0, 0, 3, 0], [0, 0, 0, 1]],\n    \"description\": \"1. Die relevanten Stichwörter sind „ich“, „trage“, „gelb“ und „Hut“.\\n2. „ich“ wird durch die Nutzeridentifikation „Maria“ ersetzt.\\n3. Die englischen Stichwörter sind „Maria“, „wear“, „yellow“, „hat“.\\n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „wear“, „yellow“, „hat“.\\n5. „Maria“ ist ein Objekt, „wear“ ist eine Aktivität, „yellow“ ist ein Kontext, und „hat“ ist ein Objekt.\\n6. „Maria“ führt die Aktivität „wear“ aus. „wear“ bezieht sich auf „hat“. „yellow“ ist eine Charakteristik von „hat“.\\n7. Die ID für Objekt (object) ist 1, die ID für Aktivität (activity) ist 4, die ID für Kontext (context) ist 3, und die ID für Charakteristik (characteristic) ist 14.\"\n}"
+}

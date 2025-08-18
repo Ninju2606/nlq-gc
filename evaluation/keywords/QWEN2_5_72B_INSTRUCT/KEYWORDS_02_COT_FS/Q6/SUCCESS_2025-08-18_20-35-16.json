@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine sinnvollen Stichwörter, die die Suche innerhalb eines Metaverse-Objekts beschreiben. Die Anfrage ist eher eine Aussage über einen bevorstehenden Termin und enthält keine Szenebeschreibung.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage enthält keine sinnvollen Stichwörter, die die Suche innerhalb eines Metaverse-Objekts beschreiben. Die Anfrage ist eher eine Aussage über einen bevorstehenden Termin und enthält keine Szenebeschreibung.\"\n}"
+}

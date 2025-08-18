@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Tim, rennt\n2. Keine relativen Verweise.\n3. Übersetzung ins Englische: Tim -\u003e Tim, rennt -\u003e run\n4. Keine Identifikation des Nutzers in der Anfrage.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Person), \u0027run\u0027 ist eine Aktivität.\n6. Relationen: Tim führt die Aktivität \u0027run\u0027 aus.\n7. Es gibt passende Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"matrix\": [\n        [1, 4],\n        [0, 4]\n    ],\n    \"description\": \"1. Potenzielle Stichwörter: Tim, rennt\\n2. Keine relativen Verweise.\\n3. Übersetzung ins Englische: Tim -\u003e Tim, rennt -\u003e run\\n4. Keine Identifikation des Nutzers in der Anfrage.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Person), \u0027run\u0027 ist eine Aktivität.\\n6. Relationen: Tim führt die Aktivität \u0027run\u0027 aus.\\n7. Es gibt passende Typkodierungen für alle Relationen.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 3, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Häuser um Fragen zu malen\"\n}\n\n\n### Erklärung:\n- **Vokabular (dictionary):**\n  - \"house\" (Objekt)\n  - \"question\" (Attribut/Synonym)\n  - \"paint\" (Aktivität)\n\n- **Bewertungsmatrix (matrix):**\n  - [1, 0, 8]: \"house\" ist ein Objekt (Typ 1), und es wird die Aktivität \"paint\" ausgeführt (Typ 8).\n  - [0, 3, 0]: \"question\" ist ein Synonym/Attribut (Typ 3).\n  - [0, 0, 4]: \"paint\" ist eine Aktivität (Typ 4).\n\n- **description:**\n  - Die Beschreibung der Szene im Metaverse."
+}

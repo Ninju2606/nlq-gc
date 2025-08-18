@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      4
+    ],
+    [
+      5,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Situation where Maria is wearing a yellow hat.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 7, 0, 5],\n    [0, 4, 8, 0],\n    [0, 0, 3, 4],\n    [5, 0, 0, 1]\n  ],\n  \"description\": \"Situation where Maria is wearing a yellow hat.\"\n}"
+}

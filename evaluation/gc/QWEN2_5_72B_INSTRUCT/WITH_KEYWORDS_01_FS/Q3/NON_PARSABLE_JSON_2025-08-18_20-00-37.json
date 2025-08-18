@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Basierend auf den gegebenen Informationen und den Regeln, hier ist der generierte GraphCode für die Anfrage \"Ich schwimme in einem Pool, der mir gehört\":\n\n\n{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 7, 0, 0],\n        [0, 4, 0, 6],\n        [0, 0, 4, 8],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Maria schwimmt in einem Pool, den sie besitzt.\"\n}\n\n\n### Erklärung:\n- **\"maria\"**: Wird als Objekt (Typ-ID: 1) eingetragen, da es sich um eine Person handelt.\n- **\"swim\"**: Ist eine Aktivität (Typ-ID: 4).\n- **\"own\"**: Ist ebenfalls eine Aktivität (Typ-ID: 4), da es eine Handlung beschreibt.\n- **\"pool\"**: Wird als Objekt (Typ-ID: 1) eingetragen.\n\n### Matrix-Einträge:\n- **(0,0)**: `1` (Typ-ID für Objekt)\n- **(1,1)**: `4` (Typ-ID für Aktivität)\n- **(2,2)**: `4` (Typ-ID für Aktivität)\n- **(3,3)**: `1` (Typ-ID für Objekt)\n- **(1,3)**: `6` (Typ-ID für \"in\")\n- **(2,3)**: `8` (Typ-ID für \"target\", da Maria den Pool besitzt)"
+}

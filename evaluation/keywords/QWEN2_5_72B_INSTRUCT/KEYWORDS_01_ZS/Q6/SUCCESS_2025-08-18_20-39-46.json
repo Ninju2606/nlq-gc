@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine zukünftige Handlung und ist daher nicht spezifisch genug, um ein Vokabular für einen GraphCode zu generieren.",
+  "error": "Die Anfrage enthält nicht genügend Informationen für eine sinnvolle Szenebeschreibung im Metaverse.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält nicht genügend Informationen für eine sinnvolle Szenebeschreibung im Metaverse.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine zukünftige Handlung und ist daher nicht spezifisch genug, um ein Vokabular für einen GraphCode zu generieren.\"\n}"
+}

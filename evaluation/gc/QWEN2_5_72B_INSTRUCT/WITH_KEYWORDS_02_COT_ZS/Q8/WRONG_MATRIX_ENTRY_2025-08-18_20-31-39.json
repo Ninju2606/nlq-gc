@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Vokabular hinzugefügt. Das Wort \u0027Tochter\u0027 wurde als \u0027person\u0027 interpretiert, \u0027fahren\u0027 als \u0027drive\u0027, \u0027Boot\u0027 als \u0027boat\u0027 und \u0027See\u0027 als \u0027lake\u0027.\n2. \u0027maria\u0027 ist eine Person (object, ID 1). \u0027person\u0027 ist ein Kontext (context, ID 2). \u0027drive\u0027 ist eine Aktivität (activity, ID 4). \u0027boat\u0027 ist ein Objekt (object, ID 1). \u0027lake\u0027 ist ein Objekt (object, ID 1).\n3. \u0027maria\u0027 ist eine \u0027person\u0027. \u0027maria\u0027 perform \u0027drive\u0027. \u0027drive\u0027 target \u0027boat\u0027. \u0027boat\u0027 under \u0027lake\u0027.\n4. Für alle Relationen aus Schritten 2 und 3 gibt es passende Einträge in den bereitgestellten Typkodierungen: \u0027person\u0027 (ID 1), \u0027drive\u0027 (ID 4), \u0027boat\u0027 (ID 1), \u0027lake\u0027 (ID 1), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027under\u0027 (ID 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 9, 1, 0],\n    [0, 0, 0, 0, 3]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Vokabular hinzugefügt. Das Wort \u0027Tochter\u0027 wurde als \u0027person\u0027 interpretiert, \u0027fahren\u0027 als \u0027drive\u0027, \u0027Boot\u0027 als \u0027boat\u0027 und \u0027See\u0027 als \u0027lake\u0027.\\n2. \u0027maria\u0027 ist eine Person (object, ID 1). \u0027person\u0027 ist ein Kontext (context, ID 2). \u0027drive\u0027 ist eine Aktivität (activity, ID 4). \u0027boat\u0027 ist ein Objekt (object, ID 1). \u0027lake\u0027 ist ein Objekt (object, ID 1).\\n3. \u0027maria\u0027 ist eine \u0027person\u0027. \u0027maria\u0027 perform \u0027drive\u0027. \u0027drive\u0027 target \u0027boat\u0027. \u0027boat\u0027 under \u0027lake\u0027.\\n4. Für alle Relationen aus Schritten 2 und 3 gibt es passende Einträge in den bereitgestellten Typkodierungen: \u0027person\u0027 (ID 1), \u0027drive\u0027 (ID 4), \u0027boat\u0027 (ID 1), \u0027lake\u0027 (ID 1), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027under\u0027 (ID 6).\"\n}"
+}

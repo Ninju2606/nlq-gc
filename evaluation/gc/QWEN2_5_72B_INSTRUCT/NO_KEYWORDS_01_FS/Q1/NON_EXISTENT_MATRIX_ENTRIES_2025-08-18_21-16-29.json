@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the user \u0027Maria\u0027 playing basketball.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"matrix\": [[1, 8, 0], [0, 9, 8], [0, 0, 1]],\n    \"description\": \"GraphCode for the user \u0027Maria\u0027 playing basketball.\"\n}"
+}

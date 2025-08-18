@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      6
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool. 2. Relative Verweise wurden gelöst: \u0027ich\u0027 referenziert auf \u0027Maria\u0027. 3. Übersetzung ins Englische: ich -\u003e Maria, schwimme -\u003e swim, Pool -\u003e pool. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: Maria ist ein Objekt (Typ 1), swim ist eine Aktivität (Typ 4), pool ist ein Objekt (Typ 1). 6. Relationen: Maria perform swim (Typ 8), swim under pool (Typ 6). 7. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen. 8. GraphCode wurde zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 6],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool. 2. Relative Verweise wurden gelöst: \u0027ich\u0027 referenziert auf \u0027Maria\u0027. 3. Übersetzung ins Englische: ich -\u003e Maria, schwimme -\u003e swim, Pool -\u003e pool. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: Maria ist ein Objekt (Typ 1), swim ist eine Aktivität (Typ 4), pool ist ein Objekt (Typ 1). 6. Relationen: Maria perform swim (Typ 8), swim under pool (Typ 6). 7. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen. 8. GraphCode wurde zusammengesetzt.\"\n}"
+}

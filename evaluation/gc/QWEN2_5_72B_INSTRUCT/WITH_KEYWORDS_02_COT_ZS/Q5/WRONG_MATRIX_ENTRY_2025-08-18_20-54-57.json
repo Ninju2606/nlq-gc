@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      2,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer \u0027Maria\u0027 wird in der Anfrage identifiziert. Die Stichwörter sind \u0027wear\u0027, \u0027hat\u0027, und \u0027yellow\u0027. 2. Die Attributigenschaften sind: \u0027maria\u0027 (context), \u0027wear\u0027 (activity), \u0027hat\u0027 (object), \u0027yellow\u0027 (characteristic). 3. Die Wörter stehen in folgenden Relationen: \u0027maria\u0027 führt die \u0027wear\u0027-Aktivität aus, die \u0027wear\u0027-Aktivität hat \u0027hat\u0027 als Ziel, \u0027hat\u0027 hat die \u0027yellow\u0027-Eigenschaft. 4. Alle Relationen haben passende Einträge in den Typkodierungen: \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4), \u0027object\u0027 (ID 1), \u0027characteristic\u0027 (ID 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [2, 9, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 wird in der Anfrage identifiziert. Die Stichwörter sind \u0027wear\u0027, \u0027hat\u0027, und \u0027yellow\u0027. 2. Die Attributigenschaften sind: \u0027maria\u0027 (context), \u0027wear\u0027 (activity), \u0027hat\u0027 (object), \u0027yellow\u0027 (characteristic). 3. Die Wörter stehen in folgenden Relationen: \u0027maria\u0027 führt die \u0027wear\u0027-Aktivität aus, die \u0027wear\u0027-Aktivität hat \u0027hat\u0027 als Ziel, \u0027hat\u0027 hat die \u0027yellow\u0027-Eigenschaft. 4. Alle Relationen haben passende Einträge in den Typkodierungen: \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4), \u0027object\u0027 (ID 1), \u0027characteristic\u0027 (ID 14).\"\n}"
+}

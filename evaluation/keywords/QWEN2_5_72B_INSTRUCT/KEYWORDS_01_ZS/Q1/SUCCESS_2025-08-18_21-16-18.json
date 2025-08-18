@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Nutzeranfrage erfolgreich verarbeitet.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Nutzeranfrage erfolgreich verarbeitet.\"\n}"
+}

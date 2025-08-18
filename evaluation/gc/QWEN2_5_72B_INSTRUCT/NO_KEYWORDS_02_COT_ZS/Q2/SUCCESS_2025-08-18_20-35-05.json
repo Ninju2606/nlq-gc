@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Es gibt keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Es gibt keine Identifikation des Nutzers in der Anfrage. 5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (ID 1), \u0027run\u0027 ist eine Aktivität (ID 4). 6. Relationen: \u0027Tim\u0027 performt \u0027run\u0027. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen: \u0027Tim\u0027 (ID 1), \u0027run\u0027 (ID 4), \u0027perform\u0027 (ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Es gibt keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Es gibt keine Identifikation des Nutzers in der Anfrage. 5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (ID 1), \u0027run\u0027 ist eine Aktivität (ID 4). 6. Relationen: \u0027Tim\u0027 performt \u0027run\u0027. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen: \u0027Tim\u0027 (ID 1), \u0027run\u0027 (ID 4), \u0027perform\u0027 (ID 8).\"\n}"
+}

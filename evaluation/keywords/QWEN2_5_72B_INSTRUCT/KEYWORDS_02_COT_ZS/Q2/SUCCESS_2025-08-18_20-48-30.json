@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage wurde erfolgreich verarbeitet. Keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 wurden in der Anfrage gefunden, daher wurde die Identifikation des Nutzers (Maria) ignoriert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Anfrage wurde erfolgreich verarbeitet. Keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 wurden in der Anfrage gefunden, daher wurde die Identifikation des Nutzers (Maria) ignoriert.\"\n}"
+}

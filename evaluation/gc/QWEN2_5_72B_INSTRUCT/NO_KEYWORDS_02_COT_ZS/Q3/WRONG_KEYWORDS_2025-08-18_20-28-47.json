@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      9,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: schwimmen, Pool, gehört. 2. Der relative Verweis \u0027mir\u0027 wurde auf Maria gelöst. 3. Die Stichwörter wurden ins Englische übersetzt: swim, pool, own. 4. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen. 5. \u0027swim\u0027 wird als Aktivität (activity) gekennzeichnet, \u0027pool\u0027 als Objekt (object), und \u0027own\u0027 als relationales Verb (target). 6. In der Relation wird gezeigt, dass Maria die Aktivität \u0027swim\u0027 im Kontext eines Pools ausführt, der ihr gehört (\u0027target\u0027). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. Die ID 4 steht für die Aktivität \u0027swim\u0027, die ID 1 für das Objekt \u0027pool\u0027, die ID 8 für \u0027perform\u0027 (Ausführen der Aktivität), und die ID 9 für \u0027target\u0027 (Ziel der Relation).",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [4, 0, 8],\n    [0, 1, 0],\n    [9, 0, 0]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: schwimmen, Pool, gehört. 2. Der relative Verweis \u0027mir\u0027 wurde auf Maria gelöst. 3. Die Stichwörter wurden ins Englische übersetzt: swim, pool, own. 4. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen. 5. \u0027swim\u0027 wird als Aktivität (activity) gekennzeichnet, \u0027pool\u0027 als Objekt (object), und \u0027own\u0027 als relationales Verb (target). 6. In der Relation wird gezeigt, dass Maria die Aktivität \u0027swim\u0027 im Kontext eines Pools ausführt, der ihr gehört (\u0027target\u0027). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. Die ID 4 steht für die Aktivität \u0027swim\u0027, die ID 1 für das Objekt \u0027pool\u0027, die ID 8 für \u0027perform\u0027 (Ausführen der Aktivität), und die ID 9 für \u0027target\u0027 (Ziel der Relation).\"\n}"
+}

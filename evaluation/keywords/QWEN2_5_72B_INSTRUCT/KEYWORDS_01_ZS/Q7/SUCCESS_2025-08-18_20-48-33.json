@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt eine Szene im Metaverse, in der Häuser um Fragen zu malen vorkommen.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"question\", \"paint\"],\n    \"description\": \"Die Anfrage beschreibt eine Szene im Metaverse, in der Häuser um Fragen zu malen vorkommen.\"\n}"
+}

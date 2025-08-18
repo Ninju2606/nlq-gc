@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wird dem Begriff \u0027maria\u0027 zugeordnet, da der Nutzer die Aktion \u0027schwimme\u0027 und Besitz \u0027gehört\u0027 in der Anfrage angibt.\n2. \u0027maria\u0027 ist ein Objekt (Typ: object), \u0027swim\u0027 ist eine Aktivität (Typ: activity), \u0027own\u0027 ist eine Relation (Typ: target) und \u0027pool\u0027 ist ein Objekt (Typ: object).\n3. \u0027maria\u0027 performt \u0027swim\u0027, \u0027swim\u0027 hat \u0027pool\u0027 als Ziel, und \u0027maria\u0027 ist das Subjekt von \u0027own\u0027, wobei \u0027pool\u0027 das Ziel von \u0027own\u0027 ist.\n4. Es gibt passende Typkodierungen für alle Relationen: maria -\u003e swim (8, perform), swim -\u003e pool (9, target), maria -\u003e pool (5, attached).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 9, 5],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wird dem Begriff \u0027maria\u0027 zugeordnet, da der Nutzer die Aktion \u0027schwimme\u0027 und Besitz \u0027gehört\u0027 in der Anfrage angibt.\\n2. \u0027maria\u0027 ist ein Objekt (Typ: object), \u0027swim\u0027 ist eine Aktivität (Typ: activity), \u0027own\u0027 ist eine Relation (Typ: target) und \u0027pool\u0027 ist ein Objekt (Typ: object).\\n3. \u0027maria\u0027 performt \u0027swim\u0027, \u0027swim\u0027 hat \u0027pool\u0027 als Ziel, und \u0027maria\u0027 ist das Subjekt von \u0027own\u0027, wobei \u0027pool\u0027 das Ziel von \u0027own\u0027 ist.\\n4. Es gibt passende Typkodierungen für alle Relationen: maria -\u003e swim (8, perform), swim -\u003e pool (9, target), maria -\u003e pool (5, attached).\"\n}"
+}

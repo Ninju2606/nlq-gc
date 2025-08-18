@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s query \u0027Ich schwimme in meinem Pool\u0027 has been processed. The keywords have been translated to English and the user\u0027s identifier \u0027Maria\u0027 has been included in the vocabulary.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"The user\u0027s query \u0027Ich schwimme in meinem Pool\u0027 has been processed. The keywords have been translated to English and the user\u0027s identifier \u0027Maria\u0027 has been included in the vocabulary.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Begriffe, die für die Erstellung eines GraphCodes im Kontext der Szene im Metaverse relevant sind.",
+  "error": "No relevant keywords found for graph code generation.",
+  "responsePlain": "{\n    \"error\": \"No relevant keywords found for graph code generation.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keine spezifischen Begriffe, die für die Erstellung eines GraphCodes im Kontext der Szene im Metaverse relevant sind.\"\n}"
+}

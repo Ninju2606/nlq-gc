@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": [\"Es können keine sinnvollen Stichwörter erschlossen werden.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\\n4. Da keine Identifikation durch \u0027ich\u0027, \u0027mein\u0027, oder \u0027mir\u0027 vorliegt, bleibt die Identifikation des Nutzers ignoriert.\\n5. Die Stichwörter \u0027houses\u0027 und \u0027paint\u0027 sind Objekte, während \u0027questions\u0027 ein Kontext ist.\\n6. Es ist nicht klar, wie die Stichwörter in Relation zueinander stehen. Es ist unklar, ob \u0027Häuser\u0027 gemalt werden oder ob die \u0027Fragen\u0027 in Bezug zu Häusern oder dem Malen stehen.\\n7. Es gibt keine passende Typkodierung für die Relationen zwischen den Stichwörtern.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [2, 0, 0],\n    [0, 4, 9],\n    [0, 8, 3]\n  ],\n  \"description\": \"GraphCode für die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 mit der Identifikation des Nutzers \u0027Maria\u0027.\"\n}\n\n\n**Erklärung:**\n- **`dictionary`**: Das Vokabular enthält die Begriffe \"maria\", \"make\" und \"appointment\".\n- **`matrix`**:\n  - `[2, 0, 0]`: \"maria\" ist im Kontext (2).\n  - `[0, 4, 9]`: \"make\" ist eine Aktivität (4) und hat eine Beziehung \"target\" zu \"appointment\" (9).\n  - `[0, 8, 3]`: \"appointment\" ist ein Objekt (3) und wird durch \"make\" ausgeführt (8)."
+}

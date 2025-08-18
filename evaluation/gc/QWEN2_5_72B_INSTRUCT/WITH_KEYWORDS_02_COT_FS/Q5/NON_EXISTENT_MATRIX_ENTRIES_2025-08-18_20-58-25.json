@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. \"Ich\" wurde zu \"maria\" zugeordnet.\n2. \"maria\", \"hat\" und \"yellow\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität.\n3. \"maria\" führt die Aktivität \"wear\" aus. Die Aktivität \"wear\" bezieht sich auf \"hat\". Die Charakteristik \"yellow\" bezieht sich auf \"hat\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 7, 0, 0],\n        [0, 4, 8, 0],\n        [0, 0, 1, 0],\n        [0, 0, 14, 0]\n    ],\n    \"description\": \"1. \\\"Ich\\\" wurde zu \\\"maria\\\" zugeordnet.\\n2. \\\"maria\\\", \\\"hat\\\" und \\\"yellow\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität.\\n3. \\\"maria\\\" führt die Aktivität \\\"wear\\\" aus. Die Aktivität \\\"wear\\\" bezieht sich auf \\\"hat\\\". Die Charakteristik \\\"yellow\\\" bezieht sich auf \\\"hat\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14.\"\n}"
+}

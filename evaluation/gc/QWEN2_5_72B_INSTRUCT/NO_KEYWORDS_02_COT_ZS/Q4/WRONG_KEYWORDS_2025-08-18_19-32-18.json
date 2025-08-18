@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "pool",
+    "swim",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: pool, schwimmen, ich/mein. 2. Der Nutzer \u0027ich\u0027 wird auf Maria referenziert. 3. Übersetzung ins Englische: pool, swim, Maria. 4. \u0027ich\u0027 und \u0027mein\u0027 werden durch \u0027Maria\u0027 ersetzt. 5. \u0027pool\u0027 ist ein Objekt (type: object), \u0027swim\u0027 ist eine Aktivität (type: activity), \u0027Maria\u0027 ist eine Person (type: context). 6. Maria (context) führt die Aktivität swim (activity) im pool (object) aus. 7. Alle Relationen haben eine passende ID in den Typkodierungen: Maria-swim (ID 4, perform), swim-pool (ID 9, target).",
+  "responsePlain": "{\n  \"dictionary\": [\"pool\", \"swim\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Stichwörter: pool, schwimmen, ich/mein. 2. Der Nutzer \u0027ich\u0027 wird auf Maria referenziert. 3. Übersetzung ins Englische: pool, swim, Maria. 4. \u0027ich\u0027 und \u0027mein\u0027 werden durch \u0027Maria\u0027 ersetzt. 5. \u0027pool\u0027 ist ein Objekt (type: object), \u0027swim\u0027 ist eine Aktivität (type: activity), \u0027Maria\u0027 ist eine Person (type: context). 6. Maria (context) führt die Aktivität swim (activity) im pool (object) aus. 7. Alle Relationen haben eine passende ID in den Typkodierungen: Maria-swim (ID 4, perform), swim-pool (ID 9, target).\"\n}"
+}

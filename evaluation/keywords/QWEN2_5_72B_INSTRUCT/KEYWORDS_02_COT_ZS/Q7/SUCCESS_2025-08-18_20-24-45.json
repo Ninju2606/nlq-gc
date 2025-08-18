@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und enthält keine eindeutigen Begriffe, die als Stichwörter in einem GraphCode verwendet werden können. Bitte stellen Sie sicher, dass die Anfrage klar und präzise formuliert ist, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Fehler bei der Verarbeitung der Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Verarbeitung der Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und enthält keine eindeutigen Begriffe, die als Stichwörter in einem GraphCode verwendet werden können. Bitte stellen Sie sicher, dass die Anfrage klar und präzise formuliert ist, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

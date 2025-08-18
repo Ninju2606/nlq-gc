@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält nur eine abstrakte Handlung ohne direkte Bezüge zu Objekten, Attribute oder Aktivitäten in einer Szene. Deshalb kann kein GraphCode generiert werden.",
+  "error": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse dargestellt werden könnten. Es fehlen relevante Informationen für die Generierung eines sinnvollen GraphCodes.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse dargestellt werden könnten. Es fehlen relevante Informationen für die Generierung eines sinnvollen GraphCodes.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält nur eine abstrakte Handlung ohne direkte Bezüge zu Objekten, Attribute oder Aktivitäten in einer Szene. Deshalb kann kein GraphCode generiert werden.\"\n}"
+}

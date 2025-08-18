@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage des Nutzers \u0027Häuser um Fragen zu malen\u0027 wurde erfolgreich verarbeitet.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"paint\", \"question\"],\n    \"description\": \"Die Anfrage des Nutzers \u0027Häuser um Fragen zu malen\u0027 wurde erfolgreich verarbeitet.\"\n}"
+}

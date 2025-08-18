@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Ermittelte Stichwörter: ich, gelben, Hut, trage. 2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: ich -\u003e Maria, gelben -\u003e yellow, Hut -\u003e hat, trage -\u003e wear. 4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 -\u003e Maria. 5. Attributeigenschaften: Maria (Person), yellow (Attribute), hat (Objekt), wear (Aktivität). 6. Relationen: Maria wear hat, hat characteristic yellow, Maria target hat. 7. Alle Relationen haben passende Typkodierungen. 8. GraphCode wurde generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 9, 4]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: ich, gelben, Hut, trage. 2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: ich -\u003e Maria, gelben -\u003e yellow, Hut -\u003e hat, trage -\u003e wear. 4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 -\u003e Maria. 5. Attributeigenschaften: Maria (Person), yellow (Attribute), hat (Objekt), wear (Aktivität). 6. Relationen: Maria wear hat, hat characteristic yellow, Maria target hat. 7. Alle Relationen haben passende Typkodierungen. 8. GraphCode wurde generiert.\"\n}"
+}

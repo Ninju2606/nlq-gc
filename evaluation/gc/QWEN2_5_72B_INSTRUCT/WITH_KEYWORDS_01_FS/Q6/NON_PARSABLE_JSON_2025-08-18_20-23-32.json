@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 7, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria is making an appointment.\"\n}\n\n\n### Explanation:\n- **Dictionary**: The given vocabulary `[\"maria\", \"make\", \"appointment\"]` is used as is.\n- **Matrix**:\n  - `1` (object) for \"maria\" (since it represents a person).\n  - `4` (activity) for \"make\" (since \"make\" is an action).\n  - `1` (object) for \"appointment\" (since it is a noun and can be considered an object in this context).\n  - The relationship between \"maria\" and \"make\" is represented by `7` (perform), indicating that Maria performs the activity of making.\n  - The relationship between \"make\" and \"appointment\" is represented by `9` (target), indicating that the target of the activity \"make\" is \"appointment\".\n- **Description**: A brief description of the scene is provided in the same language as the user\u0027s query."
+}

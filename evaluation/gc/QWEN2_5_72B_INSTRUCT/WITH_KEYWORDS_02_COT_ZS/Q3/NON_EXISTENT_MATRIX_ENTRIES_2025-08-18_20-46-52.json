@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      7,
+      0,
+      9,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Nutzerin Maria wird im Vokabular verwendet, da sie die Handlung \u0027schwimmen\u0027 ausführt und der Pool ihr gehört.\n2. \u0027maria\u0027 ist eine Person und hat den Typ \u0027object\u0027. \u0027swim\u0027 ist eine Aktivität und hat den Typ \u0027activity\u0027. \u0027own\u0027 ist eine Relation zwischen Maria und dem Pool und wird als \u0027target\u0027 kodiert. \u0027pool\u0027 ist ein Objekt und hat den Typ \u0027object\u0027.\n3. Maria führt die Aktivität \u0027swim\u0027 aus (Typ 8: perform). Der Pool ist unter Maria (Typ 7: above) und gehört Maria (Typ 9: target). \u0027own\u0027 kodiert die Relation zwischen Maria und dem Pool (Typ 5: attached).\n4. Für alle festgelegten Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 4, 0, 0],\n    [0, 0, 0, 5],\n    [7, 0, 9, 3]\n  ],\n  \"description\": \"1. Die Nutzerin Maria wird im Vokabular verwendet, da sie die Handlung \u0027schwimmen\u0027 ausführt und der Pool ihr gehört.\\n2. \u0027maria\u0027 ist eine Person und hat den Typ \u0027object\u0027. \u0027swim\u0027 ist eine Aktivität und hat den Typ \u0027activity\u0027. \u0027own\u0027 ist eine Relation zwischen Maria und dem Pool und wird als \u0027target\u0027 kodiert. \u0027pool\u0027 ist ein Objekt und hat den Typ \u0027object\u0027.\\n3. Maria führt die Aktivität \u0027swim\u0027 aus (Typ 8: perform). Der Pool ist unter Maria (Typ 7: above) und gehört Maria (Typ 9: target). \u0027own\u0027 kodiert die Relation zwischen Maria und dem Pool (Typ 5: attached).\\n4. Für alle festgelegten Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen.\"\n}"
+}

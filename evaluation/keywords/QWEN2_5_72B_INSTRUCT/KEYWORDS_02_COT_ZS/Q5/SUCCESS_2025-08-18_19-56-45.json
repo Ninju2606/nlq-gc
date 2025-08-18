@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords have been extracted, relative references resolved, and words translated to English. The user\u0027s identification \u0027Maria\u0027 has been used in place of \u0027ich\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"The keywords have been extracted, relative references resolved, and words translated to English. The user\u0027s identification \u0027Maria\u0027 has been used in place of \u0027ich\u0027.\"\n}"
+}

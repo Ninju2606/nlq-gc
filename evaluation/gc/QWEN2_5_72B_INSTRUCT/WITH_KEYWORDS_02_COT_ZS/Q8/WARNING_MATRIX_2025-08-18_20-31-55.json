@@ -1,0 +1,50 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.96,
+  "description": "1. Die Tochter des Nutzers wird als \u0027maria\u0027 identifiziert, \u0027ich\u0027 bezieht sich auf die allgemeine \u0027person\u0027, und es wird beschrieben, dass sie gemeinsam \u0027boot\u0027 fahren, wobei das Boot auf einem \u0027see\u0027 ist.\n2. \u0027maria\u0027 ist eine Person (Typ: object), \u0027person\u0027 ist ebenfalls eine Person (Typ: object), \u0027drive\u0027 ist eine Aktivität (Typ: activity), \u0027boat\u0027 ist ein Objekt (Typ: object), und \u0027lake\u0027 ist ein Kontext (Typ: context).\n3. \u0027maria\u0027 steht in einer Tochter-Beziehung zu \u0027person\u0027 (Typ: daughter). \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus, die das Ziel \u0027boat\u0027 hat (Typ: perform, target). Das \u0027boat\u0027 befindet sich über dem \u0027lake\u0027 (Typ: above).\n4. Alle Relationen haben passende Typkodierungen: Maria (1), person (1), drive (4), boat (1), lake (1), maria-person (10), person-drive (8), drive-boat (9), boat-lake (7).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 7],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Tochter des Nutzers wird als \u0027maria\u0027 identifiziert, \u0027ich\u0027 bezieht sich auf die allgemeine \u0027person\u0027, und es wird beschrieben, dass sie gemeinsam \u0027boot\u0027 fahren, wobei das Boot auf einem \u0027see\u0027 ist.\\n2. \u0027maria\u0027 ist eine Person (Typ: object), \u0027person\u0027 ist ebenfalls eine Person (Typ: object), \u0027drive\u0027 ist eine Aktivität (Typ: activity), \u0027boat\u0027 ist ein Objekt (Typ: object), und \u0027lake\u0027 ist ein Kontext (Typ: context).\\n3. \u0027maria\u0027 steht in einer Tochter-Beziehung zu \u0027person\u0027 (Typ: daughter). \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus, die das Ziel \u0027boat\u0027 hat (Typ: perform, target). Das \u0027boat\u0027 befindet sich über dem \u0027lake\u0027 (Typ: above).\\n4. Alle Relationen haben passende Typkodierungen: Maria (1), person (1), drive (4), boat (1), lake (1), maria-person (10), person-drive (8), drive-boat (9), boat-lake (7).\"\n}"
+}

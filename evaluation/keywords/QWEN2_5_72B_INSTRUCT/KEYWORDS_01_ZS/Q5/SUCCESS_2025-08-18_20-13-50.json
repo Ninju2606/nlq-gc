@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "yellow",
+    "hat",
+    "Maria",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 by user \u0027Maria\u0027 has been successfully processed.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow\", \"hat\", \"Maria\", \"wear\"],\n  \"description\": \"The query \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 by user \u0027Maria\u0027 has been successfully processed.\"\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Potenzielle Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027. 2. Es gibt keine relativen Verweise in der Anfrage. 3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, daher ignoriert die Identifikation von Maria. 5. Tim ist ein Objekt (Typ 1), und rennt (run) ist eine Aktivität (Typ 4). 6. Die Relation zwischen Tim und run ist, dass Tim die Aktivität durchführt. 7. Die entsprechende ID für die Relation zwischen Tim (Objekt) und run (Aktivität) ist 4 (perform).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 4],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027. 2. Es gibt keine relativen Verweise in der Anfrage. 3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, daher ignoriert die Identifikation von Maria. 5. Tim ist ein Objekt (Typ 1), und rennt (run) ist eine Aktivität (Typ 4). 6. Die Relation zwischen Tim und run ist, dass Tim die Aktivität durchführt. 7. Die entsprechende ID für die Relation zwischen Tim (Objekt) und run (Aktivität) ist 4 (perform).\"\n}"
+}

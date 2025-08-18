@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der Nutzer Maria hat eine Szenenbeschreibung im Metaverse abgegeben: \u0027Ich spiele Basketball\u0027. Das Vokabular enthält die Wörter \u0027maria\u0027, \u0027play\u0027 und \u0027basketball\u0027. \u0027Maria\u0027 wird als Objekt (ID 1) behandelt, da es sich um die Identifikation des Nutzers handelt. \u0027Play\u0027 ist eine Aktivität (ID 4), und \u0027basketball\u0027 ist das Ziel der Aktivität (ID 1). Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 wird durch ID 8 (perform) dargestellt, und die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 wird durch ID 9 (target) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer Maria hat eine Szenenbeschreibung im Metaverse abgegeben: \u0027Ich spiele Basketball\u0027. Das Vokabular enthält die Wörter \u0027maria\u0027, \u0027play\u0027 und \u0027basketball\u0027. \u0027Maria\u0027 wird als Objekt (ID 1) behandelt, da es sich um die Identifikation des Nutzers handelt. \u0027Play\u0027 ist eine Aktivität (ID 4), und \u0027basketball\u0027 ist das Ziel der Aktivität (ID 1). Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 wird durch ID 8 (perform) dargestellt, und die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 wird durch ID 9 (target) dargestellt.\"\n}"
+}

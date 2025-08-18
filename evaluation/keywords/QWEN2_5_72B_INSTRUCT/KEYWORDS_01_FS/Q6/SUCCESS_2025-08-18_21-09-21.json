@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage entspricht eher einem allgemeinen Satz und beschreibt keine spezifische Szene im Metaverse. Dennoch wird der Begriff \u0027appointment\u0027 (Termin) im Vokabular berücksichtigt.",
+  "responsePlain": "{\n    \"dictionary\": [\n        \"appointment\"\n    ],\n    \"description\": \"Die Anfrage entspricht eher einem allgemeinen Satz und beschreibt keine spezifische Szene im Metaverse. Dennoch wird der Begriff \u0027appointment\u0027 (Termin) im Vokabular berücksichtigt.\"\n}"
+}

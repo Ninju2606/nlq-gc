@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the query: \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 with user identification: Maria",
+  "responsePlain": "{\n    \"dictionary\": [\"daughter\", \"Maria\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 1, 8, 0],\n        [0, 9, 1, 0],\n        [0, 0, 0, 2]\n    ],\n    \"description\": \"GraphCode for the query: \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 with user identification: Maria\"\n}"
+}

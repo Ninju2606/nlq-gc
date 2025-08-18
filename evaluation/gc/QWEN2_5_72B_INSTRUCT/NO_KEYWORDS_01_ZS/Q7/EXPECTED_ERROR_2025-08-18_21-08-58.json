@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      9
+    ],
+    [
+      5,
+      2,
+      0
+    ],
+    [
+      9,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the scene where houses are surrounded by questions to paint.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 5, 9],\n    [5, 2, 0],\n    [9, 0, 4]\n  ],\n  \"description\": \"GraphCode for the scene where houses are surrounded by questions to paint.\"\n}"
+}

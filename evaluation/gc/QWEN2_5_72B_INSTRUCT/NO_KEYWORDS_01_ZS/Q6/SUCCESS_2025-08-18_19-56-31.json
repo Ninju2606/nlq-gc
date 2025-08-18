@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine Situation ohne spezifische Objekte, Attribute oder Aktivitäten im Metaverse.",
+  "error": "Die Anfrage enthält keine informationen über Objekte, Attribute oder Aktivitäten in einer Metaverse-Szene.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine informationen über Objekte, Attribute oder Aktivitäten in einer Metaverse-Szene.\",\n  \"description\": \"Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine Situation ohne spezifische Objekte, Attribute oder Aktivitäten im Metaverse.\"\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Szene: Tim rennt",
+  "responsePlain": "{\n    \"dictionary\": [\"run\"],\n    \"description\": \"GraphCode für die Szene: Tim rennt\"\n}"
+}

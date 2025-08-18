@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es wurden keine potenziellen Stichwörter aus der Nutzeranfrage ermittelt, die eine Szenenbeschreibung im Metaverse betreffen. 2. Es gab keine relativen Verweise zu lösen. 3. Da es keine relevanten Stichwörter gab, war eine Übersetzung ins Englische nicht erforderlich. 4. Es gab keine Identifikation des Nutzers in der Anfrage. 5. Es sind keine Attributeigenschaften zu erklären. 6. Es gibt keine Relationen zwischen den Stichwörtern. 7. Da es keine relevanten Stichwörter oder Relationen gab, konnte keine Überprüfung der Typkodierungen durchgeführt werden.",
+  "error": "Die Anfrage enthält keine Szenenbeschreibung im Metaverse und keine klar identifizierbaren Objekte, Attribute oder Aktivitäten.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Szenenbeschreibung im Metaverse und keine klar identifizierbaren Objekte, Attribute oder Aktivitäten.\",\n  \"description\": \"1. Es wurden keine potenziellen Stichwörter aus der Nutzeranfrage ermittelt, die eine Szenenbeschreibung im Metaverse betreffen. 2. Es gab keine relativen Verweise zu lösen. 3. Da es keine relevanten Stichwörter gab, war eine Übersetzung ins Englische nicht erforderlich. 4. Es gab keine Identifikation des Nutzers in der Anfrage. 5. Es sind keine Attributeigenschaften zu erklären. 6. Es gibt keine Relationen zwischen den Stichwörtern. 7. Da es keine relevanten Stichwörter oder Relationen gab, konnte keine Überprüfung der Typkodierungen durchgeführt werden.\"\n}"
+}

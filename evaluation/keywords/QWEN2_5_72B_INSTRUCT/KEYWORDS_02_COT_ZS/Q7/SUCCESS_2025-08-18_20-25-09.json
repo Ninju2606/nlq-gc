@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Schlüsselwörter, die auf ein spezifisches Szenario im Metaverse hinweisen. Es ist nicht klar, ob \u0027Häuser\u0027 die Objekte, \u0027Fragen\u0027 die Aktivitäten oder etwas anderes darstellen. Zudem fehlt der Kontext, was \u0027zu malen\u0027 bedeutet. Bitte präzisieren Sie die Anfrage.",
+  "error": "Die Anfrage \"Häuser um Fragen zu malen\" ist unklar und enthält nicht genug Informationen für einen sinnvollen GraphCode.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist unklar und enthält nicht genug Informationen für einen sinnvollen GraphCode.\",\n  \"description\": \"Die Anfrage enthält keine klaren Schlüsselwörter, die auf ein spezifisches Szenario im Metaverse hinweisen. Es ist nicht klar, ob \u0027Häuser\u0027 die Objekte, \u0027Fragen\u0027 die Aktivitäten oder etwas anderes darstellen. Zudem fehlt der Kontext, was \u0027zu malen\u0027 bedeutet. Bitte präzisieren Sie die Anfrage.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The potential keywords have been identified and translated into English. The user reference \u0027ich\u0027 has been replaced with the user\u0027s identification \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"description\": \"The potential keywords have been identified and translated into English. The user reference \u0027ich\u0027 has been replaced with the user\u0027s identification \u0027Maria\u0027.\"\n}"
+}

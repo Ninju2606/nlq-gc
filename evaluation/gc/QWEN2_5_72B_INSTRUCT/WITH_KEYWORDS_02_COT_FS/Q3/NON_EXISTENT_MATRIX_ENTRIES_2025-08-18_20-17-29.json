@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise außer \u0027mein\u0027, das auf \u0027Maria\u0027 und \u0027pool\u0027 bezieht sich. \u0027Ich\u0027 wurde zu \u0027Maria\u0027 zugeordnet.\n2. \u0027Maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 ist eine Charakteristik.\n3. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027Maria\u0027 steht in Verbindung zu \u0027pool\u0027. Die Charakteristik \u0027own\u0027 bezieht sich auf \u0027pool\u0027.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Charakteristik (characteristic) ist 14. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 4, 0, 8],\n        [0, 0, 14, 0],\n        [0, 8, 0, 1]\n    ],\n    \"description\": \"1. Es gibt keine relativen Verweise außer \u0027mein\u0027, das auf \u0027Maria\u0027 und \u0027pool\u0027 bezieht sich. \u0027Ich\u0027 wurde zu \u0027Maria\u0027 zugeordnet.\\n2. \u0027Maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 ist eine Charakteristik.\\n3. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027Maria\u0027 steht in Verbindung zu \u0027pool\u0027. Die Charakteristik \u0027own\u0027 bezieht sich auf \u0027pool\u0027.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Charakteristik (characteristic) ist 14. Die ID für Beziehen (target) ist 8.\"\n}"
+}

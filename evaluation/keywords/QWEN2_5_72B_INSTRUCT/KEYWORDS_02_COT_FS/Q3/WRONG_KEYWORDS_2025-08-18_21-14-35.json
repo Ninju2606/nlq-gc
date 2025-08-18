@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\". 2. Es gibt eine Selbstidentifikation des Nutzers durch \\\"Ich\\\" und \\\"mir\\\". 3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\\\\\"Ich\\\\\\\", \\\\\\\"schwimme\\\\\\\", \\\\\\\"Pool\\\\\\\", \\\\\\\"gehört\\\\\\\". 2. Es gibt eine Selbstidentifikation des Nutzers durch \\\\\\\"Ich\\\\\\\" und \\\\\\\"mir\\\\\\\". 3. Die englischen Stichwörter sind \\\\\\\"Maria\\\\\\\", \\\\\\\"swim\\\\\\\", \\\\\\\"pool\\\\\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\\\\\"Maria\\\\\\\", \\\\\\\"swim\\\\\\\", \\\\\\\"pool\\\\\\\".\"\n}"
+}

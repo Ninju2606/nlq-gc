@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Um die Anfrage \"Ich spiele Basketball\" in einen GraphCode nach Wagenpfeil zu übersetzen, müssen wir die Wörter als Knoten (Reihen und Spalten in der Adjazenzmatrix) und die Beziehungen zwischen ihnen als Werte in der Matrix codieren. Hier ist die JSON-Darstellung:\n\n\n{\n  \"dictionary\": [\"Ich\", \"spiele\", \"Basketball\"],\n  \"matrix\": [\n    [0, 8, 0],\n    [0, 0, 9],\n    [0, 0, 0]\n  ]\n}\n\n\nErklärung:\n- \"Ich\" (1. Knoten) führt die Aktivität \"spiele\" (2. Knoten) aus, daher der Wert 8 (Typ \"perform\") an der Position (1, 2).\n- \"spiele\" (2. Knoten) hat \"Basketball\" (3. Knoten) als Ziel, daher der Wert 9 (Typ \"target\") an der Position (2, 3).\n- Alle anderen Positionen in der Matrix sind 0, da es keine weiteren Beziehungen zwischen den Knoten gibt."
+}

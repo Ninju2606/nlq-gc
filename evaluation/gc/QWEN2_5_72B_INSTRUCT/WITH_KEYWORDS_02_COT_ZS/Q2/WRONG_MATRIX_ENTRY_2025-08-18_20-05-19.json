@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      9
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Maria hat die Anfrage \u0027Tim rennt\u0027 gestellt. Tim wird durch die Identifikation des Nutzers ersetzt, da es sich um eine Aktivität handelt, die von der genannten Person ausgeführt wird. 2. Tim wird als Objekt (Typ 1) und rennt wird als Aktivität (Typ 4) identifiziert. 3. Die Relation zwischen Tim und rennt ist, dass Tim die Aktivität \u0027rennt\u0027 ausführt. 4. Für die Relation zwischen Tim und rennt gibt es eine passende Typkodierung mit der ID 9 (target). Die Typkodierungen für Tim (1) und rennt (4) sind ebenfalls vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 9],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat die Anfrage \u0027Tim rennt\u0027 gestellt. Tim wird durch die Identifikation des Nutzers ersetzt, da es sich um eine Aktivität handelt, die von der genannten Person ausgeführt wird. 2. Tim wird als Objekt (Typ 1) und rennt wird als Aktivität (Typ 4) identifiziert. 3. Die Relation zwischen Tim und rennt ist, dass Tim die Aktivität \u0027rennt\u0027 ausführt. 4. Für die Relation zwischen Tim und rennt gibt es eine passende Typkodierung mit der ID 9 (target). Die Typkodierungen für Tim (1) und rennt (4) sind ebenfalls vorhanden.\"\n}"
+}

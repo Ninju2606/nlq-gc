@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine allgemeine Koordinationsfrage und enthält keine Elemente, die für die Erstellung eines GraphCodes im Kontext der Metaverse-Situation geeignet sind.",
+  "error": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in der Metaverse-Szene relevant sind.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in der Metaverse-Szene relevant sind.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine allgemeine Koordinationsfrage und enthält keine Elemente, die für die Erstellung eines GraphCodes im Kontext der Metaverse-Situation geeignet sind.\"\n}"
+}

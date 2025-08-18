@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "owner"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"/schwimme/\", \"/Pool/\", \"/gehört/\". 2. \"/Mein/\" ist ein relativer Verweis. Die neuen Stichwörter sind \"/Ich/\", \"/schwimme/\", \"/Pool/\", \"/gehört/\". 3. Die englischen Stichwörter sind \"/swim/\", \"/pool/\", \"/owner/\". 4. Die Stichwörter mit Nutzeridentifikation sind \"/Maria/\", \"/swim/\", \"/pool/\", \"/owner/\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"owner\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"/schwimme/\\\", \\\"/Pool/\\\", \\\"/gehört/\\\". 2. \\\"/Mein/\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\"/Ich/\\\", \\\"/schwimme/\\\", \\\"/Pool/\\\", \\\"/gehört/\\\". 3. Die englischen Stichwörter sind \\\"/swim/\\\", \\\"/pool/\\\", \\\"/owner/\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"/Maria/\\\", \\\"/swim/\\\", \\\"/pool/\\\", \\\"/owner/\\\".\"\n}"
+}

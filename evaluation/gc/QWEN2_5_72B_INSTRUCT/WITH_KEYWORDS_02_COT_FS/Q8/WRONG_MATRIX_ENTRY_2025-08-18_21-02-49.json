@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Es gibt keine relativen Verweise. „Meine Tochter“ wurde zu „maria“ und „person“. „Ich“ wurde zu „maria“.\n2. „maria“ und „person“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. „boat“ und „lake“ sind Objekte.\n3. „maria“ (als Person) führt die Aktivität „drive“ aus. „maria“ (als Person) führt die Aktivität „drive“ auf „boat“ aus. „boat“ befindet sich auf „lake“.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 0, 7, 0, 0],\n        [0, 1, 7, 0, 0],\n        [0, 0, 4, 8, 0],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"1. Es gibt keine relativen Verweise. „Meine Tochter“ wurde zu „maria“ und „person“. „Ich“ wurde zu „maria“.\\n2. „maria“ und „person“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. „boat“ und „lake“ sind Objekte.\\n3. „maria“ (als Person) führt die Aktivität „drive“ aus. „maria“ (als Person) führt die Aktivität „drive“ auf „boat“ aus. „boat“ befindet sich auf „lake“.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.\"\n}"
+}

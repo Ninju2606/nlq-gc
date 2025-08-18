@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Es gibt keine relativen Verweise. Das Wort \"ich\" wurde zu \"maria\". \n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist ein Kontext. \n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". \"pool\" hat den Kontext \"own\". \n4. Die ID für Objekt (\"object\") ist 1. Die ID für Aktivität (\"activity\") ist 4. Die ID für Kontext (\"context\") ist 2. Die ID für Ausführen (\"perform\") ist 7. Die ID für Beziehen (\"target\") ist 8.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 7, 0, 0], [0, 4, 0, 8], [0, 0, 2, 0], [0, 0, 0, 1]],\n    \"description\": \"1. Es gibt keine relativen Verweise. Das Wort \\u0022ich\\u0022 wurde zu \\u0022maria\\u0022. \\n2. \\u0022maria\\u0022 und \\u0022pool\\u0022 sind Objekte der Anfrage. \\u0022swim\\u0022 ist eine Aktivit\\u00e4t. \\u0022own\\u0022 ist ein Kontext. \\n3. \\u0022maria\\u0022 f\\u00fchrt die Aktivit\\u00e4t \\u0022swim\\u0022 aus. \\u0022swim\\u0022 bezieht sich auf \\u0022pool\\u0022. \\u0022pool\\u0022 hat den Kontext \\u0022own\\u0022. \\n4. Die ID f\\u00fcr Objekt (\\u0022object\\u0022) ist 1. Die ID f\\u00fcr Aktivit\\u00e4t (\\u0022activity\\u0022) ist 4. Die ID f\\u00fcr Kontext (\\u0022context\\u0022) ist 2. Die ID f\\u00fcr Ausf\\u00fchren (\\u0022perform\\u0022) ist 7. Die ID f\\u00fcr Beziehen (\\u0022target\\u0022) ist 8.\"\n}"
+}

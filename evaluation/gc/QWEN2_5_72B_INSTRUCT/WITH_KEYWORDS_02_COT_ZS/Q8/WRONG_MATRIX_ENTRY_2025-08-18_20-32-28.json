@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Der Nutzer Maria wird im Vokabular als \u0027maria\u0027 dargestellt, und \u0027ich\u0027 wurde auf Maria zugeordnet. \u0027Tochter\u0027 wird als \u0027person\u0027 dargestellt. 2. \u0027maria\u0027 ist ein Person (context), \u0027person\u0027 ist ebenfalls ein Person (context), \u0027drive\u0027 ist eine Aktivität (activity), \u0027boat\u0027 ist ein Objekt (object) und \u0027lake\u0027 ist ein Objekt (object). 3. \u0027maria\u0027 und \u0027person\u0027 (Tochter) sind nicht direkt in Relation, \u0027drive\u0027 (fahren) ist eine Aktivität, die von \u0027maria\u0027 durchgeführt wird, \u0027boat\u0027 (Boot) ist das Ziel der Aktivität \u0027drive\u0027, und \u0027lake\u0027 (See) ist das Kontext, in dem die Aktivität stattfindet. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: \u0027maria\u0027 (2, context), \u0027person\u0027 (2, context), \u0027drive\u0027 (4, activity), \u0027boat\u0027 (1, object), \u0027lake\u0027 (1, object). 5. Die Bewertungsmatrix wurde entsprechend gefüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [2, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria wird im Vokabular als \u0027maria\u0027 dargestellt, und \u0027ich\u0027 wurde auf Maria zugeordnet. \u0027Tochter\u0027 wird als \u0027person\u0027 dargestellt. 2. \u0027maria\u0027 ist ein Person (context), \u0027person\u0027 ist ebenfalls ein Person (context), \u0027drive\u0027 ist eine Aktivität (activity), \u0027boat\u0027 ist ein Objekt (object) und \u0027lake\u0027 ist ein Objekt (object). 3. \u0027maria\u0027 und \u0027person\u0027 (Tochter) sind nicht direkt in Relation, \u0027drive\u0027 (fahren) ist eine Aktivität, die von \u0027maria\u0027 durchgeführt wird, \u0027boat\u0027 (Boot) ist das Ziel der Aktivität \u0027drive\u0027, und \u0027lake\u0027 (See) ist das Kontext, in dem die Aktivität stattfindet. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: \u0027maria\u0027 (2, context), \u0027person\u0027 (2, context), \u0027drive\u0027 (4, activity), \u0027boat\u0027 (1, object), \u0027lake\u0027 (1, object). 5. Die Bewertungsmatrix wurde entsprechend gefüllt.\"\n}"
+}

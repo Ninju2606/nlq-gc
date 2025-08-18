@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria hat nach Häusern gefragt, die zum Malen dienen.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"paint\"],\n    \"description\": \"Maria hat nach Häusern gefragt, die zum Malen dienen.\"\n}"
+}

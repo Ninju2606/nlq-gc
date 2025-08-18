@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      6,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Ich“, „schwimme“, „Pool“ und „gehört“. 2. „Ich“ ist ein relativer Verweis. Die neuen Stichwörter sind „Maria“, „swim“, „pool“ und „own“. 3. Die englischen Stichwörter sind „Maria“, „swim“, „pool“ und „own“. 4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „swim“, „pool“ und „own“. 5. „Maria“ und „pool“ sind Objekte der Anfrage. „swim“ ist eine Aktivität. „own“ ist ein Kontext. 6. „Maria“ führt die Aktivität „swim“ aus. „Maria“ befindet sich in „pool“. „pool“ gehört zu „Maria“. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für in (in) ist 6. Die ID für Ausführen (perform) ist 7. Die ID für gehören (target) ist 8. Die ID für Kontext (context) ist 3.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 7, 6, 0],\n    [0, 9, 0, 8],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Ich“, „schwimme“, „Pool“ und „gehört“. 2. „Ich“ ist ein relativer Verweis. Die neuen Stichwörter sind „Maria“, „swim“, „pool“ und „own“. 3. Die englischen Stichwörter sind „Maria“, „swim“, „pool“ und „own“. 4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „swim“, „pool“ und „own“. 5. „Maria“ und „pool“ sind Objekte der Anfrage. „swim“ ist eine Aktivität. „own“ ist ein Kontext. 6. „Maria“ führt die Aktivität „swim“ aus. „Maria“ befindet sich in „pool“. „pool“ gehört zu „Maria“. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für in (in) ist 6. Die ID für Ausführen (perform) ist 7. Die ID für gehören (target) ist 8. Die ID für Kontext (context) ist 3.\"\n}"
+}

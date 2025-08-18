@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. \"Meine Tochter\" wurde zu den Stichwörtern \"person\" (im Kontext der User-Identifikation Maria) und \"daughter\" (als Beziehung). \"Ich\" wurde zu \"maria\".\n2. \"maria\" und \"person\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität. \"boat\" und \"lake\" sind weitere Objekte.\n3. \"person\" (Tochter) ist Tochter von \"maria\". \"maria\" führt die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich auf \"lake\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Tochter (daughter) ist 10. Die ID für Beziehen (target) ist 8. Die ID für auf (above) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 7, 0, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. \\\"Meine Tochter\\\" wurde zu den Stichwörtern \\\"person\\\" (im Kontext der User-Identifikation Maria) und \\\"daughter\\\" (als Beziehung). \\\"Ich\\\" wurde zu \\\"maria\\\".\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind weitere Objekte.\\n3. \\\"person\\\" (Tochter) ist Tochter von \\\"maria\\\". \\\"maria\\\" führt die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Tochter (daughter) ist 10. Die ID für Beziehen (target) ist 8. Die ID für auf (above) ist 6.\"\n}"
+}

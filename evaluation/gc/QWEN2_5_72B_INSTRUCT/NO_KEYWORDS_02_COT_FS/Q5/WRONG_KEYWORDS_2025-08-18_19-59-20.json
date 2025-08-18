@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow hat"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      8
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"ich\", \"trage\", \"gelben Hut\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \"I\", \"wear\", \"yellow hat\". 4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"wear\", \"yellow hat\". 5. \"Maria\" und \"yellow hat\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität. 6. \"Maria\" führt die Aktivität \"wear\" aus. \"wear\" bezieht sich auf \"yellow hat\". 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Ausführen (perform) ist 7.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow hat\"],\n  \"matrix\": [[1, 7, 8], [0, 9, 0], [0, 0, 1]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"ich\\\", \\\"trage\\\", \\\"gelben Hut\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"I\\\", \\\"wear\\\", \\\"yellow hat\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"wear\\\", \\\"yellow hat\\\". 5. \\\"Maria\\\" und \\\"yellow hat\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität. 6. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus. \\\"wear\\\" bezieht sich auf \\\"yellow hat\\\". 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Ausführen (perform) ist 7.\"\n}"
+}

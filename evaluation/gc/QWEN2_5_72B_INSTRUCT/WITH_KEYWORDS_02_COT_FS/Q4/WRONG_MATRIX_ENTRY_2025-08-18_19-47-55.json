@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      8
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Es gibt keine relativen Verweise. \u0027Ich\u0027 wurde zu \u0027Maria\u0027.\n2. \u0027Maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 ist ein Kontext.\n3. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027swim\u0027 bezieht sich auf \u0027pool\u0027. \u0027pool\u0027 ist in einem Kontext von \u0027own\u0027.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 7, 0, 8],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. \u0027Ich\u0027 wurde zu \u0027Maria\u0027.\\n2. \u0027Maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 ist ein Kontext.\\n3. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027swim\u0027 bezieht sich auf \u0027pool\u0027. \u0027pool\u0027 ist in einem Kontext von \u0027own\u0027.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2.\"\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden erfolgreich generiert und auf Englisch übersetzt. Das Wort \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"play\", \"basketball\"],\n  \"description\": \"Stichwörter wurden erfolgreich generiert und auf Englisch übersetzt. Das Wort \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\"\n}"
+}

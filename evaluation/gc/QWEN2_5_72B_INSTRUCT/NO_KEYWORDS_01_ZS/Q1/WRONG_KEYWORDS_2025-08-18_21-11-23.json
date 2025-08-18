@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "I",
+    "play",
+    "Basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene im Metaverse, in der Maria Basketball spielt.",
+  "responsePlain": "{\n    \"dictionary\": [\"I\", \"play\", \"Basketball\"],\n    \"matrix\": [\n        [1, 0, 0],\n        [0, 4, 9],\n        [0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode beschreibt eine Szene im Metaverse, in der Maria Basketball spielt.\"\n}"
+}

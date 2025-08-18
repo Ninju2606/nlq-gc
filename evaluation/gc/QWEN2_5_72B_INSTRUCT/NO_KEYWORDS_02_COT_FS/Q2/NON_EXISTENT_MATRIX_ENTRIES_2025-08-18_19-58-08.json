@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\", \"rennt\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \"Tim\", \"run\". 4. Da in der Anfrage kein selbst identifizierendes Wort wie \"ich\", \"mein\" oder \"mir\" verwendet wird, wird die Nutzeridentifikation nicht berücksichtigt. 5. \"Tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität. 6. \"Tim\" führt die Aktivität \"run\" aus. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 7],\n    [0, 9]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\", \\\"rennt\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"Tim\\\", \\\"run\\\". 4. Da in der Anfrage kein selbst identifizierendes Wort wie \\\"ich\\\", \\\"mein\\\" oder \\\"mir\\\" verwendet wird, wird die Nutzeridentifikation nicht berücksichtigt. 5. \\\"Tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität. 6. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7.\"\n}"
+}

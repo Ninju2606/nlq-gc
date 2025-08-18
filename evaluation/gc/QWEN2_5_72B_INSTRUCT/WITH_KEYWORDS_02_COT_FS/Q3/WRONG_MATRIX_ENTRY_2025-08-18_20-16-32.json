@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      8
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. \"Ich\" wurde zu \"Maria\" zugeordnet.\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist eine Aktivität oder Charakteristik.\n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". \"maria\" besitzt den \"pool\" (charakteristisch oder Ziel der Aktivität).\n4. Die ID für Objekt (object) ist 1. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Da \"own\" sowohl als Aktivität als auch als Charakteristik interpretiert werden kann, wird es als Charakteristik mit der ID 14 interpretiert.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 7, 0, 8],\n        [0, 4, 0, 0],\n        [0, 0, 1, 0],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"1. \\\"Ich\\\" wurde zu \\\"Maria\\\" zugeordnet.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist eine Aktivität oder Charakteristik.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"maria\\\" besitzt den \\\"pool\\\" (charakteristisch oder Ziel der Aktivität).\\n4. Die ID für Objekt (object) ist 1. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Da \\\"own\\\" sowohl als Aktivität als auch als Charakteristik interpretiert werden kann, wird es als Charakteristik mit der ID 14 interpretiert.\"\n}"
+}

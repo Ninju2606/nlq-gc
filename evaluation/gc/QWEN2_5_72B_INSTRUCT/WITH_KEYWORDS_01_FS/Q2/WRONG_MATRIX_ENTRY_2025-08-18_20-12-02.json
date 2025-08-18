@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "GraphCode for the query \u0027Tim rennt\u0027 with the user identified as Maria.",
+  "responsePlain": "{\n    \"dictionary\": [\"tim\", \"run\"],\n    \"matrix\": [\n        [1, 7],\n        [0, 4]\n    ],\n    \"description\": \"GraphCode for the query \u0027Tim rennt\u0027 with the user identified as Maria.\"\n}"
+}

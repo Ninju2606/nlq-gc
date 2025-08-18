@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich spiele Basketball\u0027 wurde verarbeitet und das Vokabular für den GraphCode generiert.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Die Anfrage \u0027Ich spiele Basketball\u0027 wurde verarbeitet und das Vokabular für den GraphCode generiert.\"\n}"
+}

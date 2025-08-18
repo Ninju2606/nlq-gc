@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält nicht genügend Informationen für eine sinnvolle Szenenbeschreibung im Metaverse. Es werden keine klaren Objekte, Attribute oder Aktivitäten identifiziert, die in einer Szene vorkommen könnten.",
+  "error": "Unsufficient information for GraphCode generation",
+  "responsePlain": "{\n  \"error\": \"Unsufficient information for GraphCode generation\",\n  \"description\": \"Die Anfrage enthält nicht genügend Informationen für eine sinnvolle Szenenbeschreibung im Metaverse. Es werden keine klaren Objekte, Attribute oder Aktivitäten identifiziert, die in einer Szene vorkommen könnten.\"\n}"
+}
