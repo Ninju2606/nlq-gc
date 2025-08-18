@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir m%C3%BCssen bald einen Termin ausmachen.\u0027 enth%C3%A4lt keine eindeutigen Begriffe, die mit den gegebenen Typkodierungen (z.B. \u0027object\u0027, \u0027context\u0027, \u0027synonym\u0027, \u0027activity\u0027, \u0027attached\u0027, etc.) in Beziehung gesetzt werden k%C3%B6nnen. Zudem fehlen klare Relationen zwischen den Begriffen des Vokabulars (\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027), um eine sinnvolle Bewertungsmatrix zu erstellen.",
+  "error": "No valid GraphCode could be generated",
+  "responsePlain": "{\n  \"error\": \"No valid GraphCode could be generated\",\n  \"description\": \"Die Anfrage \u0027Wir m%C3%BCssen bald einen Termin ausmachen.\u0027 enth%C3%A4lt keine eindeutigen Begriffe, die mit den gegebenen Typkodierungen (z.B. \u0027object\u0027, \u0027context\u0027, \u0027synonym\u0027, \u0027activity\u0027, \u0027attached\u0027, etc.) in Beziehung gesetzt werden k%C3%B6nnen. Zudem fehlen klare Relationen zwischen den Begriffen des Vokabulars (\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027), um eine sinnvolle Bewertungsmatrix zu erstellen.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klaren, identifizierbaren Begriffe wie Objekte, Attribute oder Aktivitäten, die in den GraphCode übertragen werden können. Die Phrase ist zu vage und enthält keine konkreten Szenenbeschreibungen.",
+  "error": "Keine gültigen Begriffe für den GraphCode identifiziert",
+  "responsePlain": "{\n  \"error\": \"Keine gültigen Begriffe für den GraphCode identifiziert\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klaren, identifizierbaren Begriffe wie Objekte, Attribute oder Aktivitäten, die in den GraphCode übertragen werden können. Die Phrase ist zu vage und enthält keine konkreten Szenenbeschreibungen.\"\n}"
+}

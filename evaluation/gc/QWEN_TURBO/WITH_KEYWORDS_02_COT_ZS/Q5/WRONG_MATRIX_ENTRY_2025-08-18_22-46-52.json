@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt. Der Nutzer bezieht sich auf sich selbst, weshalb \u0027Maria\u0027 als Schlüsselbegriff verwendet wird.\n2. Die Attribute der Stichwörter:\n   - \u0027maria\u0027 ist ein Objekt (Typ: object, ID 1)\n   - \u0027wear\u0027 ist eine Aktivität (Typ: activity, ID 4)\n   - \u0027hat\u0027 ist ein Kontext (Typ: context, ID 2)\n   - \u0027yellow\u0027 ist ein Attribut (Typ: characteristic, ID 14)\n3. Beziehungen:\n   - \u0027maria\u0027 trägt \u0027hat\u0027 (Typ: context, ID 2)\n   - \u0027maria\u0027 betreibt die Aktivität \u0027wear\u0027 (Typ: activity, ID 4)\n   - \u0027hat\u0027 ist ein Attribut des Objekts \u0027maria\u0027 (Typ: context, ID 2)\n   - \u0027yellow\u0027 beschreibt das Attribut \u0027hat\u0027 (Typ: characteristic, ID 14)\n4. Für alle Relationen existieren passende Typkodierungen:\n   - \u0027maria\u0027 → \u0027hat\u0027 (ID 2)\n   - \u0027maria\u0027 → \u0027wear\u0027 (ID 4)\n   - \u0027hat\u0027 → \u0027yellow\u0027 (ID 14)\n5. Der GraphCode besteht aus dem gegebenen Vokabular und einer 4x4-Bewertungsmatrix, in der die identitätsmappbaren Typen auf der Diagonalen stehen und relationale Typen außerhalb der Diagonalen (0 oder nicht-identitätsmappbare Typen) enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt. Der Nutzer bezieht sich auf sich selbst, weshalb \u0027Maria\u0027 als Schlüsselbegriff verwendet wird.\\n2. Die Attribute der Stichwörter:\\n   - \u0027maria\u0027 ist ein Objekt (Typ: object, ID 1)\\n   - \u0027wear\u0027 ist eine Aktivität (Typ: activity, ID 4)\\n   - \u0027hat\u0027 ist ein Kontext (Typ: context, ID 2)\\n   - \u0027yellow\u0027 ist ein Attribut (Typ: characteristic, ID 14)\\n3. Beziehungen:\\n   - \u0027maria\u0027 trägt \u0027hat\u0027 (Typ: context, ID 2)\\n   - \u0027maria\u0027 betreibt die Aktivität \u0027wear\u0027 (Typ: activity, ID 4)\\n   - \u0027hat\u0027 ist ein Attribut des Objekts \u0027maria\u0027 (Typ: context, ID 2)\\n   - \u0027yellow\u0027 beschreibt das Attribut \u0027hat\u0027 (Typ: characteristic, ID 14)\\n4. Für alle Relationen existieren passende Typkodierungen:\\n   - \u0027maria\u0027 → \u0027hat\u0027 (ID 2)\\n   - \u0027maria\u0027 → \u0027wear\u0027 (ID 4)\\n   - \u0027hat\u0027 → \u0027yellow\u0027 (ID 14)\\n5. Der GraphCode besteht aus dem gegebenen Vokabular und einer 4x4-Bewertungsmatrix, in der die identitätsmappbaren Typen auf der Diagonalen stehen und relationale Typen außerhalb der Diagonalen (0 oder nicht-identitätsmappbare Typen) enthalten.\"\n}"
+}

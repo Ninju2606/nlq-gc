@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "boat",
+    "lake",
+    "person"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Schlüsselwörter des Vokabulars wurden basierend auf der Nutzeranfrage extrahiert.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"person\"\n  ],\n  \"description\": \"Die Schlüsselwörter des Vokabulars wurden basierend auf der Nutzeranfrage extrahiert.\"\n}"
+}

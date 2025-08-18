@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Termin\": 0,\n    \"ausmachen\": 1,\n    \"Wir\": 2,\n    \"m%C3%BCssen\": 3,\n    \"bald\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\nIn diesem Beispiel ist die ursprüngliche Anfrage **\"Wir müsssen bald einen Termin ausmachen.\"** so formuliert, dass **keine Beziehungen** zwischen den Begriffen wie `Termin`, `ausmachen`, `Wir`, `müssen`, und `bald` **durch die definierten Typkodierungen** erkannt werden konnten. Daher ist die ganze **Adjazenzmatrix** mit Nullen gefüllt, was bedeutet, dass **keine Beziehungen** im Text identifiziert wurden.\n\nWenn du eine **konkrete Beziehung** im Text angeben würdest (z. B. „**Termin** ist **Ziel** von **ausmachen**“), könnte ich die **Matrix entsprechend mit den Typwerten** (z. B. 9 für `target`) füllen. Lass mich wissen, wenn du ein solches Beispiel hast!"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Es wird die Beziehung \u0027perform\u0027 zwischen Maria und \u0027yellow\u0027 sowie \u0027hat\u0027 und \u0027situation\u0027 definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"situation\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Es wird die Beziehung \u0027perform\u0027 zwischen Maria und \u0027yellow\u0027 sowie \u0027hat\u0027 und \u0027situation\u0027 definiert.\"\n}"
+}

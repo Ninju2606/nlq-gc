@@ -1,0 +1,29 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer explizit seine Identität angibt.\n2. Die Attribute der Stichwörter sind wie folgt:\n   - \u0027maria\u0027: object (Identität des Nutzers)\n   - \u0027play\u0027: activity (Handlung/Activität)\n   - \u0027basketball\u0027: object (Gegenstand/Objekt)\n3. Die Relationen sind:\n   - \u0027maria\u0027 und \u0027play\u0027: Die Beziehung ist \u0027perform\u0027 (aus der Typkodierung mit ID 8), da Maria die Aktivität \u0027play\u0027 ausführt.\n   - \u0027play\u0027 und \u0027basketball\u0027: Die Beziehung ist \u0027target\u0027 (aus der Typkodierung mit ID 9), da \u0027play\u0027 auf \u0027basketball\u0027 zielt.\n   - \u0027maria\u0027 und \u0027basketball\u0027: Es gibt keine explizite Beziehung, daher wird 0 gesetzt.\n4. Für die Relation \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) gibt es passende Einträge in den Typkodierungen.\n5. Der GraphCode wurde erstellt und beinhaltet das Vokabular sowie die Bewertungsmatrix gemäß den Regeln.",
+  "error": "",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer explizit seine Identität angibt.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027: object (Identität des Nutzers)\\n   - \u0027play\u0027: activity (Handlung/Activität)\\n   - \u0027basketball\u0027: object (Gegenstand/Objekt)\\n3. Die Relationen sind:\\n   - \u0027maria\u0027 und \u0027play\u0027: Die Beziehung ist \u0027perform\u0027 (aus der Typkodierung mit ID 8), da Maria die Aktivität \u0027play\u0027 ausführt.\\n   - \u0027play\u0027 und \u0027basketball\u0027: Die Beziehung ist \u0027target\u0027 (aus der Typkodierung mit ID 9), da \u0027play\u0027 auf \u0027basketball\u0027 zielt.\\n   - \u0027maria\u0027 und \u0027basketball\u0027: Es gibt keine explizite Beziehung, daher wird 0 gesetzt.\\n4. Für die Relation \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) gibt es passende Einträge in den Typkodierungen.\\n5. Der GraphCode wurde erstellt und beinhaltet das Vokabular sowie die Bewertungsmatrix gemäß den Regeln.\",\n  \"error\": \"\"\n}"
+}

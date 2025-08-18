@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "Maria",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. 2. Relative Verweise: \u0027Ich\u0027 und \u0027mein\u0027 beziehen sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027. 4. Identifikation des Nutzers \u0027Maria\u0027 wurde ersetzt. 5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (ID 8), \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027pool\u0027 ist ein Objekt (ID 1). 6. Relationen: \u0027swim\u0027 (Aktivität) wird durch \u0027Maria\u0027 (Objekt) ausgeführt, \u0027Maria\u0027 (Objekt) ist in \u0027pool\u0027 (Objekt) aktiv. 7. Alle Relationen haben passende Typkodierungen. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"Maria\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. 2. Relative Verweise: \u0027Ich\u0027 und \u0027mein\u0027 beziehen sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027. 4. Identifikation des Nutzers \u0027Maria\u0027 wurde ersetzt. 5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (ID 8), \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027pool\u0027 ist ein Objekt (ID 1). 6. Relationen: \u0027swim\u0027 (Aktivität) wird durch \u0027Maria\u0027 (Objekt) ausgeführt, \u0027Maria\u0027 (Objekt) ist in \u0027pool\u0027 (Objekt) aktiv. 7. Alle Relationen haben passende Typkodierungen. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

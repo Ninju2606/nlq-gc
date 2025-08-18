@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer in der Anfrage angegeben hat, dass er etwas tut. 2. Die Attribute der Stichwörter sind: \u0027tim\u0027 ist ein \u0027object\u0027 (ID 1), \u0027run\u0027 ist eine \u0027activity\u0027 (ID 4), \u0027maria\u0027 ist ein \u0027object\u0027 (ID 1). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 als Aktivität von \u0027Tim\u0027 verstanden wird. Diese Beziehung wird durch die ID 8 (perform) beschrieben. 4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 existiert ein passender Eintrag in den Typkodierungen (ID 8). 5. Der GraphCode wurde erstellt, wobei die Einträge des Vokabulars beibehalten und die Beziehungen gemäß den Typkodierungen berücksichtigt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer in der Anfrage angegeben hat, dass er etwas tut. 2. Die Attribute der Stichwörter sind: \u0027tim\u0027 ist ein \u0027object\u0027 (ID 1), \u0027run\u0027 ist eine \u0027activity\u0027 (ID 4), \u0027maria\u0027 ist ein \u0027object\u0027 (ID 1). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 als Aktivität von \u0027Tim\u0027 verstanden wird. Diese Beziehung wird durch die ID 8 (perform) beschrieben. 4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 existiert ein passender Eintrag in den Typkodierungen (ID 8). 5. Der GraphCode wurde erstellt, wobei die Einträge des Vokabulars beibehalten und die Beziehungen gemäß den Typkodierungen berücksichtigt wurden.\"\n}"
+}

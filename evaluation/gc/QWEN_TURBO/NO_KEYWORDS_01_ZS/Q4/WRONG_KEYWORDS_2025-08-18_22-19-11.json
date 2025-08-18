@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene \u0027Maria schwimmt in ihrem Pool\u0027 im Metaverse. \u0027Maria\u0027 ist die Person, \u0027schwimmen\u0027 ist die Aktivität und \u0027Pool\u0027 ist der Ort.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene \u0027Maria schwimmt in ihrem Pool\u0027 im Metaverse. \u0027Maria\u0027 ist die Person, \u0027schwimmen\u0027 ist die Aktivität und \u0027Pool\u0027 ist der Ort.\"\n}"
+}

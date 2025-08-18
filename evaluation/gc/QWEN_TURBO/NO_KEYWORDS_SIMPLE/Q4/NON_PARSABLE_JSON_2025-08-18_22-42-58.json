@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"schwimme\": 0,\n    \"in\": 1,\n    \"meinem\": 2,\n    \"Pool\": 3\n  },\n  \"matrix\": [\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\n\nDie Anfrage „**Ich schwimme in meinem Pool**“ wird in eine **Adjazenzmatrix** nach dem **Wagenpfeil-Modell** umgewandelt, wobei:\n\n- Jeder Begriff im Text eine **Spalte/Zeile** in der Matrix darstellt.\n- Die Beziehungen zwischen den Begriffen als **Typwerte** (z. B. „object“, „context“, „activity“ etc.) kodiert werden.\n- In diesem Fall gibt es **keine expliziten Beziehungen** zwischen den Worten, weshalb die **Matrix nur aus Nullen** besteht.\n\nFalls du möchte, dass die Beziehungen auch **explizit berücksichtigt** werden (z. B. „schwimme“ als **activity**, „in“ als **context**, „meinem“ als **attached**, „Pool“ als **object**), kann ich dies entsprechend anpassen."
+}

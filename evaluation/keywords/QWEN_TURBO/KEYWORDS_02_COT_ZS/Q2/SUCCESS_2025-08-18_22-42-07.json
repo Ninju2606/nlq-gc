@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzanfrage \u0027Tim rennt\u0027 wurde analysiert. Potenzielle Stichwörter sind \u0027Tim\u0027 und \u0027run\u0027. Da die Anfrage nicht englisch ist, wurden die Stichwörter ins Englische übersetzt. Die Identifikation des Nutzers \u0027Maria\u0027 wird nicht in das Vokabular aufgenommen, da keine Referenz auf die Person im Text vorhanden ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Nutzanfrage \u0027Tim rennt\u0027 wurde analysiert. Potenzielle Stichwörter sind \u0027Tim\u0027 und \u0027run\u0027. Da die Anfrage nicht englisch ist, wurden die Stichwörter ins Englische übersetzt. Die Identifikation des Nutzers \u0027Maria\u0027 wird nicht in das Vokabular aufgenommen, da keine Referenz auf die Person im Text vorhanden ist.\"\n}"
+}

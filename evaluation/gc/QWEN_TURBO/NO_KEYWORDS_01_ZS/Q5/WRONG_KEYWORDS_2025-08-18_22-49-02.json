@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Situationen, in denen Maria einen gelben Hut trägt. \u0027Maria\u0027 und \u0027yellow\u0027 sind Objekte, \u0027hat\u0027 ist eine Aktivität, und \u0027situation\u0027 definiert den Kontext.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"situation\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situationen, in denen Maria einen gelben Hut trägt. \u0027Maria\u0027 und \u0027yellow\u0027 sind Objekte, \u0027hat\u0027 ist eine Aktivität, und \u0027situation\u0027 definiert den Kontext.\"\n}"
+}

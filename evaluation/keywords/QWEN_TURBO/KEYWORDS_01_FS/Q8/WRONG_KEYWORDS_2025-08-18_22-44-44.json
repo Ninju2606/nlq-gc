@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Einträge im Vokabular sind auf Basis der Nutzereingabe generiert worden. \u0027Maria\u0027 wurde als Identifikation des Nutzers übernommen, \u0027boat\u0027 und \u0027lake\u0027 als beschreibende Begriffe der Szene.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\"],\n  \"description\": \"Die Einträge im Vokabular sind auf Basis der Nutzereingabe generiert worden. \u0027Maria\u0027 wurde als Identifikation des Nutzers übernommen, \u0027boat\u0027 und \u0027lake\u0027 als beschreibende Begriffe der Szene.\"\n}"
+}

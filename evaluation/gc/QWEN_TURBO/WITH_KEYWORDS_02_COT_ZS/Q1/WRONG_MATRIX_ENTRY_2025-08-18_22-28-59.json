@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 auf eine Handlung der Nutzerin verweist. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027play\u0027 (activity), \u0027basketball\u0027 (object). 3. \u0027Maria\u0027 und \u0027play\u0027 stehen in einer \u0027perform\u0027-Beziehung, da Maria die Aktivität \u0027play\u0027 ausübt. \u0027Play\u0027 und \u0027basketball\u0027 stehen in einer \u0027target\u0027-Beziehung, da \u0027play\u0027 auf \u0027basketball\u0027 zielt. 4. Für die Beziehung \u0027perform\u0027 ist die ID 8 vorhanden, für \u0027target\u0027 ist die ID 9 vorhanden. 5. Der GraphCode wurde unter Berücksichtigung aller Regeln und Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 auf eine Handlung der Nutzerin verweist. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027play\u0027 (activity), \u0027basketball\u0027 (object). 3. \u0027Maria\u0027 und \u0027play\u0027 stehen in einer \u0027perform\u0027-Beziehung, da Maria die Aktivität \u0027play\u0027 ausübt. \u0027Play\u0027 und \u0027basketball\u0027 stehen in einer \u0027target\u0027-Beziehung, da \u0027play\u0027 auf \u0027basketball\u0027 zielt. 4. Für die Beziehung \u0027perform\u0027 ist die ID 8 vorhanden, für \u0027target\u0027 ist die ID 9 vorhanden. 5. Der GraphCode wurde unter Berücksichtigung aller Regeln und Typkodierungen erstellt.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" ist die Identifikation des Nutzers. 2. \"Tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität. 3. \"Tim\" führt die Aktivität \"run\" aus. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Ausführen (perform) ist 7. 5. Die Relation \"perform\" (ID 7) ist für \"Tim\" → \"run\" korrekt. Die Relation \"target\" (ID 8) ist für \"run\" → \"tim\" nicht definiert. Der Eintrag auf der Diagonalen für \"tim\" ist 1 (Objekt), für \"run\" ist 9 (Aktivität).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" ist die Identifikation des Nutzers. 2. \\\"Tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität. 3. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Ausführen (perform) ist 7. 5. Die Relation \\\"perform\\\" (ID 7) ist für \\\"Tim\\\" → \\\"run\\\" korrekt. Die Relation \\\"target\\\" (ID 8) ist für \\\"run\\\" → \\\"tim\\\" nicht definiert. Der Eintrag auf der Diagonalen für \\\"tim\\\" ist 1 (Objekt), für \\\"run\\\" ist 9 (Aktivität).\"\n}"
+}

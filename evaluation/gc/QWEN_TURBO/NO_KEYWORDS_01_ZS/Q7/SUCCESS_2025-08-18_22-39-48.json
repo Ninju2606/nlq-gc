@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und enthält keine eindeutigen Szenenbeschreibungen im Metaverse. Es fehlen Informationen, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Fehler bei der Generierung des GraphCodes",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Generierung des GraphCodes\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und enthält keine eindeutigen Szenenbeschreibungen im Metaverse. Es fehlen Informationen, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \"Maria\" wurde zuordnungsfähig und ist in das Vokabular aufgenommen worden. 2. Die Attribute der Stichwörter sind wie folgt: - \"maria\" ist ein Objekt (object), - \"make\" ist eine Aktivität (activity), - \"appointment\" ist ein Objekt (object). 3. Die Beziehungen zwischen den Stichwörtern sind: - \"maria\" und \"make\" haben eine Beziehung der Art \"perform\" (ID 8), da Maria eine Aktivität ausführt. - \"make\" und \"appointment\" haben eine Beziehung der Art \"target\" (ID 9), da die Aktivität \"make\" auf das Ziel \"appointment\" ausgerichtet ist. 4. Für alle Relationen existieren passende Typkodierungen: - \"perform\" (ID 8) und \"target\" (ID 9). 5. Der GraphCode wurde erstellt, wobei jedes Stichwort im Vokabular eindeutig zugeordnet wurde und die Matrizenbeziehungen korrekt codiert sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \\\"Maria\\\" wurde zuordnungsfähig und ist in das Vokabular aufgenommen worden. 2. Die Attribute der Stichwörter sind wie folgt: - \\\"maria\\\" ist ein Objekt (object), - \\\"make\\\" ist eine Aktivität (activity), - \\\"appointment\\\" ist ein Objekt (object). 3. Die Beziehungen zwischen den Stichwörtern sind: - \\\"maria\\\" und \\\"make\\\" haben eine Beziehung der Art \\\"perform\\\" (ID 8), da Maria eine Aktivität ausführt. - \\\"make\\\" und \\\"appointment\\\" haben eine Beziehung der Art \\\"target\\\" (ID 9), da die Aktivität \\\"make\\\" auf das Ziel \\\"appointment\\\" ausgerichtet ist. 4. Für alle Relationen existieren passende Typkodierungen: - \\\"perform\\\" (ID 8) und \\\"target\\\" (ID 9). 5. Der GraphCode wurde erstellt, wobei jedes Stichwort im Vokabular eindeutig zugeordnet wurde und die Matrizenbeziehungen korrekt codiert sind.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Ich\" wurde zu \"Maria\". \n        2. \"Maria\" und \"basketball\" sind Objekte der Anfrage. \"play\" ist eine Aktivität. \n        3. \"Maria\" führt die Aktivität \"play\" aus. \"play\" bezieht sich auf \"basketball\". \n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [[1, 8, 0], [0, 9, 8], [0, 0, 1]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Ich\\\" wurde zu \\\"Maria\\\". \\n        2. \\\"Maria\\\" und \\\"basketball\\\" sind Objekte der Anfrage. \\\"play\\\" ist eine Aktivität. \\n        3. \\\"Maria\\\" führt die Aktivität \\\"play\\\" aus. \\\"play\\\" bezieht sich auf \\\"basketball\\\". \\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.\"\n}"
+}

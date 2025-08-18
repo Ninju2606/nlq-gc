@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage **\"Tim rennt\"**, übersetzt in einen **GraphCode nach Wagenpfeil**, also eine **typcodierte Adjazenzmatrix**, wie von dir beschrieben. Die Begriffe im Text bilden die Reihen und Spalten, und die Beziehungen zwischen den Begriffen sind die **Typwerte**.\n\nDie Begriffe sind:  \n- **Tim**  \n- **rennt**\n\nDie typcodierten Beziehungen sind:  \n- **Tim** und **rennt** haben die Beziehung **\"perform\"** (Typ 8), da Tim das Tun (rennen) ausführt.\n\n---\n\n### **JSON-Objekt (GraphCode nach Wagenpfeil)**\n\n\n{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- `dictionary`: Listet die Begriffe mit einer eindeutigen Nummer (Index) auf.\n- `matrix`: Adjazenzmatrix, wobei `matrix[i][j]` den Typwert der Beziehung von Begriff i zu Begriff j angibt.  \n  In diesem Fall:  \n  - `matrix[0][1] \u003d 8` steht für die Beziehung **\"perform\"** (Typ 8) zwischen **Tim** und **rennt**.  \n  - Alle anderen Einträge sind `0`, da keine weiteren Beziehungen aus der Anfrage hervorgehen."
+}

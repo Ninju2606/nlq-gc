@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- Die Anfrage **\"Tim rennt\"** wird in eine typcodierte **Adjazenzmatrix** nach Wagenpfeil umgewandelt.\n- Die Begriffe **\"Tim\"** und **\"rennt\"** bilden die Reihen und Spalten der Matrix (Index 0 und 1).\n- Die Beziehung **\"rennt\"** wird als **\"activity\"** kodiert (Typ-ID `4`), da \"rennen\" eine Aktivität ist.\n- Das Attribute **\"activity\"** ist im gegebenen Typkodierungs-Array mit `identityMapping: true` markiert, was bedeutet, dass es direkt als Beziehungstyp verwendet wird.\n\n### Typkodierung:\n- **\"activity\"** → ID `4`  \n- **\"rennt\"** ist eine **\"activity\"**, also wird in der Matrix die Beziehung von **\"Tim\"** zu **\"rennt\"** mit **4** gekennzeichnet.\n\n### Hinweis:\nDa es keine weiteren Begriffe oder Beziehungen in der Anfrage gibt, bleibt die Matrix 2x2."
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter \u0027swim\u0027, \u0027pool\u0027 und \u0027Maria\u0027 wurden aus der Nutzeranfrage extrahiert und entsprechen den Begriffen des Vokabulars eines GraphCodes.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Die Stichwörter \u0027swim\u0027, \u0027pool\u0027 und \u0027Maria\u0027 wurden aus der Nutzeranfrage extrahiert und entsprechen den Begriffen des Vokabulars eines GraphCodes.\"\n}"
+}

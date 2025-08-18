@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"ich\": 1,\n    \"einen\": 2,\n    \"gelben\": 3,\n    \"Hut\": 4,\n    \"trage\": 5\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erläuterung:\nDie Anfrage **„Zeig mir Situationen, in denen ich einen gelben Hut trage“** enthält keine expliziten Beziehungen zwischen den Begriffen, die mit den Typkodierungen (z. B. `context`, `synonym`, `perform`, etc.) übereinstimmen. Daher ist die **Adjazenzmatrix** vollständig mit `0` gefüllt – es sind keine Beziehungen identifiziert worden.\n\nWenn du Beziehungen identifizieren möchtest, müsste die Anfrage expliziter Beziehungen enthalten, z. B.:\n\n- „Die Situation ist **unter** dem Hut.“\n- „Ich **trage** den Hut **als** eine **Aktivität**.“\n\nIm aktuellen Fall kann keine Beziehung zwischen den Begriffen gemäß den angegebenen Typkodierungen erkannt werden."
+}

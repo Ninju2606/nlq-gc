@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern. 5. \u0027house\u0027 ist ein Objekt (attribute: object), \u0027ask\u0027 ist eine Aktivität (attribute: activity), \u0027paint\u0027 ist eine Aktivität (attribute: activity). 6. Die Stichwörter \u0027house\u0027 und \u0027ask\u0027 sind in Beziehung, da \u0027ask\u0027 eine Aktivität ist, die mit \u0027house\u0027 in Verbindung steht. \u0027paint\u0027 ist ebenfalls eine Aktivität, die mit \u0027house\u0027 in Verbindung steht. 7. Für \u0027house\u0027 ist die ID 1 (object), für \u0027ask\u0027 ist die ID 4 (activity), für \u0027paint\u0027 ist die ID 4 (activity). 8. Der GraphCode enthält das Vokabular und die Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern. 5. \u0027house\u0027 ist ein Objekt (attribute: object), \u0027ask\u0027 ist eine Aktivität (attribute: activity), \u0027paint\u0027 ist eine Aktivität (attribute: activity). 6. Die Stichwörter \u0027house\u0027 und \u0027ask\u0027 sind in Beziehung, da \u0027ask\u0027 eine Aktivität ist, die mit \u0027house\u0027 in Verbindung steht. \u0027paint\u0027 ist ebenfalls eine Aktivität, die mit \u0027house\u0027 in Verbindung steht. 7. Für \u0027house\u0027 ist die ID 1 (object), für \u0027ask\u0027 ist die ID 4 (activity), für \u0027paint\u0027 ist die ID 4 (activity). 8. Der GraphCode enthält das Vokabular und die Bewertungsmatrix.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \"Maria\" ist in der Anfrage identifiziert und wurde dem Vokabular hinzugefügt. 2. Attributeigenschaften der Stichwörter: - \"maria\": Objekt (ID 1) - \"swim\": Aktivität (ID 4) - \"own\": Kontext (ID 2) - \"pool\": Objekt (ID 1) 3. Beziehungen zwischen den Stichwörtern: - \"maria\" und \"swim\": Der Nutzer \"maria\" führt die Aktivität \"swim\" aus. (Typ: perform, ID 8) - \"swim\" und \"own\": Die Aktivität \"swim\" wird im Kontext \"own\" ausgeübt. (Typ: under, ID 6) - \"own\" und \"pool\": Das Objekt \"pool\" ist im Kontext \"own\". (Typ: under, ID 6) 4. Überprüfung der Typkodierungen: - \"maria\" und \"swim\": Es gibt einen passenden Eintrag (ID 8). - \"swim\" und \"own\": Es gibt einen passenden Eintrag (ID 6). - \"own\" und \"pool\": Es gibt einen passenden Eintrag (ID 6). 5. Der GraphCode wurde erfolgreich erstellt, indem die Stichwörter und Beziehungen in der Matrix dargestellt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \\\"Maria\\\" ist in der Anfrage identifiziert und wurde dem Vokabular hinzugefügt. 2. Attributeigenschaften der Stichwörter: - \\\"maria\\\": Objekt (ID 1) - \\\"swim\\\": Aktivität (ID 4) - \\\"own\\\": Kontext (ID 2) - \\\"pool\\\": Objekt (ID 1) 3. Beziehungen zwischen den Stichwörtern: - \\\"maria\\\" und \\\"swim\\\": Der Nutzer \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. (Typ: perform, ID 8) - \\\"swim\\\" und \\\"own\\\": Die Aktivität \\\"swim\\\" wird im Kontext \\\"own\\\" ausgeübt. (Typ: under, ID 6) - \\\"own\\\" und \\\"pool\\\": Das Objekt \\\"pool\\\" ist im Kontext \\\"own\\\". (Typ: under, ID 6) 4. Überprüfung der Typkodierungen: - \\\"maria\\\" und \\\"swim\\\": Es gibt einen passenden Eintrag (ID 8). - \\\"swim\\\" und \\\"own\\\": Es gibt einen passenden Eintrag (ID 6). - \\\"own\\\" und \\\"pool\\\": Es gibt einen passenden Eintrag (ID 6). 5. Der GraphCode wurde erfolgreich erstellt, indem die Stichwörter und Beziehungen in der Matrix dargestellt wurden.\"\n}"
+}

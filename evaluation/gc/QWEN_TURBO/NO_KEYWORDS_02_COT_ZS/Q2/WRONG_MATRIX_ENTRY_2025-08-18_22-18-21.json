@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\n2. Keine relativen Verweise aufzulösen.\n3. Übersetzung ins Englische: \u0027Tim\u0027, \u0027run\u0027.\n4. Keine Identifikation des Nutzers in den Stichwörtern.\n5. Attributeigenschaften:\n   - \u0027Tim\u0027 ist ein Objekt (object).\n   - \u0027run\u0027 ist eine Aktivität (activity).\n6. Beziehung: \u0027Tim\u0027 (Objekt) \u0027run\u0027 (Aktivität) — Verbindung über die Aktivität.\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4). Beide sind gültig.\n8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\\n2. Keine relativen Verweise aufzulösen.\\n3. Übersetzung ins Englische: \u0027Tim\u0027, \u0027run\u0027.\\n4. Keine Identifikation des Nutzers in den Stichwörtern.\\n5. Attributeigenschaften:\\n   - \u0027Tim\u0027 ist ein Objekt (object).\\n   - \u0027run\u0027 ist eine Aktivität (activity).\\n6. Beziehung: \u0027Tim\u0027 (Objekt) \u0027run\u0027 (Aktivität) — Verbindung über die Aktivität.\\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4). Beide sind gültig.\\n8. Der GraphCode wurde erstellt.\",\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\\n2. Keine relativen Verweise aufzulösen.\\n3. Übersetzung ins Englische: \u0027Tim\u0027, \u0027run\u0027.\\n4. Keine Identifikation des Nutzers in den Stichwörtern.\\n5. Attributeigenschaften:\\n   - \u0027Tim\u0027 ist ein Objekt (object).\\n   - \u0027run\u0027 ist eine Aktivität (activity).\\n6. Beziehung: \u0027Tim\u0027 (Objekt) \u0027run\u0027 (Aktivität) — Verbindung über die Aktivität.\\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4). Beide sind gültig.\\n8. Der GraphCode wurde erstellt.\"\n}"
+}

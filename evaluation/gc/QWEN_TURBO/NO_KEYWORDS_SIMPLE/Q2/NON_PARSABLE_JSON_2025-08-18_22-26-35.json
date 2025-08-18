@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage **\"Tim rennt\"** als **GraphCode nach Wagenpfeil** in einer **typcodierten Adjazenzmatrix**, ausgedrückt als **JSON-Objekt**:\n\n\n{\n  \"dictionary\": [\n    \"Tim\",\n    \"rennt\"\n  ],\n  \"matrix\": [\n    [0, 4],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n\n- **dictionary**: Enthält die Begriffe aus dem Text als Liste.  \n  Hier sind es `[\"Tim\", \"rennt\"]`.\n\n- **matrix**: Die Adjazenzmatrix, wobei:\n  - Die Zeilen und Spalten den Begriffen aus `dictionary` entsprechen.\n  - Die Zahlen in der Matrix sind **Typwerte**, die auf die Beziehungen zwischen den Begriffen verweisen.\n\n### Beziehung:\n- \"Tim\" und \"rennt\" haben eine Beziehung, die mit dem **Typ \"activity\" (ID 4)** codiert wird, da \"Tim rennt\" bedeutet, dass Tim eine **Aktivität** ausführt.\n\nWenn du weitere Anfragen oder komplexere Sätze hast, kann ich diese auf die gleiche Weise verarbeiten."
+}

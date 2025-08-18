@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "user",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wurden ermittelt. Dazu gehörten \u0027Situationen\u0027, \u0027gelben Hut\u0027 und \u0027ich\u0027. Relative Verweise wurden aufgelöst und \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die Stichwörter wurden ins Englische übersetzt, wobei \u0027gelben Hut\u0027 zu \u0027yellow hat\u0027 und \u0027ich\u0027 zu \u0027user\u0027 wurde. Das Vokabular enthält nun [\u0027situation\u0027, \u0027user\u0027, \u0027yellow\u0027, \u0027hat\u0027].",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"user\", \"yellow\", \"hat\"],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wurden ermittelt. Dazu gehörten \u0027Situationen\u0027, \u0027gelben Hut\u0027 und \u0027ich\u0027. Relative Verweise wurden aufgelöst und \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die Stichwörter wurden ins Englische übersetzt, wobei \u0027gelben Hut\u0027 zu \u0027yellow hat\u0027 und \u0027ich\u0027 zu \u0027user\u0027 wurde. Das Vokabular enthält nun [\u0027situation\u0027, \u0027user\u0027, \u0027yellow\u0027, \u0027hat\u0027].\"\n}"
+}

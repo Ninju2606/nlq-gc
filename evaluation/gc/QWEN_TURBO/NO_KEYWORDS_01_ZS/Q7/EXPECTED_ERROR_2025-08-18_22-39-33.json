@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Häuser um Fragen zu malen\u0027. Es werden die Begriffe \u0027houses\u0027, \u0027paint\u0027 und \u0027question\u0027 als Vokabular verwendet. Die Beziehungen zwischen den Begriffen sind wie folgt: \u0027houses\u0027 ist ein \u0027object\u0027 (Typ 1), \u0027paint\u0027 ist eine \u0027activity\u0027 (Typ 4), und \u0027question\u0027 ist ein \u0027object\u0027 (Typ 1). Es gibt keine weiteren Beziehungen zwischen den Begriffen.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Häuser um Fragen zu malen\u0027. Es werden die Begriffe \u0027houses\u0027, \u0027paint\u0027 und \u0027question\u0027 als Vokabular verwendet. Die Beziehungen zwischen den Begriffen sind wie folgt: \u0027houses\u0027 ist ein \u0027object\u0027 (Typ 1), \u0027paint\u0027 ist eine \u0027activity\u0027 (Typ 4), und \u0027question\u0027 ist ein \u0027object\u0027 (Typ 1). Es gibt keine weiteren Beziehungen zwischen den Begriffen.\"\n}"
+}

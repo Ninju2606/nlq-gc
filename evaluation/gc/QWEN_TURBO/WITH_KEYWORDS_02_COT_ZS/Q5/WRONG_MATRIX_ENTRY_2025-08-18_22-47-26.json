@@ -1,0 +1,39 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Die Identifikation des Nutzers \u0027Maria\u0027 ist direkt im Vokabular enthalten, da die Anfrage explizit \u0027ich\u0027 beinhaltet. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Person (Objekt), \u0027wear\u0027 ist eine Aktivität (attribute: activity), \u0027hat\u0027 ist ein Objekt (attribute: object), \u0027yellow\u0027 ist ein Attribut (attribute: characteristic). 3. Beziehungen zwischen den Stichwörtern: \u0027maria\u0027 und \u0027wear\u0027 stehen in Beziehung als \u0027perform\u0027 (Maria performet das Tragen), \u0027maria\u0027 und \u0027hat\u0027 als \u0027attached\u0027 (Maria ist mit dem Hut verbunden), \u0027maria\u0027 und \u0027yellow\u0027 als \u0027under\u0027 (der Hut ist gelb). 4. Typkodierungen: \u0027perform\u0027 wird durch ID 8 abgebildet, \u0027attached\u0027 durch ID 5, \u0027under\u0027 durch ID 6. Alle Relationen sind in den Typkodierungen vorhanden. 5. Der GraphCode besteht aus dem gegebenen Vokabular und einer 4x4-Matrix, wobei die Diagonale die identityMapping-Werte enthält und die anderen Einträge die Relationen zwischen den Begriffen.",
+  "error": "",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Die Identifikation des Nutzers \u0027Maria\u0027 ist direkt im Vokabular enthalten, da die Anfrage explizit \u0027ich\u0027 beinhaltet. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Person (Objekt), \u0027wear\u0027 ist eine Aktivität (attribute: activity), \u0027hat\u0027 ist ein Objekt (attribute: object), \u0027yellow\u0027 ist ein Attribut (attribute: characteristic). 3. Beziehungen zwischen den Stichwörtern: \u0027maria\u0027 und \u0027wear\u0027 stehen in Beziehung als \u0027perform\u0027 (Maria performet das Tragen), \u0027maria\u0027 und \u0027hat\u0027 als \u0027attached\u0027 (Maria ist mit dem Hut verbunden), \u0027maria\u0027 und \u0027yellow\u0027 als \u0027under\u0027 (der Hut ist gelb). 4. Typkodierungen: \u0027perform\u0027 wird durch ID 8 abgebildet, \u0027attached\u0027 durch ID 5, \u0027under\u0027 durch ID 6. Alle Relationen sind in den Typkodierungen vorhanden. 5. Der GraphCode besteht aus dem gegebenen Vokabular und einer 4x4-Matrix, wobei die Diagonale die identityMapping-Werte enthält und die anderen Einträge die Relationen zwischen den Begriffen.\",\n  \"error\": \"\"\n}"
+}

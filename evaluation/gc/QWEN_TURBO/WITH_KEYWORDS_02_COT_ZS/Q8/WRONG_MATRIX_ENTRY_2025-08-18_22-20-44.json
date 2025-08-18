@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet, da der Nutzer explizit mit \u0027Meine Tochter und ich\u0027 spricht. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 (object, identity), \u0027person\u0027 (object, identity), \u0027drive\u0027 (activity, identity), \u0027boat\u0027 (object, identity), \u0027lake\u0027 (object, identity). 3. Die Stichwörter \u0027maria\u0027 und \u0027person\u0027 beziehen sich auf dieselbe Identität, \u0027drive\u0027 beschreibt eine Aktivität, die \u0027maria\u0027 mit \u0027boat\u0027 und \u0027lake\u0027 in Verbindung steht. 4. Für die Beziehungen \u0027maria\u0027 zu \u0027person\u0027, \u0027drive\u0027 zu \u0027boat\u0027, \u0027drive\u0027 zu \u0027lake\u0027 werden die Typkodierungen mit IDs 1, 4, 1 gefunden. Für \u0027person\u0027 zu \u0027boat\u0027 oder \u0027person\u0027 zu \u0027lake\u0027 existiert keine passende Relation in den Typkodierungen, was einen Fehler verursacht. 5. Der GraphCode wurde erstellt, basierend auf den zugeordneten Stichwörtern und den vorhandenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet, da der Nutzer explizit mit \u0027Meine Tochter und ich\u0027 spricht. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 (object, identity), \u0027person\u0027 (object, identity), \u0027drive\u0027 (activity, identity), \u0027boat\u0027 (object, identity), \u0027lake\u0027 (object, identity). 3. Die Stichwörter \u0027maria\u0027 und \u0027person\u0027 beziehen sich auf dieselbe Identität, \u0027drive\u0027 beschreibt eine Aktivität, die \u0027maria\u0027 mit \u0027boat\u0027 und \u0027lake\u0027 in Verbindung steht. 4. Für die Beziehungen \u0027maria\u0027 zu \u0027person\u0027, \u0027drive\u0027 zu \u0027boat\u0027, \u0027drive\u0027 zu \u0027lake\u0027 werden die Typkodierungen mit IDs 1, 4, 1 gefunden. Für \u0027person\u0027 zu \u0027boat\u0027 oder \u0027person\u0027 zu \u0027lake\u0027 existiert keine passende Relation in den Typkodierungen, was einen Fehler verursacht. 5. Der GraphCode wurde erstellt, basierend auf den zugeordneten Stichwörtern und den vorhandenen Typkodierungen.\"\n}"
+}

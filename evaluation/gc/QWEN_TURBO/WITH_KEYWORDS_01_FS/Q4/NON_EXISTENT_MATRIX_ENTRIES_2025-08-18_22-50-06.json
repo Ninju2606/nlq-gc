@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene \u0027Ich schwimme in meinem Pool\u0027. Die Identifikation \u0027maria\u0027 ist im Vokabular enthalten, \u0027swim\u0027 wird als Aktivität (ID 9) kodiert, \u0027own\u0027 als Attribute (ID 8), und \u0027pool\u0027 als Objekt (ID 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene \u0027Ich schwimme in meinem Pool\u0027. Die Identifikation \u0027maria\u0027 ist im Vokabular enthalten, \u0027swim\u0027 wird als Aktivität (ID 9) kodiert, \u0027own\u0027 als Attribute (ID 8), und \u0027pool\u0027 als Objekt (ID 1).\"\n}"
+}

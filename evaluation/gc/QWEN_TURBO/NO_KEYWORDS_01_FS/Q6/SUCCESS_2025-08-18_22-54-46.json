@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 ist unklar und liefert nicht ausreichend Information, um einen sinnvollen GraphCode zu erstellen.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 ist unklar und liefert nicht ausreichend Information, um einen sinnvollen GraphCode zu erstellen.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde basierend auf der Anfrage \u0027Ich spiele Basketball\u0027 generiert. Das Vokabular enthält \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027. Die Bewertungsmatrix zeigt Beziehungen zwischen den Begriffen entsprechend den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde basierend auf der Anfrage \u0027Ich spiele Basketball\u0027 generiert. Das Vokabular enthält \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027. Die Bewertungsmatrix zeigt Beziehungen zwischen den Begriffen entsprechend den vorgegebenen Typkodierungen.\"\n}"
+}

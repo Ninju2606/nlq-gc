@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"schwimme\": 0,\n    \"in\": 1,\n    \"meinem\": 2,\n    \"Pool\": 3\n  },\n  \"matrix\": [\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\n\n- **dictionary**: Enthält die Begriffe aus dem Text als Schlüssel mit zugeordneten numerischen IDs (0, 1, 2, 3).\n- **matrix**: Die Adjazenzmatrix, in der die Beziehungen zwischen den Begriffen durch die Typkodierungen dargestellt werden. Da die Anfrage **\"Ich schwimme in meinem Pool\"** keine expliziten Beziehungen enthält, die in der vorgegebenen Liste der Typkodierungen (z. B. synonym, context, etc.) passten, wurden alle Werte auf **0** gesetzt.\n\nWenn du konkrete Beziehungen zwischen den Begriffen hast (z. B. \"schwimme\" ist eine **activity**, \"in\" ist ein **context**, usw.), gib sie bitte an, dann kann ich die Matrix entsprechend füllen."
+}

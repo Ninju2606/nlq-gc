@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert und auf Englisch verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert und auf Englisch verallgemeinert.\"\n}"
+}

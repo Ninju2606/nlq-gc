@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 explizit die Person beinhaltet. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein \u0027object\u0027 (Identität), \u0027swim\u0027 ist eine \u0027activity\u0027 (Aktivität), \u0027own\u0027 ist ein \u0027context\u0027 (Kontext), \u0027pool\u0027 ist ein \u0027object\u0027 (Objekt). 3. Die Stichwörter stehen in folgenden Beziehungen: \u0027maria\u0027 (object) schwimmt (activity) im \u0027pool\u0027 (object), wobei \u0027own\u0027 (context) die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 beschreibt. 4. Es gibt passende Einträge in den Typkodierungen: \u0027maria\u0027 → 1 (object), \u0027swim\u0027 → 4 (activity), \u0027own\u0027 → 2 (context), \u0027pool\u0027 → 1 (object). 5. Der GraphCode wurde entsprechend der gegebenen Vorgaben erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 explizit die Person beinhaltet. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein \u0027object\u0027 (Identität), \u0027swim\u0027 ist eine \u0027activity\u0027 (Aktivität), \u0027own\u0027 ist ein \u0027context\u0027 (Kontext), \u0027pool\u0027 ist ein \u0027object\u0027 (Objekt). 3. Die Stichwörter stehen in folgenden Beziehungen: \u0027maria\u0027 (object) schwimmt (activity) im \u0027pool\u0027 (object), wobei \u0027own\u0027 (context) die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 beschreibt. 4. Es gibt passende Einträge in den Typkodierungen: \u0027maria\u0027 → 1 (object), \u0027swim\u0027 → 4 (activity), \u0027own\u0027 → 2 (context), \u0027pool\u0027 → 1 (object). 5. Der GraphCode wurde entsprechend der gegebenen Vorgaben erstellt.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ein GraphCode, der Situationen darstellt, in denen Maria einen gelben Hut trägt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\", \"situation\"],\n  \"matrix\": [\n    [1, 7, 0, 0, 0],\n    [0, 9, 8, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Ein GraphCode, der Situationen darstellt, in denen Maria einen gelben Hut trägt.\"\n}"
+}

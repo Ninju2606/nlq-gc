@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. Dabei wird die Identifikation \u0027Maria\u0027 im Vokabular verwendet. Die Bewertungsmatrix kodiert Beziehungen zwischen den Begriffen, wobei auf der Einheitsdiagonalen nur Einträge mit identityMapping \u003d true verwendet werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"situation\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. Dabei wird die Identifikation \u0027Maria\u0027 im Vokabular verwendet. Die Bewertungsmatrix kodiert Beziehungen zwischen den Begriffen, wobei auf der Einheitsdiagonalen nur Einträge mit identityMapping \u003d true verwendet werden.\"\n}"
+}

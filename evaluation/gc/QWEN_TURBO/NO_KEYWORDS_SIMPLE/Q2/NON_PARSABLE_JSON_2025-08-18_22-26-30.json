@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- **dictionary**: Ordnet jedem Begriff (z.B. \"Tim\", \"rennt\") eine eindeutige numerische ID zu.\n- **matrix**: Die Adjazenzmatrix, wobei die Zeilen und Spalten den Begriffen entsprechen. Der Wert an der Stelle `[i][j]` gibt den `id` des Beziehungs-Typs an (siehe Typkodierungen).\n  \n### Beziehung:\n- \"Tim\" \"rennt\" → Der Beziehungstyp ist `\"activity\"` mit `id\u003d4`. Allerdings wird in der Anfrage `\"rennt\"` als *Aktivität* interpretiert, also wird `id\u003d8` (Beziehungstyp `\"perform\"`) verwendet. Daher ist die Matrix:\n\n\n[\n  [0, 8],\n  [0, 0]\n]\n\n\nDa \"Tim\" \"rennt\", bedeutet das, dass \"Tim\" die Aktion \"rennen\" ausführt, was im Wagenpfeil-System als `\"perform\"` kodiert wird."
+}

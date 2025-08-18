@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "see",
+    "parent",
+    "child"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der \u0027Maria\u0027 und ihre \u0027Tochter\u0027 ein \u0027Boot\u0027 auf einem \u0027See\u0027 fahren. Die Beziehungen sind in der Bewertungsmatrix entsprechend den definierten Typkodierungen dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"see\", \"parent\", \"child\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der \u0027Maria\u0027 und ihre \u0027Tochter\u0027 ein \u0027Boot\u0027 auf einem \u0027See\u0027 fahren. Die Beziehungen sind in der Bewertungsmatrix entsprechend den definierten Typkodierungen dargestellt.\"\n}"
+}

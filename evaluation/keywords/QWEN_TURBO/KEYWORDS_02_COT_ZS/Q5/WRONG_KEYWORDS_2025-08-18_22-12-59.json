@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "user",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage wurde verarbeitet. Potenzielle Stichwörter wurden extrahiert. Die Identifikation des Nutzers (Maria) wurde berücksichtigt und in das Vokabular aufgenommen. Die Stichwörter wurden ins Englische übersetzt und generalisiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"user\", \"yellow\", \"hat\"],\n  \"description\": \"Die Nutzeranfrage wurde verarbeitet. Potenzielle Stichwörter wurden extrahiert. Die Identifikation des Nutzers (Maria) wurde berücksichtigt und in das Vokabular aufgenommen. Die Stichwörter wurden ins Englische übersetzt und generalisiert.\"\n}"
+}

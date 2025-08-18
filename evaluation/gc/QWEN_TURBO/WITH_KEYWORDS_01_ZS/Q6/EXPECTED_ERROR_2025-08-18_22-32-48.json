@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wird aus dem Vokabular [\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027] generiert. Die Einträge auf der Diagonalen sind mit identityMapping\u003dTRUE kodiert, wobei \u0027maria\u0027 als \u0027object\u0027 und \u0027make\u0027, \u0027appointment\u0027 als \u0027activity\u0027 interpretiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode wird aus dem Vokabular [\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027] generiert. Die Einträge auf der Diagonalen sind mit identityMapping\u003dTRUE kodiert, wobei \u0027maria\u0027 als \u0027object\u0027 und \u0027make\u0027, \u0027appointment\u0027 als \u0027activity\u0027 interpretiert werden.\"\n}"
+}

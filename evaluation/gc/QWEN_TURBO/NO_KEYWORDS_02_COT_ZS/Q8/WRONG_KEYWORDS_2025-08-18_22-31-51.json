@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 (Identifikation des Nutzers). 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. 4. Ersetzen der Personenreferenzen: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027daughter\u0027 ist eine Aktivität (id\u003d4), \u0027boat\u0027 ist ein Objekt (id\u003d1), \u0027lake\u0027 ist ein Kontext (id\u003d2). 6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 stehen in einer \u0027daughter\u0027-Beziehung (id\u003d10), \u0027Maria\u0027 und \u0027boat\u0027 in einer \u0027perform\u0027-Beziehung (id\u003d8), \u0027daughter\u0027 und \u0027boat\u0027 in einer \u0027above\u0027-Beziehung (id\u003d7), \u0027boat\u0027 und \u0027lake\u0027 in einer \u0027under\u0027-Beziehung (id\u003d6). 7. Typkodierungen vorhanden: alle Relationen sind in der Liste enthalten. 8. Zusammenstellung des GraphCodes.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 (Identifikation des Nutzers). 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. 4. Ersetzen der Personenreferenzen: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027daughter\u0027 ist eine Aktivität (id\u003d4), \u0027boat\u0027 ist ein Objekt (id\u003d1), \u0027lake\u0027 ist ein Kontext (id\u003d2). 6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 stehen in einer \u0027daughter\u0027-Beziehung (id\u003d10), \u0027Maria\u0027 und \u0027boat\u0027 in einer \u0027perform\u0027-Beziehung (id\u003d8), \u0027daughter\u0027 und \u0027boat\u0027 in einer \u0027above\u0027-Beziehung (id\u003d7), \u0027boat\u0027 und \u0027lake\u0027 in einer \u0027under\u0027-Beziehung (id\u003d6). 7. Typkodierungen vorhanden: alle Relationen sind in der Liste enthalten. 8. Zusammenstellung des GraphCodes.\"\n}"
+}

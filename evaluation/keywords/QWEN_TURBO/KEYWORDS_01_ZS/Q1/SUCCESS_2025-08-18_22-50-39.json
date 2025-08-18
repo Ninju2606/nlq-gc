@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "Basketball",
+    "play"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"Basketball\", \"play\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 generiert.\"\n}"
+}

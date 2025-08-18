@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert mit den Schlüsselwörtern aus der Nutzeranfrage.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert mit den Schlüsselwörtern aus der Nutzeranfrage.\"\n}"
+}

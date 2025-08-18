@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beinhaltet die Person \u0027Maria\u0027, die \u0027schwimmt\u0027 und \u0027einen Pool\u0027 erwähnt. Diese Begriffe werden im Vokabular des GraphCodes berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Die Anfrage beinhaltet die Person \u0027Maria\u0027, die \u0027schwimmt\u0027 und \u0027einen Pool\u0027 erwähnt. Diese Begriffe werden im Vokabular des GraphCodes berücksichtigt.\"\n}"
+}

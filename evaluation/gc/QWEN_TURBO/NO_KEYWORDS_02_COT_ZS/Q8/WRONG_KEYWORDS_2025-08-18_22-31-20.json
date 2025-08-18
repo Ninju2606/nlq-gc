@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Meine\u0027, \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027. 4. Identifikation des Nutzers \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meine\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Object), \u0027daughter\u0027 ist ein Objekt (Object), \u0027boat\u0027 ist ein Objekt (Object), \u0027lake\u0027 ist ein Objekt (Object). 6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 stehen in einer Beziehung \u0027attached\u0027 (ID 5), \u0027Maria\u0027 und \u0027boat\u0027 in \u0027above\u0027 (ID 7), \u0027Maria\u0027 und \u0027lake\u0027 in \u0027above\u0027 (ID 7), \u0027daughter\u0027 und \u0027boat\u0027 in \u0027perform\u0027 (ID 8), \u0027daughter\u0027 und \u0027lake\u0027 in \u0027above\u0027 (ID 7), \u0027boat\u0027 und \u0027lake\u0027 in \u0027above\u0027 (ID 7). 7. Alle Relationen sind in den Typkodierungen vorhanden. 8. Der GraphCode wurde erfolgreich zusammengefügt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine\u0027, \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027. 4. Identifikation des Nutzers \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meine\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Object), \u0027daughter\u0027 ist ein Objekt (Object), \u0027boat\u0027 ist ein Objekt (Object), \u0027lake\u0027 ist ein Objekt (Object). 6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 stehen in einer Beziehung \u0027attached\u0027 (ID 5), \u0027Maria\u0027 und \u0027boat\u0027 in \u0027above\u0027 (ID 7), \u0027Maria\u0027 und \u0027lake\u0027 in \u0027above\u0027 (ID 7), \u0027daughter\u0027 und \u0027boat\u0027 in \u0027perform\u0027 (ID 8), \u0027daughter\u0027 und \u0027lake\u0027 in \u0027above\u0027 (ID 7), \u0027boat\u0027 und \u0027lake\u0027 in \u0027above\u0027 (ID 7). 7. Alle Relationen sind in den Typkodierungen vorhanden. 8. Der GraphCode wurde erfolgreich zusammengefügt.\"\n}"
+}

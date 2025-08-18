@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers (Maria) ist klar zugeordnet. Es gibt keinen relativ referenzierten Verweis (z. B. \"ich\", \"mein\").\n2. Die Stichwörter haben folgende Attribute:\n   - \u0027maria\u0027 ist typkodiert als \u0027object\u0027 (ID 1), da es sich um eine Person handelt.\n   - \u0027make\u0027 ist typkodiert als \u0027activity\u0027 (ID 8), da es eine Handlung beschreibt.\n   - \u0027appointment\u0027 ist typkodiert als \u0027object\u0027 (ID 1), da es sich um einen Gegenstand/Plan handelt.\n3. Die Beziehungen zwischen den Stichwörtern:\n   - \u0027maria\u0027 und \u0027make\u0027 haben eine Beziehung, die als \u0027perform\u0027 (ID 8) kodiert werden könnte (da Maria etwas macht).\n   - \u0027maria\u0027 und \u0027appointment\u0027 haben eine Beziehung, die als \u0027target\u0027 (ID 9) codiert werden könnte (da Maria einen Termin machen möchte).\n   - \u0027make\u0027 und \u0027appointment\u0027 haben eine Beziehung, die als \u0027target\u0027 (ID 9) codiert werden könnte (da die Handlung \u0027make\u0027 den Termin \u0027appointment\u0027 als Ziel hat).\n4. Es gibt passende Einträge in den Typkodierungen:\n   - \u0027maria\u0027 → ID 1 (object)\n   - \u0027make\u0027 → ID 8 (activity)\n   - \u0027appointment\u0027 → ID 1 (object)\n   - \u0027perform\u0027 → ID 8 (identityMapping ist FALSE, aber es ist passend)\n   - \u0027target\u0027 → ID 9 (identityMapping ist FALSE)\n5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonale nur Werte mit identityMapping \u003d true enthält und die anderen Einträge 0 oder Werte mit identityMapping \u003d false enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 8, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) ist klar zugeordnet. Es gibt keinen relativ referenzierten Verweis (z. B. \\\"ich\\\", \\\"mein\\\").\\n2. Die Stichwörter haben folgende Attribute:\\n   - \u0027maria\u0027 ist typkodiert als \u0027object\u0027 (ID 1), da es sich um eine Person handelt.\\n   - \u0027make\u0027 ist typkodiert als \u0027activity\u0027 (ID 8), da es eine Handlung beschreibt.\\n   - \u0027appointment\u0027 ist typkodiert als \u0027object\u0027 (ID 1), da es sich um einen Gegenstand/Plan handelt.\\n3. Die Beziehungen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 und \u0027make\u0027 haben eine Beziehung, die als \u0027perform\u0027 (ID 8) kodiert werden könnte (da Maria etwas macht).\\n   - \u0027maria\u0027 und \u0027appointment\u0027 haben eine Beziehung, die als \u0027target\u0027 (ID 9) codiert werden könnte (da Maria einen Termin machen möchte).\\n   - \u0027make\u0027 und \u0027appointment\u0027 haben eine Beziehung, die als \u0027target\u0027 (ID 9) codiert werden könnte (da die Handlung \u0027make\u0027 den Termin \u0027appointment\u0027 als Ziel hat).\\n4. Es gibt passende Einträge in den Typkodierungen:\\n   - \u0027maria\u0027 → ID 1 (object)\\n   - \u0027make\u0027 → ID 8 (activity)\\n   - \u0027appointment\u0027 → ID 1 (object)\\n   - \u0027perform\u0027 → ID 8 (identityMapping ist FALSE, aber es ist passend)\\n   - \u0027target\u0027 → ID 9 (identityMapping ist FALSE)\\n5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonale nur Werte mit identityMapping \u003d true enthält und die anderen Einträge 0 oder Werte mit identityMapping \u003d false enthalten.\"\n}"
+}

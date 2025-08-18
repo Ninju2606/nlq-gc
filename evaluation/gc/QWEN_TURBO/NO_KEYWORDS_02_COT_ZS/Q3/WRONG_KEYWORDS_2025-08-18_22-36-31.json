@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027geht\u0027. \u0027Ich\u0027 und \u0027mir\u0027 referenzieren den Nutzer \u0027Maria\u0027, daher wird \u0027Maria\u0027 als Identifikation verwendet. 2. Relative Verweise wie \u0027mir\u0027 und \u0027mein\u0027 werden in \u0027Maria\u0027 umgewandelt. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027. 4. \u0027Ich\u0027 und \u0027mir\u0027 werden in \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 8), \u0027pool\u0027 ist ein Objekt (ID 1), \u0027belong\u0027 ist eine Relation (ID 4). 6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus, \u0027swim\u0027 findet in \u0027pool\u0027 statt, \u0027pool\u0027 gehört \u0027Maria\u0027. 7. Prüfung der Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 8), \u0027attached\u0027 (ID 5), \u0027under\u0027 (ID 6) — es gibt keinen passenden Eintrag für \u0027belong\u0027. Fehler: Kein passender Eintrag für die Relation \u0027belong\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027geht\u0027. \u0027Ich\u0027 und \u0027mir\u0027 referenzieren den Nutzer \u0027Maria\u0027, daher wird \u0027Maria\u0027 als Identifikation verwendet. 2. Relative Verweise wie \u0027mir\u0027 und \u0027mein\u0027 werden in \u0027Maria\u0027 umgewandelt. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027. 4. \u0027Ich\u0027 und \u0027mir\u0027 werden in \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 8), \u0027pool\u0027 ist ein Objekt (ID 1), \u0027belong\u0027 ist eine Relation (ID 4). 6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus, \u0027swim\u0027 findet in \u0027pool\u0027 statt, \u0027pool\u0027 gehört \u0027Maria\u0027. 7. Prüfung der Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 8), \u0027attached\u0027 (ID 5), \u0027under\u0027 (ID 6) — es gibt keinen passenden Eintrag für \u0027belong\u0027. Fehler: Kein passender Eintrag für die Relation \u0027belong\u0027.\"\n}"
+}

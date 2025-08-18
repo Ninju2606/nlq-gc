@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. Es gibt keine aufgelösten relative Verweise.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: object (Identität des Nutzers)\n   - \u0027swim\u0027: activity (Handlung des Nutzers)\n   - \u0027own\u0027: context (Beziehung des Nutzers zu dem Objekt)\n   - \u0027pool\u0027: object (Objekt, mit dem der Nutzer interagiert)\n3. Beziehungen:\n   - \u0027maria\u0027 und \u0027swim\u0027: activity (Maria schwimmt)\n   - \u0027maria\u0027 und \u0027own\u0027: context (Maria besitzt den Pool)\n   - \u0027swim\u0027 und \u0027pool\u0027: activity (Schwimmen im Pool)\n   - \u0027own\u0027 und \u0027pool\u0027: object (Der Pool gehört Maria)\n4. Alle Relationen finden eine passende Typkodierung:\n   - \u0027swim\u0027 -\u003e activity (ID: 4)\n   - \u0027own\u0027 -\u003e context (ID: 2)\n   - \u0027pool\u0027 -\u003e object (ID: 1)\n   - \u0027maria\u0027 -\u003e object (ID: 1)\n5. Der GraphCode wurde erstellt, basierend auf den gegebenen Stichwörtern und Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. Es gibt keine aufgelösten relative Verweise.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: object (Identität des Nutzers)\\n   - \u0027swim\u0027: activity (Handlung des Nutzers)\\n   - \u0027own\u0027: context (Beziehung des Nutzers zu dem Objekt)\\n   - \u0027pool\u0027: object (Objekt, mit dem der Nutzer interagiert)\\n3. Beziehungen:\\n   - \u0027maria\u0027 und \u0027swim\u0027: activity (Maria schwimmt)\\n   - \u0027maria\u0027 und \u0027own\u0027: context (Maria besitzt den Pool)\\n   - \u0027swim\u0027 und \u0027pool\u0027: activity (Schwimmen im Pool)\\n   - \u0027own\u0027 und \u0027pool\u0027: object (Der Pool gehört Maria)\\n4. Alle Relationen finden eine passende Typkodierung:\\n   - \u0027swim\u0027 -\u003e activity (ID: 4)\\n   - \u0027own\u0027 -\u003e context (ID: 2)\\n   - \u0027pool\u0027 -\u003e object (ID: 1)\\n   - \u0027maria\u0027 -\u003e object (ID: 1)\\n5. Der GraphCode wurde erstellt, basierend auf den gegebenen Stichwörtern und Typkodierungen.\"\n}"
+}

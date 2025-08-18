@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "see",
+    "parent",
+    "child"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The graph code represents the scene where \u0027Maria\u0027 and her \u0027child\u0027 are \u0027boating\u0027 on a \u0027see\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"see\", \"parent\", \"child\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"The graph code represents the scene where \u0027Maria\u0027 and her \u0027child\u0027 are \u0027boating\u0027 on a \u0027see\u0027.\"\n}"
+}

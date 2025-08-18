@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"ich\": 1,\n    \"einen\": 2,\n    \"gelben\": 3,\n    \"Hut\": 4,\n    \"trage\": 5\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\nDa die Anfrage `\"Zeig mir Situationen, in denen ich einen gelben Hut trage\"` nur aus Begriffen besteht und **keine Beziehungen** zwischen den Begriffen explizit definieren, die in den vorgegebenen Typkodierungen (z. B. `object`, `context`, `synonym`, `activity`, etc.) abgebildet werden können, wurde die **Adjazenzmatrix** mit Nullen gefüllt.\n\nWenn du Beziehungen zwischen den Begriffen explizit angibst (z. B. \"trage\" als Beziehung von \"ich\" zu \"Hut\"), kann ich die Matrix entsprechend füllen. Melde dich gerne, wenn du solche Beziehungen hinzufügst!"
+}

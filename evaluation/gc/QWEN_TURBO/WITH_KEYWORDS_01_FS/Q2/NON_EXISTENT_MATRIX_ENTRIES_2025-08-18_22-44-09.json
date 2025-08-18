@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde aus der Anfrage \u0027Tim rennt\u0027 generiert. Das Vokabular enthält die Wörter \u0027tim\u0027 und \u0027run\u0027. Die Bewertungsmatrix zeigt, dass \u0027tim\u0027 als Objekt (Typkodierung 1) und \u0027run\u0027 als Aktivität (Typkodierung 9) kodiert ist. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch die Matrix mit der Typkodierung \u0027perform\u0027 (ID 8) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 9]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Anfrage \u0027Tim rennt\u0027 generiert. Das Vokabular enthält die Wörter \u0027tim\u0027 und \u0027run\u0027. Die Bewertungsmatrix zeigt, dass \u0027tim\u0027 als Objekt (Typkodierung 1) und \u0027run\u0027 als Aktivität (Typkodierung 9) kodiert ist. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch die Matrix mit der Typkodierung \u0027perform\u0027 (ID 8) dargestellt.\"\n}"
+}

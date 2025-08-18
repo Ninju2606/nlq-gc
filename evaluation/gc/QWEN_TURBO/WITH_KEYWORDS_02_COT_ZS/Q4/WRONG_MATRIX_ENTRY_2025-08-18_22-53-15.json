@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält den Selbstbezug \u0027ich\u0027, weshalb der Nutzername \u0027Maria\u0027 in das Vokabular aufgenommen wurde. 2. Die Attribute der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Kontext (context), \u0027pool\u0027 ist ein Objekt (object). 3. Die Stichwörter stehen in folgender Relation: \u0027maria\u0027 und \u0027swim\u0027 sind in relation durch \u0027perform\u0027 (ID 8), \u0027swim\u0027 und \u0027pool\u0027 haben eine \u0027attached\u0027 (ID 5) Beziehung, \u0027maria\u0027 und \u0027own\u0027 sind in relation durch \u0027attached\u0027 (ID 5), \u0027own\u0027 und \u0027pool\u0027 sind in relation durch \u0027attached\u0027 (ID 5). 4. Alle Relationen haben einen zugehörigen Eintrag in der Typkodierung. 5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält den Selbstbezug \u0027ich\u0027, weshalb der Nutzername \u0027Maria\u0027 in das Vokabular aufgenommen wurde. 2. Die Attribute der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Kontext (context), \u0027pool\u0027 ist ein Objekt (object). 3. Die Stichwörter stehen in folgender Relation: \u0027maria\u0027 und \u0027swim\u0027 sind in relation durch \u0027perform\u0027 (ID 8), \u0027swim\u0027 und \u0027pool\u0027 haben eine \u0027attached\u0027 (ID 5) Beziehung, \u0027maria\u0027 und \u0027own\u0027 sind in relation durch \u0027attached\u0027 (ID 5), \u0027own\u0027 und \u0027pool\u0027 sind in relation durch \u0027attached\u0027 (ID 5). 4. Alle Relationen haben einen zugehörigen Eintrag in der Typkodierung. 5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

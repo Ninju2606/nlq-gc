@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Die Stichwörter \u0027yellow\u0027, \u0027hat\u0027 und \u0027situation\u0027 wurden ins Englische übersetzt und als Begriffe für den GraphCode identifiziert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"situation\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Die Stichwörter \u0027yellow\u0027, \u0027hat\u0027 und \u0027situation\u0027 wurden ins Englische übersetzt und als Begriffe für den GraphCode identifiziert.\"\n}"
+}

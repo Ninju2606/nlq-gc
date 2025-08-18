@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Tim",
+    "runs"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      8,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise, die aufgelöst werden müssten.\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027runs\u0027.\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027), daher wird die Nutzeridentifikation nicht ersetzt.\n5. Attributeigenschaften:\n   - \u0027Tim\u0027 ist ein Objekt (object), da es sich um eine Person handelt.\n   - \u0027runs\u0027 ist eine Aktivität (activity), da es sich um eine Handlung handelt.\n6. Die Stichwörter \u0027Tim\u0027 und \u0027runs\u0027 stehen in der Beziehung \u0027perform\u0027 (Handlung, die von einem Objekt ausgeübt wird).\n7. Die Relation \u0027perform\u0027 ist in den Typkodierungen vorhanden (ID 8). Die Objekte \u0027Tim\u0027 und \u0027runs\u0027 entsprechen den Typen \u0027object\u0027 und \u0027activity\u0027, die in den Typkodierungen mit identityMapping\u003dtrue sind.\n8. Der GraphCode wird generiert.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise, die aufgelöst werden müssten.\\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027runs\u0027.\\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027), daher wird die Nutzeridentifikation nicht ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027Tim\u0027 ist ein Objekt (object), da es sich um eine Person handelt.\\n   - \u0027runs\u0027 ist eine Aktivität (activity), da es sich um eine Handlung handelt.\\n6. Die Stichwörter \u0027Tim\u0027 und \u0027runs\u0027 stehen in der Beziehung \u0027perform\u0027 (Handlung, die von einem Objekt ausgeübt wird).\\n7. Die Relation \u0027perform\u0027 ist in den Typkodierungen vorhanden (ID 8). Die Objekte \u0027Tim\u0027 und \u0027runs\u0027 entsprechen den Typen \u0027object\u0027 und \u0027activity\u0027, die in den Typkodierungen mit identityMapping\u003dtrue sind.\\n8. Der GraphCode wird generiert.\",\n  \"dictionary\": [\"Tim\", \"runs\"],\n  \"matrix\": [\n    [1, 0],\n    [8, 2]\n  ]\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Tim rennt\u0027 implizit auf den Nutzer hinweist oder eine Handlung im Metaverse beschreibt.\n2. Die Attribute der Stichwörter:\n   - \u0027tim\u0027: Objekt (id\u003d1)\n   - \u0027run\u0027: Aktivität (id\u003d4)\n   - \u0027maria\u0027: Objekt (id\u003d1)\n3. Die Stichwörter \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, die durch die Aktivität \u0027run\u0027 (id\u003d4) beschrieben wird. \u0027maria\u0027 steht in einer Beziehung zu \u0027tim\u0027, da es sich um die Identifikation des Nutzers handelt.\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wurde der Typ \u0027activity\u0027 (id\u003d4) verwendet. Für die Beziehung \u0027maria\u0027 zu \u0027tim\u0027 wurde \u0027object\u0027 (id\u003d1) verwendet. Für \u0027maria\u0027 auf der Diagonalen wurde \u0027object\u0027 (id\u003d1) verwendet. Alle Relationen sind in den Typkodierungen vorhanden.\n5. Der GraphCode wurde entsprechend der Anfrage und den Vorgaben erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Tim rennt\u0027 implizit auf den Nutzer hinweist oder eine Handlung im Metaverse beschreibt.\\n2. Die Attribute der Stichwörter:\\n   - \u0027tim\u0027: Objekt (id\u003d1)\\n   - \u0027run\u0027: Aktivität (id\u003d4)\\n   - \u0027maria\u0027: Objekt (id\u003d1)\\n3. Die Stichwörter \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, die durch die Aktivität \u0027run\u0027 (id\u003d4) beschrieben wird. \u0027maria\u0027 steht in einer Beziehung zu \u0027tim\u0027, da es sich um die Identifikation des Nutzers handelt.\\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wurde der Typ \u0027activity\u0027 (id\u003d4) verwendet. Für die Beziehung \u0027maria\u0027 zu \u0027tim\u0027 wurde \u0027object\u0027 (id\u003d1) verwendet. Für \u0027maria\u0027 auf der Diagonalen wurde \u0027object\u0027 (id\u003d1) verwendet. Alle Relationen sind in den Typkodierungen vorhanden.\\n5. Der GraphCode wurde entsprechend der Anfrage und den Vorgaben erstellt.\"\n}"
+}

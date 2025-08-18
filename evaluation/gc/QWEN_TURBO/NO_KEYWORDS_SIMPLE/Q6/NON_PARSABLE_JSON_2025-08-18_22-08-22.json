@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"1\": \"Wir\",\n    \"2\": \"müssen\",\n    \"3\": \"bald\",\n    \"4\": \"einen\",\n    \"5\": \"Termin\",\n    \"6\": \"ausmachen\"\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Hinweis:\nIn der gegebenen Anfrage `\"Wir müssenn bald einen Termin ausmachen.\"` sind keine klaren Beziehungen zwischen den Wörtern vorhanden, die mit den vorgegebenen Typen (z. B. `object`, `context`, `synonym`, `activity`, `attached`, `under`, `above`, `perform`, `target`, `daughter`, `characteristic`) korrespondieren. Daher ist die **Adjazenzmatrix** leer, da keine Beziehungen erkannt wurden, die dem vorgegebenen Typ-Code entsprechen.\n\nFalls du die Anfrage mit spezifischen Beziehungen oder einem Kontext bereitstellen möchtest, kann ich den GraphCode entsprechend anpassen."
+}

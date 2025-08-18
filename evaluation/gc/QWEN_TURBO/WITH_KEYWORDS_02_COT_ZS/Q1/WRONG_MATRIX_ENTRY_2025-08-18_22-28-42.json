@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 explizit die Person erwähnt.\n2. Die Attribute der Stichwörter sind wie folgt:\n   - \u0027maria\u0027: object (Identifikation des Nutzers)\n   - \u0027play\u0027: activity (Aktion, die ausgeführt wird)\n   - \u0027basketball\u0027: object (Gegenstand, mit dem gespielt wird)\n3. Die Beziehungen zwischen den Stichwörtern sind:\n   - \u0027maria\u0027 und \u0027play\u0027: \u0027maria\u0027 führt die Aktion \u0027play\u0027 aus (Typkodierung: perform, ID: 8)\n   - \u0027play\u0027 und \u0027basketball\u0027: \u0027play\u0027 bezieht sich auf \u0027basketball\u0027 (Typkodierung: target, ID: 9)\n4. Für die Beziehung \u0027maria\u0027 und \u0027play\u0027 wurde die Typkodierung \u0027perform\u0027 (ID: 8) verwendet, und für \u0027play\u0027 und \u0027basketball\u0027 wurde \u0027target\u0027 (ID: 9) verwendet. Beide sind in den vorgegebenen Typkodierungen enthalten.\n5. Der GraphCode wurde auf Basis der Vorgaben erstellt, wobei die Einheitsdiagonale mit identityMapping\u003dtrue belegt wurde und die außer-diagonalen Einträge mit identityMapping\u003dfalse belegt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 explizit die Person erwähnt.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027: object (Identifikation des Nutzers)\\n   - \u0027play\u0027: activity (Aktion, die ausgeführt wird)\\n   - \u0027basketball\u0027: object (Gegenstand, mit dem gespielt wird)\\n3. Die Beziehungen zwischen den Stichwörtern sind:\\n   - \u0027maria\u0027 und \u0027play\u0027: \u0027maria\u0027 führt die Aktion \u0027play\u0027 aus (Typkodierung: perform, ID: 8)\\n   - \u0027play\u0027 und \u0027basketball\u0027: \u0027play\u0027 bezieht sich auf \u0027basketball\u0027 (Typkodierung: target, ID: 9)\\n4. Für die Beziehung \u0027maria\u0027 und \u0027play\u0027 wurde die Typkodierung \u0027perform\u0027 (ID: 8) verwendet, und für \u0027play\u0027 und \u0027basketball\u0027 wurde \u0027target\u0027 (ID: 9) verwendet. Beide sind in den vorgegebenen Typkodierungen enthalten.\\n5. Der GraphCode wurde auf Basis der Vorgaben erstellt, wobei die Einheitsdiagonale mit identityMapping\u003dtrue belegt wurde und die außer-diagonalen Einträge mit identityMapping\u003dfalse belegt wurden.\"\n}"
+}

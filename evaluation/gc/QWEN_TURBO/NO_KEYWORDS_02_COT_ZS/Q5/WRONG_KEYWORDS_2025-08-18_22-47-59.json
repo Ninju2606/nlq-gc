@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "situation",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. 2. Keine relativen Verweise gefunden. 3. Übersetzung ins Englische: \u0027situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. Ersetzen der Identifikation \u0027ich\u0027 mit \u0027Maria\u0027. 5. \u0027Maria\u0027 ist ein Objekt (Typ-ID: 1). \u0027situations\u0027 ist eine Aktivität (Typ-ID: 4). \u0027yellow\u0027 ist ein Merkmal (Typ-ID: 14). \u0027hat\u0027 ist eine Beziehung (Typ-ID: 5). \u0027wear\u0027 ist eine Aktivität (Typ-ID: 4). 6. \u0027Maria\u0027 trägt einen \u0027yellow hat\u0027 in bestimmten \u0027situations\u0027. 7. Alle Relationen sind in den Typkodierungen vorhanden. 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"situation\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 4, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. 2. Keine relativen Verweise gefunden. 3. Übersetzung ins Englische: \u0027situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. Ersetzen der Identifikation \u0027ich\u0027 mit \u0027Maria\u0027. 5. \u0027Maria\u0027 ist ein Objekt (Typ-ID: 1). \u0027situations\u0027 ist eine Aktivität (Typ-ID: 4). \u0027yellow\u0027 ist ein Merkmal (Typ-ID: 14). \u0027hat\u0027 ist eine Beziehung (Typ-ID: 5). \u0027wear\u0027 ist eine Aktivität (Typ-ID: 4). 6. \u0027Maria\u0027 trägt einen \u0027yellow hat\u0027 in bestimmten \u0027situations\u0027. 7. Alle Relationen sind in den Typkodierungen vorhanden. 8. Der GraphCode wurde erstellt.\"\n}"
+}

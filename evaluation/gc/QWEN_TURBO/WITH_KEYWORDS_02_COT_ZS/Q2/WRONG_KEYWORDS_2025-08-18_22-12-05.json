@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage \"Tim rennt\" wurde von dem Nutzer \"Maria\" gestellt. Da der Nutzer in der Eingabe explizit seine Identifikation angegeben hat, wird diese im Vokabular mit aufgenommen. 2. Die Attribute der Stichwörter: - \"tim\": object (ID 1) - \"run\": activity (ID 4) - \"maria\": object (ID 1) 3. Die Beziehungen: - \"tim\" und \"run\": Es handelt sich um eine Aktivität, bei der ein Objekt (Tim) handelt. Es ist keine direkte Relation mit einer der vorgegebenen Typkodierungen. - \"tim\" und \"maria\": Keine direkte Relation, da der Nutzer nicht explizit eine Beziehung zwischen sich und Tim angibt. - \"run\" und \"maria\": Keine direkte Relation. 4. Für die Beziehungen \"tim\" und \"run\" gibt es keinen passenden Eintrag in den Typkodierungen. 5. Der GraphCode besteht aus dem Vokabular [\"tim\", \"run\", \"maria\"] und einer 3x3-Matrix, in der die Einheitsdiagonalen mit ID 1 (object) und ID 4 (activity) aufgefüllt sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Anfrage \\\"Tim rennt\\\" wurde von dem Nutzer \\\"Maria\\\" gestellt. Da der Nutzer in der Eingabe explizit seine Identifikation angegeben hat, wird diese im Vokabular mit aufgenommen. 2. Die Attribute der Stichwörter: - \\\"tim\\\": object (ID 1) - \\\"run\\\": activity (ID 4) - \\\"maria\\\": object (ID 1) 3. Die Beziehungen: - \\\"tim\\\" und \\\"run\\\": Es handelt sich um eine Aktivität, bei der ein Objekt (Tim) handelt. Es ist keine direkte Relation mit einer der vorgegebenen Typkodierungen. - \\\"tim\\\" und \\\"maria\\\": Keine direkte Relation, da der Nutzer nicht explizit eine Beziehung zwischen sich und Tim angibt. - \\\"run\\\" und \\\"maria\\\": Keine direkte Relation. 4. Für die Beziehungen \\\"tim\\\" und \\\"run\\\" gibt es keinen passenden Eintrag in den Typkodierungen. 5. Der GraphCode besteht aus dem Vokabular [\\\"tim\\\", \\\"run\\\", \\\"maria\\\"] und einer 3x3-Matrix, in der die Einheitsdiagonalen mit ID 1 (object) und ID 4 (activity) aufgefüllt sind.\"\n}"
+}

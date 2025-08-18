@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde der Anfrage zugeordnet, da sie in der Anfrage explizit genannt wurde. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein \u0027object\u0027 (Identität), \u0027wear\u0027 ist eine \u0027activity\u0027 (Handlung), \u0027hat\u0027 ist ein \u0027object\u0027 (Identität), \u0027yellow\u0027 ist ein \u0027attribute\u0027 (Merkmalsbeschreibung). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027wear\u0027 beschreiben eine Handlung, \u0027maria\u0027 und \u0027hat\u0027 verknüpfen den Nutzer mit einem Objekt, \u0027maria\u0027 und \u0027yellow\u0027 beschreiben ein Merkmal des Objekts. \u0027wear\u0027 und \u0027hat\u0027 haben keine direkte Relation. \u0027wear\u0027 und \u0027yellow\u0027 beziehen sich auf die Handlung und das Merkmal. \u0027hat\u0027 und \u0027yellow\u0027 sind in Beziehung, da \u0027yellow\u0027 ein Merkmal des \u0027hat\u0027 ist. 4. Für die Beziehungen \u0027maria\u0027 zu \u0027wear\u0027 (perform) ist ID 8 vorhanden, \u0027maria\u0027 zu \u0027hat\u0027 (object) ist ID 1 vorhanden, \u0027maria\u0027 zu \u0027yellow\u0027 (characteristic) ist ID 14 vorhanden, \u0027wear\u0027 zu \u0027hat\u0027 (attached) ist ID 5 vorhanden, \u0027wear\u0027 zu \u0027yellow\u0027 (target) ist ID 9 vorhanden, \u0027hat\u0027 zu \u0027yellow\u0027 (characteristic) ist ID 14 vorhanden. 5. Der GraphCode wurde erfolgreich zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde der Anfrage zugeordnet, da sie in der Anfrage explizit genannt wurde. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein \u0027object\u0027 (Identität), \u0027wear\u0027 ist eine \u0027activity\u0027 (Handlung), \u0027hat\u0027 ist ein \u0027object\u0027 (Identität), \u0027yellow\u0027 ist ein \u0027attribute\u0027 (Merkmalsbeschreibung). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027wear\u0027 beschreiben eine Handlung, \u0027maria\u0027 und \u0027hat\u0027 verknüpfen den Nutzer mit einem Objekt, \u0027maria\u0027 und \u0027yellow\u0027 beschreiben ein Merkmal des Objekts. \u0027wear\u0027 und \u0027hat\u0027 haben keine direkte Relation. \u0027wear\u0027 und \u0027yellow\u0027 beziehen sich auf die Handlung und das Merkmal. \u0027hat\u0027 und \u0027yellow\u0027 sind in Beziehung, da \u0027yellow\u0027 ein Merkmal des \u0027hat\u0027 ist. 4. Für die Beziehungen \u0027maria\u0027 zu \u0027wear\u0027 (perform) ist ID 8 vorhanden, \u0027maria\u0027 zu \u0027hat\u0027 (object) ist ID 1 vorhanden, \u0027maria\u0027 zu \u0027yellow\u0027 (characteristic) ist ID 14 vorhanden, \u0027wear\u0027 zu \u0027hat\u0027 (attached) ist ID 5 vorhanden, \u0027wear\u0027 zu \u0027yellow\u0027 (target) ist ID 9 vorhanden, \u0027hat\u0027 zu \u0027yellow\u0027 (characteristic) ist ID 14 vorhanden. 5. Der GraphCode wurde erfolgreich zusammengesetzt.\"\n}"
+}

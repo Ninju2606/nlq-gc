@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers (Maria) wurde in das Vokabular übernommen, da die Anfrage explizit auf die Person verweist. 2. Die Attribute der Stichwörter sind: \"maria\" (object, Identifikation des Nutzers), \"wear\" (activity, Aktion), \"hat\" (object, Objekt), \"yellow\" (characteristic, Merkmal). 3. Die Beziehungen sind: Maria trägt einen Hut (wear), der gelb ist (yellow). 4. Für \"maria\" (object) ist ID 1, für \"wear\" (activity) ist ID 4, für \"hat\" (object) ist ID 1, und für \"yellow\" (characteristic) ist ID 14. Alle Beziehungen sind in den Typkodierungen enthalten. 5. Der GraphCode wurde aufgebaut, wobei die Einträge der Bewertungsmatrix gemäß den Regeln gesetzt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wurde in das Vokabular übernommen, da die Anfrage explizit auf die Person verweist. 2. Die Attribute der Stichwörter sind: \\\"maria\\\" (object, Identifikation des Nutzers), \\\"wear\\\" (activity, Aktion), \\\"hat\\\" (object, Objekt), \\\"yellow\\\" (characteristic, Merkmal). 3. Die Beziehungen sind: Maria trägt einen Hut (wear), der gelb ist (yellow). 4. Für \\\"maria\\\" (object) ist ID 1, für \\\"wear\\\" (activity) ist ID 4, für \\\"hat\\\" (object) ist ID 1, und für \\\"yellow\\\" (characteristic) ist ID 14. Alle Beziehungen sind in den Typkodierungen enthalten. 5. Der GraphCode wurde aufgebaut, wobei die Einträge der Bewertungsmatrix gemäß den Regeln gesetzt wurden.\"\n}"
+}

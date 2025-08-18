@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we",
+    "make",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027.\n2. Es gibt keine relativen Verweise.\n3. Die Stichwörter sind bereits auf Deutsch, daher keine Übersetzung notwendig.\n4. Es werden keine Identifikationen des Nutzers ersetzt, da keine Referenzen auf \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027 vorliegen.\n5. Attributeigenschaften: \u0027wir\u0027 ist ein Objekt, \u0027müssen\u0027 ist eine Aktivität, \u0027Termin\u0027 ist ein Objekt, \u0027ausmachen\u0027 ist eine Aktivität.\n6. \u0027wir\u0027 und \u0027müssen\u0027 stehen in Beziehung zur Aktivität \u0027ausmachen\u0027, während \u0027Termin\u0027 als Ziel der Aktivität dient.\n7. Die Relationen \u0027object\u0027, \u0027activity\u0027 und \u0027target\u0027 sind in den Typkodierungen vorhanden, mit den IDs 1, 4 und 9.\n8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we\", \"make\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027.\\n2. Es gibt keine relativen Verweise.\\n3. Die Stichwörter sind bereits auf Deutsch, daher keine Übersetzung notwendig.\\n4. Es werden keine Identifikationen des Nutzers ersetzt, da keine Referenzen auf \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027 vorliegen.\\n5. Attributeigenschaften: \u0027wir\u0027 ist ein Objekt, \u0027müssen\u0027 ist eine Aktivität, \u0027Termin\u0027 ist ein Objekt, \u0027ausmachen\u0027 ist eine Aktivität.\\n6. \u0027wir\u0027 und \u0027müssen\u0027 stehen in Beziehung zur Aktivität \u0027ausmachen\u0027, während \u0027Termin\u0027 als Ziel der Aktivität dient.\\n7. Die Relationen \u0027object\u0027, \u0027activity\u0027 und \u0027target\u0027 sind in den Typkodierungen vorhanden, mit den IDs 1, 4 und 9.\\n8. Der GraphCode wurde erstellt.\"\n}"
+}

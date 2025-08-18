@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Relative Verweise: \u0027Meine Tochter\u0027 wurde zu dem Stichwort \u0027person\u0027 und \u0027maria\u0027 zugeordnet, wobei \u0027maria\u0027 die Mutter des \u0027person\u0027 ist. 2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte der Anfrage. \u0027drive\u0027 und \u0027boat\u0027 sind Aktivitäten. \u0027lake\u0027 ist ein Kontext. 3. \u0027maria\u0027 fährt die Aktivität \u0027drive\u0027 aus. \u0027person\u0027 fährt die Aktivität \u0027drive\u0027 aus. \u0027drive\u0027 bezieht sich auf \u0027boat\u0027. \u0027boat\u0027 ist auf \u0027lake\u0027 (Kontext). 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Relative Verweise: \u0027Meine Tochter\u0027 wurde zu dem Stichwort \u0027person\u0027 und \u0027maria\u0027 zugeordnet, wobei \u0027maria\u0027 die Mutter des \u0027person\u0027 ist. 2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte der Anfrage. \u0027drive\u0027 und \u0027boat\u0027 sind Aktivitäten. \u0027lake\u0027 ist ein Kontext. 3. \u0027maria\u0027 fährt die Aktivität \u0027drive\u0027 aus. \u0027person\u0027 fährt die Aktivität \u0027drive\u0027 aus. \u0027drive\u0027 bezieht sich auf \u0027boat\u0027. \u0027boat\u0027 ist auf \u0027lake\u0027 (Kontext). 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2.\"\n}"
+}

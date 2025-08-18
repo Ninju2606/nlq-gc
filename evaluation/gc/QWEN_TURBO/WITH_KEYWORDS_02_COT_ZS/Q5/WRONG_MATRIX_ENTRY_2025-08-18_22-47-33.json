@@ -1,0 +1,39 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt, da dies in der Anfrage explizit erwähnt wird. \n2. Die Attribute der Stichwörter sind wie folgt:\n- \u0027maria\u0027: Bezeichnet die Identität des Nutzers (identityMapping: true)\n- \u0027wear\u0027: Bezeichnet eine Aktivität (identityMapping: false, attribute: activity)\n- \u0027hat\u0027: Bezeichnet den Eigentum oder Besitz (identityMapping: true)\n- \u0027yellow\u0027: Bezeichnet ein Attribut (identityMapping: true)\n3. Die Beziehungen der Stichwörter sind:\n- \u0027maria\u0027 und \u0027wear\u0027: Die Beziehung zwischen Maria und der Aktivität \u0027tragen\u0027 wird durch die Typkodierung \u0027perform\u0027 (ID 8) dargestellt.\n- \u0027wear\u0027 und \u0027hat\u0027: Die Beziehung zwischen der Aktivität \u0027tragen\u0027 und dem Objekt \u0027Hut\u0027 kann nicht direkt dargestellt werden, da \u0027hat\u0027 als Identifikationsbegriff (identityMapping: true) definiert ist und keine weiteren Relationen zulässt.\n- \u0027hat\u0027 und \u0027yellow\u0027: Die Beziehung zwischen dem Objekt \u0027Hut\u0027 und dem Attribut \u0027gelb\u0027 wird durch die Typkodierung \u0027characteristic\u0027 (ID 14) dargestellt.\n4. Für die Beziehungen \u0027maria - wear\u0027 wird die Typkodierung ID 8 (perform) verwendet, für \u0027hat - yellow\u0027 die Typkodierung ID 14 (characteristic). Die Beziehung \u0027wear - hat\u0027 kann nicht durch eine der bereitgestellten Typkodierungen dargestellt werden, da \u0027hat\u0027 identifikationsbasiert ist und keine Relationen mit \u0027wear\u0027 zulässt.\n5. Der GraphCode wurde aufgebaut, wobei alle Vorgaben der Aufgaben 1–4 beachtet wurden und nur zulässige Typkodierungen verwendet wurden. Da die Beziehung zwischen \u0027wear\u0027 und \u0027hat\u0027 nicht möglich ist, wird diese nicht in der Matrix berücksichtigt.",
+  "error": "",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt, da dies in der Anfrage explizit erwähnt wird. \\n2. Die Attribute der Stichwörter sind wie folgt:\\n- \u0027maria\u0027: Bezeichnet die Identität des Nutzers (identityMapping: true)\\n- \u0027wear\u0027: Bezeichnet eine Aktivität (identityMapping: false, attribute: activity)\\n- \u0027hat\u0027: Bezeichnet den Eigentum oder Besitz (identityMapping: true)\\n- \u0027yellow\u0027: Bezeichnet ein Attribut (identityMapping: true)\\n3. Die Beziehungen der Stichwörter sind:\\n- \u0027maria\u0027 und \u0027wear\u0027: Die Beziehung zwischen Maria und der Aktivität \u0027tragen\u0027 wird durch die Typkodierung \u0027perform\u0027 (ID 8) dargestellt.\\n- \u0027wear\u0027 und \u0027hat\u0027: Die Beziehung zwischen der Aktivität \u0027tragen\u0027 und dem Objekt \u0027Hut\u0027 kann nicht direkt dargestellt werden, da \u0027hat\u0027 als Identifikationsbegriff (identityMapping: true) definiert ist und keine weiteren Relationen zulässt.\\n- \u0027hat\u0027 und \u0027yellow\u0027: Die Beziehung zwischen dem Objekt \u0027Hut\u0027 und dem Attribut \u0027gelb\u0027 wird durch die Typkodierung \u0027characteristic\u0027 (ID 14) dargestellt.\\n4. Für die Beziehungen \u0027maria - wear\u0027 wird die Typkodierung ID 8 (perform) verwendet, für \u0027hat - yellow\u0027 die Typkodierung ID 14 (characteristic). Die Beziehung \u0027wear - hat\u0027 kann nicht durch eine der bereitgestellten Typkodierungen dargestellt werden, da \u0027hat\u0027 identifikationsbasiert ist und keine Relationen mit \u0027wear\u0027 zulässt.\\n5. Der GraphCode wurde aufgebaut, wobei alle Vorgaben der Aufgaben 1–4 beachtet wurden und nur zulässige Typkodierungen verwendet wurden. Da die Beziehung zwischen \u0027wear\u0027 und \u0027hat\u0027 nicht möglich ist, wird diese nicht in der Matrix berücksichtigt.\",\n  \"error\": \"\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 extrahiert und verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"daughter\",\n    \"boat\",\n    \"lake\"\n  ],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 extrahiert und verallgemeinert.\"\n}"
+}

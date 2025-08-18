@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde aufgelöst und dem Vokabular hinzugefügt, da der Nutzer in der Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendete. 2. Die Attribute der Stichwörter sind: \u0027tim\u0027 (object, identityMapping: true), \u0027run\u0027 (activity, identityMapping: false), \u0027maria\u0027 (object, identityMapping: true). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 die Aktivität von \u0027Tim\u0027 beschreibt. \u0027Maria\u0027 wird in der Einheitsdiagonalen als eigenes Objekt definiert. 4. Für die Beziehung \u0027tim\u0027 -\u003e \u0027run\u0027 gibt es eine passende Typkodierung mit ID 8 (perform). Für die Einheitsdiagonalen wurden nur Werte mit identityMapping: true verwendet. 5. Der GraphCode wurde erstellt, wobei das Vokabular die Wörter \u0027tim\u0027, \u0027run\u0027 und \u0027maria\u0027 enthält. Die Bewertungsmatrix enthält die Beziehungen entsprechend den Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde aufgelöst und dem Vokabular hinzugefügt, da der Nutzer in der Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendete. 2. Die Attribute der Stichwörter sind: \u0027tim\u0027 (object, identityMapping: true), \u0027run\u0027 (activity, identityMapping: false), \u0027maria\u0027 (object, identityMapping: true). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 die Aktivität von \u0027Tim\u0027 beschreibt. \u0027Maria\u0027 wird in der Einheitsdiagonalen als eigenes Objekt definiert. 4. Für die Beziehung \u0027tim\u0027 -\u003e \u0027run\u0027 gibt es eine passende Typkodierung mit ID 8 (perform). Für die Einheitsdiagonalen wurden nur Werte mit identityMapping: true verwendet. 5. Der GraphCode wurde erstellt, wobei das Vokabular die Wörter \u0027tim\u0027, \u0027run\u0027 und \u0027maria\u0027 enthält. Die Bewertungsmatrix enthält die Beziehungen entsprechend den Typkodierungen.\"\n}"
+}

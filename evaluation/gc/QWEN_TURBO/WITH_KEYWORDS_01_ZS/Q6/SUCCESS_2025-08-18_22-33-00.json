@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine klaren Beziehungen zwischen den Begriffen des Vokabulars, die mit den vorgegebenen Typkodierungen abgebildet werden kÃ¶nnen.",
+  "error": "No valid relation found",
+  "responsePlain": "{\n  \"error\": \"No valid relation found\",\n  \"description\": \"Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine klaren Beziehungen zwischen den Begriffen des Vokabulars, die mit den vorgegebenen Typkodierungen abgebildet werden kÃ¶nnen.\"\n}"
+}

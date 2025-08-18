@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Häuser\": 0,\n    \"um\": 1,\n    \"Fragen\": 2,\n    \"zu\": 3,\n    \"malen\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Bemerkung:\nDie Anfrage „Häuser um Fragen zu malen“ enthält keine klaren Beziehungen zwischen den Begriffen, die der vorgegebene **GraphCode nach Wagenpfeil** (Adjazenzmatrix mit typcodierten Beziehungen) abbilden könnte. Daher ist der gesamte Matrixwert auf **0** gesetzt, was in diesem Kontext bedeutet: *keine Beziehung* oder *nicht identifizierbar*.\n\nWenn du eine Anfrage mit klareren Beziehungen hast (z. B. „Der Maler malt die Häuser um die Fragen zu überprüfen“), kann ich dir eine entsprechende typcodierte Adjazenzmatrix mit den richtigen Beziehungen berechnen."
+}

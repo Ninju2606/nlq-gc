@@ -1,0 +1,37 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Tim\u0027 und \u0027rennt\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027Tim\u0027 und \u0027run\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern. 5. \u0027Tim\u0027 ist ein Objekt (attribute: object), \u0027run\u0027 ist eine Aktivität (attribute: activity). 6. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. 7. Für die Beziehung \u0027Tim\u0027 -\u003e \u0027run\u0027 gibt es keine passende Kodierung in den Typkodierungen. Fehler: Keine passende Relation gefunden.",
+  "error": "Relation not found",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Tim\u0027 und \u0027rennt\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027Tim\u0027 und \u0027run\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern. 5. \u0027Tim\u0027 ist ein Objekt (attribute: object), \u0027run\u0027 ist eine Aktivität (attribute: activity). 6. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. 7. Für die Beziehung \u0027Tim\u0027 -\u003e \u0027run\u0027 gibt es keine passende Kodierung in den Typkodierungen. Fehler: Keine passende Relation gefunden. 8. GraphCode wurde nicht erstellt, da die Beziehung zwischen \u0027Tim\u0027 und \u0027run\u0027 nicht in den bereitgestellten Typkodierungen enthalten ist.\",\n  \"error\": \"Relation not found\",\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Tim\u0027 und \u0027rennt\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027Tim\u0027 und \u0027run\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern. 5. \u0027Tim\u0027 ist ein Objekt (attribute: object), \u0027run\u0027 ist eine Aktivität (attribute: activity). 6. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. 7. Für die Beziehung \u0027Tim\u0027 -\u003e \u0027run\u0027 gibt es keine passende Kodierung in den Typkodierungen. Fehler: Keine passende Relation gefunden.\"\n}"
+}

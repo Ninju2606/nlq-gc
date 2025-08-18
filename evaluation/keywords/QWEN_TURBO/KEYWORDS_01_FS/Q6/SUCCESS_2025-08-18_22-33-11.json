@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Maria\u0027, \u0027make\u0027, and \u0027appointment\u0027 are extracted from the user\u0027s query as they represent the user\u0027s identity and the main action described.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"description\": \"The keywords \u0027Maria\u0027, \u0027make\u0027, and \u0027appointment\u0027 are extracted from the user\u0027s query as they represent the user\u0027s identity and the main action described.\"\n}"
+}

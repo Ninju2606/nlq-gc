@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Nutzeranfrage \u0027Häuser um Fragen zu malen\u0027 sind \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt zu \u0027house\u0027, \u0027ask\u0027 und \u0027paint\u0027. Keine Identifikation des Nutzers wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 wurde in der Anfrage gefunden, daher wird die Identifikation \u0027Maria\u0027 nicht im Vokabular berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"description\": \"Potenzielle Stichwörter aus der Nutzeranfrage \u0027Häuser um Fragen zu malen\u0027 sind \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Diese wurden ins Englische übersetzt zu \u0027house\u0027, \u0027ask\u0027 und \u0027paint\u0027. Keine Identifikation des Nutzers wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 wurde in der Anfrage gefunden, daher wird die Identifikation \u0027Maria\u0027 nicht im Vokabular berücksichtigt.\"\n}"
+}

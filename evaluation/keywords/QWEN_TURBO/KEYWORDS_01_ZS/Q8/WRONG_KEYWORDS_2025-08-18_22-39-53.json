@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "boat",
+    "lake",
+    "person"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Schlüsselwörter \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027 und \u0027ich\u0027 wurden in das Vokabular des GraphCodes aufgenommen. Dabei wurde \u0027ich\u0027 als \u0027person\u0027 verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"boat\", \"lake\", \"person\"],\n  \"description\": \"Die Schlüsselwörter \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027 und \u0027ich\u0027 wurden in das Vokabular des GraphCodes aufgenommen. Dabei wurde \u0027ich\u0027 als \u0027person\u0027 verallgemeinert.\"\n}"
+}

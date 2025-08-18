@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situations",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\n2. Keine relativen Verweise vorhanden.\n3. Übersetzung ins Englische: \u0027situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\n4. Ersetzen der Identifikation des Nutzers: \u0027Maria\u0027 wird in der Anfrage nicht referenziert, daher wird sie nicht ersetzt.\n5. Erklärung der Attributeigenschaften:\n   - \u0027situations\u0027 ist ein Objekt.\n   - \u0027yellow\u0027 ist ein Attribut.\n   - \u0027hat\u0027 ist ein Objekt.\n   - \u0027wear\u0027 ist eine Aktivität.\n6. Erklärung der Relationen:\n   - \u0027situations\u0027 und \u0027hat\u0027 haben eine Beziehung \u0027object\u0027 (Typkodierung 1).\n   - \u0027hat\u0027 und \u0027yellow\u0027 haben eine Beziehung \u0027context\u0027 (Typkodierung 2).\n   - \u0027hat\u0027 und \u0027wear\u0027 haben eine Beziehung \u0027activity\u0027 (Typkodierung 4).\n7. Alle Relationen sind in den bereitgestellten Typkodierungen vorhanden.\n8. Zusammenstellen des GraphCodes mit dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Keine relativen Verweise vorhanden.\\n3. Übersetzung ins Englische: \u0027situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\\n4. Ersetzen der Identifikation des Nutzers: \u0027Maria\u0027 wird in der Anfrage nicht referenziert, daher wird sie nicht ersetzt.\\n5. Erklärung der Attributeigenschaften:\\n   - \u0027situations\u0027 ist ein Objekt.\\n   - \u0027yellow\u0027 ist ein Attribut.\\n   - \u0027hat\u0027 ist ein Objekt.\\n   - \u0027wear\u0027 ist eine Aktivität.\\n6. Erklärung der Relationen:\\n   - \u0027situations\u0027 und \u0027hat\u0027 haben eine Beziehung \u0027object\u0027 (Typkodierung 1).\\n   - \u0027hat\u0027 und \u0027yellow\u0027 haben eine Beziehung \u0027context\u0027 (Typkodierung 2).\\n   - \u0027hat\u0027 und \u0027wear\u0027 haben eine Beziehung \u0027activity\u0027 (Typkodierung 4).\\n7. Alle Relationen sind in den bereitgestellten Typkodierungen vorhanden.\\n8. Zusammenstellen des GraphCodes mit dem Vokabular und der Bewertungsmatrix.\",\n  \"dictionary\": [\"situations\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Keine relativen Verweise vorhanden.\\n3. Übersetzung ins Englische: \u0027situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\\n4. Ersetzen der Identifikation des Nutzers: \u0027Maria\u0027 wird in der Anfrage nicht referenziert, daher wird sie nicht ersetzt.\\n5. Erklärung der Attributeigenschaften:\\n   - \u0027situations\u0027 ist ein Objekt.\\n   - \u0027yellow\u0027 ist ein Attribut.\\n   - \u0027hat\u0027 ist ein Objekt.\\n   - \u0027wear\u0027 ist eine Aktivität.\\n6. Erklärung der Relationen:\\n   - \u0027situations\u0027 und \u0027hat\u0027 haben eine Beziehung \u0027object\u0027 (Typkodierung 1).\\n   - \u0027hat\u0027 und \u0027yellow\u0027 haben eine Beziehung \u0027context\u0027 (Typkodierung 2).\\n   - \u0027hat\u0027 und \u0027wear\u0027 haben eine Beziehung \u0027activity\u0027 (Typkodierung 4).\\n7. Alle Relationen sind in den bereitgestellten Typkodierungen vorhanden.\\n8. Zusammenstellen des GraphCodes mit dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

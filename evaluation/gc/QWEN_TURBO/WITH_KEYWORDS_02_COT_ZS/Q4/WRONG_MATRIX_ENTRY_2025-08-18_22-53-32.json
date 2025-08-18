@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Ich schwimme in meinem Pool\u0027 explizit eine Person erwähnt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (id 1), \u0027swim\u0027 ist eine Aktivität (id 4), \u0027own\u0027 ist ein Kontext (id 2), und \u0027pool\u0027 ist ein Objekt (id 1). 3. Die Stichwörter stehen in folgenden Beziehungen zueinander: \u0027Maria\u0027 und \u0027swim\u0027 (aktivitätsbezogen) wird durch \u0027perform\u0027 (id 8) dargestellt, \u0027swim\u0027 und \u0027pool\u0027 (lokale Beziehung) durch \u0027under\u0027 (id 6), \u0027Maria\u0027 und \u0027own\u0027 (Eigentumsbeziehung) durch \u0027attached\u0027 (id 5), und \u0027own\u0027 und \u0027pool\u0027 (Objekt-Zustand) durch \u0027attached\u0027 (id 5). 4. Für alle Relationen aus Schritten 2 und 3 existieren passende Typkodierungen. 5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix, die die Beziehungen zwischen den Stichwörtern darstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Ich schwimme in meinem Pool\u0027 explizit eine Person erwähnt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (id 1), \u0027swim\u0027 ist eine Aktivität (id 4), \u0027own\u0027 ist ein Kontext (id 2), und \u0027pool\u0027 ist ein Objekt (id 1). 3. Die Stichwörter stehen in folgenden Beziehungen zueinander: \u0027Maria\u0027 und \u0027swim\u0027 (aktivitätsbezogen) wird durch \u0027perform\u0027 (id 8) dargestellt, \u0027swim\u0027 und \u0027pool\u0027 (lokale Beziehung) durch \u0027under\u0027 (id 6), \u0027Maria\u0027 und \u0027own\u0027 (Eigentumsbeziehung) durch \u0027attached\u0027 (id 5), und \u0027own\u0027 und \u0027pool\u0027 (Objekt-Zustand) durch \u0027attached\u0027 (id 5). 4. Für alle Relationen aus Schritten 2 und 3 existieren passende Typkodierungen. 5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix, die die Beziehungen zwischen den Stichwörtern darstellt.\"\n}"
+}

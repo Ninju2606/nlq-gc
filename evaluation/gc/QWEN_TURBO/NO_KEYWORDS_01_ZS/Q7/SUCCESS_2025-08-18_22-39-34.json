@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Beziehungen zwischen Begriffen, die der vorgegebenen Typkodierung entsprechen. Die Generierung des GraphCodes wurde abgebrochen.",
+  "error": "Invalid relation type found in matrix",
+  "responsePlain": "{\n  \"error\": \"Invalid relation type found in matrix\",\n  \"description\": \"Die Anfrage enthält keine klaren Beziehungen zwischen Begriffen, die der vorgegebenen Typkodierung entsprechen. Die Generierung des GraphCodes wurde abgebrochen.\"\n}"
+}

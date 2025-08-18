@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. \u0027maria\u0027 ist die Identifikation des Nutzers, \u0027wear\u0027 beschreibt die Aktivität des Tragens, \u0027hat\u0027 bezeichnet das Objekt \u0027Hut\u0027, und \u0027yellow\u0027 ist das Attribut \u0027gelb\u0027. Die Matrix definiert die Beziehungen basierend auf den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. \u0027maria\u0027 ist die Identifikation des Nutzers, \u0027wear\u0027 beschreibt die Aktivität des Tragens, \u0027hat\u0027 bezeichnet das Objekt \u0027Hut\u0027, und \u0027yellow\u0027 ist das Attribut \u0027gelb\u0027. Die Matrix definiert die Beziehungen basierend auf den vorgegebenen Typkodierungen.\"\n}"
+}

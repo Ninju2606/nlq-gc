@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "boat",
+    "lake",
+    "user"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter aus der Nutzeranfrage wurden extrahiert und in das Vokabular des GraphCodes aufgenommen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"user\"\n  ],\n  \"description\": \"Die Stichwörter aus der Nutzeranfrage wurden extrahiert und in das Vokabular des GraphCodes aufgenommen.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"trage\": 1,\n    \"gelben\": 2,\n    \"Hut\": 3\n  },\n  \"matrix\": [\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\nDie Anfrage **„Zeig mir Situationen, in denen ich einen gelben Hut trage“** wird als GraphCode nach Wagenpfeil interpretiert, wobei:\n- Jeder Begriff (`Situationen`, `trage`, `gelben`, `Hut`) eine eigene Zeile/Spalte in der Adjazenzmatrix darstellt.\n- Da keine Beziehungen zwischen den Begriffen explizit mit den Typkodierungen (z. B. `object`, `context`, `synonym`, etc.) erkannt werden, sind alle Werte in der Matrix auf `0` gesetzt.\n\nWenn du weitere Beziehungen oder eine detailliertere Analyse der Anfrage wünschst, gib einfach bekannt, welche Beziehungen du erwartest, und ich passe den GraphCode entsprechend an."
+}

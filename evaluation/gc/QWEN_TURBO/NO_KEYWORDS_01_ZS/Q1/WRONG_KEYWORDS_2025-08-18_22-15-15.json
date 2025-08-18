@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "Basketball",
+    "activity",
+    "perform"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Situation, in der Maria Basketball spielt. \u0027Maria\u0027 wird als Person identifiziert, \u0027Basketball\u0027 als Gegenstand, \u0027activity\u0027 als Aktivitätskategorie und \u0027perform\u0027 als Handlung, mit der Maria die Aktivität ausübt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"Basketball\", \"activity\", \"perform\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [8, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situation, in der Maria Basketball spielt. \u0027Maria\u0027 wird als Person identifiziert, \u0027Basketball\u0027 als Gegenstand, \u0027activity\u0027 als Aktivitätskategorie und \u0027perform\u0027 als Handlung, mit der Maria die Aktivität ausübt.\"\n}"
+}

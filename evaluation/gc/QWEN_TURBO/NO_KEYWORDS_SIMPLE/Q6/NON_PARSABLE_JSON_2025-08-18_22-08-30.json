@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage in einem GraphCode nach Wagenpfeil, also als typcodierte Adjazenzmatrix, als JSON-Objekt mit den Begriffen im Attribut `dictionary` und der Matrixwerten im Attribut `matrix`:\n\n\n{\n  \"dictionary\": {\n    \"wir\": 0,\n    \"müssen\": 1,\n    \"bald\": 2,\n    \"einen\": 3,\n    \"Termin\": 4,\n    \"ausmachen\": 5\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Anmerkung:\nDie vorliegende Anfrage `\"Wir müssen bald einen Termin ausmachen.\"` enthält **keine der spezifischen Begriffe**, die in der angegebenen Typkodierung definiert sind (z. B. `object`, `context`, `synonym`, `activity`, `attached`, `under`, `above`, `perform`, `target`, `daughter`, `characteristic`).  \nDaher ist die Adjazenzmatrix leer (bestehend aus Nullen).  \n\nFalls du konkrete Beziehungen oder Begriffe hast, die gemappt werden sollen, poste sie gerne, dann kann ich die Matrix entsprechend füllen."
+}

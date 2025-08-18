@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Wir\" wurde zu \"maria\". \n        2. \"maria\" und \"appointment\" sind Objekte der Anfrage. \"make\" ist eine Aktivität. \n        3. \"maria\" macht einen \"appointment\". \"make\" bezieht sich auf \"appointment\". \n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Wir\\\" wurde zu \\\"maria\\\". \\n        2. \\\"maria\\\" und \\\"appointment\\\" sind Objekte der Anfrage. \\\"make\\\" ist eine Aktivität. \\n        3. \\\"maria\\\" macht einen \\\"appointment\\\". \\\"make\\\" bezieht sich auf \\\"appointment\\\". \\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.\"\n}"
+}

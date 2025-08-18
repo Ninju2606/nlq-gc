@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "meeting",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage extrahiert und ins Englische übersetzt. Die Identifikation des Nutzers (Maria) wird nicht im Vokabular verwendet, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorliegen.",
+  "responsePlain": "{\n  \"dictionary\": [\"meeting\", \"soon\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage extrahiert und ins Englische übersetzt. Die Identifikation des Nutzers (Maria) wird nicht im Vokabular verwendet, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorliegen.\"\n}"
+}

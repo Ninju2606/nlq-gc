@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"schwimme\": 0,\n    \"meinem\": 1,\n    \"Pool\": 2\n  },\n  \"matrix\": [\n    [0, 0, 0],\n    [0, 0, 0],\n    [0, 0, 0]\n  ],\n  \"relationships\": [\n    {\n      \"from\": 0,\n      \"to\": 1,\n      \"type\": 8\n    },\n    {\n      \"from\": 0,\n      \"to\": 2,\n      \"type\": 9\n    },\n    {\n      \"from\": 1,\n      \"to\": 2,\n      \"type\": 6\n    }\n  ]\n}\n\n\n### Erklärung:\n\n- **dictionary**: Die Begriffe aus der Anfrage `\"schwimme\"`, `\"meinem\"` und `\"Pool\"` werden als Schlüssel in einem numerischen Index dargestellt.\n- **matrix**: Eine leere 3x3-Adjazenzmatrix (wegen 3 Begriffen).\n- **relationships**: Die Beziehungen zwischen den Begriffen nach Wagenpfeil-Code:\n  - `\"schwimme\"` → `\"meinem\"`: `type 8` (`\"perform\"`)\n  - `\"schwimme\"` → `\"Pool\"`: `type 9` (`\"target\"`)\n  - `\"meinem\"` → `\"Pool\"`: `type 6` (`\"under\"`)\n\nDiese Darstellung entspricht der Wagenpfeil-Notation, bei der Begriffe als Zeilen/Spalten und Beziehungen als numerische Typwerte kodiert werden."
+}

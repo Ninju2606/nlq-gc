@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Basketball\": 1\n  },\n  \"matrix\": [\n    [0]\n  ]\n}\n\n\n### Erklärung:\n- Der Text **\"Ich spiele Basketball\"** enthält den Begriff **\"Basketball\"**.\n- Da keine anderen Begriffe im Text vorkommen und keine Beziehungen zwischen Begriffen (z. B. Synonyme, Kontexte, Aktivitäten, etc.) definiert sind, ist die **Adjazenzmatrix** nur 1x1 groß.\n- Der Begriff **\"Basketball\"** wird mit `id\u003d1` (Typ `object`) kodiert.\n- Die Matrix enthält einen einzigen Wert `0`, da keine Beziehungen definiert sind."
+}

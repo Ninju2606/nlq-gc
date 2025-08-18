@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde ignoriert, da die Anfrage nicht auf sie verweist. Potenzielle Stichwörter wurden aus \u0027Tim rennt\u0027 ermittelt und ins Englische übersetzt. \u0027Tim\u0027 wird als Objekt und \u0027run\u0027 als Aktivität im Vokabular berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde ignoriert, da die Anfrage nicht auf sie verweist. Potenzielle Stichwörter wurden aus \u0027Tim rennt\u0027 ermittelt und ins Englische übersetzt. \u0027Tim\u0027 wird als Objekt und \u0027run\u0027 als Aktivität im Vokabular berücksichtigt.\"\n}"
+}

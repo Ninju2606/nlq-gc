@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 ermittelt. Die Stichwörter wurden ins Englische übersetzt, wobei \u0027Meine Tochter\u0027 zu \u0027daughter\u0027 und \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt wurde. Die relative Referenz \u0027ich\u0027 wurde in \u0027Maria\u0027 umgewandelt. Die Einträge des Vokabulars sind in Englisch angegeben.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 ermittelt. Die Stichwörter wurden ins Englische übersetzt, wobei \u0027Meine Tochter\u0027 zu \u0027daughter\u0027 und \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt wurde. Die relative Referenz \u0027ich\u0027 wurde in \u0027Maria\u0027 umgewandelt. Die Einträge des Vokabulars sind in Englisch angegeben.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we",
+    "must",
+    "soon",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Wir, müssen, bald, einen, Termin. 2. Keine relativen Verweise vorhanden. 3. Stichwörter ins Englische übersetzt: we, must, soon, make, appointment. 4. Keine Identifikation des Nutzers (Maria) in den Stichwörtern. 5. Attributeigenschaften: \u0027we\u0027 (object), \u0027must\u0027 (object), \u0027soon\u0027 (object), \u0027make\u0027 (activity), \u0027appointment\u0027 (object). 6. \u0027we\u0027 und \u0027must\u0027 stehen in einer Beziehung, \u0027must\u0027 und \u0027soon\u0027 in einer, \u0027soon\u0027 und \u0027make\u0027 in einer, \u0027make\u0027 und \u0027appointment\u0027 in einer. 7. Alle Relationen entsprechen den Type-Kodierungen. 8. GraphCode erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we\", \"must\", \"soon\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Wir, müssen, bald, einen, Termin. 2. Keine relativen Verweise vorhanden. 3. Stichwörter ins Englische übersetzt: we, must, soon, make, appointment. 4. Keine Identifikation des Nutzers (Maria) in den Stichwörtern. 5. Attributeigenschaften: \u0027we\u0027 (object), \u0027must\u0027 (object), \u0027soon\u0027 (object), \u0027make\u0027 (activity), \u0027appointment\u0027 (object). 6. \u0027we\u0027 und \u0027must\u0027 stehen in einer Beziehung, \u0027must\u0027 und \u0027soon\u0027 in einer, \u0027soon\u0027 und \u0027make\u0027 in einer, \u0027make\u0027 und \u0027appointment\u0027 in einer. 7. Alle Relationen entsprechen den Type-Kodierungen. 8. GraphCode erstellt.\"\n}"
+}

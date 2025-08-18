@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers (Maria) wurde zugeordnet und in das Vokabular übernommen. \n2. Attributeigenschaften der Stichwörter: - \u0027maria\u0027 ist eine Person (object), - \u0027wear\u0027 ist eine Aktivität (activity), - \u0027hat\u0027 ist eine Beziehung (attached), - \u0027yellow\u0027 ist ein Merkmal (characteristic). \n3. Die Stichwörter stehen in folgenden Beziehungen: \u0027maria\u0027 und \u0027wear\u0027 (activity), \u0027maria\u0027 und \u0027hat\u0027 (attached), \u0027maria\u0027 und \u0027yellow\u0027 (characteristic), \u0027wear\u0027 und \u0027hat\u0027 (attached), \u0027wear\u0027 und \u0027yellow\u0027 (characteristic), \u0027hat\u0027 und \u0027yellow\u0027 (characteristic). \n4. Für alle Relationen existieren passende Typkodierungen: \u0027wear\u0027 - ID 4, \u0027hat\u0027 - ID 5, \u0027yellow\u0027 - ID 14, \u0027maria\u0027 - ID 1. \n5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix, wobei die Einheitsdiagonale korrekt mit identityMapping-Parametern gefüllt ist und alle Beziehungen über die Typkodierungen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wurde zugeordnet und in das Vokabular übernommen. \\n2. Attributeigenschaften der Stichwörter: - \u0027maria\u0027 ist eine Person (object), - \u0027wear\u0027 ist eine Aktivität (activity), - \u0027hat\u0027 ist eine Beziehung (attached), - \u0027yellow\u0027 ist ein Merkmal (characteristic). \\n3. Die Stichwörter stehen in folgenden Beziehungen: \u0027maria\u0027 und \u0027wear\u0027 (activity), \u0027maria\u0027 und \u0027hat\u0027 (attached), \u0027maria\u0027 und \u0027yellow\u0027 (characteristic), \u0027wear\u0027 und \u0027hat\u0027 (attached), \u0027wear\u0027 und \u0027yellow\u0027 (characteristic), \u0027hat\u0027 und \u0027yellow\u0027 (characteristic). \\n4. Für alle Relationen existieren passende Typkodierungen: \u0027wear\u0027 - ID 4, \u0027hat\u0027 - ID 5, \u0027yellow\u0027 - ID 14, \u0027maria\u0027 - ID 1. \\n5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix, wobei die Einheitsdiagonale korrekt mit identityMapping-Parametern gefüllt ist und alle Beziehungen über die Typkodierungen dargestellt werden.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzereingabe wurde analysiert und die potenziellen Stichwörter \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027 identifiziert. Die Identifikation \u0027Maria\u0027 wurde berücksichtigt und in das Vokabular aufgenommen. Die Übersetzung ins Englische wurde durchgeführt, wobei \u0027gelben\u0027 zu \u0027yellow\u0027 und \u0027Hut\u0027 zu \u0027hat\u0027 verallgemeinert wurde. Die Stichwörter \u0027Situtionen\u0027 und \u0027ich\u0027 wurden in \u0027situation\u0027 und \u0027Maria\u0027 umgewandelt. Die Zwischenaufgaben wurden in der Beschreibung zusammengefasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"situation\"],\n  \"description\": \"Die Nutzereingabe wurde analysiert und die potenziellen Stichwörter \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027 identifiziert. Die Identifikation \u0027Maria\u0027 wurde berücksichtigt und in das Vokabular aufgenommen. Die Übersetzung ins Englische wurde durchgeführt, wobei \u0027gelben\u0027 zu \u0027yellow\u0027 und \u0027Hut\u0027 zu \u0027hat\u0027 verallgemeinert wurde. Die Stichwörter \u0027Situtionen\u0027 und \u0027ich\u0027 wurden in \u0027situation\u0027 und \u0027Maria\u0027 umgewandelt. Die Zwischenaufgaben wurden in der Beschreibung zusammengefasst.\"\n}"
+}

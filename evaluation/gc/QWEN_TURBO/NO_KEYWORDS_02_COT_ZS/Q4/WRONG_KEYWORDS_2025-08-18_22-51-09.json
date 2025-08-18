@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. 2. Relative Verweise: \u0027Ich\u0027 und \u0027meinem\u0027 verweisen auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. Ersetzen der Identifikation: \u0027Ich\u0027 und \u0027meinem\u0027 wurden durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Id 1), \u0027swim\u0027 ist eine Aktivität (Id 8), \u0027pool\u0027 ist ein Objekt (Id 1). 6. Relationen: \u0027Maria\u0027 ist die Person, die \u0027swim\u0027 (Aktivität) in \u0027pool\u0027 (Objekt) ausführt. 7. Prüfung der Typkodierungen: \u0027Maria\u0027 (Objekt, Id 1), \u0027swim\u0027 (Aktivität, Id 8), \u0027pool\u0027 (Objekt, Id 1). Es existieren Einträge für alle Relationen. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 8, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. 2. Relative Verweise: \u0027Ich\u0027 und \u0027meinem\u0027 verweisen auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. Ersetzen der Identifikation: \u0027Ich\u0027 und \u0027meinem\u0027 wurden durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Id 1), \u0027swim\u0027 ist eine Aktivität (Id 8), \u0027pool\u0027 ist ein Objekt (Id 1). 6. Relationen: \u0027Maria\u0027 ist die Person, die \u0027swim\u0027 (Aktivität) in \u0027pool\u0027 (Objekt) ausführt. 7. Prüfung der Typkodierungen: \u0027Maria\u0027 (Objekt, Id 1), \u0027swim\u0027 (Aktivität, Id 8), \u0027pool\u0027 (Objekt, Id 1). Es existieren Einträge für alle Relationen. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

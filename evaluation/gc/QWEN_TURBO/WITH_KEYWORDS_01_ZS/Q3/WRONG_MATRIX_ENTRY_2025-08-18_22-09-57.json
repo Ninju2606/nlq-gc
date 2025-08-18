@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode wurde basierend auf der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 erstellt. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027swim\u0027 stellt die Aktivität dar, \u0027own\u0027 ist ein Attribut, und \u0027pool\u0027 ist das Objekt. Die Einträge auf der Diagonalen entsprechen den identityMapping-Typen, während außerhalb der Diagonalen nur 0 oder identityMapping\u003dfalse-Typen verwendet wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde basierend auf der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 erstellt. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027swim\u0027 stellt die Aktivität dar, \u0027own\u0027 ist ein Attribut, und \u0027pool\u0027 ist das Objekt. Die Einträge auf der Diagonalen entsprechen den identityMapping-Typen, während außerhalb der Diagonalen nur 0 oder identityMapping\u003dfalse-Typen verwendet wurden.\"\n}"
+}

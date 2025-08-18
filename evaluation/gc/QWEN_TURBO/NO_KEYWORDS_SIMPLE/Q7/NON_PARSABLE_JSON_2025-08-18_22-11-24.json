@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Häuser\": 0,\n    \"um\": 1,\n    \"Fragen\": 2,\n    \"zu\": 3,\n    \"malen\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\n\nDie Anfrage **\"Häuser um Fragen zu malen\"** wurde in eine **Adjazenzmatrix** nach Wagenpfeil umgewandelt, wobei:\n\n- Jeder Begriff (Wort) eine **Spalte und Zeile** in der Matrix darstellt (basierend auf der `dictionary`).\n- Die Beziehungen zwischen den Begriffen werden durch die `matrix`-Werte dargestellt.\n- Die **Typkodierung** wurde nicht angewendet, da in der gegebenen Anfrage **keine expliziten Beziehungen** zwischen den Begriffen (wie synonym, activity, target usw.) identifiziert werden konnten.\n\nWenn du zusätzliche Beziehungen oder einen konkreten Kontext bereitstellst, kann ich die Matrix entsprechend befüllen."
+}

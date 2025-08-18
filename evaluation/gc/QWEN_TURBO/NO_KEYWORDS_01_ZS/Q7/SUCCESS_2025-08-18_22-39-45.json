@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht eindeutig und enthält keine klare Szenenbeschreibung im Metaverse. Keine ausreichenden Informationen zur Generierung eines GraphCodes.",
+  "error": "Invalid query",
+  "responsePlain": "{\n  \"error\": \"Invalid query\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht eindeutig und enthält keine klare Szenenbeschreibung im Metaverse. Keine ausreichenden Informationen zur Generierung eines GraphCodes.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Begriffe, die für die Erstellung eines GraphCodes relevant sind. Sie ist grammatikalisch unklar und bezieht sich nicht auf konkrete Objekte, Attribute oder Aktivitäten innerhalb einer Metaverse-Szene.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage enthält keine klaren Begriffe, die für die Erstellung eines GraphCodes relevant sind. Sie ist grammatikalisch unklar und bezieht sich nicht auf konkrete Objekte, Attribute oder Aktivitäten innerhalb einer Metaverse-Szene.\"\n}"
+}

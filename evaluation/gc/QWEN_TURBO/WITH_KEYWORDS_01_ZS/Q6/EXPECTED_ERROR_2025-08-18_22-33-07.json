@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 mit den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Die Einheitsdiagonalen enthalten die Typkodierungen \u0027object\u0027 (1) für \u0027maria\u0027, \u0027activity\u0027 (4) für \u0027make\u0027 und \u0027activity\u0027 (4) für \u0027appointment\u0027. Außerhalb der Diagonalen sind nur erlaubte Werte erlaubt, weshalb dort 0 gesetzt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 mit den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Die Einheitsdiagonalen enthalten die Typkodierungen \u0027object\u0027 (1) für \u0027maria\u0027, \u0027activity\u0027 (4) für \u0027make\u0027 und \u0027activity\u0027 (4) für \u0027appointment\u0027. Außerhalb der Diagonalen sind nur erlaubte Werte erlaubt, weshalb dort 0 gesetzt wird.\"\n}"
+}

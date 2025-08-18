@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"trage\": 1,\n    \"einen\": 2,\n    \"gelben\": 3,\n    \"Hut\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\nDie Anfrage **„Zeig mir Situationen, in denen ich einen gelben Hut trage“** enthält die Begriffe:\n- Situationen\n- trage\n- einen\n- gelben\n- Hut\n\nDa in der Anfrage keine expliziten Beziehungen zwischen den Begriffen (z. B. „unter“, „über“, „aktivität“) erwähnt werden, ist die Adjazenzmatrix mit lauter `0`-Werten belegt. Die typcodierte Adjazenzmatrix würde nur dann von `0` abweichen, wenn Beziehungen wie `above`, `perform`, `target` usw. zwischen den Begriffen bestünden.\n\nWenn du Beziehungen hinzufügen möchtest oder eine andere Anfrage verarbeiten lässt, melde dich gerne!"
+}

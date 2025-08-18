@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage `Tim rennt` als GraphCode nach Wagenpfeil (typcodierte Adjazenzmatrix) umgewandelt, dargestellt als JSON-Objekt:\n\n\n{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 0],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- **dictionary**: Mapping der Begriffe (`Tim`, `rennt`) auf deren Index in der Matrix.\n- **matrix**: Adjazenzmatrix mit Typkodierung, wobei:\n  - Die Zeilen und Spalten den Begriffen entsprechen.\n  - Die Werte in der Matrix den Beziehungen zwischen den Begriffen entsprechen (als Typ-ID kodiert).\n  - In diesem Fall sind **keine Beziehungen** explizit gegeben, daher ist die Matrix mit `0` initialisiert.\n\n### Hinweis:\nDa nur die Anfrage `\"Tim rennt\"` gegeben ist und keine Beziehungen (z. B. \"Tim ist Person\", \"rennt ist Aktivität\", etc.) hinzugefügt wurden, bleibt die Matrix leer (`0`), bis Beziehungen explizit definiert sind.\n\nWenn du Beziehungen oder zusätzliche Kontexte hinzufügst, kann die Matrix dynamisch erweitert werden."
+}

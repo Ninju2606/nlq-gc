@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Termin\": 0,\n    \"ausmachen\": 1,\n    \"Wir\": 2,\n    \"müssen\": 3,\n    \"bald\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n**Hinweis:**  \nIn der Anfrage wurden **keine Beziehungen** zwischen den Begriffen genannt oder impliziert, weshalb die **Adjazenzmatrix** vollständig mit Nullen gefüllt ist. Die `dictionary`-Liste enthält lediglich die Begriffe aus dem Text, jedoch keine Beziehungen.  \n\nWenn du Beziehungen (z. B. \"müssen\" ist eine **Aktivität** von \"Wir\", oder \"Termin\" ist das **Ziel** von \"ausmachen\") spezifizieren möchtest, dann gib diese Beziehungen an, und ich kann die Matrix entsprechend füllen."
+}

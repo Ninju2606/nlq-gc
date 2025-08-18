@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Tim",
+    "run",
+    "activity"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode zur Anfrage \u0027Tim rennt\u0027. Das Vokabular enthält den Benutzernamen \u0027Tim\u0027 sowie die Aktivität \u0027run\u0027. Die Matrix beschreibt die Beziehungen zwischen den Begriffen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\", \"activity\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"GraphCode zur Anfrage \u0027Tim rennt\u0027. Das Vokabular enthält den Benutzernamen \u0027Tim\u0027 sowie die Aktivität \u0027run\u0027. Die Matrix beschreibt die Beziehungen zwischen den Begriffen.\"\n}"
+}

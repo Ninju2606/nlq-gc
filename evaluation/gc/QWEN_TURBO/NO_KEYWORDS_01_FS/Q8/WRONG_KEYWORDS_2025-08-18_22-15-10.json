@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake",
+    "parent",
+    "child"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene \u0027Maria und ihre Tochter fahren Boot auf einem See\u0027. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027, \u0027parent\u0027, und \u0027child\u0027. In der Bewertungsmatrix sind die Beziehungen gemäß den Regeln definiert, wobei auf der Einheitsdiagonalen nur Einträge mit identityMapping\u003dtrue verwendet werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\", \"parent\", \"child\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene \u0027Maria und ihre Tochter fahren Boot auf einem See\u0027. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027, \u0027parent\u0027, und \u0027child\u0027. In der Bewertungsmatrix sind die Beziehungen gemäß den Regeln definiert, wobei auf der Einheitsdiagonalen nur Einträge mit identityMapping\u003dtrue verwendet werden.\"\n}"
+}

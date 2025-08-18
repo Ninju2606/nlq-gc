@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Die Identifikation des Nutzers (Maria) wurde aufgelöst und in das Vokabular aufgenommen. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 – Identität (object), \u0027person\u0027 – Kontext (context), \u0027drive\u0027 – Aktivität (activity), \u0027boat\u0027 – Objekt (object), \u0027lake\u0027 – Kontext (context). 3. Die Stichwörter stehen in folgenden Relationen: \u0027maria\u0027 und \u0027person\u0027 (identisch, object), \u0027maria\u0027 und \u0027drive\u0027 (aktivität, perform), \u0027person\u0027 und \u0027drive\u0027 (aktivität, perform), \u0027boat\u0027 und \u0027lake\u0027 (kontext, under). 4. Für alle Relationen existieren passende Typkodierungen: \u0027maria\u0027 – 1, \u0027person\u0027 – 2, \u0027drive\u0027 – 4, \u0027boat\u0027 – 1, \u0027lake\u0027 – 2. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wurde aufgelöst und in das Vokabular aufgenommen. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 – Identität (object), \u0027person\u0027 – Kontext (context), \u0027drive\u0027 – Aktivität (activity), \u0027boat\u0027 – Objekt (object), \u0027lake\u0027 – Kontext (context). 3. Die Stichwörter stehen in folgenden Relationen: \u0027maria\u0027 und \u0027person\u0027 (identisch, object), \u0027maria\u0027 und \u0027drive\u0027 (aktivität, perform), \u0027person\u0027 und \u0027drive\u0027 (aktivität, perform), \u0027boat\u0027 und \u0027lake\u0027 (kontext, under). 4. Für alle Relationen existieren passende Typkodierungen: \u0027maria\u0027 – 1, \u0027person\u0027 – 2, \u0027drive\u0027 – 4, \u0027boat\u0027 – 1, \u0027lake\u0027 – 2. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

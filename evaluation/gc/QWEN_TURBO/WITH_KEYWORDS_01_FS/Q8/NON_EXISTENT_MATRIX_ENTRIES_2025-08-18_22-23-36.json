@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      6,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. \u0027Maria\u0027 (Identifikation des Nutzers) und \u0027person\u0027 werden als Person identifiziert, \u0027drive\u0027 steht für die Aktivität, \u0027boat\u0027 ist das Objekt, und \u0027lake\u0027 ist der Kontext.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 8, 0, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 6, 5],\n    [0, 0, 0, 1, 5],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. \u0027Maria\u0027 (Identifikation des Nutzers) und \u0027person\u0027 werden als Person identifiziert, \u0027drive\u0027 steht für die Aktivität, \u0027boat\u0027 ist das Objekt, und \u0027lake\u0027 ist der Kontext.\"\n}"
+}

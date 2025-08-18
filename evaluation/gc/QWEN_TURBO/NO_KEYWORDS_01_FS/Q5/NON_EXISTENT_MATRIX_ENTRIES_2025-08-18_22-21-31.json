@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. Der Nutzer \u0027Maria\u0027 tritt in der Szene auf, in der sie einen gelben Hut trägt. Die Beziehung \u0027tragen\u0027 (attributiert mit \u0027object\u0027) wird durch den Eintrag \u0027wear\u0027 und \u0027hat\u0027 dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 14, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode für die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. Der Nutzer \u0027Maria\u0027 tritt in der Szene auf, in der sie einen gelben Hut trägt. Die Beziehung \u0027tragen\u0027 (attributiert mit \u0027object\u0027) wird durch den Eintrag \u0027wear\u0027 und \u0027hat\u0027 dargestellt.\"\n}"
+}

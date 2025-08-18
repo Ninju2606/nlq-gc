@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Identifikation des Nutzers \u0027Tim\u0027 und das Verb \u0027run\u0027, das die Aktivität beschreibt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Identifikation des Nutzers \u0027Tim\u0027 und das Verb \u0027run\u0027, das die Aktivität beschreibt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer \"Maria\" wurde identifiziert. Es gibt keine relativen Verweise.\n        2. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist eine Eigenschaft oder ein Kontext.\n        3. \"Maria\" schwimmt in ihrem Pool. \"swim\" bezieht sich auf \"pool\". \"own\" kennzeichnet die Beziehung zwischen \"Maria\" und \"pool\".\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Ausführen (perform) ist 7. Die ID für Kontext (context) ist 2 (da \"own\" als Kontext interpretiert wird).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 7, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \\\"Maria\\\" wurde identifiziert. Es gibt keine relativen Verweise.\\n        2. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist eine Eigenschaft oder ein Kontext.\\n        3. \\\"Maria\\\" schwimmt in ihrem Pool. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"own\\\" kennzeichnet die Beziehung zwischen \\\"Maria\\\" und \\\"pool\\\".\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Ausführen (perform) ist 7. Die ID für Kontext (context) ist 2 (da \\\"own\\\" als Kontext interpretiert wird).\"\n}"
+}

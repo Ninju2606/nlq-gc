@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "meet",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Wir müssenn bald einen Termin ausmachen.\u0027 extrahiert und ins Englische übersetzt. Dabei wurde die Identifikation des Nutzers \u0027Maria\u0027 nicht berücksichtigt, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkamen. Die Stichwörter \u0027meet\u0027, \u0027appointment\u0027 und \u0027soon\u0027 sind im Vokabular des GraphCodes enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"meet\", \"appointment\", \"soon\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Wir müssenn bald einen Termin ausmachen.\u0027 extrahiert und ins Englische übersetzt. Dabei wurde die Identifikation des Nutzers \u0027Maria\u0027 nicht berücksichtigt, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkamen. Die Stichwörter \u0027meet\u0027, \u0027appointment\u0027 und \u0027soon\u0027 sind im Vokabular des GraphCodes enthalten.\"\n}"
+}

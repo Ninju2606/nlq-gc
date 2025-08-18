@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage wurde erfolgreich verarbeitet. Das Vokabular enthält die Identifikation der Person, das Verb \u0027schwimmen\u0027 und das Objekt \u0027Pool\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Die Anfrage wurde erfolgreich verarbeitet. Das Vokabular enthält die Identifikation der Person, das Verb \u0027schwimmen\u0027 und das Objekt \u0027Pool\u0027.\"\n}"
+}

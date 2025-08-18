@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter \u0027house\u0027 und \u0027paint\u0027 wurden aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 extrahiert und entsprechen den Begriffen der Anfrage.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\"],\n  \"description\": \"Die Stichwörter \u0027house\u0027 und \u0027paint\u0027 wurden aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 extrahiert und entsprechen den Begriffen der Anfrage.\"\n}"
+}

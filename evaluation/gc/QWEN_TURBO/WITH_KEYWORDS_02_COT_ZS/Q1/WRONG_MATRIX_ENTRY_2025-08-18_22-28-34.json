@@ -1,0 +1,29 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein \u0027object\u0027 (Person), \u0027play\u0027 ist ein \u0027activity\u0027 (Handlung), \u0027basketball\u0027 ist ein \u0027object\u0027 (Gegenstand). 3. \u0027Maria\u0027 und \u0027play\u0027 haben eine \u0027perform\u0027-Relation, da Maria die Handlung \u0027play\u0027 ausführt. \u0027Maria\u0027 und \u0027basketball\u0027 haben eine \u0027attached\u0027-Relation, da Maria mit dem \u0027basketball\u0027 verbunden ist. \u0027play\u0027 und \u0027basketball\u0027 haben eine \u0027target\u0027-Relation, da \u0027basketball\u0027 das Ziel der Handlung \u0027play\u0027 ist. 4. Für die Relation \u0027perform\u0027 ist die ID 8 vorhanden, für \u0027attached\u0027 die ID 5, für \u0027target\u0027 die ID 9. Alle Relationen sind in den Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt.",
+  "error": "",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein \u0027object\u0027 (Person), \u0027play\u0027 ist ein \u0027activity\u0027 (Handlung), \u0027basketball\u0027 ist ein \u0027object\u0027 (Gegenstand). 3. \u0027Maria\u0027 und \u0027play\u0027 haben eine \u0027perform\u0027-Relation, da Maria die Handlung \u0027play\u0027 ausführt. \u0027Maria\u0027 und \u0027basketball\u0027 haben eine \u0027attached\u0027-Relation, da Maria mit dem \u0027basketball\u0027 verbunden ist. \u0027play\u0027 und \u0027basketball\u0027 haben eine \u0027target\u0027-Relation, da \u0027basketball\u0027 das Ziel der Handlung \u0027play\u0027 ist. 4. Für die Relation \u0027perform\u0027 ist die ID 8 vorhanden, für \u0027attached\u0027 die ID 5, für \u0027target\u0027 die ID 9. Alle Relationen sind in den Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt.\",\n  \"error\": \"\"\n}"
+}

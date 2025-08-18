@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da in der Anfrage explizit die Identifikation der Nutzerin genannt wurde. 2. Die Attribute der Stichwörter sind folgende: \u0027maria\u0027 ist ein Objekt (object), \u0027make\u0027 ist eine Aktivität (activity), \u0027appointment\u0027 ist ein Objekt (object). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027make\u0027 haben eine \u0027perform\u0027-Beziehung (ID:8), \u0027maria\u0027 und \u0027appointment\u0027 haben eine \u0027target\u0027-Beziehung (ID:9). 4. Für alle Relationen aus Schritten 2 und 3 gibt es passende Einträge in den Typkodierungen. 5. Der GraphCode wurde generiert, wobei die Einheitsdiagonale nur Werte mit identityMapping\u003dtrue enthält und außerhalb der Diagonale nur Werte mit identityMapping\u003dfalse.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da in der Anfrage explizit die Identifikation der Nutzerin genannt wurde. 2. Die Attribute der Stichwörter sind folgende: \u0027maria\u0027 ist ein Objekt (object), \u0027make\u0027 ist eine Aktivität (activity), \u0027appointment\u0027 ist ein Objekt (object). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027make\u0027 haben eine \u0027perform\u0027-Beziehung (ID:8), \u0027maria\u0027 und \u0027appointment\u0027 haben eine \u0027target\u0027-Beziehung (ID:9). 4. Für alle Relationen aus Schritten 2 und 3 gibt es passende Einträge in den Typkodierungen. 5. Der GraphCode wurde generiert, wobei die Einheitsdiagonale nur Werte mit identityMapping\u003dtrue enthält und außerhalb der Diagonale nur Werte mit identityMapping\u003dfalse.\"\n}"
+}

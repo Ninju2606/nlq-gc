@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode wurde erfolgreich generiert. Er beschreibt die Beziehung zwischen \u0027maria\u0027, \u0027wear\u0027, \u0027hat\u0027 und \u0027yellow\u0027, wobei auf der Einheitsdiagonalen nur Werte mit identityMapping \u003d true verwendet wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. Er beschreibt die Beziehung zwischen \u0027maria\u0027, \u0027wear\u0027, \u0027hat\u0027 und \u0027yellow\u0027, wobei auf der Einheitsdiagonalen nur Werte mit identityMapping \u003d true verwendet wurden.\"\n}"
+}

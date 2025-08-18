@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da die Anfrage explizit darauf verweist, dass sie etwas tut (\u0027Ich schwimme\u0027).\n2. Attributeigenschaften:\n   - \u0027maria\u0027: object (Identität des Nutzers)\n   - \u0027swim\u0027: activity (Aktivität, die Maria ausübt)\n   - \u0027own\u0027: context (Zustand oder Relation, dass der Pool ihr gehört)\n   - \u0027pool\u0027: object (Objekt, an dem die Aktivität stattfindet)\n3. Beziehungen:\n   - \u0027maria\u0027 und \u0027swim\u0027: Es besteht eine Beziehung, da Maria die Aktivität ausübt (\u0027perform\u0027 – id 8).\n   - \u0027swim\u0027 und \u0027pool\u0027: Beziehung, da der Aktivitätsort der Pool ist (\u0027target\u0027 – id 9).\n   - \u0027own\u0027 und \u0027pool\u0027: Beziehung, da \u0027own\u0027 beschreibt, dass der Pool dem Nutzer gehört (\u0027attached\u0027 – id 5).\n   - \u0027maria\u0027 und \u0027own\u0027: Beziehung, da die Zustandsbeziehung \u0027own\u0027 auf Maria anwendbar ist (\u0027attached\u0027 – id 5).\n4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen.\n5. Der GraphCode wurde entsprechend der Anfrage und den gegebenen Regeln erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da die Anfrage explizit darauf verweist, dass sie etwas tut (\u0027Ich schwimme\u0027).\\n2. Attributeigenschaften:\\n   - \u0027maria\u0027: object (Identität des Nutzers)\\n   - \u0027swim\u0027: activity (Aktivität, die Maria ausübt)\\n   - \u0027own\u0027: context (Zustand oder Relation, dass der Pool ihr gehört)\\n   - \u0027pool\u0027: object (Objekt, an dem die Aktivität stattfindet)\\n3. Beziehungen:\\n   - \u0027maria\u0027 und \u0027swim\u0027: Es besteht eine Beziehung, da Maria die Aktivität ausübt (\u0027perform\u0027 – id 8).\\n   - \u0027swim\u0027 und \u0027pool\u0027: Beziehung, da der Aktivitätsort der Pool ist (\u0027target\u0027 – id 9).\\n   - \u0027own\u0027 und \u0027pool\u0027: Beziehung, da \u0027own\u0027 beschreibt, dass der Pool dem Nutzer gehört (\u0027attached\u0027 – id 5).\\n   - \u0027maria\u0027 und \u0027own\u0027: Beziehung, da die Zustandsbeziehung \u0027own\u0027 auf Maria anwendbar ist (\u0027attached\u0027 – id 5).\\n4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen.\\n5. Der GraphCode wurde entsprechend der Anfrage und den gegebenen Regeln erstellt.\"\n}"
+}

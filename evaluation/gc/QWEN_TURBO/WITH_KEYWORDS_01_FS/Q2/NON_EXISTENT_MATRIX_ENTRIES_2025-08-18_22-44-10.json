@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Tim rennt\u0027 mit dem gegebenen Vokabular und den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Tim rennt\u0027 mit dem gegebenen Vokabular und den vorgegebenen Typkodierungen.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine expliziten Objekte, Attribute oder Aktivitäten, die in einem Vokabular abgebildet werden können. Es fehlen konkrete Begriffe, die zur Erstellung eines sinnvollen GraphCodes notwendig sind.",
+  "error": "No valid GraphCode could be generated",
+  "responsePlain": "{\n  \"error\": \"No valid GraphCode could be generated\",\n  \"description\": \"Die Anfrage \u0027Wir m\\u00FCssen bald einen Termin ausmachen.\u0027 enth\\u00E4lt keine expliziten Objekte, Attribute oder Aktivit\\u00E4ten, die in einem Vokabular abgebildet werden k\\u00F6nnen. Es fehlen konkrete Begriffe, die zur Erstellung eines sinnvollen GraphCodes notwendig sind.\"\n}"
+}

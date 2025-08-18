@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage bezieht sich auf Maria, die einen Termin machen möchte. Es gibt keine weiteren spezifischen Verweise oder Identifikationen außer der Benutzerspezifikation \u0027Maria\u0027.\n2. Die Attribute der Stichwörter sind wie folgt:\n   - \u0027maria\u0027: ist ein Objekt (object), da es sich um eine Person handelt.\n   - \u0027make\u0027: ist eine Aktivität (activity), da es eine Handlung ist.\n   - \u0027appointment\u0027: ist ein Objekt (object), da es eine Sache oder Situation ist.\n3. Die Beziehungen zwischen den Stichwörtern sind wie folgt:\n   - \u0027maria\u0027 und \u0027make\u0027: Maria führt die Aktivität \u0027make\u0027 aus.\n   - \u0027make\u0027 und \u0027appointment\u0027: Die Aktivität \u0027make\u0027 bezieht sich auf die Erstellung eines \u0027appointment\u0027.\n   - \u0027maria\u0027 und \u0027appointment\u0027: Maria ist im Zusammenhang mit dem \u0027appointment\u0027.\n4. Für die Beziehungen:\n   - \u0027maria\u0027 und \u0027make\u0027 entspricht \u0027perform\u0027 (ID:8), da Maria die Aktivität \u0027make\u0027 ausführt.\n   - \u0027make\u0027 und \u0027appointment\u0027 entspricht \u0027target\u0027 (ID:9), da \u0027make\u0027 ein Ziel (\u0027appointment\u0027) hat.\n   - \u0027maria\u0027 und \u0027appointment\u0027 ergibt keine direkte Beziehung in den Typkodierungen, daher gibt es keinen passenden Eintrag.\n5. Der GraphCode wurde erstellt, wobei der Eintrag für \u0027maria\u0027 und \u0027appointment\u0027 nicht gefunden wurde und somit kein passender Typkodierungs-Code vorhanden ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Anfrage bezieht sich auf Maria, die einen Termin machen möchte. Es gibt keine weiteren spezifischen Verweise oder Identifikationen außer der Benutzerspezifikation \u0027Maria\u0027.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027: ist ein Objekt (object), da es sich um eine Person handelt.\\n   - \u0027make\u0027: ist eine Aktivität (activity), da es eine Handlung ist.\\n   - \u0027appointment\u0027: ist ein Objekt (object), da es eine Sache oder Situation ist.\\n3. Die Beziehungen zwischen den Stichwörtern sind wie folgt:\\n   - \u0027maria\u0027 und \u0027make\u0027: Maria führt die Aktivität \u0027make\u0027 aus.\\n   - \u0027make\u0027 und \u0027appointment\u0027: Die Aktivität \u0027make\u0027 bezieht sich auf die Erstellung eines \u0027appointment\u0027.\\n   - \u0027maria\u0027 und \u0027appointment\u0027: Maria ist im Zusammenhang mit dem \u0027appointment\u0027.\\n4. Für die Beziehungen:\\n   - \u0027maria\u0027 und \u0027make\u0027 entspricht \u0027perform\u0027 (ID:8), da Maria die Aktivität \u0027make\u0027 ausführt.\\n   - \u0027make\u0027 und \u0027appointment\u0027 entspricht \u0027target\u0027 (ID:9), da \u0027make\u0027 ein Ziel (\u0027appointment\u0027) hat.\\n   - \u0027maria\u0027 und \u0027appointment\u0027 ergibt keine direkte Beziehung in den Typkodierungen, daher gibt es keinen passenden Eintrag.\\n5. Der GraphCode wurde erstellt, wobei der Eintrag für \u0027maria\u0027 und \u0027appointment\u0027 nicht gefunden wurde und somit kein passender Typkodierungs-Code vorhanden ist.\"\n}"
+}

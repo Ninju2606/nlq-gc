@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage `Tim rennt` als **GraphCode** nach Wagenpfeil (typcodierte Adjazenzmatrix) in **JSON-Form**, mit den Begriffen in einem `dictionary`-Attribut und der Matrix als `matrix`-Attribut. Die Begriffe sind als Zeilen und Spalten der Adjazenzmatrix angeordnet, und die Beziehungen werden mit den gegebenen Typkodierungen versehen.\n\n\n{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 4],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n\n- **dictionary**: Jeder Begriff („Tim“ und „rennt“) hat eine eindeutige Nummer.\n- **matrix**: Die Matrix ist eine quadratische Matrix, wobei die Zeilen und Spalten den Begriffen entsprechen.\n- **Typkodierung**: Die Beziehung zwischen „Tim“ und „rennt“ ist als **activity** (Typ-ID 4) kodiert, da „Tim“ etwas **tut** (rennt). Daher ist `matrix[0][1] \u003d 4`.\n\nFalls du weitere Begriffe oder Beziehungen hinzufügen möchtest, kannst du sie einfach im `dictionary` hinzufügen und die Matrix entsprechend erweitern."
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage `„Ich schwimme in meinem Pool“` als GraphCode nach Wagenpfeil in Form eines JSON-Objekts mit typcodierter Adjazenzmatrix:\n\n\n{\n  \"dictionary\": {\n    \"1\": \"Ich\",\n    \"2\": \"schwimme\",\n    \"3\": \"in\",\n    \"4\": \"meinem\",\n    \"5\": \"Pool\"\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Bemerkung:\nDie Anfrage `„Ich schwimme in meinem Pool“` enthält keine Verbindungen, die der spezifischen Typkodierung entsprechen, wie sie in der Liste angegeben ist. Daher ist die Adjazenzmatrix leer (bestehend aus Nullen).\n\nWenn du mehr Kontext oder Beziehungen bereitstellen möchtest, kann ich die Matrix entsprechend anpassen."
+}

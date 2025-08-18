@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "paint",
+    "house"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde basierend auf der Anfrage \u0027Häuser um Fragen zu malen\u0027 generiert. \u0027Maria\u0027 ist die identifizierte Person, \u0027paint\u0027 ist die Aktivität und \u0027house\u0027 ist das Objekt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"paint\", \"house\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde basierend auf der Anfrage \u0027Häuser um Fragen zu malen\u0027 generiert. \u0027Maria\u0027 ist die identifizierte Person, \u0027paint\u0027 ist die Aktivität und \u0027house\u0027 ist das Objekt.\"\n}"
+}

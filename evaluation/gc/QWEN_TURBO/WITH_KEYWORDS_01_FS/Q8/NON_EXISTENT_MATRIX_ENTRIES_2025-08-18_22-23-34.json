@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. \u0027Maria\u0027 wird als Person identifiziert, \u0027drive\u0027 beschreibt die Aktivität, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte. Die Beziehungen werden gemäß den vorgegebenen Typkodierungen dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. \u0027Maria\u0027 wird als Person identifiziert, \u0027drive\u0027 beschreibt die Aktivität, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte. Die Beziehungen werden gemäß den vorgegebenen Typkodierungen dargestellt.\"\n}"
+}

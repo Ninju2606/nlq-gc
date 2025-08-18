@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake",
+    "daughter"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 verweist auf \u0027Maria\u0027 (Nutzeridentifikation). 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation: \u0027My daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027. 5. Attributeigenschaften: \u0027My daughter\u0027 ist ein \u0027characteristic\u0027, \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027boat\u0027 ist ein \u0027object\u0027, \u0027lake\u0027 ist ein \u0027object\u0027. 6. Relationen: \u0027Maria\u0027 und \u0027My daughter\u0027 haben eine \u0027daughter\u0027-Beziehung. \u0027Maria\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027-Beziehung. \u0027boat\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027-Beziehung. 7. Typkodierungen: \u0027daughter\u0027 (ID 10), \u0027perform\u0027 (ID 8), \u0027under\u0027 (ID 6) existieren. 8. Zusammenstellung des GraphCode: Vokabular und Bewertungsmatrix wurden erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 verweist auf \u0027Maria\u0027 (Nutzeridentifikation). 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation: \u0027My daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027. 5. Attributeigenschaften: \u0027My daughter\u0027 ist ein \u0027characteristic\u0027, \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027boat\u0027 ist ein \u0027object\u0027, \u0027lake\u0027 ist ein \u0027object\u0027. 6. Relationen: \u0027Maria\u0027 und \u0027My daughter\u0027 haben eine \u0027daughter\u0027-Beziehung. \u0027Maria\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027-Beziehung. \u0027boat\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027-Beziehung. 7. Typkodierungen: \u0027daughter\u0027 (ID 10), \u0027perform\u0027 (ID 8), \u0027under\u0027 (ID 6) existieren. 8. Zusammenstellung des GraphCode: Vokabular und Bewertungsmatrix wurden erstellt.\",\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\", \"daughter\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 verweist auf \u0027Maria\u0027 (Nutzeridentifikation). 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation: \u0027My daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027. 5. Attributeigenschaften: \u0027My daughter\u0027 ist ein \u0027characteristic\u0027, \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027boat\u0027 ist ein \u0027object\u0027, \u0027lake\u0027 ist ein \u0027object\u0027. 6. Relationen: \u0027Maria\u0027 und \u0027My daughter\u0027 haben eine \u0027daughter\u0027-Beziehung. \u0027Maria\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027-Beziehung. \u0027boat\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027-Beziehung. 7. Typkodierungen: \u0027daughter\u0027 (ID 10), \u0027perform\u0027 (ID 8), \u0027under\u0027 (ID 6) existieren. 8. Zusammenstellung des GraphCode: Vokabular und Bewertungsmatrix wurden erstellt.\"\n}"
+}

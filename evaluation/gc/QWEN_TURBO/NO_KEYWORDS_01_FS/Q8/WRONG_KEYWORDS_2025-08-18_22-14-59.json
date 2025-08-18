@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake",
+    "perform"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      4
+    ],
+    [
+      0,
+      9,
+      8,
+      4
+    ],
+    [
+      0,
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria und ihre Tochter Boot fahren auf einem See. \u0027Maria\u0027 wird als Identifikation des Nutzers verwendet, \u0027boat\u0027 und \u0027lake\u0027 sind die Objekte, und \u0027perform\u0027 beschreibt die Aktivität.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\", \"perform\"],\n  \"matrix\": [\n    [1, 8, 0, 4],\n    [0, 9, 8, 4],\n    [0, 0, 1, 4],\n    [0, 0, 0, 9]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria und ihre Tochter Boot fahren auf einem See. \u0027Maria\u0027 wird als Identifikation des Nutzers verwendet, \u0027boat\u0027 und \u0027lake\u0027 sind die Objekte, und \u0027perform\u0027 beschreibt die Aktivität.\"\n}"
+}

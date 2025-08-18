@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 explizit die Person \u0027Maria\u0027 nennt. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (id:1), \u0027play\u0027 ist eine Aktivität (id:4), \u0027basketball\u0027 ist ein Objekt (id:1). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027play\u0027 (aktivität mit Person), \u0027maria\u0027 und \u0027basketball\u0027 (Person mit Objekt), \u0027play\u0027 und \u0027basketball\u0027 (Aktivität mit Objekt). 4. Für alle Relationen existieren passende Typkodierungen: \u0027maria\u0027 und \u0027play\u0027 → \u0027perform\u0027 (id:8), \u0027maria\u0027 und \u0027basketball\u0027 → \u0027attached\u0027 (id:5), \u0027play\u0027 und \u0027basketball\u0027 → \u0027target\u0027 (id:9). 5. Der GraphCode wurde auf Basis des Vokabulars und der Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 explizit die Person \u0027Maria\u0027 nennt. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (id:1), \u0027play\u0027 ist eine Aktivität (id:4), \u0027basketball\u0027 ist ein Objekt (id:1). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027play\u0027 (aktivität mit Person), \u0027maria\u0027 und \u0027basketball\u0027 (Person mit Objekt), \u0027play\u0027 und \u0027basketball\u0027 (Aktivität mit Objekt). 4. Für alle Relationen existieren passende Typkodierungen: \u0027maria\u0027 und \u0027play\u0027 → \u0027perform\u0027 (id:8), \u0027maria\u0027 und \u0027basketball\u0027 → \u0027attached\u0027 (id:5), \u0027play\u0027 und \u0027basketball\u0027 → \u0027target\u0027 (id:9). 5. Der GraphCode wurde auf Basis des Vokabulars und der Typkodierungen erstellt.\"\n}"
+}

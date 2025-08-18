@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 die Person direkt erwähnt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Kontext (ID 2), \u0027pool\u0027 ist ein Objekt (ID 1). 3. Die Relationen: \u0027maria\u0027 und \u0027swim\u0027 sind in Beziehung durch die Aktivität \u0027perform\u0027 (ID 8), \u0027swim\u0027 und \u0027pool\u0027 sind in Beziehung durch \u0027under\u0027 (ID 6), \u0027maria\u0027 und \u0027own\u0027 sind in Beziehung durch \u0027attached\u0027 (ID 5), \u0027own\u0027 und \u0027pool\u0027 sind in Beziehung durch \u0027target\u0027 (ID 9). 4. Für alle Relationen wurden passende Typkodierungen gefunden: perform (ID 8), under (ID 6), attached (ID 5), target (ID 9). 5. Der GraphCode wurde erstellt mit dem gegebenen Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 die Person direkt erwähnt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Kontext (ID 2), \u0027pool\u0027 ist ein Objekt (ID 1). 3. Die Relationen: \u0027maria\u0027 und \u0027swim\u0027 sind in Beziehung durch die Aktivität \u0027perform\u0027 (ID 8), \u0027swim\u0027 und \u0027pool\u0027 sind in Beziehung durch \u0027under\u0027 (ID 6), \u0027maria\u0027 und \u0027own\u0027 sind in Beziehung durch \u0027attached\u0027 (ID 5), \u0027own\u0027 und \u0027pool\u0027 sind in Beziehung durch \u0027target\u0027 (ID 9). 4. Für alle Relationen wurden passende Typkodierungen gefunden: perform (ID 8), under (ID 6), attached (ID 5), target (ID 9). 5. Der GraphCode wurde erstellt mit dem gegebenen Vokabular und der Bewertungsmatrix.\"\n}"
+}

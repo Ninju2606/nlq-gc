@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 generiert. Dabei wird \u0027Maria\u0027 als Identifikation des Nutzers verwendet, \u0027boat\u0027 steht für das Boot und \u0027lake\u0027 für den See. Die Beziehungen sind wie folgt: \u0027Maria\u0027 ist mit \u0027boat\u0027 verbunden (Typ: \u0027perform\u0027), \u0027boat\u0027 ist mit \u0027lake\u0027 verbunden (Typ: \u0027above\u0027), und \u0027lake\u0027 ist eine eigene Entität (Typ: \u0027object\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 generiert. Dabei wird \u0027Maria\u0027 als Identifikation des Nutzers verwendet, \u0027boat\u0027 steht für das Boot und \u0027lake\u0027 für den See. Die Beziehungen sind wie folgt: \u0027Maria\u0027 ist mit \u0027boat\u0027 verbunden (Typ: \u0027perform\u0027), \u0027boat\u0027 ist mit \u0027lake\u0027 verbunden (Typ: \u0027above\u0027), und \u0027lake\u0027 ist eine eigene Entität (Typ: \u0027object\u0027).\"\n}"
+}

@@ -1,0 +1,36 @@
+{
+  "state": "NON_MATCHING_MATRIX",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Tim, rennt.\n2. Keine relativen Verweise vorhanden.\n3. Übersetzung ins Englische: Tim, run.\n4. Keine Identifikation des Nutzers (Maria) in den Stichwörtern.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (id 1), \u0027run\u0027 ist eine Aktivität (id 8).\n6. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt.\n7. Die Relation \u0027run\u0027 (id 8) ist in den Typkodierungen vorhanden.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Tim, rennt.\\n2. Keine relativen Verweise vorhanden.\\n3. Übersetzung ins Englische: Tim, run.\\n4. Keine Identifikation des Nutzers (Maria) in den Stichwörtern.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (id 1), \u0027run\u0027 ist eine Aktivität (id 8).\\n6. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt.\\n7. Die Relation \u0027run\u0027 (id 8) ist in den Typkodierungen vorhanden.\\n8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

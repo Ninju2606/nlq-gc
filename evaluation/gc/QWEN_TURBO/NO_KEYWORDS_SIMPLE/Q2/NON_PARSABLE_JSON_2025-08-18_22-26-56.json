@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage `Tim rennt` als GraphCode nach Wagenpfeil in Form einer typcodierten Adjazenzmatrix, formatiert als JSON-Objekt:\n\n\n{\n  \"dictionary\": {\n    \"Tim\": 1,\n    \"rennt\": 2\n  },\n  \"matrix\": [\n    [0, 1],\n    [0, 0]\n  ]\n}\n\n\n### Erläuterung:\n- **dictionary**: Ordnet jedem Begriff eine eindeutige Zahl zu, die die Reihen- bzw. Spaltennummer in der Adjazenzmatrix darstellt.\n  - `\"Tim\"` → `1`\n  - `\"rennt\"` → `2`\n- **matrix**: Die Adjazenzmatrix, wobei die Zeilen und Spalten den Begriffen entsprechen. Der Wert `1` bedeutet, dass ein Beziehungslink vorliegt.\n  - `\"Tim\"` (Zeile 1) hat eine Beziehung zu `\"rennt\"` (Spalte 2), also `matrix[1][2] \u003d 1`.\n  - Die restlichen Werte sind `0`, da keine weiteren Beziehungen explizit angegeben sind.\n\nWenn du mehr Beziehungen oder Begriffe hinzufügen möchtest, kannst du sie einfach in das `dictionary` und `matrix` einfügen."
+}

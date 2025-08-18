@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Houses",
+    "Questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      6,
+      9
+    ],
+    [
+      6,
+      2,
+      8
+    ],
+    [
+      9,
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: [\u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027]\n2. Keine relativen Verweise vorhanden.\n3. Übersetzung ins Englische: [\u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027] → [\u0027Houses\u0027, \u0027Questions\u0027, \u0027paint\u0027]\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage.\n5. Attributeigenschaften:\n   - \u0027Houses\u0027 → object\n   - \u0027Questions\u0027 → context\n   - \u0027paint\u0027 → activity\n6. Beziehungen zwischen den Stichwörtern:\n   - \u0027Houses\u0027 und \u0027Questions\u0027 → \u0027under\u0027 (Relation: \u0027Houses are under Questions\u0027)\n   - \u0027Houses\u0027 und \u0027paint\u0027 → \u0027target\u0027 (Relation: \u0027Houses are the target of painting\u0027)\n   - \u0027Questions\u0027 und \u0027paint\u0027 → \u0027perform\u0027 (Relation: \u0027Questions are performed through painting\u0027)\n7. Prüfung der Typkodierungen:\n   - \u0027under\u0027 → ID 6\n   - \u0027target\u0027 → ID 9\n   - \u0027perform\u0027 → ID 8\n   Alle verwendeten Relationen sind in der Typkodierung vorhanden.\n8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: [\u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027]\\n2. Keine relativen Verweise vorhanden.\\n3. Übersetzung ins Englische: [\u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027] → [\u0027Houses\u0027, \u0027Questions\u0027, \u0027paint\u0027]\\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage.\\n5. Attributeigenschaften:\\n   - \u0027Houses\u0027 → object\\n   - \u0027Questions\u0027 → context\\n   - \u0027paint\u0027 → activity\\n6. Beziehungen zwischen den Stichwörtern:\\n   - \u0027Houses\u0027 und \u0027Questions\u0027 → \u0027under\u0027 (Relation: \u0027Houses are under Questions\u0027)\\n   - \u0027Houses\u0027 und \u0027paint\u0027 → \u0027target\u0027 (Relation: \u0027Houses are the target of painting\u0027)\\n   - \u0027Questions\u0027 und \u0027paint\u0027 → \u0027perform\u0027 (Relation: \u0027Questions are performed through painting\u0027)\\n7. Prüfung der Typkodierungen:\\n   - \u0027under\u0027 → ID 6\\n   - \u0027target\u0027 → ID 9\\n   - \u0027perform\u0027 → ID 8\\n   Alle verwendeten Relationen sind in der Typkodierung vorhanden.\\n8. Der GraphCode wurde erstellt.\",\n  \"dictionary\": [\"Houses\", \"Questions\", \"paint\"],\n  \"matrix\": [\n    [1, 6, 9],\n    [6, 2, 8],\n    [9, 8, 4]\n  ]\n}"
+}

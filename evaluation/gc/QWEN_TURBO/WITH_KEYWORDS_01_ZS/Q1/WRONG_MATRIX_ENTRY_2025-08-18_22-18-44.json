@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode wurde erfolgreich erstellt. \u0027maria\u0027 ist die Identifikation des Nutzers, \u0027play\u0027 stellt die Aktivität dar, und \u0027basketball\u0027 ist das Objekt. Die Einträge auf der Diagonalen (1, 4, 1) entsprechen den identityMapping-Attributen \u0027object\u0027 und \u0027activity\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich erstellt. \u0027maria\u0027 ist die Identifikation des Nutzers, \u0027play\u0027 stellt die Aktivität dar, und \u0027basketball\u0027 ist das Objekt. Die Einträge auf der Diagonalen (1, 4, 1) entsprechen den identityMapping-Attributen \u0027object\u0027 und \u0027activity\u0027.\"\n}"
+}

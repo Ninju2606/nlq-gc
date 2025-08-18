@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we need",
+    "soon",
+    "meeting",
+    "arrange"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. \n2. Es gibt keine relativen Verweise. \n3. Keine Übersetzung ins Englische erforderlich, da die Anfrage auf Deutsch ist. \n4. Keine Identifikation des Nutzers in den Stichwörtern. \n5. Attributeigenschaften: \u0027Wir\u0027 (Objekt), \u0027müssen\u0027 (Aktivität), \u0027bald\u0027 (Attribute), \u0027einen Termin ausmachen\u0027 (Aktivität). \n6. \u0027Wir\u0027 (Objekt) interagiert mit \u0027einen Termin ausmachen\u0027 (Aktivität), \u0027bald\u0027 (Attribute) beschreibt den Zeitpunkt. \n7. Für \u0027Wir\u0027 (Objekt) ist ID 1 vorhanden, für \u0027müssen\u0027 (Aktivität) ist ID 8 vorhanden, für \u0027bald\u0027 (Attribute) ist ID 2 vorhanden, für \u0027einen Termin ausmachen\u0027 (Aktivität) ist ID 8 vorhanden. \n8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we need\", \"soon\", \"meeting\", \"arrange\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. \\n2. Es gibt keine relativen Verweise. \\n3. Keine Übersetzung ins Englische erforderlich, da die Anfrage auf Deutsch ist. \\n4. Keine Identifikation des Nutzers in den Stichwörtern. \\n5. Attributeigenschaften: \u0027Wir\u0027 (Objekt), \u0027müssen\u0027 (Aktivität), \u0027bald\u0027 (Attribute), \u0027einen Termin ausmachen\u0027 (Aktivität). \\n6. \u0027Wir\u0027 (Objekt) interagiert mit \u0027einen Termin ausmachen\u0027 (Aktivität), \u0027bald\u0027 (Attribute) beschreibt den Zeitpunkt. \\n7. Für \u0027Wir\u0027 (Objekt) ist ID 1 vorhanden, für \u0027müssen\u0027 (Aktivität) ist ID 8 vorhanden, für \u0027bald\u0027 (Attribute) ist ID 2 vorhanden, für \u0027einen Termin ausmachen\u0027 (Aktivität) ist ID 8 vorhanden. \\n8. Der GraphCode wurde erstellt.\"\n}"
+}

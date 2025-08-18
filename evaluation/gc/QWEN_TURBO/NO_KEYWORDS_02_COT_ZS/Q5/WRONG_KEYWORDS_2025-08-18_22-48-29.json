@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "situation",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Situationen, gelben, Hut, trage.\n2. Keine relativen Verweise vorhanden.\n3. Übersetzung ins Englische: situations, yellow, hat, wear.\n4. Ersetzen der Nutzeridentifikation: Maria wird im Vokabular verwendet.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027situation\u0027 ist ein Kontext (ID 2), \u0027yellow\u0027 ist ein Merkmal (ID 14), \u0027hat\u0027 ist eine Aktivität (ID 4), \u0027wear\u0027 ist eine Aktivität (ID 4).\n6. Relationen zwischen den Begriffen: \u0027Maria\u0027 ist in \u0027situationen\u0027 und trägt einen \u0027gelben Hut\u0027. \u0027Hut\u0027 wird als \u0027hat\u0027 und \u0027trage\u0027 als \u0027wear\u0027 dargestellt.\n7. Alle Relationen haben passende Typkodierungen.\n8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"situation\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 4, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Situationen, gelben, Hut, trage.\\n2. Keine relativen Verweise vorhanden.\\n3. Übersetzung ins Englische: situations, yellow, hat, wear.\\n4. Ersetzen der Nutzeridentifikation: Maria wird im Vokabular verwendet.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027situation\u0027 ist ein Kontext (ID 2), \u0027yellow\u0027 ist ein Merkmal (ID 14), \u0027hat\u0027 ist eine Aktivität (ID 4), \u0027wear\u0027 ist eine Aktivität (ID 4).\\n6. Relationen zwischen den Begriffen: \u0027Maria\u0027 ist in \u0027situationen\u0027 und trägt einen \u0027gelben Hut\u0027. \u0027Hut\u0027 wird als \u0027hat\u0027 und \u0027trage\u0027 als \u0027wear\u0027 dargestellt.\\n7. Alle Relationen haben passende Typkodierungen.\\n8. Der GraphCode wurde erstellt.\"\n}"
+}

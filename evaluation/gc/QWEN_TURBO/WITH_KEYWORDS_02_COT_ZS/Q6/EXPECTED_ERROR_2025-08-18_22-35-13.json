@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage \"Wir m%C3%BCssen bald einen Termin ausmachen\" beinhaltet keine direkten relativen Verweise oder Identifikationen außer der Benutzer-ID \"Maria\". Daher wird die Identifikation des Nutzers \"Maria\" in das Vokabular aufgenommen. 2. Die Attribute der Stichwörter sind wie folgt: - \"maria\": object (Identität der Person), - \"make\": activity (Handlung, die ausgeführt wird), - \"appointment\": object (ein zu treffender Termin). 3. Die Beziehungen zwischen den Stichwörtern sind: - \"maria\" und \"make\": die Person führt die Handlung aus (Typkodierung: perform). - \"make\" und \"appointment\": die Handlung bezieht sich auf den Termin (Typkodierung: target). 4. Es gibt passende Einträge in den Typkodierungen: - \"perform\": ID 8, - \"target\": ID 9. 5. Der GraphCode ist nun korrekt zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Anfrage \\\"Wir m%C3%BCssen bald einen Termin ausmachen\\\" beinhaltet keine direkten relativen Verweise oder Identifikationen außer der Benutzer-ID \\\"Maria\\\". Daher wird die Identifikation des Nutzers \\\"Maria\\\" in das Vokabular aufgenommen. 2. Die Attribute der Stichwörter sind wie folgt: - \\\"maria\\\": object (Identität der Person), - \\\"make\\\": activity (Handlung, die ausgeführt wird), - \\\"appointment\\\": object (ein zu treffender Termin). 3. Die Beziehungen zwischen den Stichwörtern sind: - \\\"maria\\\" und \\\"make\\\": die Person führt die Handlung aus (Typkodierung: perform). - \\\"make\\\" und \\\"appointment\\\": die Handlung bezieht sich auf den Termin (Typkodierung: target). 4. Es gibt passende Einträge in den Typkodierungen: - \\\"perform\\\": ID 8, - \\\"target\\\": ID 9. 5. Der GraphCode ist nun korrekt zusammengesetzt.\"\n}"
+}

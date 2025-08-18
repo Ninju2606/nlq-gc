@@ -1,0 +1,39 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 wird auf \u0027Maria\u0027 relativiert. 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027daughter\u0027 ist ein Objekt (object), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Objekt (object). 6. Relationen: \u0027Maria\u0027 (ich) ist mit \u0027daughter\u0027 (Meine Tochter) im Kontext \u0027Meine Tochter und ich\u0027, \u0027Maria\u0027 und \u0027daughter\u0027 sind im Verhältnis \u0027attached\u0027 (verknüpft) mit \u0027boat\u0027, \u0027boat\u0027 befindet sich \u0027on\u0027 (auf) \u0027lake\u0027. 7. Prüfung der Typkodierungen: \u0027object\u0027 (ID 1) ist für \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027 gültig. \u0027attached\u0027 (ID 5) ist für die Beziehung \u0027Maria und daughter\u0027 mit \u0027boat\u0027 gültig. \u0027on\u0027 ist nicht in der Liste der erlaubten Typkodierungen enthalten. Fehlermeldung: Die Beziehung \u0027on\u0027 (auf) ist nicht in den vorgegebenen Typkodierungen enthalten.",
+  "error": "Fehler: Die Beziehung \u0027on\u0027 (auf) ist nicht in den vorgegebenen Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 wird auf \u0027Maria\u0027 relativiert. 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027daughter\u0027 ist ein Objekt (object), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Objekt (object). 6. Relationen: \u0027Maria\u0027 (ich) ist mit \u0027daughter\u0027 (Meine Tochter) im Kontext \u0027Meine Tochter und ich\u0027, \u0027Maria\u0027 und \u0027daughter\u0027 sind im Verhältnis \u0027attached\u0027 (verknüpft) mit \u0027boat\u0027, \u0027boat\u0027 befindet sich \u0027on\u0027 (auf) \u0027lake\u0027. 7. Prüfung der Typkodierungen: \u0027object\u0027 (ID 1) ist für \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027 gültig. \u0027attached\u0027 (ID 5) ist für die Beziehung \u0027Maria und daughter\u0027 mit \u0027boat\u0027 gültig. \u0027on\u0027 ist nicht in der Liste der erlaubten Typkodierungen enthalten. Fehlermeldung: Die Beziehung \u0027on\u0027 (auf) ist nicht in den vorgegebenen Typkodierungen enthalten.\",\n  \"error\": \"Fehler: Die Beziehung \u0027on\u0027 (auf) ist nicht in den vorgegebenen Typkodierungen enthalten.\"\n}"
+}

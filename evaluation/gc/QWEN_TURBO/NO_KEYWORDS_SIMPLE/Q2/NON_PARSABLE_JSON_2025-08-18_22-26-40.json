@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- **dictionary** enthält die Zuordnung der Begriffe (`\"Tim\"`, `\"rennt\"`) zu numerischen Indizes (0 und 1).\n- **matrix** ist eine Adjazenzmatrix, in der die Zeilen und Spalten den Begriffen entsprechen.\n- Die Beziehung `\"rennt\"` wird durch den **Typcode 8** (für `\"perform\"`) kodiert.\n- Im Beispiel ist die Beziehung von **\"Tim\"** zu **\"rennt\"** mit dem Wert `8` markiert, da `\"rennt\"` eine Aktion ist, die **Tim** ausführt.\n\nWenn du weitere Beziehungen hinzufügen möchtest, kann ich dir helfen, die Matrix entsprechend zu erweitern."
+}

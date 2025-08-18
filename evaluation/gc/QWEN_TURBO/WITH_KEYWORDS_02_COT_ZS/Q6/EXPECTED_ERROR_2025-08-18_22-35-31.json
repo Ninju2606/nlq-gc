@@ -1,0 +1,29 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage \"Wir m%C3%BCssen bald einen Termin ausmachen.\" enth%C3%A4lt keine direkten relativen Verweise oder Identifikationen des Nutzers, au%C3%9Fer der explizit genannten Identifikation \"Maria\", die in das Vokabular aufgenommen wird. 2. Die Attribute der Stichw%C3%B6rter sind wie folgt: - \"maria\": objekt (ID 1) - \"make\": aktivit%C3%A4t (ID 4) - \"appointment\": objekt (ID 1) 3. Die Beziehungen zwischen den Stichw%C3%B6rtern: - \"maria\" und \"make\": Keine direkte Beziehung, daher 0. - \"maria\" und \"appointment\": Keine direkte Beziehung, daher 0. - \"make\" und \"appointment\": \"make\" ist eine Aktivit%C3%A4t, die mit \"appointment\" (ein Objekt) in Verbindung steht, weshalb der Wert 8 (perform) verwendet wird. 4. Die Beziehungen sind wie folgt: - \"maria\" und \"make\": Kein passender Typkodierung gefunden. - \"maria\" und \"appointment\": Kein passender Typkodierung gefunden. - \"make\" und \"appointment\": \"perform\" (ID 8) ist passend. 5. Der GraphCode wurde erstellt, wobei die Eintr%C3%A4ge in der Einheitsdiagonalen f%C3%BCr \"maria\" (ID 1), \"make\" (ID 4) und \"appointment\" (ID 1) verwendet wurden.",
+  "error": "",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Anfrage \\\"Wir m%C3%BCssen bald einen Termin ausmachen.\\\" enth%C3%A4lt keine direkten relativen Verweise oder Identifikationen des Nutzers, au%C3%9Fer der explizit genannten Identifikation \\\"Maria\\\", die in das Vokabular aufgenommen wird. 2. Die Attribute der Stichw%C3%B6rter sind wie folgt: - \\\"maria\\\": objekt (ID 1) - \\\"make\\\": aktivit%C3%A4t (ID 4) - \\\"appointment\\\": objekt (ID 1) 3. Die Beziehungen zwischen den Stichw%C3%B6rtern: - \\\"maria\\\" und \\\"make\\\": Keine direkte Beziehung, daher 0. - \\\"maria\\\" und \\\"appointment\\\": Keine direkte Beziehung, daher 0. - \\\"make\\\" und \\\"appointment\\\": \\\"make\\\" ist eine Aktivit%C3%A4t, die mit \\\"appointment\\\" (ein Objekt) in Verbindung steht, weshalb der Wert 8 (perform) verwendet wird. 4. Die Beziehungen sind wie folgt: - \\\"maria\\\" und \\\"make\\\": Kein passender Typkodierung gefunden. - \\\"maria\\\" und \\\"appointment\\\": Kein passender Typkodierung gefunden. - \\\"make\\\" und \\\"appointment\\\": \\\"perform\\\" (ID 8) ist passend. 5. Der GraphCode wurde erstellt, wobei die Eintr%C3%A4ge in der Einheitsdiagonalen f%C3%BCr \\\"maria\\\" (ID 1), \\\"make\\\" (ID 4) und \\\"appointment\\\" (ID 1) verwendet wurden.\",\n  \"error\": \"\"\n}"
+}

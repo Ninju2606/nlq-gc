@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. \u0027Maria\u0027 und \u0027swim\u0027 stehen in einer Beziehung, bei der \u0027swim\u0027 als Aktivität von \u0027Maria\u0027 beschrieben wird (Typ: \u0027perform\u0027). \u0027Maria\u0027 und \u0027pool\u0027 stehen in einer Beziehung, bei der \u0027pool\u0027 als Besitztum von \u0027Maria\u0027 beschrieben wird (Typ: \u0027attached\u0027). 4. Für die Relation \u0027perform\u0027 mit \u0027swim\u0027 und \u0027maria\u0027 gibt es die ID 8. Für die Relation \u0027attached\u0027 mit \u0027pool\u0027 und \u0027maria\u0027 gibt es die ID 5. 5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. \u0027Maria\u0027 und \u0027swim\u0027 stehen in einer Beziehung, bei der \u0027swim\u0027 als Aktivität von \u0027Maria\u0027 beschrieben wird (Typ: \u0027perform\u0027). \u0027Maria\u0027 und \u0027pool\u0027 stehen in einer Beziehung, bei der \u0027pool\u0027 als Besitztum von \u0027Maria\u0027 beschrieben wird (Typ: \u0027attached\u0027). 4. Für die Relation \u0027perform\u0027 mit \u0027swim\u0027 und \u0027maria\u0027 gibt es die ID 8. Für die Relation \u0027attached\u0027 mit \u0027pool\u0027 und \u0027maria\u0027 gibt es die ID 5. 5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

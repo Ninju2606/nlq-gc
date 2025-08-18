@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Häuser\": 0,\n    \"um\": 1,\n    \"Fragen\": 2,\n    \"zu\": 3,\n    \"malen\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erläuterung:\nDie Anfrage **\"Häuser um Fragen zu malen\"** wird in eine Graph-Code-Struktur nach Wagenpfeil umgewandelt. Dabei werden die Begriffe (`\"Häuser\"`, `\"um\"`, `\"Fragen\"`, `\"zu\"`, `\"malen\"`) als Zeilen und Spalten der Adjazenzmatrix dargestellt.\n\nDa in der gegebenen Anfrage **keine Beziehungen** explizit zwischen den Begriffen (z. B. \"Häuser sind um Fragen\", \"Fragen sind zu malen\") definiert sind, wird die gesamte **Adjazenzmatrix mit Nullen aufgefüllt**, was bedeutet, dass keine Beziehung zwischen den Begriffen in der vorliegenden Anfrage erkennbar ist.\n\nWenn du Beziehungen wie z. B. \"Häuser sind um Fragen\" oder \"Fragen sind zu malen\" explizit definieren möchtest, kannst du diese als Werte in der Matrix hinzufügen, z. B. mit den **Typkodierungen** aus deiner Liste."
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \"Ich\", \"schwimme\", \"in\", \"einem\", \"Pool\", \"der\", \"mir\", \"gehört\". 2. Relative Verweise: \"mir\" bezieht sich auf \"Maria\". 3. Übersetzung ins Englische: \"Maria\", \"swim\", \"pool\". 4. Identifikation des Nutzers: \"Ich\" und \"mir\" wurden durch \"Maria\" ersetzt. 5. Attributeigenschaften: \"swim\" ist eine Aktivität (ID 4), \"pool\" ist ein Objekt (ID 1), \"Maria\" ist ein Objekt (ID 1). 6. Relationen: Maria und Schwimmen (ID 8), Maria und Pool (ID 6), Schwimmen und Pool (ID 2). 7. Typkodierungen: Alle Relationen haben gültige IDs. 8. Der GraphCode wurde generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \\\"Ich\\\", \\\"schwimme\\\", \\\"in\\\", \\\"einem\\\", \\\"Pool\\\", \\\"der\\\", \\\"mir\\\", \\\"gehört\\\". 2. Relative Verweise: \\\"mir\\\" bezieht sich auf \\\"Maria\\\". 3. Übersetzung ins Englische: \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\". 4. Identifikation des Nutzers: \\\"Ich\\\" und \\\"mir\\\" wurden durch \\\"Maria\\\" ersetzt. 5. Attributeigenschaften: \\\"swim\\\" ist eine Aktivität (ID 4), \\\"pool\\\" ist ein Objekt (ID 1), \\\"Maria\\\" ist ein Objekt (ID 1). 6. Relationen: Maria und Schwimmen (ID 8), Maria und Pool (ID 6), Schwimmen und Pool (ID 2). 7. Typkodierungen: Alle Relationen haben gültige IDs. 8. Der GraphCode wurde generiert.\"\n}"
+}

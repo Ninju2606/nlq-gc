@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage \u0027Tim rennt\u0027 enthält einen Namen (Tim), der als Identifikation des Nutzers angesehen werden kann. Da die Identifikation des Nutzers als \u0027Maria\u0027 gegeben ist, wurde der Eintrag \u0027maria\u0027 dem Vokabular hinzugefügt, um die korrekte Zuordnung zu gewährleisten.\n2. Die Attribute der Stichwörter sind wie folgt:\n   - \u0027tim\u0027 ist ein \u0027object\u0027 (Typ 1) mit identityMapping \u003d true.\n   - \u0027run\u0027 ist eine \u0027activity\u0027 (Typ 4) mit identityMapping \u003d true.\n   - \u0027maria\u0027 ist ebenfalls ein \u0027object\u0027 (Typ 1) mit identityMapping \u003d true.\n3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. Dies entspricht der Typkodierung \u0027perform\u0027 (Typ 8), da \u0027run\u0027 als Aktivität und \u0027tim\u0027 als Ausführender fungiert.\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 existiert eine Typkodierung: \u0027perform\u0027 (ID 8).\n5. Der GraphCode besteht aus dem Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und der Bewertungsmatrix, in der die Beziehungen zwischen den Begriffen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Anfrage \u0027Tim rennt\u0027 enthält einen Namen (Tim), der als Identifikation des Nutzers angesehen werden kann. Da die Identifikation des Nutzers als \u0027Maria\u0027 gegeben ist, wurde der Eintrag \u0027maria\u0027 dem Vokabular hinzugefügt, um die korrekte Zuordnung zu gewährleisten.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n   - \u0027tim\u0027 ist ein \u0027object\u0027 (Typ 1) mit identityMapping \u003d true.\\n   - \u0027run\u0027 ist eine \u0027activity\u0027 (Typ 4) mit identityMapping \u003d true.\\n   - \u0027maria\u0027 ist ebenfalls ein \u0027object\u0027 (Typ 1) mit identityMapping \u003d true.\\n3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. Dies entspricht der Typkodierung \u0027perform\u0027 (Typ 8), da \u0027run\u0027 als Aktivität und \u0027tim\u0027 als Ausführender fungiert.\\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 existiert eine Typkodierung: \u0027perform\u0027 (ID 8).\\n5. Der GraphCode besteht aus dem Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und der Bewertungsmatrix, in der die Beziehungen zwischen den Begriffen dargestellt werden.\"\n}"
+}

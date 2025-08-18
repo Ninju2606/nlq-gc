@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "Der GraphCode beschreibt die Situation, in der \u0027maria\u0027 (Person) mit \u0027boat\u0027 (Boot) auf \u0027lake\u0027 (See) fährt. Der Vorgang \u0027drive\u0027 wird als Aktivität (id 4) kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der \u0027maria\u0027 (Person) mit \u0027boat\u0027 (Boot) auf \u0027lake\u0027 (See) fährt. Der Vorgang \u0027drive\u0027 wird als Aktivität (id 4) kodiert.\"\n}"
+}

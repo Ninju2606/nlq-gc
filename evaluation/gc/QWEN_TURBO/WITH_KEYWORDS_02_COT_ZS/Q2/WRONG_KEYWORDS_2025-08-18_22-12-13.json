@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird als Teil des Vokabulars hinzugefügt, da der Nutzer angibt, dass er etwas tut. 2. \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity), \u0027maria\u0027 ist ein Objekt (object). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung durch \u0027perform\u0027, wobei \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. \u0027tim\u0027 und \u0027maria\u0027 haben keine direkte Beziehung. \u0027maria\u0027 und \u0027run\u0027 haben ebenfalls keine direkte Beziehung. 4. Für die Beziehung \u0027perform\u0027 (ID 8) gibt es einen passenden Eintrag. Für andere Beziehungen sind keine Typkodierungen erforderlich. 5. Der GraphCode wurde zusammenge-setzt mit dem Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und der Bewertungsmatrix, in der die Beziehungen gemäß den Typkodierungen kodiert sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird als Teil des Vokabulars hinzugefügt, da der Nutzer angibt, dass er etwas tut. 2. \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity), \u0027maria\u0027 ist ein Objekt (object). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung durch \u0027perform\u0027, wobei \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. \u0027tim\u0027 und \u0027maria\u0027 haben keine direkte Beziehung. \u0027maria\u0027 und \u0027run\u0027 haben ebenfalls keine direkte Beziehung. 4. Für die Beziehung \u0027perform\u0027 (ID 8) gibt es einen passenden Eintrag. Für andere Beziehungen sind keine Typkodierungen erforderlich. 5. Der GraphCode wurde zusammenge-setzt mit dem Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und der Bewertungsmatrix, in der die Beziehungen gemäß den Typkodierungen kodiert sind.\"\n}"
+}

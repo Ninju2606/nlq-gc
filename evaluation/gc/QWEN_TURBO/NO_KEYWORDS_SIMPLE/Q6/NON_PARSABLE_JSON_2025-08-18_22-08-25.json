@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"1\": \"Wir\",\n    \"2\": \"müssen\",\n    \"3\": \"bald\",\n    \"4\": \"einen\",\n    \"5\": \"Termin\",\n    \"6\": \"ausmachen\"\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n**Anmerkung:**  \nDie gegebene Anfrage *\"Wir müssen bald einen Termin ausmachen.\"* enthält keine Begriffe, die in der vorgegebenen Typkodierung (z. B. `object`, `context`, `synonym`, `activity`, etc.) vorkommen. Daher wurde in der Adjazenzmatrix keine Beziehung zwischen den Begriffen erkannt, und die gesamte Matrix ist mit Nullen gefüllt.  \n\nWenn du eine semantische Interpretation der Phrase nach dem Wagenpfeil-Modell anstelle der reinen Adjazenzmatrix haben möchtest, bitte ich, die Anfrage genauer zu spezifizieren."
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers (Maria) wurde der Anfrage hinzugefügt, da der Nutzer eine Person erwähnt, die handelt (Tim). 2. Die Attribute der Stichwörter: \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity), \u0027maria\u0027 ist ein Objekt (object). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt (perform). 4. Für die Beziehung \u0027perform\u0027 gibt es eine Typkodierung mit ID 8. Für \u0027object\u0027 (Tim) und \u0027object\u0027 (Maria) gibt es Typkodierungen mit ID 1. 5. Der GraphCode wurde erstellt, basierend auf dem Vokabular und den Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wurde der Anfrage hinzugefügt, da der Nutzer eine Person erwähnt, die handelt (Tim). 2. Die Attribute der Stichwörter: \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity), \u0027maria\u0027 ist ein Objekt (object). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt (perform). 4. Für die Beziehung \u0027perform\u0027 gibt es eine Typkodierung mit ID 8. Für \u0027object\u0027 (Tim) und \u0027object\u0027 (Maria) gibt es Typkodierungen mit ID 1. 5. Der GraphCode wurde erstellt, basierend auf dem Vokabular und den Typkodierungen.\"\n}"
+}

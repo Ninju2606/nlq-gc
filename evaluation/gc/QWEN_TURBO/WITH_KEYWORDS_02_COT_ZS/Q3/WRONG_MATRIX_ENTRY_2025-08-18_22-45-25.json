@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da sie in der Anfrage explizit genannt wird. Es gibt keine weiteren aufgelösten relativen Verweise. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object, identityMapping: true), \u0027swim\u0027 (activity, identityMapping: false), \u0027own\u0027 (context, identityMapping: true), \u0027pool\u0027 (object, identityMapping: true). 3. \u0027Maria\u0027 hat eine Aktivität (\u0027swim\u0027), die in einem Kontext (\u0027own\u0027) stattfindet und sich auf ein Objekt (\u0027pool\u0027) bezieht. Die Beziehungen sind \u0027perform\u0027 (zwischen \u0027maria\u0027 und \u0027swim\u0027), \u0027attached\u0027 (zwischen \u0027swim\u0027 und \u0027own\u0027) und \u0027target\u0027 (zwischen \u0027own\u0027 und \u0027pool\u0027). 4. Die Relationen \u0027perform\u0027 (ID 8), \u0027attached\u0027 (ID 5) und \u0027target\u0027 (ID 9) sind in den Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt, wobei die Matrix und das Vokabular korrekt aufgebaut sind und die Attribute den vorgegebenen Typkodierungen entsprechen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da sie in der Anfrage explizit genannt wird. Es gibt keine weiteren aufgelösten relativen Verweise. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object, identityMapping: true), \u0027swim\u0027 (activity, identityMapping: false), \u0027own\u0027 (context, identityMapping: true), \u0027pool\u0027 (object, identityMapping: true). 3. \u0027Maria\u0027 hat eine Aktivität (\u0027swim\u0027), die in einem Kontext (\u0027own\u0027) stattfindet und sich auf ein Objekt (\u0027pool\u0027) bezieht. Die Beziehungen sind \u0027perform\u0027 (zwischen \u0027maria\u0027 und \u0027swim\u0027), \u0027attached\u0027 (zwischen \u0027swim\u0027 und \u0027own\u0027) und \u0027target\u0027 (zwischen \u0027own\u0027 und \u0027pool\u0027). 4. Die Relationen \u0027perform\u0027 (ID 8), \u0027attached\u0027 (ID 5) und \u0027target\u0027 (ID 9) sind in den Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt, wobei die Matrix und das Vokabular korrekt aufgebaut sind und die Attribute den vorgegebenen Typkodierungen entsprechen.\"\n}"
+}

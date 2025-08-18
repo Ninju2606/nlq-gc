@@ -1,0 +1,20 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we have to",
+    "making an appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027we have to\u0027, \u0027making an appointment\u0027.\n2. Keine relativen Verweise vorhanden.\n3. Die Stichwörter sind bereits auf Englisch.\n4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern gefunden.\n5. \u0027we have to\u0027 ist eine Aktivität (attribute: \u0027activity\u0027, ID: 4). \u0027making an appointment\u0027 ist eine Aktivität (attribute: \u0027activity\u0027, ID: 4).\n6. Die Stichwörter \u0027we have to\u0027 und \u0027making an appointment\u0027 stehen in einer Beziehung, da sie beide Aktivitäten beschreiben.\n7. Beide Stichwörter haben einen zugehörigen Eintrag in den Typkodierungen mit identityMapping: true (ID 4).\n8. Der GraphCode wurde erfolgreich zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we have to\", \"making an appointment\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027we have to\u0027, \u0027making an appointment\u0027.\\n2. Keine relativen Verweise vorhanden.\\n3. Die Stichwörter sind bereits auf Englisch.\\n4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern gefunden.\\n5. \u0027we have to\u0027 ist eine Aktivität (attribute: \u0027activity\u0027, ID: 4). \u0027making an appointment\u0027 ist eine Aktivität (attribute: \u0027activity\u0027, ID: 4).\\n6. Die Stichwörter \u0027we have to\u0027 und \u0027making an appointment\u0027 stehen in einer Beziehung, da sie beide Aktivitäten beschreiben.\\n7. Beide Stichwörter haben einen zugehörigen Eintrag in den Typkodierungen mit identityMapping: true (ID 4).\\n8. Der GraphCode wurde erfolgreich zusammengesetzt.\"\n}"
+}

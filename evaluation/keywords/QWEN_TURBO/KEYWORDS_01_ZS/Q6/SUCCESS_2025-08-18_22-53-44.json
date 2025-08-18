@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "term",
+    "schedule",
+    "meet",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter wurden aus der Nutzeranfrage extrahiert und in Englisch verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\"term\", \"schedule\", \"meet\", \"soon\"],\n  \"description\": \"Die Stichwörter wurden aus der Nutzeranfrage extrahiert und in Englisch verallgemeinert.\"\n}"
+}

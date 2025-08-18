@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "meeting",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ermittelt. Dabei wurde \u0027Maria\u0027 als Identifikation des Nutzers berücksichtigt. Die Stichwörter wurden ins Englische übersetzt, wobei \u0027Termin\u0027 als \u0027meeting\u0027 und \u0027bald\u0027 als \u0027soon\u0027 dargestellt wurden. Die Anfrage bezieht sich auf eine geplante Situation im Metaverse und enthält keine unklaren oder irrelevanten Teile.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"meeting\", \"soon\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Wir m\\u00FCssen bald einen Termin ausmachen.\u0027 ermittelt. Dabei wurde \u0027Maria\u0027 als Identifikation des Nutzers ber\\u00FCcksichtigt. Die Stichw\\u00F6rter wurden ins Englische \\u00FCbersetzt, wobei \u0027Termin\u0027 als \u0027meeting\u0027 und \u0027bald\u0027 als \u0027soon\u0027 dargestellt wurden. Die Anfrage bezieht sich auf eine geplante Situation im Metaverse und enth\\u00E4lt keine unklaren oder irrelevanten Teile.\"\n}"
+}

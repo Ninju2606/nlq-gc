@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Wir\" (im Kontext der Anfrage, da die Person auf den Anfrager verweist), \"Termin\" und \"ausmachen\".\n        2. Es gibt keine relativen Verweise außer \"Wir\", was im Weiteren als \"Maria\" ersetzt wird.\n        3. Die englischen Stichwörter sind \"We\" (in diesem Kontext wird \"Wir\" als \"Maria\" interpretiert), \"make\" und \"appointment\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"make\" und \"appointment\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Wir\\\" (im Kontext der Anfrage, da die Person auf den Anfrager verweist), \\\"Termin\\\" und \\\"ausmachen\\\".\\n        2. Es gibt keine relativen Verweise außer \\\"Wir\\\", was im Weiteren als \\\"Maria\\\" ersetzt wird.\\n        3. Die englischen Stichwörter sind \\\"We\\\" (in diesem Kontext wird \\\"Wir\\\" als \\\"Maria\\\" interpretiert), \\\"make\\\" und \\\"appointment\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"make\\\" und \\\"appointment\\\".\"\n}"
+}

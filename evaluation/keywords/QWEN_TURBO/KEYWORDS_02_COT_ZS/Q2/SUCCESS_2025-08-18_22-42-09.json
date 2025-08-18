@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wird nicht im Vokabular verwendet, da die Anfrage \u0027Tim rennt\u0027 keine Referenz auf die Nutzerperson enthält. Die Stichwörter \u0027Tim\u0027 und \u0027run\u0027 wurden extrahiert und ins Englische übersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wird nicht im Vokabular verwendet, da die Anfrage \u0027Tim rennt\u0027 keine Referenz auf die Nutzerperson enthält. Die Stichwörter \u0027Tim\u0027 und \u0027run\u0027 wurden extrahiert und ins Englische übersetzt.\"\n}"
+}

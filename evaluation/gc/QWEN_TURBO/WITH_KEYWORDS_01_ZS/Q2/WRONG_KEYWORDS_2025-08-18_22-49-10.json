@@ -1,0 +1,21 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). \u0027maria\u0027 wurde im Vokabular hinzugefügt, da sie die Identifikation des Nutzers ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 2]\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). \u0027maria\u0027 wurde im Vokabular hinzugefügt, da sie die Identifikation des Nutzers ist.\"\n}"
+}

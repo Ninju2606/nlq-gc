@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we must",
+    "soon",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027.\n2. Keine relativen Verweise gefunden.\n3. Übersetzung ins Englische: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027make\u0027, \u0027appointment\u0027.\n4. Identifikation des Nutzers (Maria) wird nicht benötigt, da keine Referenz auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorliegt.\n5. Attributeigenschaften:\n   - \u0027we\u0027 ist ein Objekt (object)\n   - \u0027must\u0027 ist ein Aktivitätsbegriff (activity)\n   - \u0027soon\u0027 ist ein Kontextbegriff (context)\n   - \u0027make\u0027 ist ein Aktivitätsbegriff (activity)\n   - \u0027appointment\u0027 ist ein Objekt (object)\n6. Beziehungen:\n   - \u0027we\u0027 und \u0027must\u0027 haben den Typ \u0027activity\u0027 (ID 4)\n   - \u0027must\u0027 und \u0027soon\u0027 haben den Typ \u0027context\u0027 (ID 2)\n   - \u0027soon\u0027 und \u0027make\u0027 haben den Typ \u0027activity\u0027 (ID 4)\n   - \u0027make\u0027 und \u0027appointment\u0027 haben den Typ \u0027object\u0027 (ID 1)\n7. Alle Relationen haben passende Typkodierungen.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we must\", \"soon\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027.\\n2. Keine relativen Verweise gefunden.\\n3. Übersetzung ins Englische: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027make\u0027, \u0027appointment\u0027.\\n4. Identifikation des Nutzers (Maria) wird nicht benötigt, da keine Referenz auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorliegt.\\n5. Attributeigenschaften:\\n   - \u0027we\u0027 ist ein Objekt (object)\\n   - \u0027must\u0027 ist ein Aktivitätsbegriff (activity)\\n   - \u0027soon\u0027 ist ein Kontextbegriff (context)\\n   - \u0027make\u0027 ist ein Aktivitätsbegriff (activity)\\n   - \u0027appointment\u0027 ist ein Objekt (object)\\n6. Beziehungen:\\n   - \u0027we\u0027 und \u0027must\u0027 haben den Typ \u0027activity\u0027 (ID 4)\\n   - \u0027must\u0027 und \u0027soon\u0027 haben den Typ \u0027context\u0027 (ID 2)\\n   - \u0027soon\u0027 und \u0027make\u0027 haben den Typ \u0027activity\u0027 (ID 4)\\n   - \u0027make\u0027 und \u0027appointment\u0027 haben den Typ \u0027object\u0027 (ID 1)\\n7. Alle Relationen haben passende Typkodierungen.\\n8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

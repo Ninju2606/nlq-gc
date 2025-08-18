@@ -1,0 +1,39 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "Situations",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: [\u0027Situationen\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027]\n2. Relative Verweise: Keine Referenzen auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden.\n3. Übersetzung ins Englische: [\u0027Situations\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027]\n4. Identifikation des Nutzers: \u0027Maria\u0027 wurde nicht in den Stichwörtern identifiziert.\n5. Attributeigenschaften:\n   - \u0027Situations\u0027: Kein passender Typ in der Kodierung.\n   - \u0027wear\u0027: \u0027perform\u0027 (ID: 8) \n   - \u0027yellow\u0027: \u0027characteristic\u0027 (ID: 14)\n   - \u0027hat\u0027: \u0027object\u0027 (ID: 1)\n6. Relationen:\n   - \u0027Situations\u0027 und \u0027wear\u0027: Kein passender Typ in der Kodierung.\n   - \u0027Situations\u0027 und \u0027yellow\u0027: Kein passender Typ in der Kodierung.\n   - \u0027Situations\u0027 und \u0027hat\u0027: Kein passender Typ in der Kodierung.\n   - \u0027wear\u0027 und \u0027yellow\u0027: Kein passender Typ in der Kodierung.\n   - \u0027wear\u0027 und \u0027hat\u0027: \u0027attached\u0027 (ID: 5)\n   - \u0027yellow\u0027 und \u0027hat\u0027: \u0027characteristic\u0027 (ID: 14)\n7. Prüfung der Typkodierungen: Die Relation \u0027Situations\u0027 und \u0027wear\u0027 hat keinen passenden Eintrag.\n   Der Eintrag \u0027Situations\u0027 ist nicht in der Typkodierung definiert. Es gibt keinen passenden Eintrag für die Relationen \u0027Situations\u0027 und \u0027wear\u0027, \u0027Situations\u0027 und \u0027yellow\u0027, sowie \u0027Situations\u0027 und \u0027hat\u0027.",
+  "error": "Es gibt keine passenden Typkodierungen für die Relationen zwischen den Stichwörtern \u0027Situations\u0027 und \u0027wear\u0027, \u0027Situations\u0027 und \u0027yellow\u0027, sowie \u0027Situations\u0027 und \u0027hat\u0027.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: [\u0027Situationen\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027]\\n2. Relative Verweise: Keine Referenzen auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden.\\n3. Übersetzung ins Englische: [\u0027Situations\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027]\\n4. Identifikation des Nutzers: \u0027Maria\u0027 wurde nicht in den Stichwörtern identifiziert.\\n5. Attributeigenschaften:\\n   - \u0027Situations\u0027: Kein passender Typ in der Kodierung.\\n   - \u0027wear\u0027: \u0027perform\u0027 (ID: 8) \\n   - \u0027yellow\u0027: \u0027characteristic\u0027 (ID: 14)\\n   - \u0027hat\u0027: \u0027object\u0027 (ID: 1)\\n6. Relationen:\\n   - \u0027Situations\u0027 und \u0027wear\u0027: Kein passender Typ in der Kodierung.\\n   - \u0027Situations\u0027 und \u0027yellow\u0027: Kein passender Typ in der Kodierung.\\n   - \u0027Situations\u0027 und \u0027hat\u0027: Kein passender Typ in der Kodierung.\\n   - \u0027wear\u0027 und \u0027yellow\u0027: Kein passender Typ in der Kodierung.\\n   - \u0027wear\u0027 und \u0027hat\u0027: \u0027attached\u0027 (ID: 5)\\n   - \u0027yellow\u0027 und \u0027hat\u0027: \u0027characteristic\u0027 (ID: 14)\\n7. Prüfung der Typkodierungen: Die Relation \u0027Situations\u0027 und \u0027wear\u0027 hat keinen passenden Eintrag.\\n   Der Eintrag \u0027Situations\u0027 ist nicht in der Typkodierung definiert. Es gibt keinen passenden Eintrag für die Relationen \u0027Situations\u0027 und \u0027wear\u0027, \u0027Situations\u0027 und \u0027yellow\u0027, sowie \u0027Situations\u0027 und \u0027hat\u0027.\",\n  \"error\": \"Es gibt keine passenden Typkodierungen für die Relationen zwischen den Stichwörtern \u0027Situations\u0027 und \u0027wear\u0027, \u0027Situations\u0027 und \u0027yellow\u0027, sowie \u0027Situations\u0027 und \u0027hat\u0027.\",\n  \"dictionary\": [\"Situations\", \"wear\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 5, 0],\n    [0, 0, 14, 0],\n    [0, 0, 0, 1]\n  ]\n}"
+}

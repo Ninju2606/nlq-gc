@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Identifikation der Nutzerin, den Aktionsbegriff und das Objekt der Anfrage.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Identifikation der Nutzerin, den Aktionsbegriff und das Objekt der Anfrage.\"\n}"
+}

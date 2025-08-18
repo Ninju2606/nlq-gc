@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "meeting",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Müssen\", \"Termin\", \"bald\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"have to\", \"meeting\", \"soon\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"have to\", \"meeting\", \"soon\".\n        5. \"Maria\" und \"meeting\" sind Objekte der Anfrage. \"have to\" ist eine Aktivität.\n        6. \"Maria\" hat die Aktivität \"have to\". \"have to\" bezieht sich auf \"meeting\". \"meeting\" ist ein Termin, der bald stattfinden soll.\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"meeting\", \"soon\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Müssen\\\", \\\"Termin\\\", \\\"bald\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"have to\\\", \\\"meeting\\\", \\\"soon\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"have to\\\", \\\"meeting\\\", \\\"soon\\\".\\n        5. \\\"Maria\\\" und \\\"meeting\\\" sind Objekte der Anfrage. \\\"have to\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" hat die Aktivität \\\"have to\\\". \\\"have to\\\" bezieht sich auf \\\"meeting\\\". \\\"meeting\\\" ist ein Termin, der bald stattfinden soll.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.\"\n}"
+}

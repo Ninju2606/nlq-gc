@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake",
+    "father",
+    "mother"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szenenbeschreibung \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Der Nutzer \u0027Maria\u0027 ist im Vokabular enthalten. Die Begriffe \u0027boat\u0027 (Boot), \u0027lake\u0027 (See), und \u0027daughter\u0027 (Tochter) sowie \u0027mother\u0027 (Mutter) sind als Hauptobjekte identifiziert. Auf der Einheitsdiagonalen wurden nur IDs mit identityMapping \u003d true verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\", \"father\", \"mother\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szenenbeschreibung \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Der Nutzer \u0027Maria\u0027 ist im Vokabular enthalten. Die Begriffe \u0027boat\u0027 (Boot), \u0027lake\u0027 (See), und \u0027daughter\u0027 (Tochter) sowie \u0027mother\u0027 (Mutter) sind als Hauptobjekte identifiziert. Auf der Einheitsdiagonalen wurden nur IDs mit identityMapping \u003d true verwendet.\"\n}"
+}

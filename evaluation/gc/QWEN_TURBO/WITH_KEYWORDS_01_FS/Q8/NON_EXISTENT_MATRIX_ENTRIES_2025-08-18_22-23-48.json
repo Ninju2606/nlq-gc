@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 erstellt. Dabei wurden die Begriffe \u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027 und \u0027lake\u0027 als Vokabular verwendet. Die Beziehungen zwischen den Begriffen werden durch die Bewertungsmatrix dargestellt, wobei die Beziehung \u0027drive\u0027 (aktivität) mit \u0027boat\u0027 und \u0027lake\u0027 in der richtigen Reihenfolge berücksichtigt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 erstellt. Dabei wurden die Begriffe \u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027 und \u0027lake\u0027 als Vokabular verwendet. Die Beziehungen zwischen den Begriffen werden durch die Bewertungsmatrix dargestellt, wobei die Beziehung \u0027drive\u0027 (aktivität) mit \u0027boat\u0027 und \u0027lake\u0027 in der richtigen Reihenfolge berücksichtigt wird.\"\n}"
+}

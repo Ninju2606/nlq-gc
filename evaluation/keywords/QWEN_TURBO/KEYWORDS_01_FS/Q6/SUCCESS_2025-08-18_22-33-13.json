@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\"\n}"
+}

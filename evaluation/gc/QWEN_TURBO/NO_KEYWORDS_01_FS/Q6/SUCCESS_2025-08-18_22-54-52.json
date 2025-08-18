@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist unklar und enthält keine sinnvollen Szenenbeschreibungen für eine Metaverse-Aufnahme.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage ist unklar und enthält keine sinnvollen Szenenbeschreibungen für eine Metaverse-Aufnahme.\"\n}"
+}

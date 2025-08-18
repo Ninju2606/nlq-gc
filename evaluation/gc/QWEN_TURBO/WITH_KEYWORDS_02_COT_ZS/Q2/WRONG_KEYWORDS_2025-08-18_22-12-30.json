@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Tim rennt\u0027 impliziert, dass Tim eine Person ist, die mit dem Nutzer (Maria) verbunden sein könnte. 2. Das Vokabular enthält die Begriffe \u0027tim\u0027, \u0027run\u0027 und \u0027maria\u0027. - \u0027tim\u0027 ist ein Objekt (object), - \u0027run\u0027 ist eine Aktivität (activity), - \u0027maria\u0027 ist ein Objekt (object). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Aktivitätsbeziehung (perform), wobei \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. \u0027Maria\u0027 wird als Identifikation des Nutzers hinzugefügt und steht im Vokabular als eigenständiger Begriff. 4. Für die Beziehung \u0027Tim\u0027 (object) → \u0027run\u0027 (activity): Es gibt eine Typkodierung mit ID 8 (\u0027perform\u0027), die passt. Für \u0027Tim\u0027 → \u0027Maria\u0027 gibt es keine passende Typkodierung, da keine Relation zwischen \u0027Tim\u0027 und \u0027Maria\u0027 definiert ist. 5. Der GraphCode wurde erstellt, wobei die Einträge der Bewertungsmatrix korrekt gemäß den erlaubten Typkodierungen befüllt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Tim rennt\u0027 impliziert, dass Tim eine Person ist, die mit dem Nutzer (Maria) verbunden sein könnte. 2. Das Vokabular enthält die Begriffe \u0027tim\u0027, \u0027run\u0027 und \u0027maria\u0027. - \u0027tim\u0027 ist ein Objekt (object), - \u0027run\u0027 ist eine Aktivität (activity), - \u0027maria\u0027 ist ein Objekt (object). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Aktivitätsbeziehung (perform), wobei \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. \u0027Maria\u0027 wird als Identifikation des Nutzers hinzugefügt und steht im Vokabular als eigenständiger Begriff. 4. Für die Beziehung \u0027Tim\u0027 (object) → \u0027run\u0027 (activity): Es gibt eine Typkodierung mit ID 8 (\u0027perform\u0027), die passt. Für \u0027Tim\u0027 → \u0027Maria\u0027 gibt es keine passende Typkodierung, da keine Relation zwischen \u0027Tim\u0027 und \u0027Maria\u0027 definiert ist. 5. Der GraphCode wurde erstellt, wobei die Einträge der Bewertungsmatrix korrekt gemäß den erlaubten Typkodierungen befüllt wurden.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 wurde erfolgreich in ein Vokabular für einen GraphCode umgewandelt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 wurde erfolgreich in ein Vokabular für einen GraphCode umgewandelt.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wird als Objekt identifiziert. Die Identifikation des Nutzers \"Maria\" wird ignoriert, da keine selbstidentifizierenden Wörter wie \"ich\" oder \"mein\" vorliegen. \n2. \"tim\" ist ein Objekt, \"run\" ist eine Aktivität. \n3. \"tim\" führt die Aktivität \"run\" aus. \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. \n5. Die Relationen \"tim\" → \"run\" und \"run\" → \"tim\" entsprechen den Typkodierungen \"perform\" (7) und \"target\" (8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wird als Objekt identifiziert. Die Identifikation des Nutzers \\\"Maria\\\" wird ignoriert, da keine selbstidentifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" vorliegen. \\n2. \\\"tim\\\" ist ein Objekt, \\\"run\\\" ist eine Aktivität. \\n3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus. \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. \\n5. Die Relationen \\\"tim\\\" → \\\"run\\\" und \\\"run\\\" → \\\"tim\\\" entsprechen den Typkodierungen \\\"perform\\\" (7) und \\\"target\\\" (8).\"\n}"
+}

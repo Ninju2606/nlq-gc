@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält unklare oder grammatikalisch unsinnige Formulierungen und fehlt an konkreten Szenenbeschreibungen für ein Metaverse-Objekt.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage enthält unklare oder grammatikalisch unsinnige Formulierungen und fehlt an konkreten Szenenbeschreibungen für ein Metaverse-Objekt.\"\n}"
+}

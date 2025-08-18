@@ -1,0 +1,50 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we",
+    "must",
+    "soon",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027make\u0027, \u0027appointment\u0027. 4. Keine Identifikation des Nutzers erforderlich, da \u0027ich\u0027 oder Ableitungen nicht vorhanden sind. 5. Attributeigenschaften: \u0027we\u0027 ist ein Objekt (ID: 1), \u0027must\u0027 ist ein Objekt (ID: 1), \u0027soon\u0027 ist ein Objekt (ID: 1), \u0027make\u0027 ist ein Objekt (ID: 1), \u0027appointment\u0027 ist ein Objekt (ID: 1). 6. Relationen: Keine direkten Relationen zwischen den Stichwörtern. 7. Keine Relationen, die in den Typkodierungen vorkommen, daher keine IDs. 8. Der GraphCode wurde erstellt mit Vokabular und quadratischer Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"we\", \"must\", \"soon\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027make\u0027, \u0027appointment\u0027. 4. Keine Identifikation des Nutzers erforderlich, da \u0027ich\u0027 oder Ableitungen nicht vorhanden sind. 5. Attributeigenschaften: \u0027we\u0027 ist ein Objekt (ID: 1), \u0027must\u0027 ist ein Objekt (ID: 1), \u0027soon\u0027 ist ein Objekt (ID: 1), \u0027make\u0027 ist ein Objekt (ID: 1), \u0027appointment\u0027 ist ein Objekt (ID: 1). 6. Relationen: Keine direkten Relationen zwischen den Stichwörtern. 7. Keine Relationen, die in den Typkodierungen vorkommen, daher keine IDs. 8. Der GraphCode wurde erstellt mit Vokabular und quadratischer Bewertungsmatrix.\"\n}"
+}

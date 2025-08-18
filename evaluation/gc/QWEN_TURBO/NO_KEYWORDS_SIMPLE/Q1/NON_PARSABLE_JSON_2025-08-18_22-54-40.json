@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Basketball\": 0,\n    \"spiele\": 1\n  },\n  \"matrix\": [\n    [0, 0],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\nDie Anfrage **\"Ich spiele Basketball\"** enthält die Begriffe **\"Basketball\"** und **\"spiele\"**. Da keine ausdrücklichen Beziehungen (z. B. \"unter\", \"oben\", \"aktivität\", \"Synonym\") zwischen den Begriffen im Text vorhanden sind, ist die Adjazenzmatrix vollständig mit `0` gefüllt. \n\nFalls du explizite Beziehungen oder weitere Begriffe haben möchtest, gib gerne weitere Beispiele oder Kontext an."
+}

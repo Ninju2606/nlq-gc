@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde in den GraphCode integriert. Stichwörter wie \u0027schwimme\u0027 wurden in die Grundform \u0027swim\u0027 verallgemeinert. \u0027Pool\u0027 und \u0027mir gehört\u0027 wurden in \u0027pool\u0027 und \u0027own\u0027 übersetzt. Die Anfrage beschreibt eine Situation im Metaverse, weshalb der GraphCode generiert wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde in den GraphCode integriert. Stichwörter wie \u0027schwimme\u0027 wurden in die Grundform \u0027swim\u0027 verallgemeinert. \u0027Pool\u0027 und \u0027mir gehört\u0027 wurden in \u0027pool\u0027 und \u0027own\u0027 übersetzt. Die Anfrage beschreibt eine Situation im Metaverse, weshalb der GraphCode generiert wurde.\"\n}"
+}

@@ -1,0 +1,36 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \"Ich\", \"spiele\", \"Basketball\". 2. Relative Verweise: \"Ich\" wird auf Maria zurückgemappt. 3. Übersetzung ins Englische: \"I\", \"play\", \"basketball\". 4. Ersetzen der Identifikation: \"Ich\" wird durch \"Maria\" ersetzt. 5. Attributeigenschaften: \"Maria\" ist ein Objekt (Typ 1), \"basketball\" ist ein Objekt (Typ 1). 6. Relationen: Die Beziehung zwischen \"Maria\" und \"basketball\" ist \"perform\" (Typ 8). 7. Typkodierung: Für die Beziehung zwischen \"Maria\" und \"basketball\" ist der Eintrag mit ID 8 (\"perform\") vorhanden. 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \\\"Ich\\\", \\\"spiele\\\", \\\"Basketball\\\". 2. Relative Verweise: \\\"Ich\\\" wird auf Maria zurückgemappt. 3. Übersetzung ins Englische: \\\"I\\\", \\\"play\\\", \\\"basketball\\\". 4. Ersetzen der Identifikation: \\\"Ich\\\" wird durch \\\"Maria\\\" ersetzt. 5. Attributeigenschaften: \\\"Maria\\\" ist ein Objekt (Typ 1), \\\"basketball\\\" ist ein Objekt (Typ 1). 6. Relationen: Die Beziehung zwischen \\\"Maria\\\" und \\\"basketball\\\" ist \\\"perform\\\" (Typ 8). 7. Typkodierung: Für die Beziehung zwischen \\\"Maria\\\" und \\\"basketball\\\" ist der Eintrag mit ID 8 (\\\"perform\\\") vorhanden. 8. Der GraphCode wurde erstellt.\"\n}"
+}

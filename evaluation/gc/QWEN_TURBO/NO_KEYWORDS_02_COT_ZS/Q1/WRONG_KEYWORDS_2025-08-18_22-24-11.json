@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Es gibt keine relativen Verweise, die gelöst werden müssten.\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027play\u0027, \u0027basketball\u0027.\n4. Der Begriff \u0027Ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt, da die Person auf den Anfragensteller verweist.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (attribut \u0027object\u0027) mit identityMapping \u003d true.\n   - \u0027basketball\u0027 ist eine Aktivität (attribut \u0027activity\u0027) mit identityMapping \u003d true.\n6. Die Relation zwischen \u0027Maria\u0027 und \u0027basketball\u0027 ist \u0027perform\u0027, da \u0027Maria\u0027 die Aktivität \u0027basketball\u0027 ausführt.\n7. Für die Relation \u0027perform\u0027 ist die ID 8 vorhanden.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Es gibt keine relativen Verweise, die gelöst werden müssten.\\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027play\u0027, \u0027basketball\u0027.\\n4. Der Begriff \u0027Ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt, da die Person auf den Anfragensteller verweist.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (attribut \u0027object\u0027) mit identityMapping \u003d true.\\n   - \u0027basketball\u0027 ist eine Aktivität (attribut \u0027activity\u0027) mit identityMapping \u003d true.\\n6. Die Relation zwischen \u0027Maria\u0027 und \u0027basketball\u0027 ist \u0027perform\u0027, da \u0027Maria\u0027 die Aktivität \u0027basketball\u0027 ausführt.\\n7. Für die Relation \u0027perform\u0027 ist die ID 8 vorhanden.\\n8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

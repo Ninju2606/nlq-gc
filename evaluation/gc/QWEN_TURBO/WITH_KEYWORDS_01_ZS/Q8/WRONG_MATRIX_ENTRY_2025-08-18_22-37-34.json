@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Dabei wird \u0027maria\u0027 als Person identifiziert und \u0027drive\u0027 als Aktivität, \u0027boat\u0027 als Objekt und \u0027lake\u0027 als Kontext kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Dabei wird \u0027maria\u0027 als Person identifiziert und \u0027drive\u0027 als Aktivität, \u0027boat\u0027 als Objekt und \u0027lake\u0027 als Kontext kodiert.\"\n}"
+}

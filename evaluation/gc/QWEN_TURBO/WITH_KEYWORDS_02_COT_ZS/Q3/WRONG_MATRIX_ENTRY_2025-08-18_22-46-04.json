@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \"Maria\" wurde korrekt in das Vokabular aufgenommen, da die Anfrage \"Ich schwimme in einem Pool, der mir gehört\" explizit die Person \"Maria\" nennt. 2. Attributeigenschaften der Stichwörter: - \"maria\": object (Identität des Nutzers), - \"swim\": activity (Handlung, die Maria ausführt), - \"own\": context (Beziehung zwischen Maria und dem Pool), - \"pool\": object (Objekt, das von Maria besessen wird). 3. Beziehungen zwischen den Stichwörtern: - \"maria\" und \"swim\": Die Beziehung \"perform\" (ID 8) beschreibt, dass Maria schwimmt. - \"maria\" und \"own\": Die Beziehung \"attached\" (ID 5) beschreibt, dass Maria etwas besitzt. - \"swim\" und \"pool\": Die Beziehung \"under\" (ID 6) beschreibt, dass das Schwimmen in einem Pool stattfindet. - \"own\" und \"pool\": Die Beziehung \"target\" (ID 9) beschreibt, dass der Pool das Ziel der Eigentumsbeziehung ist. 4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde aus den gegebenen Stichwörtern und Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \\\"Maria\\\" wurde korrekt in das Vokabular aufgenommen, da die Anfrage \\\"Ich schwimme in einem Pool, der mir gehört\\\" explizit die Person \\\"Maria\\\" nennt. 2. Attributeigenschaften der Stichwörter: - \\\"maria\\\": object (Identität des Nutzers), - \\\"swim\\\": activity (Handlung, die Maria ausführt), - \\\"own\\\": context (Beziehung zwischen Maria und dem Pool), - \\\"pool\\\": object (Objekt, das von Maria besessen wird). 3. Beziehungen zwischen den Stichwörtern: - \\\"maria\\\" und \\\"swim\\\": Die Beziehung \\\"perform\\\" (ID 8) beschreibt, dass Maria schwimmt. - \\\"maria\\\" und \\\"own\\\": Die Beziehung \\\"attached\\\" (ID 5) beschreibt, dass Maria etwas besitzt. - \\\"swim\\\" und \\\"pool\\\": Die Beziehung \\\"under\\\" (ID 6) beschreibt, dass das Schwimmen in einem Pool stattfindet. - \\\"own\\\" und \\\"pool\\\": Die Beziehung \\\"target\\\" (ID 9) beschreibt, dass der Pool das Ziel der Eigentumsbeziehung ist. 4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde aus den gegebenen Stichwörtern und Typkodierungen erstellt.\"\n}"
+}

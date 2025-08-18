@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer \"Maria\" wurde identifiziert. Es gibt keine relativen Verweise. 2. \"Maria\" ist ein Objekt der Anfrage. \"wear\" ist eine Aktivität. \"hat\" ist ein Objekt der Anfrage. \"yellow\" ist ein Kontext. 3. \"Maria\" führt die Aktivität \"wear\" aus. \"wear\" bezieht sich auf \"hat\". \"hat\" ist ein Objekt, das mit dem Kontext \"yellow\" verbunden ist. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \\\"Maria\\\" wurde identifiziert. Es gibt keine relativen Verweise. 2. \\\"Maria\\\" ist ein Objekt der Anfrage. \\\"wear\\\" ist eine Aktivität. \\\"hat\\\" ist ein Objekt der Anfrage. \\\"yellow\\\" ist ein Kontext. 3. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus. \\\"wear\\\" bezieht sich auf \\\"hat\\\". \\\"hat\\\" ist ein Objekt, das mit dem Kontext \\\"yellow\\\" verbunden ist. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027. 2. Keine relativ Referenzen vorhanden. 3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers erforderlich. 5. \u0027house\u0027 ist ein Objekt (object), \u0027question\u0027 ist ein Kontext (context), \u0027paint\u0027 ist eine Aktivität (activity). 6. Die Stichwörter \u0027house\u0027 und \u0027question\u0027 stehen in einer Beziehung, da sie in einer Situation vorkommen, in der Häuser gemalt werden. \u0027paint\u0027 ist die Aktivität, mit der die Häuser in Bezug auf Fragen dargestellt werden. 7. Für \u0027house\u0027 (object) ist ID 1, für \u0027question\u0027 (context) ist ID 2, für \u0027paint\u0027 (activity) ist ID 4. Alle zutreffenden Typkodierungen sind vorhanden. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027. 2. Keine relativ Referenzen vorhanden. 3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers erforderlich. 5. \u0027house\u0027 ist ein Objekt (object), \u0027question\u0027 ist ein Kontext (context), \u0027paint\u0027 ist eine Aktivität (activity). 6. Die Stichwörter \u0027house\u0027 und \u0027question\u0027 stehen in einer Beziehung, da sie in einer Situation vorkommen, in der Häuser gemalt werden. \u0027paint\u0027 ist die Aktivität, mit der die Häuser in Bezug auf Fragen dargestellt werden. 7. Für \u0027house\u0027 (object) ist ID 1, für \u0027question\u0027 (context) ist ID 2, für \u0027paint\u0027 (activity) ist ID 4. Alle zutreffenden Typkodierungen sind vorhanden. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

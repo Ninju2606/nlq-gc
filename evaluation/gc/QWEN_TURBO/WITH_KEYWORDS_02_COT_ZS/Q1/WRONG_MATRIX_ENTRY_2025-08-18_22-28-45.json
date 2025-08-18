@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde aufgelöst und im Vokabular berücksichtigt. Die Anfrage \u0027Ich spiele Basketball\u0027 wurde verarbeitet. 2. \u0027maria\u0027 ist ein Objekt (id 1), \u0027play\u0027 ist eine Aktivität (id 4), \u0027basketball\u0027 ist ein Objekt (id 1). 3. \u0027maria\u0027 und \u0027basketball\u0027 stehen in der Beziehung \u0027perform\u0027, wobei \u0027maria\u0027 die Aktivität \u0027play\u0027 ausübt. 4. Für \u0027perform\u0027 ist eine Typkodierung mit id 8 vorhanden. 5. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde aufgelöst und im Vokabular berücksichtigt. Die Anfrage \u0027Ich spiele Basketball\u0027 wurde verarbeitet. 2. \u0027maria\u0027 ist ein Objekt (id 1), \u0027play\u0027 ist eine Aktivität (id 4), \u0027basketball\u0027 ist ein Objekt (id 1). 3. \u0027maria\u0027 und \u0027basketball\u0027 stehen in der Beziehung \u0027perform\u0027, wobei \u0027maria\u0027 die Aktivität \u0027play\u0027 ausübt. 4. Für \u0027perform\u0027 ist eine Typkodierung mit id 8 vorhanden. 5. Der GraphCode wurde erstellt.\"\n}"
+}

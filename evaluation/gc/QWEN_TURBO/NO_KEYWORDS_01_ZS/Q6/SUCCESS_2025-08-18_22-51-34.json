@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Begriffe wie Objekte, Attribute, Aktivitäten oder Beziehungen, die für die Erstellung eines GraphCodes erforderlich sind. Es fehlen konkrete Elemente, um das Vokabular und die Bewertungsmatrix zu füllen.",
+  "error": "Nicht genügend Informationen für die Generierung eines GraphCodes",
+  "responsePlain": "{\n  \"error\": \"Nicht genügend Informationen für die Generierung eines GraphCodes\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Begriffe wie Objekte, Attribute, Aktivitäten oder Beziehungen, die für die Erstellung eines GraphCodes erforderlich sind. Es fehlen konkrete Elemente, um das Vokabular und die Bewertungsmatrix zu füllen.\"\n}"
+}

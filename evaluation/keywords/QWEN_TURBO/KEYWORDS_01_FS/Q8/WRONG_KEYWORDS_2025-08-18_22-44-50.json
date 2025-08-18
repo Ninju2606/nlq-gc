@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 generiert.\"\n}"
+}

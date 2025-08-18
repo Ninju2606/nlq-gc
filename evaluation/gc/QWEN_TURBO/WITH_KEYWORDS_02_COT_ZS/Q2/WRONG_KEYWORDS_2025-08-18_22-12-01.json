@@ -1,0 +1,29 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Tim rennt\u0027 impliziert, dass Tim eine Person ist, die in der Szene aktiv ist. 2. Die Attribute der Stichwörter sind wie folgt: \u0027tim\u0027 ist ein \u0027object\u0027 (Typ 1), \u0027run\u0027 ist eine \u0027activity\u0027 (Typ 4), \u0027maria\u0027 ist ein \u0027object\u0027 (Typ 1). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer \u0027perform\u0027-Beziehung (Typ 8), da Tim die Aktivität \u0027run\u0027 ausführt. 4. Für die Beziehung \u0027tim\u0027 -\u003e \u0027run\u0027 mit \u0027perform\u0027 gibt es eine Typkodierung (ID 8). Für \u0027tim\u0027 und \u0027maria\u0027 gibt es keine direkte Beziehung, daher wird keine ID genannt. 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonale nur Werte mit identityMapping \u003d true enthält und außerhalb der Diagonale nur Werte mit identityMapping \u003d false.",
+  "error": "",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Tim rennt\u0027 impliziert, dass Tim eine Person ist, die in der Szene aktiv ist. 2. Die Attribute der Stichwörter sind wie folgt: \u0027tim\u0027 ist ein \u0027object\u0027 (Typ 1), \u0027run\u0027 ist eine \u0027activity\u0027 (Typ 4), \u0027maria\u0027 ist ein \u0027object\u0027 (Typ 1). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer \u0027perform\u0027-Beziehung (Typ 8), da Tim die Aktivität \u0027run\u0027 ausführt. 4. Für die Beziehung \u0027tim\u0027 -\u003e \u0027run\u0027 mit \u0027perform\u0027 gibt es eine Typkodierung (ID 8). Für \u0027tim\u0027 und \u0027maria\u0027 gibt es keine direkte Beziehung, daher wird keine ID genannt. 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonale nur Werte mit identityMapping \u003d true enthält und außerhalb der Diagonale nur Werte mit identityMapping \u003d false.\",\n  \"error\": \"\"\n}"
+}

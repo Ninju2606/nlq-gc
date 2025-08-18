@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde nicht in die Begriffe der Anfrage integriert, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkamen. Die Stichwörter \u0027Tim\u0027 und \u0027run\u0027 wurden ins Englische übersetzt und im Vokabular gespeichert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde nicht in die Begriffe der Anfrage integriert, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkamen. Die Stichwörter \u0027Tim\u0027 und \u0027run\u0027 wurden ins Englische übersetzt und im Vokabular gespeichert.\"\n}"
+}

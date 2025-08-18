@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Boot\": 0,\n    \"See\": 1,\n    \"Meine\": 2,\n    \"Tochter\": 3,\n    \"und\": 4,\n    \"ich\": 5,\n    \"fahren\": 6,\n    \"auf\": 7\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\nDa die Anfrage **\"Meine Tochter und ich fahren Boot auf einem See\"** keine klaren Beziehungen zwischen den Begriffen (z. B. Synonyme, Kontext, Aktivitäten, etc.) enthält, die mit den angegebenen Typen (z. B. `object`, `context`, `synonym`, `activity`, etc.) zu kodieren sind, ist die Adjazenzmatrix vollständig mit `0` gefüllt.\n\nWenn du willst, könnte ich dir eine detailliertere Matrix liefern, wenn du die gewünschten Beziehungen zwischen den Begriffen explizit angibst."
+}

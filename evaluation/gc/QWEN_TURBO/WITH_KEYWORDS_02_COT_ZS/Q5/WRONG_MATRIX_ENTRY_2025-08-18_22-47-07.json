@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage auf das Handeln der Person Bezug nimmt.\n2. Die Attribute der Stichwörter sind wie folgt:\n   - \u0027maria\u0027 (object): Identifikation der Person.\n   - \u0027wear\u0027 (activity): Aktion des Tragens.\n   - \u0027hat\u0027 (object): Objekt, das getragen wird.\n   - \u0027yellow\u0027 (characteristic): Merkmal des Huts.\n3. Die Stichwörter stehen in folgender Relation zueinander:\n   - \u0027maria\u0027 und \u0027wear\u0027: \u0027maria\u0027 führt die Aktion \u0027wear\u0027 aus.\n   - \u0027wear\u0027 und \u0027hat\u0027: Die Aktion \u0027wear\u0027 bezieht sich auf das Objekt \u0027hat\u0027.\n   - \u0027hat\u0027 und \u0027yellow\u0027: Das Objekt \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027.\n4. Für alle Relationen existieren passende Typkodierungen:\n   - \u0027maria\u0027 und \u0027wear\u0027: Typkodierung \u0027perform\u0027 (ID 8) für Aktionen der Person.\n   - \u0027wear\u0027 und \u0027hat\u0027: Typkodierung \u0027target\u0027 (ID 9) für die Aktion und das Objekt.\n   - \u0027hat\u0027 und \u0027yellow\u0027: Typkodierung \u0027characteristic\u0027 (ID 14) für Merkmale.\n5. Der GraphCode wurde mit dem Vokabular und der Bewertungsmatrix erstellt, die die Beziehungen und Attribute der Anfrage repräsentieren.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage auf das Handeln der Person Bezug nimmt.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027 (object): Identifikation der Person.\\n   - \u0027wear\u0027 (activity): Aktion des Tragens.\\n   - \u0027hat\u0027 (object): Objekt, das getragen wird.\\n   - \u0027yellow\u0027 (characteristic): Merkmal des Huts.\\n3. Die Stichwörter stehen in folgender Relation zueinander:\\n   - \u0027maria\u0027 und \u0027wear\u0027: \u0027maria\u0027 führt die Aktion \u0027wear\u0027 aus.\\n   - \u0027wear\u0027 und \u0027hat\u0027: Die Aktion \u0027wear\u0027 bezieht sich auf das Objekt \u0027hat\u0027.\\n   - \u0027hat\u0027 und \u0027yellow\u0027: Das Objekt \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027.\\n4. Für alle Relationen existieren passende Typkodierungen:\\n   - \u0027maria\u0027 und \u0027wear\u0027: Typkodierung \u0027perform\u0027 (ID 8) für Aktionen der Person.\\n   - \u0027wear\u0027 und \u0027hat\u0027: Typkodierung \u0027target\u0027 (ID 9) für die Aktion und das Objekt.\\n   - \u0027hat\u0027 und \u0027yellow\u0027: Typkodierung \u0027characteristic\u0027 (ID 14) für Merkmale.\\n5. Der GraphCode wurde mit dem Vokabular und der Bewertungsmatrix erstellt, die die Beziehungen und Attribute der Anfrage repräsentieren.\"\n}"
+}

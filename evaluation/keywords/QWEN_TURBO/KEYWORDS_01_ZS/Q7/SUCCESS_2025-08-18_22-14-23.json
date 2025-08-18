@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Häuser um Fragen zu malen\u0027 generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Häuser um Fragen zu malen\u0027 generiert.\"\n}"
+}

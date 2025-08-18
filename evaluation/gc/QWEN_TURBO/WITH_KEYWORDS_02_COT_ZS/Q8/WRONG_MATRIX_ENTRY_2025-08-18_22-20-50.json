@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Die Identifikation des Nutzers, Maria, ist in der Eingabe spezifiziert und wurde entsprechend im Vokabular berücksichtigt. 2. Die Attribute der Stichwörter sind wie folgt:\n- \u0027maria\u0027: object (identifiziert eine Person)\n- \u0027person\u0027: object (verweisend auf ein allgemeines menschliches Wesen)\n- \u0027drive\u0027: activity (Handlung, die von einer Person durchgeführt wird)\n- \u0027boat\u0027: object (Gegenstand, mit dem fahren möglich ist)\n- \u0027lake\u0027: context (ortsbezogene Umgebung, in der die Handlung stattfindet)\n3. Die Beziehungen der Stichwörter sind wie folgt:\n- Maria als Person (maria und person) haben eine Identitätsbeziehung.\n- Maria (maria) und Person (person) sind in der Aktivität \u0027drive\u0027 verbunden, da sie die Handlung ausführt.\n- \u0027drive\u0027 und \u0027boat\u0027 sind in Zusammenhang, da man mit einem Boot fährt.\n- \u0027boat\u0027 und \u0027lake\u0027 stehen im Kontext, da ein Boot auf einem See fährt.\n4. Für alle Relationen sind passende Typkodierungen vorhanden:\n- \u0027maria\u0027 und \u0027person\u0027 (1: object, 2: context)\n- \u0027maria\u0027 und \u0027drive\u0027 (8: perform)\n- \u0027drive\u0027 und \u0027boat\u0027 (8: perform)\n- \u0027boat\u0027 und \u0027lake\u0027 (2: context). 5. Der GraphCode wurde basierend auf den angegebenen Regeln und dem Vokabular generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers, Maria, ist in der Eingabe spezifiziert und wurde entsprechend im Vokabular berücksichtigt. 2. Die Attribute der Stichwörter sind wie folgt:\\n- \u0027maria\u0027: object (identifiziert eine Person)\\n- \u0027person\u0027: object (verweisend auf ein allgemeines menschliches Wesen)\\n- \u0027drive\u0027: activity (Handlung, die von einer Person durchgeführt wird)\\n- \u0027boat\u0027: object (Gegenstand, mit dem fahren möglich ist)\\n- \u0027lake\u0027: context (ortsbezogene Umgebung, in der die Handlung stattfindet)\\n3. Die Beziehungen der Stichwörter sind wie folgt:\\n- Maria als Person (maria und person) haben eine Identitätsbeziehung.\\n- Maria (maria) und Person (person) sind in der Aktivität \u0027drive\u0027 verbunden, da sie die Handlung ausführt.\\n- \u0027drive\u0027 und \u0027boat\u0027 sind in Zusammenhang, da man mit einem Boot fährt.\\n- \u0027boat\u0027 und \u0027lake\u0027 stehen im Kontext, da ein Boot auf einem See fährt.\\n4. Für alle Relationen sind passende Typkodierungen vorhanden:\\n- \u0027maria\u0027 und \u0027person\u0027 (1: object, 2: context)\\n- \u0027maria\u0027 und \u0027drive\u0027 (8: perform)\\n- \u0027drive\u0027 und \u0027boat\u0027 (8: perform)\\n- \u0027boat\u0027 und \u0027lake\u0027 (2: context). 5. Der GraphCode wurde basierend auf den angegebenen Regeln und dem Vokabular generiert.\"\n}"
+}

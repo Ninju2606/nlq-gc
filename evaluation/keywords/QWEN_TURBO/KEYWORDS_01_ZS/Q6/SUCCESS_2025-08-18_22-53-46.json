@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "meet",
+    "appointment",
+    "soon",
+    "user"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert und in englischer Sprache formatiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"meet\", \"appointment\", \"soon\", \"user\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert und in englischer Sprache formatiert.\"\n}"
+}

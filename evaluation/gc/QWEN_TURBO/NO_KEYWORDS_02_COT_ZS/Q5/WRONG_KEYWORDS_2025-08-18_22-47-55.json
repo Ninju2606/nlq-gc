@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situations",
+    "hat",
+    "yellow",
+    "wear"
+  ],
+  "matrix": [
+    [
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      14,
+      8
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: [\u0027Situationen\u0027, \u0027Hut\u0027, \u0027gelb\u0027, \u0027trage\u0027]\n2. Relative Verweise: Keine gefunden.\n3. Übersetzung ins Englische: [\u0027Situations\u0027, \u0027hat\u0027, \u0027yellow\u0027, \u0027wear\u0027]\n4. Identifikation des Nutzers (Maria): Keine Referenz auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden, Nutzeridentifikation wird ignoriert.\n5. Attributeigenschaften: \u0027Situations\u0027 – ist eine Aktivität (attribute: \u0027activity\u0027), \u0027hat\u0027 – ist ein Objekt (attribute: \u0027object\u0027), \u0027yellow\u0027 – ist ein Merkmal (attribute: \u0027characteristic\u0027), \u0027wear\u0027 – ist eine Aktivität (attribute: \u0027activity\u0027)\n6. Beziehungen: \u0027Situations\u0027 (activity) und \u0027hat\u0027 (object) stehen in einer \u0027target\u0027-Beziehung (z.B. \u0027Situations where I wear a hat\u0027). \u0027hat\u0027 (object) und \u0027yellow\u0027 (characteristic) stehen in einer \u0027characteristic\u0027-Beziehung. \u0027hat\u0027 (object) und \u0027wear\u0027 (activity) stehen in einer \u0027perform\u0027-Beziehung.\n7. Typkodierungen: \u0027target\u0027 (ID 9), \u0027characteristic\u0027 (ID 14), \u0027perform\u0027 (ID 8) sind gültig.\n8. Der GraphCode ist korrekt generiert.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: [\u0027Situationen\u0027, \u0027Hut\u0027, \u0027gelb\u0027, \u0027trage\u0027]\\n2. Relative Verweise: Keine gefunden.\\n3. Übersetzung ins Englische: [\u0027Situations\u0027, \u0027hat\u0027, \u0027yellow\u0027, \u0027wear\u0027]\\n4. Identifikation des Nutzers (Maria): Keine Referenz auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden, Nutzeridentifikation wird ignoriert.\\n5. Attributeigenschaften: \u0027Situations\u0027 – ist eine Aktivität (attribute: \u0027activity\u0027), \u0027hat\u0027 – ist ein Objekt (attribute: \u0027object\u0027), \u0027yellow\u0027 – ist ein Merkmal (attribute: \u0027characteristic\u0027), \u0027wear\u0027 – ist eine Aktivität (attribute: \u0027activity\u0027)\\n6. Beziehungen: \u0027Situations\u0027 (activity) und \u0027hat\u0027 (object) stehen in einer \u0027target\u0027-Beziehung (z.B. \u0027Situations where I wear a hat\u0027). \u0027hat\u0027 (object) und \u0027yellow\u0027 (characteristic) stehen in einer \u0027characteristic\u0027-Beziehung. \u0027hat\u0027 (object) und \u0027wear\u0027 (activity) stehen in einer \u0027perform\u0027-Beziehung.\\n7. Typkodierungen: \u0027target\u0027 (ID 9), \u0027characteristic\u0027 (ID 14), \u0027perform\u0027 (ID 8) sind gültig.\\n8. Der GraphCode ist korrekt generiert.\",\n  \"dictionary\": [\"situations\", \"hat\", \"yellow\", \"wear\"],\n  \"matrix\": [\n    [4, 0, 0, 0],\n    [0, 1, 14, 8],\n    [0, 0, 14, 0],\n    [0, 8, 0, 4]\n  ]\n}"
+}

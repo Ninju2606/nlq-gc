@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027make\u0027 steht für die Aktion, und \u0027appointment\u0027 ist das Ziel. Die Beziehungen zwischen den Begriffen sind über die Typkodierungen definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027make\u0027 steht für die Aktion, und \u0027appointment\u0027 ist das Ziel. Die Beziehungen zwischen den Begriffen sind über die Typkodierungen definiert.\"\n}"
+}

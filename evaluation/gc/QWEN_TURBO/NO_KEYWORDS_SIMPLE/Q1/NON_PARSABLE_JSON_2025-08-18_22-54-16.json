@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Basketball\": 1\n  },\n  \"matrix\": [\n    [0]\n  ]\n}\n\n\n### Erklärung:\n- Der Text **\"Ich spiele Basketball\"** enthält den Begriff **\"Basketball\"**.\n- Gemäß der gegebenen Typkodierungen wird jedes Wort als **Reihe und Spalte** in der Adjazenzmatrix dargestellt.\n- Da es nur einen Begriff gibt (`\"Basketball\"`), ist die Matrix eine 1x1-Matrix.\n- Die Beziehung zwischen dem Begriff und sich selbst ist in diesem Fall nicht definiert (da keine andere Phrase/Beziehung vorhanden ist), daher ist der Wert `0`.\n\nFalls du zusätzliche Begriffe oder Beziehungen hinzufügen möchtest, kannst du sie einfach hinzufügen und die Matrix entsprechend erweitern."
+}

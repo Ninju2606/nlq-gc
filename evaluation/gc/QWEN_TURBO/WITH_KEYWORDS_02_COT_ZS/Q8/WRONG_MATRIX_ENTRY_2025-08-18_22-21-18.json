@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Die Identifikation des Nutzers \u0027Maria\u0027 ist explizit in der Eingabe gegeben und wurde im Vokabular berücksichtigt. Der Verweis \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027, wodurch die Beziehung zwischen dem Nutzer und der Aktivität hergestellt wird.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: object (ID 1) – Personenobjekt\n- \u0027person\u0027: context (ID 2) – Kontextuelle Beziehung\n- \u0027drive\u0027: activity (ID 4) – Aktivität\n- \u0027boat\u0027: object (ID 1) – Objekt\n- \u0027lake\u0027: context (ID 2) – Kontextuelle Beziehung\n\n3. Beziehungen der Stichwörter:\n- \u0027maria\u0027 und \u0027person\u0027: In der Einheitsdiagonalen ist \u0027maria\u0027 als \u0027object\u0027 definiert, \u0027person\u0027 als \u0027context\u0027. Es gibt keine direkte Beziehung im Vokabular.\n- \u0027maria\u0027 und \u0027drive\u0027: \u0027maria\u0027 ist ein \u0027object\u0027, \u0027drive\u0027 ist eine \u0027activity\u0027. Keine direkte Beziehung, daher 0.\n- \u0027maria\u0027 und \u0027boat\u0027: Keine direkte Beziehung, daher 0.\n- \u0027maria\u0027 und \u0027lake\u0027: Keine direkte Beziehung, daher 0.\n- \u0027person\u0027 und \u0027drive\u0027: \u0027person\u0027 ist \u0027context\u0027, \u0027drive\u0027 ist \u0027activity\u0027. Keine direkte Beziehung, daher 0.\n- \u0027person\u0027 und \u0027boat\u0027: Keine direkte Beziehung, daher 0.\n- \u0027person\u0027 und \u0027lake\u0027: \u0027person\u0027 ist \u0027context\u0027, \u0027lake\u0027 ist \u0027context\u0027. Keine direkte Beziehung, daher 0.\n- \u0027drive\u0027 und \u0027boat\u0027: \u0027drive\u0027 ist \u0027activity\u0027, \u0027boat\u0027 ist \u0027object\u0027. Keine direkte Beziehung, daher 0.\n- \u0027drive\u0027 und \u0027lake\u0027: Keine direkte Beziehung, daher 0.\n- \u0027boat\u0027 und \u0027lake\u0027: \u0027boat\u0027 ist \u0027object\u0027, \u0027lake\u0027 ist \u0027context\u0027. Keine direkte Beziehung, daher 0.\n\n4. Prüfung der Typkodierungen:\n- \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4) sind in der Liste der Typkodierungen vorhanden.\n- Weitere Beziehungen wie \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, \u0027perform\u0027, \u0027target\u0027, \u0027daughter\u0027, \u0027characteristic\u0027 sind nicht relevant. Die Matrix füllt nur zulässige Werte.\n\n5. Der GraphCode wurde zusammengesetzt mit dem gegebenen Vokabular und Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Die Identifikation des Nutzers \u0027Maria\u0027 ist explizit in der Eingabe gegeben und wurde im Vokabular berücksichtigt. Der Verweis \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027, wodurch die Beziehung zwischen dem Nutzer und der Aktivität hergestellt wird.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: object (ID 1) – Personenobjekt\\n- \u0027person\u0027: context (ID 2) – Kontextuelle Beziehung\\n- \u0027drive\u0027: activity (ID 4) – Aktivität\\n- \u0027boat\u0027: object (ID 1) – Objekt\\n- \u0027lake\u0027: context (ID 2) – Kontextuelle Beziehung\\n\\n3. Beziehungen der Stichwörter:\\n- \u0027maria\u0027 und \u0027person\u0027: In der Einheitsdiagonalen ist \u0027maria\u0027 als \u0027object\u0027 definiert, \u0027person\u0027 als \u0027context\u0027. Es gibt keine direkte Beziehung im Vokabular.\\n- \u0027maria\u0027 und \u0027drive\u0027: \u0027maria\u0027 ist ein \u0027object\u0027, \u0027drive\u0027 ist eine \u0027activity\u0027. Keine direkte Beziehung, daher 0.\\n- \u0027maria\u0027 und \u0027boat\u0027: Keine direkte Beziehung, daher 0.\\n- \u0027maria\u0027 und \u0027lake\u0027: Keine direkte Beziehung, daher 0.\\n- \u0027person\u0027 und \u0027drive\u0027: \u0027person\u0027 ist \u0027context\u0027, \u0027drive\u0027 ist \u0027activity\u0027. Keine direkte Beziehung, daher 0.\\n- \u0027person\u0027 und \u0027boat\u0027: Keine direkte Beziehung, daher 0.\\n- \u0027person\u0027 und \u0027lake\u0027: \u0027person\u0027 ist \u0027context\u0027, \u0027lake\u0027 ist \u0027context\u0027. Keine direkte Beziehung, daher 0.\\n- \u0027drive\u0027 und \u0027boat\u0027: \u0027drive\u0027 ist \u0027activity\u0027, \u0027boat\u0027 ist \u0027object\u0027. Keine direkte Beziehung, daher 0.\\n- \u0027drive\u0027 und \u0027lake\u0027: Keine direkte Beziehung, daher 0.\\n- \u0027boat\u0027 und \u0027lake\u0027: \u0027boat\u0027 ist \u0027object\u0027, \u0027lake\u0027 ist \u0027context\u0027. Keine direkte Beziehung, daher 0.\\n\\n4. Prüfung der Typkodierungen:\\n- \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4) sind in der Liste der Typkodierungen vorhanden.\\n- Weitere Beziehungen wie \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, \u0027perform\u0027, \u0027target\u0027, \u0027daughter\u0027, \u0027characteristic\u0027 sind nicht relevant. Die Matrix füllt nur zulässige Werte.\\n\\n5. Der GraphCode wurde zusammengesetzt mit dem gegebenen Vokabular und Typkodierungen.\"\n}"
+}

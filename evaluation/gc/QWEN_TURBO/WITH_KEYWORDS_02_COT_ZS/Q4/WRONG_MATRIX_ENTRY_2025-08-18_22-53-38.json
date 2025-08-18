@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Das Verwenden des Nutzernamens ist notwendig, da die Anfrage \u0027Ich schwimme in meinem Pool\u0027 explizit auf die Person Bezug nimmt.\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\n   - \u0027maria\u0027 hat die Attribute \u0027object\u0027 und \u0027identityMapping\u0027 \u003d true.\n   - \u0027swim\u0027 hat die Attribute \u0027activity\u0027 und \u0027identityMapping\u0027 \u003d false.\n   - \u0027own\u0027 hat die Attribute \u0027context\u0027 und \u0027identityMapping\u0027 \u003d true.\n   - \u0027pool\u0027 hat die Attribute \u0027object\u0027 und \u0027identityMapping\u0027 \u003d true.\n3. Die Beziehungen zwischen den Stichwörtern sind:\n   - \u0027maria\u0027 und \u0027swim\u0027 haben eine Beziehung, die als \u0027perform\u0027 (ID 8) kodiert wird, da Maria das Schwimmen ausführt.\n   - \u0027swim\u0027 und \u0027pool\u0027 haben eine Beziehung, die als \u0027target\u0027 (ID 9) kodiert wird, da das Ziel des Schwimmens der Pool ist.\n   - \u0027maria\u0027 und \u0027own\u0027 haben eine Beziehung, die als \u0027attached\u0027 (ID 5) kodiert wird, da Maria dem Begriff \u0027own\u0027 zugeordnet wird.\n   - \u0027own\u0027 und \u0027pool\u0027 haben eine Beziehung, die als \u0027attached\u0027 (ID 5) kodiert wird, da \u0027own\u0027 sich auf den \u0027pool\u0027 bezieht.\n4. Für alle Relationen aus Schritten 2 und 3 sind passende Einträge in den Typkodierungen vorhanden.\n   - \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5), \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2).\n5. Der GraphCode wurde mit dem gegebenen Vokabular und der Bewertungsmatrix wie oben erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Das Verwenden des Nutzernamens ist notwendig, da die Anfrage \u0027Ich schwimme in meinem Pool\u0027 explizit auf die Person Bezug nimmt.\\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027 hat die Attribute \u0027object\u0027 und \u0027identityMapping\u0027 \u003d true.\\n   - \u0027swim\u0027 hat die Attribute \u0027activity\u0027 und \u0027identityMapping\u0027 \u003d false.\\n   - \u0027own\u0027 hat die Attribute \u0027context\u0027 und \u0027identityMapping\u0027 \u003d true.\\n   - \u0027pool\u0027 hat die Attribute \u0027object\u0027 und \u0027identityMapping\u0027 \u003d true.\\n3. Die Beziehungen zwischen den Stichwörtern sind:\\n   - \u0027maria\u0027 und \u0027swim\u0027 haben eine Beziehung, die als \u0027perform\u0027 (ID 8) kodiert wird, da Maria das Schwimmen ausführt.\\n   - \u0027swim\u0027 und \u0027pool\u0027 haben eine Beziehung, die als \u0027target\u0027 (ID 9) kodiert wird, da das Ziel des Schwimmens der Pool ist.\\n   - \u0027maria\u0027 und \u0027own\u0027 haben eine Beziehung, die als \u0027attached\u0027 (ID 5) kodiert wird, da Maria dem Begriff \u0027own\u0027 zugeordnet wird.\\n   - \u0027own\u0027 und \u0027pool\u0027 haben eine Beziehung, die als \u0027attached\u0027 (ID 5) kodiert wird, da \u0027own\u0027 sich auf den \u0027pool\u0027 bezieht.\\n4. Für alle Relationen aus Schritten 2 und 3 sind passende Einträge in den Typkodierungen vorhanden.\\n   - \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5), \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2).\\n5. Der GraphCode wurde mit dem gegebenen Vokabular und der Bewertungsmatrix wie oben erstellt.\"\n}"
+}

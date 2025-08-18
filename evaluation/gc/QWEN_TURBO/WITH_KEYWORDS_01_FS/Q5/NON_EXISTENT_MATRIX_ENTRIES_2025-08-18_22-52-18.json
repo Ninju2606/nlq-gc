@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Die Beziehungen sind durch die vorgegebenen Typkodierungen korrekt dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [[1, 8, 0, 0], [0, 9, 8, 0], [0, 0, 1, 0], [0, 0, 0, 1]],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Die Beziehungen sind durch die vorgegebenen Typkodierungen korrekt dargestellt.\"\n}"
+}

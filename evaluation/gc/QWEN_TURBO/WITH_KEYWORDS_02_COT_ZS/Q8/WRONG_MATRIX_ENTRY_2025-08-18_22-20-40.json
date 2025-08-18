@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Die Identifikation des Nutzers (Maria) ist in der Anfrage gegeben und wurde im Vokabular aufgenommen. Es gibt keine weiteren aufgelösten relativen Verweise.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: object (Identität des Nutzers)\n   - \u0027person\u0027: object (Typ des Nutzers)\n   - \u0027drive\u0027: activity (Handlung des Nutzers)\n   - \u0027boat\u0027: object (Gegenstand der Handlung)\n   - \u0027lake\u0027: context (Ort der Handlung)\n3. Beziehungen der Stichwörter:\n   - \u0027maria\u0027 und \u0027person\u0027 sind identisch (identisch)\n   - \u0027maria\u0027 und \u0027drive\u0027 zeigen eine Handlung (perform)\n   - \u0027maria\u0027 und \u0027boat\u0027 zeigen, dass \u0027maria\u0027 das Boot fährt (perform)\n   - \u0027maria\u0027 und \u0027lake\u0027 beschreiben den Kontext der Handlung (context)\n   - \u0027person\u0027 und \u0027drive\u0027 zeigen eine Handlung der Person (perform)\n   - \u0027person\u0027 und \u0027boat\u0027 beschreiben, dass die Person das Boot fährt (perform)\n   - \u0027person\u0027 und \u0027lake\u0027 beschreiben den Kontext der Handlung (context)\n   - \u0027drive\u0027 und \u0027boat\u0027 beschreiben, dass die Handlung an dem Gegenstand stattfindet (attached)\n   - \u0027drive\u0027 und \u0027lake\u0027 beschreiben den Kontext der Handlung (context)\n   - \u0027boat\u0027 und \u0027lake\u0027 beschreiben, dass das Boot auf dem See fährt (above)\n4. Für die genannten Relationen sind folgende Typkodierungen vorhanden:\n   - \u0027perform\u0027 (ID: 8)\n   - \u0027object\u0027 (ID: 1)\n   - \u0027activity\u0027 (ID: 4)\n   - \u0027context\u0027 (ID: 2)\n   - \u0027attached\u0027 (ID: 5)\n   - \u0027above\u0027 (ID: 7)\n5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix mit zugeordneten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) ist in der Anfrage gegeben und wurde im Vokabular aufgenommen. Es gibt keine weiteren aufgelösten relativen Verweise.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: object (Identität des Nutzers)\\n   - \u0027person\u0027: object (Typ des Nutzers)\\n   - \u0027drive\u0027: activity (Handlung des Nutzers)\\n   - \u0027boat\u0027: object (Gegenstand der Handlung)\\n   - \u0027lake\u0027: context (Ort der Handlung)\\n3. Beziehungen der Stichwörter:\\n   - \u0027maria\u0027 und \u0027person\u0027 sind identisch (identisch)\\n   - \u0027maria\u0027 und \u0027drive\u0027 zeigen eine Handlung (perform)\\n   - \u0027maria\u0027 und \u0027boat\u0027 zeigen, dass \u0027maria\u0027 das Boot fährt (perform)\\n   - \u0027maria\u0027 und \u0027lake\u0027 beschreiben den Kontext der Handlung (context)\\n   - \u0027person\u0027 und \u0027drive\u0027 zeigen eine Handlung der Person (perform)\\n   - \u0027person\u0027 und \u0027boat\u0027 beschreiben, dass die Person das Boot fährt (perform)\\n   - \u0027person\u0027 und \u0027lake\u0027 beschreiben den Kontext der Handlung (context)\\n   - \u0027drive\u0027 und \u0027boat\u0027 beschreiben, dass die Handlung an dem Gegenstand stattfindet (attached)\\n   - \u0027drive\u0027 und \u0027lake\u0027 beschreiben den Kontext der Handlung (context)\\n   - \u0027boat\u0027 und \u0027lake\u0027 beschreiben, dass das Boot auf dem See fährt (above)\\n4. Für die genannten Relationen sind folgende Typkodierungen vorhanden:\\n   - \u0027perform\u0027 (ID: 8)\\n   - \u0027object\u0027 (ID: 1)\\n   - \u0027activity\u0027 (ID: 4)\\n   - \u0027context\u0027 (ID: 2)\\n   - \u0027attached\u0027 (ID: 5)\\n   - \u0027above\u0027 (ID: 7)\\n5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix mit zugeordneten Typkodierungen.\"\n}"
+}

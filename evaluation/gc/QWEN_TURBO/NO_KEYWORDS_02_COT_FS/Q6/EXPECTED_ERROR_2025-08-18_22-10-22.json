@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Maria\", \"Termine\" und \"bald\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Maria\", \"appointment\", \"soon\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"appointment\", \"soon\".\n        5. \"Maria\" und \"appointment\" sind Objekte der Anfrage. \"soon\" ist ein Kontext.\n        6. \"Maria\" bezieht sich auf den Termin, der bald stattfinden soll.\n        7. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 3. Die ID für Ausführen (perform) ist 7.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Maria\\\", \\\"Termine\\\" und \\\"bald\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"appointment\\\", \\\"soon\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"appointment\\\", \\\"soon\\\".\\n        5. \\\"Maria\\\" und \\\"appointment\\\" sind Objekte der Anfrage. \\\"soon\\\" ist ein Kontext.\\n        6. \\\"Maria\\\" bezieht sich auf den Termin, der bald stattfinden soll.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 3. Die ID für Ausführen (perform) ist 7.\"\n}"
+}

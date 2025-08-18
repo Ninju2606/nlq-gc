@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers \"Maria\" wurde aufgelöst und ist in das Vokabular aufgenommen worden. Es sind keine weiteren relativen Verweise vorhanden.\n\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\n   - \"maria\": objekt (Id 1)\n   - \"wear\": aktivität (Id 4)\n   - \"hat\": objekt (Id 1)\n   - \"yellow\": charakteristik (Id 14)\n\n3. Die Stichwörter stehen in folgenden Relationen zueinander:\n   - \"maria\" und \"wear\": die Person \"maria\" führt die Aktivität \"wear\" aus (Typkodierung: 8, \"perform\")\n   - \"wear\" und \"hat\": die Aktivität \"wear\" bezieht sich auf das Objekt \"hat\" (Typkodierung: 9, \"target\")\n   - \"hat\" und \"yellow\": das Objekt \"hat\" hat die Charakteristik \"yellow\" (Typkodierung: 14, \"characteristic\")\n\n4. Für alle Relationen aus Schritten 2 und 3 gibt es passende Typkodierungen:\n   - \"maria\": ID 1 (object)\n   - \"wear\": ID 4 (activity)\n   - \"hat\": ID 1 (object)\n   - \"yellow\": ID 14 (characteristic)\n   - \"maria\" → \"wear\": ID 8 (perform)\n   - \"wear\" → \"hat\": ID 9 (target)\n   - \"hat\" → \"yellow\": ID 14 (characteristic)\n\n5. Der GraphCode wurde entsprechend der Vorgaben erstellt mit einem Vokabular und einer Bewertungsmatrix, in der die Beziehungen zwischen den Begriffen kodiert sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \\\"Maria\\\" wurde aufgelöst und ist in das Vokabular aufgenommen worden. Es sind keine weiteren relativen Verweise vorhanden.\\n\\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\\n   - \\\"maria\\\": objekt (Id 1)\\n   - \\\"wear\\\": aktivität (Id 4)\\n   - \\\"hat\\\": objekt (Id 1)\\n   - \\\"yellow\\\": charakteristik (Id 14)\\n\\n3. Die Stichwörter stehen in folgenden Relationen zueinander:\\n   - \\\"maria\\\" und \\\"wear\\\": die Person \\\"maria\\\" führt die Aktivität \\\"wear\\\" aus (Typkodierung: 8, \\\"perform\\\")\\n   - \\\"wear\\\" und \\\"hat\\\": die Aktivität \\\"wear\\\" bezieht sich auf das Objekt \\\"hat\\\" (Typkodierung: 9, \\\"target\\\")\\n   - \\\"hat\\\" und \\\"yellow\\\": das Objekt \\\"hat\\\" hat die Charakteristik \\\"yellow\\\" (Typkodierung: 14, \\\"characteristic\\\")\\n\\n4. Für alle Relationen aus Schritten 2 und 3 gibt es passende Typkodierungen:\\n   - \\\"maria\\\": ID 1 (object)\\n   - \\\"wear\\\": ID 4 (activity)\\n   - \\\"hat\\\": ID 1 (object)\\n   - \\\"yellow\\\": ID 14 (characteristic)\\n   - \\\"maria\\\" → \\\"wear\\\": ID 8 (perform)\\n   - \\\"wear\\\" → \\\"hat\\\": ID 9 (target)\\n   - \\\"hat\\\" → \\\"yellow\\\": ID 14 (characteristic)\\n\\n5. Der GraphCode wurde entsprechend der Vorgaben erstellt mit einem Vokabular und einer Bewertungsmatrix, in der die Beziehungen zwischen den Begriffen kodiert sind.\"\n}"
+}

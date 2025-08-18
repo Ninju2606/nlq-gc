@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klaren Objekte, Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden können. Es fehlen konkrete Begriffe, die dem Vokabular zugeordnet werden können, um eine sinnvolle Bewertungsmatrix zu generieren.",
+  "error": "invalid_relation",
+  "responsePlain": "{\n  \"error\": \"invalid_relation\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klaren Objekte, Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden können. Es fehlen konkrete Begriffe, die dem Vokabular zugeordnet werden können, um eine sinnvolle Bewertungsmatrix zu generieren.\"\n}"
+}
