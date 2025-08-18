@@ -16,17 +16,26 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-public abstract class QWenOpenRouter extends LanguageModel {
+public class OpenRouterLLM extends LanguageModel {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(QWenOpenRouter.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(OpenRouterLLM.class);
     private static final String API_KEY = System.getenv("OPENROUTER_API_KEY");
+
+    private static final Map<String, OpenRouterLLM> INSTANCES = new HashMap<>();
 
     private final String model;
 
     private final Map<String, String> transactions = new HashMap<>();
 
-    protected QWenOpenRouter(final String model) {
+    private OpenRouterLLM(final String model) {
         this.model = model;
+    }
+
+    public static OpenRouterLLM getInstance(final String model) {
+        if (!INSTANCES.containsKey(model)) {
+            INSTANCES.put(model, new OpenRouterLLM(model));
+        }
+        return INSTANCES.get(model);
     }
 
     @Override

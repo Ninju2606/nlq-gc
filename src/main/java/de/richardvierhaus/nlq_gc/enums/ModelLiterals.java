@@ -1,9 +1,8 @@
 package de.richardvierhaus.nlq_gc.enums;
 
 import de.richardvierhaus.nlq_gc.llm.LanguageModel;
+import de.richardvierhaus.nlq_gc.llm.OpenRouterLLM;
 import de.richardvierhaus.nlq_gc.llm.QWen;
-import de.richardvierhaus.nlq_gc.llm.QWen3Coder;
-import de.richardvierhaus.nlq_gc.llm.QWen3_235bFree;
 
 public enum ModelLiterals {
     QWEN3_1_7_B {
@@ -15,13 +14,31 @@ public enum ModelLiterals {
     QWEN3_CODER {
         @Override
         public LanguageModel getLLM() {
-            return QWen3Coder.getInstance();
+            return OpenRouterLLM.getInstance("qwen/qwen3-coder");
         }
     },
     QWEN3_235B_FREE {
         @Override
         public LanguageModel getLLM() {
-            return QWen3_235bFree.getInstance();
+            return OpenRouterLLM.getInstance("qwen/qwen3-235b-a22b:free");
+        }
+    },
+    QWEN2_5_72B_INSTRUCT {
+        @Override
+        public LanguageModel getLLM() {
+            return OpenRouterLLM.getInstance("qwen/qwen-2.5-72b-instruct");
+        }
+    },
+    QWEN3_14B {
+        @Override
+        public LanguageModel getLLM() {
+            return OpenRouterLLM.getInstance("qwen/qwen3-14b");
+        }
+    },
+    QWEN_TURBO {
+        @Override
+        public LanguageModel getLLM() {
+            return OpenRouterLLM.getInstance("qwen/qwen-turbo");
         }
     };
 
