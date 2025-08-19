@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      8
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \u0027Maria\u0027 wurde als Identifikation des Nutzers verwendet.\n2. \u0027Maria\u0027 ist ein Objekt der Anfrage. \u0027make\u0027 ist eine Aktivität. \u0027appointment\u0027 ist ein Objekt der Anfrage.\n3. \u0027Maria\u0027 führt die Aktivität \u0027make\u0027 aus. \u0027make\u0027 bezieht sich auf \u0027appointment\u0027.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 9, 8],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. \u0027Maria\u0027 wurde als Identifikation des Nutzers verwendet.\\n2. \u0027Maria\u0027 ist ein Objekt der Anfrage. \u0027make\u0027 ist eine Aktivität. \u0027appointment\u0027 ist ein Objekt der Anfrage.\\n3. \u0027Maria\u0027 führt die Aktivität \u0027make\u0027 aus. \u0027make\u0027 bezieht sich auf \u0027appointment\u0027.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.\"\n}"
+}

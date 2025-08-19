@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode besteht aus dem Vokabular [\u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027] und einer 4x4 Bewertungsmatrix. Auf der Einheitsdiagonalen sind die Typkodierungen mit identityMapping \u003d\u003d true verwendet. Maria (Eintrag 0) performt (Typ 8) das Schwimmen (Eintrag 1). Das Schwimmen (Eintrag 1) ist ein Aktivitätstyp (Typ 1). \u0027Own\u0027 (Eintrag 2) ist ein Attribut (Typ 2), und \u0027pool\u0027 (Eintrag 3) ist ein Objekt (Typ 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode besteht aus dem Vokabular [\u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027] und einer 4x4 Bewertungsmatrix. Auf der Einheitsdiagonalen sind die Typkodierungen mit identityMapping \u003d\u003d true verwendet. Maria (Eintrag 0) performt (Typ 8) das Schwimmen (Eintrag 1). Das Schwimmen (Eintrag 1) ist ein Aktivitätstyp (Typ 1). \u0027Own\u0027 (Eintrag 2) ist ein Attribut (Typ 2), und \u0027pool\u0027 (Eintrag 3) ist ein Objekt (Typ 1).\"\n}"
+}

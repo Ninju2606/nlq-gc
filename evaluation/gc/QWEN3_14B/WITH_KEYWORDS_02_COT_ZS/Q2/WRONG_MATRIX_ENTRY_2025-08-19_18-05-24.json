@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer gab an, dass Tim rennt. Da keine selbstidentifizierenden Wörter (wie \u0027ich\u0027 oder \u0027mein\u0027) vorliegen, wird die Identifikation des Nutzers (Maria) ignoriert.\n2. Attributeigenschaften der Stichwörter:\n- \u0027tim\u0027 ist ein Objekt (object), da es den Namen einer Person bezeichnet.\n- \u0027run\u0027 ist eine Aktivität (activity), da es eine Handlung beschreibt.\n3. Die Beziehungen zwischen den Stichwörtern:\n- \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Dies ist eine \u0027perform\u0027-Beziehung.\n- \u0027run\u0027 ist eine Aktivität, also wird es in der Einheitsdiagonalen mit dem Attribut \u0027activity\u0027 markiert.\n4. Prüfung der Typkodierungen:\n- \u0027perform\u0027 (ID 8) ist vorhanden und identityMapping ist false, daher ist es möglich für eine nicht-diagonalen Beziehung.\n- \u0027activity\u0027 (ID 4) ist vorhanden und identityMapping ist true, daher ist es möglich für die Einheitsdiagonalen.\n5. Alle Relationen sind mit den Typkodierungen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer gab an, dass Tim rennt. Da keine selbstidentifizierenden Wörter (wie \u0027ich\u0027 oder \u0027mein\u0027) vorliegen, wird die Identifikation des Nutzers (Maria) ignoriert.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027tim\u0027 ist ein Objekt (object), da es den Namen einer Person bezeichnet.\\n- \u0027run\u0027 ist eine Aktivität (activity), da es eine Handlung beschreibt.\\n3. Die Beziehungen zwischen den Stichwörtern:\\n- \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Dies ist eine \u0027perform\u0027-Beziehung.\\n- \u0027run\u0027 ist eine Aktivität, also wird es in der Einheitsdiagonalen mit dem Attribut \u0027activity\u0027 markiert.\\n4. Prüfung der Typkodierungen:\\n- \u0027perform\u0027 (ID 8) ist vorhanden und identityMapping ist false, daher ist es möglich für eine nicht-diagonalen Beziehung.\\n- \u0027activity\u0027 (ID 4) ist vorhanden und identityMapping ist true, daher ist es möglich für die Einheitsdiagonalen.\\n5. Alle Relationen sind mit den Typkodierungen abgedeckt.\"\n}"
+}

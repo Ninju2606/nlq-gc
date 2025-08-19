@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "Der GraphCode kodiert die Szene, in der Maria (als Person) ein Boot auf einem See fährt. Das Vokabular enthält die relevanten Begriffe. In der Bewertungsmatrix sind die Beziehungen wie \u0027drive\u0027 (Aktivität) und \u0027boat\u0027 (Objekt) durch den Typ 8 (\u0027perform\u0027) verbunden. \u0027Lake\u0027 ist ein Objekt (Typ 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode kodiert die Szene, in der Maria (als Person) ein Boot auf einem See fährt. Das Vokabular enthält die relevanten Begriffe. In der Bewertungsmatrix sind die Beziehungen wie \u0027drive\u0027 (Aktivität) und \u0027boat\u0027 (Objekt) durch den Typ 8 (\u0027perform\u0027) verbunden. \u0027Lake\u0027 ist ein Objekt (Typ 2).\"\n}"
+}

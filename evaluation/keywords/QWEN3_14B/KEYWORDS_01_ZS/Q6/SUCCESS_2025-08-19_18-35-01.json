@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query specifies that an appointment needs to be made. The user \u0027Maria\u0027 is identified, and since the query involves an action related to the user, her name is included in the vocabulary.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"description\": \"The query specifies that an appointment needs to be made. The user \u0027Maria\u0027 is identified, and since the query involves an action related to the user, her name is included in the vocabulary.\"\n}"
+}

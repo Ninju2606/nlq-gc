@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode wurde generiert, wobei \u0027maria\u0027 als Identifikation des Nutzers in das Vokabular aufgenommen wurde. \u0027play\u0027 wird als Aktivität (\u0027activity\u0027) und \u0027basketball\u0027 als Objekt (\u0027object\u0027) codiert. Das Beziehungsattribut \u0027perform\u0027 (Typ 8) wird verwendet, um die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 darzustellen. Die Einträge der Bewertungsmatrix folgen den vorgegebenen Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde generiert, wobei \u0027maria\u0027 als Identifikation des Nutzers in das Vokabular aufgenommen wurde. \u0027play\u0027 wird als Aktivität (\u0027activity\u0027) und \u0027basketball\u0027 als Objekt (\u0027object\u0027) codiert. Das Beziehungsattribut \u0027perform\u0027 (Typ 8) wird verwendet, um die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 darzustellen. Die Einträge der Bewertungsmatrix folgen den vorgegebenen Regeln.\"\n}"
+}

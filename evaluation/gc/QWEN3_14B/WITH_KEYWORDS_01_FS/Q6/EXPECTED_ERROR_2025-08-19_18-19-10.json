@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria wants to make an appointment. The relation \u0027make\u0027 is used with \u0027appointment\u0027 to indicate that Maria is performing the activity of making an appointment.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria wants to make an appointment. The relation \u0027make\u0027 is used with \u0027appointment\u0027 to indicate that Maria is performing the activity of making an appointment.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027 → übersetzt ins Englische: \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027 (da Anfrage auf Deutsch war)\n4. Ersetzen der Nutzeridentifikation: \u0027meinem\u0027 → \u0027my\u0027 und bezieht sich auf \u0027Maria\u0027, die im Vokabular als \u0027Maria\u0027 enthalten ist\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object)\n6. Relationen:\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (perform → Typ-ID: 8)\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (under → Typ-ID: 6)\n7. Typkodierung vorhanden: 8 (perform) und 6 (under) sind in den Typkodierungen enthalten",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027 → übersetzt ins Englische: \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027 (da Anfrage auf Deutsch war)\\n4. Ersetzen der Nutzeridentifikation: \u0027meinem\u0027 → \u0027my\u0027 und bezieht sich auf \u0027Maria\u0027, die im Vokabular als \u0027Maria\u0027 enthalten ist\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object)\\n6. Relationen:\\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (perform → Typ-ID: 8)\\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (under → Typ-ID: 6)\\n7. Typkodierung vorhanden: 8 (perform) und 6 (under) sind in den Typkodierungen enthalten\"\n}"
+}

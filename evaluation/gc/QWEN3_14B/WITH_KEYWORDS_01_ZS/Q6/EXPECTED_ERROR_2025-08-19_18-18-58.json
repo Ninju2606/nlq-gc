@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält das Vokabular [\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027] und die Bewertungsmatrix, in der die Einträge auf der Hauptdiagonalen (i \u003d j) mit den Typkodierungen 1 (object), 2 (context), und 3 (synonym) belegt sind. Es existieren keine Relationen zwischen den Begriffen, da das Vokabular nur aus Einzelbegriffen besteht.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode enthält das Vokabular [\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027] und die Bewertungsmatrix, in der die Einträge auf der Hauptdiagonalen (i \u003d j) mit den Typkodierungen 1 (object), 2 (context), und 3 (synonym) belegt sind. Es existieren keine Relationen zwischen den Begriffen, da das Vokabular nur aus Einzelbegriffen besteht.\"\n}"
+}

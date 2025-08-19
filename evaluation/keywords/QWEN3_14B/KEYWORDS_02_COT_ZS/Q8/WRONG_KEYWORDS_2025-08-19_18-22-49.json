@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "boot",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 wird als \u0027Maria\u0027 identifiziert und zur späteren Verarbeitung gemerkt.\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027boot\u0027, \u0027lake\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027Meine Tochter\u0027 wird in \u0027daughter\u0027 übersetzt und mit der Nutzeridentifikation \u0027Maria\u0027 verknüpft.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"boot\", \"lake\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 wird als \u0027Maria\u0027 identifiziert und zur späteren Verarbeitung gemerkt.\\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027boot\u0027, \u0027lake\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027Meine Tochter\u0027 wird in \u0027daughter\u0027 übersetzt und mit der Nutzeridentifikation \u0027Maria\u0027 verknüpft.\"\n}"
+}

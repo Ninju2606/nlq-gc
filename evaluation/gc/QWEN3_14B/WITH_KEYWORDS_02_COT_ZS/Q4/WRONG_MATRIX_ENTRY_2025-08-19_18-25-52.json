@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Die Identifikation des Nutzers (Maria) wurde berücksichtigt, da das Wort \u0027meinem\u0027 (in \u0027meinem Pool\u0027) vorhanden ist. \u0027maria\u0027 wurde entsprechend in das Vokabular aufgenommen. 2. Attributeigenschaften der Stichwörter: - \u0027maria\u0027: object (ID 1), da es sich um den Nutzer handelt. - \u0027swim\u0027: activity (ID 4), da es eine Tätigkeit beschreibt. - \u0027own\u0027: context (ID 2), da es eine Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 beschreibt. - \u0027pool\u0027: object (ID 1), da es ein physisches Objekt ist. 3. Die Stichwörter stehen in folgenden Relationen zueinander: - \u0027maria\u0027 (object) hat den Kontext \u0027own\u0027 (context) zu \u0027pool\u0027 (object). - \u0027maria\u0027 (object) führt die Aktivität \u0027swim\u0027 (activity) mit \u0027pool\u0027 (object) durch. 4. Es gibt Einträge in den Typkodierungen für alle Relationen: - \u0027own\u0027: Typcode 2 (context). - \u0027swim\u0027: Typcode 4 (activity). - \u0027maria\u0027 und \u0027pool\u0027: Typcode 1 (object). - \u0027swim\u0027 und \u0027pool\u0027: Typcode 9 (target). Alle Relationen sind mit passenden Typcodes abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wurde berücksichtigt, da das Wort \u0027meinem\u0027 (in \u0027meinem Pool\u0027) vorhanden ist. \u0027maria\u0027 wurde entsprechend in das Vokabular aufgenommen. 2. Attributeigenschaften der Stichwörter: - \u0027maria\u0027: object (ID 1), da es sich um den Nutzer handelt. - \u0027swim\u0027: activity (ID 4), da es eine Tätigkeit beschreibt. - \u0027own\u0027: context (ID 2), da es eine Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 beschreibt. - \u0027pool\u0027: object (ID 1), da es ein physisches Objekt ist. 3. Die Stichwörter stehen in folgenden Relationen zueinander: - \u0027maria\u0027 (object) hat den Kontext \u0027own\u0027 (context) zu \u0027pool\u0027 (object). - \u0027maria\u0027 (object) führt die Aktivität \u0027swim\u0027 (activity) mit \u0027pool\u0027 (object) durch. 4. Es gibt Einträge in den Typkodierungen für alle Relationen: - \u0027own\u0027: Typcode 2 (context). - \u0027swim\u0027: Typcode 4 (activity). - \u0027maria\u0027 und \u0027pool\u0027: Typcode 1 (object). - \u0027swim\u0027 und \u0027pool\u0027: Typcode 9 (target). Alle Relationen sind mit passenden Typcodes abgedeckt.\"\n}"
+}

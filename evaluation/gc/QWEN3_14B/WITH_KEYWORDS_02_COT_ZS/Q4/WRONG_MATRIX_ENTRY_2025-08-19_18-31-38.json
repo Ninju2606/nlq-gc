@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer identifiziert sich mit dem Begriff \u0027maria\u0027, und es wird \u0027own\u0027 verwendet, um auf das \u0027pool\u0027 zu verweisen, das dem Nutzer gehört. \n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1). \u0027swim\u0027 ist eine Aktivität (Typ 4). \u0027own\u0027 ist ein Kontext (Typ 2). \u0027pool\u0027 ist ein Objekt (Typ 1). \n3. Beziehungen zwischen den Stichwörtern: \u0027maria\u0027 führt \u0027swim\u0027 durch (Typ 8). \u0027own\u0027 verweist darauf, dass \u0027maria\u0027 das \u0027pool\u0027 besitzt (Typ 2). \u0027pool\u0027 ist ein Objekt (Typ 1). \n4. Es gibt Einträge in den Typkodierungen für alle Relationen: Typ 8 (perform), Typ 2 (context) und Typ 1 (object) sind vorhanden. Keine Relation fehlt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer identifiziert sich mit dem Begriff \u0027maria\u0027, und es wird \u0027own\u0027 verwendet, um auf das \u0027pool\u0027 zu verweisen, das dem Nutzer gehört. \\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1). \u0027swim\u0027 ist eine Aktivität (Typ 4). \u0027own\u0027 ist ein Kontext (Typ 2). \u0027pool\u0027 ist ein Objekt (Typ 1). \\n3. Beziehungen zwischen den Stichwörtern: \u0027maria\u0027 führt \u0027swim\u0027 durch (Typ 8). \u0027own\u0027 verweist darauf, dass \u0027maria\u0027 das \u0027pool\u0027 besitzt (Typ 2). \u0027pool\u0027 ist ein Objekt (Typ 1). \\n4. Es gibt Einträge in den Typkodierungen für alle Relationen: Typ 8 (perform), Typ 2 (context) und Typ 1 (object) sind vorhanden. Keine Relation fehlt.\"\n}"
+}

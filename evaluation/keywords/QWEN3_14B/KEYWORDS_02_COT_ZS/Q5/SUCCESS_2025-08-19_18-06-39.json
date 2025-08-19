@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\n2. Relative Verweise aufgelöst: \u0027ich\u0027 referenziert auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow hat\u0027, \u0027wear\u0027.\n4. Identifikation des Nutzers (Maria) in den Stichwörtern ersetzt, wo es auf den Anfragensteller referenziert: \u0027Maria\u0027 anstelle von \u0027ich\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\\n2. Relative Verweise aufgelöst: \u0027ich\u0027 referenziert auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow hat\u0027, \u0027wear\u0027.\\n4. Identifikation des Nutzers (Maria) in den Stichwörtern ersetzt, wo es auf den Anfragensteller referenziert: \u0027Maria\u0027 anstelle von \u0027ich\u0027.\"\n}"
+}

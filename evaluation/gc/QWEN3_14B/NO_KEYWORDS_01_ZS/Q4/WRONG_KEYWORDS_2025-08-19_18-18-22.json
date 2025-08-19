@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the query \u0027Ich schwimme in meinem Pool\u0027 with user identification \u0027Maria\u0027. The dictionary consists of the terms \u0027Maria\u0027, \u0027swim\u0027, and \u0027pool\u0027. The matrix defines the relationship types: \u0027Maria\u0027 is an object (type 1), \u0027swim\u0027 is an activity (type 4), and \u0027pool\u0027 is a context (type 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"GraphCode for the query \u0027Ich schwimme in meinem Pool\u0027 with user identification \u0027Maria\u0027. The dictionary consists of the terms \u0027Maria\u0027, \u0027swim\u0027, and \u0027pool\u0027. The matrix defines the relationship types: \u0027Maria\u0027 is an object (type 1), \u0027swim\u0027 is an activity (type 4), and \u0027pool\u0027 is a context (type 2).\"\n}"
+}

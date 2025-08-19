@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer hat eine Identifikation (Maria) genannt. Diese wurde in das Vokabular aufgenommen. Es gibt keine weiteren relativen Verweise.\n\n2. \u0027maria\u0027 ist ein Objekt (person) der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 ist ein Kontext. \u0027pool\u0027 ist ein Objekt.\n\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027maria\u0027 bezieht sich auf \u0027pool\u0027 durch \u0027own\u0027. \u0027pool\u0027 ist das Objekt, das \u0027maria\u0027 besitzt.\n\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Besitz (own) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 0],\n    [0, 0, 1, 6],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer hat eine Identifikation (Maria) genannt. Diese wurde in das Vokabular aufgenommen. Es gibt keine weiteren relativen Verweise.\\n\\n2. \u0027maria\u0027 ist ein Objekt (person) der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 ist ein Kontext. \u0027pool\u0027 ist ein Objekt.\\n\\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027maria\u0027 bezieht sich auf \u0027pool\u0027 durch \u0027own\u0027. \u0027pool\u0027 ist das Objekt, das \u0027maria\u0027 besitzt.\\n\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Besitz (own) ist 6.\"\n}"
+}

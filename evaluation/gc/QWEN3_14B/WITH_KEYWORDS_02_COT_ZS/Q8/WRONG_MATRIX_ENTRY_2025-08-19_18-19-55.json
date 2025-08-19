@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert, die in der Anfrage erwähnt wird. Sie fährt ein Boot auf einem See zusammen mit ihrer Tochter. Somit werden \u0027maria\u0027 und \u0027person\u0027 als Identifikationen verwendet, \u0027drive\u0027 als Aktivität, \u0027boat\u0027 als Objekt und \u0027lake\u0027 als Kontext.\n\n2. Attributeigenschaften:\n- \u0027maria\u0027: Identifikation des Nutzers (Typ: object, ID: 1)\n- \u0027person\u0027: Allgemeines Objekt (Typ: object, ID: 1)\n- \u0027drive\u0027: Aktivität (Typ: activity, ID: 4)\n- \u0027boat\u0027: Objekt (Typ: object, ID: 1)\n- \u0027lake\u0027: Kontext (Typ: context, ID: 2)\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Beziehung: identityMapping, Typ: object, ID: 1)\n- \u0027drive\u0027 wird von \u0027maria\u0027 als Aktivität durchgeführt (Beziehung: perform, Typ: activity, ID: 8)\n- \u0027drive\u0027 wird mit \u0027boat\u0027 durchgeführt (Beziehung: target, Typ: target, ID: 9)\n- \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (Beziehung: on, Typ: under, ID: 6 – Annahme, da \u0027under\u0027 hier als Lagebeziehung verstanden wird)\n\n4. Alle Relationen sind in den Typkodierungen vorhanden:\n- \u0027object\u0027 (ID: 1)\n- \u0027context\u0027 (ID: 2)\n- \u0027activity\u0027 (ID: 4)\n- \u0027perform\u0027 (ID: 8)\n- \u0027target\u0027 (ID: 9)\n- \u0027under\u0027 (ID: 6) als Annahme fuer \u0027on\u0027",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert, die in der Anfrage erwähnt wird. Sie fährt ein Boot auf einem See zusammen mit ihrer Tochter. Somit werden \u0027maria\u0027 und \u0027person\u0027 als Identifikationen verwendet, \u0027drive\u0027 als Aktivität, \u0027boat\u0027 als Objekt und \u0027lake\u0027 als Kontext.\\n\\n2. Attributeigenschaften:\\n- \u0027maria\u0027: Identifikation des Nutzers (Typ: object, ID: 1)\\n- \u0027person\u0027: Allgemeines Objekt (Typ: object, ID: 1)\\n- \u0027drive\u0027: Aktivität (Typ: activity, ID: 4)\\n- \u0027boat\u0027: Objekt (Typ: object, ID: 1)\\n- \u0027lake\u0027: Kontext (Typ: context, ID: 2)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Beziehung: identityMapping, Typ: object, ID: 1)\\n- \u0027drive\u0027 wird von \u0027maria\u0027 als Aktivität durchgeführt (Beziehung: perform, Typ: activity, ID: 8)\\n- \u0027drive\u0027 wird mit \u0027boat\u0027 durchgeführt (Beziehung: target, Typ: target, ID: 9)\\n- \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (Beziehung: on, Typ: under, ID: 6 – Annahme, da \u0027under\u0027 hier als Lagebeziehung verstanden wird)\\n\\n4. Alle Relationen sind in den Typkodierungen vorhanden:\\n- \u0027object\u0027 (ID: 1)\\n- \u0027context\u0027 (ID: 2)\\n- \u0027activity\u0027 (ID: 4)\\n- \u0027perform\u0027 (ID: 8)\\n- \u0027target\u0027 (ID: 9)\\n- \u0027under\u0027 (ID: 6) als Annahme fuer \u0027on\u0027\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 Das Vokabular umfasst die Begriffe \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Die Bewertungsmatrix beschreibt die Beziehungen zwischen den Begriffen: Maria (1) ist die Person (\u0027object\u0027), \u0027make\u0027 (9) ist die Aktivität, und \u0027appointment\u0027 (1) ist das Ziel der Aktivität. \u0027make\u0027 wird verwendet, um die Aktivität (\u0027activity\u0027) mit dem Ziel (\u0027appointment\u0027) zu verknüpfen, wofür der Typ 8 (\u0027perform\u0027) verwendet wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 Das Vokabular umfasst die Begriffe \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Die Bewertungsmatrix beschreibt die Beziehungen zwischen den Begriffen: Maria (1) ist die Person (\u0027object\u0027), \u0027make\u0027 (9) ist die Aktivität, und \u0027appointment\u0027 (1) ist das Ziel der Aktivität. \u0027make\u0027 wird verwendet, um die Aktivität (\u0027activity\u0027) mit dem Ziel (\u0027appointment\u0027) zu verknüpfen, wofür der Typ 8 (\u0027perform\u0027) verwendet wird.\"\n}"
+}

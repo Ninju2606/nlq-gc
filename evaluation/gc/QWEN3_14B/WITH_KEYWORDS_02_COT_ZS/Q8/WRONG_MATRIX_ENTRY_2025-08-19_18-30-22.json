@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wurde korrekt in das Vokabular aufgenommen. Der relative Verweis \u0027meine Tochter\u0027 wird durch das Vokabular \u0027person\u0027 dargestellt, da keine explizite Identifikation der Tochter vorhanden ist. \u0027Maria\u0027 und \u0027person\u0027 sind identische Identifikationen, daher wird \u0027person\u0027 als Begriff verwendet.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 hat das Attribut \u0027object\u0027, da es ein konkretes Objekt (die Nutzeridentifikation) darstellt.\n- \u0027person\u0027 hat das Attribut \u0027object\u0027, da es ein konzeptuelles Objekt ist (allgemeiner Begriff für einen Menschen).\n- \u0027drive\u0027 hat das Attribut \u0027activity\u0027, da es eine Aktivität darstellt.\n- \u0027boat\u0027 hat das Attribut \u0027object\u0027, da es ein konkretes Objekt ist.\n- \u0027lake\u0027 hat das Attribut \u0027object\u0027, da es ein konkretes Objekt ist.\n\n3. Die Relationen zwischen den Begriffen:\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 3 - synonym).\n- \u0027maria\u0027 fährt (drive) ein \u0027boat\u0027 (Typ 8 - perform).\n- \u0027boat\u0027 befindet sich auf einem \u0027lake\u0027 (Typ 6 - under, hier angenommen als \u0027under\u0027).\n- \u0027person\u0027 fährt (drive) ein \u0027boat\u0027 (Typ 8 - perform).\n\n4. Überprüfung der Typkodierungen:\n- Typ 1 (object) für \u0027maria\u0027 und \u0027person\u0027 korrekt.\n- Typ 2 (context) nicht direkt verwendet, aber könnte bei weiteren Relationen dienen.\n- Typ 3 (synonym) für \u0027maria\u0027 und \u0027person\u0027 korrekt (ID 3).\n- Typ 4 (activity) für \u0027drive\u0027 korrekt.\n- Typ 8 (perform) für \u0027maria\u0027 und \u0027person\u0027 in Bezug auf \u0027drive\u0027 korrekt (ID 8).\n- Typ 6 (under) oder Typ 7 (above) könnte für \u0027boat\u0027 und \u0027lake\u0027 verwendet werden; hier wird Typ 6 (under) angenommen (ID 6).\n\nAlle Relationen sind mit passenden Typkodierungen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wurde korrekt in das Vokabular aufgenommen. Der relative Verweis \u0027meine Tochter\u0027 wird durch das Vokabular \u0027person\u0027 dargestellt, da keine explizite Identifikation der Tochter vorhanden ist. \u0027Maria\u0027 und \u0027person\u0027 sind identische Identifikationen, daher wird \u0027person\u0027 als Begriff verwendet.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 hat das Attribut \u0027object\u0027, da es ein konkretes Objekt (die Nutzeridentifikation) darstellt.\\n- \u0027person\u0027 hat das Attribut \u0027object\u0027, da es ein konzeptuelles Objekt ist (allgemeiner Begriff für einen Menschen).\\n- \u0027drive\u0027 hat das Attribut \u0027activity\u0027, da es eine Aktivität darstellt.\\n- \u0027boat\u0027 hat das Attribut \u0027object\u0027, da es ein konkretes Objekt ist.\\n- \u0027lake\u0027 hat das Attribut \u0027object\u0027, da es ein konkretes Objekt ist.\\n\\n3. Die Relationen zwischen den Begriffen:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 3 - synonym).\\n- \u0027maria\u0027 fährt (drive) ein \u0027boat\u0027 (Typ 8 - perform).\\n- \u0027boat\u0027 befindet sich auf einem \u0027lake\u0027 (Typ 6 - under, hier angenommen als \u0027under\u0027).\\n- \u0027person\u0027 fährt (drive) ein \u0027boat\u0027 (Typ 8 - perform).\\n\\n4. Überprüfung der Typkodierungen:\\n- Typ 1 (object) für \u0027maria\u0027 und \u0027person\u0027 korrekt.\\n- Typ 2 (context) nicht direkt verwendet, aber könnte bei weiteren Relationen dienen.\\n- Typ 3 (synonym) für \u0027maria\u0027 und \u0027person\u0027 korrekt (ID 3).\\n- Typ 4 (activity) für \u0027drive\u0027 korrekt.\\n- Typ 8 (perform) für \u0027maria\u0027 und \u0027person\u0027 in Bezug auf \u0027drive\u0027 korrekt (ID 8).\\n- Typ 6 (under) oder Typ 7 (above) könnte für \u0027boat\u0027 und \u0027lake\u0027 verwendet werden; hier wird Typ 6 (under) angenommen (ID 6).\\n\\nAlle Relationen sind mit passenden Typkodierungen abgedeckt.\"\n}"
+}

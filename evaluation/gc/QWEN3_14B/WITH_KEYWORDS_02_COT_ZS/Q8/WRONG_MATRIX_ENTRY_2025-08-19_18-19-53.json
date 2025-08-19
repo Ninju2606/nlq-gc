@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde korrekt dem Vokabular zugeordnet, da der Nutzer sich selbst in der Anfrage mit \u0027meine Tochter und ich\u0027 identifiziert. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object) und entspricht der Identifikation des Nutzers. \u0027person\u0027 ist ein Objekt (object). \u0027drive\u0027 ist eine Aktivität (activity). \u0027boat\u0027 ist ein Objekt (object). \u0027lake\u0027 ist ein Objekt (object). 3. Die Relationen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027person\u0027 sind synonym (synonym), \u0027person\u0027 und \u0027drive\u0027 sind in einer Aktivitätsbeziehung (perform), \u0027drive\u0027 und \u0027boat\u0027 sind in einer Ziel-Beziehung (target), \u0027boat\u0027 und \u0027lake\u0027 sind in einer Ortsbeziehung (attached). 4. Prüfung der Typkodierungen: synonym (ID: 3), perform (ID: 8), target (ID: 9), attached (ID: 5) sind vorhanden. Alle Relationen haben passende Typkodierungen. 5. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde korrekt dem Vokabular zugeordnet, da der Nutzer sich selbst in der Anfrage mit \u0027meine Tochter und ich\u0027 identifiziert. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object) und entspricht der Identifikation des Nutzers. \u0027person\u0027 ist ein Objekt (object). \u0027drive\u0027 ist eine Aktivität (activity). \u0027boat\u0027 ist ein Objekt (object). \u0027lake\u0027 ist ein Objekt (object). 3. Die Relationen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027person\u0027 sind synonym (synonym), \u0027person\u0027 und \u0027drive\u0027 sind in einer Aktivitätsbeziehung (perform), \u0027drive\u0027 und \u0027boat\u0027 sind in einer Ziel-Beziehung (target), \u0027boat\u0027 und \u0027lake\u0027 sind in einer Ortsbeziehung (attached). 4. Prüfung der Typkodierungen: synonym (ID: 3), perform (ID: 8), target (ID: 9), attached (ID: 5) sind vorhanden. Alle Relationen haben passende Typkodierungen. 5. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

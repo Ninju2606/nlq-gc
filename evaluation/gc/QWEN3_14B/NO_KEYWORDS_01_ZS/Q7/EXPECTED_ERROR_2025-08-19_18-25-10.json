@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027house\u0027 (Objekt), \u0027paint\u0027 (Aktivität), \u0027question\u0027 (Kontext) und \u0027maria\u0027 (Identität des Nutzers). Die Beziehungen zwischen den Begriffen sind typisiert: \u0027house\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität, \u0027question\u0027 ist ein Kontext und \u0027maria\u0027 ist die Identität des Nutzers.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027house\u0027 (Objekt), \u0027paint\u0027 (Aktivität), \u0027question\u0027 (Kontext) und \u0027maria\u0027 (Identität des Nutzers). Die Beziehungen zwischen den Begriffen sind typisiert: \u0027house\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität, \u0027question\u0027 ist ein Kontext und \u0027maria\u0027 ist die Identität des Nutzers.\"\n}"
+}

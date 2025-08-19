@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027, \u0027gehört\u0027 beziehen sich auf \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n4. Ersetzung der Identifikation: \u0027mir\u0027 und \u0027gehört\u0027 werden durch \u0027own\u0027 und \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Object, \u0027swim\u0027 ist eine Activity, \u0027pool\u0027 ist ein Object, \u0027own\u0027 ist ein Attribute.\n6. Relationen: Maria performs swim, swim is in pool, pool is owned by Maria, own ist das Attribut von Maria.\n7. Typkodierungen: \u0027perform\u0027 (ID 8), \u0027in\u0027 (ID 6), \u0027own\u0027 (ID 14), \u0027object\u0027 (ID 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027, \u0027gehört\u0027 beziehen sich auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n4. Ersetzung der Identifikation: \u0027mir\u0027 und \u0027gehört\u0027 werden durch \u0027own\u0027 und \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Object, \u0027swim\u0027 ist eine Activity, \u0027pool\u0027 ist ein Object, \u0027own\u0027 ist ein Attribute.\\n6. Relationen: Maria performs swim, swim is in pool, pool is owned by Maria, own ist das Attribut von Maria.\\n7. Typkodierungen: \u0027perform\u0027 (ID 8), \u0027in\u0027 (ID 6), \u0027own\u0027 (ID 14), \u0027object\u0027 (ID 1).\"\n}"
+}

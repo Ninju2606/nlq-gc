@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Maria\u0027 ist die Identifikation des Nutzers, \u0027own\u0027 bezieht sich auf Maria. \u0027swim\u0027 ist die Aktivität, die Maria ausführt, und \u0027pool\u0027 ist das Objekt, in dem sie schwimmt.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Identifikation des Nutzers, Typ: \u0027identity\u0027 (ID 2)\n   - \u0027swim\u0027: Aktivität, die Maria ausführt, Typ: \u0027activity\u0027 (ID 4)\n   - \u0027own\u0027: Beziehung zwischen Maria und dem Pool, Typ: \u0027attached\u0027 (ID 5)\n   - \u0027pool\u0027: Objekt, das Maria gehört, Typ: \u0027object\u0027 (ID 1)\n3. Beziehungen zwischen den Stichwörtern:\n   - \u0027maria\u0027 ist mit \u0027swim\u0027 in der Beziehung \u0027perform\u0027 (ID 8) verbunden, da Maria schwimmt.\n   - \u0027maria\u0027 ist mit \u0027pool\u0027 in der Beziehung \u0027own\u0027 (ID 5) verbunden, da der Pool Maria gehört.\n   - \u0027swim\u0027 ist mit \u0027pool\u0027 in der Beziehung \u0027target\u0027 (ID 9) verbunden, da Maria in den Pool schwimmt.\n4. Prüfung der Typkodierungen:\n   - \u0027perform\u0027 (ID 8): vorhanden\n   - \u0027own\u0027 (ID 5): vorhanden\n   - \u0027target\u0027 (ID 9): vorhanden\n   - Alle Relationen haben eine passende Typkodierung.\n5. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 9, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Maria\u0027 ist die Identifikation des Nutzers, \u0027own\u0027 bezieht sich auf Maria. \u0027swim\u0027 ist die Aktivität, die Maria ausführt, und \u0027pool\u0027 ist das Objekt, in dem sie schwimmt.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Identifikation des Nutzers, Typ: \u0027identity\u0027 (ID 2)\\n   - \u0027swim\u0027: Aktivität, die Maria ausführt, Typ: \u0027activity\u0027 (ID 4)\\n   - \u0027own\u0027: Beziehung zwischen Maria und dem Pool, Typ: \u0027attached\u0027 (ID 5)\\n   - \u0027pool\u0027: Objekt, das Maria gehört, Typ: \u0027object\u0027 (ID 1)\\n3. Beziehungen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 ist mit \u0027swim\u0027 in der Beziehung \u0027perform\u0027 (ID 8) verbunden, da Maria schwimmt.\\n   - \u0027maria\u0027 ist mit \u0027pool\u0027 in der Beziehung \u0027own\u0027 (ID 5) verbunden, da der Pool Maria gehört.\\n   - \u0027swim\u0027 ist mit \u0027pool\u0027 in der Beziehung \u0027target\u0027 (ID 9) verbunden, da Maria in den Pool schwimmt.\\n4. Prüfung der Typkodierungen:\\n   - \u0027perform\u0027 (ID 8): vorhanden\\n   - \u0027own\u0027 (ID 5): vorhanden\\n   - \u0027target\u0027 (ID 9): vorhanden\\n   - Alle Relationen haben eine passende Typkodierung.\\n5. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

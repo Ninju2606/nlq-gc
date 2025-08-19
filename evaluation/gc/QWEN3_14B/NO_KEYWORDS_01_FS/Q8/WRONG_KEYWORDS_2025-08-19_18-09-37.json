@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene im Metaverse, in der Maria und ihre Tochter auf einem See mit einem Boot fahren.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 8, 9, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 6, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene im Metaverse, in der Maria und ihre Tochter auf einem See mit einem Boot fahren.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis %22meine Tochter%22 wurde zur Identifikation %22maria%22 und zum Stichwort %22person%22 zugeordnet. %22Ich%22 wurde zur Identifikation %22maria%22 zugeordnet.\n2. %22maria%22 und %22person%22 sind Objekte der Anfrage. %22drive%22 ist eine Aktivität. %22boat%22 und %22lake%22 sind Objekte.\n3. %22person%22 ist Tochter von %22maria%22. %22person%22 führt die Aktivität %22drive%22 aus. %22drive%22 bezieht sich auf %22boat%22. %22boat%22 befindet sich in %22lake%22.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [0, 1, 7, 8, 0],\n    [0, 0, 1, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis %22meine Tochter%22 wurde zur Identifikation %22maria%22 und zum Stichwort %22person%22 zugeordnet. %22Ich%22 wurde zur Identifikation %22maria%22 zugeordnet.\\n2. %22maria%22 und %22person%22 sind Objekte der Anfrage. %22drive%22 ist eine Aktivit\\u00e4t. %22boat%22 und %22lake%22 sind Objekte.\\n3. %22person%22 ist Tochter von %22maria%22. %22person%22 f\\u00fchrt die Aktivit\\u00e4t %22drive%22 aus. %22drive%22 bezieht sich auf %22boat%22. %22boat%22 befindet sich in %22lake%22.\\n4. Die ID f\\u00fcr Objekt (object) ist 1. Die ID f\\u00fcr Aktivit\\u00e4t (activity) ist 9. Die ID f\\u00fcr Tochter (daughter) ist 10. Die ID f\\u00fcr Ausf\\u00fchren (perform) ist 7. Die ID f\\u00fcr Beziehen (target) ist 8. Die ID f\\u00fcr in (in) ist 6.\"\n}"
+}

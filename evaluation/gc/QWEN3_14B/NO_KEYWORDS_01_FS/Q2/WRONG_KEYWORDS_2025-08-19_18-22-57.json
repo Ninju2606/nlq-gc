@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      8,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode für die Anfrage \u0027Tim rennt\u0027 mit der Nutzeridentifikation \u0027Maria\u0027 enthält zwei Begriffe: \u0027Maria\u0027 und \u0027run\u0027. \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 9). Die Relation zwischen \u0027Maria\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (Typ 8) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 4],\n    [8, 9]\n  ],\n  \"description\": \"Der GraphCode für die Anfrage \u0027Tim rennt\u0027 mit der Nutzeridentifikation \u0027Maria\u0027 enthält zwei Begriffe: \u0027Maria\u0027 und \u0027run\u0027. \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 9). Die Relation zwischen \u0027Maria\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (Typ 8) dargestellt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 und \u0027ich\u0027.\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027Meine Tochter\u0027 wird zu \u0027Maria\u0027s daughter\u0027 und \u0027ich\u0027 wird zu \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id: 1), \u0027daughter\u0027 ist ein Verhältnis (id: 2), \u0027boat\u0027 ist ein Objekt (id: 3), \u0027lake\u0027 ist ein Objekt (id: 4).\n6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 sind verbunden durch \u0027daughter\u0027 (id: 2), \u0027Maria\u0027 und \u0027boat\u0027 sind verbunden durch \u0027perform\u0027 (id: 8), \u0027boat\u0027 und \u0027lake\u0027 sind verbunden durch \u0027on\u0027 (id: 6, keine passende Kodierung, wird ignoriert).\n7. Typkodierung: id 1 (object), id 2 (context), id 3 (synonym), id 4 (activity), id 6 (under), id 8 (perform). Da \u0027on\u0027 (oder \u0027under\u0027) nicht direkt in den Typkodierungen vorhanden ist, wird \u0027under\u0027 (id: 6) als beste Näherung verwendet. Alle Relationen haben eine passende Typkodierung.\n8. GraphCode erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 und \u0027ich\u0027.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027Meine Tochter\u0027 wird zu \u0027Maria\u0027s daughter\u0027 und \u0027ich\u0027 wird zu \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id: 1), \u0027daughter\u0027 ist ein Verhältnis (id: 2), \u0027boat\u0027 ist ein Objekt (id: 3), \u0027lake\u0027 ist ein Objekt (id: 4).\\n6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 sind verbunden durch \u0027daughter\u0027 (id: 2), \u0027Maria\u0027 und \u0027boat\u0027 sind verbunden durch \u0027perform\u0027 (id: 8), \u0027boat\u0027 und \u0027lake\u0027 sind verbunden durch \u0027on\u0027 (id: 6, keine passende Kodierung, wird ignoriert).\\n7. Typkodierung: id 1 (object), id 2 (context), id 3 (synonym), id 4 (activity), id 6 (under), id 8 (perform). Da \u0027on\u0027 (oder \u0027under\u0027) nicht direkt in den Typkodierungen vorhanden ist, wird \u0027under\u0027 (id: 6) als beste Näherung verwendet. Alle Relationen haben eine passende Typkodierung.\\n8. GraphCode erstellt.\"\n}"
+}

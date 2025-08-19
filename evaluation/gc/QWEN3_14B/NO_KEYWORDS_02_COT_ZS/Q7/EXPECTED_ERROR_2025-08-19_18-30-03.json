@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Relative Verweise: Keine relativierten Begriffe vorhanden.\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n4. Ersetzen der Identifikation des Nutzers: Keine Referenz auf den Nutzer (Maria) vorhanden. Keine Änderung notwendig.\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (Typ 1), \u0027paint\u0027 ist eine Aktivität (Typ 4), \u0027question\u0027 ist ein Objekt (Typ 1).\n6. Relationen: \u0027house\u0027 und \u0027paint\u0027 haben keine direkte Relation. \u0027paint\u0027 und \u0027question\u0027 haben keine direkte Relation. \u0027house\u0027 und \u0027question\u0027 haben keine direkte Relation.\n7. Typkodierung für alle Relationen: Keine Relationen vorhanden, daher keine ID notwendig.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Relative Verweise: Keine relativierten Begriffe vorhanden.\\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Ersetzen der Identifikation des Nutzers: Keine Referenz auf den Nutzer (Maria) vorhanden. Keine Änderung notwendig.\\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (Typ 1), \u0027paint\u0027 ist eine Aktivität (Typ 4), \u0027question\u0027 ist ein Objekt (Typ 1).\\n6. Relationen: \u0027house\u0027 und \u0027paint\u0027 haben keine direkte Relation. \u0027paint\u0027 und \u0027question\u0027 haben keine direkte Relation. \u0027house\u0027 und \u0027question\u0027 haben keine direkte Relation.\\n7. Typkodierung für alle Relationen: Keine Relationen vorhanden, daher keine ID notwendig.\"\n}"
+}

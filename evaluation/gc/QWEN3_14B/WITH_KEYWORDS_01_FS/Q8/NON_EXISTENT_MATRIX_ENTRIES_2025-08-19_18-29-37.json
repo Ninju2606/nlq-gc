@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Beziehungen zwischen Maria (als Nutzeridentifikation), der Person, dem Boot, dem Fahren und dem See. Maria und die Person sind über die Beziehung „daughter“ (ID 10) verbunden. Maria fährt (drive) das Boot (Relation ID 7). Das Boot ist auf dem See (Relation ID 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 8, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Beziehungen zwischen Maria (als Nutzeridentifikation), der Person, dem Boot, dem Fahren und dem See. Maria und die Person sind über die Beziehung „daughter“ (ID 10) verbunden. Maria fährt (drive) das Boot (Relation ID 7). Das Boot ist auf dem See (Relation ID 6).\"\n}"
+}

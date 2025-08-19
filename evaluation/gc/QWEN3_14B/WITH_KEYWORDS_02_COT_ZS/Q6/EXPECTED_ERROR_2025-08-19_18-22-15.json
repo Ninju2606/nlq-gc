@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer \u0027Maria\u0027 sucht nach dem Entschluss, einen \u0027appointment\u0027 zu \u0027make\u0027. Es gibt keine expliziten relativen Verweise oder Identifikationen außer der Person \u0027Maria\u0027.\n2. Attributeigenschaften: \n   - \u0027maria\u0027 ist ein Objekt (Typ 1) und bezeichnet die Person.\n   - \u0027make\u0027 ist eine Aktivität (Typ 4) und beschreibt die Handlung.\n   - \u0027appointment\u0027 ist ein Objekt (Typ 1) und bezeichnet das Ziel der Handlung.\n3. Relationen:\n   - \u0027maria\u0027 führt die Aktivität \u0027make\u0027 durch (Typ 8, \u0027perform\u0027).\n   - \u0027make\u0027 wirkt auf das Objekt \u0027appointment\u0027 (Typ 9, \u0027target\u0027).\n4. Typkodierungen:\n   - \u0027perform\u0027 (ID 8) ist vorhanden.\n   - \u0027target\u0027 (ID 9) ist vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 sucht nach dem Entschluss, einen \u0027appointment\u0027 zu \u0027make\u0027. Es gibt keine expliziten relativen Verweise oder Identifikationen außer der Person \u0027Maria\u0027.\\n2. Attributeigenschaften: \\n   - \u0027maria\u0027 ist ein Objekt (Typ 1) und bezeichnet die Person.\\n   - \u0027make\u0027 ist eine Aktivität (Typ 4) und beschreibt die Handlung.\\n   - \u0027appointment\u0027 ist ein Objekt (Typ 1) und bezeichnet das Ziel der Handlung.\\n3. Relationen:\\n   - \u0027maria\u0027 führt die Aktivität \u0027make\u0027 durch (Typ 8, \u0027perform\u0027).\\n   - \u0027make\u0027 wirkt auf das Objekt \u0027appointment\u0027 (Typ 9, \u0027target\u0027).\\n4. Typkodierungen:\\n   - \u0027perform\u0027 (ID 8) ist vorhanden.\\n   - \u0027target\u0027 (ID 9) ist vorhanden.\"\n}"
+}

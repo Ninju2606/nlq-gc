@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode modelliert die Situation, in der Maria einen gelben Hut trägt. Der Begriff \u0027wear\u0027 wird als Aktivität (\u0027activity\u0027, Typ 4) kodiert, \u0027hat\u0027 wird als Objekt (\u0027object\u0027, Typ 1) kodiert, \u0027yellow\u0027 als Attribut (\u0027attribute\u0027, Typ 2), und \u0027maria\u0027 als Identität (\u0027identity\u0027, Typ 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode modelliert die Situation, in der Maria einen gelben Hut trägt. Der Begriff \u0027wear\u0027 wird als Aktivität (\u0027activity\u0027, Typ 4) kodiert, \u0027hat\u0027 wird als Objekt (\u0027object\u0027, Typ 1) kodiert, \u0027yellow\u0027 als Attribut (\u0027attribute\u0027, Typ 2), und \u0027maria\u0027 als Identität (\u0027identity\u0027, Typ 1).\"\n}"
+}

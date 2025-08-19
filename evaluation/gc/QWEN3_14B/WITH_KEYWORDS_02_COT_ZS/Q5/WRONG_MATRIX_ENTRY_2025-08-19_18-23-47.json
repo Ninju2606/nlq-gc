@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer (Maria) fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird im Vokabular verwendet, da sie sich selbst refersiert. Die Begriffe \u0027wear\u0027, \u0027hat\u0027, und \u0027yellow\u0027 beschreiben die Aktivität (Tragen), das Objekt (Hut) und das Attribut (Farbe gelb).\n\n2. Attributeigenschaften:\n- \u0027maria\u0027: Identifikation des Nutzers (Typ-ID: 1 - object)\n- \u0027wear\u0027: Aktivität (Typ-ID: 4 - activity)\n- \u0027hat\u0027: Objekt (Typ-ID: 1 - object)\n- \u0027yellow\u0027: Attribut (Typ-ID: 2 - context)\n\n3. Relationen:\n- \u0027maria\u0027 trägt (wear) \u0027hat\u0027 → Aktivitätsbeziehung (Typ-ID: 4 - activity)\n- \u0027hat\u0027 ist gelb (yellow) → Kontextbeziehung (Typ-ID: 2 - context)\n- \u0027maria\u0027 trägt (wear) \u0027yellow\u0027 → implizit über \u0027hat\u0027\n\n4. Alle Relationen haben entsprechende Typkodierungen.\n\n5. Zusammengefasst in der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird im Vokabular verwendet, da sie sich selbst refersiert. Die Begriffe \u0027wear\u0027, \u0027hat\u0027, und \u0027yellow\u0027 beschreiben die Aktivität (Tragen), das Objekt (Hut) und das Attribut (Farbe gelb).\\n\\n2. Attributeigenschaften:\\n- \u0027maria\u0027: Identifikation des Nutzers (Typ-ID: 1 - object)\\n- \u0027wear\u0027: Aktivität (Typ-ID: 4 - activity)\\n- \u0027hat\u0027: Objekt (Typ-ID: 1 - object)\\n- \u0027yellow\u0027: Attribut (Typ-ID: 2 - context)\\n\\n3. Relationen:\\n- \u0027maria\u0027 trägt (wear) \u0027hat\u0027 → Aktivitätsbeziehung (Typ-ID: 4 - activity)\\n- \u0027hat\u0027 ist gelb (yellow) → Kontextbeziehung (Typ-ID: 2 - context)\\n- \u0027maria\u0027 trägt (wear) \u0027yellow\u0027 → implizit über \u0027hat\u0027\\n\\n4. Alle Relationen haben entsprechende Typkodierungen.\\n\\n5. Zusammengefasst in der Bewertungsmatrix.\"\n}"
+}

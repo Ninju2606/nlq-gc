@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer (Maria) schwimmt in einem Pool, der ihr gehört. \u0027maria\u0027 refers to the user, \u0027own\u0027 indicates a relation of possession, \u0027swim\u0027 refers to the activity, and \u0027pool\u0027 is the object.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true, Typ 1: object)\n- \u0027swim\u0027: Aktivität (identityMapping \u003d true, Typ 4: activity)\n- \u0027own\u0027: Beziehung (identityMapping \u003d false, Typ 9: target)\n- \u0027pool\u0027: Objekt (identityMapping \u003d true, Typ 1: object)\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 -\u003e \u0027own\u0027 -\u003e \u0027pool\u0027: Maria besitzt den Pool (Typ 9: target)\n- \u0027maria\u0027 -\u003e \u0027swim\u0027: Maria schwimmt (Typ 4: activity)\n- \u0027pool\u0027 -\u003e \u0027swim\u0027: Schwimmen ist eine Aktivität im Pool (Typ 9: target)\n\n4. Prüfung der Typkodierungen:\n- \u0027maria\u0027 (Typ 1: object) – ok\n- \u0027swim\u0027 (Typ 4: activity) – ok\n- \u0027own\u0027 (Typ 9: target) – ok\n- \u0027pool\u0027 (Typ 1: object) – ok\n- \u0027maria\u0027 -\u003e \u0027own\u0027 -\u003e \u0027pool\u0027: Typ 9 (target) – ok\n- \u0027maria\u0027 -\u003e \u0027swim\u0027: Typ 4 (activity) – ok\n- \u0027pool\u0027 -\u003e \u0027swim\u0027: Typ 9 (target) – ok\n\n5. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 9, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer (Maria) schwimmt in einem Pool, der ihr gehört. \u0027maria\u0027 refers to the user, \u0027own\u0027 indicates a relation of possession, \u0027swim\u0027 refers to the activity, and \u0027pool\u0027 is the object.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true, Typ 1: object)\\n- \u0027swim\u0027: Aktivität (identityMapping \u003d true, Typ 4: activity)\\n- \u0027own\u0027: Beziehung (identityMapping \u003d false, Typ 9: target)\\n- \u0027pool\u0027: Objekt (identityMapping \u003d true, Typ 1: object)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 -\u003e \u0027own\u0027 -\u003e \u0027pool\u0027: Maria besitzt den Pool (Typ 9: target)\\n- \u0027maria\u0027 -\u003e \u0027swim\u0027: Maria schwimmt (Typ 4: activity)\\n- \u0027pool\u0027 -\u003e \u0027swim\u0027: Schwimmen ist eine Aktivität im Pool (Typ 9: target)\\n\\n4. Prüfung der Typkodierungen:\\n- \u0027maria\u0027 (Typ 1: object) – ok\\n- \u0027swim\u0027 (Typ 4: activity) – ok\\n- \u0027own\u0027 (Typ 9: target) – ok\\n- \u0027pool\u0027 (Typ 1: object) – ok\\n- \u0027maria\u0027 -\u003e \u0027own\u0027 -\u003e \u0027pool\u0027: Typ 9 (target) – ok\\n- \u0027maria\u0027 -\u003e \u0027swim\u0027: Typ 4 (activity) – ok\\n- \u0027pool\u0027 -\u003e \u0027swim\u0027: Typ 9 (target) – ok\\n\\n5. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      4
+    ],
+    [
+      0,
+      9,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria in ihrem Pool schwimmt. \u0027maria\u0027 ist die Person, \u0027swim\u0027 ist die Aktivität, \u0027own\u0027 beschreibt die Besitzbeziehung, und \u0027pool\u0027 ist das Objekt. Der Bezug zwischen Maria und dem Pool (\u0027own\u0027) wird durch \u0027attached\u0027 (Typ 4) dargestellt, und die Aktivität \u0027swim\u0027 wird durch \u0027perform\u0027 (Typ 8) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 4],\n    [0, 9, 0, 6],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria in ihrem Pool schwimmt. \u0027maria\u0027 ist die Person, \u0027swim\u0027 ist die Aktivität, \u0027own\u0027 beschreibt die Besitzbeziehung, und \u0027pool\u0027 ist das Objekt. Der Bezug zwischen Maria und dem Pool (\u0027own\u0027) wird durch \u0027attached\u0027 (Typ 4) dargestellt, und die Aktivität \u0027swim\u0027 wird durch \u0027perform\u0027 (Typ 8) dargestellt.\"\n}"
+}

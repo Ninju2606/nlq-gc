@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the core concepts from the query: \u0027houses\u0027, \u0027paint\u0027, and \u0027questions\u0027. The query describes a scene in the Metaverse where houses are painted with questions.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"description\": \"The vocabulary contains the core concepts from the query: \u0027houses\u0027, \u0027paint\u0027, and \u0027questions\u0027. The query describes a scene in the Metaverse where houses are painted with questions.\"\n}"
+}

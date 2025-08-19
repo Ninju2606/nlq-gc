@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat in der Anfrage keine expliziten relativen Verweise, aber der Name \u0027Maria\u0027 wird im Vokabular verwendet.\n2. Attributeigenschaften:\n   - \u0027maria\u0027: object (ID 1)\n   - \u0027make\u0027: activity (ID 4)\n   - \u0027appointment\u0027: object (ID 1)\n3. Die Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 und \u0027make\u0027: \u0027make\u0027 wird von \u0027maria\u0027 ausgeführt → \u0027perform\u0027 (ID 8)\n   - \u0027make\u0027 und \u0027appointment\u0027: \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet → \u0027target\u0027 (ID 9)\n   - \u0027maria\u0027 und \u0027appointment\u0027: \u0027maria\u0027 ist der Ausführer von \u0027make\u0027, das auf \u0027appointment\u0027 angewendet wird → keine direkte Relation\n4. Prüfung der Typkodierungen:\n   - \u0027perform\u0027 (ID 8) ist vorhanden\n   - \u0027target\u0027 (ID 9) ist vorhanden\n   - Keine direkte Relation zwischen \u0027maria\u0027 und \u0027appointment\u0027\n5. GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat in der Anfrage keine expliziten relativen Verweise, aber der Name \u0027Maria\u0027 wird im Vokabular verwendet.\\n2. Attributeigenschaften:\\n   - \u0027maria\u0027: object (ID 1)\\n   - \u0027make\u0027: activity (ID 4)\\n   - \u0027appointment\u0027: object (ID 1)\\n3. Die Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 und \u0027make\u0027: \u0027make\u0027 wird von \u0027maria\u0027 ausgeführt → \u0027perform\u0027 (ID 8)\\n   - \u0027make\u0027 und \u0027appointment\u0027: \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet → \u0027target\u0027 (ID 9)\\n   - \u0027maria\u0027 und \u0027appointment\u0027: \u0027maria\u0027 ist der Ausführer von \u0027make\u0027, das auf \u0027appointment\u0027 angewendet wird → keine direkte Relation\\n4. Prüfung der Typkodierungen:\\n   - \u0027perform\u0027 (ID 8) ist vorhanden\\n   - \u0027target\u0027 (ID 9) ist vorhanden\\n   - Keine direkte Relation zwischen \u0027maria\u0027 und \u0027appointment\u0027\\n5. GraphCode wurde erstellt.\"\n}"
+}

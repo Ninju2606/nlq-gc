@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "sea",
+    "daughter"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      10
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Meine Tochter“, „fahren“, „Boot“, „See“. \n         2. Es gibt keine relativen Verweise. \n         3. Die englischen Stichwörter sind „daughter“, „drive“, „boat“, „sea“. \n         4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „boat“, „sea“, „daughter“. \n         5. „Maria“, „boat“ und „sea“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. \n         6. „Maria“ führt die Aktivität „drive“ aus. „drive“ bezieht sich auf „boat“. „boat“ befindet sich auf „sea“. „Maria“ hat eine Tochter, die „daughter“ ist. \n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"sea\", \"daughter\"],\n  \"matrix\": [\n    [1, 7, 0, 10],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Meine Tochter“, „fahren“, „Boot“, „See“. \\n         2. Es gibt keine relativen Verweise. \\n         3. Die englischen Stichwörter sind „daughter“, „drive“, „boat“, „sea“. \\n         4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „boat“, „sea“, „daughter“. \\n         5. „Maria“, „boat“ und „sea“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. \\n         6. „Maria“ führt die Aktivität „drive“ aus. „drive“ bezieht sich auf „boat“. „boat“ befindet sich auf „sea“. „Maria“ hat eine Tochter, die „daughter“ ist. \\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.\"\n}"
+}

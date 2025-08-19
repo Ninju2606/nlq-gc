@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "sea"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027sea\u0027. Auf der Einheitsdiagonalen sind die Typkodierungen für die Begriffe festgelegt (Typ 1: object). Es gibt keine weiteren Beziehungen zwischen den Begriffen, da keine relationalen Ausdrücke wie \u0027fährt\u0027, \u0027auf\u0027, oder \u0027mit\u0027 im Vokabular kodiert werden können.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"sea\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027sea\u0027. Auf der Einheitsdiagonalen sind die Typkodierungen für die Begriffe festgelegt (Typ 1: object). Es gibt keine weiteren Beziehungen zwischen den Begriffen, da keine relationalen Ausdrücke wie \u0027fährt\u0027, \u0027auf\u0027, oder \u0027mit\u0027 im Vokabular kodiert werden können.\"\n}"
+}

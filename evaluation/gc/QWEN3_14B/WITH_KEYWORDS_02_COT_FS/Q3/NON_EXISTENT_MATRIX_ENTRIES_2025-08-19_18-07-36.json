@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. Das Wort „mein“ impliziert, dass das Objekt dem Nutzer gehöre, weshalb die Identifikation des Nutzers (Maria) in das Vokabular aufgenommen wurde. \n2. „maria“ ist ein Objekt der Anfrage, „swim“ ist eine Aktivität, „own“ ist ein Kontext, und „pool“ ist ein Objekt. \n3. Maria führt die Aktivität „swim“ aus. Die Aktivität „swim“ wird im Kontext von „own“ durchgeführt, und der Kontext „own“ bezieht sich auf das Objekt „pool“. \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. Das Wort „mein“ impliziert, dass das Objekt dem Nutzer gehöre, weshalb die Identifikation des Nutzers (Maria) in das Vokabular aufgenommen wurde. \\n2. „maria“ ist ein Objekt der Anfrage, „swim“ ist eine Aktivität, „own“ ist ein Kontext, und „pool“ ist ein Objekt. \\n3. Maria führt die Aktivität „swim“ aus. Die Aktivität „swim“ wird im Kontext von „own“ durchgeführt, und der Kontext „own“ bezieht sich auf das Objekt „pool“. \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.\"\n}"
+}

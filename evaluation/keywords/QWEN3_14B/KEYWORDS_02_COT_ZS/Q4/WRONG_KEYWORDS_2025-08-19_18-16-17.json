@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords identified from the user\u0027s query: \u0027schwimme\u0027 (swim), \u0027meinem\u0027 (my), \u0027Pool\u0027 (pool). \u0027Maria\u0027 is the user\u0027s identity and is included as per the rules.\nStep 2: Relative references such as \u0027meinem\u0027 are resolved and noted for later relations.\nStep 3: The identified keywords are translated to English: \u0027swim\u0027 (from \u0027schwimme\u0027), \u0027pool\u0027 (from \u0027Pool\u0027), and \u0027Maria\u0027 (already in English).\nStep 4: The user\u0027s identification \u0027meinem\u0027 is replaced with \u0027Maria\u0027 as it refers to the user.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Step 1: Potential keywords identified from the user\u0027s query: \u0027schwimme\u0027 (swim), \u0027meinem\u0027 (my), \u0027Pool\u0027 (pool). \u0027Maria\u0027 is the user\u0027s identity and is included as per the rules.\\nStep 2: Relative references such as \u0027meinem\u0027 are resolved and noted for later relations.\\nStep 3: The identified keywords are translated to English: \u0027swim\u0027 (from \u0027schwimme\u0027), \u0027pool\u0027 (from \u0027Pool\u0027), and \u0027Maria\u0027 (already in English).\\nStep 4: The user\u0027s identification \u0027meinem\u0027 is replaced with \u0027Maria\u0027 as it refers to the user.\"\n}"
+}

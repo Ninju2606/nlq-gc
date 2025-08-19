@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "sea",
+    "daughter"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      10
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Tochter“, „fahren“, „Boot“, „See“. \n2. Es gibt keinen relativen Verweis. \n3. Die englischen Stichwörter sind „daughter“, „drive“, „boat“, „sea“. \n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „drive“, „boat“, „sea“. \n5. „Maria“, „daughter“, „boat“ und „sea“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. \n6. „Maria“ fährt das „drive“ (fahren). „drive“ bezieht sich auf „boat“. „boat“ befindet sich im „sea“. „Maria“ ist Mutter von „daughter“. \n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"sea\", \"daughter\"],\n  \"matrix\": [\n    [1, 7, 0, 10],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Tochter“, „fahren“, „Boot“, „See“. \\n2. Es gibt keinen relativen Verweis. \\n3. Die englischen Stichwörter sind „daughter“, „drive“, „boat“, „sea“. \\n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „drive“, „boat“, „sea“. \\n5. „Maria“, „daughter“, „boat“ und „sea“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. \\n6. „Maria“ fährt das „drive“ (fahren). „drive“ bezieht sich auf „boat“. „boat“ befindet sich im „sea“. „Maria“ ist Mutter von „daughter“. \\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.\"\n}"
+}

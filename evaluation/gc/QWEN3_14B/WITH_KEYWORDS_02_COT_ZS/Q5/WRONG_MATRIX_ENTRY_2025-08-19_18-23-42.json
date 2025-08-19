@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027maria\u0027 wird als Identifikation des Nutzers verwendet, da sie in der Anfrage präsent ist und in das Vokabular aufgenommen wurde.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: object (id\u003d1), da es sich um das Subjekt handelt, das handelt oder betroffen ist.\n- \u0027wear\u0027: activity (id\u003d4), da es sich um eine Aktivität oder Handlung handelt.\n- \u0027hat\u0027: object (id\u003d2), da es ein Konzept oder ein Objekt darstellt, das in der Szene vorkommt (wenn auch mehr kontextuell).\n- \u0027yellow\u0027: attribute (id\u003d2), da es sich um eine Farbe handelt, also eine Eigenschaft.\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 trägt etwas (\u0027wear\u0027), also besteht die Relation \u0027maria\u0027 -\u003e \u0027wear\u0027 (activity).\n- \u0027wear\u0027 ist in Verbindung mit \u0027hat\u0027, also besteht die Relation \u0027wear\u0027 -\u003e \u0027hat\u0027 (object).\n- \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027, also besteht die Relation \u0027hat\u0027 -\u003e \u0027yellow\u0027 (attribute).\n\n4. Prüfung der Typkodierungen für die Relationen:\n- \u0027maria\u0027 -\u003e \u0027wear\u0027 (activity): Typkodierung mit id\u003d4 vorhanden.\n- \u0027wear\u0027 -\u003e \u0027hat\u0027 (object): Typkodierung mit id\u003d2 vorhanden.\n- \u0027hat\u0027 -\u003e \u0027yellow\u0027 (attribute): Typkodierung mit id\u003d2 vorhanden.\n\nAlle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027maria\u0027 wird als Identifikation des Nutzers verwendet, da sie in der Anfrage präsent ist und in das Vokabular aufgenommen wurde.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: object (id\u003d1), da es sich um das Subjekt handelt, das handelt oder betroffen ist.\\n- \u0027wear\u0027: activity (id\u003d4), da es sich um eine Aktivität oder Handlung handelt.\\n- \u0027hat\u0027: object (id\u003d2), da es ein Konzept oder ein Objekt darstellt, das in der Szene vorkommt (wenn auch mehr kontextuell).\\n- \u0027yellow\u0027: attribute (id\u003d2), da es sich um eine Farbe handelt, also eine Eigenschaft.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 trägt etwas (\u0027wear\u0027), also besteht die Relation \u0027maria\u0027 -\u003e \u0027wear\u0027 (activity).\\n- \u0027wear\u0027 ist in Verbindung mit \u0027hat\u0027, also besteht die Relation \u0027wear\u0027 -\u003e \u0027hat\u0027 (object).\\n- \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027, also besteht die Relation \u0027hat\u0027 -\u003e \u0027yellow\u0027 (attribute).\\n\\n4. Prüfung der Typkodierungen für die Relationen:\\n- \u0027maria\u0027 -\u003e \u0027wear\u0027 (activity): Typkodierung mit id\u003d4 vorhanden.\\n- \u0027wear\u0027 -\u003e \u0027hat\u0027 (object): Typkodierung mit id\u003d2 vorhanden.\\n- \u0027hat\u0027 -\u003e \u0027yellow\u0027 (attribute): Typkodierung mit id\u003d2 vorhanden.\\n\\nAlle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode besteht aus drei Begriffen: \u0027houses\u0027, \u0027paint\u0027 und \u0027questions\u0027. Jeder Begriff ist ein Objekt (Typ 1). Es gibt keine direkten Beziehungen zwischen den Begriffen, da keine Relationen im Satz definiert sind. Der Nutzername \u0027Maria\u0027 wurde ignoriert, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 im Satz vorkamen.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode besteht aus drei Begriffen: \u0027houses\u0027, \u0027paint\u0027 und \u0027questions\u0027. Jeder Begriff ist ein Objekt (Typ 1). Es gibt keine direkten Beziehungen zwischen den Begriffen, da keine Relationen im Satz definiert sind. Der Nutzername \u0027Maria\u0027 wurde ignoriert, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 im Satz vorkamen.\"\n}"
+}

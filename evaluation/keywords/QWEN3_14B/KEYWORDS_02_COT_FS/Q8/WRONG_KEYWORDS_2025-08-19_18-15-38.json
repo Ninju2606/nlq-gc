@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "see"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"fahren\", \"Boot\", \"See\".\n2. Es gibt einen relativen Verweis: \"Meine Tochter\". Die neuen Stichwörter sind \"Maria\", \"person\", \"boat\", \"see\". Dabei ist \"person\" die Tochter von \"Maria\".\n3. Die englischen Stichwörter sind \"Maria\", \"person\", \"boat\", \"see\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"person\", \"boat\", \"see\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"see\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n2. Es gibt einen relativen Verweis: \\\"Meine Tochter\\\". Die neuen Stichwörter sind \\\"Maria\\\", \\\"person\\\", \\\"boat\\\", \\\"see\\\". Dabei ist \\\"person\\\" die Tochter von \\\"Maria\\\".\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"person\\\", \\\"boat\\\", \\\"see\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"person\\\", \\\"boat\\\", \\\"see\\\".\"\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user request specifies that Tim is running. The dictionary includes the identified user \u0027Tim\u0027 and the action \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The user request specifies that Tim is running. The dictionary includes the identified user \u0027Tim\u0027 and the action \u0027run\u0027.\"\n}"
+}

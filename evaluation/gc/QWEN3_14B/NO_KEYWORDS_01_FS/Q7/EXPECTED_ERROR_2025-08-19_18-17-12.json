@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene im Metaverse, in der Maria Häuser malt, um Fragen zu stellen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 6, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 9, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene im Metaverse, in der Maria Häuser malt, um Fragen zu stellen.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Aussage „Meine Tochter und ich“ zeigt eine relative Identifikation. Der Nutzer identifiziert sich mit dem Namen „Maria“, während „Tochter“ auf das Stichwort „person“ in Verbindung gebracht wird. Es gibt keine weiteren relativen Verweise.\n2. „maria“ ist ein Objekt (Person) der Anfrage. „person“ ist eine Kategorisierung von „maria“ und steht für „Tochter“. „drive“ ist eine Aktivität, „boat“ und „lake“ sind Objekte.\n3. „maria“ und „person“ sind mit der Relation „attached“ verbunden. „maria“ führt die Aktivität „drive“ aus. Die Aktivität „drive“ bezieht sich auf das Objekt „boat“. Das Objekt „boat“ befindet sich in „lake“ (Beziehung „in“).\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Verbindung (attached) ist 4. Die ID für in (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [10, 1, 8, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Aussage „Meine Tochter und ich“ zeigt eine relative Identifikation. Der Nutzer identifiziert sich mit dem Namen „Maria“, während „Tochter“ auf das Stichwort „person“ in Verbindung gebracht wird. Es gibt keine weiteren relativen Verweise.\\n2. „maria“ ist ein Objekt (Person) der Anfrage. „person“ ist eine Kategorisierung von „maria“ und steht für „Tochter“. „drive“ ist eine Aktivität, „boat“ und „lake“ sind Objekte.\\n3. „maria“ und „person“ sind mit der Relation „attached“ verbunden. „maria“ führt die Aktivität „drive“ aus. Die Aktivität „drive“ bezieht sich auf das Objekt „boat“. Das Objekt „boat“ befindet sich in „lake“ (Beziehung „in“).\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Verbindung (attached) ist 4. Die ID für in (in) ist 6.\"\n}"
+}

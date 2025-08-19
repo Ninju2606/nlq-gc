@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "wear",
+    "yellow",
+    "hat",
+    "maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords from the query: \u0027Situationen\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027. Translated to English: \u0027situations\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027.\nStep 2: Relative references: \u0027ich\u0027 (self-reference) identified and replaced with \u0027Maria\u0027.\nStep 3: Translation of keywords to English: \u0027situations\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027.\nStep 4: Replaced \u0027ich\u0027 with \u0027Maria\u0027 in the keywords.\nFinal vocabulary: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"wear\", \"yellow\", \"hat\", \"maria\"],\n  \"description\": \"Step 1: Potential keywords from the query: \u0027Situationen\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027. Translated to English: \u0027situations\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\nStep 2: Relative references: \u0027ich\u0027 (self-reference) identified and replaced with \u0027Maria\u0027.\\nStep 3: Translation of keywords to English: \u0027situations\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\nStep 4: Replaced \u0027ich\u0027 with \u0027Maria\u0027 in the keywords.\\nFinal vocabulary: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.\"\n}"
+}

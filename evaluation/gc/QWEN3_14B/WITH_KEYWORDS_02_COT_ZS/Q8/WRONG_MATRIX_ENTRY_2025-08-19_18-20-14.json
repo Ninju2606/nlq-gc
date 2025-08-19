@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Der Nutzer (Maria) hat sich in der Anfrage selbst identifiziert, sodass sie in das Vokabular aufgenommen wird. Es gibt keine weiteren expliziten Identifikationen. \u0027Meine Tochter\u0027 wird als \u0027person\u0027 abstrahiert, da \u0027maria\u0027 für den Nutzer steht. \u0027Boot fahren\u0027 wird als Aktivität (\u0027drive\u0027) mit dem Objekt \u0027boat\u0027 verbunden. \u0027Auf einem See\u0027 wird als Ort (\u0027lake\u0027) interpretiert.\n\n2. Attributeigenschaften:\n- \u0027maria\u0027: Identifikation des Nutzers (Typ 1, object).\n- \u0027person\u0027: Bezeichnet eine Person (Typ 2, context).\n- \u0027drive\u0027: Aktivität (Typ 4, activity).\n- \u0027boat\u0027: Objekt (Typ 1, object).\n- \u0027lake\u0027: Ort (Typ 2, context).\n\n3. Relationen:\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 2, context).\n- \u0027drive\u0027 wird von \u0027maria\u0027 ausgeführt (Typ 8, perform).\n- \u0027drive\u0027 ist mit \u0027boat\u0027 verbunden (Typ 9, target).\n- \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (Typ 6, under).\n\n4. Typkodierungseinträge:\n- \u0027maria\u0027 und \u0027person\u0027: Typ 2 (context) ist vorhanden (ID\u003d2).\n- \u0027maria\u0027 und \u0027drive\u0027: Typ 8 (perform) ist vorhanden (ID\u003d8).\n- \u0027drive\u0027 und \u0027boat\u0027: Typ 9 (target) ist vorhanden (ID\u003d9).\n- \u0027boat\u0027 und \u0027lake\u0027: Typ 6 (under) ist vorhanden (ID\u003d6).\n\nAlle Relationen sind in den Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 9, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) hat sich in der Anfrage selbst identifiziert, sodass sie in das Vokabular aufgenommen wird. Es gibt keine weiteren expliziten Identifikationen. \u0027Meine Tochter\u0027 wird als \u0027person\u0027 abstrahiert, da \u0027maria\u0027 für den Nutzer steht. \u0027Boot fahren\u0027 wird als Aktivität (\u0027drive\u0027) mit dem Objekt \u0027boat\u0027 verbunden. \u0027Auf einem See\u0027 wird als Ort (\u0027lake\u0027) interpretiert.\\n\\n2. Attributeigenschaften:\\n- \u0027maria\u0027: Identifikation des Nutzers (Typ 1, object).\\n- \u0027person\u0027: Bezeichnet eine Person (Typ 2, context).\\n- \u0027drive\u0027: Aktivität (Typ 4, activity).\\n- \u0027boat\u0027: Objekt (Typ 1, object).\\n- \u0027lake\u0027: Ort (Typ 2, context).\\n\\n3. Relationen:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 2, context).\\n- \u0027drive\u0027 wird von \u0027maria\u0027 ausgeführt (Typ 8, perform).\\n- \u0027drive\u0027 ist mit \u0027boat\u0027 verbunden (Typ 9, target).\\n- \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (Typ 6, under).\\n\\n4. Typkodierungseinträge:\\n- \u0027maria\u0027 und \u0027person\u0027: Typ 2 (context) ist vorhanden (ID\u003d2).\\n- \u0027maria\u0027 und \u0027drive\u0027: Typ 8 (perform) ist vorhanden (ID\u003d8).\\n- \u0027drive\u0027 und \u0027boat\u0027: Typ 9 (target) ist vorhanden (ID\u003d9).\\n- \u0027boat\u0027 und \u0027lake\u0027: Typ 6 (under) ist vorhanden (ID\u003d6).\\n\\nAlle Relationen sind in den Typkodierungen vorhanden.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Tim wird im Vokabular als \u0027tim\u0027 dargestellt, da der Nutzer die Identifikation \u0027Maria\u0027 angegeben hat, aber der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten. Der Begriff \u0027run\u0027 beschreibt die Aktivität, die Tim durchführt. Es gibt keine weiteren identifizierenden oder relativen Verweise.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027tim\u0027: Objekt (id: 1)\n- \u0027run\u0027: Aktivität (id: 4)\n\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 (rennen) ausführt. \n\n4. Es gibt eine passende Typkodierung für die Relation \u0027tim\u0027 -\u003e \u0027run\u0027: \u0027perform\u0027 (id: 8). Keine weiteren Relationen sind erforderlich, da nur eine direkte Beziehung besteht.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Tim wird im Vokabular als \u0027tim\u0027 dargestellt, da der Nutzer die Identifikation \u0027Maria\u0027 angegeben hat, aber der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten. Der Begriff \u0027run\u0027 beschreibt die Aktivität, die Tim durchführt. Es gibt keine weiteren identifizierenden oder relativen Verweise.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027tim\u0027: Objekt (id: 1)\\n- \u0027run\u0027: Aktivität (id: 4)\\n\\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 (rennen) ausführt. \\n\\n4. Es gibt eine passende Typkodierung für die Relation \u0027tim\u0027 -\u003e \u0027run\u0027: \u0027perform\u0027 (id: 8). Keine weiteren Relationen sind erforderlich, da nur eine direkte Beziehung besteht.\"\n}"
+}

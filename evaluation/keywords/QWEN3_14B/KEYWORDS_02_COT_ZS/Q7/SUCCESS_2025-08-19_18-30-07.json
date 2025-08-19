@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Häuser\u0027 (houses), \u0027Fragen\u0027 (questions), and \u0027malen\u0027 (paint) were identified from the user\u0027s query. Relative references were not present in the query. The user\u0027s identifier \u0027Maria\u0027 does not refer to any object, attribute, or activity in the query and was therefore not included in the vocabulary. The terms were translated into English as required. The query does not contain any personal references like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 that would require the user\u0027s identifier to be used in the vocabulary.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"The keywords \u0027Häuser\u0027 (houses), \u0027Fragen\u0027 (questions), and \u0027malen\u0027 (paint) were identified from the user\u0027s query. Relative references were not present in the query. The user\u0027s identifier \u0027Maria\u0027 does not refer to any object, attribute, or activity in the query and was therefore not included in the vocabulary. The terms were translated into English as required. The query does not contain any personal references like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 that would require the user\u0027s identifier to be used in the vocabulary.\"\n}"
+}

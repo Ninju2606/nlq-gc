@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Relative Verweise: Es gibt keine relativen Verweise in der Anfrage.\n3. Übersetzung ins Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\n4. Ersetzung der Identifikation des Nutzers: Es gibt keine Nutzeridentifikation in den Stichwörtern.\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität, \u0027questions\u0027 ist ein Objekt.\n6. Relationen: \u0027paint\u0027 wird auf \u0027houses\u0027 und \u0027questions\u0027 angewendet, es gibt jedoch keinen direkten Bezug zwischen \u0027houses\u0027 und \u0027questions\u0027.\n7. Typkodierung: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4) existieren.\n8. GraphCode zusammengefasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Relative Verweise: Es gibt keine relativen Verweise in der Anfrage.\\n3. Übersetzung ins Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\\n4. Ersetzung der Identifikation des Nutzers: Es gibt keine Nutzeridentifikation in den Stichwörtern.\\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität, \u0027questions\u0027 ist ein Objekt.\\n6. Relationen: \u0027paint\u0027 wird auf \u0027houses\u0027 und \u0027questions\u0027 angewendet, es gibt jedoch keinen direkten Bezug zwischen \u0027houses\u0027 und \u0027questions\u0027.\\n7. Typkodierung: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4) existieren.\\n8. GraphCode zusammengefasst.\"\n}"
+}

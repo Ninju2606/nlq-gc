@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage enthält keine expliziten relativen Verweise oder Identifikationen, außer dem Nutzernamen \u0027Maria\u0027, der in das Vokabular aufgenommen wurde.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers, d.h. eine Person.\n- \u0027make\u0027: Ein Verb, das eine Aktivität beschreibt.\n- \u0027appointment\u0027: Ein Nomen, das ein Objekt bezeichnet.\n\n3. Die Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 und \u0027make\u0027: Maria führt eine Aktivität (make) durch.\n- \u0027make\u0027 und \u0027appointment\u0027: Das Verb \u0027make\u0027 wird im Kontext \u0027appointment\u0027 verwendet, also \u0027make an appointment\u0027 ist eine Aktivität.\n- \u0027maria\u0027 und \u0027appointment\u0027: Maria ist das Subjekt der Aktivität \u0027make an appointment\u0027, also hat Maria ein Ziel (appointment).\n\n4. Typkodierung für die Relationen:\n- \u0027maria\u0027 (Person) und \u0027make\u0027 (Aktivität): Typ 8 (perform) – Maria führt die Aktivität aus.\n- \u0027make\u0027 (Aktivität) und \u0027appointment\u0027 (Objekt): Typ 9 (target) – Appointment ist das Ziel der Aktivität.\n- \u0027maria\u0027 (Person) und \u0027appointment\u0027 (Objekt): Typ 2 (context) – Maria ist im Kontext des Appointments.\n\nAlle Typkodierungen sind vorhanden: Typ 8 (perform), Typ 9 (target), Typ 2 (context).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Die Anfrage enthält keine expliziten relativen Verweise oder Identifikationen, außer dem Nutzernamen \u0027Maria\u0027, der in das Vokabular aufgenommen wurde.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers, d.h. eine Person.\\n- \u0027make\u0027: Ein Verb, das eine Aktivität beschreibt.\\n- \u0027appointment\u0027: Ein Nomen, das ein Objekt bezeichnet.\\n\\n3. Die Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 und \u0027make\u0027: Maria führt eine Aktivität (make) durch.\\n- \u0027make\u0027 und \u0027appointment\u0027: Das Verb \u0027make\u0027 wird im Kontext \u0027appointment\u0027 verwendet, also \u0027make an appointment\u0027 ist eine Aktivität.\\n- \u0027maria\u0027 und \u0027appointment\u0027: Maria ist das Subjekt der Aktivität \u0027make an appointment\u0027, also hat Maria ein Ziel (appointment).\\n\\n4. Typkodierung für die Relationen:\\n- \u0027maria\u0027 (Person) und \u0027make\u0027 (Aktivität): Typ 8 (perform) – Maria führt die Aktivität aus.\\n- \u0027make\u0027 (Aktivität) und \u0027appointment\u0027 (Objekt): Typ 9 (target) – Appointment ist das Ziel der Aktivität.\\n- \u0027maria\u0027 (Person) und \u0027appointment\u0027 (Objekt): Typ 2 (context) – Maria ist im Kontext des Appointments.\\n\\nAlle Typkodierungen sind vorhanden: Typ 8 (perform), Typ 9 (target), Typ 2 (context).\"\n}"
+}

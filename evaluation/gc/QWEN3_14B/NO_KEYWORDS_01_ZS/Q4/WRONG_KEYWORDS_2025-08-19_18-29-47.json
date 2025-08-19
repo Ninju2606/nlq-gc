@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist das Subjekt, \u0027swim\u0027 ist die Aktivität, und \u0027pool\u0027 ist das Objekt. Die Beziehung zwischen Maria und Schwimmen wird mit \u0027perform\u0027 (Typ 8) kodiert, und zwischen Schwimmen und Pool mit \u0027target\u0027 (Typ 9), der jedoch nicht in der Liste der Typkodierungen enthalten ist. Der Wert 0 ist verwendet, da \u0027target\u0027 nicht in der Typkodierung enthalten ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist das Subjekt, \u0027swim\u0027 ist die Aktivität, und \u0027pool\u0027 ist das Objekt. Die Beziehung zwischen Maria und Schwimmen wird mit \u0027perform\u0027 (Typ 8) kodiert, und zwischen Schwimmen und Pool mit \u0027target\u0027 (Typ 9), der jedoch nicht in der Liste der Typkodierungen enthalten ist. Der Wert 0 ist verwendet, da \u0027target\u0027 nicht in der Typkodierung enthalten ist.\"\n}"
+}

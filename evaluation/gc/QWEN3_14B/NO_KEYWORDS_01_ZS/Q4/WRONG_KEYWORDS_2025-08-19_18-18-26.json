@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the scene where Maria is swimming in a pool. \u0027Maria\u0027 is identified as the subject (type 1 - object), \u0027swim\u0027 is the activity (type 4 - activity), and \u0027pool\u0027 is the object (type 1 - object). The relation between \u0027Maria\u0027 and \u0027swim\u0027 is defined by the \u0027perform\u0027 relation (type 8 - perform). The other diagonal entries are filled with identity mappings (type 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents the scene where Maria is swimming in a pool. \u0027Maria\u0027 is identified as the subject (type 1 - object), \u0027swim\u0027 is the activity (type 4 - activity), and \u0027pool\u0027 is the object (type 1 - object). The relation between \u0027Maria\u0027 and \u0027swim\u0027 is defined by the \u0027perform\u0027 relation (type 8 - perform). The other diagonal entries are filled with identity mappings (type 1).\"\n}"
+}

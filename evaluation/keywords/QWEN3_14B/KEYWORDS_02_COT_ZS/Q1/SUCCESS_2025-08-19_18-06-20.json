@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter erkannt: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. Nach Umwandlung in englische Stammformen und Ersetzung von \u0027ich\u0027 durch die Identifikation \u0027Maria\u0027 ergibt sich das Vokabular: [\u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027].",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Stichwörter erkannt: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. Nach Umwandlung in englische Stammformen und Ersetzung von \u0027ich\u0027 durch die Identifikation \u0027Maria\u0027 ergibt sich das Vokabular: [\u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027].\"\n}"
+}

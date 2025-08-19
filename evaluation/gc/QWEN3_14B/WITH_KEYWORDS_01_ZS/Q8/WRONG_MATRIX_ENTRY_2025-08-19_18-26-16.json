@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "Der GraphCode wurde aus der Anfrage generiert, wobei die Beziehungen zwischen \u0027maria\u0027 (Person), \u0027drive\u0027 (Aktivität), \u0027boat\u0027 (Objekt) und \u0027lake\u0027 (Ort) dargestellt werden. Die Einträge der Bewertungsmatrix folgen den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Anfrage generiert, wobei die Beziehungen zwischen \u0027maria\u0027 (Person), \u0027drive\u0027 (Aktivität), \u0027boat\u0027 (Objekt) und \u0027lake\u0027 (Ort) dargestellt werden. Die Einträge der Bewertungsmatrix folgen den vorgegebenen Typkodierungen.\"\n}"
+}

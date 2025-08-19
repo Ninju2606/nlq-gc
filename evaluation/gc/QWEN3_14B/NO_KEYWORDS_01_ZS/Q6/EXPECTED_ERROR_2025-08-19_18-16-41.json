@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. \u0027Maria\u0027 wird als Objekt (Typ 1) identifiziert, \u0027make\u0027 und \u0027appointment\u0027 als Kontext (Typ 2). Es gibt keine direkten Beziehungen zwischen den Begriffen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. \u0027Maria\u0027 wird als Objekt (Typ 1) identifiziert, \u0027make\u0027 und \u0027appointment\u0027 als Kontext (Typ 2). Es gibt keine direkten Beziehungen zwischen den Begriffen.\"\n}"
+}

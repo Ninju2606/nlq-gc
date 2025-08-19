@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer verwendete das Wort \u0027meinem\u0027 in der Anfrage, was auf die Identifikation \u0027maria\u0027 hinweist. \u0027meinem\u0027 steht für eine Besitzrelation, die im Vokabular als \u0027own\u0027 abgebildet wird. Somit wird \u0027maria\u0027 als Identifikation in den GraphCode integriert.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: ist eine Identifikation des Nutzers und trägt das Attribut \u0027object\u0027 (Typkodierung 1).\n- \u0027swim\u0027: ist eine Aktivität und trägt das Attribut \u0027activity\u0027 (Typkodierung 4).\n- \u0027own\u0027: ist eine Besitzrelation und trägt das Attribut \u0027attached\u0027 (Typkodierung 5).\n- \u0027pool\u0027: ist ein Objekt und trägt das Attribut \u0027object\u0027 (Typkodierung 1).\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 hat \u0027own\u0027 zu \u0027pool\u0027 (Besitzrelation).\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 in \u0027pool\u0027 aus (Tätigkeitsbeziehung).\n- \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (Ortsbeziehung). Diese Relation könnte mit \u0027under\u0027 (Typkodierung 6) verbunden werden, falls sie relevant ist, ist sie jedoch nicht explizit formuliert.\n\n4. Typkodierung für Relationen:\n- \u0027own\u0027 (Besitzrelation) → Typkodierung 5.\n- \u0027swim\u0027 (Aktivität) → Typkodierung 4.\n- \u0027pool\u0027 (Objekt) → Typkodierung 1.\n- \u0027maria\u0027 (Identifikation) → Typkodierung 1.\n- Der Bezug von \u0027maria\u0027 zu \u0027pool\u0027 durch \u0027own\u0027 ist vorhanden (Typkodierung 5).\n- Der Bezug von \u0027maria\u0027 zu \u0027swim\u0027 (Tätigkeit) könnte mit \u0027perform\u0027 (Typkodierung 8) abgebildet werden, da dies eine Aktivitätsausführung bezeichnet.\n- Keine Relation von \u0027swim\u0027 zu \u0027pool\u0027 wurde klar definiert, sodass hier ein Bezug fehlt oder \u0027under\u0027 (Typkodierung 6) als Annäherung möglich wäre.\n\n5. GraphCode wurde gemäß den definierten Regeln erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer verwendete das Wort \u0027meinem\u0027 in der Anfrage, was auf die Identifikation \u0027maria\u0027 hinweist. \u0027meinem\u0027 steht für eine Besitzrelation, die im Vokabular als \u0027own\u0027 abgebildet wird. Somit wird \u0027maria\u0027 als Identifikation in den GraphCode integriert.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: ist eine Identifikation des Nutzers und trägt das Attribut \u0027object\u0027 (Typkodierung 1).\\n- \u0027swim\u0027: ist eine Aktivität und trägt das Attribut \u0027activity\u0027 (Typkodierung 4).\\n- \u0027own\u0027: ist eine Besitzrelation und trägt das Attribut \u0027attached\u0027 (Typkodierung 5).\\n- \u0027pool\u0027: ist ein Objekt und trägt das Attribut \u0027object\u0027 (Typkodierung 1).\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 hat \u0027own\u0027 zu \u0027pool\u0027 (Besitzrelation).\\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 in \u0027pool\u0027 aus (Tätigkeitsbeziehung).\\n- \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (Ortsbeziehung). Diese Relation könnte mit \u0027under\u0027 (Typkodierung 6) verbunden werden, falls sie relevant ist, ist sie jedoch nicht explizit formuliert.\\n\\n4. Typkodierung für Relationen:\\n- \u0027own\u0027 (Besitzrelation) → Typkodierung 5.\\n- \u0027swim\u0027 (Aktivität) → Typkodierung 4.\\n- \u0027pool\u0027 (Objekt) → Typkodierung 1.\\n- \u0027maria\u0027 (Identifikation) → Typkodierung 1.\\n- Der Bezug von \u0027maria\u0027 zu \u0027pool\u0027 durch \u0027own\u0027 ist vorhanden (Typkodierung 5).\\n- Der Bezug von \u0027maria\u0027 zu \u0027swim\u0027 (Tätigkeit) könnte mit \u0027perform\u0027 (Typkodierung 8) abgebildet werden, da dies eine Aktivitätsausführung bezeichnet.\\n- Keine Relation von \u0027swim\u0027 zu \u0027pool\u0027 wurde klar definiert, sodass hier ein Bezug fehlt oder \u0027under\u0027 (Typkodierung 6) als Annäherung möglich wäre.\\n\\n5. GraphCode wurde gemäß den definierten Regeln erstellt.\"\n}"
+}

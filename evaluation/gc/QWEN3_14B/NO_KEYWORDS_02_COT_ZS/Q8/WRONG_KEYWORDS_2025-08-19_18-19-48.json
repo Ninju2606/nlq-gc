@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boot",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027. Nach Verarbeitung werden \u0027Maria\u0027, \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027 als relevante Stichwörter identifiziert.\n\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, \u0027ich\u0027 ist ebenfalls ein Verweis auf \u0027Maria\u0027.\n\n3. Übersetzung ins Englische: \u0027Tochter\u0027 -\u003e \u0027daughter\u0027, \u0027Boot\u0027 -\u003e \u0027boot\u0027, \u0027See\u0027 -\u003e \u0027lake\u0027.\n\n4. Ersatz der Nutzeridentifikation: \u0027meine Tochter\u0027 und \u0027ich\u0027 wurden durch \u0027Maria\u0027 und \u0027daughter\u0027 ersetzt.\n\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Beziehungstyp (Typ 2), \u0027boot\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1).\n\n6. Beziehungen: \u0027Maria\u0027 und \u0027daughter\u0027 sind in einer Eltern-Kind-Beziehung (Rel. 10), \u0027Maria\u0027 und \u0027boot\u0027 sind in einer Aktivitätsbeziehung (Rel. 8), \u0027boot\u0027 und \u0027lake\u0027 sind in einer Ortsbeziehung (Rel. 6).\n\n7. Prüfung der Typkodierungen: Rel. 10 (\u0027daughter\u0027) und Rel. 8 (\u0027perform\u0027) sowie Rel. 6 (\u0027under\u0027) sind in den bereitgestellten Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boot\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027. Nach Verarbeitung werden \u0027Maria\u0027, \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027 als relevante Stichwörter identifiziert.\\n\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, \u0027ich\u0027 ist ebenfalls ein Verweis auf \u0027Maria\u0027.\\n\\n3. Übersetzung ins Englische: \u0027Tochter\u0027 -\u003e \u0027daughter\u0027, \u0027Boot\u0027 -\u003e \u0027boot\u0027, \u0027See\u0027 -\u003e \u0027lake\u0027.\\n\\n4. Ersatz der Nutzeridentifikation: \u0027meine Tochter\u0027 und \u0027ich\u0027 wurden durch \u0027Maria\u0027 und \u0027daughter\u0027 ersetzt.\\n\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Beziehungstyp (Typ 2), \u0027boot\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1).\\n\\n6. Beziehungen: \u0027Maria\u0027 und \u0027daughter\u0027 sind in einer Eltern-Kind-Beziehung (Rel. 10), \u0027Maria\u0027 und \u0027boot\u0027 sind in einer Aktivitätsbeziehung (Rel. 8), \u0027boot\u0027 und \u0027lake\u0027 sind in einer Ortsbeziehung (Rel. 6).\\n\\n7. Prüfung der Typkodierungen: Rel. 10 (\u0027daughter\u0027) und Rel. 8 (\u0027perform\u0027) sowie Rel. 6 (\u0027under\u0027) sind in den bereitgestellten Typkodierungen vorhanden.\"\n}"
+}

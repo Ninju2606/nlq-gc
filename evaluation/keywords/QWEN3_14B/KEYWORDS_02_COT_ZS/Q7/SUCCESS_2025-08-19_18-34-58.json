@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potential keywords identified from the user\u0027s query: \u0027Häuser\u0027 (houses), \u0027um\u0027 (to surround, but contextually interpreted as \u0027to paint\u0027), and \u0027Fragen\u0027 (questions). The word \u0027um\u0027 was interpreted in context as part of the activity \u0027to paint\u0027. No personal identifiers like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 were present, so the user\u0027s identification (Maria) was not included in the vocabulary. The keywords were translated into English as required. Relative references were not present in the query.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"description\": \"Potential keywords identified from the user\u0027s query: \u0027Häuser\u0027 (houses), \u0027um\u0027 (to surround, but contextually interpreted as \u0027to paint\u0027), and \u0027Fragen\u0027 (questions). The word \u0027um\u0027 was interpreted in context as part of the activity \u0027to paint\u0027. No personal identifiers like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 were present, so the user\u0027s identification (Maria) was not included in the vocabulary. The keywords were translated into English as required. Relative references were not present in the query.\"\n}"
+}

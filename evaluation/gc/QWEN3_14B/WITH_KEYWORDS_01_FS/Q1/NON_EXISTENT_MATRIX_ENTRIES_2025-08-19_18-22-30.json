@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the scene where Maria is playing basketball. \u0027Maria\u0027 is identified as the subject, \u0027play\u0027 is the activity, and \u0027basketball\u0027 is the object. The matrix defines the relationships between these terms using the allowed type codes.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents the scene where Maria is playing basketball. \u0027Maria\u0027 is identified as the subject, \u0027play\u0027 is the activity, and \u0027basketball\u0027 is the object. The matrix defines the relationships between these terms using the allowed type codes.\"\n}"
+}

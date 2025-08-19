@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: Keine identifizierbaren relativen Verweise.\n3. Übersetzung in das Englische: \u0027I play basketball\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027Maria\u0027 statt \u0027ich\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, Typ 8). \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 (Relation \u0027target\u0027, Typ 9).\n7. Typkodierungen: Typ 8 (\u0027perform\u0027) und Typ 9 (\u0027target\u0027) sind vorhanden.\n8. GraphCode ist erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: Keine identifizierbaren relativen Verweise.\\n3. Übersetzung in das Englische: \u0027I play basketball\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027Maria\u0027 statt \u0027ich\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, Typ 8). \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 (Relation \u0027target\u0027, Typ 9).\\n7. Typkodierungen: Typ 8 (\u0027perform\u0027) und Typ 9 (\u0027target\u0027) sind vorhanden.\\n8. GraphCode ist erfolgreich generiert.\"\n}"
+}

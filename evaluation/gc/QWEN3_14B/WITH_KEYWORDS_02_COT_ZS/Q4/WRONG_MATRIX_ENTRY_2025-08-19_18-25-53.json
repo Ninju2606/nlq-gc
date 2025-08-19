@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer verwendet \u0027meinem\u0027 im Satz, was auf seine Identifikation \u0027maria\u0027 verweist. Die Wörter \u0027swim\u0027 und \u0027pool\u0027 beschreiben die Aktivität und das Objekt. Das Wort \u0027own\u0027 verweist auf das Besitzverhältnis des Nutzers.\n2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027own\u0027 ist ein Kontext (id\u003d2), \u0027pool\u0027 ist ein Objekt (id\u003d1).\n3. Die Relationen zwischen den Stichwörtern sind folgende: \u0027maria\u0027 besitzt \u0027pool\u0027 (own), \u0027maria\u0027 schwimmt (swim), \u0027pool\u0027 ist ein Objekt (pool).\n4. Es gibt Einträge für alle Relationen: \u0027own\u0027 (id\u003d2), \u0027swim\u0027 (id\u003d4), \u0027pool\u0027 (id\u003d1) sind vorhanden.\n5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer verwendet \u0027meinem\u0027 im Satz, was auf seine Identifikation \u0027maria\u0027 verweist. Die Wörter \u0027swim\u0027 und \u0027pool\u0027 beschreiben die Aktivität und das Objekt. Das Wort \u0027own\u0027 verweist auf das Besitzverhältnis des Nutzers.\\n2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027own\u0027 ist ein Kontext (id\u003d2), \u0027pool\u0027 ist ein Objekt (id\u003d1).\\n3. Die Relationen zwischen den Stichwörtern sind folgende: \u0027maria\u0027 besitzt \u0027pool\u0027 (own), \u0027maria\u0027 schwimmt (swim), \u0027pool\u0027 ist ein Objekt (pool).\\n4. Es gibt Einträge für alle Relationen: \u0027own\u0027 (id\u003d2), \u0027swim\u0027 (id\u003d4), \u0027pool\u0027 (id\u003d1) sind vorhanden.\\n5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

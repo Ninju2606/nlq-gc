@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027, die im Vokabular enthalten ist. \u0027Meine Tochter\u0027 wird als eine Person interpretiert, die nicht explizit in der Anfrage genannt wird, aber aus dem Kontext ableitbar ist. Sie wird daher nicht explizit im Vokabular aufgeführt, wird jedoch in der Relation \u0027daughter\u0027 (ID 10) implizit berücksichtigt.\n\n2. Attributeigenschaften der vorliegenden Stichwörter:\n- \u0027maria\u0027: Objekt, Identifikation des Nutzers (ID 1)\n- \u0027person\u0027: Objekt, allgemeine Identifikation (ID 1)\n- \u0027drive\u0027: Aktivität (ID 4)\n- \u0027boat\u0027: Objekt (ID 1)\n- \u0027lake\u0027: Objekt (ID 1)\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ: \u0027is a\u0027 oder \u0027identity\u0027, ID 1)\n- \u0027maria\u0027 \u0027drive\u0027 \u0027boat\u0027 (Typ: \u0027perform\u0027, ID 8)\n- \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Typ: \u0027located on\u0027, nicht direkt im Vokabular vorhanden)\n- \u0027maria\u0027 und \u0027boat\u0027 befinden sich auf dem \u0027lake\u0027 (implizit, oder eine \u0027context\u0027 Beziehung)\n\n4. Prüfung der Typkodierungen:\n- \u0027is a\u0027: ID 1 (z. B. \u0027maria\u0027 ist eine \u0027person\u0027)\n- \u0027perform\u0027: ID 8 (z. B. \u0027maria\u0027 fährt \u0027boat\u0027)\n- \u0027target\u0027: ID 9 (z. B. \u0027boat\u0027 ist das Ziel von \u0027drive\u0027)\n- \u0027object\u0027: ID 1 (für alle Objekte)\n- \u0027activity\u0027: ID 4 (z. B. \u0027drive\u0027)\n- \u0027location\u0027 (z. B. \u0027lake\u0027) ist nicht direkt im Typkodierungsset vorhanden. Wird also mit einem Fehlcode markiert, da die Beziehung \u0027located on\u0027 nicht direkt unterstützt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 9, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027, die im Vokabular enthalten ist. \u0027Meine Tochter\u0027 wird als eine Person interpretiert, die nicht explizit in der Anfrage genannt wird, aber aus dem Kontext ableitbar ist. Sie wird daher nicht explizit im Vokabular aufgeführt, wird jedoch in der Relation \u0027daughter\u0027 (ID 10) implizit berücksichtigt.\\n\\n2. Attributeigenschaften der vorliegenden Stichwörter:\\n- \u0027maria\u0027: Objekt, Identifikation des Nutzers (ID 1)\\n- \u0027person\u0027: Objekt, allgemeine Identifikation (ID 1)\\n- \u0027drive\u0027: Aktivität (ID 4)\\n- \u0027boat\u0027: Objekt (ID 1)\\n- \u0027lake\u0027: Objekt (ID 1)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ: \u0027is a\u0027 oder \u0027identity\u0027, ID 1)\\n- \u0027maria\u0027 \u0027drive\u0027 \u0027boat\u0027 (Typ: \u0027perform\u0027, ID 8)\\n- \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Typ: \u0027located on\u0027, nicht direkt im Vokabular vorhanden)\\n- \u0027maria\u0027 und \u0027boat\u0027 befinden sich auf dem \u0027lake\u0027 (implizit, oder eine \u0027context\u0027 Beziehung)\\n\\n4. Prüfung der Typkodierungen:\\n- \u0027is a\u0027: ID 1 (z. B. \u0027maria\u0027 ist eine \u0027person\u0027)\\n- \u0027perform\u0027: ID 8 (z. B. \u0027maria\u0027 fährt \u0027boat\u0027)\\n- \u0027target\u0027: ID 9 (z. B. \u0027boat\u0027 ist das Ziel von \u0027drive\u0027)\\n- \u0027object\u0027: ID 1 (für alle Objekte)\\n- \u0027activity\u0027: ID 4 (z. B. \u0027drive\u0027)\\n- \u0027location\u0027 (z. B. \u0027lake\u0027) ist nicht direkt im Typkodierungsset vorhanden. Wird also mit einem Fehlcode markiert, da die Beziehung \u0027located on\u0027 nicht direkt unterstützt wird.\"\n}"
+}

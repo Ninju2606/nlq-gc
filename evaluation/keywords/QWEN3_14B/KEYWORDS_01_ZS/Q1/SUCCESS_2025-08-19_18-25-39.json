@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query describes Maria playing basketball in the Metaverse.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"The query describes Maria playing basketball in the Metaverse.\"\n}"
+}

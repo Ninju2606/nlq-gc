@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren ein Boot auf einem See. Maria ist eine Person, die das Boot fährt. Das Boot ist auf dem See. Der Eintrag \u0027maria\u0027 ist im Vokabular enthalten, da sie als Nutzer identifiziert ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 9, 0, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren ein Boot auf einem See. Maria ist eine Person, die das Boot fährt. Das Boot ist auf dem See. Der Eintrag \u0027maria\u0027 ist im Vokabular enthalten, da sie als Nutzer identifiziert ist.\"\n}"
+}

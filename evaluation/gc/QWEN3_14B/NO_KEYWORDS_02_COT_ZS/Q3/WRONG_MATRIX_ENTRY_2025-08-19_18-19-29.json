@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027mir gehörend\u0027 wird zu \u0027own\u0027 und \u0027Maria\u0027 bleibt im Vokabular.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1).\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4).\n   - \u0027pool\u0027 ist ein Objekt (Typ 1).\n   - \u0027own\u0027 ist ein Attribut (Typ 2).\n6. Relationen:\n   - \u0027Maria\u0027 besitzt \u0027pool\u0027 (Beziehung \u0027own\u0027 – Typ 9).\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Beziehung \u0027perform\u0027 – Typ 8).\n   - \u0027swim\u0027 erfolgt im \u0027pool\u0027 (Beziehung \u0027in\u0027 – Typ 6, falls vorhanden, aber \u0027in\u0027 ist nicht direkt in den Typen definiert, daher verwendet \u0027context\u0027 – Typ 2 als Näherung).\n7. Typkodierung:\n   - \u0027own\u0027 -\u003e Typ 9 (target). Es gibt eine passende Kodierung.\n   - \u0027perform\u0027 -\u003e Typ 8 (perform). Es gibt eine passende Kodierung.\n   - \u0027in\u0027 -\u003e Typ 6 (under). Es gibt eine passende Kodierung.\n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027mir gehörend\u0027 wird zu \u0027own\u0027 und \u0027Maria\u0027 bleibt im Vokabular.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1).\\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4).\\n   - \u0027pool\u0027 ist ein Objekt (Typ 1).\\n   - \u0027own\u0027 ist ein Attribut (Typ 2).\\n6. Relationen:\\n   - \u0027Maria\u0027 besitzt \u0027pool\u0027 (Beziehung \u0027own\u0027 – Typ 9).\\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Beziehung \u0027perform\u0027 – Typ 8).\\n   - \u0027swim\u0027 erfolgt im \u0027pool\u0027 (Beziehung \u0027in\u0027 – Typ 6, falls vorhanden, aber \u0027in\u0027 ist nicht direkt in den Typen definiert, daher verwendet \u0027context\u0027 – Typ 2 als Näherung).\\n7. Typkodierung:\\n   - \u0027own\u0027 -\u003e Typ 9 (target). Es gibt eine passende Kodierung.\\n   - \u0027perform\u0027 -\u003e Typ 8 (perform). Es gibt eine passende Kodierung.\\n   - \u0027in\u0027 -\u003e Typ 6 (under). Es gibt eine passende Kodierung.\\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

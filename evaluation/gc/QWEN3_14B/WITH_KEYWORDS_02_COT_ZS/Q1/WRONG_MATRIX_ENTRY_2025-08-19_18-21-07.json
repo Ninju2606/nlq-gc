@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers (Maria) wurden erfolgreich zugeordnet. Die Identifikation wird verwendet, da sie in der Anfrage („Ich spiele Basketball“) durch das Pronomen „Ich“ angedeutet wird.\n\n2. Attributeigenschaften der Stichwörter:\n- „maria“: Bezeichnet die Identifikation des Nutzers.\n- „play“: Bezeichnet eine Aktivität.\n- „basketball“: Bezeichnet ein Objekt.\n\n3. Relationen zwischen den Stichwörtern:\n- „maria“ und „play\": Maria führt die Aktivität „play“ aus. Dies entspricht dem Relationstyp „perform“.\n- „play“ und „basketball\": Die Aktivität „play“ wird auf das Objekt „basketball“ angewendet. Dies entspricht dem Relationstyp „target“.\n- „maria“ und „basketball\": Es gibt keine direkte Relation zwischen Maria und Basketball außer über die Aktivität „play“.\n\n4. Prüfung der Typkodierungen:\n- „perform“ (ID 8) ist vorhanden.\n- „target“ (ID 9) ist vorhanden.\n- Keine weitere Relation ist erforderlich.\n\n5. Die Informationen wurden erfolgreich zu einem GraphCode zusammengefasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers (Maria) wurden erfolgreich zugeordnet. Die Identifikation wird verwendet, da sie in der Anfrage („Ich spiele Basketball“) durch das Pronomen „Ich“ angedeutet wird.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- „maria“: Bezeichnet die Identifikation des Nutzers.\\n- „play“: Bezeichnet eine Aktivität.\\n- „basketball“: Bezeichnet ein Objekt.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- „maria“ und „play\\\": Maria führt die Aktivität „play“ aus. Dies entspricht dem Relationstyp „perform“.\\n- „play“ und „basketball\\\": Die Aktivität „play“ wird auf das Objekt „basketball“ angewendet. Dies entspricht dem Relationstyp „target“.\\n- „maria“ und „basketball\\\": Es gibt keine direkte Relation zwischen Maria und Basketball außer über die Aktivität „play“.\\n\\n4. Prüfung der Typkodierungen:\\n- „perform“ (ID 8) ist vorhanden.\\n- „target“ (ID 9) ist vorhanden.\\n- Keine weitere Relation ist erforderlich.\\n\\n5. Die Informationen wurden erfolgreich zu einem GraphCode zusammengefasst.\"\n}"
+}

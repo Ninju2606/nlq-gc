@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027mir\u0027 wird durch \u0027own\u0027 ersetzt, da es sich auf \u0027Maria\u0027 bezieht.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027: Object (Typ 1)\n   - \u0027swim\u0027: Activity (Typ 4)\n   - \u0027pool\u0027: Object (Typ 1)\n   - \u0027own\u0027: Characteristic (Typ 14)\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 hat das Attribut \u0027own\u0027, das sich auf \u0027pool\u0027 bezieht (Typ 14)\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 durch (Typ 4)\n7. Typkodierungen:\n   - Typ 1 (object) für \u0027Maria\u0027 und \u0027pool\u0027\n   - Typ 4 (activity) für \u0027swim\u0027\n   - Typ 14 (characteristic) für \u0027own\u0027",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027mir\u0027 wird durch \u0027own\u0027 ersetzt, da es sich auf \u0027Maria\u0027 bezieht.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027: Object (Typ 1)\\n   - \u0027swim\u0027: Activity (Typ 4)\\n   - \u0027pool\u0027: Object (Typ 1)\\n   - \u0027own\u0027: Characteristic (Typ 14)\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 hat das Attribut \u0027own\u0027, das sich auf \u0027pool\u0027 bezieht (Typ 14)\\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 durch (Typ 4)\\n7. Typkodierungen:\\n   - Typ 1 (object) für \u0027Maria\u0027 und \u0027pool\u0027\\n   - Typ 4 (activity) für \u0027swim\u0027\\n   - Typ 14 (characteristic) für \u0027own\u0027\"\n}"
+}

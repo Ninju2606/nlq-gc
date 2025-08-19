@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria muss bald einen Termin ausmachen. Der relative Verweis „einen Termin ausmachen“ kann als Aktivität (make appointment) interpretiert werden, und da der Nutzer sich selbst identifiziert, wird „maria“ als Identifikation verwendet.\n\n2. Attributeigenschaften der Stichwörter:\n- „maria“: Identifiziert den Nutzer, Typ: object (ID: 1)\n- „make“: Aktivität, Typ: activity (ID: 4)\n- „appointment“: Objekt, Typ: object (ID: 1)\n\n3. Beziehungen der Stichwörter:\n- „maria“ führt die Aktivität „make“ durch (Typ: perform, ID: 8)\n- „make“ bezieht sich auf das Objekt „appointment“ (Typ: target, ID: 9)\n\n4. Überprüfung der Typkodierungen:\n- „maria“ ist ein object, ID: 1\n- „make“ ist eine activity, ID: 4\n- „appointment“ ist ein object, ID: 1\n- Relation „perform“ (maria -\u003e make), ID: 8\n- Relation „target“ (make -\u003e appointment), ID: 9\n\nAlle Relationen haben passende Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria muss bald einen Termin ausmachen. Der relative Verweis „einen Termin ausmachen“ kann als Aktivität (make appointment) interpretiert werden, und da der Nutzer sich selbst identifiziert, wird „maria“ als Identifikation verwendet.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- „maria“: Identifiziert den Nutzer, Typ: object (ID: 1)\\n- „make“: Aktivität, Typ: activity (ID: 4)\\n- „appointment“: Objekt, Typ: object (ID: 1)\\n\\n3. Beziehungen der Stichwörter:\\n- „maria“ führt die Aktivität „make“ durch (Typ: perform, ID: 8)\\n- „make“ bezieht sich auf das Objekt „appointment“ (Typ: target, ID: 9)\\n\\n4. Überprüfung der Typkodierungen:\\n- „maria“ ist ein object, ID: 1\\n- „make“ ist eine activity, ID: 4\\n- „appointment“ ist ein object, ID: 1\\n- Relation „perform“ (maria -\u003e make), ID: 8\\n- Relation „target“ (make -\u003e appointment), ID: 9\\n\\nAlle Relationen haben passende Typkodierungen.\"\n}"
+}

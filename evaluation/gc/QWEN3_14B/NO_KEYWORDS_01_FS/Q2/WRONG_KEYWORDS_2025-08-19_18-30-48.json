@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the scene where Maria is running. \u0027run\u0027 is an activity (type 9), and \u0027Maria\u0027 is the subject (type 1). The relation \u0027perform\u0027 (type 4) connects Maria to the activity of running.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 4],\n    [0, 9]\n  ],\n  \"description\": \"The GraphCode represents the scene where Maria is running. \u0027run\u0027 is an activity (type 9), and \u0027Maria\u0027 is the subject (type 1). The relation \u0027perform\u0027 (type 4) connects Maria to the activity of running.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode modelliert die Situation, in der Maria in einem Pool schwimmt, der ihr gehört. Die Beziehung zwischen Maria und dem Schwimmen wird durch den Typ 8 (perform) dargestellt. Die Beziehung zwischen dem Pool und dem Eigentum wird durch den Typ 6 (under) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 6, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode modelliert die Situation, in der Maria in einem Pool schwimmt, der ihr gehört. Die Beziehung zwischen Maria und dem Schwimmen wird durch den Typ 8 (perform) dargestellt. Die Beziehung zwischen dem Pool und dem Eigentum wird durch den Typ 6 (under) dargestellt.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. \u0027in\u0027 und \u0027meinem\u0027 werden als relative Verweise identifiziert und für spätere Relationen gespeichert. Nach Verarbeitung bleiben \u0027schwimme\u0027 und \u0027Pool\u0027 als Stichwörter.\n2. Relative Verweise: \u0027in\u0027 und \u0027meinem\u0027 wurden identifiziert und gespeichert.\n3. Übersetzung der Stichwörter ins Englische: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 bleibt \u0027pool\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt, da es auf den Anfragensteller referenziert.\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (attribute: activity), \u0027pool\u0027 ist ein Objekt (attribute: object), \u0027Maria\u0027 ist ein Kontext (attribute: context).\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 (context) \u0027perform\u0027 (Typ: 8) \u0027swim\u0027 (activity)\n   - \u0027swim\u0027 (activity) \u0027target\u0027 (Typ: 9) \u0027pool\u0027 (object)\n7. Prüfung der Typkodierungen:\n   - Typ 8 (perform) ist vorhanden.\n   - Typ 9 (target) ist vorhanden.\n   - Typ 1 (object) ist vorhanden.\n   - Typ 2 (context) ist vorhanden.\n   Alle Relationen sind in den bereitgestellten Typkodierungen vorhanden.\n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. \u0027in\u0027 und \u0027meinem\u0027 werden als relative Verweise identifiziert und für spätere Relationen gespeichert. Nach Verarbeitung bleiben \u0027schwimme\u0027 und \u0027Pool\u0027 als Stichwörter.\\n2. Relative Verweise: \u0027in\u0027 und \u0027meinem\u0027 wurden identifiziert und gespeichert.\\n3. Übersetzung der Stichwörter ins Englische: \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 bleibt \u0027pool\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt, da es auf den Anfragensteller referenziert.\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (attribute: activity), \u0027pool\u0027 ist ein Objekt (attribute: object), \u0027Maria\u0027 ist ein Kontext (attribute: context).\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 (context) \u0027perform\u0027 (Typ: 8) \u0027swim\u0027 (activity)\\n   - \u0027swim\u0027 (activity) \u0027target\u0027 (Typ: 9) \u0027pool\u0027 (object)\\n7. Prüfung der Typkodierungen:\\n   - Typ 8 (perform) ist vorhanden.\\n   - Typ 9 (target) ist vorhanden.\\n   - Typ 1 (object) ist vorhanden.\\n   - Typ 2 (context) ist vorhanden.\\n   Alle Relationen sind in den bereitgestellten Typkodierungen vorhanden.\\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

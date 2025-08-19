@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter ein Boot auf einem See fahren. Die Beziehungen zwischen den Begriffen sind gemäß der Typkodierung definiert: \u0027Maria\u0027 und \u0027daughter\u0027 sind mit \u0027attached\u0027 (Typ 10) verbunden, da sie eine Person und deren Tochter sind. \u0027drive\u0027 (Aktivität) wird mit \u0027boat\u0027 (Objekt) durch \u0027perform\u0027 (Typ 8) verbunden. \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Ort) mit \u0027under\u0027 (Typ 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter ein Boot auf einem See fahren. Die Beziehungen zwischen den Begriffen sind gemäß der Typkodierung definiert: \u0027Maria\u0027 und \u0027daughter\u0027 sind mit \u0027attached\u0027 (Typ 10) verbunden, da sie eine Person und deren Tochter sind. \u0027drive\u0027 (Aktivität) wird mit \u0027boat\u0027 (Objekt) durch \u0027perform\u0027 (Typ 8) verbunden. \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Ort) mit \u0027under\u0027 (Typ 6).\"\n}"
+}

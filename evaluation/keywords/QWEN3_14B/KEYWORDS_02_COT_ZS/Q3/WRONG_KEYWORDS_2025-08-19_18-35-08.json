@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\n2. Relative Verweise: \u0027mir gehörend\u0027 bezieht sich auf \u0027Maria\u0027, dies wurde gemerkt.\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027belonging to me\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027mir gehörend\u0027 wurde durch \u0027Maria\u0027 ersetzt, da das Stichwort \u0027belonging to me\u0027 auf den Nutzer verweist.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\\n2. Relative Verweise: \u0027mir gehörend\u0027 bezieht sich auf \u0027Maria\u0027, dies wurde gemerkt.\\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027belonging to me\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027mir gehörend\u0027 wurde durch \u0027Maria\u0027 ersetzt, da das Stichwort \u0027belonging to me\u0027 auf den Nutzer verweist.\"\n}"
+}

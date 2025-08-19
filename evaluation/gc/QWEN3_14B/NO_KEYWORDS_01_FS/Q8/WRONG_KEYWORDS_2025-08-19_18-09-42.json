@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehungen zwischen den Begriffen sind wie folgt: Maria ist die Person (Typ 1), Tochter ist ein Kind von Maria (Typ 10), fahren (drive) ist die Aktivität (Typ 9), Boot (boat) ist das Objekt, das gefahren wird (Typ 8), und See (lake) ist der Ort, an dem sie fahren (Typ 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehungen zwischen den Begriffen sind wie folgt: Maria ist die Person (Typ 1), Tochter ist ein Kind von Maria (Typ 10), fahren (drive) ist die Aktivität (Typ 9), Boot (boat) ist das Objekt, das gefahren wird (Typ 8), und See (lake) ist der Ort, an dem sie fahren (Typ 6).\"\n}"
+}

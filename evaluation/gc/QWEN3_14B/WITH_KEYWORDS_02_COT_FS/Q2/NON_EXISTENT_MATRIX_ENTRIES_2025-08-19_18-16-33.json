@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wurde nicht als Identifikation des Nutzers verwendet, da keine Selbstidentifikation wie \"ich\" oder \"mein\" vorkommt.\n2. \"tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität.\n3. \"tim\" führt die Aktivität \"run\" aus.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 7],\n    [0, 9]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wurde nicht als Identifikation des Nutzers verwendet, da keine Selbstidentifikation wie \\\"ich\\\" oder \\\"mein\\\" vorkommt.\\n2. \\\"tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität.\\n3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7.\"\n}"
+}

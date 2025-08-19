@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "sea"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf die Nutzerin \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027sea\u0027.\n4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. \n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027daughter\u0027 ist ein Beziehungskontext (context), \u0027boat\u0027 ist ein Objekt (object), \u0027sea\u0027 ist ein Objekt (object).\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 und \u0027daughter\u0027 sind in einer Eltern-Kind-Beziehung (daughter), \u0027Maria\u0027 und \u0027boat\u0027 haben eine Aktivitätsbeziehung (activity), \u0027boat\u0027 und \u0027sea\u0027 sind räumlich in Beziehung (attached).\n7. Typkodierung für die Relationen: daughter (id 10), activity (id 4), attached (id 5). Es gibt Einträge für alle Relationen.\n8. Der GraphCode wird aus den ermittelten Stichwörtern (\u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027sea\u0027) und den zugehörigen Typkodierungen (1, 10, 4, 5) erstellt. Die Bewertungsmatrix und das Vokabular sind entsprechend definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"sea\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf die Nutzerin \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027sea\u0027.\\n4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. \\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027daughter\u0027 ist ein Beziehungskontext (context), \u0027boat\u0027 ist ein Objekt (object), \u0027sea\u0027 ist ein Objekt (object).\\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 und \u0027daughter\u0027 sind in einer Eltern-Kind-Beziehung (daughter), \u0027Maria\u0027 und \u0027boat\u0027 haben eine Aktivitätsbeziehung (activity), \u0027boat\u0027 und \u0027sea\u0027 sind räumlich in Beziehung (attached).\\n7. Typkodierung für die Relationen: daughter (id 10), activity (id 4), attached (id 5). Es gibt Einträge für alle Relationen.\\n8. Der GraphCode wird aus den ermittelten Stichwörtern (\u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027sea\u0027) und den zugehörigen Typkodierungen (1, 10, 4, 5) erstellt. Die Bewertungsmatrix und das Vokabular sind entsprechend definiert.\"\n}"
+}

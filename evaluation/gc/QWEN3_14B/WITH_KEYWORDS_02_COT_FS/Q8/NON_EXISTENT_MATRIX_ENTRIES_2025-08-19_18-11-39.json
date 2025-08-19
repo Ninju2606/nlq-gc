@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis %22meine Tochter%22 wurde zu den Stichwörtern %22maria%22 und %22person%22 zugeordnet. %22maria%22 ist die Identifikation des Nutzers.\n\n2. %22maria%22 und %22person%22 sind Objekte der Anfrage. %22drive%22 ist eine Aktivität. %22boat%22 und %22lake%22 sind Objekte.\n\n3. %22maria%22 ist die Person. %22person%22 ist eine Beschreibung von %22maria%22. %22maria%22 fährt (%22drive%22) das Boot (%22boat%22). Das Boot (%22boat%22) befindet sich auf dem See (%22lake%22).\n\n4. Die ID für Objekt (%22object%22) ist 1. Die ID für Person (%22person%22) ist 10. Die ID für Aktivität (%22activity%22) ist 9. Die ID für Ausführen (%22perform%22) ist 7. Die ID für Beziehen (%22target%22) ist 8. Die ID für auf (%22in%22) ist 6. Alle Relationen sind in den Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 7, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis %22meine Tochter%22 wurde zu den Stichwörtern %22maria%22 und %22person%22 zugeordnet. %22maria%22 ist die Identifikation des Nutzers.\\n\\n2. %22maria%22 und %22person%22 sind Objekte der Anfrage. %22drive%22 ist eine Aktivität. %22boat%22 und %22lake%22 sind Objekte.\\n\\n3. %22maria%22 ist die Person. %22person%22 ist eine Beschreibung von %22maria%22. %22maria%22 fährt (%22drive%22) das Boot (%22boat%22). Das Boot (%22boat%22) befindet sich auf dem See (%22lake%22).\\n\\n4. Die ID für Objekt (%22object%22) ist 1. Die ID für Person (%22person%22) ist 10. Die ID für Aktivität (%22activity%22) ist 9. Die ID für Ausführen (%22perform%22) ist 7. Die ID für Beziehen (%22target%22) ist 8. Die ID für auf (%22in%22) ist 6. Alle Relationen sind in den Typkodierungen vorhanden.\"\n}"
+}

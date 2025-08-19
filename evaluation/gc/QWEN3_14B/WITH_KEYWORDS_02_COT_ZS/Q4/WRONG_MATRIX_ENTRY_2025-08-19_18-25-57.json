@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die relative Identifikation \u0027meinem\u0027 im Satz \u0027Ich schwimme in meinem Pool\u0027 wird der Nutzeridentifikation \u0027Maria\u0027 zugeordnet. Die Wörter \u0027swim\u0027 (schwimmen), \u0027own\u0027 (eigen), und \u0027pool\u0027 (Pool) sind direkt aus der Anfrage extrahiert.\n2. Attributeigenschaften:\n   - \u0027maria\u0027 ist ein Identifikationsattribut (identityMapping \u003d true, Typ: object).\n   - \u0027swim\u0027 ist eine Aktivität (identityMapping \u003d false, Typ: activity, ID: 4).\n   - \u0027own\u0027 ist ein Kontextattribut (identityMapping \u003d false, Typ: context, ID: 2).\n   - \u0027pool\u0027 ist ein Objekt (identityMapping \u003d false, Typ: object, ID: 1).\n3. Beziehungen zwischen den Stichwörtern:\n   - \u0027maria\u0027 ist das Subjekt (Identifikation), das \u0027swim\u0027 (Aktivität) ausführt.\n   - \u0027own\u0027 beschreibt den Kontext, in dem \u0027pool\u0027 (Objekt) gehört.\n   - \u0027swim\u0027 wird im \u0027pool\u0027 (Objekt) durchgeführt.\n4. Typkodierungen:\n   - \u0027maria\u0027 → Typ: object → ID: 1\n   - \u0027swim\u0027 → Typ: activity → ID: 4\n   - \u0027own\u0027 → Typ: context → ID: 2\n   - \u0027pool\u0027 → Typ: object → ID: 1\n   Alle Relationen und Typkodierungen sind in den bereitgestellten Listen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Die relative Identifikation \u0027meinem\u0027 im Satz \u0027Ich schwimme in meinem Pool\u0027 wird der Nutzeridentifikation \u0027Maria\u0027 zugeordnet. Die Wörter \u0027swim\u0027 (schwimmen), \u0027own\u0027 (eigen), und \u0027pool\u0027 (Pool) sind direkt aus der Anfrage extrahiert.\\n2. Attributeigenschaften:\\n   - \u0027maria\u0027 ist ein Identifikationsattribut (identityMapping \u003d true, Typ: object).\\n   - \u0027swim\u0027 ist eine Aktivität (identityMapping \u003d false, Typ: activity, ID: 4).\\n   - \u0027own\u0027 ist ein Kontextattribut (identityMapping \u003d false, Typ: context, ID: 2).\\n   - \u0027pool\u0027 ist ein Objekt (identityMapping \u003d false, Typ: object, ID: 1).\\n3. Beziehungen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 ist das Subjekt (Identifikation), das \u0027swim\u0027 (Aktivität) ausführt.\\n   - \u0027own\u0027 beschreibt den Kontext, in dem \u0027pool\u0027 (Objekt) gehört.\\n   - \u0027swim\u0027 wird im \u0027pool\u0027 (Objekt) durchgeführt.\\n4. Typkodierungen:\\n   - \u0027maria\u0027 → Typ: object → ID: 1\\n   - \u0027swim\u0027 → Typ: activity → ID: 4\\n   - \u0027own\u0027 → Typ: context → ID: 2\\n   - \u0027pool\u0027 → Typ: object → ID: 1\\n   Alle Relationen und Typkodierungen sind in den bereitgestellten Listen abgedeckt.\"\n}"
+}

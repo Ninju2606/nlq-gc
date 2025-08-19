@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer identifiziert sich mit „Maria“. Da das Wort „meine Tochter“ vorkommt, werden „Maria“ und „person“ als Identifikation genutzt. „Maria“ ist die Person, und „person“ ist ein generisches Objekt für ihre Identität.\n2. „Maria“, „person“ und „lake“ sind Objekte der Anfrage. „drive“ ist eine Aktivität, und „boat“ ist ein weiteres Objekt.\n3. „Maria“ fährt mit dem Boot („drive“ bezieht sich auf „boat“). Das Boot befindet sich auf dem See („boat“ bezieht sich auf „lake“). „Maria“ und „person“ sind identisch.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Verbindung (attached) ist 4. Die ID für In (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer identifiziert sich mit „Maria“. Da das Wort „meine Tochter“ vorkommt, werden „Maria“ und „person“ als Identifikation genutzt. „Maria“ ist die Person, und „person“ ist ein generisches Objekt für ihre Identität.\\n2. „Maria“, „person“ und „lake“ sind Objekte der Anfrage. „drive“ ist eine Aktivität, und „boat“ ist ein weiteres Objekt.\\n3. „Maria“ fährt mit dem Boot („drive“ bezieht sich auf „boat“). Das Boot befindet sich auf dem See („boat“ bezieht sich auf „lake“). „Maria“ und „person“ sind identisch.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Verbindung (attached) ist 4. Die ID für In (in) ist 6.\"\n}"
+}

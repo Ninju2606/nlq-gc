@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Wir müssen bald einen Termin ausmachen.\" enthält keine konkreten Objekte, Attribute oder Aktivitäten, die zur Erstellung eines GraphCodes relevant sind. Der GraphCode erfordert mindestens eindeutige Begriffe, die beschreibbar sind und in Relation zueinander stehen. Da die Anfrage zu allgemein und unklar ist, kann keine sinnvolle Bewertungsmatrix und kein Vokabular erstellt werden.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage \\\"Wir müssen bald einen Termin ausmachen.\\\" enthält keine konkreten Objekte, Attribute oder Aktivitäten, die zur Erstellung eines GraphCodes relevant sind. Der GraphCode erfordert mindestens eindeutige Begriffe, die beschreibbar sind und in Relation zueinander stehen. Da die Anfrage zu allgemein und unklar ist, kann keine sinnvolle Bewertungsmatrix und kein Vokabular erstellt werden.\"\n}"
+}

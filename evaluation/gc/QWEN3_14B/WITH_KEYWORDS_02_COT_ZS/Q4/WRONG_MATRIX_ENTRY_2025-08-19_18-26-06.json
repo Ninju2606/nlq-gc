@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 wird durch das Wort \u0027own\u0027 in Verbindung mit \u0027pool\u0027 identifiziert, da \u0027meinem\u0027 der Anfrage entspricht. \u0027swim\u0027 beschreibt die Aktivität, die Maria ausführt.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Es ist das Identifikationswort des Nutzers.\n- \u0027swim\u0027: Es ist eine Aktivität.\n- \u0027own\u0027: Es ist ein Besitzattribut (eine Verknüpfung zwischen Nutzer und Objekt).\n- \u0027pool\u0027: Es ist ein Objekt.\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 und \u0027own\u0027: Der Nutzer besitzt das Objekt.\n- \u0027own\u0027 und \u0027pool\u0027: Das Objekt wird als \u0027eigen\u0027 identifiziert.\n- \u0027maria\u0027 und \u0027swim\u0027: Der Nutzer führt eine Aktivität aus.\n- \u0027swim\u0027 und \u0027pool\u0027: Die Aktivität findet am Objekt statt.\n\n4. Überprüfung der Typkodierungen:\n- \u0027own\u0027 (Besitz) entspricht Typ-ID 5 (\u0027attached\u0027).\n- \u0027swim\u0027 (Aktivität) entspricht Typ-ID 4 (\u0027activity\u0027).\n- \u0027pool\u0027 (Objekt) entspricht Typ-ID 1 (\u0027object\u0027).\n- \u0027maria\u0027 (Identifikation) entspricht Typ-ID 2 (\u0027context\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 wird durch das Wort \u0027own\u0027 in Verbindung mit \u0027pool\u0027 identifiziert, da \u0027meinem\u0027 der Anfrage entspricht. \u0027swim\u0027 beschreibt die Aktivität, die Maria ausführt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Es ist das Identifikationswort des Nutzers.\\n- \u0027swim\u0027: Es ist eine Aktivität.\\n- \u0027own\u0027: Es ist ein Besitzattribut (eine Verknüpfung zwischen Nutzer und Objekt).\\n- \u0027pool\u0027: Es ist ein Objekt.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 und \u0027own\u0027: Der Nutzer besitzt das Objekt.\\n- \u0027own\u0027 und \u0027pool\u0027: Das Objekt wird als \u0027eigen\u0027 identifiziert.\\n- \u0027maria\u0027 und \u0027swim\u0027: Der Nutzer führt eine Aktivität aus.\\n- \u0027swim\u0027 und \u0027pool\u0027: Die Aktivität findet am Objekt statt.\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027own\u0027 (Besitz) entspricht Typ-ID 5 (\u0027attached\u0027).\\n- \u0027swim\u0027 (Aktivität) entspricht Typ-ID 4 (\u0027activity\u0027).\\n- \u0027pool\u0027 (Objekt) entspricht Typ-ID 1 (\u0027object\u0027).\\n- \u0027maria\u0027 (Identifikation) entspricht Typ-ID 2 (\u0027context\u0027).\"\n}"
+}

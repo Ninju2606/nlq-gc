@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "sail",
+    "sea"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahre Boot\u0027, \u0027auf einem See\u0027. Die Wörter \u0027Meine Tochter\u0027 und \u0027Boot\u0027 wurden reduziert zu \u0027daughter\u0027 und \u0027sail\u0027 (Boot fahren). \u0027auf einem See\u0027 wurde zu \u0027sea\u0027.\n\n2. Relative Verweise: \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf Maria. Diese werden zur späteren Zuordnung berücksichtigt.\n\n3. Die Stichwörter wurden ins Englische übersetzt. \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027Boot fahren\u0027 → \u0027sail\u0027, \u0027See\u0027 → \u0027sea\u0027.\n\n4. Die Identifikation \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf \u0027Maria\u0027. Da \u0027Maria\u0027 der Nutzer ist, wird sie im Vokabular verwendet.\n\n5. Attributeigenschaften:\n- \u0027Maria\u0027 – object (Typ 1)\n- \u0027daughter\u0027 – object (Typ 1)\n- \u0027sail\u0027 – activity (Typ 4)\n- \u0027sea\u0027 – object (Typ 1)\n\n6. Relationen zwischen den Stichwörtern:\n- \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027 → \u0027daughter\u0027 ist eine Tochter von \u0027Maria\u0027 → Relation \u0027daughter\u0027 (Typ 10)\n- \u0027Maria\u0027 und \u0027daughter\u0027 fahren Boot → \u0027Maria\u0027 und \u0027daughter\u0027 beide \u0027sail\u0027 → Relation \u0027perform\u0027 (Typ 8)\n- \u0027sail\u0027 (Boot fahren) erfolgt auf dem \u0027sea\u0027 → Relation \u0027on\u0027 (Typ 6), es existiert aber keine Typ-ID für \u0027on\u0027, daher wird dies nicht berücksichtigt.\n\n7. Prüfung der Typkodierungen:\n- \u0027daughter\u0027 → Typ-ID: 10 (gültig)\n- \u0027perform\u0027 → Typ-ID: 8 (gültig)\n- \u0027on\u0027 → keine Typ-ID vorhanden (ungültig)\n\nDa \u0027on\u0027 nicht im Typkodierungs-Liste vorhanden ist, ist die vollständige Beziehung zwischen \u0027sail\u0027 und \u0027sea\u0027 nicht darstellbar. Es wird daher ein Fehler erzeugt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"sail\", \"sea\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahre Boot\u0027, \u0027auf einem See\u0027. Die Wörter \u0027Meine Tochter\u0027 und \u0027Boot\u0027 wurden reduziert zu \u0027daughter\u0027 und \u0027sail\u0027 (Boot fahren). \u0027auf einem See\u0027 wurde zu \u0027sea\u0027.\\n\\n2. Relative Verweise: \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf Maria. Diese werden zur späteren Zuordnung berücksichtigt.\\n\\n3. Die Stichwörter wurden ins Englische übersetzt. \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027Boot fahren\u0027 → \u0027sail\u0027, \u0027See\u0027 → \u0027sea\u0027.\\n\\n4. Die Identifikation \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf \u0027Maria\u0027. Da \u0027Maria\u0027 der Nutzer ist, wird sie im Vokabular verwendet.\\n\\n5. Attributeigenschaften:\\n- \u0027Maria\u0027 – object (Typ 1)\\n- \u0027daughter\u0027 – object (Typ 1)\\n- \u0027sail\u0027 – activity (Typ 4)\\n- \u0027sea\u0027 – object (Typ 1)\\n\\n6. Relationen zwischen den Stichwörtern:\\n- \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027 → \u0027daughter\u0027 ist eine Tochter von \u0027Maria\u0027 → Relation \u0027daughter\u0027 (Typ 10)\\n- \u0027Maria\u0027 und \u0027daughter\u0027 fahren Boot → \u0027Maria\u0027 und \u0027daughter\u0027 beide \u0027sail\u0027 → Relation \u0027perform\u0027 (Typ 8)\\n- \u0027sail\u0027 (Boot fahren) erfolgt auf dem \u0027sea\u0027 → Relation \u0027on\u0027 (Typ 6), es existiert aber keine Typ-ID für \u0027on\u0027, daher wird dies nicht berücksichtigt.\\n\\n7. Prüfung der Typkodierungen:\\n- \u0027daughter\u0027 → Typ-ID: 10 (gültig)\\n- \u0027perform\u0027 → Typ-ID: 8 (gültig)\\n- \u0027on\u0027 → keine Typ-ID vorhanden (ungültig)\\n\\nDa \u0027on\u0027 nicht im Typkodierungs-Liste vorhanden ist, ist die vollständige Beziehung zwischen \u0027sail\u0027 und \u0027sea\u0027 nicht darstellbar. Es wird daher ein Fehler erzeugt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer (Maria) stellt eine Anfrage, die mit ihrer Person in Verbindung steht („meinem Pool“). Daher wird „maria“ in das Vokabular aufgenommen. 2. Attributeigenschaften: - „maria“ ist eine Identifikation (id 1) - „swim“ ist eine Aktivität (id 4) - „own“ ist ein Kontext (id 2) - „pool“ ist ein Objekt (id 1) 3. Relationen: - Maria (maria) besitzt den Pool (own) - Maria (maria) schwimmt (swim) - Der Pool (pool) ist ein Objekt (pool) - Schwimmen (swim) ist eine Aktivität (swim) 4. Prüfung der Typkodierungen: - „maria“ (Identifikation) → id 1 - „swim“ (Aktivität) → id 4 - „own“ (Kontext) → id 2 - „pool“ (Objekt) → id 1",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer (Maria) stellt eine Anfrage, die mit ihrer Person in Verbindung steht („meinem Pool“). Daher wird „maria“ in das Vokabular aufgenommen. 2. Attributeigenschaften: - „maria“ ist eine Identifikation (id 1) - „swim“ ist eine Aktivität (id 4) - „own“ ist ein Kontext (id 2) - „pool“ ist ein Objekt (id 1) 3. Relationen: - Maria (maria) besitzt den Pool (own) - Maria (maria) schwimmt (swim) - Der Pool (pool) ist ein Objekt (pool) - Schwimmen (swim) ist eine Aktivität (swim) 4. Prüfung der Typkodierungen: - „maria“ (Identifikation) → id 1 - „swim“ (Aktivität) → id 4 - „own“ (Kontext) → id 2 - „pool“ (Objekt) → id 1\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält das Vokabular mit den Begriffen \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027, sowie die Bewertungsmatrix, die die Beziehungen zwischen diesen Begriffen beschreibt. \u0027Maria\u0027 hat den Typ \u0027object\u0027 (ID 1), \u0027play\u0027 hat den Typ \u0027activity\u0027 (ID 9), und \u0027basketball\u0027 hat den Typ \u0027object\u0027 (ID 1). Die Beziehung \u0027play\u0027 (ID 9) wird als Aktivität zwischen \u0027Maria\u0027 (ID 1) und \u0027basketball\u0027 (ID 1) definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält das Vokabular mit den Begriffen \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027, sowie die Bewertungsmatrix, die die Beziehungen zwischen diesen Begriffen beschreibt. \u0027Maria\u0027 hat den Typ \u0027object\u0027 (ID 1), \u0027play\u0027 hat den Typ \u0027activity\u0027 (ID 9), und \u0027basketball\u0027 hat den Typ \u0027object\u0027 (ID 1). Die Beziehung \u0027play\u0027 (ID 9) wird als Aktivität zwischen \u0027Maria\u0027 (ID 1) und \u0027basketball\u0027 (ID 1) definiert.\"\n}"
+}

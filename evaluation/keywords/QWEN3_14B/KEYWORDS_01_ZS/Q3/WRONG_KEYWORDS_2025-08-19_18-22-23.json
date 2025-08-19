@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "owner",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The request describes a scene in the Metaverse where the user, Maria, is swimming in a pool that belongs to her. The vocabulary includes the key elements of the scene.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"swim\",\n    \"pool\",\n    \"owner\",\n    \"Maria\"\n  ],\n  \"description\": \"The request describes a scene in the Metaverse where the user, Maria, is swimming in a pool that belongs to her. The vocabulary includes the key elements of the scene.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf den Nutzer, der als \u0027Maria\u0027 identifiziert wird. Dieser Wert wird in die spätere Relation einbezogen.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Die Identifikation des Nutzers (\u0027ich\u0027) wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften:\n   - \u0027situation\u0027: context\n   - \u0027Maria\u0027: object\n   - \u0027yellow\u0027: characteristic\n   - \u0027hat\u0027: activity\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 hat \u0027yellow\u0027 als Attribut (characteristic) -\u003e Typkodierung \u0027characteristic\u0027 (ID 14)\n   - \u0027Maria\u0027 trägt \u0027hat\u0027 als Aktivität (activity) -\u003e Typkodierung \u0027activity\u0027 (ID 4)\n   - \u0027yellow\u0027 ist das Attribut von \u0027Maria\u0027 -\u003e Typkodierung \u0027characteristic\u0027 (ID 14)\n   - \u0027hat\u0027 ist die Aktivität von \u0027Maria\u0027 -\u003e Typkodierung \u0027activity\u0027 (ID 4)\n7. Es gibt Einträge in den Typkodierungen für alle Relationen:\n   - \u0027characteristic\u0027 (ID 14)\n   - \u0027activity\u0027 (ID 4)",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf den Nutzer, der als \u0027Maria\u0027 identifiziert wird. Dieser Wert wird in die spätere Relation einbezogen.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Die Identifikation des Nutzers (\u0027ich\u0027) wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027situation\u0027: context\\n   - \u0027Maria\u0027: object\\n   - \u0027yellow\u0027: characteristic\\n   - \u0027hat\u0027: activity\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 hat \u0027yellow\u0027 als Attribut (characteristic) -\u003e Typkodierung \u0027characteristic\u0027 (ID 14)\\n   - \u0027Maria\u0027 trägt \u0027hat\u0027 als Aktivität (activity) -\u003e Typkodierung \u0027activity\u0027 (ID 4)\\n   - \u0027yellow\u0027 ist das Attribut von \u0027Maria\u0027 -\u003e Typkodierung \u0027characteristic\u0027 (ID 14)\\n   - \u0027hat\u0027 ist die Aktivität von \u0027Maria\u0027 -\u003e Typkodierung \u0027activity\u0027 (ID 4)\\n7. Es gibt Einträge in den Typkodierungen für alle Relationen:\\n   - \u0027characteristic\u0027 (ID 14)\\n   - \u0027activity\u0027 (ID 4)\"\n}"
+}

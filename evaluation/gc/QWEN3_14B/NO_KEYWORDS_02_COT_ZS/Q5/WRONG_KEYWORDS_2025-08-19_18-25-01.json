@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027.\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Ersetzen der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist eine Eigenschaft (characteristic), \u0027hat\u0027 ist eine Aktivität (activity). Aufgrund der Regeln wurden die folgenden Typkodierungen verwendet: 2 für Kontext, 1 für Objekt, 14 für characteristic und 4 für activity.\n6. Relationen zwischen den Stichworten: \u0027Maria\u0027 trägt \u0027gelben Hut\u0027 in der Situation. Dies wird durch die Relation \u0027perform\u0027 (ID 8) zwischen \u0027Maria\u0027 und \u0027hat\u0027 dargestellt. \u0027yellow\u0027 ist eine Eigenschaft (\u0027characteristic\u0027, ID 14) von \u0027hat\u0027.\n7. Überprüfung der Typkodierungen: Für alle relationen sind passende Typkodierungen vorhanden (ID 2, 1, 14, 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027.\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Ersetzen der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist eine Eigenschaft (characteristic), \u0027hat\u0027 ist eine Aktivität (activity). Aufgrund der Regeln wurden die folgenden Typkodierungen verwendet: 2 für Kontext, 1 für Objekt, 14 für characteristic und 4 für activity.\\n6. Relationen zwischen den Stichworten: \u0027Maria\u0027 trägt \u0027gelben Hut\u0027 in der Situation. Dies wird durch die Relation \u0027perform\u0027 (ID 8) zwischen \u0027Maria\u0027 und \u0027hat\u0027 dargestellt. \u0027yellow\u0027 ist eine Eigenschaft (\u0027characteristic\u0027, ID 14) von \u0027hat\u0027.\\n7. Überprüfung der Typkodierungen: Für alle relationen sind passende Typkodierungen vorhanden (ID 2, 1, 14, 8).\"\n}"
+}

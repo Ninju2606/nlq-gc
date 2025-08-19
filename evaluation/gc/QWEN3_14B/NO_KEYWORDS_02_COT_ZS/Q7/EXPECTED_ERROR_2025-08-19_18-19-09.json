@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Relative Verweise: Keine identifizierbaren relativen Verweise in der Anfrage.\n3. Übersetzung der Stichwörter ins Englische: \u0027Häuser\u0027 -\u003e \u0027houses\u0027, \u0027Fragen\u0027 -\u003e \u0027questions\u0027, \u0027malen\u0027 -\u003e \u0027paint\u0027.\n4. Ersetzung der Identifikation des Nutzers: Keine Anwendung, da keine Personalpronomen in der Anfrage vorkommen.\n5. Erklärung der Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\n6. Relationen zwischen den Stichwörtern: Es bestehen keine offensichtlichen Relationen zwischen den Stichwörtern.\n7. Prüfung der Typkodierungen: Für alle Attributeigenschaften (object und activity) gibt es korrespondierende Einträge in der Typkodierung (ID 1 und 4). Es gibt keine Relationen zwischen den Stichwörtern, daher keine weiteren Typkodierungen nötig.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Relative Verweise: Keine identifizierbaren relativen Verweise in der Anfrage.\\n3. Übersetzung der Stichwörter ins Englische: \u0027Häuser\u0027 -\u003e \u0027houses\u0027, \u0027Fragen\u0027 -\u003e \u0027questions\u0027, \u0027malen\u0027 -\u003e \u0027paint\u0027.\\n4. Ersetzung der Identifikation des Nutzers: Keine Anwendung, da keine Personalpronomen in der Anfrage vorkommen.\\n5. Erklärung der Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\\n6. Relationen zwischen den Stichwörtern: Es bestehen keine offensichtlichen Relationen zwischen den Stichwörtern.\\n7. Prüfung der Typkodierungen: Für alle Attributeigenschaften (object und activity) gibt es korrespondierende Einträge in der Typkodierung (ID 1 und 4). Es gibt keine Relationen zwischen den Stichwörtern, daher keine weiteren Typkodierungen nötig.\"\n}"
+}

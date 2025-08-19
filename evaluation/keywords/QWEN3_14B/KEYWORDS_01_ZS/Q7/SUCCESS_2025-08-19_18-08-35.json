@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions",
+    "maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and \u0027maria\u0027 were identified from the query \u0027Häuser um Fragen zu malen\u0027 with the user identifier \u0027Maria\u0027. \u0027Maria\u0027 was included in the vocabulary since the user explicitly provided their identity.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\", \"maria\"],\n  \"description\": \"The keywords \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and \u0027maria\u0027 were identified from the query \u0027Häuser um Fragen zu malen\u0027 with the user identifier \u0027Maria\u0027. \u0027Maria\u0027 was included in the vocabulary since the user explicitly provided their identity.\"\n}"
+}

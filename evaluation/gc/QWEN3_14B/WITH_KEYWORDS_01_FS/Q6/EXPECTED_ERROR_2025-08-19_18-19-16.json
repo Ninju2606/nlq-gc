@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode kodiert die Anfrage, dass Maria einen Termin machen muss. \u0027make\u0027 wird als Aktivität (\u0027activity\u0027) kodiert, \u0027appointment\u0027 als Objekt (\u0027object\u0027), und \u0027maria\u0027 als Identitätsbezug (\u0027object\u0027). Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 wird durch \u0027perform\u0027 (Typ 8) kodiert, während \u0027make\u0027 und \u0027appointment\u0027 durch \u0027target\u0027 (Typ 9) in Verbindung gebracht werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode kodiert die Anfrage, dass Maria einen Termin machen muss. \u0027make\u0027 wird als Aktivität (\u0027activity\u0027) kodiert, \u0027appointment\u0027 als Objekt (\u0027object\u0027), und \u0027maria\u0027 als Identitätsbezug (\u0027object\u0027). Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 wird durch \u0027perform\u0027 (Typ 8) kodiert, während \u0027make\u0027 und \u0027appointment\u0027 durch \u0027target\u0027 (Typ 9) in Verbindung gebracht werden.\"\n}"
+}

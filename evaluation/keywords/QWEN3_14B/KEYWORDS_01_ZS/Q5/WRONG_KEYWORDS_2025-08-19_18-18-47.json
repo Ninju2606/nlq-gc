@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "yellow hat",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027yellow hat\u0027 and \u0027Maria\u0027 were identified from the user\u0027s request as relevant elements for the GraphCode vocabulary.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow hat\", \"Maria\"],\n  \"description\": \"The keywords \u0027yellow hat\u0027 and \u0027Maria\u0027 were identified from the user\u0027s request as relevant elements for the GraphCode vocabulary.\"\n}"
+}

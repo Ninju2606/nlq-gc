@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027 und \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027.\n4. Ersetzung der Identifikation: \u0027ich\u0027 und \u0027meinem\u0027 werden durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Typ 8), \u0027swim\u0027 erfolgt im \u0027pool\u0027 (Typ 9, aber Typ 9 passt nicht, daher wird \u0027in\u0027 als \u0027attached\u0027 interpretiert (Typ 5) und \u0027pool\u0027 ist das Ziel (Typ 9)), dabei wurden zum Teil substituierte Relationen genutzt.\n7. Typkodierung: Typ 1 (object), Typ 4 (activity), Typ 5 (attached), Typ 9 (target) wurden verwendet.\n8. Der GraphCode wurde erstellt mit Vokabular [\"Maria\", \"swim\", \"pool\"] und passender Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027 und \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027.\\n4. Ersetzung der Identifikation: \u0027ich\u0027 und \u0027meinem\u0027 werden durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Typ 8), \u0027swim\u0027 erfolgt im \u0027pool\u0027 (Typ 9, aber Typ 9 passt nicht, daher wird \u0027in\u0027 als \u0027attached\u0027 interpretiert (Typ 5) und \u0027pool\u0027 ist das Ziel (Typ 9)), dabei wurden zum Teil substituierte Relationen genutzt.\\n7. Typkodierung: Typ 1 (object), Typ 4 (activity), Typ 5 (attached), Typ 9 (target) wurden verwendet.\\n8. Der GraphCode wurde erstellt mit Vokabular [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\"] und passender Bewertungsmatrix.\"\n}"
+}

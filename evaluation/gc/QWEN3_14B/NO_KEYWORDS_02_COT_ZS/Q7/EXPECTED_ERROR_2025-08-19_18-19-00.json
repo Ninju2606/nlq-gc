@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Keine relativen Verweise, die speziell aufzu lösen sind.\n3. Übersetzung der Stichwörter ins Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage, daher keine Ersetzung.\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\n6. Die Relationen zwischen den Stichwörtern: \u0027paint\u0027 (Aktivität) wird auf \u0027houses\u0027 und \u0027questions\u0027 (Objekte) angewendet. Es gibt keine direkten Relationen zwischen \u0027houses\u0027 und \u0027questions\u0027.\n7. Typkodierungen für die Relationen: Der Typ \u0027object\u0027 (ID 1) ist für \u0027houses\u0027 und \u0027questions\u0027, der Typ \u0027activity\u0027 (ID 4) ist für \u0027paint\u0027. Da die Relationen zwischen \u0027paint\u0027 und den Objekten \u0027houses\u0027 und \u0027questions\u0027 keine offiziellen Typkodierungen haben, die sie direkt darstellen, wird angenommen, dass diese Beziehungen nicht explizit mit einer Typkodierung abgebildet werden können.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Keine relativen Verweise, die speziell aufzu lösen sind.\\n3. Übersetzung der Stichwörter ins Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage, daher keine Ersetzung.\\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\\n6. Die Relationen zwischen den Stichwörtern: \u0027paint\u0027 (Aktivität) wird auf \u0027houses\u0027 und \u0027questions\u0027 (Objekte) angewendet. Es gibt keine direkten Relationen zwischen \u0027houses\u0027 und \u0027questions\u0027.\\n7. Typkodierungen für die Relationen: Der Typ \u0027object\u0027 (ID 1) ist für \u0027houses\u0027 und \u0027questions\u0027, der Typ \u0027activity\u0027 (ID 4) ist für \u0027paint\u0027. Da die Relationen zwischen \u0027paint\u0027 und den Objekten \u0027houses\u0027 und \u0027questions\u0027 keine offiziellen Typkodierungen haben, die sie direkt darstellen, wird angenommen, dass diese Beziehungen nicht explizit mit einer Typkodierung abgebildet werden können.\"\n}"
+}

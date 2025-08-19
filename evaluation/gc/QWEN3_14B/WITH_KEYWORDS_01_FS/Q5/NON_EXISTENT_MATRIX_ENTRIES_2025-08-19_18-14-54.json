@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria einen gelben Hut trägt. Das Vokabular enthält die relevanten Begriffe, und die Bewertungsmatrix kodiert die Relationen: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 9), \u0027hat\u0027 ist ein Objekt (Typ 1), und \u0027yellow\u0027 ist ein Attribut (Typ 3). Die Relation \u0027wear\u0027 (Aktivität) wird mit \u0027maria\u0027 (Objekt) über \u0027perform\u0027 (Typ 7) verbunden, und \u0027yellow\u0027 (Attribut) wird mit \u0027hat\u0027 (Objekt) über \u0027characteristic\u0027 (Typ 14) verbunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria einen gelben Hut trägt. Das Vokabular enthält die relevanten Begriffe, und die Bewertungsmatrix kodiert die Relationen: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 9), \u0027hat\u0027 ist ein Objekt (Typ 1), und \u0027yellow\u0027 ist ein Attribut (Typ 3). Die Relation \u0027wear\u0027 (Aktivität) wird mit \u0027maria\u0027 (Objekt) über \u0027perform\u0027 (Typ 7) verbunden, und \u0027yellow\u0027 (Attribut) wird mit \u0027hat\u0027 (Objekt) über \u0027characteristic\u0027 (Typ 14) verbunden.\"\n}"
+}

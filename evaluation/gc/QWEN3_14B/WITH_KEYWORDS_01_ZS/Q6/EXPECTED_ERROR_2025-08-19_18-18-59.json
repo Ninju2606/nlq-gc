@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode basiert auf der Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 Das Vokabular enthält \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Maria ist als Nutzer identifiziert und wird daher im Vokabular enthalten. Die Bewertungsmatrix ist 3x3 groß, da 3 Einträge im Vokabular sind. Die Einträge der Einheitsdiagonalen sind mit den Kodierungen \u0027object\u0027 (1) und \u0027context\u0027 (2) gefüllt, da diese identityMapping \u003d\u003d true haben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode basiert auf der Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 Das Vokabular enthält \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Maria ist als Nutzer identifiziert und wird daher im Vokabular enthalten. Die Bewertungsmatrix ist 3x3 groß, da 3 Einträge im Vokabular sind. Die Einträge der Einheitsdiagonalen sind mit den Kodierungen \u0027object\u0027 (1) und \u0027context\u0027 (2) gefüllt, da diese identityMapping \u003d\u003d true haben.\"\n}"
+}

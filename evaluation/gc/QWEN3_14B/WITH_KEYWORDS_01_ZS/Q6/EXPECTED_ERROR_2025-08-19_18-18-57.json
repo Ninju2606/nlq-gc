@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode basiert auf der Anfrage „Wir müssen bald einen Termin ausmachen.“ Das Vokabular besteht aus „maria“, „make“ und „appointment“. Maria ist die Nutzeridentifikation und wird im Vokabular aufgenommen. Die Bewertungsmatrix wurde so gebildet, dass die Einträge auf der Einheitsdiagonalen den Typen (object, context) entsprechend der vorgegebenen Kodierung entsprechen. Der Eintrag „make“ (Index 1) ist ein Verhältnis (attribute: context), und „appointment“ (Index 2) ist ebenfalls ein Verhältnis (attribute: context). Die Verbindungen zwischen den Begriffen sind nicht vorhanden, daher sind die Nicht-diagonalen Einträge 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode basiert auf der Anfrage „Wir müssen bald einen Termin ausmachen.“ Das Vokabular besteht aus „maria“, „make“ und „appointment“. Maria ist die Nutzeridentifikation und wird im Vokabular aufgenommen. Die Bewertungsmatrix wurde so gebildet, dass die Einträge auf der Einheitsdiagonalen den Typen (object, context) entsprechend der vorgegebenen Kodierung entsprechen. Der Eintrag „make“ (Index 1) ist ein Verhältnis (attribute: context), und „appointment“ (Index 2) ist ebenfalls ein Verhältnis (attribute: context). Die Verbindungen zwischen den Begriffen sind nicht vorhanden, daher sind die Nicht-diagonalen Einträge 0.\"\n}"
+}

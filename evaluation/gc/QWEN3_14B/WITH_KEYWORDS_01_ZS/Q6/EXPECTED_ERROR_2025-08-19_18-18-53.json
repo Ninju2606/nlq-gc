@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode kodiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 Der Nutzer \u0027maria\u0027 ist in das Vokabular eingebunden, da sie aktiv an der Handlung beteiligt ist. \u0027make\u0027 ist hier ein Aktivitätsbegriff, \u0027appointment\u0027 ist ein Objekt. Die Beziehungen wurden entsprechend der Regeln kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode kodiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 Der Nutzer \u0027maria\u0027 ist in das Vokabular eingebunden, da sie aktiv an der Handlung beteiligt ist. \u0027make\u0027 ist hier ein Aktivitätsbegriff, \u0027appointment\u0027 ist ein Objekt. Die Beziehungen wurden entsprechend der Regeln kodiert.\"\n}"
+}

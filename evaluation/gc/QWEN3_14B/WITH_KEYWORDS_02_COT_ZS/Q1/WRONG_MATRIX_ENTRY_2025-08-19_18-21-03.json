@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers (Maria) wurden dem Vokabular zugeordnet.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers (identityMapping \u003d true, Typ \u003d object).\n   - \u0027play\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false, Typ \u003d activity).\n   - \u0027basketball\u0027: Bezeichnet ein Objekt (identityMapping \u003d false, Typ \u003d object).\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 und \u0027play\u0027: Maria spielt (perform) Basketball (ID \u003d 8).\n   - \u0027play\u0027 und \u0027basketball\u0027: Play ist eine Aktivität, die auf Basketball angewendet wird (ID \u003d 9 ist nicht vorhanden, aber \u0027play\u0027 und \u0027basketball\u0027 sind unterschiedliche Kategorien, deshalb keine Relation).\n4. Alle Relationen haben passende Typkodierungen:\n   - \u0027maria\u0027 (object) -\u003e \u0027play\u0027 (activity) \u003d perform (ID \u003d 8).\n   - Keine Relation zwischen \u0027play\u0027 und \u0027basketball\u0027.\n   - \u0027basketball\u0027 ist ein Objekt (object) mit Typ \u003d 1.\n5. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers (Maria) wurden dem Vokabular zugeordnet.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers (identityMapping \u003d true, Typ \u003d object).\\n   - \u0027play\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false, Typ \u003d activity).\\n   - \u0027basketball\u0027: Bezeichnet ein Objekt (identityMapping \u003d false, Typ \u003d object).\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 und \u0027play\u0027: Maria spielt (perform) Basketball (ID \u003d 8).\\n   - \u0027play\u0027 und \u0027basketball\u0027: Play ist eine Aktivität, die auf Basketball angewendet wird (ID \u003d 9 ist nicht vorhanden, aber \u0027play\u0027 und \u0027basketball\u0027 sind unterschiedliche Kategorien, deshalb keine Relation).\\n4. Alle Relationen haben passende Typkodierungen:\\n   - \u0027maria\u0027 (object) -\u003e \u0027play\u0027 (activity) \u003d perform (ID \u003d 8).\\n   - Keine Relation zwischen \u0027play\u0027 und \u0027basketball\u0027.\\n   - \u0027basketball\u0027 ist ein Objekt (object) mit Typ \u003d 1.\\n5. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (als Nutzer) die Aktivität \u0027run\u0027 mit dem Objekt \u0027tim\u0027 ausführt. \u0027tim\u0027 ist ein Objekt, \u0027run\u0027 eine Aktivität, und \u0027Maria\u0027 ist der Nutzer, der die Aktivität durchführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (als Nutzer) die Aktivität \u0027run\u0027 mit dem Objekt \u0027tim\u0027 ausführt. \u0027tim\u0027 ist ein Objekt, \u0027run\u0027 eine Aktivität, und \u0027Maria\u0027 ist der Nutzer, der die Aktivität durchführt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "sea"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Meine Tochter“, „fahren“, „Boot“, „See“. \n2. Es gibt keine relativen Verweise. \n3. Die englischen Stichwörter sind „Maria“, „daughter“, „boat“, „sea“. \n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „boat“, „sea“. \n5. „Maria“ und „daughter“ sind Objekte der Anfrage. „boat“ und „sea“ sind Objekte der Anfrage. „fahre“ ist eine Aktivität. \n6. „Maria“ fährt das „boat“. „boat“ befindet sich auf dem „sea“. \n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für auf (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"sea\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [0, 1, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 6, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Meine Tochter“, „fahren“, „Boot“, „See“. \\n2. Es gibt keine relativen Verweise. \\n3. Die englischen Stichwörter sind „Maria“, „daughter“, „boat“, „sea“. \\n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „boat“, „sea“. \\n5. „Maria“ und „daughter“ sind Objekte der Anfrage. „boat“ und „sea“ sind Objekte der Anfrage. „fahre“ ist eine Aktivität. \\n6. „Maria“ fährt das „boat“. „boat“ befindet sich auf dem „sea“. \\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für auf (in) ist 6.\"\n}"
+}

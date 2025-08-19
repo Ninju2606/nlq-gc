@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in ihrem eigenen Pool. \u0027swim\u0027 wird als Aktivität (\u0027activity\u0027) kodiert, \u0027own\u0027 als Kontext (\u0027context\u0027), und \u0027pool\u0027 als Objekt (\u0027object\u0027). Die Beziehungen: Maria (1) führt die Aktivität \u0027swim\u0027 (8) durch, \u0027swim\u0027 ist eine Aktivität (9), \u0027own\u0027 ist ein Kontext (2), und \u0027pool\u0027 ist ein Objekt (1). Maria befindet sich im \u0027pool\u0027 (6).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 6],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem eigenen Pool. \u0027swim\u0027 wird als Aktivität (\u0027activity\u0027) kodiert, \u0027own\u0027 als Kontext (\u0027context\u0027), und \u0027pool\u0027 als Objekt (\u0027object\u0027). Die Beziehungen: Maria (1) führt die Aktivität \u0027swim\u0027 (8) durch, \u0027swim\u0027 ist eine Aktivität (9), \u0027own\u0027 ist ein Kontext (2), und \u0027pool\u0027 ist ein Objekt (1). Maria befindet sich im \u0027pool\u0027 (6).\"\n}"
+}

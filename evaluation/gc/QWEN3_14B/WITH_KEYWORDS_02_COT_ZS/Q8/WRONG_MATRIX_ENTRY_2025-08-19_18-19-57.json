@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027. Das Wort \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, da sie sich selbst identifiziert. Das Wort \u0027ich\u0027 bezieht sich ebenfalls auf \u0027Maria\u0027.\n\n2. Attributeigenschaften der vorliegenden Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers, Typ: \u0027object\u0027 (ID 1)\n- \u0027person\u0027: Typ: \u0027object\u0027 (ID 1), beschreibt die Kategorie von \u0027maria\u0027\n- \u0027drive\u0027: Typ: \u0027activity\u0027 (ID 4), beschreibt eine Aktivität\n- \u0027boat\u0027: Typ: \u0027object\u0027 (ID 1), beschreibt ein Objekt\n- \u0027lake\u0027: Typ: \u0027object\u0027 (ID 1), beschreibt ein Objekt\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 (Person) ist der Ausführer der Aktivität \u0027drive\u0027 (fahren)\n- \u0027drive\u0027 (fahren) wird mit dem Objekt \u0027boat\u0027 (Boot) durchgeführt\n- \u0027boat\u0027 (Boot) befindet sich auf dem Objekt \u0027lake\u0027 (See)\n- \u0027maria\u0027 (Person) ist mit \u0027person\u0027 (Kategorie) identisch\n\n4. Überprüfung der Typkodierungen:\n- \u0027maria\u0027 und \u0027person\u0027 sind identisch → Typ: \u0027synonym\u0027 (ID 3)\n- \u0027maria\u0027 fährt \u0027boat\u0027 → Typ: \u0027perform\u0027 (ID 8)\n- \u0027drive\u0027 (fahren) wird mit \u0027boat\u0027 (Boot) durchgeführt → Typ: \u0027target\u0027 (ID 9)\n- \u0027boat\u0027 (Boot) befindet sich auf \u0027lake\u0027 (See) → Typ: \u0027attached\u0027 (ID 5)\n- \u0027maria\u0027 und \u0027person\u0027 sind identisch → Typ: \u0027synonym\u0027 (ID 3)\nAlle Relationen sind im Typkodierungs-Set vorhanden.\n\n5. Der GraphCode wurde korrekt generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027. Das Wort \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, da sie sich selbst identifiziert. Das Wort \u0027ich\u0027 bezieht sich ebenfalls auf \u0027Maria\u0027.\\n\\n2. Attributeigenschaften der vorliegenden Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers, Typ: \u0027object\u0027 (ID 1)\\n- \u0027person\u0027: Typ: \u0027object\u0027 (ID 1), beschreibt die Kategorie von \u0027maria\u0027\\n- \u0027drive\u0027: Typ: \u0027activity\u0027 (ID 4), beschreibt eine Aktivität\\n- \u0027boat\u0027: Typ: \u0027object\u0027 (ID 1), beschreibt ein Objekt\\n- \u0027lake\u0027: Typ: \u0027object\u0027 (ID 1), beschreibt ein Objekt\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 (Person) ist der Ausführer der Aktivität \u0027drive\u0027 (fahren)\\n- \u0027drive\u0027 (fahren) wird mit dem Objekt \u0027boat\u0027 (Boot) durchgeführt\\n- \u0027boat\u0027 (Boot) befindet sich auf dem Objekt \u0027lake\u0027 (See)\\n- \u0027maria\u0027 (Person) ist mit \u0027person\u0027 (Kategorie) identisch\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027maria\u0027 und \u0027person\u0027 sind identisch → Typ: \u0027synonym\u0027 (ID 3)\\n- \u0027maria\u0027 fährt \u0027boat\u0027 → Typ: \u0027perform\u0027 (ID 8)\\n- \u0027drive\u0027 (fahren) wird mit \u0027boat\u0027 (Boot) durchgeführt → Typ: \u0027target\u0027 (ID 9)\\n- \u0027boat\u0027 (Boot) befindet sich auf \u0027lake\u0027 (See) → Typ: \u0027attached\u0027 (ID 5)\\n- \u0027maria\u0027 und \u0027person\u0027 sind identisch → Typ: \u0027synonym\u0027 (ID 3)\\nAlle Relationen sind im Typkodierungs-Set vorhanden.\\n\\n5. Der GraphCode wurde korrekt generiert.\"\n}"
+}

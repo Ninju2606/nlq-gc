@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: In der Anfrage \u0027Tim rennt\u0027 gibt es keine direkten oder indirekten Verweise auf die Nutzeridentifikation \u0027Maria\u0027. Der Name \u0027Tim\u0027 ist ein Objekt, und \u0027rennt\u0027 ist eine Aktivität. Das Vokabular enthält keine Identifikationswörter wie \u0027ich\u0027 oder \u0027mein\u0027, also wird die Nutzeridentifikation ignoriert.\n\n2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Type-ID 1) und \u0027run\u0027 ist eine Aktivität (Type-ID 4).\n\n3. Beziehung zwischen den Stichwörtern: \u0027Tim\u0027 ist das Subjekt, das \u0027run\u0027 (rennt) als Aktivität ausführt. Dies kann als Beziehung \u0027perform\u0027 (Type-ID 8) zwischen \u0027tim\u0027 und \u0027run\u0027 interpretiert werden.\n\n4. Prüfung der Typkodierungen: Es gibt passende Einträge für die Attributeigenschaften (Type-ID 1 für \u0027tim\u0027 als Objekt, Type-ID 4 für \u0027run\u0027 als Aktivität) und für die Relation \u0027perform\u0027 (Type-ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: In der Anfrage \u0027Tim rennt\u0027 gibt es keine direkten oder indirekten Verweise auf die Nutzeridentifikation \u0027Maria\u0027. Der Name \u0027Tim\u0027 ist ein Objekt, und \u0027rennt\u0027 ist eine Aktivität. Das Vokabular enthält keine Identifikationswörter wie \u0027ich\u0027 oder \u0027mein\u0027, also wird die Nutzeridentifikation ignoriert.\\n\\n2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Type-ID 1) und \u0027run\u0027 ist eine Aktivität (Type-ID 4).\\n\\n3. Beziehung zwischen den Stichwörtern: \u0027Tim\u0027 ist das Subjekt, das \u0027run\u0027 (rennt) als Aktivität ausführt. Dies kann als Beziehung \u0027perform\u0027 (Type-ID 8) zwischen \u0027tim\u0027 und \u0027run\u0027 interpretiert werden.\\n\\n4. Prüfung der Typkodierungen: Es gibt passende Einträge für die Attributeigenschaften (Type-ID 1 für \u0027tim\u0027 als Objekt, Type-ID 4 für \u0027run\u0027 als Aktivität) und für die Relation \u0027perform\u0027 (Type-ID 8).\"\n}"
+}

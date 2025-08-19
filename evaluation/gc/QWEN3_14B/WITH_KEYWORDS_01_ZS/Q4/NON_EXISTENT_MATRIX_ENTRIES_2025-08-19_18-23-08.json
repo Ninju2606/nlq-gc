@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode berücksichtigt die Beziehung zwischen Maria (Nutzeridentifikation), der Aktivität \u0027swim\u0027, dem Besitz \u0027own\u0027 und dem Objekt \u0027pool\u0027. Die Typkodierungen wurden wie folgt zugewiesen: 1 \u003d object (für \u0027maria\u0027, \u0027own\u0027, \u0027pool\u0027), 8 \u003d perform (für \u0027swim\u0027), 4 \u003d target (für \u0027pool\u0027 als Ziel der Aktivität).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 4],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode berücksichtigt die Beziehung zwischen Maria (Nutzeridentifikation), der Aktivität \u0027swim\u0027, dem Besitz \u0027own\u0027 und dem Objekt \u0027pool\u0027. Die Typkodierungen wurden wie folgt zugewiesen: 1 \u003d object (für \u0027maria\u0027, \u0027own\u0027, \u0027pool\u0027), 8 \u003d perform (für \u0027swim\u0027), 4 \u003d target (für \u0027pool\u0027 als Ziel der Aktivität).\"\n}"
+}

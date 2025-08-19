@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält das Vokabular der Anfrage und definiert die Typkodierungen auf der Einheitsdiagonalen. Die Beziehungen zwischen Begriffen (z.B. \u0027make\u0027 und \u0027appointment\u0027) werden nicht direkt durch ein relationales Attribut ausgedrückt, da keine passende Typkodierung vorhanden ist. Daher sind alle Nicht-Diagonaleinträge 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode enthält das Vokabular der Anfrage und definiert die Typkodierungen auf der Einheitsdiagonalen. Die Beziehungen zwischen Begriffen (z.B. \u0027make\u0027 und \u0027appointment\u0027) werden nicht direkt durch ein relationales Attribut ausgedrückt, da keine passende Typkodierung vorhanden ist. Daher sind alle Nicht-Diagonaleinträge 0.\"\n}"
+}

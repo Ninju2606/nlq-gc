@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. Nach Verarbeitung: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n2. Relative Verweise: \u0027mir\u0027 (Nutzerreferenz) gemerkt.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n4. Identifikation des Nutzers: \u0027Maria\u0027 wird anstelle von \u0027mir\u0027 verwendet.\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id: 4), \u0027pool\u0027 ist ein Objekt (id: 1), \u0027own\u0027 ist ein Attribut (id: 5), \u0027Maria\u0027 ist ein Objekt (id: 1).\n6. Relationen: \u0027Maria\u0027 ist das Subjekt, das \u0027swim\u0027 (aktivität) durchführt. \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (id: 9, \u0027target\u0027). \u0027pool\u0027 gehört \u0027Maria\u0027 (id: 5, \u0027attached\u0027).\n7. Typkodierungen: id:4 (activity), id:9 (target), id:5 (attached) vorhanden.\n8. GraphCode erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. Nach Verarbeitung: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n2. Relative Verweise: \u0027mir\u0027 (Nutzerreferenz) gemerkt.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n4. Identifikation des Nutzers: \u0027Maria\u0027 wird anstelle von \u0027mir\u0027 verwendet.\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id: 4), \u0027pool\u0027 ist ein Objekt (id: 1), \u0027own\u0027 ist ein Attribut (id: 5), \u0027Maria\u0027 ist ein Objekt (id: 1).\\n6. Relationen: \u0027Maria\u0027 ist das Subjekt, das \u0027swim\u0027 (aktivität) durchführt. \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (id: 9, \u0027target\u0027). \u0027pool\u0027 gehört \u0027Maria\u0027 (id: 5, \u0027attached\u0027).\\n7. Typkodierungen: id:4 (activity), id:9 (target), id:5 (attached) vorhanden.\\n8. GraphCode erstellt.\"\n}"
+}

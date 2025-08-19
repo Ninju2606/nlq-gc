@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the query: \u0027Show me situations where I am wearing a yellow hat\u0027. The dictionary includes the user\u0027s identity (Maria), the activity \u0027wear\u0027, and the objects \u0027yellow\u0027 and \u0027hat\u0027. The matrix defines the relationships: Maria performs the activity \u0027wear\u0027 (type 9), which is directed towards the object \u0027hat\u0027 (type 8). The object \u0027yellow\u0027 is a characteristic (type 1) of the object \u0027hat\u0027 (type 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode for the query: \u0027Show me situations where I am wearing a yellow hat\u0027. The dictionary includes the user\u0027s identity (Maria), the activity \u0027wear\u0027, and the objects \u0027yellow\u0027 and \u0027hat\u0027. The matrix defines the relationships: Maria performs the activity \u0027wear\u0027 (type 9), which is directed towards the object \u0027hat\u0027 (type 8). The object \u0027yellow\u0027 is a characteristic (type 1) of the object \u0027hat\u0027 (type 1).\"\n}"
+}

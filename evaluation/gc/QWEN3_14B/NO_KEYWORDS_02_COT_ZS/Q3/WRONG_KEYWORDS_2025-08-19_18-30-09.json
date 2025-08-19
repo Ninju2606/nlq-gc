@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\n2. Relative Verweise: \u0027mir gehörend\u0027 bezieht sich auf Maria.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\n4. Ersetzen der Nutzeridentifikation: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), \u0027Maria\u0027 ist ein Kontext (Typ 2).\n6. Relationen: \u0027swim\u0027 (Aktivität) wird durch \u0027Maria\u0027 (Kontext) ausgelöst, \u0027pool\u0027 (Objekt) wird durch \u0027Maria\u0027 (Kontext) besessen.\n7. Typkodierungen: Typ 4 (perform) für \u0027swim\u0027 und \u0027Maria\u0027, Typ 1 (object) für \u0027pool\u0027, Typ 2 (context) für \u0027Maria\u0027.\n8. GraphCode zusammengefasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\\n2. Relative Verweise: \u0027mir gehörend\u0027 bezieht sich auf Maria.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\\n4. Ersetzen der Nutzeridentifikation: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), \u0027Maria\u0027 ist ein Kontext (Typ 2).\\n6. Relationen: \u0027swim\u0027 (Aktivität) wird durch \u0027Maria\u0027 (Kontext) ausgelöst, \u0027pool\u0027 (Objekt) wird durch \u0027Maria\u0027 (Kontext) besessen.\\n7. Typkodierungen: Typ 4 (perform) für \u0027swim\u0027 und \u0027Maria\u0027, Typ 1 (object) für \u0027pool\u0027, Typ 2 (context) für \u0027Maria\u0027.\\n8. GraphCode zusammengefasst.\"\n}"
+}

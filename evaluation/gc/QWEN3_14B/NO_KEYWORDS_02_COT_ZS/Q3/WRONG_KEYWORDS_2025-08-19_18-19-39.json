@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "I",
+    "swim",
+    "pool",
+    "mine"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027mein\u0027.\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027mine\u0027.\n4. Ersetzung der Identifikation: \u0027mir\u0027 wird durch \u0027mine\u0027 ersetzt, \u0027Maria\u0027 wird als \u0027I\u0027 in den GraphCode eingebracht.\n5. Attributeigenschaften: \u0027I\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027mine\u0027 ist ein Kontext (context).\n6. Relationen: \u0027I\u0027 performt \u0027swim\u0027 (Typ 8), \u0027swim\u0027 ist in \u0027pool\u0027 (Typ 6), \u0027pool\u0027 ist \u0027mine\u0027 (Typ 2).\n7. Typkodierungen: Typ 8 (\u0027perform\u0027), Typ 6 (\u0027under\u0027), Typ 2 (\u0027context\u0027) sind vorhanden.\n8. GraphCode wurde basierend auf den gefundenen Relationen und Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"I\", \"swim\", \"pool\", \"mine\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027mein\u0027.\\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027mine\u0027.\\n4. Ersetzung der Identifikation: \u0027mir\u0027 wird durch \u0027mine\u0027 ersetzt, \u0027Maria\u0027 wird als \u0027I\u0027 in den GraphCode eingebracht.\\n5. Attributeigenschaften: \u0027I\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027mine\u0027 ist ein Kontext (context).\\n6. Relationen: \u0027I\u0027 performt \u0027swim\u0027 (Typ 8), \u0027swim\u0027 ist in \u0027pool\u0027 (Typ 6), \u0027pool\u0027 ist \u0027mine\u0027 (Typ 2).\\n7. Typkodierungen: Typ 8 (\u0027perform\u0027), Typ 6 (\u0027under\u0027), Typ 2 (\u0027context\u0027) sind vorhanden.\\n8. GraphCode wurde basierend auf den gefundenen Relationen und Typkodierungen erstellt.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Generated vocabulary from the user\u0027s query: \u0027Ich schwimme in einem Pool, der mir gehört\u0027 with user identification \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Generated vocabulary from the user\u0027s query: \u0027Ich schwimme in einem Pool, der mir gehört\u0027 with user identification \u0027Maria\u0027.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, und \u0027lake\u0027. Auf der Einheitsdiagonalen sind die Typkodierungen (object) für die Begriffe gesetzt, da keine Beziehungen zwischen den Begriffen direkt in der Anfrage beschrieben werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, und \u0027lake\u0027. Auf der Einheitsdiagonalen sind die Typkodierungen (object) für die Begriffe gesetzt, da keine Beziehungen zwischen den Begriffen direkt in der Anfrage beschrieben werden.\"\n}"
+}

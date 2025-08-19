@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027make\u0027 (Aktivität), \u0027appointment\u0027 (Objekt) und \u0027Maria\u0027 (Identifikation des Nutzers). Da \u0027Maria\u0027 eine Identifikation ist und in der Anfrage erwähnt wird, wurde sie explizit in das Vokabular aufgenommen. Im Vokabular werden nur Aktivitäten, Objekte und Identifikationen berücksichtigt. Die Einträge auf der Einheitsdiagonalen sind mit Typen belegt, die identityMapping \u003d\u003d true haben (Typen 1-3).",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027make\u0027 (Aktivität), \u0027appointment\u0027 (Objekt) und \u0027Maria\u0027 (Identifikation des Nutzers). Da \u0027Maria\u0027 eine Identifikation ist und in der Anfrage erwähnt wird, wurde sie explizit in das Vokabular aufgenommen. Im Vokabular werden nur Aktivitäten, Objekte und Identifikationen berücksichtigt. Die Einträge auf der Einheitsdiagonalen sind mit Typen belegt, die identityMapping \u003d\u003d true haben (Typen 1-3).\"\n}"
+}

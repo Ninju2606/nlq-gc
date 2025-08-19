@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine relevanten Stichwörter, die zur Beschreibung einer Szene im Metaverse beitragen. Begriffe wie \u0027Termin ausmachen\u0027 sind zu allgemein und nicht spezifisch genug, um in das Vokabular des GraphCodes aufgenommen zu werden. Es fehlen konkrete Objekte, Attribute, Aktivitäten oder andere relevante Begriffe, die zur Konstruktion eines präzisen GraphCodes erforderlich sind.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage enthält keine relevanten Stichwörter, die zur Beschreibung einer Szene im Metaverse beitragen. Begriffe wie \u0027Termin ausmachen\u0027 sind zu allgemein und nicht spezifisch genug, um in das Vokabular des GraphCodes aufgenommen zu werden. Es fehlen konkrete Objekte, Attribute, Aktivitäten oder andere relevante Begriffe, die zur Konstruktion eines präzisen GraphCodes erforderlich sind.\"\n}"
+}

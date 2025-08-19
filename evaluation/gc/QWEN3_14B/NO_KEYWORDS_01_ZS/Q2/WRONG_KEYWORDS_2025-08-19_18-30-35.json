@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents that \u0027Maria\u0027 is the subject performing the action \u0027run\u0027 in relation to \u0027Tim\u0027. The \u0027run\u0027 action is attributed to \u0027Maria\u0027 (identity mapping).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents that \u0027Maria\u0027 is the subject performing the action \u0027run\u0027 in relation to \u0027Tim\u0027. The \u0027run\u0027 action is attributed to \u0027Maria\u0027 (identity mapping).\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "wear",
+    "yellow",
+    "hat",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027.\n2. Relative Verweise: \u0027ich\u0027 referiert auf den Nutzer \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.\n4. Identifikation des Nutzers wird in \u0027maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext (id\u003d2), \u0027wear\u0027 ist eine Aktivität (id\u003d4), \u0027yellow\u0027 und \u0027hat\u0027 sind Objekte (id\u003d1), \u0027maria\u0027 ist ein Kontext (id\u003d2).\n6. Relationen: \u0027Maria\u0027 trägt (id\u003d8) den \u0027gelben Hut\u0027; \u0027gelben Hut\u0027 besteht aus \u0027hat\u0027 (id\u003d5) und \u0027yellow\u0027 (id\u003d14).\n7. Für alle Relationen existieren Einträge in den Typkodierungen: \u0027wear\u0027 (id\u003d4), \u0027attached\u0027 (id\u003d5), \u0027perform\u0027 (id\u003d8).\n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"wear\", \"yellow\", \"hat\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 2, 0, 0],\n    [0, 0, 0, 2, 0],\n    [0, 8, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027.\\n2. Relative Verweise: \u0027ich\u0027 referiert auf den Nutzer \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.\\n4. Identifikation des Nutzers wird in \u0027maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext (id\u003d2), \u0027wear\u0027 ist eine Aktivität (id\u003d4), \u0027yellow\u0027 und \u0027hat\u0027 sind Objekte (id\u003d1), \u0027maria\u0027 ist ein Kontext (id\u003d2).\\n6. Relationen: \u0027Maria\u0027 trägt (id\u003d8) den \u0027gelben Hut\u0027; \u0027gelben Hut\u0027 besteht aus \u0027hat\u0027 (id\u003d5) und \u0027yellow\u0027 (id\u003d14).\\n7. Für alle Relationen existieren Einträge in den Typkodierungen: \u0027wear\u0027 (id\u003d4), \u0027attached\u0027 (id\u003d5), \u0027perform\u0027 (id\u003d8).\\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

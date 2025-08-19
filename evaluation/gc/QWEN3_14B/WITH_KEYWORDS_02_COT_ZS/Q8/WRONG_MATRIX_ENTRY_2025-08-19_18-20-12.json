@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich mit dem Namen \u0027Maria\u0027, also ist \u0027maria\u0027 das entsprechende Element im Vokabular. \u0027Meine Tochter\u0027 bezieht sich auf die Person \u0027maria\u0027 und wird im Vokabular als \u0027person\u0027 abgebildet.\n\n2. Erklärung der Attributeigenschaften der vorliegenden Stichwörter:\n- \u0027maria\u0027 ist eine Identifikation des Nutzers, also ein Objekt (attribute: object).\n- \u0027person\u0027 ist ein allgemeines Objekt (attribute: object).\n- \u0027drive\u0027 ist eine Aktivität (attribute: activity).\n- \u0027boat\u0027 ist ein Objekt (attribute: object).\n- \u0027lake\u0027 ist ein Objekt (attribute: object).\n\n3. Erklärung, wie die jeweiligen Stichwörter in Relation zueinander stehen:\n- \u0027maria\u0027 und \u0027person\u0027: Maria ist eine Person (Typ: \u0027daughter\u0027 oder \u0027characteristic\u0027, da es eine Beziehung zwischen Maria und der allgemeinen Kategorie \u0027person\u0027 darstellt).\n- \u0027maria\u0027 und \u0027drive\u0027: Maria fährt (Typ: \u0027perform\u0027)\n- \u0027drive\u0027 und \u0027boat\u0027: Die Aktivität \u0027drive\u0027 wird mit dem Objekt \u0027boat\u0027 durchgeführt (Typ: \u0027target\u0027)\n- \u0027boat\u0027 und \u0027lake\u0027: Das Boot befindet sich auf dem See (Typ: \u0027attached\u0027)\n\n4. Überprüfung der Typkodierungen:\n- \u0027daughter\u0027 (ID: 10) ist vorhanden.\n- \u0027perform\u0027 (ID: 8) ist vorhanden.\n- \u0027target\u0027 (ID: 9) ist vorhanden.\n- \u0027attached\u0027 (ID: 5) ist vorhanden.\n- Für \u0027person\u0027 (Objekt) und \u0027maria\u0027 (Identifikation) ist der Typ auf der Einheitsdiagonalen mit ID: 1 (object) definiert.\n- Für \u0027boat\u0027 (Objekt) und \u0027lake\u0027 (Objekt) ist der Typ auf der Einheitsdiagonalen mit ID: 1 (object) definiert.\n- Alle notwendigen Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 9, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich mit dem Namen \u0027Maria\u0027, also ist \u0027maria\u0027 das entsprechende Element im Vokabular. \u0027Meine Tochter\u0027 bezieht sich auf die Person \u0027maria\u0027 und wird im Vokabular als \u0027person\u0027 abgebildet.\\n\\n2. Erklärung der Attributeigenschaften der vorliegenden Stichwörter:\\n- \u0027maria\u0027 ist eine Identifikation des Nutzers, also ein Objekt (attribute: object).\\n- \u0027person\u0027 ist ein allgemeines Objekt (attribute: object).\\n- \u0027drive\u0027 ist eine Aktivität (attribute: activity).\\n- \u0027boat\u0027 ist ein Objekt (attribute: object).\\n- \u0027lake\u0027 ist ein Objekt (attribute: object).\\n\\n3. Erklärung, wie die jeweiligen Stichwörter in Relation zueinander stehen:\\n- \u0027maria\u0027 und \u0027person\u0027: Maria ist eine Person (Typ: \u0027daughter\u0027 oder \u0027characteristic\u0027, da es eine Beziehung zwischen Maria und der allgemeinen Kategorie \u0027person\u0027 darstellt).\\n- \u0027maria\u0027 und \u0027drive\u0027: Maria fährt (Typ: \u0027perform\u0027)\\n- \u0027drive\u0027 und \u0027boat\u0027: Die Aktivität \u0027drive\u0027 wird mit dem Objekt \u0027boat\u0027 durchgeführt (Typ: \u0027target\u0027)\\n- \u0027boat\u0027 und \u0027lake\u0027: Das Boot befindet sich auf dem See (Typ: \u0027attached\u0027)\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027daughter\u0027 (ID: 10) ist vorhanden.\\n- \u0027perform\u0027 (ID: 8) ist vorhanden.\\n- \u0027target\u0027 (ID: 9) ist vorhanden.\\n- \u0027attached\u0027 (ID: 5) ist vorhanden.\\n- Für \u0027person\u0027 (Objekt) und \u0027maria\u0027 (Identifikation) ist der Typ auf der Einheitsdiagonalen mit ID: 1 (object) definiert.\\n- Für \u0027boat\u0027 (Objekt) und \u0027lake\u0027 (Objekt) ist der Typ auf der Einheitsdiagonalen mit ID: 1 (object) definiert.\\n- Alle notwendigen Typkodierungen sind vorhanden.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "Basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. Nach dem Verallgemeinern ergibt sich: \u0027Maria\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: \u0027Ich\u0027 referenziert auf den Nutzer und wird in \u0027Maria\u0027 übersetzt.\n3. Übersetzung ins Englische: \u0027Maria\u0027 und \u0027Basketball\u0027 sind bereits im Englischen.\n4. Ersetzen der Identifikation: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da die Person auf den Anfrager referenziert.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027Basketball\u0027 ist ein Objekt (Typ 1).\n6. Relationen zwischen Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027Basketball\u0027 durch (Typ 8: perform).\n7. Typkodierung: Typ 1 (object) und Typ 8 (perform) sind in der Liste vorhanden.\n8. GraphCode wurde mithilfe der Stichwörter und Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"Basketball\"],\n  \"matrix\": [\n    [1, 8],\n    [9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. Nach dem Verallgemeinern ergibt sich: \u0027Maria\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 referenziert auf den Nutzer und wird in \u0027Maria\u0027 übersetzt.\\n3. Übersetzung ins Englische: \u0027Maria\u0027 und \u0027Basketball\u0027 sind bereits im Englischen.\\n4. Ersetzen der Identifikation: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da die Person auf den Anfrager referenziert.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027Basketball\u0027 ist ein Objekt (Typ 1).\\n6. Relationen zwischen Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027Basketball\u0027 durch (Typ 8: perform).\\n7. Typkodierung: Typ 1 (object) und Typ 8 (perform) sind in der Liste vorhanden.\\n8. GraphCode wurde mithilfe der Stichwörter und Typkodierungen erstellt.\"\n}"
+}

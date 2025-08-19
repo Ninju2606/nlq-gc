@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria (als Person) das Boot fährt (Aktivität) auf dem See (Objekt). Die Beziehungen sind wie folgt: \u0027maria\u0027 ist eine \u0027person\u0027, \u0027drive\u0027 ist eine \u0027activity\u0027, \u0027boat\u0027 wird \u0027drive\u0027 (perform) und \u0027lake\u0027 ist das \u0027target\u0027 von \u0027drive\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria (als Person) das Boot fährt (Aktivität) auf dem See (Objekt). Die Beziehungen sind wie folgt: \u0027maria\u0027 ist eine \u0027person\u0027, \u0027drive\u0027 ist eine \u0027activity\u0027, \u0027boat\u0027 wird \u0027drive\u0027 (perform) und \u0027lake\u0027 ist das \u0027target\u0027 von \u0027drive\u0027.\"\n}"
+}

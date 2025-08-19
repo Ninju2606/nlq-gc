@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents situations where Maria is wearing a yellow hat. \u0027Maria\u0027 is identified as the subject (type 1 - object), \u0027yellow\u0027 describes the attribute (type 2 - context), and \u0027hat\u0027 is the object being worn (type 3 - synonym).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"The GraphCode represents situations where Maria is wearing a yellow hat. \u0027Maria\u0027 is identified as the subject (type 1 - object), \u0027yellow\u0027 describes the attribute (type 2 - context), and \u0027hat\u0027 is the object being worn (type 3 - synonym).\"\n}"
+}

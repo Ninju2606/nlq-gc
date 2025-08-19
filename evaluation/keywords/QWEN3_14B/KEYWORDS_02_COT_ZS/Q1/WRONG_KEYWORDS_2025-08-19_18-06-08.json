@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Folgende Schritte wurden durchgeführt: 1. Potenzielle Stichwörter \u0027Ich\u0027 und \u0027Basketball\u0027 wurden ermittelt. Da \u0027Ich\u0027 auf den Nutzer referiert, wurde es durch die Identifikation \u0027Maria\u0027 ersetzt. 2. Es wurden keine relativen Verweise gefunden. 3. Die Stichwörter wurden ins Englische übersetzt. 4. Die Identifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie auf den Nutzer referiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"description\": \"Folgende Schritte wurden durchgeführt: 1. Potenzielle Stichwörter \u0027Ich\u0027 und \u0027Basketball\u0027 wurden ermittelt. Da \u0027Ich\u0027 auf den Nutzer referiert, wurde es durch die Identifikation \u0027Maria\u0027 ersetzt. 2. Es wurden keine relativen Verweise gefunden. 3. Die Stichwörter wurden ins Englische übersetzt. 4. Die Identifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie auf den Nutzer referiert.\"\n}"
+}

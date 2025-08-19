@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 ist im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 als Subjekt und Besitzer identifiziert. Die Wörter \u0027mir\u0027 und \u0027mein\u0027 sind implizit gegeben und beziehen sich auf \u0027Maria\u0027.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027 ist eine Identifikation des Nutzers (identityMapping \u003d true, Typ 1 - object)\n   - \u0027swim\u0027 beschreibt eine Aktivität (identityMapping \u003d true, Typ 4 - activity)\n   - \u0027own\u0027 weist eine Besitzbeziehung (identityMapping \u003d true, Typ 9 - target)\n   - \u0027pool\u0027 ist ein Objekt (identityMapping \u003d true, Typ 1 - object)\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 besitzt \u0027pool\u0027 (Relation: own)\n   - \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Relation: perform) – dies ist implizit, da \u0027ich schwimme\u0027 bedeutet, dass Maria schwimmt.\n4. Typkodierungen:\n   - \u0027own\u0027 -\u003e Typ 9\n   - \u0027swim\u0027 -\u003e Typ 4\n   - \u0027maria\u0027 -\u003e Typ 1\n   - \u0027pool\u0027 -\u003e Typ 1\n   Es existieren Einträge für alle identifizierten Relationen. Die IDs sind entsprechend.\n5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 ist im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 als Subjekt und Besitzer identifiziert. Die Wörter \u0027mir\u0027 und \u0027mein\u0027 sind implizit gegeben und beziehen sich auf \u0027Maria\u0027.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027 ist eine Identifikation des Nutzers (identityMapping \u003d true, Typ 1 - object)\\n   - \u0027swim\u0027 beschreibt eine Aktivität (identityMapping \u003d true, Typ 4 - activity)\\n   - \u0027own\u0027 weist eine Besitzbeziehung (identityMapping \u003d true, Typ 9 - target)\\n   - \u0027pool\u0027 ist ein Objekt (identityMapping \u003d true, Typ 1 - object)\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 besitzt \u0027pool\u0027 (Relation: own)\\n   - \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Relation: perform) – dies ist implizit, da \u0027ich schwimme\u0027 bedeutet, dass Maria schwimmt.\\n4. Typkodierungen:\\n   - \u0027own\u0027 -\u003e Typ 9\\n   - \u0027swim\u0027 -\u003e Typ 4\\n   - \u0027maria\u0027 -\u003e Typ 1\\n   - \u0027pool\u0027 -\u003e Typ 1\\n   Es existieren Einträge für alle identifizierten Relationen. Die IDs sind entsprechend.\\n5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

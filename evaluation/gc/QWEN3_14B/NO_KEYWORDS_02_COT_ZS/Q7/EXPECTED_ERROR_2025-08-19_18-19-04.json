@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0
+    ],
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Relative Verweise: Keine gefunden.\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n4. Die Identifikation des Nutzers \u0027Maria\u0027 wird ignoriert, da sie nicht in der Anfrage erwähnt wird.\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (object), \u0027question\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\n6. Relationen: \u0027paint\u0027 wird auf \u0027question\u0027 angewendet (typ 5: attached), \u0027question\u0027 wird auf \u0027house\u0027 angewendet (typ 5: attached).\n7. Typkodierungen: Typ 1 (object), Typ 5 (attached) sind vorhanden. Es gibt keine fehlende Relation.\n8. Der GraphCode besteht aus dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 5, 0],\n    [0, 1, 5],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Relative Verweise: Keine gefunden.\\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Die Identifikation des Nutzers \u0027Maria\u0027 wird ignoriert, da sie nicht in der Anfrage erwähnt wird.\\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (object), \u0027question\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\\n6. Relationen: \u0027paint\u0027 wird auf \u0027question\u0027 angewendet (typ 5: attached), \u0027question\u0027 wird auf \u0027house\u0027 angewendet (typ 5: attached).\\n7. Typkodierungen: Typ 1 (object), Typ 5 (attached) sind vorhanden. Es gibt keine fehlende Relation.\\n8. Der GraphCode besteht aus dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

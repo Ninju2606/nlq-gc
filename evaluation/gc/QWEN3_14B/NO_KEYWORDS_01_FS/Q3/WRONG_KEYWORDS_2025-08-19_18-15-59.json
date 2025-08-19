@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "mine"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      9,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria in einem Pool schwimmt, der ihr gehört. Der Typ \u0027swim\u0027 (ID 9) ist eine Aktivität, \u0027pool\u0027 (ID 1) ist ein Objekt, \u0027mine\u0027 (ID 14) ist ein Attribut, das besagt, dass der Pool Maria gehört. Die Relation \u0027perform\u0027 (ID 8) wird verwendet, um anzuzeigen, dass Maria schwimmt, und die Relation \u0027attached\u0027 (ID 5) wird verwendet, um anzuzeigen, dass der Pool Maria gehört.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"mine\"\n  ],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 9, 6, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria in einem Pool schwimmt, der ihr gehört. Der Typ \u0027swim\u0027 (ID 9) ist eine Aktivität, \u0027pool\u0027 (ID 1) ist ein Objekt, \u0027mine\u0027 (ID 14) ist ein Attribut, das besagt, dass der Pool Maria gehört. Die Relation \u0027perform\u0027 (ID 8) wird verwendet, um anzuzeigen, dass Maria schwimmt, und die Relation \u0027attached\u0027 (ID 5) wird verwendet, um anzuzeigen, dass der Pool Maria gehört.\"\n}"
+}

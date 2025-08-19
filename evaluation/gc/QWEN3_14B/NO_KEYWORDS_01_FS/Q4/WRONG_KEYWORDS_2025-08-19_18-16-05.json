@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria im Pool schwimmt. \u0027Maria\u0027 wird als Objekt (Typ 1) identifiziert, \u0027swim\u0027 als Aktivität (Typ 9), und \u0027pool\u0027 als Objekt (Typ 1). Die Relation zwischen \u0027Maria\u0027 und \u0027swim\u0027 wird als \u0027perform\u0027 (Typ 8) kodiert, und zwischen \u0027swim\u0027 und \u0027pool\u0027 als \u0027target\u0027 (Typ 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria im Pool schwimmt. \u0027Maria\u0027 wird als Objekt (Typ 1) identifiziert, \u0027swim\u0027 als Aktivität (Typ 9), und \u0027pool\u0027 als Objekt (Typ 1). Die Relation zwischen \u0027Maria\u0027 und \u0027swim\u0027 wird als \u0027perform\u0027 (Typ 8) kodiert, und zwischen \u0027swim\u0027 und \u0027pool\u0027 als \u0027target\u0027 (Typ 8).\"\n}"
+}

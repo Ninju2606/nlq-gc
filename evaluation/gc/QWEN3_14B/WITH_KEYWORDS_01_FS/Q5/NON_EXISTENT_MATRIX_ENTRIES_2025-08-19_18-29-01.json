@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation, in der Maria einen gelben Hut trägt. \u0027maria\u0027 ist die Identität, \u0027wear\u0027 beschreibt die Aktivität, \u0027hat\u0027 ist das Objekt, und \u0027yellow\u0027 ist das Attribut. Die Beziehungen zwischen diesen Begriffen sind wie folgt: Maria trägt (wear) einen Hut (hat), und der Hut ist gelb (yellow).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Maria einen gelben Hut trägt. \u0027maria\u0027 ist die Identität, \u0027wear\u0027 beschreibt die Aktivität, \u0027hat\u0027 ist das Objekt, und \u0027yellow\u0027 ist das Attribut. Die Beziehungen zwischen diesen Begriffen sind wie folgt: Maria trägt (wear) einen Hut (hat), und der Hut ist gelb (yellow).\"\n}"
+}

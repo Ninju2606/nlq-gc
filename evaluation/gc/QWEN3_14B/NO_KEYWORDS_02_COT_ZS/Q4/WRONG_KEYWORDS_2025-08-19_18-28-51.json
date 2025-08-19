@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Das Wort \u0027in\u0027 wird ignoriert, da es keine objektive Beschreibung liefert.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027 und \u0027Maria\u0027 (Nutzer). Dies wird für spätere Relationen berücksichtigt.\n3. Übersetzen der Stichwörter ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027; \u0027meinem\u0027 → \u0027my\u0027; \u0027Pool\u0027 bleibt \u0027pool\u0027.\n4. Ersetzen der Identifikation des Nutzers: \u0027meinem\u0027 → \u0027Maria\u0027s\u0027. \n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ ID 1), \u0027swim\u0027 ist eine Aktivität (Typ ID 4), \u0027pool\u0027 ist ein Objekt (Typ ID 1).\n6. Relationen: \u0027Maria\u0027 performt \u0027swim\u0027 (Typ ID 8). \u0027swim\u0027 erfolgt im \u0027pool\u0027 (Typ ID 9). \u0027Maria\u0027 ist im \u0027pool\u0027 (Typ ID 9).\n7. Prüfung der Relationen: Alle Relationen (ID 8, 9) existieren in der Typkodierung.\n8. GraphCode zusammenstellen: Vokabular (dictionary): [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027], Bewertungsmatrix: [[1, 8, 0], [0, 1, 0], [0, 0, 1]].",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Das Wort \u0027in\u0027 wird ignoriert, da es keine objektive Beschreibung liefert.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027 und \u0027Maria\u0027 (Nutzer). Dies wird für spätere Relationen berücksichtigt.\\n3. Übersetzen der Stichwörter ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027; \u0027meinem\u0027 → \u0027my\u0027; \u0027Pool\u0027 bleibt \u0027pool\u0027.\\n4. Ersetzen der Identifikation des Nutzers: \u0027meinem\u0027 → \u0027Maria\u0027s\u0027. \\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ ID 1), \u0027swim\u0027 ist eine Aktivität (Typ ID 4), \u0027pool\u0027 ist ein Objekt (Typ ID 1).\\n6. Relationen: \u0027Maria\u0027 performt \u0027swim\u0027 (Typ ID 8). \u0027swim\u0027 erfolgt im \u0027pool\u0027 (Typ ID 9). \u0027Maria\u0027 ist im \u0027pool\u0027 (Typ ID 9).\\n7. Prüfung der Relationen: Alle Relationen (ID 8, 9) existieren in der Typkodierung.\\n8. GraphCode zusammenstellen: Vokabular (dictionary): [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027], Bewertungsmatrix: [[1, 8, 0], [0, 1, 0], [0, 0, 1]].\"\n}"
+}

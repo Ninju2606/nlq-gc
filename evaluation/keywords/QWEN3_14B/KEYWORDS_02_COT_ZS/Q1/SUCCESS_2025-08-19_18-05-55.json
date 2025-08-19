@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: The potential keywords from the user query are \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. After processing, the keywords are \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\nStep 2: No relative references were found in the query.\nStep 3: The keywords have been translated into English: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\nStep 4: The user identification \u0027Ich\u0027 has been replaced with \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Step 1: The potential keywords from the user query are \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. After processing, the keywords are \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\\nStep 2: No relative references were found in the query.\\nStep 3: The keywords have been translated into English: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\\nStep 4: The user identification \u0027Ich\u0027 has been replaced with \u0027Maria\u0027.\"\n}"
+}

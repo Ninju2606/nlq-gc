@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält das Vokabular mit den Begriffen \u0027Maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. In der Bewertungsmatrix wird die Beziehung \u0027perform\u0027 (ID 8) zwischen \u0027Maria\u0027 und \u0027make\u0027 sowie \u0027target\u0027 (ID 8) zwischen \u0027make\u0027 und \u0027appointment\u0027 abgebildet. Auf der Einheitsdiagonalen sind die Typkodierungen \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 9) und \u0027object\u0027 (ID 1) hinterlegt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält das Vokabular mit den Begriffen \u0027Maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. In der Bewertungsmatrix wird die Beziehung \u0027perform\u0027 (ID 8) zwischen \u0027Maria\u0027 und \u0027make\u0027 sowie \u0027target\u0027 (ID 8) zwischen \u0027make\u0027 und \u0027appointment\u0027 abgebildet. Auf der Einheitsdiagonalen sind die Typkodierungen \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 9) und \u0027object\u0027 (ID 1) hinterlegt.\"\n}"
+}

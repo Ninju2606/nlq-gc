@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Das Vokabular umfasst die Identifikation des Nutzers (Maria), den FarbAttribut (yellow), das Kleidungsstück (hat) und die Aktivität (wear). Die Bewertungsmatrix kodiert typbasierte Relationen zwischen den Begriffen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Das Vokabular umfasst die Identifikation des Nutzers (Maria), den FarbAttribut (yellow), das Kleidungsstück (hat) und die Aktivität (wear). Die Bewertungsmatrix kodiert typbasierte Relationen zwischen den Begriffen.\"\n}"
+}

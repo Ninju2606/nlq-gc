@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "mine"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      4
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode generated for the query: \u0027I swim in a pool that belongs to me\u0027. The dictionary includes \u0027Maria\u0027 as the identified user, \u0027swim\u0027 as the activity, \u0027pool\u0027 as the object, and \u0027mine\u0027 as the ownership relation. The matrix defines the relationships using the specified type codes.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"mine\"],\n  \"matrix\": [\n    [1, 8, 0, 4],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [4, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode generated for the query: \u0027I swim in a pool that belongs to me\u0027. The dictionary includes \u0027Maria\u0027 as the identified user, \u0027swim\u0027 as the activity, \u0027pool\u0027 as the object, and \u0027mine\u0027 as the ownership relation. The matrix defines the relationships using the specified type codes.\"\n}"
+}

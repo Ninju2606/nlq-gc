@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potential keywords identified: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027. Relative references resolved: none. Translated to English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. User identification \u0027Maria\u0027 does not refer to the subject of the query and is therefore not included in the vocabulary.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"Potential keywords identified: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027. Relative references resolved: none. Translated to English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. User identification \u0027Maria\u0027 does not refer to the subject of the query and is therefore not included in the vocabulary.\"\n}"
+}

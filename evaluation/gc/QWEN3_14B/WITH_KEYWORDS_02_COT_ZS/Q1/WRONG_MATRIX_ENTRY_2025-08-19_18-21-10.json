@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer (Maria) gibt an, dass sie Basketball spielt. Das Wort \u0027ich\u0027 in der Anfrage wird aufgelöst in \u0027maria\u0027, das in das Vokabular aufgenommen wird. Das Wort \u0027Basketball\u0027 wird direkt als Objekt übernommen, und \u0027play\u0027 wird als Aktivität interpretiert.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 ist ein Objekt (Objekt des Nutzers).\n- \u0027play\u0027 ist eine Aktivität (was die Person tut).\n- \u0027basketball\u0027 ist ein Objekt (das Gegenstand des Spiels ist).\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch.\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet.\n\n4. Typkodierungen der Relationen:\n- \u0027maria\u0027 führt \u0027play\u0027 durch → Typ \u0027perform\u0027 (ID: 8).\n- \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet → Typ \u0027target\u0027 (ID: 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) gibt an, dass sie Basketball spielt. Das Wort \u0027ich\u0027 in der Anfrage wird aufgelöst in \u0027maria\u0027, das in das Vokabular aufgenommen wird. Das Wort \u0027Basketball\u0027 wird direkt als Objekt übernommen, und \u0027play\u0027 wird als Aktivität interpretiert.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 ist ein Objekt (Objekt des Nutzers).\\n- \u0027play\u0027 ist eine Aktivität (was die Person tut).\\n- \u0027basketball\u0027 ist ein Objekt (das Gegenstand des Spiels ist).\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch.\\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet.\\n\\n4. Typkodierungen der Relationen:\\n- \u0027maria\u0027 führt \u0027play\u0027 durch → Typ \u0027perform\u0027 (ID: 8).\\n- \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet → Typ \u0027target\u0027 (ID: 9).\"\n}"
+}

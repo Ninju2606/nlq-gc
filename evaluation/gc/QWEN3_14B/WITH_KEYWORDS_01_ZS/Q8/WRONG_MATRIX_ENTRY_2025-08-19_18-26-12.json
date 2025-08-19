@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "Der GraphCode codiert die Szene: Maria (Person) und sie (Person) fahren ein Boot auf einem See. \u0027Maria\u0027 wird als Identifikation des Nutzers in das Vokabular aufgenommen. Der Typ der Begriffe wurde entsprechend den vorgegebenen Typkodierungen auf der Einheitsdiagonalen gesetzt. Die Beziehungen zwischen den Begriffen werden nicht direkt in der Matrix dargestellt, da sie nicht durch passende Typkodierungen abgedeckt sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode codiert die Szene: Maria (Person) und sie (Person) fahren ein Boot auf einem See. \u0027Maria\u0027 wird als Identifikation des Nutzers in das Vokabular aufgenommen. Der Typ der Begriffe wurde entsprechend den vorgegebenen Typkodierungen auf der Einheitsdiagonalen gesetzt. Die Beziehungen zwischen den Begriffen werden nicht direkt in der Matrix dargestellt, da sie nicht durch passende Typkodierungen abgedeckt sind.\"\n}"
+}

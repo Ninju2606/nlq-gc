@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potential keywords \u0027Tim\u0027 and \u0027run\u0027 were identified from the user query. No self-identifying words such as \u0027I\u0027, \u0027my\u0027, or \u0027me\u0027 were present, so the user\u0027s identification \u0027Maria\u0027 was not included in the vocabulary. The keywords were translated into English. No further relative references were found in the query.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Potential keywords \u0027Tim\u0027 and \u0027run\u0027 were identified from the user query. No self-identifying words such as \u0027I\u0027, \u0027my\u0027, or \u0027me\u0027 were present, so the user\u0027s identification \u0027Maria\u0027 was not included in the vocabulary. The keywords were translated into English. No further relative references were found in the query.\"\n}"
+}

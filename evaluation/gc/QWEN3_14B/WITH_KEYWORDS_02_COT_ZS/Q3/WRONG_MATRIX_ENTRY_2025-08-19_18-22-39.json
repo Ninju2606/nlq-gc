@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer \u0027Maria\u0027 erwähnt in ihrer Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Die Identifikation des Nutzers (Maria) wird in das Vokabular aufgenommen, da sie im Verlauf der Anfrage explizit erwähnt wird.\n2. Die Attribute der Stichwörter sind wie folgt:\n- \u0027maria\u0027 ist eine Identifikation (attribute: \u0027object\u0027)\n- \u0027swim\u0027 ist eine Aktivität (attribute: \u0027activity\u0027)\n- \u0027own\u0027 ist ein Beziehungswort (attribute: \u0027attached\u0027)\n- \u0027pool\u0027 ist ein Objekt (attribute: \u0027object\u0027)\n3. Die Beziehungen zwischen den Stichworten sind:\n- \u0027maria\u0027 (Identifikation) hat eine Beziehung zu \u0027pool\u0027 mit \u0027own\u0027, was \u0027attached\u0027 entspricht.\n- \u0027maria\u0027 ist nicht direkt in Aktivität verwaltet, aber durch die Aktivität \u0027swim\u0027 wird sie indirekt in die Szene einbezogen.\n- \u0027swim\u0027 ist eine Aktivität, die an \u0027pool\u0027 stattfindet (Beziehung \u0027perform\u0027 oder \u0027target\u0027 möglich, allerdings wurde \u0027target\u0027 als passend identifiziert).\n4. Eine Prüfung der Relationen ergibt:\n- Beziehung \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027 entspricht der Typkodierung mit ID 5 (\u0027attached\u0027)\n- Beziehung \u0027swim\u0027 (Aktivität) zu \u0027pool\u0027 wird unter \u0027target\u0027 abgebildet (Typkodierung ID 9)\nAlle Relationen haben passende Einträge in der Typkodierung.\n5. Der GraphCode wurde entsprechend erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 erwähnt in ihrer Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Die Identifikation des Nutzers (Maria) wird in das Vokabular aufgenommen, da sie im Verlauf der Anfrage explizit erwähnt wird.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n- \u0027maria\u0027 ist eine Identifikation (attribute: \u0027object\u0027)\\n- \u0027swim\u0027 ist eine Aktivität (attribute: \u0027activity\u0027)\\n- \u0027own\u0027 ist ein Beziehungswort (attribute: \u0027attached\u0027)\\n- \u0027pool\u0027 ist ein Objekt (attribute: \u0027object\u0027)\\n3. Die Beziehungen zwischen den Stichworten sind:\\n- \u0027maria\u0027 (Identifikation) hat eine Beziehung zu \u0027pool\u0027 mit \u0027own\u0027, was \u0027attached\u0027 entspricht.\\n- \u0027maria\u0027 ist nicht direkt in Aktivität verwaltet, aber durch die Aktivität \u0027swim\u0027 wird sie indirekt in die Szene einbezogen.\\n- \u0027swim\u0027 ist eine Aktivität, die an \u0027pool\u0027 stattfindet (Beziehung \u0027perform\u0027 oder \u0027target\u0027 möglich, allerdings wurde \u0027target\u0027 als passend identifiziert).\\n4. Eine Prüfung der Relationen ergibt:\\n- Beziehung \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027 entspricht der Typkodierung mit ID 5 (\u0027attached\u0027)\\n- Beziehung \u0027swim\u0027 (Aktivität) zu \u0027pool\u0027 wird unter \u0027target\u0027 abgebildet (Typkodierung ID 9)\\nAlle Relationen haben passende Einträge in der Typkodierung.\\n5. Der GraphCode wurde entsprechend erstellt.\"\n}"
+}

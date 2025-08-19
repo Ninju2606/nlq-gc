@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027. Nach Aufarbeitung und Verallgemeinerung ergibt sich das Stichwortvokabular: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n2. Relative Verweise sind hier nicht vorhanden.\n3. Übersetze die Stichwörter ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n4. Keine Identifikation des Nutzers, die auf Maria referenziert.\n5. Attributeigenschaften:\n   - \u0027house\u0027: object\n   - \u0027question\u0027: object\n   - \u0027paint\u0027: activity\n6. Beziehungen zwischen den Stichwörtern:\n   - \u0027house\u0027 ist ein Objekt, das mit \u0027paint\u0027 in Beziehung steht (activity).\n   - \u0027question\u0027 ist ein Objekt, das mit \u0027paint\u0027 in Beziehung steht (activity).\n7. Typkodierung:\n   - \u0027house\u0027: object (id 1)\n   - \u0027question\u0027: object (id 1)\n   - \u0027paint\u0027: activity (id 4)\n   Es existieren Einträge in den Typkodierungen.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027. Nach Aufarbeitung und Verallgemeinerung ergibt sich das Stichwortvokabular: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n2. Relative Verweise sind hier nicht vorhanden.\\n3. Übersetze die Stichwörter ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Keine Identifikation des Nutzers, die auf Maria referenziert.\\n5. Attributeigenschaften:\\n   - \u0027house\u0027: object\\n   - \u0027question\u0027: object\\n   - \u0027paint\u0027: activity\\n6. Beziehungen zwischen den Stichwörtern:\\n   - \u0027house\u0027 ist ein Objekt, das mit \u0027paint\u0027 in Beziehung steht (activity).\\n   - \u0027question\u0027 ist ein Objekt, das mit \u0027paint\u0027 in Beziehung steht (activity).\\n7. Typkodierung:\\n   - \u0027house\u0027: object (id 1)\\n   - \u0027question\u0027: object (id 1)\\n   - \u0027paint\u0027: activity (id 4)\\n   Es existieren Einträge in den Typkodierungen.\\n8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: The keywords \u0027Tochter\u0027 and \u0027Boot\u0027 were identified from the user\u0027s request. The identification \u0027Maria\u0027 was added because it refers to the user. Step 2: No relative references were found. Step 3: The keywords were translated into English. Step 4: The user\u0027s identification \u0027Maria\u0027 was used in the vocabulary because it refers to the user.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"ride\"],\n  \"description\": \"Step 1: The keywords \u0027Tochter\u0027 and \u0027Boot\u0027 were identified from the user\u0027s request. The identification \u0027Maria\u0027 was added because it refers to the user. Step 2: No relative references were found. Step 3: The keywords were translated into English. Step 4: The user\u0027s identification \u0027Maria\u0027 was used in the vocabulary because it refers to the user.\"\n}"
+}

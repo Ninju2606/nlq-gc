@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden ermittelt und in Englisch übersetzt. Die Identifikation des Nutzers \u0027Maria\u0027 wurde aufgenommen, da sie im Kontext der Anfrage \u0027ich spiele Basketball\u0027 als Referenz auf den Nutzer erscheint. Das Vokabular enthält die relevanten Begriffe der Anfrage, wobei \u0027play\u0027 als Grundform von \u0027spiele\u0027 verwendet wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Stichwörter wurden ermittelt und in Englisch übersetzt. Die Identifikation des Nutzers \u0027Maria\u0027 wurde aufgenommen, da sie im Kontext der Anfrage \u0027ich spiele Basketball\u0027 als Referenz auf den Nutzer erscheint. Das Vokabular enthält die relevanten Begriffe der Anfrage, wobei \u0027play\u0027 als Grundform von \u0027spiele\u0027 verwendet wurde.\"\n}"
+}

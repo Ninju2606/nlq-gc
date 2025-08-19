@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027swim\u0027, \u0027pool\u0027, and \u0027Maria\u0027 were extracted from the user\u0027s query describing the scene in the Metaverse.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"The keywords \u0027swim\u0027, \u0027pool\u0027, and \u0027Maria\u0027 were extracted from the user\u0027s query describing the scene in the Metaverse.\"\n}"
+}

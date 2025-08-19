@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer hat keine aufgelösten relativen Verweise oder Identifikationen angegeben, außer seiner Identifikation \u0027Maria\u0027, die im Vokabular nicht direkt vorkommt. 2. Das Vokabular besteht aus den Begriffen \u0027tim\u0027 (Objekt) und \u0027run\u0027 (Aktivität). 3. Tim ist das Objekt, das die Aktivität \u0027run\u0027 (laufen) ausführt. 4. Für die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 (tim läuft) existiert die Typkodierung mit der ID 8 (\u0027perform\u0027). Auf der Einheitsdiagonalen ist die Typkodierung 1 (\u0027object\u0027) für \u0027tim\u0027 und 2 (\u0027activity\u0027) für \u0027run\u0027 vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat keine aufgelösten relativen Verweise oder Identifikationen angegeben, außer seiner Identifikation \u0027Maria\u0027, die im Vokabular nicht direkt vorkommt. 2. Das Vokabular besteht aus den Begriffen \u0027tim\u0027 (Objekt) und \u0027run\u0027 (Aktivität). 3. Tim ist das Objekt, das die Aktivität \u0027run\u0027 (laufen) ausführt. 4. Für die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 (tim läuft) existiert die Typkodierung mit der ID 8 (\u0027perform\u0027). Auf der Einheitsdiagonalen ist die Typkodierung 1 (\u0027object\u0027) für \u0027tim\u0027 und 2 (\u0027activity\u0027) für \u0027run\u0027 vorhanden.\"\n}"
+}

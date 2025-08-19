@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich schwimme in meinem Pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 referiert auf \u0027Pool\u0027.\n3. Übersetzung ins Englische ist nicht nötig, da die Anfrage bereits auf Englisch ist.\n4. Identifikation des Nutzers \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meinem\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object).\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ 8: perform), \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (Typ 9: target). \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt und referenziert \u0027pool\u0027 (Typ 9: target).\n7. Typkodierungen für die Relationen sind vorhanden: Typ 1 (object) für \u0027Maria\u0027 und \u0027pool\u0027, Typ 8 (perform) für \u0027Maria swim\u0027, Typ 9 (target) für \u0027swim pool\u0027.\n8. Der GraphCode wurde mit den Stichworten und den Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich schwimme in meinem Pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 referiert auf \u0027Pool\u0027.\\n3. Übersetzung ins Englische ist nicht nötig, da die Anfrage bereits auf Englisch ist.\\n4. Identifikation des Nutzers \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meinem\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object).\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ 8: perform), \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (Typ 9: target). \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt und referenziert \u0027pool\u0027 (Typ 9: target).\\n7. Typkodierungen für die Relationen sind vorhanden: Typ 1 (object) für \u0027Maria\u0027 und \u0027pool\u0027, Typ 8 (perform) für \u0027Maria swim\u0027, Typ 9 (target) für \u0027swim pool\u0027.\\n8. Der GraphCode wurde mit den Stichworten und den Typkodierungen erstellt.\"\n}"
+}

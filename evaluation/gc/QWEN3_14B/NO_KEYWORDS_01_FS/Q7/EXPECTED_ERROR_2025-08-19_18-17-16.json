@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene im Metaverse, in der Maria Häuser malt, um Fragen zu beantworten. Der Eintrag \u0027house\u0027 wird als Objekt (\u0027object\u0027) definiert, \u0027paint\u0027 als Aktivität (\u0027activity\u0027), und \u0027question\u0027 als Kontext (\u0027context\u0027). Die Beziehung zwischen \u0027Maria\u0027 und \u0027house\u0027 wird über \u0027attached\u0027 (\u0027attached\u0027) dargestellt, zwischen \u0027paint\u0027 und \u0027question\u0027 über \u0027target\u0027 (\u0027target\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 4, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 9, 8],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene im Metaverse, in der Maria Häuser malt, um Fragen zu beantworten. Der Eintrag \u0027house\u0027 wird als Objekt (\u0027object\u0027) definiert, \u0027paint\u0027 als Aktivität (\u0027activity\u0027), und \u0027question\u0027 als Kontext (\u0027context\u0027). Die Beziehung zwischen \u0027Maria\u0027 und \u0027house\u0027 wird über \u0027attached\u0027 (\u0027attached\u0027) dargestellt, zwischen \u0027paint\u0027 und \u0027question\u0027 über \u0027target\u0027 (\u0027target\u0027).\"\n}"
+}

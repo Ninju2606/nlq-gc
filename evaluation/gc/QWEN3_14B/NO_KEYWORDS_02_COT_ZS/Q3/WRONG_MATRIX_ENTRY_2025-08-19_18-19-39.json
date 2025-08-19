@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf das Besitzverhältnis.\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027 (da \u0027mir\u0027 in diesem Kontext zu \u0027own\u0027 wird).\n4. Ersetzung der Nutzeridentifikation: \u0027mir\u0027 wird zur Identifikation \u0027Maria\u0027, \u0027gehört\u0027 wird als \u0027own\u0027 interpretiert.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027swim\u0027 ist eine \u0027activity\u0027, \u0027pool\u0027 ist ein \u0027object\u0027, \u0027own\u0027 ist ein \u0027attribute\u0027.\n6. Relationen: \u0027Maria\u0027 \u0027perform\u0027 \u0027swim\u0027, \u0027swim\u0027 \u0027target\u0027 \u0027pool\u0027, \u0027pool\u0027 \u0027characteristic\u0027 \u0027own\u0027, \u0027Maria\u0027 \u0027attached\u0027 \u0027pool\u0027.\n7. Typkodierungen: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027characteristic\u0027 (ID 14), \u0027attached\u0027 (ID 5) existieren.\n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf das Besitzverhältnis.\\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027 (da \u0027mir\u0027 in diesem Kontext zu \u0027own\u0027 wird).\\n4. Ersetzung der Nutzeridentifikation: \u0027mir\u0027 wird zur Identifikation \u0027Maria\u0027, \u0027gehört\u0027 wird als \u0027own\u0027 interpretiert.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027swim\u0027 ist eine \u0027activity\u0027, \u0027pool\u0027 ist ein \u0027object\u0027, \u0027own\u0027 ist ein \u0027attribute\u0027.\\n6. Relationen: \u0027Maria\u0027 \u0027perform\u0027 \u0027swim\u0027, \u0027swim\u0027 \u0027target\u0027 \u0027pool\u0027, \u0027pool\u0027 \u0027characteristic\u0027 \u0027own\u0027, \u0027Maria\u0027 \u0027attached\u0027 \u0027pool\u0027.\\n7. Typkodierungen: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027characteristic\u0027 (ID 14), \u0027attached\u0027 (ID 5) existieren.\\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

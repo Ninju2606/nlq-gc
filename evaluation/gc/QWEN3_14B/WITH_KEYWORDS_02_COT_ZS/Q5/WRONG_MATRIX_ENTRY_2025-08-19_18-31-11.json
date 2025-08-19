@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer, Maria, identifiziert sich selbst, daher wird \u0027maria\u0027 in das Vokabular aufgenommen. \u0027wear\u0027 und \u0027yellow\u0027 beziehen sich auf Aktivitäten und Attribute, \u0027hat\u0027 wird als Kontext interpretiert.\n2. \u0027maria\u0027 ist ein Objekt (Typ-ID 1). \u0027wear\u0027 ist eine Aktivität (Typ-ID 4). \u0027hat\u0027 ist ein Kontext (Typ-ID 2). \u0027yellow\u0027 ist ein Attribut (Typ-ID 3).\n3. \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027yellow\u0027 Hut. \u0027hat\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027yellow\u0027.\n4. Für \u0027wear\u0027 (Aktivität) → \u0027yellow\u0027 (Attribut) ist Typ-ID 9 (\u0027target\u0027) passend. Für \u0027maria\u0027 (Objekt) → \u0027yellow\u0027 (Attribut) ist Typ-ID 14 (\u0027characteristic\u0027) passend. Für \u0027maria\u0027 (Objekt) → \u0027wear\u0027 (Aktivität) ist Typ-ID 8 (\u0027perform\u0027) passend. Für \u0027hat\u0027 (Kontext) → \u0027yellow\u0027 (Attribut) ist Typ-ID 14 (\u0027characteristic\u0027) passend. Alle Relationen sind in den Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer, Maria, identifiziert sich selbst, daher wird \u0027maria\u0027 in das Vokabular aufgenommen. \u0027wear\u0027 und \u0027yellow\u0027 beziehen sich auf Aktivitäten und Attribute, \u0027hat\u0027 wird als Kontext interpretiert.\\n2. \u0027maria\u0027 ist ein Objekt (Typ-ID 1). \u0027wear\u0027 ist eine Aktivität (Typ-ID 4). \u0027hat\u0027 ist ein Kontext (Typ-ID 2). \u0027yellow\u0027 ist ein Attribut (Typ-ID 3).\\n3. \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027yellow\u0027 Hut. \u0027hat\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027yellow\u0027.\\n4. Für \u0027wear\u0027 (Aktivität) → \u0027yellow\u0027 (Attribut) ist Typ-ID 9 (\u0027target\u0027) passend. Für \u0027maria\u0027 (Objekt) → \u0027yellow\u0027 (Attribut) ist Typ-ID 14 (\u0027characteristic\u0027) passend. Für \u0027maria\u0027 (Objekt) → \u0027wear\u0027 (Aktivität) ist Typ-ID 8 (\u0027perform\u0027) passend. Für \u0027hat\u0027 (Kontext) → \u0027yellow\u0027 (Attribut) ist Typ-ID 14 (\u0027characteristic\u0027) passend. Alle Relationen sind in den Typkodierungen vorhanden.\"\n}"
+}

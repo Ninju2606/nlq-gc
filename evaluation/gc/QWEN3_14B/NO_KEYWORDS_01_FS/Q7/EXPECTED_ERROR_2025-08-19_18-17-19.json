@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode generated for the query \u0027Häuser um Fragen zu malen\u0027 with the user identified as Maria. The dictionary includes \u0027Maria\u0027, \u0027house\u0027, \u0027paint\u0027, and \u0027question\u0027. The matrix defines the relations: Maria is an object (type 1), \u0027paint\u0027 is an activity (type 9), \u0027house\u0027 is an object (type 9) with \u0027paint\u0027 as an activity (type 8), and \u0027question\u0027 is an object (type 1) with \u0027paint\u0027 as an activity (type 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 4, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 9, 8],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode generated for the query \u0027Häuser um Fragen zu malen\u0027 with the user identified as Maria. The dictionary includes \u0027Maria\u0027, \u0027house\u0027, \u0027paint\u0027, and \u0027question\u0027. The matrix defines the relations: Maria is an object (type 1), \u0027paint\u0027 is an activity (type 9), \u0027house\u0027 is an object (type 9) with \u0027paint\u0027 as an activity (type 8), and \u0027question\u0027 is an object (type 1) with \u0027paint\u0027 as an activity (type 8).\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (Eintrag 0) die Aktivität „make“ (Eintrag 1) mit dem Objekt „appointment“ (Eintrag 2) durchführt. Die Typkodierungen 1 (object) und 2 (context) werden auf der Einheitsdiagonalen verwendet, da sie identityMapping \u003d true haben. Die Beziehungen zwischen den Begriffen sind auf 0 gesetzt, da keine weiteren Relationen innerhalb der erlaubten Typkodierungen definiert werden können.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (Eintrag 0) die Aktivität „make“ (Eintrag 1) mit dem Objekt „appointment“ (Eintrag 2) durchführt. Die Typkodierungen 1 (object) und 2 (context) werden auf der Einheitsdiagonalen verwendet, da sie identityMapping \u003d true haben. Die Beziehungen zwischen den Begriffen sind auf 0 gesetzt, da keine weiteren Relationen innerhalb der erlaubten Typkodierungen definiert werden können.\"\n}"
+}

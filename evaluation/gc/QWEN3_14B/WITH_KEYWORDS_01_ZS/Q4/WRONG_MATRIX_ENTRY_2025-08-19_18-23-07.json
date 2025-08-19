@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode repräsentiert die Situation, in der Maria im eigenen Pool schwimmt. Jeder Begriff im Vokabular wird mit einem Typ kodiert, wobei \u0027maria\u0027 als Person (identityMapping \u003d true), \u0027swim\u0027 als Aktivität (identityMapping \u003d false), \u0027own\u0027 als Kontext (identityMapping \u003d true) und \u0027pool\u0027 als Objekt (identityMapping \u003d true) klassifiziert wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situation, in der Maria im eigenen Pool schwimmt. Jeder Begriff im Vokabular wird mit einem Typ kodiert, wobei \u0027maria\u0027 als Person (identityMapping \u003d true), \u0027swim\u0027 als Aktivität (identityMapping \u003d false), \u0027own\u0027 als Kontext (identityMapping \u003d true) und \u0027pool\u0027 als Objekt (identityMapping \u003d true) klassifiziert wird.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 refereziert auf \u0027Maria\u0027, wird in \u0027pool\u0027 als Beziehung erfasst.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027.\n4. Ersetzung von Identifikation: \u0027meinem\u0027 -\u003e \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Object (Typ 1), \u0027swim\u0027 ist eine Activity (Typ 4), \u0027pool\u0027 ist ein Object (Typ 1).\n6. Relationen: \u0027Maria\u0027 ist das Subjekt der Aktivität \u0027swim\u0027, \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt.\n7. Typkodierungen: \u0027swim\u0027 und \u0027pool\u0027 sind Objects (Typ 1), \u0027swim\u0027 ist eine Activity (Typ 4), \u0027Maria\u0027 ist ein Object (Typ 1). Die Relation \u0027perform\u0027 (Typ 8) wird zwischen \u0027Maria\u0027 und \u0027swim\u0027 verwendet, und \u0027attached\u0027 (Typ 5) zwischen \u0027swim\u0027 und \u0027pool\u0027.\n8. GraphCode gebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 refereziert auf \u0027Maria\u0027, wird in \u0027pool\u0027 als Beziehung erfasst.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027.\\n4. Ersetzung von Identifikation: \u0027meinem\u0027 -\u003e \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Object (Typ 1), \u0027swim\u0027 ist eine Activity (Typ 4), \u0027pool\u0027 ist ein Object (Typ 1).\\n6. Relationen: \u0027Maria\u0027 ist das Subjekt der Aktivität \u0027swim\u0027, \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt.\\n7. Typkodierungen: \u0027swim\u0027 und \u0027pool\u0027 sind Objects (Typ 1), \u0027swim\u0027 ist eine Activity (Typ 4), \u0027Maria\u0027 ist ein Object (Typ 1). Die Relation \u0027perform\u0027 (Typ 8) wird zwischen \u0027Maria\u0027 und \u0027swim\u0027 verwendet, und \u0027attached\u0027 (Typ 5) zwischen \u0027swim\u0027 und \u0027pool\u0027.\\n8. GraphCode gebildet.\"\n}"
+}

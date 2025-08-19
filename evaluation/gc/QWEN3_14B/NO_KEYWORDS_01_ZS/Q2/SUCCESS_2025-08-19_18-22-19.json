@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "The GraphCode represents the action \u0027Tim runs\u0027. \u0027Tim\u0027 is identified as the subject performing the activity \u0027run\u0027. The diagonal entries use identity-mapping types (object and activity), while the off-diagonal entry uses the \u0027perform\u0027 relation (type 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"The GraphCode represents the action \u0027Tim runs\u0027. \u0027Tim\u0027 is identified as the subject performing the activity \u0027run\u0027. The diagonal entries use identity-mapping types (object and activity), while the off-diagonal entry uses the \u0027perform\u0027 relation (type 8).\"\n}"
+}

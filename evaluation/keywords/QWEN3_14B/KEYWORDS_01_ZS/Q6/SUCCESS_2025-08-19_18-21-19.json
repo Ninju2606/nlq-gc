@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user is asking to make an appointment soon. The dictionary includes the action \u0027make\u0027, the object \u0027appointment\u0027, and the user\u0027s identifier \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"description\": \"The user is asking to make an appointment soon. The dictionary includes the action \u0027make\u0027, the object \u0027appointment\u0027, and the user\u0027s identifier \u0027Maria\u0027.\"\n}"
+}

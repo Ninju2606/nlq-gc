@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Keine relativen Verweise zu beachten.\n3. Übersetzung in das Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\n4. Keine Identifikation des Nutzers (z. B. \u0027ich\u0027, \u0027mein\u0027) vorhanden, daher keine Ersetzung.\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\n6. Beziehungen zwischen den Stichwörtern: Das Malen (paint) wird im Kontext von Häusern (houses) und Fragen (questions) durchgeführt. Es gibt keine direkte Relation zwischen \u0027houses\u0027 und \u0027questions\u0027, sie sind beide Objekte.\n7. Typkodierungen für die Attribute: \u0027object\u0027 (Typ 1), \u0027activity\u0027 (Typ 4). Keine weiteren Relationen vorhanden. Es gibt für alle verwendeten Attribute Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Keine relativen Verweise zu beachten.\\n3. Übersetzung in das Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\\n4. Keine Identifikation des Nutzers (z. B. \u0027ich\u0027, \u0027mein\u0027) vorhanden, daher keine Ersetzung.\\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\\n6. Beziehungen zwischen den Stichwörtern: Das Malen (paint) wird im Kontext von Häusern (houses) und Fragen (questions) durchgeführt. Es gibt keine direkte Relation zwischen \u0027houses\u0027 und \u0027questions\u0027, sie sind beide Objekte.\\n7. Typkodierungen für die Attribute: \u0027object\u0027 (Typ 1), \u0027activity\u0027 (Typ 4). Keine weiteren Relationen vorhanden. Es gibt für alle verwendeten Attribute Typkodierungen.\"\n}"
+}

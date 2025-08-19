@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Der Nutzer Maria hat die Anfrage gestellt: \u0027Ich spiele Basketball\u0027. Die Identifikation \u0027Maria\u0027 wird in das Vokabular aufgenommen, da sie durch das Pronomen \u0027Ich\u0027 selbst identifiziert wird. \n2. Attributeigenschaften der Stichwörter:\n  - \u0027maria\u0027 ist ein Objekt (Typ 1), da sie die Identifikation des Nutzers darstellt.\n  - \u0027play\u0027 ist eine Aktivität (Typ 4), da es eine Handlung beschreibt.\n  - \u0027basketball\u0027 ist ein Objekt (Typ 1), da es ein konkretes Ding darstellt.\n3. Beziehungen der Stichwörter:\n  - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typ 8: \u0027perform\u0027).\n  - \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet (Typ 9: \u0027target\u0027).\n  - Jedes Wort ist ein Objekt (Typ 1), also werden die Diagonaleneinträge entsprechend kodiert.\n4. Die entsprechenden Typkodierungen existieren für alle Relationen:\n  - Typ 1: \u0027object\u0027 (identityMapping \u003d true) für \u0027maria\u0027 und \u0027basketball\u0027.\n  - Typ 4: \u0027activity\u0027 (identityMapping \u003d true) für \u0027play\u0027.\n  - Typ 8: \u0027perform\u0027 (identityMapping \u003d false) für die Relation zwischen \u0027maria\u0027 und \u0027play\u0027.\n  - Typ 9: \u0027target\u0027 (identityMapping \u003d false) für die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027.\n5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat die Anfrage gestellt: \u0027Ich spiele Basketball\u0027. Die Identifikation \u0027Maria\u0027 wird in das Vokabular aufgenommen, da sie durch das Pronomen \u0027Ich\u0027 selbst identifiziert wird. \\n2. Attributeigenschaften der Stichwörter:\\n  - \u0027maria\u0027 ist ein Objekt (Typ 1), da sie die Identifikation des Nutzers darstellt.\\n  - \u0027play\u0027 ist eine Aktivität (Typ 4), da es eine Handlung beschreibt.\\n  - \u0027basketball\u0027 ist ein Objekt (Typ 1), da es ein konkretes Ding darstellt.\\n3. Beziehungen der Stichwörter:\\n  - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typ 8: \u0027perform\u0027).\\n  - \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet (Typ 9: \u0027target\u0027).\\n  - Jedes Wort ist ein Objekt (Typ 1), also werden die Diagonaleneinträge entsprechend kodiert.\\n4. Die entsprechenden Typkodierungen existieren für alle Relationen:\\n  - Typ 1: \u0027object\u0027 (identityMapping \u003d true) für \u0027maria\u0027 und \u0027basketball\u0027.\\n  - Typ 4: \u0027activity\u0027 (identityMapping \u003d true) für \u0027play\u0027.\\n  - Typ 8: \u0027perform\u0027 (identityMapping \u003d false) für die Relation zwischen \u0027maria\u0027 und \u0027play\u0027.\\n  - Typ 9: \u0027target\u0027 (identityMapping \u003d false) für die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027.\\n5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

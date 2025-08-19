@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketball (basketball) ausführt. Die Beziehung \u0027perform\u0027 (Typ 8) wird zwischen \u0027maria\u0027 und \u0027play\u0027 etabliert, da Maria das Spiel ausführt. Die Einheitsdiagonalen sind mit den Typen befüllt, die identityMapping \u003d\u003d true sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketball (basketball) ausführt. Die Beziehung \u0027perform\u0027 (Typ 8) wird zwischen \u0027maria\u0027 und \u0027play\u0027 etabliert, da Maria das Spiel ausführt. Die Einheitsdiagonalen sind mit den Typen befüllt, die identityMapping \u003d\u003d true sind.\"\n}"
+}

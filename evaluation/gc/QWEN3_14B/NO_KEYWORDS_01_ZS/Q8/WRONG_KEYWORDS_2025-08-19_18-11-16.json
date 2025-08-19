@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents a scene in the Metaverse where Maria and her daughter are boating on a lake. The vocabulary includes the identified user (Maria), her daughter, the boat, and the lake. The matrix defines the object type for each entry on the diagonal and no additional relationships are defined as they were not explicitly specified in the query.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents a scene in the Metaverse where Maria and her daughter are boating on a lake. The vocabulary includes the identified user (Maria), her daughter, the boat, and the lake. The matrix defines the object type for each entry on the diagonal and no additional relationships are defined as they were not explicitly specified in the query.\"\n}"
+}

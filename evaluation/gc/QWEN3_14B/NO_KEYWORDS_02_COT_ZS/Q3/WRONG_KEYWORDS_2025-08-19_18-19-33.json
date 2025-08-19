@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \"schwimme\", \"Pool\", \"gehöre\" (wird zu \"pool\"). Das Wort \"mir\" deutet auf Maria hin, also wird \"Maria\" in das Vokabular aufgenommen. 2. Relative Verweise: Hier gibt es keine direkten relativen Verweise, die gesondert verarbeitet werden müssen. 3. Übersetzung ins Englische: \"swim\", \"pool\", \"Maria\". 4. Ersetzung der Nutzeridentifikation: Das Wort \"mir\" wird durch den Nutzernamen \"Maria\" ersetzt. 5. Attribut-Eigenschaften: \"swim\" ist eine Aktivität (Typ 4), \"pool\" ist ein Objekt (Typ 1), \"Maria\" ist ein Kontext (Typ 2). 6. Relationen: Es bestehen keine direkten Relationen zwischen den Stichworten, da der Satz beschreibend ist, und keine direkten Beziehungen wie \u0027unter\u0027, \u0027oben\u0027, \u0027zusammen mit\u0027, \u0027aktiviert von\u0027 usw. 7. Typkodierungen: Die Typkodierungen für die Einträge in der Einheitsdiagonalen sind vorhanden: Typ 1 (object) für \"pool\", Typ 4 (activity) für \"swim\" und Typ 2 (context) für \"Maria\".",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \\\"schwimme\\\", \\\"Pool\\\", \\\"gehöre\\\" (wird zu \\\"pool\\\"). Das Wort \\\"mir\\\" deutet auf Maria hin, also wird \\\"Maria\\\" in das Vokabular aufgenommen. 2. Relative Verweise: Hier gibt es keine direkten relativen Verweise, die gesondert verarbeitet werden müssen. 3. Übersetzung ins Englische: \\\"swim\\\", \\\"pool\\\", \\\"Maria\\\". 4. Ersetzung der Nutzeridentifikation: Das Wort \\\"mir\\\" wird durch den Nutzernamen \\\"Maria\\\" ersetzt. 5. Attribut-Eigenschaften: \\\"swim\\\" ist eine Aktivität (Typ 4), \\\"pool\\\" ist ein Objekt (Typ 1), \\\"Maria\\\" ist ein Kontext (Typ 2). 6. Relationen: Es bestehen keine direkten Relationen zwischen den Stichworten, da der Satz beschreibend ist, und keine direkten Beziehungen wie \u0027unter\u0027, \u0027oben\u0027, \u0027zusammen mit\u0027, \u0027aktiviert von\u0027 usw. 7. Typkodierungen: Die Typkodierungen für die Einträge in der Einheitsdiagonalen sind vorhanden: Typ 1 (object) für \\\"pool\\\", Typ 4 (activity) für \\\"swim\\\" und Typ 2 (context) für \\\"Maria\\\".\"\n}"
+}

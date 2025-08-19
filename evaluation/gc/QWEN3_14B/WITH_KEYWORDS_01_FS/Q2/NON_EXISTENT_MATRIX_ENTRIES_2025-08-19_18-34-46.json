@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the action \u0027Tim runs\u0027. \u0027tim\u0027 is identified as the subject (object) and \u0027run\u0027 is the activity. The relation \u0027perform\u0027 (id 8) connects \u0027tim\u0027 with \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 9]\n  ],\n  \"description\": \"The GraphCode represents the action \u0027Tim runs\u0027. \u0027tim\u0027 is identified as the subject (object) and \u0027run\u0027 is the activity. The relation \u0027perform\u0027 (id 8) connects \u0027tim\u0027 with \u0027run\u0027.\"\n}"
+}

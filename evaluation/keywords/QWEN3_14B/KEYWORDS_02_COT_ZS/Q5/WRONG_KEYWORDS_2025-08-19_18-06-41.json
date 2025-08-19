@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "yellow",
+    "hat",
+    "wear",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords identified from the user request: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\nStep 2: No relative references to resolve.\nStep 3: Keywords translated into English: \u0027situation\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\nStep 4: Replaced \u0027ich\u0027 with the user\u0027s identification \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"yellow\", \"hat\", \"wear\", \"Maria\"],\n  \"description\": \"Step 1: Potential keywords identified from the user request: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\nStep 2: No relative references to resolve.\\nStep 3: Keywords translated into English: \u0027situation\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\\nStep 4: Replaced \u0027ich\u0027 with the user\u0027s identification \u0027Maria\u0027.\"\n}"
+}

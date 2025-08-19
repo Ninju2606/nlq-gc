@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage ist zu allgemein und enthält keine konkreten Stichwörter, um einen sinnvollen GraphCode zu generieren. Der Begriff \u0027einen Termin ausmachen\u0027 ist nicht spezifisch genug, um Objekte, Attribute oder Aktivitäten in der Metaverse-Szene zu identifizieren. Außerdem fehlen konkrete Beziehungen zwischen Begriffen, die in der Bewertungsmatrix abgebildet werden müssten. Es kann daher kein GraphCode erstellt werden.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Nutzeranfrage ist zu allgemein und enthält keine konkreten Stichwörter, um einen sinnvollen GraphCode zu generieren. Der Begriff \u0027einen Termin ausmachen\u0027 ist nicht spezifisch genug, um Objekte, Attribute oder Aktivitäten in der Metaverse-Szene zu identifizieren. Außerdem fehlen konkrete Beziehungen zwischen Begriffen, die in der Bewertungsmatrix abgebildet werden müssten. Es kann daher kein GraphCode erstellt werden.\"\n}"
+}

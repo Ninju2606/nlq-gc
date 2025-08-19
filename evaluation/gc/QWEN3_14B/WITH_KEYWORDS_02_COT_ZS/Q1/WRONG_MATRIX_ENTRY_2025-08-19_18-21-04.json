@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer Maria hat eine relative Identifikation („Maria“) sowie eine Aktivität („play“) und ein Objekt („basketball“) in der Anfrage. Der GraphCode berücksichtigt diese Komponenten durch die entsprechenden Einträge im Vokabular.\n2. Das Vokabular besteht aus folgenden Stichwörtern und deren Attribute:\n   - „maria“: Identifikation des Nutzers (Typ 1: object)\n   - „play“: Aktivität (Typ 4: activity)\n   - „basketball“: Objekt (Typ 1: object)\n3. Die Relationen zwischen den Stichwörtern sind:\n   - „maria“ performt „play“ → Typ 8 (perform)\n   - „play“ wird angewendet auf „basketball“ → Typ 9 (target)\n4. Typkodierung für die Relationen:\n   - Typ 8 (perform) existiert\n   - Typ 9 (target) existiert\n5. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat eine relative Identifikation („Maria“) sowie eine Aktivität („play“) und ein Objekt („basketball“) in der Anfrage. Der GraphCode berücksichtigt diese Komponenten durch die entsprechenden Einträge im Vokabular.\\n2. Das Vokabular besteht aus folgenden Stichwörtern und deren Attribute:\\n   - „maria“: Identifikation des Nutzers (Typ 1: object)\\n   - „play“: Aktivität (Typ 4: activity)\\n   - „basketball“: Objekt (Typ 1: object)\\n3. Die Relationen zwischen den Stichwörtern sind:\\n   - „maria“ performt „play“ → Typ 8 (perform)\\n   - „play“ wird angewendet auf „basketball“ → Typ 9 (target)\\n4. Typkodierung für die Relationen:\\n   - Typ 8 (perform) existiert\\n   - Typ 9 (target) existiert\\n5. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer, Maria, gibt an, dass sie Basketball spielt. Der Begriff \u0027maria\u0027 wird somit als Identität in das Vokabular aufgenommen, da sie sich selbstbezogen beschreibt. Der Begriff \u0027play\u0027 bezieht sich auf eine Aktivität, und \u0027basketball\u0027 ist das Objekt, mit dem diese Aktivität durchgeführt wird.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Es handelt sich um eine Identifikation (identityMapping \u003d true), da sie den Nutzer selbst beschreibt.\n- \u0027play\u0027: Es ist eine Aktivität (attribute \u003d \u0027activity\u0027, id \u003d 4, identityMapping \u003d true).\n- \u0027basketball\u0027: Es ist ein Objekt (attribute \u003d \u0027object\u0027, id \u003d 1, identityMapping \u003d true).\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch (Beziehung \u0027perform\u0027).\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet (Beziehung \u0027target\u0027).\n\n4. Überprüfung der Typkodierungen:\n- \u0027perform\u0027 (Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027) ist in der Typkodierung mit ID 8 vorhanden.\n- \u0027target\u0027 (Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027) ist in der Typkodierung mit ID 9 vorhanden.\n\n5. Der GraphCode basiert auf dem Vokabular und den Typkodierungen, wobei die Einträge der Bewertungsmatrix nur die zulässigen Typkodierungen beinhalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Der Nutzer, Maria, gibt an, dass sie Basketball spielt. Der Begriff \u0027maria\u0027 wird somit als Identität in das Vokabular aufgenommen, da sie sich selbstbezogen beschreibt. Der Begriff \u0027play\u0027 bezieht sich auf eine Aktivität, und \u0027basketball\u0027 ist das Objekt, mit dem diese Aktivität durchgeführt wird.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Es handelt sich um eine Identifikation (identityMapping \u003d true), da sie den Nutzer selbst beschreibt.\\n- \u0027play\u0027: Es ist eine Aktivität (attribute \u003d \u0027activity\u0027, id \u003d 4, identityMapping \u003d true).\\n- \u0027basketball\u0027: Es ist ein Objekt (attribute \u003d \u0027object\u0027, id \u003d 1, identityMapping \u003d true).\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch (Beziehung \u0027perform\u0027).\\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet (Beziehung \u0027target\u0027).\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027perform\u0027 (Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027) ist in der Typkodierung mit ID 8 vorhanden.\\n- \u0027target\u0027 (Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027) ist in der Typkodierung mit ID 9 vorhanden.\\n\\n5. Der GraphCode basiert auf dem Vokabular und den Typkodierungen, wobei die Einträge der Bewertungsmatrix nur die zulässigen Typkodierungen beinhalten.\"\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "yellow hat",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query specifies situations where Maria is wearing a yellow hat. The vocabulary includes the object \u0027yellow hat\u0027 and the identifier \u0027Maria\u0027 as it is explicitly mentioned in the request.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow hat\", \"Maria\"],\n  \"description\": \"The query specifies situations where Maria is wearing a yellow hat. The vocabulary includes the object \u0027yellow hat\u0027 and the identifier \u0027Maria\u0027 as it is explicitly mentioned in the request.\"\n}"
+}

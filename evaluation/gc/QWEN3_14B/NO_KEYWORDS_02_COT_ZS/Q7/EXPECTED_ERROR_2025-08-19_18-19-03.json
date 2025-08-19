@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027.\n2. Relative Verweise: \u0027um\u0027 (Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027) und \u0027zu malen\u0027 (Beziehung zwischen \u0027Fragen\u0027 und \u0027malen\u0027).\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027.\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage, also wird die Identifikation \u0027Maria\u0027 ignoriert.\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity), \u0027question\u0027 ist ein Objekt (object).\n6. Relationen: \u0027house\u0027 bezieht sich auf \u0027paint\u0027, da \u0027Häuser\u0027 \u0027malen\u0027 betreffen. \u0027question\u0027 ist ein Objekt, das mit \u0027paint\u0027 in Relation steht, da man \u0027Fragen\u0027 malt.\n7. Typkodierungen: Das Beziehen von \u0027paint\u0027 auf \u0027house\u0027 (zu malen) ist eine Aktivität (ID 4). Es gibt keine direkte Beziehung zwischen \u0027question\u0027 und \u0027house\u0027, also keine weiteren Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027.\\n2. Relative Verweise: \u0027um\u0027 (Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027) und \u0027zu malen\u0027 (Beziehung zwischen \u0027Fragen\u0027 und \u0027malen\u0027).\\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027.\\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage, also wird die Identifikation \u0027Maria\u0027 ignoriert.\\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity), \u0027question\u0027 ist ein Objekt (object).\\n6. Relationen: \u0027house\u0027 bezieht sich auf \u0027paint\u0027, da \u0027Häuser\u0027 \u0027malen\u0027 betreffen. \u0027question\u0027 ist ein Objekt, das mit \u0027paint\u0027 in Relation steht, da man \u0027Fragen\u0027 malt.\\n7. Typkodierungen: Das Beziehen von \u0027paint\u0027 auf \u0027house\u0027 (zu malen) ist eine Aktivität (ID 4). Es gibt keine direkte Beziehung zwischen \u0027question\u0027 und \u0027house\u0027, also keine weiteren Relationen.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der \u0027Maria\u0027 die Aktivität \u0027run\u0027 mit dem Objekt \u0027tim\u0027 ausführt. \u0027tim\u0027 wird als Objekt typisiert, \u0027run\u0027 als Aktivität und \u0027Maria\u0027 als Kontext, da sie die Person ist, die die Handlung ausführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der \u0027Maria\u0027 die Aktivität \u0027run\u0027 mit dem Objekt \u0027tim\u0027 ausführt. \u0027tim\u0027 wird als Objekt typisiert, \u0027run\u0027 als Aktivität und \u0027Maria\u0027 als Kontext, da sie die Person ist, die die Handlung ausführt.\"\n}"
+}

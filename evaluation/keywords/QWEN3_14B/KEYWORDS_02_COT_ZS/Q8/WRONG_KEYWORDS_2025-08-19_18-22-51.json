@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: Tochter, Boot, See. Da die Identifikation des Nutzers (Maria) in der Anfrage erwähnt wird, wird sie dem Vokabular hinzugefügt.\n2. Relative Verweise wurden nicht identifiziert.\n3. Die Stichwörter wurden ins Englische übersetzt: daughter, boat, lake.\n4. Die Identifikation des Nutzers (Maria) wurde in die Stichwörter eingefügt, da sie auf den Anfrager referiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"Maria\", \"boat\", \"lake\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: Tochter, Boot, See. Da die Identifikation des Nutzers (Maria) in der Anfrage erwähnt wird, wird sie dem Vokabular hinzugefügt.\\n2. Relative Verweise wurden nicht identifiziert.\\n3. Die Stichwörter wurden ins Englische übersetzt: daughter, boat, lake.\\n4. Die Identifikation des Nutzers (Maria) wurde in die Stichwörter eingefügt, da sie auf den Anfrager referiert.\"\n}"
+}

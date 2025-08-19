@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf Maria, der Nutzer.\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027play\u0027, \u0027basketball\u0027.\n4. Ersetzung der Identifikation: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\n6. Beziehungen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 durch (Typ 8), und \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet (Typ 9).\n7. Typkodierungen überprüft: Typ 8 (perform) und Typ 9 (target) sind vorhanden und haben identityMapping \u003d false.\n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf Maria, der Nutzer.\\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027play\u0027, \u0027basketball\u0027.\\n4. Ersetzung der Identifikation: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n6. Beziehungen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 durch (Typ 8), und \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet (Typ 9).\\n7. Typkodierungen überprüft: Typ 8 (perform) und Typ 9 (target) sind vorhanden und haben identityMapping \u003d false.\\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

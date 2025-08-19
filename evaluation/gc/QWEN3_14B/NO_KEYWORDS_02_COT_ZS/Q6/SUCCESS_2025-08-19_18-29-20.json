@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine spezifischen Begriffe, Objekte, Attribute oder Aktivitäten, die für die Erstellung eines GraphCodes relevant sind. Der GraphCode erfordert eine detaillierte Beschreibung der Szene im Metaverse, um die Beziehungen zwischen Begriffen abzubilden. Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist allgemein und enthält keine Information, die zur Generierung eines GraphCodes genutzt werden kann.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage enthält keine spezifischen Begriffe, Objekte, Attribute oder Aktivitäten, die für die Erstellung eines GraphCodes relevant sind. Der GraphCode erfordert eine detaillierte Beschreibung der Szene im Metaverse, um die Beziehungen zwischen Begriffen abzubilden. Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist allgemein und enthält keine Information, die zur Generierung eines GraphCodes genutzt werden kann.\"\n}"
+}

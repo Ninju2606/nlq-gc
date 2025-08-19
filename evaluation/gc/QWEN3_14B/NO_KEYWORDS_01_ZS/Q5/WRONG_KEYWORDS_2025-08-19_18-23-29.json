@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "gelben",
+    "Hut",
+    "trage"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. \u0027Maria\u0027 ist als Identifikation des Nutzers eingetragen. Die Beziehung \u0027trage\u0027 wird als Aktivität (Typ 4) kodiert. \u0027gelben\u0027 und \u0027Hut\u0027 sind Attribute (Typ 3) und werden als Synonyme zueinander definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"gelben\", \"Hut\", \"trage\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 3, 0, 0],\n    [0, 0, 0, 3, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. \u0027Maria\u0027 ist als Identifikation des Nutzers eingetragen. Die Beziehung \u0027trage\u0027 wird als Aktivität (Typ 4) kodiert. \u0027gelben\u0027 und \u0027Hut\u0027 sind Attribute (Typ 3) und werden als Synonyme zueinander definiert.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren mit einem Boot auf einem See. \u0027maria\u0027 ist der Nutzer und wird als Person identifiziert. \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 das Objekt, \u0027lake\u0027 der Ort. Die Relationen zwischen den Begriffen sind wie folgt: Maria ist eine Person (1), fährt (7) ein Boot (3), das auf einem See (6) ist. Das Boot wird auf dem See (6) gefahren.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 9, 0, 0],\n    [0, 0, 6, 1, 0],\n    [0, 0, 0, 6, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren mit einem Boot auf einem See. \u0027maria\u0027 ist der Nutzer und wird als Person identifiziert. \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 das Objekt, \u0027lake\u0027 der Ort. Die Relationen zwischen den Begriffen sind wie folgt: Maria ist eine Person (1), fährt (7) ein Boot (3), das auf einem See (6) ist. Das Boot wird auf dem See (6) gefahren.\"\n}"
+}

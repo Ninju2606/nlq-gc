@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Tim\u0027 and \u0027run\u0027 have been extracted from the query and translated into English. Since the user mentioned \u0027Tim\u0027 as the subject performing the action, the user\u0027s identification \u0027Maria\u0027 does not apply here. The relative references and other elements have been resolved and processed accordingly.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The keywords \u0027Tim\u0027 and \u0027run\u0027 have been extracted from the query and translated into English. Since the user mentioned \u0027Tim\u0027 as the subject performing the action, the user\u0027s identification \u0027Maria\u0027 does not apply here. The relative references and other elements have been resolved and processed accordingly.\"\n}"
+}

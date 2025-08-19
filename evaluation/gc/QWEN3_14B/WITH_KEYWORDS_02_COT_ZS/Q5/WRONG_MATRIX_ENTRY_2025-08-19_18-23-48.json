@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer hat keine relativen Verweise, die aufgelöst werden müss ten. Die Identifikation \u0027Maria\u0027 wurde berücksichtigt, da sie im Vokabular explizit enthalten ist.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: object (ID 1)\n   - \u0027wear\u0027: activity (ID 4)\n   - \u0027hat\u0027: object (ID 2)\n   - \u0027yellow\u0027: attribute (ID 3)\n3. Beziehungen zwischen den Stichwörtern:\n   - \u0027maria\u0027 trägt (wear) \u0027hat\u0027 (hat ist das Objekt, das getragen wird)\n   - \u0027hat\u0027 ist \u0027yellow\u0027 (besitzt das Attribut \u0027yellow\u0027)\n   - \u0027wear\u0027 ist eine Aktivität, die \u0027maria\u0027 durchführt\n4. Beziehungen:\n   - \u0027maria\u0027 (object) trägt (activity) \u0027hat\u0027 (object): Dies entspricht dem Typ \u0027attach\u0027 (keine passende ID vorhanden) → Fehler.\n   - \u0027hat\u0027 (object) hat das Attribut \u0027yellow\u0027 (attribute): attribut (ID 3)\n   - \u0027wear\u0027 (activity) wird von \u0027maria\u0027 (object) durchgeführt: perform (ID 8)\n   - \u0027yellow\u0027 (attribute) ist ein Attribut von \u0027hat\u0027 (object): characteristic (ID 14)\n   Fehlende Typkodierungen für \u0027attach\u0027 und \u0027perform\u0027 → Fehler.\n5. Der GraphCode wurde gemäß den Regeln erstellt, allerdings sind nicht alle benötigten Relationen in den Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer hat keine relativen Verweise, die aufgelöst werden müss ten. Die Identifikation \u0027Maria\u0027 wurde berücksichtigt, da sie im Vokabular explizit enthalten ist.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: object (ID 1)\\n   - \u0027wear\u0027: activity (ID 4)\\n   - \u0027hat\u0027: object (ID 2)\\n   - \u0027yellow\u0027: attribute (ID 3)\\n3. Beziehungen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 trägt (wear) \u0027hat\u0027 (hat ist das Objekt, das getragen wird)\\n   - \u0027hat\u0027 ist \u0027yellow\u0027 (besitzt das Attribut \u0027yellow\u0027)\\n   - \u0027wear\u0027 ist eine Aktivität, die \u0027maria\u0027 durchführt\\n4. Beziehungen:\\n   - \u0027maria\u0027 (object) trägt (activity) \u0027hat\u0027 (object): Dies entspricht dem Typ \u0027attach\u0027 (keine passende ID vorhanden) → Fehler.\\n   - \u0027hat\u0027 (object) hat das Attribut \u0027yellow\u0027 (attribute): attribut (ID 3)\\n   - \u0027wear\u0027 (activity) wird von \u0027maria\u0027 (object) durchgeführt: perform (ID 8)\\n   - \u0027yellow\u0027 (attribute) ist ein Attribut von \u0027hat\u0027 (object): characteristic (ID 14)\\n   Fehlende Typkodierungen für \u0027attach\u0027 und \u0027perform\u0027 → Fehler.\\n5. Der GraphCode wurde gemäß den Regeln erstellt, allerdings sind nicht alle benötigten Relationen in den Typkodierungen vorhanden.\"\n}"
+}

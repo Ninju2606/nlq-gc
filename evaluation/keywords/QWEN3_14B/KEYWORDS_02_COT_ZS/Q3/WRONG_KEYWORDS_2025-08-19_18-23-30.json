@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords identified from the user request: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\nStep 2: Relative references were resolved, such as \u0027mir gehörend\u0027 refers to the user.\nStep 3: Identified keywords were translated to English: \u0027swim\u0027, \u0027pool\u0027, \u0027belonging to me\u0027.\nStep 4: User identification \u0027Maria\u0027 was added to the vocabulary, as the request refers to the user\u0027s personal pool.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Step 1: Potential keywords identified from the user request: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\\nStep 2: Relative references were resolved, such as \u0027mir gehörend\u0027 refers to the user.\\nStep 3: Identified keywords were translated to English: \u0027swim\u0027, \u0027pool\u0027, \u0027belonging to me\u0027.\\nStep 4: User identification \u0027Maria\u0027 was added to the vocabulary, as the request refers to the user\u0027s personal pool.\"\n}"
+}

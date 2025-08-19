@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria beobachtet, dass Tim rennt. Der Eintrag \u0027maria\u0027 ist im Vokabular enthalten, da der Nutzer dies in der Eingabe spezifiziert hat. Die Beziehung \u0027perform\u0027 (ID 8) wird zwischen \u0027tim\u0027 und \u0027run\u0027 verwendet, da Tim die Aktivität \u0027run\u0027 ausführt. Die Typkodierungen auf der Diagonalen entsprechen den Klassen der Begriffe (object, activity, context).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria beobachtet, dass Tim rennt. Der Eintrag \u0027maria\u0027 ist im Vokabular enthalten, da der Nutzer dies in der Eingabe spezifiziert hat. Die Beziehung \u0027perform\u0027 (ID 8) wird zwischen \u0027tim\u0027 und \u0027run\u0027 verwendet, da Tim die Aktivität \u0027run\u0027 ausführt. Die Typkodierungen auf der Diagonalen entsprechen den Klassen der Begriffe (object, activity, context).\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim ist die Person, die rennt. \u0027run\u0027 ist die Aktivität, die Tim ausführt. Typkodierung 1 (object) für \u0027tim\u0027 und Typkodierung 9 (activity) für \u0027run\u0027 wurden verwendet. Beziehung \u0027perform\u0027 (Typkodierung 8) zwischen \u0027tim\u0027 und \u0027run\u0027 wird dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 9]\n  ],\n  \"description\": \"Tim ist die Person, die rennt. \u0027run\u0027 ist die Aktivität, die Tim ausführt. Typkodierung 1 (object) für \u0027tim\u0027 und Typkodierung 9 (activity) für \u0027run\u0027 wurden verwendet. Beziehung \u0027perform\u0027 (Typkodierung 8) zwischen \u0027tim\u0027 und \u0027run\u0027 wird dargestellt.\"\n}"
+}

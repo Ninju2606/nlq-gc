@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords from the query: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\nStep 2: No relative references found.\nStep 3: Translation to English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\nStep 4: No user identification (e.g., \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) found in the keywords. No replacement needed.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"Step 1: Potential keywords from the query: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\nStep 2: No relative references found.\\nStep 3: Translation to English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\\nStep 4: No user identification (e.g., \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) found in the keywords. No replacement needed.\"\n}"
+}

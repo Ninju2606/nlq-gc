@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (als Person) gemeinsam mit ihrer Tochter (implizit als Person) ein Boot auf einem See fährt. Das Vokabular enthält die relevanten Begriffe aus der Anfrage (inklusive Maria). Die Bewertungsmatrix kodiert Beziehungen wie \u0027drive\u0027 (Aktivität) zum \u0027boat\u0027 (Objekt) und \u0027boat\u0027 (Objekt) zum \u0027lake\u0027 (Objekt) mittels der Typkodierung 8 (\u0027perform\u0027) und 5 (\u0027attached\u0027), sowie die Identität der Begriffe (Typkodierung 1 für \u0027person\u0027, 1 für \u0027maria\u0027, 1 für \u0027lake\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (als Person) gemeinsam mit ihrer Tochter (implizit als Person) ein Boot auf einem See fährt. Das Vokabular enthält die relevanten Begriffe aus der Anfrage (inklusive Maria). Die Bewertungsmatrix kodiert Beziehungen wie \u0027drive\u0027 (Aktivität) zum \u0027boat\u0027 (Objekt) und \u0027boat\u0027 (Objekt) zum \u0027lake\u0027 (Objekt) mittels der Typkodierung 8 (\u0027perform\u0027) und 5 (\u0027attached\u0027), sowie die Identität der Begriffe (Typkodierung 1 für \u0027person\u0027, 1 für \u0027maria\u0027, 1 für \u0027lake\u0027).\"\n}"
+}

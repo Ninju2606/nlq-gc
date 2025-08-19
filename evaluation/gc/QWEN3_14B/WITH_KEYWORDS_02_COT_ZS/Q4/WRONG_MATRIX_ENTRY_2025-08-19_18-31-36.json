@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria hat die Identifikation \u0027maria\u0027 im Vokabular. Der Begriff \u0027own\u0027 weist darauf hin, dass Maria das Objekt \u0027pool\u0027 besitzt. Das Verbs \u0027swim\u0027 bezieht sich auf Maria.\n\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true, Typ 1: object)\n   - \u0027swim\u0027: Aktivität (identityMapping \u003d true, Typ 4: activity)\n   - \u0027own\u0027: Beziehung zwischen Maria und Pool (identityMapping \u003d false, Typ 8: perform)\n   - \u0027pool\u0027: Objekt (identityMapping \u003d true, Typ 2: context)\n\n3. Relationen der Stichwörter:\n   - Maria schreibt \u0027swim\u0027 (perform, Typ 8)\n   - \u0027swim\u0027 wird in \u0027pool\u0027 ausgeübt (location, Typ 2)\n   - \u0027own\u0027 verbindet \u0027maria\u0027 mit \u0027pool\u0027 (Besitz, Typ 8)\n\n4. Prüfung der Typkodierungen:\n   - \u0027swim\u0027 \u003c-\u003e \u0027maria\u0027: Typ 8 (\u0027perform\u0027) ist vorhanden (ID 8)\n   - \u0027swim\u0027 \u003c-\u003e \u0027pool\u0027: Typ 2 (\u0027context\u0027) ist vorhanden (ID 2)\n   - \u0027maria\u0027 \u003c-\u003e \u0027pool\u0027: Typ 8 (\u0027perform\u0027) ist vorhanden (ID 8)\n   - Typ 1 (\u0027object\u0027) für \u0027maria\u0027 ist vorhanden (ID 1)\n   - Typ 2 (\u0027context\u0027) für \u0027pool\u0027 ist vorhanden (ID 2)\n   - Typ 4 (\u0027activity\u0027) für \u0027swim\u0027 ist vorhanden (ID 4)\n   - Typ 3 (\u0027synonym\u0027) ist nicht benötigt\n\n5. GraphCode ist erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 8, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria hat die Identifikation \u0027maria\u0027 im Vokabular. Der Begriff \u0027own\u0027 weist darauf hin, dass Maria das Objekt \u0027pool\u0027 besitzt. Das Verbs \u0027swim\u0027 bezieht sich auf Maria.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true, Typ 1: object)\\n   - \u0027swim\u0027: Aktivität (identityMapping \u003d true, Typ 4: activity)\\n   - \u0027own\u0027: Beziehung zwischen Maria und Pool (identityMapping \u003d false, Typ 8: perform)\\n   - \u0027pool\u0027: Objekt (identityMapping \u003d true, Typ 2: context)\\n\\n3. Relationen der Stichwörter:\\n   - Maria schreibt \u0027swim\u0027 (perform, Typ 8)\\n   - \u0027swim\u0027 wird in \u0027pool\u0027 ausgeübt (location, Typ 2)\\n   - \u0027own\u0027 verbindet \u0027maria\u0027 mit \u0027pool\u0027 (Besitz, Typ 8)\\n\\n4. Prüfung der Typkodierungen:\\n   - \u0027swim\u0027 \u003c-\u003e \u0027maria\u0027: Typ 8 (\u0027perform\u0027) ist vorhanden (ID 8)\\n   - \u0027swim\u0027 \u003c-\u003e \u0027pool\u0027: Typ 2 (\u0027context\u0027) ist vorhanden (ID 2)\\n   - \u0027maria\u0027 \u003c-\u003e \u0027pool\u0027: Typ 8 (\u0027perform\u0027) ist vorhanden (ID 8)\\n   - Typ 1 (\u0027object\u0027) für \u0027maria\u0027 ist vorhanden (ID 1)\\n   - Typ 2 (\u0027context\u0027) für \u0027pool\u0027 ist vorhanden (ID 2)\\n   - Typ 4 (\u0027activity\u0027) für \u0027swim\u0027 ist vorhanden (ID 4)\\n   - Typ 3 (\u0027synonym\u0027) ist nicht benötigt\\n\\n5. GraphCode ist erfolgreich generiert.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents a scene where Maria paints houses to ask questions. The vocabulary includes \u0027Maria\u0027 (identity), \u0027house\u0027 (object), \u0027paint\u0027 (activity), and \u0027question\u0027 (object). The matrix establishes the relationships using the specified type codes.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents a scene where Maria paints houses to ask questions. The vocabulary includes \u0027Maria\u0027 (identity), \u0027house\u0027 (object), \u0027paint\u0027 (activity), and \u0027question\u0027 (object). The matrix establishes the relationships using the specified type codes.\"\n}"
+}

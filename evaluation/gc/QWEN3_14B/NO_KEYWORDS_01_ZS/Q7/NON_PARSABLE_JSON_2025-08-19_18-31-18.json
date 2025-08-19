@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass die Szene im Metaverse H\\xe4user umfasst, deren Ziel es ist, Fragen zu malen. Jeder Eintrag im Vokabular ist ein eigenst\\xe4ndiges Objekt/Attribut/Erlebnis ohne direkte Beziehung zu den anderen.\"\n}"
+}

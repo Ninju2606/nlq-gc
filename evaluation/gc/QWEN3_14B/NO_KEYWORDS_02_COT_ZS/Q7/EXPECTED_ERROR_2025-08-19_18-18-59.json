@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Keine relativen Verweise, die aufgeklärt werden müssen.\n3. Übersetzung der Stichwörter ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027), deshalb wird die Identifikation \u0027Maria\u0027 ignoriert.\n5. Attributeigenschaften: \u0027house\u0027 und \u0027question\u0027 sind Objekte (Typ 1), \u0027paint\u0027 ist eine Aktivität (Typ 4).\n6. Beziehungen: Es gibt keine Relationen zwischen den Stichwörtern.\n7. Für die Einträge auf der Einheitsdiagonalen wurden Typen mit identityMapping \u003d\u003d true (Typ 1 für Objekte und Typ 4 für Aktivitäten) verwendet. Da keine Relationen zwischen den Begriffen bestehen, sind alle nicht-diagonalen Einträge 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Keine relativen Verweise, die aufgeklärt werden müssen.\\n3. Übersetzung der Stichwörter ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027), deshalb wird die Identifikation \u0027Maria\u0027 ignoriert.\\n5. Attributeigenschaften: \u0027house\u0027 und \u0027question\u0027 sind Objekte (Typ 1), \u0027paint\u0027 ist eine Aktivität (Typ 4).\\n6. Beziehungen: Es gibt keine Relationen zwischen den Stichwörtern.\\n7. Für die Einträge auf der Einheitsdiagonalen wurden Typen mit identityMapping \u003d\u003d true (Typ 1 für Objekte und Typ 4 für Aktivitäten) verwendet. Da keine Relationen zwischen den Begriffen bestehen, sind alle nicht-diagonalen Einträge 0.\"\n}"
+}

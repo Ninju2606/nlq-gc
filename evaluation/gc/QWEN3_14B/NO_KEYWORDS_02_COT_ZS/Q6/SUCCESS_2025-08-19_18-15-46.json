@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Wir müssen bald einen Termin ausmachen.\" enthält keine expliziten Begriffe, die als Objekte, Attribute, Aktivitäten oder Kontexte im Metaverse identifiziert werden können. Der GraphCode kann daher nicht generiert werden, da keine sinnvollen Stichwörter für das Vokabular und deren Relationen in der Bewertungsmatrix bestimmt werden können.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage \\\"Wir müssen bald einen Termin ausmachen.\\\" enthält keine expliziten Begriffe, die als Objekte, Attribute, Aktivitäten oder Kontexte im Metaverse identifiziert werden können. Der GraphCode kann daher nicht generiert werden, da keine sinnvollen Stichwörter für das Vokabular und deren Relationen in der Bewertungsmatrix bestimmt werden können.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "mine"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027mein\u0027.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027mine\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 → \u0027Maria\u0027, \u0027mein\u0027 → \u0027mine\u0027.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 hat den Typ 1 (object),\n   - \u0027swim\u0027 hat den Typ 4 (activity),\n   - \u0027pool\u0027 hat den Typ 1 (object),\n   - \u0027mine\u0027 hat den Typ 2 (context).\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 (object) und \u0027swim\u0027 (activity): \u0027Maria swim\u0027 → \u0027perform\u0027 (Typ 8).\n   - \u0027swim\u0027 (activity) und \u0027pool\u0027 (object): \u0027swim in a pool\u0027 → \u0027target\u0027 (Typ 9).\n   - \u0027pool\u0027 (object) und \u0027mine\u0027 (context): \u0027pool\u0027 is \u0027mine\u0027 → \u0027attached\u0027 (Typ 5).\n7. Prüfung der Typkodierungen:\n   - Typ 8 (\u0027perform\u0027) und Typ 9 (\u0027target\u0027) und Typ 5 (\u0027attached\u0027) sind vorhanden.\n8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"mine\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027mein\u0027.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027mine\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 → \u0027Maria\u0027, \u0027mein\u0027 → \u0027mine\u0027.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 hat den Typ 1 (object),\\n   - \u0027swim\u0027 hat den Typ 4 (activity),\\n   - \u0027pool\u0027 hat den Typ 1 (object),\\n   - \u0027mine\u0027 hat den Typ 2 (context).\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 (object) und \u0027swim\u0027 (activity): \u0027Maria swim\u0027 → \u0027perform\u0027 (Typ 8).\\n   - \u0027swim\u0027 (activity) und \u0027pool\u0027 (object): \u0027swim in a pool\u0027 → \u0027target\u0027 (Typ 9).\\n   - \u0027pool\u0027 (object) und \u0027mine\u0027 (context): \u0027pool\u0027 is \u0027mine\u0027 → \u0027attached\u0027 (Typ 5).\\n7. Prüfung der Typkodierungen:\\n   - Typ 8 (\u0027perform\u0027) und Typ 9 (\u0027target\u0027) und Typ 5 (\u0027attached\u0027) sind vorhanden.\\n8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

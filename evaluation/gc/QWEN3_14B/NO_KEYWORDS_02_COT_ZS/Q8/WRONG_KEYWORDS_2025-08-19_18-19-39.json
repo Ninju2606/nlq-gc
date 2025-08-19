@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027ich\u0027 (Maria), \u0027ich\u0027 bezieht sich auf Maria.\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on a lake\u0027.\n4. Ersetzung von Nutzeridentifikation: \u0027ich\u0027 und \u0027meine Tochter\u0027 werden in \u0027Maria\u0027 und \u0027daughter\u0027 übersetzt, wobei \u0027Maria\u0027 explizit als Nutzeridentifikation genutzt wird.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027daughter\u0027 ist ein Beziehungsattribut (attached), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Objekt (object).\n6. Relationen: \u0027Maria\u0027 hat eine \u0027daughter\u0027, \u0027daughter\u0027 ist mit \u0027Maria\u0027 verbunden (attached), \u0027boat\u0027 ist auf dem \u0027lake\u0027.\n7. Typkodierung: \u0027attached\u0027 (ID: 5), \u0027object\u0027 (ID: 1) ist für \u0027Maria\u0027, \u0027boat\u0027 und \u0027lake\u0027.\n8. GraphCode mit Dictionary und Matrix zusammengefasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027ich\u0027 (Maria), \u0027ich\u0027 bezieht sich auf Maria.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on a lake\u0027.\\n4. Ersetzung von Nutzeridentifikation: \u0027ich\u0027 und \u0027meine Tochter\u0027 werden in \u0027Maria\u0027 und \u0027daughter\u0027 übersetzt, wobei \u0027Maria\u0027 explizit als Nutzeridentifikation genutzt wird.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027daughter\u0027 ist ein Beziehungsattribut (attached), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Objekt (object).\\n6. Relationen: \u0027Maria\u0027 hat eine \u0027daughter\u0027, \u0027daughter\u0027 ist mit \u0027Maria\u0027 verbunden (attached), \u0027boat\u0027 ist auf dem \u0027lake\u0027.\\n7. Typkodierung: \u0027attached\u0027 (ID: 5), \u0027object\u0027 (ID: 1) ist für \u0027Maria\u0027, \u0027boat\u0027 und \u0027lake\u0027.\\n8. GraphCode mit Dictionary und Matrix zusammengefasst.\"\n}"
+}

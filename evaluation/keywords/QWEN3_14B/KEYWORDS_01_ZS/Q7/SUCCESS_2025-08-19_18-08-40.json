@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query \u0027Häuser um Fragen zu malen\u0027 has been converted into keywords relevant to the GraphCode vocabulary. The keywords \u0027houses\u0027, \u0027paint\u0027, and \u0027questions\u0027 were identified as central elements of the scene description in the Metaverse.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"description\": \"The query \u0027Häuser um Fragen zu malen\u0027 has been converted into keywords relevant to the GraphCode vocabulary. The keywords \u0027houses\u0027, \u0027paint\u0027, and \u0027questions\u0027 were identified as central elements of the scene description in the Metaverse.\"\n}"
+}

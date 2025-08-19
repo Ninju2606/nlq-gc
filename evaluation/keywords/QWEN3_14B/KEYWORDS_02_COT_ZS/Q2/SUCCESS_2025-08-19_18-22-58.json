@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords identified from the user\u0027s query: \u0027Tim\u0027, \u0027rennt\u0027.\nStep 2: No relative references found in the query.\nStep 3: Translated keywords into English: \u0027Tim\u0027, \u0027run\u0027.\nStep 4: The user\u0027s identifier \u0027Maria\u0027 is not referenced in the query, so no substitution is needed.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Step 1: Potential keywords identified from the user\u0027s query: \u0027Tim\u0027, \u0027rennt\u0027.\\nStep 2: No relative references found in the query.\\nStep 3: Translated keywords into English: \u0027Tim\u0027, \u0027run\u0027.\\nStep 4: The user\u0027s identifier \u0027Maria\u0027 is not referenced in the query, so no substitution is needed.\"\n}"
+}

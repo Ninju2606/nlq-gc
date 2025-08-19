@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in seiner Anfrage. Es wird jedoch das vom Nutzer spezifizierte Vokabular verwendet, da der Nutzer sich selbst in der Anfrage identifiziert. 2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027make\u0027 ist eine Aktivität (Typ 4), \u0027appointment\u0027 ist ein Objekt (Typ 1). 3. Beziehung zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027make\u0027 durch, und das Ergebnis der Aktivität ist \u0027appointment\u0027. 4. Es gibt Einträge in den bereitgestellten Typkodierungen: Typ 1 (object) für \u0027maria\u0027 und \u0027appointment\u0027, Typ 4 (activity) für \u0027make\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in seiner Anfrage. Es wird jedoch das vom Nutzer spezifizierte Vokabular verwendet, da der Nutzer sich selbst in der Anfrage identifiziert. 2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027make\u0027 ist eine Aktivität (Typ 4), \u0027appointment\u0027 ist ein Objekt (Typ 1). 3. Beziehung zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027make\u0027 durch, und das Ergebnis der Aktivität ist \u0027appointment\u0027. 4. Es gibt Einträge in den bereitgestellten Typkodierungen: Typ 1 (object) für \u0027maria\u0027 und \u0027appointment\u0027, Typ 4 (activity) für \u0027make\u0027.\"\n}"
+}

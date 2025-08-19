@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer hat die Anfrage gestellt: \u0027Ich spiele Basketball\u0027. Die Identifikation des Nutzers ist \u0027Maria\u0027. Der GraphCode wird entsprechend der Regeln erstellt, wobei das Wort \u0027maria\u0027 als Identifikation verwendet wird, da der Nutzer sich selbst bezeichnet. \n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 wird als Identifikation (identityMapping \u003d true) verwendet und ist ein \u0027object\u0027 (Typ-ID 1).\n- \u0027play\u0027 ist eine Aktivität (attribute \u003d \u0027activity\u0027, Typ-ID 4).\n- \u0027basketball\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, Typ-ID 1).\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch (Typ 8: \u0027perform\u0027).\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet.\n4. Für die Relationen \u0027perform\u0027 (Typ-ID 8) und \u0027object\u0027 (Typ-ID 1) gibt es entsprechende Einträge in den Typkodierungen.\n5. Die Informationen wurden zu einem GraphCode zusammengefasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer hat die Anfrage gestellt: \u0027Ich spiele Basketball\u0027. Die Identifikation des Nutzers ist \u0027Maria\u0027. Der GraphCode wird entsprechend der Regeln erstellt, wobei das Wort \u0027maria\u0027 als Identifikation verwendet wird, da der Nutzer sich selbst bezeichnet. \\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 wird als Identifikation (identityMapping \u003d true) verwendet und ist ein \u0027object\u0027 (Typ-ID 1).\\n- \u0027play\u0027 ist eine Aktivität (attribute \u003d \u0027activity\u0027, Typ-ID 4).\\n- \u0027basketball\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, Typ-ID 1).\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch (Typ 8: \u0027perform\u0027).\\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet.\\n4. Für die Relationen \u0027perform\u0027 (Typ-ID 8) und \u0027object\u0027 (Typ-ID 1) gibt es entsprechende Einträge in den Typkodierungen.\\n5. Die Informationen wurden zu einem GraphCode zusammengefasst.\"\n}"
+}

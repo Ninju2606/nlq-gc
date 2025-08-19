@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode stellt dar, dass Maria (Eintrag 0) die Aktivität \u0027make\u0027 (Eintrag 1) mit dem Objekt \u0027appointment\u0027 (Eintrag 2) durchführt. Die Typkodierung 2 (Objekt) wird für \u0027appointment\u0027, Typkodierung 4 (Aktivität) für \u0027make\u0027 und Typkodierung 1 (Objekt) für \u0027maria\u0027 verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode stellt dar, dass Maria (Eintrag 0) die Aktivität \u0027make\u0027 (Eintrag 1) mit dem Objekt \u0027appointment\u0027 (Eintrag 2) durchführt. Die Typkodierung 2 (Objekt) wird für \u0027appointment\u0027, Typkodierung 4 (Aktivität) für \u0027make\u0027 und Typkodierung 1 (Objekt) für \u0027maria\u0027 verwendet.\"\n}"
+}

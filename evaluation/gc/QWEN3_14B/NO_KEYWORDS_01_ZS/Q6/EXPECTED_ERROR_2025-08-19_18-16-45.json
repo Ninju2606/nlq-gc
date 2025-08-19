@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027, und \u0027Maria\u0027. Da der Nutzer mit \u0027Maria\u0027 sich selbst identifiziert, wurde dieses Wort explizit in das Vokabular aufgenommen. Da keine Relationen zwischen den Begriffen in der Anfrage gefunden wurden, sind nur die Diagonaleinträge der Bewertungsmatrix belegt.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027, und \u0027Maria\u0027. Da der Nutzer mit \u0027Maria\u0027 sich selbst identifiziert, wurde dieses Wort explizit in das Vokabular aufgenommen. Da keine Relationen zwischen den Begriffen in der Anfrage gefunden wurden, sind nur die Diagonaleinträge der Bewertungsmatrix belegt.\"\n}"
+}

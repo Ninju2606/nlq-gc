@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer, Maria, wird im Vokabular als \u0027maria\u0027 berücksichtigt, da sie die Anfrage mit \u0027Ich schwimme...\u0027 selbst identifiziert. Die Relation \u0027own\u0027 (id:5) beschreibt, dass der Pool Maria gehört. Die Relation \u0027swim\u0027 (id:8) beschreibt, dass Maria im Pool schwimmt. 2. \u0027maria\u0027 ist ein Identifikationsbegriff (id:1), \u0027swim\u0027 ist eine Aktivität (id:4), \u0027own\u0027 ist eine Beziehung (id:5), \u0027pool\u0027 ist ein Objekt (id:1). 3. Maria schwimmt (\u0027swim\u0027) im Pool (\u0027pool\u0027), und der Pool gehört (\u0027own\u0027) Maria. 4. Für alle Relationen gibt es Typkodierungen. \u0027swim\u0027 (id:8), \u0027own\u0027 (id:5), \u0027maria\u0027 (id:1), \u0027pool\u0027 (id:1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer, Maria, wird im Vokabular als \u0027maria\u0027 berücksichtigt, da sie die Anfrage mit \u0027Ich schwimme...\u0027 selbst identifiziert. Die Relation \u0027own\u0027 (id:5) beschreibt, dass der Pool Maria gehört. Die Relation \u0027swim\u0027 (id:8) beschreibt, dass Maria im Pool schwimmt. 2. \u0027maria\u0027 ist ein Identifikationsbegriff (id:1), \u0027swim\u0027 ist eine Aktivität (id:4), \u0027own\u0027 ist eine Beziehung (id:5), \u0027pool\u0027 ist ein Objekt (id:1). 3. Maria schwimmt (\u0027swim\u0027) im Pool (\u0027pool\u0027), und der Pool gehört (\u0027own\u0027) Maria. 4. Für alle Relationen gibt es Typkodierungen. \u0027swim\u0027 (id:8), \u0027own\u0027 (id:5), \u0027maria\u0027 (id:1), \u0027pool\u0027 (id:1).\"\n}"
+}

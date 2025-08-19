@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents Maria and her daughter driving a boat on a lake. The matrix encodes relations between concepts, where 1 denotes \u0027object\u0027, 9 denotes \u0027activity\u0027, 7 denotes \u0027perform\u0027, 10 denotes \u0027daughter\u0027, and 6 denotes \u0027in\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 8, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents Maria and her daughter driving a boat on a lake. The matrix encodes relations between concepts, where 1 denotes \u0027object\u0027, 9 denotes \u0027activity\u0027, 7 denotes \u0027perform\u0027, 10 denotes \u0027daughter\u0027, and 6 denotes \u0027in\u0027.\"\n}"
+}

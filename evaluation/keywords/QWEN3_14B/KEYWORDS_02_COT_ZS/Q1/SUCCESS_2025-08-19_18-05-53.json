@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: \u0027Ich\u0027 referenziert auf die Nutzeridentifikation und wird im Vokabular durch \u0027Maria\u0027 ersetzt.\n3. Übersetzung in das Englische: \u0027play\u0027 und \u0027basketball\u0027 wurden als Grundformen genommen.\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da sie auf den Anfragensteller referenziert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 referenziert auf die Nutzeridentifikation und wird im Vokabular durch \u0027Maria\u0027 ersetzt.\\n3. Übersetzung in das Englische: \u0027play\u0027 und \u0027basketball\u0027 wurden als Grundformen genommen.\\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da sie auf den Anfragensteller referenziert.\"\n}"
+}

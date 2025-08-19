@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt im eigenen Pool. \u0027swim\u0027 ist die Aktivität, \u0027own\u0027 bezeichnet das Besitzverhältnis, \u0027pool\u0027 das Objekt. Die Beziehungen werden wie folgt dargestellt: Maria (1) performt (8) schwimmen (9), Maria (1) besitzt (7) Pool (1), Pool (1) befindet sich in (6) Maria (1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 0],\n    [0, 7, 1, 0],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt im eigenen Pool. \u0027swim\u0027 ist die Aktivität, \u0027own\u0027 bezeichnet das Besitzverhältnis, \u0027pool\u0027 das Objekt. Die Beziehungen werden wie folgt dargestellt: Maria (1) performt (8) schwimmen (9), Maria (1) besitzt (7) Pool (1), Pool (1) befindet sich in (6) Maria (1).\"\n}"
+}

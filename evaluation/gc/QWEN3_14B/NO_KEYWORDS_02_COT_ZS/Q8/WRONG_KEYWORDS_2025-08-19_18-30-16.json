@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "sea"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittelte Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027sea\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 und \u0027meine Tochter\u0027 werden durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Beziehung (Typ 2), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027sea\u0027 ist ein Objekt (Typ 1).\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 hat eine Tochter (\u0027daughter\u0027), \u0027Maria\u0027 und \u0027Tochter\u0027 fahren ein Boot (\u0027boat\u0027), und das Boot ist auf einem See (\u0027sea\u0027).\n7. Überprüfung der Relationen auf Typkodierungen: \u0027daughter\u0027 (Typ 2: context), \u0027perform\u0027 (Typ 8, nicht direkt in der Anfrage, aber impliziert durch \u0027fahren\u0027), \u0027attached\u0027 (Typ 5, impliziert durch \u0027auf einem See\u0027).\n8. Der GraphCode ist erfolgreich erstellt worden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"sea\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027sea\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 und \u0027meine Tochter\u0027 werden durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Beziehung (Typ 2), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027sea\u0027 ist ein Objekt (Typ 1).\\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 hat eine Tochter (\u0027daughter\u0027), \u0027Maria\u0027 und \u0027Tochter\u0027 fahren ein Boot (\u0027boat\u0027), und das Boot ist auf einem See (\u0027sea\u0027).\\n7. Überprüfung der Relationen auf Typkodierungen: \u0027daughter\u0027 (Typ 2: context), \u0027perform\u0027 (Typ 8, nicht direkt in der Anfrage, aber impliziert durch \u0027fahren\u0027), \u0027attached\u0027 (Typ 5, impliziert durch \u0027auf einem See\u0027).\\n8. Der GraphCode ist erfolgreich erstellt worden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027.\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Situation\u0027, \u0027maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wird zu \u0027maria\u0027.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027maria\u0027 ist eine Person, \u0027yellow\u0027 ist eine Eigenschaft, \u0027hat\u0027 ist eine Aktivität.\n6. Relationen: \u0027maria\u0027 ist in \u0027situation\u0027 involviert. \u0027yellow\u0027 ist eine Eigenschaft von \u0027hat\u0027.\n7. Typkodierung: \u0027situation\u0027 (id\u003d2), \u0027maria\u0027 (id\u003d2), \u0027yellow\u0027 (id\u003d1), \u0027hat\u0027 (id\u003d4).",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027.\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Situation\u0027, \u0027maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wird zu \u0027maria\u0027.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027maria\u0027 ist eine Person, \u0027yellow\u0027 ist eine Eigenschaft, \u0027hat\u0027 ist eine Aktivität.\\n6. Relationen: \u0027maria\u0027 ist in \u0027situation\u0027 involviert. \u0027yellow\u0027 ist eine Eigenschaft von \u0027hat\u0027.\\n7. Typkodierung: \u0027situation\u0027 (id\u003d2), \u0027maria\u0027 (id\u003d2), \u0027yellow\u0027 (id\u003d1), \u0027hat\u0027 (id\u003d4).\"\n}"
+}

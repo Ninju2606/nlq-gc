@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Der Nutzer Maria identifiziert sich durch das Wort \u0027own\u0027 in der Anfrage. Dieses Wort wird im Vokabular berücksichtigt.\n2. Attributeigenschaften:\n   - \u0027maria\u0027: Identifikation des Nutzers, Typ: context (ID: 2)\n   - \u0027swim\u0027: Aktivität, Typ: activity (ID: 4)\n   - \u0027own\u0027: Besitzbeziehung, Typ: attached (ID: 5)\n   - \u0027pool\u0027: Objekt, Typ: object (ID: 1)\n3. Beziehungen zwischen den Stichwörtern:\n   - \u0027maria\u0027 besitzt \u0027pool\u0027 durch \u0027own\u0027 → Beziehung: attached (ID: 5)\n   - \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 aus → Beziehung: perform (ID: 8)\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt → Beziehung: target (ID: 9)\n   - \u0027pool\u0027 ist ein Objekt → Beziehung: object (ID: 1)\n4. Typkodierungen für die Beziehungen:\n   - attached (ID: 5)\n   - perform (ID: 8)\n   - target (ID: 9)\n   - object (ID: 1)\n   Alle genannten Typkodierungen existieren.\n5. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer Maria identifiziert sich durch das Wort \u0027own\u0027 in der Anfrage. Dieses Wort wird im Vokabular berücksichtigt.\\n2. Attributeigenschaften:\\n   - \u0027maria\u0027: Identifikation des Nutzers, Typ: context (ID: 2)\\n   - \u0027swim\u0027: Aktivität, Typ: activity (ID: 4)\\n   - \u0027own\u0027: Besitzbeziehung, Typ: attached (ID: 5)\\n   - \u0027pool\u0027: Objekt, Typ: object (ID: 1)\\n3. Beziehungen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 besitzt \u0027pool\u0027 durch \u0027own\u0027 → Beziehung: attached (ID: 5)\\n   - \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 aus → Beziehung: perform (ID: 8)\\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt → Beziehung: target (ID: 9)\\n   - \u0027pool\u0027 ist ein Objekt → Beziehung: object (ID: 1)\\n4. Typkodierungen für die Beziehungen:\\n   - attached (ID: 5)\\n   - perform (ID: 8)\\n   - target (ID: 9)\\n   - object (ID: 1)\\n   Alle genannten Typkodierungen existieren.\\n5. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

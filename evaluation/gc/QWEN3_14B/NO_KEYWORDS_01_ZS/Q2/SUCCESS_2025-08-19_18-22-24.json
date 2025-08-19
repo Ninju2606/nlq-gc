@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "The GraphCode represents the action \u0027Tim runs\u0027. \u0027Tim\u0027 is identified as the subject (type 1: object) performing the activity \u0027run\u0027 (type 4: activity). The relation \u0027perform\u0027 (type 8) is used to connect Tim with the activity \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"The GraphCode represents the action \u0027Tim runs\u0027. \u0027Tim\u0027 is identified as the subject (type 1: object) performing the activity \u0027run\u0027 (type 4: activity). The relation \u0027perform\u0027 (type 8) is used to connect Tim with the activity \u0027run\u0027.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Häuser",
+    "paint",
+    "questions"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „zu“, „malen“. \n2. Es gibt keine relativen Verweise. \n3. Die englischen Stichwörter sind „houses“, „paint“, „questions“. \n4. Die Stichwörter mit Nutzeridentifikation sind „houses“, „paint“, „questions“. \n5. „houses“ und „questions“ sind Objekte der Anfrage. „paint“ ist eine Aktivität. \n6. „paint“ bezieht sich auf „questions“. \n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Häuser\", \"paint\", \"questions\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „zu“, „malen“. \\n2. Es gibt keine relativen Verweise. \\n3. Die englischen Stichwörter sind „houses“, „paint“, „questions“. \\n4. Die Stichwörter mit Nutzeridentifikation sind „houses“, „paint“, „questions“. \\n5. „houses“ und „questions“ sind Objekte der Anfrage. „paint“ ist eine Aktivität. \\n6. „paint“ bezieht sich auf „questions“. \\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.\"\n}"
+}

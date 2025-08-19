@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Maria\u0027, \u0027play\u0027, and \u0027basketball\u0027 were extracted from the user\u0027s query \u0027Ich spiele Basketball\u0027 and include the user\u0027s specified identification.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"The keywords \u0027Maria\u0027, \u0027play\u0027, and \u0027basketball\u0027 were extracted from the user\u0027s query \u0027Ich spiele Basketball\u0027 and include the user\u0027s specified identification.\"\n}"
+}

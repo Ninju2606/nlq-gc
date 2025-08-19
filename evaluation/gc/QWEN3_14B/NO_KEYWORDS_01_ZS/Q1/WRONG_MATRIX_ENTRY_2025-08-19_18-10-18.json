@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "The GraphCode represents that Maria is performing the activity of playing basketball. The dictionary contains the identified user \u0027maria\u0027, the activity \u0027play\u0027, and the object \u0027basketball\u0027. The matrix defines the identity of each entry on the diagonal, using type codes with identityMapping \u003d\u003d true.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents that Maria is performing the activity of playing basketball. The dictionary contains the identified user \u0027maria\u0027, the activity \u0027play\u0027, and the object \u0027basketball\u0027. The matrix defines the identity of each entry on the diagonal, using type codes with identityMapping \u003d\u003d true.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027wear\u0027, \u0027hat\u0027, und \u0027yellow\u0027. Die Bewertungsmatrix definiert die Beziehungen zwischen den Begriffen, wobei die Einheitsdiagonalen die Typen der Begriffe definieren (z.B. \u0027maria\u0027 ist eine Identität, \u0027wear\u0027 ist eine Aktivität, \u0027hat\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Attribut).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027wear\u0027, \u0027hat\u0027, und \u0027yellow\u0027. Die Bewertungsmatrix definiert die Beziehungen zwischen den Begriffen, wobei die Einheitsdiagonalen die Typen der Begriffe definieren (z.B. \u0027maria\u0027 ist eine Identität, \u0027wear\u0027 ist eine Aktivität, \u0027hat\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Attribut).\"\n}"
+}

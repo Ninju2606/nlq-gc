@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria ist nicht direkt in der Anfrage \u0027Tim rennt\u0027 identifiziert, daher wird ihre Identifikation ignoriert.\n2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\n3. Beziehungen zwischen den Stichwörtern: \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus, was eine \u0027perform\u0027-Beziehung (Typ 8) darstellt.\n4. Prüfung der Typkodierungen: Für die Beziehung \u0027tim\u0027 → \u0027run\u0027 ist Typ 8 (\u0027perform\u0027) vorhanden. Auf der Einheitsdiagonalen sind die Typen 1 (\u0027object\u0027) für \u0027tim\u0027 und 4 (\u0027activity\u0027) für \u0027run\u0027 korrekt verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria ist nicht direkt in der Anfrage \u0027Tim rennt\u0027 identifiziert, daher wird ihre Identifikation ignoriert.\\n2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\\n3. Beziehungen zwischen den Stichwörtern: \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus, was eine \u0027perform\u0027-Beziehung (Typ 8) darstellt.\\n4. Prüfung der Typkodierungen: Für die Beziehung \u0027tim\u0027 → \u0027run\u0027 ist Typ 8 (\u0027perform\u0027) vorhanden. Auf der Einheitsdiagonalen sind die Typen 1 (\u0027object\u0027) für \u0027tim\u0027 und 4 (\u0027activity\u0027) für \u0027run\u0027 korrekt verwendet.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria spielt Basketball. Die Identifikation \u0027maria\u0027 wurde in das Vokabular aufgenommen, da sie in der Anfrage erwähnt wurde.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation (identityMapping \u003d true)\n- \u0027play\u0027: Aktivität (activity, identityMapping \u003d false)\n- \u0027basketball\u0027: Objekt (object, identityMapping \u003d false)\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 performt \u0027play\u0027 (Verhältnis: perform, ID 8)\n- \u0027play\u0027 ist eine Aktivität (Verhältnis: activity, ID 2)\n- \u0027basketball\u0027 ist ein Objekt (Verhältnis: object, ID 1)\n\n4. Typkodierungen für die gefundenen Relationen:\n- \u0027maria\u0027 (ID 1) ist ein Objekt (Typ 1)\n- \u0027play\u0027 (ID 2) ist eine Aktivität (Typ 2)\n- \u0027basketball\u0027 (ID 3) ist ein Objekt (Typ 1)\n- \u0027maria\u0027 performt \u0027play\u0027 (Typ 8, vorhanden)\n\n5. GraphCode wird korrekt generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria spielt Basketball. Die Identifikation \u0027maria\u0027 wurde in das Vokabular aufgenommen, da sie in der Anfrage erwähnt wurde.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation (identityMapping \u003d true)\\n- \u0027play\u0027: Aktivität (activity, identityMapping \u003d false)\\n- \u0027basketball\u0027: Objekt (object, identityMapping \u003d false)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 performt \u0027play\u0027 (Verhältnis: perform, ID 8)\\n- \u0027play\u0027 ist eine Aktivität (Verhältnis: activity, ID 2)\\n- \u0027basketball\u0027 ist ein Objekt (Verhältnis: object, ID 1)\\n\\n4. Typkodierungen für die gefundenen Relationen:\\n- \u0027maria\u0027 (ID 1) ist ein Objekt (Typ 1)\\n- \u0027play\u0027 (ID 2) ist eine Aktivität (Typ 2)\\n- \u0027basketball\u0027 (ID 3) ist ein Objekt (Typ 1)\\n- \u0027maria\u0027 performt \u0027play\u0027 (Typ 8, vorhanden)\\n\\n5. GraphCode wird korrekt generiert.\"\n}"
+}

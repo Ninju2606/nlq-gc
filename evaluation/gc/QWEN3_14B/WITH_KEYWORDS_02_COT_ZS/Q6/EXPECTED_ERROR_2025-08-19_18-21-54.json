@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage getätigt. Die Identifikation \u0027Maria\u0027 wird im Vokabular verwendet, da sie im GraphCode explizit vorgegeben ist. \n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (\u0027object\u0027), \u0027make\u0027 ist eine Aktivität (\u0027activity\u0027), \u0027appointment\u0027 ist ein Objekt (\u0027object\u0027).\n3. Die Stichwörter stehen in folgenden Relationen zueinander: \u0027make\u0027 (Aktivität) wird von \u0027maria\u0027 (Objekt) durchgeführt, und \u0027appointment\u0027 (Objekt) ist das Ziel der Aktivität \u0027make\u0027.\n4. Es existieren passende Typkodierungen für folgende Relationen: \u0027make\u0027 (ID:4) für die Aktivität, \u0027object\u0027 (ID:1) für \u0027maria\u0027 und \u0027appointment\u0027, und \u0027target\u0027 (ID:9) für die Zielbeziehung zwischen \u0027make\u0027 und \u0027appointment\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage getätigt. Die Identifikation \u0027Maria\u0027 wird im Vokabular verwendet, da sie im GraphCode explizit vorgegeben ist. \\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (\u0027object\u0027), \u0027make\u0027 ist eine Aktivität (\u0027activity\u0027), \u0027appointment\u0027 ist ein Objekt (\u0027object\u0027).\\n3. Die Stichwörter stehen in folgenden Relationen zueinander: \u0027make\u0027 (Aktivität) wird von \u0027maria\u0027 (Objekt) durchgeführt, und \u0027appointment\u0027 (Objekt) ist das Ziel der Aktivität \u0027make\u0027.\\n4. Es existieren passende Typkodierungen für folgende Relationen: \u0027make\u0027 (ID:4) für die Aktivität, \u0027object\u0027 (ID:1) für \u0027maria\u0027 und \u0027appointment\u0027, und \u0027target\u0027 (ID:9) für die Zielbeziehung zwischen \u0027make\u0027 und \u0027appointment\u0027.\"\n}"
+}

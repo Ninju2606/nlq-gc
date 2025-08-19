@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode kodiert die Anfrage \u0027Häuser um Fragen zu malen\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Das Vokabular besteht aus \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027, und \u0027maria\u0027. \u0027Paint\u0027 wird als Aktivität (Typ 4) kodiert, \u0027maria\u0027 wird als Objekt (Typ 1) kodiert, da sie sich selbst identifiziert. Die Beziehungen zwischen den Begriffen sind nicht direkt definiert, da sie nicht im Kontext der Anfrage miteinander verbunden werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode kodiert die Anfrage \u0027Häuser um Fragen zu malen\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Das Vokabular besteht aus \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027, und \u0027maria\u0027. \u0027Paint\u0027 wird als Aktivität (Typ 4) kodiert, \u0027maria\u0027 wird als Objekt (Typ 1) kodiert, da sie sich selbst identifiziert. Die Beziehungen zwischen den Begriffen sind nicht direkt definiert, da sie nicht im Kontext der Anfrage miteinander verbunden werden.\"\n}"
+}

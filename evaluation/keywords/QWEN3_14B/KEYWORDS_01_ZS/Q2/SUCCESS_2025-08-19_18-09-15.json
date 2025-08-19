@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query describes a scene where Tim is running. The user identification \u0027Maria\u0027 is not included in the vocabulary as the query does not contain self-identifying words like \u0027I\u0027 or \u0027my\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The query describes a scene where Tim is running. The user identification \u0027Maria\u0027 is not included in the vocabulary as the query does not contain self-identifying words like \u0027I\u0027 or \u0027my\u0027.\"\n}"
+}

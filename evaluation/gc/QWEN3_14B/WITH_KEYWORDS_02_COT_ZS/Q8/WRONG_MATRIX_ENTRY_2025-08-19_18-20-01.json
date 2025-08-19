@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \n- \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf \u0027Maria\u0027 und \u0027person\u0027.\n- \u0027Maria\u0027 ist die Identifikation des Nutzers.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation (Typ 1 - object)\n- \u0027person\u0027: Typ 2 - context\n- \u0027drive\u0027: Typ 4 - activity\n- \u0027boat\u0027: Typ 1 - object\n- \u0027lake\u0027: Typ 1 - object\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 2 - context).\n- \u0027maria\u0027 und \u0027person\u0027 sind das Subjekt der Aktivität \u0027drive\u0027 (Typ 9 - target).\n- \u0027drive\u0027 wird auf \u0027boat\u0027 angewendet (Typ 9 - target).\n- \u0027boat\u0027 befindet sich auf \u0027lake\u0027 (Typ 6 - under).\n\n4. Prüfung der Relationen:\n- Relation \u0027person\u0027 von \u0027maria\u0027 -\u003e Typ 2 (context), ID: 2.\n- Relation \u0027target\u0027 von \u0027maria\u0027 und \u0027person\u0027 zu \u0027drive\u0027 -\u003e Typ 9 (target), ID: 9.\n- Relation \u0027target\u0027 von \u0027drive\u0027 zu \u0027boat\u0027 -\u003e Typ 9 (target), ID: 9.\n- Relation \u0027under\u0027 von \u0027boat\u0027 zu \u0027lake\u0027 -\u003e Typ 6 (under), ID: 6.\n\nAlle Relationen haben entsprechende Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \\n- \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf \u0027Maria\u0027 und \u0027person\u0027.\\n- \u0027Maria\u0027 ist die Identifikation des Nutzers.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation (Typ 1 - object)\\n- \u0027person\u0027: Typ 2 - context\\n- \u0027drive\u0027: Typ 4 - activity\\n- \u0027boat\u0027: Typ 1 - object\\n- \u0027lake\u0027: Typ 1 - object\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 2 - context).\\n- \u0027maria\u0027 und \u0027person\u0027 sind das Subjekt der Aktivität \u0027drive\u0027 (Typ 9 - target).\\n- \u0027drive\u0027 wird auf \u0027boat\u0027 angewendet (Typ 9 - target).\\n- \u0027boat\u0027 befindet sich auf \u0027lake\u0027 (Typ 6 - under).\\n\\n4. Prüfung der Relationen:\\n- Relation \u0027person\u0027 von \u0027maria\u0027 -\u003e Typ 2 (context), ID: 2.\\n- Relation \u0027target\u0027 von \u0027maria\u0027 und \u0027person\u0027 zu \u0027drive\u0027 -\u003e Typ 9 (target), ID: 9.\\n- Relation \u0027target\u0027 von \u0027drive\u0027 zu \u0027boat\u0027 -\u003e Typ 9 (target), ID: 9.\\n- Relation \u0027under\u0027 von \u0027boat\u0027 zu \u0027lake\u0027 -\u003e Typ 6 (under), ID: 6.\\n\\nAlle Relationen haben entsprechende Typkodierungen.\"\n}"
+}

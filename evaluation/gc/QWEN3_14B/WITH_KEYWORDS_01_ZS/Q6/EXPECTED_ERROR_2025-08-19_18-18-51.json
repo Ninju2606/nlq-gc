@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde generiert, wobei \u0027maria\u0027 als Nutzeridentifikation berücksichtigt wurde. \u0027make\u0027 und \u0027appointment\u0027 sind Aktivitäten, weshalb sie mit Typ 2 (context) in der Einheitsdiagonale der Bewertungsmatrix markiert wurden. Typ 1 (object) wurde für \u0027maria\u0027 verwendet, da es sich um die Nutzeridentifikation handelt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode wurde generiert, wobei \u0027maria\u0027 als Nutzeridentifikation berücksichtigt wurde. \u0027make\u0027 und \u0027appointment\u0027 sind Aktivitäten, weshalb sie mit Typ 2 (context) in der Einheitsdiagonale der Bewertungsmatrix markiert wurden. Typ 1 (object) wurde für \u0027maria\u0027 verwendet, da es sich um die Nutzeridentifikation handelt.\"\n}"
+}

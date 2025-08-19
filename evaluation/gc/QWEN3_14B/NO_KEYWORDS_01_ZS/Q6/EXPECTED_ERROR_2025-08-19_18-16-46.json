@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027, und \u0027Maria\u0027. Da der Nutzer \u0027Maria\u0027 als Identifikation angegeben hat und sie in der Anfrage erwähnt wird, wurde sie ins Vokabular aufgenommen. Es besteht keine Relation zwischen den Einträgen, daher sind nur die Diagonaleneinträge (Typ 1) gefüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027, und \u0027Maria\u0027. Da der Nutzer \u0027Maria\u0027 als Identifikation angegeben hat und sie in der Anfrage erwähnt wird, wurde sie ins Vokabular aufgenommen. Es besteht keine Relation zwischen den Einträgen, daher sind nur die Diagonaleneinträge (Typ 1) gefüllt.\"\n}"
+}

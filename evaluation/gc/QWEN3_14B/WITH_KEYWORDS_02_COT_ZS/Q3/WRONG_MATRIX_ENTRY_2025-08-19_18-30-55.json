@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 ist im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 identifiziert. Der Verweis \u0027mir gehört\u0027 wird durch den Begriff \u0027own\u0027 im Vokabular dargestellt.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 ist eine Identifikation (identityMapping \u003d true) und wird als Objekt (Typ 1) eingestuft.\n- \u0027swim\u0027 ist eine Aktivität (Typ 4) und wird als Verhalten (identityMapping \u003d false) eingestuft.\n- \u0027own\u0027 ist ein Attribut (Typ 2) und wird als Kontext (identityMapping \u003d true) eingestuft.\n- \u0027pool\u0027 ist ein Objekt (Typ 1) und wird als Objekt (identityMapping \u003d true) eingestuft.\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist die Ausführende der Aktivität \u0027swim\u0027 (bekanntlich \u0027swim\u0027 ist eine Aktivität, und \u0027maria\u0027 soirg dafür, die Aktivität zu durchführen). Diese Beziehung kann als \u0027perform\u0027 (Typ 8) interpretiert werden, aber es ist nicht notwendig stets extra gekennzeichnet, solange es explizit im Satz nicht erwähnt wird.\n- \u0027pool\u0027 ist das Objekt, in dem \u0027swim\u0027 stattfindet (Beziehung \u0027under\u0027, Typ 6).\n- \u0027own\u0027 beschreibt den Besitzverhältnis zwischen \u0027maria\u0027 und \u0027pool\u0027 (Beziehung \u0027attached\u0027, Typ 5).\n\n4. Überprüfung der Typkodierungen:\n- \u0027maria\u0027 ist ein Objekt (Typ 1) – korrekt vorhanden.\n- \u0027swim\u0027 ist eine Aktivität (Typ 4) – korrekt vorhanden.\n- \u0027own\u0027 ist ein Kontext (Typ 2) – korrekt vorhanden.\n- \u0027pool\u0027 ist ein Objekt (Typ 1) – korrekt vorhanden.\n- Beziehung \u0027under\u0027 (Typ 6) ist vorhanden.\n- Beziehung \u0027attached\u0027 (Typ 5) ist vorhanden.\n- Beziehung \u0027perform\u0027 (Typ 8) ist vorhanden, wird aber nicht benötigt, da sie nicht explizit im Satz vorkommt.\n\nSomit sind alle Beziehungen korrekt abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 ist im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 identifiziert. Der Verweis \u0027mir gehört\u0027 wird durch den Begriff \u0027own\u0027 im Vokabular dargestellt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 ist eine Identifikation (identityMapping \u003d true) und wird als Objekt (Typ 1) eingestuft.\\n- \u0027swim\u0027 ist eine Aktivität (Typ 4) und wird als Verhalten (identityMapping \u003d false) eingestuft.\\n- \u0027own\u0027 ist ein Attribut (Typ 2) und wird als Kontext (identityMapping \u003d true) eingestuft.\\n- \u0027pool\u0027 ist ein Objekt (Typ 1) und wird als Objekt (identityMapping \u003d true) eingestuft.\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist die Ausführende der Aktivität \u0027swim\u0027 (bekanntlich \u0027swim\u0027 ist eine Aktivität, und \u0027maria\u0027 soirg dafür, die Aktivität zu durchführen). Diese Beziehung kann als \u0027perform\u0027 (Typ 8) interpretiert werden, aber es ist nicht notwendig stets extra gekennzeichnet, solange es explizit im Satz nicht erwähnt wird.\\n- \u0027pool\u0027 ist das Objekt, in dem \u0027swim\u0027 stattfindet (Beziehung \u0027under\u0027, Typ 6).\\n- \u0027own\u0027 beschreibt den Besitzverhältnis zwischen \u0027maria\u0027 und \u0027pool\u0027 (Beziehung \u0027attached\u0027, Typ 5).\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027maria\u0027 ist ein Objekt (Typ 1) – korrekt vorhanden.\\n- \u0027swim\u0027 ist eine Aktivität (Typ 4) – korrekt vorhanden.\\n- \u0027own\u0027 ist ein Kontext (Typ 2) – korrekt vorhanden.\\n- \u0027pool\u0027 ist ein Objekt (Typ 1) – korrekt vorhanden.\\n- Beziehung \u0027under\u0027 (Typ 6) ist vorhanden.\\n- Beziehung \u0027attached\u0027 (Typ 5) ist vorhanden.\\n- Beziehung \u0027perform\u0027 (Typ 8) ist vorhanden, wird aber nicht benötigt, da sie nicht explizit im Satz vorkommt.\\n\\nSomit sind alle Beziehungen korrekt abgedeckt.\"\n}"
+}

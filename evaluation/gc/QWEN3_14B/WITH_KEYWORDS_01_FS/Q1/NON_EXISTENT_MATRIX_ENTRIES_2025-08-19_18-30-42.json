@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria Basketball spielt. Die Einträge der Bewertungsmatrix sind gemäß den vorgegebenen Typkodierungen ausgewählt. Der Typ \u0027object\u0027 (ID 1) ist für \u0027maria\u0027, der Typ \u0027activity\u0027 (ID 9) für \u0027play\u0027, und der Typ \u0027object\u0027 (ID 1) ist für \u0027basketball\u0027. Die Relation \u0027perform\u0027 (ID 8) wurde zur Darstellung der Aktivität zwischen \u0027maria\u0027 und \u0027play\u0027 verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria Basketball spielt. Die Einträge der Bewertungsmatrix sind gemäß den vorgegebenen Typkodierungen ausgewählt. Der Typ \u0027object\u0027 (ID 1) ist für \u0027maria\u0027, der Typ \u0027activity\u0027 (ID 9) für \u0027play\u0027, und der Typ \u0027object\u0027 (ID 1) ist für \u0027basketball\u0027. Die Relation \u0027perform\u0027 (ID 8) wurde zur Darstellung der Aktivität zwischen \u0027maria\u0027 und \u0027play\u0027 verwendet.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "wear",
+    "yellow",
+    "hat",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Situationen, trage, gelben, Hut. 2. Relative Verweise: \u0027ich\u0027 refers to \u0027Maria\u0027. 3. Übersetzung ins Englische: Situations, wear, yellow, hat. 4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027wear\u0027 ist eine Aktivität, \u0027yellow\u0027 und \u0027hat\u0027 sind Objekte, \u0027Maria\u0027 ist ein Kontext (Person). 6. Relationen: \u0027Maria\u0027 ist die Person, die \u0027wear\u0027 (Aktivität) im Kontext \u0027situation\u0027 durchführt. \u0027wear\u0027 ist eine Tätigkeit, die auf \u0027hat\u0027 (Objekt) angewendet wird, und \u0027yellow\u0027 beschreibt das Attribut des \u0027hat\u0027 (Objekt). 7. Typkodierungen: - \u0027situation\u0027 (Kontext) – Typ 2. - \u0027wear\u0027 (Aktivität) – Typ 4. - \u0027yellow\u0027 (Attribut) – Typ 1. - \u0027hat\u0027 (Objekt) – Typ 1. - \u0027Maria\u0027 (Person) – Typ 2. Alle Relationen sind mit Typkodierungen abgedeckt. 8. GraphCode wurde aufgebaut.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"wear\", \"yellow\", \"hat\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 2, 0, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Situationen, trage, gelben, Hut. 2. Relative Verweise: \u0027ich\u0027 refers to \u0027Maria\u0027. 3. Übersetzung ins Englische: Situations, wear, yellow, hat. 4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027wear\u0027 ist eine Aktivität, \u0027yellow\u0027 und \u0027hat\u0027 sind Objekte, \u0027Maria\u0027 ist ein Kontext (Person). 6. Relationen: \u0027Maria\u0027 ist die Person, die \u0027wear\u0027 (Aktivität) im Kontext \u0027situation\u0027 durchführt. \u0027wear\u0027 ist eine Tätigkeit, die auf \u0027hat\u0027 (Objekt) angewendet wird, und \u0027yellow\u0027 beschreibt das Attribut des \u0027hat\u0027 (Objekt). 7. Typkodierungen: - \u0027situation\u0027 (Kontext) – Typ 2. - \u0027wear\u0027 (Aktivität) – Typ 4. - \u0027yellow\u0027 (Attribut) – Typ 1. - \u0027hat\u0027 (Objekt) – Typ 1. - \u0027Maria\u0027 (Person) – Typ 2. Alle Relationen sind mit Typkodierungen abgedeckt. 8. GraphCode wurde aufgebaut.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Maria\u0027, \u0027swim\u0027, and \u0027pool\u0027 were identified from the user\u0027s request.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"The keywords \u0027Maria\u0027, \u0027swim\u0027, and \u0027pool\u0027 were identified from the user\u0027s request.\"\n}"
+}

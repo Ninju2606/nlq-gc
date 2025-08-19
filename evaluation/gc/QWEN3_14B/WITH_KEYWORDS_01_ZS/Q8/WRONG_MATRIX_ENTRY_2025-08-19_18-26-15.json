@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria (als Person) mit einem Boot auf einem See fährt. \u0027drive\u0027 wird als Aktivität (Typ 4) definiert, \u0027boat\u0027 und \u0027lake\u0027 werden als Objekte (Typ 1) definiert, und die Beziehung \u0027drive\u0027 → \u0027boat\u0027 sowie \u0027boat\u0027 → \u0027lake\u0027 wird über das Attribut \u0027attached\u0027 (Typ 5) beschrieben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 5, 0],\n    [0, 0, 5, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria (als Person) mit einem Boot auf einem See fährt. \u0027drive\u0027 wird als Aktivität (Typ 4) definiert, \u0027boat\u0027 und \u0027lake\u0027 werden als Objekte (Typ 1) definiert, und die Beziehung \u0027drive\u0027 → \u0027boat\u0027 sowie \u0027boat\u0027 → \u0027lake\u0027 wird über das Attribut \u0027attached\u0027 (Typ 5) beschrieben.\"\n}"
+}

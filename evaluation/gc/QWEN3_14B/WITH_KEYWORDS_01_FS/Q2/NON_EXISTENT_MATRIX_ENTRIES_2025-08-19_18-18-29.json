@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation, in der Tim rennt. \u0027tim\u0027 ist das Objekt (Typ 1), und \u0027run\u0027 ist die Aktivität (Typ 9), die er ausführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 9]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Tim rennt. \u0027tim\u0027 ist das Objekt (Typ 1), und \u0027run\u0027 ist die Aktivität (Typ 9), die er ausführt.\"\n}"
+}

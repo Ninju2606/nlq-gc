@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 (Maria bezieht sich auf \u0027Tochter\u0027) und \u0027ich\u0027 (bezieht sich auf Maria).\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Objekt (Typ 1), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1).\n6. Relationen zwischen Stichwörtern: \u0027Maria\u0027 und \u0027daughter\u0027 sind im Beziehungskontext (Typ 2). \u0027Maria\u0027 und \u0027boat\u0027 haben die Aktivität \u0027fahr\u0027 (Typ 4). \u0027boat\u0027 ist im \u0027lake\u0027 (Typ 6).\n7. Prüfung der Typkodierungen: Typ 1 (object), Typ 2 (context), Typ 4 (activity), Typ 6 (under) sind vorhanden. IDs: 1, 2, 4, 6.\n8. GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 (Maria bezieht sich auf \u0027Tochter\u0027) und \u0027ich\u0027 (bezieht sich auf Maria).\\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Objekt (Typ 1), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1).\\n6. Relationen zwischen Stichwörtern: \u0027Maria\u0027 und \u0027daughter\u0027 sind im Beziehungskontext (Typ 2). \u0027Maria\u0027 und \u0027boat\u0027 haben die Aktivität \u0027fahr\u0027 (Typ 4). \u0027boat\u0027 ist im \u0027lake\u0027 (Typ 6).\\n7. Prüfung der Typkodierungen: Typ 1 (object), Typ 2 (context), Typ 4 (activity), Typ 6 (under) sind vorhanden. IDs: 1, 2, 4, 6.\\n8. GraphCode wurde erfolgreich generiert.\"\n}"
+}

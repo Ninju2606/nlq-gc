@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents a scene in the Metaverse where Maria is painting houses to ask questions. \u0027house\u0027 is an object, \u0027paint\u0027 is an activity, \u0027question\u0027 is a context, and \u0027Maria\u0027 is the identified user.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents a scene in the Metaverse where Maria is painting houses to ask questions. \u0027house\u0027 is an object, \u0027paint\u0027 is an activity, \u0027question\u0027 is a context, and \u0027Maria\u0027 is the identified user.\"\n}"
+}

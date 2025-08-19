@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage gestellt. Die Identifikation \u0027Maria\u0027 wird daher ignoriert. 2. Das Vokabular besteht aus den Begriffen \u0027tim\u0027 und \u0027run\u0027. \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung: \u0027tim\u0027 ist das Subjekt, das die Aktivität \u0027run\u0027 ausführt. 4. Für die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist der Typ \u0027perform\u0027 (ID 8) relevant. Für die Typen der Einträge \u0027tim\u0027 und \u0027run\u0027 sind die Typkodierungen 1 und 4 vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage gestellt. Die Identifikation \u0027Maria\u0027 wird daher ignoriert. 2. Das Vokabular besteht aus den Begriffen \u0027tim\u0027 und \u0027run\u0027. \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung: \u0027tim\u0027 ist das Subjekt, das die Aktivität \u0027run\u0027 ausführt. 4. Für die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist der Typ \u0027perform\u0027 (ID 8) relevant. Für die Typen der Einträge \u0027tim\u0027 und \u0027run\u0027 sind die Typkodierungen 1 und 4 vorhanden.\"\n}"
+}

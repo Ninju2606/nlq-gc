@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage. Das Vokabular besteht aus den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 ist ein Objekt (object), da es sich um den Nutzer handelt.\n- \u0027make\u0027 ist eine Aktivität (activity), da es eine Handlung beschreibt.\n- \u0027appointment\u0027 ist ein Objekt (object), da es ein konkretes Ding ist, das geschaffen werden soll.\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist das Subjekt, das die Aktivität \u0027make\u0027 durchführt.\n- \u0027make\u0027 ist die Aktivität, die auf \u0027appointment\u0027 angewendet wird (zum Erstellen eines Termins).\n\n4. Typkodierungen der Relationen:\n- \u0027maria\u0027 (Objekt) -\u003e ID: 1\n- \u0027make\u0027 (Aktivität) -\u003e ID: 4\n- \u0027appointment\u0027 (Objekt) -\u003e ID: 1\n- Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 (Subjekt führt Aktivität aus) -\u003e keine Typkodierung vorhanden (Fehler)\n- Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 (Aktivität auf Objekt angewendet) -\u003e keine Typkodierung vorhanden (Fehler)\n\nFehlerhinweis: Es existiert keine passende Typkodierung für die Relation zwischen \u0027maria\u0027 und \u0027make\u0027 sowie zwischen \u0027make\u0027 und \u0027appointment\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage. Das Vokabular besteht aus den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 ist ein Objekt (object), da es sich um den Nutzer handelt.\\n- \u0027make\u0027 ist eine Aktivität (activity), da es eine Handlung beschreibt.\\n- \u0027appointment\u0027 ist ein Objekt (object), da es ein konkretes Ding ist, das geschaffen werden soll.\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist das Subjekt, das die Aktivität \u0027make\u0027 durchführt.\\n- \u0027make\u0027 ist die Aktivität, die auf \u0027appointment\u0027 angewendet wird (zum Erstellen eines Termins).\\n\\n4. Typkodierungen der Relationen:\\n- \u0027maria\u0027 (Objekt) -\u003e ID: 1\\n- \u0027make\u0027 (Aktivität) -\u003e ID: 4\\n- \u0027appointment\u0027 (Objekt) -\u003e ID: 1\\n- Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 (Subjekt führt Aktivität aus) -\u003e keine Typkodierung vorhanden (Fehler)\\n- Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 (Aktivität auf Objekt angewendet) -\u003e keine Typkodierung vorhanden (Fehler)\\n\\nFehlerhinweis: Es existiert keine passende Typkodierung für die Relation zwischen \u0027maria\u0027 und \u0027make\u0027 sowie zwischen \u0027make\u0027 und \u0027appointment\u0027.\"\n}"
+}

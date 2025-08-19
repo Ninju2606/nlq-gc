@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt eine relative Identifikation mit dem Begriff %5C%22meine+Tochter%5C%22. Diese wird im Vokabular mit %5C%22person%5C%22 abgebildet, da keine explizite Identifikation des Nutzers (%5C%22Maria%5C%22) in der Anfrage vorkommt, die direkt als Person identifiziert werden kann. %5C%22Maria%5C%22 wird als Objekt in der Bewertungsmatrix berücksichtigt.\n\n2. %5C%22maria%5C%22 und %5C%22person%5C%22 sind Objekte der Anfrage. %5C%22drive%5C%22 ist eine Aktivität. %5C%22boat%5C%22 und %5C%22lake%5C%22 sind Objekte.\n\n3. %5C%22maria%5C%22 (als %5C%22person%5C%22) führt die Aktivität %5C%22drive%5C%22 aus. %5C%22drive%5C%22 bezieht sich auf %5C%22boat%5C%22. %5C%22boat%5C%22 befindet sich in %5C%22lake%5C%22.\n\n4. Die ID für Objekt (%5C%22object%5C%22) ist 1. Die ID für Aktivität (%5C%22activity%5C%22) ist 9. Die ID für Ausführen (%5C%22perform%5C%22) ist 7. Die ID für Beziehen (%5C%22target%5C%22) ist 8. Die ID für In (%5C%22in%5C%22) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [0, 1, 7, 8, 0],\n    [0, 0, 1, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt eine relative Identifikation mit dem Begriff %5C%22meine+Tochter%5C%22. Diese wird im Vokabular mit %5C%22person%5C%22 abgebildet, da keine explizite Identifikation des Nutzers (%5C%22Maria%5C%22) in der Anfrage vorkommt, die direkt als Person identifiziert werden kann. %5C%22Maria%5C%22 wird als Objekt in der Bewertungsmatrix berücksichtigt.\\n\\n2. %5C%22maria%5C%22 und %5C%22person%5C%22 sind Objekte der Anfrage. %5C%22drive%5C%22 ist eine Aktivität. %5C%22boat%5C%22 und %5C%22lake%5C%22 sind Objekte.\\n\\n3. %5C%22maria%5C%22 (als %5C%22person%5C%22) führt die Aktivität %5C%22drive%5C%22 aus. %5C%22drive%5C%22 bezieht sich auf %5C%22boat%5C%22. %5C%22boat%5C%22 befindet sich in %5C%22lake%5C%22.\\n\\n4. Die ID für Objekt (%5C%22object%5C%22) ist 1. Die ID für Aktivität (%5C%22activity%5C%22) ist 9. Die ID für Ausführen (%5C%22perform%5C%22) ist 7. Die ID für Beziehen (%5C%22target%5C%22) ist 8. Die ID für In (%5C%22in%5C%22) ist 6.\"\n}"
+}

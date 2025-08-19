@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Häuser\u0027 (houses), \u0027Fragen\u0027 (questions), and \u0027malen\u0027 (paint) were identified from the user\u0027s query. Since the query does not contain any personal references like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027, the user\u0027s identification (Maria) was not included in the vocabulary. The words were translated into English as \u0027houses\u0027, \u0027questions\u0027, and \u0027paint\u0027. No relative references were found to process further. The vocabulary now contains the relevant elements of the scene description.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"The keywords \u0027Häuser\u0027 (houses), \u0027Fragen\u0027 (questions), and \u0027malen\u0027 (paint) were identified from the user\u0027s query. Since the query does not contain any personal references like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027, the user\u0027s identification (Maria) was not included in the vocabulary. The words were translated into English as \u0027houses\u0027, \u0027questions\u0027, and \u0027paint\u0027. No relative references were found to process further. The vocabulary now contains the relevant elements of the scene description.\"\n}"
+}

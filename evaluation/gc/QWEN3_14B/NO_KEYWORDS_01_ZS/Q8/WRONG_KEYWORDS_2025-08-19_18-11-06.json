@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents a scene in the Metaverse where Maria and her daughter are boating on a lake. The vocabulary includes the identified user \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, and \u0027lake\u0027. The matrix defines the type of each term using valid identity mappings.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents a scene in the Metaverse where Maria and her daughter are boating on a lake. The vocabulary includes the identified user \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, and \u0027lake\u0027. The matrix defines the type of each term using valid identity mappings.\"\n}"
+}

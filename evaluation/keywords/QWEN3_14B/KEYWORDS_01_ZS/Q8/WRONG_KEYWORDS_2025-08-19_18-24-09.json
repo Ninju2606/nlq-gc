@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, and \u0027lake\u0027 have been identified from the user\u0027s request.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"description\": \"The keywords \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, and \u0027lake\u0027 have been identified from the user\u0027s request.\"\n}"
+}

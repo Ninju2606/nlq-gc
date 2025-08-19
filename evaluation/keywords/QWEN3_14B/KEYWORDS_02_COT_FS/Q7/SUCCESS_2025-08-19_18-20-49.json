@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Houses",
+    "paint",
+    "question"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „zu“, „malen“. Die Wörter „um“, „zu“ und „Fragen“ wurden als nicht relevant identifiziert, da sie keine Objekte, Attribute oder Aktivitäten beschreiben. Die relevanten Stichwörter sind daher „Häuser“ und „malen“.\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind „Houses“ und „paint“.\n4. Die Stichwörter mit Nutzeridentifikation sind „Houses“, „paint“.",
+  "responsePlain": "{\n  \"dictionary\": [\"Houses\", \"paint\", \"question\"],\n  \"description\": \"1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „zu“, „malen“. Die Wörter „um“, „zu“ und „Fragen“ wurden als nicht relevant identifiziert, da sie keine Objekte, Attribute oder Aktivitäten beschreiben. Die relevanten Stichwörter sind daher „Häuser“ und „malen“.\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind „Houses“ und „paint“.\\n4. Die Stichwörter mit Nutzeridentifikation sind „Houses“, „paint“.\"\n}"
+}

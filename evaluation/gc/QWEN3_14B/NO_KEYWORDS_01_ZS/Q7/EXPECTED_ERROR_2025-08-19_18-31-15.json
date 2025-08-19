@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the scene in the Metaverse where houses are used to paint questions. The vocabulary contains the key elements \u0027house\u0027, \u0027question\u0027, and \u0027paint\u0027. Each entry on the diagonal is assigned the type \u0027object\u0027 (id: 1). The matrix does not contain any relationships between the elements as they are independent in this context.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents the scene in the Metaverse where houses are used to paint questions. The vocabulary contains the key elements \u0027house\u0027, \u0027question\u0027, and \u0027paint\u0027. Each entry on the diagonal is assigned the type \u0027object\u0027 (id: 1). The matrix does not contain any relationships between the elements as they are independent in this context.\"\n}"
+}

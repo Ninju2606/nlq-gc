@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria Häuser malt, um Fragen zu stellen. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027house\u0027, \u0027paint\u0027, und \u0027question\u0027. Die Bewertungsmatrix kodiert die Relationen zwischen diesen Begriffen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 2, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria Häuser malt, um Fragen zu stellen. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027house\u0027, \u0027paint\u0027, und \u0027question\u0027. Die Bewertungsmatrix kodiert die Relationen zwischen diesen Begriffen.\"\n}"
+}

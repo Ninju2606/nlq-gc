@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer Maria fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird verwendet, da sie in der Anfrage selbst identifiziert wird.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027 ist ein Objekt (Typ 1)\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4)\n   - \u0027hat\u0027 ist ein Objekt (Typ 1)\n   - \u0027yellow\u0027 ist ein Attribut (Typ 2)\n3. Die Beziehungen zwischen den Stichwörtern:\n   - \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027hat\u0027\n   - \u0027hat\u0027 hat das Attribut \u0027yellow\u0027\n4. Prüfung der Typkodierungen:\n   - \u0027wear\u0027 (Aktivität) -\u003e Typ 4 (valid)\n   - \u0027yellow\u0027 (Attribut) -\u003e Typ 2 (valid)\n   - \u0027maria\u0027 (Objekt) -\u003e Typ 1 (valid)\n   - \u0027hat\u0027 (Objekt) -\u003e Typ 1 (valid)\n   - Die Relation \u0027wear\u0027 (Typ 4) wird korrekt zwischen \u0027maria\u0027 und \u0027hat\u0027 verwendet.\n   - Die Relation zwischen \u0027hat\u0027 und \u0027yellow\u0027 ist eine Attributbeziehung, was mit Typ 2 (context) abgebildet werden kann, aber keine direkte Beziehung im vorgegebenen Typkodierungsset existiert. Dies entspricht keinem Typ mit identityMapping \u003d\u003d true.\n5. Der GraphCode ist erstellt, jedoch existiert keine passende Typkodierung für die Beziehung zwischen \u0027hat\u0027 und \u0027yellow\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer Maria fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird verwendet, da sie in der Anfrage selbst identifiziert wird.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027 ist ein Objekt (Typ 1)\\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4)\\n   - \u0027hat\u0027 ist ein Objekt (Typ 1)\\n   - \u0027yellow\u0027 ist ein Attribut (Typ 2)\\n3. Die Beziehungen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027hat\u0027\\n   - \u0027hat\u0027 hat das Attribut \u0027yellow\u0027\\n4. Prüfung der Typkodierungen:\\n   - \u0027wear\u0027 (Aktivität) -\u003e Typ 4 (valid)\\n   - \u0027yellow\u0027 (Attribut) -\u003e Typ 2 (valid)\\n   - \u0027maria\u0027 (Objekt) -\u003e Typ 1 (valid)\\n   - \u0027hat\u0027 (Objekt) -\u003e Typ 1 (valid)\\n   - Die Relation \u0027wear\u0027 (Typ 4) wird korrekt zwischen \u0027maria\u0027 und \u0027hat\u0027 verwendet.\\n   - Die Relation zwischen \u0027hat\u0027 und \u0027yellow\u0027 ist eine Attributbeziehung, was mit Typ 2 (context) abgebildet werden kann, aber keine direkte Beziehung im vorgegebenen Typkodierungsset existiert. Dies entspricht keinem Typ mit identityMapping \u003d\u003d true.\\n5. Der GraphCode ist erstellt, jedoch existiert keine passende Typkodierung für die Beziehung zwischen \u0027hat\u0027 und \u0027yellow\u0027.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      7,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (1) eine Szene malen (paint) will, bei der es um Häuser (house) und die Darstellung von Fragen (question) geht. Die Relation zwischen \u0027paint\u0027 und \u0027house\u0027 ist \u0027target\u0027 (ID 8), und zwischen \u0027paint\u0027 und \u0027question\u0027 ist ebenfalls \u0027target\u0027 (ID 8). Die Relation zwischen \u0027question\u0027 und \u0027house\u0027 ist \u0027attached\u0027 (ID 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 7, 8],\n    [0, 0, 1, 7],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (1) eine Szene malen (paint) will, bei der es um Häuser (house) und die Darstellung von Fragen (question) geht. Die Relation zwischen \u0027paint\u0027 und \u0027house\u0027 ist \u0027target\u0027 (ID 8), und zwischen \u0027paint\u0027 und \u0027question\u0027 ist ebenfalls \u0027target\u0027 (ID 8). Die Relation zwischen \u0027question\u0027 und \u0027house\u0027 ist \u0027attached\u0027 (ID 6).\"\n}"
+}

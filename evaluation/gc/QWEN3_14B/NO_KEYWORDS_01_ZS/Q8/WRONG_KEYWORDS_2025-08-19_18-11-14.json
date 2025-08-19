@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "sail",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the scene where Maria and her daughter are sailing on a lake. \u0027Maria\u0027 is the subject (type 1), \u0027daughter\u0027 is the daughter (type 3), \u0027sail\u0027 is the activity (type 4) performed by \u0027Maria\u0027, and \u0027lake\u0027 is the location (type 2) where the activity takes place. The relationship \u0027perform\u0027 (type 8) links \u0027Maria\u0027 to \u0027sail\u0027, and \u0027target\u0027 (type 9) connects \u0027sail\u0027 to \u0027lake\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"sail\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 8, 1, 0],\n    [0, 0, 9, 1]\n  ],\n  \"description\": \"The GraphCode represents the scene where Maria and her daughter are sailing on a lake. \u0027Maria\u0027 is the subject (type 1), \u0027daughter\u0027 is the daughter (type 3), \u0027sail\u0027 is the activity (type 4) performed by \u0027Maria\u0027, and \u0027lake\u0027 is the location (type 2) where the activity takes place. The relationship \u0027perform\u0027 (type 8) links \u0027Maria\u0027 to \u0027sail\u0027, and \u0027target\u0027 (type 9) connects \u0027sail\u0027 to \u0027lake\u0027.\"\n}"
+}

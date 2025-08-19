@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer (Maria) hat in der Anfrage eine relative Identifikation (\u0027ich\u0027) und eine Aktivität (\u0027trage\u0027) genannt, die im Vokabular berücksichtigt werden.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: identityMapping \u003d true (Objekt, Identifikation des Nutzers)\n   - \u0027wear\u0027: activity (Aktivität)\n   - \u0027hat\u0027: context (Kontext)\n   - \u0027yellow\u0027: attribute (Eigenschaft/Attribut)\n3. Beziehungen zwischen Stichwörtern:\n   - \u0027maria wear\u0027: Maria trägt etwas → activity (Typ 4)\n   - \u0027wear hat\u0027: \u0027tragen\u0027 bezieht sich auf \u0027Hut\u0027 → context (Typ 2)\n   - \u0027hat yellow\u0027: \u0027Hut\u0027 hat die Eigenschaft \u0027gelb\u0027 → attribute (Typ 1)\n4. Typkodierungen:\n   - activity (Typ 4) für \u0027maria wear\u0027\n   - context (Typ 2) für \u0027wear hat\u0027\n   - attribute (Typ 1) für \u0027hat yellow\u0027\n   - Alle Relationen haben passende Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) hat in der Anfrage eine relative Identifikation (\u0027ich\u0027) und eine Aktivität (\u0027trage\u0027) genannt, die im Vokabular berücksichtigt werden.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: identityMapping \u003d true (Objekt, Identifikation des Nutzers)\\n   - \u0027wear\u0027: activity (Aktivität)\\n   - \u0027hat\u0027: context (Kontext)\\n   - \u0027yellow\u0027: attribute (Eigenschaft/Attribut)\\n3. Beziehungen zwischen Stichwörtern:\\n   - \u0027maria wear\u0027: Maria trägt etwas → activity (Typ 4)\\n   - \u0027wear hat\u0027: \u0027tragen\u0027 bezieht sich auf \u0027Hut\u0027 → context (Typ 2)\\n   - \u0027hat yellow\u0027: \u0027Hut\u0027 hat die Eigenschaft \u0027gelb\u0027 → attribute (Typ 1)\\n4. Typkodierungen:\\n   - activity (Typ 4) für \u0027maria wear\u0027\\n   - context (Typ 2) für \u0027wear hat\u0027\\n   - attribute (Typ 1) für \u0027hat yellow\u0027\\n   - Alle Relationen haben passende Typkodierungen.\"\n}"
+}

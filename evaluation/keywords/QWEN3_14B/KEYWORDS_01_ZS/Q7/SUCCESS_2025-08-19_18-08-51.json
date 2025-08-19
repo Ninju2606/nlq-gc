@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query \u0027Häuser um Fragen zu malen\u0027 was processed to extract relevant keywords for the GraphCode vocabulary. The user identification \u0027Maria\u0027 is included as it refers to the person associated with the request.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\", \"Maria\"],\n  \"description\": \"The query \u0027Häuser um Fragen zu malen\u0027 was processed to extract relevant keywords for the GraphCode vocabulary. The user identification \u0027Maria\u0027 is included as it refers to the person associated with the request.\"\n}"
+}

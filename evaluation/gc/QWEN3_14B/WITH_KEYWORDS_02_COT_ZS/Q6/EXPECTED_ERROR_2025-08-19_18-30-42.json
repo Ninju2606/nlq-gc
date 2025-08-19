@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat die Anfrage gestellt, einen Termin auszumachen. \u0027Maria\u0027 stellt die Identifikation des Nutzers dar und wird daher im Vokabular verwendet. \u0027make\u0027 und \u0027appointment\u0027 sind Stichwörter, die in der Anfrage vorkommen. Es gibt keine offensichtlichen relativen Verweise oder Identifikationen außer der eigenen Person.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: ist ein Objekt (Typkodierung ID 1)\n- \u0027make\u0027: ist eine Aktivität (Typkodierung ID 4)\n- \u0027appointment\u0027: ist ein Objekt (Typkodierung ID 1)\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 führt die Aktivität \u0027make\u0027 durch\n- \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet\n\n4. Überprüfung der Typkodierungen:\n- \u0027maria\u0027 und \u0027appointment\u0027 als Objekte (Typkodierung ID 1) sind gültig.\n- \u0027make\u0027 als Aktivität (Typkodierung ID 4) ist gültig.\n- Die Relation \u0027maria\u0027 führt \u0027make\u0027 durch ist eine Aktivitätsbeziehung (Typkodierung ID 4) und gültig.\n- Die Relation \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet ist eine Aktivitätsbeziehung (Typkodierung ID 4) und gültig.\n\n5. GraphCode wurde entsprechend den Typkodierungen und der Anfrage erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat die Anfrage gestellt, einen Termin auszumachen. \u0027Maria\u0027 stellt die Identifikation des Nutzers dar und wird daher im Vokabular verwendet. \u0027make\u0027 und \u0027appointment\u0027 sind Stichwörter, die in der Anfrage vorkommen. Es gibt keine offensichtlichen relativen Verweise oder Identifikationen außer der eigenen Person.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: ist ein Objekt (Typkodierung ID 1)\\n- \u0027make\u0027: ist eine Aktivität (Typkodierung ID 4)\\n- \u0027appointment\u0027: ist ein Objekt (Typkodierung ID 1)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 führt die Aktivität \u0027make\u0027 durch\\n- \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027maria\u0027 und \u0027appointment\u0027 als Objekte (Typkodierung ID 1) sind gültig.\\n- \u0027make\u0027 als Aktivität (Typkodierung ID 4) ist gültig.\\n- Die Relation \u0027maria\u0027 führt \u0027make\u0027 durch ist eine Aktivitätsbeziehung (Typkodierung ID 4) und gültig.\\n- Die Relation \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet ist eine Aktivitätsbeziehung (Typkodierung ID 4) und gültig.\\n\\n5. GraphCode wurde entsprechend den Typkodierungen und der Anfrage erstellt.\"\n}"
+}

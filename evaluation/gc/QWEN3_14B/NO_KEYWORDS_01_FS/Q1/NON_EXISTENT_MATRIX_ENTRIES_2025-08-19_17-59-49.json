@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wird für die Anfrage \u0027Ich spiele Basketball\u0027 generiert. Das Vokabular enthält \u0027Maria\u0027 (Nutzeridentifikation), \u0027play\u0027 (Aktivität) und \u0027basketball\u0027 (Objekt). In der Bewertungsmatrix wird der Typ \u0027object\u0027 (1) für \u0027Maria\u0027, der Typ \u0027activity\u0027 (9) für \u0027play\u0027 und der Typ \u0027object\u0027 (1) für \u0027basketball\u0027 auf der Einheitsdiagonalen festgelegt. Die Relation \u0027perform\u0027 (8) zwischen \u0027Maria\u0027 und \u0027play\u0027 wird über das Feld (0,1) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wird für die Anfrage \u0027Ich spiele Basketball\u0027 generiert. Das Vokabular enthält \u0027Maria\u0027 (Nutzeridentifikation), \u0027play\u0027 (Aktivität) und \u0027basketball\u0027 (Objekt). In der Bewertungsmatrix wird der Typ \u0027object\u0027 (1) für \u0027Maria\u0027, der Typ \u0027activity\u0027 (9) für \u0027play\u0027 und der Typ \u0027object\u0027 (1) für \u0027basketball\u0027 auf der Einheitsdiagonalen festgelegt. Die Relation \u0027perform\u0027 (8) zwischen \u0027Maria\u0027 und \u0027play\u0027 wird über das Feld (0,1) dargestellt.\"\n}"
+}

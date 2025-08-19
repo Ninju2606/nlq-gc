@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer (Maria) fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird im Vokabular berücksichtigt, da sie mit ihrer Person in Verbindung steht. Das Wort \u0027wear\u0027 wird als Aktivität verwendet, da es etwas tut (tragen). \u0027hat\u0027 ist eine Beziehung, die zwischen \u0027maria\u0027 und \u0027yellow\u0027 bestehen kann (\u0027maria hat einen gelben Hut\u0027). \u0027yellow\u0027 ist ein Attribut.\n\n2. Attributeigenschaften:\n- \u0027maria\u0027 ist ein Identitätsattribut (identityMapping \u003d\u003d true).\n- \u0027wear\u0027 ist eine Aktivität (attribute \u003d\u003d \u0027activity\u0027).\n- \u0027hat\u0027 ist eine Beziehung (attribute \u003d\u003d \u0027attached\u0027).\n- \u0027yellow\u0027 ist ein Attribut (attribute \u003d\u003d \u0027object\u0027).\n\n3. Relationen:\n- \u0027maria\u0027 verfügt über \u0027wear\u0027 (Aktivität), d.h., Maria trägt etwas.\n- \u0027wear\u0027 hat ein Objekt: \u0027hat\u0027.\n- \u0027hat\u0027 ist ein Attribut, das \u0027yellow\u0027 beschreibt (d.h., ein gelber Hut).\n\n4. Typkodierungen:\n- \u0027maria\u0027 → ID 1 (object)\n- \u0027wear\u0027 → ID 4 (activity)\n- \u0027hat\u0027 → ID 5 (attached)\n- \u0027yellow\u0027 → ID 2 (object)\n\nAlle Relationen wurden durch Typkodierungen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird im Vokabular berücksichtigt, da sie mit ihrer Person in Verbindung steht. Das Wort \u0027wear\u0027 wird als Aktivität verwendet, da es etwas tut (tragen). \u0027hat\u0027 ist eine Beziehung, die zwischen \u0027maria\u0027 und \u0027yellow\u0027 bestehen kann (\u0027maria hat einen gelben Hut\u0027). \u0027yellow\u0027 ist ein Attribut.\\n\\n2. Attributeigenschaften:\\n- \u0027maria\u0027 ist ein Identitätsattribut (identityMapping \u003d\u003d true).\\n- \u0027wear\u0027 ist eine Aktivität (attribute \u003d\u003d \u0027activity\u0027).\\n- \u0027hat\u0027 ist eine Beziehung (attribute \u003d\u003d \u0027attached\u0027).\\n- \u0027yellow\u0027 ist ein Attribut (attribute \u003d\u003d \u0027object\u0027).\\n\\n3. Relationen:\\n- \u0027maria\u0027 verfügt über \u0027wear\u0027 (Aktivität), d.h., Maria trägt etwas.\\n- \u0027wear\u0027 hat ein Objekt: \u0027hat\u0027.\\n- \u0027hat\u0027 ist ein Attribut, das \u0027yellow\u0027 beschreibt (d.h., ein gelber Hut).\\n\\n4. Typkodierungen:\\n- \u0027maria\u0027 → ID 1 (object)\\n- \u0027wear\u0027 → ID 4 (activity)\\n- \u0027hat\u0027 → ID 5 (attached)\\n- \u0027yellow\u0027 → ID 2 (object)\\n\\nAlle Relationen wurden durch Typkodierungen abgedeckt.\"\n}"
+}

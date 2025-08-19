@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält nicht genügend Informationen, um relevante Stichwörter zu identifizieren, die für die Erstellung eines GraphCodes relevant sind. Wörter wie \u0027Termin\u0027 sind zwar vorhanden, aber es fehlen konkrete Objekte, Attribute, Aktivitäten oder Beziehungen, um eine Bewertungsmatrix zu erstellen. Die Anfrage ist zu vage und allgemein, um in den vorgegebenen Typkodierungen abgebildet zu werden.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage enthält nicht genügend Informationen, um relevante Stichwörter zu identifizieren, die für die Erstellung eines GraphCodes relevant sind. Wörter wie \u0027Termin\u0027 sind zwar vorhanden, aber es fehlen konkrete Objekte, Attribute, Aktivitäten oder Beziehungen, um eine Bewertungsmatrix zu erstellen. Die Anfrage ist zu vage und allgemein, um in den vorgegebenen Typkodierungen abgebildet zu werden.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "Der GraphCode enthält die Beziehungen zwischen den Begriffen der Anfrage. \u0027maria\u0027 und \u0027person\u0027 sind identisch (Typ 1). \u0027drive\u0027 ist eine Aktivität (Typ 4) und wird von \u0027maria\u0027 (mit Type 9) durchgeführt. \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1), wobei \u0027boat\u0027 sich auf \u0027lake\u0027 befindet (Typ 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Beziehungen zwischen den Begriffen der Anfrage. \u0027maria\u0027 und \u0027person\u0027 sind identisch (Typ 1). \u0027drive\u0027 ist eine Aktivität (Typ 4) und wird von \u0027maria\u0027 (mit Type 9) durchgeführt. \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1), wobei \u0027boat\u0027 sich auf \u0027lake\u0027 befindet (Typ 6).\"\n}"
+}

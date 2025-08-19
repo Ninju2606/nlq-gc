@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung werden diese zu \u0027swim\u0027, \u0027Maria\u0027 und \u0027pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027 und wird im Vokabular als \u0027Maria\u0027 gespeichert.\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027.\n4. Ersetzen der Identifikation \u0027meinem\u0027 durch \u0027Maria\u0027.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (id: 1)\n   - \u0027swim\u0027 ist eine Aktivität (id: 4)\n   - \u0027pool\u0027 ist ein Objekt (id: 1)\n6. Relationen:\n   - \u0027Maria\u0027 performt \u0027swim\u0027 (id: 8)\n   - \u0027swim\u0027 wird in \u0027pool\u0027 durchgeführt (id: 9)\n7. Überprüfung der Typkodierungen:\n   - \u0027perform\u0027 (id: 8) ist vorhanden\n   - \u0027target\u0027 (id: 9) ist vorhanden\n   - \u0027object\u0027 (id: 1) ist vorhanden",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung werden diese zu \u0027swim\u0027, \u0027Maria\u0027 und \u0027pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027 und wird im Vokabular als \u0027Maria\u0027 gespeichert.\\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027.\\n4. Ersetzen der Identifikation \u0027meinem\u0027 durch \u0027Maria\u0027.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (id: 1)\\n   - \u0027swim\u0027 ist eine Aktivität (id: 4)\\n   - \u0027pool\u0027 ist ein Objekt (id: 1)\\n6. Relationen:\\n   - \u0027Maria\u0027 performt \u0027swim\u0027 (id: 8)\\n   - \u0027swim\u0027 wird in \u0027pool\u0027 durchgeführt (id: 9)\\n7. Überprüfung der Typkodierungen:\\n   - \u0027perform\u0027 (id: 8) ist vorhanden\\n   - \u0027target\u0027 (id: 9) ist vorhanden\\n   - \u0027object\u0027 (id: 1) ist vorhanden\"\n}"
+}

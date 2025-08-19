@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (Eintrag 0) das Tragen (wear, Eintrag 1) eines gelben (yellow, Eintrag 3) Huts (hat, Eintrag 2) darstellt. Die Beziehung zwischen Maria und \u0027wear\u0027 wird durch den Typ \u0027perform\u0027 (ID 7) dargestellt. Die Beziehung zwischen \u0027wear\u0027 und \u0027hat\u0027 wird durch den Typ \u0027target\u0027 (ID 8) dargestellt. Der \u0027gelbe\u0027 Hut (yellow, Eintrag 3) ist ein Attribut des Huts (hat, Eintrag 2) und wird durch den Typ \u0027characteristic\u0027 (ID 14) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (Eintrag 0) das Tragen (wear, Eintrag 1) eines gelben (yellow, Eintrag 3) Huts (hat, Eintrag 2) darstellt. Die Beziehung zwischen Maria und \u0027wear\u0027 wird durch den Typ \u0027perform\u0027 (ID 7) dargestellt. Die Beziehung zwischen \u0027wear\u0027 und \u0027hat\u0027 wird durch den Typ \u0027target\u0027 (ID 8) dargestellt. Der \u0027gelbe\u0027 Hut (yellow, Eintrag 3) ist ein Attribut des Huts (hat, Eintrag 2) und wird durch den Typ \u0027characteristic\u0027 (ID 14) dargestellt.\"\n}"
+}

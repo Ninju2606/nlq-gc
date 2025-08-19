@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer hat sich als Maria identifiziert und spricht von der Aktion \u0027tragen\u0027 (wear), was eine Aktivität ist. In der Anfrage wird das Wort \u0027Hut\u0027 implizit durch \u0027hat\u0027 angesprochen, und das Attribut \u0027gelb\u0027 (yellow) wird beschrieben. Der GraphCode wird entsprechend der Identifikation und der genannten Aktivitäten und Attribute gebildet.\n2. Attributeigenschaften:\n   - \u0027maria\u0027 ist eine Identifikation (identityMapping \u003d true)\n   - \u0027wear\u0027 ist eine Aktivität (attribute \u003d activity, identityMapping \u003d false)\n   - \u0027hat\u0027 ist ein Objekt (attribute \u003d object, identityMapping \u003d true)\n   - \u0027yellow\u0027 ist ein Attribut (attribute \u003d characteristic, identityMapping \u003d false)\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 trägt (\u0027wear\u0027) den Hut (\u0027hat\u0027)\n   - Der Hut (\u0027hat\u0027) ist gelb (\u0027yellow\u0027)\n4. Typkodierung für die Relationen:\n   - \u0027wear\u0027 als Aktivität → ID \u003d 4\n   - \u0027hat\u0027 als Objekt → ID \u003d 1\n   - \u0027yellow\u0027 als Attribut → ID \u003d 14\n   Es gibt zu allen Relationen einen Eintrag in der Typkodierung.\n5. Der GraphCode wurde entsprechend der Vorgaben generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat sich als Maria identifiziert und spricht von der Aktion \u0027tragen\u0027 (wear), was eine Aktivität ist. In der Anfrage wird das Wort \u0027Hut\u0027 implizit durch \u0027hat\u0027 angesprochen, und das Attribut \u0027gelb\u0027 (yellow) wird beschrieben. Der GraphCode wird entsprechend der Identifikation und der genannten Aktivitäten und Attribute gebildet.\\n2. Attributeigenschaften:\\n   - \u0027maria\u0027 ist eine Identifikation (identityMapping \u003d true)\\n   - \u0027wear\u0027 ist eine Aktivität (attribute \u003d activity, identityMapping \u003d false)\\n   - \u0027hat\u0027 ist ein Objekt (attribute \u003d object, identityMapping \u003d true)\\n   - \u0027yellow\u0027 ist ein Attribut (attribute \u003d characteristic, identityMapping \u003d false)\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 trägt (\u0027wear\u0027) den Hut (\u0027hat\u0027)\\n   - Der Hut (\u0027hat\u0027) ist gelb (\u0027yellow\u0027)\\n4. Typkodierung für die Relationen:\\n   - \u0027wear\u0027 als Aktivität → ID \u003d 4\\n   - \u0027hat\u0027 als Objekt → ID \u003d 1\\n   - \u0027yellow\u0027 als Attribut → ID \u003d 14\\n   Es gibt zu allen Relationen einen Eintrag in der Typkodierung.\\n5. Der GraphCode wurde entsprechend der Vorgaben generiert.\"\n}"
+}

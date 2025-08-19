@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria im Pool schwimmt und der Pool ihr gehört. \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ein Objekt, \u0027own\u0027 ist ein Attribut, das den Besitz beschreibt. \u0027Maria\u0027 ist die Identifikation des Nutzers, die aufgrund der Verwendung von \u0027ich\u0027 und \u0027mir\u0027 in der Anfrage verwendet wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria im Pool schwimmt und der Pool ihr gehört. \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ein Objekt, \u0027own\u0027 ist ein Attribut, das den Besitz beschreibt. \u0027Maria\u0027 ist die Identifikation des Nutzers, die aufgrund der Verwendung von \u0027ich\u0027 und \u0027mir\u0027 in der Anfrage verwendet wird.\"\n}"
+}

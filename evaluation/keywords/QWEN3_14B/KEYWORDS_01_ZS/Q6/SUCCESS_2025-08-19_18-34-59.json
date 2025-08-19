@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user request contains the action \u0027make\u0027 and the object \u0027appointment\u0027. The user\u0027s identification \u0027Maria\u0027 is included as per the rules since the request involves the user\u0027s action.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"description\": \"The user request contains the action \u0027make\u0027 and the object \u0027appointment\u0027. The user\u0027s identification \u0027Maria\u0027 is included as per the rules since the request involves the user\u0027s action.\"\n}"
+}

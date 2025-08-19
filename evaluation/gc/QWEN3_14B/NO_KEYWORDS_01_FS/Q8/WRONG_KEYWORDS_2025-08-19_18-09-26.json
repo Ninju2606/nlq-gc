@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter ein Boot auf einem See fahren. \u0027Maria\u0027 und \u0027daughter\u0027 sind durch \u002710\u0027 (daughter) verbunden, \u0027drive\u0027 und \u0027boat\u0027 sind durch \u00277\u0027 (perform) verbunden, und \u0027boat\u0027 und \u0027lake\u0027 sind durch \u00276\u0027 (in) verbunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 8, 9, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter ein Boot auf einem See fahren. \u0027Maria\u0027 und \u0027daughter\u0027 sind durch \u002710\u0027 (daughter) verbunden, \u0027drive\u0027 und \u0027boat\u0027 sind durch \u00277\u0027 (perform) verbunden, und \u0027boat\u0027 und \u0027lake\u0027 sind durch \u00276\u0027 (in) verbunden.\"\n}"
+}

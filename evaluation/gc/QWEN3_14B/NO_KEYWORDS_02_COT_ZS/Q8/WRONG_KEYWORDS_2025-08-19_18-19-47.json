@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Maria\u0027, \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Löse relative Verweise auf: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetze Stichwörter ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027See\u0027 → \u0027lake\u0027.\n4. Ersetze Identifikation des Nutzers: \u0027meine Tochter\u0027 → \u0027Maria\u0027s daughter\u0027, aber da \u0027Maria\u0027 bereits explizit genannt wird, wird sie im Vokabular als eigenständiges Stichwort aufgenommen.\n5. Erkläre die Attributeigenschaften: \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte, \u0027boat\u0027 ist ein Objekt, \u0027lake\u0027 ist ein Objekt.\n6. Erkläre die Beziehungen zwischen den Stichwörtern: \u0027Maria\u0027 und \u0027daughter\u0027 sind keine direkten Relationen, \u0027boat\u0027 und \u0027lake\u0027 sind im Kontext der Aktivität \u0027fahre Boot\u0027 verbunden.\n7. Überprüfung der Typkodierungen: Keine Relation zwischen den Stichwörtern erfordert eine nicht-diagonalen Typkodierung (alle Relationen sind entweder \u0027object\u0027 oder erfordern keine Relation, da sie als isolierte Objekte auftreten).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Maria\u0027, \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Löse relative Verweise auf: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetze Stichwörter ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027See\u0027 → \u0027lake\u0027.\\n4. Ersetze Identifikation des Nutzers: \u0027meine Tochter\u0027 → \u0027Maria\u0027s daughter\u0027, aber da \u0027Maria\u0027 bereits explizit genannt wird, wird sie im Vokabular als eigenständiges Stichwort aufgenommen.\\n5. Erkläre die Attributeigenschaften: \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte, \u0027boat\u0027 ist ein Objekt, \u0027lake\u0027 ist ein Objekt.\\n6. Erkläre die Beziehungen zwischen den Stichwörtern: \u0027Maria\u0027 und \u0027daughter\u0027 sind keine direkten Relationen, \u0027boat\u0027 und \u0027lake\u0027 sind im Kontext der Aktivität \u0027fahre Boot\u0027 verbunden.\\n7. Überprüfung der Typkodierungen: Keine Relation zwischen den Stichwörtern erfordert eine nicht-diagonalen Typkodierung (alle Relationen sind entweder \u0027object\u0027 oder erfordern keine Relation, da sie als isolierte Objekte auftreten).\"\n}"
+}

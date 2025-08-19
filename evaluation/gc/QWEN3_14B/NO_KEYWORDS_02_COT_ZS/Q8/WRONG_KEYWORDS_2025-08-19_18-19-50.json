@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf dieselbe Person, die Identität der Nutzerin \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 → \u0027my daughter\u0027, \u0027ich\u0027 → \u0027I\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027auf einem See\u0027 → \u0027on a lake\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027mein\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften: \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (object), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Objekt (object).\n6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 haben die Relation 10 (daughter). \u0027Maria\u0027 und \u0027boat\u0027 haben die Relation 8 (perform). \u0027Maria\u0027 und \u0027lake\u0027 haben die Relation 6 (under). \u0027daughter\u0027 und \u0027boat\u0027 haben die Relation 8 (perform). \u0027daughter\u0027 und \u0027lake\u0027 haben die Relation 6 (under). \u0027boat\u0027 und \u0027lake\u0027 haben die Relation 6 (under).\n7. Alle Relationen finden sich in den Typkodierungen. ID für \u0027daughter\u0027 ist 10, ID für \u0027perform\u0027 ist 8, ID für \u0027under\u0027 ist 6.\n8. Der GraphCode wurde entsprechend erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf dieselbe Person, die Identität der Nutzerin \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 → \u0027my daughter\u0027, \u0027ich\u0027 → \u0027I\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027auf einem See\u0027 → \u0027on a lake\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027mein\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften: \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (object), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Objekt (object).\\n6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 haben die Relation 10 (daughter). \u0027Maria\u0027 und \u0027boat\u0027 haben die Relation 8 (perform). \u0027Maria\u0027 und \u0027lake\u0027 haben die Relation 6 (under). \u0027daughter\u0027 und \u0027boat\u0027 haben die Relation 8 (perform). \u0027daughter\u0027 und \u0027lake\u0027 haben die Relation 6 (under). \u0027boat\u0027 und \u0027lake\u0027 haben die Relation 6 (under).\\n7. Alle Relationen finden sich in den Typkodierungen. ID für \u0027daughter\u0027 ist 10, ID für \u0027perform\u0027 ist 8, ID für \u0027under\u0027 ist 6.\\n8. Der GraphCode wurde entsprechend erstellt.\"\n}"
+}

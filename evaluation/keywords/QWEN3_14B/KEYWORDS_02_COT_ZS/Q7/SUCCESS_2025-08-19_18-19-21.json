@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 wurden identifiziert. Nach Übersetzung ins Englische ergibt sich das Vokabular [\u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027]. Es wurden keine relativen Verweise oder persönliche Pronomen wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden, daher wurde die Identifikation des Nutzers nicht in das Vokabular aufgenommen.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"Stichwörter \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 wurden identifiziert. Nach Übersetzung ins Englische ergibt sich das Vokabular [\u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027]. Es wurden keine relativen Verweise oder persönliche Pronomen wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden, daher wurde die Identifikation des Nutzers nicht in das Vokabular aufgenommen.\"\n}"
+}

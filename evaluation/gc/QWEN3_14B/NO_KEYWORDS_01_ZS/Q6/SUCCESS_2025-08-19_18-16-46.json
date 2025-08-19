@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine konkrete Beschreibung einer Szene im Metaverse oder keine relevanten Objekte, Attribute oder Aktivitäten, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Kein relevanter Inhalt zur Erstellung eines GraphCodes gefunden.",
+  "responsePlain": "{\n  \"error\": \"Kein relevanter Inhalt zur Erstellung eines GraphCodes gefunden.\",\n  \"description\": \"Die Anfrage enthält keine konkrete Beschreibung einer Szene im Metaverse oder keine relevanten Objekte, Attribute oder Aktivitäten, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

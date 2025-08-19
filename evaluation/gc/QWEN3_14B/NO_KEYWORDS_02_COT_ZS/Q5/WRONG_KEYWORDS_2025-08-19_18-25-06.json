@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "wear",
+    "yellow",
+    "hat",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027ich\u0027.\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf Maria.\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027Maria\u0027.\n4. Ersetzung von \u0027ich\u0027 durch die Nutzeridentifikation: \u0027Maria\u0027 wird verwendet.\n5. Attributeigenschaften: \u0027situation\u0027 (context), \u0027wear\u0027 (activity), \u0027yellow\u0027 (characteristic), \u0027hat\u0027 (object), \u0027Maria\u0027 (object).\n6. Relationen: Maria trägt (wear) einen gelben Hut (yellow hat). \u0027wear\u0027 bezieht sich auf eine Aktivität, \u0027yellow\u0027 ist eine charakteristische Eigenschaft des Hutes, \u0027hat\u0027 ist ein Objekt.\n7. Typkodierungen: \u0027context\u0027 (2), \u0027activity\u0027 (4), \u0027characteristic\u0027 (14), \u0027object\u0027 (1) und \u0027object\u0027 (1) für Maria – alle kodierungen sind vorhanden.\n8. GraphCode mit Vokabular und Bewertungsmatrix wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"wear\", \"yellow\", \"hat\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 2, 0, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027ich\u0027.\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf Maria.\\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027Maria\u0027.\\n4. Ersetzung von \u0027ich\u0027 durch die Nutzeridentifikation: \u0027Maria\u0027 wird verwendet.\\n5. Attributeigenschaften: \u0027situation\u0027 (context), \u0027wear\u0027 (activity), \u0027yellow\u0027 (characteristic), \u0027hat\u0027 (object), \u0027Maria\u0027 (object).\\n6. Relationen: Maria trägt (wear) einen gelben Hut (yellow hat). \u0027wear\u0027 bezieht sich auf eine Aktivität, \u0027yellow\u0027 ist eine charakteristische Eigenschaft des Hutes, \u0027hat\u0027 ist ein Objekt.\\n7. Typkodierungen: \u0027context\u0027 (2), \u0027activity\u0027 (4), \u0027characteristic\u0027 (14), \u0027object\u0027 (1) und \u0027object\u0027 (1) für Maria – alle kodierungen sind vorhanden.\\n8. GraphCode mit Vokabular und Bewertungsmatrix wurde erfolgreich erstellt.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "Der GraphCode repräsentiert, dass Maria (als Person) mit dem Boot auf dem See fährt. \u0027drive\u0027 steht für die Aktivität, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte im Kontext. Die Beziehung zwischen Maria und \u0027person\u0027 wird über den Typ \u0027object\u0027 (Typ 1) definiert, zwischen \u0027drive\u0027 und \u0027boat\u0027 wird \u0027perform\u0027 (Typ 8) verwendet, und zwischen \u0027boat\u0027 und \u0027lake\u0027 wird \u0027on\u0027 (Typ 5, obwohl nicht explizit im Vokabular vorhanden, wird hier approximiert).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert, dass Maria (als Person) mit dem Boot auf dem See fährt. \u0027drive\u0027 steht für die Aktivität, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte im Kontext. Die Beziehung zwischen Maria und \u0027person\u0027 wird über den Typ \u0027object\u0027 (Typ 1) definiert, zwischen \u0027drive\u0027 und \u0027boat\u0027 wird \u0027perform\u0027 (Typ 8) verwendet, und zwischen \u0027boat\u0027 und \u0027lake\u0027 wird \u0027on\u0027 (Typ 5, obwohl nicht explizit im Vokabular vorhanden, wird hier approximiert).\"\n}"
+}

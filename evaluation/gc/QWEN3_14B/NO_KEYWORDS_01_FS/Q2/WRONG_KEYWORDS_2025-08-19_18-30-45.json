@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria rennt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 4],\n    [0, 9]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria rennt.\"\n}"
+}

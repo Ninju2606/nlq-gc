@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren ein Boot auf einem See. Das Vokabular enthält die Identifikation der Nutzerin sowie die Begriffe der Anfrage. Die Bewertungsmatrix zeigt die Beziehungen zwischen den Begriffen an. Maria ist der Nutzer, \u0027person\u0027 ist der Typ von Maria, \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 das Objekt, und \u0027lake\u0027 der Kontext. Die Relationen wie \u0027daughter\u0027 (10) und \u0027in\u0027 (6) sind mathematisch korrekt und entsprechen den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren ein Boot auf einem See. Das Vokabular enthält die Identifikation der Nutzerin sowie die Begriffe der Anfrage. Die Bewertungsmatrix zeigt die Beziehungen zwischen den Begriffen an. Maria ist der Nutzer, \u0027person\u0027 ist der Typ von Maria, \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 das Objekt, und \u0027lake\u0027 der Kontext. Die Relationen wie \u0027daughter\u0027 (10) und \u0027in\u0027 (6) sind mathematisch korrekt und entsprechen den vorgegebenen Typkodierungen.\"\n}"
+}

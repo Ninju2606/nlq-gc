@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute, Aktivitäten oder Beziehungen, die für die Erstellung eines GraphCodes erforderlich sind. Der GraphCode erfordert spezifische Begriffe, um die Szene im Metaverse zu beschreiben.",
+  "error": "Keine passenden Begriffe für die Erstellung eines GraphCodes gefunden.",
+  "responsePlain": "{\n  \"error\": \"Keine passenden Begriffe für die Erstellung eines GraphCodes gefunden.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute, Aktivitäten oder Beziehungen, die für die Erstellung eines GraphCodes erforderlich sind. Der GraphCode erfordert spezifische Begriffe, um die Szene im Metaverse zu beschreiben.\"\n}"
+}

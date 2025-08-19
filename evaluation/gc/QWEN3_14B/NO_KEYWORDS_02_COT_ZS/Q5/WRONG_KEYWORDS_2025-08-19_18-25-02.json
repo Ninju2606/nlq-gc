@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf den Nutzer und wird in Schritt 4 ersetzt.\n3. Übersetze Stichwörter ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Ersetze \u0027ich\u0027 durch \u0027Maria\u0027 gemäß der Nutzeridentifikation.\n5. Attributeigenschaften: \u0027situation\u0027 (object), \u0027Maria\u0027 (object), \u0027yellow\u0027 (attribute), \u0027hat\u0027 (activity).\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 trägt \u0027yellow hat\u0027 in einer \u0027situation\u0027. Die Relationen sind: \u0027Maria\u0027 (object) trägt (activity) \u0027yellow hat\u0027 (object) in einer \u0027situation\u0027 (object).\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4). Beide Typkodierungen sind verfügbar.\n8. GraphCode erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf den Nutzer und wird in Schritt 4 ersetzt.\\n3. Übersetze Stichwörter ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Ersetze \u0027ich\u0027 durch \u0027Maria\u0027 gemäß der Nutzeridentifikation.\\n5. Attributeigenschaften: \u0027situation\u0027 (object), \u0027Maria\u0027 (object), \u0027yellow\u0027 (attribute), \u0027hat\u0027 (activity).\\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 trägt \u0027yellow hat\u0027 in einer \u0027situation\u0027. Die Relationen sind: \u0027Maria\u0027 (object) trägt (activity) \u0027yellow hat\u0027 (object) in einer \u0027situation\u0027 (object).\\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4). Beide Typkodierungen sind verfügbar.\\n8. GraphCode erfolgreich erstellt.\"\n}"
+}

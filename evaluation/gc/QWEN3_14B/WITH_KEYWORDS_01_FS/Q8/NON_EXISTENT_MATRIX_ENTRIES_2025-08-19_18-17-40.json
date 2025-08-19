@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria (als Person) mit ihrer Tochter (implizit über den Typ \u0027daughter\u0027 in den Kodierungen ausgedrückt) ein Boot auf einem See fährt. Die Beziehungen werden durch den Typ \u0027drive\u0027 (Fahrt), \u0027attached\u0027 (zugehörig, im Sinne von Boot) und \u0027in\u0027 (auf dem See) abgebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 8, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria (als Person) mit ihrer Tochter (implizit über den Typ \u0027daughter\u0027 in den Kodierungen ausgedrückt) ein Boot auf einem See fährt. Die Beziehungen werden durch den Typ \u0027drive\u0027 (Fahrt), \u0027attached\u0027 (zugehörig, im Sinne von Boot) und \u0027in\u0027 (auf dem See) abgebildet.\"\n}"
+}

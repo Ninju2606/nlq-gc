@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user request specifies that \u0027Tim\u0027 is the subject performing the action \u0027run\u0027. The user\u0027s identification \u0027Maria\u0027 is not relevant in this context as the request does not use self-identifying words like \u0027I\u0027 or \u0027my\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The user request specifies that \u0027Tim\u0027 is the subject performing the action \u0027run\u0027. The user\u0027s identification \u0027Maria\u0027 is not relevant in this context as the request does not use self-identifying words like \u0027I\u0027 or \u0027my\u0027.\"\n}"
+}
