@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter sind: Tochter, Boot, See. Ich wurde als Nutzer referenziert und muss durch die spezifizierte Identifikation Maria ersetzt werden. 2. Das Wört \u0027Tochter\u0027 ist ein relativer Verweis auf Maria. 3. Übersetzung ins Englische: daughter, boat, lake. 4. Ich (Maria) und Tochter wurden in der Stichwörterliste zusammengefasst, da sie beide Personen bezeichnen. 5. \u0027Daughter\u0027 ist ein Objekt mit dem Kontext \u0027Maria\u0027. \u0027Boat\u0027 ist auch als Objekt kodiert. \u0027Lake\u0027 ist als Kontext definiert. 6. Maria und ihre Tochter stehen in der Relation \u0027together\u0027 fahren. \u0027Boat\u0027 hat das Ziel (\u0027target\u0027) auf \u0027lake\u0027. 7. Für alle gefundenen Relationen gibt es einen passenden Eintrag in den bereitgestellten Typkodierungen (daughter: id\u003d10, perform activity: id\u003d8 for Maria, and id\u003d9 for boat\u0027s target).",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 9],\n    [0, 5, 2]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter sind: Tochter, Boot, See. Ich wurde als Nutzer referenziert und muss durch die spezifizierte Identifikation Maria ersetzt werden. 2. Das Wört \u0027Tochter\u0027 ist ein relativer Verweis auf Maria. 3. Übersetzung ins Englische: daughter, boat, lake. 4. Ich (Maria) und Tochter wurden in der Stichwörterliste zusammengefasst, da sie beide Personen bezeichnen. 5. \u0027Daughter\u0027 ist ein Objekt mit dem Kontext \u0027Maria\u0027. \u0027Boat\u0027 ist auch als Objekt kodiert. \u0027Lake\u0027 ist als Kontext definiert. 6. Maria und ihre Tochter stehen in der Relation \u0027together\u0027 fahren. \u0027Boat\u0027 hat das Ziel (\u0027target\u0027) auf \u0027lake\u0027. 7. Für alle gefundenen Relationen gibt es einen passenden Eintrag in den bereitgestellten Typkodierungen (daughter: id\u003d10, perform activity: id\u003d8 for Maria, and id\u003d9 for boat\u0027s target).\"\n}"
+}

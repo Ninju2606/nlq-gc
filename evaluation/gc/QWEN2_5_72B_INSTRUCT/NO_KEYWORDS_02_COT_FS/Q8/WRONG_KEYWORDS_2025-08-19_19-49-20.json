@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      6
+    ],
+    [
+      10,
+      1,
+      7,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      6
+    ],
+    [
+      6,
+      6,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind »Meine Tochter«, »fahren«, »Boot«, »See«, »und ich«. 2. »Mein« und »meine« sind relative Verweise. Die neuen Stichwörter sind »Tochter«, »fahren«, »Boot«, »See«, »Maria«. 3. Die englischen Stichwörter sind »Maria«, »daughter«, »drive«, »boat«, »lake«. 4. Die Stichwörter mit Nutzeridentifikation sind »Maria«, »daughter«, »drive«, »boat«, »lake«. 5. »Maria« und »daughter« sind Objekte der Anfrage. »drive« ist eine Aktivität. »boat« und »lake« sind Objekte. 6. »Maria« führt die Aktivität »drive« aus. »daughter« führt die Aktivität »drive« aus. »drive« bezieht sich auf »boat«. »boat« befindet sich auf »lake«. »daughter« ist die Tochter von »Maria«. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf (above) ist 6. Die ID für Beziehen (target) ist 8. Die ID für unter (under) ist 6.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 7, 0, 6],\n        [10, 1, 7, 0, 6],\n        [0, 0, 9, 8, 0],\n        [0, 0, 8, 1, 6],\n        [6, 6, 0, 6, 1]\n    ],\n    \"description\": \"1. Die relevanten Stichwörter sind »Meine Tochter«, »fahren«, »Boot«, »See«, »und ich«. 2. »Mein« und »meine« sind relative Verweise. Die neuen Stichwörter sind »Tochter«, »fahren«, »Boot«, »See«, »Maria«. 3. Die englischen Stichwörter sind »Maria«, »daughter«, »drive«, »boat«, »lake«. 4. Die Stichwörter mit Nutzeridentifikation sind »Maria«, »daughter«, »drive«, »boat«, »lake«. 5. »Maria« und »daughter« sind Objekte der Anfrage. »drive« ist eine Aktivität. »boat« und »lake« sind Objekte. 6. »Maria« führt die Aktivität »drive« aus. »daughter« führt die Aktivität »drive« aus. »drive« bezieht sich auf »boat«. »boat« befindet sich auf »lake«. »daughter« ist die Tochter von »Maria«. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf (above) ist 6. Die ID für Beziehen (target) ist 8. Die ID für unter (under) ist 6.\"\n}"
+}

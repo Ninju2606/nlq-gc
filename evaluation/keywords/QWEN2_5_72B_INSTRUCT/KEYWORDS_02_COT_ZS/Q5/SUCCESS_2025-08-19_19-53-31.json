@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter: Maria, gelb, Hut, tragen. Verweise wurden gelöst, Stichwörter ins Englische übersetzt, Nutzerreferenz \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Stichwörter: Maria, gelb, Hut, tragen. Verweise wurden gelöst, Stichwörter ins Englische übersetzt, Nutzerreferenz \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.\"\n}"
+}

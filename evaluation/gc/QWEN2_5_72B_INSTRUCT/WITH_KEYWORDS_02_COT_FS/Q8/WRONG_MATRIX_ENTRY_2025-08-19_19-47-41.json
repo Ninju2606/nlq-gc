@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Es gibt relative Verweise und Identifikation des Nutzers. \"Meine Tochter\" wurde zu \"person\" und \"ich\" wurde zu \"maria\".\n2. \"maria\" und \"person\", \"boat\", sowie \"lake\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität.\n3. \"person\" (Tochter) führt die Aktivität \"drive\" aus. \"person\" steht in Beziehung zur Aktivität \"drive\". \"drive\" bezieht sich auf \"boat\". \"maria\" führt ebenfalls die Aktivität \"drive\" aus.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10, die hier jedoch nicht benötigt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [[1, 0, 0, 0, 0], [0, 1, 7, 8, 0], [0, 0, 4, 9, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]],\n  \"description\": \"1. Es gibt relative Verweise und Identifikation des Nutzers. \\\"Meine Tochter\\\" wurde zu \\\"person\\\" und \\\"ich\\\" wurde zu \\\"maria\\\".\\n2. \\\"maria\\\" und \\\"person\\\", \\\"boat\\\", sowie \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\\n3. \\\"person\\\" (Tochter) führt die Aktivität \\\"drive\\\" aus. \\\"person\\\" steht in Beziehung zur Aktivität \\\"drive\\\". \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"maria\\\" führt ebenfalls die Aktivität \\\"drive\\\" aus.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10, die hier jedoch nicht benötigt wird.\"\n}"
+}

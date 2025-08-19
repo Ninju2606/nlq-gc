@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer \u0027Maria\u0027 wird dem Begriff \u0027maria\u0027 zugeordnet, da in der Anfrage \u0027Ich spiele Basketball\u0027 das Subjekt \u0027Ich\u0027 auf den Nutzer \u0027Maria\u0027 verweist. 2. \u0027maria\u0027 ist ein Objekt (Typ 1). \u0027play\u0027 ist eine Aktivität (Typ 4). \u0027basketball\u0027 ist ein Objekt (Typ 1). 3. \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typ 8, perform). \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (Typ 9, target). 4. Es gibt passende Typkodierungen für alle Relationen in den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 wird dem Begriff \u0027maria\u0027 zugeordnet, da in der Anfrage \u0027Ich spiele Basketball\u0027 das Subjekt \u0027Ich\u0027 auf den Nutzer \u0027Maria\u0027 verweist. 2. \u0027maria\u0027 ist ein Objekt (Typ 1). \u0027play\u0027 ist eine Aktivität (Typ 4). \u0027basketball\u0027 ist ein Objekt (Typ 1). 3. \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typ 8, perform). \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (Typ 9, target). 4. Es gibt passende Typkodierungen für alle Relationen in den vorgegebenen Typkodierungen.\"\n}"
+}

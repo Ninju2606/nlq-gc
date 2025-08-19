@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria ist identifiziert und wurde in das Vokabular aufgenommen. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 wurden auf Maria zugeordnet.\n2. \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 eine Aktivität (activity), \u0027own\u0027 ist keine explizite Eigenschaft im Vokabular und \u0027pool\u0027 ein Objekt (object).\n3. Maria führt die Aktivität Schwimmen aus (relation: perform), Maria besitzt den Pool (relation: target), der Pool befindet sich über Maria (relation: above).\n4. Die Relationen \u0027perform\u0027 (8), \u0027target\u0027 (9) und \u0027above\u0027 (7) sind in den vorgegebenen Typkodierungen enthalten.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 9],\n        [0, 4, 0, 0],\n        [0, 0, 0, 0],\n        [0, 7, 0, 1]\n    ],\n    \"description\": \"1. Der Nutzer Maria ist identifiziert und wurde in das Vokabular aufgenommen. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 wurden auf Maria zugeordnet.\\n2. \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 eine Aktivität (activity), \u0027own\u0027 ist keine explizite Eigenschaft im Vokabular und \u0027pool\u0027 ein Objekt (object).\\n3. Maria führt die Aktivität Schwimmen aus (relation: perform), Maria besitzt den Pool (relation: target), der Pool befindet sich über Maria (relation: above).\\n4. Die Relationen \u0027perform\u0027 (8), \u0027target\u0027 (9) und \u0027above\u0027 (7) sind in den vorgegebenen Typkodierungen enthalten.\"\n}"
+}

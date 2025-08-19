@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      2,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\n2. \"maria\" ist ein Kontext der Anfrage, \"make\" ist eine Aktivität und \"appointment\" ist ein Objekt.\n3. \"maria\" führt die Aktivität \"make\" aus, und \"make\" bezieht sich auf \"appointment\".\n4. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9.",
+  "responsePlain": "{\n    \"dictionary\":[ \"maria\", \"make\", \"appointment\" ],\n    \"matrix\":[ [ 2, 8, 0 ], [ 0, 4, 9 ], [ 0, 0, 1 ] ],\n    \"description\": \"1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\\n2. \\\"maria\\\" ist ein Kontext der Anfrage, \\\"make\\\" ist eine Aktivität und \\\"appointment\\\" ist ein Objekt.\\n3. \\\"maria\\\" führt die Aktivität \\\"make\\\" aus, und \\\"make\\\" bezieht sich auf \\\"appointment\\\".\\n4. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9.\"\n}"
+}

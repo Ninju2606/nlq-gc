@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      14,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 bezieht sich auf die Nutzerin Maria. 2. Die Attributigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (id: 1), \u0027wear\u0027 ist eine Aktivität (id: 4), \u0027hat\u0027 ist ein Objekt (id: 1), \u0027yellow\u0027 ist ein Attribut (id: 3). 3. Die Relationen zwischen den Stichwörtern sind: Maria (maria) trägt (wear) einen Hut (hat), der gelb (yellow) ist. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: Maria (1) trägt (perform, id: 8) Hut (1), Hut (1) hat das Attribut (characteristic, id: 14) gelb (3).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 0, 9, 0],\n        [0, 4, 0, 0],\n        [0, 0, 1, 14],\n        [0, 0, 14, 3]\n    ],\n    \"description\": \"1. Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 bezieht sich auf die Nutzerin Maria. 2. Die Attributigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (id: 1), \u0027wear\u0027 ist eine Aktivität (id: 4), \u0027hat\u0027 ist ein Objekt (id: 1), \u0027yellow\u0027 ist ein Attribut (id: 3). 3. Die Relationen zwischen den Stichwörtern sind: Maria (maria) trägt (wear) einen Hut (hat), der gelb (yellow) ist. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen: Maria (1) trägt (perform, id: 8) Hut (1), Hut (1) hat das Attribut (characteristic, id: 14) gelb (3).\"\n}"
+}

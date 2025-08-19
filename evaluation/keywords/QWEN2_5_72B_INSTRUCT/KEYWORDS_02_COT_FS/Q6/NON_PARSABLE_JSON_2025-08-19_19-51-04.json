@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\"\n}\n\n\n**Begründung:**\nDie Anfrage \"Wir müssen bald einen Termin ausmachen\" bezieht sich nicht auf eine Szene im Metaverse, sondern auf eine Planung oder Verabredung. Daher können keine relevanten Stichwörter für einen GraphCode generiert werden."
+}

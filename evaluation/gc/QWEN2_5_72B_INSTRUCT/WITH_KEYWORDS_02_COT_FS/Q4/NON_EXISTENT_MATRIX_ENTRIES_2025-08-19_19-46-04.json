@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Das Wort „ich“ wurde zur Identifikation des Nutzers „Maria“ zugeordnet und das Wort „mein“ zur Aktivität „own“. 2. „maria“ ist ein Objekt der Anfrage. „swim“ und „own“ sind Aktivitäten. „pool“ ist ebenfalls ein Objekt. 3. „maria“ führt die Aktivitäten „swim“ und „own“ aus. Die Aktivität „swim“ bezieht sich auf den „pool“. Die Aktivität „own“ bezieht sich ebenfalls auf den „pool“. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Eigenschaft (characteristic) ist 14.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 7, 4, 0],\n    [0, 4, 0, 8],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Das Wort „ich“ wurde zur Identifikation des Nutzers „Maria“ zugeordnet und das Wort „mein“ zur Aktivität „own“. 2. „maria“ ist ein Objekt der Anfrage. „swim“ und „own“ sind Aktivitäten. „pool“ ist ebenfalls ein Objekt. 3. „maria“ führt die Aktivitäten „swim“ und „own“ aus. Die Aktivität „swim“ bezieht sich auf den „pool“. Die Aktivität „own“ bezieht sich ebenfalls auf den „pool“. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Eigenschaft (characteristic) ist 14.\"\n}"
+}

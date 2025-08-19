@@ -1,0 +1,6 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "error": "Die Anfrage enthält keine expliziten Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene dargestellt werden können. Bitte gib eine klarere Anfrage mit spezifischen Elementen an.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine expliziten Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene dargestellt werden können. Bitte gib eine klarere Anfrage mit spezifischen Elementen an.\"\n}"
+}

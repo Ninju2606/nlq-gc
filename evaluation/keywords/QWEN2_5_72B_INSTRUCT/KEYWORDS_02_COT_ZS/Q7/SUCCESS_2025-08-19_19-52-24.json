@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Stichwörter oder Relationen, die im Metaverse sinnvoll dargestellt werden können.",
+  "error": "Anfrage ist unklar. Es ist nicht möglich, eine Szene im Metaverse zu beschreiben, die \u0027Häuser um Fragen zu malen\u0027 enthält.",
+  "responsePlain": "{\n  \"error\": \"Anfrage ist unklar. Es ist nicht möglich, eine Szene im Metaverse zu beschreiben, die \u0027Häuser um Fragen zu malen\u0027 enthält.\",\n  \"description\": \"Die Anfrage enthält keine klaren Stichwörter oder Relationen, die im Metaverse sinnvoll dargestellt werden können.\"\n}"
+}

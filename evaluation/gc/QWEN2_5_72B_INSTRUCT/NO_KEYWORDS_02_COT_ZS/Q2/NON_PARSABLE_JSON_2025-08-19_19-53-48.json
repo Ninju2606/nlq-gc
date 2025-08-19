@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Ausgabe im JSON-Format:\n\n\n{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"matrix\": [\n        [1, 8],\n        [0, 4]\n    ],\n    \"description\": \"1. Ermittelt wurden die Stichwörter \u0027Tim\u0027 und \u0027run\u0027. 2. Es gibt keine relativen Verweise in der Anfrage. 3. Die Worte werden übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027run\u0027 ist englisch. 4. Es gibt keine Identifikation des Nutzers in der Anfrage. 5. \u0027Tim\u0027 wird als Objekt (Typcode 1) interpretiert, \u0027run\u0027 als Aktivität (Typcode 4). 6. Tim führt die Aktivität \u0027run\u0027 aus (Typcode 8). 7. Für alle Relationen gibt es passende Typkodierungen.\"\n}\n\n\nDieser GraphCode stellt die Szene dar, dass \"Tim\" die Aktivität \"run\" durchführt. Der Nutzer wird nicht in der Anfrage explizit erwähnt, daher wurde die Identifikation des Nutzers nicht berücksichtigt."
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ],
+    [
+      5,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die aufgelösten relative Verweise und Identifikationen des Nutzers sind: \u0027Ich\u0027 wird zu \u0027maria\u0027 zugeordnet, \u0027mein\u0027 wird zur Beziehung \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027.\n2. \u0027maria\u0027 ist ein Objekt (1), \u0027swim\u0027 ist eine Aktivität (4), \u0027own\u0027 ist eine Beziehung, die nicht in der Typkodierung enthalten ist, aber im Kontext als Zielrelation betrachtet werden kann (9), \u0027pool\u0027 ist ein Objekt (1).\n3. Maria schwimmt im Pool, daher steht \u0027swim\u0027 in Beziehung mit \u0027pool\u0027 über \u0027target\u0027 (ID 9). Maria besitzt den Pool, daher steht \u0027maria\u0027 in Beziehung mit \u0027pool\u0027 über \u0027own\u0027 (ID 9).\n4. Es gibt passende Einträge für alle Relationen in den vorgegebenen Typkodierungen: \u0027maria\u0027 als Objekt (ID 1), \u0027swim\u0027 als Aktivität (ID 4), \u0027pool\u0027 als Objekt (ID 1), und \u0027own\u0027 als Beziehung (ID 9) sowie \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 5],\n    [0, 0, 0, 9],\n    [5, 0, 0, 1]\n  ],\n  \"description\": \"1. Die aufgelösten relative Verweise und Identifikationen des Nutzers sind: \u0027Ich\u0027 wird zu \u0027maria\u0027 zugeordnet, \u0027mein\u0027 wird zur Beziehung \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027.\\n2. \u0027maria\u0027 ist ein Objekt (1), \u0027swim\u0027 ist eine Aktivität (4), \u0027own\u0027 ist eine Beziehung, die nicht in der Typkodierung enthalten ist, aber im Kontext als Zielrelation betrachtet werden kann (9), \u0027pool\u0027 ist ein Objekt (1).\\n3. Maria schwimmt im Pool, daher steht \u0027swim\u0027 in Beziehung mit \u0027pool\u0027 über \u0027target\u0027 (ID 9). Maria besitzt den Pool, daher steht \u0027maria\u0027 in Beziehung mit \u0027pool\u0027 über \u0027own\u0027 (ID 9).\\n4. Es gibt passende Einträge für alle Relationen in den vorgegebenen Typkodierungen: \u0027maria\u0027 als Objekt (ID 1), \u0027swim\u0027 als Aktivität (ID 4), \u0027pool\u0027 als Objekt (ID 1), und \u0027own\u0027 als Beziehung (ID 9) sowie \u0027target\u0027 (ID 9).\"\n}"
+}

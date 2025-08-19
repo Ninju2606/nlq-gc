@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relative Identifikation \u0027ich\u0027 im Satz \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wurde auf Maria zugeordnet. 2. \u0027Maria\u0027 ist der Name des Nutzers und damit ein charakteristisches Merkmal seiner Person (Typ: context). \u0027Wear\u0027 (tragen) ist eine Aktivität, die Maria ausführt (Typ: activity). \u0027Hat\u0027 ist ein Objekt, das getragen wird (Typ: object). \u0027Yellow\u0027 ist einAttribut das den Hut beschreibt (Typ: characteristic). 3. Maria führt die Aktivität \u0027wear\u0027 aus und der Hut hat das Attribut \u0027yellow\u0027. 4. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen: \u0027Maria\u0027 hat ID 2 (context), \u0027wear\u0027 hat ID 8 (perform), \u0027hat\u0027 hat ID 1 (object), \u0027yellow\u0027 hat ID 14 (characteristic).",
+  "responsePlain": "{\n  \"error\": null,\n  \"description\": \"1. Die relative Identifikation \u0027ich\u0027 im Satz \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wurde auf Maria zugeordnet. 2. \u0027Maria\u0027 ist der Name des Nutzers und damit ein charakteristisches Merkmal seiner Person (Typ: context). \u0027Wear\u0027 (tragen) ist eine Aktivität, die Maria ausführt (Typ: activity). \u0027Hat\u0027 ist ein Objekt, das getragen wird (Typ: object). \u0027Yellow\u0027 ist einAttribut das den Hut beschreibt (Typ: characteristic). 3. Maria führt die Aktivität \u0027wear\u0027 aus und der Hut hat das Attribut \u0027yellow\u0027. 4. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen: \u0027Maria\u0027 hat ID 2 (context), \u0027wear\u0027 hat ID 8 (perform), \u0027hat\u0027 hat ID 1 (object), \u0027yellow\u0027 hat ID 14 (characteristic).\",\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [2, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 14]\n  ]\n}"
+}

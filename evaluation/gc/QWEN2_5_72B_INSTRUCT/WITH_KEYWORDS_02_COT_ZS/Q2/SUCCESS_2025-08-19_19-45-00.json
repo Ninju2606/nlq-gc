@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Da Tim in der Anfrage keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet, wird die Identifikation des Nutzers (Maria) ignoriert. 2. Tim (Eintrag 0) ist ein Objekt (Typ 1) und rennt (Eintrag 1) ist eine Aktivität (Typ 4). 3. Tim (Eintrag 0) steht in der Relation \u0027perform\u0027 (Typ 8) zu rennt (Eintrag 1). 4. Für die Relation \u0027perform\u0027 gibt es einen passenden Eintrag in den bereitgestellten Typkodierungen (ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Da Tim in der Anfrage keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet, wird die Identifikation des Nutzers (Maria) ignoriert. 2. Tim (Eintrag 0) ist ein Objekt (Typ 1) und rennt (Eintrag 1) ist eine Aktivität (Typ 4). 3. Tim (Eintrag 0) steht in der Relation \u0027perform\u0027 (Typ 8) zu rennt (Eintrag 1). 4. Für die Relation \u0027perform\u0027 gibt es einen passenden Eintrag in den bereitgestellten Typkodierungen (ID 8).\"\n}"
+}

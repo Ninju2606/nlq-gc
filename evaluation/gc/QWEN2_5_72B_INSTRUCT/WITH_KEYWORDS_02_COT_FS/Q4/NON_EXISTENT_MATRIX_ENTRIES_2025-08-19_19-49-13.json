@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage enthält relative Verweise: \"ich\" wurde zu \"maria\" und \"mein\" wurde zu \"own\".\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist ein Kontext.\n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". \"maria\" steht in einem Beziehungskontext \"own\" zu \"pool\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 7, 0, 0], [0, 4, 0, 8], [0, 0, 0, 0], [0, 0, 0, 1]],\n    \"description\": \"1. Die Anfrage enthält relative Verweise: \\\"ich\\\" wurde zu \\\"maria\\\" und \\\"mein\\\" wurde zu \\\"own\\\".\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist ein Kontext.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"maria\\\" steht in einem Beziehungskontext \\\"own\\\" zu \\\"pool\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2.\"\n}"
+}

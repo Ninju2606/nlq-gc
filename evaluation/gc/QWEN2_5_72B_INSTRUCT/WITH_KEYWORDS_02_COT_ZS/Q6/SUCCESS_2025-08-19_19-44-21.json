@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine zeitliche Koordination und keine Szenenbeschreibung im Metaverse. Es gibt keine klaren Objekte, Attribute oder Aktivitäten, die in einer Bewertungsmatrix dargestellt werden können. Daher kann kein GraphCode generiert werden.",
+  "error": "Keine passenden Relationen für die gegebene Anfrage gefunden",
+  "responsePlain": "{\n  \"error\": \"Keine passenden Relationen für die gegebene Anfrage gefunden\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine zeitliche Koordination und keine Szenenbeschreibung im Metaverse. Es gibt keine klaren Objekte, Attribute oder Aktivitäten, die in einer Bewertungsmatrix dargestellt werden können. Daher kann kein GraphCode generiert werden.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es ist nicht klar, welche Objekte oder Aktivitäten in der Szene beschrieben werden sollen. Die Anfrage könnte verbessert werden, indem sie präziser formuliert wird. Zum Beispiel: \u0027Maria malt ein Haus und stellt Fragen dazu\u0027.",
+  "error": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält nicht genügend Informationen für die Generierung eines sinnvollen GraphCodes.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält nicht genügend Informationen für die Generierung eines sinnvollen GraphCodes.\",\n  \"description\": \"Es ist nicht klar, welche Objekte oder Aktivitäten in der Szene beschrieben werden sollen. Die Anfrage könnte verbessert werden, indem sie präziser formuliert wird. Zum Beispiel: \u0027Maria malt ein Haus und stellt Fragen dazu\u0027.\"\n}"
+}

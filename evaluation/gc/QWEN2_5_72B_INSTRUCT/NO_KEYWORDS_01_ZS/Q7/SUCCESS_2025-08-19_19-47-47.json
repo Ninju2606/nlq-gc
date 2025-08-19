@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält keine klare Beziehung zwischen den Begriffen, die als sinnvolle Szene im Metaverse interpretiert werden kann.",
+  "error": "Fehlende Relation oder unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Fehlende Relation oder unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält keine klare Beziehung zwischen den Begriffen, die als sinnvolle Szene im Metaverse interpretiert werden kann.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Es gibt keine relativen Verweise. Die Identifikation des Nutzers wurde nicht berücksichtigt, da keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen.\n2. \u0027tim\u0027 ist ein Objekt der Anfrage. \u0027run\u0027 ist eine Aktivität.\n3. \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7.",
+  "responsePlain": "{\n    \"dictionary\": [\"tim\", \"run\"],\n    \"matrix\": [[1, 7], [0, 4]],\n    \"description\": \"1. Es gibt keine relativen Verweise. Die Identifikation des Nutzers wurde nicht berücksichtigt, da keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen.\\n2. \u0027tim\u0027 ist ein Objekt der Anfrage. \u0027run\u0027 ist eine Aktivität.\\n3. \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7.\"\n}"
+}

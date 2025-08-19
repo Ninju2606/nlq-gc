@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria",
+    "own"
+  ],
+  "matrix": [
+    [
+      4,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria swims in a pool that she owns.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\", \"own\"],\n  \"matrix\": [\n    [4, 0, 8, 0],\n    [0, 1, 0, 5],\n    [0, 0, 2, 0],\n    [0, 5, 0, 9]\n  ],\n  \"description\": \"Maria swims in a pool that she owns.\"\n}"
+}

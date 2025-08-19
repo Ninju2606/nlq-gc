@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und grammatikalisch wirr. Es kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Fehlerhafte Anfrage",
+  "responsePlain": "{\n  \"error\": \"Fehlerhafte Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und grammatikalisch wirr. Es kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

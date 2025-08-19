@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. \"Meine Tochter\" wurde zu den Stichwörtern \"person\" und \"maria\", wobei \"person\" die Tochter von \"maria\" ist.\n2. \"maria\", \"person\", \"boat\", und \"lake\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität.\n3. \"maria\" führt die Aktivität \"drive\" aus. \"person\" führt ebenfalls die Aktivität \"drive\" aus. Die Aktivität \"drive\" bezieht sich auf \"boat\" und \"lake\". \"boat\" befindet sich auf \"lake\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für oben (above) ist 7. Die ID für unter (under) ist 6.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 0, 7, 0, 0],\n        [0, 1, 7, 0, 0],\n        [0, 0, 9, 8, 8],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"1. \\\"Meine Tochter\\\" wurde zu den Stichwörtern \\\"person\\\" und \\\"maria\\\", wobei \\\"person\\\" die Tochter von \\\"maria\\\" ist.\\n2. \\\"maria\\\", \\\"person\\\", \\\"boat\\\", und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\\n3. \\\"maria\\\" führt die Aktivität \\\"drive\\\" aus. \\\"person\\\" führt ebenfalls die Aktivität \\\"drive\\\" aus. Die Aktivität \\\"drive\\\" bezieht sich auf \\\"boat\\\" und \\\"lake\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für oben (above) ist 7. Die ID für unter (under) ist 6.\"\n}"
+}

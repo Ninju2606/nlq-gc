@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "paint",
+    "house",
+    "questions"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria malt Häuser um Fragen zu malen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"paint\", \"house\", \"questions\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 4, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"Maria malt Häuser um Fragen zu malen.\"\n}"
+}

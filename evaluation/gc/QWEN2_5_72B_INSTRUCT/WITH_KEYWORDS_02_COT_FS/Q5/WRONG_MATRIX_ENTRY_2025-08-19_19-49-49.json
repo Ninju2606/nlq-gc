@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Das Wort \u0027ich\u0027 wurde zu \u0027maria\u0027 zugeordnet.\n2. \u0027maria\u0027 und \u0027hat\u0027 sind Objekte, \u0027wear\u0027 ist eine Aktivität, \u0027yellow\u0027 ist ein Attribut.\n3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027wear\u0027 bezieht sich auf \u0027hat\u0027, \u0027yellow\u0027 ist eine Charakteristik von \u0027hat\u0027.\n4. Die ID für Objekt (object) ist 1, die ID für Aktivität (activity) ist 4, die ID für Ausführen (perform) ist 7, die ID für Beziehen (target) ist 8, die ID für Charakteristik (characteristic) ist 14, die ID für Attribut (context) ist 3.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 7, 0, 0],\n        [0, 4, 8, 0],\n        [0, 0, 1, 14],\n        [0, 0, 0, 3]\n    ],\n    \"description\": \"1. Das Wort \u0027ich\u0027 wurde zu \u0027maria\u0027 zugeordnet.\\n2. \u0027maria\u0027 und \u0027hat\u0027 sind Objekte, \u0027wear\u0027 ist eine Aktivität, \u0027yellow\u0027 ist ein Attribut.\\n3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027wear\u0027 bezieht sich auf \u0027hat\u0027, \u0027yellow\u0027 ist eine Charakteristik von \u0027hat\u0027.\\n4. Die ID für Objekt (object) ist 1, die ID für Aktivität (activity) ist 4, die ID für Ausführen (perform) ist 7, die ID für Beziehen (target) ist 8, die ID für Charakteristik (characteristic) ist 14, die ID für Attribut (context) ist 3.\"\n}"
+}

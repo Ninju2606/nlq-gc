@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keinepose als direkte Szenenbeschreibung, sondern einen Vorschlag zu einer Handlung. Es kann daher kein sinnvoller GraphCode generiert werden, der diese Anfrage im Kontext einer Metaverse-Situation abbildet. Die Anfrage fehlt an den spezifischen Objekten, Attributen oder Aktivitäten, die in einer Szene im Metaverse relevant wären.",
+  "error": "Fehler beim Generieren des GraphCodes",
+  "responsePlain": "{\n  \"error\": \"Fehler beim Generieren des GraphCodes\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 enthält keinepose als direkte Szenenbeschreibung, sondern einen Vorschlag zu einer Handlung. Es kann daher kein sinnvoller GraphCode generiert werden, der diese Anfrage im Kontext einer Metaverse-Situation abbildet. Die Anfrage fehlt an den spezifischen Objekten, Attributen oder Aktivitäten, die in einer Szene im Metaverse relevant wären.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"error\": [\"Die Relation \u0027bald\u0027 ist nicht bekannt.\", \"Die Relation \u0027müssen\u0027 ist nicht bekannt.\"],\n    \"description\": \"1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\\n2. \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 sind Objekte oder Aktivitäten der Anfrage.\\n3. \u0027maria\u0027 muss \u0027make\u0027 bald \u0027appointment\u0027. Die Beziehung zwischen \u0027bald\u0027 und den anderen Begriffen sowie die Pflichtaktion \u0027müssen\u0027 können nicht repräsentiert werden.\\n4. Die Relationen \u0027bald\u0027 und \u0027müssen\u0027 sind nicht bekannt.\"\n}"
+}

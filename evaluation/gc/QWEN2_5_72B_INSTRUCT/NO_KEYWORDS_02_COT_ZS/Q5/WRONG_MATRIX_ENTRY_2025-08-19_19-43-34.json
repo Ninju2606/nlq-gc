@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      10
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Ermittelte Stichwörter: ich, gelben, Hut, trage. 2. Relative Verweise auf Maria wurden erkannt (ich). 3. Übersetzung ins Englische: I (Maria), yellow, hat, wear. 4. Identifikation des Nutzers wurde ersetzt: Maria. 5. Attributigenschaften: Maria (object), yellow (characteristic), hat (object), wear (activity). 6. Relationen: Maria wear hat, hat has characteristic yellow. 7. Passende Typkodierungen für alle Relationen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 10],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: ich, gelben, Hut, trage. 2. Relative Verweise auf Maria wurden erkannt (ich). 3. Übersetzung ins Englische: I (Maria), yellow, hat, wear. 4. Identifikation des Nutzers wurde ersetzt: Maria. 5. Attributigenschaften: Maria (object), yellow (characteristic), hat (object), wear (activity). 6. Relationen: Maria wear hat, hat has characteristic yellow. 7. Passende Typkodierungen für alle Relationen vorhanden.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden erfolgreich ermittelt: Maria, yellow, hat, wear. Relative Verweise wurden aufgelöst, und der Nutzer wurde korrekt identifiziert. Die Begriffe wurden ins Englische übersetzt. Identifikation des Nutzers wurde durch \u0027Maria\u0027 ersetzt, da der Nutzer sich in der Anfrage auf sich selbst bezogen hat.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Stichwörter wurden erfolgreich ermittelt: Maria, yellow, hat, wear. Relative Verweise wurden aufgelöst, und der Nutzer wurde korrekt identifiziert. Die Begriffe wurden ins Englische übersetzt. Identifikation des Nutzers wurde durch \u0027Maria\u0027 ersetzt, da der Nutzer sich in der Anfrage auf sich selbst bezogen hat.\"\n}"
+}

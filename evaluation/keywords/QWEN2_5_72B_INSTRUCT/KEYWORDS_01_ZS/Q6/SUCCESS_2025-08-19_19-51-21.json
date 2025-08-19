@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine relevanten Begriffe oder Objekte, die in einer Metaverse-Szene dargestellt werden könnten.",
+  "error": "Unsufficient context for generating a GraphCode.",
+  "responsePlain": "{\n    \"error\": \"Unsufficient context for generating a GraphCode.\",\n    \"description\": \"Die Anfrage enthält keine relevanten Begriffe oder Objekte, die in einer Metaverse-Szene dargestellt werden könnten.\"\n}"
+}

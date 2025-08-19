@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine spezifische Szene oder eine Situation im Metaverse und enthält keine klaren Objekte, Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden könnten.",
+  "error": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse beschrieben werden könnten.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse beschrieben werden könnten.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine spezifische Szene oder eine Situation im Metaverse und enthält keine klaren Objekte, Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden könnten.\"\n}"
+}

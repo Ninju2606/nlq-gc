@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine Informationen zu einer Szene im Metaverse.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Die gegebene Anfrage beschreibt keine Szene im Metaverse, sondern handelt von der Verabredung eines Termins. Bitte formuliere eine neue Anfrage, die eine Szene im Metaverse beschreibt.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Die gegebene Anfrage beschreibt keine Szene im Metaverse, sondern handelt von der Verabredung eines Termins. Bitte formuliere eine neue Anfrage, die eine Szene im Metaverse beschreibt.\",\n  \"description\": \"Die Anfrage \\\u0027Wir müssen bald einen Termin ausmachen.\\\u0027 enthält keine Informationen zu einer Szene im Metaverse.\"\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittelte Stichwörter: Tim, run. Keine selbst identifizierenden Wörter vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Ermittelte Stichwörter: Tim, run. Keine selbst identifizierenden Wörter vorhanden.\"\n}"
+}

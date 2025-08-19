@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Begriff \u0027maria\u0027 zugeordnet. Der Nutzer schreibt, dass er schwimmt und dass der Pool ihm gehört.\n2. \n   - maria: object (ID 1)\n   - swim: activity (ID 4)\n   - own: activity (ID 4)\n   - pool: object (ID 1)\n3. \n   - \u0027maria\u0027 und \u0027swim\u0027: Maria führt die Aktivität Schwimmen aus (perform, ID 8)\n   - \u0027maria\u0027 und \u0027pool\u0027: Maria ist der Besitzer des Pools (target, ID 9)\n   - \u0027swim\u0027 und \u0027pool\u0027: Maria schwimmt im Pool (context, ID 2)\n   - \u0027own\u0027 und \u0027pool\u0027: Maria besitzt den Pool (target, ID 9)\n4. Für alle Relationen sind passende Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [5, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Begriff \u0027maria\u0027 zugeordnet. Der Nutzer schreibt, dass er schwimmt und dass der Pool ihm gehört.\\n2. \\n   - maria: object (ID 1)\\n   - swim: activity (ID 4)\\n   - own: activity (ID 4)\\n   - pool: object (ID 1)\\n3. \\n   - \u0027maria\u0027 und \u0027swim\u0027: Maria führt die Aktivität Schwimmen aus (perform, ID 8)\\n   - \u0027maria\u0027 und \u0027pool\u0027: Maria ist der Besitzer des Pools (target, ID 9)\\n   - \u0027swim\u0027 und \u0027pool\u0027: Maria schwimmt im Pool (context, ID 2)\\n   - \u0027own\u0027 und \u0027pool\u0027: Maria besitzt den Pool (target, ID 9)\\n4. Für alle Relationen sind passende Typkodierungen vorhanden.\"\n}"
+}

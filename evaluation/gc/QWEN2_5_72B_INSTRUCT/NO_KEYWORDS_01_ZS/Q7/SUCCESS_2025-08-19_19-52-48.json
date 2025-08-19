@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht klar verständlich. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die eine genaue Beschreibung der Szene ermöglichen würden.",
+  "error": "Die Anfrage enthält einen unklaren Bezug und grammatikalische Unsicherheiten, die es schwierig machen, eine sinnvolle Relation zwischen den Begriffen zu definieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält einen unklaren Bezug und grammatikalische Unsicherheiten, die es schwierig machen, eine sinnvolle Relation zwischen den Begriffen zu definieren.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht klar verständlich. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die eine genaue Beschreibung der Szene ermöglichen würden.\"\n}"
+}

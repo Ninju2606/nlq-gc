@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      8,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5555555555555556,
+  "description": "1. Maria wird als Nutzer identifiziert. 2. \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1). 3. Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 ist \u0027perform\u0027 (Typ 8), die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist \u0027target\u0027 (Typ 9). 4. Alle Relationen haben entsprechende Typkodierungen: \u0027maria\u0027 (Typ 1), \u0027play\u0027 (Typ 4), \u0027basketball\u0027 (Typ 1), \u0027perform\u0027 (Typ 8), \u0027target\u0027 (Typ 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 4, 0],\n    [8, 0, 1]\n  ],\n  \"description\": \"1. Maria wird als Nutzer identifiziert. 2. \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1). 3. Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 ist \u0027perform\u0027 (Typ 8), die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist \u0027target\u0027 (Typ 9). 4. Alle Relationen haben entsprechende Typkodierungen: \u0027maria\u0027 (Typ 1), \u0027play\u0027 (Typ 4), \u0027basketball\u0027 (Typ 1), \u0027perform\u0027 (Typ 8), \u0027target\u0027 (Typ 9).\"\n}"
+}

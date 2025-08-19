@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. In der Anfrage wurden keine selbst identifizierenden Wörter verwendet, daher wurde die Identifikation des Nutzers ignoriert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. In der Anfrage wurden keine selbst identifizierenden Wörter verwendet, daher wurde die Identifikation des Nutzers ignoriert.\"\n}"
+}

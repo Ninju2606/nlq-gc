@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The terms \u0027swim\u0027, \u0027pool\u0027, and \u0027Maria\u0027 are extracted from the user query. The term \u0027own\u0027 is derived from the phrase \u0027der mir gehört\u0027 (which translates to \u0027which belongs to me\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\", \"own\"],\n  \"description\": \"The terms \u0027swim\u0027, \u0027pool\u0027, and \u0027Maria\u0027 are extracted from the user query. The term \u0027own\u0027 is derived from the phrase \u0027der mir gehört\u0027 (which translates to \u0027which belongs to me\u0027).\"\n}"
+}

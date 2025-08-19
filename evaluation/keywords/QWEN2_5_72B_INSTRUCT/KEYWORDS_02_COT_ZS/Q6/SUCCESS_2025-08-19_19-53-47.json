@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "The input does not contain any objects, attributes, or activities that describe a scene in the Metaverse. The phrase \u0027Wir müssen bald einen Termin ausmachen.\u0027 is related to scheduling and does not fit the context of a Metaverse scene recording.",
+  "error": "No relevant keywords found for generating a GraphCode.",
+  "responsePlain": "{\n  \"error\": \"No relevant keywords found for generating a GraphCode.\",\n  \"description\": \"The input does not contain any objects, attributes, or activities that describe a scene in the Metaverse. The phrase \u0027Wir müssen bald einen Termin ausmachen.\u0027 is related to scheduling and does not fit the context of a Metaverse scene recording.\"\n}"
+}

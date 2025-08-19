@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool. 2. Relative Verweise aufgelöst: \u0027ich\u0027 auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027. 4. Identifikation des Nutzers ersetzt: \u0027Maria\u0027 used for \u0027ich\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 (person), \u0027swim\u0027 (activity), \u0027pool\u0027 (object). 6. Relationen: \u0027Maria\u0027 performs \u0027swim\u0027, \u0027swim\u0027 targets \u0027pool\u0027. 7. Typkodierungen: \u0027Maria\u0027 (1), \u0027swim\u0027 (4), \u0027pool\u0027 (1). Relationen: \u0027Maria\u0027 performs \u0027swim\u0027 (8), \u0027swim\u0027 targets \u0027pool\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool. 2. Relative Verweise aufgelöst: \u0027ich\u0027 auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027. 4. Identifikation des Nutzers ersetzt: \u0027Maria\u0027 used for \u0027ich\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 (person), \u0027swim\u0027 (activity), \u0027pool\u0027 (object). 6. Relationen: \u0027Maria\u0027 performs \u0027swim\u0027, \u0027swim\u0027 targets \u0027pool\u0027. 7. Typkodierungen: \u0027Maria\u0027 (1), \u0027swim\u0027 (4), \u0027pool\u0027 (1). Relationen: \u0027Maria\u0027 performs \u0027swim\u0027 (8), \u0027swim\u0027 targets \u0027pool\u0027 (9).\"\n}"
+}

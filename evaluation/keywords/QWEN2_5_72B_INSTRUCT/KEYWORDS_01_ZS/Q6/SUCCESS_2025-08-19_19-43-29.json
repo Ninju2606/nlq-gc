@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt keine Szene im Metaverse, die durch ein Medienobjekt dargestellt werden könnte. Es fehlen Informationen über Objekte, Attribute oder Aktivitäten, die in einer Szene vorkommen könnten.",
+  "error": "Die Anfrage enthält keine spezifische Szenenbeschreibung für eine Metaverse-Aufnahme.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifische Szenenbeschreibung für eine Metaverse-Aufnahme.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt keine Szene im Metaverse, die durch ein Medienobjekt dargestellt werden könnte. Es fehlen Informationen über Objekte, Attribute oder Aktivitäten, die in einer Szene vorkommen könnten.\"\n}"
+}

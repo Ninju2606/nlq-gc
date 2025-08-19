@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 7, 0, 0],\n        [0, 2, 0, 0, 0],\n        [0, 0, 9, 8, 4],\n        [0, 0, 0, 1, 0],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"Maria and a person (likely her daughter) are driving a boat on a lake.\"\n}\n\n\n### Explanation:\n- **Vocabulary**:\n  - `\"maria\"`: User\u0027s identification (Maria).\n  - `\"person\"`: The person mentioned (likely Maria\u0027s daughter).\n  - `\"drive\"`: The activity of driving.\n  - `\"boat\"`: The object being driven.\n  - `\"lake\"`: The context or location where the activity is happening.\n\n- **Matrix**:\n  - `[1, 10, 7, 0, 0]`: Maria (`maria`) is a person and has a relationship (daughter) with another person.\n  - `[0, 2, 0, 0, 0]`: The other person is a synonym of a person.\n  - `[0, 0, 9, 8, 4]`: The activity of driving (`drive`) targets the boat and occurs on a lake.\n  - `[0, 0, 0, 1, 0]`: The boat is an object.\n  - `[0, 0, 0, 0, 1]`: The lake is an object."
+}

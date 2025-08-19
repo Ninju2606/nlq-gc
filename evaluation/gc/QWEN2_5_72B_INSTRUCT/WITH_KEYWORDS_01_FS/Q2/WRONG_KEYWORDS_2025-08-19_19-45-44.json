@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim performs the activity of running, and the user Maria is involved.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 9, 0],\n    [0, 8, 1]\n  ],\n  \"description\": \"Tim performs the activity of running, and the user Maria is involved.\"\n}"
+}

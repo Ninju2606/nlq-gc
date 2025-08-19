@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich schwimme in meinem Pool\u0027 -\u003e \u0027schwimmen\u0027, \u0027Pool\u0027. 2. Löse relative Verweise auf: Nutzer \u0027Maria\u0027 ist gemeint. 3. Übersetze die ermittelten Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. Ersetze in den potenziellen Stichwörtern die Identifikation des Nutzers: \u0027Ich\u0027 wurde mit \u0027Maria\u0027 ersetzt. 5. Erkläre die Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Person), \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt (Thing). 6. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria führt die Aktivität \u0027swim\u0027 durch (perform), und der \u0027pool\u0027 ist das Ziel (target) dieser Aktivität. 7. Überprüfe, ob es für alle diese Relationen aus Schritten 4 und 5 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Einträge. Maria (1), swim (4), pool (1). Perform (8), target (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich schwimme in meinem Pool\u0027 -\u003e \u0027schwimmen\u0027, \u0027Pool\u0027. 2. Löse relative Verweise auf: Nutzer \u0027Maria\u0027 ist gemeint. 3. Übersetze die ermittelten Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. Ersetze in den potenziellen Stichwörtern die Identifikation des Nutzers: \u0027Ich\u0027 wurde mit \u0027Maria\u0027 ersetzt. 5. Erkläre die Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Person), \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt (Thing). 6. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria führt die Aktivität \u0027swim\u0027 durch (perform), und der \u0027pool\u0027 ist das Ziel (target) dieser Aktivität. 7. Überprüfe, ob es für alle diese Relationen aus Schritten 4 und 5 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Einträge. Maria (1), swim (4), pool (1). Perform (8), target (9).\"\n}"
+}

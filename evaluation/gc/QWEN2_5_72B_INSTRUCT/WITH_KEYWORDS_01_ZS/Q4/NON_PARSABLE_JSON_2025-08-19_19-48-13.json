@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode repräsentiert die Szene, in der Maria im Pool schwimmt. Die Verbindung zwischen \u0027Maria\u0027 und \u0027swim\u0027 sowie zwischen \u0027pool\u0027 und \u0027swim\u0027 wird durch aktivitätsbasierte Beziehungen dargestellt. Der Begriff \u0027own\u0027 konnte nicht in die Matrix aufgenommen werden, da es keinen passenden Typcode gibt, um die Besitzrelation darzustellen.\"\n}\n\n\nDa es keinen passenden Typcode gibt, um die Besitzrelation \"own\" zu repräsentieren, ist dieser Begriff in der Bewertungsmatrix nicht verbunden. Es wäre sinnvoll, dies im Fehlerfall genauer zu beschreiben:\n\n\n{\n  \"error\": \"Kein passender Typcode für die Relation \u0027own\u0027 gefunden.\",\n  \"description\": \"Der Begriff \u0027own\u0027 kann nicht in die Bewertungsmatrix aufgenommen werden, da es keinen passenden Typcode gibt, um die Besitzrelation darzustellen.\"\n}"
+}

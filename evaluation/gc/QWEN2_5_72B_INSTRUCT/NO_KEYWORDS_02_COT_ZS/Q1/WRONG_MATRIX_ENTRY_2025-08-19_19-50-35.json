@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Stichwörter aus der Nutzeranfrage: Ich spiele Basketball. \n2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria. \n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027I\u0027, \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027. \n4. Ersetzung der Identifikation des Nutzers: \u0027I\u0027 -\u003e \u0027Maria\u0027. \n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027play\u0027 ist eine Aktivität, \u0027basketball\u0027 ist ein Objekt. \n6. Relationen: Maria spielt (perform) -\u003e \u0027play\u0027, play hat als Ziel (target) -\u003e \u0027basketball\u0027. \n7. Typkodierungen existieren für alle Relationen: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter aus der Nutzeranfrage: Ich spiele Basketball. \\n2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria. \\n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027I\u0027, \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027. \\n4. Ersetzung der Identifikation des Nutzers: \u0027I\u0027 -\u003e \u0027Maria\u0027. \\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027play\u0027 ist eine Aktivität, \u0027basketball\u0027 ist ein Objekt. \\n6. Relationen: Maria spielt (perform) -\u003e \u0027play\u0027, play hat als Ziel (target) -\u003e \u0027basketball\u0027. \\n7. Typkodierungen existieren für alle Relationen: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).\"\n}"
+}

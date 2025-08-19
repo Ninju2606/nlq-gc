@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "This GraphCode represents the user Maria wearing a yellow hat in various scenes.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"description\": \"This GraphCode represents the user Maria wearing a yellow hat in various scenes.\"\n}"
+}

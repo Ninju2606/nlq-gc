@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n2. Es gibt keine relativen Verweise, die aufgelöst werden müssen.\n3. Die Stichwörter sind bereits in Englisch.\n4. Die Identifikation des Nutzers \u0027Maria\u0027 wird für \u0027swim\u0027 und \u0027own\u0027 verwendet, da \u0027ich\u0027 und \u0027mein\u0027 referenziert werden.\n5. \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt, und \u0027own\u0027 ist ein Kontext.\n6. \u0027swim\u0027 wird mit \u0027pool\u0027 durch die Relation \u0027perform\u0027 verbunden (swim in pool). \u0027pool\u0027 wird mit \u0027own\u0027 durch die Relation \u0027target\u0027 verbunden (pool owned by Maria).\n7. Es gibt passende Einträge in den Typkodierungen: \u0027swim\u0027 (1), \u0027pool\u0027 (1), \u0027own\u0027 (2), \u0027perform\u0027 (8), \u0027target\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n2. Es gibt keine relativen Verweise, die aufgelöst werden müssen.\\n3. Die Stichwörter sind bereits in Englisch.\\n4. Die Identifikation des Nutzers \u0027Maria\u0027 wird für \u0027swim\u0027 und \u0027own\u0027 verwendet, da \u0027ich\u0027 und \u0027mein\u0027 referenziert werden.\\n5. \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt, und \u0027own\u0027 ist ein Kontext.\\n6. \u0027swim\u0027 wird mit \u0027pool\u0027 durch die Relation \u0027perform\u0027 verbunden (swim in pool). \u0027pool\u0027 wird mit \u0027own\u0027 durch die Relation \u0027target\u0027 verbunden (pool owned by Maria).\\n7. Es gibt passende Einträge in den Typkodierungen: \u0027swim\u0027 (1), \u0027pool\u0027 (1), \u0027own\u0027 (2), \u0027perform\u0027 (8), \u0027target\u0027 (9).\"\n}"
+}

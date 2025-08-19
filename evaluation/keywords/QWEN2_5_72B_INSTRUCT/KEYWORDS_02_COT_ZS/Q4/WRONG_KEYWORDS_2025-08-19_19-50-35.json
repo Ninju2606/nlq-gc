@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s query contains the keywords \u0027swim\u0027, \u0027pool\u0027, and refers to the user \u0027Maria\u0027. The query is clear and can be translated into English. The user-specific words \u0027Ich\u0027 and \u0027mein\u0027 have been replaced with \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"The user\u0027s query contains the keywords \u0027swim\u0027, \u0027pool\u0027, and refers to the user \u0027Maria\u0027. The query is clear and can be translated into English. The user-specific words \u0027Ich\u0027 and \u0027mein\u0027 have been replaced with \u0027Maria\u0027.\"\n}"
+}

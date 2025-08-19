@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Die Anfrage \"Tim rennt\" soll in eine typcodierte Adjazenzmatrix umgewandelt werden, wobei die Begriffe \"Tim\" und \"rennt\" die Reihen/Spalten bilden und die Beziehungen zwischen ihnen die Matrixwerte darstellen. \n\nBasierend auf den bereitgestellten Typkodierungen und der Annahme, dass \"rennt\" eine Aktivität darstellt, kann die Matrix wie folgt aussehen:\n\n\n{\n  \"dictionary\": {\n    \"0\": \"Tim\",\n    \"1\": \"rennt\"\n  },\n  \"matrix\": [\n    [1, 0],\n    [8, 1]\n  ]\n}\n\n\n**Erklärung:**\n\n- **Dictionary:**\n  - `0`: \"Tim\" (ein Objekt)\n  - `1`: \"rennt\" (eine Aktivität)\n\n- **Matrix:**\n  - Die erste Zeile `[1, 0]` bedeutet, dass \"Tim\" (Index 0) ein Objekt ist (Typ 1) und keine Beziehung zu \"rennt\" hat.\n  - Die zweite Zeile `[8, 1]` bedeutet, dass \"rennt\" (Index 1) eine Aktivität ist (Typ 8) und ein Objekt ist (Typ 1).\n\nDieses JSON-Objekt stellt die Adjazenzmatrix dar, wobei die Beziehungen zwischen den Begriffen durch die Typwerte kodiert sind."
+}

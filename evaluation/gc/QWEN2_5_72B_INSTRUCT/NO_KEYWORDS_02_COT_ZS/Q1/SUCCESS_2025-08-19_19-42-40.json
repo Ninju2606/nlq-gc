@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Stichwörter: Ich, spiele, Basketball. 2. Ich wird durch Maria ersetzt. 3. Übersetzung ins Englische: Maria, play, basketball. 4. Ich wird durch Maria ersetzt. 5. Attributeigenschaften: Maria (Person), play (Aktivität), basketball (Objekt). 6. Relationen: Maria (Person) performs play (Aktivität), play (Aktivität) targets basketball (Objekt). 7. Typkodierungen: Maria (1), play (4), basketball (1). Relationen: Maria performs play (8), play targets basketball (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: Ich, spiele, Basketball. 2. Ich wird durch Maria ersetzt. 3. Übersetzung ins Englische: Maria, play, basketball. 4. Ich wird durch Maria ersetzt. 5. Attributeigenschaften: Maria (Person), play (Aktivität), basketball (Objekt). 6. Relationen: Maria (Person) performs play (Aktivität), play (Aktivität) targets basketball (Objekt). 7. Typkodierungen: Maria (1), play (4), basketball (1). Relationen: Maria performs play (8), play targets basketball (9).\"\n}"
+}

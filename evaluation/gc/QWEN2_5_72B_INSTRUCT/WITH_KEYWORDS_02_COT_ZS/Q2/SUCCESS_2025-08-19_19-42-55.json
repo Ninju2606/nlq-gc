@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer Maria hat angegeben, dass Tim etwas tut (rennt). Daher wird Tim im Vokabular verwendet. 2. \u0027Tim\u0027 ist ein Objekt (Typ 1). \u0027Run\u0027 ist eine Aktivität (Typ 4). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in der Relation \u0027perform\u0027 (Typ 8). 4. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen: \u0027Tim\u0027 (Typ 1), \u0027run\u0027 (Typ 4), und \u0027perform\u0027 (Typ 8).",
+  "responsePlain": "{\n    \"dictionary\": [\"tim\", \"run\"],\n    \"matrix\": [\n        [1, 8],\n        [0, 4]\n    ],\n    \"description\": \"1. Der Nutzer Maria hat angegeben, dass Tim etwas tut (rennt). Daher wird Tim im Vokabular verwendet. 2. \u0027Tim\u0027 ist ein Objekt (Typ 1). \u0027Run\u0027 ist eine Aktivität (Typ 4). 3. \u0027Tim\u0027 und \u0027run\u0027 stehen in der Relation \u0027perform\u0027 (Typ 8). 4. Für alle Relationen gibt es passende Einträge in den bereitgestellten Typkodierungen: \u0027Tim\u0027 (Typ 1), \u0027run\u0027 (Typ 4), und \u0027perform\u0027 (Typ 8).\"\n}"
+}

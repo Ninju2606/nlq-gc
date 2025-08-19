@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält nicht genug Informationen, um potenzielle Stichwörter und ihre Relationen zu identifizieren. Es ist nicht klar, ob \u0027Häuser\u0027 Objekte, \u0027Fragen\u0027 Aktivitäten oder \u0027malen\u0027 eine Aktivität ist. Aufgrund dieser Unklarheit kann kein GraphCode generiert werden.",
+  "error": "Die Anfrage ist unklar oder enthält nicht genügend Informationen für einen sinnvollen GraphCode.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unklar oder enthält nicht genügend Informationen für einen sinnvollen GraphCode.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält nicht genug Informationen, um potenzielle Stichwörter und ihre Relationen zu identifizieren. Es ist nicht klar, ob \u0027Häuser\u0027 Objekte, \u0027Fragen\u0027 Aktivitäten oder \u0027malen\u0027 eine Aktivität ist. Aufgrund dieser Unklarheit kann kein GraphCode generiert werden.\"\n}"
+}

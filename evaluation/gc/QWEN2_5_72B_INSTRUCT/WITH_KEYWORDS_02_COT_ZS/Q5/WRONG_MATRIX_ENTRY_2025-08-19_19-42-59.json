@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      14,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer hat angegeben, dass er \u0027ich\u0027 und \u0027mein\u0027 verwenden möchte, um Maria und ihren gelben Hut zu beschreiben. Dementsprechend wurde Maria als \u0027maria\u0027 und der Hut als \u0027hat\u0027 im Vokabular übernommen. Das Wort \u0027gelb\u0027 wurde als \u0027yellow\u0027 im Vokabular übernommen. 2. \u0027maria\u0027 wird als Charakter (context) interpretiert, \u0027wear\u0027 als Aktivität (activity), \u0027hat\u0027 als Objekt (object) und \u0027yellow\u0027 als Attribut (characteristic). 3. \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027hat\u0027, der gelb (\u0027yellow\u0027) ist. 4. Es gibt Einträge in den bereitgestellten Typkodierungen, die diese Relationen darstellen können: \u0027context\u0027 (ID 2) für \u0027maria\u0027, \u0027activity\u0027 (ID 4) für \u0027wear\u0027, \u0027object\u0027 (ID 1) für \u0027hat\u0027, \u0027characteristic\u0027 (ID 14) für das Verhältnis zwischen \u0027hat\u0027 und \u0027yellow\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [2, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 14],\n    [0, 0, 14, 3]\n  ],\n  \"description\": \"1. Der Nutzer hat angegeben, dass er \u0027ich\u0027 und \u0027mein\u0027 verwenden möchte, um Maria und ihren gelben Hut zu beschreiben. Dementsprechend wurde Maria als \u0027maria\u0027 und der Hut als \u0027hat\u0027 im Vokabular übernommen. Das Wort \u0027gelb\u0027 wurde als \u0027yellow\u0027 im Vokabular übernommen. 2. \u0027maria\u0027 wird als Charakter (context) interpretiert, \u0027wear\u0027 als Aktivität (activity), \u0027hat\u0027 als Objekt (object) und \u0027yellow\u0027 als Attribut (characteristic). 3. \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027hat\u0027, der gelb (\u0027yellow\u0027) ist. 4. Es gibt Einträge in den bereitgestellten Typkodierungen, die diese Relationen darstellen können: \u0027context\u0027 (ID 2) für \u0027maria\u0027, \u0027activity\u0027 (ID 4) für \u0027wear\u0027, \u0027object\u0027 (ID 1) für \u0027hat\u0027, \u0027characteristic\u0027 (ID 14) für das Verhältnis zwischen \u0027hat\u0027 und \u0027yellow\u0027.\"\n}"
+}

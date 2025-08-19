@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "play",
+    "basketball",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich spiele Basketball wird übersetzt zu \u0027play\u0027, \u0027basketball\u0027 und \u0027Maria\u0027. Die Anfrage bezieht sich auf die Person Maria, die Basketball spielt.",
+  "responsePlain": "{\n  \"dictionary\": [\"play\", \"basketball\", \"Maria\"],\n  \"description\": \"Ich spiele Basketball wird übersetzt zu \u0027play\u0027, \u0027basketball\u0027 und \u0027Maria\u0027. Die Anfrage bezieht sich auf die Person Maria, die Basketball spielt.\"\n}"
+}

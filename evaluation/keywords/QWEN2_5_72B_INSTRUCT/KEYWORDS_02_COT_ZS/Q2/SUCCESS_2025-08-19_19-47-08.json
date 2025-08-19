@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Tim\u0027 and \u0027run\u0027 have been identified from the user request and translated into English. There were no self-referential terms to replace with the user\u0027s identification.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The keywords \u0027Tim\u0027 and \u0027run\u0027 have been identified from the user request and translated into English. There were no self-referential terms to replace with the user\u0027s identification.\"\n}"
+}

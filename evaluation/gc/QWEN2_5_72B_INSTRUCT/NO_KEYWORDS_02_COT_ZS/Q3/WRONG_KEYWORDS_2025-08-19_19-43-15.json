@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: schwimmen, Pool, mir (Maria)\n2. Relative Verweise wurden aufgelöst: \u0027mir\u0027 wird zu \u0027Maria\u0027\n3. Übersetzung ins Englische: swim, pool, Maria\n4. Identifikation des Nutzers ersetzt: \u0027mir\u0027 wurde zu \u0027Maria\u0027\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt, \u0027Maria\u0027 ist der Nutzer\n6. Relationen: \u0027swim\u0027 wird von \u0027Maria\u0027 ausgeführt, \u0027pool\u0027 gehört zu \u0027Maria\u0027\n7. Typkodierungen: \u0027swim\u0027 - \u0027perform\u0027 (ID 8), \u0027pool\u0027 - \u0027target\u0027 (ID 9), \u0027Maria\u0027 - \u0027object\u0027 (ID 1)",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: schwimmen, Pool, mir (Maria)\\n2. Relative Verweise wurden aufgelöst: \u0027mir\u0027 wird zu \u0027Maria\u0027\\n3. Übersetzung ins Englische: swim, pool, Maria\\n4. Identifikation des Nutzers ersetzt: \u0027mir\u0027 wurde zu \u0027Maria\u0027\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt, \u0027Maria\u0027 ist der Nutzer\\n6. Relationen: \u0027swim\u0027 wird von \u0027Maria\u0027 ausgeführt, \u0027pool\u0027 gehört zu \u0027Maria\u0027\\n7. Typkodierungen: \u0027swim\u0027 - \u0027perform\u0027 (ID 8), \u0027pool\u0027 - \u0027target\u0027 (ID 9), \u0027Maria\u0027 - \u0027object\u0027 (ID 1)\"\n}"
+}

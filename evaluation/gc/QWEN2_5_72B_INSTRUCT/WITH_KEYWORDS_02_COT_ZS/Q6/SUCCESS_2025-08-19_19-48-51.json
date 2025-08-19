@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 in der Anfrage. Daher kann die Identifikation des Nutzers (Maria) ignoriert werden. 2. Die Attributigenschaften der Stichwörter sind: \u0027maria\u0027 (Person), \u0027make\u0027 (Aktivität), \u0027appointment\u0027 (Objekt). 3. Die Relationen sind: \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus, um ein \u0027appointment\u0027 zu machen. 4. Es gibt keine passende Typkodierung für die Relation \u0027maria\u0027 -\u003e \u0027make\u0027 (Person führt Aktivität aus). Daher kann kein GraphCode generiert werden.",
+  "error": "Fehler beim Generieren des GraphCodes",
+  "responsePlain": "{\n  \"error\": \"Fehler beim Generieren des GraphCodes\",\n  \"description\": \"1. Es gibt keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 in der Anfrage. Daher kann die Identifikation des Nutzers (Maria) ignoriert werden. 2. Die Attributigenschaften der Stichwörter sind: \u0027maria\u0027 (Person), \u0027make\u0027 (Aktivität), \u0027appointment\u0027 (Objekt). 3. Die Relationen sind: \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus, um ein \u0027appointment\u0027 zu machen. 4. Es gibt keine passende Typkodierung für die Relation \u0027maria\u0027 -\u003e \u0027make\u0027 (Person führt Aktivität aus). Daher kann kein GraphCode generiert werden.\"\n}"
+}

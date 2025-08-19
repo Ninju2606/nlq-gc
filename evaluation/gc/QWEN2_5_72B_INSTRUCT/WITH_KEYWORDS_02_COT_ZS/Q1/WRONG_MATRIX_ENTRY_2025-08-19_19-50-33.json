@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      8,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Die Anfrage \u0027Ich spiele Basketball\u0027 wurde aufgelöst, wobei \u0027Ich\u0027 durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt wurde. 2. \u0027maria\u0027 ist ein Objekt (Typ-ID: 1), \u0027play\u0027 ist eine Aktivität (Typ-ID: 4), und \u0027basketball\u0027 ist ein Objekt (Typ-ID: 3). 3. \u0027maria\u0027 und \u0027play\u0027 stehen in der Relation, dass Maria die Aktivität ausführt. \u0027play\u0027 und \u0027basketball\u0027 stehen in der Relation, dass die Aktivität das Objekt als Ziel hat. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle diese Relationen: \u0027maria\u0027 (Typ-ID: 1), \u0027play\u0027 (Typ-ID: 4), \u0027basketball\u0027 (Typ-ID: 3), \u0027target\u0027 (Typ-ID: 9) und \u0027perform\u0027 (Typ-ID: 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 9],\n    [0, 8, 3]\n  ],\n  \"description\": \"1. Die Anfrage \u0027Ich spiele Basketball\u0027 wurde aufgelöst, wobei \u0027Ich\u0027 durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt wurde. 2. \u0027maria\u0027 ist ein Objekt (Typ-ID: 1), \u0027play\u0027 ist eine Aktivität (Typ-ID: 4), und \u0027basketball\u0027 ist ein Objekt (Typ-ID: 3). 3. \u0027maria\u0027 und \u0027play\u0027 stehen in der Relation, dass Maria die Aktivität ausführt. \u0027play\u0027 und \u0027basketball\u0027 stehen in der Relation, dass die Aktivität das Objekt als Ziel hat. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle diese Relationen: \u0027maria\u0027 (Typ-ID: 1), \u0027play\u0027 (Typ-ID: 4), \u0027basketball\u0027 (Typ-ID: 3), \u0027target\u0027 (Typ-ID: 9) und \u0027perform\u0027 (Typ-ID: 8).\"\n}"
+}

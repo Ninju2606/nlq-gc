@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält keine klaren Stichwörter oder Relationen, die als Basis für einen GraphCode verwendet werden können.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und enthält keine klaren Stichwörter oder Relationen, die als Basis für einen GraphCode verwendet werden können.\"\n}"
+}

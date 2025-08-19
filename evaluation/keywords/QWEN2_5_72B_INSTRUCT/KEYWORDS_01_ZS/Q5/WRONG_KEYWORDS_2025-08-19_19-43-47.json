@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage betrifft Situationen, in denen Maria einen gelben Hut trägt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\"],\n  \"description\": \"Die Anfrage betrifft Situationen, in denen Maria einen gelben Hut trägt.\"\n}"
+}

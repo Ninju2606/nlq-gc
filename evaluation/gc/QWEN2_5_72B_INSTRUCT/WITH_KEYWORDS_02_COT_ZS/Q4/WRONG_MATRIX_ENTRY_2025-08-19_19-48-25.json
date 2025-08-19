@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer \u0027Maria\u0027 wurde als \u0027maria\u0027 im Vokabular identifiziert.\n2. Das Attribut \u0027maria\u0027 (Person) hat den Typ \u0027object\u0027 (ID: 1), \u0027swim\u0027 (Aktivität) hat den Typ \u0027activity\u0027 (ID: 4), \u0027own\u0027 (Context) hat den Typ \u0027context\u0027 (ID: 2), und \u0027pool\u0027 (Objekt) hat den Typ \u0027object\u0027 (ID: 1).\n3. \u0027maria\u0027 performt \u0027swim\u0027 (ID: 8), \u0027pool\u0027 ist das Ziel von \u0027own\u0027 (ID: 9).\n4. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 9],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 wurde als \u0027maria\u0027 im Vokabular identifiziert.\\n2. Das Attribut \u0027maria\u0027 (Person) hat den Typ \u0027object\u0027 (ID: 1), \u0027swim\u0027 (Aktivität) hat den Typ \u0027activity\u0027 (ID: 4), \u0027own\u0027 (Context) hat den Typ \u0027context\u0027 (ID: 2), und \u0027pool\u0027 (Objekt) hat den Typ \u0027object\u0027 (ID: 1).\\n3. \u0027maria\u0027 performt \u0027swim\u0027 (ID: 8), \u0027pool\u0027 ist das Ziel von \u0027own\u0027 (ID: 9).\\n4. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden.\"\n}"
+}

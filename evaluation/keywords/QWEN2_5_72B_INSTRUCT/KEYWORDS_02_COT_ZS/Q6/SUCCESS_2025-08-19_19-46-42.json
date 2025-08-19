@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s query \u0027Wir müssen bald einen Termin ausmachen.\u0027 does not contain any clear objects, attributes, or activities that can be used to generate a GraphCode. The query is more about planning or future actions rather than describing a current scene in the Metaverse.",
+  "error": "No suitable keywords for scene description found.",
+  "responsePlain": "{\n  \"error\": \"No suitable keywords for scene description found.\",\n  \"description\": \"The user\u0027s query \u0027Wir müssen bald einen Termin ausmachen.\u0027 does not contain any clear objects, attributes, or activities that can be used to generate a GraphCode. The query is more about planning or future actions rather than describing a current scene in the Metaverse.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Maria ist die Nutzerin, die die Anfrage gestellt hat. 2. Die Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Person (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Kontext (context), und \u0027pool\u0027 ist ein Objekt (object). 3. Die Relationen: Maria (maria) ist das Subjekt, die die Aktivität \u0027swim\u0027 durchführt (perform). \u0027Pool\u0027 ist das Ziel (target) der Aktivität. \u0027Own\u0027 beschreibt den Kontext, dass der Pool Maria gehört. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen: \u0027maria\u0027 ist \u0027object\u0027 (ID 1), \u0027swim\u0027 ist \u0027activity\u0027 (ID 4), \u0027own\u0027 ist \u0027context\u0027 (ID 2), und \u0027pool\u0027 ist \u0027object\u0027 (ID 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 9],\n    [0, 4, 0, 8],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Maria ist die Nutzerin, die die Anfrage gestellt hat. 2. Die Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Person (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Kontext (context), und \u0027pool\u0027 ist ein Objekt (object). 3. Die Relationen: Maria (maria) ist das Subjekt, die die Aktivität \u0027swim\u0027 durchführt (perform). \u0027Pool\u0027 ist das Ziel (target) der Aktivität. \u0027Own\u0027 beschreibt den Kontext, dass der Pool Maria gehört. 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen: \u0027maria\u0027 ist \u0027object\u0027 (ID 1), \u0027swim\u0027 ist \u0027activity\u0027 (ID 4), \u0027own\u0027 ist \u0027context\u0027 (ID 2), und \u0027pool\u0027 ist \u0027object\u0027 (ID 1).\"\n}"
+}

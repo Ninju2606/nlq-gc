@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": [\"Die Relation für das Anfragen-Thema ist nicht bekannt.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"um\\\", \\\"Fragen\\\", \\\"malen\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"houses\\\", \\\"around\\\", \\\"questions\\\", \\\"paint\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"houses\\\", \\\"around\\\", \\\"questions\\\", \\\"paint\\\".\\n5. \\\"houses\\\" und \\\"questions\\\" sind Objekte der Anfrage. \\\"paint\\\" ist eine Aktivität. \\\"around\\\" ist eine Kontext- oder Beziehungsangabe.\\n6. Es gibt keine passende Relation zwischen \\\"houses\\\" und \\\"questions\\\" oder \\\"paint\\\". Es gibt auch keine passende Relation für \\\"around\\\".\\n7. Es gibt keine passende Typkodierung für die Relationen zwischen den Stichwörtern in den bereitgestellten Typkodierungen.\"\n}"
+}

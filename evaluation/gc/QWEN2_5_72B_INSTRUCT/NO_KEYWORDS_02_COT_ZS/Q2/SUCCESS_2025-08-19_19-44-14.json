@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Es gibt keine relativen Verweise. 3. Übersetzung der Stichwörter ins Englische: Tim, run. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, daher wird Maria ignoriert. 5. Die Attributeigenschaften sind: Tim ist ein Objekt (object), und \u0027run\u0027 ist eine Aktivität (activity). 6. Tim steht in Beziehung zu \u0027run\u0027 als das Subjekt, das die Aktivität ausführt. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen: Tim (object, ID 1), run (activity, ID 4), und die Beziehung (perform, ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Tim, rennt. 2. Es gibt keine relativen Verweise. 3. Übersetzung der Stichwörter ins Englische: Tim, run. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, daher wird Maria ignoriert. 5. Die Attributeigenschaften sind: Tim ist ein Objekt (object), und \u0027run\u0027 ist eine Aktivität (activity). 6. Tim steht in Beziehung zu \u0027run\u0027 als das Subjekt, das die Aktivität ausführt. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen: Tim (object, ID 1), run (activity, ID 4), und die Beziehung (perform, ID 8).\"\n}"
+}

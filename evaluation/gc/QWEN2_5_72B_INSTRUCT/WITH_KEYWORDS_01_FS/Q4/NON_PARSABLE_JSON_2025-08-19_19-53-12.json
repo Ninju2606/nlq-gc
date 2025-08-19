@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 4, 0, 8],\n        [0, 0, 1, 0],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Maria schwimmt in ihrem Pool.\"\n}\n\n\n### Erklärung:\n- **maria**: Als Person ist sie ein \"object\" (Typ 1).\n- **swim**: Eine Aktivität (Typ 4).\n- **own**: Die Relation zwischen Maria und dem Pool (Typ 9, \"target\").\n- **pool**: Ein Objekt (Typ 1).\n\nDie Bewertungsmatrix wird wie folgt gefüllt:\n- Die Diagonale (1,1), (2,2), (3,3), und (4,4) enthält die Typen der Begriffe selbst.\n- Die Relation zwischen \"maria\" und \"swim\" ist \"perform\" (Typ 7).\n- Die Relation zwischen \"swim\" und \"pool\" ist \"target\" (Typ 8). \n\nDa \"own\" nicht direkt in der Anfrage verwendet wird, sondern implizit durch das Verhältnis von Maria zum Pool, wird es in der Matrix nicht gesondert repräsentiert."
+}

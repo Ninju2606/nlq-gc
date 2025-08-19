@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "Maria",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: Tochter, ich, fahren, Boot, See.\n2. Relative Verweise aufgelöst: \u0027ich\u0027 wurde zu \u0027Maria\u0027 ersetzt.\n3. Übertrag der Wörter ins Englische: daughter, Maria, drive, boat, lake.\n4. Identifikation des Nutzers in der Anfrage berücksichtigt und \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften:\n   - daughter: object\n   - Maria: object\n   - drive: activity\n   - boat: object\n   - lake: context\n6. Relationen:\n   - daughter und Maria: daughter (10)\n   - drive und boat: target (9)\n   - drive und lake: above (7)\n   - boat und drive: perform (8)\n7. Alle erforderlichen Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"Maria\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 0],\n    [10, 1, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 7, 2]\n  ],\n  \"description\": \"1. Stichwörter: Tochter, ich, fahren, Boot, See.\\n2. Relative Verweise aufgelöst: \u0027ich\u0027 wurde zu \u0027Maria\u0027 ersetzt.\\n3. Übertrag der Wörter ins Englische: daughter, Maria, drive, boat, lake.\\n4. Identifikation des Nutzers in der Anfrage berücksichtigt und \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - daughter: object\\n   - Maria: object\\n   - drive: activity\\n   - boat: object\\n   - lake: context\\n6. Relationen:\\n   - daughter und Maria: daughter (10)\\n   - drive und boat: target (9)\\n   - drive und lake: above (7)\\n   - boat und drive: perform (8)\\n7. Alle erforderlichen Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.\"\n}"
+}

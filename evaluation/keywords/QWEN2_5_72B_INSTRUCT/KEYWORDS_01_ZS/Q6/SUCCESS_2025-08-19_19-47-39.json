@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare oder relevante Szenenbeschreibung im Metaverse.",
+  "error": "No clear or relevant scene description found in the user query.",
+  "responsePlain": "{\n  \"error\": \"No clear or relevant scene description found in the user query.\",\n  \"description\": \"Die Anfrage enthält keine klare oder relevante Szenenbeschreibung im Metaverse.\"\n}"
+}

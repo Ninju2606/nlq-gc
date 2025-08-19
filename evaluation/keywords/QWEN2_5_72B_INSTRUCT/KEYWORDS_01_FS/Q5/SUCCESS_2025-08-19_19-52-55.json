@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt eine Situation, in der die Nutzerin Maria einen gelben Hut trägt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n    \"description\": \"Die Anfrage beschreibt eine Situation, in der die Nutzerin Maria einen gelben Hut trägt.\"\n}"
+}

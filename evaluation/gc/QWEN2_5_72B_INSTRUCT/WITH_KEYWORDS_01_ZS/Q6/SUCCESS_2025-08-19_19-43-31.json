@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält eine Aktivität (\u0027make\u0027) und ein Objekt (\u0027appointment\u0027), aber es gibt keine passende Typkodierung, um die Beziehung zwischen diesen Begriffen zu beschreiben.",
+  "error": "Keine passende Relation im Vokabular gefunden, um die Interaktion zwischen den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 darzustellen.",
+  "responsePlain": "{\n  \"error\": \"Keine passende Relation im Vokabular gefunden, um die Interaktion zwischen den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 darzustellen.\",\n  \"description\": \"Die Anfrage enthält eine Aktivität (\u0027make\u0027) und ein Objekt (\u0027appointment\u0027), aber es gibt keine passende Typkodierung, um die Beziehung zwischen diesen Begriffen zu beschreiben.\"\n}"
+}

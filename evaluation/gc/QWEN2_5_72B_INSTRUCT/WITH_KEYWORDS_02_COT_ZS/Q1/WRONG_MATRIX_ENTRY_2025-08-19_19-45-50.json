@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer \"Maria\" ist identifiziert, und die Anfrage \"Ich spiele Basketball\" wird in das Vokabular und die Bewertungsmatrix übernommen.\n2. Erkläre die Attributeigenschaften der vorliegenden Stichwörter: \"maria\" ist eine Person (Objekt, ID 1), \"play\" ist eine Aktivität (Activity, ID 4), \"basketball\" ist ein Objekt (Object, ID 1).\n3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria (maria) führt die Aktivität \"play\" aus (perform, ID 8), und das Ziel dieser Aktivität ist \"basketball\" (target, ID 9).\n4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer \\\"Maria\\\" ist identifiziert, und die Anfrage \\\"Ich spiele Basketball\\\" wird in das Vokabular und die Bewertungsmatrix übernommen.\\n2. Erkläre die Attributeigenschaften der vorliegenden Stichwörter: \\\"maria\\\" ist eine Person (Objekt, ID 1), \\\"play\\\" ist eine Aktivität (Activity, ID 4), \\\"basketball\\\" ist ein Objekt (Object, ID 1).\\n3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria (maria) führt die Aktivität \\\"play\\\" aus (perform, ID 8), und das Ziel dieser Aktivität ist \\\"basketball\\\" (target, ID 9).\\n4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Typkodierungen für alle Relationen.\"\n}"
+}

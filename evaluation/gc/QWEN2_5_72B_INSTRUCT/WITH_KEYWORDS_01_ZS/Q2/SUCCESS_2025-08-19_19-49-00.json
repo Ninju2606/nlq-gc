@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "GraphCode for the query \u0027Tim rennt\u0027. The user \u0027Maria\u0027 is not included as it is not directly related to the action or objects in the scene.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"GraphCode for the query \u0027Tim rennt\u0027. The user \u0027Maria\u0027 is not included as it is not directly related to the action or objects in the scene.\"\n}"
+}

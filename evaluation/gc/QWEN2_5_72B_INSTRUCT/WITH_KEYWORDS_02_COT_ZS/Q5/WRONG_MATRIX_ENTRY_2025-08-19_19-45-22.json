@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der Nutzer wurde identifiziert als \u0027Maria\u0027. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 in der Anfrage wurden aufgelöst und Maria zugeordnet. 2. Die Attributigenschaften: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist ein Attribut (characteristic). 3. Die Relationen: \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027wear\u0027 hat das Ziel \u0027hat\u0027, \u0027hat\u0027 hat das Attribut \u0027yellow\u0027. 4. Für alle Relationen gibt es passende Typkodierungen: \u0027wear\u0027 (activity): ID 4, \u0027hat\u0027 (object): ID 1, \u0027yellow\u0027 (characteristic): ID 14, \u0027maria\u0027 (object): ID 1, \u0027perform\u0027: ID 8, \u0027target\u0027: ID 9.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer wurde identifiziert als \u0027Maria\u0027. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 in der Anfrage wurden aufgelöst und Maria zugeordnet. 2. Die Attributigenschaften: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist ein Attribut (characteristic). 3. Die Relationen: \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus, \u0027wear\u0027 hat das Ziel \u0027hat\u0027, \u0027hat\u0027 hat das Attribut \u0027yellow\u0027. 4. Für alle Relationen gibt es passende Typkodierungen: \u0027wear\u0027 (activity): ID 4, \u0027hat\u0027 (object): ID 1, \u0027yellow\u0027 (characteristic): ID 14, \u0027maria\u0027 (object): ID 1, \u0027perform\u0027: ID 8, \u0027target\u0027: ID 9.\"\n}"
+}

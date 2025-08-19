@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "Maria",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Tochter, ich, fahren, Boot, See\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt\n3. Übersetzung der Stichwörter ins Englische: daughter, Maria, drive, boat, lake\n4. Identifikation des Nutzers wurde entsprechend der Regel ersetzt: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt\n5. Attribut-Eigenschaften: daughter (person), Maria (person), drive (activity), boat (object), lake (context)\n6. Relationen: Tochter und Nutzer (\u0027Maria\u0027) sind in einer familiar relation (daughter). Boot wird gefahren (perform-\u003etarget). Boot ist auf dem See (above).\n7. Alle Relationen können mit den vorgegebenen Typkodierungen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"Maria\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 0],\n    [10, 1, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 7, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Tochter, ich, fahren, Boot, See\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt\\n3. Übersetzung der Stichwörter ins Englische: daughter, Maria, drive, boat, lake\\n4. Identifikation des Nutzers wurde entsprechend der Regel ersetzt: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt\\n5. Attribut-Eigenschaften: daughter (person), Maria (person), drive (activity), boat (object), lake (context)\\n6. Relationen: Tochter und Nutzer (\u0027Maria\u0027) sind in einer familiar relation (daughter). Boot wird gefahren (perform-\u003etarget). Boot ist auf dem See (above).\\n7. Alle Relationen können mit den vorgegebenen Typkodierungen dargestellt werden.\"\n}"
+}

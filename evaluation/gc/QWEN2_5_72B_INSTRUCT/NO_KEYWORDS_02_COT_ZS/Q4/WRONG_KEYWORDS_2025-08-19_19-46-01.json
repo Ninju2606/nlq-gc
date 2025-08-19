@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: Ich, schwimme, Pool.\n2. Relative Verweise: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027I\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027mein\u0027 -\u003e \u0027my\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027.\n4. Ersetzen der Identifikation des Nutzers: \u0027I\u0027 und \u0027my\u0027 werden durch \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt.\n6. Relationen: \u0027Maria\u0027 performt \u0027swim\u0027, \u0027swim\u0027 targetet \u0027pool\u0027.\n7. Einträge in den Typkodierungen: \u0027Maria\u0027 -\u003e 1 (object), \u0027swim\u0027 -\u003e 4 (activity), \u0027pool\u0027 -\u003e 1 (object). \u0027Maria\u0027 performt \u0027swim\u0027 -\u003e 8 (perform), \u0027swim\u0027 targetet \u0027pool\u0027 -\u003e 5 (target).\n8. GraphCode wurde erfolgreich zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: Ich, schwimme, Pool.\\n2. Relative Verweise: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027I\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027mein\u0027 -\u003e \u0027my\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027.\\n4. Ersetzen der Identifikation des Nutzers: \u0027I\u0027 und \u0027my\u0027 werden durch \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt.\\n6. Relationen: \u0027Maria\u0027 performt \u0027swim\u0027, \u0027swim\u0027 targetet \u0027pool\u0027.\\n7. Einträge in den Typkodierungen: \u0027Maria\u0027 -\u003e 1 (object), \u0027swim\u0027 -\u003e 4 (activity), \u0027pool\u0027 -\u003e 1 (object). \u0027Maria\u0027 performt \u0027swim\u0027 -\u003e 8 (perform), \u0027swim\u0027 targetet \u0027pool\u0027 -\u003e 5 (target).\\n8. GraphCode wurde erfolgreich zusammengesetzt.\"\n}"
+}

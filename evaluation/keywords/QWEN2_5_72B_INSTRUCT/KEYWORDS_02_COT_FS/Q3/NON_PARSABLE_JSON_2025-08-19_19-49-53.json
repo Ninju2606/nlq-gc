@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\ Ich \\, \\ schwimme \\, \\ Pool \\, \\ gehört \\. 2. Es gibt eine relative Verweis: \\ mir \\, was auf die Nutzerin Maria referenziert. 3. Die englischen Stichwörter sind \\ I \\, \\ swim \\, \\ pool \\. 4. Die Stichwörter mit Nutzeridentifikation sind \\ Maria \\, \\ swim \\, \\ pool \\.\"\n}"
+}

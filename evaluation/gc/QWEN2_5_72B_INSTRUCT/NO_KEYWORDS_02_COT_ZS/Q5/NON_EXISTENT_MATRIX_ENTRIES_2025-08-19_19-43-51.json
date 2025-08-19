@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      14,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittelt wurden die Stichwörter: ich, gelber, Hut, trage. 2. Relative Verweise: \u0027ich\u0027 wird auf Maria referenziert. 3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027gelber\u0027 -\u003e \u0027yellow\u0027, \u0027Hut\u0027 -\u003e \u0027hat\u0027, \u0027trage\u0027 -\u003e \u0027wear\u0027. 4. Ersetzt wurden \u0027ich\u0027 und \u0027mein\u0027 mit \u0027Maria\u0027. 5. Attributigenschaften: \u0027yellow\u0027 ist ein charakteristisches Attribut, \u0027Maria\u0027 ist ein Objekt, \u0027hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität. 6. Relationen: \u0027Maria\u0027 (Objekt) führt \u0027wear\u0027 (Aktivität) aus, \u0027wear\u0027 (Aktivität) hat \u0027hat\u0027 (Objekt) als Zielobjekt, \u0027yellow\u0027 (Attribut) ist ein charakteristisches Attribut von \u0027hat\u0027 (Objekt). 7. Alle Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen: \u0027Maria\u0027 -\u003e Objekt (ID: 1), \u0027yellow\u0027 -\u003e charakteristisches Attribut (ID: 14), \u0027hat\u0027 -\u003e Objekt (ID: 1), \u0027wear\u0027 -\u003e Aktivität (ID: 4). \u0027Maria\u0027 führt \u0027wear\u0027 aus (relation: target, ID: 9), \u0027wear\u0027 hat \u0027hat\u0027 als Zielobjekt (relation: target, ID: 9), \u0027yellow\u0027 ist ein charakteristisches Attribut von \u0027hat\u0027 (relation: characteristic, ID: 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 9],\n    [0, 14, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Ermittelt wurden die Stichwörter: ich, gelber, Hut, trage. 2. Relative Verweise: \u0027ich\u0027 wird auf Maria referenziert. 3. Übersetzung ins Englische: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027gelber\u0027 -\u003e \u0027yellow\u0027, \u0027Hut\u0027 -\u003e \u0027hat\u0027, \u0027trage\u0027 -\u003e \u0027wear\u0027. 4. Ersetzt wurden \u0027ich\u0027 und \u0027mein\u0027 mit \u0027Maria\u0027. 5. Attributigenschaften: \u0027yellow\u0027 ist ein charakteristisches Attribut, \u0027Maria\u0027 ist ein Objekt, \u0027hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität. 6. Relationen: \u0027Maria\u0027 (Objekt) führt \u0027wear\u0027 (Aktivität) aus, \u0027wear\u0027 (Aktivität) hat \u0027hat\u0027 (Objekt) als Zielobjekt, \u0027yellow\u0027 (Attribut) ist ein charakteristisches Attribut von \u0027hat\u0027 (Objekt). 7. Alle Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen: \u0027Maria\u0027 -\u003e Objekt (ID: 1), \u0027yellow\u0027 -\u003e charakteristisches Attribut (ID: 14), \u0027hat\u0027 -\u003e Objekt (ID: 1), \u0027wear\u0027 -\u003e Aktivität (ID: 4). \u0027Maria\u0027 führt \u0027wear\u0027 aus (relation: target, ID: 9), \u0027wear\u0027 hat \u0027hat\u0027 als Zielobjekt (relation: target, ID: 9), \u0027yellow\u0027 ist ein charakteristisches Attribut von \u0027hat\u0027 (relation: characteristic, ID: 14).\"\n}"
+}

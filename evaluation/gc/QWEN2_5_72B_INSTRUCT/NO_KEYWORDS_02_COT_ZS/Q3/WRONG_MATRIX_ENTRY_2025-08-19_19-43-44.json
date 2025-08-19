@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool, gehört, mein. 2. Relative Verweise aufgelöst: mein Pool -\u003e Maria\u0027s Pool. 3. Übersetzung ins Englische: ich -\u003e I, schwimme -\u003e swim, Pool -\u003e pool, gehört -\u003e own, mein -\u003e my. 4. Ersetzung der Identifikation des Nutzers: I -\u003e Maria, my -\u003e Maria\u0027s. 5. Attributegenschaften: Maria (Object), swim (Activity), pool (Object), own (Context). 6. Relationen: Maria performs swim, swim attached to pool, pool attached to Maria. 7. Prüfung der Typkodierungen: 1 (Object), 8 (Perform), 4 (Activity), 5 (Attached), 2 (Context).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 5, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: ich, schwimme, Pool, gehört, mein. 2. Relative Verweise aufgelöst: mein Pool -\u003e Maria\u0027s Pool. 3. Übersetzung ins Englische: ich -\u003e I, schwimme -\u003e swim, Pool -\u003e pool, gehört -\u003e own, mein -\u003e my. 4. Ersetzung der Identifikation des Nutzers: I -\u003e Maria, my -\u003e Maria\u0027s. 5. Attributegenschaften: Maria (Object), swim (Activity), pool (Object), own (Context). 6. Relationen: Maria performs swim, swim attached to pool, pool attached to Maria. 7. Prüfung der Typkodierungen: 1 (Object), 8 (Perform), 4 (Activity), 5 (Attached), 2 (Context).\"\n}"
+}

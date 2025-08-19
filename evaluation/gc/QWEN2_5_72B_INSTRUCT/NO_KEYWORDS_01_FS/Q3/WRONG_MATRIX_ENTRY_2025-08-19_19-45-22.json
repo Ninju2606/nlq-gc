@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria",
+    "own"
+  ],
+  "matrix": [
+    [
+      4,
+      0,
+      7,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "GraphCode for the user request: \u0027Ich schwimme in einem Pool, der mir gehört\u0027. The user Maria is performing the activity of swimming in a pool she owns.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\", \"own\"],\n  \"matrix\": [\n    [4, 0, 7, 0],\n    [0, 1, 0, 8],\n    [0, 0, 1, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"GraphCode for the user request: \u0027Ich schwimme in einem Pool, der mir gehört\u0027. The user Maria is performing the activity of swimming in a pool she owns.\"\n}"
+}

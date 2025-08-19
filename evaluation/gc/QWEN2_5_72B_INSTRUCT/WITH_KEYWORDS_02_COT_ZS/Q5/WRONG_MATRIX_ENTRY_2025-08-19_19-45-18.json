@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Maria wird in der Anfrage als \u0027ich\u0027 identifiziert und entsprechend im Vokabular aufgenommen.\n2. Die Attributeigenschaften sind: \u0027maria\u0027 - Objekt (Typ 1), \u0027wear\u0027 - Aktivität (Typ 4), \u0027hat\u0027 - Objekt (Typ 1), \u0027yellow\u0027 - Attribut (Typ 3).\n3. Maria (maria) trägt einen Hut (hat) und der Hut hat die Farbe gelb (yellow). Die Relation zwischen \u0027wear\u0027 und \u0027hat\u0027 ist, dass Maria die Hut-Aktivität ausführt (Typ 9).\n4. Für alle Relationen gibt es passende Typkodierungen: \u0027maria\u0027 (Typ 1), \u0027wear\u0027 (Typ 4), \u0027hat\u0027 (Typ 1), \u0027yellow\u0027 (Typ 3), \u0027wear\u0027 -\u003e \u0027hat\u0027 (Typ 9).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 4, 9, 0],\n        [0, 0, 1, 0],\n        [0, 0, 0, 3]\n    ],\n    \"description\": \"1. Der Nutzer Maria wird in der Anfrage als \u0027ich\u0027 identifiziert und entsprechend im Vokabular aufgenommen.\\n2. Die Attributeigenschaften sind: \u0027maria\u0027 - Objekt (Typ 1), \u0027wear\u0027 - Aktivität (Typ 4), \u0027hat\u0027 - Objekt (Typ 1), \u0027yellow\u0027 - Attribut (Typ 3).\\n3. Maria (maria) trägt einen Hut (hat) und der Hut hat die Farbe gelb (yellow). Die Relation zwischen \u0027wear\u0027 und \u0027hat\u0027 ist, dass Maria die Hut-Aktivität ausführt (Typ 9).\\n4. Für alle Relationen gibt es passende Typkodierungen: \u0027maria\u0027 (Typ 1), \u0027wear\u0027 (Typ 4), \u0027hat\u0027 (Typ 1), \u0027yellow\u0027 (Typ 3), \u0027wear\u0027 -\u003e \u0027hat\u0027 (Typ 9).\"\n}"
+}

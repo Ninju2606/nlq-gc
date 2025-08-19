@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      9,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer wurde als \u0027Maria\u0027 identifiziert, und die Wörter \u0027schwimme\u0027 und \u0027gehört\u0027 wurden zu \u0027swim\u0027 und \u0027own\u0027 übersetzt. 2. Erkläre die Attributegenschaften der vorliegenden Stichwörter: \u0027maria\u0027 ist ein Objekt (1), \u0027swim\u0027 ist eine Aktivität (4), \u0027own\u0027 ist eine Aktivität (4), \u0027pool\u0027 ist ein Objekt (1). 3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: \u0027swim\u0027 wird von \u0027maria\u0027 ausgeführt (identityMapping \u003d false, Relation: 9), \u0027own\u0027 wird von \u0027maria\u0027 ausgeführt (identityMapping \u003d false, Relation: 9), \u0027swim\u0027 findet im \u0027pool\u0027 statt (identityMapping \u003d false, Relation: 9), \u0027own\u0027 bezieht sich auf den \u0027pool\u0027 (identityMapping \u003d false, Relation: 9). 4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt Einträge für alle Relationen. \u0027swim\u0027 (4) und \u0027own\u0027 (4) haben identityMapping \u003d true, während \u0027swim\u0027 und \u0027own\u0027 im Zusammenhang mit \u0027pool\u0027 (9) identityMapping \u003d false haben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 9],\n    [0, 9, 9, 1]\n  ],\n  \"description\": \"1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer wurde als \u0027Maria\u0027 identifiziert, und die Wörter \u0027schwimme\u0027 und \u0027gehört\u0027 wurden zu \u0027swim\u0027 und \u0027own\u0027 übersetzt. 2. Erkläre die Attributegenschaften der vorliegenden Stichwörter: \u0027maria\u0027 ist ein Objekt (1), \u0027swim\u0027 ist eine Aktivität (4), \u0027own\u0027 ist eine Aktivität (4), \u0027pool\u0027 ist ein Objekt (1). 3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: \u0027swim\u0027 wird von \u0027maria\u0027 ausgeführt (identityMapping \u003d false, Relation: 9), \u0027own\u0027 wird von \u0027maria\u0027 ausgeführt (identityMapping \u003d false, Relation: 9), \u0027swim\u0027 findet im \u0027pool\u0027 statt (identityMapping \u003d false, Relation: 9), \u0027own\u0027 bezieht sich auf den \u0027pool\u0027 (identityMapping \u003d false, Relation: 9). 4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt Einträge für alle Relationen. \u0027swim\u0027 (4) und \u0027own\u0027 (4) haben identityMapping \u003d true, während \u0027swim\u0027 und \u0027own\u0027 im Zusammenhang mit \u0027pool\u0027 (9) identityMapping \u003d false haben.\"\n}"
+}

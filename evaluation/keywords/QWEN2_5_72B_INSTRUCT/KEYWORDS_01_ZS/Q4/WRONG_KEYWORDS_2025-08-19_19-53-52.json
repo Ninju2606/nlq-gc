@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "Maria",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Successfully generated the vocabulary for the GraphCode.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"Maria\", \"pool\"],\n  \"description\": \"Successfully generated the vocabulary for the GraphCode.\"\n}"
+}

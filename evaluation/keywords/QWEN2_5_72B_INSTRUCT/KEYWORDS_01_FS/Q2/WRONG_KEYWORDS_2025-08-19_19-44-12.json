@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run",
+    "Tim"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria asked about Tim running in the Metaverse.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\", \"Tim\"],\n    \"description\": \"Maria asked about Tim running in the Metaverse.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Szene im Metaverse, sondern ist eher ein Alltagsdialog oder eine Aktion, die keine konkrete Szenenbeschreibung enthält.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Die Anfrage enthält keine relevante Szenenbeschreibung für den Metaverse.",
+  "responsePlain": "{\n    \"error\": \"Ich kann die Anfrage leider nicht verstehen. Die Anfrage enthält keine relevante Szenenbeschreibung für den Metaverse.\",\n    \"description\": \"Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Szene im Metaverse, sondern ist eher ein Alltagsdialog oder eine Aktion, die keine konkrete Szenenbeschreibung enthält.\"\n}"
+}

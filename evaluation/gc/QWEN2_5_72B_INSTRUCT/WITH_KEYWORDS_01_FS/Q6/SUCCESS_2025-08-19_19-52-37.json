@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält eine Aktion (\u0027make\u0027) und ein Objekt (\u0027appointment\u0027), jedoch ist in den angegebenen Typkodierungen kein passender Typ für die Relation zwischen diesen Begriffen vorhanden.",
+  "error": "Es gibt keinen passenden Typ in den vorgegebenen Typkodierungen, um die Relation zwischen \u0027make\u0027 und \u0027appointment\u0027 darzustellen.",
+  "responsePlain": "{\n    \"error\": \"Es gibt keinen passenden Typ in den vorgegebenen Typkodierungen, um die Relation zwischen \u0027make\u0027 und \u0027appointment\u0027 darzustellen.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält eine Aktion (\u0027make\u0027) und ein Objekt (\u0027appointment\u0027), jedoch ist in den angegebenen Typkodierungen kein passender Typ für die Relation zwischen diesen Begriffen vorhanden.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer ist Maria, und sie fährt zusammen mit ihrer Tochter ein Boot auf einem See. 2. Erkläre die Attributeigenschaften der vorliegenden Stichwörter: \u0027maria\u0027 (context), \u0027person\u0027 (object), \u0027drive\u0027 (activity), \u0027boat\u0027 (object), \u0027lake\u0027 (context). 3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria (person) performs the activity \u0027drive\u0027 on a \u0027boat\u0027 which is located on a \u0027lake\u0027. 4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Typkodierungen für alle Relationen: \u0027maria\u0027 (2), \u0027person\u0027 (1), \u0027drive\u0027 (4), \u0027boat\u0027 (1), \u0027lake\u0027 (2).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [2, 0, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer ist Maria, und sie fährt zusammen mit ihrer Tochter ein Boot auf einem See. 2. Erkläre die Attributeigenschaften der vorliegenden Stichwörter: \u0027maria\u0027 (context), \u0027person\u0027 (object), \u0027drive\u0027 (activity), \u0027boat\u0027 (object), \u0027lake\u0027 (context). 3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: Maria (person) performs the activity \u0027drive\u0027 on a \u0027boat\u0027 which is located on a \u0027lake\u0027. 4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Typkodierungen für alle Relationen: \u0027maria\u0027 (2), \u0027person\u0027 (1), \u0027drive\u0027 (4), \u0027boat\u0027 (1), \u0027lake\u0027 (2).\"\n}"
+}

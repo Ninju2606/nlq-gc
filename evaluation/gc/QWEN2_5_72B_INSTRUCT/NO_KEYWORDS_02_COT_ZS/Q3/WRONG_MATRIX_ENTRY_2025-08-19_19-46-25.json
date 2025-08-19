@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: Ich, schwimme, Pool, gehört, mein.\n2. Die relative Verweise wurden gelöst: \u0027Ich\u0027 wird zu \u0027Maria\u0027, \u0027mein\u0027 wird ignoriert, da es bereits durch \u0027Maria\u0027 repräsentiert ist.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e \u0027own\u0027.\n4. Die Identifikation des Nutzers wurde in den Stichwörtern korrekt berücksichtigt: \u0027Ich\u0027 wurde zu \u0027Maria\u0027 geändert.\n5. Die Attributegenschaften sind: \u0027Maria\u0027 ist ein Object (1), \u0027swim\u0027 ist eine Activity (4), \u0027pool\u0027 ist ein Object (1), \u0027own\u0027 ist ein Relationstyp (9).\n6. Die Stichwörter stehen in folgenden Relationen zueinander: \u0027Maria\u0027 perform \u0027swim\u0027, \u0027swim\u0027 attached \u0027pool\u0027, \u0027pool\u0027 target \u0027Maria\u0027 through the relation \u0027own\u0027.\n7. Alle Relationen haben passende Typkodierungseinträge: \u0027perform\u0027 (ID 8), \u0027attached\u0027 (ID 5), \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"matrix\": [\n        [1, 8, 0, 9],\n        [0, 4, 5, 0],\n        [0, 0, 1, 0],\n        [0, 0, 10, 1]\n    ],\n    \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: Ich, schwimme, Pool, gehört, mein.\\n2. Die relative Verweise wurden gelöst: \u0027Ich\u0027 wird zu \u0027Maria\u0027, \u0027mein\u0027 wird ignoriert, da es bereits durch \u0027Maria\u0027 repräsentiert ist.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e \u0027own\u0027.\\n4. Die Identifikation des Nutzers wurde in den Stichwörtern korrekt berücksichtigt: \u0027Ich\u0027 wurde zu \u0027Maria\u0027 geändert.\\n5. Die Attributegenschaften sind: \u0027Maria\u0027 ist ein Object (1), \u0027swim\u0027 ist eine Activity (4), \u0027pool\u0027 ist ein Object (1), \u0027own\u0027 ist ein Relationstyp (9).\\n6. Die Stichwörter stehen in folgenden Relationen zueinander: \u0027Maria\u0027 perform \u0027swim\u0027, \u0027swim\u0027 attached \u0027pool\u0027, \u0027pool\u0027 target \u0027Maria\u0027 through the relation \u0027own\u0027.\\n7. Alle Relationen haben passende Typkodierungseinträge: \u0027perform\u0027 (ID 8), \u0027attached\u0027 (ID 5), \u0027target\u0027 (ID 9).\"\n}"
+}

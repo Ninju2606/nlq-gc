@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      10,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria schwimmt in einem Pool, der ihr gehört. Die Identifikation des Nutzers wurde korrekt zugeordnet.\n2. \u0027maria\u0027 ist ein Objekt (Typ: object, ID: 1).\n   \u0027swim\u0027 ist eine Aktivität (Typ: activity, ID: 4).\n   \u0027own\u0027 beschreibt eine Beziehung, wo jemand etwas besitzt (Typ: target, ID: 9).\n   \u0027pool\u0027 ist ein Objekt (Typ: object, ID: 1).\n3. Maria führt die Aktivität \u0027swim\u0027 aus. Maria ist auch Besitzer des Objekts \u0027pool\u0027. Das Objekt \u0027pool\u0027 hat das Attribut \u0027own\u0027.\n4. Alle Relationen und Attribute lassen sich mit den bereitgestellten Typkodierungen abbilden:\n   - Maria schwimmt (Entry: 8)\n   - Maria besitzt den Pool (Entry: 10)\n   - Schwimmen im Pool (Entry: 9)\n   - Pool ist ein Objekt (Entry: 1)",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 10, 5],\n    [0, 4, 0, 9],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria schwimmt in einem Pool, der ihr gehört. Die Identifikation des Nutzers wurde korrekt zugeordnet.\\n2. \u0027maria\u0027 ist ein Objekt (Typ: object, ID: 1).\\n   \u0027swim\u0027 ist eine Aktivität (Typ: activity, ID: 4).\\n   \u0027own\u0027 beschreibt eine Beziehung, wo jemand etwas besitzt (Typ: target, ID: 9).\\n   \u0027pool\u0027 ist ein Objekt (Typ: object, ID: 1).\\n3. Maria führt die Aktivität \u0027swim\u0027 aus. Maria ist auch Besitzer des Objekts \u0027pool\u0027. Das Objekt \u0027pool\u0027 hat das Attribut \u0027own\u0027.\\n4. Alle Relationen und Attribute lassen sich mit den bereitgestellten Typkodierungen abbilden:\\n   - Maria schwimmt (Entry: 8)\\n   - Maria besitzt den Pool (Entry: 10)\\n   - Schwimmen im Pool (Entry: 9)\\n   - Pool ist ein Objekt (Entry: 1)\"\n}"
+}

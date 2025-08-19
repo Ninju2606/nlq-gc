@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Die Nutzerin Maria und ihre Tochter sind im Vokabular durch den Begriff \u0027maria\u0027 repräsentiert. Die Tochter und \u0027ich\u0027 werden als \u0027person\u0027 dargestellt.\n2. \u0027maria\u0027 ist vom Typ \u0027object\u0027 (ID: 1), \u0027person\u0027 ist ebenfalls vom Typ \u0027object\u0027 (ID: 1), \u0027drive\u0027 ist vom Typ \u0027activity\u0027 (ID: 4), \u0027boat\u0027 ist vom Typ \u0027object\u0027 (ID: 1), \u0027lake\u0027 ist vom Typ \u0027context\u0027 (ID: 2).\n3. Maria (maria) führt die Aktivität \u0027drive\u0027 aus (Typ: perform, ID: 8). \u0027person\u0027 (Maria) und \u0027drive\u0027 stehen in der Beziehung \u0027perform\u0027 (Typ: perform, ID: 8). \u0027drive\u0027 (die Aktivität) ist mit \u0027boat\u0027 verbunden (Typ: target, ID: 9).\n4. Alle benötigten Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [8, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Nutzerin Maria und ihre Tochter sind im Vokabular durch den Begriff \u0027maria\u0027 repräsentiert. Die Tochter und \u0027ich\u0027 werden als \u0027person\u0027 dargestellt.\\n2. \u0027maria\u0027 ist vom Typ \u0027object\u0027 (ID: 1), \u0027person\u0027 ist ebenfalls vom Typ \u0027object\u0027 (ID: 1), \u0027drive\u0027 ist vom Typ \u0027activity\u0027 (ID: 4), \u0027boat\u0027 ist vom Typ \u0027object\u0027 (ID: 1), \u0027lake\u0027 ist vom Typ \u0027context\u0027 (ID: 2).\\n3. Maria (maria) führt die Aktivität \u0027drive\u0027 aus (Typ: perform, ID: 8). \u0027person\u0027 (Maria) und \u0027drive\u0027 stehen in der Beziehung \u0027perform\u0027 (Typ: perform, ID: 8). \u0027drive\u0027 (die Aktivität) ist mit \u0027boat\u0027 verbunden (Typ: target, ID: 9).\\n4. Alle benötigten Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.\"\n}"
+}

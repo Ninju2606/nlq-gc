@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n2. Es gibt keinen relativen Verweis auf eine Person.\n3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\", \"own\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"own\".\n5. \"Maria\" ist ein Objekt der Anfrage. \"swim\" ist eine Aktivität. \"pool\" ist ein Objekt der Anfrage. \"own\" ist ein Kontext.\n6. \"Maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". \"Maria\" steht in der Relation \"own\" zu \"pool\".\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [[1, 7, 0, 0], [0, 9, 8, 0], [0, 0, 1, 0], [0, 0, 0, 3]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n2. Es gibt keinen relativen Verweis auf eine Person.\\n3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\\n5. \\\"Maria\\\" ist ein Objekt der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"pool\\\" ist ein Objekt der Anfrage. \\\"own\\\" ist ein Kontext.\\n6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"Maria\\\" steht in der Relation \\\"own\\\" zu \\\"pool\\\".\\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.\"\n}"
+}

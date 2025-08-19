@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "I swim in a pool that I own",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"description\": \"I swim in a pool that I own\"\n}"
+}

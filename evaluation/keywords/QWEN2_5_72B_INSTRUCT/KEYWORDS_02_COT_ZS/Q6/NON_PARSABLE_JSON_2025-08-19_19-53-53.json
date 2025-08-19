@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Ausgabe basierend auf deiner Anfrage:\n\n\n{\n  \"error\": \"Fehlende Informationen für einen sinnvollen GraphCode\",\n  \"description\": \"Die Anfrage enthält keine spezifischen Begriffe, Objekte, Attribute oder Aktivitäten innerhalb einer Metaverse-Szene.\"\n}\n\n\nDie Nutzeranfrage \"Wir müssen bald einen Termin ausmachen\" bezieht sich nicht auf eine Szene im Metaverse und enthält daher keine relevanten Stichwörter, um einen validen GraphCode zu generieren."
+}

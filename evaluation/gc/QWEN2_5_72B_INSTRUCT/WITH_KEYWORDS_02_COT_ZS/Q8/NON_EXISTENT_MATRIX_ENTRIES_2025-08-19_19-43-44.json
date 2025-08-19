@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert. \u0027Meine Tochter und ich\u0027 wird in \u0027maria\u0027 und \u0027person\u0027 übersetzt. \u0027Fahren\u0027 wird als \u0027drive\u0027 erkannt, und \u0027Boot\u0027 als \u0027boat\u0027, \u0027See\u0027 als \u0027lake\u0027. 2. \u0027maria\u0027 ist eine Person (Typ 1), \u0027person\u0027 ist ein allgemeiner Begriff für eine Person (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2). 3. \u0027maria\u0027 und \u0027person\u0027 sind zusammen (keine explizite Relation), \u0027drive\u0027 wird von \u0027boat\u0027 durchgeführt (Typ 8), \u0027boat\u0027 ist auf \u0027lake\u0027 (Typ 6). 4. Alle Relationen haben passende Typkodierungen: \u0027maria\u0027 und \u0027person\u0027 sind beide Personen (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1) und auf \u0027lake\u0027 (Typ 6), \u0027lake\u0027 ist ein Kontext (Typ 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],  // maria\n    [2, 1, 0, 0, 0],  // person\n    [0, 0, 4, 0, 0],  // drive\n    [0, 0, 8, 1, 0],  // boat\n    [0, 0, 0, 0, 1]   // lake\n  ],\n  \"description\": \"1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert. \u0027Meine Tochter und ich\u0027 wird in \u0027maria\u0027 und \u0027person\u0027 übersetzt. \u0027Fahren\u0027 wird als \u0027drive\u0027 erkannt, und \u0027Boot\u0027 als \u0027boat\u0027, \u0027See\u0027 als \u0027lake\u0027. 2. \u0027maria\u0027 ist eine Person (Typ 1), \u0027person\u0027 ist ein allgemeiner Begriff für eine Person (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2). 3. \u0027maria\u0027 und \u0027person\u0027 sind zusammen (keine explizite Relation), \u0027drive\u0027 wird von \u0027boat\u0027 durchgeführt (Typ 8), \u0027boat\u0027 ist auf \u0027lake\u0027 (Typ 6). 4. Alle Relationen haben passende Typkodierungen: \u0027maria\u0027 und \u0027person\u0027 sind beide Personen (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 4), \u0027boat\u0027 ist ein Objekt (Typ 1) und auf \u0027lake\u0027 (Typ 6), \u0027lake\u0027 ist ein Kontext (Typ 2).\"\n}"
+}

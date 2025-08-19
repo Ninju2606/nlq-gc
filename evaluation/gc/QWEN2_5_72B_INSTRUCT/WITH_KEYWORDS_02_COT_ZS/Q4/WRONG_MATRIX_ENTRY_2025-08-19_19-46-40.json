@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da der Nutzer Maria ist und \u0027ich\u0027 auf sie bezieht. Das \u0027mein\u0027 wurde durch \u0027own\u0027 ersetzt, was die Besitzrelation zwischen Maria und dem Pool beschreibt.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (1), \u0027swim\u0027 ist eine Aktivität (4), \u0027own\u0027 ist ein Kontext (2), \u0027pool\u0027 ist ein Objekt (1).\n3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 performt \u0027swim\u0027 (8), \u0027maria\u0027 ist target von \u0027own\u0027 (9), \u0027pool\u0027 ist attached zu \u0027own\u0027 (5).\n4. Überprüfung der Typkodierungen: Es gibt passende Einträge für alle Relationen. Die korrespondierenden IDs sind: perform (8), target (9), attached (5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 9, 5],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da der Nutzer Maria ist und \u0027ich\u0027 auf sie bezieht. Das \u0027mein\u0027 wurde durch \u0027own\u0027 ersetzt, was die Besitzrelation zwischen Maria und dem Pool beschreibt.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (1), \u0027swim\u0027 ist eine Aktivität (4), \u0027own\u0027 ist ein Kontext (2), \u0027pool\u0027 ist ein Objekt (1).\\n3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 performt \u0027swim\u0027 (8), \u0027maria\u0027 ist target von \u0027own\u0027 (9), \u0027pool\u0027 ist attached zu \u0027own\u0027 (5).\\n4. Überprüfung der Typkodierungen: Es gibt passende Einträge für alle Relationen. Die korrespondierenden IDs sind: perform (8), target (9), attached (5).\"\n}"
+}

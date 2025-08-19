@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 ist unvollständig und enthält nicht genug Informationen, um einen sinnvollen GraphCode zu generieren. Ein vollständiger GraphCode erfordert mindestens ein Objekt oder eine Beziehung zwischen Aktivität und Kontext.",
+  "error": "Ungültige Anfrage: Die Anfrage enthält keine Informationen, die eine Szene im Metaverse beschreiben, da sie nur einen Aktivitätsbegriff (rennt) ohne Kontext oder Objekt umfasst.",
+  "responsePlain": "{\n  \"error\": \"Ungültige Anfrage: Die Anfrage enthält keine Informationen, die eine Szene im Metaverse beschreiben, da sie nur einen Aktivitätsbegriff (rennt) ohne Kontext oder Objekt umfasst.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 ist unvollständig und enthält nicht genug Informationen, um einen sinnvollen GraphCode zu generieren. Ein vollständiger GraphCode erfordert mindestens ein Objekt oder eine Beziehung zwischen Aktivität und Kontext.\"\n}"
+}

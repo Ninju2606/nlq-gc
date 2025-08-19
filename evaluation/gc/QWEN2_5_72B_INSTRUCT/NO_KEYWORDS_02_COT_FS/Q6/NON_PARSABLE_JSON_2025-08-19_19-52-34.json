@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": [\"Die Anfrage enthält keine Informationen, die für die Generierung eines sinnvollen GraphCodes verwendet werden können.\"],\n  \"description\": \"1. Es können keine relevanten Stichwörter aus der Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ermittelt werden, die für die Generierung eines GraphCodes genutzt werden können. Die Anfrage bezieht sich offenbar auf eine Verabredung und nicht auf eine spezifische Szene im Metaverse. 2. Es gibt keine relativen Verweise. 3. Die Anfrage ist bereits auf Deutsch, daher ist keine Übersetzung notwendig. 4. Es gibt keine Stichwörter, die auf den Anfragensteller referenzieren. 5. Da es keine relevanten Stichwörter gibt, können keine Attributigenschaften definiert werden. 6. Da es keine relevanten Stichwörter gibt, können keine Relationen zwischen den Stichwörtern beschrieben werden. 7. Da es keine relevanten Stichwörter gibt, kann kein passender Eintrag in den bereitgestellten Typkodierungen gefunden werden.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält Aktivitäten (make) und Objekte (appointment), aber es gibt keine passenden Typkodierungen, um diese Relationen korrekt abzubilden.",
+  "error": "Keine passenden Relationen in der vorgegebenen Typkodierung gefunden, um die Relation zwischen \u0027make\u0027 und \u0027appointment\u0027 sowie die Relation von \u0027maria\u0027 zu diesen Begriffen darzustellen.",
+  "responsePlain": "{\n  \"error\": \"Keine passenden Relationen in der vorgegebenen Typkodierung gefunden, um die Relation zwischen \u0027make\u0027 und \u0027appointment\u0027 sowie die Relation von \u0027maria\u0027 zu diesen Begriffen darzustellen.\",\n  \"description\": \"Die Anfrage enthält Aktivitäten (make) und Objekte (appointment), aber es gibt keine passenden Typkodierungen, um diese Relationen korrekt abzubilden.\"\n}"
+}

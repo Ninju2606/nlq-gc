@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine Szene im Metaverse und enthält keine beschreibenden Elemente.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine Szene im Metaverse und enthält keine beschreibenden Elemente.\"\n}"
+}

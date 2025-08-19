@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und fehlt an den notwendigen Informationen, um eine sinnvolle Bewertungsmatrix zu generieren.",
+  "error": "Die Anfrage enthält keine klare Relation zwischen den Objekten und Aktivitäten.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Relation zwischen den Objekten und Aktivitäten.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und fehlt an den notwendigen Informationen, um eine sinnvolle Bewertungsmatrix zu generieren.\"\n}"
+}

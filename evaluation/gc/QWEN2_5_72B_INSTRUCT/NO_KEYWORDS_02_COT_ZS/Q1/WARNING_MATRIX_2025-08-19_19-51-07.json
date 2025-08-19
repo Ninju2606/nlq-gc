@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Stichwörter: ich, spiele, Basketball.\n2. \u0027ich\u0027 wird auf Maria umgesetzt.\n3. Übersetzung ins Englische: Maria, play, basketball.\n4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\n6. Die Relation zwischen \u0027Maria\u0027 und \u0027play\u0027 ist \u0027perform\u0027 (Typ 8). Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist \u0027target\u0027 (Typ 9).\n7. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: ich, spiele, Basketball.\\n2. \u0027ich\u0027 wird auf Maria umgesetzt.\\n3. Übersetzung ins Englische: Maria, play, basketball.\\n4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n6. Die Relation zwischen \u0027Maria\u0027 und \u0027play\u0027 ist \u0027perform\u0027 (Typ 8). Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist \u0027target\u0027 (Typ 9).\\n7. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen.\"\n}"
+}

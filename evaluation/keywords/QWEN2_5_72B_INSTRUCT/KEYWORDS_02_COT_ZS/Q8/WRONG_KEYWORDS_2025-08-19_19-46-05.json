@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s request has been processed. The keywords have been extracted and translated into English. The user (Maria) and her daughter are driving a boat on a lake. The user identification has been replaced with \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"boat\", \"lake\"],\n  \"description\": \"The user\u0027s request has been processed. The keywords have been extracted and translated into English. The user (Maria) and her daughter are driving a boat on a lake. The user identification has been replaced with \u0027Maria\u0027.\"\n}"
+}

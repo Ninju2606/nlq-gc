@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Stichwörter aus der Nutzeranfrage sind: schwimmen, Pool, ich (Maria). 2. \"ich\" referenziert auf Maria. 3. Stichwörter ins Englische übersetzt: swim, pool, Maria. 4. \"ich\" wurde durch Maria ersetzt. 5. Attributeigenschaften: swim (activity), pool (object), Maria (context). 6. Relationen: swim ist eine Aktivität, die von Maria ausgeführt wird, und pool ist das Objekt, in dem die Aktivität stattfindet. 7. Für alle Relationen gibt es passende Typkodierungen: swim (activity: 4), pool (object: 1), Maria (context: 2). 8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Die Stichwörter aus der Nutzeranfrage sind: schwimmen, Pool, ich (Maria). 2. \\\"ich\\\" referenziert auf Maria. 3. Stichwörter ins Englische übersetzt: swim, pool, Maria. 4. \\\"ich\\\" wurde durch Maria ersetzt. 5. Attributeigenschaften: swim (activity), pool (object), Maria (context). 6. Relationen: swim ist eine Aktivität, die von Maria ausgeführt wird, und pool ist das Objekt, in dem die Aktivität stattfindet. 7. Für alle Relationen gibt es passende Typkodierungen: swim (activity: 4), pool (object: 1), Maria (context: 2). 8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Successfully generated the GraphCode vocabulary by translating the keywords and replacing self-referencing terms with the user\u0027s identification.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"description\": \"Successfully generated the GraphCode vocabulary by translating the keywords and replacing self-referencing terms with the user\u0027s identification.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 können keine klaren Stichwörter ermittelt werden. Es ist nicht klar, ob es sich um eine Aktivität, einen Kontext oder eine Relation zwischen Objekten handelt. Daher kann kein gültiger GraphCode generiert werden.",
+  "error": "Fehlende oder unklare Informationen in der Anfrage. Es ist nicht klar, was mit \u0027Häuser um Fragen zu malen\u0027 gemeint ist.",
+  "responsePlain": "{\n  \"error\": \"Fehlende oder unklare Informationen in der Anfrage. Es ist nicht klar, was mit \u0027Häuser um Fragen zu malen\u0027 gemeint ist.\",\n  \"description\": \"Aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 können keine klaren Stichwörter ermittelt werden. Es ist nicht klar, ob es sich um eine Aktivität, einen Kontext oder eine Relation zwischen Objekten handelt. Daher kann kein gültiger GraphCode generiert werden.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter wurden erfolgreich ermittelt und verarbeitet: \u0027daughter\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027. Relative Verweise wurden aufgelöst und die Identifikation des Nutzers in Maria geändert.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"ride\", \"boat\", \"lake\"],\n  \"description\": \"Potenzielle Stichwörter wurden erfolgreich ermittelt und verarbeitet: \u0027daughter\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027. Relative Verweise wurden aufgelöst und die Identifikation des Nutzers in Maria geändert.\"\n}"
+}

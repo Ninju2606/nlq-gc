@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine abstrakte Aktion oder Planung, die keinen spezifischen visuellen oder situativen Inhalt im Metaverse umfasst. Es gibt daher keine passenden Einträge für das Vokabular und die Bewertungsmatrix.",
+  "error": "Die Anfrage enthält keine Informationen, die in einem Metaverse-Kontext visualisiert oder beschrieben werden können.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Informationen, die in einem Metaverse-Kontext visualisiert oder beschrieben werden können.\",\n  \"description\": \"Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine abstrakte Aktion oder Planung, die keinen spezifischen visuellen oder situativen Inhalt im Metaverse umfasst. Es gibt daher keine passenden Einträge für das Vokabular und die Bewertungsmatrix.\"\n}"
+}

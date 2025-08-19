@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027schwimme\u0027, \u0027mein\u0027, \u0027pool\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027mein\u0027 referenzieren auf Maria.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027mein\u0027 -\u003e \u0027Maria\u0027, \u0027pool\u0027 -\u003e \u0027pool\u0027.\n4. Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027mein\u0027 -\u003e \u0027Maria\u0027.\n5. Attributigenschaften: \u0027swim\u0027 ist eine activity (Typ-ID 4), \u0027pool\u0027 ist ein object (Typ-ID 1), \u0027Maria\u0027 ist ein object (Typ-ID 1).\n6. Relationen: \u0027Maria\u0027 performs \u0027swim\u0027, \u0027swim\u0027 targets \u0027pool\u0027.\n7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 9],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027schwimme\u0027, \u0027mein\u0027, \u0027pool\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027mein\u0027 referenzieren auf Maria.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027mein\u0027 -\u003e \u0027Maria\u0027, \u0027pool\u0027 -\u003e \u0027pool\u0027.\\n4. Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027mein\u0027 -\u003e \u0027Maria\u0027.\\n5. Attributigenschaften: \u0027swim\u0027 ist eine activity (Typ-ID 4), \u0027pool\u0027 ist ein object (Typ-ID 1), \u0027Maria\u0027 ist ein object (Typ-ID 1).\\n6. Relationen: \u0027Maria\u0027 performs \u0027swim\u0027, \u0027swim\u0027 targets \u0027pool\u0027.\\n7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.\"\n}"
+}

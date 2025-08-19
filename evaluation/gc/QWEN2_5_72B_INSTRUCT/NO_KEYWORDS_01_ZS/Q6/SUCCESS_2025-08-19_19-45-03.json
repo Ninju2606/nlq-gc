@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine abstrakte Handlung oder Planung und enthält keine konkreten Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse beschrieben werden können.",
+  "error": "Die Anfrage enthält keine spezifische Szenenbeschreibung, die im Metaverse dargestellt werden kann.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifische Szenenbeschreibung, die im Metaverse dargestellt werden kann.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine abstrakte Handlung oder Planung und enthält keine konkreten Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse beschrieben werden können.\"\n}"
+}

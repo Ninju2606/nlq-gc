@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. Maria wird als Identifikation des Nutzers verwendet, da die Anfrage sich auf den Anfragensteller bezieht.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"description\": \"Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. Maria wird als Identifikation des Nutzers verwendet, da die Anfrage sich auf den Anfragensteller bezieht.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"tragen\": 1,\n    \"gelben Hut\": 2,\n    \"ich\": 3\n  },\n  \"matrix\": [\n    [0, 8, 0, 0], // Situationen\n    [0, 0, 0, 9], // tragen\n    [0, 0, 0, 0], // gelben Hut\n    [0, 9, 0, 0]  // ich\n  ]\n}\n\n\nExplanation:\n- The `dictionary` maps each term to a unique index in the adjacency matrix.\n- The `matrix` is a square matrix where the rows and columns correspond to the terms in the `dictionary`.\n- The type codes are used to represent the relationships between the terms:\n  - `8` (perform) indicates that the action \"tragen\" is performed.\n  - `9` (target) indicates that \"ich\" (the subject) is the target of the action \"tragen\".\n\nIn this specific example:\n- \"ich\" performs the action \"tragen\" (represented by `8` in the matrix at position [0][1]).\n- \"tragen\" has \"gelben Hut\" as its target (represented by `9` in the matrix at positions [1][3] and [3][1]).\n\nThis JSON object represents the situation where \"ich\" (you) wear a \"gelben Hut\" (yellow hat) in certain \"Situationen\" (situations)."
+}

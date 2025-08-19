@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      10,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.64,
+  "description": "1. Der Nutzer \u0027Maria\u0027 und ihre Tochter sind identifiziert. Die Aktivität ist \u0027fahren\u0027. Die Objekte sind \u0027Boot\u0027 und \u0027See\u0027. 2. \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 1), \u0027person\u0027 ist ein allgemeiner Begriff für eine Person (Typ 1), \u0027drive\u0027 ist eine \u0027activity\u0027 (Typ 4), \u0027boat\u0027 ist ein \u0027object\u0027 (Typ 1), \u0027lake\u0027 ist ein \u0027object\u0027 (Typ 1). 3. Maria (maria) und ihre Tochter (person) fahren gemeinsam (Typ 10). Der Nutzer und seine Tochter fahren das Boot (Typ 10). Das Boot wird auf dem See gefahren (Typ 9). 4. Alle Relationen konnten mit den bereitgestellten Typkodierungen dargestellt werden: maria -\u003e person (Typ 10), maria -\u003e boat (Typ 10), drive -\u003e boat (Typ 0), drive -\u003e lake (Typ 9), boat -\u003e lake (Typ 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 10, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 9],\n    [10, 0, 0, 1, 0],\n    [0, 0, 9, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 und ihre Tochter sind identifiziert. Die Aktivität ist \u0027fahren\u0027. Die Objekte sind \u0027Boot\u0027 und \u0027See\u0027. 2. \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 1), \u0027person\u0027 ist ein allgemeiner Begriff für eine Person (Typ 1), \u0027drive\u0027 ist eine \u0027activity\u0027 (Typ 4), \u0027boat\u0027 ist ein \u0027object\u0027 (Typ 1), \u0027lake\u0027 ist ein \u0027object\u0027 (Typ 1). 3. Maria (maria) und ihre Tochter (person) fahren gemeinsam (Typ 10). Der Nutzer und seine Tochter fahren das Boot (Typ 10). Das Boot wird auf dem See gefahren (Typ 9). 4. Alle Relationen konnten mit den bereitgestellten Typkodierungen dargestellt werden: maria -\u003e person (Typ 10), maria -\u003e boat (Typ 10), drive -\u003e boat (Typ 0), drive -\u003e lake (Typ 9), boat -\u003e lake (Typ 9).\"\n}"
+}

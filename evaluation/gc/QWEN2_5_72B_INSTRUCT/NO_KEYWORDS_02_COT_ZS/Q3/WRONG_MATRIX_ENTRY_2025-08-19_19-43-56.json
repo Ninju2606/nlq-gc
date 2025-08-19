@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Stichwörter: ich, schwimme, Pool, gehört\n2. Relative Verweise aufgelöst: \u0027ich\u0027 und \u0027mir\u0027 referenzieren auf Maria.\n3. Übersetzung ins Englische: \u0027ich\u0027 \u003d \u0027Maria\u0027, \u0027schwimme\u0027 \u003d \u0027swim\u0027, \u0027Pool\u0027 \u003d \u0027pool\u0027, \u0027gehört\u0027 \u003d \u0027own\u0027.\n4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften: \u0027Maria\u0027 ist ein Objekt (person), \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt, \u0027own\u0027 ist eine Relation (besitzen).\n6. Relationen: Maria performs swim, swim target pool, pool attached to Maria through ownership.\n7. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 9],\n    [0, 4, 9, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: ich, schwimme, Pool, gehört\\n2. Relative Verweise aufgelöst: \u0027ich\u0027 und \u0027mir\u0027 referenzieren auf Maria.\\n3. Übersetzung ins Englische: \u0027ich\u0027 \u003d \u0027Maria\u0027, \u0027schwimme\u0027 \u003d \u0027swim\u0027, \u0027Pool\u0027 \u003d \u0027pool\u0027, \u0027gehört\u0027 \u003d \u0027own\u0027.\\n4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften: \u0027Maria\u0027 ist ein Objekt (person), \u0027swim\u0027 ist eine Aktivität, \u0027pool\u0027 ist ein Objekt, \u0027own\u0027 ist eine Relation (besitzen).\\n6. Relationen: Maria performs swim, swim target pool, pool attached to Maria through ownership.\\n7. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden.\"\n}"
+}

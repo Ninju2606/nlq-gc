@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in der vorgegebenen Szene im Metaverse dargestellt werden können. Die Anfrage ist eher eine Ablaufanweisung oder ein Plan und enthält keine direkt beschreibbaren Elemente für die Szene. Daher kann kein GraphCode generiert werden.",
+  "error": "Keine passenden Stichwörter oder Relationen zum Erstellen eines GraphCodes gefunden.",
+  "responsePlain": "{\n    \"error\": \"Keine passenden Stichwörter oder Relationen zum Erstellen eines GraphCodes gefunden.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in der vorgegebenen Szene im Metaverse dargestellt werden können. Die Anfrage ist eher eine Ablaufanweisung oder ein Plan und enthält keine direkt beschreibbaren Elemente für die Szene. Daher kann kein GraphCode generiert werden.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 14, 1],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria is swimming in a pool that she owns\"\n}\n\n\n**Erklärung:**\n- **maria (1):** \"maria\" ist eine Person (Typ 1: object), daher der Value 1 auf der Diagonalen.\n- **swim (4):** \"swim\" ist eine Aktivität (Typ 4: activity), daher der Value 4 auf der Diagonalen.\n- **own (14):** \"own\" ist ein Attribut (Typ 14: characteristic), daher der Value 14 auf der Diagonalen.\n- **pool (1):** \"pool\" ist ein Objekt (Typ 1: object), daher der Value 1 auf der Diagonalen.\n- **Matrix-Einträge:**\n  - (1, 2) \u003d 8: Maria führt die Aktivität Schwimmen aus (Typ 8: perform).\n  - (3, 4) \u003d 1: Maria besitzt den Pool (Typ 14: characteristic). Der Pool ist ihr Besitz (Typ 1: object)."
+}

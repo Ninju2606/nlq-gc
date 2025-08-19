@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"error\": [\"Die Relation \u0027um\u0027 ist nicht bekannt.\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"um\\\", \\\"Fragen\\\", \\\"malen\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"houses\\\", \\\"around\\\", \\\"questions\\\", \\\"paint\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"houses\\\", \\\"around\\\", \\\"questions\\\", \\\"paint\\\". 5. \\\"houses\\\", \\\"questions\\\" und \\\"paint\\\" sind Objekte der Anfrage. 6. Es gibt keine bekannte Beziehung für \\\"um\\\" zwischen den Stichwörtern. 7. Die Relation \u0027around\u0027 ist nicht bekannt.\"\n}"
+}

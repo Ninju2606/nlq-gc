@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"error\": [\"Es gibt keine passenden Typkodierungen, um die Relationen zwischen den Begriffen der Anfrage darzustellen.\"],\n    \"description\": \"\"\n}\n\n\n**Begründung:**\n- Die Anfrage \"Wir müssen bald einen Termin ausmachen\" enthält keine spezifischen Objekte, Aktivitäten oder Attribute, die in der gegebenen Liste von Typkodierungen repräsentiert werden können.\n- Es gibt keine direkte Beziehung zwischen den Begriffen, die durch die vorgegebenen Typkodierungen dargestellt werden kann.\n- Daher ist es nicht möglich, einen sinnvollen GraphCode zu generieren, und es wird ein Fehler ausgegeben."
+}

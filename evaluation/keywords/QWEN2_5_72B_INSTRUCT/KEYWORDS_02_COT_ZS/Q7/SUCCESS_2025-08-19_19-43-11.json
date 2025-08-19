@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar. Es fehlen Informationen, die eine sinnvolle Szene im Metaverse beschreiben. Beispielsweise sind die Begriffe \u0027Fragen\u0027 und \u0027malen\u0027 nicht klar zuzuordnen. Es ist auch nicht klar, ob \u0027Häuser\u0027 der Fokus der Szene ist oder ob es sich um eine Aktivität handelt.",
+  "error": "Fehler: Unklare oder grammatikalisch wirre Anfrage. Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält nicht genug Informationen, um einen sinnvollen GraphCode zu generieren.",
+  "responsePlain": "{\n  \"error\": \"Fehler: Unklare oder grammatikalisch wirre Anfrage. Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält nicht genug Informationen, um einen sinnvollen GraphCode zu generieren.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar. Es fehlen Informationen, die eine sinnvolle Szene im Metaverse beschreiben. Beispielsweise sind die Begriffe \u0027Fragen\u0027 und \u0027malen\u0027 nicht klar zuzuordnen. Es ist auch nicht klar, ob \u0027Häuser\u0027 der Fokus der Szene ist oder ob es sich um eine Aktivität handelt.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Potenzielle Stichwörter: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. \u0027ich\u0027 wird auf Maria referenziert.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027play\u0027 ist eine Aktivität, \u0027basketball\u0027 ist ein Objekt.\n6. Relationen: Maria performt play, play ist eine Aktivität, basketball ist ein Objekt.\n7. Typkodierung: (1, 4, 0) für Maria und play, (0, 4, 0) für play, (0, 0, 1) für basketball.\n8. GraphCode successfully generated.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. \u0027ich\u0027 wird auf Maria referenziert.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027play\u0027 ist eine Aktivität, \u0027basketball\u0027 ist ein Objekt.\\n6. Relationen: Maria performt play, play ist eine Aktivität, basketball ist ein Objekt.\\n7. Typkodierung: (1, 4, 0) für Maria und play, (0, 4, 0) für play, (0, 0, 1) für basketball.\\n8. GraphCode successfully generated.\"\n}"
+}

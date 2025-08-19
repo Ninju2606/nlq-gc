@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält Begriffe, zwischen denen keine passenden Relationen in den vorgegebenen Typkodierungen gefunden werden konnten.",
+  "error": "Fehlende Relationen zwischen den Begriffen.",
+  "responsePlain": "{\n  \"error\": \"Fehlende Relationen zwischen den Begriffen.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält Begriffe, zwischen denen keine passenden Relationen in den vorgegebenen Typkodierungen gefunden werden konnten.\"\n}"
+}

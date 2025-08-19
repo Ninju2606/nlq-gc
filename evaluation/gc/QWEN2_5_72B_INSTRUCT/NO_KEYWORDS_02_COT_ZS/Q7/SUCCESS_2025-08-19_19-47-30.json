@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und enthält keine klaren Objekte oder Aktivitäten, die in einer Szene im Metaverse beschrieben werden können. Es ist nicht möglich, ein sinnvollen GraphCode unter diesen Umständen zu generieren.",
+  "error": "Unsinnige oder fehlende Informationen in der Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Unsinnige oder fehlende Informationen in der Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und enthält keine klaren Objekte oder Aktivitäten, die in einer Szene im Metaverse beschrieben werden können. Es ist nicht möglich, ein sinnvollen GraphCode unter diesen Umständen zu generieren.\"\n}"
+}

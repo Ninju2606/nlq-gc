@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise.\n3. Die Stichwörter übersetzt ins Englische sind \u0027Tim\u0027 und \u0027run\u0027.\n4. Es gibt keine Identifikation des Nutzers in der Anfrage, die auf den Anfragenden referenziert.\n5. \u0027Tim\u0027 ist ein Objekt (Typkodierung 1), \u0027run\u0027 ist eine Aktivität (Typkodierung 4).\n6. Tim steht in der Relation \u0027perform\u0027 zu \u0027run\u0027.\n7. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"matrix\": [\n        [1, 8],\n        [0, 4]\n    ],\n    \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise.\\n3. Die Stichwörter übersetzt ins Englische sind \u0027Tim\u0027 und \u0027run\u0027.\\n4. Es gibt keine Identifikation des Nutzers in der Anfrage, die auf den Anfragenden referenziert.\\n5. \u0027Tim\u0027 ist ein Objekt (Typkodierung 1), \u0027run\u0027 ist eine Aktivität (Typkodierung 4).\\n6. Tim steht in der Relation \u0027perform\u0027 zu \u0027run\u0027.\\n7. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.\"\n}"
+}

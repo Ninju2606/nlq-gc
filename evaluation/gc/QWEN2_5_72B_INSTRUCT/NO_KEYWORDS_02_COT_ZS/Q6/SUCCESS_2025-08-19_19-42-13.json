@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Szene oder Situation im Metaverse und enthält keine eindeutigen Objekte, Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden könnten.",
+  "error": "Fehlende Informationen für einen sinnvollen GraphCode",
+  "responsePlain": "{\n  \"error\": \"Fehlende Informationen für einen sinnvollen GraphCode\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Szene oder Situation im Metaverse und enthält keine eindeutigen Objekte, Attribute oder Aktivitäten, die in einem GraphCode dargestellt werden könnten.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine beschreibenden Elemente für eine Szene im Metaverse. Bitte gib eine spezifische Szenenbeschreibung an.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine beschreibenden Elemente für eine Szene im Metaverse. Bitte gib eine spezifische Szenenbeschreibung an.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

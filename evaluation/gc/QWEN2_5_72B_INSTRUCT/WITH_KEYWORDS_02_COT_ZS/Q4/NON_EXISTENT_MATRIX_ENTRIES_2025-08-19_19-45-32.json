@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Begriff \u0027maria\u0027 zugewiesen. Die relative Verweise \u0027ich\u0027 und \u0027meinem\u0027 wurden aufgelöst.\n2. \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 eine Aktivität (Typ 4), \u0027own\u0027 bezeichnet eine Beziehung zu einem Objekt (Typ 9), und \u0027pool\u0027 ist ebenfalls ein Objekt (Typ 1).\n3. \u0027maria\u0027 performt \u0027swim\u0027, \u0027maria\u0027 hat als Ziel das \u0027pool\u0027, \u0027own\u0027 kennzeichnet die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027.\n4. Alle Relationen zwischen den Stichwörtern haben eine passende Typkodierung in den bereitgestellten Typkodierungen.\n5. GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 9, 5],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wurde dem Begriff \u0027maria\u0027 zugewiesen. Die relative Verweise \u0027ich\u0027 und \u0027meinem\u0027 wurden aufgelöst.\\n2. \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 eine Aktivität (Typ 4), \u0027own\u0027 bezeichnet eine Beziehung zu einem Objekt (Typ 9), und \u0027pool\u0027 ist ebenfalls ein Objekt (Typ 1).\\n3. \u0027maria\u0027 performt \u0027swim\u0027, \u0027maria\u0027 hat als Ziel das \u0027pool\u0027, \u0027own\u0027 kennzeichnet die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027.\\n4. Alle Relationen zwischen den Stichwörtern haben eine passende Typkodierung in den bereitgestellten Typkodierungen.\\n5. GraphCode wurde erfolgreich generiert.\"\n}"
+}

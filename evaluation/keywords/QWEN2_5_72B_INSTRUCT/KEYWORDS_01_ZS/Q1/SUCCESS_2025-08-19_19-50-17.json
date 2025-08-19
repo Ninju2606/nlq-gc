@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Generated from the user query: \u0027Ich spiele Basketball\u0027. The user\u0027s identification \u0027Maria\u0027 is included as the query indicates a personal action.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Generated from the user query: \u0027Ich spiele Basketball\u0027. The user\u0027s identification \u0027Maria\u0027 is included as the query indicates a personal action.\"\n}"
+}

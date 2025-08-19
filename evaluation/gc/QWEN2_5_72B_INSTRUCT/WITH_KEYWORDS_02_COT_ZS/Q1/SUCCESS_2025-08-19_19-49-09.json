@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular zugeordnet. Das Stichwort \u0027play\u0027 wurde als Aktivität identifiziert. \u0027Basketball\u0027 wurde als Objekt erkannt. 2. \u0027Maria\u0027 ist ein Personennamen (Typ: object, ID: 1). \u0027Play\u0027 ist eine Aktivität (Typ: activity, ID: 4). \u0027Basketball\u0027 ist ein Objekt (Typ: object, ID: 1). 3. Die Relation zwischen \u0027Maria\u0027 und \u0027play\u0027 ist, dass \u0027Maria\u0027 die Aktivität \u0027play\u0027 ausführt (Typ: perform, ID: 8). Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist, dass \u0027play\u0027 auf \u0027basketball\u0027 bezogen ist (Typ: target, ID: 9). 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. 5. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular zugeordnet. Das Stichwort \u0027play\u0027 wurde als Aktivität identifiziert. \u0027Basketball\u0027 wurde als Objekt erkannt. 2. \u0027Maria\u0027 ist ein Personennamen (Typ: object, ID: 1). \u0027Play\u0027 ist eine Aktivität (Typ: activity, ID: 4). \u0027Basketball\u0027 ist ein Objekt (Typ: object, ID: 1). 3. Die Relation zwischen \u0027Maria\u0027 und \u0027play\u0027 ist, dass \u0027Maria\u0027 die Aktivität \u0027play\u0027 ausführt (Typ: perform, ID: 8). Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 ist, dass \u0027play\u0027 auf \u0027basketball\u0027 bezogen ist (Typ: target, ID: 9). 4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. 5. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

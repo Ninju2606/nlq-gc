@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: Tochter, ich, Boot, See. 2. Die relative Verweise wurden aufgelöst, \u0027ich\u0027 wurde auf die Nutzeridentifikation \u0027Maria\u0027 abgebildet. 3. Die Stichwörter wurden ins Englische übersetzt: daughter, Maria, boat, lake. 4. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Die Attributeigenschaften sind: \u0027daughter\u0027 (Objekt), \u0027Maria\u0027 (Objekt), \u0027boat\u0027 (Objekt), \u0027lake\u0027 (Objekt). 6. Die Stichwörter stehen in folgenden Relationen zueinander: \u0027daughter\u0027 und \u0027Maria\u0027 führen \u0027boat\u0027 auf \u0027lake\u0027. 7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen: \u0027daughter\u0027 und \u0027Maria\u0027 (2, Objekt), \u0027boat\u0027 (1, Objekt), \u0027lake\u0027 (2, Objekt), \u0027perform\u0027 (8, activity).",
+  "responsePlain": "{\n    \"dictionary\": [\"daughter\", \"Maria\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [2, 0, 8, 0],\n        [0, 2, 0, 0],\n        [0, 0, 1, 0],\n        [0, 0, 0, 2]\n    ],\n    \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: Tochter, ich, Boot, See. 2. Die relative Verweise wurden aufgelöst, \u0027ich\u0027 wurde auf die Nutzeridentifikation \u0027Maria\u0027 abgebildet. 3. Die Stichwörter wurden ins Englische übersetzt: daughter, Maria, boat, lake. 4. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Die Attributeigenschaften sind: \u0027daughter\u0027 (Objekt), \u0027Maria\u0027 (Objekt), \u0027boat\u0027 (Objekt), \u0027lake\u0027 (Objekt). 6. Die Stichwörter stehen in folgenden Relationen zueinander: \u0027daughter\u0027 und \u0027Maria\u0027 führen \u0027boat\u0027 auf \u0027lake\u0027. 7. Es gibt Einträge in den bereitgestellten Typkodierungen für alle Relationen: \u0027daughter\u0027 und \u0027Maria\u0027 (2, Objekt), \u0027boat\u0027 (1, Objekt), \u0027lake\u0027 (2, Objekt), \u0027perform\u0027 (8, activity).\"\n}"
+}

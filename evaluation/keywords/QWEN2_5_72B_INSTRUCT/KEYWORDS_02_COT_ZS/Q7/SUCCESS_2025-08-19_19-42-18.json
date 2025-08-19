@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht klar und grammatikalisch verwirrend. Es ist nicht eindeutig, was der Nutzer sucht oder was in der Szene passieren soll. Bitte geben Sie eine präzisere und klare Szenenbeschreibung an, z.B. \u0027Malen von Häusern\u0027 oder \u0027Fragen stellen, während Hausmalerei\u0027.",
+  "error": "Unklare oder grammatikalisch wirre Anfrage. Bitte präzisieren Sie Ihre Anfrage und geben Sie eine klare Szenenbeschreibung im Metaverse an.",
+  "responsePlain": "{\n  \"error\": \"Unklare oder grammatikalisch wirre Anfrage. Bitte präzisieren Sie Ihre Anfrage und geben Sie eine klare Szenenbeschreibung im Metaverse an.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht klar und grammatikalisch verwirrend. Es ist nicht eindeutig, was der Nutzer sucht oder was in der Szene passieren soll. Bitte geben Sie eine präzisere und klare Szenenbeschreibung an, z.B. \u0027Malen von Häusern\u0027 oder \u0027Fragen stellen, während Hausmalerei\u0027.\"\n}"
+}

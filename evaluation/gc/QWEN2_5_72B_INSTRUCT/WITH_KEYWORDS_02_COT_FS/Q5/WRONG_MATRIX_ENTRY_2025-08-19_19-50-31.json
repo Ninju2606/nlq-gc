@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Das Wort \"ich\" wurde zu \"maria\" zugeordnet. Es gibt keine weiteren relativen Verweise.\n2. \"maria\" und \"hat\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität. \"yellow\" ist ein Kontext.\n3. \"maria\" führt die Aktivität \"wear\" aus. \"wear\" bezieht sich auf \"hat\". \"yellow\" ist eine Charakteristik von \"hat\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14. Die ID für Kontext (context) ist 3.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 4, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 3]\n  ],\n  \"description\": \"1. Das Wort \\\"ich\\\" wurde zu \\\"maria\\\" zugeordnet. Es gibt keine weiteren relativen Verweise.\\n2. \\\"maria\\\" und \\\"hat\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität. \\\"yellow\\\" ist ein Kontext.\\n3. \\\"maria\\\" führt die Aktivität \\\"wear\\\" aus. \\\"wear\\\" bezieht sich auf \\\"hat\\\". \\\"yellow\\\" ist eine Charakteristik von \\\"hat\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14. Die ID für Kontext (context) ist 3.\"\n}"
+}

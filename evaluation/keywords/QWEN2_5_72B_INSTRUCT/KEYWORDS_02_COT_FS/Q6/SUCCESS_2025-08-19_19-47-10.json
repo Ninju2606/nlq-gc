@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage kein klar definierte Szene oder Situation beschreibt, die im Metaverse erfolgen könnte.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Die Anfrage beinhaltet keine Szenenbeschreibung im Metaverse.",
+  "responsePlain": "{\n    \"error\": \"Ich kann die Anfrage leider nicht verstehen. Die Anfrage beinhaltet keine Szenenbeschreibung im Metaverse.\",\n    \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage kein klar definierte Szene oder Situation beschreibt, die im Metaverse erfolgen könnte.\"\n}"
+}

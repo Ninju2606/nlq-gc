@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Situation oder Szene im Metaverse, sondern auf eine abstractive Aktion oder Verpflichtung. Dafür ist kein GraphCode mit den vorgegebenen Regeln generierbar.",
+  "error": "Die Anfrage enthält keine direkte Szenenbeschreibung im Metaverse, sondern scheint eher eine allgemeine Aussage zu sein. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine direkte Szenenbeschreibung im Metaverse, sondern scheint eher eine allgemeine Aussage zu sein. Daher kann kein sinnvoller GraphCode generiert werden.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich nicht auf eine spezifische Situation oder Szene im Metaverse, sondern auf eine abstractive Aktion oder Verpflichtung. Dafür ist kein GraphCode mit den vorgegebenen Regeln generierbar.\"\n}"
+}

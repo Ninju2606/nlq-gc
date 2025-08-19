@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Maria hat sich selbst identifiziert. Maria schwimmt im Pool, der ihr gehört. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 (Person, Typ 1 - object), \u0027swim\u0027 (Aktivität, Typ 4 - activity), \u0027own\u0027 (Relation, Typ 4 - activity), \u0027pool\u0027 (Objekt, Typ 1 - object). 3. Maria ist das Subjekt der Aktivität \u0027schwimmen\u0027. Die Aktivität \u0027schwimmen\u0027 ist mit \u0027Pool\u0027 verbunden. Der Pool gehört Maria. 4. Alle Relationen haben eine passende Typkodierung in den bereitgestellten Typkodierungen: \u0027maria\u0027 (1, object), \u0027swim\u0027 (4, activity), \u0027own\u0027 (9, target), \u0027pool\u0027 (1, object). 5. Der GraphCode wurde erfolgreich zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 9, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [5, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat sich selbst identifiziert. Maria schwimmt im Pool, der ihr gehört. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 (Person, Typ 1 - object), \u0027swim\u0027 (Aktivität, Typ 4 - activity), \u0027own\u0027 (Relation, Typ 4 - activity), \u0027pool\u0027 (Objekt, Typ 1 - object). 3. Maria ist das Subjekt der Aktivität \u0027schwimmen\u0027. Die Aktivität \u0027schwimmen\u0027 ist mit \u0027Pool\u0027 verbunden. Der Pool gehört Maria. 4. Alle Relationen haben eine passende Typkodierung in den bereitgestellten Typkodierungen: \u0027maria\u0027 (1, object), \u0027swim\u0027 (4, activity), \u0027own\u0027 (9, target), \u0027pool\u0027 (1, object). 5. Der GraphCode wurde erfolgreich zusammengesetzt.\"\n}"
+}

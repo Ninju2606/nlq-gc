@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim rennt",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"matrix\": [[1, 7], [0, 9]],\n    \"description\": \"Tim rennt\"\n}"
+}

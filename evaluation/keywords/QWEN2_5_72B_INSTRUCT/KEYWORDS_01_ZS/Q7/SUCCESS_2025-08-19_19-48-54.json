@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter für die Anfrage \u0027Häuser um Fragen zu malen\u0027 im Kontext der Szenebeschreibung für einen GraphCode.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"description\": \"Stichwörter für die Anfrage \u0027Häuser um Fragen zu malen\u0027 im Kontext der Szenebeschreibung für einen GraphCode.\"\n}"
+}

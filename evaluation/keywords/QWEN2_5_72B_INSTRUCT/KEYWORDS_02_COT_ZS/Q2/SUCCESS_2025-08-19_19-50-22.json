@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Keine Wörter wie \u0027ich\u0027, \u0027mein\u0027, oder \u0027mir\u0027 in der Anfrage enthalten, daher nicht relevant. Stichwörter wurden verallgemeinert und ins Englische übersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Keine Wörter wie \u0027ich\u0027, \u0027mein\u0027, oder \u0027mir\u0027 in der Anfrage enthalten, daher nicht relevant. Stichwörter wurden verallgemeinert und ins Englische übersetzt.\"\n}"
+}

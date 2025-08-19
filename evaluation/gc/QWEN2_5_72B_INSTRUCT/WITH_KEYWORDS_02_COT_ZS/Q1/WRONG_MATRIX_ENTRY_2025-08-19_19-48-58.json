@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer Maria gibt an, dass sie Basketball spielt. Die Identifikation des Nutzers ist als \u0027maria\u0027 im Vokabular übernommen.\n2. \u0027maria\u0027 ist eine Person (Typ: object), \u0027play\u0027 ist eine Aktivität (Typ: activity), und \u0027basketball\u0027 ist ein Objekt (Typ: object).\n3. \u0027maria\u0027 steht in der Relation \u0027perform\u0027 zu \u0027play\u0027, und \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (\u0027target\u0027).\n4. Alle notwendigen Relationen haben einen Eintrag in den bereitgestellten Typkodierungen: \u0027maria\u0027 (object - ID 1), \u0027play\u0027 (activity - ID 4), \u0027basketball\u0027 (object - ID 1), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria gibt an, dass sie Basketball spielt. Die Identifikation des Nutzers ist als \u0027maria\u0027 im Vokabular übernommen.\\n2. \u0027maria\u0027 ist eine Person (Typ: object), \u0027play\u0027 ist eine Aktivität (Typ: activity), und \u0027basketball\u0027 ist ein Objekt (Typ: object).\\n3. \u0027maria\u0027 steht in der Relation \u0027perform\u0027 zu \u0027play\u0027, und \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (\u0027target\u0027).\\n4. Alle notwendigen Relationen haben einen Eintrag in den bereitgestellten Typkodierungen: \u0027maria\u0027 (object - ID 1), \u0027play\u0027 (activity - ID 4), \u0027basketball\u0027 (object - ID 1), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9).\"\n}"
+}

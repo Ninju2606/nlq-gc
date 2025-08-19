@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir+m%C3%BCssen+bald+einen+Termin+ausmachen. Die Anfrage bezieht sich auf eine Zukunftsaussage und keine spezifische Szenenbeschreibung.",
+  "error": "Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene dargestellt werden können.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene dargestellt werden können.\",\n    \"description\": \"Wir+m%C3%BCssen+bald+einen+Termin+ausmachen. Die Anfrage bezieht sich auf eine Zukunftsaussage und keine spezifische Szenenbeschreibung.\"\n}"
+}

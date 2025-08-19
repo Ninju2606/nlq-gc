@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Es gibt keine relativen Verweise. \u0027Ich\u0027 wurde zu \u0027maria\u0027.\n2. \u0027maria\u0027 und \u0027basketball\u0027 sind Objekte der Anfrage. \u0027play\u0027 ist eine Aktivität.\n3. \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus. \u0027play\u0027 bezieht sich auf \u0027basketball\u0027.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 7, 0],\n    [0, 4, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. \u0027Ich\u0027 wurde zu \u0027maria\u0027.\\n2. \u0027maria\u0027 und \u0027basketball\u0027 sind Objekte der Anfrage. \u0027play\u0027 ist eine Aktivität.\\n3. \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus. \u0027play\u0027 bezieht sich auf \u0027basketball\u0027.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.\"\n}"
+}

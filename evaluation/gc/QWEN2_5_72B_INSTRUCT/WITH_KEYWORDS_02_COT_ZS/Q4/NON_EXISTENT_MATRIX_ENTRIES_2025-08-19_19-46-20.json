@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer wird als \u0027Maria\u0027 identifiziert. \u0027ich\u0027 wird im Vokabular durch \u0027maria\u0027 ersetzt. 2. \u0027maria\u0027 ist ein Objekt, \u0027swim\u0027 ist eine Aktivität, \u0027own\u0027 ist ein attributives Verb, und \u0027pool\u0027 ist ein Objekt. 3. Maria hat mit dem Schwimmen eine Relation (Aktivität) und dem Pool (Ziel). 4. Alle Relationen haben passende Typkodierungen: \u0027maria\u0027 (id: 1), \u0027swim\u0027 (id: 4), \u0027own\u0027 (id: 9 - target), \u0027pool\u0027 (id: 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 4, 0, 9],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer wird als \u0027Maria\u0027 identifiziert. \u0027ich\u0027 wird im Vokabular durch \u0027maria\u0027 ersetzt. 2. \u0027maria\u0027 ist ein Objekt, \u0027swim\u0027 ist eine Aktivität, \u0027own\u0027 ist ein attributives Verb, und \u0027pool\u0027 ist ein Objekt. 3. Maria hat mit dem Schwimmen eine Relation (Aktivität) und dem Pool (Ziel). 4. Alle Relationen haben passende Typkodierungen: \u0027maria\u0027 (id: 1), \u0027swim\u0027 (id: 4), \u0027own\u0027 (id: 9 - target), \u0027pool\u0027 (id: 1).\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": \"Keine passende Relation für \u0027und\u0027 in der Typkodierung gefunden.\",\n  \"description\": \"Die Anfrage enthält das Wort \u0027und\u0027, für das es keine passende Relation in den vorgegebenen Typkodierungen gibt.\"\n}\n\n\nIn dieser spezifischen Anfrage ist das Wort \"und\" ein Konjunktionaladverb, das eine Relation zwischen \"Meine Tochter\" und \"ich\" herstellt. Da es in den vorgegebenen Typkodierungen keine entsprechende Relation gibt, kann der GraphCode nicht vollständig generiert werden."
+}

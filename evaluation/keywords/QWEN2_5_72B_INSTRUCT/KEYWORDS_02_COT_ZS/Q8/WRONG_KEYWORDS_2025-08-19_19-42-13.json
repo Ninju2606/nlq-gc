@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "maria",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The potential keywords have been identified and translated into English. \u0027ich\u0027 has been replaced with \u0027maria\u0027 as specified.",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"maria\", \"drive\", \"boat\", \"lake\"],\n  \"description\": \"The potential keywords have been identified and translated into English. \u0027ich\u0027 has been replaced with \u0027maria\u0027 as specified.\"\n}"
+}

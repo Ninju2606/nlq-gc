@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027. 2. Es gibt keine relativen Verweise in der Anfrage. 3. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, und \u0027rennt\u0027 wird zu \u0027run\u0027. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, die ersetzt werden müsste. 5. \u0027Tim\u0027 ist ein Objekt (Typ 1), und \u0027run\u0027 ist eine Aktivität (Typ 4). 6. \u0027Tim\u0027 (i\u003d0) performt \u0027run\u0027 (j\u003d1), was durch die Type-ID 8 (perform) dargestellt wird. 7. Es gibt passende Typkodierungen für alle Relationen: \u0027Tim\u0027 (Typ 1) und \u0027run\u0027 (Typ 4) sind korrekt zugeordnet, und die Relation \u0027perform\u0027 (Typ 8) ist gültig.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"matrix\": [\n        [1, 8],\n        [8, 4]\n    ],\n    \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027. 2. Es gibt keine relativen Verweise in der Anfrage. 3. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, und \u0027rennt\u0027 wird zu \u0027run\u0027. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, die ersetzt werden müsste. 5. \u0027Tim\u0027 ist ein Objekt (Typ 1), und \u0027run\u0027 ist eine Aktivität (Typ 4). 6. \u0027Tim\u0027 (i\u003d0) performt \u0027run\u0027 (j\u003d1), was durch die Type-ID 8 (perform) dargestellt wird. 7. Es gibt passende Typkodierungen für alle Relationen: \u0027Tim\u0027 (Typ 1) und \u0027run\u0027 (Typ 4) sind korrekt zugeordnet, und die Relation \u0027perform\u0027 (Typ 8) ist gültig.\"\n}"
+}

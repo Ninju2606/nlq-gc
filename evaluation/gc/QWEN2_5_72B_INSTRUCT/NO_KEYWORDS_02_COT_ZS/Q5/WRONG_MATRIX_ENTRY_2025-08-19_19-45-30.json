@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      10
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      9
+    ],
+    [
+      14,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Ermittelte Stichwörter: ich, gelb, Hut, tragen. 2. \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 ist ein Begriff vom Typ \u0027object\u0027 (Person), \u0027yellow\u0027 ist ein Begriff vom Typ \u0027context\u0027 (Farbe), \u0027hat\u0027 ist ein Begriff vom Typ \u0027object\u0027 (Gegenstand), \u0027wear\u0027 ist ein Begriff vom Typ \u0027activity\u0027 (Handlung). 6. Maria wear hat (Maria trägt einen Hut), yellow is a characteristic of hat (der Hut ist gelb). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 10],\n    [0, 2, 0, 0],\n    [0, 0, 1, 9],\n    [14, 0, 0, 4]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: ich, gelb, Hut, tragen. 2. \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 ist ein Begriff vom Typ \u0027object\u0027 (Person), \u0027yellow\u0027 ist ein Begriff vom Typ \u0027context\u0027 (Farbe), \u0027hat\u0027 ist ein Begriff vom Typ \u0027object\u0027 (Gegenstand), \u0027wear\u0027 ist ein Begriff vom Typ \u0027activity\u0027 (Handlung). 6. Maria wear hat (Maria trägt einen Hut), yellow is a characteristic of hat (der Hut ist gelb). 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen.\"\n}"
+}

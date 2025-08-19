@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (Person) schwimmt (Aktivität) in ihrem Pool (Objekt). Die Relation \u0027perform\u0027 (8) stellt die Aktivität \u0027schwimmen\u0027 von Maria dar, und die Relation \u0027target\u0027 (5) zeigt an, dass Maria ihr eigenes Objekt (Pool) als Ziel ihrer Aktivität hat. Die Relation \u0027context\u0027 (2) zeigt an, dass \u0027own\u0027 den Kontext der Besitzrelation darstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (Person) schwimmt (Aktivität) in ihrem Pool (Objekt). Die Relation \u0027perform\u0027 (8) stellt die Aktivität \u0027schwimmen\u0027 von Maria dar, und die Relation \u0027target\u0027 (5) zeigt an, dass Maria ihr eigenes Objekt (Pool) als Ziel ihrer Aktivität hat. Die Relation \u0027context\u0027 (2) zeigt an, dass \u0027own\u0027 den Kontext der Besitzrelation darstellt.\"\n}"
+}

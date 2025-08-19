@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 7], [0, 9]],\n  \"description\": \"Tim performs the activity of running.\"\n}\n\n\nExplanation:\n- The user\u0027s query is \"Tim rennt\" (translated to \"Tim runs\").\n- The vocabulary provided is `[\"tim\", \"run\"]`.\n- Since the user specifies that Tim is performing an action, we include the user\u0027s identification \"Maria\" in the vocabulary.\n- The matrix is filled with the appropriate type codes:\n  - The diagonal entries (1,1) and (2,2) are filled with the type codes for \"object\" and \"activity\" respectively.\n  - The entry (1,2) is filled with the type code for \"perform\" to indicate that Tim is performing the activity of running."
+}

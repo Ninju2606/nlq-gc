@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht eindeutig und enthält keine klaren Stichwörter oder Beziehungen, die für die Generierung eines GraphCodes verwendet werden können. Bitte präzisieren Sie Ihre Anfrage und beschreiben Sie die gewünschte Szene im Metaverse detaillierter.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist nicht eindeutig und enthält keine klaren Stichwörter oder Beziehungen, die für die Generierung eines GraphCodes verwendet werden können. Bitte präzisieren Sie Ihre Anfrage und beschreiben Sie die gewünschte Szene im Metaverse detaillierter.\"\n}"
+}

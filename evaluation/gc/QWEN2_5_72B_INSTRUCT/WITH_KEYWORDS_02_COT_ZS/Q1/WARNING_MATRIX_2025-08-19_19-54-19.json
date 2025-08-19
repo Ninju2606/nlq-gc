@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Der Nutzer Maria wird als \u0027maria\u0027 im Vokabular dargestellt, da sie die Anfrage \u0027Ich spiele Basketball\u0027 gestellt hat und somit ihre Person betreffen. 2. \u0027maria\u0027 ist eine Person (Typ: object, ID: 1), \u0027play\u0027 ist eine Aktivität (Typ: activity, ID: 4), und \u0027basketball\u0027 ist ein Objekt (Typ: object, ID: 1). 3. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist, dass \u0027maria\u0027 die Aktivität \u0027play\u0027 ausführt. Die Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027 ist, dass \u0027basketball\u0027 das Ziel der Aktivität \u0027play\u0027 ist. 4. Es gibt passende Typkodierungen für alle Relationen: \u0027maria\u0027 (ID: 1), \u0027play\u0027 (ID: 4), \u0027basketball\u0027 (ID: 1), \u0027perform\u0027 (ID: 8) und \u0027target\u0027 (ID: 9).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"matrix\": [\n        [1, 0, 0],\n        [0, 4, 9],\n        [0, 0, 1]\n    ],\n    \"description\": \"1. Der Nutzer Maria wird als \u0027maria\u0027 im Vokabular dargestellt, da sie die Anfrage \u0027Ich spiele Basketball\u0027 gestellt hat und somit ihre Person betreffen. 2. \u0027maria\u0027 ist eine Person (Typ: object, ID: 1), \u0027play\u0027 ist eine Aktivität (Typ: activity, ID: 4), und \u0027basketball\u0027 ist ein Objekt (Typ: object, ID: 1). 3. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist, dass \u0027maria\u0027 die Aktivität \u0027play\u0027 ausführt. Die Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027 ist, dass \u0027basketball\u0027 das Ziel der Aktivität \u0027play\u0027 ist. 4. Es gibt passende Typkodierungen für alle Relationen: \u0027maria\u0027 (ID: 1), \u0027play\u0027 (ID: 4), \u0027basketball\u0027 (ID: 1), \u0027perform\u0027 (ID: 8) und \u0027target\u0027 (ID: 9).\"\n}"
+}

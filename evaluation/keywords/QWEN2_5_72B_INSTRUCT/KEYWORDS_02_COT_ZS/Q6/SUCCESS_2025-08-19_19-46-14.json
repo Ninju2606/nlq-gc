@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine Planungsaktion und enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die für einen GraphCode relevant sind.",
+  "error": "Die Anfrage enthält keine Begriffe, die einer Metaverse-Szene zugeordnet werden können.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine Begriffe, die einer Metaverse-Szene zugeordnet werden können.\",\n    \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich auf eine Planungsaktion und enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die für einen GraphCode relevant sind.\"\n}"
+}

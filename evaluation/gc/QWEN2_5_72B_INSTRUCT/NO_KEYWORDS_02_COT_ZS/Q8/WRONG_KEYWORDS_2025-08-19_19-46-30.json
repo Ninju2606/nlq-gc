@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "daughter",
+    "maria",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Es gibt relative Verweise, die auf den Nutzer referenzieren: \u0027ich\u0027 und \u0027mein\u0027. Diese werden durch die Identifikation des Nutzers ersetzt.\n3. Die Stichwörter ins Englische übersetzt: \u0027daughter\u0027, \u0027me\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Die Identifikation des Nutzers \u0027me\u0027 wird durch \u0027maria\u0027 ersetzt.\n5. Die Attributeigenschaften sind: \u0027daughter\u0027 (object), \u0027maria\u0027 (object), \u0027ride\u0027 (activity), \u0027boat\u0027 (object), \u0027lake\u0027 (context).\n6. Die Relationen sind: \u0027maria\u0027 und \u0027daughter\u0027 sind Objekte, \u0027ride\u0027 ist eine Aktivität, \u0027boat\u0027 ist das Ziel der Aktivität, und \u0027lake\u0027 ist der Kontext.\n7. Es gibt passende Typkodierungen für alle Relationen: \u0027daughter\u0027 (1), \u0027maria\u0027 (1), \u0027ride\u0027 (4), \u0027boat\u0027 (9), \u0027lake\u0027 (2).",
+  "responsePlain": "{\n  \"dictionary\": [\"daughter\", \"maria\", \"ride\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Es gibt relative Verweise, die auf den Nutzer referenzieren: \u0027ich\u0027 und \u0027mein\u0027. Diese werden durch die Identifikation des Nutzers ersetzt.\\n3. Die Stichwörter ins Englische übersetzt: \u0027daughter\u0027, \u0027me\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Die Identifikation des Nutzers \u0027me\u0027 wird durch \u0027maria\u0027 ersetzt.\\n5. Die Attributeigenschaften sind: \u0027daughter\u0027 (object), \u0027maria\u0027 (object), \u0027ride\u0027 (activity), \u0027boat\u0027 (object), \u0027lake\u0027 (context).\\n6. Die Relationen sind: \u0027maria\u0027 und \u0027daughter\u0027 sind Objekte, \u0027ride\u0027 ist eine Aktivität, \u0027boat\u0027 ist das Ziel der Aktivität, und \u0027lake\u0027 ist der Kontext.\\n7. Es gibt passende Typkodierungen für alle Relationen: \u0027daughter\u0027 (1), \u0027maria\u0027 (1), \u0027ride\u0027 (4), \u0027boat\u0027 (9), \u0027lake\u0027 (2).\"\n}"
+}

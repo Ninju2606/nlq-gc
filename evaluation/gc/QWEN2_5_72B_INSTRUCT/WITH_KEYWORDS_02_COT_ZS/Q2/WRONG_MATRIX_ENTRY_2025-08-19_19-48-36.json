@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Anfrage \u0027Tim rennt\u0027 enthält keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation des Nutzers ignoriert. 2. \u0027tim\u0027 ist ein Objekt (ID 1) und \u0027run\u0027 ist eine Aktivität (ID 4). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in der Relation, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt (perform, ID 8). 4. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [8, 4]\n  ],\n  \"description\": \"1. Die Anfrage \u0027Tim rennt\u0027 enthält keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation des Nutzers ignoriert. 2. \u0027tim\u0027 ist ein Objekt (ID 1) und \u0027run\u0027 ist eine Aktivität (ID 4). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in der Relation, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt (perform, ID 8). 4. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.\"\n}"
+}

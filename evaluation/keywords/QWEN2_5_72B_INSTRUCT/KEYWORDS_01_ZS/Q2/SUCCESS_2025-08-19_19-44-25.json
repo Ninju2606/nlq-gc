@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s query \u0027Tim rennt\u0027 contains the subject \u0027Tim\u0027 and the action \u0027run\u0027. No self-identifying words were present, so the user\u0027s identification \u0027Maria\u0027 is ignored.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The user\u0027s query \u0027Tim rennt\u0027 contains the subject \u0027Tim\u0027 and the action \u0027run\u0027. No self-identifying words were present, so the user\u0027s identification \u0027Maria\u0027 is ignored.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine Zukunftshandlung und enthält keine Beschreibung einer gegenwärtigen Metaverse-Situation. Daher kann kein GraphCode generiert werden.",
+  "error": "Die Anfrage enthält keine Informationen, die eine Szene im Metaverse beschreiben oder Suchbegriffe liefern, die in einem Medienobjekt gesucht werden können.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Informationen, die eine Szene im Metaverse beschreiben oder Suchbegriffe liefern, die in einem Medienobjekt gesucht werden können.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 bezieht sich auf eine Zukunftshandlung und enthält keine Beschreibung einer gegenwärtigen Metaverse-Situation. Daher kann kein GraphCode generiert werden.\"\n}"
+}

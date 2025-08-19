@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "run",
+    "tim"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim runs",
+  "responsePlain": "{\n  \"dictionary\": [\"run\", \"tim\"],\n  \"description\": \"Tim runs\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer identifiziert sich in der Anfrage mit dem Wort \"ich\". Im Vokabular wird der Name des Nutzers \u0027Maria\u0027 verwendet.\n2. Die Attributeigenschaften: \u0027maria\u0027 ist ein context (2), \u0027wear\u0027 ist eine activity (4), \u0027hat\u0027 ist ein object (1), \u0027yellow\u0027 ist ein characteristic (14).\n3. Die Relationen: Maria ist die Person, die etwas tut (\u0027context\u0027), die Aktivität ist das Tragen (\u0027wear\u0027) eines Objekts (\u0027hat\u0027), und das Objekt hat das Attribut Gelb (\u0027yellow\u0027).\n4. Es gibt für alle Relationen passende Einträge in den bereitgestellten Typkodierungen: \u0027maria\u0027 als context (ID 2), \u0027wear\u0027 als activity (ID 4), \u0027hat\u0027 als object (ID 1), \u0027yellow\u0027 als characteristic (ID 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [2, 0, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der Nutzer identifiziert sich in der Anfrage mit dem Wort \\\"ich\\\". Im Vokabular wird der Name des Nutzers \u0027Maria\u0027 verwendet.\\n2. Die Attributeigenschaften: \u0027maria\u0027 ist ein context (2), \u0027wear\u0027 ist eine activity (4), \u0027hat\u0027 ist ein object (1), \u0027yellow\u0027 ist ein characteristic (14).\\n3. Die Relationen: Maria ist die Person, die etwas tut (\u0027context\u0027), die Aktivität ist das Tragen (\u0027wear\u0027) eines Objekts (\u0027hat\u0027), und das Objekt hat das Attribut Gelb (\u0027yellow\u0027).\\n4. Es gibt für alle Relationen passende Einträge in den bereitgestellten Typkodierungen: \u0027maria\u0027 als context (ID 2), \u0027wear\u0027 als activity (ID 4), \u0027hat\u0027 als object (ID 1), \u0027yellow\u0027 als characteristic (ID 14).\"\n}"
+}

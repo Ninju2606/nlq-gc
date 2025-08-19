@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter successfully extracted: play, basketball. User reference replaced with \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"play\", \"basketball\"],\n  \"description\": \"Stichwörter successfully extracted: play, basketball. User reference replaced with \u0027Maria\u0027.\"\n}"
+}

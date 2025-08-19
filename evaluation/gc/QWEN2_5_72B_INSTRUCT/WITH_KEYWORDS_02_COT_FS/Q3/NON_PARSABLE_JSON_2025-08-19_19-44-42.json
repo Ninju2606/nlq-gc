@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 7, 0, 5],\n        [0, 4, 0, 8],\n        [0, 0, 1, 0],\n        [0, 8, 0, 1]\n    ],\n    \"description\": \"1. Es gibt keine relativen Verweise. \\\\\"Ich\\\\\" wurde zu \\\\\"maria\\\\\".\\n2. \\\\\"maria\\\\\" und \\\\\"pool\\\\\" sind Objekte der Anfrage. \\\\\"swim\\\\\" ist eine Aktivität. \\\\\"own\\\\\" ist eine Charakteristik.\\n3. \\\\\"maria\\\\\" führt die Aktivität \\\\\"swim\\\\\" aus. \\\\\"swim\\\\\" bezieht sich auf \\\\\"pool\\\\\". \\\\\"maria\\\\\" hat die Charakteristik \\\\\"own\\\\\" in Bezug auf \\\\\"pool\\\\\". \\\\\"own\\\\\" bezieht sich auf \\\\\"pool\\\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Besitzen (attached) ist 5. Die ID für Beziehen (target) ist 8. Die ID für Charakteristik (characteristic) ist 14.\"\n}"
+}

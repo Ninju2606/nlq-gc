@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Die Anfrage \u0027Tim rennt\u0027 beinhaltet keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Die Identifikation des Nutzers (Maria) kann therefore ignoriert werden. 2. \u0027tim\u0027 ist ein Objekt (Typ: object, ID: 1). \u0027run\u0027 ist eine Aktivität (Typ: activity, ID: 4). 3. \u0027tim\u0027 steht in einer Beziehung zur Aktivität \u0027run\u0027, da er die Aktivität ausführt (Typ: perform, ID: 8). 4. Es gibt passende Typkodierungen für alle Relationen: tim (object, ID: 1), run (activity, ID: 4), und die Beziehung zwischen ihnen (perform, ID: 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Die Anfrage \u0027Tim rennt\u0027 beinhaltet keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Die Identifikation des Nutzers (Maria) kann therefore ignoriert werden. 2. \u0027tim\u0027 ist ein Objekt (Typ: object, ID: 1). \u0027run\u0027 ist eine Aktivität (Typ: activity, ID: 4). 3. \u0027tim\u0027 steht in einer Beziehung zur Aktivität \u0027run\u0027, da er die Aktivität ausführt (Typ: perform, ID: 8). 4. Es gibt passende Typkodierungen für alle Relationen: tim (object, ID: 1), run (activity, ID: 4), und die Beziehung zwischen ihnen (perform, ID: 8).\"\n}"
+}

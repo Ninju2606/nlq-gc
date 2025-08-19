@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.64,
+  "description": "1. \u0027Maria\u0027 und \u0027ich\u0027 wurden als \u0027maria\u0027 im Vokabular zugeordnet. \u0027Meine Tochter\u0027 wurde als \u0027person\u0027 interpretiert.\n2. \u0027maria\u0027 ist eine Person (Typ: object). \u0027person\u0027 ist eine Person (Typ: object). \u0027drive\u0027 ist eine Aktivität (Typ: activity). \u0027boat\u0027 ist ein Objekt (Typ: object). \u0027lake\u0027 ist ein Objekt (Typ: context).\n3. \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus. \u0027drive\u0027 bezieht sich auf das Ziel \u0027boat\u0027. \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027.\n4. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden. \u0027maria\u0027 hat ID 1, \u0027person\u0027 hat ID 2, \u0027drive\u0027 hat ID 4, \u0027boat\u0027 hat ID 2, \u0027lake\u0027 hat ID 2. Die Relationen sind durch die IDs 8 (perform), 9 (target) und 2 (under) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 8, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 9, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. \u0027Maria\u0027 und \u0027ich\u0027 wurden als \u0027maria\u0027 im Vokabular zugeordnet. \u0027Meine Tochter\u0027 wurde als \u0027person\u0027 interpretiert.\\n2. \u0027maria\u0027 ist eine Person (Typ: object). \u0027person\u0027 ist eine Person (Typ: object). \u0027drive\u0027 ist eine Aktivität (Typ: activity). \u0027boat\u0027 ist ein Objekt (Typ: object). \u0027lake\u0027 ist ein Objekt (Typ: context).\\n3. \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus. \u0027drive\u0027 bezieht sich auf das Ziel \u0027boat\u0027. \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027.\\n4. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden. \u0027maria\u0027 hat ID 1, \u0027person\u0027 hat ID 2, \u0027drive\u0027 hat ID 4, \u0027boat\u0027 hat ID 2, \u0027lake\u0027 hat ID 2. Die Relationen sind durch die IDs 8 (perform), 9 (target) und 2 (under) dargestellt.\"\n}"
+}

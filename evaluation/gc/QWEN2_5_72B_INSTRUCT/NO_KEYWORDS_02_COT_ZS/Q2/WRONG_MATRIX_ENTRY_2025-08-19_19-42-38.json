@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027. 2. Es gibt keine relativen Verweise, die aufgelöst werden müssen. 3. Die übersetzten Stichwörter ins Englische sind \u0027Tim\u0027 und \u0027run\u0027. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, daher wird Maria ignoriert. 5. \u0027Tim\u0027 ist ein Objekt (Typ: object) und \u0027run\u0027 ist eine Aktivität (Typ: activity). 6. Tim steht in Relation zu run, da Tim das Subjekt der Aktion ist. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für beide Begriffe und ihre Beziehung.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind \u0027Tim\u0027 und \u0027rennt\u0027. 2. Es gibt keine relativen Verweise, die aufgelöst werden müssen. 3. Die übersetzten Stichwörter ins Englische sind \u0027Tim\u0027 und \u0027run\u0027. 4. Es gibt keine Identifikation des Nutzers in der Anfrage, daher wird Maria ignoriert. 5. \u0027Tim\u0027 ist ein Objekt (Typ: object) und \u0027run\u0027 ist eine Aktivität (Typ: activity). 6. Tim steht in Relation zu run, da Tim das Subjekt der Aktion ist. 7. Es gibt passende Einträge in den bereitgestellten Typkodierungen für beide Begriffe und ihre Beziehung.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält eine grammatikalisch unklare Konstruktion, die es unmöglich macht, einen sinnvollen GraphCode zu generieren.",
+  "error": "Unklare Anfrage. Die Relation \u0027um Fragen zu malen\u0027 ist nicht eindeutig und es gibt keine passende Typkodierung für die Beziehung zwischen den Begriffen.",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage. Die Relation \u0027um Fragen zu malen\u0027 ist nicht eindeutig und es gibt keine passende Typkodierung für die Beziehung zwischen den Begriffen.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält eine grammatikalisch unklare Konstruktion, die es unmöglich macht, einen sinnvollen GraphCode zu generieren.\"\n}"
+}

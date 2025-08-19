@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: Tochter, ich, fahren, Boot, See.\n2. Relative Verweise wurden aufgelöst: \"ich\" wurde zu \"Maria\".\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: daughter, Maria, drive, boat, lake.\n4. Identifikation des Nutzers wurde korrekt ersetzt: Maria wird anstelle von \u0027ich\u0027 verwendet.\n5. Attributeigenschaften:\n   - Maria: object\n   - daughter: synonym (Tochter)\n   - drive: activity\n   - boat: object\n   - lake: context\n6. Relationen zwischen den Stichwörtern:\n   - Maria (object) und daughter (synonym): relation daughter (10)\n   - Maria/daughter (object/synonym) und drive (activity): relation perform (8)\n   - drive (activity) und boat (object): relation target (9)\n   - drive (activity) und lake (context): keine direkte Relation\n7. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [10, 1, 0, 0, 0],\n    [8, 0, 4, 9, 0],\n    [0, 0, 9, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: Tochter, ich, fahren, Boot, See.\\n2. Relative Verweise wurden aufgelöst: \\\"ich\\\" wurde zu \\\"Maria\\\".\\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: daughter, Maria, drive, boat, lake.\\n4. Identifikation des Nutzers wurde korrekt ersetzt: Maria wird anstelle von \u0027ich\u0027 verwendet.\\n5. Attributeigenschaften:\\n   - Maria: object\\n   - daughter: synonym (Tochter)\\n   - drive: activity\\n   - boat: object\\n   - lake: context\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria (object) und daughter (synonym): relation daughter (10)\\n   - Maria/daughter (object/synonym) und drive (activity): relation perform (8)\\n   - drive (activity) und boat (object): relation target (9)\\n   - drive (activity) und lake (context): keine direkte Relation\\n7. Alle Relationen haben passende Einträge in den bereitgestellten Typkodierungen.\"\n}"
+}

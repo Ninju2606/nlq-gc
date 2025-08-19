@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter: Tim, rennt\n2. Keine relativen Verweise aufgelöst.\n3. Übersetzung ins Englische: Tim -\u003e Tim, rennt -\u003e run\n4. Keine Wörter, die auf den Anfragende referenzieren, daher keine Ersetzung.\n5. Attributeigenschaften: Tim - Objekt (Person), run - Aktivität\n6. Relationen: Tim führt die Aktivität \u0027run\u0027 aus.\n7. Es gibt passende Einträge in den Typkodierungen: Tim (1 - object), run (4 - activity), und die Beziehung zwischen Tim und run (8 - perform).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Tim, rennt\\n2. Keine relativen Verweise aufgelöst.\\n3. Übersetzung ins Englische: Tim -\u003e Tim, rennt -\u003e run\\n4. Keine Wörter, die auf den Anfragende referenzieren, daher keine Ersetzung.\\n5. Attributeigenschaften: Tim - Objekt (Person), run - Aktivität\\n6. Relationen: Tim führt die Aktivität \u0027run\u0027 aus.\\n7. Es gibt passende Einträge in den Typkodierungen: Tim (1 - object), run (4 - activity), und die Beziehung zwischen Tim und run (8 - perform).\"\n}"
+}

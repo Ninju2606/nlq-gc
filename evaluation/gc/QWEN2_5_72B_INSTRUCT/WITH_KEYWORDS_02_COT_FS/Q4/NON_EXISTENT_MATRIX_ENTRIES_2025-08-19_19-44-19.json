@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      4,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt selbst identifizierende Wörter wie „ich“ und „mein“. „Ich“ wurde zu „Maria“ und „mein“ zu „Maria“. Maria schwimmt in ihrem Pool.\n2. „Maria“ und „pool“ sind Objekte der Anfrage. „Swim“ ist eine Aktivität, und „own“ ist ein Kontext.\n3. „Maria“ führt die Aktivität „swim“ aus. Die Aktivität „swim“ bezieht sich auf den Pool. „Pool“ ist von Maria besessen.\n4. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für Aktivität (activity) ist 4.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [4, 4, 0, 8],\n        [0, 0, 1, 9],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"1. Es gibt selbst identifizierende Wörter wie „ich“ und „mein“. „Ich“ wurde zu „Maria“ und „mein“ zu „Maria“. Maria schwimmt in ihrem Pool.\\n2. „Maria“ und „pool“ sind Objekte der Anfrage. „Swim“ ist eine Aktivität, und „own“ ist ein Kontext.\\n3. „Maria“ führt die Aktivität „swim“ aus. Die Aktivität „swim“ bezieht sich auf den Pool. „Pool“ ist von Maria besessen.\\n4. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für Aktivität (activity) ist 4.\"\n}"
+}

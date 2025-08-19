@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Stichwörter: ich, spiele, Basketball. 2. Relative Verweise: ich -\u003e Maria. 3. Englische Übersetzung: Maria, play, basketball. 4. Ersetzung der Identifikation: ich -\u003e Maria. 5. Attribut-Eigenschaften: Maria (object), play (activity), basketball (object). 6. Relationen: Maria (1) perform (8) play (2), play (2) target (9) basketball (3). 7. Alle Relationen haben passende Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter: ich, spiele, Basketball. 2. Relative Verweise: ich -\u003e Maria. 3. Englische Übersetzung: Maria, play, basketball. 4. Ersetzung der Identifikation: ich -\u003e Maria. 5. Attribut-Eigenschaften: Maria (object), play (activity), basketball (object). 6. Relationen: Maria (1) perform (8) play (2), play (2) target (9) basketball (3). 7. Alle Relationen haben passende Typkodierungen.\"\n}"
+}

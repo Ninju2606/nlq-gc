@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      10
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, gelb, Hut, tragen. 2. \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Attribut, \u0027hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität. 6. Maria steht in der Beziehung \u0027wear\u0027 zu Hut (Typkodierung: 9), und Hut hat das Attribut \u0027yellow\u0027 (Typkodierung: 10). 7. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 10],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [9, 0, 0, 4]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: ich, gelb, Hut, tragen. 2. \u0027ich\u0027 referenziert auf Maria. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Attribut, \u0027hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität. 6. Maria steht in der Beziehung \u0027wear\u0027 zu Hut (Typkodierung: 9), und Hut hat das Attribut \u0027yellow\u0027 (Typkodierung: 10). 7. Es gibt passende Einträge für alle Relationen in den bereitgestellten Typkodierungen.\"\n}"
+}

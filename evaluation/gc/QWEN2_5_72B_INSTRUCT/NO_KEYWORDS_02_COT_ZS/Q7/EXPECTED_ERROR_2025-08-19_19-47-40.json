@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      9
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      9,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Häuser, Fragen, Malen.\n2. Es gibt keine relativen Verweise in der Anfrage.\n3. Übersetzung ins Englische: house, question, paint.\n4. Es gibt keine Identifikation des Nutzers in der Anfrage.\n5. Attributeigenschaften: house (object), question (context), paint (activity).\n6. Relationen: \u0027paint\u0027 ist die \u0027activity\u0027 und \u0027question\u0027 das \u0027context\u0027 in Bezug auf \u0027house\u0027.\n7. Es gibt Einträge für alle Relationen in den bereitgestellten Typkodierungen: house (1), question (2), paint (4), target (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 9],\n    [0, 2, 0],\n    [9, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Häuser, Fragen, Malen.\\n2. Es gibt keine relativen Verweise in der Anfrage.\\n3. Übersetzung ins Englische: house, question, paint.\\n4. Es gibt keine Identifikation des Nutzers in der Anfrage.\\n5. Attributeigenschaften: house (object), question (context), paint (activity).\\n6. Relationen: \u0027paint\u0027 ist die \u0027activity\u0027 und \u0027question\u0027 das \u0027context\u0027 in Bezug auf \u0027house\u0027.\\n7. Es gibt Einträge für alle Relationen in den bereitgestellten Typkodierungen: house (1), question (2), paint (4), target (9).\"\n}"
+}

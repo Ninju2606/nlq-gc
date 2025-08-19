@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter ermittelt: \u0027Tim\u0027, \u0027rennt\u0027. Keine Selbstidentifizierung des Nutzers vorhanden, daher keine Ersetzung der Identifikation. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027, \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Potenzielle Stichwörter ermittelt: \u0027Tim\u0027, \u0027rennt\u0027. Keine Selbstidentifizierung des Nutzers vorhanden, daher keine Ersetzung der Identifikation. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027, \u0027run\u0027.\"\n}"
+}

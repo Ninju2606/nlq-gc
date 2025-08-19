@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [2, 9, 0, 0],\n    [0, 4, 8, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"GraphCode for the situation where Maria wears a yellow hat.\"\n}\n\n\n**Erläuterung:**\n- **`dictionary`**: Das Vokabular enthält die Begriffe `maria`, `wear`, `hat`, und `yellow`.\n- **`matrix`**:\n  - `[2, 9, 0, 0]`: Maria (`2` für `context`) steht im Kontext der Szene.\n  - `[0, 4, 8, 0]`: Wear (`4` für `activity`) wird durch Maria (`9` für `target`) ausgeführt.\n  - `[0, 0, 1, 5]`: Hat (`1` für `object`) hat das Attribut `yellow` (`5` für `attached`).\n  - `[0, 0, 0, 3]`: Yellow (`3` für `attribute`) ist ein Attribut.\n- **`description`**: Eine kurze Beschreibung des generierten GraphCodes."
+}

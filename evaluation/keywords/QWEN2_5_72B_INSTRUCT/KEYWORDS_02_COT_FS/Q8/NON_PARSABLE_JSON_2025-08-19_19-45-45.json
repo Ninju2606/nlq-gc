@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n    \"description\": \"1. Die relevanten Stichwörter sind „ich“, „Tochter“, „fahren“, „Boot“, „See\\\". 2. „Meine Tochter“ ist ein relativer Verweis. „ich“ wird durch „Maria“ ersetzt und „Tochter“ bleibt als Person im Vokabular. 3. Die englischen Stichwörter sind „Maria\\\", „daughter\\\", „drive\\\", „boat\\\", „lake\\\". 4. Die Stichwörter mit Nutzeridentifikation sind „Maria\", „daughter\", „drive\\\", „boat\\\", „lake\\\".\"\n}"
+}

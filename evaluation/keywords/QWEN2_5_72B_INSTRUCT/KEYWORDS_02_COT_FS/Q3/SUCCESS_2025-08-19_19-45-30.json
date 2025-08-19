@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Ich“, „schwimmen“, „Pool“ und „besitzen“. 2. Es gibt relative Verweise, die auf den Anfragsteller referenzieren: „Ich“, „mir“. 3. Die englischen Stichwörter sind „I“, „swim“, „pool“ und „own“. 4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „swim“, „pool“ und „own“.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"description\": \"1. Die relevanten Stichwörter sind „Ich“, „schwimmen“, „Pool“ und „besitzen“. 2. Es gibt relative Verweise, die auf den Anfragsteller referenzieren: „Ich“, „mir“. 3. Die englischen Stichwörter sind „I“, „swim“, „pool“ und „own“. 4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „swim“, „pool“ und „own“.\"\n}"
+}

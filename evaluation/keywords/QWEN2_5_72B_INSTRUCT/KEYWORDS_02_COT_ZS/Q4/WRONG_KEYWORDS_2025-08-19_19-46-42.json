@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s personal reference \u0027ich\u0027 and \u0027mein\u0027 have been replaced with the specified identification \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\"],\n  \"description\": \"The user\u0027s personal reference \u0027ich\u0027 and \u0027mein\u0027 have been replaced with the specified identification \u0027Maria\u0027.\"\n}"
+}

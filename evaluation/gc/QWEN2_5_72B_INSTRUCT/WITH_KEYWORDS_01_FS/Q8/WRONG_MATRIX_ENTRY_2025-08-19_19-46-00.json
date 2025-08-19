@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "GraphCode für die Anfrage: Meine Tochter und ich fahren Boot auf einem See.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 0, 7, 0, 0],\n        [0, 1, 7, 0, 0],\n        [0, 0, 4, 8, 0],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 1]\n    ],\n    \"description\": \"GraphCode für die Anfrage: Meine Tochter und ich fahren Boot auf einem See.\"\n}"
+}

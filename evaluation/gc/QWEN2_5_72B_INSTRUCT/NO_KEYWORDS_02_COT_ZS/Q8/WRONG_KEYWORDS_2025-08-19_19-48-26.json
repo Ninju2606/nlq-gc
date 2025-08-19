@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittelte Stichwörter: Maria, Tochter, Boot, See. 2. Relative Verweise wurden aufgelöst: Tochter (Beziehung zu Maria). 3. Übersetzung ins Englische: Maria, daughter, boat, lake. 4. Identifikation des Nutzers (Maria) ersetzt: \u0027ich\u0027 und \u0027mein\u0027. 5. Attribut-Eigenschaften: Maria (Person), daughter (Person), boat (Objekt), lake (Objekt). 6. Relationen: Maria ist die Mutter der Tochter, Maria und Tochter fahren Boot, Boot wird auf dem See gefahren. 7. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden. Maria (Person) hat eine Beziehung \u0027daughter\u0027 (10) zu Tochter (Person), Maria und Tochter führen die Aktivität \u0027perform\u0027 (8) aus, die sich auf das Boot bezieht.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [0, 1, 0, 0],\n    [8, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: Maria, Tochter, Boot, See. 2. Relative Verweise wurden aufgelöst: Tochter (Beziehung zu Maria). 3. Übersetzung ins Englische: Maria, daughter, boat, lake. 4. Identifikation des Nutzers (Maria) ersetzt: \u0027ich\u0027 und \u0027mein\u0027. 5. Attribut-Eigenschaften: Maria (Person), daughter (Person), boat (Objekt), lake (Objekt). 6. Relationen: Maria ist die Mutter der Tochter, Maria und Tochter fahren Boot, Boot wird auf dem See gefahren. 7. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden. Maria (Person) hat eine Beziehung \u0027daughter\u0027 (10) zu Tochter (Person), Maria und Tochter führen die Aktivität \u0027perform\u0027 (8) aus, die sich auf das Boot bezieht.\"\n}"
+}

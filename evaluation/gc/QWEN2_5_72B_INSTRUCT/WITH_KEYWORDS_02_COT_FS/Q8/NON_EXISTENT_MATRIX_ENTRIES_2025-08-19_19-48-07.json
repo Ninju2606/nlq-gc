@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      7,
+      0
+    ],
+    [
+      2,
+      1,
+      7,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. \"Meine Tochter\" wurde zu den Stichwörtern \"maria\" und \"person\", wobei \"person\" die Tochter von \"maria\" ist.\n2. \"maria\" und \"person\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität. \"boat\" und \"lake\" sind Objekte der Anfrage.\n3. \"person\" führt die Aktivität \"drive\" aus. \"maria\" führt ebenfalls die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich auf dem \"lake\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Person (person) ist 2.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 7, 7, 0],\n    [2, 1, 7, 7, 0],\n    [0, 0, 4, 0, 8],\n    [0, 0, 0, 1, 8],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. \\\"Meine Tochter\\\" wurde zu den Stichwörtern \\\"maria\\\" und \\\"person\\\", wobei \\\"person\\\" die Tochter von \\\"maria\\\" ist.\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage.\\n3. \\\"person\\\" führt die Aktivität \\\"drive\\\" aus. \\\"maria\\\" führt ebenfalls die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf dem \\\"lake\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Person (person) ist 2.\"\n}"
+}

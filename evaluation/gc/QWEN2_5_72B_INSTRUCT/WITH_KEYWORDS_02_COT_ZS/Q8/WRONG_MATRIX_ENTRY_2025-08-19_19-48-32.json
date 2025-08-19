@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Die Nutzeridentifikation \u0027Maria\u0027 wird als \u0027maria\u0027 im Vokabular verwendet. Der relative Verweis \u0027meine Tochter\u0027 wird als \u0027person\u0027 im Vokabular repräsentiert. \u0027Ich fahren\u0027 wird als \u0027drive\u0027 und \u0027Boot\u0027 als \u0027boat\u0027, sowie \u0027See\u0027 als \u0027lake\u0027 interpretiert. \n2. \u0027maria\u0027 ist ein Objekt (id: 1), \u0027person\u0027 ist ebenfalls ein Objekt (id: 1), \u0027drive\u0027 ist eine Aktivität (id: 4), \u0027boat\u0027 ist ein Objekt (id: 1), und \u0027lake\u0027 ist ein Kontext (id: 2). \n3. \u0027maria\u0027 (ich) und \u0027person\u0027 (meine Tochter) haben keine explizite Relation zueinander. \u0027maria\u0027 und \u0027person\u0027 führen die Aktivität \u0027drive\u0027 aus. Das \u0027boat\u0027 wird von \u0027drive\u0027 betrieben. \u0027boat\u0027 ist auf dem \u0027lake\u0027. \n4. Für alle Relationen gibt es passende Typkodierungen: \u0027drive\u0027 als Aktivität (id: 4), \u0027lake\u0027 als Kontext (id: 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Nutzeridentifikation \u0027Maria\u0027 wird als \u0027maria\u0027 im Vokabular verwendet. Der relative Verweis \u0027meine Tochter\u0027 wird als \u0027person\u0027 im Vokabular repräsentiert. \u0027Ich fahren\u0027 wird als \u0027drive\u0027 und \u0027Boot\u0027 als \u0027boat\u0027, sowie \u0027See\u0027 als \u0027lake\u0027 interpretiert. \\n2. \u0027maria\u0027 ist ein Objekt (id: 1), \u0027person\u0027 ist ebenfalls ein Objekt (id: 1), \u0027drive\u0027 ist eine Aktivität (id: 4), \u0027boat\u0027 ist ein Objekt (id: 1), und \u0027lake\u0027 ist ein Kontext (id: 2). \\n3. \u0027maria\u0027 (ich) und \u0027person\u0027 (meine Tochter) haben keine explizite Relation zueinander. \u0027maria\u0027 und \u0027person\u0027 führen die Aktivität \u0027drive\u0027 aus. Das \u0027boat\u0027 wird von \u0027drive\u0027 betrieben. \u0027boat\u0027 ist auf dem \u0027lake\u0027. \\n4. Für alle Relationen gibt es passende Typkodierungen: \u0027drive\u0027 als Aktivität (id: 4), \u0027lake\u0027 als Kontext (id: 2).\"\n}"
+}

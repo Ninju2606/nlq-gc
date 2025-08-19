@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "run",
+    "Tim"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode generated successfully from the user\u0027s query.",
+  "responsePlain": "{\n  \"dictionary\": [\"run\", \"Tim\"],\n  \"description\": \"GraphCode generated successfully from the user\u0027s query.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      7,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer \u0027Maria\u0027 ist in der Anfrage als \u0027ich\u0027 identifiziert. Es wird angenommen, dass \u0027ich\u0027 Maria bezieht.\n2. Erkläre die Attributigenschaften der vorliegenden Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 ist ein Attribut (keine spezifische ID), \u0027pool\u0027 ist ein Objekt (Typ 1).\n3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: \u0027maria\u0027 schwimmt, was durch die Beziehung (Typ 8) von \u0027swim\u0027 zu \u0027maria\u0027 dargestellt wird. \u0027maria\u0027 besitzt den \u0027pool\u0027, was durch die Beziehung (Typ 9) von \u0027own\u0027 zu \u0027pool\u0027 dargestellt wird. \u0027pool\u0027 befindet sich unter \u0027maria\u0027 während sie schwimmt, was durch die Beziehung (Typ 6) von \u0027pool\u0027 zu \u0027maria\u0027 dargestellt wird.\n4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Einträge in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 8],\n    [0, 0, 0, 9],\n    [0, 7, 0, 1]\n  ],\n  \"description\": \"1. Versuche aufgelöste relative Verweise und Identifikationen des Nutzers zuzuordnen: Der Nutzer \u0027Maria\u0027 ist in der Anfrage als \u0027ich\u0027 identifiziert. Es wird angenommen, dass \u0027ich\u0027 Maria bezieht.\\n2. Erkläre die Attributigenschaften der vorliegenden Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 ist ein Attribut (keine spezifische ID), \u0027pool\u0027 ist ein Objekt (Typ 1).\\n3. Erkläre, wie die jeweiligen Stichwörter in Relation zueinander stehen: \u0027maria\u0027 schwimmt, was durch die Beziehung (Typ 8) von \u0027swim\u0027 zu \u0027maria\u0027 dargestellt wird. \u0027maria\u0027 besitzt den \u0027pool\u0027, was durch die Beziehung (Typ 9) von \u0027own\u0027 zu \u0027pool\u0027 dargestellt wird. \u0027pool\u0027 befindet sich unter \u0027maria\u0027 während sie schwimmt, was durch die Beziehung (Typ 6) von \u0027pool\u0027 zu \u0027maria\u0027 dargestellt wird.\\n4. Überprüfe, ob es für alle diese Relationen aus Schritten 2 und 3 einen Eintrag in den bereitgestellten Typkodierungen gibt: Ja, es gibt passende Einträge in den bereitgestellten Typkodierungen.\"\n}"
+}

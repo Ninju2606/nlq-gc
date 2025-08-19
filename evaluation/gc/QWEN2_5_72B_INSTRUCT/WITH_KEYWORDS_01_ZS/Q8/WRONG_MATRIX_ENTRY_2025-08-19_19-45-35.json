@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Maria and her daughter (Maria) are driving a boat on a lake. \u0027maria\u0027 and \u0027person\u0027 are objects, \u0027drive\u0027 is an activity, \u0027boat\u0027 is an object, and \u0027lake\u0027 is a context.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Maria and her daughter (Maria) are driving a boat on a lake. \u0027maria\u0027 and \u0027person\u0027 are objects, \u0027drive\u0027 is an activity, \u0027boat\u0027 is an object, and \u0027lake\u0027 is a context.\"\n}"
+}

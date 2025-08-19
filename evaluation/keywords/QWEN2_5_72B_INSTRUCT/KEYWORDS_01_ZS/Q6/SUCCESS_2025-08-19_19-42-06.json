@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "The user\u0027s request does not contain any clear objects, attributes, or activities that can be used to generate a meaningful GraphCode.",
+  "responsePlain": "{\n  \"error\": \"The user\u0027s request does not contain any clear objects, attributes, or activities that can be used to generate a meaningful GraphCode.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

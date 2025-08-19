@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the query: \u0027Tim rennt\u0027. The user \u0027Maria\u0027 is running.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"GraphCode for the query: \u0027Tim rennt\u0027. The user \u0027Maria\u0027 is running.\"\n}"
+}

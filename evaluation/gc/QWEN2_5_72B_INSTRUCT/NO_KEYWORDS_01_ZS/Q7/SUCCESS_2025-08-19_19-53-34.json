@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klare oder grammatikalisch korrekte Beschreibung der Szene im Metaverse.",
+  "error": "Anfrage unklar. Es ist nicht deutlich, welche Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen zu malen\u0027 existiert. Es gibt keine passende Typkodierung für die Relation zwischen diesen Begriffen.",
+  "responsePlain": "{\n  \"error\": \"Anfrage unklar. Es ist nicht deutlich, welche Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen zu malen\u0027 existiert. Es gibt keine passende Typkodierung für die Relation zwischen diesen Begriffen.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klare oder grammatikalisch korrekte Beschreibung der Szene im Metaverse.\"\n}"
+}

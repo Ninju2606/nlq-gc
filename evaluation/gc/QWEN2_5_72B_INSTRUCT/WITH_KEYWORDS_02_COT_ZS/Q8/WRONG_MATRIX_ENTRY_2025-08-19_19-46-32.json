@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Die Nutzerin Maria und ihre Tochter sind in der Szene beteiligt. Maria wird als \u0027person\u0027 und Tochter als \u0027daughter\u0027 von Maria interpretiert.\n2. \u0027maria\u0027 ist eine \u0027person\u0027. \u0027person\u0027 hat den Typ \u0027object\u0027. \u0027drive\u0027 hat den Typ \u0027activity\u0027. \u0027boat\u0027 und \u0027lake\u0027 haben den Typ \u0027object\u0027.\n3. Maria führt die Aktivität \u0027drive\u0027 aus. Das Boot wird auf dem See gefahren. Maria und ihre Tochter sind Personen, die die Aktivität ausführen.\n4. Die Relation zwischen \u0027maria\u0027 und \u0027person\u0027 wird nicht gebraucht, da Maria direkt im Vokabular verwendet wird. Die Relation zwischen \u0027person\u0027 und \u0027drive\u0027 ist \u0027perform\u0027 (ID 8). Die Relation zwischen \u0027drive\u0027 und \u0027boat\u0027 wird nicht benötigt, da sie direkte Objekte der Aktivität sind. Die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 ist nicht definiert, aber \u0027lake\u0027 ist das Umfeld, in dem die Aktivität stattfindet, also kann es als Kontext interpretiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [2, 0, 0, 0, 0],\n    [0, 2, 8, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Nutzerin Maria und ihre Tochter sind in der Szene beteiligt. Maria wird als \u0027person\u0027 und Tochter als \u0027daughter\u0027 von Maria interpretiert.\\n2. \u0027maria\u0027 ist eine \u0027person\u0027. \u0027person\u0027 hat den Typ \u0027object\u0027. \u0027drive\u0027 hat den Typ \u0027activity\u0027. \u0027boat\u0027 und \u0027lake\u0027 haben den Typ \u0027object\u0027.\\n3. Maria führt die Aktivität \u0027drive\u0027 aus. Das Boot wird auf dem See gefahren. Maria und ihre Tochter sind Personen, die die Aktivität ausführen.\\n4. Die Relation zwischen \u0027maria\u0027 und \u0027person\u0027 wird nicht gebraucht, da Maria direkt im Vokabular verwendet wird. Die Relation zwischen \u0027person\u0027 und \u0027drive\u0027 ist \u0027perform\u0027 (ID 8). Die Relation zwischen \u0027drive\u0027 und \u0027boat\u0027 wird nicht benötigt, da sie direkte Objekte der Aktivität sind. Die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 ist nicht definiert, aber \u0027lake\u0027 ist das Umfeld, in dem die Aktivität stattfindet, also kann es als Kontext interpretiert werden.\"\n}"
+}

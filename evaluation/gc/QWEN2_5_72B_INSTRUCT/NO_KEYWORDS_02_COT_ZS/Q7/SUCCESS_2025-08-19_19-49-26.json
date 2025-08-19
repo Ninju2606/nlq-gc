@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und enthält keine sinnvollen Informationen, um einen GraphCode zu generieren. Es ist nicht klar, welche Beziehung zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 existiert. Es gibt auch keine eindeutige Relation oder Aktivität, die diese Begriffe verbindet.",
+  "error": "Unsinnige Anfrage oder fehlende Informationen",
+  "responsePlain": "{\n  \"error\": \"Unsinnige Anfrage oder fehlende Informationen\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und enthält keine sinnvollen Informationen, um einen GraphCode zu generieren. Es ist nicht klar, welche Beziehung zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 existiert. Es gibt auch keine eindeutige Relation oder Aktivität, die diese Begriffe verbindet.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      6
+    ],
+    [
+      10,
+      1,
+      7,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      6,
+      6,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Meine Tochter“, „und“, „ich“, „fahren“, „Boot“, „auf“, „einem“, „See“. 2. „Meine Tochter“ ist ein relativer Verweis. 3. Die englischen Stichwörter sind „daughter“, „and“, „I“, „drive“, „boat“, „on“, „a“, „lake“. 4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „drive“, „boat“, „lake“. 5. „Maria“ und „daughter“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. „lake“ ist ein Kontext. 6. „Maria“ und „daughter“ sind in einer Beziehung (Sohn/Tochter). „Maria“ und „daughter“ führen die Aktivität „drive“ aus. „boat“ ist das Ziel der Aktivität „drive“. „boat“ befindet sich auf „lake“. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf (above) ist 6. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 6],\n    [10, 1, 7, 0, 6],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 6],\n    [6, 6, 0, 6, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Meine Tochter“, „und“, „ich“, „fahren“, „Boot“, „auf“, „einem“, „See“. 2. „Meine Tochter“ ist ein relativer Verweis. 3. Die englischen Stichwörter sind „daughter“, „and“, „I“, „drive“, „boat“, „on“, „a“, „lake“. 4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „drive“, „boat“, „lake“. 5. „Maria“ und „daughter“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. „lake“ ist ein Kontext. 6. „Maria“ und „daughter“ sind in einer Beziehung (Sohn/Tochter). „Maria“ und „daughter“ führen die Aktivität „drive“ aus. „boat“ ist das Ziel der Aktivität „drive“. „boat“ befindet sich auf „lake“. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf (above) ist 6. Die ID für Beziehen (target) ist 8.\"\n}"
+}

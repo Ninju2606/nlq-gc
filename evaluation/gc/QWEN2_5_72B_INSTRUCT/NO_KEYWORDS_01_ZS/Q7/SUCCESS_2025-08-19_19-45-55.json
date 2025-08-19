@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und es können keine sinnvollen Relationen zwischen den Begriffen \u0027house\u0027, \u0027question\u0027, und \u0027paint\u0027 identifiziert werden, die den Regeln des GraphCodes entsprechen.",
+  "error": "Die Anfrage enthält keine klare Relation zwischen den Begriffen, die in der vorgegebenen Typkodierung dargestellt werden kann.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Relation zwischen den Begriffen, die in der vorgegebenen Typkodierung dargestellt werden kann.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und es können keine sinnvollen Relationen zwischen den Begriffen \u0027house\u0027, \u0027question\u0027, und \u0027paint\u0027 identifiziert werden, die den Regeln des GraphCodes entsprechen.\"\n}"
+}

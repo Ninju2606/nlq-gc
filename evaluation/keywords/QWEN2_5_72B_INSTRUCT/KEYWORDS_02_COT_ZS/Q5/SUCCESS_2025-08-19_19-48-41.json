@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wurde bearbeitet. Die Identifikation des Nutzers \u0027Maria\u0027 wurde korrekt hinzugefügt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Stichwörter wurden erfolgreich ermittelt und ins Englische übersetzt. Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wurde bearbeitet. Die Identifikation des Nutzers \u0027Maria\u0027 wurde korrekt hinzugefügt.\"\n}"
+}

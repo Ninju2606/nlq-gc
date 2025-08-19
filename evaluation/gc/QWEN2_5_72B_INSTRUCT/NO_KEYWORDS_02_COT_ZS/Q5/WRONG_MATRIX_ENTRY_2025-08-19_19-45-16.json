@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Ermittelte Stichwörter: Maria, yellow, hat, wear.\n2. Relative Verweise wurden aufgelöst: ich -\u003e Maria, mein -\u003e Maria, mir -\u003e Maria.\n3. Die Stichwörter wurden ins Englische übersetzt: Maria, yellow, hat, wear.\n4. \u0027ich\u0027 wurde durch die Identifikation des Nutzers (Maria) ersetzt.\n5. Maria wird als context (2), yellow als object (1), hat als object (1) und wear als activity (4).\n6. Maria ist in der Situation, yellow ist ein Attribut des Huts, der Hut ist ein Objekt, und Maria führt die Aktivität wear aus.\n7. Alle Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n    \"matrix\": [\n        [2, 0, 0, 8],\n        [0, 1, 0, 0],\n        [0, 0, 1, 0],\n        [0, 0, 0, 4]\n    ],\n    \"description\": \"1. Ermittelte Stichwörter: Maria, yellow, hat, wear.\\n2. Relative Verweise wurden aufgelöst: ich -\u003e Maria, mein -\u003e Maria, mir -\u003e Maria.\\n3. Die Stichwörter wurden ins Englische übersetzt: Maria, yellow, hat, wear.\\n4. \u0027ich\u0027 wurde durch die Identifikation des Nutzers (Maria) ersetzt.\\n5. Maria wird als context (2), yellow als object (1), hat als object (1) und wear als activity (4).\\n6. Maria ist in der Situation, yellow ist ein Attribut des Huts, der Hut ist ein Objekt, und Maria führt die Aktivität wear aus.\\n7. Alle Relationen haben einen passenden Eintrag in den bereitgestellten Typkodierungen.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The potential keywords were identified and translated to English, with \u0027Maria\u0027 replacing the self-referencing words \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"description\": \"The potential keywords were identified and translated to English, with \u0027Maria\u0027 replacing the self-referencing words \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027.\"\n}"
+}

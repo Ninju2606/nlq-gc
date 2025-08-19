@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. In der Anfrage wird der Nutzer \u0027Ich\u0027 als \u0027Maria\u0027 identifiziert. Der Nutzer schwimmt in einem Pool, der ihm gehört. 2. \u0027maria\u0027 repräsentiert eine Person (Typ: object, ID: 1). \u0027swim\u0027 repräsentiert eine Aktivität (Typ: activity, ID: 4). \u0027own\u0027 repräsentiert eine Beziehung von Besitz (Typ: activity, ID: 4). \u0027pool\u0027 repräsentiert ein Objekt (Typ: object, ID: 1). 3. \u0027maria\u0027 performt \u0027swim\u0027 (Typ: perform, ID: 8). \u0027maria\u0027 hat \u0027pool\u0027 als Ziel (Typ: target, ID: 9). \u0027own\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027. 4. Alle relevanten Relationen haben passende Einträge in den bereitgestellten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 9],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. In der Anfrage wird der Nutzer \u0027Ich\u0027 als \u0027Maria\u0027 identifiziert. Der Nutzer schwimmt in einem Pool, der ihm gehört. 2. \u0027maria\u0027 repräsentiert eine Person (Typ: object, ID: 1). \u0027swim\u0027 repräsentiert eine Aktivität (Typ: activity, ID: 4). \u0027own\u0027 repräsentiert eine Beziehung von Besitz (Typ: activity, ID: 4). \u0027pool\u0027 repräsentiert ein Objekt (Typ: object, ID: 1). 3. \u0027maria\u0027 performt \u0027swim\u0027 (Typ: perform, ID: 8). \u0027maria\u0027 hat \u0027pool\u0027 als Ziel (Typ: target, ID: 9). \u0027own\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027. 4. Alle relevanten Relationen haben passende Einträge in den bereitgestellten Typkodierungen.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist kein sinnvoller Kontext für die Erstellung eines GraphCodes innerhalb einer Metaverse-Aufnahme. Es fehlen konkrete Begriffe wie Objekte, Attribute oder Aktivitäten, die in der Szene vorkommen könnten.",
+  "error": "Die Anfrage enthält keine Elemente, die eine Metaverse-Szene beschreiben könnten.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Elemente, die eine Metaverse-Szene beschreiben könnten.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist kein sinnvoller Kontext für die Erstellung eines GraphCodes innerhalb einer Metaverse-Aufnahme. Es fehlen konkrete Begriffe wie Objekte, Attribute oder Aktivitäten, die in der Szene vorkommen könnten.\"\n}"
+}

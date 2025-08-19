@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The potential keywords from the user\u0027s query are successfully identified and translated into English. \u0027Ich\u0027 is replaced with \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"description\": \"The potential keywords from the user\u0027s query are successfully identified and translated into English. \u0027Ich\u0027 is replaced with \u0027Maria\u0027.\"\n}"
+}

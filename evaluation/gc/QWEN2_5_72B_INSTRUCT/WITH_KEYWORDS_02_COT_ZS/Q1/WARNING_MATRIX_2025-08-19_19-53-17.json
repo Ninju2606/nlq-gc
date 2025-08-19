@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Der NutzerMaria wurde in das Vokabular aufgenommen, da der Satz \u0027Ich spiele Basketball\u0027 eine direkte Aktivität beschreibt, die mit ihrer Person zu tun hat.\n2. \u0027maria\u0027 ist ein Objekt (Type: object), \u0027play\u0027 ist eine Aktivität (Type: activity), und \u0027basketball\u0027 ist ebenfalls ein Objekt (Type: object).\n3. Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 ist eine Aktivität, wobei \u0027maria\u0027 das Subjekt und \u0027play\u0027 die Aktivität darstellt. Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 beschreibt das Ziel der Aktivität, d.h., dass \u0027maria\u0027 \u0027play\u0027 ausführt, bei dem \u0027basketball\u0027 das Ziel ist.\n4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. \u0027maria\u0027 hat die ID 1 (object), \u0027play\u0027 hat die ID 4 (activity), und \u0027basketball\u0027 hat die ID 1 (object). Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 hat die ID 9 (target).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der NutzerMaria wurde in das Vokabular aufgenommen, da der Satz \u0027Ich spiele Basketball\u0027 eine direkte Aktivität beschreibt, die mit ihrer Person zu tun hat.\\n2. \u0027maria\u0027 ist ein Objekt (Type: object), \u0027play\u0027 ist eine Aktivität (Type: activity), und \u0027basketball\u0027 ist ebenfalls ein Objekt (Type: object).\\n3. Die Relation zwischen \u0027maria\u0027 und \u0027play\u0027 ist eine Aktivität, wobei \u0027maria\u0027 das Subjekt und \u0027play\u0027 die Aktivität darstellt. Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 beschreibt das Ziel der Aktivität, d.h., dass \u0027maria\u0027 \u0027play\u0027 ausführt, bei dem \u0027basketball\u0027 das Ziel ist.\\n4. Es gibt passende Einträge in den bereitgestellten Typkodierungen für alle Relationen. \u0027maria\u0027 hat die ID 1 (object), \u0027play\u0027 hat die ID 4 (activity), und \u0027basketball\u0027 hat die ID 1 (object). Die Relation zwischen \u0027play\u0027 und \u0027basketball\u0027 hat die ID 9 (target).\"\n}"
+}

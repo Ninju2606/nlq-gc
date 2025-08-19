@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      8,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria is the user, and the query describes Tim running. The relationship between Tim and running is represented by the \u0027perform\u0027 attribute (8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 8, 2]\n  ],\n  \"description\": \"Maria is the user, and the query describes Tim running. The relationship between Tim and running is represented by the \u0027perform\u0027 attribute (8).\"\n}"
+}

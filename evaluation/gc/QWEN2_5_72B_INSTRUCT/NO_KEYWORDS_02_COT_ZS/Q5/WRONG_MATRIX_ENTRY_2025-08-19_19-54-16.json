@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "yellow",
+    "hat",
+    "wear",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      9,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Potenzielle Stichwörter: gelb (yellow), Hut (hat), trage (wear), ich (Maria). 2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria. 3. Übersetzte Stichwörter ins Englische: yellow, hat, wear, Maria. 4. Ersetzte self-referenzierte Wörter: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: yellow (charakteristisches Merkmal), hat (Objekt), wear (Aktivität), Maria (Person). 6. Relationen: yellow ist ein charakteristisches Merkmal des hats, Maria performs die Aktivität wear, und wear hat das Target hat. 7. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow\", \"hat\", \"wear\", \"Maria\"],\n  \"matrix\": [\n    [1, 5, 0, 0],\n    [5, 1, 0, 0],\n    [0, 0, 4, 8],\n    [0, 0, 9, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: gelb (yellow), Hut (hat), trage (wear), ich (Maria). 2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria. 3. Übersetzte Stichwörter ins Englische: yellow, hat, wear, Maria. 4. Ersetzte self-referenzierte Wörter: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: yellow (charakteristisches Merkmal), hat (Objekt), wear (Aktivität), Maria (Person). 6. Relationen: yellow ist ein charakteristisches Merkmal des hats, Maria performs die Aktivität wear, und wear hat das Target hat. 7. Alle Relationen können mit den bereitgestellten Typkodierungen dargestellt werden.\"\n}"
+}

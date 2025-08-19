@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "play",
+    "basketball",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter wurden erfolgreich ermittelt: \u0027play\u0027, \u0027basketball\u0027. Der Nutzer \u0027Maria\u0027 wurde identifiziert und dem Vokabular hinzugefügt.",
+  "responsePlain": "{\n    \"dictionary\": [\"play\", \"basketball\", \"Maria\"],\n    \"description\": \"Stichwörter wurden erfolgreich ermittelt: \u0027play\u0027, \u0027basketball\u0027. Der Nutzer \u0027Maria\u0027 wurde identifiziert und dem Vokabular hinzugefügt.\"\n}"
+}

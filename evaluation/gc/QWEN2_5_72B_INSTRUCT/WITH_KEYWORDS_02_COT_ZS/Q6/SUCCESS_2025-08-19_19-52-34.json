@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist ein zeitlich gebundener Aktion, die sich nicht auf eine spezifische Szene im Metaverse bezieht. Es fehlen relevante Objekte, Attribute oder Aktivitäten, die eine Szene beschreiben könnten. Daher kann kein GraphCode generiert werden.",
+  "error": "Unzureichende Information für eine sinnvolle Szenenbeschreibung im Metaverse.",
+  "responsePlain": "{\n  \"error\": \"Unzureichende Information für eine sinnvolle Szenenbeschreibung im Metaverse.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist ein zeitlich gebundener Aktion, die sich nicht auf eine spezifische Szene im Metaverse bezieht. Es fehlen relevante Objekte, Attribute oder Aktivitäten, die eine Szene beschreiben könnten. Daher kann kein GraphCode generiert werden.\"\n}"
+}

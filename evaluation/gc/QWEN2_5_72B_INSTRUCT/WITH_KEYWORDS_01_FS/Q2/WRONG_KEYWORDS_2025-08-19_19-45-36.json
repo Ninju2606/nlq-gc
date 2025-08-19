@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the user query \u0027Tim rennt\u0027 with the user identified as \u0027Maria\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n    \"matrix\": [[1, 0, 7], [0, 1, 0], [0, 0, 9]],\n    \"description\": \"GraphCode for the user query \u0027Tim rennt\u0027 with the user identified as \u0027Maria\u0027.\"\n}"
+}

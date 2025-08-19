@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer \u0027Maria\u0027 hat die Anfrage \u0027Tim rennt\u0027 gestellt. Da \u0027rennt\u0027 eine Aktivität beschreibt, wird \u0027Tim\u0027 als der Nutzer identifiziert, also \u0027Maria\u0027. 2. \u0027tim\u0027 ist eine Person (Typ: object, ID: 1), und \u0027run\u0027 ist eine Aktivität (Typ: activity, ID: 4). 3. \u0027tim\u0027 (Maria) steht in einer perform-Beziehung zu \u0027run\u0027 (Typ: perform, ID: 8). 4. Es gibt passende Typkodierungen für alle diese Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 hat die Anfrage \u0027Tim rennt\u0027 gestellt. Da \u0027rennt\u0027 eine Aktivität beschreibt, wird \u0027Tim\u0027 als der Nutzer identifiziert, also \u0027Maria\u0027. 2. \u0027tim\u0027 ist eine Person (Typ: object, ID: 1), und \u0027run\u0027 ist eine Aktivität (Typ: activity, ID: 4). 3. \u0027tim\u0027 (Maria) steht in einer perform-Beziehung zu \u0027run\u0027 (Typ: perform, ID: 8). 4. Es gibt passende Typkodierungen für alle diese Relationen.\"\n}"
+}

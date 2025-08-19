@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die angegebene Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine beschreibenden Begriffe für Objekte, Attribute oder Aktivitäten in einer Metaverse-Situation. Es fehlen wesentliche Informationen, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die angegebene Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine beschreibenden Begriffe für Objekte, Attribute oder Aktivitäten in einer Metaverse-Situation. Es fehlen wesentliche Informationen, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Anfrage \u0027Häuser um Fragen zu malen\u0027 generiert.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"question\", \"paint\"],\n    \"description\": \"GraphCode für die Anfrage \u0027Häuser um Fragen zu malen\u0027 generiert.\"\n}"
+}

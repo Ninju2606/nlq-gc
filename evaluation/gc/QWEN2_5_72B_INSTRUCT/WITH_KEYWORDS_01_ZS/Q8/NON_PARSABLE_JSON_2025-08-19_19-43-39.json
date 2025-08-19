@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [2, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria and a person (likely Maria\u0027s daughter) are driving a boat on a lake.\"\n}\n\n\n### Erklärung:\n- `maria` und `person` sind beide als Personen klassifiziert (Typ 2: `context`).\n- `drive` ist eine Aktivität (Typ 4: `activity`).\n- `boat` ist ein Objekt (Typ 1: `object`).\n- `lake` ist ein Objekt (Typ 1: `object`).\n\nDie Beziehungen sind wie folgt:\n- `maria` (Person) und `drive` (Aktivität): Maria führt die Aktivität aus (Typ 8: `perform`).\n- `drive` (Aktivität) und `boat` (Objekt): Die Aktivität hat das Boot als Ziel (Typ 9: `target`).\n\nDie restlichen Einträge sind entweder selbstreferenziell auf der Diagonalen oder null, da keine weiteren expliziten Beziehungen in der Anfrage ausgeführt werden."
+}

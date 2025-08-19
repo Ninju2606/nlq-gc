@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      8,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "GraphCode für die Szene \u0027Ich spiele Basketball\u0027 im Metaverse.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [[1, 0, 7], [0, 4, 9], [8, 0, 1]],\n  \"description\": \"GraphCode für die Szene \u0027Ich spiele Basketball\u0027 im Metaverse.\"\n}"
+}

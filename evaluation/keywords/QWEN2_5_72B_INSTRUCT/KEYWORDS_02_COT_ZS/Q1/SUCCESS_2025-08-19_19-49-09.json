@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "play",
+    "basketball",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s query \u0027Ich spiele Basketball\u0027 has been processed. The user identification \u0027Maria\u0027 has been included in the dictionary as the user refers to themselves with \u0027Ich\u0027. The words have been translated into English and the stem \u0027play\u0027 is used instead of \u0027spiele\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"play\", \"basketball\", \"Maria\"],\n    \"description\": \"The user\u0027s query \u0027Ich spiele Basketball\u0027 has been processed. The user identification \u0027Maria\u0027 has been included in the dictionary as the user refers to themselves with \u0027Ich\u0027. The words have been translated into English and the stem \u0027play\u0027 is used instead of \u0027spiele\u0027.\"\n}"
+}

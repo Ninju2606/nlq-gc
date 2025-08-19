@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: schwimmen, Pool, mein, gehört\n2. \u0027ich\u0027 wird auf Maria gelöst, \u0027mein\u0027 wird auf Maria gelöst.\n3. Übersetzung ins Englische: swim, pool, own.\n4. Identifikationswörter (ich, mein) werden durch die spezifizierte Identifikation (Maria) ersetzt.\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1), \u0027own\u0027 ist eine Eigenschaft (id\u003d14).\n6. Relationen: Maria schwimmt in einem Pool (swim - pool), der Pool gehört Maria (pool - own).\n7. Es gibt passende Typkodierungen für die Relationen: swim - pool (id\u003d9), pool - own (id\u003d14).",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 3, 0],\n    [0, 0, 14]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: schwimmen, Pool, mein, gehört\\n2. \u0027ich\u0027 wird auf Maria gelöst, \u0027mein\u0027 wird auf Maria gelöst.\\n3. Übersetzung ins Englische: swim, pool, own.\\n4. Identifikationswörter (ich, mein) werden durch die spezifizierte Identifikation (Maria) ersetzt.\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1), \u0027own\u0027 ist eine Eigenschaft (id\u003d14).\\n6. Relationen: Maria schwimmt in einem Pool (swim - pool), der Pool gehört Maria (pool - own).\\n7. Es gibt passende Typkodierungen für die Relationen: swim - pool (id\u003d9), pool - own (id\u003d14).\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: schwimmen, Pool. 2. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 referenzieren auf die Identifikation des Nutzers Maria. 3. Die übersetzten Stichwörter ins Englische sind: swim, pool. 4. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 werden durch die Identifikation des Nutzers Maria ersetzt. 5. Die Attributeigenschaften sind: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object). 6. Die Relation zwischen den Stichwörtern ist: Maria perform swim in pool. 7. Für alle Relationen gibt es einen Eintrag in den bereitgestellten Typkodierungen: swim -\u003e object (1), pool -\u003e object (2), swim in pool -\u003e perform (8).",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Die potenziellen Stichwörter aus der Nutzeranfrage sind: schwimmen, Pool. 2. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 referenzieren auf die Identifikation des Nutzers Maria. 3. Die übersetzten Stichwörter ins Englische sind: swim, pool. 4. Die Wörter \u0027ich\u0027 und \u0027mein\u0027 werden durch die Identifikation des Nutzers Maria ersetzt. 5. Die Attributeigenschaften sind: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object). 6. Die Relation zwischen den Stichwörtern ist: Maria perform swim in pool. 7. Für alle Relationen gibt es einen Eintrag in den bereitgestellten Typkodierungen: swim -\u003e object (1), pool -\u003e object (2), swim in pool -\u003e perform (8).\"\n}"
+}

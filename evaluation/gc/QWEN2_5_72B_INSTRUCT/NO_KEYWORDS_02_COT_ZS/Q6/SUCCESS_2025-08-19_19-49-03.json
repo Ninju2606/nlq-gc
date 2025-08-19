@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine Szene im Metaverse, sondern auf einen Terminkalender oder eine Future-Aufgabe. Es gibt keine konkreten Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene dargestellt werden könnten. Daher kann kein sinnvoller GraphCode für diese Anfrage generiert werden.",
+  "error": "Unsinnige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unsinnige Anfrage\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine Szene im Metaverse, sondern auf einen Terminkalender oder eine Future-Aufgabe. Es gibt keine konkreten Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene dargestellt werden könnten. Daher kann kein sinnvoller GraphCode für diese Anfrage generiert werden.\"\n}"
+}

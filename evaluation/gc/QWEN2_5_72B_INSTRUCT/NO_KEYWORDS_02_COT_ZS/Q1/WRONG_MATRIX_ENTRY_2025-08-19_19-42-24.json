@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "play",
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wird zu \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027.\n4. \u0027Ich\u0027 wird ersetzt durch \u0027Maria\u0027.\n5. Attributeigenschaften erklärt: \u0027play\u0027 ist eine Aktivität (activity), \u0027Maria\u0027 ist eine Person (object), \u0027basketball\u0027 ist ein Objekt (object).\n6. Relationen erklärt: \u0027Maria\u0027 performt \u0027play\u0027, \u0027play\u0027 targetet \u0027basketball\u0027.\n7. Alle Relationen haben passende Typkodierungen: \u0027play\u0027 (4), \u0027Maria\u0027 (1), \u0027basketball\u0027 (1), \u0027Maria perform play\u0027 (8), \u0027play target basketball\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"play\", \"Maria\", \"basketball\"],\n  \"matrix\": [\n    [4, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wird zu \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027spiele\u0027 -\u003e \u0027play\u0027, \u0027Basketball\u0027 -\u003e \u0027basketball\u0027.\\n4. \u0027Ich\u0027 wird ersetzt durch \u0027Maria\u0027.\\n5. Attributeigenschaften erklärt: \u0027play\u0027 ist eine Aktivität (activity), \u0027Maria\u0027 ist eine Person (object), \u0027basketball\u0027 ist ein Objekt (object).\\n6. Relationen erklärt: \u0027Maria\u0027 performt \u0027play\u0027, \u0027play\u0027 targetet \u0027basketball\u0027.\\n7. Alle Relationen haben passende Typkodierungen: \u0027play\u0027 (4), \u0027Maria\u0027 (1), \u0027basketball\u0027 (1), \u0027Maria perform play\u0027 (8), \u0027play target basketball\u0027 (9).\"\n}"
+}

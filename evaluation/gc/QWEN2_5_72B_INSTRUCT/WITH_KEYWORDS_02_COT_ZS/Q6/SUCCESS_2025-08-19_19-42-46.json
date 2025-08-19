@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine spezifische Szene oder Situation im Metaverse, sondern auf einen Zeitplan oder eine Planungsaufgabe. Daher können keine klaren Relationen zwischen den given Stichwörtern \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 hergestellt werden, die für die Generierung eines GraphCodes relevant wären.",
+  "error": "Die Anfrage enthält keine Informationen, die eine Situation im Metaverse beschreiben. Es wird eine Beziehung zwischen den Stichwörtern erwartet, aber die Anfrage ist ein allgemeiner Satz, der auf einen Kalendertermin abzielt und keinen sichtbaren Inhalt oder Kontext im Metaverse liefert.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Informationen, die eine Situation im Metaverse beschreiben. Es wird eine Beziehung zwischen den Stichwörtern erwartet, aber die Anfrage ist ein allgemeiner Satz, der auf einen Kalendertermin abzielt und keinen sichtbaren Inhalt oder Kontext im Metaverse liefert.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine spezifische Szene oder Situation im Metaverse, sondern auf einen Zeitplan oder eine Planungsaufgabe. Daher können keine klaren Relationen zwischen den given Stichwörtern \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 hergestellt werden, die für die Generierung eines GraphCodes relevant wären.\"\n}"
+}

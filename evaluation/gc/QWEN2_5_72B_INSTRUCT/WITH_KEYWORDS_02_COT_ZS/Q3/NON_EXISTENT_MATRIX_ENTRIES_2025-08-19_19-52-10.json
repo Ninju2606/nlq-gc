@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Maria schwimmt in einem Pool und besitzt ihn. Die Identifikation des Nutzers wurde als \u0027Maria\u0027 zugeordnet.\n2. \u0027maria\u0027 ist ein Objekt (Type id: 1), \u0027swim\u0027 ist eine Aktivität (Type id: 4), \u0027own\u0027 ist eine Relation \u0027target\u0027 (Type id: 9), \u0027pool\u0027 ist ein Objekt (Type id: 1).\n3. Maria ist mit Schwimmen verbunden (Aktivität \u0027swim\u0027, sie schwimmt) und hat eine Besitzrelation zu dem Pool (\u0027own\u0027). Der Pool ist das Ziel der Besitzrelation (\u0027Own\u0027 bezieht sich auf den Pool, Type id: 9). Maria und der Pool stehen in einer Besitzrelation (\u0027own\u0027).\n4. Es gibt für alle identifizierten Relationen passende Typkodierungen: \u0027object\u0027 (id: 1), \u0027activity\u0027 (id: 4), \u0027target\u0027 (id: 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [9, 0, 0, 1]\n  ],\n  \"description\": \"1. Maria schwimmt in einem Pool und besitzt ihn. Die Identifikation des Nutzers wurde als \u0027Maria\u0027 zugeordnet.\\n2. \u0027maria\u0027 ist ein Objekt (Type id: 1), \u0027swim\u0027 ist eine Aktivität (Type id: 4), \u0027own\u0027 ist eine Relation \u0027target\u0027 (Type id: 9), \u0027pool\u0027 ist ein Objekt (Type id: 1).\\n3. Maria ist mit Schwimmen verbunden (Aktivität \u0027swim\u0027, sie schwimmt) und hat eine Besitzrelation zu dem Pool (\u0027own\u0027). Der Pool ist das Ziel der Besitzrelation (\u0027Own\u0027 bezieht sich auf den Pool, Type id: 9). Maria und der Pool stehen in einer Besitzrelation (\u0027own\u0027).\\n4. Es gibt für alle identifizierten Relationen passende Typkodierungen: \u0027object\u0027 (id: 1), \u0027activity\u0027 (id: 4), \u0027target\u0027 (id: 9).\"\n}"
+}

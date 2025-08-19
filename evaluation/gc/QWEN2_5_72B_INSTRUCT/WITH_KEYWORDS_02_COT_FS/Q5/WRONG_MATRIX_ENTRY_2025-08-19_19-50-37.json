@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      14,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Es gibt keine relativen Verweise. \"ich\" wurde zu \"maria\".\n2. \"maria\", \"hat\" und \"yellow\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität.\n3. \"maria\" führt die Aktivität \"wear\" aus. \"wear\" bezieht sich auf \"hat\". Die Charakteristik \"yellow\" gilt für \"hat\".\n4. Die ID für Objekt (\"object\") ist 1. Die ID für Aktivität (\"activity\") ist 4. Die ID für Ausführen (\"perform\") ist 7. Die ID für Beziehen (\"target\") ist 8. Die ID für Charakteristik (\"characteristic\") ist 14.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 7, 0, 0],\n        [0, 4, 8, 0],\n        [0, 0, 1, 14],\n        [0, 0, 14, 3]\n    ],\n    \"description\": \"1. Es gibt keine relativen Verweise. \\u0022ich\\u0022 wurde zu \\u0022maria\\u0022.\\n2. \\u0022maria\\u0022, \\u0022hat\\u0022 und \\u0022yellow\\u0022 sind Objekte der Anfrage. \\u0022wear\\u0022 ist eine Aktivität.\\n3. \\u0022maria\\u0022 führt die Aktivität \\u0022wear\\u0022 aus. \\u0022wear\\u0022 bezieht sich auf \\u0022hat\\u0022. Die Charakteristik \\u0022yellow\\u0022 gilt für \\u0022hat\\u0022.\\n4. Die ID für Objekt (\\u0022object\\u0022) ist 1. Die ID für Aktivität (\\u0022activity\\u0022) ist 4. Die ID für Ausführen (\\u0022perform\\u0022) ist 7. Die ID für Beziehen (\\u0022target\\u0022) ist 8. Die ID für Charakteristik (\\u0022characteristic\\u0022) ist 14.\"\n}"
+}

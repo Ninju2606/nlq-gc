@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klar identifizierbaren Objekte, Attribute oder Aktivitäten, die in einer konkreten Szene im Metaverse zu finden wären. Es gibt auch keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, sodass Maria nicht unbedingt als Teil der Szene betrachtet werden muss. Daher ist es unmöglich, einen sinnvollen GraphCode zu generieren.",
+  "error": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt keine spezifische Szene im Metaverse, sondern eine abstrakte Handlung oder Absicht.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt keine spezifische Szene im Metaverse, sondern eine abstrakte Handlung oder Absicht.\",\n  \"description\": \"Die Anfrage enthält keine klar identifizierbaren Objekte, Attribute oder Aktivitäten, die in einer konkreten Szene im Metaverse zu finden wären. Es gibt auch keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, sodass Maria nicht unbedingt als Teil der Szene betrachtet werden muss. Daher ist es unmöglich, einen sinnvollen GraphCode zu generieren.\"\n}"
+}

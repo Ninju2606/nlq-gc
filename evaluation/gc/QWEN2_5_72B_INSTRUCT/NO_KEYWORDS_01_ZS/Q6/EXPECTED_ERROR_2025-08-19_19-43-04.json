@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "appointment",
+    "make",
+    "soon"
+  ],
+  "matrix": [
+    [
+      2,
+      9,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode for the user query: \u0027Wir müssen bald einen Termin ausmachen.\u0027",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"make\", \"soon\"],\n  \"matrix\": [\n    [2, 9, 0],\n    [0, 4, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"GraphCode for the user query: \u0027Wir müssen bald einen Termin ausmachen.\u0027\"\n}"
+}

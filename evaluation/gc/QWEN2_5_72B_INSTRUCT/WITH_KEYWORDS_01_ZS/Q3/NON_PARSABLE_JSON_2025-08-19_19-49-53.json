@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [5, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, der ihr gehört.\"\n}\n\n\n### Erklärung:\n- **Dictionary**: Das gegebene Vokabular wurde übernommen.\n- **Matrix**:\n  - `1` (Zeile 1, Spalte 1) für \"maria\" als Objekt (`object`).\n  - `4` (Zeile 2, Spalte 2) für \"swim\" als Aktivität (`activity`).\n  - `1` (Zeile 4, Spalte 4) für \"pool\" als Objekt (`object`).\n  - `5` (Zeile 1, Spalte 4) und (Zeile 4, Spalte 1) für die Beziehung \"einem Pool, der Maria gehört\" (`target`).\n- **Description**: Eine kurze Beschreibung der Szene im Metaverse."
+}
