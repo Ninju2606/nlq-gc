@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user request \u0027Tim runs\u0027 has been processed. The vocabulary includes \u0027Tim\u0027 (as specified in the user identification) and \u0027run\u0027 (the activity).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The user request \u0027Tim runs\u0027 has been processed. The vocabulary includes \u0027Tim\u0027 (as specified in the user identification) and \u0027run\u0027 (the activity).\"\n}"
+}

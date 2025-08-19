@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Der Nutzer, Maria, ist im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 mit dem Verweis \u0027mir\u0027 identifiziert. Der GraphCode berücksichtigt diesen Bezug durch das Attribut \u0027own\u0027, das Maria mit dem Pool verknüpft. \n2. Attributeigenschaften: \u0027maria\u0027 ist eine Identifikation (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 ist eine Relation (Typ 9), \u0027pool\u0027 ist ein Objekt (Typ 2). \n3. Beziehungen: Maria (maria) hat die Aktivität \u0027swim\u0027. Maria besitzt (\u0027own\u0027) den Pool. Der Pool ist ein Objekt (\u0027pool\u0027). Die Aktivität \u0027swim\u0027 wird im Pool (\u0027pool\u0027) ausgeübt. \n4. Typkodierungen: Typ 1 (maria), Typ 4 (swim), Typ 9 (own), Typ 2 (pool). Es gibt passende Einträge in den Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 9, 3]\n  ],\n  \"description\": \"1. Der Nutzer, Maria, ist im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 mit dem Verweis \u0027mir\u0027 identifiziert. Der GraphCode berücksichtigt diesen Bezug durch das Attribut \u0027own\u0027, das Maria mit dem Pool verknüpft. \\n2. Attributeigenschaften: \u0027maria\u0027 ist eine Identifikation (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 ist eine Relation (Typ 9), \u0027pool\u0027 ist ein Objekt (Typ 2). \\n3. Beziehungen: Maria (maria) hat die Aktivität \u0027swim\u0027. Maria besitzt (\u0027own\u0027) den Pool. Der Pool ist ein Objekt (\u0027pool\u0027). Die Aktivität \u0027swim\u0027 wird im Pool (\u0027pool\u0027) ausgeübt. \\n4. Typkodierungen: Typ 1 (maria), Typ 4 (swim), Typ 9 (own), Typ 2 (pool). Es gibt passende Einträge in den Typkodierungen.\"\n}"
+}

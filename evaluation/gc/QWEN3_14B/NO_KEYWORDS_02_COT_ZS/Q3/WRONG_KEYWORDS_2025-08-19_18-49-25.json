@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027belongs to\u0027, \u0027me\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027me\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (attribute: \u0027activity\u0027), \u0027pool\u0027 ist ein Objekt (attribute: \u0027object\u0027), \u0027Maria\u0027 ist eine Identität (attribute: \u0027object\u0027).\n6. Relationen zwischen den Stichwörtern:\n   - \u0027swim\u0027 (Aktivität) wird von \u0027Maria\u0027 (Identität) durchgeführt (relation: perform, ID: 8).\n   - \u0027pool\u0027 (Objekt) wird von \u0027Maria\u0027 (Identität) besessen (relation: target, ID: 9).\n7. Prüfung der Typkodierungen: Die Relations IDs 8 und 9 sind in der Liste der Typkodierungen vorhanden.\n8. GraphCode erstellt mit den Relations und den Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 8],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027belongs to\u0027, \u0027me\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027me\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (attribute: \u0027activity\u0027), \u0027pool\u0027 ist ein Objekt (attribute: \u0027object\u0027), \u0027Maria\u0027 ist eine Identität (attribute: \u0027object\u0027).\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027swim\u0027 (Aktivität) wird von \u0027Maria\u0027 (Identität) durchgeführt (relation: perform, ID: 8).\\n   - \u0027pool\u0027 (Objekt) wird von \u0027Maria\u0027 (Identität) besessen (relation: target, ID: 9).\\n7. Prüfung der Typkodierungen: Die Relations IDs 8 und 9 sind in der Liste der Typkodierungen vorhanden.\\n8. GraphCode erstellt mit den Relations und den Typkodierungen.\"\n}"
+}

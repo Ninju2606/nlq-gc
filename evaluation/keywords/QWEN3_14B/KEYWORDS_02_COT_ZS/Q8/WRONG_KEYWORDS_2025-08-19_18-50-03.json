@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boot",
+    "lake",
+    "ride"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter wurden aus der Nutzeranfrage ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027.\n2. Relative Verweise wurden gelöst und gespeichert: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\u0027\n3. Die potenziellen Stichwörter wurden ins Englische übersetzt: \u0027daughter\u0027, \u0027boot\u0027, \u0027lake\u0027, \u0027ride\u0027.\n4. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular eingefügt, da sie auf den Anfrager referiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boot\", \"lake\", \"ride\"],\n  \"description\": \"1. Potenzielle Stichwörter wurden aus der Nutzeranfrage ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027.\\n2. Relative Verweise wurden gelöst und gespeichert: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\u0027\\n3. Die potenziellen Stichwörter wurden ins Englische übersetzt: \u0027daughter\u0027, \u0027boot\u0027, \u0027lake\u0027, \u0027ride\u0027.\\n4. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular eingefügt, da sie auf den Anfrager referiert.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: \u0027Ich\u0027 ist ein relativer Verweis auf den Nutzer, der als \u0027Maria\u0027 identifiziert ist.\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt unverändert.\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 wird in \u0027Maria\u0027 ersetzt, da sie auf den Anfrager referiert.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 durch → \u0027perform\u0027 (Typ 8), \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet → \u0027target\u0027 (Typ 9).\n7. Prüfung der Typkodierungen: \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) sind vorhanden.\n8. Zusammenfassung zum GraphCode: Das Vokabular besteht aus \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. Die Bewertungsmatrix beschreibt die Attributeigenschaften auf der Einheitsdiagonalen und die Beziehungen \u0027perform\u0027 und \u0027target\u0027 außerhalb der Diagonalen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 ist ein relativer Verweis auf den Nutzer, der als \u0027Maria\u0027 identifiziert ist.\\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt unverändert.\\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 wird in \u0027Maria\u0027 ersetzt, da sie auf den Anfrager referiert.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1).\\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 durch → \u0027perform\u0027 (Typ 8), \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet → \u0027target\u0027 (Typ 9).\\n7. Prüfung der Typkodierungen: \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) sind vorhanden.\\n8. Zusammenfassung zum GraphCode: Das Vokabular besteht aus \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. Die Bewertungsmatrix beschreibt die Attributeigenschaften auf der Einheitsdiagonalen und die Beziehungen \u0027perform\u0027 und \u0027target\u0027 außerhalb der Diagonalen.\"\n}"
+}

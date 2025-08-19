@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode wurde erfolgreich erzeugt. Das Vokabular enthält die Begriffe aus der Anfrage. Auf der Einheitsdiagonalen sind die Typkodierungen für die jeweiligen Begriffe gesetzt (1 \u003d object, 4 \u003d activity, 2 \u003d context, 1 \u003d object).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich erzeugt. Das Vokabular enthält die Begriffe aus der Anfrage. Auf der Einheitsdiagonalen sind die Typkodierungen für die jeweiligen Begriffe gesetzt (1 \u003d object, 4 \u003d activity, 2 \u003d context, 1 \u003d object).\"\n}"
+}

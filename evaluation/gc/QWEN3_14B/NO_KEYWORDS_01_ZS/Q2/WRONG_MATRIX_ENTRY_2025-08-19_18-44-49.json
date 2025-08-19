@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "The GraphCode represents the action \u0027Tim runs\u0027. \u0027Tim\u0027 is identified as the subject performing the activity \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"The GraphCode represents the action \u0027Tim runs\u0027. \u0027Tim\u0027 is identified as the subject performing the activity \u0027run\u0027.\"\n}"
+}

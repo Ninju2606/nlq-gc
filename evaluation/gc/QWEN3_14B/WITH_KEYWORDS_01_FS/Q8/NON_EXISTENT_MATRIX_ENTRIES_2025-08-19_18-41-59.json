@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter (implizit als \u0027person\u0027) ein Boot auf einem See fahren. \u0027drive\u0027 bezeichnet die Aktivität, \u0027boat\u0027 das Fahrzeug und \u0027lake\u0027 den Ort.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 4, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter (implizit als \u0027person\u0027) ein Boot auf einem See fahren. \u0027drive\u0027 bezeichnet die Aktivität, \u0027boat\u0027 das Fahrzeug und \u0027lake\u0027 den Ort.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich schwimme in meinem Pool\u0027. Die Stichwörter sind \u0027schwimme\u0027, \u0027Pool\u0027 sowie die Identifikation \u0027meinem\u0027, die auf \u0027Maria\u0027 verweist.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetze die Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027.\n4. Ersetze Identifikation des Nutzers: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1).\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ: perform, id\u003d8), \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (Typ: in, aber es gibt keinen Eintrag für \u0027in\u0027, stattdessen wird \u0027attached\u0027 als Näherung verwendet, aber es ist kein passender Typ vorhanden). Da es keinen passenden Typ für \u0027in\u0027 gibt, wird stattdessen die Beziehung nicht in der Matrix eingetragen.\n7. Überprüfung der Relationen: Der Typ \u0027perform\u0027 (id\u003d8) ist vorhanden, für \u0027in\u0027 gibt es jedoch keinen passenden Typ aus der Liste. Es wird daher ein Fehler gemeldet, aber die Matrix wird weiterhin erstellt, da \u0027perform\u0027 vorhanden ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich schwimme in meinem Pool\u0027. Die Stichwörter sind \u0027schwimme\u0027, \u0027Pool\u0027 sowie die Identifikation \u0027meinem\u0027, die auf \u0027Maria\u0027 verweist.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetze die Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027.\\n4. Ersetze Identifikation des Nutzers: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1).\\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ: perform, id\u003d8), \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt (Typ: in, aber es gibt keinen Eintrag für \u0027in\u0027, stattdessen wird \u0027attached\u0027 als Näherung verwendet, aber es ist kein passender Typ vorhanden). Da es keinen passenden Typ für \u0027in\u0027 gibt, wird stattdessen die Beziehung nicht in der Matrix eingetragen.\\n7. Überprüfung der Relationen: Der Typ \u0027perform\u0027 (id\u003d8) ist vorhanden, für \u0027in\u0027 gibt es jedoch keinen passenden Typ aus der Liste. Es wird daher ein Fehler gemeldet, aber die Matrix wird weiterhin erstellt, da \u0027perform\u0027 vorhanden ist.\"\n}"
+}

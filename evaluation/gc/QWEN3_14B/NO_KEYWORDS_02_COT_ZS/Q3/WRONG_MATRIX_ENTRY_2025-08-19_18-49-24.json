@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Maria\u0027, \u0027schwimme\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. Nach Verarbeitung: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027pool\u0027.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n4. Ersetzung der Identifikation: \u0027mir\u0027 durch \u0027Maria\u0027 und \u0027gehört\u0027 wird als \u0027own\u0027 interpretiert.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1), \u0027own\u0027 ist eine Relation (id\u003d2, \u0027context\u0027).\n6. Relationen: \u0027Maria\u0027 ist das Subjekt, das \u0027swim\u0027 (Aktivität) ausführt. \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt, der \u0027own\u0027 (Besitz) von \u0027Maria\u0027 ist. \u0027Maria\u0027 besitzt den \u0027pool\u0027.\n7. Typkodierungen: id\u003d1 (object), id\u003d4 (activity), id\u003d2 (context). Alle Relationen und Attribute haben passende Typkodierungen.\n8. GraphCode erstellt mit Vokabular und Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Maria\u0027, \u0027schwimme\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. Nach Verarbeitung: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027pool\u0027.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n4. Ersetzung der Identifikation: \u0027mir\u0027 durch \u0027Maria\u0027 und \u0027gehört\u0027 wird als \u0027own\u0027 interpretiert.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1), \u0027own\u0027 ist eine Relation (id\u003d2, \u0027context\u0027).\\n6. Relationen: \u0027Maria\u0027 ist das Subjekt, das \u0027swim\u0027 (Aktivität) ausführt. \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt, der \u0027own\u0027 (Besitz) von \u0027Maria\u0027 ist. \u0027Maria\u0027 besitzt den \u0027pool\u0027.\\n7. Typkodierungen: id\u003d1 (object), id\u003d4 (activity), id\u003d2 (context). Alle Relationen und Attribute haben passende Typkodierungen.\\n8. GraphCode erstellt mit Vokabular und Bewertungsmatrix.\"\n}"
+}

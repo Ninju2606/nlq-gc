@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: Tim, rennt. \n2. Keine relativen Verweise zu erkennen. \n3. Übersetzung ins Englische: Tim, run. \n4. Keine Identifikation des Nutzers in den Stichwörtern. \n5. Attributeigenschaften: „Tim“ ist ein Objekt (Typ-ID: 1), „run“ ist eine Aktivität (Typ-ID: 4). \n6. Die Relation zwischen „Tim“ und „run“ ist, dass Tim die Aktivität „run“ ausführt. \n7. Typkodierung für die Relation „perform“ (ID: 8) ist vorhanden. \n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: Tim, rennt. \\n2. Keine relativen Verweise zu erkennen. \\n3. Übersetzung ins Englische: Tim, run. \\n4. Keine Identifikation des Nutzers in den Stichwörtern. \\n5. Attributeigenschaften: „Tim“ ist ein Objekt (Typ-ID: 1), „run“ ist eine Aktivität (Typ-ID: 4). \\n6. Die Relation zwischen „Tim“ und „run“ ist, dass Tim die Aktivität „run“ ausführt. \\n7. Typkodierung für die Relation „perform“ (ID: 8) ist vorhanden. \\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

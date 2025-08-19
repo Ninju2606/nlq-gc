@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potential keywords \u0027Häuser\u0027, \u0027Fragen\u0027, and \u0027malen\u0027 have been identified from the user query. The keywords have been translated into English as \u0027houses\u0027, \u0027questions\u0027, and \u0027paint\u0027. No personal identifiers such as \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 were present in the query, so the user identification \u0027Maria\u0027 has been ignored. Relative references and other elements of the query that do not describe the Metaverse scene have been excluded.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"Potential keywords \u0027Häuser\u0027, \u0027Fragen\u0027, and \u0027malen\u0027 have been identified from the user query. The keywords have been translated into English as \u0027houses\u0027, \u0027questions\u0027, and \u0027paint\u0027. No personal identifiers such as \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 were present in the query, so the user identification \u0027Maria\u0027 has been ignored. Relative references and other elements of the query that do not describe the Metaverse scene have been excluded.\"\n}"
+}

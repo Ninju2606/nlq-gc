@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Relative Verweise: Keine identifizierbaren relativen Verweise in der Anfrage.\n3. Übersetzung der Stichwörter ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n4. Ersetzung der Identifikation des Nutzers: Keine Anweisung, die sich auf \u0027Maria\u0027 bezieht, daher keine Ersetzung notwendig.\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt, \u0027question\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität.\n6. Relationen zwischen den Stichwörtern: Es gibt keine direkten Relationsangaben zwischen \u0027house\u0027, \u0027question\u0027 und \u0027paint\u0027.\n7. Typkodierung: Für die Einträge auf der Einheitsdiagonalen (Objekt, Objekt, Aktivität) sind Typkodierungen vorhanden (Typ 1, 1, 4). Für andere Relationen (i ≠ j) werden keine Relationen definiert, daher keine weiteren Typkodierungen benötigt.\n8. GraphCode zusammengefasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Relative Verweise: Keine identifizierbaren relativen Verweise in der Anfrage.\\n3. Übersetzung der Stichwörter ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Ersetzung der Identifikation des Nutzers: Keine Anweisung, die sich auf \u0027Maria\u0027 bezieht, daher keine Ersetzung notwendig.\\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt, \u0027question\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität.\\n6. Relationen zwischen den Stichwörtern: Es gibt keine direkten Relationsangaben zwischen \u0027house\u0027, \u0027question\u0027 und \u0027paint\u0027.\\n7. Typkodierung: Für die Einträge auf der Einheitsdiagonalen (Objekt, Objekt, Aktivität) sind Typkodierungen vorhanden (Typ 1, 1, 4). Für andere Relationen (i ≠ j) werden keine Relationen definiert, daher keine weiteren Typkodierungen benötigt.\\n8. GraphCode zusammengefasst.\"\n}"
+}

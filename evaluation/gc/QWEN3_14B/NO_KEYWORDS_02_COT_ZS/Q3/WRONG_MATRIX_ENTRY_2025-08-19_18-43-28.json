@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung in das Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027, \u0027own\u0027.\n4. Ersetzen der Identifikation: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist ein Kontext (context) und \u0027own\u0027 ist eine Eigenschaft (characteristic).\n6. Relationen: Maria (context) führt die Aktivität \u0027swim\u0027 (activity) in einem \u0027pool\u0027 (object) durch, das sie (Maria) besitzt (own).\n7. Typkodierungen: \u0027activity\u0027 (ID 4), \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027characteristic\u0027 (ID 14) sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung in das Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027, \u0027own\u0027.\\n4. Ersetzen der Identifikation: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist ein Kontext (context) und \u0027own\u0027 ist eine Eigenschaft (characteristic).\\n6. Relationen: Maria (context) führt die Aktivität \u0027swim\u0027 (activity) in einem \u0027pool\u0027 (object) durch, das sie (Maria) besitzt (own).\\n7. Typkodierungen: \u0027activity\u0027 (ID 4), \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027characteristic\u0027 (ID 14) sind vorhanden.\"\n}"
+}

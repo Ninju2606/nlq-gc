@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise, die aufgespalten werden müssten.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027, \u0027run\u0027.\n4. Die Nutzeridentifikation \u0027Maria\u0027 wurde nicht ersetzt, da sie nicht auf den Anfragensteller refereziert.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 durchführt. Dies entspricht dem Typ \u0027perform\u0027, der im Typkodierungsarray vorhanden ist.\n7. Es gibt für die Relation \u0027perform\u0027 einen entsprechenden Eintrag mit der ID 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise, die aufgespalten werden müssten.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027, \u0027run\u0027.\\n4. Die Nutzeridentifikation \u0027Maria\u0027 wurde nicht ersetzt, da sie nicht auf den Anfragensteller refereziert.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 durchführt. Dies entspricht dem Typ \u0027perform\u0027, der im Typkodierungsarray vorhanden ist.\\n7. Es gibt für die Relation \u0027perform\u0027 einen entsprechenden Eintrag mit der ID 8.\"\n}"
+}

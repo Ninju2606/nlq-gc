@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Tim\u0027, \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise in der Anfrage.\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage, daher keine Ersetzung.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 ausführt. Dies entspricht dem Typ \u0027perform\u0027, der in der Typkodierung (ID 8) vorhanden ist.\n7. Typ-ID 1 (object) und Typ-ID 4 (activity) sind vorhanden. Typ-ID 8 (perform) ist vorhanden.\n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Tim\u0027, \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise in der Anfrage.\\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\\n4. Es gibt keine Identifikation des Nutzers (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage, daher keine Ersetzung.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 ausführt. Dies entspricht dem Typ \u0027perform\u0027, der in der Typkodierung (ID 8) vorhanden ist.\\n7. Typ-ID 1 (object) und Typ-ID 4 (activity) sind vorhanden. Typ-ID 8 (perform) ist vorhanden.\\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

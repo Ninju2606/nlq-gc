@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode basiert auf der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027. Die Bewertungsmatrix kodiert die Beziehungen zwischen diesen Begriffen. \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 ist ein Kontext (Typ 2), \u0027pool\u0027 ist ein Objekt (Typ 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode basiert auf der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027. Die Bewertungsmatrix kodiert die Beziehungen zwischen diesen Begriffen. \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027own\u0027 ist ein Kontext (Typ 2), \u0027pool\u0027 ist ein Objekt (Typ 1).\"\n}"
+}

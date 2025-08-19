@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "my daughter",
+    "I",
+    "boat",
+    "lake",
+    "drive"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords identified from the user query: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027. The words \u0027auf\u0027 and \u0027einem\u0027 are prepositions and not relevant as keywords. \u0027Meine Tochter\u0027 and \u0027ich\u0027 refer to people, \u0027Boot\u0027 and \u0027See\u0027 refer to objects and locations. \u0027fahre\u0027 is transformed into the base verb \u0027drive\u0027.\n\nStep 2: Relative references identified: \u0027Meine Tochter\u0027 refers to a person related to the user, and \u0027ich\u0027 refers to the user herself. These are noted for later relations.\n\nStep 3: Keywords translated into English: \u0027Meine Tochter\u0027 → \u0027my daughter\u0027, \u0027ich\u0027 → \u0027I\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027, \u0027fahre\u0027 → \u0027drive\u0027.\n\nStep 4: User\u0027s identification (\u0027Maria\u0027) is not explicitly used in the keywords because the keywords were translated to English and the identification is not required in the dictionary unless it\u0027s an object or action directly related. However, \u0027I\u0027 is included in the dictionary as it refers to the user.",
+  "responsePlain": "{\n  \"dictionary\": [\"my daughter\", \"I\", \"boat\", \"lake\", \"drive\"],\n  \"description\": \"Step 1: Potential keywords identified from the user query: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027. The words \u0027auf\u0027 and \u0027einem\u0027 are prepositions and not relevant as keywords. \u0027Meine Tochter\u0027 and \u0027ich\u0027 refer to people, \u0027Boot\u0027 and \u0027See\u0027 refer to objects and locations. \u0027fahre\u0027 is transformed into the base verb \u0027drive\u0027.\\n\\nStep 2: Relative references identified: \u0027Meine Tochter\u0027 refers to a person related to the user, and \u0027ich\u0027 refers to the user herself. These are noted for later relations.\\n\\nStep 3: Keywords translated into English: \u0027Meine Tochter\u0027 → \u0027my daughter\u0027, \u0027ich\u0027 → \u0027I\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027, \u0027fahre\u0027 → \u0027drive\u0027.\\n\\nStep 4: User\u0027s identification (\u0027Maria\u0027) is not explicitly used in the keywords because the keywords were translated to English and the identification is not required in the dictionary unless it\u0027s an object or action directly related. However, \u0027I\u0027 is included in the dictionary as it refers to the user.\"\n}"
+}

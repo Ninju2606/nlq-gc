@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation, in der Tim (dargestellt durch den Eintrag \u0027Tim\u0027 im Vokabular) die Aktivität \u0027run\u0027 ausführt. Da der Nutzer sich als \u0027Maria\u0027 identifiziert und in der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet wird, wird die Identifikation des Nutzers (Maria) separat im Vokabular aufgenommen. Die Beziehung \u0027Tim runs\u0027 wird durch den Typkodierungs-Id 8 (\u0027perform\u0027) abgebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Tim (dargestellt durch den Eintrag \u0027Tim\u0027 im Vokabular) die Aktivität \u0027run\u0027 ausführt. Da der Nutzer sich als \u0027Maria\u0027 identifiziert und in der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet wird, wird die Identifikation des Nutzers (Maria) separat im Vokabular aufgenommen. Die Beziehung \u0027Tim runs\u0027 wird durch den Typkodierungs-Id 8 (\u0027perform\u0027) abgebildet.\"\n}"
+}

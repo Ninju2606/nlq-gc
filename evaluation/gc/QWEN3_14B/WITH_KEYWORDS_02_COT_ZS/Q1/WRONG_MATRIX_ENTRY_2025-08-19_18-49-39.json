@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 gibt an, dass sie \u0027play\u0027 (spielen) tut. In der Anfrage wird \u0027play\u0027 mit \u0027basketball\u0027 (das Objekt) in Verbindung gebracht. Daher wird die Identifikation \u0027maria\u0027 als Verweis auf den Nutzer in das Vokabular aufgenommen.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Dies ist eine Identifikation des Nutzers. Es trägt das Attribut \u0027object\u0027 durch die Typkodierung.\n- \u0027play\u0027: Dies ist eine Aktivität. Es trägt das Attribut \u0027activity\u0027 durch die Typkodierung.\n- \u0027basketball\u0027: Dies ist ein Objekt. Es trägt das Attribut \u0027object\u0027 durch die Typkodierung.\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 und \u0027play\u0027: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch. Dies ist eine \u0027perform\u0027-Relation.\n- \u0027play\u0027 und \u0027basketball\u0027: \u0027play\u0027 wird für das Objekt \u0027basketball\u0027 durchgeführt. Dies ist eine \u0027target\u0027-Relation.\n\n4. Überprüfung der Typkodierungen:\n- \u0027perform\u0027 ist vorhanden mit ID \u003d 8.\n- \u0027target\u0027 ist vorhanden mit ID \u003d 9.\n\n5. Zusammenstellung des GraphCodes: Das Vokabular und die Typkodierungen wurden erfolgreich in eine Bewertungsmatrix übersetzt, die alle vorgegebenen Regeln befolgt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 gibt an, dass sie \u0027play\u0027 (spielen) tut. In der Anfrage wird \u0027play\u0027 mit \u0027basketball\u0027 (das Objekt) in Verbindung gebracht. Daher wird die Identifikation \u0027maria\u0027 als Verweis auf den Nutzer in das Vokabular aufgenommen.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Dies ist eine Identifikation des Nutzers. Es trägt das Attribut \u0027object\u0027 durch die Typkodierung.\\n- \u0027play\u0027: Dies ist eine Aktivität. Es trägt das Attribut \u0027activity\u0027 durch die Typkodierung.\\n- \u0027basketball\u0027: Dies ist ein Objekt. Es trägt das Attribut \u0027object\u0027 durch die Typkodierung.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 und \u0027play\u0027: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch. Dies ist eine \u0027perform\u0027-Relation.\\n- \u0027play\u0027 und \u0027basketball\u0027: \u0027play\u0027 wird für das Objekt \u0027basketball\u0027 durchgeführt. Dies ist eine \u0027target\u0027-Relation.\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027perform\u0027 ist vorhanden mit ID \u003d 8.\\n- \u0027target\u0027 ist vorhanden mit ID \u003d 9.\\n\\n5. Zusammenstellung des GraphCodes: Das Vokabular und die Typkodierungen wurden erfolgreich in eine Bewertungsmatrix übersetzt, die alle vorgegebenen Regeln befolgt.\"\n}"
+}

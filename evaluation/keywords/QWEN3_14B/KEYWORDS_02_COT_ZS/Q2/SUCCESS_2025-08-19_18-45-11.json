@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Tim\u0027 and \u0027run\u0027 were identified from the query. \u0027Tim\u0027 refers to a character in the scene, and \u0027run\u0027 describes the action taking place. The user\u0027s identifier \u0027Maria\u0027 does not appear in the query and is therefore not included in the vocabulary. The query was translated into English, and relative references were processed.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The keywords \u0027Tim\u0027 and \u0027run\u0027 were identified from the query. \u0027Tim\u0027 refers to a character in the scene, and \u0027run\u0027 describes the action taking place. The user\u0027s identifier \u0027Maria\u0027 does not appear in the query and is therefore not included in the vocabulary. The query was translated into English, and relative references were processed.\"\n}"
+}

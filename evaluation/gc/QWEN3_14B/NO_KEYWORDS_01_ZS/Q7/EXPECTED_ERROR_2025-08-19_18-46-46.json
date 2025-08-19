@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass \u0027house\u0027 (Haus), \u0027paint\u0027 (malen) und \u0027question\u0027 (Fragen) in der Szene des Metaverse vorkommen. Es gibt keine direkten Relationen zwischen den Begriffen, daher sind nur die Diagonaleneinträge mit Typ 1 (object) befüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass \u0027house\u0027 (Haus), \u0027paint\u0027 (malen) und \u0027question\u0027 (Fragen) in der Szene des Metaverse vorkommen. Es gibt keine direkten Relationen zwischen den Begriffen, daher sind nur die Diagonaleneinträge mit Typ 1 (object) befüllt.\"\n}"
+}

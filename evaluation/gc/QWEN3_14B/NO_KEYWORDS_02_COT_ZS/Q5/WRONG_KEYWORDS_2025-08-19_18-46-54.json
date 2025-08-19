@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Situationen, ich, gelben Hut, trage. Nach Verarbeitung werden sie zu: situation, Maria, yellow, hat.\n2. Relative Verweise: \u0027ich\u0027 wird auf \u0027Maria\u0027 abgebildet.\n3. Übersetzung ins Englische: Situationen → situation, ich → Maria (bereits als Identifikation), gelben Hut → yellow hat, trage → hat.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext (2), \u0027Maria\u0027 ist eine Person (2), \u0027yellow\u0027 ist ein Attribut (1), \u0027hat\u0027 ist eine Aktivität (4).\n6. Relationen: \u0027Maria\u0027 ist Teil der \u0027situation\u0027, \u0027yellow\u0027 beschreibt \u0027hat\u0027, \u0027Maria\u0027 trägt \u0027yellow hat\u0027 (durch Aktivität \u0027hat\u0027).\n7. Prüfung der Typkodierungen: \u0027situation\u0027 → 2 (context), \u0027Maria\u0027 → 2 (context), \u0027yellow\u0027 → 1 (object), \u0027hat\u0027 → 4 (activity). Der Typ \u0027attached\u0027 (5), \u0027under\u0027 (6), \u0027above\u0027 (7), \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027daughter\u0027 (10), \u0027characteristic\u0027 (14) werden nicht benötigt.\n8. GraphCode wurde korrekt erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Situationen, ich, gelben Hut, trage. Nach Verarbeitung werden sie zu: situation, Maria, yellow, hat.\\n2. Relative Verweise: \u0027ich\u0027 wird auf \u0027Maria\u0027 abgebildet.\\n3. Übersetzung ins Englische: Situationen → situation, ich → Maria (bereits als Identifikation), gelben Hut → yellow hat, trage → hat.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext (2), \u0027Maria\u0027 ist eine Person (2), \u0027yellow\u0027 ist ein Attribut (1), \u0027hat\u0027 ist eine Aktivität (4).\\n6. Relationen: \u0027Maria\u0027 ist Teil der \u0027situation\u0027, \u0027yellow\u0027 beschreibt \u0027hat\u0027, \u0027Maria\u0027 trägt \u0027yellow hat\u0027 (durch Aktivität \u0027hat\u0027).\\n7. Prüfung der Typkodierungen: \u0027situation\u0027 → 2 (context), \u0027Maria\u0027 → 2 (context), \u0027yellow\u0027 → 1 (object), \u0027hat\u0027 → 4 (activity). Der Typ \u0027attached\u0027 (5), \u0027under\u0027 (6), \u0027above\u0027 (7), \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027daughter\u0027 (10), \u0027characteristic\u0027 (14) werden nicht benötigt.\\n8. GraphCode wurde korrekt erstellt.\"\n}"
+}

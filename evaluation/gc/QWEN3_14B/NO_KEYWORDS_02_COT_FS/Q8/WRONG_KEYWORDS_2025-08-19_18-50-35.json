@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake",
+    "daughter"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      10
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"fahre\", \"Boot\", \"See\".\n        2. Es gibt einen relativen Verweis: \"Meine Tochter\". Der neue Stichwort ist \"Maria\".\n        3. Die englischen Stichwörter sind \"Maria\", \"boat\", \"lake\", \"daughter\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"boat\", \"lake\", \"daughter\".\n        5. \"Maria\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"daughter\" ist eine Aktivität.\n        6. \"Maria\" führt die Aktivität \"boat\" aus. \"boat\" bezieht sich auf \"lake\". \"Maria\" ist die Mutter von \"daughter\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\", \"daughter\"],\n  \"matrix\": [\n    [1, 7, 0, 10],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"fahre\\\", \\\"Boot\\\", \\\"See\\\".\\n        2. Es gibt einen relativen Verweis: \\\"Meine Tochter\\\". Der neue Stichwort ist \\\"Maria\\\".\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"boat\\\", \\\"lake\\\", \\\"daughter\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"boat\\\", \\\"lake\\\", \\\"daughter\\\".\\n        5. \\\"Maria\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"daughter\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"boat\\\" aus. \\\"boat\\\" bezieht sich auf \\\"lake\\\". \\\"Maria\\\" ist die Mutter von \\\"daughter\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.\"\n}"
+}

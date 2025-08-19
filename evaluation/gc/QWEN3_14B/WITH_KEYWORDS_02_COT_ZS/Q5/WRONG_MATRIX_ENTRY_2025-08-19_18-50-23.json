@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria wird im Vokabular durch den Eintrag \u0027maria\u0027 dargestellt. Der Begriff \u0027hat\u0027 wird interpretiert als \u0027wear\u0027, da der Nutzer etwas trägt. \u0027yellow\u0027 bezeichnet das Attribut des Huts.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true)\n- \u0027wear\u0027: Aktivität (identityMapping \u003d false)\n- \u0027hat\u0027: Attribut (identityMapping \u003d false)\n- \u0027yellow\u0027: Attribut (identityMapping \u003d false)\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 trägt (\u0027wear\u0027)\n- \u0027wear\u0027 wird durch \u0027hat\u0027 dargestellt\n- \u0027yellow\u0027 beschreibt das Attribut des getragenen Huts\n4. Passende Typkodierungen:\n- \u0027maria\u0027 (i\u003d0) → Typ 1 (object, identityMapping \u003d true)\n- \u0027wear\u0027 (i\u003d1) → Typ 4 (activity, identityMapping \u003d false)\n- \u0027hat\u0027 (i\u003d2) → Typ 2 (context, identityMapping \u003d false)\n- \u0027yellow\u0027 (i\u003d3) → Typ 2 (context, identityMapping \u003d false)\n5. GraphCode wurde korrekt generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria wird im Vokabular durch den Eintrag \u0027maria\u0027 dargestellt. Der Begriff \u0027hat\u0027 wird interpretiert als \u0027wear\u0027, da der Nutzer etwas trägt. \u0027yellow\u0027 bezeichnet das Attribut des Huts.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true)\\n- \u0027wear\u0027: Aktivität (identityMapping \u003d false)\\n- \u0027hat\u0027: Attribut (identityMapping \u003d false)\\n- \u0027yellow\u0027: Attribut (identityMapping \u003d false)\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 trägt (\u0027wear\u0027)\\n- \u0027wear\u0027 wird durch \u0027hat\u0027 dargestellt\\n- \u0027yellow\u0027 beschreibt das Attribut des getragenen Huts\\n4. Passende Typkodierungen:\\n- \u0027maria\u0027 (i\u003d0) → Typ 1 (object, identityMapping \u003d true)\\n- \u0027wear\u0027 (i\u003d1) → Typ 4 (activity, identityMapping \u003d false)\\n- \u0027hat\u0027 (i\u003d2) → Typ 2 (context, identityMapping \u003d false)\\n- \u0027yellow\u0027 (i\u003d3) → Typ 2 (context, identityMapping \u003d false)\\n5. GraphCode wurde korrekt generiert.\"\n}"
+}

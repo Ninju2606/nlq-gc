@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Maria\u0027, \u0027basketball\u0027.\n2. Keine relativen Verweise gefunden.\n3. Die Stichwörter sind bereits auf Englisch.\n4. Die Identifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie auf den Anfragensteller referiert.\n5. \u0027Maria\u0027 hat die Eigenschaft \u0027object\u0027, \u0027basketball\u0027 hat die Eigenschaft \u0027object\u0027.\n6. Die Beziehung zwischen \u0027Maria\u0027 und \u0027basketball\u0027 ist die Aktivität \u0027perform\u0027, da Maria Basketball spielt.\n7. Die Typkodierung für \u0027perform\u0027 ist ID 8, was zulässig ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Maria\u0027, \u0027basketball\u0027.\\n2. Keine relativen Verweise gefunden.\\n3. Die Stichwörter sind bereits auf Englisch.\\n4. Die Identifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie auf den Anfragensteller referiert.\\n5. \u0027Maria\u0027 hat die Eigenschaft \u0027object\u0027, \u0027basketball\u0027 hat die Eigenschaft \u0027object\u0027.\\n6. Die Beziehung zwischen \u0027Maria\u0027 und \u0027basketball\u0027 ist die Aktivität \u0027perform\u0027, da Maria Basketball spielt.\\n7. Die Typkodierung für \u0027perform\u0027 ist ID 8, was zulässig ist.\"\n}"
+}

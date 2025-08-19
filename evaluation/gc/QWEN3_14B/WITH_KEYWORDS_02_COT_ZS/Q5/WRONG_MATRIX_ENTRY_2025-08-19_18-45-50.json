@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers (Maria) wurden dem Vokabular zugeordnet. Im Vokabular erscheint \u0027maria\u0027, da sie die Identifikation des Nutzers ist und im Kontext der Anfrage relevant ist.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Bezeichnet die Identität des Nutzers. Es handelt sich um ein Objekt (identityMapping \u003d true).\n- \u0027wear\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false).\n- \u0027hat\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false).\n- \u0027yellow\u0027: Bezeichnet ein Attribut (identityMapping \u003d false).\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 trägt (\u0027wear\u0027) something (\u0027hat\u0027).\n- \u0027hat\u0027 hat das Attribut \u0027yellow\u0027.\n\n4. Überprüfung der Typkodierungen:\n- \u0027maria\u0027 ist ein Objekt → Typkodierung 1\n- \u0027wear\u0027 ist eine Aktivität → Typkodierung 4\n- \u0027hat\u0027 ist eine Aktivität → Typkodierung 4\n- \u0027yellow\u0027 ist ein Attribut → Typkodierung 2\n\n5. Der GraphCode wurde nach den Anweisungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers (Maria) wurden dem Vokabular zugeordnet. Im Vokabular erscheint \u0027maria\u0027, da sie die Identifikation des Nutzers ist und im Kontext der Anfrage relevant ist.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Bezeichnet die Identität des Nutzers. Es handelt sich um ein Objekt (identityMapping \u003d true).\\n- \u0027wear\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false).\\n- \u0027hat\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false).\\n- \u0027yellow\u0027: Bezeichnet ein Attribut (identityMapping \u003d false).\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 trägt (\u0027wear\u0027) something (\u0027hat\u0027).\\n- \u0027hat\u0027 hat das Attribut \u0027yellow\u0027.\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027maria\u0027 ist ein Objekt → Typkodierung 1\\n- \u0027wear\u0027 ist eine Aktivität → Typkodierung 4\\n- \u0027hat\u0027 ist eine Aktivität → Typkodierung 4\\n- \u0027yellow\u0027 ist ein Attribut → Typkodierung 2\\n\\n5. Der GraphCode wurde nach den Anweisungen erstellt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027house\u0027, \u0027paint\u0027, und \u0027question\u0027. Maria (Eintrag 1) hat eine Beziehung (Typ \u0027attached\u0027, ID 4) mit \u0027house\u0027 (Eintrag 2). \u0027paint\u0027 (Eintrag 3) ist eine Aktivität (Typ \u0027activity\u0027, ID 9), die Maria (Eintrag 1) ausführt (Typ \u0027perform\u0027, ID 8). \u0027question\u0027 (Eintrag 4) ist eine Aktivität (Typ \u0027activity\u0027, ID 9), die Maria (Eintrag 1) ausführt (Typ \u0027perform\u0027, ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 4, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 9, 8],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027house\u0027, \u0027paint\u0027, und \u0027question\u0027. Maria (Eintrag 1) hat eine Beziehung (Typ \u0027attached\u0027, ID 4) mit \u0027house\u0027 (Eintrag 2). \u0027paint\u0027 (Eintrag 3) ist eine Aktivität (Typ \u0027activity\u0027, ID 9), die Maria (Eintrag 1) ausführt (Typ \u0027perform\u0027, ID 8). \u0027question\u0027 (Eintrag 4) ist eine Aktivität (Typ \u0027activity\u0027, ID 9), die Maria (Eintrag 1) ausführt (Typ \u0027perform\u0027, ID 8).\"\n}"
+}

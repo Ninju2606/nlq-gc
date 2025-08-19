@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Situation, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027swim\u0027 ist die Aktivität, \u0027own\u0027 bezieht sich auf das Besitzverhältnis, und \u0027pool\u0027 ist das Objekt. Die Beziehungen sind wie folgt: Maria schwimmt (\u0027swim\u0027 → \u0027maria\u0027 mit Typ \u0027perform\u0027), die Aktivität \u0027swim\u0027 wird auf das Objekt \u0027pool\u0027 angewendet (\u0027swim\u0027 → \u0027pool\u0027 mit Typ \u0027target\u0027), \u0027own\u0027 bezieht sich auf \u0027maria\u0027 (Typ \u0027object\u0027) und \u0027pool\u0027 wird als Objekt (\u0027object\u0027) definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 0],\n    [0, 0, 1, 0],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situation, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027swim\u0027 ist die Aktivität, \u0027own\u0027 bezieht sich auf das Besitzverhältnis, und \u0027pool\u0027 ist das Objekt. Die Beziehungen sind wie folgt: Maria schwimmt (\u0027swim\u0027 → \u0027maria\u0027 mit Typ \u0027perform\u0027), die Aktivität \u0027swim\u0027 wird auf das Objekt \u0027pool\u0027 angewendet (\u0027swim\u0027 → \u0027pool\u0027 mit Typ \u0027target\u0027), \u0027own\u0027 bezieht sich auf \u0027maria\u0027 (Typ \u0027object\u0027) und \u0027pool\u0027 wird als Objekt (\u0027object\u0027) definiert.\"\n}"
+}

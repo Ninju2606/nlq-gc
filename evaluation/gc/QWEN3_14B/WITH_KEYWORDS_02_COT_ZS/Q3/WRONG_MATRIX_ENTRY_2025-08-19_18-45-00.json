@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Maria\u0027 wird als Identifikation des Nutzers verwendet, \u0027own\u0027 (meiner) bezieht sich auf Maria. \u0027swim\u0027 beschreibt die Aktivität, \u0027pool\u0027 das Objekt. Der Nutzer identifiziert sich in der Anfrage selbst.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation (Nutzer)\n- \u0027swim\u0027: Aktivität (activity)\n- \u0027own\u0027: Eigentum (characteristic)\n- \u0027pool\u0027: Objekt (object)\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist \u0027own\u0027 von \u0027pool\u0027 (Besitz)\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform)\n- \u0027swim\u0027 geschieht im \u0027pool\u0027 (context)\n\n4. Prüfung der Relationen:\n- \u0027own\u0027 (Besitz): Typ-ID 14 (characteristic)\n- \u0027perform\u0027 (Aussübung): Typ-ID 8 (perform)\n- \u0027context\u0027 (Kontext): Typ-ID 2 (context)\nAlle Relationen haben einen entsprechenden Typ in der Kodierung.\n\n5. Zusammengefasster GraphCode basierend auf den Informationen und Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Maria\u0027 wird als Identifikation des Nutzers verwendet, \u0027own\u0027 (meiner) bezieht sich auf Maria. \u0027swim\u0027 beschreibt die Aktivität, \u0027pool\u0027 das Objekt. Der Nutzer identifiziert sich in der Anfrage selbst.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation (Nutzer)\\n- \u0027swim\u0027: Aktivität (activity)\\n- \u0027own\u0027: Eigentum (characteristic)\\n- \u0027pool\u0027: Objekt (object)\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist \u0027own\u0027 von \u0027pool\u0027 (Besitz)\\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform)\\n- \u0027swim\u0027 geschieht im \u0027pool\u0027 (context)\\n\\n4. Prüfung der Relationen:\\n- \u0027own\u0027 (Besitz): Typ-ID 14 (characteristic)\\n- \u0027perform\u0027 (Aussübung): Typ-ID 8 (perform)\\n- \u0027context\u0027 (Kontext): Typ-ID 2 (context)\\nAlle Relationen haben einen entsprechenden Typ in der Kodierung.\\n\\n5. Zusammengefasster GraphCode basierend auf den Informationen und Typkodierungen.\"\n}"
+}

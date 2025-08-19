@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es konnten keine relevanten Stichwörter zur Beschreibung einer Szene im Metaverse aus der Anfrage identifiziert werden. Die Anfrage bezieht sich auf einen allgemeinen Terminplanungsbedarf und enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Beziehungen, die für die Generierung eines GraphCodes erforderlich sind.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Es konnten keine relevanten Stichwörter zur Beschreibung einer Szene im Metaverse aus der Anfrage identifiziert werden. Die Anfrage bezieht sich auf einen allgemeinen Terminplanungsbedarf und enthält keine spezifischen Objekte, Attribute, Aktivitäten oder Beziehungen, die für die Generierung eines GraphCodes erforderlich sind.\"\n}"
+}

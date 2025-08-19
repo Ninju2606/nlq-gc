@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027yellow\u0027 (gelb), und \u0027hat\u0027. In der Bewertungsmatrix wird die Relation zwischen den Begriffen definiert: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 ist ein Attribut (Typ 2), und \u0027hat\u0027 ist ein Synonym (Typ 3).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027yellow\u0027 (gelb), und \u0027hat\u0027. In der Bewertungsmatrix wird die Relation zwischen den Begriffen definiert: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 ist ein Attribut (Typ 2), und \u0027hat\u0027 ist ein Synonym (Typ 3).\"\n}"
+}

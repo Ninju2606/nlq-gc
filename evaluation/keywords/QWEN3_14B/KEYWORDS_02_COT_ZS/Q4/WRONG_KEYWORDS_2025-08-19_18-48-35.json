@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter wurden aus der Anfrage ermittelt: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise wurden aufgelöst; in diesem Fall ist \u0027meinem\u0027 auf die Person \u0027Maria\u0027 zurückzuführen.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027swim\u0027, \u0027pool\u0027.\n4. Die Identifikation des Nutzers (\u0027Maria\u0027) wurde anstelle von \u0027meinem\u0027 in das Vokabular aufgenommen.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"1. Potenzielle Stichwörter wurden aus der Anfrage ermittelt: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise wurden aufgelöst; in diesem Fall ist \u0027meinem\u0027 auf die Person \u0027Maria\u0027 zurückzuführen.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027swim\u0027, \u0027pool\u0027.\\n4. Die Identifikation des Nutzers (\u0027Maria\u0027) wurde anstelle von \u0027meinem\u0027 in das Vokabular aufgenommen.\"\n}"
+}

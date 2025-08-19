@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the keywords \u0027Tim\u0027 and \u0027run\u0027 derived from the query \u0027Tim rennt\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The vocabulary contains the keywords \u0027Tim\u0027 and \u0027run\u0027 derived from the query \u0027Tim rennt\u0027.\"\n}"
+}

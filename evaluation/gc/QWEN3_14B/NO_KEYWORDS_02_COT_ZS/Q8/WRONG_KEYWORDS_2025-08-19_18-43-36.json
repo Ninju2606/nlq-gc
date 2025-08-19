@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027ich\u0027.\n3. Übersetzung in das Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Identifikation des Nutzers (Maria) wird in \u0027meine Tochter\u0027 ersetzt.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (object).\n   - \u0027daughter\u0027 ist ein Beziehungstyp (context).\n   - \u0027boat\u0027 ist ein Objekt (object).\n   - \u0027lake\u0027 ist ein Objekt (object).\n6. Relationen:\n   - \u0027Maria\u0027 hat eine Tochter (daughter) -\u003e Typ 2 (context).\n   - \u0027Maria\u0027 und \u0027Tochter\u0027 fahren ein Boot -\u003e Beziehung zwischen beiden und Boot (perform) -\u003e Typ 8 (perform).\n   - Boot wird auf einem See (lake) gefahren -\u003e Beziehung between Boot und See (located on) -\u003e Typ 6 (under), da \u0027under\u0027 die Nähe auf einem See andeutet.\n   - Typkodierung \u0027under\u0027 (ID 6) und \u0027perform\u0027 (ID 8) sind vorhanden.\n7. Für alle Relationen gibt es passende Typkodierungen (ID 2, 6, 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027ich\u0027.\\n3. Übersetzung in das Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Identifikation des Nutzers (Maria) wird in \u0027meine Tochter\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (object).\\n   - \u0027daughter\u0027 ist ein Beziehungstyp (context).\\n   - \u0027boat\u0027 ist ein Objekt (object).\\n   - \u0027lake\u0027 ist ein Objekt (object).\\n6. Relationen:\\n   - \u0027Maria\u0027 hat eine Tochter (daughter) -\u003e Typ 2 (context).\\n   - \u0027Maria\u0027 und \u0027Tochter\u0027 fahren ein Boot -\u003e Beziehung zwischen beiden und Boot (perform) -\u003e Typ 8 (perform).\\n   - Boot wird auf einem See (lake) gefahren -\u003e Beziehung between Boot und See (located on) -\u003e Typ 6 (under), da \u0027under\u0027 die Nähe auf einem See andeutet.\\n   - Typkodierung \u0027under\u0027 (ID 6) und \u0027perform\u0027 (ID 8) sind vorhanden.\\n7. Für alle Relationen gibt es passende Typkodierungen (ID 2, 6, 8).\"\n}"
+}

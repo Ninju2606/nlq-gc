@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise, außer %22mein%22, das auf %22maria%22 verweist. %22mir%22 wurde zu %22maria%22.\n2. %22maria%22 und %22pool%22 sind Objekte der Anfrage. %22swim%22 ist eine Aktivität. %22own%22 ist eine Beziehung.\n3. %22maria%22 führt die Aktivität %22swim%22 aus. %22maria%22 hat eine Beziehung zu %22pool%22 durch %22own%22. %22swim%22 bezieht sich auf %22pool%22.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehung (attached) ist 4. Die ID für Beziehen (target) ist 8. Die ID für In (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 6],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise, außer %22mein%22, das auf %22maria%22 verweist. %22mir%22 wurde zu %22maria%22.\\n2. %22maria%22 und %22pool%22 sind Objekte der Anfrage. %22swim%22 ist eine Aktivität. %22own%22 ist eine Beziehung.\\n3. %22maria%22 führt die Aktivität %22swim%22 aus. %22maria%22 hat eine Beziehung zu %22pool%22 durch %22own%22. %22swim%22 bezieht sich auf %22pool%22.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehung (attached) ist 4. Die ID für Beziehen (target) ist 8. Die ID für In (in) ist 6.\"\n}"
+}

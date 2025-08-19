@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Das Vokabular enthält \u0027tim\u0027, \u0027run\u0027 und \u0027Maria\u0027, da der Nutzer Maria sich selbst in der Anfrage erwähnt. In der Bewertungsmatrix ist die Einheitsdiagonale mit Typkodierungen gefüllt, wobei \u0027tim\u0027 (id\u003d1) als Objekt, \u0027run\u0027 (id\u003d4) als Aktivität und \u0027Maria\u0027 (id\u003d2) als Kontext definiert wurde. Die Relation \u0027tim\u0027 -\u003e \u0027run\u0027 (id\u003d8) steht für \u0027perform\u0027, was bedeutet, dass Maria (Kontext) die Aktivität \u0027run\u0027 mit dem Objekt \u0027tim\u0027 ausführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Das Vokabular enthält \u0027tim\u0027, \u0027run\u0027 und \u0027Maria\u0027, da der Nutzer Maria sich selbst in der Anfrage erwähnt. In der Bewertungsmatrix ist die Einheitsdiagonale mit Typkodierungen gefüllt, wobei \u0027tim\u0027 (id\u003d1) als Objekt, \u0027run\u0027 (id\u003d4) als Aktivität und \u0027Maria\u0027 (id\u003d2) als Kontext definiert wurde. Die Relation \u0027tim\u0027 -\u003e \u0027run\u0027 (id\u003d8) steht für \u0027perform\u0027, was bedeutet, dass Maria (Kontext) die Aktivität \u0027run\u0027 mit dem Objekt \u0027tim\u0027 ausführt.\"\n}"
+}

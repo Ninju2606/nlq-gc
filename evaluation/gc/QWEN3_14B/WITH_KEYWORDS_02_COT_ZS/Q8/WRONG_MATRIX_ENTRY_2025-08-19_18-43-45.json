@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Der Nutzer (Maria) wurde korrekt in das Vokabular aufgenommen, da sie sich selbst identifiziert hat. Die Begriffe \"meine Tochter\" und \"ich\" sind relative Verweise, die auf die Identifikation des Nutzers verweisen.\n\n2. Attributeigenschaften der Stichwörter:\n- maria: Person (Typ 2 - context)\n- person: allgemeine Kategorie (Typ 2 - context)\n- drive: Aktivität (Typ 4 - activity)\n- boat: Objekt (Typ 1 - object)\n- lake: Objekt (Typ 1 - object)\n\n3. Beziehungen zwischen den Stichwörtern:\n- maria ist eine Person (Typ 2 - context)\n- maria und Person sind synonym und gehören zur gleichen Kategorie (Typ 3 - synonym)\n- maria fährt (Typ 8 - perform) das Boot (Typ 9 - target)\n- das Boot wird auf dem See (Typ 5 - attached) gefahren\n- der See ist ein Objekt (Typ 1 - object)\n\n4. Typkodierungen:\n- maria und person: Typ 3 - synonym\n- person und maria: Typ 3 - synonym\n- maria und drive: Typ 8 - perform\n- drive und boat: Typ 9 - target\n- boat und lake: Typ 5 - attached\n\nAlle genannten Relationen haben entsprechende Einträge in den Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 9, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) wurde korrekt in das Vokabular aufgenommen, da sie sich selbst identifiziert hat. Die Begriffe \\\"meine Tochter\\\" und \\\"ich\\\" sind relative Verweise, die auf die Identifikation des Nutzers verweisen.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- maria: Person (Typ 2 - context)\\n- person: allgemeine Kategorie (Typ 2 - context)\\n- drive: Aktivität (Typ 4 - activity)\\n- boat: Objekt (Typ 1 - object)\\n- lake: Objekt (Typ 1 - object)\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- maria ist eine Person (Typ 2 - context)\\n- maria und Person sind synonym und gehören zur gleichen Kategorie (Typ 3 - synonym)\\n- maria fährt (Typ 8 - perform) das Boot (Typ 9 - target)\\n- das Boot wird auf dem See (Typ 5 - attached) gefahren\\n- der See ist ein Objekt (Typ 1 - object)\\n\\n4. Typkodierungen:\\n- maria und person: Typ 3 - synonym\\n- person und maria: Typ 3 - synonym\\n- maria und drive: Typ 8 - perform\\n- drive und boat: Typ 9 - target\\n- boat und lake: Typ 5 - attached\\n\\nAlle genannten Relationen haben entsprechende Einträge in den Typkodierungen.\"\n}"
+}

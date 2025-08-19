@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords extracted from the user\u0027s request: \u0027Termin\u0027 (appointment), \u0027ausmachen\u0027 (make), \u0027bald\u0027 (soon). Step 2: No relative references to resolve. Step 3: Translated to English: \u0027make\u0027, \u0027appointment\u0027, \u0027soon\u0027. Step 4: No personal identifiers like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 referring to the user \u0027Maria\u0027 found in the query.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"soon\"],\n  \"description\": \"Step 1: Potential keywords extracted from the user\u0027s request: \u0027Termin\u0027 (appointment), \u0027ausmachen\u0027 (make), \u0027bald\u0027 (soon). Step 2: No relative references to resolve. Step 3: Translated to English: \u0027make\u0027, \u0027appointment\u0027, \u0027soon\u0027. Step 4: No personal identifiers like \u0027ich\u0027, \u0027mein\u0027, or \u0027mir\u0027 referring to the user \u0027Maria\u0027 found in the query.\"\n}"
+}

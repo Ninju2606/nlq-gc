@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat die Anfrage gestellt: \"Wir müssen bald einen Termin ausmachen.\" Dabei wird der Name \"maria\" als Identifikation des Nutzers verwendet, da sie sich selbst erwähnt. Das Vokabular enthält die Begriffe des Nutzers: \"maria\", \"make\", \"appointment\".\n\n2. Attributeigenschaften der Stichwörter:\n- \"maria\": Identifikation des Nutzers, Typ: object (ID 1)\n- \"make\": Aktivität, Typ: activity (ID 4)\n- \"appointment\": Objekt, Typ: object (ID 1)\n\n3. Die Beziehungen zwischen den Stichwörtern:\n- Maria (maria) führt eine Aktivität aus (make) \u003d\u003e Relation: perform (ID 8)\n- Die Aktivität (make) wird auf ein Objekt (appointment) angewendet \u003d\u003e Relation: target (ID 9)\n\n4. Überprüfung der Typkodierungen:\n- \"maria\" und \"make\": Typkodierung 8 (perform) ist vorhanden.\n- \"make\" und \"appointment\": Typkodierung 9 (target) ist vorhanden.\n\n5. Der GraphCode ist korrekt generiert worden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat die Anfrage gestellt: \\\"Wir müssen bald einen Termin ausmachen.\\\" Dabei wird der Name \\\"maria\\\" als Identifikation des Nutzers verwendet, da sie sich selbst erwähnt. Das Vokabular enthält die Begriffe des Nutzers: \\\"maria\\\", \\\"make\\\", \\\"appointment\\\".\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \\\"maria\\\": Identifikation des Nutzers, Typ: object (ID 1)\\n- \\\"make\\\": Aktivität, Typ: activity (ID 4)\\n- \\\"appointment\\\": Objekt, Typ: object (ID 1)\\n\\n3. Die Beziehungen zwischen den Stichwörtern:\\n- Maria (maria) führt eine Aktivität aus (make) \u003d\u003e Relation: perform (ID 8)\\n- Die Aktivität (make) wird auf ein Objekt (appointment) angewendet \u003d\u003e Relation: target (ID 9)\\n\\n4. Überprüfung der Typkodierungen:\\n- \\\"maria\\\" und \\\"make\\\": Typkodierung 8 (perform) ist vorhanden.\\n- \\\"make\\\" und \\\"appointment\\\": Typkodierung 9 (target) ist vorhanden.\\n\\n5. Der GraphCode ist korrekt generiert worden.\"\n}"
+}

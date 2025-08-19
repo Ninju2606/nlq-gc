@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Die Beziehung zwischen \u0027Maria\u0027 und \u0027make\u0027 wird mit der Typkodierung \u0027perform\u0027 (ID 8) beschrieben, und die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 wird mit der Typkodierung \u0027target\u0027 (ID 8) beschrieben. Die Typkodierungen auf der Einheitsdiagonalen sind korrekt und entsprechen den Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027make\u0027 und \u0027appointment\u0027. Die Beziehung zwischen \u0027Maria\u0027 und \u0027make\u0027 wird mit der Typkodierung \u0027perform\u0027 (ID 8) beschrieben, und die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 wird mit der Typkodierung \u0027target\u0027 (ID 8) beschrieben. Die Typkodierungen auf der Einheitsdiagonalen sind korrekt und entsprechen den Regeln.\"\n}"
+}

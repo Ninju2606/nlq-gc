@@ -1,0 +1,20 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Appointment",
+    "make"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Termin\u0027, \u0027ausmachen\u0027.\n2. Es gibt keine relativen Verweise in der Anfrage.\n3. Übersetzung ins Englische: \u0027Appointment\u0027, \u0027make\u0027.\n4. Es gibt keine direkte Identifikation des Nutzers wie \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027 in der Anfrage.\n5. Attributeigenschaften: \u0027Appointment\u0027 ist ein Objekt (Typ 1), \u0027make\u0027 ist eine Aktivität (Typ 4).\n6. Die Stichwörter stehen in Relation: \u0027make\u0027 (Aktivität) wird auf \u0027Appointment\u0027 (Objekt) angewendet.\n7. Typkodierung für \u0027object\u0027 (Typ 1) und \u0027activity\u0027 (Typ 4) existiert. Die Relation \u0027perform\u0027 (Typ 8) zwischen Aktivität und Objekt ist vorhanden.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Termin\u0027, \u0027ausmachen\u0027.\\n2. Es gibt keine relativen Verweise in der Anfrage.\\n3. Übersetzung ins Englische: \u0027Appointment\u0027, \u0027make\u0027.\\n4. Es gibt keine direkte Identifikation des Nutzers wie \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027 in der Anfrage.\\n5. Attributeigenschaften: \u0027Appointment\u0027 ist ein Objekt (Typ 1), \u0027make\u0027 ist eine Aktivität (Typ 4).\\n6. Die Stichwörter stehen in Relation: \u0027make\u0027 (Aktivität) wird auf \u0027Appointment\u0027 (Objekt) angewendet.\\n7. Typkodierung für \u0027object\u0027 (Typ 1) und \u0027activity\u0027 (Typ 4) existiert. Die Relation \u0027perform\u0027 (Typ 8) zwischen Aktivität und Objekt ist vorhanden.\",\n  \"dictionary\": [\"Appointment\", \"make\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ]\n}"
+}

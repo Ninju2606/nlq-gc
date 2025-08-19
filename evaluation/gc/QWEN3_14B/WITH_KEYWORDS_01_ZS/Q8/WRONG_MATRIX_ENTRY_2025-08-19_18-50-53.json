@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "Der GraphCode beschreibt die Szene: Maria (als Person) fährt ein Boot (objekt) auf einem See (ort). \u0027Maria\u0027 ist im Vokabular enthalten, weil sie die Identifikation des Nutzers ist. Die Beziehung \u0027drive\u0027 wird als Aktivität (Typ 4) kodiert, und die Beziehung zwischen \u0027drive\u0027 und \u0027boat\u0027 sowie zwischen \u0027boat\u0027 und \u0027lake\u0027 wird als \u0027attached\u0027 (Typ 5) kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 5, 0],\n    [0, 0, 5, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene: Maria (als Person) fährt ein Boot (objekt) auf einem See (ort). \u0027Maria\u0027 ist im Vokabular enthalten, weil sie die Identifikation des Nutzers ist. Die Beziehung \u0027drive\u0027 wird als Aktivität (Typ 4) kodiert, und die Beziehung zwischen \u0027drive\u0027 und \u0027boat\u0027 sowie zwischen \u0027boat\u0027 und \u0027lake\u0027 wird als \u0027attached\u0027 (Typ 5) kodiert.\"\n}"
+}

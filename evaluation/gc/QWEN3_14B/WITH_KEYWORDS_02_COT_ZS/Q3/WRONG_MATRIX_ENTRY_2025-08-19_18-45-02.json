@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer \u0027Maria\u0027 hat die Anfrage gestellt: \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Die Identifikation \u0027Maria\u0027 wurde ins Vokabular aufgenommen, da sie sich selbst identifiziert. \u0027mir\u0027 wird durch \u0027maria\u0027 ersetzt.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 ist ein Objekt (Typ 1).\n- \u0027swim\u0027 ist eine Aktivität (Typ 4).\n- \u0027own\u0027 ist ein Kontext (Typ 2).\n- \u0027pool\u0027 ist ein Objekt (Typ 1).\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 (Objekt) führt die Aktivität \u0027swim\u0027 durch (Beziehung: \u0027perform\u0027 - Typ 8).\n- \u0027pool\u0027 (Objekt) wird von \u0027maria\u0027 besessen (Beziehung: \u0027own\u0027 - Typ 2).\n- \u0027swim\u0027 (Aktivität) wird im \u0027pool\u0027 (Objekt) ausgeübt (Beziehung: \u0027target\u0027 - Typ 9).\n\n4. Typkodierungen für die Relationen:\n- \u0027maria\u0027 und \u0027swim\u0027 haben die Relation \u0027perform\u0027 (ID 8).\n- \u0027maria\u0027 und \u0027pool\u0027 haben die Relation \u0027own\u0027 (ID 2).\n- \u0027swim\u0027 und \u0027pool\u0027 haben die Relation \u0027target\u0027 (ID 9).\n\n5. Der GraphCode wurde erfolgreich erstellt, wobei die korrekten Typkodierungen verwendet wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 hat die Anfrage gestellt: \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Die Identifikation \u0027Maria\u0027 wurde ins Vokabular aufgenommen, da sie sich selbst identifiziert. \u0027mir\u0027 wird durch \u0027maria\u0027 ersetzt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 ist ein Objekt (Typ 1).\\n- \u0027swim\u0027 ist eine Aktivität (Typ 4).\\n- \u0027own\u0027 ist ein Kontext (Typ 2).\\n- \u0027pool\u0027 ist ein Objekt (Typ 1).\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 (Objekt) führt die Aktivität \u0027swim\u0027 durch (Beziehung: \u0027perform\u0027 - Typ 8).\\n- \u0027pool\u0027 (Objekt) wird von \u0027maria\u0027 besessen (Beziehung: \u0027own\u0027 - Typ 2).\\n- \u0027swim\u0027 (Aktivität) wird im \u0027pool\u0027 (Objekt) ausgeübt (Beziehung: \u0027target\u0027 - Typ 9).\\n\\n4. Typkodierungen für die Relationen:\\n- \u0027maria\u0027 und \u0027swim\u0027 haben die Relation \u0027perform\u0027 (ID 8).\\n- \u0027maria\u0027 und \u0027pool\u0027 haben die Relation \u0027own\u0027 (ID 2).\\n- \u0027swim\u0027 und \u0027pool\u0027 haben die Relation \u0027target\u0027 (ID 9).\\n\\n5. Der GraphCode wurde erfolgreich erstellt, wobei die korrekten Typkodierungen verwendet wurden.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "wear",
+    "yellow",
+    "hat",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Situationen, trage, gelben, Hut\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf Maria\n3. Übersetzung ins Englische: situation, wear, yellow, hat\n4. Ersetzung von \u0027ich\u0027 durch Nutzeridentifikation: \u0027maria\u0027\n5. Attributeigenschaften: \u0027situation\u0027 (context), \u0027wear\u0027 (activity), \u0027yellow\u0027 (characteristic), \u0027hat\u0027 (object), \u0027maria\u0027 (object)\n6. Relationen: \u0027maria\u0027 trägt \u0027hat\u0027 (\u0027wear\u0027), \u0027hat\u0027 ist gelb (\u0027characteristic\u0027), \u0027gelb\u0027 beschreibt \u0027hat\u0027, \u0027trage\u0027 ist eine Aktivität, die in einer \u0027Situation\u0027 stattfindet\n7. Typkodierungen vorhanden: \u0027context\u0027 (id:2), \u0027activity\u0027 (id:4), \u0027characteristic\u0027 (id:14), \u0027object\u0027 (id:1)\n8. GraphCode zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"wear\", \"yellow\", \"hat\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 2, 0, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Situationen, trage, gelben, Hut\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf Maria\\n3. Übersetzung ins Englische: situation, wear, yellow, hat\\n4. Ersetzung von \u0027ich\u0027 durch Nutzeridentifikation: \u0027maria\u0027\\n5. Attributeigenschaften: \u0027situation\u0027 (context), \u0027wear\u0027 (activity), \u0027yellow\u0027 (characteristic), \u0027hat\u0027 (object), \u0027maria\u0027 (object)\\n6. Relationen: \u0027maria\u0027 trägt \u0027hat\u0027 (\u0027wear\u0027), \u0027hat\u0027 ist gelb (\u0027characteristic\u0027), \u0027gelb\u0027 beschreibt \u0027hat\u0027, \u0027trage\u0027 ist eine Aktivität, die in einer \u0027Situation\u0027 stattfindet\\n7. Typkodierungen vorhanden: \u0027context\u0027 (id:2), \u0027activity\u0027 (id:4), \u0027characteristic\u0027 (id:14), \u0027object\u0027 (id:1)\\n8. GraphCode zusammengesetzt.\"\n}"
+}

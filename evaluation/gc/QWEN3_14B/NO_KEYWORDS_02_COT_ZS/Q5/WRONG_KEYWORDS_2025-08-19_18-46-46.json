@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "wear",
+    "yellow",
+    "hat",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027ich\u0027. Nach Umwandlung in Englisch und Nachbearbeitung entstehen die Stichwörter: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.\n2. Relative Verweise: ‘ich’ bezieht sich auf Maria, wird aber im Vokabular als \u0027maria\u0027 verarbeitet.\n3. Übersetzung der Stichwörter ins Englische: Gegeben, da die Anfrage bereits auf Deutsch formuliert ist, aber alle Wörter bereits in der englischen Form vorliegen.\n4. Identifikation des Nutzers (Maria) wird in \u0027maria\u0027 ersetzt, da ‘ich’ auf Maria verweist.\n5. Attributeigenschaften: \u0027situation\u0027 und \u0027maria\u0027 sind Contexte, \u0027wear\u0027 ist eine Aktivität, \u0027yellow\u0027 und \u0027hat\u0027 sind Objekte.\n6. Relationen zwischen den Begriffen: \u0027maria\u0027 trägt (\u0027wear\u0027) einen \u0027hat\u0027 und der \u0027hat\u0027 ist \u0027yellow\u0027.\n7. Typkodierungen: \u0027situation\u0027 (id 2), \u0027wear\u0027 (id 4), \u0027yellow\u0027 (id 1), \u0027hat\u0027 (id 1), \u0027maria\u0027 (id 2) sind identifizierbar und haben passende Typkodierungen in den bereitgestellten Listen.\n8. GraphCode wurde entsprechend zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"wear\", \"yellow\", \"hat\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 2, 0, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027ich\u0027. Nach Umwandlung in Englisch und Nachbearbeitung entstehen die Stichwörter: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.\\n2. Relative Verweise: ‘ich’ bezieht sich auf Maria, wird aber im Vokabular als \u0027maria\u0027 verarbeitet.\\n3. Übersetzung der Stichwörter ins Englische: Gegeben, da die Anfrage bereits auf Deutsch formuliert ist, aber alle Wörter bereits in der englischen Form vorliegen.\\n4. Identifikation des Nutzers (Maria) wird in \u0027maria\u0027 ersetzt, da ‘ich’ auf Maria verweist.\\n5. Attributeigenschaften: \u0027situation\u0027 und \u0027maria\u0027 sind Contexte, \u0027wear\u0027 ist eine Aktivität, \u0027yellow\u0027 und \u0027hat\u0027 sind Objekte.\\n6. Relationen zwischen den Begriffen: \u0027maria\u0027 trägt (\u0027wear\u0027) einen \u0027hat\u0027 und der \u0027hat\u0027 ist \u0027yellow\u0027.\\n7. Typkodierungen: \u0027situation\u0027 (id 2), \u0027wear\u0027 (id 4), \u0027yellow\u0027 (id 1), \u0027hat\u0027 (id 1), \u0027maria\u0027 (id 2) sind identifizierbar und haben passende Typkodierungen in den bereitgestellten Listen.\\n8. GraphCode wurde entsprechend zusammengesetzt.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass die Begriffe \u0027houses\u0027, \u0027paint\u0027 und \u0027questions\u0027 jeweils als Objekte (Typ 1) in der Szene identifiziert werden. Es gibt keine direkten Beziehungen zwischen diesen Begriffen, da keine relationalen Verbindungen wie \u0027under\u0027, \u0027perform\u0027 oder \u0027attached\u0027 in der Anfrage enthalten sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass die Begriffe \u0027houses\u0027, \u0027paint\u0027 und \u0027questions\u0027 jeweils als Objekte (Typ 1) in der Szene identifiziert werden. Es gibt keine direkten Beziehungen zwischen diesen Begriffen, da keine relationalen Verbindungen wie \u0027under\u0027, \u0027perform\u0027 oder \u0027attached\u0027 in der Anfrage enthalten sind.\"\n}"
+}

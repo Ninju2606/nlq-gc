@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Beziehungsattribut (Typ 2), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1).\n6. Relationen: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027 (Typ 2), \u0027boat\u0027 wird auf dem \u0027lake\u0027 gefahren (Typ 7: \u0027on\u0027, aber dieser Typ ist nicht vorhanden, stattdessen wurde Typ 2 verwendet, was fälschlich ist).\n7. Prüfung: Typ 1 (object) und Typ 2 (context) sind verfügbar. Typ 7 (\u0027on\u0027) ist nicht vorhanden, daher ist die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 fehlerhaft.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027daughter\u0027 ist ein Beziehungsattribut (Typ 2), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1).\\n6. Relationen: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027 (Typ 2), \u0027boat\u0027 wird auf dem \u0027lake\u0027 gefahren (Typ 7: \u0027on\u0027, aber dieser Typ ist nicht vorhanden, stattdessen wurde Typ 2 verwendet, was fälschlich ist).\\n7. Prüfung: Typ 1 (object) und Typ 2 (context) sind verfügbar. Typ 7 (\u0027on\u0027) ist nicht vorhanden, daher ist die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 fehlerhaft.\"\n}"
+}

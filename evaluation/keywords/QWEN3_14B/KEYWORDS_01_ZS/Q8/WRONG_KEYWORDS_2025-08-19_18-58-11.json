@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the identified user \u0027Maria\u0027, the family relation \u0027daughter\u0027, and the objects \u0027boat\u0027 and \u0027lake\u0027 from the scene description.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"description\": \"The vocabulary contains the identified user \u0027Maria\u0027, the family relation \u0027daughter\u0027, and the objects \u0027boat\u0027 and \u0027lake\u0027 from the scene description.\"\n}"
+}

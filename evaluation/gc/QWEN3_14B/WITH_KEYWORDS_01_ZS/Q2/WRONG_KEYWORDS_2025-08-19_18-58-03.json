@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode berücksichtigt, dass Tim die Aktivität \u0027run\u0027 ausführt. Da die Anfrage von Maria stammt, wird sie im Vokabular aufgenommen. Der Typ \u0027object\u0027 (1) wird für \u0027tim\u0027, der Typ \u0027activity\u0027 (4) für \u0027run\u0027 und der Typ \u0027context\u0027 (2) für \u0027Maria\u0027 verwendet. Die Relation \u0027perform\u0027 (8) zwischen \u0027tim\u0027 und \u0027run\u0027 wird ausgedrückt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode berücksichtigt, dass Tim die Aktivität \u0027run\u0027 ausführt. Da die Anfrage von Maria stammt, wird sie im Vokabular aufgenommen. Der Typ \u0027object\u0027 (1) wird für \u0027tim\u0027, der Typ \u0027activity\u0027 (4) für \u0027run\u0027 und der Typ \u0027context\u0027 (2) für \u0027Maria\u0027 verwendet. Die Relation \u0027perform\u0027 (8) zwischen \u0027tim\u0027 und \u0027run\u0027 wird ausgedrückt.\"\n}"
+}

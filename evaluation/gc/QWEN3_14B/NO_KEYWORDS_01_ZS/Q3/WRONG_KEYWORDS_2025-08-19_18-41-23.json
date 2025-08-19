@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "mine",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria in einem Pool schwimmt, der ihr gehört. \u0027swim\u0027 ist die Aktivität, \u0027pool\u0027 das Objekt, \u0027mine\u0027 ist kontextuell mit \u0027Maria\u0027 verbunden, und \u0027Maria\u0027 ist die Identifikation des Nutzers.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"mine\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 9, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria in einem Pool schwimmt, der ihr gehört. \u0027swim\u0027 ist die Aktivität, \u0027pool\u0027 das Objekt, \u0027mine\u0027 ist kontextuell mit \u0027Maria\u0027 verbunden, und \u0027Maria\u0027 ist die Identifikation des Nutzers.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer hat keine expliziten relativen Verweise in der Anfrage, aber es wird erwähnt, dass Maria einen gelben Hut trägt. Die Identifikation des Nutzers, Maria, ist somit im Vokabular enthalten.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers. Es handelt sich um ein Objekt (identityMapping \u003d true).\n   - \u0027wear\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false).\n   - \u0027hat\u0027: Bezeichnet ein Objekt (identityMapping \u003d true).\n   - \u0027yellow\u0027: Bezeichnet ein Attribut (identityMapping \u003d true).\n3. Die Beziehungen zwischen den Stichwörtern:\n   - \u0027maria\u0027 trägt \u0027hat\u0027 (Aktivität \u0027wear\u0027)\n   - \u0027hat\u0027 ist \u0027yellow\u0027 (Attribut \u0027characteristic\u0027)\n   - \u0027maria\u0027 trägt \u0027yellow\u0027 indirekt über \u0027hat\u0027 (Aktivität \u0027wear\u0027)\n4. Beziehungen zu Typkodierungen:\n   - \u0027wear\u0027 (Aktivität) -\u003e Typ 4\n   - \u0027characteristic\u0027 (Attribut) -\u003e Typ 14\n   - \u0027object\u0027 -\u003e Typ 1\n   - \u0027attribute\u0027 -\u003e Typ 2 (wird hier nicht direkt genutzt, ist aber im Vokabular enthalten)\n   - Alle Beziehungen finden sich in den Typkodierungen.\n5. Zusammengefasst in den GraphCode (dictionary und matrix).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer hat keine expliziten relativen Verweise in der Anfrage, aber es wird erwähnt, dass Maria einen gelben Hut trägt. Die Identifikation des Nutzers, Maria, ist somit im Vokabular enthalten.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers. Es handelt sich um ein Objekt (identityMapping \u003d true).\\n   - \u0027wear\u0027: Bezeichnet eine Aktivität (identityMapping \u003d false).\\n   - \u0027hat\u0027: Bezeichnet ein Objekt (identityMapping \u003d true).\\n   - \u0027yellow\u0027: Bezeichnet ein Attribut (identityMapping \u003d true).\\n3. Die Beziehungen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 trägt \u0027hat\u0027 (Aktivität \u0027wear\u0027)\\n   - \u0027hat\u0027 ist \u0027yellow\u0027 (Attribut \u0027characteristic\u0027)\\n   - \u0027maria\u0027 trägt \u0027yellow\u0027 indirekt über \u0027hat\u0027 (Aktivität \u0027wear\u0027)\\n4. Beziehungen zu Typkodierungen:\\n   - \u0027wear\u0027 (Aktivität) -\u003e Typ 4\\n   - \u0027characteristic\u0027 (Attribut) -\u003e Typ 14\\n   - \u0027object\u0027 -\u003e Typ 1\\n   - \u0027attribute\u0027 -\u003e Typ 2 (wird hier nicht direkt genutzt, ist aber im Vokabular enthalten)\\n   - Alle Beziehungen finden sich in den Typkodierungen.\\n5. Zusammengefasst in den GraphCode (dictionary und matrix).\"\n}"
+}

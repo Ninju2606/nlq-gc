@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketballs (basketball) ausführt. Die Typkodierung 1 (object) wird für die Hauptobjekte verwendet, und die Typkodierung 8 (perform) wird zur Beschreibung der Aktivität verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketballs (basketball) ausführt. Die Typkodierung 1 (object) wird für die Hauptobjekte verwendet, und die Typkodierung 8 (perform) wird zur Beschreibung der Aktivität verwendet.\"\n}"
+}

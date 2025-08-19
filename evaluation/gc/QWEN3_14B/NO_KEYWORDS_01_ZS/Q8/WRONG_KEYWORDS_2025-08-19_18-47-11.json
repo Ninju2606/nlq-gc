@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält vier Begriffe, die aus der Anfrage extrahiert wurden: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027lake\u0027. Jeder Begriff ist als eigenständiges Objekt in der Einheitsdiagonalen der Bewertungsmatrix mit dem Typ \u0027object\u0027 kodiert. Es gibt keine weiteren Beziehungen zwischen den Begriffen, da sie nicht durch relationale Wörter wie \u0027perform\u0027, \u0027attached\u0027, \u0027under\u0027 usw. miteinander verbunden sind. Die Identifikation \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da sie in der Anfrage explizit genannt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält vier Begriffe, die aus der Anfrage extrahiert wurden: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027lake\u0027. Jeder Begriff ist als eigenständiges Objekt in der Einheitsdiagonalen der Bewertungsmatrix mit dem Typ \u0027object\u0027 kodiert. Es gibt keine weiteren Beziehungen zwischen den Begriffen, da sie nicht durch relationale Wörter wie \u0027perform\u0027, \u0027attached\u0027, \u0027under\u0027 usw. miteinander verbunden sind. Die Identifikation \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da sie in der Anfrage explizit genannt wird.\"\n}"
+}

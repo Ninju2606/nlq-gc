@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "yellow",
+    "hat",
+    "maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027.\n2. Relative Verweise: Keine erkennbaren relativen Verweise.\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"yellow\", \"hat\", \"maria\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027.\\n2. Relative Verweise: Keine erkennbaren relativen Verweise.\\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt.\"\n}"
+}

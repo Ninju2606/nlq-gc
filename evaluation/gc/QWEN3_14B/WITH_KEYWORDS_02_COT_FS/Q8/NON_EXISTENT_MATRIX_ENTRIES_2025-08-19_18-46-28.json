@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis %22meine Tochter%22 wurde zu den Stichwörtern %22maria%22 und %22person%22, wobei %22person%22 die Tochter von %22maria%22 ist.\n2. %22maria%22 und %22person%22 sind Objekte der Anfrage. %22drive%22 und %22boat%22 sind Aktivitäten. %22lake%22 ist ein Objekt.\n3. %22person%22 ist Tochter von %22maria%22. %22person%22 führt die Aktivität %22drive%22 aus. %22drive%22 bezieht sich auf %22boat%22. %22boat%22 befindet sich in %22lake%22.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 7, 9, 8, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 6, 1]\n  ],\n  \"description\": \"1. Der relative Verweis %22meine Tochter%22 wurde zu den Stichwörtern %22maria%22 und %22person%22, wobei %22person%22 die Tochter von %22maria%22 ist.\\n2. %22maria%22 und %22person%22 sind Objekte der Anfrage. %22drive%22 und %22boat%22 sind Aktivitäten. %22lake%22 ist ein Objekt.\\n3. %22person%22 ist Tochter von %22maria%22. %22person%22 führt die Aktivität %22drive%22 aus. %22drive%22 bezieht sich auf %22boat%22. %22boat%22 befindet sich in %22lake%22.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.\" \n}"
+}

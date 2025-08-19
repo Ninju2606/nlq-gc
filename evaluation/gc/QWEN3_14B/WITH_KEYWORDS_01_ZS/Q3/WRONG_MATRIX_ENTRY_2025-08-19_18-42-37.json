@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode kodiert die Szene, in der Maria im Pool schwimmt und der Pool ihr gehört. Jeder Begriff des Vokabulars wird typisiert: \u0027maria\u0027 als \u0027object\u0027, \u0027swim\u0027 als \u0027activity\u0027, \u0027own\u0027 als \u0027context\u0027 und \u0027pool\u0027 als \u0027object\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode kodiert die Szene, in der Maria im Pool schwimmt und der Pool ihr gehört. Jeder Begriff des Vokabulars wird typisiert: \u0027maria\u0027 als \u0027object\u0027, \u0027swim\u0027 als \u0027activity\u0027, \u0027own\u0027 als \u0027context\u0027 und \u0027pool\u0027 als \u0027object\u0027.\"\n}"
+}

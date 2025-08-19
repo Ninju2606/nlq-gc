@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene \u0027Häuser um Fragen zu malen\u0027 im Metaverse. Das Vokabular besteht aus den Begriffen \u0027houses\u0027, \u0027paint\u0027, und \u0027questions\u0027. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wurde die Nutzeridentifikation \u0027Maria\u0027 ignoriert. Die Bewertungsmatrix enthält nur Einträge auf der Einheitsdiagonalen, da die Relationen zwischen den Begriffen nicht weiter spezifiziert sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene \u0027Häuser um Fragen zu malen\u0027 im Metaverse. Das Vokabular besteht aus den Begriffen \u0027houses\u0027, \u0027paint\u0027, und \u0027questions\u0027. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wurde die Nutzeridentifikation \u0027Maria\u0027 ignoriert. Die Bewertungsmatrix enthält nur Einträge auf der Einheitsdiagonalen, da die Relationen zwischen den Begriffen nicht weiter spezifiziert sind.\"\n}"
+}

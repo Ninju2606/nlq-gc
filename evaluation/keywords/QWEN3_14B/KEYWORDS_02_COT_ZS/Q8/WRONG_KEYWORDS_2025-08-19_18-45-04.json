@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter wurden aus der Nutzeranfrage ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027.\n2. Relative Verweise wurden gelöst und für spätere Relationen gemerkt (z. B. \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027).\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a lake\u0027.\n4. Die Identifikation des Nutzers (\u0027ich\u0027, \u0027meine\u0027) wurde durch \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"ride\"],\n  \"description\": \"1. Potenzielle Stichwörter wurden aus der Nutzeranfrage ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027.\\n2. Relative Verweise wurden gelöst und für spätere Relationen gemerkt (z. B. \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027).\\n3. Die ermittelten Stichwörter wurden ins Englische übersetzt: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a lake\u0027.\\n4. Die Identifikation des Nutzers (\u0027ich\u0027, \u0027meine\u0027) wurde durch \u0027Maria\u0027 ersetzt.\"\n}"
+}

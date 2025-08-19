@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "appointment",
+    "make"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027appointment\u0027 (Termin) und \u0027make\u0027 (ausmachen). Die Typkodierung auf der Diagonalen ist \u0027object\u0027, \u0027context\u0027 und \u0027synonym\u0027 entsprechend den definierten Regeln. Die Relationen zwischen den Begriffen sind nicht weiter spezifiziert, da die Anfrage keine direkten Beziehungen zwischen den Begriffen benennt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"appointment\", \"make\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027Maria\u0027, \u0027appointment\u0027 (Termin) und \u0027make\u0027 (ausmachen). Die Typkodierung auf der Diagonalen ist \u0027object\u0027, \u0027context\u0027 und \u0027synonym\u0027 entsprechend den definierten Regeln. Die Relationen zwischen den Begriffen sind nicht weiter spezifiziert, da die Anfrage keine direkten Beziehungen zwischen den Begriffen benennt.\"\n}"
+}

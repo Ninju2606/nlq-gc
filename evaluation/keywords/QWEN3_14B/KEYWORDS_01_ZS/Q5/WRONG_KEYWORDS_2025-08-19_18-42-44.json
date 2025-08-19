@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, and \u0027situation\u0027 were extracted from the user\u0027s query and represent the vocabulary of the GraphCode.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"situation\"],\n  \"description\": \"The keywords \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, and \u0027situation\u0027 were extracted from the user\u0027s query and represent the vocabulary of the GraphCode.\"\n}"
+}

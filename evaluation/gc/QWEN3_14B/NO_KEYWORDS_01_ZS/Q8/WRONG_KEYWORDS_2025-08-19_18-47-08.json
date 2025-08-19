@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält das Vokabular mit den Begriffen \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, und \u0027lake\u0027. Die Bewertungsmatrix ist eine 4x4-Matrix, wobei die Einträge auf der Einheitsdiagonalen den Typ \u0027object\u0027 (Typ-ID 1) entsprechen, da identityMapping true ist. Die übrigen Einträge sind 0, da keine weiteren Relationen beschrieben wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält das Vokabular mit den Begriffen \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, und \u0027lake\u0027. Die Bewertungsmatrix ist eine 4x4-Matrix, wobei die Einträge auf der Einheitsdiagonalen den Typ \u0027object\u0027 (Typ-ID 1) entsprechen, da identityMapping true ist. Die übrigen Einträge sind 0, da keine weiteren Relationen beschrieben wurden.\"\n}"
+}

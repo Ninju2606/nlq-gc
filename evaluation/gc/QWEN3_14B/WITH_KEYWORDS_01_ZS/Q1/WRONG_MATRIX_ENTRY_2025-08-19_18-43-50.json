@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketball (basketball) ausübt. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 wird durch den Typkodierungs-Typ \u0027perform\u0027 (ID 8) dargestellt, da sie das Spiel ausübt. Die Beziehungen auf der Diagonalen sind die Typkodierung für die jeweiligen Begriffe.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketball (basketball) ausübt. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 wird durch den Typkodierungs-Typ \u0027perform\u0027 (ID 8) dargestellt, da sie das Spiel ausübt. Die Beziehungen auf der Diagonalen sind die Typkodierung für die jeweiligen Begriffe.\"\n}"
+}

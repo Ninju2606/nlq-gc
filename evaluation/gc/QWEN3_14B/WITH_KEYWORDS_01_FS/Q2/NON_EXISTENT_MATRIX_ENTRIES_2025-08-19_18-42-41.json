@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Tim rennt. Das Vokabular besteht aus \u0027tim\u0027 und \u0027run\u0027. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) dargestellt, was bedeutet, dass Tim die Aktivität \u0027run\u0027 ausführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 9]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Tim rennt. Das Vokabular besteht aus \u0027tim\u0027 und \u0027run\u0027. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) dargestellt, was bedeutet, dass Tim die Aktivität \u0027run\u0027 ausführt.\"\n}"
+}

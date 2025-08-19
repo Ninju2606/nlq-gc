@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Tim wurde als Maria identifiziert. Im Vokabular wurde jedoch der Name \u0027tim\u0027 übernommen, da der Nutzer keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet hat. \n2. Das Vokabular besteht aus den Begriffen \u0027tim\u0027 und \u0027run\u0027.\n   - \u0027tim\u0027 ist ein Objekt (Typ 1).\n   - \u0027run\u0027 ist eine Aktivität (Typ 4).\n3. Die Beziehung zwischen den Begriffen: \u0027tim\u0027 ist das Subjekt, das die Aktivität \u0027run\u0027 ausführt. \n4. Die Relation \u0027perform\u0027 (Typ 8) beschreibt, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. Es existiert ein Eintrag für Typ 8. \n   - Auf der Einheitsdiagonalen sind Typ 1 (für \u0027tim\u0027) und Typ 4 (für \u0027run\u0027) definiert. Beide Typen haben identityMapping \u003d\u003d true, was für die Diagonale korrekt ist. \n   - Der Eintrag (1,2) wird mit Typ 8 gefüllt, da identityMapping \u003d\u003d false für Typ 8 ist, was für außerhalb der Diagonale erlaubt ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Tim wurde als Maria identifiziert. Im Vokabular wurde jedoch der Name \u0027tim\u0027 übernommen, da der Nutzer keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet hat. \\n2. Das Vokabular besteht aus den Begriffen \u0027tim\u0027 und \u0027run\u0027.\\n   - \u0027tim\u0027 ist ein Objekt (Typ 1).\\n   - \u0027run\u0027 ist eine Aktivität (Typ 4).\\n3. Die Beziehung zwischen den Begriffen: \u0027tim\u0027 ist das Subjekt, das die Aktivität \u0027run\u0027 ausführt. \\n4. Die Relation \u0027perform\u0027 (Typ 8) beschreibt, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. Es existiert ein Eintrag für Typ 8. \\n   - Auf der Einheitsdiagonalen sind Typ 1 (für \u0027tim\u0027) und Typ 4 (für \u0027run\u0027) definiert. Beide Typen haben identityMapping \u003d\u003d true, was für die Diagonale korrekt ist. \\n   - Der Eintrag (1,2) wird mit Typ 8 gefüllt, da identityMapping \u003d\u003d false für Typ 8 ist, was für außerhalb der Diagonale erlaubt ist.\"\n}"
+}

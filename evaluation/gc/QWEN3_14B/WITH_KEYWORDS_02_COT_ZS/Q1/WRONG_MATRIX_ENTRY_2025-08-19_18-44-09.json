@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5555555555555556,
+  "description": "1. Der Nutzer Maria hat die Anfrage gestellt: \u0027Ich spiele Basketball\u0027. Im Vokabular sind die Begriffe \u0027maria\u0027, \u0027play\u0027, und \u0027basketball\u0027 enthalten. Der Begriff \u0027maria\u0027 steht für die Identifikation des Nutzers, der Begriff \u0027play\u0027 für die Aktivität, und \u0027basketball\u0027 für das Objekt.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: ist eine Identifikation. Es wird im Vokabular als Referenz zur Person verwendet.\n- \u0027play\u0027: ist eine Aktivität, sie beschreibt das Tun des Nutzers.\n- \u0027basketball\u0027: ist ein Objekt, das in der Aktivität \u0027play\u0027 betrieben wird.\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 und \u0027play\u0027: Maria spielt (Aktivität).\n- \u0027play\u0027 und \u0027basketball\u0027: Das Spiel, das gespielt wird, ist Basketball.\n\n4. Typkodierungen für die Relationen:\n- \u0027maria\u0027 und \u0027play\u0027: Die Relation ist \u0027perform\u0027 (ID 8).\n- \u0027play\u0027 und \u0027basketball\u0027: Die Relation ist \u0027target\u0027 (ID 9).\nBeide Typkodierungen sind vorhanden.\n\n5. Der GraphCode wurde entsprechend der Stichwörter und Typkodierungen generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat die Anfrage gestellt: \u0027Ich spiele Basketball\u0027. Im Vokabular sind die Begriffe \u0027maria\u0027, \u0027play\u0027, und \u0027basketball\u0027 enthalten. Der Begriff \u0027maria\u0027 steht für die Identifikation des Nutzers, der Begriff \u0027play\u0027 für die Aktivität, und \u0027basketball\u0027 für das Objekt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: ist eine Identifikation. Es wird im Vokabular als Referenz zur Person verwendet.\\n- \u0027play\u0027: ist eine Aktivität, sie beschreibt das Tun des Nutzers.\\n- \u0027basketball\u0027: ist ein Objekt, das in der Aktivität \u0027play\u0027 betrieben wird.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 und \u0027play\u0027: Maria spielt (Aktivität).\\n- \u0027play\u0027 und \u0027basketball\u0027: Das Spiel, das gespielt wird, ist Basketball.\\n\\n4. Typkodierungen für die Relationen:\\n- \u0027maria\u0027 und \u0027play\u0027: Die Relation ist \u0027perform\u0027 (ID 8).\\n- \u0027play\u0027 und \u0027basketball\u0027: Die Relation ist \u0027target\u0027 (ID 9).\\nBeide Typkodierungen sind vorhanden.\\n\\n5. Der GraphCode wurde entsprechend der Stichwörter und Typkodierungen generiert.\"\n}"
+}

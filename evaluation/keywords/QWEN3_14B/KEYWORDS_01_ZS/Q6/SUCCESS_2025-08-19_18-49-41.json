@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user mentioned making an appointment, which includes the action \u0027make\u0027 and the object \u0027appointment\u0027. Since the user identified herself as \u0027Maria\u0027, this is included in the vocabulary.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"description\": \"The user mentioned making an appointment, which includes the action \u0027make\u0027 and the object \u0027appointment\u0027. Since the user identified herself as \u0027Maria\u0027, this is included in the vocabulary.\"\n}"
+}

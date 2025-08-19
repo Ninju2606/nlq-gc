@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027. Nach Verarbeitung des Kontextes und der Identifikation ergibt sich \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\n2. Relative Verweise: \u0027mir gehörend\u0027 wird aufgelöst zu \u0027Maria\u0027 als Besitzer des Pools.\n3. Übersetzung in das Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027 (da die Anfrage bereits auf Deutsch ist, wurden Stichwörter übersetzt).\n4. Identifikationen des Nutzers wie \u0027mir\u0027 wurden durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1), \u0027Maria\u0027 ist ein Kontext (id\u003d2), da sie den Besitzer darstellt.\n6. Relationen: \u0027swim\u0027 (Aktivität) wird im Kontext \u0027Maria\u0027 (Besitzer) im Pool (Objekt) durchgeführt. \u0027Maria\u0027 ist der Besitzer des Pools.\n7. Typkodierungen: Aktivität (id\u003d4), Objekt (id\u003d1), Kontext (id\u003d2) sind in der Liste vorhanden.\n8. GraphCode wurde zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027. Nach Verarbeitung des Kontextes und der Identifikation ergibt sich \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\\n2. Relative Verweise: \u0027mir gehörend\u0027 wird aufgelöst zu \u0027Maria\u0027 als Besitzer des Pools.\\n3. Übersetzung in das Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027 (da die Anfrage bereits auf Deutsch ist, wurden Stichwörter übersetzt).\\n4. Identifikationen des Nutzers wie \u0027mir\u0027 wurden durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027pool\u0027 ist ein Objekt (id\u003d1), \u0027Maria\u0027 ist ein Kontext (id\u003d2), da sie den Besitzer darstellt.\\n6. Relationen: \u0027swim\u0027 (Aktivität) wird im Kontext \u0027Maria\u0027 (Besitzer) im Pool (Objekt) durchgeführt. \u0027Maria\u0027 ist der Besitzer des Pools.\\n7. Typkodierungen: Aktivität (id\u003d4), Objekt (id\u003d1), Kontext (id\u003d2) sind in der Liste vorhanden.\\n8. GraphCode wurde zusammengesetzt.\"\n}"
+}

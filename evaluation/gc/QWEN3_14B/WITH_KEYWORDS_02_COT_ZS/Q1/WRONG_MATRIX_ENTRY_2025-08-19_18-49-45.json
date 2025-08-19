@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Maria\u0027 ist die Identifikation des Nutzers, die in den GraphCode aufgenommen wird. \u0027play\u0027 und \u0027basketball\u0027 beschreiben das Verhalten und das Objekt, das der Nutzer mit seiner Person in Verbindung bringt.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Dies ist die Identifikation des Nutzers. Es wird als Objekt (Typ 1) in der Matrix auf der Einheitsdiagonalen definiert.\n- \u0027play\u0027: Dies ist eine Aktivität (Typ 4), da es beschreibt, was Maria tut.\n- \u0027basketball\u0027: Dies ist ein Objekt (Typ 1), da es das Objekt darstellt, mit dem Maria spielt.\n\n3. Zuordnung der Stichwörter:\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch, was eine Beziehung vom Typ \u0027perform\u0027 (Typ 8) darstellt.\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet, was eine Beziehung vom Typ \u0027target\u0027 (Typ 9) darstellt.\n\n4. Typkodierung der Relationen:\n- \u0027maria\u0027 → \u0027play\u0027 (Typ 8, \u0027perform\u0027) – korrekte Typkodierung.\n- \u0027play\u0027 → \u0027basketball\u0027 (Typ 9, \u0027target\u0027) – korrekte Typkodierung.\n- Einträge der Einheitsdiagonalen (Typ 1 für \u0027maria\u0027, Typ 4 für \u0027play\u0027, Typ 1 für \u0027basketball\u0027) – korrekte Typkodierung.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Maria\u0027 ist die Identifikation des Nutzers, die in den GraphCode aufgenommen wird. \u0027play\u0027 und \u0027basketball\u0027 beschreiben das Verhalten und das Objekt, das der Nutzer mit seiner Person in Verbindung bringt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Dies ist die Identifikation des Nutzers. Es wird als Objekt (Typ 1) in der Matrix auf der Einheitsdiagonalen definiert.\\n- \u0027play\u0027: Dies ist eine Aktivität (Typ 4), da es beschreibt, was Maria tut.\\n- \u0027basketball\u0027: Dies ist ein Objekt (Typ 1), da es das Objekt darstellt, mit dem Maria spielt.\\n\\n3. Zuordnung der Stichwörter:\\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch, was eine Beziehung vom Typ \u0027perform\u0027 (Typ 8) darstellt.\\n- \u0027play\u0027 wird auf das Objekt \u0027basketball\u0027 angewendet, was eine Beziehung vom Typ \u0027target\u0027 (Typ 9) darstellt.\\n\\n4. Typkodierung der Relationen:\\n- \u0027maria\u0027 → \u0027play\u0027 (Typ 8, \u0027perform\u0027) – korrekte Typkodierung.\\n- \u0027play\u0027 → \u0027basketball\u0027 (Typ 9, \u0027target\u0027) – korrekte Typkodierung.\\n- Einträge der Einheitsdiagonalen (Typ 1 für \u0027maria\u0027, Typ 4 für \u0027play\u0027, Typ 1 für \u0027basketball\u0027) – korrekte Typkodierung.\"\n}"
+}

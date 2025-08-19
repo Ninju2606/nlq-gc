@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Es gibt keine relativen Verweise auf andere Begriffe, die für spätere Relationen relevant sind.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n4. Es werden keine Identifikationswörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden, daher wird die Identifikation des Nutzers ignoriert.\n5. Attributeigenschaften:\n   - \u0027house\u0027 ist ein Objekt (Typ-ID: 1)\n   - \u0027question\u0027 ist ein Objekt (Typ-ID: 1)\n   - \u0027paint\u0027 ist eine Aktivität (Typ-ID: 4)\n6. Relationen:\n   - \u0027paint\u0027 wird in Beziehung zu \u0027house\u0027 und \u0027question\u0027 gesetzt, da die Anfrage besagt, \u0027Häuser um Fragen zu malen\u0027.\n   - Es wird angenommen, dass \u0027paint\u0027 mit \u0027house\u0027 und \u0027question\u0027 in einem Kontext steht.\n7. Prüfung der Typkodierungen:\n   - \u0027house\u0027 ist ein Objekt (Typ-ID: 1, identityMapping: true)\n   - \u0027question\u0027 ist ein Objekt (Typ-ID: 1, identityMapping: true)\n   - \u0027paint\u0027 ist eine Aktivität (Typ-ID: 4, identityMapping: true)\n   - Es gibt keine direkten Relationen zwischen den Einträgen, daher sind keine weiteren Typkodierungen notwendig.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Es gibt keine relativen Verweise auf andere Begriffe, die für spätere Relationen relevant sind.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Es werden keine Identifikationswörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden, daher wird die Identifikation des Nutzers ignoriert.\\n5. Attributeigenschaften:\\n   - \u0027house\u0027 ist ein Objekt (Typ-ID: 1)\\n   - \u0027question\u0027 ist ein Objekt (Typ-ID: 1)\\n   - \u0027paint\u0027 ist eine Aktivität (Typ-ID: 4)\\n6. Relationen:\\n   - \u0027paint\u0027 wird in Beziehung zu \u0027house\u0027 und \u0027question\u0027 gesetzt, da die Anfrage besagt, \u0027Häuser um Fragen zu malen\u0027.\\n   - Es wird angenommen, dass \u0027paint\u0027 mit \u0027house\u0027 und \u0027question\u0027 in einem Kontext steht.\\n7. Prüfung der Typkodierungen:\\n   - \u0027house\u0027 ist ein Objekt (Typ-ID: 1, identityMapping: true)\\n   - \u0027question\u0027 ist ein Objekt (Typ-ID: 1, identityMapping: true)\\n   - \u0027paint\u0027 ist eine Aktivität (Typ-ID: 4, identityMapping: true)\\n   - Es gibt keine direkten Relationen zwischen den Einträgen, daher sind keine weiteren Typkodierungen notwendig.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027meinem\u0027 wird als \u0027own\u0027 im Vokabular abgebildet, und \u0027Maria\u0027 als \u0027maria\u0027.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Identifikation (identityMapping \u003d true, Typ 1 - object)\n   - \u0027swim\u0027: Aktivität (identityMapping \u003d true, Typ 4 - activity)\n   - \u0027own\u0027: Kontext (identityMapping \u003d true, Typ 2 - context)\n   - \u0027pool\u0027: Objekt (identityMapping \u003d true, Typ 1 - object)\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 ist das Objekt, das \u0027swim\u0027 (Aktivität) ausführt.\n   - \u0027swim\u0027 wird mit \u0027own\u0027 (Kontext) assoziiert, d. h. \u0027maria\u0027 schwimmt in \u0027einem eigenen\u0027 Pool.\n   - \u0027own\u0027 ist ein Kontextbezug zu \u0027pool\u0027, d. h. der Pool gehört \u0027maria\u0027.\n4. Typkodierungen:\n   - \u0027maria\u0027 (Typ 1 - object)\n   - \u0027swim\u0027 (Typ 4 - activity)\n   - \u0027own\u0027 (Typ 2 - context)\n   - \u0027pool\u0027 (Typ 1 - object)\n   - Beziehung \u0027maria\u0027 -\u003e \u0027swim\u0027 ist Typ 8 (\u0027perform\u0027)\n   - Beziehung \u0027swim\u0027 -\u003e \u0027own\u0027 ist Typ 9 (\u0027target\u0027)\n   - Beziehung \u0027own\u0027 -\u003e \u0027pool\u0027 ist Typ 3 (\u0027synonym\u0027)\n5. Alle Relationen haben eine passende Typkodierung.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 8, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027meinem\u0027 wird als \u0027own\u0027 im Vokabular abgebildet, und \u0027Maria\u0027 als \u0027maria\u0027.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Identifikation (identityMapping \u003d true, Typ 1 - object)\\n   - \u0027swim\u0027: Aktivität (identityMapping \u003d true, Typ 4 - activity)\\n   - \u0027own\u0027: Kontext (identityMapping \u003d true, Typ 2 - context)\\n   - \u0027pool\u0027: Objekt (identityMapping \u003d true, Typ 1 - object)\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 ist das Objekt, das \u0027swim\u0027 (Aktivität) ausführt.\\n   - \u0027swim\u0027 wird mit \u0027own\u0027 (Kontext) assoziiert, d. h. \u0027maria\u0027 schwimmt in \u0027einem eigenen\u0027 Pool.\\n   - \u0027own\u0027 ist ein Kontextbezug zu \u0027pool\u0027, d. h. der Pool gehört \u0027maria\u0027.\\n4. Typkodierungen:\\n   - \u0027maria\u0027 (Typ 1 - object)\\n   - \u0027swim\u0027 (Typ 4 - activity)\\n   - \u0027own\u0027 (Typ 2 - context)\\n   - \u0027pool\u0027 (Typ 1 - object)\\n   - Beziehung \u0027maria\u0027 -\u003e \u0027swim\u0027 ist Typ 8 (\u0027perform\u0027)\\n   - Beziehung \u0027swim\u0027 -\u003e \u0027own\u0027 ist Typ 9 (\u0027target\u0027)\\n   - Beziehung \u0027own\u0027 -\u003e \u0027pool\u0027 ist Typ 3 (\u0027synonym\u0027)\\n5. Alle Relationen haben eine passende Typkodierung.\"\n}"
+}

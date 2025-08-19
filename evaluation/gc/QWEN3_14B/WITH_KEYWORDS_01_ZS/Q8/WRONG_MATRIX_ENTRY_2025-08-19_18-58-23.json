@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "Der GraphCode bezieht sich auf die Szene, in der Maria und eine Person ein Boot auf einem See fahren. Das Vokabular enthält die relevanten Begriffe, und die Bewertungsmatrix gibt die Typkodierungen für die Beziehungen zwischen diesen Begriffen an. Type 1 (object) für \u0027maria\u0027, Type 2 (context) für \u0027person\u0027, Type 4 (activity) für \u0027drive\u0027, Type 9 (target) für \u0027boat\u0027 (da es das Ziel der Aktivität ist), Type 1 (object) für \u0027lake\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode bezieht sich auf die Szene, in der Maria und eine Person ein Boot auf einem See fahren. Das Vokabular enthält die relevanten Begriffe, und die Bewertungsmatrix gibt die Typkodierungen für die Beziehungen zwischen diesen Begriffen an. Type 1 (object) für \u0027maria\u0027, Type 2 (context) für \u0027person\u0027, Type 4 (activity) für \u0027drive\u0027, Type 9 (target) für \u0027boat\u0027 (da es das Ziel der Aktivität ist), Type 1 (object) für \u0027lake\u0027.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode für die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 wurde erstellt. Das Vokabular umfasst die Begriffe \u0027swim\u0027, \u0027pool\u0027, und \u0027Maria\u0027, da der Nutzer sich identifiziert hat. Die Bewertungsmatrix ist diagonal gefüllt mit Typkodierung 1 (object), da die Begriffe Objekte darstellen. Es wird angenommen, dass \u0027Maria\u0027 das Eigentum des Pools beschreibt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode für die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 wurde erstellt. Das Vokabular umfasst die Begriffe \u0027swim\u0027, \u0027pool\u0027, und \u0027Maria\u0027, da der Nutzer sich identifiziert hat. Die Bewertungsmatrix ist diagonal gefüllt mit Typkodierung 1 (object), da die Begriffe Objekte darstellen. Es wird angenommen, dass \u0027Maria\u0027 das Eigentum des Pools beschreibt.\"\n}"
+}

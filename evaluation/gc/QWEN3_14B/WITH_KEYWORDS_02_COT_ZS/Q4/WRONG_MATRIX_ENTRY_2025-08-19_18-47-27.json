@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria identifiziert sich durch das Pronomen \u0027meinem\u0027 (own), das im Vokabular als \u0027own\u0027 abgebildet ist.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true, Typ: object)\n- \u0027swim\u0027: Aktivität des Nutzers (identityMapping \u003d false, Typ: activity)\n- \u0027own\u0027: Verweis auf die Identifikation des Nutzers (identityMapping \u003d true, Typ: object)\n- \u0027pool\u0027: Objekt im Metaverse (identityMapping \u003d false, Typ: object)\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 und \u0027own\u0027: \u0027own\u0027 ist eine Form der Identifikation von \u0027maria\u0027\n- \u0027maria\u0027 und \u0027swim\u0027: \u0027swim\u0027 ist eine Aktivität, die von \u0027maria\u0027 durchgeführt wird\n- \u0027maria\u0027 und \u0027pool\u0027: \u0027pool\u0027 ist der Ort, an dem \u0027maria\u0027 ist\n- \u0027own\u0027 und \u0027pool\u0027: Der \u0027pool\u0027 ist das Eigentum von \u0027maria\u0027\n- \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt\n4. Prüfung der Relationen:\n- \u0027maria\u0027 - \u0027own\u0027: Typ 1 (object)\n- \u0027maria\u0027 - \u0027swim\u0027: Typ 8 (perform)\n- \u0027maria\u0027 - \u0027pool\u0027: Typ 2 (context)\n- \u0027own\u0027 - \u0027pool\u0027: Typ 5 (attached)\n- \u0027swim\u0027 - \u0027pool\u0027: Typ 9 (target)\nAlle Relationen haben einen passenden Eintrag in den Typkodierungen.\n5. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria identifiziert sich durch das Pronomen \u0027meinem\u0027 (own), das im Vokabular als \u0027own\u0027 abgebildet ist.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers (identityMapping \u003d true, Typ: object)\\n- \u0027swim\u0027: Aktivität des Nutzers (identityMapping \u003d false, Typ: activity)\\n- \u0027own\u0027: Verweis auf die Identifikation des Nutzers (identityMapping \u003d true, Typ: object)\\n- \u0027pool\u0027: Objekt im Metaverse (identityMapping \u003d false, Typ: object)\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 und \u0027own\u0027: \u0027own\u0027 ist eine Form der Identifikation von \u0027maria\u0027\\n- \u0027maria\u0027 und \u0027swim\u0027: \u0027swim\u0027 ist eine Aktivität, die von \u0027maria\u0027 durchgeführt wird\\n- \u0027maria\u0027 und \u0027pool\u0027: \u0027pool\u0027 ist der Ort, an dem \u0027maria\u0027 ist\\n- \u0027own\u0027 und \u0027pool\u0027: Der \u0027pool\u0027 ist das Eigentum von \u0027maria\u0027\\n- \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt\\n4. Prüfung der Relationen:\\n- \u0027maria\u0027 - \u0027own\u0027: Typ 1 (object)\\n- \u0027maria\u0027 - \u0027swim\u0027: Typ 8 (perform)\\n- \u0027maria\u0027 - \u0027pool\u0027: Typ 2 (context)\\n- \u0027own\u0027 - \u0027pool\u0027: Typ 5 (attached)\\n- \u0027swim\u0027 - \u0027pool\u0027: Typ 9 (target)\\nAlle Relationen haben einen passenden Eintrag in den Typkodierungen.\\n5. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

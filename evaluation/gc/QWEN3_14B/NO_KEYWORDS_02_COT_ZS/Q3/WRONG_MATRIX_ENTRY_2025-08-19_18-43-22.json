@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzt ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n4. Ersetzt Nutzeridentifikation: \u0027mir\u0027 wird zu \u0027own\u0027, \u0027Maria\u0027 bleibt.\n5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027swim\u0027 (activity), \u0027pool\u0027 (object), \u0027own\u0027 (characteristic).\n6. Relationen: \u0027Maria\u0027 - \u0027own\u0027 (characteristic), \u0027swim\u0027 - \u0027pool\u0027 (activity - object).\n7. Typkodierung: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027characteristic\u0027 (14). Der Typ 14 ist nicht in der Liste der Typkodierungen enthalten.\n8. Fehler: Es gibt keine Kodierung für \u0027characteristic\u0027 in der Liste der Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzt ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n4. Ersetzt Nutzeridentifikation: \u0027mir\u0027 wird zu \u0027own\u0027, \u0027Maria\u0027 bleibt.\\n5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027swim\u0027 (activity), \u0027pool\u0027 (object), \u0027own\u0027 (characteristic).\\n6. Relationen: \u0027Maria\u0027 - \u0027own\u0027 (characteristic), \u0027swim\u0027 - \u0027pool\u0027 (activity - object).\\n7. Typkodierung: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027characteristic\u0027 (14). Der Typ 14 ist nicht in der Liste der Typkodierungen enthalten.\\n8. Fehler: Es gibt keine Kodierung für \u0027characteristic\u0027 in der Liste der Typkodierungen.\"\n}"
+}

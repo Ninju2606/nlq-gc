@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Maria fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird daher in das Vokabular aufgenommen, da sie mit einer Tätigkeit (Tragen) in Verbindung steht.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 ist eine Identifikation (Person).\n- \u0027wear\u0027 ist eine Aktivität (Handlung).\n- \u0027hat\u0027 ist ein Objekt.\n- \u0027yellow\u0027 ist ein Attribut (Farbe).\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 trägt (\u0027wear\u0027) \u0027hat\u0027.\n- \u0027hat\u0027 ist \u0027yellow\u0027 (Beschreibung).\n\n4. Typkodierung für die Relationen:\n- \u0027maria\u0027 und \u0027wear\u0027: Typ 4 (activity) – \u0027wear\u0027 ist eine Aktivität.\n- \u0027wear\u0027 und \u0027hat\u0027: Typ 8 (perform) – \u0027wear\u0027 wird mit \u0027hat\u0027 durchgeführt.\n- \u0027hat\u0027 und \u0027yellow\u0027: Typ 14 (characteristic) – \u0027yellow\u0027 ist eine Beschreibung von \u0027hat\u0027.\n\nAlle Relationen haben passende Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird daher in das Vokabular aufgenommen, da sie mit einer Tätigkeit (Tragen) in Verbindung steht.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 ist eine Identifikation (Person).\\n- \u0027wear\u0027 ist eine Aktivität (Handlung).\\n- \u0027hat\u0027 ist ein Objekt.\\n- \u0027yellow\u0027 ist ein Attribut (Farbe).\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 trägt (\u0027wear\u0027) \u0027hat\u0027.\\n- \u0027hat\u0027 ist \u0027yellow\u0027 (Beschreibung).\\n\\n4. Typkodierung für die Relationen:\\n- \u0027maria\u0027 und \u0027wear\u0027: Typ 4 (activity) – \u0027wear\u0027 ist eine Aktivität.\\n- \u0027wear\u0027 und \u0027hat\u0027: Typ 8 (perform) – \u0027wear\u0027 wird mit \u0027hat\u0027 durchgeführt.\\n- \u0027hat\u0027 und \u0027yellow\u0027: Typ 14 (characteristic) – \u0027yellow\u0027 ist eine Beschreibung von \u0027hat\u0027.\\n\\nAlle Relationen haben passende Typkodierungen.\"\n}"
+}

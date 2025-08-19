@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Es gibt keine relativen Verweise.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027I\u0027, \u0027play\u0027, \u0027basketball\u0027.\n4. Die Identifikation \u0027Maria\u0027 wird anstelle von \u0027I\u0027 verwendet, da \u0027I\u0027 auf den Nutzer verweist.\n5. \u0027Maria\u0027 hat die Attributeigenschaft \u0027object\u0027, \u0027basketball\u0027 hat die Attributeigenschaft \u0027object\u0027. \u0027play\u0027 hat die Attributeigenschaft \u0027activity\u0027.\n6. \u0027Maria\u0027 führt \u0027play\u0027 durch, also besteht die Relation \u0027perform\u0027 zwischen \u0027Maria\u0027 und \u0027play\u0027. \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet, also besteht die Relation \u0027target\u0027 zwischen \u0027play\u0027 und \u0027basketball\u0027.\n7. Für die Relation \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) gibt es Einträge in den bereitgestellten Typkodierungen.\n8. Der GraphCode wurde entsprechend erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 8],\n    [9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Es gibt keine relativen Verweise.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027I\u0027, \u0027play\u0027, \u0027basketball\u0027.\\n4. Die Identifikation \u0027Maria\u0027 wird anstelle von \u0027I\u0027 verwendet, da \u0027I\u0027 auf den Nutzer verweist.\\n5. \u0027Maria\u0027 hat die Attributeigenschaft \u0027object\u0027, \u0027basketball\u0027 hat die Attributeigenschaft \u0027object\u0027. \u0027play\u0027 hat die Attributeigenschaft \u0027activity\u0027.\\n6. \u0027Maria\u0027 führt \u0027play\u0027 durch, also besteht die Relation \u0027perform\u0027 zwischen \u0027Maria\u0027 und \u0027play\u0027. \u0027play\u0027 wird auf \u0027basketball\u0027 angewendet, also besteht die Relation \u0027target\u0027 zwischen \u0027play\u0027 und \u0027basketball\u0027.\\n7. Für die Relation \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) gibt es Einträge in den bereitgestellten Typkodierungen.\\n8. Der GraphCode wurde entsprechend erstellt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 als Eltern-Kind-Beziehung.\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzen der Identifikation \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist eine Person (identityMapping \u003d true), \u0027daughter\u0027 ist ein Beziehungsbegriff (identityMapping \u003d true), \u0027boat\u0027 ist ein Objekt (identityMapping \u003d true), \u0027lake\u0027 ist ein Objekt (identityMapping \u003d true).\n6. Relationen: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027 (Typ \u003d 10: daughter, identityMapping \u003d false). \u0027Maria\u0027 fährt mit \u0027boat\u0027 (Typ \u003d 8: perform, identityMapping \u003d false). \u0027boat\u0027 ist auf \u0027lake\u0027 (Typ \u003d 9: target, identityMapping \u003d false). \u0027lake\u0027 ist ein Objekt (Typ \u003d 1: object, identityMapping \u003d true). \n7. Überprüfung der Typkodierungen: Typ 1 (object), 2 (context), 3 (synonym), 4 (activity), 8 (perform), 9 (target), 10 (daughter) sind vorhanden. Alle Relationen haben eine passende Typkodierung.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 als Eltern-Kind-Beziehung.\\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzen der Identifikation \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist eine Person (identityMapping \u003d true), \u0027daughter\u0027 ist ein Beziehungsbegriff (identityMapping \u003d true), \u0027boat\u0027 ist ein Objekt (identityMapping \u003d true), \u0027lake\u0027 ist ein Objekt (identityMapping \u003d true).\\n6. Relationen: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027 (Typ \u003d 10: daughter, identityMapping \u003d false). \u0027Maria\u0027 fährt mit \u0027boat\u0027 (Typ \u003d 8: perform, identityMapping \u003d false). \u0027boat\u0027 ist auf \u0027lake\u0027 (Typ \u003d 9: target, identityMapping \u003d false). \u0027lake\u0027 ist ein Objekt (Typ \u003d 1: object, identityMapping \u003d true). \\n7. Überprüfung der Typkodierungen: Typ 1 (object), 2 (context), 3 (synonym), 4 (activity), 8 (perform), 9 (target), 10 (daughter) sind vorhanden. Alle Relationen haben eine passende Typkodierung.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query describes situations where Maria is wearing a yellow hat.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"wear\",\n    \"hat\",\n    \"yellow\"\n  ],\n  \"description\": \"The query describes situations where Maria is wearing a yellow hat.\"\n}"
+}

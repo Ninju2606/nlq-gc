@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode berücksichtigt die Nutzeridentifikation \u0027maria\u0027 im Vokabular. Die Einträge \u0027make\u0027 und \u0027appointment\u0027 sind als \u0027context\u0027 (Typ 2) kodiert, da sie in Bezug auf die Aktion stehen, die Maria durchführt. \u0027Maria\u0027 ist als \u0027object\u0027 (Typ 1) kodiert, da sie das Objekt der Aktion ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode berücksichtigt die Nutzeridentifikation \u0027maria\u0027 im Vokabular. Die Einträge \u0027make\u0027 und \u0027appointment\u0027 sind als \u0027context\u0027 (Typ 2) kodiert, da sie in Bezug auf die Aktion stehen, die Maria durchführt. \u0027Maria\u0027 ist als \u0027object\u0027 (Typ 1) kodiert, da sie das Objekt der Aktion ist.\"\n}"
+}

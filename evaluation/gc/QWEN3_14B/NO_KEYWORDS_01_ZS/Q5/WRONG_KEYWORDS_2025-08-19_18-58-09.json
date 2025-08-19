@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "gelben",
+    "Hut",
+    "trage"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Der Typ \u0027object\u0027 (1) wird für \u0027Maria\u0027, \u0027gelben\u0027 und \u0027Hut\u0027 verwendet. Der Typ \u0027context\u0027 (2) wird für \u0027hat\u0027 verwendet, und der Typ \u0027activity\u0027 (4) wird für \u0027trage\u0027 verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"gelben\", \"Hut\", \"trage\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Der Typ \u0027object\u0027 (1) wird für \u0027Maria\u0027, \u0027gelben\u0027 und \u0027Hut\u0027 verwendet. Der Typ \u0027context\u0027 (2) wird für \u0027hat\u0027 verwendet, und der Typ \u0027activity\u0027 (4) wird für \u0027trage\u0027 verwendet.\"\n}"
+}

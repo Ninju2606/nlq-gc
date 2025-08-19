@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria einen Termin ausmacht. \u0027make\u0027 wird als Aktivität (\u0027activity\u0027) kodiert, und \u0027appointment\u0027 als Objekt (\u0027object\u0027). Die Relation \u0027make appointment\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 8],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria einen Termin ausmacht. \u0027make\u0027 wird als Aktivität (\u0027activity\u0027) kodiert, und \u0027appointment\u0027 als Objekt (\u0027object\u0027). Die Relation \u0027make appointment\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) dargestellt.\"\n}"
+}

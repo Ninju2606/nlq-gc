@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the key terms from the query: \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and the user\u0027s identifier \u0027Maria\u0027, as the query involves the user\u0027s action or personal involvement.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\", \"Maria\"],\n  \"description\": \"The vocabulary contains the key terms from the query: \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and the user\u0027s identifier \u0027Maria\u0027, as the query involves the user\u0027s action or personal involvement.\"\n}"
+}

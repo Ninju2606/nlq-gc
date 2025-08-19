@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027. Nach Verarbeitung ergibt sich: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n2. Relative Verweise: Keine.\n3. Übersetzung: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 ist ein Attribut (Typ 2), \u0027hat\u0027 ist ein Synonym (Typ 3).\n6. Relationen: \u0027Maria\u0027 trägt \u0027yellow\u0027 (\u0027hat\u0027, Typ 3). \u0027yellow\u0027 ist ein Attribut von \u0027Maria\u0027.\n7. Typkodierungen: Typ 1 (object), Typ 2 (context), Typ 3 (synonym) → alle vorhanden.\n8. GraphCode generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027. Nach Verarbeitung ergibt sich: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n2. Relative Verweise: Keine.\\n3. Übersetzung: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 ist ein Attribut (Typ 2), \u0027hat\u0027 ist ein Synonym (Typ 3).\\n6. Relationen: \u0027Maria\u0027 trägt \u0027yellow\u0027 (\u0027hat\u0027, Typ 3). \u0027yellow\u0027 ist ein Attribut von \u0027Maria\u0027.\\n7. Typkodierungen: Typ 1 (object), Typ 2 (context), Typ 3 (synonym) → alle vorhanden.\\n8. GraphCode generiert.\"\n}"
+}

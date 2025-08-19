@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt eine Identifikation des Nutzers mit dem Begriff %5C%22Maria%5C%22. Dieser wurde in das Vokabular aufgenommen. %5C%22Meine+Tochter%5C%22 bezieht sich auf den Begriff %5C%22person%5C%22, der ebenfalls im Vokabular enthalten ist.\n\n2. %5C%22maria%5C%22 und %5C%22person%5C%22 sind Objekte der Anfrage. %5C%22drive%5C%22 ist eine Aktivität. %5C%22boat%5C%22 und %5C%22lake%5C%22 sind ebenfalls Objekte.\n\n3. %5C%22maria%5C%22 ist die Person, die %5C%22drive%5C%22 ausführt. %5C%22drive%5C%22 bezieht sich auf %5C%22boat%5C%22. %5C%22boat%5C%22 befindet sich in %5C%22lake%5C%22. %5C%22person%5C%22 ist Tochter von %5C%22maria%5C%22.\n\n4. Die ID für Objekt (%5C%22object%5C%22) ist 1. Die ID für Aktivität (%5C%22activity%5C%22) ist 9. Die ID für Ausführen (%5C%22perform%5C%22) ist 7. Die ID für Beziehen (%5C%22target%5C%22) ist 8. Die ID für In (%5C%22in%5C%22) ist 6. Die ID für Verbindung (%5C%22attached%5C%22) ist 4.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [0, 1, 7, 8, 0],\n    [0, 0, 1, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt eine Identifikation des Nutzers mit dem Begriff %5C%22Maria%5C%22. Dieser wurde in das Vokabular aufgenommen. %5C%22Meine+Tochter%5C%22 bezieht sich auf den Begriff %5C%22person%5C%22, der ebenfalls im Vokabular enthalten ist.\\n\\n2. %5C%22maria%5C%22 und %5C%22person%5C%22 sind Objekte der Anfrage. %5C%22drive%5C%22 ist eine Aktivität. %5C%22boat%5C%22 und %5C%22lake%5C%22 sind ebenfalls Objekte.\\n\\n3. %5C%22maria%5C%22 ist die Person, die %5C%22drive%5C%22 ausführt. %5C%22drive%5C%22 bezieht sich auf %5C%22boat%5C%22. %5C%22boat%5C%22 befindet sich in %5C%22lake%5C%22. %5C%22person%5C%22 ist Tochter von %5C%22maria%5C%22.\\n\\n4. Die ID für Objekt (%5C%22object%5C%22) ist 1. Die ID für Aktivität (%5C%22activity%5C%22) ist 9. Die ID für Ausführen (%5C%22perform%5C%22) ist 7. Die ID für Beziehen (%5C%22target%5C%22) ist 8. Die ID für In (%5C%22in%5C%22) ist 6. Die ID für Verbindung (%5C%22attached%5C%22) ist 4.\"\n}"
+}

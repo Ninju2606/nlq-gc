@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "see"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"fahre\", \"Boot\", \"See\".\n        2. Es gibt einen relativen Verweis: \"Meine Tochter\" bezieht sich auf Maria.\n        3. Die englischen Stichwörter sind \"Maria\", \"daughter\", \"boat\", \"see\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"boat\", \"see\".\n        5. \"Maria\" und \"daughter\" sind Objekte der Anfrage. \"boat\" ist ein Objekt und \"see\" ist eine Aktivität.\n        6. \"Maria\" ist die Mutter von \"daughter\". \"Maria\" und \"daughter\" fahren das \"boat\". \"boat\" befindet sich auf dem \"see\". \"boat\" ist das Ziel der Aktivität \"see\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Kind (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Ziel (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"see\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [0, 1, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"fahre\\\", \\\"Boot\\\", \\\"See\\\".\\n        2. Es gibt einen relativen Verweis: \\\"Meine Tochter\\\" bezieht sich auf Maria.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"see\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"see\\\".\\n        5. \\\"Maria\\\" und \\\"daughter\\\" sind Objekte der Anfrage. \\\"boat\\\" ist ein Objekt und \\\"see\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" ist die Mutter von \\\"daughter\\\". \\\"Maria\\\" und \\\"daughter\\\" fahren das \\\"boat\\\". \\\"boat\\\" befindet sich auf dem \\\"see\\\". \\\"boat\\\" ist das Ziel der Aktivität \\\"see\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Kind (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Ziel (target) ist 8.\"\n}"
+}

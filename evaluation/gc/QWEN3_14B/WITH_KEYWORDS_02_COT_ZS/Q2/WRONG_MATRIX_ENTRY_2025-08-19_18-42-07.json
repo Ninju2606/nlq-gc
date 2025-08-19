@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer Tim ist identifiziert als Maria. Da das Wort \u0027Tim\u0027 im Vokabular vorkommt und der Nutzername \u0027Maria\u0027 nicht direkt im Vokabular enthalten ist, ist die Identifizierung des Nutzers nicht aktiv verwendet worden.\n\n2. Attributigenschaften der Stichwörter:\n- \u0027tim\u0027 ist ein Objekt (Typkodierung 1)\n- \u0027run\u0027 ist eine Aktivität (Typkodierung 4)\n\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 ausführt. Das bedeutet, dass \u0027tim\u0027 das Subjekt und \u0027run\u0027 das verbale Prädikat ist. Die Beziehung zwischen beiden ist, dass \u0027tim\u0027 \u0027run\u0027 ausführt (Typ \u0027perform\u0027)\n\n4. Die Relation \u0027perform\u0027 (Typkodierung 8) ist vorhanden und passt zur Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027.\n\n5. Der GraphCode wurde korrekt erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Tim ist identifiziert als Maria. Da das Wort \u0027Tim\u0027 im Vokabular vorkommt und der Nutzername \u0027Maria\u0027 nicht direkt im Vokabular enthalten ist, ist die Identifizierung des Nutzers nicht aktiv verwendet worden.\\n\\n2. Attributigenschaften der Stichwörter:\\n- \u0027tim\u0027 ist ein Objekt (Typkodierung 1)\\n- \u0027run\u0027 ist eine Aktivität (Typkodierung 4)\\n\\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität \u0027run\u0027 ausführt. Das bedeutet, dass \u0027tim\u0027 das Subjekt und \u0027run\u0027 das verbale Prädikat ist. Die Beziehung zwischen beiden ist, dass \u0027tim\u0027 \u0027run\u0027 ausführt (Typ \u0027perform\u0027)\\n\\n4. Die Relation \u0027perform\u0027 (Typkodierung 8) ist vorhanden und passt zur Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027.\\n\\n5. Der GraphCode wurde korrekt erstellt.\"\n}"
+}

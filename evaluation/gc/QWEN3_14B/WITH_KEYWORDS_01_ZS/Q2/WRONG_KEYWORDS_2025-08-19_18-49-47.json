@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode für die Anfrage \u0027Tim rennt\u0027 mit der Nutzeridentifikation \u0027Maria\u0027 umfasst die Begriffe \u0027tim\u0027, \u0027run\u0027 und \u0027Maria\u0027. Tim (Index 0) hat die Beziehung \u0027perform\u0027 (Typ 8) zur Aktion \u0027run\u0027 (Index 1). \u0027run\u0027 ist eine Aktivität (Typ 4), und \u0027Maria\u0027 (Index 2) ist ein Kontext (Typ 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode für die Anfrage \u0027Tim rennt\u0027 mit der Nutzeridentifikation \u0027Maria\u0027 umfasst die Begriffe \u0027tim\u0027, \u0027run\u0027 und \u0027Maria\u0027. Tim (Index 0) hat die Beziehung \u0027perform\u0027 (Typ 8) zur Aktion \u0027run\u0027 (Index 1). \u0027run\u0027 ist eine Aktivität (Typ 4), und \u0027Maria\u0027 (Index 2) ist ein Kontext (Typ 2).\"\n}"
+}

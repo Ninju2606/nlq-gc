@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria spielt Basketball. Die Identifikation \u0027maria\u0027 wird in das Vokabular aufgenommen, da der Nutzer explizit erwähnt, dass er etwas tut.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers, Typ \u0027object\u0027 (ID 1)\n- \u0027play\u0027: Aktivität, Typ \u0027activity\u0027 (ID 4)\n- \u0027basketball\u0027: Objekt, Typ \u0027object\u0027 (ID 1)\n\n3. Beziehungen zwischen den Stichworten:\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus.\n- \u0027play\u0027 hat das Objekt \u0027basketball\u0027 als Ziel.\n\n4. Überprüfung der Typkodierungen:\n- \u0027maria\u0027 (Typ object, ID 1)\n- \u0027play\u0027 (Typ activity, ID 4)\n- \u0027basketball\u0027 (Typ object, ID 1)\n- \u0027maria\u0027 -\u003e \u0027play\u0027 (Relation \u0027perform\u0027, ID 8)\n- \u0027play\u0027 -\u003e \u0027basketball\u0027 (Relation \u0027target\u0027, ID 9)",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria spielt Basketball. Die Identifikation \u0027maria\u0027 wird in das Vokabular aufgenommen, da der Nutzer explizit erwähnt, dass er etwas tut.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers, Typ \u0027object\u0027 (ID 1)\\n- \u0027play\u0027: Aktivität, Typ \u0027activity\u0027 (ID 4)\\n- \u0027basketball\u0027: Objekt, Typ \u0027object\u0027 (ID 1)\\n\\n3. Beziehungen zwischen den Stichworten:\\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus.\\n- \u0027play\u0027 hat das Objekt \u0027basketball\u0027 als Ziel.\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027maria\u0027 (Typ object, ID 1)\\n- \u0027play\u0027 (Typ activity, ID 4)\\n- \u0027basketball\u0027 (Typ object, ID 1)\\n- \u0027maria\u0027 -\u003e \u0027play\u0027 (Relation \u0027perform\u0027, ID 8)\\n- \u0027play\u0027 -\u003e \u0027basketball\u0027 (Relation \u0027target\u0027, ID 9)\"\n}"
+}

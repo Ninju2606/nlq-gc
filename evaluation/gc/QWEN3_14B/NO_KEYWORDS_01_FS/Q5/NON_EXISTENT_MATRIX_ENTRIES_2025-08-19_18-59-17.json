@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Situation, in der Maria einen gelben Hut trägt. Der Begriff \u0027wear\u0027 (Typ 9) steht für die Aktivität, \u0027hat\u0027 (Typ 1) ist das Objekt, \u0027yellow\u0027 (Typ 1) ist das Attribut. Die Relation \u0027wear\u0027 wird als Aktivität zwischen \u0027Maria\u0027 und \u0027hat\u0027 etabliert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Situation, in der Maria einen gelben Hut trägt. Der Begriff \u0027wear\u0027 (Typ 9) steht für die Aktivität, \u0027hat\u0027 (Typ 1) ist das Objekt, \u0027yellow\u0027 (Typ 1) ist das Attribut. Die Relation \u0027wear\u0027 wird als Aktivität zwischen \u0027Maria\u0027 und \u0027hat\u0027 etabliert.\"\n}"
+}

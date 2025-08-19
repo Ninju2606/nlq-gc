@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Der Nutzer verwendete das Pronomen \u0027meinem\u0027 und das Verb \u0027schwimme\u0027, was auf eine aktive Tätigkeit (swim) mit dem eigenen Besitz (own) hindeutet. Die Identifikation \u0027Maria\u0027 wird daher entsprechend in das Vokabular eingebunden.\n\n2. Attributeigenschaften:\n- \u0027maria\u0027 ist ein Objekt (object, Typ 1)\n- \u0027swim\u0027 ist eine Aktivität (activity, Typ 4)\n- \u0027own\u0027 ist ein Kontext (context, Typ 2)\n- \u0027pool\u0027 ist ein Objekt (object, Typ 1)\n\n3. Beziehungen:\n- \u0027maria\u0027 hat die Beziehung \u0027own\u0027 zu \u0027pool\u0027 (Besitz), was als Typ 2 kodiert wird.\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 durch, was als Typ 9 (target) kodiert wird.\n- \u0027swim\u0027 ist eine Aktivität, daher Typ 4.\n- \u0027pool\u0027 ist ein Objekt, daher Typ 1.\n\n4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen (2, 4, 9).\n\n5. Der GraphCode wurde gemäß den gegebenen Regeln erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer verwendete das Pronomen \u0027meinem\u0027 und das Verb \u0027schwimme\u0027, was auf eine aktive Tätigkeit (swim) mit dem eigenen Besitz (own) hindeutet. Die Identifikation \u0027Maria\u0027 wird daher entsprechend in das Vokabular eingebunden.\\n\\n2. Attributeigenschaften:\\n- \u0027maria\u0027 ist ein Objekt (object, Typ 1)\\n- \u0027swim\u0027 ist eine Aktivität (activity, Typ 4)\\n- \u0027own\u0027 ist ein Kontext (context, Typ 2)\\n- \u0027pool\u0027 ist ein Objekt (object, Typ 1)\\n\\n3. Beziehungen:\\n- \u0027maria\u0027 hat die Beziehung \u0027own\u0027 zu \u0027pool\u0027 (Besitz), was als Typ 2 kodiert wird.\\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 durch, was als Typ 9 (target) kodiert wird.\\n- \u0027swim\u0027 ist eine Aktivität, daher Typ 4.\\n- \u0027pool\u0027 ist ein Objekt, daher Typ 1.\\n\\n4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen (2, 4, 9).\\n\\n5. Der GraphCode wurde gemäß den gegebenen Regeln erstellt.\"\n}"
+}

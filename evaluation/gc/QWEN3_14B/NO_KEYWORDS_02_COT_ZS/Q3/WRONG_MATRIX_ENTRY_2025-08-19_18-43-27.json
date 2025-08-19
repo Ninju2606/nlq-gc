@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027, \u0027own\u0027.\n4. Ersetzen der Nutzeridentifikation: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt, \u0027gehört\u0027 wird durch \u0027own\u0027 übersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), \u0027own\u0027 ist ein Kontext (Typ 2).\n6. Relationen: \u0027Maria\u0027 besitzt \u0027pool\u0027 (own -\u003e Typ 2), \u0027swim\u0027 wird von \u0027Maria\u0027 ausgeübt (perform -\u003e Typ 8, aber Typ 8 ist nicht in der Liste vorhanden, also wird es ignoriert).\n7. Typkodierungen: Typ 1 (object), Typ 2 (context), Typ 4 (activity) sind vorhanden.\n8. Der GraphCode ist erfolgreich erstellt worden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027, \u0027gehört\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027, \u0027own\u0027.\\n4. Ersetzen der Nutzeridentifikation: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt, \u0027gehört\u0027 wird durch \u0027own\u0027 übersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), \u0027own\u0027 ist ein Kontext (Typ 2).\\n6. Relationen: \u0027Maria\u0027 besitzt \u0027pool\u0027 (own -\u003e Typ 2), \u0027swim\u0027 wird von \u0027Maria\u0027 ausgeübt (perform -\u003e Typ 8, aber Typ 8 ist nicht in der Liste vorhanden, also wird es ignoriert).\\n7. Typkodierungen: Typ 1 (object), Typ 2 (context), Typ 4 (activity) sind vorhanden.\\n8. Der GraphCode ist erfolgreich erstellt worden.\"\n}"
+}

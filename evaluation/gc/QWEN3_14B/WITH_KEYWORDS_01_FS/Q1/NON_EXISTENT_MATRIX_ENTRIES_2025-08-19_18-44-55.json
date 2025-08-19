@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the statement \u0027Maria plays basketball.\u0027 The dictionary contains the terms \u0027maria\u0027, \u0027play\u0027, and \u0027basketball\u0027. The matrix encodes the relationships: \u0027maria\u0027 (object) performs (type 8) \u0027play\u0027 (activity), and \u0027play\u0027 (activity) is applied to \u0027basketball\u0027 (object).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents the statement \u0027Maria plays basketball.\u0027 The dictionary contains the terms \u0027maria\u0027, \u0027play\u0027, and \u0027basketball\u0027. The matrix encodes the relationships: \u0027maria\u0027 (object) performs (type 8) \u0027play\u0027 (activity), and \u0027play\u0027 (activity) is applied to \u0027basketball\u0027 (object).\"\n}"
+}

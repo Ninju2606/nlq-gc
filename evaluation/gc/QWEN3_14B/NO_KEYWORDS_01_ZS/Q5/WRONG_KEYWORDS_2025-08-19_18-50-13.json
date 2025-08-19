@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "gelben",
+    "Hut",
+    "trage"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Situation, in der Maria einen gelben Hut trägt. Das Vokabular enthält die relevanten Begriffe, und die Bewertungsmatrix kodiert die Beziehungen zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"gelben\", \"Hut\", \"trage\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 2, 0, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Situation, in der Maria einen gelben Hut trägt. Das Vokabular enthält die relevanten Begriffe, und die Bewertungsmatrix kodiert die Beziehungen zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.\"\n}"
+}

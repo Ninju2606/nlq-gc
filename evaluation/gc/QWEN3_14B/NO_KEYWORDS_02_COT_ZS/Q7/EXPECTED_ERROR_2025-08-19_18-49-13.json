@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Häuser, Fragen, malen. 2. Es gibt keine relativen Verweise. 3. Übersetzung ins Englische: houses, questions, paint. 4. Keine Identifikation des Nutzers („ich“, „mein“, „mir“) in den Stichwörtern. 5. Attributeigenschaften: - houses (object), - questions (object), - paint (activity). 6. Beziehungen zwischen den Stichwörtern: Keine direkten Relationen zwischen den Stichwörtern, daher keine weiteren Typkodierungen. 7. Alle Attributeigenschaften haben passende Typkodierungen (object und activity sind in der Liste vorhanden).",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Häuser, Fragen, malen. 2. Es gibt keine relativen Verweise. 3. Übersetzung ins Englische: houses, questions, paint. 4. Keine Identifikation des Nutzers („ich“, „mein“, „mir“) in den Stichwörtern. 5. Attributeigenschaften: - houses (object), - questions (object), - paint (activity). 6. Beziehungen zwischen den Stichwörtern: Keine direkten Relationen zwischen den Stichwörtern, daher keine weiteren Typkodierungen. 7. Alle Attributeigenschaften haben passende Typkodierungen (object und activity sind in der Liste vorhanden).\"\n}"
+}

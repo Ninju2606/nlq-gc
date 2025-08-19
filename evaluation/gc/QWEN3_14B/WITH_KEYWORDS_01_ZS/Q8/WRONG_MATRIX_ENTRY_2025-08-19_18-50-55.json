@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria (als Person) mit einem Boot (Objekt) auf einem See (Objekt) fährt (Aktivität). Die Beziehung zwischen Maria und der Person wird durch den Typ \u0027context\u0027 dargestellt. Die Beziehung zwischen \u0027drive\u0027 und \u0027boat\u0027 wird durch den Typ \u0027perform\u0027 dargestellt. Die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 wird durch den Typ \u0027context\u0027 beschrieben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria (als Person) mit einem Boot (Objekt) auf einem See (Objekt) fährt (Aktivität). Die Beziehung zwischen Maria und der Person wird durch den Typ \u0027context\u0027 dargestellt. Die Beziehung zwischen \u0027drive\u0027 und \u0027boat\u0027 wird durch den Typ \u0027perform\u0027 dargestellt. Die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 wird durch den Typ \u0027context\u0027 beschrieben.\"\n}"
+}

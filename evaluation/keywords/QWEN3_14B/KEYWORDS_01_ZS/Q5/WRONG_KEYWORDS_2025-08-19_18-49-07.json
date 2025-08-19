@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "yellow hat",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the key concepts from the query: \u0027yellow hat\u0027 as the object and \u0027Maria\u0027 as the user identifier, since the query refers to \u0027ich\u0027 (I) and the user is identified as Maria.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow hat\", \"Maria\"],\n  \"description\": \"The vocabulary contains the key concepts from the query: \u0027yellow hat\u0027 as the object and \u0027Maria\u0027 as the user identifier, since the query refers to \u0027ich\u0027 (I) and the user is identified as Maria.\"\n}"
+}

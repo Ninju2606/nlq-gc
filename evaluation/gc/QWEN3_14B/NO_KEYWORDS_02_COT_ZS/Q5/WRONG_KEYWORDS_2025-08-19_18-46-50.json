@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Situationen, ich, gelben, Hut, trage.\n2. Relative Verweise: Das Wort „ich“ referenziert auf den Nutzer und wird in Schritt 4 ersetzt.\n3. Übersetzung der Stichwörter ins Englische: situations, I, yellow, hat, wear.\n4. Ersetzung der Identifikation des Nutzers: „ich“ wird durch „Maria“ ersetzt.\n5. Attributeigenschaften der Stichwörter:\n   - „situation“: context\n   - „Maria“: object\n   - „yellow“: characteristic\n   - „hat“: object\n6. Relationen zwischen den Stichwörtern:\n   - „Maria“ trägt (wear) den „gelben Hut“ → Relation „perform“.\n   - „gelben Hut“ hat (characteristic) das Attribut „yellow“ → Relation „characteristic“.\n   - „Situationen“ haben (context) das Attribut „Maria“ trägt Hut → Relation „context“.\n7. Überprüfen der Typkodierungen:\n   - „perform“ → ID: 8\n   - „characteristic“ → ID: 14\n   - „context“ → ID: 2\n8. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Situationen, ich, gelben, Hut, trage.\\n2. Relative Verweise: Das Wort „ich“ referenziert auf den Nutzer und wird in Schritt 4 ersetzt.\\n3. Übersetzung der Stichwörter ins Englische: situations, I, yellow, hat, wear.\\n4. Ersetzung der Identifikation des Nutzers: „ich“ wird durch „Maria“ ersetzt.\\n5. Attributeigenschaften der Stichwörter:\\n   - „situation“: context\\n   - „Maria“: object\\n   - „yellow“: characteristic\\n   - „hat“: object\\n6. Relationen zwischen den Stichwörtern:\\n   - „Maria“ trägt (wear) den „gelben Hut“ → Relation „perform“.\\n   - „gelben Hut“ hat (characteristic) das Attribut „yellow“ → Relation „characteristic“.\\n   - „Situationen“ haben (context) das Attribut „Maria“ trägt Hut → Relation „context“.\\n7. Überprüfen der Typkodierungen:\\n   - „perform“ → ID: 8\\n   - „characteristic“ → ID: 14\\n   - „context“ → ID: 2\\n8. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Houses",
+    "paint",
+    "questions"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „zu“, „malen“. Dabei sind „um“, „zu“ keine Objekte, Attribute oder Aktivitäten, sondern Präpositionen oder Konjunktionen, und werden daher nicht in das Vokabular aufgenommen. Die relevanten Stichwörter sind also „Häuser“, „Fragen“, „malen\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind „Houses“, „paint“, „questions\".\n4. Die Stichwörter mit Nutzeridentifikation sind „Houses“, „paint“, „questions\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Houses\", \"paint\", \"questions\"],\n  \"description\": \"1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „zu“, „malen“. Dabei sind „um“, „zu“ keine Objekte, Attribute oder Aktivitäten, sondern Präpositionen oder Konjunktionen, und werden daher nicht in das Vokabular aufgenommen. Die relevanten Stichwörter sind also „Häuser“, „Fragen“, „malen\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind „Houses“, „paint“, „questions\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind „Houses“, „paint“, „questions\\\".\"\n}"
+}

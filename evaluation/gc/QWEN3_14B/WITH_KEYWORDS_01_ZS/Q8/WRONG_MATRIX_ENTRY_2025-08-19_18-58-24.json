@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "Der GraphCode für die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 wurde generiert. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027. Die Bewertungsmatrix enthält Beziehungen gemäß den festgelegten Typkodierungen. \u0027maria\u0027 wird mit \u0027person\u0027 als Typ 2 (context) verbunden. \u0027drive\u0027 mit \u0027boat\u0027 als Typ 5 (attached) und als Typ 1 (object) für \u0027drive\u0027. \u0027boat\u0027 mit \u0027lake\u0027 als Typ 5 (attached) und als Typ 1 (object) für \u0027boat\u0027. \u0027lake\u0027 wird als Typ 1 (object) selbst definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 5, 0],\n    [0, 0, 5, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode für die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 wurde generiert. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027. Die Bewertungsmatrix enthält Beziehungen gemäß den festgelegten Typkodierungen. \u0027maria\u0027 wird mit \u0027person\u0027 als Typ 2 (context) verbunden. \u0027drive\u0027 mit \u0027boat\u0027 als Typ 5 (attached) und als Typ 1 (object) für \u0027drive\u0027. \u0027boat\u0027 mit \u0027lake\u0027 als Typ 5 (attached) und als Typ 1 (object) für \u0027boat\u0027. \u0027lake\u0027 wird als Typ 1 (object) selbst definiert.\"\n}"
+}

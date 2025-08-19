@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the identified user \u0027Tim\u0027 and the activity \u0027run\u0027 based on the query \u0027Tim rennt\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The vocabulary contains the identified user \u0027Tim\u0027 and the activity \u0027run\u0027 based on the query \u0027Tim rennt\u0027.\"\n}"
+}

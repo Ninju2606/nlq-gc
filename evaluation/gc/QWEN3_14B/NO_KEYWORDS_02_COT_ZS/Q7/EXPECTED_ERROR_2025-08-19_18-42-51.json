@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Keine relativen Verweise zu berücksichtigen.\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\n4. Keine Identifikation des Nutzers (z. B. \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) vorhanden, die ersetzt werden müsste.\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (object), \u0027question\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\n6. Beziehungen: \u0027paint\u0027 wird auf \u0027house\u0027 und \u0027question\u0027 angewendet (Aktivität auf Objekte). Keine weiteren Beziehungen.\n7. Beziehungen: \u0027paint\u0027 ist eine Aktivität (Typ 4), \u0027house\u0027 und \u0027question\u0027 sind Objekte (Typ 1). Es gibt entsprechende Typkodierungen.\n8. GraphCode generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Keine relativen Verweise zu berücksichtigen.\\n3. Übersetzung ins Englische: \u0027house\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Keine Identifikation des Nutzers (z. B. \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) vorhanden, die ersetzt werden müsste.\\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt (object), \u0027question\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\\n6. Beziehungen: \u0027paint\u0027 wird auf \u0027house\u0027 und \u0027question\u0027 angewendet (Aktivität auf Objekte). Keine weiteren Beziehungen.\\n7. Beziehungen: \u0027paint\u0027 ist eine Aktivität (Typ 4), \u0027house\u0027 und \u0027question\u0027 sind Objekte (Typ 1). Es gibt entsprechende Typkodierungen.\\n8. GraphCode generiert.\"\n}"
+}

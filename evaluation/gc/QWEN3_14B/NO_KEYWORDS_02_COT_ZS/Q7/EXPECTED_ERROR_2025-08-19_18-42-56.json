@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027. Nach Verarbeitung und Verallgemeinerung ergibt sich \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027.\n2. Relative Verweise: Keine identifizierbaren relativen Verweise in der Anfrage.\n3. Übersetzung der Stichwörter ins Englische: \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027.\n4. Ersetzung der Identifikation des Nutzers: Keine Nutzeridentifikation (z. B. \u0027ich\u0027, \u0027mein\u0027) in der Anfrage vorhanden.\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität, \u0027question\u0027 ist ein Objekt.\n6. Relationen: \u0027paint\u0027 wird auf \u0027house\u0027 angewendet, \u0027question\u0027 ist ein weiteres Objekt, das mit der Szene verbunden ist.\n7. Prüfung der Typkodierungen: Die Relation \u0027paint\u0027 (Aktivität) auf \u0027house\u0027 (Objekt) passt zur Typkodierung \u0027perform\u0027 (ID 8), da eine Aktivität auf ein Objekt angewendet wird. Das Vokabular und die Beziehungen sind mit vorhandenen Kodierungen kompatibel.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027. Nach Verarbeitung und Verallgemeinerung ergibt sich \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027.\\n2. Relative Verweise: Keine identifizierbaren relativen Verweise in der Anfrage.\\n3. Übersetzung der Stichwörter ins Englische: \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027.\\n4. Ersetzung der Identifikation des Nutzers: Keine Nutzeridentifikation (z. B. \u0027ich\u0027, \u0027mein\u0027) in der Anfrage vorhanden.\\n5. Attributeigenschaften: \u0027house\u0027 ist ein Objekt, \u0027paint\u0027 ist eine Aktivität, \u0027question\u0027 ist ein Objekt.\\n6. Relationen: \u0027paint\u0027 wird auf \u0027house\u0027 angewendet, \u0027question\u0027 ist ein weiteres Objekt, das mit der Szene verbunden ist.\\n7. Prüfung der Typkodierungen: Die Relation \u0027paint\u0027 (Aktivität) auf \u0027house\u0027 (Objekt) passt zur Typkodierung \u0027perform\u0027 (ID 8), da eine Aktivität auf ein Objekt angewendet wird. Das Vokabular und die Beziehungen sind mit vorhandenen Kodierungen kompatibel.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions",
+    "maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the main concepts from the query \u0027Häuser um Fragen zu malen\u0027 translated into English and includes the user\u0027s identification \u0027Maria\u0027 as specified.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\", \"maria\"],\n  \"description\": \"The vocabulary contains the main concepts from the query \u0027Häuser um Fragen zu malen\u0027 translated into English and includes the user\u0027s identification \u0027Maria\u0027 as specified.\"\n}"
+}

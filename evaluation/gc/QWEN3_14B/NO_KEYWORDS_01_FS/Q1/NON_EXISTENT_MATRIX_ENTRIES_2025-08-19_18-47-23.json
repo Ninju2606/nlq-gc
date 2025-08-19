@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt, dass Maria Basketball spielt. Das Vokabular besteht aus den Begriffen \u0027Maria\u0027, \u0027play\u0027, und \u0027basketball\u0027. In der Bewertungsmatrix wurde die Beziehung zwischen \u0027Maria\u0027 und \u0027play\u0027 mit Typ 7 (\u0027perform\u0027) und zwischen \u0027play\u0027 und \u0027basketball\u0027 mit Typ 8 (\u0027target\u0027) definiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 7, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Die Anfrage beschreibt, dass Maria Basketball spielt. Das Vokabular besteht aus den Begriffen \u0027Maria\u0027, \u0027play\u0027, und \u0027basketball\u0027. In der Bewertungsmatrix wurde die Beziehung zwischen \u0027Maria\u0027 und \u0027play\u0027 mit Typ 7 (\u0027perform\u0027) und zwischen \u0027play\u0027 und \u0027basketball\u0027 mit Typ 8 (\u0027target\u0027) definiert.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode beschreibt die Szene: Maria schwimmt in einem Pool, der ihr gehört. Die Begriffe \u0027maria\u0027 und \u0027swim\u0027 sind über die Relation \u0027perform\u0027 (Typ 8) verbunden. Der Begriff \u0027own\u0027 ist ein Objekt (Typ 2) und beschreibt das Besitzverhältnis. Der Begriff \u0027pool\u0027 ist ein Objekt (Typ 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene: Maria schwimmt in einem Pool, der ihr gehört. Die Begriffe \u0027maria\u0027 und \u0027swim\u0027 sind über die Relation \u0027perform\u0027 (Typ 8) verbunden. Der Begriff \u0027own\u0027 ist ein Objekt (Typ 2) und beschreibt das Besitzverhältnis. Der Begriff \u0027pool\u0027 ist ein Objekt (Typ 1).\"\n}"
+}

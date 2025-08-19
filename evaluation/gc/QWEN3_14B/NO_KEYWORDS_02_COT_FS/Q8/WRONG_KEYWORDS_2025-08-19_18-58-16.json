@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "see",
+    "daughter"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      8
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Tochter“, „fahren“, „Boot“, „See“. \n2. Es gibt einen relativen Verweis: „Meine Tochter“ wird zu „Maria“ als Nutzeridentifikation umgewandelt. \n3. Die englischen Stichwörter sind „daughter“, „drive“, „boat“, „see“. \n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „boat“, „see“. \n5. „Maria“ und „boat“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. „see“ ist ein Kontext. \n6. „Maria“ führt die Aktivität „drive“ aus. „drive“ bezieht sich auf „boat“. „boat“ befindet sich in „see“. „Maria“ ist Mutter von „daughter“. \n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für In (in) ist 6. Die ID für Elternbeziehung (daughter) ist 10.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"see\", \"daughter\"],\n  \"matrix\": [\n    [1, 7, 0, 8],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [4, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Tochter“, „fahren“, „Boot“, „See“. \\n2. Es gibt einen relativen Verweis: „Meine Tochter“ wird zu „Maria“ als Nutzeridentifikation umgewandelt. \\n3. Die englischen Stichwörter sind „daughter“, „drive“, „boat“, „see“. \\n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „daughter“, „boat“, „see“. \\n5. „Maria“ und „boat“ sind Objekte der Anfrage. „drive“ ist eine Aktivität. „see“ ist ein Kontext. \\n6. „Maria“ führt die Aktivität „drive“ aus. „drive“ bezieht sich auf „boat“. „boat“ befindet sich in „see“. „Maria“ ist Mutter von „daughter“. \\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für In (in) ist 6. Die ID für Elternbeziehung (daughter) ist 10.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria im eigenen Pool schwimmt. \u0027maria\u0027 ist die Nutzeridentifikation, \u0027swim\u0027 beschreibt die Aktivität, \u0027own\u0027 ist das Besitzattribut, und \u0027pool\u0027 ist das Objekt. Die Beziehungen sind wie folgt: Maria schwimmt (Typ 8: perform), \u0027swim\u0027 ist eine Aktivität (Typ 9: activity), \u0027own\u0027 bezieht sich auf Maria (Typ 1: object), und \u0027pool\u0027 ist das Objekt, in dem Maria schwimmt (Typ 6: under).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 0],\n    [0, 0, 1, 6],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria im eigenen Pool schwimmt. \u0027maria\u0027 ist die Nutzeridentifikation, \u0027swim\u0027 beschreibt die Aktivität, \u0027own\u0027 ist das Besitzattribut, und \u0027pool\u0027 ist das Objekt. Die Beziehungen sind wie folgt: Maria schwimmt (Typ 8: perform), \u0027swim\u0027 ist eine Aktivität (Typ 9: activity), \u0027own\u0027 bezieht sich auf Maria (Typ 1: object), und \u0027pool\u0027 ist das Objekt, in dem Maria schwimmt (Typ 6: under).\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter ermittelt und in Englisch übersetzt. Relative Verweise wurden nicht gefunden. Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie auf den Anfrager referiert. Der GraphCode kann mit diesem Vokabular weiter verarbeitet werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Stichwörter ermittelt und in Englisch übersetzt. Relative Verweise wurden nicht gefunden. Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie auf den Anfrager referiert. Der GraphCode kann mit diesem Vokabular weiter verarbeitet werden.\"\n}"
+}

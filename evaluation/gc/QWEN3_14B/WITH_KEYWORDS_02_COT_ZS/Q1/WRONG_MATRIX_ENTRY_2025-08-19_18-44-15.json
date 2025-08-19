@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Der Nutzer hat die Anfrage gestellt: „Ich spiele Basketball“. In dieser Anfrage ist die Identifikation „Maria“ sowie das Verhalten „spiele“ und das Objekt „Basketball“ enthalten. Der Nutzer identifiziert sich selbst, daher wird das Vokabular mit „maria“ beinhaltet.\n\n2. Attributeigenschaften der Stichwörter:\n- „maria“: Bezeichnet die Identifikation des Nutzers und trägt das Attribut „object“.\n- „play“: Bezeichnet eine Aktivität, das Attribut ist „activity“.\n- „basketball“: Bezeichnet ein Objekt, das Attribut ist „object“.\n\n3. Relationen zwischen den Stichwörtern:\n- „maria“ und „play“: Maria führt die Aktivität „play“ aus. Dies ist eine „perform“-Beziehung.\n- „play“ und „basketball“: Die Aktivität „play“ wird auf das Objekt „basketball“ angewandt. Dies ist eine „target“-Beziehung.\n- „maria“ und „basketball“: Maria bezieht sich nicht direkt auf das Objekt Basketball, es gibt keine direkte Relation.\n\n4. Prüfung der Typkodierungen:\n- „perform“: ID 8\n- „target“: ID 9\n- „object“: ID 1\n- „activity“: ID 4\nAlle Relationen sind in der Liste der Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer hat die Anfrage gestellt: „Ich spiele Basketball“. In dieser Anfrage ist die Identifikation „Maria“ sowie das Verhalten „spiele“ und das Objekt „Basketball“ enthalten. Der Nutzer identifiziert sich selbst, daher wird das Vokabular mit „maria“ beinhaltet.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- „maria“: Bezeichnet die Identifikation des Nutzers und trägt das Attribut „object“.\\n- „play“: Bezeichnet eine Aktivität, das Attribut ist „activity“.\\n- „basketball“: Bezeichnet ein Objekt, das Attribut ist „object“.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- „maria“ und „play“: Maria führt die Aktivität „play“ aus. Dies ist eine „perform“-Beziehung.\\n- „play“ und „basketball“: Die Aktivität „play“ wird auf das Objekt „basketball“ angewandt. Dies ist eine „target“-Beziehung.\\n- „maria“ und „basketball“: Maria bezieht sich nicht direkt auf das Objekt Basketball, es gibt keine direkte Relation.\\n\\n4. Prüfung der Typkodierungen:\\n- „perform“: ID 8\\n- „target“: ID 9\\n- „object“: ID 1\\n- „activity“: ID 4\\nAlle Relationen sind in der Liste der Typkodierungen vorhanden.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage enthält keine erkennbaren Stichwörter, die für die Erstellung eines GraphCodes relevant sind. Der Begriff \u0027Termin ausmachen\u0027 ist zu vager und allgemein, um konkrete Objekte, Attribute, Aktivitäten oder Beziehungen im Metaverse zu definieren. Es fehlen spezifische Begriffe, die in das Vokabular eingehen könnten. Zudem gibt es keine klaren Beziehungen oder relativen Verweise, die in einer Bewertungsmatrix abgebildet werden könnten. Daher kann kein GraphCode generiert werden.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Nutzeranfrage enthält keine erkennbaren Stichwörter, die für die Erstellung eines GraphCodes relevant sind. Der Begriff \u0027Termin ausmachen\u0027 ist zu vager und allgemein, um konkrete Objekte, Attribute, Aktivitäten oder Beziehungen im Metaverse zu definieren. Es fehlen spezifische Begriffe, die in das Vokabular eingehen könnten. Zudem gibt es keine klaren Beziehungen oder relativen Verweise, die in einer Bewertungsmatrix abgebildet werden könnten. Daher kann kein GraphCode generiert werden.\"\n}"
+}

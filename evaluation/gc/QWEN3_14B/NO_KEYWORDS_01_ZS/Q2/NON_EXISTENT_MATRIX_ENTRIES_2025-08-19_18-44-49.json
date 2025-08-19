@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the action of \u0027Tim running\u0027. \u0027Tim\u0027 is identified as the subject (type 1: object), and \u0027run\u0027 is identified as the activity (type 4: activity). The relation between \u0027Tim\u0027 and \u0027run\u0027 is of type \u0027perform\u0027 (type 8: activity relation, identityMapping \u003d false).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 4],\n    [0, 2]\n  ],\n  \"description\": \"The GraphCode represents the action of \u0027Tim running\u0027. \u0027Tim\u0027 is identified as the subject (type 1: object), and \u0027run\u0027 is identified as the activity (type 4: activity). The relation between \u0027Tim\u0027 and \u0027run\u0027 is of type \u0027perform\u0027 (type 8: activity relation, identityMapping \u003d false).\"\n}"
+}

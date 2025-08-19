@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Wir\", \"müssen\", \"bald\", \"einen\", \"Termin\", \"ausmachen\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \"we\", \"must\", \"soon\", \"a\", \"appointment\", \"make\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"must\", \"soon\", \"a\", \"appointment\", \"make\".\n5. \"Maria\" und \"appointment\" sind Objekte der Anfrage. \"must\" und \"make\" sind Aktivitäten.\n6. \"Maria\" muss den Termin ausmachen (\"make\" bezieht sich auf \"appointment\").\n7. Die Relation \"ausmachen\" ist nicht bekannt.",
+  "error": "Die Relation \"ausmachen\" ist nicht bekannt.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \\\"ausmachen\\\" ist nicht bekannt.\",\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Wir\\\", \\\"müssen\\\", \\\"bald\\\", \\\"einen\\\", \\\"Termin\\\", \\\"ausmachen\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"we\\\", \\\"must\\\", \\\"soon\\\", \\\"a\\\", \\\"appointment\\\", \\\"make\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"must\\\", \\\"soon\\\", \\\"a\\\", \\\"appointment\\\", \\\"make\\\".\\n5. \\\"Maria\\\" und \\\"appointment\\\" sind Objekte der Anfrage. \\\"must\\\" und \\\"make\\\" sind Aktivitäten.\\n6. \\\"Maria\\\" muss den Termin ausmachen (\\\"make\\\" bezieht sich auf \\\"appointment\\\").\\n7. Die Relation \\\"ausmachen\\\" ist nicht bekannt.\"\n}"
+}

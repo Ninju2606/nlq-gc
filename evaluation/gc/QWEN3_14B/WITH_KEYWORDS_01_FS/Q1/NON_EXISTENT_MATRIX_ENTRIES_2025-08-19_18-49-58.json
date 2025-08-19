@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (Eintrag 0) das Spiel (Eintrag 1) \u0027play\u0027 ausübt, und das Spiel \u0027basketball\u0027 (Eintrag 2) ist das Ziel des Aktivitäts-Typs \u0027play\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (Eintrag 0) das Spiel (Eintrag 1) \u0027play\u0027 ausübt, und das Spiel \u0027basketball\u0027 (Eintrag 2) ist das Ziel des Aktivitäts-Typs \u0027play\u0027.\"\n}"
+}

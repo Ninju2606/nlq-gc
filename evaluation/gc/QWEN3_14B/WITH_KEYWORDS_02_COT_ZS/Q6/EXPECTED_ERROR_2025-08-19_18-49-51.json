@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat die Anfrage gestellt, bald einen Termin auszumachen. Die Identifikation \u0027maria\u0027 wird entsprechend im Vokabular verwendet. Der Begriff \u0027make\u0027 wird als Aktivität interpretiert, und \u0027appointment\u0027 als Objekt.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 ist eine Identifikation (Nutzer selbst), also Typ 1 (object).\n- \u0027make\u0027 ist eine Aktivität, also Typ 4 (activity).\n- \u0027appointment\u0027 ist ein Objekt, also Typ 1 (object).\n3. Die Stichwörter stehen in folgender Relation zueinander:\n- Maria macht (make) einen Termin (appointment). Dies ist eine Aktivitäts-Objekt-Beziehung.\n- Maria und Termin sind keine direkten Beziehungen.\n- Make und Appointment sind in einer Aktivitäts-Objekt-Beziehung.\n4. Typkodierung für die Beziehungen:\n- Die Aktivitäts-Objekt-Beziehung (make → appointment) ist mit Typ 8 (\u0027perform\u0027) möglich.\n- Die Identifikation \u0027maria\u0027 ist ein Objekt (Typ 1), was korrekt ist.\n- Die restlichen Einträge (i,i) wurden entsprechend den Typen aufgefüllt.\n5. Der GraphCode ist daher in der JSON-Ausgabe dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat die Anfrage gestellt, bald einen Termin auszumachen. Die Identifikation \u0027maria\u0027 wird entsprechend im Vokabular verwendet. Der Begriff \u0027make\u0027 wird als Aktivität interpretiert, und \u0027appointment\u0027 als Objekt.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 ist eine Identifikation (Nutzer selbst), also Typ 1 (object).\\n- \u0027make\u0027 ist eine Aktivität, also Typ 4 (activity).\\n- \u0027appointment\u0027 ist ein Objekt, also Typ 1 (object).\\n3. Die Stichwörter stehen in folgender Relation zueinander:\\n- Maria macht (make) einen Termin (appointment). Dies ist eine Aktivitäts-Objekt-Beziehung.\\n- Maria und Termin sind keine direkten Beziehungen.\\n- Make und Appointment sind in einer Aktivitäts-Objekt-Beziehung.\\n4. Typkodierung für die Beziehungen:\\n- Die Aktivitäts-Objekt-Beziehung (make → appointment) ist mit Typ 8 (\u0027perform\u0027) möglich.\\n- Die Identifikation \u0027maria\u0027 ist ein Objekt (Typ 1), was korrekt ist.\\n- Die restlichen Einträge (i,i) wurden entsprechend den Typen aufgefüllt.\\n5. Der GraphCode ist daher in der JSON-Ausgabe dargestellt.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage gemacht. Allerdings ist die Identifikation \u0027Maria\u0027 vorhanden, das Wort \u0027Tim\u0027 in der Anfrage bezieht sich jedoch nicht auf den Nutzer. Daher wird die Identifikation ignoriert.\n2. Die Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\n3. Die Stichwörter stehen in einer Beziehung: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 durch. Dies ist eine \u0027perform\u0027-Beziehung.\n4. Es existiert eine Typkodierung für \u0027perform\u0027 mit der ID 8. Daher wird diese verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage gemacht. Allerdings ist die Identifikation \u0027Maria\u0027 vorhanden, das Wort \u0027Tim\u0027 in der Anfrage bezieht sich jedoch nicht auf den Nutzer. Daher wird die Identifikation ignoriert.\\n2. Die Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\\n3. Die Stichwörter stehen in einer Beziehung: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 durch. Dies ist eine \u0027perform\u0027-Beziehung.\\n4. Es existiert eine Typkodierung für \u0027perform\u0027 mit der ID 8. Daher wird diese verwendet.\"\n}"
+}

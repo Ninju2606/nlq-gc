@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query specifies that \u0027Tim\u0027 is running. Since the user \u0027Maria\u0027 is not directly referring to herself in the query (e.g., with \u0027I\u0027 or \u0027my\u0027), her identification is not included in the vocabulary. The words \u0027Tim\u0027 and \u0027run\u0027 are extracted as they describe the scene in the Metaverse.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The query specifies that \u0027Tim\u0027 is running. Since the user \u0027Maria\u0027 is not directly referring to herself in the query (e.g., with \u0027I\u0027 or \u0027my\u0027), her identification is not included in the vocabulary. The words \u0027Tim\u0027 and \u0027run\u0027 are extracted as they describe the scene in the Metaverse.\"\n}"
+}

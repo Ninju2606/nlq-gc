@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis %5C%22meine Tochter%5C%22 wurde auf die Identifikation %5C%22maria%5C%22 bezogen. %5C%22Tochter%5C%22 ist ein relativer Verweis und wird in den GraphCode nicht als Eintrag übernommen.\n\n2. %5C%22maria%5C%22 ist eine Person. %5C%22person%5C%22 ist das allgemeine Attribut einer Person. %5C%22drive%5C%22 ist eine Aktivität. %5C%22boat%5C%22 und %5C%22lake%5C%22 sind Objekte.\n\n3. %5C%22maria%5C%22 ist ein Mensch und führt die Aktivität %5C%22drive%5C%22 aus. %5C%22drive%5C%22 wird auf das Objekt %5C%22boat%5C%22 angewandt. %5C%22boat%5C%22 befindet sich auf dem Objekt %5C%22lake%5C%22.\n\n4. Die ID für Person (%5C%22person%5C%22) ist 1. Die ID für Aktivität (%5C%22drive%5C%22) ist 9. Die ID für Ausführen (%5C%22perform%5C%22) ist 7. Die ID für Beziehen (%5C%22target%5C%22) ist 8. Die ID für auf (%5C%22on%5C%22) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 9, 1, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis %5C%22meine Tochter%5C%22 wurde auf die Identifikation %5C%22maria%5C%22 bezogen. %5C%22Tochter%5C%22 ist ein relativer Verweis und wird in den GraphCode nicht als Eintrag übernommen.\\n\\n2. %5C%22maria%5C%22 ist eine Person. %5C%22person%5C%22 ist das allgemeine Attribut einer Person. %5C%22drive%5C%22 ist eine Aktivität. %5C%22boat%5C%22 und %5C%22lake%5C%22 sind Objekte.\\n\\n3. %5C%22maria%5C%22 ist ein Mensch und führt die Aktivität %5C%22drive%5C%22 aus. %5C%22drive%5C%22 wird auf das Objekt %5C%22boat%5C%22 angewandt. %5C%22boat%5C%22 befindet sich auf dem Objekt %5C%22lake%5C%22.\\n\\n4. Die ID für Person (%5C%22person%5C%22) ist 1. Die ID für Aktivität (%5C%22drive%5C%22) ist 9. Die ID für Ausführen (%5C%22perform%5C%22) ist 7. Die ID für Beziehen (%5C%22target%5C%22) ist 8. Die ID für auf (%5C%22on%5C%22) ist 6.\"\n}"
+}

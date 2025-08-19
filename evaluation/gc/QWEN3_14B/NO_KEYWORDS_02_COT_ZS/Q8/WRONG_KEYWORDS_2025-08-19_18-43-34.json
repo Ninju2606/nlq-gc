@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahre Boot\u0027, \u0027auf einem See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, \u0027ich\u0027 bezieht sich ebenfalls auf \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027drive boat\u0027, \u0027on a lake\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027Meine Tochter\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 ersetzt, da sie auf den Nutzer referieren.\n5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027daughter\u0027 (relation), \u0027boat\u0027 (object), \u0027lake\u0027 (object).\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027, \u0027Maria\u0027 und \u0027daughter\u0027 fahren \u0027boat\u0027, \u0027boat\u0027 ist auf \u0027lake\u0027.\n7. Typkodierung: - \u0027Maria\u0027 (Object) -\u003e Typ 1\n- \u0027daughter\u0027 (Relation) -\u003e Typ 5\n- \u0027boat\u0027 (Object) -\u003e Typ 1\n- \u0027lake\u0027 (Object) -\u003e Typ 1",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahre Boot\u0027, \u0027auf einem See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, \u0027ich\u0027 bezieht sich ebenfalls auf \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027drive boat\u0027, \u0027on a lake\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027Meine Tochter\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 ersetzt, da sie auf den Nutzer referieren.\\n5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027daughter\u0027 (relation), \u0027boat\u0027 (object), \u0027lake\u0027 (object).\\n6. Relationen zwischen den Stichwörtern: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027, \u0027Maria\u0027 und \u0027daughter\u0027 fahren \u0027boat\u0027, \u0027boat\u0027 ist auf \u0027lake\u0027.\\n7. Typkodierung: - \u0027Maria\u0027 (Object) -\u003e Typ 1\\n- \u0027daughter\u0027 (Relation) -\u003e Typ 5\\n- \u0027boat\u0027 (Object) -\u003e Typ 1\\n- \u0027lake\u0027 (Object) -\u003e Typ 1\"\n}"
+}

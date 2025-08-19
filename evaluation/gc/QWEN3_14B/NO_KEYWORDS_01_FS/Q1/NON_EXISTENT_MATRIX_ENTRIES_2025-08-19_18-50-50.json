@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria Basketball spielt. Der Eintrag \u0027play\u0027 (ID 9) wird als Aktivität (activity) definiert und verknüpft Maria (ID 1) mit dem Objekt \u0027basketball\u0027 (ID 1) über die Relation \u0027perform\u0027 (ID 7).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 7, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria Basketball spielt. Der Eintrag \u0027play\u0027 (ID 9) wird als Aktivität (activity) definiert und verknüpft Maria (ID 1) mit dem Objekt \u0027basketball\u0027 (ID 1) über die Relation \u0027perform\u0027 (ID 7).\"\n}"
+}

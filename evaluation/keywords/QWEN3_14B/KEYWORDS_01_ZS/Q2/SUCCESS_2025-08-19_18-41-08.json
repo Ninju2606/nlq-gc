@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query specifies that \u0027Tim\u0027 is running. Since \u0027Tim\u0027 is mentioned as the subject performing an action, the user identifier \u0027Maria\u0027 is not included in the vocabulary as per the rules. The vocabulary contains the entities and actions from the query: \u0027Tim\u0027 and \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The query specifies that \u0027Tim\u0027 is running. Since \u0027Tim\u0027 is mentioned as the subject performing an action, the user identifier \u0027Maria\u0027 is not included in the vocabulary as per the rules. The vocabulary contains the entities and actions from the query: \u0027Tim\u0027 and \u0027run\u0027.\"\n}"
+}

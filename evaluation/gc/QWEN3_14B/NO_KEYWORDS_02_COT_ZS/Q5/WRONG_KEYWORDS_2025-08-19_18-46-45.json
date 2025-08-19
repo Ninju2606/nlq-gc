@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "me",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf den Nutzer, der in der Eingabe als \u0027Maria\u0027 identifiziert ist. Dies wird in den GraphCode berücksichtigt.\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027me\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027me\u0027 ersetzt.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein \u0027context\u0027, \u0027me\u0027 ist \u0027object\u0027, \u0027yellow\u0027 ist \u0027characteristic\u0027, \u0027hat\u0027 ist \u0027object\u0027.\n6. Beziehungen zwischen den Stichwörtern: \u0027me\u0027 (object) trägt \u0027yellow hat\u0027 (object), wofür der Typ \u0027attached\u0027 (ID 5) passt. \u0027yellow\u0027 (characteristic) ist eine Eigenschaft von \u0027hat\u0027 (object), wofür der Typ \u0027characteristic\u0027 (ID 14) passt. \u0027situation\u0027 (context) ist der globale Umfang der Szene, wofür der Typ \u0027context\u0027 (ID 2) passt.\n7. Typkodierungen: Für \u0027attached\u0027 (ID 5), \u0027characteristic\u0027 (ID 14), sowie \u0027context\u0027 (ID 2) und \u0027object\u0027 (ID 1) existieren entsprechende Definitionen in den bereitgestellten Typkodierungen.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"me\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027.\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf den Nutzer, der in der Eingabe als \u0027Maria\u0027 identifiziert ist. Dies wird in den GraphCode berücksichtigt.\\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027me\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027me\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein \u0027context\u0027, \u0027me\u0027 ist \u0027object\u0027, \u0027yellow\u0027 ist \u0027characteristic\u0027, \u0027hat\u0027 ist \u0027object\u0027.\\n6. Beziehungen zwischen den Stichwörtern: \u0027me\u0027 (object) trägt \u0027yellow hat\u0027 (object), wofür der Typ \u0027attached\u0027 (ID 5) passt. \u0027yellow\u0027 (characteristic) ist eine Eigenschaft von \u0027hat\u0027 (object), wofür der Typ \u0027characteristic\u0027 (ID 14) passt. \u0027situation\u0027 (context) ist der globale Umfang der Szene, wofür der Typ \u0027context\u0027 (ID 2) passt.\\n7. Typkodierungen: Für \u0027attached\u0027 (ID 5), \u0027characteristic\u0027 (ID 14), sowie \u0027context\u0027 (ID 2) und \u0027object\u0027 (ID 1) existieren entsprechende Definitionen in den bereitgestellten Typkodierungen.\\n8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      9
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\", \"rennt\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \"Tim\", \"run\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"run\".\n5. \"Maria\" und \"run\" sind Objekte der Anfrage.\n6. \"Maria\" führt die Aktivität \"run\" aus.\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 9],\n    [0, 9]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\", \\\"rennt\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"Tim\\\", \\\"run\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"run\\\".\\n5. \\\"Maria\\\" und \\\"run\\\" sind Objekte der Anfrage.\\n6. \\\"Maria\\\" führt die Aktivität \\\"run\\\" aus.\\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7.\"\n}"
+}

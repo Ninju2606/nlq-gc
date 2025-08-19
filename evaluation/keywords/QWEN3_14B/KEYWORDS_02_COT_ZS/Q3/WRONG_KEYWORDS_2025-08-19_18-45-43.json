@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\n2. Relative Verweise: \u0027mir gehörend\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\n4. Identifikation des Nutzers: \u0027mein\u0027 und \u0027mir\u0027 beziehen sich auf \u0027Maria\u0027, welche in das Vokabular aufgenommen wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir gehörend\u0027.\\n2. Relative Verweise: \u0027mir gehörend\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\\n4. Identifikation des Nutzers: \u0027mein\u0027 und \u0027mir\u0027 beziehen sich auf \u0027Maria\u0027, welche in das Vokabular aufgenommen wurde.\"\n}"
+}

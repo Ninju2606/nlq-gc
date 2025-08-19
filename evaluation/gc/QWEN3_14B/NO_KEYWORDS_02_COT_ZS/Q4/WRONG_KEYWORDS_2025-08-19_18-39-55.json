@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027, muss daher im Vokabular mit \u0027Maria\u0027 verknüpft werden.\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027.\n4. Ersetzen der Identifikation des Nutzers: \u0027meinem\u0027 wird in \u0027my\u0027 ersetzt, das auf \u0027Maria\u0027 verweist.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Typ 8), \u0027swim\u0027 findet im \u0027pool\u0027 statt (Typ 9, jedoch keine passende Kodierung verfügbar). \u0027pool\u0027 ist ein Objekt (Typ 1).\n7. Prüfung der Typkodierungen: Typ 1 (object), Typ 4 (activity), Typ 8 (perform) sind vorhanden. Typ 9 (target) ist nicht vorhanden, daher wird der GraphCode mit der Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 nicht vollständig abgebildet.\n8. Nach Anpassung der Relation \u0027swim\u0027 – \u0027pool\u0027 wurde der Typ 9 (target) nicht gefunden, daher bleibt dieser Eintrag leer.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027, muss daher im Vokabular mit \u0027Maria\u0027 verknüpft werden.\\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027.\\n4. Ersetzen der Identifikation des Nutzers: \u0027meinem\u0027 wird in \u0027my\u0027 ersetzt, das auf \u0027Maria\u0027 verweist.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (Typ 8), \u0027swim\u0027 findet im \u0027pool\u0027 statt (Typ 9, jedoch keine passende Kodierung verfügbar). \u0027pool\u0027 ist ein Objekt (Typ 1).\\n7. Prüfung der Typkodierungen: Typ 1 (object), Typ 4 (activity), Typ 8 (perform) sind vorhanden. Typ 9 (target) ist nicht vorhanden, daher wird der GraphCode mit der Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 nicht vollständig abgebildet.\\n8. Nach Anpassung der Relation \u0027swim\u0027 – \u0027pool\u0027 wurde der Typ 9 (target) nicht gefunden, daher bleibt dieser Eintrag leer.\"\n}"
+}

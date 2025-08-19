@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Wir müssen bald einen Termin ausmachen.\" enthält keine erkennbaren Stichwörter, die für die Erstellung eines GraphCodes relevant sind. Der GraphCode erfordert mindestens einige Objekte, Attribute, Aktivitäten oder Relationen, die in der Anfrage explizit oder implizit genannt werden. In diesem Fall fehlen solche Begriffe, weshalb kein GraphCode generiert werden kann.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage \\\"Wir müssen bald einen Termin ausmachen.\\\" enthält keine erkennbaren Stichwörter, die für die Erstellung eines GraphCodes relevant sind. Der GraphCode erfordert mindestens einige Objekte, Attribute, Aktivitäten oder Relationen, die in der Anfrage explizit oder implizit genannt werden. In diesem Fall fehlen solche Begriffe, weshalb kein GraphCode generiert werden kann.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. Nach Umwandlung in Stammform: \u0027Maria\u0027, \u0027basketball\u0027.\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf die Identifikation des Nutzers \u0027Maria\u0027 und wird entsprechend ersetzt.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027basketball\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027basketball\u0027 ist eine Aktivität (Typ 4).\n6. Relation zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027basketball\u0027 durch. Dies ist eine \u0027perform\u0027-Relation (Typ 8).\n7. Typkodierung für \u0027perform\u0027 ist vorhanden (ID 8). Typ für Objekt und Aktivität sind vorhanden (ID 1 und 4).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. Nach Umwandlung in Stammform: \u0027Maria\u0027, \u0027basketball\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf die Identifikation des Nutzers \u0027Maria\u0027 und wird entsprechend ersetzt.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027basketball\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027basketball\u0027 ist eine Aktivität (Typ 4).\\n6. Relation zwischen den Stichwörtern: \u0027Maria\u0027 führt die Aktivität \u0027basketball\u0027 durch. Dies ist eine \u0027perform\u0027-Relation (Typ 8).\\n7. Typkodierung für \u0027perform\u0027 ist vorhanden (ID 8). Typ für Objekt und Aktivität sind vorhanden (ID 1 und 4).\"\n}"
+}

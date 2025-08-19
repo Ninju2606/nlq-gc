@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\n2. Keine relativen Verweise vorhanden.\n3. Die Stichwörter \u0027Tim\u0027 und \u0027rennt\u0027 wurden ins Englische übersetzt: \u0027Tim\u0027, \u0027run\u0027.\n4. Keine Identifikation des Nutzers in den Stichworten gefunden (keine Wörter wie \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027).\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\n6. Die Beziehung zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. Dies entspricht dem Typ \u0027perform\u0027 (ID 8).\n7. Der Typ \u0027perform\u0027 (ID 8) ist in der Liste der Typkodierungen vorhanden.\n8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\\n2. Keine relativen Verweise vorhanden.\\n3. Die Stichwörter \u0027Tim\u0027 und \u0027rennt\u0027 wurden ins Englische übersetzt: \u0027Tim\u0027, \u0027run\u0027.\\n4. Keine Identifikation des Nutzers in den Stichworten gefunden (keine Wörter wie \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027).\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\\n6. Die Beziehung zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. Dies entspricht dem Typ \u0027perform\u0027 (ID 8).\\n7. Der Typ \u0027perform\u0027 (ID 8) ist in der Liste der Typkodierungen vorhanden.\\n8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

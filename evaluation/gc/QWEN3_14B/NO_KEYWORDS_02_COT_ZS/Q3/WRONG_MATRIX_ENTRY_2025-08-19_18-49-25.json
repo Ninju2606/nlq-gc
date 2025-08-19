@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter: Ich, schwimme, in, einem, Pool, der, mir, gehört. Nach der Verarbeitung werden Maria, swim, pool, own als Stichwörter gewählt.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung: Maria, swim, pool, own.\n4. Identifikation des Nutzers: \u0027Maria\u0027 wird anstelle von \u0027mir\u0027 verwendet.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), \u0027own\u0027 ist ein Attribut (Typ 2).\n6. Relationen: Maria owns the pool. Maria performs swim in the pool.\n7. Typkodierungen: Typ 1 (object) für \u0027Maria\u0027 und \u0027pool\u0027, Typ 4 (activity) für \u0027swim\u0027, Typ 2 (context) für \u0027own\u0027. Alle Relationen haben passende Typkodierungen.\n8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Ich, schwimme, in, einem, Pool, der, mir, gehört. Nach der Verarbeitung werden Maria, swim, pool, own als Stichwörter gewählt.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung: Maria, swim, pool, own.\\n4. Identifikation des Nutzers: \u0027Maria\u0027 wird anstelle von \u0027mir\u0027 verwendet.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), \u0027own\u0027 ist ein Attribut (Typ 2).\\n6. Relationen: Maria owns the pool. Maria performs swim in the pool.\\n7. Typkodierungen: Typ 1 (object) für \u0027Maria\u0027 und \u0027pool\u0027, Typ 4 (activity) für \u0027swim\u0027, Typ 2 (context) für \u0027own\u0027. Alle Relationen haben passende Typkodierungen.\\n8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

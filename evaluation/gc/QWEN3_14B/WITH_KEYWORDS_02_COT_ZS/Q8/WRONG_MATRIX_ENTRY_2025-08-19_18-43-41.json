@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027meine Tochter\u0027 und \u0027ich\u0027 werden auf \u0027maria\u0027 und \u0027person\u0027 abgebildet. Der Nutzer nutzt den Eintrag \u0027maria\u0027 für seine Identifikation.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: ist ein Identifikationsbegriff (identityMapping \u003d true), daher Typ 1 (object).\n- \u0027person\u0027: ist ein genereller Begriff für \u0027maria\u0027, also Typ 1 (object).\n- \u0027drive\u0027: ist eine Aktivität, Typ 4 (activity).\n- \u0027boat\u0027: ist ein Objekt, Typ 1 (object).\n- \u0027lake\u0027: ist ein Objekt, Typ 1 (object).\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 3: synonym).\n- \u0027maria\u0027 und \u0027person\u0027 fahren \u0027drive\u0027 (Typ 8: perform).\n- \u0027drive\u0027 wird mit dem \u0027boat\u0027 durchgeführt (Typ 9: target).\n- \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Typ 6: under).\n\n4. Überprüfung der Typkodierungen:\n- Typ 3 (synonym) für \u0027maria\u0027 und \u0027person\u0027 → korrekt (ID: 3).\n- Typ 8 (perform) für \u0027maria\u0027 und \u0027drive\u0027 → korrekt (ID: 8).\n- Typ 9 (target) für \u0027drive\u0027 und \u0027boat\u0027 → korrekt (ID: 9).\n- Typ 6 (under) für \u0027boat\u0027 und \u0027lake\u0027 → korrekt (ID: 6).\n\n5. Der GraphCode wurde gemäß den Vorgaben korrekt erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027meine Tochter\u0027 und \u0027ich\u0027 werden auf \u0027maria\u0027 und \u0027person\u0027 abgebildet. Der Nutzer nutzt den Eintrag \u0027maria\u0027 für seine Identifikation.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: ist ein Identifikationsbegriff (identityMapping \u003d true), daher Typ 1 (object).\\n- \u0027person\u0027: ist ein genereller Begriff für \u0027maria\u0027, also Typ 1 (object).\\n- \u0027drive\u0027: ist eine Aktivität, Typ 4 (activity).\\n- \u0027boat\u0027: ist ein Objekt, Typ 1 (object).\\n- \u0027lake\u0027: ist ein Objekt, Typ 1 (object).\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 (Typ 3: synonym).\\n- \u0027maria\u0027 und \u0027person\u0027 fahren \u0027drive\u0027 (Typ 8: perform).\\n- \u0027drive\u0027 wird mit dem \u0027boat\u0027 durchgeführt (Typ 9: target).\\n- \u0027boat\u0027 ist auf dem \u0027lake\u0027 (Typ 6: under).\\n\\n4. Überprüfung der Typkodierungen:\\n- Typ 3 (synonym) für \u0027maria\u0027 und \u0027person\u0027 → korrekt (ID: 3).\\n- Typ 8 (perform) für \u0027maria\u0027 und \u0027drive\u0027 → korrekt (ID: 8).\\n- Typ 9 (target) für \u0027drive\u0027 und \u0027boat\u0027 → korrekt (ID: 9).\\n- Typ 6 (under) für \u0027boat\u0027 und \u0027lake\u0027 → korrekt (ID: 6).\\n\\n5. Der GraphCode wurde gemäß den Vorgaben korrekt erstellt.\"\n}"
+}

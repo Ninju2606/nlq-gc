@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (als Person) mit ihrem Boot auf dem See fährt. Der Typ \u0027person\u0027 wird für \u0027maria\u0027 verwendet, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte, \u0027drive\u0027 ist die Aktivität. Die Beziehung \u0027perform\u0027 (Typ 8) zwischen \u0027person\u0027 und \u0027drive\u0027 beschreibt, dass Maria das Boot fährt. Die Beziehung \u0027attached\u0027 (Typ 5) zwischen \u0027boat\u0027 und \u0027lake\u0027 deutet an, dass das Boot auf dem See ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (als Person) mit ihrem Boot auf dem See fährt. Der Typ \u0027person\u0027 wird für \u0027maria\u0027 verwendet, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte, \u0027drive\u0027 ist die Aktivität. Die Beziehung \u0027perform\u0027 (Typ 8) zwischen \u0027person\u0027 und \u0027drive\u0027 beschreibt, dass Maria das Boot fährt. Die Beziehung \u0027attached\u0027 (Typ 5) zwischen \u0027boat\u0027 und \u0027lake\u0027 deutet an, dass das Boot auf dem See ist.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist die Person, \u0027swim\u0027 ist die Aktivität, und \u0027pool\u0027 ist das Objekt. Der Typ \u0027object\u0027 (1) ist für \u0027pool\u0027 definiert, \u0027activity\u0027 (9) für \u0027swim\u0027 und \u0027person\u0027 (1) für \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria im Pool schwimmt. \u0027Maria\u0027 ist die Person, \u0027swim\u0027 ist die Aktivität, und \u0027pool\u0027 ist das Objekt. Der Typ \u0027object\u0027 (1) ist für \u0027pool\u0027 definiert, \u0027activity\u0027 (9) für \u0027swim\u0027 und \u0027person\u0027 (1) für \u0027Maria\u0027.\"\n}"
+}

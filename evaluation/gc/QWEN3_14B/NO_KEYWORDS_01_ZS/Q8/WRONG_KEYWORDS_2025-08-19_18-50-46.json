@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the scene where Maria and her daughter are boating on a lake. Each term in the vocabulary is mapped to its corresponding identity type (object, context, synonym, activity) on the diagonal of the matrix, and no relations between terms are explicitly defined in this context.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents the scene where Maria and her daughter are boating on a lake. Each term in the vocabulary is mapped to its corresponding identity type (object, context, synonym, activity) on the diagonal of the matrix, and no relations between terms are explicitly defined in this context.\"\n}"
+}

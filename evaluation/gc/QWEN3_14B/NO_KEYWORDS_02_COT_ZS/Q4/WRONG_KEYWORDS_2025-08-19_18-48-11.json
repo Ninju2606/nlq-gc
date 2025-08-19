@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verallgemeinerung und Übersetzung ins Englische: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf den Nutzer, daher wird dies als \u0027Maria\u0027 interpretiert.\n3. Übersetzung: \u0027schwimme\u0027 → \u0027swim\u0027; \u0027Pool\u0027 bleibt unverändert.\n4. Identifikation des Nutzers: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 durch. Das Verhältnis \u0027perform\u0027 (Typ 8) zwischen \u0027Maria\u0027 und \u0027swim\u0027, und \u0027in\u0027 (Typ 5) zwischen \u0027swim\u0027 und \u0027pool\u0027.\n7. Typkodierung: Typ 1 (object), Typ 4 (activity), Typ 8 (perform), Typ 5 (attached). Alle Relationen haben einen Eintrag in der Typkodierung.\n8. GraphCode erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verallgemeinerung und Übersetzung ins Englische: \u0027swim\u0027, \u0027Maria\u0027, \u0027pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf den Nutzer, daher wird dies als \u0027Maria\u0027 interpretiert.\\n3. Übersetzung: \u0027schwimme\u0027 → \u0027swim\u0027; \u0027Pool\u0027 bleibt unverändert.\\n4. Identifikation des Nutzers: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 im \u0027pool\u0027 durch. Das Verhältnis \u0027perform\u0027 (Typ 8) zwischen \u0027Maria\u0027 und \u0027swim\u0027, und \u0027in\u0027 (Typ 5) zwischen \u0027swim\u0027 und \u0027pool\u0027.\\n7. Typkodierung: Typ 1 (object), Typ 4 (activity), Typ 8 (perform), Typ 5 (attached). Alle Relationen haben einen Eintrag in der Typkodierung.\\n8. GraphCode erfolgreich erstellt.\"\n}"
+}

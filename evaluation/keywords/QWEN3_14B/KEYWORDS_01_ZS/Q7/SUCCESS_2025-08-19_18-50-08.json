@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions",
+    "maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary includes \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and \u0027maria\u0027 based on the user\u0027s request and identification.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\", \"maria\"],\n  \"description\": \"The vocabulary includes \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and \u0027maria\u0027 based on the user\u0027s request and identification.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage „Wir müssen bald einen Termin ausmachen.“ enthält keine konkreten Begriffe, die eine Szene im Metaverse beschreiben. Es fehlen Objekte, Attribute oder Aktivitäten, die als Stichwörter für den GraphCode dienen könnten. Zudem sind Begriffe wie „Termin ausmachen“ allgemein und nicht spezifisch genug, um in das Vokabular des GraphCodes aufgenommen zu werden.",
+  "error": "Keine relevanten Begriffe zur Beschreibung einer Szene im Metaverse gefunden.",
+  "responsePlain": "{\n  \"error\": \"Keine relevanten Begriffe zur Beschreibung einer Szene im Metaverse gefunden.\",\n  \"description\": \"Die Anfrage „Wir müssen bald einen Termin ausmachen.“ enthält keine konkreten Begriffe, die eine Szene im Metaverse beschreiben. Es fehlen Objekte, Attribute oder Aktivitäten, die als Stichwörter für den GraphCode dienen könnten. Zudem sind Begriffe wie „Termin ausmachen“ allgemein und nicht spezifisch genug, um in das Vokabular des GraphCodes aufgenommen zu werden.\"\n}"
+}

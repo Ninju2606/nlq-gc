@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Häuser um Fragen zu malen\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Das Vokabular enthält \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027, und \u0027maria\u0027. Die Bewertungsmatrix definiert, dass \u0027house\u0027 ein Objekt (Typ 1), \u0027paint\u0027 eine Aktivität (Typ 4), \u0027question\u0027 ein Kontext (Typ 2), und \u0027maria\u0027 ein Objekt (Typ 1) ist. Es gibt keine weiteren Beziehungen zwischen den Begriffen.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Häuser um Fragen zu malen\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Das Vokabular enthält \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027, und \u0027maria\u0027. Die Bewertungsmatrix definiert, dass \u0027house\u0027 ein Objekt (Typ 1), \u0027paint\u0027 eine Aktivität (Typ 4), \u0027question\u0027 ein Kontext (Typ 2), und \u0027maria\u0027 ein Objekt (Typ 1) ist. Es gibt keine weiteren Beziehungen zwischen den Begriffen.\"\n}"
+}

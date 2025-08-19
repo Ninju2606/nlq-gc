@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria eine Aktion (make) durchführt, und zwar das Einrichten eines Termins (appointment). Die Diagonaleneinträge sind mit Typen, bei denen identityMapping \u003d true, belegt, und die nicht-diagonalen Einträge enthalten nur 0, da keine Relationen zwischen den Begriffen definiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria eine Aktion (make) durchführt, und zwar das Einrichten eines Termins (appointment). Die Diagonaleneinträge sind mit Typen, bei denen identityMapping \u003d true, belegt, und die nicht-diagonalen Einträge enthalten nur 0, da keine Relationen zwischen den Begriffen definiert werden.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "Der GraphCode kodiert die Beziehung zwischen Maria (als Person), dem Boot (Objekt), dem See (Objekt) und der Aktivität \u0027drive\u0027 (Fahren). Maria und die Person sind identisch, der See ist ein Kontext, das Boot ist ein Objekt, \u0027drive\u0027 ist eine Aktivität. Maria fährt das Boot auf dem See.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode kodiert die Beziehung zwischen Maria (als Person), dem Boot (Objekt), dem See (Objekt) und der Aktivität \u0027drive\u0027 (Fahren). Maria und die Person sind identisch, der See ist ein Kontext, das Boot ist ein Objekt, \u0027drive\u0027 ist eine Aktivität. Maria fährt das Boot auf dem See.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die typcodierte Adjazenzmatrix (GraphCode) für die Anfrage **„Tim rennt“**, basierend auf deiner Kodierung der Beziehungen. Die Begriffe bilden Zeilen/Spalten, und die Beziehungen zwischen ihnen werden durch Typwerte kodiert.\n\n### **Eingabe:**\n- Anfrage: **„Tim rennt“**\n\n### **Begriffe:**\n- **Tim**\n- **rennt**\n\n### **Beziehung:**\n- „Tim“ **performt** (Typ-ID 8) „rennt“\n\n---\n\n### **JSON-Objekt:**\n\n\n{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n---\n\n### **Erklärung der Matrix:**\n\n- **Zeile 0 (Tim):**\n  - Spalte 0 (Tim) → 0 (keine Beziehung zu sich selbst)\n  - Spalte 1 (rennt) → **8** (Typ „perform“: Tim führt die Aktion „rennt“ aus)\n\n- **Zeile 1 (rennt):**\n  - Spalte 0 (Tim) → 0 (keine Beziehung, „rennt“ ist nicht das Subjekt)\n  - Spalte 1 (rennt) → 0 (keine Beziehung zu sich selbst)\n\nWenn du möchtest, kann ich auch eine Version mit erweiterten kognitiven Beziehungen oder Beziehungen auf andere Begriffe erzeugen."
+}

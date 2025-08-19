@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Ich“, „spiele“, „Basketball“. \n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind „I“, „play“, „basketball“.\n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „play“, „basketball“.\n5. „Maria“ und „basketball“ sind Objekte der Anfrage. „play“ ist eine Aktivität.\n6. „Maria“ führt die Aktivität „play“ aus. „play“ bezieht sich auf „basketball“.\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 7, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind „Ich“, „spiele“, „Basketball“. \\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind „I“, „play“, „basketball“.\\n4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „play“, „basketball“.\\n5. „Maria“ und „basketball“ sind Objekte der Anfrage. „play“ ist eine Aktivität.\\n6. „Maria“ führt die Aktivität „play“ aus. „play“ bezieht sich auf „basketball“.\\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.\"\n}"
+}

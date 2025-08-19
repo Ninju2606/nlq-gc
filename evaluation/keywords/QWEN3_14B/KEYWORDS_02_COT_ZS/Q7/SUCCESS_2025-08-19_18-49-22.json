@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potential keywords identified: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027. No self-identifying words like \u0027ich\u0027 or \u0027mein\u0027 found. Keywords translated into English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. No user identification replacement needed.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"Potential keywords identified: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027zu malen\u0027. No self-identifying words like \u0027ich\u0027 or \u0027mein\u0027 found. Keywords translated into English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. No user identification replacement needed.\"\n}"
+}

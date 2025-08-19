@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer (Maria) hat eine relative Identifikation („der mir gehört“) und erwähnt die Aktivität („schwimme“) und das Objekt („Pool“). Das Vokabular enthält die Identifikation des Nutzers, die Aktivität und das Objekt, sowie das Attribut („own“). Der GraphCode wird entsprechend gebildet.\n2. Attributeigenschaften:\n- „maria“: Identifikation (identityMapping \u003d true)\n- „swim“: Aktivität (attribute \u003d activity, identityMapping \u003d false)\n- „own“: Attribut (attribute \u003d attached, identityMapping \u003d false)\n- „pool“: Objekt (attribute \u003d object, identityMapping \u003d true)\n3. Die Relationen sind:\n- Maria schwimmt (aktivität) – swim (activity)\n- Pool gehört Maria (attached) – own (attached)\n- Maria ist ein Objekt (object) – maria (object)\n- Pool ist ein Objekt (object) – pool (object)\n4. Typkodierungen existieren fuer alle Relationen:\n- swim (activity) → Typ-ID 4\n- own (attached) → Typ-ID 5\n- maria (object) → Typ-ID 1\n- pool (object) → Typ-ID 1\n5. Der GraphCode ist entsprechend gebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) hat eine relative Identifikation („der mir gehört“) und erwähnt die Aktivität („schwimme“) und das Objekt („Pool“). Das Vokabular enthält die Identifikation des Nutzers, die Aktivität und das Objekt, sowie das Attribut („own“). Der GraphCode wird entsprechend gebildet.\\n2. Attributeigenschaften:\\n- „maria“: Identifikation (identityMapping \u003d true)\\n- „swim“: Aktivität (attribute \u003d activity, identityMapping \u003d false)\\n- „own“: Attribut (attribute \u003d attached, identityMapping \u003d false)\\n- „pool“: Objekt (attribute \u003d object, identityMapping \u003d true)\\n3. Die Relationen sind:\\n- Maria schwimmt (aktivität) – swim (activity)\\n- Pool gehört Maria (attached) – own (attached)\\n- Maria ist ein Objekt (object) – maria (object)\\n- Pool ist ein Objekt (object) – pool (object)\\n4. Typkodierungen existieren fuer alle Relationen:\\n- swim (activity) → Typ-ID 4\\n- own (attached) → Typ-ID 5\\n- maria (object) → Typ-ID 1\\n- pool (object) → Typ-ID 1\\n5. Der GraphCode ist entsprechend gebildet.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise, die aufgeklärt werden müssten.\n3. Die Stichwörter sind bereits im Englischen: \u0027Tim\u0027, \u0027run\u0027.\n4. Es gibt keine Identifikation des Nutzers, die ersetzt werden müsste (kein \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027).\n5. Attributeigenschaften:\n   - \u0027Tim\u0027 ist ein Objekt (Typ ID 1).\n   - \u0027run\u0027 ist eine Aktivität (Typ ID 4).\n6. Beziehung zwischen den Stichwörtern: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 durch. Dies ist eine \u0027perform\u0027-Relation.\n7. Typkodierung für \u0027perform\u0027 existiert (ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise, die aufgeklärt werden müssten.\\n3. Die Stichwörter sind bereits im Englischen: \u0027Tim\u0027, \u0027run\u0027.\\n4. Es gibt keine Identifikation des Nutzers, die ersetzt werden müsste (kein \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027).\\n5. Attributeigenschaften:\\n   - \u0027Tim\u0027 ist ein Objekt (Typ ID 1).\\n   - \u0027run\u0027 ist eine Aktivität (Typ ID 4).\\n6. Beziehung zwischen den Stichwörtern: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 durch. Dies ist eine \u0027perform\u0027-Relation.\\n7. Typkodierung für \u0027perform\u0027 existiert (ID 8).\"\n}"
+}

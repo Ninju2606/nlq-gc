@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "yellow",
+    "hat",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Situationen\u0027, \u0027gelben Hut\u0027.\n2. Relative Verweise wurden gelöst und sind in diesem Fall nicht vorhanden.\n3. Ermittelte Stichwörter wurden ins Englische übersetzt: \u0027situation\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular eingefügt, da sie im Kontext der Anfrage auf den Anfragensteller referiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"yellow\", \"hat\", \"Maria\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Situationen\u0027, \u0027gelben Hut\u0027.\\n2. Relative Verweise wurden gelöst und sind in diesem Fall nicht vorhanden.\\n3. Ermittelte Stichwörter wurden ins Englische übersetzt: \u0027situation\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular eingefügt, da sie im Kontext der Anfrage auf den Anfragensteller referiert.\"\n}"
+}

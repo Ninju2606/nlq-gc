@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird verwendet, da der Nutzer sich selbst im Satz erwähnt (\u0027ich\u0027).\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers, Typ: object (ID\u003d1)\n   - \u0027wear\u0027: Bezeichnet eine Aktivität, mit der ein Objekt getragen wird, Typ: activity (ID\u003d4)\n   - \u0027hat\u0027: Bezeichnet ein Objekt, Typ: object (ID\u003d2)\n   - \u0027yellow\u0027: Bezeichnet eine Eigenschaft (Farbe), Typ: attribute (ID\u003d2)\n3. Die Relationen zwischen den Stichwörtern sind:\n   - \u0027maria\u0027 trägt \u0027hat\u0027 (Relation: perform, ID\u003d8)\n   - \u0027hat\u0027 hat Farbe \u0027yellow\u0027 (Relation: characteristic, ID\u003d14)\n   - \u0027wear\u0027 ist die Aktivität, um \u0027hat\u0027 zu tragen (Relation: target, ID\u003d9)\n4. Es gibt Einträge für alle Relationen:\n   - perform (ID\u003d8), target (ID\u003d9), characteristic (ID\u003d14)",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 8, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer fragt nach Situationen, in denen sie einen gelben Hut trägt. Die Identifikation \u0027maria\u0027 wird verwendet, da der Nutzer sich selbst im Satz erwähnt (\u0027ich\u0027).\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers, Typ: object (ID\u003d1)\\n   - \u0027wear\u0027: Bezeichnet eine Aktivität, mit der ein Objekt getragen wird, Typ: activity (ID\u003d4)\\n   - \u0027hat\u0027: Bezeichnet ein Objekt, Typ: object (ID\u003d2)\\n   - \u0027yellow\u0027: Bezeichnet eine Eigenschaft (Farbe), Typ: attribute (ID\u003d2)\\n3. Die Relationen zwischen den Stichwörtern sind:\\n   - \u0027maria\u0027 trägt \u0027hat\u0027 (Relation: perform, ID\u003d8)\\n   - \u0027hat\u0027 hat Farbe \u0027yellow\u0027 (Relation: characteristic, ID\u003d14)\\n   - \u0027wear\u0027 ist die Aktivität, um \u0027hat\u0027 zu tragen (Relation: target, ID\u003d9)\\n4. Es gibt Einträge für alle Relationen:\\n   - perform (ID\u003d8), target (ID\u003d9), characteristic (ID\u003d14)\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (Eintrag 1) das Spiel (Eintrag 2) Basketball (Eintrag 3) spielt. Die Typkodierung 8 (perform) wird verwendet, um die Tätigkeit \u0027play\u0027 (Eintrag 2) mit dem Objekt \u0027basketball\u0027 (Eintrag 3) in Beziehung zu setzen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (Eintrag 1) das Spiel (Eintrag 2) Basketball (Eintrag 3) spielt. Die Typkodierung 8 (perform) wird verwendet, um die Tätigkeit \u0027play\u0027 (Eintrag 2) mit dem Objekt \u0027basketball\u0027 (Eintrag 3) in Beziehung zu setzen.\"\n}"
+}

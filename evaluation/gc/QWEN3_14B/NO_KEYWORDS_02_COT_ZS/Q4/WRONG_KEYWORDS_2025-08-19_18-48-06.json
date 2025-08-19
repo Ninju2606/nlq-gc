@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027, \u0027ich\u0027 bezieht sich auf die Identifikation \u0027Maria\u0027.\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027Maria\u0027, \u0027meinem\u0027 bleibt im Kontext \u0027pool\u0027 und wird nicht geändert.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027: Objekt (object)\n   - \u0027swim\u0027: Aktivität (activity)\n   - \u0027pool\u0027: Objekt (object)\n6. Relationen:\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch → Typ \u0027perform\u0027 (ID 8)\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt → Typ \u0027attached\u0027 (ID 5) [nicht zulässig, da identityMapping \u003d\u003d false, aber kein passender Typ vorhanden, deshalb wird es in der Matrix nicht dargestellt]\n7. Prüfung der Typkodierungen:\n   - \u0027perform\u0027 (ID 8) ist vorhanden.\n   - \u0027attached\u0027 (ID 5) ist vorhanden, wird aber nicht in der Matrix verwendet, da der Wert 5 nicht auf der Einheitsdiagonalen oder außerhalb mit identityMapping \u003d\u003d false zulässig ist.\n8. GraphCode wurde aufbauend aus den Stichwörtern und Relationen generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027, \u0027ich\u0027 bezieht sich auf die Identifikation \u0027Maria\u0027.\\n3. Übersetzung der Stichwörter ins Englische: \u0027swim\u0027, \u0027pool\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027Maria\u0027, \u0027meinem\u0027 bleibt im Kontext \u0027pool\u0027 und wird nicht geändert.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027: Objekt (object)\\n   - \u0027swim\u0027: Aktivität (activity)\\n   - \u0027pool\u0027: Objekt (object)\\n6. Relationen:\\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch → Typ \u0027perform\u0027 (ID 8)\\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt → Typ \u0027attached\u0027 (ID 5) [nicht zulässig, da identityMapping \u003d\u003d false, aber kein passender Typ vorhanden, deshalb wird es in der Matrix nicht dargestellt]\\n7. Prüfung der Typkodierungen:\\n   - \u0027perform\u0027 (ID 8) ist vorhanden.\\n   - \u0027attached\u0027 (ID 5) ist vorhanden, wird aber nicht in der Matrix verwendet, da der Wert 5 nicht auf der Einheitsdiagonalen oder außerhalb mit identityMapping \u003d\u003d false zulässig ist.\\n8. GraphCode wurde aufbauend aus den Stichwörtern und Relationen generiert.\"\n}"
+}

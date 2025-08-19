@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "The GraphCode represents situations where Maria is wearing a yellow hat. The dictionary includes the user\u0027s identification, the object \u0027yellow\u0027, the item \u0027hat\u0027, and the activity \u0027wear\u0027. The matrix defines the relations between these terms using appropriate type codes.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"The GraphCode represents situations where Maria is wearing a yellow hat. The dictionary includes the user\u0027s identification, the object \u0027yellow\u0027, the item \u0027hat\u0027, and the activity \u0027wear\u0027. The matrix defines the relations between these terms using appropriate type codes.\"\n}"
+}

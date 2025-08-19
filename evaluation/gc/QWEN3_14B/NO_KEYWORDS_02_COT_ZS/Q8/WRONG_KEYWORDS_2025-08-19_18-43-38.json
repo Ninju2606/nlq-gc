@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 als Elternfigur, \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 und \u0027meine\u0027 werden durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027Tochter\u0027 ist ein Beziehungsattribut (daughter), \u0027Boot\u0027 ist ein Objekt (object), \u0027See\u0027 ist ein Objekt (object).\n6. Relationen zwischen den Stichworten:\n   - Maria ist die Mutter von daughter (Beziehung \u0027daughter\u0027)\n   - Maria fährt mit dem Boot (Beziehung \u0027perform\u0027)\n   - Boot ist auf dem See (Beziehung \u0027attached\u0027)\n7. Typkodierungen:\n   - \u0027daughter\u0027 → Typ-ID: 10\n   - \u0027perform\u0027 → Typ-ID: 8\n   - \u0027attached\u0027 → Typ-ID: 5\n   Typkodierungen sind vorhanden.\n8. GraphCode generiert mit den entsprechenden Einträgen im Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 als Elternfigur, \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 und \u0027meine\u0027 werden durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027Tochter\u0027 ist ein Beziehungsattribut (daughter), \u0027Boot\u0027 ist ein Objekt (object), \u0027See\u0027 ist ein Objekt (object).\\n6. Relationen zwischen den Stichworten:\\n   - Maria ist die Mutter von daughter (Beziehung \u0027daughter\u0027)\\n   - Maria fährt mit dem Boot (Beziehung \u0027perform\u0027)\\n   - Boot ist auf dem See (Beziehung \u0027attached\u0027)\\n7. Typkodierungen:\\n   - \u0027daughter\u0027 → Typ-ID: 10\\n   - \u0027perform\u0027 → Typ-ID: 8\\n   - \u0027attached\u0027 → Typ-ID: 5\\n   Typkodierungen sind vorhanden.\\n8. GraphCode generiert mit den entsprechenden Einträgen im Vokabular und der Bewertungsmatrix.\"\n}"
+}

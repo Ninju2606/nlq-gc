@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer hat die Identifikation Maria angegeben. Im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 wird \u0027mir\u0027 als Besitz angegeben, daher wird \u0027maria\u0027 in das Vokabular aufgenommen. \n2. Attributeigenschaften:\n- \u0027maria\u0027: Identifikation des Nutzers (Typ 1 - object)\n- \u0027swim\u0027: Aktivität (Typ 4 - activity)\n- \u0027own\u0027: Besitz (Typ 9 - target)\n- \u0027pool\u0027: Objekt (Typ 1 - object)\n3. Die Relationen zwischen den Stichwörtern sind:\n- \u0027maria\u0027 ist im Besitz von \u0027pool\u0027 (\u0027own\u0027)\n- \u0027swim\u0027 wird von \u0027maria\u0027 durchgeführt\n- \u0027pool\u0027 ist das Objekt, das \u0027swim\u0027 beinhaltet\n4. Für die Relationen gibt es folgende Typkodierungen:\n- \u0027own\u0027 entspricht Typ 9 - target\n- \u0027swim\u0027 von \u0027maria\u0027 würde typischerweise Typ 8 - perform bedeuten, aber dieser wird nicht direkt verwendet. Stattdessen wird \u0027swim\u0027 als Aktivität (Typ 4) und \u0027maria\u0027 als Objekt (Typ 1) getrennt.\n- \u0027pool\u0027 ist ein Objekt (Typ 1)\n5. Der GraphCode wurde entsprechend den Vorgaben erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer hat die Identifikation Maria angegeben. Im Satz \u0027Ich schwimme in einem Pool, der mir gehört\u0027 wird \u0027mir\u0027 als Besitz angegeben, daher wird \u0027maria\u0027 in das Vokabular aufgenommen. \\n2. Attributeigenschaften:\\n- \u0027maria\u0027: Identifikation des Nutzers (Typ 1 - object)\\n- \u0027swim\u0027: Aktivität (Typ 4 - activity)\\n- \u0027own\u0027: Besitz (Typ 9 - target)\\n- \u0027pool\u0027: Objekt (Typ 1 - object)\\n3. Die Relationen zwischen den Stichwörtern sind:\\n- \u0027maria\u0027 ist im Besitz von \u0027pool\u0027 (\u0027own\u0027)\\n- \u0027swim\u0027 wird von \u0027maria\u0027 durchgeführt\\n- \u0027pool\u0027 ist das Objekt, das \u0027swim\u0027 beinhaltet\\n4. Für die Relationen gibt es folgende Typkodierungen:\\n- \u0027own\u0027 entspricht Typ 9 - target\\n- \u0027swim\u0027 von \u0027maria\u0027 würde typischerweise Typ 8 - perform bedeuten, aber dieser wird nicht direkt verwendet. Stattdessen wird \u0027swim\u0027 als Aktivität (Typ 4) und \u0027maria\u0027 als Objekt (Typ 1) getrennt.\\n- \u0027pool\u0027 ist ein Objekt (Typ 1)\\n5. Der GraphCode wurde entsprechend den Vorgaben erstellt.\"\n}"
+}

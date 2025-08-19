@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "gelben",
+    "Hut",
+    "trage"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation, in der Maria einen gelben Hut trägt. Die Diagonaleneinträge definieren den Typ der Begriffe: \u0027Maria\u0027 ist eine Identität (Typ 1), \u0027hat\u0027 ist ein Kontext (Typ 2), \u0027gelben\u0027 ist ein Attribut (Typ 1), \u0027Hut\u0027 ist ein Objekt (Typ 1), und \u0027trage\u0027 ist eine Aktivität (Typ 4).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"gelben\", \"Hut\", \"trage\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Maria einen gelben Hut trägt. Die Diagonaleneinträge definieren den Typ der Begriffe: \u0027Maria\u0027 ist eine Identität (Typ 1), \u0027hat\u0027 ist ein Kontext (Typ 2), \u0027gelben\u0027 ist ein Attribut (Typ 1), \u0027Hut\u0027 ist ein Objekt (Typ 1), und \u0027trage\u0027 ist eine Aktivität (Typ 4).\"\n}"
+}

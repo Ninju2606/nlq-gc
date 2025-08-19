@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027.\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027swim\u0027, \u0027in\u0027, \u0027my\u0027, \u0027pool\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027I\u0027 und \u0027my\u0027 werden durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (id 1).\n   - \u0027swim\u0027 ist eine Aktivität (id 4).\n   - \u0027pool\u0027 ist ein Objekt (id 1).\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 swimmt (id 4) im \u0027pool\u0027.\n   - \u0027pool\u0027 wird von \u0027Maria\u0027 besessen (id 10, aber unbehandelt, da肯nt nicht aus Typkodierung).\n7. Typkodierungen:\n   - \u0027Maria\u0027 ist ein Objekt (id 1, identityMapping \u003d true).\n   - \u0027swim\u0027 ist eine Aktivität (id 4, identityMapping \u003d true).\n   - \u0027pool\u0027 ist ein Objekt (id 1, identityMapping \u003d true).\n   - Es gibt keine Typkodierung für Besitz (id 10), daher wird der Eintrag ignoriert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027.\\n3. Übersetzung ins Englische: \u0027I\u0027, \u0027swim\u0027, \u0027in\u0027, \u0027my\u0027, \u0027pool\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027I\u0027 und \u0027my\u0027 werden durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (id 1).\\n   - \u0027swim\u0027 ist eine Aktivität (id 4).\\n   - \u0027pool\u0027 ist ein Objekt (id 1).\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 swimmt (id 4) im \u0027pool\u0027.\\n   - \u0027pool\u0027 wird von \u0027Maria\u0027 besessen (id 10, aber unbehandelt, da肯nt nicht aus Typkodierung).\\n7. Typkodierungen:\\n   - \u0027Maria\u0027 ist ein Objekt (id 1, identityMapping \u003d true).\\n   - \u0027swim\u0027 ist eine Aktivität (id 4, identityMapping \u003d true).\\n   - \u0027pool\u0027 ist ein Objekt (id 1, identityMapping \u003d true).\\n   - Es gibt keine Typkodierung für Besitz (id 10), daher wird der Eintrag ignoriert.\"\n}"
+}

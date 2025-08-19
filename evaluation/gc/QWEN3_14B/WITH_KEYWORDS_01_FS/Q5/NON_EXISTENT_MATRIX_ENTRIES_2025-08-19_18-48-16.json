@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode basiert auf der Anfrage, in der Maria gelbe Hüte trägt. Das Vokabular besteht aus den Begriffen der Anfrage. Die Bewertungsmatrix kodiert Relationen zwischen den Begriffen: Maria trägt (wear) einen Hut (hat), und der Hut ist gelb (yellow).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"Der GraphCode basiert auf der Anfrage, in der Maria gelbe Hüte trägt. Das Vokabular besteht aus den Begriffen der Anfrage. Die Bewertungsmatrix kodiert Relationen zwischen den Begriffen: Maria trägt (wear) einen Hut (hat), und der Hut ist gelb (yellow).\"\n}"
+}

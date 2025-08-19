@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (maria) eine Aktivität (make) durchführt, und zwar das Einrichten eines Termins (appointment). Das Vokabular enthält die relevanten Begriffe der Anfrage, und die Bewertungsmatrix kodiert die Typbeziehungen. Die Einträge auf der Diagonalen geben die Typkodierungen (object, context) an, während die anderen Einträge auf 0 gesetzt sind, da keine weiteren Beziehungen zwischen den Begriffen spezifiziert wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (maria) eine Aktivität (make) durchführt, und zwar das Einrichten eines Termins (appointment). Das Vokabular enthält die relevanten Begriffe der Anfrage, und die Bewertungsmatrix kodiert die Typbeziehungen. Die Einträge auf der Diagonalen geben die Typkodierungen (object, context) an, während die anderen Einträge auf 0 gesetzt sind, da keine weiteren Beziehungen zwischen den Begriffen spezifiziert wurden.\"\n}"
+}

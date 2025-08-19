@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords \u0027schwimme\u0027 and \u0027Pool\u0027 were identified from the user query. \u0027meinem\u0027 refers to the user\u0027s identification and was replaced with \u0027Maria\u0027.\nStep 2: No relative references to resolve.\nStep 3: Keywords translated to English: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\nStep 4: The user\u0027s identification \u0027Maria\u0027 was used in the vocabulary as the query refers to the user\u0027s personal pool.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Step 1: Potential keywords \u0027schwimme\u0027 and \u0027Pool\u0027 were identified from the user query. \u0027meinem\u0027 refers to the user\u0027s identification and was replaced with \u0027Maria\u0027.\\nStep 2: No relative references to resolve.\\nStep 3: Keywords translated to English: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\\nStep 4: The user\u0027s identification \u0027Maria\u0027 was used in the vocabulary as the query refers to the user\u0027s personal pool.\"\n}"
+}

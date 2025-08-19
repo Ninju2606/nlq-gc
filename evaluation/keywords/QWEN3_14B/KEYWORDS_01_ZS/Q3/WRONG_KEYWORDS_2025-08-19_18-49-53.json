@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s query describes a scene where Maria is swimming in a pool that belongs to her. The vocabulary includes the actions and objects mentioned in the scene, with the user\u0027s identification included as specified.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"The user\u0027s query describes a scene where Maria is swimming in a pool that belongs to her. The vocabulary includes the actions and objects mentioned in the scene, with the user\u0027s identification included as specified.\"\n}"
+}

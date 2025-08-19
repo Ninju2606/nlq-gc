@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode beschreibt die Situation, in der Maria im Pool schwimmt und der Pool ihr gehört. Die Beziehungen sind wie folgt: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, \u0027own\u0027 bezieht sich auf \u0027pool\u0027, und \u0027pool\u0027 ist das Objekt. Der Bezug \u0027own\u0027 wird mit Typ \u0027attached\u0027 (ID 5) kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Maria im Pool schwimmt und der Pool ihr gehört. Die Beziehungen sind wie folgt: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, \u0027own\u0027 bezieht sich auf \u0027pool\u0027, und \u0027pool\u0027 ist das Objekt. Der Bezug \u0027own\u0027 wird mit Typ \u0027attached\u0027 (ID 5) kodiert.\"\n}"
+}

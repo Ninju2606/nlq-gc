@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation, in der Maria beobachtet, wie Tim rennt. \u0027tim\u0027 ist das Objekt, \u0027run\u0027 ist die Aktivität, und \u0027Maria\u0027 ist der Nutzer, der diese Szene beobachtet. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) dargestellt. \u0027run\u0027 ist eine Aktivität (ID 4), und \u0027Maria\u0027 ist ein Kontext (ID 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Maria beobachtet, wie Tim rennt. \u0027tim\u0027 ist das Objekt, \u0027run\u0027 ist die Aktivität, und \u0027Maria\u0027 ist der Nutzer, der diese Szene beobachtet. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) dargestellt. \u0027run\u0027 ist eine Aktivität (ID 4), und \u0027Maria\u0027 ist ein Kontext (ID 2).\"\n}"
+}

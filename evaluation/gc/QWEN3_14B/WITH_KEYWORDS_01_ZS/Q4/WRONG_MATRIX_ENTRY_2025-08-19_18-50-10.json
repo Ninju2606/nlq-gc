@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria im eigenen Pool schwimmt. Die Relation \u0027swim\u0027 wird als Aktivität (Typ 4) kodiert, \u0027own\u0027 als Kontext (Typ 2), \u0027maria\u0027 als Objekt (Typ 1) und \u0027pool\u0027 als Objekt (Typ 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria im eigenen Pool schwimmt. Die Relation \u0027swim\u0027 wird als Aktivität (Typ 4) kodiert, \u0027own\u0027 als Kontext (Typ 2), \u0027maria\u0027 als Objekt (Typ 1) und \u0027pool\u0027 als Objekt (Typ 1).\"\n}"
+}

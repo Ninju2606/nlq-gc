@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers (Maria) wird in das Vokabular aufgenommen, da sie sich selbst identifiziert. Das Wort \u0027hat\u0027 wird im Vokabular nicht berücksichtigt, da es keine klare Identifikation oder Beschreibung einer Szene im Metaverse darstellt. Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wird als Beziehung zwischen Maria, dem Wear (Tragen) und dem Objekt \u0027yellow hat\u0027 interpretiert.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation (identityMapping \u003d true)\n- \u0027wear\u0027: Aktivität (identityMapping \u003d false)\n- \u0027hat\u0027: Nicht verwendet, da es nicht klar als Objekt, Attribut, Aktivität oder Context definiert ist.\n- \u0027yellow\u0027: Attribut (identityMapping \u003d true)\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027yellow hat\u0027.\n- \u0027yellow\u0027 ist ein Attribut des \u0027hat\u0027.\n- \u0027wear\u0027 ist eine Aktivität, die \u0027maria\u0027 durchführt.\n\n4. Typkodierungen für die Beziehungen:\n- \u0027maria\u0027 (Identität) → Typ 1 (object)\n- \u0027wear\u0027 (Aktivität) → Typ 4 (activity)\n- \u0027yellow\u0027 (Attribut) → Typ 2 (context)\n- Der Beziehungs-Typ zwischen \u0027maria\u0027 und \u0027wear\u0027 ist Typ 8 (perform). Da in der Typkodierung Typ 8 existiert, ist das korrekt.\n- Der Beziehungs-Typ zwischen \u0027wear\u0027 und \u0027hat\u0027 ist Typ 9 (target). Da Typ 9 existiert, ist das korrekt.\n- Der Beziehungs-Typ zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist Typ 5 (attached). Da Typ 5 existiert, ist das korrekt.\n\n5. Alle Typkodierungen sind vorhanden, daher kann der GraphCode erstellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wird in das Vokabular aufgenommen, da sie sich selbst identifiziert. Das Wort \u0027hat\u0027 wird im Vokabular nicht berücksichtigt, da es keine klare Identifikation oder Beschreibung einer Szene im Metaverse darstellt. Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 wird als Beziehung zwischen Maria, dem Wear (Tragen) und dem Objekt \u0027yellow hat\u0027 interpretiert.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation (identityMapping \u003d true)\\n- \u0027wear\u0027: Aktivität (identityMapping \u003d false)\\n- \u0027hat\u0027: Nicht verwendet, da es nicht klar als Objekt, Attribut, Aktivität oder Context definiert ist.\\n- \u0027yellow\u0027: Attribut (identityMapping \u003d true)\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 trägt (\u0027wear\u0027) den \u0027yellow hat\u0027.\\n- \u0027yellow\u0027 ist ein Attribut des \u0027hat\u0027.\\n- \u0027wear\u0027 ist eine Aktivität, die \u0027maria\u0027 durchführt.\\n\\n4. Typkodierungen für die Beziehungen:\\n- \u0027maria\u0027 (Identität) → Typ 1 (object)\\n- \u0027wear\u0027 (Aktivität) → Typ 4 (activity)\\n- \u0027yellow\u0027 (Attribut) → Typ 2 (context)\\n- Der Beziehungs-Typ zwischen \u0027maria\u0027 und \u0027wear\u0027 ist Typ 8 (perform). Da in der Typkodierung Typ 8 existiert, ist das korrekt.\\n- Der Beziehungs-Typ zwischen \u0027wear\u0027 und \u0027hat\u0027 ist Typ 9 (target). Da Typ 9 existiert, ist das korrekt.\\n- Der Beziehungs-Typ zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist Typ 5 (attached). Da Typ 5 existiert, ist das korrekt.\\n\\n5. Alle Typkodierungen sind vorhanden, daher kann der GraphCode erstellt werden.\"\n}"
+}

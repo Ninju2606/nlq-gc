@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027maria\u0027 wird als Identifikation des Nutzers verwendet, da sie im Vokabular enthalten ist und sich auf den Nutzer bezieht.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation (attribute: \u0027object\u0027, identityMapping: true)\n- \u0027swim\u0027: Aktivität (attribute: \u0027activity\u0027, identityMapping: false)\n- \u0027own\u0027: Beziehung (attribute: \u0027attached\u0027, identityMapping: false)\n- \u0027pool\u0027: Objekt (attribute: \u0027object\u0027, identityMapping: true)\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist das Subjekt, das die Aktivität \u0027swim\u0027 ausführt.\n- \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt.\n- \u0027pool\u0027 gehört \u0027maria\u0027 (vermittelt durch \u0027own\u0027 als Verhältnis).\n4. Prüfung der Typkodierungen:\n- \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (Typ 1).\n- \u0027swim\u0027 ist eine Aktivität (Typ 4).\n- \u0027own\u0027 ist eine Beziehung (\u0027attached\u0027, Typ 5).\n- \u0027swim\u0027 mit \u0027pool\u0027 wird durch \u0027perform\u0027 (Typ 8) dargestellt, da \u0027swim\u0027 im \u0027pool\u0027 erfolgt.\n- \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027 wird durch \u0027attached\u0027 (Typ 5) dargestellt.\n- \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027maria\u0027 ist ein Objekt (Typ 1), daher wird \u0027perform\u0027 (Typ 8) verwendet.\n- Fehlende Relationen: Keine.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 9, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027maria\u0027 wird als Identifikation des Nutzers verwendet, da sie im Vokabular enthalten ist und sich auf den Nutzer bezieht.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation (attribute: \u0027object\u0027, identityMapping: true)\\n- \u0027swim\u0027: Aktivität (attribute: \u0027activity\u0027, identityMapping: false)\\n- \u0027own\u0027: Beziehung (attribute: \u0027attached\u0027, identityMapping: false)\\n- \u0027pool\u0027: Objekt (attribute: \u0027object\u0027, identityMapping: true)\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist das Subjekt, das die Aktivität \u0027swim\u0027 ausführt.\\n- \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt.\\n- \u0027pool\u0027 gehört \u0027maria\u0027 (vermittelt durch \u0027own\u0027 als Verhältnis).\\n4. Prüfung der Typkodierungen:\\n- \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (Typ 1).\\n- \u0027swim\u0027 ist eine Aktivität (Typ 4).\\n- \u0027own\u0027 ist eine Beziehung (\u0027attached\u0027, Typ 5).\\n- \u0027swim\u0027 mit \u0027pool\u0027 wird durch \u0027perform\u0027 (Typ 8) dargestellt, da \u0027swim\u0027 im \u0027pool\u0027 erfolgt.\\n- \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027 wird durch \u0027attached\u0027 (Typ 5) dargestellt.\\n- \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027maria\u0027 ist ein Objekt (Typ 1), daher wird \u0027perform\u0027 (Typ 8) verwendet.\\n- Fehlende Relationen: Keine.\"\n}"
+}

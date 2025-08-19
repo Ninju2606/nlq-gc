@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: Ich, schwimme, in, meinem, Pool.\n2. Relative Verweise: Keine relevanten relativen Verweise.\n3. Übersetzung in Englisch: Maria, swim, pool.\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 und \u0027meinem\u0027 wurden durch \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1).\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4).\n   - \u0027pool\u0027 ist ein Objekt (Typ 1).\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ 8: perform).\n   - \u0027swim\u0027 und \u0027pool\u0027 sind unabhängig, da sie kein direktes Verhältnis haben.\n   - \u0027Maria\u0027 befindet sich im \u0027pool\u0027 (implizit, aber keine explizite Relation vorhanden, daher 0).\n7. Typkodierung für die Relationen:\n   - \u0027perform\u0027 (Typ 8) ist vorhanden.\n   - \u0027object\u0027 (Typ 1) ist vorhanden.\n   - Keine Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 ist notwendig oder vorhanden.\n8. GraphCode erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: Ich, schwimme, in, meinem, Pool.\\n2. Relative Verweise: Keine relevanten relativen Verweise.\\n3. Übersetzung in Englisch: Maria, swim, pool.\\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 und \u0027meinem\u0027 wurden durch \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1).\\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4).\\n   - \u0027pool\u0027 ist ein Objekt (Typ 1).\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ 8: perform).\\n   - \u0027swim\u0027 und \u0027pool\u0027 sind unabhängig, da sie kein direktes Verhältnis haben.\\n   - \u0027Maria\u0027 befindet sich im \u0027pool\u0027 (implizit, aber keine explizite Relation vorhanden, daher 0).\\n7. Typkodierung für die Relationen:\\n   - \u0027perform\u0027 (Typ 8) ist vorhanden.\\n   - \u0027object\u0027 (Typ 1) ist vorhanden.\\n   - Keine Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 ist notwendig oder vorhanden.\\n8. GraphCode erstellt.\"\n}"
+}

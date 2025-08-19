@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Name \u0027Tim\u0027 wird als Objekt im Vokabular verwendet, der Nutzer \u0027Maria\u0027 ist jedoch nicht direkt mit \u0027Tim\u0027 verbunden, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorhanden sind. Somit wird die Identifikation des Nutzers ignoriert.\n\n2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\n\n3. Relationen zwischen den Stichwörtern: \u0027tim\u0027 führt die Aktivität \u0027run\u0027 durch. Dies wird als Relation \u0027perform\u0027 zwischen \u0027tim\u0027 und \u0027run\u0027 interpretiert.\n\n4. Überprüfung der Typkodierungen: \u0027object\u0027 (Typ 1) und \u0027activity\u0027 (Typ 4) sind vorhanden. Die Relation \u0027perform\u0027 ist vorhanden (Typ 8). Es gibt keine fehlende Typkodierung.\n\n5. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Name \u0027Tim\u0027 wird als Objekt im Vokabular verwendet, der Nutzer \u0027Maria\u0027 ist jedoch nicht direkt mit \u0027Tim\u0027 verbunden, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorhanden sind. Somit wird die Identifikation des Nutzers ignoriert.\\n\\n2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4).\\n\\n3. Relationen zwischen den Stichwörtern: \u0027tim\u0027 führt die Aktivität \u0027run\u0027 durch. Dies wird als Relation \u0027perform\u0027 zwischen \u0027tim\u0027 und \u0027run\u0027 interpretiert.\\n\\n4. Überprüfung der Typkodierungen: \u0027object\u0027 (Typ 1) und \u0027activity\u0027 (Typ 4) sind vorhanden. Die Relation \u0027perform\u0027 ist vorhanden (Typ 8). Es gibt keine fehlende Typkodierung.\\n\\n5. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

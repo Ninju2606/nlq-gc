@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt eine Identifikation des Nutzers, die auf %22Maria%22 lautet. Sie wurde in das Vokabular %22maria%22 aufgenommen.\n2. %22maria%22 und %22person%22 sind Objekte. %22drive%22 ist eine Aktivität. %22boat%22 und %22lake%22 sind Objekte.\n3. %22maria%22 führt die Aktivität %22drive%22 aus. %22drive%22 bezieht sich auf %22boat%22. %22boat%22 befindet sich in %22lake%22.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 4, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 9, 1, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt eine Identifikation des Nutzers, die auf %22Maria%22 lautet. Sie wurde in das Vokabular %22maria%22 aufgenommen.\\n2. %22maria%22 und %22person%22 sind Objekte. %22drive%22 ist eine Aktivität. %22boat%22 und %22lake%22 sind Objekte.\\n3. %22maria%22 führt die Aktivität %22drive%22 aus. %22drive%22 bezieht sich auf %22boat%22. %22boat%22 befindet sich in %22lake%22.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.\"\n}"
+}

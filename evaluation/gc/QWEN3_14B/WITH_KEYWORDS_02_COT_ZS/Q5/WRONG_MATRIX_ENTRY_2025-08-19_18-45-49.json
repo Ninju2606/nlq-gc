@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria ist in der Anfrage direkt genannt. Der Begriff \u0027ich\u0027 ist nicht explizit vorhanden, aber der Nutzer identifiziert sich indirekt durch \u0027Maria\u0027.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: IdentityMapping (Typ 1), da sie die Identifikation des Nutzers darstellt.\n- \u0027wear\u0027: Activity (Typ 4), da es eine Aktivität beschreibt.\n- \u0027hat\u0027: Object (Typ 1), da es ein Objekt bezeichnet.\n- \u0027yellow\u0027: Attribute (Typ 2), da es eine Eigenschaft oder Besonderheit beschreibt.\n\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 trägt / \u0027wear\u0027 (Activity) --\u003e \u0027wear\u0027 ist eine Aktivität, die Maria durchführt.\n- \u0027wear\u0027 bezieht sich auf \u0027hat\u0027 (Objekt), das getragen wird.\n- \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 (Attribut/Charakteristik).\n\n4. Prüfung der Typkodierungen:\n- (maria, wear): Typ 4 (\u0027perform\u0027)\n- (wear, hat): Typ 9 (\u0027target\u0027)\n- (hat, yellow): Typ 14 (\u0027characteristic\u0027)\nDiese Typkodierungen sind in der Liste vorhanden.\n\n5. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria ist in der Anfrage direkt genannt. Der Begriff \u0027ich\u0027 ist nicht explizit vorhanden, aber der Nutzer identifiziert sich indirekt durch \u0027Maria\u0027.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: IdentityMapping (Typ 1), da sie die Identifikation des Nutzers darstellt.\\n- \u0027wear\u0027: Activity (Typ 4), da es eine Aktivität beschreibt.\\n- \u0027hat\u0027: Object (Typ 1), da es ein Objekt bezeichnet.\\n- \u0027yellow\u0027: Attribute (Typ 2), da es eine Eigenschaft oder Besonderheit beschreibt.\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 trägt / \u0027wear\u0027 (Activity) --\u003e \u0027wear\u0027 ist eine Aktivität, die Maria durchführt.\\n- \u0027wear\u0027 bezieht sich auf \u0027hat\u0027 (Objekt), das getragen wird.\\n- \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 (Attribut/Charakteristik).\\n\\n4. Prüfung der Typkodierungen:\\n- (maria, wear): Typ 4 (\u0027perform\u0027)\\n- (wear, hat): Typ 9 (\u0027target\u0027)\\n- (hat, yellow): Typ 14 (\u0027characteristic\u0027)\\nDiese Typkodierungen sind in der Liste vorhanden.\\n\\n5. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

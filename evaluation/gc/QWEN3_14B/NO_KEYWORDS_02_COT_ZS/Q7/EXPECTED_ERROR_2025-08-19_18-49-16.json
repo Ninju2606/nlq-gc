@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Relative Verweise wurden nicht identifiziert.\n3. Übersetzung in das Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\n4. Es gibt keine Referenz auf die Nutzeridentifikation \u0027Maria\u0027, daher keine Ersetzung notwendig.\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\n6. Die Beziehungen zwischen den Stichwörtern sind wie folgt: \u0027houses\u0027 und \u0027questions\u0027 haben keine direkte Beziehung, \u0027questions\u0027 und \u0027paint\u0027 haben keine direkte Beziehung, \u0027houses\u0027 und \u0027paint\u0027 haben keine direkte Beziehung.\n7. Es gibt für alle Attributeigenschaften passende Einträge in den Typkodierungen: \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4).",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Relative Verweise wurden nicht identifiziert.\\n3. Übersetzung in das Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\\n4. Es gibt keine Referenz auf die Nutzeridentifikation \u0027Maria\u0027, daher keine Ersetzung notwendig.\\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\\n6. Die Beziehungen zwischen den Stichwörtern sind wie folgt: \u0027houses\u0027 und \u0027questions\u0027 haben keine direkte Beziehung, \u0027questions\u0027 und \u0027paint\u0027 haben keine direkte Beziehung, \u0027houses\u0027 und \u0027paint\u0027 haben keine direkte Beziehung.\\n7. Es gibt für alle Attributeigenschaften passende Einträge in den Typkodierungen: \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4).\"\n}"
+}

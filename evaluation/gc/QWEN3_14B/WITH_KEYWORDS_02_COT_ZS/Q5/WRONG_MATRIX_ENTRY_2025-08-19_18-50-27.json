@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer fragt nach Situationen, in denen er einen gelben Hut trägt. Der Nutzername Maria wird daher in das Vokabular aufgenommen, da er sich selbst identifiziert. Die Begriffe \u0027wear\u0027, \u0027hat\u0027, \u0027yellow\u0027 sind relevante Stichwörter für die Szene.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers, ist ein Objekt (type 1).\n- \u0027wear\u0027: Bezeichnet eine Aktivität (type 4).\n- \u0027hat\u0027: Bezeichnet ein Objekt (type 1), kann aber auch eine Aktivität (type 4) sein, hier als Objekt interpretiert.\n- \u0027yellow\u0027: Bezeichnet ein Attribut (type 2), das Farbe beschreibt.\n\n3. Relationen zwischen den Stichwörtern:\n- Maria trägt (\u0027wear\u0027) einen Hut (\u0027hat\u0027).\n- Der Hut hat eine Farbe (\u0027yellow\u0027).\n- \u0027wear\u0027 ist eine Aktivität, die Maria durchführt.\n- \u0027yellow\u0027 ist ein Attribut des Objekts \u0027hat\u0027.\n\n4. Typkodierungen für die Relationen:\n- \u0027maria\u0027 → \u0027wear\u0027: Type 8 (\u0027perform\u0027) – Maria führt die Aktivität \u0027wear\u0027 aus.\n- \u0027wear\u0027 → \u0027hat\u0027: Type 8 (\u0027perform\u0027) – \u0027wear\u0027 wird auf das Objekt \u0027hat\u0027 angewendet.\n- \u0027hat\u0027 → \u0027yellow\u0027: Type 2 (\u0027context\u0027) – \u0027yellow\u0027 ist als Attribut im Kontext von \u0027hat\u0027.\n- \u0027maria\u0027 → \u0027maria\u0027: Type 1 (\u0027object\u0027) – \u0027maria\u0027 ist ein Objekt.\n- \u0027wear\u0027 → \u0027wear\u0027: Type 4 (\u0027activity\u0027) – \u0027wear\u0027 ist eine Aktivität.\n- \u0027hat\u0027 → \u0027hat\u0027: Type 1 (\u0027object\u0027) – \u0027hat\u0027 ist ein Objekt.\n- \u0027yellow\u0027 → \u0027yellow\u0027: Type 2 (\u0027context\u0027) – \u0027yellow\u0027 ist ein Kontextattribut.\nAlle Relationen haben eine passende Typkodierung.\n\n5. Der GraphCode ist vollständig mit den gegebenen Stichworten und Typkodierungen erstellt worden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 8, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer fragt nach Situationen, in denen er einen gelben Hut trägt. Der Nutzername Maria wird daher in das Vokabular aufgenommen, da er sich selbst identifiziert. Die Begriffe \u0027wear\u0027, \u0027hat\u0027, \u0027yellow\u0027 sind relevante Stichwörter für die Szene.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Bezeichnet die Identifikation des Nutzers, ist ein Objekt (type 1).\\n- \u0027wear\u0027: Bezeichnet eine Aktivität (type 4).\\n- \u0027hat\u0027: Bezeichnet ein Objekt (type 1), kann aber auch eine Aktivität (type 4) sein, hier als Objekt interpretiert.\\n- \u0027yellow\u0027: Bezeichnet ein Attribut (type 2), das Farbe beschreibt.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- Maria trägt (\u0027wear\u0027) einen Hut (\u0027hat\u0027).\\n- Der Hut hat eine Farbe (\u0027yellow\u0027).\\n- \u0027wear\u0027 ist eine Aktivität, die Maria durchführt.\\n- \u0027yellow\u0027 ist ein Attribut des Objekts \u0027hat\u0027.\\n\\n4. Typkodierungen für die Relationen:\\n- \u0027maria\u0027 → \u0027wear\u0027: Type 8 (\u0027perform\u0027) – Maria führt die Aktivität \u0027wear\u0027 aus.\\n- \u0027wear\u0027 → \u0027hat\u0027: Type 8 (\u0027perform\u0027) – \u0027wear\u0027 wird auf das Objekt \u0027hat\u0027 angewendet.\\n- \u0027hat\u0027 → \u0027yellow\u0027: Type 2 (\u0027context\u0027) – \u0027yellow\u0027 ist als Attribut im Kontext von \u0027hat\u0027.\\n- \u0027maria\u0027 → \u0027maria\u0027: Type 1 (\u0027object\u0027) – \u0027maria\u0027 ist ein Objekt.\\n- \u0027wear\u0027 → \u0027wear\u0027: Type 4 (\u0027activity\u0027) – \u0027wear\u0027 ist eine Aktivität.\\n- \u0027hat\u0027 → \u0027hat\u0027: Type 1 (\u0027object\u0027) – \u0027hat\u0027 ist ein Objekt.\\n- \u0027yellow\u0027 → \u0027yellow\u0027: Type 2 (\u0027context\u0027) – \u0027yellow\u0027 ist ein Kontextattribut.\\nAlle Relationen haben eine passende Typkodierung.\\n\\n5. Der GraphCode ist vollständig mit den gegebenen Stichworten und Typkodierungen erstellt worden.\"\n}"
+}

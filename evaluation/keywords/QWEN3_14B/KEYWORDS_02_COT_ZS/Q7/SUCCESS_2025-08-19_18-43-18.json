@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter \u0027Häuser\u0027, \u0027um\u0027 und \u0027Fragen zu malen\u0027 wurden identifiziert. \u0027um\u0027 wurde als relativer Verweis erkannt und für spätere Relationen gemerkt. \u0027Fragen zu malen\u0027 wurde zu \u0027paint questions\u0027 übersetzt. Keine persönlichen Pronomen wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 wurden gefunden, daher wurde die Nutzeridentifikation ignoriert.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\"],\n  \"description\": \"Stichwörter \u0027Häuser\u0027, \u0027um\u0027 und \u0027Fragen zu malen\u0027 wurden identifiziert. \u0027um\u0027 wurde als relativer Verweis erkannt und für spätere Relationen gemerkt. \u0027Fragen zu malen\u0027 wurde zu \u0027paint questions\u0027 übersetzt. Keine persönlichen Pronomen wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 wurden gefunden, daher wurde die Nutzeridentifikation ignoriert.\"\n}"
+}

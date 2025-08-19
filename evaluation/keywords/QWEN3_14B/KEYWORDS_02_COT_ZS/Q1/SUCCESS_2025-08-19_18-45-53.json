@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "potential keywords identified: \u0027Ich spiele Basketball\u0027 -\u003e \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027; relative references resolved: none; translation to English: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027; user identification replaced: \u0027Ich\u0027 -\u003e \u0027Maria\u0027",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"potential keywords identified: \u0027Ich spiele Basketball\u0027 -\u003e \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027; relative references resolved: none; translation to English: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027; user identification replaced: \u0027Ich\u0027 -\u003e \u0027Maria\u0027\"\n}"
+}

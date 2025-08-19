@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält das Vokabular der Anfrage. Die Einträge in der Bewertungsmatrix sind typkodiert. Auf der Einheitsdiagonalen ist der Typ des jeweiligen Vokabulars definiert (Objekt/Attribut/Activity).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode enthält das Vokabular der Anfrage. Die Einträge in der Bewertungsmatrix sind typkodiert. Auf der Einheitsdiagonalen ist der Typ des jeweiligen Vokabulars definiert (Objekt/Attribut/Activity).\"\n}"
+}

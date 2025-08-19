@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user request contains the keywords \u0027make\u0027 and \u0027appointment\u0027, which describe the action and the object. Since the user identified herself as \u0027Maria\u0027, this name is included in the vocabulary as it is directly related to the user\u0027s identity.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"description\": \"The user request contains the keywords \u0027make\u0027 and \u0027appointment\u0027, which describe the action and the object. Since the user identified herself as \u0027Maria\u0027, this name is included in the vocabulary as it is directly related to the user\u0027s identity.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027 und \u0027Maria\u0027. Da \u0027Maria\u0027 die Identifikation des Nutzers ist und in der Anfrage implizit genannt wird, wurde sie dem Vokabular hinzugefügt. Die Bewertungsmatrix wurde mit Typkodierung 1 (object) für die Einträge auf der Einheitsdiagonalen gefüllt, da keine Relationen zwischen den Begriffen beschrieben werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027 und \u0027Maria\u0027. Da \u0027Maria\u0027 die Identifikation des Nutzers ist und in der Anfrage implizit genannt wird, wurde sie dem Vokabular hinzugefügt. Die Bewertungsmatrix wurde mit Typkodierung 1 (object) für die Einträge auf der Einheitsdiagonalen gefüllt, da keine Relationen zwischen den Begriffen beschrieben werden.\"\n}"
+}

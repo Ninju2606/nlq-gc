@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Der Nutzer \u0027Maria\u0027 hat die Anfrage \u0027Ich spiele Basketball\u0027 gestellt. Der GraphCode wird aus den Wörtern \u0027maria\u0027, \u0027play\u0027, und \u0027basketball\u0027 gebildet. \u0027Maria\u0027 wird als Identifikation in das Vokabular aufgenommen, da sie selbst identifiziert wird.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Objekt (object), Identifikation des Nutzers.\n- \u0027play\u0027: Aktivität (activity).\n- \u0027basketball\u0027: Objekt (object).\n\n3. Die Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch (perform).\n- \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 (target).\n\n4. Typkodierung für Relationen:\n- \u0027maria\u0027 -\u003e \u0027play\u0027: Typ 8 (\u0027perform\u0027)\n- \u0027play\u0027 -\u003e \u0027basketball\u0027: Typ 9 (\u0027target\u0027)\n- Einträge auf der Einheitsdiagonalen:\n  - \u0027maria\u0027: Typ 1 (\u0027object\u0027)\n  - \u0027play\u0027: Typ 2 (\u0027context\u0027)\n  - \u0027basketball\u0027: Typ 3 (\u0027synonym\u0027)\n",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 hat die Anfrage \u0027Ich spiele Basketball\u0027 gestellt. Der GraphCode wird aus den Wörtern \u0027maria\u0027, \u0027play\u0027, und \u0027basketball\u0027 gebildet. \u0027Maria\u0027 wird als Identifikation in das Vokabular aufgenommen, da sie selbst identifiziert wird.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Objekt (object), Identifikation des Nutzers.\\n- \u0027play\u0027: Aktivität (activity).\\n- \u0027basketball\u0027: Objekt (object).\\n\\n3. Die Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 führt die Aktivität \u0027play\u0027 durch (perform).\\n- \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 (target).\\n\\n4. Typkodierung für Relationen:\\n- \u0027maria\u0027 -\u003e \u0027play\u0027: Typ 8 (\u0027perform\u0027)\\n- \u0027play\u0027 -\u003e \u0027basketball\u0027: Typ 9 (\u0027target\u0027)\\n- Einträge auf der Einheitsdiagonalen:\\n  - \u0027maria\u0027: Typ 1 (\u0027object\u0027)\\n  - \u0027play\u0027: Typ 2 (\u0027context\u0027)\\n  - \u0027basketball\u0027: Typ 3 (\u0027synonym\u0027)\\n\"\n}"
+}

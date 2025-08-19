@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Der Nutzer, Maria, hat sich identifiziert, und das Wort „maria“ wurde entsprechend in das Vokabular aufgenommen. Das Verhalten „play“ wird durch Maria ausgeführt, und das Objekt „basketball“ ist das Ziel der Aktivität.\n2. Die Attributeigenschaften der Stichwörter:\n- „maria“ ist ein Objekt (Typ 1).\n- „play“ ist eine Aktivität (Typ 4).\n- „basketball“ ist ein Objekt (Typ 1).\n3. Die Relationen:\n- „maria“ führt die Aktivität „play“ aus (Relation: „perform“).\n- „play“ hat das Ziel „basketball“ (Relation: „target“).\n- „basketball“ ist ein Objekt (Typ 1).\n4. Für die Relationen:\n- „perform“ (ID 8).\n- „target“ (ID 9).\n- Typ 1 für die Objekte („maria“ und „basketball“).\nAlle Relationen sind vorhanden.\n5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer, Maria, hat sich identifiziert, und das Wort „maria“ wurde entsprechend in das Vokabular aufgenommen. Das Verhalten „play“ wird durch Maria ausgeführt, und das Objekt „basketball“ ist das Ziel der Aktivität.\\n2. Die Attributeigenschaften der Stichwörter:\\n- „maria“ ist ein Objekt (Typ 1).\\n- „play“ ist eine Aktivität (Typ 4).\\n- „basketball“ ist ein Objekt (Typ 1).\\n3. Die Relationen:\\n- „maria“ führt die Aktivität „play“ aus (Relation: „perform“).\\n- „play“ hat das Ziel „basketball“ (Relation: „target“).\\n- „basketball“ ist ein Objekt (Typ 1).\\n4. Für die Relationen:\\n- „perform“ (ID 8).\\n- „target“ (ID 9).\\n- Typ 1 für die Objekte („maria“ und „basketball“).\\nAlle Relationen sind vorhanden.\\n5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

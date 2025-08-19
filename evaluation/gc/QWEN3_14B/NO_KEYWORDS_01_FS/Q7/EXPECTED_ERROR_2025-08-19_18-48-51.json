@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      7
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria fragt (question) und dabei Häuser malt (paint). Die Beziehung zwischen \u0027Maria\u0027 und \u0027paint\u0027 ist eine Aktivität (ID 9), zwischen \u0027paint\u0027 und \u0027house\u0027 ist \u0027attached\u0027 (ID 8), und zwischen \u0027Maria\u0027 und \u0027question\u0027 ist ebenfalls eine Aktivität (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 7, 0, 7],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria fragt (question) und dabei Häuser malt (paint). Die Beziehung zwischen \u0027Maria\u0027 und \u0027paint\u0027 ist eine Aktivität (ID 9), zwischen \u0027paint\u0027 und \u0027house\u0027 ist \u0027attached\u0027 (ID 8), und zwischen \u0027Maria\u0027 und \u0027question\u0027 ist ebenfalls eine Aktivität (ID 9).\"\n}"
+}

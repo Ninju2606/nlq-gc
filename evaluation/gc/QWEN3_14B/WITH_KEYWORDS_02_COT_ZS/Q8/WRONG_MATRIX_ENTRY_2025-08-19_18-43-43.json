@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Der Nutzer nutzt das Wort „meine Tochter“ und „ich“, was auf eine Identifikation mit „Maria“ hinweist. Die Identifikation des Nutzers, Maria, wird daher in das Vokabular integriert. Die Wörter „meine Tochter“ und „ich“ werden als eine Beziehung (Tochter-Beziehung) definiert, die aber nicht direkt im Vokabular auftaucht. Anhand der Relationen aus den Stichworten werden die Begriffe „maria“ und „person“ mit dem Typ 10 (daughter) verbunden. \n\n2. Attributeigenschaften der Stichwörter:\n- „maria“: Typ 1 (object), da es sich um eine Person handelt (Identifikation des Nutzers).\n- „person“: Typ 1 (object), da es eine generische Bezeichnung für eine Person ist.\n- „drive“: Typ 4 (activity), da es sich um eine Tätigkeit handelt.\n- „boat“: Typ 1 (object), da es sich um ein Objekt handelt.\n- „lake“: Typ 1 (object), da es sich um ein Objekt handelt.\n\n3. Die Stichwörter stehen folgendermaßen in Relation zueinander:\n- „maria“ ist eine „person“ (Typ 10: daughter).\n- „maria“ und „person“ performen/ausführen die Aktivität „drive“ (Typ 8: perform).\n- „drive“ wird mit dem Objekt „boat“ durchgeführt (Typ 9: target).\n- „boat“ ist auf dem „lake“ (Typ 6: under).\n\n4. Es wurden folgende Relationen verwendet:\n- Typ 1 (object) für „maria“, „person“, „boat“, „lake“.\n- Typ 4 (activity) für „drive“.\n- Typ 8 (perform) für die Beziehung zwischen „maria“, „person“ und „drive“.\n- Typ 9 (target) zwischen „drive“ und „boat“.\n- Typ 6 (under) zwischen „boat“ und „lake“.\n- Typ 10 (daughter) zwischen „maria“ und „person“.\n\nAlle diese Typen sind in den bereitgestellten Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer nutzt das Wort „meine Tochter“ und „ich“, was auf eine Identifikation mit „Maria“ hinweist. Die Identifikation des Nutzers, Maria, wird daher in das Vokabular integriert. Die Wörter „meine Tochter“ und „ich“ werden als eine Beziehung (Tochter-Beziehung) definiert, die aber nicht direkt im Vokabular auftaucht. Anhand der Relationen aus den Stichworten werden die Begriffe „maria“ und „person“ mit dem Typ 10 (daughter) verbunden. \\n\\n2. Attributeigenschaften der Stichwörter:\\n- „maria“: Typ 1 (object), da es sich um eine Person handelt (Identifikation des Nutzers).\\n- „person“: Typ 1 (object), da es eine generische Bezeichnung für eine Person ist.\\n- „drive“: Typ 4 (activity), da es sich um eine Tätigkeit handelt.\\n- „boat“: Typ 1 (object), da es sich um ein Objekt handelt.\\n- „lake“: Typ 1 (object), da es sich um ein Objekt handelt.\\n\\n3. Die Stichwörter stehen folgendermaßen in Relation zueinander:\\n- „maria“ ist eine „person“ (Typ 10: daughter).\\n- „maria“ und „person“ performen/ausführen die Aktivität „drive“ (Typ 8: perform).\\n- „drive“ wird mit dem Objekt „boat“ durchgeführt (Typ 9: target).\\n- „boat“ ist auf dem „lake“ (Typ 6: under).\\n\\n4. Es wurden folgende Relationen verwendet:\\n- Typ 1 (object) für „maria“, „person“, „boat“, „lake“.\\n- Typ 4 (activity) für „drive“.\\n- Typ 8 (perform) für die Beziehung zwischen „maria“, „person“ und „drive“.\\n- Typ 9 (target) zwischen „drive“ und „boat“.\\n- Typ 6 (under) zwischen „boat“ und „lake“.\\n- Typ 10 (daughter) zwischen „maria“ und „person“.\\n\\nAlle diese Typen sind in den bereitgestellten Typkodierungen vorhanden.\"\n}"
+}

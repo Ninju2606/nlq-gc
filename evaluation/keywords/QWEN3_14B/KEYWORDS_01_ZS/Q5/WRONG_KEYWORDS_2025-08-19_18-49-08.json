@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow hat",
+    "situation"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the key terms from the user\u0027s request, including the user\u0027s identified name, the object \u0027yellow hat\u0027, and the concept \u0027situation\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow hat\", \"situation\"],\n  \"description\": \"The vocabulary contains the key terms from the user\u0027s request, including the user\u0027s identified name, the object \u0027yellow hat\u0027, and the concept \u0027situation\u0027.\"\n}"
+}

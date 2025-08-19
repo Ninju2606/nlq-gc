@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "my daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf Personen, die für spätere Relationen relevant sind.\n3. Übersetzung ins Englische: \u0027my daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzung der Identifikation: \u0027meine Tochter\u0027 und \u0027ich\u0027 werden durch \u0027my daughter\u0027 und \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027my daughter\u0027 und \u0027Maria\u0027 sind Objekte (object), \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (object).\n6. Relationen: \u0027my daughter\u0027 und \u0027Maria\u0027 sind synonym (synonym, Typ 3). \u0027boat\u0027 und \u0027lake\u0027 haben keine direkte Relation; \u0027boat\u0027 wird auf einem \u0027lake\u0027 gefahren (target, Typ 9).\n7. Prüfung der Typkodierungen: Typ 3 (synonym) und Typ 9 (target) existieren.\n8. GraphCode wurde entsprechend den Schritten generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"my daughter\", \"Maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf Personen, die für spätere Relationen relevant sind.\\n3. Übersetzung ins Englische: \u0027my daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzung der Identifikation: \u0027meine Tochter\u0027 und \u0027ich\u0027 werden durch \u0027my daughter\u0027 und \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027my daughter\u0027 und \u0027Maria\u0027 sind Objekte (object), \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (object).\\n6. Relationen: \u0027my daughter\u0027 und \u0027Maria\u0027 sind synonym (synonym, Typ 3). \u0027boat\u0027 und \u0027lake\u0027 haben keine direkte Relation; \u0027boat\u0027 wird auf einem \u0027lake\u0027 gefahren (target, Typ 9).\\n7. Prüfung der Typkodierungen: Typ 3 (synonym) und Typ 9 (target) existieren.\\n8. GraphCode wurde entsprechend den Schritten generiert.\"\n}"
+}

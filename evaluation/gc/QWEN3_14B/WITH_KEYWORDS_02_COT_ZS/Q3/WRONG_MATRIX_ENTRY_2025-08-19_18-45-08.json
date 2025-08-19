@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer (Maria) gibt an, dass sie im Pool schwimmt und der Pool ihr gehört. Somit werden \u0027maria\u0027 als Identifikation eingebracht.\n2. Attributeigenschaften:\n   - \u0027maria\u0027: Identifikation (identityMapping \u003d true)\n   - \u0027swim\u0027: Aktivität (activity, identityMapping \u003d false)\n   - \u0027own\u0027: Beziehung (attached, identityMapping \u003d false)\n   - \u0027pool\u0027: Objekt (object, identityMapping \u003d false)\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 ist die Person, die \u0027swim\u0027 ausführt.\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt.\n   - \u0027pool\u0027 wird durch \u0027own\u0027 mit \u0027maria\u0027 in Verbindung gebracht.\n4. Typkodierungen für die Relationen:\n   - \u0027maria\u0027 → \u0027swim\u0027: Typ \u0027perform\u0027 (ID: 8) ist vorhanden.\n   - \u0027swim\u0027 → \u0027pool\u0027: Typ \u0027target\u0027 (ID: 9) ist vorhanden.\n   - \u0027pool\u0027 → \u0027maria\u0027: Typ \u0027attached\u0027 (ID: 5) ist vorhanden.\n   - Eigenschaften auf der Diagonale (identityMapping \u003d true):\n     - \u0027maria\u0027 → \u0027object\u0027 (ID: 1)\n     - \u0027swim\u0027 → \u0027activity\u0027 (ID: 4)\n     - \u0027own\u0027 → \u0027context\u0027 (ID: 2)\n     - \u0027pool\u0027 → \u0027object\u0027 (ID: 1)\n   - Alle benötigten Typkodierungen sind vorhanden.\n5. Der GraphCode wurde entsprechend der Anfrage generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer (Maria) gibt an, dass sie im Pool schwimmt und der Pool ihr gehört. Somit werden \u0027maria\u0027 als Identifikation eingebracht.\\n2. Attributeigenschaften:\\n   - \u0027maria\u0027: Identifikation (identityMapping \u003d true)\\n   - \u0027swim\u0027: Aktivität (activity, identityMapping \u003d false)\\n   - \u0027own\u0027: Beziehung (attached, identityMapping \u003d false)\\n   - \u0027pool\u0027: Objekt (object, identityMapping \u003d false)\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 ist die Person, die \u0027swim\u0027 ausführt.\\n   - \u0027swim\u0027 wird im \u0027pool\u0027 durchgeführt.\\n   - \u0027pool\u0027 wird durch \u0027own\u0027 mit \u0027maria\u0027 in Verbindung gebracht.\\n4. Typkodierungen für die Relationen:\\n   - \u0027maria\u0027 → \u0027swim\u0027: Typ \u0027perform\u0027 (ID: 8) ist vorhanden.\\n   - \u0027swim\u0027 → \u0027pool\u0027: Typ \u0027target\u0027 (ID: 9) ist vorhanden.\\n   - \u0027pool\u0027 → \u0027maria\u0027: Typ \u0027attached\u0027 (ID: 5) ist vorhanden.\\n   - Eigenschaften auf der Diagonale (identityMapping \u003d true):\\n     - \u0027maria\u0027 → \u0027object\u0027 (ID: 1)\\n     - \u0027swim\u0027 → \u0027activity\u0027 (ID: 4)\\n     - \u0027own\u0027 → \u0027context\u0027 (ID: 2)\\n     - \u0027pool\u0027 → \u0027object\u0027 (ID: 1)\\n   - Alle benötigten Typkodierungen sind vorhanden.\\n5. Der GraphCode wurde entsprechend der Anfrage generiert.\"\n}"
+}

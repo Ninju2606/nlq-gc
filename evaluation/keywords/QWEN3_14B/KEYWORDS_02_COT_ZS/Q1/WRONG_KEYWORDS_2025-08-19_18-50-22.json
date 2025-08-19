@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage ermittelt. Relative Verweise wurden gelöst. Die Stichwörter wurden ins Englische übersetzt. Die Identifikation des Nutzers, \u0027Maria\u0027, wurde in die Stichwörter eingefügt, da sie auf den Anfragensteller referiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage ermittelt. Relative Verweise wurden gelöst. Die Stichwörter wurden ins Englische übersetzt. Die Identifikation des Nutzers, \u0027Maria\u0027, wurde in die Stichwörter eingefügt, da sie auf den Anfragensteller referiert.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords from the user query were identified: \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027.\nStep 2: No relative references to resolve in this query.\nStep 3: Translated keywords to English: \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027.\nStep 4: User identification \u0027Maria\u0027 was included in the vocabulary since the query refers to the user with \u0027meine Tochter\u0027 (my daughter).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"description\": \"Step 1: Potential keywords from the user query were identified: \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027.\\nStep 2: No relative references to resolve in this query.\\nStep 3: Translated keywords to English: \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027.\\nStep 4: User identification \u0027Maria\u0027 was included in the vocabulary since the query refers to the user with \u0027meine Tochter\u0027 (my daughter).\"\n}"
+}

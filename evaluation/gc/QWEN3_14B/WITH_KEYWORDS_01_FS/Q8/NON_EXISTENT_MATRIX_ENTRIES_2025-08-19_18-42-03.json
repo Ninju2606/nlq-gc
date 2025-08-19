@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter ein Boot auf einem See fahren. Maria (dictionary[0]) ist mit dem Begriff \u0027person\u0027 (dictionary[1]) verknüpft (Typ 10: daughter). \u0027drive\u0027 (dictionary[2]) ist eine Aktivität (Typ 9: activity), die von Maria (dictionary[0]) durchgeführt wird (Typ 7: perform). \u0027boat\u0027 (dictionary[3]) wird von Maria auf dem See (dictionary[4]) gefahren (Typ 8: target). \u0027lake\u0027 (dictionary[4]) ist der Ort, an dem das Boot (dictionary[3]) sich befindet (Typ 6: under).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 0, 0],\n    [0, 0, 8, 1, 0],\n    [0, 0, 0, 6, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria und ihre Tochter ein Boot auf einem See fahren. Maria (dictionary[0]) ist mit dem Begriff \u0027person\u0027 (dictionary[1]) verknüpft (Typ 10: daughter). \u0027drive\u0027 (dictionary[2]) ist eine Aktivität (Typ 9: activity), die von Maria (dictionary[0]) durchgeführt wird (Typ 7: perform). \u0027boat\u0027 (dictionary[3]) wird von Maria auf dem See (dictionary[4]) gefahren (Typ 8: target). \u0027lake\u0027 (dictionary[4]) ist der Ort, an dem das Boot (dictionary[3]) sich befindet (Typ 6: under).\"\n}"
+}

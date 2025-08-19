@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer, Maria, gibt an, dass sie etwas mit ihrer Person zu tun hat („wir müssen bald einen Termin ausmachen“). Daher wird in das Vokabular ihre Identifikation „maria“ aufgenommen.\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\n   - „maria“: Ein Objekt (Typ 1), da es sich um die Identifikation des Nutzers handelt.\n   - „make“: Eine Aktivität (Typ 4), da es das Tun beschreibt.\n   - „appointment“: Ein Objekt (Typ 1), da es sich um ein konkretes Ziel oder Ergebnis handelt.\n3. Die Beziehungen zwischen den Stichwörtern sind:\n   - Maria (Objekt) führt eine Aktivität (make) durch.\n   - Die Aktivität (make) hat als Ziel das Objekt (appointment).\n4. Typkodierungen für die genannten Beziehungen:\n   - Typ 1 für „maria“ (Objekt) – zugeordnet zu Eintrag (0,0) in der Matrix.\n   - Typ 4 für „make“ (Aktivität) – zugeordnet zu Eintrag (1,1) in der Matrix.\n   - Typ 1 für „appointment“ (Objekt) – zugeordnet zu Eintrag (2,2) in der Matrix.\n   - Keine weiteren Relationen zwischen den Begriffen, sodass keine weiteren Einträge in der Matrix erforderlich sind. Alle verwendeten Typkodierungen sind vorhanden.\n5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Der Nutzer, Maria, gibt an, dass sie etwas mit ihrer Person zu tun hat („wir müssen bald einen Termin ausmachen“). Daher wird in das Vokabular ihre Identifikation „maria“ aufgenommen.\\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\\n   - „maria“: Ein Objekt (Typ 1), da es sich um die Identifikation des Nutzers handelt.\\n   - „make“: Eine Aktivität (Typ 4), da es das Tun beschreibt.\\n   - „appointment“: Ein Objekt (Typ 1), da es sich um ein konkretes Ziel oder Ergebnis handelt.\\n3. Die Beziehungen zwischen den Stichwörtern sind:\\n   - Maria (Objekt) führt eine Aktivität (make) durch.\\n   - Die Aktivität (make) hat als Ziel das Objekt (appointment).\\n4. Typkodierungen für die genannten Beziehungen:\\n   - Typ 1 für „maria“ (Objekt) – zugeordnet zu Eintrag (0,0) in der Matrix.\\n   - Typ 4 für „make“ (Aktivität) – zugeordnet zu Eintrag (1,1) in der Matrix.\\n   - Typ 1 für „appointment“ (Objekt) – zugeordnet zu Eintrag (2,2) in der Matrix.\\n   - Keine weiteren Relationen zwischen den Begriffen, sodass keine weiteren Einträge in der Matrix erforderlich sind. Alle verwendeten Typkodierungen sind vorhanden.\\n5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

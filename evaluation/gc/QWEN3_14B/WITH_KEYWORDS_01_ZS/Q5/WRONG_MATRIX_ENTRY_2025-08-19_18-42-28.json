@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 im Metaverse. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027wear\u0027, \u0027hat\u0027, \u0027yellow\u0027. Die Einträge der Bewertungsmatrix definieren die Beziehungen zwischen den Begriffen. Die Einheitsdiagonale enthält Typkodierungen (object, context, synonym, activity), und die übrigen Einträge sind 0, da keine passenden Beziehungen definiert wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 im Metaverse. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027wear\u0027, \u0027hat\u0027, \u0027yellow\u0027. Die Einträge der Bewertungsmatrix definieren die Beziehungen zwischen den Begriffen. Die Einheitsdiagonale enthält Typkodierungen (object, context, synonym, activity), und die übrigen Einträge sind 0, da keine passenden Beziehungen definiert wurden.\"\n}"
+}

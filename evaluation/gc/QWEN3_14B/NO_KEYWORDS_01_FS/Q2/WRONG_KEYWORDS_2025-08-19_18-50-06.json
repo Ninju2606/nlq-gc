@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      4
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the scene where Maria is running. The dictionary contains the identified user \u0027Maria\u0027 and the activity \u0027run\u0027. The matrix defines the relationships: \u0027Maria\u0027 is an object (id 1) and \u0027run\u0027 is an activity (id 9). The relationship between \u0027Maria\u0027 and \u0027run\u0027 is of type \u0027perform\u0027 (id 8), which is not on the diagonal and has identityMapping \u003d false.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 4],\n    [0, 9]\n  ],\n  \"description\": \"The GraphCode represents the scene where Maria is running. The dictionary contains the identified user \u0027Maria\u0027 and the activity \u0027run\u0027. The matrix defines the relationships: \u0027Maria\u0027 is an object (id 1) and \u0027run\u0027 is an activity (id 9). The relationship between \u0027Maria\u0027 and \u0027run\u0027 is of type \u0027perform\u0027 (id 8), which is not on the diagonal and has identityMapping \u003d false.\"\n}"
+}

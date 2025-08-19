@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat die Anfrage gestellt: \u0027Wir müssen bald einen Termin ausmachen.\u0027 In dieser Anfrage wird Maria nicht direct als Subjekt genannt, sondern implizit im Plural (\u0027wir\u0027). Es gibt keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation von Maria ignoriert.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Objekt (object), da es den Namen einer Person darstellt.\n- \u0027make\u0027: Aktivität (activity), da es eine Handlung beschreibt.\n- \u0027appointment\u0027: Objekt (object), da es ein konkretes Ziel oder Ergebnis der Aktivität ist.\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027make\u0027 führt zu \u0027appointment\u0027, da die Aktivität \u0027make\u0027 das Ziel \u0027appointment\u0027 erzeugt.\n- \u0027maria\u0027 kann mit \u0027make\u0027 in Beziehung stehen, da Maria die Person ist, die \u0027make\u0027 durchführt. Dies könnte eine \u0027perform\u0027 Beziehung sein, jedoch wird diese Relation nicht direkt in der Anfrage klar ausgedrückt.\n\n4. Nachprüfung der Typkodierungen:\n- \u0027object\u0027 (Typ 1) wird für \u0027maria\u0027 und \u0027appointment\u0027 verwendet, was korrekt ist.\n- \u0027activity\u0027 (Typ 2) wird für \u0027make\u0027 verwendet, was korrekt ist.\n- Die Relation \u0027make\u0027 -\u003e \u0027appointment\u0027 könnte mit \u0027target\u0027 (Typ 9) dargestellt werden, da \u0027appointment\u0027 das Ziel der Aktivität \u0027make\u0027 ist. Typ 9 existiert.\n- Die Relation \u0027maria\u0027 -\u003e \u0027make\u0027 könnte mit \u0027perform\u0027 (Typ 8) dargestellt werden, da Maria die Aktivität \u0027make\u0027 durchführt. Typ 8 existiert.\n\n5. Die Matrix wurde entsprechend befüllt mit den definierten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat die Anfrage gestellt: \u0027Wir müssen bald einen Termin ausmachen.\u0027 In dieser Anfrage wird Maria nicht direct als Subjekt genannt, sondern implizit im Plural (\u0027wir\u0027). Es gibt keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation von Maria ignoriert.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Objekt (object), da es den Namen einer Person darstellt.\\n- \u0027make\u0027: Aktivität (activity), da es eine Handlung beschreibt.\\n- \u0027appointment\u0027: Objekt (object), da es ein konkretes Ziel oder Ergebnis der Aktivität ist.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027make\u0027 führt zu \u0027appointment\u0027, da die Aktivität \u0027make\u0027 das Ziel \u0027appointment\u0027 erzeugt.\\n- \u0027maria\u0027 kann mit \u0027make\u0027 in Beziehung stehen, da Maria die Person ist, die \u0027make\u0027 durchführt. Dies könnte eine \u0027perform\u0027 Beziehung sein, jedoch wird diese Relation nicht direkt in der Anfrage klar ausgedrückt.\\n\\n4. Nachprüfung der Typkodierungen:\\n- \u0027object\u0027 (Typ 1) wird für \u0027maria\u0027 und \u0027appointment\u0027 verwendet, was korrekt ist.\\n- \u0027activity\u0027 (Typ 2) wird für \u0027make\u0027 verwendet, was korrekt ist.\\n- Die Relation \u0027make\u0027 -\u003e \u0027appointment\u0027 könnte mit \u0027target\u0027 (Typ 9) dargestellt werden, da \u0027appointment\u0027 das Ziel der Aktivität \u0027make\u0027 ist. Typ 9 existiert.\\n- Die Relation \u0027maria\u0027 -\u003e \u0027make\u0027 könnte mit \u0027perform\u0027 (Typ 8) dargestellt werden, da Maria die Aktivität \u0027make\u0027 durchführt. Typ 8 existiert.\\n\\n5. Die Matrix wurde entsprechend befüllt mit den definierten Typkodierungen.\"\n}"
+}

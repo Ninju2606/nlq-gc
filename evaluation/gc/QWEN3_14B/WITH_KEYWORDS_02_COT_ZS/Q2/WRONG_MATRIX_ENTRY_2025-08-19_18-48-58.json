@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer hat keine relativen Verweise oder Identifikationen innerhalb der Anfrage angegeben, lediglich die Identifikation \"Maria\". Diese wird ignoriert, da sie nicht in der Anfrage erwähnt wird.\n2. Das Vokabular besteht aus den Begriffen \"tim\" und \"run\". Der Begriff \"tim\" ist ein Objekt (object) und \"run\" ist eine Aktivität (activity).\n3. Die Beziehung zwischen \"tim\" und \"run\" ist, dass Tim die Aktivität \"run\" ausführt. Dies wird als Relation \"perform\" beschrieben.\n4. Die Typkodierungen für die Begriffe sind: \"tim\" ist ein Objekt (ID 1), \"run\" ist eine Aktivität (ID 2). Die Relation \"perform\" ist in den Typkodierungen als ID 8 vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat keine relativen Verweise oder Identifikationen innerhalb der Anfrage angegeben, lediglich die Identifikation \\\"Maria\\\". Diese wird ignoriert, da sie nicht in der Anfrage erwähnt wird.\\n2. Das Vokabular besteht aus den Begriffen \\\"tim\\\" und \\\"run\\\". Der Begriff \\\"tim\\\" ist ein Objekt (object) und \\\"run\\\" ist eine Aktivität (activity).\\n3. Die Beziehung zwischen \\\"tim\\\" und \\\"run\\\" ist, dass Tim die Aktivität \\\"run\\\" ausführt. Dies wird als Relation \\\"perform\\\" beschrieben.\\n4. Die Typkodierungen für die Begriffe sind: \\\"tim\\\" ist ein Objekt (ID 1), \\\"run\\\" ist eine Aktivität (ID 2). Die Relation \\\"perform\\\" ist in den Typkodierungen als ID 8 vorhanden.\"\n}"
+}

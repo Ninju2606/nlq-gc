@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria wird durch das Vokabular \u0027maria\u0027 identifiziert. Das Verb \u0027wear\u0027 (tragen) und das Attribut \u0027yellow\u0027 (gelb) sind im Kontext der Anfrage \u0027Situationen, in denen ich einen gelben Hut trage\u0027 relevant.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers, Typ \u003d \u0027object\u0027\n- \u0027wear\u0027: Aktivität, Typ \u003d \u0027activity\u0027\n- \u0027hat\u0027: Objekt/Attribut, Typ \u003d \u0027object\u0027\n- \u0027yellow\u0027: Attribut, Typ \u003d \u0027characteristic\u0027\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 trägt (\u0027wear\u0027) \u0027hat\u0027 (Hut)\n- \u0027hat\u0027 ist \u0027yellow\u0027 (gelb)\n- \u0027wear\u0027 ist eine Aktivität, die \u0027maria\u0027 ausführt\n\n4. Typkodierungen für die Relationen:\n- \u0027maria\u0027 - \u0027wear\u0027: Typ 4 (activity)\n- \u0027wear\u0027 - \u0027maria\u0027: Typ 8 (perform)\n- \u0027hat\u0027 - \u0027yellow\u0027: Typ 14 (characteristic)\n- \u0027maria\u0027 - \u0027hat\u0027: Typ 9 (target)\n\nAlle Relationen haben einen entsprechenden Eintrag in den Typkodierungen. Typ 8 (perform), Typ 9 (target) und Typ 14 (characteristic) sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer Maria wird durch das Vokabular \u0027maria\u0027 identifiziert. Das Verb \u0027wear\u0027 (tragen) und das Attribut \u0027yellow\u0027 (gelb) sind im Kontext der Anfrage \u0027Situationen, in denen ich einen gelben Hut trage\u0027 relevant.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers, Typ \u003d \u0027object\u0027\\n- \u0027wear\u0027: Aktivität, Typ \u003d \u0027activity\u0027\\n- \u0027hat\u0027: Objekt/Attribut, Typ \u003d \u0027object\u0027\\n- \u0027yellow\u0027: Attribut, Typ \u003d \u0027characteristic\u0027\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 trägt (\u0027wear\u0027) \u0027hat\u0027 (Hut)\\n- \u0027hat\u0027 ist \u0027yellow\u0027 (gelb)\\n- \u0027wear\u0027 ist eine Aktivität, die \u0027maria\u0027 ausführt\\n\\n4. Typkodierungen für die Relationen:\\n- \u0027maria\u0027 - \u0027wear\u0027: Typ 4 (activity)\\n- \u0027wear\u0027 - \u0027maria\u0027: Typ 8 (perform)\\n- \u0027hat\u0027 - \u0027yellow\u0027: Typ 14 (characteristic)\\n- \u0027maria\u0027 - \u0027hat\u0027: Typ 9 (target)\\n\\nAlle Relationen haben einen entsprechenden Eintrag in den Typkodierungen. Typ 8 (perform), Typ 9 (target) und Typ 14 (characteristic) sind vorhanden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027meinem\u0027 wird als \u0027own\u0027 in das Vokabular aufgenommen und die Nutzeridentifikation \u0027Maria\u0027 wird im Vokabular als \u0027maria\u0027 abgebildet.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027 ist eine Identifikation (Typ 1: object).\n- \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\n- \u0027own\u0027 ist ein Kontext (Typ 2: context).\n- \u0027pool\u0027 ist ein Objekt (Typ 1: object).\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 besitzt (own) den \u0027pool\u0027.\n- \u0027maria\u0027 schwimmt (swim) in dem \u0027pool\u0027.\n- \u0027swim\u0027 ist eine Aktivität, die mit einem \u0027pool\u0027 durchgeführt wird.\n4. Prüfung der Typkodierungen:\n- \u0027object\u0027: Typ 1 (identityMapping \u003d true) → korrekt.\n- \u0027activity\u0027: Typ 4 (identityMapping \u003d false) → korrekt.\n- \u0027context\u0027: Typ 2 (identityMapping \u003d true) → korrekt.\n- \u0027attached\u0027 (Typ 5), \u0027under\u0027 (Typ 6), \u0027above\u0027 (Typ 7), \u0027perform\u0027 (Typ 8), \u0027target\u0027 (Typ 9), \u0027daughter\u0027 (Typ 10), \u0027characteristic\u0027 (Typ 14) werden nicht benötigt.\nRelationen:\n- \u0027maria\u0027 und \u0027own\u0027 → Typ 2 (context) → korrekt.\n- \u0027maria\u0027 und \u0027swim\u0027 → Typ 4 (activity) → korrekt.\n- \u0027swim\u0027 und \u0027pool\u0027 → Typ 8 (perform) → korrekt.\n- \u0027own\u0027 und \u0027pool\u0027 → Typ 5 (attached) → korrekt.\n5. GraphCode ist erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: \u0027meinem\u0027 wird als \u0027own\u0027 in das Vokabular aufgenommen und die Nutzeridentifikation \u0027Maria\u0027 wird im Vokabular als \u0027maria\u0027 abgebildet.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027 ist eine Identifikation (Typ 1: object).\\n- \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\\n- \u0027own\u0027 ist ein Kontext (Typ 2: context).\\n- \u0027pool\u0027 ist ein Objekt (Typ 1: object).\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 besitzt (own) den \u0027pool\u0027.\\n- \u0027maria\u0027 schwimmt (swim) in dem \u0027pool\u0027.\\n- \u0027swim\u0027 ist eine Aktivität, die mit einem \u0027pool\u0027 durchgeführt wird.\\n4. Prüfung der Typkodierungen:\\n- \u0027object\u0027: Typ 1 (identityMapping \u003d true) → korrekt.\\n- \u0027activity\u0027: Typ 4 (identityMapping \u003d false) → korrekt.\\n- \u0027context\u0027: Typ 2 (identityMapping \u003d true) → korrekt.\\n- \u0027attached\u0027 (Typ 5), \u0027under\u0027 (Typ 6), \u0027above\u0027 (Typ 7), \u0027perform\u0027 (Typ 8), \u0027target\u0027 (Typ 9), \u0027daughter\u0027 (Typ 10), \u0027characteristic\u0027 (Typ 14) werden nicht benötigt.\\nRelationen:\\n- \u0027maria\u0027 und \u0027own\u0027 → Typ 2 (context) → korrekt.\\n- \u0027maria\u0027 und \u0027swim\u0027 → Typ 4 (activity) → korrekt.\\n- \u0027swim\u0027 und \u0027pool\u0027 → Typ 8 (perform) → korrekt.\\n- \u0027own\u0027 und \u0027pool\u0027 → Typ 5 (attached) → korrekt.\\n5. GraphCode ist erfolgreich generiert.\"\n}"
+}

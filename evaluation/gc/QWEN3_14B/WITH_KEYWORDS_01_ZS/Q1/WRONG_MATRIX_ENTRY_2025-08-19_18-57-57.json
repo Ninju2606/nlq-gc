@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      8,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5555555555555556,
+  "description": "Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketballs (basketball) ausübt. Der Typ \u0027play\u0027 wird als Aktivität (4) und \u0027basketball\u0027 als Objekt (3) kodiert. Beziehung \u0027play\u0027 -\u003e \u0027basketball\u0027 wird durch \u0027perform\u0027 (8) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 8, 3]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (maria) das Spiel (play) Basketballs (basketball) ausübt. Der Typ \u0027play\u0027 wird als Aktivität (4) und \u0027basketball\u0027 als Objekt (3) kodiert. Beziehung \u0027play\u0027 -\u003e \u0027basketball\u0027 wird durch \u0027perform\u0027 (8) dargestellt.\"\n}"
+}

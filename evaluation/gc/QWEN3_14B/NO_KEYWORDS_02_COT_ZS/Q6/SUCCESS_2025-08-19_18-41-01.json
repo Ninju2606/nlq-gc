@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Wir müsssen bald einen Termin ausmachen.\" enthält keine klaren Stichwörter, die für die Generierung eines GraphCodes relevant sind. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, die in einem Metaverse-Kontext beschrieben werden. Zudem kann aus der Anfrage keine klare Relation zwischen Begriffen abgeleitet werden, die mit den Typkodierungen abgebildet werden könnte. Daher kann kein GraphCode generiert werden.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage \\\"Wir müsssen bald einen Termin ausmachen.\\\" enthält keine klaren Stichwörter, die für die Generierung eines GraphCodes relevant sind. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, die in einem Metaverse-Kontext beschrieben werden. Zudem kann aus der Anfrage keine klare Relation zwischen Begriffen abgeleitet werden, die mit den Typkodierungen abgebildet werden könnte. Daher kann kein GraphCode generiert werden.\"\n}"
+}

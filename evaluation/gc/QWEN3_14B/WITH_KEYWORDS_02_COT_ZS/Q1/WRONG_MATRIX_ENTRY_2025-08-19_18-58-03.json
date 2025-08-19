@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria gibt an, dass sie Basketball spielt. Somit wird „maria“ als Identifikation verwendet und „play“ und „basketball“ als Aktivität und Objekt.\n\n2. Attributeigenschaften der Stichwörter:\n- maria: ist ein Objekt (ID 1), da es sich um die Identifikation des Nutzers handelt.\n- play: ist eine Aktivität (ID 4), da es eine Handlung beschreibt.\n- basketball: ist ein Objekt (ID 1), da es ein konkretes Ding beschreibt.\n\n3. Relationen zwischen den Stichwörtern:\n- maria perform play (Maria spielt): Beziehung zwischen Maria (Objekt) und play (Aktivität), was dem Typ „perform“ entspricht (ID 8).\n- play object basketball: Beziehung zwischen play (Aktivität) und basketball (Objekt), was dem Typ „object“ entspricht (ID 2).\n- basketball ist ein Objekt: Beziehung von basketball zu sich selbst, was dem Typ „object“ entspricht (ID 1).\n\n4. Überprüfung der Typkodierungen:\n- perform: ID 8 (mit identityMapping \u003d false)\n- object: ID 2 (mit identityMapping \u003d true)\n- Es existieren gültige Einträge in den Typkodierungen für alle Relationen.\n\n5. Der GraphCode ist korrekt generiert worden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer Maria gibt an, dass sie Basketball spielt. Somit wird „maria“ als Identifikation verwendet und „play“ und „basketball“ als Aktivität und Objekt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- maria: ist ein Objekt (ID 1), da es sich um die Identifikation des Nutzers handelt.\\n- play: ist eine Aktivität (ID 4), da es eine Handlung beschreibt.\\n- basketball: ist ein Objekt (ID 1), da es ein konkretes Ding beschreibt.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- maria perform play (Maria spielt): Beziehung zwischen Maria (Objekt) und play (Aktivität), was dem Typ „perform“ entspricht (ID 8).\\n- play object basketball: Beziehung zwischen play (Aktivität) und basketball (Objekt), was dem Typ „object“ entspricht (ID 2).\\n- basketball ist ein Objekt: Beziehung von basketball zu sich selbst, was dem Typ „object“ entspricht (ID 1).\\n\\n4. Überprüfung der Typkodierungen:\\n- perform: ID 8 (mit identityMapping \u003d false)\\n- object: ID 2 (mit identityMapping \u003d true)\\n- Es existieren gültige Einträge in den Typkodierungen für alle Relationen.\\n\\n5. Der GraphCode ist korrekt generiert worden.\"\n}"
+}

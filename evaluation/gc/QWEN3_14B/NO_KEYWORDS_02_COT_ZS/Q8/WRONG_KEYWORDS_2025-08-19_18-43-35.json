@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "sea"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf Personen.\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a sea\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027Meine Tochter\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 und \u0027daughter\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist eine Person (identityMapping \u003d true), \u0027daughter\u0027 ist eine Beziehung (identityMapping \u003d true), \u0027boat\u0027 ist ein Objekt (identityMapping \u003d true), \u0027sea\u0027 ist ein Objekt (identityMapping \u003d true).\n6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 sind in der Relation \u0027parent\u0027 zueinander (implizit). \u0027Maria\u0027 und \u0027boat\u0027 sind in der Relation \u0027perform\u0027 zueinander (da sie das Boot fahren). \u0027Maria\u0027 und \u0027sea\u0027 sind in der Relation \u0027located on\u0027 zueinander. \u0027daughter\u0027 und \u0027boat\u0027 sind in der Relation \u0027perform\u0027 zueinander (da sie das Boot fahren). \u0027daughter\u0027 und \u0027sea\u0027 sind in der Relation \u0027located on\u0027 zueinander.\n7. Typkodierung: Für \u0027perform\u0027 wird Typ ID 8 verwendet, für \u0027located on\u0027 wird Typ ID 6 verwendet. Alle Typen sind in der Liste vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"sea\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 und \u0027ich\u0027 beziehen sich auf Personen.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a sea\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027Meine Tochter\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 und \u0027daughter\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist eine Person (identityMapping \u003d true), \u0027daughter\u0027 ist eine Beziehung (identityMapping \u003d true), \u0027boat\u0027 ist ein Objekt (identityMapping \u003d true), \u0027sea\u0027 ist ein Objekt (identityMapping \u003d true).\\n6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 sind in der Relation \u0027parent\u0027 zueinander (implizit). \u0027Maria\u0027 und \u0027boat\u0027 sind in der Relation \u0027perform\u0027 zueinander (da sie das Boot fahren). \u0027Maria\u0027 und \u0027sea\u0027 sind in der Relation \u0027located on\u0027 zueinander. \u0027daughter\u0027 und \u0027boat\u0027 sind in der Relation \u0027perform\u0027 zueinander (da sie das Boot fahren). \u0027daughter\u0027 und \u0027sea\u0027 sind in der Relation \u0027located on\u0027 zueinander.\\n7. Typkodierung: Für \u0027perform\u0027 wird Typ ID 8 verwendet, für \u0027located on\u0027 wird Typ ID 6 verwendet. Alle Typen sind in der Liste vorhanden.\"\n}"
+}

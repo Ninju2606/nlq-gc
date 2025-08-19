@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter sind \u0027Maria\u0027 und \u0027basketball\u0027.\n2. Es gibt keine relativen Verweise.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Maria\u0027 bleibt \u0027Maria\u0027, \u0027basketball\u0027 bleibt \u0027basketball\u0027.\n4. Es gibt keine Identifikation des Nutzers in den Stichwörtern.\n5. \u0027Maria\u0027 hat die Attribut-Eigenschaft \u0027object\u0027, \u0027basketball\u0027 hat die Attribut-Eigenschaft \u0027object\u0027.\n6. \u0027Maria\u0027 und \u0027basketball\u0027 sind in der Relation \u0027perform\u0027 zueinander. \u0027Maria\u0027 ist die Person, die die Aktivität \u0027basketball\u0027 ausführt.\n7. Der Typ \u0027perform\u0027 ist in der Typkodierung vorhanden und hat ID 8.\n8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 8],\n    [8, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter sind \u0027Maria\u0027 und \u0027basketball\u0027.\\n2. Es gibt keine relativen Verweise.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Maria\u0027 bleibt \u0027Maria\u0027, \u0027basketball\u0027 bleibt \u0027basketball\u0027.\\n4. Es gibt keine Identifikation des Nutzers in den Stichwörtern.\\n5. \u0027Maria\u0027 hat die Attribut-Eigenschaft \u0027object\u0027, \u0027basketball\u0027 hat die Attribut-Eigenschaft \u0027object\u0027.\\n6. \u0027Maria\u0027 und \u0027basketball\u0027 sind in der Relation \u0027perform\u0027 zueinander. \u0027Maria\u0027 ist die Person, die die Aktivität \u0027basketball\u0027 ausführt.\\n7. Der Typ \u0027perform\u0027 ist in der Typkodierung vorhanden und hat ID 8.\\n8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

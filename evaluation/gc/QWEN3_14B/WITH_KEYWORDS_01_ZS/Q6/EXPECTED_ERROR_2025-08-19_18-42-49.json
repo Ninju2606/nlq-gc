@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (Eintrag 0) die Aktivität \u0027make\u0027 (Eintrag 1) mit dem Objekt \u0027appointment\u0027 (Eintrag 2) ausführt. Die Typkodierung folgt den Regeln, wobei die Einträge auf der Diagonalen die Identität definieren (Typ 2 für \u0027context\u0027 für \u0027make\u0027 und \u0027appointment\u0027), und die Beziehung zwischen Maria und \u0027make\u0027 wird als Aktivität (Typ 8) interpretiert, da \u0027perform\u0027 nicht im Vokabular enthalten ist und daher nicht verwendet werden kann.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (Eintrag 0) die Aktivität \u0027make\u0027 (Eintrag 1) mit dem Objekt \u0027appointment\u0027 (Eintrag 2) ausführt. Die Typkodierung folgt den Regeln, wobei die Einträge auf der Diagonalen die Identität definieren (Typ 2 für \u0027context\u0027 für \u0027make\u0027 und \u0027appointment\u0027), und die Beziehung zwischen Maria und \u0027make\u0027 wird als Aktivität (Typ 8) interpretiert, da \u0027perform\u0027 nicht im Vokabular enthalten ist und daher nicht verwendet werden kann.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: Situationen, ich, gelben, Hut, trage.\n2. Relative Verweise: \u0027ich\u0027 referenziert auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n4. Ersetzung der Identifikation: \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Attribut, \u0027hat\u0027 ist eine Aktivität.\n6. Relationen: \u0027Maria\u0027 trägt den \u0027gelben Hut\u0027. Die Relation \u0027trage\u0027 wird durch \u0027hat\u0027 abgebildet.\n7. Typkodierung: \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027synonym\u0027 (ID 3), \u0027activity\u0027 (ID 4). Eintrag für \u0027hat\u0027 (Aktivität, ID 4) ist vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: Situationen, ich, gelben, Hut, trage.\\n2. Relative Verweise: \u0027ich\u0027 referenziert auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n4. Ersetzung der Identifikation: \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist ein Attribut, \u0027hat\u0027 ist eine Aktivität.\\n6. Relationen: \u0027Maria\u0027 trägt den \u0027gelben Hut\u0027. Die Relation \u0027trage\u0027 wird durch \u0027hat\u0027 abgebildet.\\n7. Typkodierung: \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027synonym\u0027 (ID 3), \u0027activity\u0027 (ID 4). Eintrag für \u0027hat\u0027 (Aktivität, ID 4) ist vorhanden.\"\n}"
+}

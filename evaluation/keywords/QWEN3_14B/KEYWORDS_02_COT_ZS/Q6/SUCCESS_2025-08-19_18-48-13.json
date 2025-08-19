@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Termin\u0027, \u0027ausmachen\u0027.\n2. Relative Verweise wurden nicht gefunden.\n3. Übersetzung der Stichwörter ins Englische: \u0027make\u0027, \u0027appointment\u0027.\n4. Identifikation des Nutzers (Maria) wurde nicht in den Stichworten gefunden.\n\nDie ermittelten Stichwörter wurden in das Vokabular aufgenommen.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"soon\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Termin\u0027, \u0027ausmachen\u0027.\\n2. Relative Verweise wurden nicht gefunden.\\n3. Übersetzung der Stichwörter ins Englische: \u0027make\u0027, \u0027appointment\u0027.\\n4. Identifikation des Nutzers (Maria) wurde nicht in den Stichworten gefunden.\\n\\nDie ermittelten Stichwörter wurden in das Vokabular aufgenommen.\"\n}"
+}

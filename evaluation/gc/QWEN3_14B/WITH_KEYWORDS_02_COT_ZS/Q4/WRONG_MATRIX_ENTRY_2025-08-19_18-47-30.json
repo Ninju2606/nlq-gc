@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers wurden zugeordnet: \u0027Maria\u0027 wurde als Nutzeridentifikation berücksichtigt, da sie in der Anfrage als \u0027meinem Pool\u0027 vorkommt.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Bezeichnet die Identität des Nutzers (attribute: \u0027object\u0027, identityMapping: true)\n   - \u0027swim\u0027: Bezeichnet eine Aktivität (attribute: \u0027activity\u0027, identityMapping: false)\n   - \u0027own\u0027: Bezeichnet einen Kontext (attribute: \u0027context\u0027, identityMapping: true)\n   - \u0027pool\u0027: Bezeichnet ein Objekt (attribute: \u0027object\u0027, identityMapping: true)\n3. Stichwörter in Relation zueinander:\n   - \u0027maria\u0027 ist im Besitz von \u0027own\u0027\n   - \u0027own\u0027 ist das Adjektiv, das auf \u0027pool\u0027 bezieht\n   - \u0027swim\u0027 ist die Aktivität, die mit \u0027pool\u0027 assoziiert ist\n4. Prüfung auf vorhandene Typkodierungen:\n   - \u0027object\u0027 für \u0027maria\u0027 (ID: 1)\n   - \u0027activity\u0027 für \u0027swim\u0027 (ID: 4)\n   - \u0027context\u0027 für \u0027own\u0027 (ID: 2)\n   - \u0027object\u0027 für \u0027pool\u0027 (ID: 1)\n   - Relation \u0027maria\u0027 \u003c-\u003e \u0027own\u0027 verwendet \u0027context\u0027 (ID: 2)\n   - Relation \u0027own\u0027 \u003c-\u003e \u0027pool\u0027 verwendet \u0027attached\u0027 (ID: 5)\n   - Relation \u0027swim\u0027 \u003c-\u003e \u0027pool\u0027 verwendet \u0027perform\u0027 (ID: 8)\n   - Alle benötigten Relationen sind im Typkodierungsset vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers wurden zugeordnet: \u0027Maria\u0027 wurde als Nutzeridentifikation berücksichtigt, da sie in der Anfrage als \u0027meinem Pool\u0027 vorkommt.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Bezeichnet die Identität des Nutzers (attribute: \u0027object\u0027, identityMapping: true)\\n   - \u0027swim\u0027: Bezeichnet eine Aktivität (attribute: \u0027activity\u0027, identityMapping: false)\\n   - \u0027own\u0027: Bezeichnet einen Kontext (attribute: \u0027context\u0027, identityMapping: true)\\n   - \u0027pool\u0027: Bezeichnet ein Objekt (attribute: \u0027object\u0027, identityMapping: true)\\n3. Stichwörter in Relation zueinander:\\n   - \u0027maria\u0027 ist im Besitz von \u0027own\u0027\\n   - \u0027own\u0027 ist das Adjektiv, das auf \u0027pool\u0027 bezieht\\n   - \u0027swim\u0027 ist die Aktivität, die mit \u0027pool\u0027 assoziiert ist\\n4. Prüfung auf vorhandene Typkodierungen:\\n   - \u0027object\u0027 für \u0027maria\u0027 (ID: 1)\\n   - \u0027activity\u0027 für \u0027swim\u0027 (ID: 4)\\n   - \u0027context\u0027 für \u0027own\u0027 (ID: 2)\\n   - \u0027object\u0027 für \u0027pool\u0027 (ID: 1)\\n   - Relation \u0027maria\u0027 \u003c-\u003e \u0027own\u0027 verwendet \u0027context\u0027 (ID: 2)\\n   - Relation \u0027own\u0027 \u003c-\u003e \u0027pool\u0027 verwendet \u0027attached\u0027 (ID: 5)\\n   - Relation \u0027swim\u0027 \u003c-\u003e \u0027pool\u0027 verwendet \u0027perform\u0027 (ID: 8)\\n   - Alle benötigten Relationen sind im Typkodierungsset vorhanden.\"\n}"
+}

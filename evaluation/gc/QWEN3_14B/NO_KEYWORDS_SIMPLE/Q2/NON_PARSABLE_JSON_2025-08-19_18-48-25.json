@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Die Anfrage **\"Tim rennt\"** enthält zwei Begriffe: **Tim** und **rennt**. \n\n### Schritt 1: Identifikation der Begriffe\n- **Tim** ist ein **Objekt** (objekt)\n- **rennt** ist eine **Aktivität** (activity)\n\n### Schritt 2: Kodierung der Beziehung\n- **Tim rennt** drückt aus, dass **Tim** eine **Aktivität** ausführt.\n- Die Beziehung **\"perform\"** (Typ-ID 8) ist hier zutreffend, da „rennt“ eine Aktion ist und „Tim“ diese ausführt.\n\n### Schritt 3: Adjazenzmatrix\nFür eine Adjazenzmatrix mit den Begriffen **Tim** und **rennt** als Zeilen und Spalten ergibt sich folgende Beziehung:\n\n|       | Tim | rennt |\n|-------|-----|-------|\n| Tim   | 0   | 8     |\n| rennt | 0   | 0     |\n\n### Schritt 4: JSON-Ausgabe\nHier ist das Endresultat in JSON-Format:\n\n\n{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- Das Attribut **dictionary** entält die Liste der Begriffe.\n- Die **matrix** enthält die Kodierung der Beziehungen als typcodierte Werte (Typ-ID), wobei **8** für **\"perform\"** steht."
+}

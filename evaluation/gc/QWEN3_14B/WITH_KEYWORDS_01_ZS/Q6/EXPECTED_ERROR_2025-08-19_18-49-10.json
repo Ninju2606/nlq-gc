@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wird generiert, wobei \u0027maria\u0027 als Nutzeridentifikation in das Vokabular aufgenommen wird. \u0027make\u0027 und \u0027appointment\u0027 sind Begriffe aus der Anfrage. Die Einträge der Einheitsdiagonalen sind mit Typkodierungen befüllt, die identityMapping \u003d true haben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode wird generiert, wobei \u0027maria\u0027 als Nutzeridentifikation in das Vokabular aufgenommen wird. \u0027make\u0027 und \u0027appointment\u0027 sind Begriffe aus der Anfrage. Die Einträge der Einheitsdiagonalen sind mit Typkodierungen befüllt, die identityMapping \u003d true haben.\"\n}"
+}

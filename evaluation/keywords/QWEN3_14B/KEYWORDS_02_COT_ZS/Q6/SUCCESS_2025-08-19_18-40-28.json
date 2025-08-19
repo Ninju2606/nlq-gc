@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die für die Erstellung eines GraphCodes relevant sind. Der GraphCode benötigt solche Elemente, um eine Beziehung innerhalb der Szene im Metaverse zu definieren. Die Anfrage ist zu allgemein und enthält keine szenenbeschreibenden Informationen.",
+  "error": "Stichwörter konnten nicht ermittelt werden",
+  "responsePlain": "{\n  \"error\": \"Stichwörter konnten nicht ermittelt werden\",\n  \"description\": \"Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die für die Erstellung eines GraphCodes relevant sind. Der GraphCode benötigt solche Elemente, um eine Beziehung innerhalb der Szene im Metaverse zu definieren. Die Anfrage ist zu allgemein und enthält keine szenenbeschreibenden Informationen.\"\n}"
+}

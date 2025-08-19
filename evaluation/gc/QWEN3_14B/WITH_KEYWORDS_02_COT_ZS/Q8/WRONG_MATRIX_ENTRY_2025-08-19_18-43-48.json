@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Der Nutzer identifiziert sich mit dem Namen \u0027Maria\u0027, und da das Wort \u0027meine Tochter\u0027 und \u0027ich\u0027 in der Anfrage vorkommen, wird diese Identifikation im Vokabular berücksichtigt.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers (Typ 1: object)\n- \u0027person\u0027: generischer Begriff für den Nutzer (Typ 2: context)\n- \u0027drive\u0027: Aktivität (Typ 4: activity)\n- \u0027boat\u0027: Objekt (Typ 1: object)\n- \u0027lake\u0027: Objekt (Typ 1: object)\n3. Beziehungen zwischen den Stichwörtern:\n- \u0027maria\u0027 und \u0027person\u0027: Maria ist eine Person (Typ 2: context)\n- \u0027maria\u0027 und \u0027drive\u0027: Maria fährt (Typ 4: activity)\n- \u0027drive\u0027 und \u0027boat\u0027: Fahren eines Bootes (Typ 9: target)\n- \u0027boat\u0027 und \u0027lake\u0027: Boot ist auf dem See (Typ 6: under)\n4. Für alle Beziehungen gibt es einen passenden Eintrag in der Typkodierung:\n- Typ 2 (context) für \u0027maria\u0027 und \u0027person\u0027\n- Typ 4 (activity) für \u0027maria\u0027 und \u0027drive\u0027\n- Typ 9 (target) für \u0027drive\u0027 und \u0027boat\u0027\n- Typ 6 (under) für \u0027boat\u0027 und \u0027lake\u0027",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 3, 0],\n    [0, 0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer identifiziert sich mit dem Namen \u0027Maria\u0027, und da das Wort \u0027meine Tochter\u0027 und \u0027ich\u0027 in der Anfrage vorkommen, wird diese Identifikation im Vokabular berücksichtigt.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers (Typ 1: object)\\n- \u0027person\u0027: generischer Begriff für den Nutzer (Typ 2: context)\\n- \u0027drive\u0027: Aktivität (Typ 4: activity)\\n- \u0027boat\u0027: Objekt (Typ 1: object)\\n- \u0027lake\u0027: Objekt (Typ 1: object)\\n3. Beziehungen zwischen den Stichwörtern:\\n- \u0027maria\u0027 und \u0027person\u0027: Maria ist eine Person (Typ 2: context)\\n- \u0027maria\u0027 und \u0027drive\u0027: Maria fährt (Typ 4: activity)\\n- \u0027drive\u0027 und \u0027boat\u0027: Fahren eines Bootes (Typ 9: target)\\n- \u0027boat\u0027 und \u0027lake\u0027: Boot ist auf dem See (Typ 6: under)\\n4. Für alle Beziehungen gibt es einen passenden Eintrag in der Typkodierung:\\n- Typ 2 (context) für \u0027maria\u0027 und \u0027person\u0027\\n- Typ 4 (activity) für \u0027maria\u0027 und \u0027drive\u0027\\n- Typ 9 (target) für \u0027drive\u0027 und \u0027boat\u0027\\n- Typ 6 (under) für \u0027boat\u0027 und \u0027lake\u0027\"\n}"
+}

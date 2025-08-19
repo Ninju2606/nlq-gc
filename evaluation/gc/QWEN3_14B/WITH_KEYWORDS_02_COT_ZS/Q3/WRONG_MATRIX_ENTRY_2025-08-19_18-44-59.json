@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 wird im Vokabular durch das Wort \u0027maria\u0027 abgebildet. Das Wort \u0027own\u0027 deutet auf eine Besitzrelation hin, die mit Maria in Verbindung steht. Das Wort \u0027swim\u0027 bezieht sich auf die Aktivität, und \u0027pool\u0027 ist das Objekt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation, \u0027swim\u0027 eine Aktivität, \u0027own\u0027 ein Beziehungsattribut (Besitz), \u0027pool\u0027 ein Objekt. 3. Relationen zwischen den Stichwörtern: Maria (Identifikation) besitzt den Pool (Objekt) durch \u0027own\u0027. Maria (Identifikation) führt die Aktivität \u0027swim\u0027 im Pool (Objekt) aus. 4. Typkodierungen: Für die Identifikation (maria) ist Typ 1 (\u0027object\u0027) geeignet. Für die Aktivität (swim) ist Typ 4 (\u0027activity\u0027) geeignet. Für das Objekt (pool) ist Typ 1 (\u0027object\u0027) geeignet. Für das Attribut \u0027own\u0027 (Besitz) ist Typ 9 (\u0027target\u0027) geeignet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \u0027Maria\u0027 wird im Vokabular durch das Wort \u0027maria\u0027 abgebildet. Das Wort \u0027own\u0027 deutet auf eine Besitzrelation hin, die mit Maria in Verbindung steht. Das Wort \u0027swim\u0027 bezieht sich auf die Aktivität, und \u0027pool\u0027 ist das Objekt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation, \u0027swim\u0027 eine Aktivität, \u0027own\u0027 ein Beziehungsattribut (Besitz), \u0027pool\u0027 ein Objekt. 3. Relationen zwischen den Stichwörtern: Maria (Identifikation) besitzt den Pool (Objekt) durch \u0027own\u0027. Maria (Identifikation) führt die Aktivität \u0027swim\u0027 im Pool (Objekt) aus. 4. Typkodierungen: Für die Identifikation (maria) ist Typ 1 (\u0027object\u0027) geeignet. Für die Aktivität (swim) ist Typ 4 (\u0027activity\u0027) geeignet. Für das Objekt (pool) ist Typ 1 (\u0027object\u0027) geeignet. Für das Attribut \u0027own\u0027 (Besitz) ist Typ 9 (\u0027target\u0027) geeignet.\"\n}"
+}

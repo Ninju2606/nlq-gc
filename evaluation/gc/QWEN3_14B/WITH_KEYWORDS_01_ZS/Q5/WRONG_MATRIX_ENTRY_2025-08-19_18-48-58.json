@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode beschreibt die Situation, in der Maria einen gelben Hut trägt. \u0027maria\u0027 ist die Identität, \u0027wear\u0027 beschreibt die Aktivität, \u0027hat\u0027 ist das Objekt und \u0027yellow\u0027 ist das Attribut des Hutes.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Maria einen gelben Hut trägt. \u0027maria\u0027 ist die Identität, \u0027wear\u0027 beschreibt die Aktivität, \u0027hat\u0027 ist das Objekt und \u0027yellow\u0027 ist das Attribut des Hutes.\"\n}"
+}

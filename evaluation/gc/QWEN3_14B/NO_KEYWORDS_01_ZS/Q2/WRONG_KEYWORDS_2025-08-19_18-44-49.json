@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode represents the action \u0027run\u0027 performed by \u0027Maria\u0027. The diagonal entries use identity mapping (object and activity), and the off-diagonal entry indicates the \u0027perform\u0027 relationship between \u0027Maria\u0027 and \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"The GraphCode represents the action \u0027run\u0027 performed by \u0027Maria\u0027. The diagonal entries use identity mapping (object and activity), and the off-diagonal entry indicates the \u0027perform\u0027 relationship between \u0027Maria\u0027 and \u0027run\u0027.\"\n}"
+}

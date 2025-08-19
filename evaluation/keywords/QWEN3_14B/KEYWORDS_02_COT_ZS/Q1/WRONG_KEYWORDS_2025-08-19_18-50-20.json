@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potential keywords identified: \u0027Ich spiele Basketball\u0027. The user\u0027s identification \u0027Maria\u0027 is included as it refers to the user. Relative references were not present. Keywords translated to English: \u0027Maria\u0027, \u0027basketball\u0027. User identification replaced in keywords where applicable.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"description\": \"Potential keywords identified: \u0027Ich spiele Basketball\u0027. The user\u0027s identification \u0027Maria\u0027 is included as it refers to the user. Relative references were not present. Keywords translated to English: \u0027Maria\u0027, \u0027basketball\u0027. User identification replaced in keywords where applicable.\"\n}"
+}

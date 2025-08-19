@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage. Das Vokabular besteht aus den Begriffen \u0027maria\u0027, \u0027make\u0027, und \u0027appointment\u0027.\n2. Die Attributeigenschaften sind wie folgt: \u0027maria\u0027 ist ein Objekt, \u0027make\u0027 ist eine Aktivität, und \u0027appointment\u0027 ist ein Objekt.\n3. Die Begriffe stehen in folgender Relation zueinander: Maria (Objekt) führt die Aktivität \u0027make\u0027 aus, und das Ziel dieser Aktivität ist das Objekt \u0027appointment\u0027.\n4. Es gibt für alle Relationen passende Typkodierungen: \u0027make\u0027 (Aktivität) ist Typ 4, \u0027appointment\u0027 (Objekt) ist Typ 1, \u0027maria\u0027 (Objekt) ist Typ 1. Die Beziehung \u0027perform\u0027 (Typ 8) ist für die Aktivität \u0027make\u0027 und das Ziel \u0027appointment\u0027 nicht direkt im Typkodierungsset enthalten. Allerdings wird der Beziehung \u0027make\u0027 (Aktivität) und \u0027appointment\u0027 (Objekt) der Typ 9 \u0027target\u0027 (Ziel) zugewiesen. Für \u0027maria\u0027 (Objekt) und \u0027make\u0027 (Aktivität) ist der Typ 8 \u0027perform\u0027 (Ausführung) nicht direkt im Typkodierungsset enthalten, weshalb es hier zu einem Fehler kommt.\n5. Der GraphCode wurde unter Berücksichtigung der Regelungen und Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat keine expliziten relativen Verweise oder Identifikationen in der Anfrage. Das Vokabular besteht aus den Begriffen \u0027maria\u0027, \u0027make\u0027, und \u0027appointment\u0027.\\n2. Die Attributeigenschaften sind wie folgt: \u0027maria\u0027 ist ein Objekt, \u0027make\u0027 ist eine Aktivität, und \u0027appointment\u0027 ist ein Objekt.\\n3. Die Begriffe stehen in folgender Relation zueinander: Maria (Objekt) führt die Aktivität \u0027make\u0027 aus, und das Ziel dieser Aktivität ist das Objekt \u0027appointment\u0027.\\n4. Es gibt für alle Relationen passende Typkodierungen: \u0027make\u0027 (Aktivität) ist Typ 4, \u0027appointment\u0027 (Objekt) ist Typ 1, \u0027maria\u0027 (Objekt) ist Typ 1. Die Beziehung \u0027perform\u0027 (Typ 8) ist für die Aktivität \u0027make\u0027 und das Ziel \u0027appointment\u0027 nicht direkt im Typkodierungsset enthalten. Allerdings wird der Beziehung \u0027make\u0027 (Aktivität) und \u0027appointment\u0027 (Objekt) der Typ 9 \u0027target\u0027 (Ziel) zugewiesen. Für \u0027maria\u0027 (Objekt) und \u0027make\u0027 (Aktivität) ist der Typ 8 \u0027perform\u0027 (Ausführung) nicht direkt im Typkodierungsset enthalten, weshalb es hier zu einem Fehler kommt.\\n5. Der GraphCode wurde unter Berücksichtigung der Regelungen und Typkodierungen erstellt.\"\n}"
+}

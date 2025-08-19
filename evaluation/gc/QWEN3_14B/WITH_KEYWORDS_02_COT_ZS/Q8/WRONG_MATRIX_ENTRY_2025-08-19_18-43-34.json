@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.52,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers wurden zugeordnet: \u0027meine Tochter\u0027 bezieht sich auf \u0027maria\u0027, und \u0027ich\u0027 bezieht sich auf \u0027person\u0027.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: ist eine Identifikation, dargestellt durch Typ 1 (object).\n- \u0027person\u0027: ist ein allgemeiner Begriff, dargestellt durch Typ 1 (object).\n- \u0027drive\u0027: ist eine Aktivität, dargestellt durch Typ 4 (activity).\n- \u0027boat\u0027: ist ein Objekt, dargestellt durch Typ 1 (object).\n- \u0027lake\u0027: ist ein Objekt, dargestellt durch Typ 1 (object).\n3. Die Stichwörter stehen folgendermaßen in Relation:\n- \u0027maria\u0027 ist eine Person (Typ 10: daughter) von \u0027person\u0027.\n- \u0027person\u0027 führt die Aktivität \u0027drive\u0027 durch (Typ 8: perform).\n- \u0027drive\u0027 wird auf das Objekt \u0027boat\u0027 angewendet (Typ 9: target).\n- \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (Typ 14: characteristic).\n4. Für alle Relationen aus Schritten 2 und 3 gibt es Einträge in den Typkodierungen:\n- Typ 10: daughter\n- Typ 8: perform\n- Typ 9: target\n- Typ 14: characteristic",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 8, 3, 0, 0],\n    [0, 0, 9, 3, 0],\n    [0, 0, 0, 10, 3]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers wurden zugeordnet: \u0027meine Tochter\u0027 bezieht sich auf \u0027maria\u0027, und \u0027ich\u0027 bezieht sich auf \u0027person\u0027.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: ist eine Identifikation, dargestellt durch Typ 1 (object).\\n- \u0027person\u0027: ist ein allgemeiner Begriff, dargestellt durch Typ 1 (object).\\n- \u0027drive\u0027: ist eine Aktivität, dargestellt durch Typ 4 (activity).\\n- \u0027boat\u0027: ist ein Objekt, dargestellt durch Typ 1 (object).\\n- \u0027lake\u0027: ist ein Objekt, dargestellt durch Typ 1 (object).\\n3. Die Stichwörter stehen folgendermaßen in Relation:\\n- \u0027maria\u0027 ist eine Person (Typ 10: daughter) von \u0027person\u0027.\\n- \u0027person\u0027 führt die Aktivität \u0027drive\u0027 durch (Typ 8: perform).\\n- \u0027drive\u0027 wird auf das Objekt \u0027boat\u0027 angewendet (Typ 9: target).\\n- \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (Typ 14: characteristic).\\n4. Für alle Relationen aus Schritten 2 und 3 gibt es Einträge in den Typkodierungen:\\n- Typ 10: daughter\\n- Typ 8: perform\\n- Typ 9: target\\n- Typ 14: characteristic\"\n}"
+}

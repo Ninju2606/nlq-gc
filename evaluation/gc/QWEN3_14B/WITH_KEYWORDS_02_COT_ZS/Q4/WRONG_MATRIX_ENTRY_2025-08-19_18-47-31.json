@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Der Nutzer identifiziert sich als Maria. Der Begriff \u0027own\u0027 wird verwendet, um Maria\u0027s Besitzbeziehung zum Pool zu beschreiben. Der Begriff \u0027swim\u0027 beschreibt die Aktivität, die Maria ausführt.\n2. Attributeigenschaften:\n- \u0027maria\u0027: identityMapping \u003d true (Typ 1: object)\n- \u0027swim\u0027: identityMapping \u003d false (Typ 4: activity)\n- \u0027own\u0027: identityMapping \u003d false (Typ 9: target)\n- \u0027pool\u0027: identityMapping \u003d true (Typ 1: object)\n3. Relationen:\n- \u0027maria\u0027 und \u0027own\u0027 bilden eine Beziehung \u0027target\u0027, da Maria das Objekt ist, das den Pool besitzt.\n- \u0027own\u0027 und \u0027pool\u0027 bilden eine Beziehung \u0027attached\u0027, da \u0027own\u0027 als Beziehung zwischen Maria und dem Pool dient.\n- \u0027maria\u0027 und \u0027swim\u0027 bilden eine Beziehung \u0027perform\u0027, da Maria schwimmt.\n- \u0027swim\u0027 und \u0027pool\u0027 bilden eine Beziehung \u0027context\u0027, da das Schwimmen im Pool stattfindet.\n4. Prüfung der Typkodierungen:\n- \u0027target\u0027 (ID 9) ist vorhanden.\n- \u0027attached\u0027 (ID 5) ist vorhanden.\n- \u0027perform\u0027 (ID 8) ist vorhanden.\n- \u0027context\u0027 (ID 2) ist vorhanden.\nFalls keine passende Relation vorhanden, Fehler ausgeben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer identifiziert sich als Maria. Der Begriff \u0027own\u0027 wird verwendet, um Maria\u0027s Besitzbeziehung zum Pool zu beschreiben. Der Begriff \u0027swim\u0027 beschreibt die Aktivität, die Maria ausführt.\\n2. Attributeigenschaften:\\n- \u0027maria\u0027: identityMapping \u003d true (Typ 1: object)\\n- \u0027swim\u0027: identityMapping \u003d false (Typ 4: activity)\\n- \u0027own\u0027: identityMapping \u003d false (Typ 9: target)\\n- \u0027pool\u0027: identityMapping \u003d true (Typ 1: object)\\n3. Relationen:\\n- \u0027maria\u0027 und \u0027own\u0027 bilden eine Beziehung \u0027target\u0027, da Maria das Objekt ist, das den Pool besitzt.\\n- \u0027own\u0027 und \u0027pool\u0027 bilden eine Beziehung \u0027attached\u0027, da \u0027own\u0027 als Beziehung zwischen Maria und dem Pool dient.\\n- \u0027maria\u0027 und \u0027swim\u0027 bilden eine Beziehung \u0027perform\u0027, da Maria schwimmt.\\n- \u0027swim\u0027 und \u0027pool\u0027 bilden eine Beziehung \u0027context\u0027, da das Schwimmen im Pool stattfindet.\\n4. Prüfung der Typkodierungen:\\n- \u0027target\u0027 (ID 9) ist vorhanden.\\n- \u0027attached\u0027 (ID 5) ist vorhanden.\\n- \u0027perform\u0027 (ID 8) ist vorhanden.\\n- \u0027context\u0027 (ID 2) ist vorhanden.\\nFalls keine passende Relation vorhanden, Fehler ausgeben.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Umwandlung der Anfrage **\"Tim rennt\"** in einen **GraphCode nach Wagenpfeil** in Form einer **typcodierten Adjazenzmatrix** (mit den definierten Typkodierungen). Die Beziehungen werden durch die Typen aus der Kodierung dargestellt.\n\n---\n\n### 💡 **Analyse der Anfrage**\n- **Begriffe (Knoten):** `Tim`, `rennt`\n- **Beziehung:** `rennt` wird als **Activity** (Typ `4`) auf `Tim` angewandt.\n\n---\n\n### ✅ **Ergebnis als JSON-Objekt**\n\n\n{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 4],\n    [0, 0]\n  ]\n}\n\n\n### 🔍 **Erklärung der Matrix (Zeilen/Spalten)**\n\n| Zeile/Spalte | 0 (Tim) | 1 (rennt) |\n|--------------|---------|-----------|\n| **0 (Tim)**     | 0       | **4**     → `rennt` ist eine **Activity** von `Tim` (Typ `4`) |\n| **1 (rennt)**   | 0       | 0         |\n\n---\n\nWenn du eine Erweiterung der Relationen (z. B. `rennt` -\u003e `in` -\u003e `Park`) hinzufügst, kann ich die Matrix entsprechend erweitern."
+}

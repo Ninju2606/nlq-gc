@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027. Nach Übersetzung ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027, wird in der Spalte \u0027Maria\u0027 vermerkt.\n3. Übersetzung ins Englische: Erledigt.\n4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext (context), \u0027Maria\u0027 ist eine Person (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic), \u0027hat\u0027 ist eine Aktivität (activity).\n6. Relationen: \u0027Maria\u0027 trägt einen \u0027gelben Hut\u0027 (hat). \u0027gelben Hut\u0027 ist eine Eigenschaft (characteristic) von \u0027Maria\u0027. \u0027Situationen\u0027 ist der Kontext (context), in dem diese Relation stattfindet.\n7. Prüfen der Typkodierungen: \u0027context\u0027 (ID 2), \u0027object\u0027 (ID 1), \u0027characteristic\u0027 (ID 14), \u0027activity\u0027 (ID 4) sind vorhanden. Passende IDs: 1, 2, 14, 4.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027. Nach Übersetzung ins Englische: \u0027situation\u0027, \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027.\\n2. Relative Verweise: \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027, wird in der Spalte \u0027Maria\u0027 vermerkt.\\n3. Übersetzung ins Englische: Erledigt.\\n4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext (context), \u0027Maria\u0027 ist eine Person (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic), \u0027hat\u0027 ist eine Aktivität (activity).\\n6. Relationen: \u0027Maria\u0027 trägt einen \u0027gelben Hut\u0027 (hat). \u0027gelben Hut\u0027 ist eine Eigenschaft (characteristic) von \u0027Maria\u0027. \u0027Situationen\u0027 ist der Kontext (context), in dem diese Relation stattfindet.\\n7. Prüfen der Typkodierungen: \u0027context\u0027 (ID 2), \u0027object\u0027 (ID 1), \u0027characteristic\u0027 (ID 14), \u0027activity\u0027 (ID 4) sind vorhanden. Passende IDs: 1, 2, 14, 4.\"\n}"
+}

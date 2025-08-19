@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält das vorgegebene Vokabular und definiert die Objekte, Kontexte und Synonyme der Anfrage. Die Einträge der Einheitsdiagonalen geben den Typ der jeweiligen Begriffe an.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode enthält das vorgegebene Vokabular und definiert die Objekte, Kontexte und Synonyme der Anfrage. Die Einträge der Einheitsdiagonalen geben den Typ der jeweiligen Begriffe an.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Meine Tochter\u0027 bezieht sich auf \u0027maria\u0027 als Identifikation des Nutzers. \u0027Ich\u0027 ist implizit als Teil der Identifikation enthalten.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers (Person)\n- \u0027person\u0027: allgemeine Kategorie für Personen\n- \u0027drive\u0027: Aktivität\n- \u0027boat\u0027: Objekt\n- \u0027lake\u0027: Objekt\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist eine Person (Typ 2)\n- \u0027maria\u0027 fährt (Typ 8) ein Boot (Typ 1)\n- Das Boot (Typ 1) befindet sich auf einem See (Typ 1)\n\n4. Typkodierungen für die Relationen:\n- \u0027maria\u0027 ist ein \u0027person\u0027 (Typ 2)\n- \u0027drive\u0027 ist eine \u0027activity\u0027 (Typ 4)\n- \u0027boat\u0027 ist ein \u0027object\u0027 (Typ 1)\n- \u0027lake\u0027 ist ein \u0027object\u0027 (Typ 1)\n- \u0027maria\u0027 \u0027perform\u0027 \u0027drive\u0027 (Typ 8)\n- \u0027drive\u0027 \u0027target\u0027 \u0027boat\u0027 (Typ 9)\n- \u0027boat\u0027 \u0027under\u0027 \u0027lake\u0027 (Typ 6)\n\nAlle Relationen haben korrespondierende Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Meine Tochter\u0027 bezieht sich auf \u0027maria\u0027 als Identifikation des Nutzers. \u0027Ich\u0027 ist implizit als Teil der Identifikation enthalten.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers (Person)\\n- \u0027person\u0027: allgemeine Kategorie für Personen\\n- \u0027drive\u0027: Aktivität\\n- \u0027boat\u0027: Objekt\\n- \u0027lake\u0027: Objekt\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist eine Person (Typ 2)\\n- \u0027maria\u0027 fährt (Typ 8) ein Boot (Typ 1)\\n- Das Boot (Typ 1) befindet sich auf einem See (Typ 1)\\n\\n4. Typkodierungen für die Relationen:\\n- \u0027maria\u0027 ist ein \u0027person\u0027 (Typ 2)\\n- \u0027drive\u0027 ist eine \u0027activity\u0027 (Typ 4)\\n- \u0027boat\u0027 ist ein \u0027object\u0027 (Typ 1)\\n- \u0027lake\u0027 ist ein \u0027object\u0027 (Typ 1)\\n- \u0027maria\u0027 \u0027perform\u0027 \u0027drive\u0027 (Typ 8)\\n- \u0027drive\u0027 \u0027target\u0027 \u0027boat\u0027 (Typ 9)\\n- \u0027boat\u0027 \u0027under\u0027 \u0027lake\u0027 (Typ 6)\\n\\nAlle Relationen haben korrespondierende Typkodierungen.\"\n}"
+}

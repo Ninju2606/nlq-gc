@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake",
+    "person",
+    "ride"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"fahre\", \"Boot\", \"See\".\n2. \"Meine Tochter\" ist ein relativer Verweis. Die neuen Stichwörter sind \"Maria\", \"person\", \"ride\", \"boat\", \"lake\". Dabei ist \"person\" die Tochter von \"Maria\".\n3. Die englischen Stichwörter sind \"Maria\", \"person\", \"ride\", \"boat\", \"lake\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"person\", \"ride\", \"boat\", \"lake\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\", \"person\", \"ride\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"fahre\\\", \\\"Boot\\\", \\\"See\\\".\\n2. \\\"Meine Tochter\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\"Maria\\\", \\\"person\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\". Dabei ist \\\"person\\\" die Tochter von \\\"Maria\\\".\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"person\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"person\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\".\"\n}"
+}

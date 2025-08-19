@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      7,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung zwischen Maria und dem Schwimmen wird als \u0027perform\u0027 (Typ 8) kodiert. Das Eigentum (own) an dem Pool wird als \u0027target\u0027 (Typ 6) kodiert. Das Schwimmen wird als \u0027activity\u0027 (Typ 9) kodiert, und der Pool als \u0027object\u0027 (Typ 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 6],\n    [0, 0, 1, 0],\n    [0, 7, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung zwischen Maria und dem Schwimmen wird als \u0027perform\u0027 (Typ 8) kodiert. Das Eigentum (own) an dem Pool wird als \u0027target\u0027 (Typ 6) kodiert. Das Schwimmen wird als \u0027activity\u0027 (Typ 9) kodiert, und der Pool als \u0027object\u0027 (Typ 1).\"\n}"
+}

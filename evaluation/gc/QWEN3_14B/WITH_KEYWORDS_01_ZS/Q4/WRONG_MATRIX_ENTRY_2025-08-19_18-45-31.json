@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria in ihrem eigenen Pool schwimmt. Jedes Vokabularwort wird typisiert, und die Beziehungen zwischen den Begriffen werden durch die Typkodierungen dargestellt, wobei nur passende Relationen auf der Einheitsdiagonalen und außerhalb eingegeben wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria in ihrem eigenen Pool schwimmt. Jedes Vokabularwort wird typisiert, und die Beziehungen zwischen den Begriffen werden durch die Typkodierungen dargestellt, wobei nur passende Relationen auf der Einheitsdiagonalen und außerhalb eingegeben wurden.\"\n}"
+}

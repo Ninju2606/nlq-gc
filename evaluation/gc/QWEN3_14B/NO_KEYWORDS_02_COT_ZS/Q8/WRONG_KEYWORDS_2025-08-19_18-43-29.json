@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf die Nutzerin \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027daughter\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (object).\n6. Beziehungen: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027; \u0027daughter\u0027 und \u0027Maria\u0027 fahren \u0027boat\u0027; \u0027boat\u0027 ist auf \u0027lake\u0027.\n7. Prüfung der Typkodierungen: Die Beziehung \u0027mother\u0027 (impliziert durch \u0027meine Tochter\u0027) ist nicht vorhanden, daher Fehler.\n8. GraphCode erstellt, aber beachte: Das Beziehungskonzept \u0027mother\u0027 ist in den Typkodierungen nicht enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf die Nutzerin \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027daughter\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (object).\\n6. Beziehungen: \u0027Maria\u0027 ist die Mutter von \u0027daughter\u0027; \u0027daughter\u0027 und \u0027Maria\u0027 fahren \u0027boat\u0027; \u0027boat\u0027 ist auf \u0027lake\u0027.\\n7. Prüfung der Typkodierungen: Die Beziehung \u0027mother\u0027 (impliziert durch \u0027meine Tochter\u0027) ist nicht vorhanden, daher Fehler.\\n8. GraphCode erstellt, aber beachte: Das Beziehungskonzept \u0027mother\u0027 ist in den Typkodierungen nicht enthalten.\"\n}"
+}

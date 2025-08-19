@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria und ihre Tochter (als \u0027person\u0027) ein Boot (boat) auf einem See (lake) fahren (\u0027drive\u0027). Die Diagonalen enthalten die Typkodierungen (1 \u003d object, 10 \u003d daughter, 9 \u003d activity, 1 \u003d object, 1 \u003d object). Beziehungen wie \u0027drive boat\u0027 und \u0027boat lake\u0027 sind mit den passenden Typkodierungen (7 \u003d perform, 6 \u003d in) belegt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria und ihre Tochter (als \u0027person\u0027) ein Boot (boat) auf einem See (lake) fahren (\u0027drive\u0027). Die Diagonalen enthalten die Typkodierungen (1 \u003d object, 10 \u003d daughter, 9 \u003d activity, 1 \u003d object, 1 \u003d object). Beziehungen wie \u0027drive boat\u0027 und \u0027boat lake\u0027 sind mit den passenden Typkodierungen (7 \u003d perform, 6 \u003d in) belegt.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "yellow hat",
+    "situation",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary includes \u0027yellow hat\u0027 as the object, \u0027situation\u0027 as the context, and \u0027Maria\u0027 as the identified user, since the query explicitly refers to the user\u0027s personal involvement.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow hat\", \"situation\", \"Maria\"],\n  \"description\": \"The vocabulary includes \u0027yellow hat\u0027 as the object, \u0027situation\u0027 as the context, and \u0027Maria\u0027 as the identified user, since the query explicitly refers to the user\u0027s personal involvement.\"\n}"
+}

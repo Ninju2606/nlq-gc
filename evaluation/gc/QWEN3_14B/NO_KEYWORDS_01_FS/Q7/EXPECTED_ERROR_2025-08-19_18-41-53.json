@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The query \u0027Häuser um Fragen zu malen\u0027 translates to \u0027Houses to paint questions\u0027. The vocabulary includes the user \u0027Maria\u0027, the object \u0027house\u0027, the activity \u0027paint\u0027, and the object \u0027question\u0027. The matrix represents the relationships between these terms, where \u0027paint\u0027 (activity) is associated with \u0027house\u0027 (object) and \u0027question\u0027 (object) using the \u0027perform\u0027 (id 8) and \u0027target\u0027 (id 9) type codes, respectively.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 9, 8],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"The query \u0027Häuser um Fragen zu malen\u0027 translates to \u0027Houses to paint questions\u0027. The vocabulary includes the user \u0027Maria\u0027, the object \u0027house\u0027, the activity \u0027paint\u0027, and the object \u0027question\u0027. The matrix represents the relationships between these terms, where \u0027paint\u0027 (activity) is associated with \u0027house\u0027 (object) and \u0027question\u0027 (object) using the \u0027perform\u0027 (id 8) and \u0027target\u0027 (id 9) type codes, respectively.\"\n}"
+}

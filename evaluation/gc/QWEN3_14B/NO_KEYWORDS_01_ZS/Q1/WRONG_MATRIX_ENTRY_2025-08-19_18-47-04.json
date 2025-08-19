@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "The GraphCode represents that Maria is performing the activity \u0027play\u0027 on the object \u0027basketball\u0027. The diagonal entries define the type of each term in the vocabulary, and the non-diagonal entry (Maria, play) uses the \u0027perform\u0027 relation (ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"The GraphCode represents that Maria is performing the activity \u0027play\u0027 on the object \u0027basketball\u0027. The diagonal entries define the type of each term in the vocabulary, and the non-diagonal entry (Maria, play) uses the \u0027perform\u0027 relation (ID 8).\"\n}"
+}

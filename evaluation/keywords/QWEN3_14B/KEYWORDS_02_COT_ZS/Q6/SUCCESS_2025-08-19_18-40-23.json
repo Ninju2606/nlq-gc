@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Termin\u0027, \u0027bald\u0027.\n2. Es gibt keine relativen Verweise, die gesondert aufgezeichnet werden müssen.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027appointment\u0027, \u0027soon\u0027.\n4. Keine Nutzeridentifikation (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) im Stichwort vorkommend, daher keine Ersetzung notwendig.",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"soon\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: \u0027Termin\u0027, \u0027bald\u0027.\\n2. Es gibt keine relativen Verweise, die gesondert aufgezeichnet werden müssen.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027appointment\u0027, \u0027soon\u0027.\\n4. Keine Nutzeridentifikation (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) im Stichwort vorkommend, daher keine Ersetzung notwendig.\"\n}"
+}

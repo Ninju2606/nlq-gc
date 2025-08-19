@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\n4. Ersetzung der Identifikation: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id 1), \u0027swim\u0027 ist eine Aktivität (id 4), \u0027pool\u0027 ist ein Objekt (id 1).\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform, id 8), \u0027swim\u0027 findet statt in \u0027pool\u0027 (in, id 14, Fehler: Kein Eintrag für \u0027in\u0027 in der Typkodierung).\n7. Überprüfung der Relationen: Fehler bei \u0027in\u0027: Kein Eintrag mit id 14 in der Typkodierung.\n8. GraphCode wurde nicht vollständig generiert, da eine Relation nicht unterstützt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Nach Verarbeitung: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Pool\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\\n4. Ersetzung der Identifikation: \u0027meinem\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id 1), \u0027swim\u0027 ist eine Aktivität (id 4), \u0027pool\u0027 ist ein Objekt (id 1).\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform, id 8), \u0027swim\u0027 findet statt in \u0027pool\u0027 (in, id 14, Fehler: Kein Eintrag für \u0027in\u0027 in der Typkodierung).\\n7. Überprüfung der Relationen: Fehler bei \u0027in\u0027: Kein Eintrag mit id 14 in der Typkodierung.\\n8. GraphCode wurde nicht vollständig generiert, da eine Relation nicht unterstützt wird.\"\n}"
+}

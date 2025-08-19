@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027, was in das Vokabular integriert wurde. Keine weiteren relativen Verweise sind erkennbar.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027 ist ein Objekt (ID 1)\n   - \u0027make\u0027 ist eine Aktivität (ID 4)\n   - \u0027appointment\u0027 ist ein Objekt (ID 1)\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 macht (perform) einen \u0027appointment\u0027\n   - \u0027make\u0027 ist eine Aktivität (Activity), die auf ein Objekt (appointment) angewendet wird.\n4. Überprüfung der Typkodierungen:\n   - \u0027maria\u0027 und \u0027appointment\u0027 sind Objekte (ID 1)\n   - \u0027make\u0027 ist eine Aktivität (ID 4)\n   - \u0027perform\u0027 ist eine Relation, die eine Aktivität mit einem Objekt verbindet (ID 8)\n   - Beziehungen außerhalb der Diagonalen (z. B. (0,1) und (1,2)) sind mit ID 8 (perform) kodiert, was zulässig ist, da identityMapping false ist.\n5. GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027, was in das Vokabular integriert wurde. Keine weiteren relativen Verweise sind erkennbar.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027 ist ein Objekt (ID 1)\\n   - \u0027make\u0027 ist eine Aktivität (ID 4)\\n   - \u0027appointment\u0027 ist ein Objekt (ID 1)\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 macht (perform) einen \u0027appointment\u0027\\n   - \u0027make\u0027 ist eine Aktivität (Activity), die auf ein Objekt (appointment) angewendet wird.\\n4. Überprüfung der Typkodierungen:\\n   - \u0027maria\u0027 und \u0027appointment\u0027 sind Objekte (ID 1)\\n   - \u0027make\u0027 ist eine Aktivität (ID 4)\\n   - \u0027perform\u0027 ist eine Relation, die eine Aktivität mit einem Objekt verbindet (ID 8)\\n   - Beziehungen außerhalb der Diagonalen (z. B. (0,1) und (1,2)) sind mit ID 8 (perform) kodiert, was zulässig ist, da identityMapping false ist.\\n5. GraphCode wurde erfolgreich erstellt.\"\n}"
+}

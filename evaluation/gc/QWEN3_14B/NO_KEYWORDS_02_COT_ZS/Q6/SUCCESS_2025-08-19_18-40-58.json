@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine hinreichenden Informationen, um ein sinnvolles Vokabular und eine Bewertungsmatrix für den GraphCode zu erstellen. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, welche im Metaverse dargestellt werden sollten. Die Aufgaben 1-7 konnten nicht vollständig bearbeitet werden, da keine relevanten Stichwörter oder Relationen identifiziert werden konnten.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine hinreichenden Informationen, um ein sinnvolles Vokabular und eine Bewertungsmatrix für den GraphCode zu erstellen. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, welche im Metaverse dargestellt werden sollten. Die Aufgaben 1-7 konnten nicht vollständig bearbeitet werden, da keine relevanten Stichwörter oder Relationen identifiziert werden konnten.\"\n}"
+}

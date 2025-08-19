@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer hat keine direkten relativen Verweise oder Identifikationen in der Anfrage, daher wurde die Identifikation \u0027Maria\u0027 als Teil des Vokabulars aufgenommen. 2. \u0027maria\u0027 ist ein Objekt, \u0027make\u0027 ist eine Aktivität, und \u0027appointment\u0027 ist ein Objekt. 3. \u0027make\u0027 wird mit \u0027appointment\u0027 in Beziehung gesetzt, da \u0027make\u0027 die Aktivität ist, die auf \u0027appointment\u0027 angewendet wird. \u0027maria\u0027 ist das Subjekt, das diese Aktivität ausführt. 4. Die Relation zwischen \u0027make\u0027 und \u0027appointment\u0027 wird durch Typkodierung mit ID 8 (\u0027perform\u0027) dargestellt. \u0027maria\u0027 als Objekt wird durch Typkodierung mit ID 1 (\u0027object\u0027) dargestellt. \u0027make\u0027 als Aktivität wird durch Typkodierung mit ID 4 (\u0027activity\u0027) dargestellt. Alle Relationen sind in den Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat keine direkten relativen Verweise oder Identifikationen in der Anfrage, daher wurde die Identifikation \u0027Maria\u0027 als Teil des Vokabulars aufgenommen. 2. \u0027maria\u0027 ist ein Objekt, \u0027make\u0027 ist eine Aktivität, und \u0027appointment\u0027 ist ein Objekt. 3. \u0027make\u0027 wird mit \u0027appointment\u0027 in Beziehung gesetzt, da \u0027make\u0027 die Aktivität ist, die auf \u0027appointment\u0027 angewendet wird. \u0027maria\u0027 ist das Subjekt, das diese Aktivität ausführt. 4. Die Relation zwischen \u0027make\u0027 und \u0027appointment\u0027 wird durch Typkodierung mit ID 8 (\u0027perform\u0027) dargestellt. \u0027maria\u0027 als Objekt wird durch Typkodierung mit ID 1 (\u0027object\u0027) dargestellt. \u0027make\u0027 als Aktivität wird durch Typkodierung mit ID 4 (\u0027activity\u0027) dargestellt. Alle Relationen sind in den Typkodierungen vorhanden.\"\n}"
+}

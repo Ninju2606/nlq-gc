@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027 und \u0027Maria\u0027. Da die Nutzeridentifikation \u0027Maria\u0027 in der Anfrage erwähnt wird und \u0027make\u0027 als Aktivität verstanden wird, wird \u0027Maria\u0027 als Identität abgebildet. Die Beziehungen zwischen den Begriffen sind nicht spezifiziert, daher sind die Einträge außerhalb der Einheitsdiagonalen 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode enthält die Begriffe \u0027make\u0027, \u0027appointment\u0027 und \u0027Maria\u0027. Da die Nutzeridentifikation \u0027Maria\u0027 in der Anfrage erwähnt wird und \u0027make\u0027 als Aktivität verstanden wird, wird \u0027Maria\u0027 als Identität abgebildet. Die Beziehungen zwischen den Begriffen sind nicht spezifiziert, daher sind die Einträge außerhalb der Einheitsdiagonalen 0.\"\n}"
+}

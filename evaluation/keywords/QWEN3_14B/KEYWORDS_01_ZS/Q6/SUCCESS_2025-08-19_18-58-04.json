@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user\u0027s request mentions the need to \u0027make an appointment\u0027 and includes the user\u0027s identification \u0027Maria\u0027. The keywords \u0027make\u0027, \u0027appointment\u0027, and \u0027Maria\u0027 are extracted as they represent the objects or activities relevant to the scene in the Metaverse.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"description\": \"The user\u0027s request mentions the need to \u0027make an appointment\u0027 and includes the user\u0027s identification \u0027Maria\u0027. The keywords \u0027make\u0027, \u0027appointment\u0027, and \u0027Maria\u0027 are extracted as they represent the objects or activities relevant to the scene in the Metaverse.\"\n}"
+}

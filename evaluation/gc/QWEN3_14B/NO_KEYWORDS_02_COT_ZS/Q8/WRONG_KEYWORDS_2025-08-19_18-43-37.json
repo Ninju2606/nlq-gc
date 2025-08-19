@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027, \u0027ich\u0027.\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf Maria. \u0027ich\u0027 bezieht sich auf Maria.\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist eine Person (object), \u0027daughter\u0027 ist eine Beziehung (activity), \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (object).\n6. Beziehungen zwischen den Stichwörtern: \u0027Maria\u0027 fährt mit dem \u0027boat\u0027 (perform). \u0027Maria\u0027 hat eine \u0027daughter\u0027 (daughter). \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (attached). \u0027daughter\u0027 ist eine Beziehung zu \u0027Maria\u0027.\n7. Typkodierungen: \u0027perform\u0027 (ID 8), \u0027daughter\u0027 (ID 10), \u0027attached\u0027 (ID 5) sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Tochter\u0027, \u0027Boot\u0027, \u0027See\u0027, \u0027ich\u0027.\\n2. Relative Verweise: \u0027meine Tochter\u0027 bezieht sich auf Maria. \u0027ich\u0027 bezieht sich auf Maria.\\n3. Übersetzung der Stichwörter ins Englische: \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzung der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist eine Person (object), \u0027daughter\u0027 ist eine Beziehung (activity), \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (object).\\n6. Beziehungen zwischen den Stichwörtern: \u0027Maria\u0027 fährt mit dem \u0027boat\u0027 (perform). \u0027Maria\u0027 hat eine \u0027daughter\u0027 (daughter). \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (attached). \u0027daughter\u0027 ist eine Beziehung zu \u0027Maria\u0027.\\n7. Typkodierungen: \u0027perform\u0027 (ID 8), \u0027daughter\u0027 (ID 10), \u0027attached\u0027 (ID 5) sind vorhanden.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "Maria",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027, was für spätere Relationen relevant ist.\n3. Übersetze Stichwörter ins Englische: \u0027swim\u0027 (schwimme), \u0027pool\u0027 (Pool), \u0027Maria\u0027 (Maria).\n4. Ersetze Identifikation des Nutzers: \u0027meinem\u0027 → \u0027Maria\u0027.\n5. Erkläre Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist eine Person, die als \u0027object\u0027 (wenn sie als Subjekt in der Szene steht) oder \u0027context\u0027 bezeichnet werden könnte, je nach Kontext.\n6. Erkläre Relationen: Maria schwimmt im Pool. Das bedeutet, dass \u0027swim\u0027 eine Aktivität ist, die \u0027Maria\u0027 ausführt, und der \u0027pool\u0027 der Ort ist, an dem dies geschieht. Das könnte \u0027perform\u0027 (ID 8) zwischen \u0027swim\u0027 und \u0027Maria\u0027 sowie \u0027under\u0027 (ID 6) zwischen \u0027swim\u0027 und \u0027pool\u0027 sein.\n7. Prüfe vorhandene Typkodierungen: \u0027perform\u0027 (ID 8) ist vorhanden, \u0027under\u0027 (ID 6) ist vorhanden. Beide haben identityMapping \u003d false, also verwenden wir sie für die nicht-diagonalen Einträge.\n8. Setze Informationen zusammen, um den GraphCode zu erstellen.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"Maria\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Ermittle potenzielle Stichwörter aus der Nutzeranfrage: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027.\\n2. Relative Verweise: \u0027meinem\u0027 bezieht sich auf \u0027Maria\u0027, was für spätere Relationen relevant ist.\\n3. Übersetze Stichwörter ins Englische: \u0027swim\u0027 (schwimme), \u0027pool\u0027 (Pool), \u0027Maria\u0027 (Maria).\\n4. Ersetze Identifikation des Nutzers: \u0027meinem\u0027 → \u0027Maria\u0027.\\n5. Erkläre Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (activity), \u0027pool\u0027 ist ein Objekt (object), \u0027Maria\u0027 ist eine Person, die als \u0027object\u0027 (wenn sie als Subjekt in der Szene steht) oder \u0027context\u0027 bezeichnet werden könnte, je nach Kontext.\\n6. Erkläre Relationen: Maria schwimmt im Pool. Das bedeutet, dass \u0027swim\u0027 eine Aktivität ist, die \u0027Maria\u0027 ausführt, und der \u0027pool\u0027 der Ort ist, an dem dies geschieht. Das könnte \u0027perform\u0027 (ID 8) zwischen \u0027swim\u0027 und \u0027Maria\u0027 sowie \u0027under\u0027 (ID 6) zwischen \u0027swim\u0027 und \u0027pool\u0027 sein.\\n7. Prüfe vorhandene Typkodierungen: \u0027perform\u0027 (ID 8) ist vorhanden, \u0027under\u0027 (ID 6) ist vorhanden. Beide haben identityMapping \u003d false, also verwenden wir sie für die nicht-diagonalen Einträge.\\n8. Setze Informationen zusammen, um den GraphCode zu erstellen.\"\n}"
+}

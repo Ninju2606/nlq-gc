@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Step 1: Potential keywords \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027 were identified. \u0027um\u0027, \u0027zu\u0027 are prepositions/conjunctions and not included. \u0027Fragen\u0027 and \u0027Häuser\u0027 are objects, \u0027malen\u0027 is an activity. Step 2: No relative references found. Step 3: Translated to English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. Step 4: No user identification reference found (e.g., \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"description\": \"Step 1: Potential keywords \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027 were identified. \u0027um\u0027, \u0027zu\u0027 are prepositions/conjunctions and not included. \u0027Fragen\u0027 and \u0027Häuser\u0027 are objects, \u0027malen\u0027 is an activity. Step 2: No relative references found. Step 3: Translated to English: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. Step 4: No user identification reference found (e.g., \u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027).\"\n}"
+}

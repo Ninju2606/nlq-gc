@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Der Nutzer hat sich als Maria identifiziert und verwendet in der Anfrage das Wort \u0027mir\u0027, was auf eine Selbstidentifikation hinweist. Daher wird \u0027maria\u0027 als Identifikation in das Vokabular aufgenommen. Das Verb \u0027schwimme\u0027 wird als Aktivität (\u0027swim\u0027) und \u0027der mir gehört\u0027 (\u0027own\u0027) sowie \u0027Pool\u0027 (\u0027pool\u0027) sind relevante Begriffe. Die Wörter \u0027in\u0027 und \u0027einem\u0027 werden ignoriert, da sie nicht zu einem der vier vorgegebenen Begriffe gehören.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Identifikation des Nutzers, gehört zum Attribut \u0027object\u0027 (Typ-ID 1).\n- \u0027swim\u0027: Aktivität, gehört zum Attribut \u0027activity\u0027 (Typ-ID 4).\n- \u0027own\u0027: Beziehung, gehört zum Attribut \u0027attached\u0027 (Typ-ID 5).\n- \u0027pool\u0027: Objekt, gehört zum Attribut \u0027object\u0027 (Typ-ID 1).\n\n3. Relationen zwischen den Begriffen:\n- Maria (object) schwimmt (activity) im Pool (object).\n- Der Pool (object) gehört Maria (object) (attached).\n\n4. Prüfung der Typkodierungen:\n- \u0027swim\u0027 (activity) → Typ-ID 4.\n- \u0027own\u0027 (attached) → Typ-ID 5.\n- \u0027maria\u0027 (object) → Typ-ID 1.\n- \u0027pool\u0027 (object) → Typ-ID 1.\n- Die Relation \u0027perform\u0027 (Typ-ID 8) wird zwischen \u0027maria\u0027 und \u0027swim\u0027 angewendet.\n- Die Relation \u0027attached\u0027 (Typ-ID 5) wird zwischen \u0027pool\u0027 und \u0027maria\u0027 angewendet.\n\n5. Die GraphCode-Struktur wurde entsprechend der Typkodierungen und der Vokabular-Beziehungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 8, 0, 3]\n  ],\n  \"description\": \"1. Der Nutzer hat sich als Maria identifiziert und verwendet in der Anfrage das Wort \u0027mir\u0027, was auf eine Selbstidentifikation hinweist. Daher wird \u0027maria\u0027 als Identifikation in das Vokabular aufgenommen. Das Verb \u0027schwimme\u0027 wird als Aktivität (\u0027swim\u0027) und \u0027der mir gehört\u0027 (\u0027own\u0027) sowie \u0027Pool\u0027 (\u0027pool\u0027) sind relevante Begriffe. Die Wörter \u0027in\u0027 und \u0027einem\u0027 werden ignoriert, da sie nicht zu einem der vier vorgegebenen Begriffe gehören.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Identifikation des Nutzers, gehört zum Attribut \u0027object\u0027 (Typ-ID 1).\\n- \u0027swim\u0027: Aktivität, gehört zum Attribut \u0027activity\u0027 (Typ-ID 4).\\n- \u0027own\u0027: Beziehung, gehört zum Attribut \u0027attached\u0027 (Typ-ID 5).\\n- \u0027pool\u0027: Objekt, gehört zum Attribut \u0027object\u0027 (Typ-ID 1).\\n\\n3. Relationen zwischen den Begriffen:\\n- Maria (object) schwimmt (activity) im Pool (object).\\n- Der Pool (object) gehört Maria (object) (attached).\\n\\n4. Prüfung der Typkodierungen:\\n- \u0027swim\u0027 (activity) → Typ-ID 4.\\n- \u0027own\u0027 (attached) → Typ-ID 5.\\n- \u0027maria\u0027 (object) → Typ-ID 1.\\n- \u0027pool\u0027 (object) → Typ-ID 1.\\n- Die Relation \u0027perform\u0027 (Typ-ID 8) wird zwischen \u0027maria\u0027 und \u0027swim\u0027 angewendet.\\n- Die Relation \u0027attached\u0027 (Typ-ID 5) wird zwischen \u0027pool\u0027 und \u0027maria\u0027 angewendet.\\n\\n5. Die GraphCode-Struktur wurde entsprechend der Typkodierungen und der Vokabular-Beziehungen erstellt.\"\n}"
+}

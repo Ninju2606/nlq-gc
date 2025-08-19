@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "In the query, Maria is performing the activity of playing basketball. The dictionary reflects the user\u0027s identity and the activity as given in the input. The matrix entries indicate the relationships: \u0027maria\u0027 is an object (type 1), \u0027play\u0027 is an activity (type 9), \u0027basketball\u0027 is an object (type 1), and \u0027maria\u0027 performs \u0027play\u0027 (type 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"In the query, Maria is performing the activity of playing basketball. The dictionary reflects the user\u0027s identity and the activity as given in the input. The matrix entries indicate the relationships: \u0027maria\u0027 is an object (type 1), \u0027play\u0027 is an activity (type 9), \u0027basketball\u0027 is an object (type 1), and \u0027maria\u0027 performs \u0027play\u0027 (type 8).\"\n}"
+}

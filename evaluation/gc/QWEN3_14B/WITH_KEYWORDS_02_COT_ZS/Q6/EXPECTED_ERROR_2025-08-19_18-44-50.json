@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria hat eine Anfrage gestellt, einen Termin auszumachen. Der Name des Nutzers \u0027maria\u0027 wird daher in das Vokabular aufgenommen. Die Begriffe \u0027make\u0027 und \u0027appointment\u0027 beschreiben das geplante Handeln. Ein relativer Verweis besteht zwischen \u0027maria\u0027 und \u0027make\u0027 (Maria macht etwas). Ein weiterer relativer Verweis besteht zwischen \u0027make\u0027 und \u0027appointment\u0027 (das Ermachen eines Termins).\n\n2. Attributeigenschaften:\n- \u0027maria\u0027: object (Typ 1, identityMapping \u003d true)\n- \u0027make\u0027: activity (Typ 4, identityMapping \u003d false)\n- \u0027appointment\u0027: object (Typ 1, identityMapping \u003d true)\n\n3. Beziehungen:\n- \u0027maria\u0027 hat die Aktivität \u0027make\u0027 (ausgeführt durch Maria).\n- \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet (es wird ein Termin gemacht).\n\n4. Typkodierungen:\n- \u0027maria\u0027 → \u0027make\u0027 (Typ 8: perform, identityMapping \u003d false)\n- \u0027make\u0027 → \u0027appointment\u0027 (Typ 9: target, identityMapping \u003d false)\n- Diagonalen (Typ 1: object und Typ 1: object)\n\n5. GraphCode wurde korrekt erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer Maria hat eine Anfrage gestellt, einen Termin auszumachen. Der Name des Nutzers \u0027maria\u0027 wird daher in das Vokabular aufgenommen. Die Begriffe \u0027make\u0027 und \u0027appointment\u0027 beschreiben das geplante Handeln. Ein relativer Verweis besteht zwischen \u0027maria\u0027 und \u0027make\u0027 (Maria macht etwas). Ein weiterer relativer Verweis besteht zwischen \u0027make\u0027 und \u0027appointment\u0027 (das Ermachen eines Termins).\\n\\n2. Attributeigenschaften:\\n- \u0027maria\u0027: object (Typ 1, identityMapping \u003d true)\\n- \u0027make\u0027: activity (Typ 4, identityMapping \u003d false)\\n- \u0027appointment\u0027: object (Typ 1, identityMapping \u003d true)\\n\\n3. Beziehungen:\\n- \u0027maria\u0027 hat die Aktivität \u0027make\u0027 (ausgeführt durch Maria).\\n- \u0027make\u0027 wird auf \u0027appointment\u0027 angewendet (es wird ein Termin gemacht).\\n\\n4. Typkodierungen:\\n- \u0027maria\u0027 → \u0027make\u0027 (Typ 8: perform, identityMapping \u003d false)\\n- \u0027make\u0027 → \u0027appointment\u0027 (Typ 9: target, identityMapping \u003d false)\\n- Diagonalen (Typ 1: object und Typ 1: object)\\n\\n5. GraphCode wurde korrekt erstellt.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die für die Beschreibung einer Szene im Metaverse relevant sind. Formulierungen wie ‚einen Termin ausmachen‘ sind allgemein und liefern keine spezifischen Begriffe für den GraphCode.",
+  "error": "Keine relevanten Stichwörter gefunden",
+  "responsePlain": "{\n  \"error\": \"Keine relevanten Stichwörter gefunden\",\n  \"description\": \"Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die für die Beschreibung einer Szene im Metaverse relevant sind. Formulierungen wie ‚einen Termin ausmachen‘ sind allgemein und liefern keine spezifischen Begriffe für den GraphCode.\"\n}"
+}

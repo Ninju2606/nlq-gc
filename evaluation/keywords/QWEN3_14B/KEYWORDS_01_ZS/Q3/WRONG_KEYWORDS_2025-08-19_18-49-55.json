@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the key terms \u0027swim\u0027, \u0027pool\u0027, and \u0027Maria\u0027 derived from the user\u0027s request. \u0027Maria\u0027 is included because the user explicitly identifies herself in the query.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"The vocabulary contains the key terms \u0027swim\u0027, \u0027pool\u0027, and \u0027Maria\u0027 derived from the user\u0027s request. \u0027Maria\u0027 is included because the user explicitly identifies herself in the query.\"\n}"
+}

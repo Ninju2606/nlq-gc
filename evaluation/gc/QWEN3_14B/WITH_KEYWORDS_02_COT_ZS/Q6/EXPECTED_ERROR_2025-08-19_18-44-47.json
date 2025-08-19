@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer Maria gibt an, dass sie etwas tut („Wir müssen bald einen Termin ausmachen“), weshalb ihre Identifikation in das Vokabular aufgenommen wird.\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: ist ein Objekt (Typ 1)\n- \u0027make\u0027: ist eine Aktivität (Typ 4)\n- \u0027appointment\u0027: ist ein Objekt (Typ 1)\n3. Die Stichwörter stehen in folgender Relation zueinander:\n- \u0027make\u0027 wird von \u0027maria\u0027 durchgeführt (Beziehung: \u0027perform\u0027)\n- \u0027appointment\u0027 wird durch \u0027make\u0027 erstellt (Beziehung: \u0027target\u0027)\n4. Es existiert eine ID sowohl für \u0027perform\u0027 (ID 8) als auch für \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer Maria gibt an, dass sie etwas tut („Wir müssen bald einen Termin ausmachen“), weshalb ihre Identifikation in das Vokabular aufgenommen wird.\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: ist ein Objekt (Typ 1)\\n- \u0027make\u0027: ist eine Aktivität (Typ 4)\\n- \u0027appointment\u0027: ist ein Objekt (Typ 1)\\n3. Die Stichwörter stehen in folgender Relation zueinander:\\n- \u0027make\u0027 wird von \u0027maria\u0027 durchgeführt (Beziehung: \u0027perform\u0027)\\n- \u0027appointment\u0027 wird durch \u0027make\u0027 erstellt (Beziehung: \u0027target\u0027)\\n4. Es existiert eine ID sowohl für \u0027perform\u0027 (ID 8) als auch für \u0027target\u0027 (ID 9).\"\n}"
+}

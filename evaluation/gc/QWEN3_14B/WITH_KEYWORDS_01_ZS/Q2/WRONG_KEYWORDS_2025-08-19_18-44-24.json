@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode basiert auf der Anfrage \u0027Tim rennt\u0027 und der Identifikation \u0027Maria\u0027. Das Vokabular umfasst \u0027tim\u0027, \u0027run\u0027 und \u0027Maria\u0027, wobei \u0027Maria\u0027 als Nutzeridentifikation hinzugefügt wird. Die Bewertungsmatrix enthält Typkodierungen, wobei die Einheitsdiagonale mit identityMapping \u003d true belegt ist. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird mit Typ \u0027perform\u0027 (ID 8) und zwischen \u0027Maria\u0027 und \u0027tim\u0027 wird ein \u0027object\u0027 (ID 1) verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"Maria\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode basiert auf der Anfrage \u0027Tim rennt\u0027 und der Identifikation \u0027Maria\u0027. Das Vokabular umfasst \u0027tim\u0027, \u0027run\u0027 und \u0027Maria\u0027, wobei \u0027Maria\u0027 als Nutzeridentifikation hinzugefügt wird. Die Bewertungsmatrix enthält Typkodierungen, wobei die Einheitsdiagonale mit identityMapping \u003d true belegt ist. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird mit Typ \u0027perform\u0027 (ID 8) und zwischen \u0027Maria\u0027 und \u0027tim\u0027 wird ein \u0027object\u0027 (ID 1) verwendet.\"\n}"
+}

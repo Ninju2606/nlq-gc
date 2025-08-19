@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation, in der Maria und ihre Tochter Boot auf einem See fahren. \u0027maria\u0027 ist die Identifikation des Nutzers. Das Vokabular umfasst \u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027. Die Bewertungsmatrix kodiert die Relationen: Maria ist eine Person (Typ 1), \u0027person\u0027 ist ein Objekt (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 9), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1). Maria fährt (Relation \u0027perform\u0027 mit ID 8) das Boot (Typ 9 zu Typ 1), und das Boot ist auf dem See (Typ 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 8, 9, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation, in der Maria und ihre Tochter Boot auf einem See fahren. \u0027maria\u0027 ist die Identifikation des Nutzers. Das Vokabular umfasst \u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027. Die Bewertungsmatrix kodiert die Relationen: Maria ist eine Person (Typ 1), \u0027person\u0027 ist ein Objekt (Typ 1), \u0027drive\u0027 ist eine Aktivität (Typ 9), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027lake\u0027 ist ein Objekt (Typ 1). Maria fährt (Relation \u0027perform\u0027 mit ID 8) das Boot (Typ 9 zu Typ 1), und das Boot ist auf dem See (Typ 6).\"\n}"
+}

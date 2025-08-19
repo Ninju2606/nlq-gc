@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \u0027Ich\u0027 wurde zu \u0027maria\u0027.\n        2. \u0027maria\u0027 ist ein Objekt der Anfrage. \u0027wear\u0027 ist eine Aktivität. \u0027hat\u0027 ist ein Verbindungswort. \u0027yellow\u0027 ist ein Kontext.\n        3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus. \u0027wear\u0027 bezieht sich auf \u0027hat\u0027. \u0027hat\u0027 bezieht sich auf \u0027yellow\u0027.\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Verbindung (attached) ist 4. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3. Die ID für Charakteristik (characteristic) ist 14.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 4, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. \u0027Ich\u0027 wurde zu \u0027maria\u0027.\\n        2. \u0027maria\u0027 ist ein Objekt der Anfrage. \u0027wear\u0027 ist eine Aktivität. \u0027hat\u0027 ist ein Verbindungswort. \u0027yellow\u0027 ist ein Kontext.\\n        3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus. \u0027wear\u0027 bezieht sich auf \u0027hat\u0027. \u0027hat\u0027 bezieht sich auf \u0027yellow\u0027.\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Verbindung (attached) ist 4. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3. Die ID für Charakteristik (characteristic) ist 14.\"\n}"
+}

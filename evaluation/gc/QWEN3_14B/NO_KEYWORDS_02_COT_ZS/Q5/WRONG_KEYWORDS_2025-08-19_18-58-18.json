@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "wear",
+    "yellow",
+    "hat",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\n2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria.\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027maria\u0027.\n5. Attributeigenschaften: \u0027situation\u0027 (context), \u0027wear\u0027 (activity), \u0027yellow\u0027 (attribute), \u0027hat\u0027 (object), \u0027maria\u0027 (object).\n6. Relationen: \u0027maria\u0027 trägt (\u0027wear\u0027) einen \u0027gelben Hut\u0027 (\u0027yellow hat\u0027).\n7. Typkodierung: \u0027context\u0027 (id: 2), \u0027activity\u0027 (id: 4), \u0027attribute\u0027 (id: 1), \u0027object\u0027 (id: 1), \u0027object\u0027 (id: 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"wear\", \"yellow\", \"hat\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 2, 0, 0],\n    [0, 0, 0, 2, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria.\\n3. Übersetzung ins Englische: \u0027situation\u0027, \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027maria\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027ich\u0027 → \u0027maria\u0027.\\n5. Attributeigenschaften: \u0027situation\u0027 (context), \u0027wear\u0027 (activity), \u0027yellow\u0027 (attribute), \u0027hat\u0027 (object), \u0027maria\u0027 (object).\\n6. Relationen: \u0027maria\u0027 trägt (\u0027wear\u0027) einen \u0027gelben Hut\u0027 (\u0027yellow hat\u0027).\\n7. Typkodierung: \u0027context\u0027 (id: 2), \u0027activity\u0027 (id: 4), \u0027attribute\u0027 (id: 1), \u0027object\u0027 (id: 1), \u0027object\u0027 (id: 1).\"\n}"
+}

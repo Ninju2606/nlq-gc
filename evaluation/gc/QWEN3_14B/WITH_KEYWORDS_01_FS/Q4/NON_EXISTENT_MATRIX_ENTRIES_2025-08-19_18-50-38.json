@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in ihrem eigenen Pool. Der GraphCode beschreibt dies durch die Beziehungen: Maria ist das Subjekt (Typ 1), \u0027swim\u0027 ist die Aktivität (Typ 9), \u0027own\u0027 beschreibt das Besitzverhältnis (Typ 8), und \u0027pool\u0027 ist das Objekt (Typ 1). \u0027own\u0027 ist mit \u0027maria\u0027 verbunden (Typ 8), und \u0027pool\u0027 ist mit \u0027own\u0027 verbunden (Typ 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 0],\n    [0, 0, 1, 6],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem eigenen Pool. Der GraphCode beschreibt dies durch die Beziehungen: Maria ist das Subjekt (Typ 1), \u0027swim\u0027 ist die Aktivität (Typ 9), \u0027own\u0027 beschreibt das Besitzverhältnis (Typ 8), und \u0027pool\u0027 ist das Objekt (Typ 1). \u0027own\u0027 ist mit \u0027maria\u0027 verbunden (Typ 8), und \u0027pool\u0027 ist mit \u0027own\u0027 verbunden (Typ 6).\"\n}"
+}

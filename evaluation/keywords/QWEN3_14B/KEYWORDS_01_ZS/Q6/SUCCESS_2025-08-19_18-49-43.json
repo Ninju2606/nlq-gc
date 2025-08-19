@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "appointment",
+    "make"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The user \u0027Maria\u0027 wants to make an appointment soon.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"appointment\", \"make\"],\n  \"description\": \"The user \u0027Maria\u0027 wants to make an appointment soon.\"\n}"
+}

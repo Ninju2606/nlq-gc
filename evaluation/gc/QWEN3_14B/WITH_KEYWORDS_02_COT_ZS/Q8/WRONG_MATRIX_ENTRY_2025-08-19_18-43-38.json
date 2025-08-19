@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers wurden der Anfrage zugeordnet. Der Nutzername \u0027Maria\u0027 wurde als Identifikation berücksichtigt, da das Pronomen \u0027meine\u0027 in der Anfrage vorkommt. 2. Attributeigenschaften der Stichwörter: - \u0027maria\u0027 ist eine Identifikation (identityMapping \u003d true). - \u0027person\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, identityMapping \u003d true). - \u0027drive\u0027 ist eine Aktivität (attribute \u003d \u0027activity\u0027, identityMapping \u003d false). - \u0027boat\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, identityMapping \u003d true). - \u0027lake\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, identityMapping \u003d true). 3. Beziehungen zwischen den Stichwörtern: - \u0027maria\u0027 und \u0027person\u0027 sind identisch (Identifikation). - \u0027person\u0027 und \u0027drive\u0027 sind in einer \u0027perform\u0027-Beziehung (Person führt Aktivität aus). - \u0027drive\u0027 und \u0027boat\u0027 sind in einer \u0027target\u0027-Beziehung (Boot ist Ziel der Aktivität). - \u0027boat\u0027 und \u0027lake\u0027 sind in einer \u0027attached\u0027-Beziehung (Boot ist am See befestigt). 4. Für alle Beziehungen aus Schritten 2 und 3 wurden entsprechende Typkodierungen gefunden: - Identifikation (Typ 1) - Object (Typ 1) - Activity (Typ 4) - Target (Typ 9) - Attached (Typ 5) 5. GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers wurden der Anfrage zugeordnet. Der Nutzername \u0027Maria\u0027 wurde als Identifikation berücksichtigt, da das Pronomen \u0027meine\u0027 in der Anfrage vorkommt. 2. Attributeigenschaften der Stichwörter: - \u0027maria\u0027 ist eine Identifikation (identityMapping \u003d true). - \u0027person\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, identityMapping \u003d true). - \u0027drive\u0027 ist eine Aktivität (attribute \u003d \u0027activity\u0027, identityMapping \u003d false). - \u0027boat\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, identityMapping \u003d true). - \u0027lake\u0027 ist ein Objekt (attribute \u003d \u0027object\u0027, identityMapping \u003d true). 3. Beziehungen zwischen den Stichwörtern: - \u0027maria\u0027 und \u0027person\u0027 sind identisch (Identifikation). - \u0027person\u0027 und \u0027drive\u0027 sind in einer \u0027perform\u0027-Beziehung (Person führt Aktivität aus). - \u0027drive\u0027 und \u0027boat\u0027 sind in einer \u0027target\u0027-Beziehung (Boot ist Ziel der Aktivität). - \u0027boat\u0027 und \u0027lake\u0027 sind in einer \u0027attached\u0027-Beziehung (Boot ist am See befestigt). 4. Für alle Beziehungen aus Schritten 2 und 3 wurden entsprechende Typkodierungen gefunden: - Identifikation (Typ 1) - Object (Typ 1) - Activity (Typ 4) - Target (Typ 9) - Attached (Typ 5) 5. GraphCode wurde erfolgreich generiert.\"\n}"
+}

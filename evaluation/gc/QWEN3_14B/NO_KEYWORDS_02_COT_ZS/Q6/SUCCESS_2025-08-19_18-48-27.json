@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es konnten keine relevanten Stichwörter aus der Nutzeranfrage bestimmt werden, die für die Erstellung eines GraphCodes notwendig sind. Die Anfrage ist zu unklar oder enthält keine spezifischen Informationen über Objekte, Attribute oder Aktivitäten in der Metaverse-Szene.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"error\": \"Fehler\",\n  \"description\": \"Es konnten keine relevanten Stichwörter aus der Nutzeranfrage bestimmt werden, die für die Erstellung eines GraphCodes notwendig sind. Die Anfrage ist zu unklar oder enthält keine spezifischen Informationen über Objekte, Attribute oder Aktivitäten in der Metaverse-Szene.\"\n}"
+}

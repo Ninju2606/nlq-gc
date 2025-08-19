@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehöre\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Identifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\n4. Ersetzung der Nutzeridentifikation: \u0027mir\u0027 wird durch \u0027own\u0027 ersetzt, da es auf Maria bezieht.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1),\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4),\n   - \u0027pool\u0027 ist ein Objekt (Typ 1),\n   - \u0027own\u0027 ist ein Attribut (Typ 2).\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ 8),\n   - \u0027swim\u0027 wird in einem \u0027pool\u0027 durchgeführt (Typ 6),\n   - \u0027pool\u0027 wird von \u0027Maria\u0027 besessen (Typ 9).\n7. Prüfung der Typkodierungen:\n   - Typ 8 (perform) existiert: \u0027Maria\u0027 führt \u0027swim\u0027 durch.\n   - Typ 6 (under) existiert: \u0027swim\u0027 ist in einem \u0027pool\u0027.\n   - Typ 9 (target) existiert: \u0027pool\u0027 wird von \u0027Maria\u0027 besessen.\n   Alle Relationen haben zugeordnete Typkodierungen.\n8. GraphCode aufgebaut.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027, \u0027gehöre\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf die Identifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027.\\n4. Ersetzung der Nutzeridentifikation: \u0027mir\u0027 wird durch \u0027own\u0027 ersetzt, da es auf Maria bezieht.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1),\\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4),\\n   - \u0027pool\u0027 ist ein Objekt (Typ 1),\\n   - \u0027own\u0027 ist ein Attribut (Typ 2).\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 durch (Typ 8),\\n   - \u0027swim\u0027 wird in einem \u0027pool\u0027 durchgeführt (Typ 6),\\n   - \u0027pool\u0027 wird von \u0027Maria\u0027 besessen (Typ 9).\\n7. Prüfung der Typkodierungen:\\n   - Typ 8 (perform) existiert: \u0027Maria\u0027 führt \u0027swim\u0027 durch.\\n   - Typ 6 (under) existiert: \u0027swim\u0027 ist in einem \u0027pool\u0027.\\n   - Typ 9 (target) existiert: \u0027pool\u0027 wird von \u0027Maria\u0027 besessen.\\n   Alle Relationen haben zugeordnete Typkodierungen.\\n8. GraphCode aufgebaut.\"\n}"
+}

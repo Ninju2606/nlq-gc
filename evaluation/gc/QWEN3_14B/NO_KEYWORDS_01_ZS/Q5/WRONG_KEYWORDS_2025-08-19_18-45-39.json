@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "gelben",
+    "Hut",
+    "trage"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Der Eintrag \u0027Maria\u0027 ist im Vokabular enthalten, da sie sich selbst identifiziert. \u0027trage\u0027 wird als Aktivität (Typ 4) kodiert. \u0027gelben\u0027 und \u0027Hut\u0027 sind Objekte (Typ 1). \u0027hat\u0027 ist ein Kontext (Typ 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"gelben\", \"Hut\", \"trage\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Der Eintrag \u0027Maria\u0027 ist im Vokabular enthalten, da sie sich selbst identifiziert. \u0027trage\u0027 wird als Aktivität (Typ 4) kodiert. \u0027gelben\u0027 und \u0027Hut\u0027 sind Objekte (Typ 1). \u0027hat\u0027 ist ein Kontext (Typ 2).\"\n}"
+}

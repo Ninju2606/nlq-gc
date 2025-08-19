@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode besteht aus dem Vokabular \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027. Die Bewertungsmatrix enthält auf der Diagonalen die Typkodierungen \u0027object\u0027 (id 1) für alle drei Begriffe, da sie alle Objekte darstellen. Es gibt keine Beziehungen zwischen den Begriffen.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode besteht aus dem Vokabular \u0027house\u0027, \u0027paint\u0027, \u0027question\u0027. Die Bewertungsmatrix enthält auf der Diagonalen die Typkodierungen \u0027object\u0027 (id 1) für alle drei Begriffe, da sie alle Objekte darstellen. Es gibt keine Beziehungen zwischen den Begriffen.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\n2. Es gibt keine relativen Verweise zu lösen.\n3. Übersetzung in das Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\n4. Es gibt keine Identifikation des Nutzers in den Stichwörtern.\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\n6. Die Beziehungen zwischen den Stichwörtern: Es gibt keine direkten Relationen zwischen den Stichwörtern.\n7. Alle Attributeigenschaften (object, activity) haben passende Einträge in den Typkodierungen mit \u0027identityMapping\u0027 \u003d\u003d true.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Es gibt keine relativen Verweise zu lösen.\\n3. Übersetzung in das Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027.\\n4. Es gibt keine Identifikation des Nutzers in den Stichwörtern.\\n5. Attributeigenschaften: \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Objekt (object), \u0027paint\u0027 ist eine Aktivität (activity).\\n6. Die Beziehungen zwischen den Stichwörtern: Es gibt keine direkten Relationen zwischen den Stichwörtern.\\n7. Alle Attributeigenschaften (object, activity) haben passende Einträge in den Typkodierungen mit \u0027identityMapping\u0027 \u003d\u003d true.\\n8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

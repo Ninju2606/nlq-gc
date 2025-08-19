@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "houses",
+    "paint",
+    "questions",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the keywords derived from the user\u0027s request: \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and the user\u0027s identification \u0027Maria\u0027, since the user is involved in the action.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"paint\", \"questions\", \"Maria\"],\n  \"description\": \"The vocabulary contains the keywords derived from the user\u0027s request: \u0027houses\u0027, \u0027paint\u0027, \u0027questions\u0027, and the user\u0027s identification \u0027Maria\u0027, since the user is involved in the action.\"\n}"
+}

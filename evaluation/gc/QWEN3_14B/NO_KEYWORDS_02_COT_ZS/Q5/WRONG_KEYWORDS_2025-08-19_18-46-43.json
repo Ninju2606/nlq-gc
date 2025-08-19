@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "Maria",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Situationen, ich, gelben, Hut, trage.\n2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria.\n3. Übersetzung in Englisch: situations, I, yellow, hat, wear.\n4. Identifikation des Nutzers ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist eine Eigenschaft, \u0027hat\u0027 ist eine Aktivität.\n6. Relationen: Maria ist in Situationen, Maria trägt einen Hut, der Hut ist gelb.\n7. Typkodierungen: 1 (object), 2 (context), 3 (characteristic), 4 (activity) – alle Relationen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"Maria\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 2, 0, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Situationen, ich, gelben, Hut, trage.\\n2. Relative Verweise: \u0027ich\u0027 referenziert auf Maria.\\n3. Übersetzung in Englisch: situations, I, yellow, hat, wear.\\n4. Identifikation des Nutzers ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027situation\u0027 ist ein Kontext, \u0027Maria\u0027 ist ein Objekt, \u0027yellow\u0027 ist eine Eigenschaft, \u0027hat\u0027 ist eine Aktivität.\\n6. Relationen: Maria ist in Situationen, Maria trägt einen Hut, der Hut ist gelb.\\n7. Typkodierungen: 1 (object), 2 (context), 3 (characteristic), 4 (activity) – alle Relationen sind vorhanden.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "make",
+    "appointment",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The keywords \u0027make\u0027, \u0027appointment\u0027, and \u0027Maria\u0027 were identified as relevant to the scene description in the Metaverse. \u0027Maria\u0027 is included as the user has identified herself in the query.",
+  "responsePlain": "{\n  \"dictionary\": [\"make\", \"appointment\", \"Maria\"],\n  \"description\": \"The keywords \u0027make\u0027, \u0027appointment\u0027, and \u0027Maria\u0027 were identified as relevant to the scene description in the Metaverse. \u0027Maria\u0027 is included as the user has identified herself in the query.\"\n}"
+}

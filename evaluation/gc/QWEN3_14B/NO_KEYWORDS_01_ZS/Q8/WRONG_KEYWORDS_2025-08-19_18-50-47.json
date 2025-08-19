@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The GraphCode contains the following entities: \u0027maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, and \u0027lake\u0027. These are all objects (type 1) and are not related to each other through any defined relationship (type 2-10).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"The GraphCode contains the following entities: \u0027maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, and \u0027lake\u0027. These are all objects (type 1) and are not related to each other through any defined relationship (type 2-10).\"\n}"
+}

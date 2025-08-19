@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "The vocabulary contains the words \u0027Tim\u0027 and \u0027run\u0027 derived from the user\u0027s query \u0027Tim rennt\u0027. The user\u0027s identification \u0027Maria\u0027 is not included in the vocabulary since the query does not use self-identifying words like \u0027I\u0027 or \u0027my\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"The vocabulary contains the words \u0027Tim\u0027 and \u0027run\u0027 derived from the user\u0027s query \u0027Tim rennt\u0027. The user\u0027s identification \u0027Maria\u0027 is not included in the vocabulary since the query does not use self-identifying words like \u0027I\u0027 or \u0027my\u0027.\"\n}"
+}
