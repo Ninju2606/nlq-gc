@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da der Nutzer sich selbst meint. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Beziehungen zwischen den Stichwörtern: maria --perform--\u003e wear; maria --target--\u003e hat; hat --attached--\u003e yellow. 4. Alle Relationen haben gültige Typkodierungen: perform (ID 8), target (ID 9), attached (ID 5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da der Nutzer sich selbst meint. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Beziehungen zwischen den Stichwörtern: maria --perform--\u003e wear; maria --target--\u003e hat; hat --attached--\u003e yellow. 4. Alle Relationen haben gültige Typkodierungen: perform (ID 8), target (ID 9), attached (ID 5).\"\n}"
+}

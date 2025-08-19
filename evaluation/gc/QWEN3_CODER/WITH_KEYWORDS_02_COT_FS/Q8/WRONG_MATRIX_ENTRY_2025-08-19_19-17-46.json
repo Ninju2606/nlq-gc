@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Der relative Verweis \u0027Meine Tochter\u0027 wird als \u0027person\u0027 aufgelöst, wobei die Nutzeridentifikation (\u0027Maria\u0027) diesen Personen-Eintrag über die Beziehung \u0027Tochter\u0027 (ID\u003d10) verknüpft. \u0027Ich\u0027 wird durch die Identifikation \u0027Maria\u0027 ersetzt.\n        2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte (ID\u003d1), \u0027drive\u0027 ist eine Aktivität (ID\u003d4), \u0027boat\u0027 ist ein Objekt (ID\u003d1) und \u0027lake\u0027 ist ein Kontext (ID\u003d2). \n        3. \u0027maria\u0027 ist die Mutter bzw. Elternteil von \u0027person\u0027, daher wird über \u0027daughter\u0027 (ID\u003d10) verknüpft. \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus (ID\u003d7), wobei \u0027drive\u0027 sich auf \u0027boat\u0027 bezieht (ID\u003d8). \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (ID\u003d6), was den Kontext (\u0027lake\u0027) beschreibt. \u0027maria\u0027 steht in keiner direkten Aktivitätsbeziehung, aber ist indirekt über \u0027daughter\u0027 mit \u0027person\u0027 verbunden.\n        4. Alle zur Darstellung verwendeten Relationen haben gültige Typkodierungen: Objekt (1), Aktivität (4), Tochter (10), Ausführen (7), Bezogen auf (8), Auf (6), Kontext (2).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 7, 5, 6],\n    [0, 0, 4, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Meine Tochter\u0027 wird als \u0027person\u0027 aufgelöst, wobei die Nutzeridentifikation (\u0027Maria\u0027) diesen Personen-Eintrag über die Beziehung \u0027Tochter\u0027 (ID\u003d10) verknüpft. \u0027Ich\u0027 wird durch die Identifikation \u0027Maria\u0027 ersetzt.\\n        2. \u0027maria\u0027 und \u0027person\u0027 sind Objekte (ID\u003d1), \u0027drive\u0027 ist eine Aktivität (ID\u003d4), \u0027boat\u0027 ist ein Objekt (ID\u003d1) und \u0027lake\u0027 ist ein Kontext (ID\u003d2). \\n        3. \u0027maria\u0027 ist die Mutter bzw. Elternteil von \u0027person\u0027, daher wird über \u0027daughter\u0027 (ID\u003d10) verknüpft. \u0027person\u0027 führt die Aktivität \u0027drive\u0027 aus (ID\u003d7), wobei \u0027drive\u0027 sich auf \u0027boat\u0027 bezieht (ID\u003d8). \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (ID\u003d6), was den Kontext (\u0027lake\u0027) beschreibt. \u0027maria\u0027 steht in keiner direkten Aktivitätsbeziehung, aber ist indirekt über \u0027daughter\u0027 mit \u0027person\u0027 verbunden.\\n        4. Alle zur Darstellung verwendeten Relationen haben gültige Typkodierungen: Objekt (1), Aktivität (4), Tochter (10), Ausführen (7), Bezogen auf (8), Auf (6), Kontext (2).\"\n}"
+}

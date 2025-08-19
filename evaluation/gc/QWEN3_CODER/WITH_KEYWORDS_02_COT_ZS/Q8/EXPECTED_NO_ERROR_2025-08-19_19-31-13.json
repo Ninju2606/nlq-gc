@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält nicht alle notwendigen Informationen oder ist grammatikalisch verwirrend. Insbesondere ist unklar, wie \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 korrekt zu interpretieren ist (z. B. \u0027fahren Boot\u0027 ist unvollständig; korrekterweise hieße es \u0027fahren mit dem Boot\u0027 oder \u0027steuern ein Boot\u0027). Zudem fehlt eine klare semantische Zuordnung einiger Begriffe zu den vorgegebenen Typkodierungen.",
+  "error": "Unvollständige oder fehlerhafte Eingabedaten für die GraphCode-Generierung.",
+  "responsePlain": "{\n  \"error\": \"Unvollständige oder fehlerhafte Eingabedaten für die GraphCode-Generierung.\",\n  \"description\": \"Die Anfrage enthält nicht alle notwendigen Informationen oder ist grammatikalisch verwirrend. Insbesondere ist unklar, wie \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 korrekt zu interpretieren ist (z. B. \u0027fahren Boot\u0027 ist unvollständig; korrekterweise hieße es \u0027fahren mit dem Boot\u0027 oder \u0027steuern ein Boot\u0027). Zudem fehlt eine klare semantische Zuordnung einiger Begriffe zu den vorgegebenen Typkodierungen.\"\n}"
+}

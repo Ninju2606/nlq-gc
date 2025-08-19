@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Begriffe, die die Szene beschreiben, in der Maria einen gelben Hut trägt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n    \"description\": \"Der GraphCode wurde erfolgreich generiert. Das Vokabular enthält die Begriffe, die die Szene beschreiben, in der Maria einen gelben Hut trägt.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch nicht korrekt oder inhaltlich unklar. Es fehlt eine sinnvolle semantische Beziehung zwischen den Begriffen, die sich zur Generierung eines GraphCodes eignet. Daher kann kein GraphCode erstellt werden.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch nicht korrekt oder inhaltlich unklar. Es fehlt eine sinnvolle semantische Beziehung zwischen den Begriffen, die sich zur Generierung eines GraphCodes eignet. Daher kann kein GraphCode erstellt werden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 wurde der Identifikation \u0027Maria\u0027 zugeordnet. \u0027Mein\u0027 wurde durch \u0027own\u0027 ersetzt.\n2. \u0027Maria\u0027, \u0027own\u0027 und \u0027pool\u0027 sind Objekte. \u0027swim\u0027 ist eine Aktivität.\n3. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027swim\u0027 bezieht sich auf \u0027pool\u0027. \u0027own\u0027 verknüpft \u0027Maria\u0027 mit \u0027pool\u0027.\n4. Die IDs sind: object\u003d1, activity\u003d4, perform\u003d8, attached\u003d5, target\u003d9, characteristic\u003d14. Es fehlt eine Beziehung für \u0027own\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 0, 8], [0, 0, 1, 8], [0, 0, 0, 1]],\n    \"description\": \"1. Der relative Verweis \u0027Ich\u0027 wurde der Identifikation \u0027Maria\u0027 zugeordnet. \u0027Mein\u0027 wurde durch \u0027own\u0027 ersetzt.\\n2. \u0027Maria\u0027, \u0027own\u0027 und \u0027pool\u0027 sind Objekte. \u0027swim\u0027 ist eine Aktivität.\\n3. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027swim\u0027 bezieht sich auf \u0027pool\u0027. \u0027own\u0027 verknüpft \u0027Maria\u0027 mit \u0027pool\u0027.\\n4. Die IDs sind: object\u003d1, activity\u003d4, perform\u003d8, attached\u003d5, target\u003d9, characteristic\u003d14. Es fehlt eine Beziehung für \u0027own\u0027.\"\n}"
+}

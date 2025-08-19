@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity) und \u0027basketball\u0027 ist ein Objekt (object). 3. Die Relationen zwischen den Stichwörtern sind: Maria -\u003e führt aus -\u003e play (perform, ID 8), play -\u003e hat Ziel -\u003e basketball (target, ID 9). 4. Alle erforderlichen Relationen wurden in den vorgegebenen Typkodierungen gefunden. Es gibt keine fehlenden Einträge.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"matrix\": [\n        [1, 8, 0],\n        [0, 4, 9],\n        [0, 0, 1]\n    ],\n    \"description\": \"1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity) und \u0027basketball\u0027 ist ein Objekt (object). 3. Die Relationen zwischen den Stichwörtern sind: Maria -\u003e führt aus -\u003e play (perform, ID 8), play -\u003e hat Ziel -\u003e basketball (target, ID 9). 4. Alle erforderlichen Relationen wurden in den vorgegebenen Typkodierungen gefunden. Es gibt keine fehlenden Einträge.\"\n}"
+}

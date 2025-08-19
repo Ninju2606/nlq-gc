@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die wesentlichen Begriffe „Termin“ und „bald“, welche auf die Aktivität des Planens hinweisen. Da keine selbstreferenziellen Pronomen wie „ich“ oder „mir“ enthalten sind, wird die Identifikation des Nutzers (Maria) nicht direkt ins Vokabular übernommen, aber implizit als Subjekt verstanden. Die Begriffe wurden ins Englische übersetzt und auf ihre Stammformen reduziert.",
+  "responsePlain": "{\n  \"dictionary\": [\"schedule\", \"appointment\", \"soon\"],\n  \"description\": \"Die Anfrage enthält die wesentlichen Begriffe „Termin“ und „bald“, welche auf die Aktivität des Planens hinweisen. Da keine selbstreferenziellen Pronomen wie „ich“ oder „mir“ enthalten sind, wird die Identifikation des Nutzers (Maria) nicht direkt ins Vokabular übernommen, aber implizit als Subjekt verstanden. Die Begriffe wurden ins Englische übersetzt und auf ihre Stammformen reduziert.\"\n}"
+}

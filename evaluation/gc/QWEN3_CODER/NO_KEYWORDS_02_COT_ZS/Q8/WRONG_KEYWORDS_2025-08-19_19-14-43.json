@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      7,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\"Meine Tochter\", \"ich\", \"fahren Boot\", \"See\"].\n2. Relative Verweise aufgelöst: \"Meine Tocher\" und \"ich\" beziehen sich auf Personen, \"fahren Boot\" beschreibt eine Aktivität, \"See\" ist ein Ort.\n3. Stichwörter ins Englische übersetzt: [\"my daughter\" -\u003e \"daughter\", \"ich\" -\u003e \"Maria\", \"fahren Boot\" -\u003e \"boat\", \"See\" -\u003e \"lake\"].\n4. Identifikation des Nutzers ersetzt: \"ich\" wurde durch \"Maria\" ersetzt.\n5. Attributeigenschaften erklärt: - \"Maria\": Objekt (Person) - \"Tochter\": Objekt (Person) - \"Boot\": Objekt (Fahrzeug) - \"See\": Kontext (Ort)\n6. Relationen zwischen den Stichwörtern: - Maria ist die Mutter der Tochter (Typ: daughter, ID\u003d10) - Tochter ist die Tochter von Maria (Typ: daughter, ID\u003d10) - Boot befindet sich auf dem See (Typ: above, ID\u003d7) - See trägt das Boot (Typ: under, ID\u003d6)\n7. Für alle Relationen wurde ein passender Eintrag in den Typkodierungen gefunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [10, 1, 0, 0],\n    [0, 0, 1, 6],\n    [0, 0, 7, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\\\"Meine Tochter\\\", \\\"ich\\\", \\\"fahren Boot\\\", \\\"See\\\"].\\n2. Relative Verweise aufgelöst: \\\"Meine Tocher\\\" und \\\"ich\\\" beziehen sich auf Personen, \\\"fahren Boot\\\" beschreibt eine Aktivität, \\\"See\\\" ist ein Ort.\\n3. Stichwörter ins Englische übersetzt: [\\\"my daughter\\\" -\u003e \\\"daughter\\\", \\\"ich\\\" -\u003e \\\"Maria\\\", \\\"fahren Boot\\\" -\u003e \\\"boat\\\", \\\"See\\\" -\u003e \\\"lake\\\"].\\n4. Identifikation des Nutzers ersetzt: \\\"ich\\\" wurde durch \\\"Maria\\\" ersetzt.\\n5. Attributeigenschaften erklärt: - \\\"Maria\\\": Objekt (Person) - \\\"Tochter\\\": Objekt (Person) - \\\"Boot\\\": Objekt (Fahrzeug) - \\\"See\\\": Kontext (Ort)\\n6. Relationen zwischen den Stichwörtern: - Maria ist die Mutter der Tochter (Typ: daughter, ID\u003d10) - Tochter ist die Tochter von Maria (Typ: daughter, ID\u003d10) - Boot befindet sich auf dem See (Typ: above, ID\u003d7) - See trägt das Boot (Typ: under, ID\u003d6)\\n7. Für alle Relationen wurde ein passender Eintrag in den Typkodierungen gefunden.\"\n}"
+}

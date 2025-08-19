@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist zu vage und enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die für die Erstellung eines GraphCodes notwendig wären.",
+  "error": "Es können keine sinnvollen Stichwörter ermittelt werden.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\",\n  \"description\": \"Die Anfrage ist zu vage und enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die für die Erstellung eines GraphCodes notwendig wären.\"\n}"
+}

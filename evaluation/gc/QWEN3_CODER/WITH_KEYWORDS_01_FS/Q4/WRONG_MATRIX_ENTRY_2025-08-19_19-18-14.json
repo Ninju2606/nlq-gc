@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Die Nutzerin Maria schwimmt in ihrem Pool. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria führt die Aktivität \u0027swim\u0027 aus (perform), \u0027swim\u0027 ist eine Aktivität (activity) und hat das Ziel \u0027pool\u0027 (target). \u0027own\u0027 bezieht sich auf den Besitz des Pools und verbindet \u0027maria\u0027 mit \u0027pool\u0027 (attached).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 7, 0, 0], [0, 4, 8, 0], [0, 0, 1, 8], [0, 0, 0, 1]],\n    \"description\": \"Die Nutzerin Maria schwimmt in ihrem Pool. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria führt die Aktivität \u0027swim\u0027 aus (perform), \u0027swim\u0027 ist eine Aktivität (activity) und hat das Ziel \u0027pool\u0027 (target). \u0027own\u0027 bezieht sich auf den Besitz des Pools und verbindet \u0027maria\u0027 mit \u0027pool\u0027 (attached).\"\n}"
+}

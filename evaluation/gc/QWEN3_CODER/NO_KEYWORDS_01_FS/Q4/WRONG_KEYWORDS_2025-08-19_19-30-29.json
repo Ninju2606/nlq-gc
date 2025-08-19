@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      6
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in ihrem Pool. Die Szene beschreibt die Person Maria, die eine Aktivität (schwimmen) in einem Objekt (Pool) ausführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [[1, 7, 6], [0, 4, 8], [0, 0, 1]],\n  \"description\": \"Maria schwimmt in ihrem Pool. Die Szene beschreibt die Person Maria, die eine Aktivität (schwimmen) in einem Objekt (Pool) ausführt.\"\n}"
+}

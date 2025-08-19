@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 ist unvollständig oder unklar. Es fehlen Informationen darüber, ob der Nutzer selbst rennt oder ob dies eine Beschreibung einer Szene im Metaverse ist. Zudem ist keine klare Beziehung zwischen den Begriffen ableitbar, um eine sinnvolle Bewertungsmatrix zu erstellen.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 ist unvollständig oder unklar. Es fehlen Informationen darüber, ob der Nutzer selbst rennt oder ob dies eine Beschreibung einer Szene im Metaverse ist. Zudem ist keine klare Beziehung zwischen den Begriffen ableitbar, um eine sinnvolle Bewertungsmatrix zu erstellen.\"\n}"
+}

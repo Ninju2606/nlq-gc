@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Ich\" wurde zu \"Maria\".\n2. \"Maria\" und \"tim\" sind Objekte der Anfrage. \"run\" ist eine Aktivität.\n3. \"tim\" führt die Aktivität \"run\" aus.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [[1, 0, 0], [0, 1, 8], [0, 0, 4]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Ich\\\" wurde zu \\\"Maria\\\".\\n2. \\\"Maria\\\" und \\\"tim\\\" sind Objekte der Anfrage. \\\"run\\\" ist eine Aktivität.\\n3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.\"\n}"
+}

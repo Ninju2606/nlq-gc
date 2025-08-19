@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"].\n2. Relative Verweise aufgelöst: \"Ich\" und \"meinem\" verweisen auf \"Maria\".\n3. Übersetzung ins Englische: [\"Maria\", \"swim\", \"pool\"].\n4. Ersetzung der Nutzeridentifikation: \"Ich\" → \"Maria\".\n5. Attributeigenschaften: \n   - \"Maria\" ist ein Objekt (object).\n   - \"schwimme\" ist eine Aktivität (activity).\n   - \"Pool\" ist ein Objekt (object).\n6. Relationen:\n   - Maria führt die Aktivität \"schwimme\" aus: perform (8).\n   - Maria schwimmt im/unter/bei dem Pool: attached (5).\n   - \"schwimme\" bezieht sich auf \"Pool\" als Ziel: target (9).\n7. Alle Relationen haben gültige Typkodierungen: \n   - object (1), activity (4), object (1) für Diagonaleinträge.\n   - perform (8), attached (5), target (9) sind korrekte Typen außerhalb der Diagonale.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"meinem\\\", \\\"Pool\\\"].\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" und \\\"meinem\\\" verweisen auf \\\"Maria\\\".\\n3. Übersetzung ins Englische: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\"].\\n4. Ersetzung der Nutzeridentifikation: \\\"Ich\\\" → \\\"Maria\\\".\\n5. Attributeigenschaften: \\n   - \\\"Maria\\\" ist ein Objekt (object).\\n   - \\\"schwimme\\\" ist eine Aktivität (activity).\\n   - \\\"Pool\\\" ist ein Objekt (object).\\n6. Relationen:\\n   - Maria führt die Aktivität \\\"schwimme\\\" aus: perform (8).\\n   - Maria schwimmt im/unter/bei dem Pool: attached (5).\\n   - \\\"schwimme\\\" bezieht sich auf \\\"Pool\\\" als Ziel: target (9).\\n7. Alle Relationen haben gültige Typkodierungen: \\n   - object (1), activity (4), object (1) für Diagonaleinträge.\\n   - perform (8), attached (5), target (9) sind korrekte Typen außerhalb der Diagonale.\"\n}"
+}

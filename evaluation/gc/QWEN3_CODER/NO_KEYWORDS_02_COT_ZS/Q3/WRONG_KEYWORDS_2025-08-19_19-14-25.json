@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\"Ich\", \"schwimme\", \"Pool\", \"gehört\"].\n2. Relative Verweise aufgelöst: \"Ich\" bezieht sich auf die Nutzeridentifikation \"Maria\".\n3. Übersetzung der Stichwörter ins Englische: [\"Maria\", \"swim\", \"pool\"].\n4. Ersetzung der Nutzeridentifikation: \"Ich\" → \"Maria\".\n5. Attributeigenschaften: \n   - \"Maria\" ist ein Objekt (object).\n   - \"schwimme\" ist eine Aktivität (activity).\n   - \"Pool\" ist ein Objekt (object) im Kontext (context) Schwimmen.\n6. Relationen:\n   - Maria führt die Aktivität \"schwimmen\" aus → Typ 8 (perform).\n   - Maria schwimmt im/unter/über \"Pool\" → Typ 5 (attached), da räumlich zugeordnet.\n   - \"schwimmen\" bezieht sich auf einen \"Pool\" als Ziel oder Ort → Typ 9 (target).\n7. Überprüfung der Typkodierungen: Alle Relationen haben gültige Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\"].\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" bezieht sich auf die Nutzeridentifikation \\\"Maria\\\".\\n3. Übersetzung der Stichwörter ins Englische: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\"].\\n4. Ersetzung der Nutzeridentifikation: \\\"Ich\\\" → \\\"Maria\\\".\\n5. Attributeigenschaften: \\n   - \\\"Maria\\\" ist ein Objekt (object).\\n   - \\\"schwimme\\\" ist eine Aktivität (activity).\\n   - \\\"Pool\\\" ist ein Objekt (object) im Kontext (context) Schwimmen.\\n6. Relationen:\\n   - Maria führt die Aktivität \\\"schwimmen\\\" aus → Typ 8 (perform).\\n   - Maria schwimmt im/unter/über \\\"Pool\\\" → Typ 5 (attached), da räumlich zugeordnet.\\n   - \\\"schwimmen\\\" bezieht sich auf einen \\\"Pool\\\" als Ziel oder Ort → Typ 9 (target).\\n7. Überprüfung der Typkodierungen: Alle Relationen haben gültige Typkodierungen.\"\n}"
+}

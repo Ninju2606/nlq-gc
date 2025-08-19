@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu generisch und enthält keine beschreibenden Elemente einer Szene, Objekte, Attribute oder Aktivitäten, welche für die Erstellung eines GraphCodes notwendig wären.",
+  "error": "Die Anfrage enthält keine spezifischen Begriffe, Attribute oder Aktivitäten, die zur Generierung eines GraphCodes geeignet sind.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifischen Begriffe, Attribute oder Aktivitäten, die zur Generierung eines GraphCodes geeignet sind.\",\n  \"description\": \"Die Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu generisch und enthält keine beschreibenden Elemente einer Szene, Objekte, Attribute oder Aktivitäten, welche für die Erstellung eines GraphCodes notwendig wären.\"\n}"
+}

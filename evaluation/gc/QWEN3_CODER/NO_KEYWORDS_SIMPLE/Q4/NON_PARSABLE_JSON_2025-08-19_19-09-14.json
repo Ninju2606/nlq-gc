@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 9],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1],\n    [0, 0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n- **Begriffe (Knoten)**:  \n  - `\"Ich\"`  \n  - `\"schwimme\"` (Aktivität)  \n  - `\"meinem\"` (gehört zu \"Pool\", gibt Kontext/Attribut an)  \n  - `\"Pool\"` (Objekt)\n\n- **Beziehungen (Kanten)**:\n  - `\"Ich\"` **perform** `\"schwimme\"` → Typ `8` (perform)\n  - `\"Ich\"` **target** `\"Pool\"` → Typ `9` (target)\n  - `\"meinem\"` **attached** `\"Pool\"` → Typ `5` (attached), weil \"meinem\" ein attributiver Hinweis auf den Besitz des Pools ist.\n  - `\"schwimme\"` hat keine ausgehenden Kanten\n  - `\"Pool\"` hat keine weiteren ausgehenden Kanten\n\nDie Matrix ist somit eine 4x4-Matrix, die die Beziehungen gemäß der gegebenen Typkodierung abbildet."
+}

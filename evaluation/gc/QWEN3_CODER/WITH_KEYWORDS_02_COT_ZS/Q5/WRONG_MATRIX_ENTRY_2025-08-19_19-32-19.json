@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer bezieht sich selbst (Maria) auf die Handlung des Tragens. \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt. 2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Relationen: Maria führt die Aktivität \u0027wear\u0027 aus (perform). \u0027hat\u0027 ist das Ziel der Handlung (target). \u0027yellow\u0027 ist eine Eigenschaft, die dem Hut zugeordnet ist (attached). 4. Alle erforderlichen Typkodierungen sind in den bereitgestellten Typen vorhanden: object (1), activity (4), perform (8), target (9), attached (5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst (Maria) auf die Handlung des Tragens. \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt. 2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Relationen: Maria führt die Aktivität \u0027wear\u0027 aus (perform). \u0027hat\u0027 ist das Ziel der Handlung (target). \u0027yellow\u0027 ist eine Eigenschaft, die dem Hut zugeordnet ist (attached). 4. Alle erforderlichen Typkodierungen sind in den bereitgestellten Typen vorhanden: object (1), activity (4), perform (8), target (9), attached (5).\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Attribut (ID 5 - attached), \u0027pool\u0027 ist ein Objekt (ID 1). 3. Relationen: maria -\u003e swim (perform - ID 8), maria -\u003e own (attached - ID 5), maria -\u003e pool (target - ID 9), swim -\u003e pool (target - ID 9), own -\u003e pool (attached - ID 5). 4. Alle Relationen haben gültige Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Wort \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Attribut (ID 5 - attached), \u0027pool\u0027 ist ein Objekt (ID 1). 3. Relationen: maria -\u003e swim (perform - ID 8), maria -\u003e own (attached - ID 5), maria -\u003e pool (target - ID 9), swim -\u003e pool (target - ID 9), own -\u003e pool (attached - ID 5). 4. Alle Relationen haben gültige Typkodierungen.\"\n}"
+}

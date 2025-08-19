@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. \"Meine Tochter\" wurde zu den Stichwörtern \"person\" und \"daughter\" in Bezug auf \"maria\" aufgelöst.\n2. \"maria\" und \"person\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität. \"boat\" ist ein Objekt. \"lake\" ist ein Kontext.\n3. \"maria\" ist die Mutter von \"person\" (Tochter). \"person\" führt die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"person\" befindet sich auf \"boat\". \"boat\" befindet sich auf \"lake\". \"lake\" ist ein Kontext.\n4. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für auf (above) ist 5. Die ID für auf/in (under) ist 6. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 8, 0, 0],\n        [0, 1, 8, 5, 6],\n        [0, 0, 4, 8, 9],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 2]\n    ],\n    \"description\": \"1. \\\"Meine Tochter\\\" wurde zu den Stichwörtern \\\"person\\\" und \\\"daughter\\\" in Bezug auf \\\"maria\\\" aufgelöst.\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" ist ein Objekt. \\\"lake\\\" ist ein Kontext.\\n3. \\\"maria\\\" ist die Mutter von \\\"person\\\" (Tochter). \\\"person\\\" führt die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"person\\\" befindet sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\". \\\"lake\\\" ist ein Kontext.\\n4. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für auf (above) ist 5. Die ID für auf/in (under) ist 6. Die ID für Beziehen (target) ist 8. Die ID für Tochter (daughter) ist 10.\"\n}"
+}

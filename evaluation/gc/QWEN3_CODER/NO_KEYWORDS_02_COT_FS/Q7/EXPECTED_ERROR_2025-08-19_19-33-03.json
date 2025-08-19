@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Häuser\", \"Fragen\", \"malen\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"house\", \"ask\", \"paint\".\n        4. Es kommen keine selbst identifizierenden Wörter wie \"ich\" oder \"mein\" vor. Die Identifikation des Nutzers kann daher ignoriert werden. Allerdings soll das Vokabular eine Person enthalten, da davon ausgegangen wird, dass der Nutzer gemeint ist, wenn über Aktivitäten gesprochen wird. Daher wird \"Maria\" als Person hinzugefügt.\n        5. \"Maria\" und \"house\" sind Objekte der Anfrage. \"ask\" ist eine Aktivität. \"paint\" ist eine Aktivität.\n        6. In der ursprünglichen Anfrage wird ausgedrückt, dass \"Häuser um Fragen zu malen\". Dies könnte so interpretiert werden, dass \"Häuser\" und \"Fragen\" thematisch oder inhaltlich verbunden sind, oder dass \"Fragen\" im Kontext von \"Häusern\" auftauchen. Jedoch ist diese Formulierung unklar. Ein klarer Bezug, wie z. B. \"ein Haus mit einem Bild von Fragen darauf\" oder \"ein Haus, das nach Bildern von Fragen aussieht\", lässt sich nicht herstellen. Daher kann lediglich die Aktivitätsstruktur erfasst werden: \"Maria\" führt die Aktivität \"paint\" aus, wobei das Ziel der Aktivität \"ask\" ist. \"ask\" könnte hier metaphorisch für das Motiv oder das zu malende Element stehen. Alternativ könnte \"Malen\" die Aktivität sein, auf die sich \"Fragen\" beziehen. Wegen der Mehrdeutigkeit werden die Begriffe als zwei unabhängige Aktivitäten interpretiert, ohne direkte Beziehung zwischen \"house\" und \"ask\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Es fehlen Relationen zur Verknüpfung zwischen \"Maria\" und \"house\", sowie zwischen \"house\" und \"ask\" oder \"paint\". Es ist nicht klar, ob \"house\" Ziel oder Ausgangspunkt der Aktivität ist. Daher wird eine vereinfachte Darstellung gewählt, bei der Maria die Aktivität \"paint\" durchführt, deren Ziel \"ask\" ist. Es wird keine Beziehung zwischen \"house\" und anderen Begriffen hergestellt, da keine klare grammatikalische oder semantische Verbindung besteht.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"house\", \"ask\", \"paint\"],\n    \"matrix\": [[1,0,0,0],[0,1,0,0],[0,0,4,8],[0,0,0,1]],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"Fragen\\\", \\\"malen\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"house\\\", \\\"ask\\\", \\\"paint\\\".\\n        4. Es kommen keine selbst identifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" vor. Die Identifikation des Nutzers kann daher ignoriert werden. Allerdings soll das Vokabular eine Person enthalten, da davon ausgegangen wird, dass der Nutzer gemeint ist, wenn über Aktivitäten gesprochen wird. Daher wird \\\"Maria\\\" als Person hinzugefügt.\\n        5. \\\"Maria\\\" und \\\"house\\\" sind Objekte der Anfrage. \\\"ask\\\" ist eine Aktivität. \\\"paint\\\" ist eine Aktivität.\\n        6. In der ursprünglichen Anfrage wird ausgedrückt, dass \\\"Häuser um Fragen zu malen\\\". Dies könnte so interpretiert werden, dass \\\"Häuser\\\" und \\\"Fragen\\\" thematisch oder inhaltlich verbunden sind, oder dass \\\"Fragen\\\" im Kontext von \\\"Häusern\\\" auftauchen. Jedoch ist diese Formulierung unklar. Ein klarer Bezug, wie z. B. \\\"ein Haus mit einem Bild von Fragen darauf\\\" oder \\\"ein Haus, das nach Bildern von Fragen aussieht\\\", lässt sich nicht herstellen. Daher kann lediglich die Aktivitätsstruktur erfasst werden: \\\"Maria\\\" führt die Aktivität \\\"paint\\\" aus, wobei das Ziel der Aktivität \\\"ask\\\" ist. \\\"ask\\\" könnte hier metaphorisch für das Motiv oder das zu malende Element stehen. Alternativ könnte \\\"Malen\\\" die Aktivität sein, auf die sich \\\"Fragen\\\" beziehen. Wegen der Mehrdeutigkeit werden die Begriffe als zwei unabhängige Aktivitäten interpretiert, ohne direkte Beziehung zwischen \\\"house\\\" und \\\"ask\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Es fehlen Relationen zur Verknüpfung zwischen \\\"Maria\\\" und \\\"house\\\", sowie zwischen \\\"house\\\" und \\\"ask\\\" oder \\\"paint\\\". Es ist nicht klar, ob \\\"house\\\" Ziel oder Ausgangspunkt der Aktivität ist. Daher wird eine vereinfachte Darstellung gewählt, bei der Maria die Aktivität \\\"paint\\\" durchführt, deren Ziel \\\"ask\\\" ist. Es wird keine Beziehung zwischen \\\"house\\\" und anderen Begriffen hergestellt, da keine klare grammatikalische oder semantische Verbindung besteht.\"\n}"
+}

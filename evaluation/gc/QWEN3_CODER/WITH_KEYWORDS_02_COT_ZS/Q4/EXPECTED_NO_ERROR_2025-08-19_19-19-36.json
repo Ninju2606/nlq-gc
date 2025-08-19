@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine ausreichenden Informationen, um einen sinnvollen GraphCode zu generieren. Obwohl die Identifikation des Nutzers vorliegt, fehlt eine klare Zuordnung der relationalen Verweise zwischen den Begriffen, um die semantische Struktur korrekt abzubilden.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage enthält keine ausreichenden Informationen, um einen sinnvollen GraphCode zu generieren. Obwohl die Identifikation des Nutzers vorliegt, fehlt eine klare Zuordnung der relationalen Verweise zwischen den Begriffen, um die semantische Struktur korrekt abzubilden.\"\n}"
+}

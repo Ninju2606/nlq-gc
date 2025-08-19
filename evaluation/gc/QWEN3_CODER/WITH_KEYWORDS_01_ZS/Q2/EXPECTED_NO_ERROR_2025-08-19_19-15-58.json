@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 beschreibt eine Aktivität, jedoch ist kein zulässiger Relationstyp (z. B. \u0027perform\u0027) angegeben, der die Beziehung zwischen \u0027tim\u0027 (object) und \u0027run\u0027 (activity) korrekt kodiert. Dadurch kann keine gültige Bewertungsmatrix erstellt werden.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlt die Zuordnung der Beziehung zwischen den Begriffen \u0027tim\u0027 und \u0027run\u0027 durch einen zulässigen Typ mit identityMapping\u003d\u003dfalse.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlt die Zuordnung der Beziehung zwischen den Begriffen \u0027tim\u0027 und \u0027run\u0027 durch einen zulässigen Typ mit identityMapping\u003d\u003dfalse.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 beschreibt eine Aktivität, jedoch ist kein zulässiger Relationstyp (z. B. \u0027perform\u0027) angegeben, der die Beziehung zwischen \u0027tim\u0027 (object) und \u0027run\u0027 (activity) korrekt kodiert. Dadurch kann keine gültige Bewertungsmatrix erstellt werden.\"\n}"
+}

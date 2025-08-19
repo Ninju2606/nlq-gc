@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch wirr oder unvollständig. Es konnte kein sinnvoller GraphCode generiert werden, da die intendierte Bedeutung der Anfrage nicht eindeutig ist. Die Formulierung \u0027Häuser um Fragen zu malen\u0027 ergibt keinen klaren semantischen Zusammenhang und lässt keine eindeutige Zuordnung zu den definierten Typkodierungen zu.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage ist grammatikalisch wirr oder unvollständig. Es konnte kein sinnvoller GraphCode generiert werden, da die intendierte Bedeutung der Anfrage nicht eindeutig ist. Die Formulierung \u0027Häuser um Fragen zu malen\u0027 ergibt keinen klaren semantischen Zusammenhang und lässt keine eindeutige Zuordnung zu den definierten Typkodierungen zu.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: \u0027Termin\u0027, \u0027bald\u0027.\n2. Es liegen keine relativen Verweise vor.\n3. Stichwörter wurden ins Englische übersetzt: \u0027Termin\u0027 -\u003e \u0027appointment\u0027, \u0027bald\u0027 -\u003e \u0027soon\u0027.\n4. Es wurden keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet, daher erfolgt keine Ersetzung mit der Nutzer-ID \u0027Maria\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"schedule\", \"appointment\", \"soon\"],\n    \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: \u0027Termin\u0027, \u0027bald\u0027.\\n2. Es liegen keine relativen Verweise vor.\\n3. Stichwörter wurden ins Englische übersetzt: \u0027Termin\u0027 -\u003e \u0027appointment\u0027, \u0027bald\u0027 -\u003e \u0027soon\u0027.\\n4. Es wurden keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet, daher erfolgt keine Ersetzung mit der Nutzer-ID \u0027Maria\u0027.\"\n}"
+}

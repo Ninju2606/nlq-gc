@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      8,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027own\u0027 ist eine Beziehung (attached, id\u003d5), \u0027pool\u0027 ist ein Objekt (id\u003d1). 3. Die Beziehungen: maria -\u003e swim (perform, id\u003d8), maria -\u003e own (attached, id\u003d5), maria -\u003e pool (target, id\u003d9), swim -\u003e pool (target, id\u003d9), own -\u003e pool (attached, id\u003d5). 4. Alle Relationen besitzen eine gültige Typkodierung innerhalb der vorgegebenen Liste. Somit konnte der GraphCode erfolgreich generiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 8, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Die Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (id\u003d1), \u0027swim\u0027 ist eine Aktivität (id\u003d4), \u0027own\u0027 ist eine Beziehung (attached, id\u003d5), \u0027pool\u0027 ist ein Objekt (id\u003d1). 3. Die Beziehungen: maria -\u003e swim (perform, id\u003d8), maria -\u003e own (attached, id\u003d5), maria -\u003e pool (target, id\u003d9), swim -\u003e pool (target, id\u003d9), own -\u003e pool (attached, id\u003d5). 4. Alle Relationen besitzen eine gültige Typkodierung innerhalb der vorgegebenen Liste. Somit konnte der GraphCode erfolgreich generiert werden.\"\n}"
+}

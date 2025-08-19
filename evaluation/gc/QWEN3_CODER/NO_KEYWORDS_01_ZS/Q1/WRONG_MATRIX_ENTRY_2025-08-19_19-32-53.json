@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der Nutzer spielt Basketball. Die Matrix bildet die Beziehung ab, dass Maria (object) die Aktivität play (activity) ausführt, wobei basketball (object) das Ziel (target) darstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer spielt Basketball. Die Matrix bildet die Beziehung ab, dass Maria (object) die Aktivität play (activity) ausführt, wobei basketball (object) das Ziel (target) darstellt.\"\n}"
+}

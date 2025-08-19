@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Die Nutzerin Maria trägt einen Hut. Der Hut ist gelb.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 1, 14], [0, 0, 0, 3]],\n    \"description\": \"Die Nutzerin Maria trägt einen Hut. Der Hut ist gelb.\"\n}"
+}

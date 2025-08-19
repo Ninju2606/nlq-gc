@@ -1,0 +1,64 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      7,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\n        2. \\\"Meine Tochter\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\"ich\\\", \\\"Tochter\\\", \\\"Person\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\". Dabei ist \\\"Tochter\\\" die Tochter von \\\"ich\\\".\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"daughter\\\", \\\"person\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"person\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\n        5. \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\n        6. \\\"Maria\\\" ist die Tochter von \\\"person\\\". \\\"Maria\\\" führt die Aktivität \\\"drive\\\" aus. \\\"person\\\" führt die Aktivität \\\"drive\\\" aus. Die Aktivität \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für unter (under) ist nicht relevant, aber hier ist Beziehung zu \\\"auf\\\" (above) gemeint – dafür gäbe es eine ID, aber es fehlt die korrekte Kombination. Die ID für Ziel (target) ist 9. Die ID für in (context) ist 6. Es wurde eine Relation verwendet, die als \\\"above\\\" interpretiert werden könnte, jedoch ist die korrekte Typkodierung hier \\\"above\\\" mit ID 7, und für \\\"unter\\\" würde keine passende ID vorliegen. Es fehlt eine korrekte Typkodierung für \\\"auf einem See\\\" → Relation \\\"in\\\" (context), die als solche erkannt wurde. Alles korrekt abgebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 8, 0, 0],\n    [0, 1, 0, 7, 0, 0],\n    [0, 0, 1, 7, 0, 6],\n    [0, 0, 0, 4, 9, 0],\n    [0, 0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\\\\\"Meine Tochter\\\\\\\", \\\\\\\"ich\\\\\\\", \\\\\\\"fahren\\\\\\\", \\\\\\\"Boot\\\\\\\", \\\\\\\"See\\\\\\\".\\n        2. \\\\\\\"Meine Tochter\\\\\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\\\\\"ich\\\\\\\", \\\\\\\"Tochter\\\\\\\", \\\\\\\"Person\\\\\\\", \\\\\\\"fahren\\\\\\\", \\\\\\\"Boot\\\\\\\", \\\\\\\"See\\\\\\\". Dabei ist \\\\\\\"Tochter\\\\\\\" die Tochter von \\\\\\\"ich\\\\\\\".\\n        3. Die englischen Stichwörter sind \\\\\\\"I\\\\\\\", \\\\\\\"daughter\\\\\\\", \\\\\\\"person\\\\\\\", \\\\\\\"drive\\\\\\\", \\\\\\\"boat\\\\\\\", \\\\\\\"lake\\\\\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\\\\\"Maria\\\\\\\", \\\\\\\"daughter\\\\\\\", \\\\\\\"person\\\\\\\", \\\\\\\"drive\\\\\\\", \\\\\\\"boat\\\\\\\", \\\\\\\"lake\\\\\\\".\\n        5. \\\\\\\"Maria\\\\\\\", \\\\\\\"daughter\\\\\\\", \\\\\\\"boat\\\\\\\" und \\\\\\\"lake\\\\\\\" sind Objekte der Anfrage. \\\\\\\"drive\\\\\\\" ist eine Aktivität.\\n        6. \\\\\\\"Maria\\\\\\\" ist die Tochter von \\\\\\\"person\\\\\\\". \\\\\\\"Maria\\\\\\\" führt die Aktivität \\\\\\\"drive\\\\\\\" aus. \\\\\\\"person\\\\\\\" führt die Aktivität \\\\\\\"drive\\\\\\\" aus. Die Aktivität \\\\\\\"drive\\\\\\\" bezieht sich auf \\\\\\\"boat\\\\\\\". \\\\\\\"boat\\\\\\\" befindet sich auf \\\\\\\"lake\\\\\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für unter (under) ist nicht relevant, aber hier ist Beziehung zu \\\\\\\"auf\\\\\\\" (above) gemeint – dafür gäbe es eine ID, aber es fehlt die korrekte Kombination. Die ID für Ziel (target) ist 9. Die ID für in (context) ist 6. Es wurde eine Relation verwendet, die als \\\\\\\"above\\\\\\\" interpretiert werden könnte, jedoch ist die korrekte Typkodierung hier \\\\\\\"above\\\\\\\" mit ID 7, und für \\\\\\\"unter\\\\\\\" würde keine passende ID vorliegen. Es fehlt eine korrekte Typkodierung für \\\\\\\"auf einem See\\\\\\\" → Relation \\\\\\\"in\\\\\\\" (context), die als solche erkannt wurde. Alles korrekt abgebildet.\"\n}"
+}

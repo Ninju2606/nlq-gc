@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode wurde generiert basierend auf der Anfrage \u0027Ich schwimme in meinem Pool\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Die Beziehung zwischen den Begriffen wurde entsprechend der vorgegebenen Typkodierungen modelliert.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 0, 0],\n        [0, 0, 1, 0],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode wurde generiert basierend auf der Anfrage \u0027Ich schwimme in meinem Pool\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Die Beziehung zwischen den Begriffen wurde entsprechend der vorgegebenen Typkodierungen modelliert.\"\n}"
+}

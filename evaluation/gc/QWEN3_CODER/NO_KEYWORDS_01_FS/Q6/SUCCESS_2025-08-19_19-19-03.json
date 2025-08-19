@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es fehlen relevante Inhaltselemente zur Generierung eines GraphCodes. Die Äußerung bezieht sich auf zukünftige Planungen, nicht auf eine beschreibbare Szene.",
+  "error": "Die Anfrage enthält keine spezifischen Informationen über eine Szene, Objekte, Attribute oder Aktivitäten im Metaverse. Phrasen wie \"Wir müssen bald einen Termin ausmachen\" beschreiben keine darstellbare Szene.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage enthält keine spezifischen Informationen über eine Szene, Objekte, Attribute oder Aktivitäten im Metaverse. Phrasen wie \\\"Wir müssen bald einen Termin ausmachen\\\" beschreiben keine darstellbare Szene.\",\n    \"description\": \"Es fehlen relevante Inhaltselemente zur Generierung eines GraphCodes. Die Äußerung bezieht sich auf zukünftige Planungen, nicht auf eine beschreibbare Szene.\"\n}"
+}

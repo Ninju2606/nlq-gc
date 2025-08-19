@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine aufgelösten relativen Verweise. \"Ich\" wurde zu \"Maria\".\n2. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"own\" sind Aktivitäten.\n3. \"Maria\" führt die Aktivität \"swim\" aus. \"Maria\" führt die Aktivität \"own\" aus. \"swim\" bezieht sich auf \"pool\". \"own\" bezieht sich auf \"pool\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [[1, 7, 0, 0], [0, 9, 8, 0], [0, 0, 1, 7], [0, 0, 0, 1]],\n  \"description\": \"1. Es gibt keine aufgelösten relativen Verweise. \\\"Ich\\\" wurde zu \\\"Maria\\\".\\n2. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\\n3. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"Maria\\\" führt die Aktivität \\\"own\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"own\\\" bezieht sich auf \\\"pool\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.\"\n}"
+}

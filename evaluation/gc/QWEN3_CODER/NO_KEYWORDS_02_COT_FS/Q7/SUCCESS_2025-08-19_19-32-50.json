@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \"Häuser um Fragen zu malen\" abgeleitet werden, da diese grammatikalisch nicht korrekt oder unverständlich formuliert ist.",
+  "error": "Die Anfrage ist grammatikalisch verwirrend und es können keine sinnvollen Stichwörter ermittelt werden.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage ist grammatikalisch verwirrend und es können keine sinnvollen Stichwörter ermittelt werden.\",\n    \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \\\"Häuser um Fragen zu malen\\\" abgeleitet werden, da diese grammatikalisch nicht korrekt oder unverständlich formuliert ist.\"\n}"
+}

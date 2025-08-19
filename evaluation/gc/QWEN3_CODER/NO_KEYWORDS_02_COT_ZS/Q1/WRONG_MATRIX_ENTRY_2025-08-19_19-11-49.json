@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Es gibt keine relativen Verweise in der Anfrage, die aufgelöst werden müssen.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Regel, da es sich auf den Anfragensteller bezieht), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. \u0027Ich\u0027 wurde durch die nutzerspezifische Identifikation \u0027Maria\u0027 ersetzt.\n5. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027play\u0027 ist eine \u0027activity\u0027, \u0027basketball\u0027 ist ebenfalls ein \u0027object\u0027.\n6. Die Beziehungen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027 mit ID 8), \u0027play\u0027 hat das Ziel oder Objekt \u0027basketball\u0027 (Relation \u0027target\u0027 mit ID 9).\n7. Alle Beziehungen konnten mithilfe der vorgegebenen Typkodierungen abgebildet werden. Die ID für \u0027perform\u0027 ist 8, die ID für \u0027target\u0027 ist 9. Die Einheitsdiagonale enthält nur Typen mit identityMapping\u003dtrue.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Es gibt keine relativen Verweise in der Anfrage, die aufgelöst werden müssen.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Regel, da es sich auf den Anfragensteller bezieht), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. \u0027Ich\u0027 wurde durch die nutzerspezifische Identifikation \u0027Maria\u0027 ersetzt.\\n5. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027play\u0027 ist eine \u0027activity\u0027, \u0027basketball\u0027 ist ebenfalls ein \u0027object\u0027.\\n6. Die Beziehungen: \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027 mit ID 8), \u0027play\u0027 hat das Ziel oder Objekt \u0027basketball\u0027 (Relation \u0027target\u0027 mit ID 9).\\n7. Alle Beziehungen konnten mithilfe der vorgegebenen Typkodierungen abgebildet werden. Die ID für \u0027perform\u0027 ist 8, die ID für \u0027target\u0027 ist 9. Die Einheitsdiagonale enthält nur Typen mit identityMapping\u003dtrue.\"\n}"
+}

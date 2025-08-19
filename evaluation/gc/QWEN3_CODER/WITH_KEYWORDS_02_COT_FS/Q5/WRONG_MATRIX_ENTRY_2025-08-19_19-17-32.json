@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \"ich\" wurde zu \"Maria\" aufgelöst.\n2. \"Maria\" und \"hat\" sind Objekte der Anfrage. \"Wear\" ist eine Aktivität. \"Yellow\" ist ein Attribut.\n3. \"Maria\" führt die Aktivität \"wear\" aus. \"Wear\" bezieht sich auf \"hat\". \"Yellow\" ist eine Charakteristik von \"hat\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die ID für Synonym/Kontext (context) ist 3.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 1, 14], [0, 0, 0, 3]],\n    \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde zu \\\"Maria\\\" aufgelöst.\\n2. \\\"Maria\\\" und \\\"hat\\\" sind Objekte der Anfrage. \\\"Wear\\\" ist eine Aktivität. \\\"Yellow\\\" ist ein Attribut.\\n3. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus. \\\"Wear\\\" bezieht sich auf \\\"hat\\\". \\\"Yellow\\\" ist eine Charakteristik von \\\"hat\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die ID für Synonym/Kontext (context) ist 3.\"\n}"
+}

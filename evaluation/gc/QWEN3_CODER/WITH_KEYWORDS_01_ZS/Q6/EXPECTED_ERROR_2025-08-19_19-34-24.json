@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria führt die Aktivität \u0027make\u0027 aus, wobei \u0027make\u0027 eine Aktivität ist und \u0027appointment\u0027 das Ziel (\u0027target\u0027) dieser Aktivität darstellt. Maria ist ein Objekt, \u0027make\u0027 ist eine Aktivität und \u0027appointment\u0027 ist ein Objekt. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist \u0027perform\u0027 (8), zwischen \u0027make\u0027 und \u0027appointment\u0027 ist \u0027target\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria führt die Aktivität \u0027make\u0027 aus, wobei \u0027make\u0027 eine Aktivität ist und \u0027appointment\u0027 das Ziel (\u0027target\u0027) dieser Aktivität darstellt. Maria ist ein Objekt, \u0027make\u0027 ist eine Aktivität und \u0027appointment\u0027 ist ein Objekt. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist \u0027perform\u0027 (8), zwischen \u0027make\u0027 und \u0027appointment\u0027 ist \u0027target\u0027 (9).\"\n}"
+}

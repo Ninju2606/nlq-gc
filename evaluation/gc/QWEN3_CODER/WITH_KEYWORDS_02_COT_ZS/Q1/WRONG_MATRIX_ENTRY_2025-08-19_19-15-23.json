@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      8,
+      4,
+      9
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, welches durch die Identifikation \u0027maria\u0027 ersetzt wird. Somit werden alle relativen Verweise auf den Nutzer aufgelöst.\n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity) und \u0027basketball\u0027 ist ein Objekt (object).\n3. Die Relationen zwischen den Stichwörtern sind wie folgt: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation: perform). \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 als Ziel (Relation: target).\n4. Für alle Relationen existieren passende Typkodierungen: \u0027maria\u0027 (object) \u003d ID 1, \u0027play\u0027 (activity) \u003d ID 4, \u0027basketball\u0027 (object) \u003d ID 1. Die Relation \u0027perform\u0027 zwischen \u0027maria\u0027 und \u0027play\u0027 entspricht ID 8, und \u0027target\u0027 zwischen \u0027play\u0027 und \u0027basketball\u0027 entspricht ID 9.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [8, 4, 9],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, welches durch die Identifikation \u0027maria\u0027 ersetzt wird. Somit werden alle relativen Verweise auf den Nutzer aufgelöst.\\n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity) und \u0027basketball\u0027 ist ein Objekt (object).\\n3. Die Relationen zwischen den Stichwörtern sind wie folgt: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation: perform). \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 als Ziel (Relation: target).\\n4. Für alle Relationen existieren passende Typkodierungen: \u0027maria\u0027 (object) \u003d ID 1, \u0027play\u0027 (activity) \u003d ID 4, \u0027basketball\u0027 (object) \u003d ID 1. Die Relation \u0027perform\u0027 zwischen \u0027maria\u0027 und \u0027play\u0027 entspricht ID 8, und \u0027target\u0027 zwischen \u0027play\u0027 und \u0027basketball\u0027 entspricht ID 9.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine beschreibbaren Szeneninhalte, Objekte, Aktivitäten oder Attribute, aus denen ein GraphCode abgeleitet werden könnte. Sie ist eine allgemeine Absichtserklärung ohne konkrete Metaverse-Szenenbeschreibung.",
+  "error": "Kein sinnvoller GraphCode konnte generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Kein sinnvoller GraphCode konnte generiert werden.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine beschreibbaren Szeneninhalte, Objekte, Aktivitäten oder Attribute, aus denen ein GraphCode abgeleitet werden könnte. Sie ist eine allgemeine Absichtserklärung ohne konkrete Metaverse-Szenenbeschreibung.\"\n}"
+}

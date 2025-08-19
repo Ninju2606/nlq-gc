@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält keine eindeutigen relationalen Verbindungen jenseits der Personal- und Possessivpronomina (\u0027ich\u0027, \u0027meinem\u0027). Diese machen eine semantische Zuordnung zu den vorgegebenen Typkodierungen wie z.B. \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, etc. nicht möglich. Ohne explizite Handlungs-, Orts- oder Objektbeziehungen kann die Bewertungsmatrix nicht sinnvoll befüllt werden.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen zur Erstellung eines sinnvollen GraphCodes. Es fehlen klare relationale Angaben zwischen den Begriffen, die über die reine Aufzählung hinausgehen.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen zur Erstellung eines sinnvollen GraphCodes. Es fehlen klare relationale Angaben zwischen den Begriffen, die über die reine Aufzählung hinausgehen.\",\n  \"description\": \"Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält keine eindeutigen relationalen Verbindungen jenseits der Personal- und Possessivpronomina (\u0027ich\u0027, \u0027meinem\u0027). Diese machen eine semantische Zuordnung zu den vorgegebenen Typkodierungen wie z.B. \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, etc. nicht möglich. Ohne explizite Handlungs-, Orts- oder Objektbeziehungen kann die Bewertungsmatrix nicht sinnvoll befüllt werden.\"\n}"
+}

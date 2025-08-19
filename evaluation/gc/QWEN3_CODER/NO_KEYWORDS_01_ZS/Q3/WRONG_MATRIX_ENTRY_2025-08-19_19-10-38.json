@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode basiert auf der Aktivität \"Ich schwimme in einem Pool, der mir gehört\". Maria ist das Subjekt, das schwimmt (Activity: swim). Der Pool ist der Kontext (Context: pool), in dem geschwommen wird. Der Nutzer ist Eigentümer des Pools (Attached: own).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode basiert auf der Aktivität \\\"Ich schwimme in einem Pool, der mir gehört\\\". Maria ist das Subjekt, das schwimmt (Activity: swim). Der Pool ist der Kontext (Context: pool), in dem geschwommen wird. Der Nutzer ist Eigentümer des Pools (Attached: own).\"\n}"
+}

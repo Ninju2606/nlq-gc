@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment",
+    "schedule"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Termin ausmachen\u0027. 2. Relative Verweise aufgelöst: keine gefunden. 3. Stichwörter ins Englische übersetzt: \u0027Termin ausmachen\u0027 → \u0027appointment\u0027, \u0027schedule\u0027. 4. Keine Ersetzung der Nutzeridentifikation nötig, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"schedule\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Termin ausmachen\u0027. 2. Relative Verweise aufgelöst: keine gefunden. 3. Stichwörter ins Englische übersetzt: \u0027Termin ausmachen\u0027 → \u0027appointment\u0027, \u0027schedule\u0027. 4. Keine Ersetzung der Nutzeridentifikation nötig, da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten.\"\n}"
+}

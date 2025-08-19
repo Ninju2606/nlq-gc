@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \"ich\", \"schwimme\", \"meinem\", \"Pool\". 2. Relative Verweise wurden aufgelöst: \"ich\" und \"meinem\" beziehen sich auf die Nutzerin Maria. 3. Die Stichwörter wurden ins Englische übersetzt: \"ich\" → \"Maria\", \"schwimme\" → \"swim\", \"Pool\" → \"pool\". 4. Die Identifikation des Nutzers wurde ersetzt: \"ich\" → \"Maria\". 5. Attributeigenschaften: \"Maria\" ist ein Objekt (object, id\u003d1), \"swim\" ist eine Aktivität (activity, id\u003d4), \"pool\" ist ein Objekt (object, id\u003d1). 6. Relationen: Maria führt die Aktivität \"swim\" aus (perform, id\u003d8), \"swim\" hat als Ziel den \"pool\" (target, id\u003d9), \"Maria\" besitzt den \"pool\" (attached, id\u003d5). 7. Alle Relationen entsprechen existierenden Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage sind: \\\"ich\\\", \\\"schwimme\\\", \\\"meinem\\\", \\\"Pool\\\". 2. Relative Verweise wurden aufgelöst: \\\"ich\\\" und \\\"meinem\\\" beziehen sich auf die Nutzerin Maria. 3. Die Stichwörter wurden ins Englische übersetzt: \\\"ich\\\" → \\\"Maria\\\", \\\"schwimme\\\" → \\\"swim\\\", \\\"Pool\\\" → \\\"pool\\\". 4. Die Identifikation des Nutzers wurde ersetzt: \\\"ich\\\" → \\\"Maria\\\". 5. Attributeigenschaften: \\\"Maria\\\" ist ein Objekt (object, id\u003d1), \\\"swim\\\" ist eine Aktivität (activity, id\u003d4), \\\"pool\\\" ist ein Objekt (object, id\u003d1). 6. Relationen: Maria führt die Aktivität \\\"swim\\\" aus (perform, id\u003d8), \\\"swim\\\" hat als Ziel den \\\"pool\\\" (target, id\u003d9), \\\"Maria\\\" besitzt den \\\"pool\\\" (attached, id\u003d5). 7. Alle Relationen entsprechen existierenden Typkodierungen.\"\n}"
+}

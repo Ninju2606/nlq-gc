@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment",
+    "schedule",
+    "meeting"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die Begriffe \u0027Termin\u0027 und \u0027ausmachen\u0027, was auf eine Planungs- oder Vereinbarungsaktivität hinweist. Diese wurden ins Englische übersetzt und verallgemeinert. Keine relativen Verweise oder selbstidentifizierenden Begriffe wie \u0027ich\u0027 oder \u0027mein\u0027 gefunden, daher keine Ersetzung nötig.",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"schedule\", \"meeting\"],\n  \"description\": \"Die Anfrage enthält die Begriffe \u0027Termin\u0027 und \u0027ausmachen\u0027, was auf eine Planungs- oder Vereinbarungsaktivität hinweist. Diese wurden ins Englische übersetzt und verallgemeinert. Keine relativen Verweise oder selbstidentifizierenden Begriffe wie \u0027ich\u0027 oder \u0027mein\u0027 gefunden, daher keine Ersetzung nötig.\"\n}"
+}

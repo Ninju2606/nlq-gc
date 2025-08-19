@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Sie führt die Aktivität \u0027swim\u0027 aus, welche mit dem Objekt \u0027pool\u0027 verbunden ist. Die Beziehung \u0027attached\u0027 zeigt an, dass Maria dem Pool zugeordnet ist. Der Pool steht in der Beziehung \u0027attached\u0027 zu \u0027own\u0027, was angibt, dass der Pool Marias Eigentum ist. \u0027Maria\u0027 und \u0027own\u0027 sind als Objekte gekennzeichnet, \u0027swim\u0027 als Aktivität und \u0027pool\u0027 als Kontext.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 5, 0],\n    [0, 0, 2, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Sie führt die Aktivität \u0027swim\u0027 aus, welche mit dem Objekt \u0027pool\u0027 verbunden ist. Die Beziehung \u0027attached\u0027 zeigt an, dass Maria dem Pool zugeordnet ist. Der Pool steht in der Beziehung \u0027attached\u0027 zu \u0027own\u0027, was angibt, dass der Pool Marias Eigentum ist. \u0027Maria\u0027 und \u0027own\u0027 sind als Objekte gekennzeichnet, \u0027swim\u0027 als Aktivität und \u0027pool\u0027 als Kontext.\"\n}"
+}

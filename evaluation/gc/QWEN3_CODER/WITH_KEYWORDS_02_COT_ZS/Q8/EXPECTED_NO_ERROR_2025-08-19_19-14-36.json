@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es konnte kein GraphCode erstellt werden, da das Vokabular nicht ausreichend ist, um alle Begriffe der Anfrage abzudecken. Insbesondere fehlt ein Eintrag für \u0027Tochter\u0027 sowie eine entsprechende Relation zur Identifikation \u0027Maria\u0027.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung. Begriffe wie \u0027Meine Tochter und ich\u0027 sind nicht eindeutig auf die bereitgestellten Vokabulareinträge übertragbar, da \u0027Tochter\u0027 nicht im Vokabular enthalten ist und keine passende Typkodierung für \u0027Tochter\u0027 vorliegt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung. Begriffe wie \u0027Meine Tochter und ich\u0027 sind nicht eindeutig auf die bereitgestellten Vokabulareinträge übertragbar, da \u0027Tochter\u0027 nicht im Vokabular enthalten ist und keine passende Typkodierung für \u0027Tochter\u0027 vorliegt.\",\n  \"description\": \"Es konnte kein GraphCode erstellt werden, da das Vokabular nicht ausreichend ist, um alle Begriffe der Anfrage abzudecken. Insbesondere fehlt ein Eintrag für \u0027Tochter\u0027 sowie eine entsprechende Relation zur Identifikation \u0027Maria\u0027.\"\n}"
+}

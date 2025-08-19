@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage sind: \u0027ich\u0027, \u0027gelben Hut\u0027.\n2. \u0027ich\u0027 referenziert auf den Nutzer, also auf \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Name bleibt), \u0027gelben Hut\u0027 → \u0027yellow hat\u0027.\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da es sich auf den Anfragensteller bezieht.\n5. Attributeigenschaften: \u0027yellow\u0027 ist eine charakteristische Eigenschaft (\u0027characteristic\u0027) des Hutes, \u0027hat\u0027 ist ein Objekt (\u0027object\u0027), \u0027Maria\u0027 ist eine Person und somit auch ein Objekt (\u0027object\u0027), \u0027trägt\u0027 ist eine Aktivität (\u0027activity\u0027), impliziert durch das Verb \u0027tragen\u0027.\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027hat\u0027 aus (perform), \u0027hat\u0027 ist eine Aktivität (\u0027activity\u0027), \u0027yellow\u0027 ist eine Eigenschaft (\u0027characteristic\u0027) von \u0027hat\u0027, und \u0027yellow\u0027 ist mit \u0027hat\u0027 verbunden (\u0027attached\u0027).\n7. Die Typkodierungen existieren für alle Relationen: \u0027object\u0027(1), \u0027perform\u0027(8), \u0027activity\u0027(4), \u0027characteristic\u0027(14), \u0027attached\u0027(5).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage sind: \u0027ich\u0027, \u0027gelben Hut\u0027.\\n2. \u0027ich\u0027 referenziert auf den Nutzer, also auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Name bleibt), \u0027gelben Hut\u0027 → \u0027yellow hat\u0027.\\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da es sich auf den Anfragensteller bezieht.\\n5. Attributeigenschaften: \u0027yellow\u0027 ist eine charakteristische Eigenschaft (\u0027characteristic\u0027) des Hutes, \u0027hat\u0027 ist ein Objekt (\u0027object\u0027), \u0027Maria\u0027 ist eine Person und somit auch ein Objekt (\u0027object\u0027), \u0027trägt\u0027 ist eine Aktivität (\u0027activity\u0027), impliziert durch das Verb \u0027tragen\u0027.\\n6. Relationen: \u0027Maria\u0027 führt die Aktivität \u0027hat\u0027 aus (perform), \u0027hat\u0027 ist eine Aktivität (\u0027activity\u0027), \u0027yellow\u0027 ist eine Eigenschaft (\u0027characteristic\u0027) von \u0027hat\u0027, und \u0027yellow\u0027 ist mit \u0027hat\u0027 verbunden (\u0027attached\u0027).\\n7. Die Typkodierungen existieren für alle Relationen: \u0027object\u0027(1), \u0027perform\u0027(8), \u0027activity\u0027(4), \u0027characteristic\u0027(14), \u0027attached\u0027(5).\"\n}"
+}

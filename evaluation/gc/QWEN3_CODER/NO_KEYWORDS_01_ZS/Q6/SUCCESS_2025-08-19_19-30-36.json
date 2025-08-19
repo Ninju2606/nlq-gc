@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die sich auf eine Szene im Metaverse beziehen. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Unklare oder unvollständige Szenenbeschreibung",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Szenenbeschreibung\",\n  \"description\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die sich auf eine Szene im Metaverse beziehen. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

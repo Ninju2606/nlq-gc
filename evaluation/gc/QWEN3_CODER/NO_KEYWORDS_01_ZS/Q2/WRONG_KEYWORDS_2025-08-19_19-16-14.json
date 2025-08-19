@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer führt die Aktivität \u0027rennen\u0027 aus. Daher wird die Identifikation des Nutzers \u0027Maria\u0027 verwendet, um die semantische Beziehung korrekt abzubilden. \u0027Maria\u0027 ist vom Typ \u0027object\u0027 und \u0027run\u0027 ist vom Typ \u0027activity\u0027. Die Beziehung zwischen ihnen ist \u0027perform\u0027 (Typ 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"Der Nutzer führt die Aktivität \u0027rennen\u0027 aus. Daher wird die Identifikation des Nutzers \u0027Maria\u0027 verwendet, um die semantische Beziehung korrekt abzubilden. \u0027Maria\u0027 ist vom Typ \u0027object\u0027 und \u0027run\u0027 ist vom Typ \u0027activity\u0027. Die Beziehung zwischen ihnen ist \u0027perform\u0027 (Typ 8).\"\n}"
+}

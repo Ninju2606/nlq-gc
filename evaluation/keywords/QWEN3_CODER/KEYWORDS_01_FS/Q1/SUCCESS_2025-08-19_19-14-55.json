@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer spielt Basketball. Die Szene beschreibt eine Person, die aktiv Basketball spielt, was eine typische sportliche Aktivität darstellt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"description\": \"Der Nutzer spielt Basketball. Die Szene beschreibt eine Person, die aktiv Basketball spielt, was eine typische sportliche Aktivität darstellt.\"\n}"
+}

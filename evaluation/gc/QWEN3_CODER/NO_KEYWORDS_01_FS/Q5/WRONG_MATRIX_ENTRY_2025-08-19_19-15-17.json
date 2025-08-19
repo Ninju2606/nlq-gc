@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung \u0027target\u0027 zeigt auf das Objekt \u0027hat\u0027, während \u0027characteristic\u0027 die Farbe \u0027yellow\u0027 beschreibt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung \u0027target\u0027 zeigt auf das Objekt \u0027hat\u0027, während \u0027characteristic\u0027 die Farbe \u0027yellow\u0027 beschreibt.\"\n}"
+}

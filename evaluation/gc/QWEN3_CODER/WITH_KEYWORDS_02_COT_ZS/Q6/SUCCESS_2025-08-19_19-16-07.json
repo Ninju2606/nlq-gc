@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine explizite Selbstreferenz des Nutzers (z. B. \u0027ich\u0027, \u0027mein\u0027) und lässt somit keine Zuordnung zu \u0027maria\u0027 als handelnde Person zu. Daher kann kein sinnvoller GraphCode unter Einhaltung der Regeln generiert werden.",
+  "error": "Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich direkt auf die angegebene Identifikation des Nutzers beziehen.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich direkt auf die angegebene Identifikation des Nutzers beziehen.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine explizite Selbstreferenz des Nutzers (z. B. \u0027ich\u0027, \u0027mein\u0027) und lässt somit keine Zuordnung zu \u0027maria\u0027 als handelnde Person zu. Daher kann kein sinnvoller GraphCode unter Einhaltung der Regeln generiert werden.\"\n}"
+}

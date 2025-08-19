@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch nicht klar und enthält keine präzise Szenenbeschreibung. Es fehlen relevante Informationen zur Erstellung eines sinnvollen GraphCodes.",
+  "error": "Anfrage unklar oder unvollständig",
+  "responsePlain": "{\n  \"error\": \"Anfrage unklar oder unvollständig\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch nicht klar und enthält keine präzise Szenenbeschreibung. Es fehlen relevante Informationen zur Erstellung eines sinnvollen GraphCodes.\"\n}"
+}

@@ -1,0 +1,64 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      8,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt eine Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehungen wurden entsprechend der vorgegebenen Typkodierungen abgebildet.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"daughter\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 0, 7, 0, 0],\n        [0, 1, 1, 7, 0, 0],\n        [0, 0, 1, 8, 0, 6],\n        [0, 0, 0, 9, 8, 0],\n        [0, 0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 0, 3]\n    ],\n    \"description\": \"Die Anfrage beschreibt eine Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Die Beziehungen wurden entsprechend der vorgegebenen Typkodierungen abgebildet.\"\n}"
+}

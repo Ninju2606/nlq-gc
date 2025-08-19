@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: \u0027Ich\u0027 und \u0027spiele\u0027.\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch den Nutzernamen \u0027Maria\u0027 ersetzt.\n3. Stichwörter ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027.\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity).\n6. Relationen zwischen den Stichwörtern erklärt: Maria führt eine Aktivität aus – sie spielt (perform).\n7. Typkodierungen für alle Relationen gefunden: object (1), activity (4), perform (8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: \u0027Ich\u0027 und \u0027spiele\u0027.\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 wurde durch den Nutzernamen \u0027Maria\u0027 ersetzt.\\n3. Stichwörter ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027.\\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity).\\n6. Relationen zwischen den Stichwörtern erklärt: Maria führt eine Aktivität aus – sie spielt (perform).\\n7. Typkodierungen für alle Relationen gefunden: object (1), activity (4), perform (8).\"\n}"
+}

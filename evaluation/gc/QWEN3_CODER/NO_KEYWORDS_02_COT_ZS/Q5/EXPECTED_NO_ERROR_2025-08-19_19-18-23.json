@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Aufgabe scheitert bereits bei der Ermittlung der potenziellen Stichwörter, da keine selbstidentifizierenden Begriffe wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkommen, um den Bezug zur Nutzeridentifikation \u0027Maria\u0027 herzustellen. Somit kann keine sinnvolle GraphCode-Repräsentation erstellt werden.",
+  "error": "Die Anfrage enthält unzureichende oder unklare Informationen zur Erstellung eines gültigen GraphCodes. Es konnte kein eindeutiges Stichwort zur Benutzeridentifikation (z. B. \u0027ich\u0027) gefunden werden, das eine Ersetzung durch \u0027Maria\u0027 ermöglichen würde.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält unzureichende oder unklare Informationen zur Erstellung eines gültigen GraphCodes. Es konnte kein eindeutiges Stichwort zur Benutzeridentifikation (z. B. \u0027ich\u0027) gefunden werden, das eine Ersetzung durch \u0027Maria\u0027 ermöglichen würde.\",\n  \"description\": \"Die Aufgabe scheitert bereits bei der Ermittlung der potenziellen Stichwörter, da keine selbstidentifizierenden Begriffe wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkommen, um den Bezug zur Nutzeridentifikation \u0027Maria\u0027 herzustellen. Somit kann keine sinnvolle GraphCode-Repräsentation erstellt werden.\"\n}"
+}

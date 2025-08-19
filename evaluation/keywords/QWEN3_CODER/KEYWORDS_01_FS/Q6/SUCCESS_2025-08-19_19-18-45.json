@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die Angabe, dass Maria einen Termin ausmachen muss. Daher wurde \u0027Maria\u0027 als sich selbst identifizierendes Subjekt aufgenommen, ergänzt um die inhaltlich relevanten Begriffe \u0027schedule\u0027 und \u0027appointment\u0027.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"schedule\", \"appointment\"],\n    \"description\": \"Die Anfrage enthält die Angabe, dass Maria einen Termin ausmachen muss. Daher wurde \u0027Maria\u0027 als sich selbst identifizierendes Subjekt aufgenommen, ergänzt um die inhaltlich relevanten Begriffe \u0027schedule\u0027 und \u0027appointment\u0027.\"\n}"
+}

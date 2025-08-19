@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält keine explizite Szenenbeschreibung mit Attributen, Aktivitäten oder kontextuellen Verknüpfungen innerhalb des Metaverse-Szenarios. Auch wird kein relativer Verweis auf den Nutzer (Maria) hergestellt. Dadurch ist es nicht möglich, eine valide Bewertungsmatrix gemäß den vorgegebenen Regeln zu erstellen.",
+  "error": "Die Anfrage ist unvollständig oder grammatikalisch nicht korrekt. Es fehlen relevante Informationen zur Bildung sinnvoller Relationen im GraphCode.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unvollständig oder grammatikalisch nicht korrekt. Es fehlen relevante Informationen zur Bildung sinnvoller Relationen im GraphCode.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält keine explizite Szenenbeschreibung mit Attributen, Aktivitäten oder kontextuellen Verknüpfungen innerhalb des Metaverse-Szenarios. Auch wird kein relativer Verweis auf den Nutzer (Maria) hergestellt. Dadurch ist es nicht möglich, eine valide Bewertungsmatrix gemäß den vorgegebenen Regeln zu erstellen.\"\n}"
+}

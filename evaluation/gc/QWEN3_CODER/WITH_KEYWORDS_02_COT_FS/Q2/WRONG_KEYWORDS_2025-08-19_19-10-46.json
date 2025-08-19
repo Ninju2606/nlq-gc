@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wurde nicht durch den Nutzer identifiziert, daher bleibt \"Maria\" unberücksichtigt, da keine Selbstreferenz vorliegt.\n        2. \"tim\" und \"run\" sind Objekte bzw. eine Aktivität der Anfrage. \"tim\" ist eine Entität (Objekt), \"run\" ist eine Tätigkeit (activity).\n        3. Es wird keine inhaltliche Beziehung zwischen \"tim\" und \"run\" hergestellt, da der Satz grammatikalisch unvollständig ist (\"Tim rennt\" ohne Objekt oder Ziel). Daher keine Verknüpfung mit \"attached\", \"target\" oder ähnlichen Relationen.\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Auf der Diagonale wurden nur Einträge mit identityMapping\u003dtrue verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [[1, 0, 0], [0, 1, 8], [0, 0, 4]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wurde nicht durch den Nutzer identifiziert, daher bleibt \\\"Maria\\\" unberücksichtigt, da keine Selbstreferenz vorliegt.\\n        2. \\\"tim\\\" und \\\"run\\\" sind Objekte bzw. eine Aktivität der Anfrage. \\\"tim\\\" ist eine Entität (Objekt), \\\"run\\\" ist eine Tätigkeit (activity).\\n        3. Es wird keine inhaltliche Beziehung zwischen \\\"tim\\\" und \\\"run\\\" hergestellt, da der Satz grammatikalisch unvollständig ist (\\\"Tim rennt\\\" ohne Objekt oder Ziel). Daher keine Verknüpfung mit \\\"attached\\\", \\\"target\\\" oder ähnlichen Relationen.\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Auf der Diagonale wurden nur Einträge mit identityMapping\u003dtrue verwendet.\"\n}"
+}

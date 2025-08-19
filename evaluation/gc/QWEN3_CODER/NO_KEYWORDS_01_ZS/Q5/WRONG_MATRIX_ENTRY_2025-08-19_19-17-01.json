@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen \u0027Maria\u0027 und \u0027wear\u0027 ist \u0027perform\u0027 (Typ 8). Die Beziehung zwischen \u0027wear\u0027 und \u0027hat\u0027 ist \u0027target\u0027 (Typ 9). \u0027hat\u0027 ist ein Objekt (Typ 1) mit der Eigenschaft \u0027yellow\u0027, was als \u0027characteristic\u0027 (Typ 14) abgebildet wird. \u0027yellow\u0027 ist ebenfalls eine Eigenschaft (Typ 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 9, 1, 14],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen \u0027Maria\u0027 und \u0027wear\u0027 ist \u0027perform\u0027 (Typ 8). Die Beziehung zwischen \u0027wear\u0027 und \u0027hat\u0027 ist \u0027target\u0027 (Typ 9). \u0027hat\u0027 ist ein Objekt (Typ 1) mit der Eigenschaft \u0027yellow\u0027, was als \u0027characteristic\u0027 (Typ 14) abgebildet wird. \u0027yellow\u0027 ist ebenfalls eine Eigenschaft (Typ 14).\"\n}"
+}

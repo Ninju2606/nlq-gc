@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer führt die Aktivität \u0027swim\u0027 im Kontext seines Pools aus. Die Beziehung zwischen \u0027Maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027 (8), zwischen \u0027Maria\u0027 und \u0027pool\u0027 ist \u0027attached\u0027 (5), und zwischen \u0027swim\u0027 und \u0027pool\u0027 ist \u0027target\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der Nutzer führt die Aktivität \u0027swim\u0027 im Kontext seines Pools aus. Die Beziehung zwischen \u0027Maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027 (8), zwischen \u0027Maria\u0027 und \u0027pool\u0027 ist \u0027attached\u0027 (5), und zwischen \u0027swim\u0027 und \u0027pool\u0027 ist \u0027target\u0027 (9).\"\n}"
+}

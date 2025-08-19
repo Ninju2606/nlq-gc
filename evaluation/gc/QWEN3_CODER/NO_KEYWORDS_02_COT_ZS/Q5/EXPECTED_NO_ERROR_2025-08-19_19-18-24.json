@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 enthält keine klaren relationalen Verbindungen zwischen den Begriffen, die sich eindeutig auf die vorgegebenen Typkodierungen abbilden lassen. Insbesondere fehlt eine spezifische Angabe darüber, wie \u0027ich\u0027, \u0027gelb\u0027 und \u0027Hut\u0027 zueinander in Beziehung stehen, jenseits der impliziten Tragebeziehung, die nicht ausreichend spezifiziert ist.",
+  "error": "Die Anfrage enthält keine ausreichenden oder klaren Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlen konkrete Angaben zu den Beziehungen zwischen den Begriffen oder es liegen grammatikalische Unklarheiten vor.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden oder klaren Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlen konkrete Angaben zu den Beziehungen zwischen den Begriffen oder es liegen grammatikalische Unklarheiten vor.\",\n  \"description\": \"Die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 enthält keine klaren relationalen Verbindungen zwischen den Begriffen, die sich eindeutig auf die vorgegebenen Typkodierungen abbilden lassen. Insbesondere fehlt eine spezifische Angabe darüber, wie \u0027ich\u0027, \u0027gelb\u0027 und \u0027Hut\u0027 zueinander in Beziehung stehen, jenseits der impliziten Tragebeziehung, die nicht ausreichend spezifiziert ist.\"\n}"
+}

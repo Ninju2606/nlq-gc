@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027Meine Tochter\u0027 wurde interpretiert als personenbezogenes Objekt im Kontext der Nutzeridentifikation \u0027Maria\u0027. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: maria (object), person (object), drive (activity), boat (object), lake (context). 3. Relationen: Maria ist Tochter (attached) von Person, Maria fährt (perform) Boot, Boot hat Ziel Fahrt (target), Boot ist auf (above) See, See ist Kontext (context). 4. Alle Relationen können mit den vorgegebenen Typkodierungen abgebildet werden. 5. Der GraphCode wurde zusammengesetzt unter Verwendung des ermittelten Vokabulars und der abgeleiteten Relationen in der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 0, 0],\n    [5, 1, 8, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 9, 1, 6],\n    [0, 0, 0, 7, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027Meine Tochter\u0027 wurde interpretiert als personenbezogenes Objekt im Kontext der Nutzeridentifikation \u0027Maria\u0027. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: maria (object), person (object), drive (activity), boat (object), lake (context). 3. Relationen: Maria ist Tochter (attached) von Person, Maria fährt (perform) Boot, Boot hat Ziel Fahrt (target), Boot ist auf (above) See, See ist Kontext (context). 4. Alle Relationen können mit den vorgegebenen Typkodierungen abgebildet werden. 5. Der GraphCode wurde zusammengesetzt unter Verwendung des ermittelten Vokabulars und der abgeleiteten Relationen in der Bewertungsmatrix.\"\n}"
+}

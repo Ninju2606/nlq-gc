@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      6
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027gehört\u0027 wird durch die Positionierung in der Matrix und den Kontext impliziert.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"matrix\": [[1, 7, 6], [0, 4, 8], [0, 0, 1]],\n    \"description\": \"Die Nutzerin Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027gehört\u0027 wird durch die Positionierung in der Matrix und den Kontext impliziert.\"\n}"
+}

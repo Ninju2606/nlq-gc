@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Begriff \u0027ich\u0027 wurde durch die Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist eine Beziehung (attached), und \u0027pool\u0027 ist ein Objekt (object). 3. Relationen zwischen den Stichwörtern: maria führt die Aktivität swim aus, swim hat als Ziel pool, maria besitzt (attached) den pool, und pool ist ein Objekt. 4. Alle Relationen wurden auf entsprechende Typkodierungen abgebildet: swim → perform (8), own → attached (5), maria → object (1), swim → activity (4), pool → object (1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 9],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Begriff \u0027ich\u0027 wurde durch die Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist eine Beziehung (attached), und \u0027pool\u0027 ist ein Objekt (object). 3. Relationen zwischen den Stichwörtern: maria führt die Aktivität swim aus, swim hat als Ziel pool, maria besitzt (attached) den pool, und pool ist ein Objekt. 4. Alle Relationen wurden auf entsprechende Typkodierungen abgebildet: swim → perform (8), own → attached (5), maria → object (1), swim → activity (4), pool → object (1).\"\n}"
+}

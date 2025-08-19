@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"spiele\", \"Basketball\"],\n  \"matrix\": [\n    [0, 8, 9],\n    [0, 0, 1],\n    [0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n- **\"Ich\"** führt die **Aktivität** *\"spiele\"* aus → Beziehung `perform` (Typ 8).\n- **\"spiele\"** hat das **Ziel** *\"Basketball\"* → Beziehung `target` (Typ 9).\n- **\"Basketball\"** ist eine **Aktivität** (Sportart) → Beziehung `activity` (Typ 4), aber da in der Matrix keine direkte Selbstreferenz oder weitere Aussagen über Basketball stehen, bleibt dies implizit.\n\nDie Adjazenzmatrix kodiert also:\n- Zeile 1 (Ich) → Spalte 2 (\"spiele\"): Typ 8 \u003d perform\n- Zeile 2 (\"spiele\") → Spalte 3 (\"Basketball\"): Typ 9 \u003d target\n- Zeile 3 (\"Basketball\"): KEINE weiteren expliziten Relationen\n\n### Typkodierungen:\n- `1`: object (allgemeines Objekt)\n- `4`: activity\n- `8`: perform\n- `9`: target\n\nDer Rest der spezifischen Typen wurde nicht benötigt."
+}

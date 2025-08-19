@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage wirkt zusammenhanglos oder unverständlich.",
+  "error": "Die Anfrage enthält keine klaren oder sinnvollen Stichwörter, um einen GraphCode zu generieren. Bitte formuliere eine neue Anfrage mit einer klaren Szenenbeschreibung im Metaverse.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klaren oder sinnvollen Stichwörter, um einen GraphCode zu generieren. Bitte formuliere eine neue Anfrage mit einer klaren Szenenbeschreibung im Metaverse.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage wirkt zusammenhanglos oder unverständlich.\"\n}"
+}

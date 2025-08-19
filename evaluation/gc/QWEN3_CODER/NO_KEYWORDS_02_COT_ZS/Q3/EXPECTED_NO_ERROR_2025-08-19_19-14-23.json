@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare Szenenbeschreibung im Metaverse-Kontext. Phrasen wie \u0027Ich suche\u0027 oder \u0027Zeig mir Situationen\u0027 sind keine Deskriptoren für eine Szene und werden nicht berücksichtigt. Es konnte kein GraphCode generiert werden.",
+  "error": "Anfrage unklar oder unvollständig",
+  "responsePlain": "{\n  \"error\": \"Anfrage unklar oder unvollständig\",\n  \"description\": \"Die Anfrage enthält keine klare Szenenbeschreibung im Metaverse-Kontext. Phrasen wie \u0027Ich suche\u0027 oder \u0027Zeig mir Situationen\u0027 sind keine Deskriptoren für eine Szene und werden nicht berücksichtigt. Es konnte kein GraphCode generiert werden.\"\n}"
+}

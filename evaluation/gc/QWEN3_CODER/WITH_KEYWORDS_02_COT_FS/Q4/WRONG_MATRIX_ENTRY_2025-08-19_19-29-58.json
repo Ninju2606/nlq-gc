@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der relative Verweis \"ich\" wurde zu \"Maria\" aufgelöst.\n2. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist ein Kontext.\n3. \"Maria\" ist Ziel (target) der Aktivität \"swim\". \"swim\" bezieht sich auf \"pool\". \"own\" beschreibt eine Beziehung zu \"pool\". \n4. Die IDs für die Relationen sind: Objekt (object) \u003d 1, Aktivität (activity) \u003d 4, Ziel (target) \u003d 8, über (above) \u003d 7, unter (under) \u003d 6, durchführen (perform) \u003d 8, Zielbeziehung (target) \u003d 9, angehängt/verbunden (attached) \u003d 5, Tochter (daughter) \u003d 10, Merkmal (characteristic) \u003d 14. In diesem Fall werden verwendet: object (1), activity (4), target (8), attached (5).",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 0, 9], [0, 0, 1, 5], [0, 0, 0, 1]],\n    \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde zu \\\"Maria\\\" aufgelöst.\\n2. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist ein Kontext.\\n3. \\\"Maria\\\" ist Ziel (target) der Aktivität \\\"swim\\\". \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"own\\\" beschreibt eine Beziehung zu \\\"pool\\\". \\n4. Die IDs für die Relationen sind: Objekt (object) \u003d 1, Aktivität (activity) \u003d 4, Ziel (target) \u003d 8, über (above) \u003d 7, unter (under) \u003d 6, durchführen (perform) \u003d 8, Zielbeziehung (target) \u003d 9, angehängt/verbunden (attached) \u003d 5, Tochter (daughter) \u003d 10, Merkmal (characteristic) \u003d 14. In diesem Fall werden verwendet: object (1), activity (4), target (8), attached (5).\"\n}"
+}

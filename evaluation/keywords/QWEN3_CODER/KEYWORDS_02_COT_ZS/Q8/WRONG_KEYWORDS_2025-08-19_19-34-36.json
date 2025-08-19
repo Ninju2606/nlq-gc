@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "drive"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\"Meine Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\"]. 2. Relative Verweise aufgelöst: [\"Meine Tochter\" → \"Tochter\", \"ich\" → \"Maria\"]. 3. Übersetzung ins Englische: [\"Meine Tochter\" → \"daughter\", \"ich\" → \"Maria\", \"fahren\" → \"drive\", \"Boot\" → \"boat\", \"See\" → \"lake\"]. 4. Ersetzung der Nutzeridentifikation: \"ich\" wurde durch \"Maria\" ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"drive\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\\\"Meine Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\"]. 2. Relative Verweise aufgelöst: [\\\"Meine Tochter\\\" → \\\"Tochter\\\", \\\"ich\\\" → \\\"Maria\\\"]. 3. Übersetzung ins Englische: [\\\"Meine Tochter\\\" → \\\"daughter\\\", \\\"ich\\\" → \\\"Maria\\\", \\\"fahren\\\" → \\\"drive\\\", \\\"Boot\\\" → \\\"boat\\\", \\\"See\\\" → \\\"lake\\\"]. 4. Ersetzung der Nutzeridentifikation: \\\"ich\\\" wurde durch \\\"Maria\\\" ersetzt.\"\n}"
+}

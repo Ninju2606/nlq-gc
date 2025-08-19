@@ -1,0 +1,19 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "wir",
+    "termin"
+  ],
+  "matrix": [
+    [
+      0,
+      9
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"wir\",\n    \"termin\"\n  ],\n  \"matrix\": [\n    [0, 9],\n    [0, 0]\n  ]\n}"
+}

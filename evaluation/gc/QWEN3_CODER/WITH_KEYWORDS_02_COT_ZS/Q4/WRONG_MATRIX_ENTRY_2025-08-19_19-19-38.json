@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Ich\u0027 wurde ersetzt durch die Nutzeridentifikation \u0027maria\u0027. \u0027meinem\u0027 wurde aufgelöst zu \u0027own\u0027, um den Besitzverhältnis zu kennzeichnen.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Typ 1 \u003d \u0027object\u0027 (Person/Ding)\n   - \u0027swim\u0027: Typ 4 \u003d \u0027activity\u0027 (Tätigkeit)\n   - \u0027own\u0027: Typ 1 \u003d \u0027object\u0027 (wird hier als Besitzverhältnis interpretiert, also eine Art relationales Objekt)\n   - \u0027pool\u0027: Typ 1 \u003d \u0027object\u0027 (Ding)\n3. Relationen zwischen den Stichwörtern:\n   - maria -\u003e swim: \u0027perform\u0027 (Typ 8)\n   - maria -\u003e own: \u0027attached\u0027 (Typ 5)\n   - swim -\u003e pool: \u0027target\u0027 (Typ 9)\n   - own -\u003e pool: \u0027attached\u0027 (Typ 5)\n4. Alle erforderlichen Relationen haben entsprechende Typkodierungen. Es wurden keine fehlenden oder nicht abbildbaren Relationen gefunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Ich\u0027 wurde ersetzt durch die Nutzeridentifikation \u0027maria\u0027. \u0027meinem\u0027 wurde aufgelöst zu \u0027own\u0027, um den Besitzverhältnis zu kennzeichnen.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Typ 1 \u003d \u0027object\u0027 (Person/Ding)\\n   - \u0027swim\u0027: Typ 4 \u003d \u0027activity\u0027 (Tätigkeit)\\n   - \u0027own\u0027: Typ 1 \u003d \u0027object\u0027 (wird hier als Besitzverhältnis interpretiert, also eine Art relationales Objekt)\\n   - \u0027pool\u0027: Typ 1 \u003d \u0027object\u0027 (Ding)\\n3. Relationen zwischen den Stichwörtern:\\n   - maria -\u003e swim: \u0027perform\u0027 (Typ 8)\\n   - maria -\u003e own: \u0027attached\u0027 (Typ 5)\\n   - swim -\u003e pool: \u0027target\u0027 (Typ 9)\\n   - own -\u003e pool: \u0027attached\u0027 (Typ 5)\\n4. Alle erforderlichen Relationen haben entsprechende Typkodierungen. Es wurden keine fehlenden oder nicht abbildbaren Relationen gefunden.\"\n}"
+}

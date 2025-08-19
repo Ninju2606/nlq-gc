@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es konnte kein GraphCode generiert werden, da nicht alle relevanten Begriffe aus der Anfrage im bereitgestellten Vokabular enthalten sind. Insbesondere fehlen Begriffe wie \u0027Tochter\u0027 und \u0027ich\u0027, welche essentiell für die Beziehung zwischen den Entitäten sind.",
+  "error": "Die Anzahl der Begriffe im Vokabular stimmt nicht mit der Anzahl der Begriffe überein, die für die Erstellung des GraphCodes benötigt werden. Die Anfrage enthält mehr Begriffe (z. B. \u0027Meine Tochter\u0027, \u0027ich\u0027) als im Vokabular enthalten sind.",
+  "responsePlain": "{\n  \"error\": \"Die Anzahl der Begriffe im Vokabular stimmt nicht mit der Anzahl der Begriffe überein, die für die Erstellung des GraphCodes benötigt werden. Die Anfrage enthält mehr Begriffe (z. B. \u0027Meine Tochter\u0027, \u0027ich\u0027) als im Vokabular enthalten sind.\",\n  \"description\": \"Es konnte kein GraphCode generiert werden, da nicht alle relevanten Begriffe aus der Anfrage im bereitgestellten Vokabular enthalten sind. Insbesondere fehlen Begriffe wie \u0027Tochter\u0027 und \u0027ich\u0027, welche essentiell für die Beziehung zwischen den Entitäten sind.\"\n}"
+}

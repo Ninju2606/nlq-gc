@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine aufgelösten relativen Verweise oder Nutzeridentifikationen, da die Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthält.\n2. Die Attributeigenschaften der Stichwörter:\n   - \u0027tim\u0027: Typ \u0027object\u0027 (ID 1), da es sich um ein Objekt handelt.\n   - \u0027run\u0027: Typ \u0027activity\u0027 (ID 4), da es sich um eine Aktivität handelt.\n3. Relationen zwischen den Stichwörtern:\n   - \u0027tim\u0027 führt \u0027run\u0027 aus → Beziehung \u0027perform\u0027 (ID 8).\n   - \u0027run\u0027 ist eine Aktivität → Selbstbeziehung mit Typ \u0027activity\u0027 (ID 4).\n4. Alle verwendeten Relationen sind in den vorgegebenen Typkodierungen enthalten und korrekt zugeordnet.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es gibt keine aufgelösten relativen Verweise oder Nutzeridentifikationen, da die Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 enthält.\\n2. Die Attributeigenschaften der Stichwörter:\\n   - \u0027tim\u0027: Typ \u0027object\u0027 (ID 1), da es sich um ein Objekt handelt.\\n   - \u0027run\u0027: Typ \u0027activity\u0027 (ID 4), da es sich um eine Aktivität handelt.\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027tim\u0027 führt \u0027run\u0027 aus → Beziehung \u0027perform\u0027 (ID 8).\\n   - \u0027run\u0027 ist eine Aktivität → Selbstbeziehung mit Typ \u0027activity\u0027 (ID 4).\\n4. Alle verwendeten Relationen sind in den vorgegebenen Typkodierungen enthalten und korrekt zugeordnet.\"\n}"
+}

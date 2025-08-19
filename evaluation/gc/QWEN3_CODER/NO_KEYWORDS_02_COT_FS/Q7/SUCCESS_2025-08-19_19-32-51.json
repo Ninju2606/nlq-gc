@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter für eine klare Szenenbeschreibung ermittelt werden, da die Anfrage grammatikalisch verwirrend ist und keine klaren Objekte, Attribute oder Aktivitäten beschreibt.",
+  "error": "Die Anfrage enthält unklare oder mehrdeutige Begriffe, die keine eindeutige Szenenbeschreibung ergeben. Bitte formuliere eine präzisere Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält unklare oder mehrdeutige Begriffe, die keine eindeutige Szenenbeschreibung ergeben. Bitte formuliere eine präzisere Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter für eine klare Szenenbeschreibung ermittelt werden, da die Anfrage grammatikalisch verwirrend ist und keine klaren Objekte, Attribute oder Aktivitäten beschreibt.\"\n}"
+}

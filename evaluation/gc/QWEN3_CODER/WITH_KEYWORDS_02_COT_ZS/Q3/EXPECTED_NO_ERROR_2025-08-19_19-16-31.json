@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 ist grammatikalisch nicht korrekt und enthält keine klare Szenenbeschreibung. Der relative Verweis \u0027der mir gehört\u0027 ist nicht eindeutig aufgelöst. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, um einen korrekten GraphCode zu erstellen.",
+  "error": "Die Anfrage enthält unklare oder grammatikalisch wirrende Teile, die keine sinnvolle Szenenbeschreibung im Metaverse darstellen. Daher kann kein GraphCode generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält unklare oder grammatikalisch wirrende Teile, die keine sinnvolle Szenenbeschreibung im Metaverse darstellen. Daher kann kein GraphCode generiert werden.\",\n  \"description\": \"Die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 ist grammatikalisch nicht korrekt und enthält keine klare Szenenbeschreibung. Der relative Verweis \u0027der mir gehört\u0027 ist nicht eindeutig aufgelöst. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, um einen korrekten GraphCode zu erstellen.\"\n}"
+}

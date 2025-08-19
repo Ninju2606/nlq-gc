@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      2
+    ],
+    [
+      5,
+      4,
+      8,
+      2
+    ],
+    [
+      8,
+      8,
+      4,
+      9
+    ],
+    [
+      2,
+      2,
+      9,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer Maria möchte in naher Zukunft einen Termin ausmachen. Der GraphCode bildet diese Absicht ab, wobei Maria als handelnde Person, der Termin als Aktivität und die zeitliche Nähe durch den Kontext \u0027soon\u0027 ergänzt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 5, 8, 2],\n    [5, 4, 8, 2],\n    [8, 8, 4, 9],\n    [2, 2, 9, 2]\n  ],\n  \"description\": \"Der Nutzer Maria möchte in naher Zukunft einen Termin ausmachen. Der GraphCode bildet diese Absicht ab, wobei Maria als handelnde Person, der Termin als Aktivität und die zeitliche Nähe durch den Kontext \u0027soon\u0027 ergänzt wird.\"\n}"
+}

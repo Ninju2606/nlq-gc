@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der Nutzer bezieht sich selbst mit \u0027ich\u0027 und identifiziert sich als \u0027Maria\u0027. Der relative Verweis \u0027der mir gehört\u0027 bezieht sich auf \u0027Pool\u0027 und verweist auf den Nutzer \u0027Maria\u0027.\n2. Die Attributeigenschaften der Stichwörter sind:\n   - \u0027maria\u0027: Typ 1 (\u0027object\u0027) – repräsentiert eine Person.\n   - \u0027swim\u0027: Typ 4 (\u0027activity\u0027) – beschreibt eine durchgeführte Aktivität.\n   - \u0027own\u0027: Typ 1 (\u0027object\u0027) – in der Einheitsdiagonalen wird hier die Art des Begriffs angegeben. Es ist ein Verb, das aber als Objektbeziehung interpretiert wird.\n   - \u0027pool\u0027: Typ 1 (\u0027object\u0027) – beschreibt ein physisches Objekt.\n3. Die Beziehungen zwischen den Stichwörtern sind:\n   - maria -\u003e swim: \u0027Maria schwimmt\u0027 (perform - Typ 8)\n   - swim -\u003e pool: \u0027schwimmt in einem Pool\u0027 (target - Typ 9)\n   - own -\u003e pool: \u0027der mir gehört\u0027 deutet auf eine Zugehörigkeit zum Besitzer (attached - Typ 5)\n   - maria -\u003e own: implizit durch \u0027Pool, der mir gehört\u0027 – Maria steht in Beziehung zu \u0027own\u0027 über das Objekt \u0027pool\u0027 (attached - Typ 5)\n4. Alle Relationen konnten auf gültige Typkodierungen abgebildet werden:\n   - perform: ID 8\n   - target: ID 9\n   - attached: ID 5",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst mit \u0027ich\u0027 und identifiziert sich als \u0027Maria\u0027. Der relative Verweis \u0027der mir gehört\u0027 bezieht sich auf \u0027Pool\u0027 und verweist auf den Nutzer \u0027Maria\u0027.\\n2. Die Attributeigenschaften der Stichwörter sind:\\n   - \u0027maria\u0027: Typ 1 (\u0027object\u0027) – repräsentiert eine Person.\\n   - \u0027swim\u0027: Typ 4 (\u0027activity\u0027) – beschreibt eine durchgeführte Aktivität.\\n   - \u0027own\u0027: Typ 1 (\u0027object\u0027) – in der Einheitsdiagonalen wird hier die Art des Begriffs angegeben. Es ist ein Verb, das aber als Objektbeziehung interpretiert wird.\\n   - \u0027pool\u0027: Typ 1 (\u0027object\u0027) – beschreibt ein physisches Objekt.\\n3. Die Beziehungen zwischen den Stichwörtern sind:\\n   - maria -\u003e swim: \u0027Maria schwimmt\u0027 (perform - Typ 8)\\n   - swim -\u003e pool: \u0027schwimmt in einem Pool\u0027 (target - Typ 9)\\n   - own -\u003e pool: \u0027der mir gehört\u0027 deutet auf eine Zugehörigkeit zum Besitzer (attached - Typ 5)\\n   - maria -\u003e own: implizit durch \u0027Pool, der mir gehört\u0027 – Maria steht in Beziehung zu \u0027own\u0027 über das Objekt \u0027pool\u0027 (attached - Typ 5)\\n4. Alle Relationen konnten auf gültige Typkodierungen abgebildet werden:\\n   - perform: ID 8\\n   - target: ID 9\\n   - attached: ID 5\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind: \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es liegen keine relativen Verweise vor, die aufgelöst werden müssen.\n3. Die Stichwörter werden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\n4. Es kommen keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor. Daher ist keine Ersetzung notwendig.\n5. Attribut-Eigenschaften: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\n6. Die Relation zwischen den Stichwörtern: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Entsprechende Relation ist \u0027perform\u0027.\n7. Für alle festgestellten Relationen und Attributeigenschaften gibt es passende Typkodierungen. Die IDs sind:\n   - \u0027Tim\u0027 (object): id\u003d1\n   - \u0027run\u0027 (activity): id\u003d4\n   - \u0027perform\u0027 (Relation von Tim zu run): id\u003d8",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind: \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es liegen keine relativen Verweise vor, die aufgelöst werden müssen.\\n3. Die Stichwörter werden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\\n4. Es kommen keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor. Daher ist keine Ersetzung notwendig.\\n5. Attribut-Eigenschaften: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\\n6. Die Relation zwischen den Stichwörtern: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Entsprechende Relation ist \u0027perform\u0027.\\n7. Für alle festgestellten Relationen und Attributeigenschaften gibt es passende Typkodierungen. Die IDs sind:\\n   - \u0027Tim\u0027 (object): id\u003d1\\n   - \u0027run\u0027 (activity): id\u003d4\\n   - \u0027perform\u0027 (Relation von Tim zu run): id\u003d8\"\n}"
+}

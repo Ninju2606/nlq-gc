@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält die notwendigen Informationen, um ein Vokabular für den GraphCode zu generieren. Die Begriffe beziehen sich auf das Planen eines Termins durch den Nutzer Maria.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\"],\n  \"description\": \"Die Anfrage enthält die notwendigen Informationen, um ein Vokabular für den GraphCode zu generieren. Die Begriffe beziehen sich auf das Planen eines Termins durch den Nutzer Maria.\"\n}"
+}

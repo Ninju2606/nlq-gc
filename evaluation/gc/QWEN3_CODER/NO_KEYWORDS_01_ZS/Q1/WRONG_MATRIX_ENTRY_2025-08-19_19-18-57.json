@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      8
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der Nutzer spielt Basketball. Daher ist \u0027Maria\u0027 (Identität des Nutzers) das Subjekt, das die Aktivität \u0027play\u0027 (spielen) mit dem Objekt \u0027basketball\u0027 ausführt. \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027basketball\u0027 ist ein Objekt (Typ 1) und \u0027play\u0027 ist eine Aktivität (Typ 4). Die Beziehung von \u0027Maria\u0027 zu \u0027play\u0027 ist \u0027perform\u0027 (Typ 8), und von \u0027play\u0027 zu \u0027basketball\u0027 ist \u0027target\u0027 (Typ 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\", \"play\"],\n  \"matrix\": [\n    [1, 9, 8],\n    [0, 1, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Der Nutzer spielt Basketball. Daher ist \u0027Maria\u0027 (Identität des Nutzers) das Subjekt, das die Aktivität \u0027play\u0027 (spielen) mit dem Objekt \u0027basketball\u0027 ausführt. \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027basketball\u0027 ist ein Objekt (Typ 1) und \u0027play\u0027 ist eine Aktivität (Typ 4). Die Beziehung von \u0027Maria\u0027 zu \u0027play\u0027 ist \u0027perform\u0027 (Typ 8), und von \u0027play\u0027 zu \u0027basketball\u0027 ist \u0027target\u0027 (Typ 9).\"\n}"
+}

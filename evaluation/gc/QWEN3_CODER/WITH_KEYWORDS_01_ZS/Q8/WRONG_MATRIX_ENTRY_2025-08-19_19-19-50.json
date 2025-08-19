@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      9,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "GraphCode basierend auf der Anfrage: Maria und ihre Tochter fahren mit dem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Begriffen unter Einhaltung der Typkodierungen ab.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 9, 0, 0, 0],\n    [9, 1, 8, 0, 0],\n    [0, 8, 4, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 7, 2]\n  ],\n  \"description\": \"GraphCode basierend auf der Anfrage: Maria und ihre Tochter fahren mit dem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Begriffen unter Einhaltung der Typkodierungen ab.\"\n}"
+}

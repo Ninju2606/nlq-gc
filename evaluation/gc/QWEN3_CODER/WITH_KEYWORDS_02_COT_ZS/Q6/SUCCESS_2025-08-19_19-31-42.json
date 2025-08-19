@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu vage, um eindeutige Relationen zwischen den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 herzustellen. Insbesondere fehlt eine klare Angabe darüber, wer welche Handlung ausführt oder wie die Begriffe zueinander in Beziehung stehen (z. B. wer den Termin macht, ob Maria der Akteur ist, etc.). Daher kann kein gültiger GraphCode erstellt werden.",
+  "error": "Die Anfrage ist grammatisch nicht klar oder enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die in Relation gesetzt werden können.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatisch nicht klar oder enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die in Relation gesetzt werden können.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu vage, um eindeutige Relationen zwischen den Begriffen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 herzustellen. Insbesondere fehlt eine klare Angabe darüber, wer welche Handlung ausführt oder wie die Begriffe zueinander in Beziehung stehen (z. B. wer den Termin macht, ob Maria der Akteur ist, etc.). Daher kann kein gültiger GraphCode erstellt werden.\"\n}"
+}

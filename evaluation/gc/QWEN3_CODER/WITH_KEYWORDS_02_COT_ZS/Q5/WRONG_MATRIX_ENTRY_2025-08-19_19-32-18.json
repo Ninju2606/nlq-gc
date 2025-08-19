@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der Nutzer bezieht sich selbst mit \u0027ich\u0027 auf die gesuchte Szene. Daher wurde das im Vokabular befindliche Element \u0027maria\u0027 als Benutzeridentifikation zugeordnet. 2. Die Stichwörter haben folgende Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein weiteres Objekt (object) sowie \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Die Relationen zwischen den Stichwörtern setzen sich wie folgt zusammen: maria -\u003e perform -\u003e wear (trägt ausführen), maria -\u003e attached -\u003e hat (Hut ist mit Maria verbunden), hat -\u003e characteristic -\u003e yellow (Hut ist gelb). 4. Alle identifizierten Relationen (\u0027perform\u0027, \u0027attached\u0027, \u0027characteristic\u0027) finden eine Entsprechung in den vorgegebenen Typkodierungen mit den IDs 8, 5 und 14. Ebenso alle Diagonaleinträge (1 für \u0027object\u0027, 4 für \u0027activity\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst mit \u0027ich\u0027 auf die gesuchte Szene. Daher wurde das im Vokabular befindliche Element \u0027maria\u0027 als Benutzeridentifikation zugeordnet. 2. Die Stichwörter haben folgende Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein weiteres Objekt (object) sowie \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Die Relationen zwischen den Stichwörtern setzen sich wie folgt zusammen: maria -\u003e perform -\u003e wear (trägt ausführen), maria -\u003e attached -\u003e hat (Hut ist mit Maria verbunden), hat -\u003e characteristic -\u003e yellow (Hut ist gelb). 4. Alle identifizierten Relationen (\u0027perform\u0027, \u0027attached\u0027, \u0027characteristic\u0027) finden eine Entsprechung in den vorgegebenen Typkodierungen mit den IDs 8, 5 und 14. Ebenso alle Diagonaleinträge (1 für \u0027object\u0027, 4 für \u0027activity\u0027).\"\n}"
+}

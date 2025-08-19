@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind \u0027Ich\u0027 und \u0027Basketball\u0027.\n2. Es gibt keine relativen Verweise, die aufgelöst werden müssen.\n3. Die ermittelten Stichwörter werden ins Englische übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Regel zur Nutzeridentifikation), \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Die Identifikation des Nutzers (\u0027Ich\u0027) wird durch \u0027Maria\u0027 ersetzt.\n5. Erklärung der Attributeigenschaften: \u0027Maria\u0027 ist vom Typ \u0027object\u0027 (da es sich um eine Person handelt), \u0027basketball\u0027 ist ebenfalls vom Typ \u0027object\u0027 (da es sich um ein konkretes Objekt handelt).\n6. Erklärung der Relationen: \u0027Maria\u0027 führt eine Aktivität mit \u0027basketball\u0027 aus. Die Beziehung lautet also \u0027perform\u0027.\n7. Für alle Relationen existiert eine passende Typkodierung: \u0027object\u0027 (ID 1) für die Hauptdiagonaleinträge, \u0027perform\u0027 (ID 8) für die Relation von Maria zu basketball.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind \u0027Ich\u0027 und \u0027Basketball\u0027.\\n2. Es gibt keine relativen Verweise, die aufgelöst werden müssen.\\n3. Die ermittelten Stichwörter werden ins Englische übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Regel zur Nutzeridentifikation), \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Die Identifikation des Nutzers (\u0027Ich\u0027) wird durch \u0027Maria\u0027 ersetzt.\\n5. Erklärung der Attributeigenschaften: \u0027Maria\u0027 ist vom Typ \u0027object\u0027 (da es sich um eine Person handelt), \u0027basketball\u0027 ist ebenfalls vom Typ \u0027object\u0027 (da es sich um ein konkretes Objekt handelt).\\n6. Erklärung der Relationen: \u0027Maria\u0027 führt eine Aktivität mit \u0027basketball\u0027 aus. Die Beziehung lautet also \u0027perform\u0027.\\n7. Für alle Relationen existiert eine passende Typkodierung: \u0027object\u0027 (ID 1) für die Hauptdiagonaleinträge, \u0027perform\u0027 (ID 8) für die Relation von Maria zu basketball.\"\n}"
+}

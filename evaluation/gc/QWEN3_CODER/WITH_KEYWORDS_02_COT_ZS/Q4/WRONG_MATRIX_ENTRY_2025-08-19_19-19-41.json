@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027Ich\u0027 wurde durch die angegebene Identifikation \u0027Maria\u0027 ersetzt. Der Possessivartikel \u0027meinem\u0027 wurde aufgelöst und durch die Beziehung \u0027own\u0027 abgebildet.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation und daher vom Typ \u0027object\u0027. \u0027swim\u0027 beschreibt eine Aktivität und ist vom Typ \u0027activity\u0027. \u0027own\u0027 bezeichnet eine Besitzbeziehung und ist vom Typ \u0027object\u0027. \u0027pool\u0027 ist ein konkretes Objekt und daher vom Typ \u0027object\u0027.\n3. Relationen der Stichwörter zueinander: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, was durch den Eintrag 8 (\u0027perform\u0027) abgebildet wird. \u0027swim\u0027 hat \u0027pool\u0027 als Ziel, was durch den Eintrag 9 (\u0027target\u0027) gekennzeichnet ist. \u0027maria\u0027 besitzt den \u0027pool\u0027, was durch den Eintrag 5 (\u0027attached\u0027) dargestellt wird.\n4. Verfügbarkeit der Typkodierungen: Für alle verwendeten Relationen existieren entsprechende Einträge in den Typkodierungen. \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9) und \u0027attached\u0027 (ID 5) sind korrekt zugewiesen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027Ich\u0027 wurde durch die angegebene Identifikation \u0027Maria\u0027 ersetzt. Der Possessivartikel \u0027meinem\u0027 wurde aufgelöst und durch die Beziehung \u0027own\u0027 abgebildet.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation und daher vom Typ \u0027object\u0027. \u0027swim\u0027 beschreibt eine Aktivität und ist vom Typ \u0027activity\u0027. \u0027own\u0027 bezeichnet eine Besitzbeziehung und ist vom Typ \u0027object\u0027. \u0027pool\u0027 ist ein konkretes Objekt und daher vom Typ \u0027object\u0027.\\n3. Relationen der Stichwörter zueinander: \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, was durch den Eintrag 8 (\u0027perform\u0027) abgebildet wird. \u0027swim\u0027 hat \u0027pool\u0027 als Ziel, was durch den Eintrag 9 (\u0027target\u0027) gekennzeichnet ist. \u0027maria\u0027 besitzt den \u0027pool\u0027, was durch den Eintrag 5 (\u0027attached\u0027) dargestellt wird.\\n4. Verfügbarkeit der Typkodierungen: Für alle verwendeten Relationen existieren entsprechende Einträge in den Typkodierungen. \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9) und \u0027attached\u0027 (ID 5) sind korrekt zugewiesen.\"\n}"
+}

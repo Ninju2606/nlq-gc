@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: Maria (object) führt die Aktivität (activity) \u0027play\u0027 aus, welche auf das Objekt (object) \u0027basketball\u0027 gerichtet ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: Maria (object) führt die Aktivität (activity) \u0027play\u0027 aus, welche auf das Objekt (object) \u0027basketball\u0027 gerichtet ist.\"\n}"
+}

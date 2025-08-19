@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\u0027ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027]. 2. Relative Verweise aufgelöst: \u0027ich\u0027 verweist auf \u0027Maria\u0027. 3. Stichwörter ins Englische übersetzt: [\u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027]. 4. Nutzeridentifikation ersetzt: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\u0027ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027]. 2. Relative Verweise aufgelöst: \u0027ich\u0027 verweist auf \u0027Maria\u0027. 3. Stichwörter ins Englische übersetzt: [\u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027]. 4. Nutzeridentifikation ersetzt: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\"\n}"
+}

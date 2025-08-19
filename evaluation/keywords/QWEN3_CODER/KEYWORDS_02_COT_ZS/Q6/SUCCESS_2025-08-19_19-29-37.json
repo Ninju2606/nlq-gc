@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment",
+    "schedule",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Termin\u0027, \u0027ausmachen\u0027, \u0027bald\u0027.\n2. Relative Verweise wurden nicht gefunden.\n3. Übersetzung ins Englische: \u0027Termin\u0027 → \u0027appointment\u0027, \u0027ausmachen\u0027 → \u0027schedule\u0027, \u0027bald\u0027 → \u0027soon\u0027.\n4. Der Nutzer referenziert sich nicht direkt, daher keine Ersetzung notwendig.",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"schedule\", \"soon\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Termin\u0027, \u0027ausmachen\u0027, \u0027bald\u0027.\\n2. Relative Verweise wurden nicht gefunden.\\n3. Übersetzung ins Englische: \u0027Termin\u0027 → \u0027appointment\u0027, \u0027ausmachen\u0027 → \u0027schedule\u0027, \u0027bald\u0027 → \u0027soon\u0027.\\n4. Der Nutzer referenziert sich nicht direkt, daher keine Ersetzung notwendig.\"\n}"
+}

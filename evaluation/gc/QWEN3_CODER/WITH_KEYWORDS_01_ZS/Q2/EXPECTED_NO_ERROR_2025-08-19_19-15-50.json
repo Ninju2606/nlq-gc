@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält nicht genügend Informationen, um einen gültigen GraphCode zu erstellen. Ein gültiger GraphCode benötigt mindestens eine sinnvolle Beziehung zwischen Begriffen, die durch die vorgegebenen Typkodierungen abgedeckt sind.",
+  "error": "Die Anfrage \u0027Tim rennt\u0027 ist unvollständig oder grammatikalisch nicht korrekt. Es fehlen relevante Informationen zur Beschreibung einer Szene im Metaverse, wie z. B. ein Kontext, eine Aktivität oder ein Objekt, das eine Beziehung darstellen kann. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Tim rennt\u0027 ist unvollständig oder grammatikalisch nicht korrekt. Es fehlen relevante Informationen zur Beschreibung einer Szene im Metaverse, wie z. B. ein Kontext, eine Aktivität oder ein Objekt, das eine Beziehung darstellen kann. Daher kann kein sinnvoller GraphCode generiert werden.\",\n  \"description\": \"Die Anfrage enthält nicht genügend Informationen, um einen gültigen GraphCode zu erstellen. Ein gültiger GraphCode benötigt mindestens eine sinnvolle Beziehung zwischen Begriffen, die durch die vorgegebenen Typkodierungen abgedeckt sind.\"\n}"
+}

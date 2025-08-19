@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine spezifische Szenenbeschreibung oder handlungsrelevante Elemente, die sich auf das Metaverse beziehen. Begriffe wie \u0027bald\u0027 und \u0027Termin ausmachen\u0027 sind zu vage, um eine Bewertungsmatrix mit den vorgegebenen Typkodierungen zu erstellen.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage enthält keine spezifische Szenenbeschreibung oder handlungsrelevante Elemente, die sich auf das Metaverse beziehen. Begriffe wie \u0027bald\u0027 und \u0027Termin ausmachen\u0027 sind zu vage, um eine Bewertungsmatrix mit den vorgegebenen Typkodierungen zu erstellen.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      9,
+      2
+    ],
+    [
+      5,
+      4,
+      8,
+      2
+    ],
+    [
+      9,
+      8,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer Maria möchte bald einen Termin ausmachen. Die Matrix bildet die Beziehungen zwischen den Begriffen ab: Maria (object) ist durch \u0027attached\u0027 mit schedule verbunden, schedule (activity) wird durch \u0027perform\u0027 mit appointment verknüpft, und appointment (object) ist das Ziel (\u0027target\u0027) der Aktivität. \u0027Soon\u0027 dient als Kontext (\u0027context\u0027) und ist überall entsprechend verknüpft.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 5, 9, 2],\n    [5, 4, 8, 2],\n    [9, 8, 1, 2],\n    [2, 2, 2, 2]\n  ],\n  \"description\": \"Der Nutzer Maria möchte bald einen Termin ausmachen. Die Matrix bildet die Beziehungen zwischen den Begriffen ab: Maria (object) ist durch \u0027attached\u0027 mit schedule verbunden, schedule (activity) wird durch \u0027perform\u0027 mit appointment verknüpft, und appointment (object) ist das Ziel (\u0027target\u0027) der Aktivität. \u0027Soon\u0027 dient als Kontext (\u0027context\u0027) und ist überall entsprechend verknüpft.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine hinreichend klaren Relationen zwischen den Begriffen, um alle erforderlichen Einträge in der Bewertungsmatrix gemäß den vorgegebenen Typkodierungen auszufüllen. Insbesondere fehlt eine spezifische räumliche oder funktionale Beziehung zwischen \u0027Tochter\u0027 und anderen Elementen, die sich eindeutig einer der verfügbaren Typkodierungen (z. B. \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, \u0027perform\u0027, \u0027target\u0027) zuordnen ließe.",
+  "error": "Unvollständige Semantik",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Semantik\",\n  \"description\": \"Die Anfrage enthält keine hinreichend klaren Relationen zwischen den Begriffen, um alle erforderlichen Einträge in der Bewertungsmatrix gemäß den vorgegebenen Typkodierungen auszufüllen. Insbesondere fehlt eine spezifische räumliche oder funktionale Beziehung zwischen \u0027Tochter\u0027 und anderen Elementen, die sich eindeutig einer der verfügbaren Typkodierungen (z. B. \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, \u0027perform\u0027, \u0027target\u0027) zuordnen ließe.\"\n}"
+}

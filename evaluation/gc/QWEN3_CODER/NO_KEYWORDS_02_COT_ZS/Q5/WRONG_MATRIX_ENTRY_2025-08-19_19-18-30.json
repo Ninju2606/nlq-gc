@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      3,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\"ich\", \"gelben\", \"Hut\", \"trage\"]\n2. Relative Verweise aufgelöst: \"ich\" → \"Maria\"\n3. Stichwörter ins Englische übersetzt: [\"Maria\", \"wear\", \"yellow\", \"hat\"]\n4. Nutzeridentifikation ersetzt: \"ich\" → \"Maria\"\n5. Attributierungen erklärt: \"gelb\" ist ein Attribut des „Hut“\n6. Relationen erklärt: Maria führt die Handlung „tragen“ mit Bezug auf den „gelben Hut“. „Gelb“ ist ein Attribut des „Hut“.\n7. Typkodierungen gefunden für:\n- Maria (object, id: 1)\n- trage / wear (activity, id: 4)\n- gelb / yellow (synonym, id: 3)\n- Hut / hat (object, id: 1)\n- trage → Hut (perform, id: 8)\n- gelb → Hut (attached, id: 5)",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 5],\n    [0, 0, 3, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\\\"ich\\\", \\\"gelben\\\", \\\"Hut\\\", \\\"trage\\\"]\\n2. Relative Verweise aufgelöst: \\\"ich\\\" → \\\"Maria\\\"\\n3. Stichwörter ins Englische übersetzt: [\\\"Maria\\\", \\\"wear\\\", \\\"yellow\\\", \\\"hat\\\"]\\n4. Nutzeridentifikation ersetzt: \\\"ich\\\" → \\\"Maria\\\"\\n5. Attributierungen erklärt: \\\"gelb\\\" ist ein Attribut des „Hut“\\n6. Relationen erklärt: Maria führt die Handlung „tragen“ mit Bezug auf den „gelben Hut“. „Gelb“ ist ein Attribut des „Hut“.\\n7. Typkodierungen gefunden für:\\n- Maria (object, id: 1)\\n- trage / wear (activity, id: 4)\\n- gelb / yellow (synonym, id: 3)\\n- Hut / hat (object, id: 1)\\n- trage → Hut (perform, id: 8)\\n- gelb → Hut (attached, id: 5)\"\n}"
+}

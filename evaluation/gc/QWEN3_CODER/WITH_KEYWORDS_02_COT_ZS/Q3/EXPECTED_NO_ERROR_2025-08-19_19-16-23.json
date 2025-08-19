@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Das eingegebene Vokabular enthält 4 Begriffe: [\"maria\", \"swim\", \"own\", \"pool\"]. Die zugehörige Bewertungsmatrix müsste daher 4x4 sein. Jedoch wurde in der Aufgabe keine vollständige Matrix spezifiziert, weshalb die Erstellung nicht möglich ist.",
+  "error": "Die Anzahl der Vokabulareinträge und Matrixgröße stimmen nicht überein.",
+  "responsePlain": "{\n  \"error\": \"Die Anzahl der Vokabulareinträge und Matrixgröße stimmen nicht überein.\",\n  \"description\": \"Das eingegebene Vokabular enthält 4 Begriffe: [\\\"maria\\\", \\\"swim\\\", \\\"own\\\", \\\"pool\\\"]. Die zugehörige Bewertungsmatrix müsste daher 4x4 sein. Jedoch wurde in der Aufgabe keine vollständige Matrix spezifiziert, weshalb die Erstellung nicht möglich ist.\"\n}"
+}

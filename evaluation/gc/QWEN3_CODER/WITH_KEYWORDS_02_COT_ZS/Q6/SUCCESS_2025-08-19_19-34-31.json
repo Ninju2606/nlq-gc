@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine ausreichenden Informationen zur Bildung sinnvoller Relationen zwischen den Begriffen. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, die miteinander in Beziehung stehen.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage enthält keine ausreichenden Informationen zur Bildung sinnvoller Relationen zwischen den Begriffen. Es fehlen klare Angaben zu Objekten, Attributen oder Aktivitäten, die miteinander in Beziehung stehen.\"\n}"
+}

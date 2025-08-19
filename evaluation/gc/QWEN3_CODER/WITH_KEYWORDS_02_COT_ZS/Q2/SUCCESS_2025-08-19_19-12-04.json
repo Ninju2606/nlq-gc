@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es wurden keine aufgelösten relativen Verweise oder Identifikationen des Nutzers gefunden, da die Anfrage keine selbsterwähnenden Begriffe wie \"ich\" oder \"mein\" enthält. 2. Die Attributeigenschaften der Stichwörter sind: \"tim\" ist ein Objekt (object), \"run\" ist eine Aktivität (activity). 3. Die Beziehung zwischen den Stichwörtern ist, dass Tim (object) die Aktivität des Rennens (run) ausführt, was durch die Relation perform dargestellt wird. 4. Alle genannten Relationen existieren in den vorgegebenen Typkodierungen: object (id\u003d1), activity (id\u003d4), perform (id\u003d8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es wurden keine aufgelösten relativen Verweise oder Identifikationen des Nutzers gefunden, da die Anfrage keine selbsterwähnenden Begriffe wie \\\"ich\\\" oder \\\"mein\\\" enthält. 2. Die Attributeigenschaften der Stichwörter sind: \\\"tim\\\" ist ein Objekt (object), \\\"run\\\" ist eine Aktivität (activity). 3. Die Beziehung zwischen den Stichwörtern ist, dass Tim (object) die Aktivität des Rennens (run) ausführt, was durch die Relation perform dargestellt wird. 4. Alle genannten Relationen existieren in den vorgegebenen Typkodierungen: object (id\u003d1), activity (id\u003d4), perform (id\u003d8).\"\n}"
+}

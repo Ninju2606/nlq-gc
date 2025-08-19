@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\"Ich\", \"spiele\", \"Basketball\"].\n2. Relative Verweise aufgelöst: \"Ich\" bezieht sich auf die Nutzeridentifikation.\n3. Stichwörter ins Englische übersetzt: [\"Ich\" → \"Maria\", \"spiele\" → \"play\", \"Basketball\" → \"basketball\"].\n4. Identifikation des Nutzers ersetzt: \"Ich\" → \"Maria\".\n5. Attributeigenschaften erklärt: \"Maria\" ist ein Objekt (object), \"play\" ist eine Aktivität (activity), \"basketball\" ist ein Objekt (object).\n6. Relationen erklärt: Maria führt die Aktivität \"play\" aus (perform). \"Play\" hat das Ziel oder Objekt \"basketball\" (target).\n7. Typkodierungen gefunden: \"Maria\" → object (1), \"play\" → activity (4), \"basketball\" → object (1), \"perform\" → 8, \"target\" → 9. Alle Relationen konnten abgebildet werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\\\"Ich\\\", \\\"spiele\\\", \\\"Basketball\\\"].\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" bezieht sich auf die Nutzeridentifikation.\\n3. Stichwörter ins Englische übersetzt: [\\\"Ich\\\" → \\\"Maria\\\", \\\"spiele\\\" → \\\"play\\\", \\\"Basketball\\\" → \\\"basketball\\\"].\\n4. Identifikation des Nutzers ersetzt: \\\"Ich\\\" → \\\"Maria\\\".\\n5. Attributeigenschaften erklärt: \\\"Maria\\\" ist ein Objekt (object), \\\"play\\\" ist eine Aktivität (activity), \\\"basketball\\\" ist ein Objekt (object).\\n6. Relationen erklärt: Maria führt die Aktivität \\\"play\\\" aus (perform). \\\"Play\\\" hat das Ziel oder Objekt \\\"basketball\\\" (target).\\n7. Typkodierungen gefunden: \\\"Maria\\\" → object (1), \\\"play\\\" → activity (4), \\\"basketball\\\" → object (1), \\\"perform\\\" → 8, \\\"target\\\" → 9. Alle Relationen konnten abgebildet werden.\"\n}"
+}

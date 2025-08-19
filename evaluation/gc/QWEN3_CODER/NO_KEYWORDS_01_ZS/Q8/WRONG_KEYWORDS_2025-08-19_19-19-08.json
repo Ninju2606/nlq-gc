@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      7,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist als „daughter“ (Tochter, Typ 10) definiert. Maria und Tochter sind Objekte (Typ 1). Das Boot ist ein Objekt (Typ 1) und befindet sich auf dem See („above“ See, Typ 7). Der See ist ein Objekt (Typ 1) und das Boot ist über ihm („under“ Boot, Typ 6).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 0],\n    [10, 1, 0, 0],\n    [0, 0, 1, 6],\n    [0, 0, 7, 1]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung zwischen Maria und Tochter ist als „daughter“ (Tochter, Typ 10) definiert. Maria und Tochter sind Objekte (Typ 1). Das Boot ist ein Objekt (Typ 1) und befindet sich auf dem See („above“ See, Typ 7). Der See ist ein Objekt (Typ 1) und das Boot ist über ihm („under“ Boot, Typ 6).\"\n}"
+}

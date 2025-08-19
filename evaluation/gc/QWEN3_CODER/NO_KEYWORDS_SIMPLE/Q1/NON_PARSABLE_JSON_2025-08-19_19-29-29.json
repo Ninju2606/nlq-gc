@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"spiele\", \"Basketball\"],\n  \"matrix\": [\n    [0, 8, 9],\n    [0, 0, 4],\n    [0, 0, 0]\n  ]\n}\n \n\n### Erläuterung:\n\n- **\"Ich\"** ist das Subjekt, das eine **Aktivität** (\"spiele\") **ausführt** → Beziehung **perform (8)**.\n- **\"spiele\"** steht in einer **Aktivitätsbeziehung (4)** zu **\"Basketball\"**, da es sich um eine Handlung mit diesem Objekt handelt.\n- **\"Basketball\"** ist das Ziel / das Objekt der Handlung → Beziehung **target (9)** von \"Ich\" zu \"Basketball\".\n\nDie restlichen Einträge der Matrix sind `0`, da keine weiteren Beziehungen bestehen. \n\n#### Typzuordnungen (gemäß Liste):\n- **8** \u003d perform\n- **9** \u003d target\n- **4** \u003d activity\n\nMöchtest du eine andere Satzstruktur oder mehrere Sätze verarbeitet haben, sende sie einfach mit!"
+}

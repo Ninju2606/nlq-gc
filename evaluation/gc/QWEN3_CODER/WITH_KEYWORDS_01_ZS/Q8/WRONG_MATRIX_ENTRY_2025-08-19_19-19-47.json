@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "Die Nutzerin Maria und ihre Tochter (als Person) fahren (drive) mit einem Boot (boat) auf einem See (lake).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 0, 0],\n    [5, 1, 8, 0, 0],\n    [8, 8, 4, 0, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 6, 2]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter (als Person) fahren (drive) mit einem Boot (boat) auf einem See (lake).\"\n}"
+}

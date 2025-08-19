@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. \u0027meinem\u0027 wurde als Possessivpronomen interpretiert und auf \u0027own\u0027 abgebildet.\n2. Die Attributeigenschaften der Stichwörter sind:\n   - \u0027maria\u0027: Typ \u0027object\u0027 (Identifikation des Nutzers)\n   - \u0027swim\u0027: Typ \u0027activity\u0027 (Tätigkeit)\n   - \u0027own\u0027: Typ \u0027object\u0027 (Eigentumsangabe)\n   - \u0027pool\u0027: Typ \u0027object\u0027 (Objekt)\n3. Die Relationen zwischen den Stichwörtern sind:\n   - maria -\u003e swim: Nutzer führt die Aktivität aus (\u0027perform\u0027)\n   - swim -\u003e pool: Aktivität wird auf das Objekt angewandt (\u0027target\u0027)\n   - own -\u003e pool: Beziehung des Besitzes (\u0027attached\u0027)\n   - maria -\u003e own: Implizite Verknüpfung über \"mein\"\n4. Alle benötigten Relationen finden sich in den Typkodierungen:\n   - perform: ID 8\n   - target: ID 9\n   - attached: ID 5",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. \u0027meinem\u0027 wurde als Possessivpronomen interpretiert und auf \u0027own\u0027 abgebildet.\\n2. Die Attributeigenschaften der Stichwörter sind:\\n   - \u0027maria\u0027: Typ \u0027object\u0027 (Identifikation des Nutzers)\\n   - \u0027swim\u0027: Typ \u0027activity\u0027 (Tätigkeit)\\n   - \u0027own\u0027: Typ \u0027object\u0027 (Eigentumsangabe)\\n   - \u0027pool\u0027: Typ \u0027object\u0027 (Objekt)\\n3. Die Relationen zwischen den Stichwörtern sind:\\n   - maria -\u003e swim: Nutzer führt die Aktivität aus (\u0027perform\u0027)\\n   - swim -\u003e pool: Aktivität wird auf das Objekt angewandt (\u0027target\u0027)\\n   - own -\u003e pool: Beziehung des Besitzes (\u0027attached\u0027)\\n   - maria -\u003e own: Implizite Verknüpfung über \\\"mein\\\"\\n4. Alle benötigten Relationen finden sich in den Typkodierungen:\\n   - perform: ID 8\\n   - target: ID 9\\n   - attached: ID 5\"\n}"
+}

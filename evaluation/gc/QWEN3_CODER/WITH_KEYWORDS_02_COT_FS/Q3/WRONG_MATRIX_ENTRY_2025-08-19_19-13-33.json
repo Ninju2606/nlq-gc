@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der relative Verweis \\\"mir\\\" wurde durch die Identifikation des Nutzers \\\"Maria\\\" ersetzt.\n        2. \\\"Maria\\\" ist eine Person und somit ein Objekt (object), \\\"swim\\\" ist eine Aktivität (activity), \\\"own\\\" ist eine Verbindung (attached), \\\"pool\\\" ist ein Objekt (object).\n        3. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"Maria\\\" steht in Relation zu \\\"pool\\\" durch \\\"own\\\". \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"own\\\" bezieht sich auf \\\"pool\\\".\n        4. Die ID für object ist 1. Die ID für activity ist 4. Die ID für perform ist 8. Die ID für attached ist 5. Die ID für target ist 9. Alle Relationen sind in den Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 4, 0],\n    [0, 0, 5, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\\\\\"mir\\\\\\\" wurde durch die Identifikation des Nutzers \\\\\\\"Maria\\\\\\\" ersetzt.\\n        2. \\\\\\\"Maria\\\\\\\" ist eine Person und somit ein Objekt (object), \\\\\\\"swim\\\\\\\" ist eine Aktivität (activity), \\\\\\\"own\\\\\\\" ist eine Verbindung (attached), \\\\\\\"pool\\\\\\\" ist ein Objekt (object).\\n        3. \\\\\\\"Maria\\\\\\\" führt die Aktivität \\\\\\\"swim\\\\\\\" aus. \\\\\\\"Maria\\\\\\\" steht in Relation zu \\\\\\\"pool\\\\\\\" durch \\\\\\\"own\\\\\\\". \\\\\\\"swim\\\\\\\" bezieht sich auf \\\\\\\"pool\\\\\\\". \\\\\\\"own\\\\\\\" bezieht sich auf \\\\\\\"pool\\\\\\\".\\n        4. Die ID für object ist 1. Die ID für activity ist 4. Die ID für perform ist 8. Die ID für attached ist 5. Die ID für target ist 9. Alle Relationen sind in den Typkodierungen enthalten.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist als Objekt (Typ 1) definiert und führt die Aktivität \u0027tragen\u0027 (Typ 8) mit dem Objekt \u0027Hut\u0027 (Typ 1) aus. \u0027Hut\u0027 ist gelb (Typ 2), und die Beziehung zwischen \u0027gelb\u0027 und \u0027Hut\u0027 ist als \u0027attached\u0027 (Typ 5) kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 5],\n    [0, 0, 2, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist als Objekt (Typ 1) definiert und führt die Aktivität \u0027tragen\u0027 (Typ 8) mit dem Objekt \u0027Hut\u0027 (Typ 1) aus. \u0027Hut\u0027 ist gelb (Typ 2), und die Beziehung zwischen \u0027gelb\u0027 und \u0027Hut\u0027 ist als \u0027attached\u0027 (Typ 5) kodiert.\"\n}"
+}

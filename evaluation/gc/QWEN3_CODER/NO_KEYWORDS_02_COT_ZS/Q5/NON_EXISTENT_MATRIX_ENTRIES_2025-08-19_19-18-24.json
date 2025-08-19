@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027gelben Hut\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 → \u0027Maria\u0027.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027gelben Hut\u0027 → \u0027yellow hat\u0027.\n4. Die Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\n5. Attribut-Eigenschaften wurden erklärt: \u0027gelb\u0027 ist eine charakteristische Eigenschaft (characteristic), \u0027Hut\u0027 ist ein Objekt (object).\n6. Die Relationen wurden erklärt: Maria führt eine Aktivität (tragen) mit dem Hut; der Hut hat die Eigenschaft \u0027gelb\u0027.\n7. Für alle Relationen wurden passende Typkodierungen gefunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027ich\u0027, \u0027gelben Hut\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 → \u0027Maria\u0027.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027gelben Hut\u0027 → \u0027yellow hat\u0027.\\n4. Die Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 → \u0027Maria\u0027.\\n5. Attribut-Eigenschaften wurden erklärt: \u0027gelb\u0027 ist eine charakteristische Eigenschaft (characteristic), \u0027Hut\u0027 ist ein Objekt (object).\\n6. Die Relationen wurden erklärt: Maria führt eine Aktivität (tragen) mit dem Hut; der Hut hat die Eigenschaft \u0027gelb\u0027.\\n7. Für alle Relationen wurden passende Typkodierungen gefunden.\"\n}"
+}

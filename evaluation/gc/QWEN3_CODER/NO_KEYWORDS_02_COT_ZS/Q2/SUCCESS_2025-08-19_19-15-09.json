@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind: \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es liegen keine relativen Verweise vor, die aufgelöst werden müssten.\n3. Die Übersetzung der Stichwörter ins Englische ergibt: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigenname), \u0027rennt\u0027 wird zu \u0027run\u0027.\n4. Es kommen keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor. Daher kann die Identifikation des Nutzers \u0027Maria\u0027 ignoriert werden.\n5. Attributierungen: \u0027Tim\u0027 ist eine Entität (object), \u0027run\u0027 ist eine Aktivität (activity).\n6. Die Relation zwischen den Stichwörtern ist: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Daher besteht eine Beziehung des Typs \u0027perform\u0027 zwischen \u0027Tim\u0027 und \u0027run\u0027.\n7. Für die ermittelten Beziehungen gibt es passende Typkodierungen:\n   - \u0027Tim\u0027 (object) → Typkodierung 1 (object)\n   - \u0027run\u0027 (activity) → Typkodierung 4 (activity)\n   - Beziehung \u0027Tim\u0027 → \u0027run\u0027: Typkodierung 8 (\u0027perform\u0027)\n   - Die Einheitsdiagonale ist gültig, da für \u0027Tim\u0027 (id\u003d1) und \u0027run\u0027 (id\u003d4) die Eigenschaft identityMapping\u003dtrue gilt.\n   - Für die Beziehung \u0027perform\u0027 (id\u003d8), die außerhalb der Diagonale steht, gilt identityMapping\u003dfalse.\n   - Alle Bedingungen sind erfüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind: \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es liegen keine relativen Verweise vor, die aufgelöst werden müssten.\\n3. Die Übersetzung der Stichwörter ins Englische ergibt: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigenname), \u0027rennt\u0027 wird zu \u0027run\u0027.\\n4. Es kommen keine selbst-identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor. Daher kann die Identifikation des Nutzers \u0027Maria\u0027 ignoriert werden.\\n5. Attributierungen: \u0027Tim\u0027 ist eine Entität (object), \u0027run\u0027 ist eine Aktivität (activity).\\n6. Die Relation zwischen den Stichwörtern ist: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Daher besteht eine Beziehung des Typs \u0027perform\u0027 zwischen \u0027Tim\u0027 und \u0027run\u0027.\\n7. Für die ermittelten Beziehungen gibt es passende Typkodierungen:\\n   - \u0027Tim\u0027 (object) → Typkodierung 1 (object)\\n   - \u0027run\u0027 (activity) → Typkodierung 4 (activity)\\n   - Beziehung \u0027Tim\u0027 → \u0027run\u0027: Typkodierung 8 (\u0027perform\u0027)\\n   - Die Einheitsdiagonale ist gültig, da für \u0027Tim\u0027 (id\u003d1) und \u0027run\u0027 (id\u003d4) die Eigenschaft identityMapping\u003dtrue gilt.\\n   - Für die Beziehung \u0027perform\u0027 (id\u003d8), die außerhalb der Diagonale steht, gilt identityMapping\u003dfalse.\\n   - Alle Bedingungen sind erfüllt.\"\n}"
+}

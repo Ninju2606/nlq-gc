@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027]. 2. Relative Verweise aufgelöst: \u0027mir\u0027 bezieht sich auf den Nutzer. 3. Stichwörter ins Englische übersetzt: [\u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027, \u0027Maria\u0027]. 4. Identifikation des Nutzers ersetzt: \u0027ich\u0027 bzw. \u0027mir\u0027 wurde durch \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027]. 2. Relative Verweise aufgelöst: \u0027mir\u0027 bezieht sich auf den Nutzer. 3. Stichwörter ins Englische übersetzt: [\u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027, \u0027Maria\u0027]. 4. Identifikation des Nutzers ersetzt: \u0027ich\u0027 bzw. \u0027mir\u0027 wurde durch \u0027Maria\u0027 ersetzt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen Hut trägt, der gelb ist. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist vom Typ \u0027perform\u0027 (8), \u0027wear\u0027 ist eine Aktivität (4), \u0027hat\u0027 ist ein Objekt (1) und steht in der Beziehung \u0027attached\u0027 (5) zu \u0027yellow\u0027, was eine characteristic (14) darstellt. Allerdings fehlt die korrekte Verknüpfung von \u0027yellow\u0027 als Attribut des Huts, da \u0027characteristic\u0027 nicht als Relation zwischen \u0027hat\u0027 und \u0027yellow\u0027 verwendet wurde. Daher wird hier ein Fehler erzeugt, weil keine passende Relation zwischen \u0027hat\u0027 und \u0027yellow\u0027 gefunden wurde.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 0, 0],\n        [0, 0, 1, 5],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen Hut trägt, der gelb ist. Die Beziehung zwischen \u0027maria\u0027 und \u0027wear\u0027 ist vom Typ \u0027perform\u0027 (8), \u0027wear\u0027 ist eine Aktivität (4), \u0027hat\u0027 ist ein Objekt (1) und steht in der Beziehung \u0027attached\u0027 (5) zu \u0027yellow\u0027, was eine characteristic (14) darstellt. Allerdings fehlt die korrekte Verknüpfung von \u0027yellow\u0027 als Attribut des Huts, da \u0027characteristic\u0027 nicht als Relation zwischen \u0027hat\u0027 und \u0027yellow\u0027 verwendet wurde. Daher wird hier ein Fehler erzeugt, weil keine passende Relation zwischen \u0027hat\u0027 und \u0027yellow\u0027 gefunden wurde.\"\n}"
+}

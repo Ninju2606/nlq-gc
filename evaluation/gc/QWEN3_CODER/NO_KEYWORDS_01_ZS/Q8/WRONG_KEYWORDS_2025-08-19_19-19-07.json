@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      8
+    ],
+    [
+      10,
+      1,
+      8,
+      6
+    ],
+    [
+      8,
+      8,
+      1,
+      6
+    ],
+    [
+      8,
+      6,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Szene: Maria und ihre Tochter fahren mit dem Boot auf einem See.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 8],\n    [10, 1, 8, 6],\n    [8, 8, 1, 6],\n    [8, 6, 6, 1]\n  ],\n  \"description\": \"GraphCode für die Szene: Maria und ihre Tochter fahren mit dem Boot auf einem See.\"\n}"
+}

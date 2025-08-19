@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer führt eine Aktivität (schwimmen) in Bezug auf ein Objekt (Pool) aus. Die Nutzeridentifikation \u0027Maria\u0027 wird verwendet, um die selbstreferenzierende Aussage \u0027Ich schwimme in meinem Pool\u0027 korrekt abzubilden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer führt eine Aktivität (schwimmen) in Bezug auf ein Objekt (Pool) aus. Die Nutzeridentifikation \u0027Maria\u0027 wird verwendet, um die selbstreferenzierende Aussage \u0027Ich schwimme in meinem Pool\u0027 korrekt abzubilden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: maria\u003dobject, swim\u003dactivity, own\u003dattached, pool\u003dobject. 3. Beziehungen: maria -\u003e swim (perform), maria -\u003e pool (attached), swim -\u003e pool (target), own beschreibt eine Beziehung zwischen maria und pool im Kontext. 4. Alle Relationen haben gültige Typkodierungen: perform\u003d8, attached\u003d5, target\u003d9, object\u003d1, activity\u003d4, context\u003d2.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: maria\u003dobject, swim\u003dactivity, own\u003dattached, pool\u003dobject. 3. Beziehungen: maria -\u003e swim (perform), maria -\u003e pool (attached), swim -\u003e pool (target), own beschreibt eine Beziehung zwischen maria und pool im Kontext. 4. Alle Relationen haben gültige Typkodierungen: perform\u003d8, attached\u003d5, target\u003d9, object\u003d1, activity\u003d4, context\u003d2.\"\n}"
+}

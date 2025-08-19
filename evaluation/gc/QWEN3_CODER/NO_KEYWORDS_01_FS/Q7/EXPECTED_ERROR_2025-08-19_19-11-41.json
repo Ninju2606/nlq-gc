@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      9
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (Identifikation des Nutzers) eine Aktivität ausführt. Die Matrix kodiert die Beziehungen zwischen den Begriffen: Maria führt die Tätigkeit \u0027paint\u0027 aus, wobei \u0027question\u0027 das Ziel (\u0027target\u0027) dieser Aktivität ist. Das Objekt \u0027house\u0027 ist nicht direkt in der Aktivität enthalten, wird aber im Vokabular aufgeführt, um den Kontext abzubilden.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n    \"matrix\": [\n        [1, 0, 7, 9],\n        [0, 1, 0, 0],\n        [0, 0, 9, 8],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (Identifikation des Nutzers) eine Aktivität ausführt. Die Matrix kodiert die Beziehungen zwischen den Begriffen: Maria führt die Tätigkeit \u0027paint\u0027 aus, wobei \u0027question\u0027 das Ziel (\u0027target\u0027) dieser Aktivität ist. Das Objekt \u0027house\u0027 ist nicht direkt in der Aktivität enthalten, wird aber im Vokabular aufgeführt, um den Kontext abzubilden.\"\n}"
+}

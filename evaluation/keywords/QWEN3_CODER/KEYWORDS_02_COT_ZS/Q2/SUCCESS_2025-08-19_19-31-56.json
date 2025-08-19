@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte eine Szene finden, in der Tim rennt. Es werden die Begriffe \"Tim\" und \"rennen\" (verallgemeinert zu \"run\") ins Vokabular aufgenommen. Da keine selbstidentifizierenden Begriffe wie \"ich\" oder \"mein\" verwendet wurden, bleibt die Identifikation des Nutzers unberücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Der Nutzer möchte eine Szene finden, in der Tim rennt. Es werden die Begriffe \\\"Tim\\\" und \\\"rennen\\\" (verallgemeinert zu \\\"run\\\") ins Vokabular aufgenommen. Da keine selbstidentifizierenden Begriffe wie \\\"ich\\\" oder \\\"mein\\\" verwendet wurden, bleibt die Identifikation des Nutzers unberücksichtigt.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "Der GraphCode wurde aus der Nutzeranfrage \"Ich spiele Basketball\" generiert. Die Identifikation des Nutzers ist \"maria\". Die Beziehung zwischen den Begriffen wurde durch die vorgegebenen Typkodierungen abgebildet, wobei \"maria\" als Objekt, \"play\" als Aktivität und \"basketball\" als Objekt klassifiziert wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Nutzeranfrage \\\"Ich spiele Basketball\\\" generiert. Die Identifikation des Nutzers ist \\\"maria\\\". Die Beziehung zwischen den Begriffen wurde durch die vorgegebenen Typkodierungen abgebildet, wobei \\\"maria\\\" als Objekt, \\\"play\\\" als Aktivität und \\\"basketball\\\" als Objekt klassifiziert wurde.\"\n}"
+}

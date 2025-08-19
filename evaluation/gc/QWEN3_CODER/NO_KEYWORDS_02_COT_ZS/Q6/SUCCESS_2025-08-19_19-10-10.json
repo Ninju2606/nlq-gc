@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die für die Generierung eines GraphCodes nutzbar wären. Insbesondere fehlen Angaben zu: Beteiligten Personen (außer der impliziten Selbstreferenz), Aktivitäten, räumlichen oder sachlichen Kontexten sowie Beziehungen zwischen Entitäten. Somit ist eine Abbildung in einen GraphCode nicht möglich.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen, um sinnvolle Szeneninhalte oder Beziehungen für einen GraphCode abzuleiten.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen, um sinnvolle Szeneninhalte oder Beziehungen für einen GraphCode abzuleiten.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die für die Generierung eines GraphCodes nutzbar wären. Insbesondere fehlen Angaben zu: Beteiligten Personen (außer der impliziten Selbstreferenz), Aktivitäten, räumlichen oder sachlichen Kontexten sowie Beziehungen zwischen Entitäten. Somit ist eine Abbildung in einen GraphCode nicht möglich.\"\n}"
+}

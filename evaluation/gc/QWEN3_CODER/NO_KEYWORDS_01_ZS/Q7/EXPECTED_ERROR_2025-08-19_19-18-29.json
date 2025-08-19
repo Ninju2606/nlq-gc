@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0
+    ],
+    [
+      5,
+      1,
+      9,
+      0
+    ],
+    [
+      8,
+      9,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (\u0027perform\u0027) die Aktivität \u0027paint\u0027 ausführt. Die \u0027question\u0027 ist das Ziel (\u0027target\u0027) dieser Aktivität, und \u0027house\u0027 ist mit (\u0027attached\u0027) der \u0027question\u0027 verknüpft. Maria ist als Akteur ebenfalls Teil des GraphCodes.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\", \"Maria\"],\n  \"matrix\": [\n    [1, 5, 8, 0],\n    [5, 1, 9, 0],\n    [8, 9, 4, 8],\n    [0, 0, 8, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (\u0027perform\u0027) die Aktivität \u0027paint\u0027 ausführt. Die \u0027question\u0027 ist das Ziel (\u0027target\u0027) dieser Aktivität, und \u0027house\u0027 ist mit (\u0027attached\u0027) der \u0027question\u0027 verknüpft. Maria ist als Akteur ebenfalls Teil des GraphCodes.\"\n}"
+}

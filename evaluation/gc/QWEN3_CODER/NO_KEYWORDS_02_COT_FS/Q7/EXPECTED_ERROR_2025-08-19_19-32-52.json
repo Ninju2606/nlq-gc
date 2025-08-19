@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Häuser\", \"Fragen\", \"malen\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"house\", \"question\", \"paint\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"house\", \"question\", \"paint\".\n        5. \"Maria\", \"house\" und \"question\" sind Objekte der Anfrage. \"paint\" ist eine Aktivität.\n        6. Es wird keine direkte Relation zwischen \"Maria\" und anderen Begriffen beschrieben. \"paint\" bezieht sich auf \"question\". \"house\" steht isoliert.\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"house\", \"question\", \"paint\"],\n    \"matrix\": [\n        [1, 0, 0, 0],\n        [0, 1, 0, 0],\n        [0, 0, 1, 0],\n        [0, 0, 9, 8]\n    ],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"Fragen\\\", \\\"malen\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"house\\\", \\\"question\\\", \\\"paint\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"house\\\", \\\"question\\\", \\\"paint\\\".\\n        5. \\\"Maria\\\", \\\"house\\\" und \\\"question\\\" sind Objekte der Anfrage. \\\"paint\\\" ist eine Aktivität.\\n        6. Es wird keine direkte Relation zwischen \\\"Maria\\\" und anderen Begriffen beschrieben. \\\"paint\\\" bezieht sich auf \\\"question\\\". \\\"house\\\" steht isoliert.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.\"\n}"
+}

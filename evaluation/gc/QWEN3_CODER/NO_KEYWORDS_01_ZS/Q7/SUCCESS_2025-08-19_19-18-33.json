@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch wirr oder unklar. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die eine Szene im Metaverse beschreiben. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Unklare Anfrage oder fehlende Szenenbeschreibung",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage oder fehlende Szenenbeschreibung\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch wirr oder unklar. Es fehlen spezifische Objekte, Attribute oder Aktivitäten, die eine Szene im Metaverse beschreiben. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

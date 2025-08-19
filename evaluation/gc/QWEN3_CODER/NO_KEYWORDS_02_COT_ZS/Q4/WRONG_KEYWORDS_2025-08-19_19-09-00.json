@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"].\n2. Relative Verweise aufgelöst: \"Ich\" und \"meinem\" referenzieren den Nutzer → \"Maria\".\n3. Stichwörter ins Englische übersetzt: [\"Maria\", \"swim\", \"pool\"].\n4. Identifikation des Nutzers ersetzt: \"Ich\" → \"Maria\".\n5. Attributeigenschaften erklärt: \n   - \"Maria\": Typ \u0027object\u0027 (Person/Objekt).\n   - \"swim\": Typ \u0027activity\u0027 (Aktivität).\n   - \"pool\": Typ \u0027object\u0027 (Objekt).\n6. Relationen erklärt:\n   - Maria führt die Aktivität \"swim\" aus → Typ \u0027perform\u0027 (Relation 8).\n   - Maria befindet sich am oder in \"pool\" → Typ \u0027attached\u0027 (Relation 5).\n   - \"swim\" hat das Ziel \"pool\" → Typ \u0027target\u0027 (Relation 9).\n7. Alle Relationen haben gültige Einträge in den Typkodierungen.\n   - perform \u003d 8\n   - attached \u003d 5\n   - target \u003d 9",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\\\"Ich\\\", \\\"schwimme\\\", \\\"meinem\\\", \\\"Pool\\\"].\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" und \\\"meinem\\\" referenzieren den Nutzer → \\\"Maria\\\".\\n3. Stichwörter ins Englische übersetzt: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\"].\\n4. Identifikation des Nutzers ersetzt: \\\"Ich\\\" → \\\"Maria\\\".\\n5. Attributeigenschaften erklärt: \\n   - \\\"Maria\\\": Typ \u0027object\u0027 (Person/Objekt).\\n   - \\\"swim\\\": Typ \u0027activity\u0027 (Aktivität).\\n   - \\\"pool\\\": Typ \u0027object\u0027 (Objekt).\\n6. Relationen erklärt:\\n   - Maria führt die Aktivität \\\"swim\\\" aus → Typ \u0027perform\u0027 (Relation 8).\\n   - Maria befindet sich am oder in \\\"pool\\\" → Typ \u0027attached\u0027 (Relation 5).\\n   - \\\"swim\\\" hat das Ziel \\\"pool\\\" → Typ \u0027target\u0027 (Relation 9).\\n7. Alle Relationen haben gültige Einträge in den Typkodierungen.\\n   - perform \u003d 8\\n   - attached \u003d 5\\n   - target \u003d 9\"\n}"
+}

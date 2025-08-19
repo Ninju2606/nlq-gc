@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      6
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer schwimmt in einem Pool, der ihm gehört. Die Beziehung zwischen den Begriffen ist wie folgt: Maria (object) -\u003e swim (activity) mit perform (7), swim (activity) -\u003e pool (object) mit target (8), und pool (object) -\u003e pool (object) bleibt als object (1). Der Pool ist der Ort, in dem geschwommen wird, daher ist die Beziehung swim -\u003e pool mit target gekennzeichnet. Die Zugehörigkeit des Pools wird implizit durch die Nutzung des Benutzernamens in der Anfrage dargestellt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"matrix\": [[1, 7, 6], [0, 4, 8], [0, 0, 1]],\n    \"description\": \"Der Nutzer schwimmt in einem Pool, der ihm gehört. Die Beziehung zwischen den Begriffen ist wie folgt: Maria (object) -\u003e swim (activity) mit perform (7), swim (activity) -\u003e pool (object) mit target (8), und pool (object) -\u003e pool (object) bleibt als object (1). Der Pool ist der Ort, in dem geschwommen wird, daher ist die Beziehung swim -\u003e pool mit target gekennzeichnet. Die Zugehörigkeit des Pools wird implizit durch die Nutzung des Benutzernamens in der Anfrage dargestellt.\"\n}"
+}

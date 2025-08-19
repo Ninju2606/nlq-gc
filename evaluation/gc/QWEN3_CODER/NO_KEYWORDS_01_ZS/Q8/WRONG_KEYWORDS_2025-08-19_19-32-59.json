@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      6
+    ],
+    [
+      10,
+      1,
+      8,
+      6
+    ],
+    [
+      5,
+      5,
+      1,
+      2
+    ],
+    [
+      7,
+      7,
+      4,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix kodiert die Beziehungen: Maria (Nutzer) ist \u0027daughter\u0027 (Tochter), \u0027perform\u0027 (fahren) mit \u0027boat\u0027 (Boot), das sich \u0027above\u0027 (auf) dem \u0027lake\u0027 (See) befindet. Die Typkodierungen entsprechen den Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 6],\n    [10, 1, 8, 6],\n    [5, 5, 1, 2],\n    [7, 7, 4, 2]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix kodiert die Beziehungen: Maria (Nutzer) ist \u0027daughter\u0027 (Tochter), \u0027perform\u0027 (fahren) mit \u0027boat\u0027 (Boot), das sich \u0027above\u0027 (auf) dem \u0027lake\u0027 (See) befindet. Die Typkodierungen entsprechen den Regeln.\"\n}"
+}

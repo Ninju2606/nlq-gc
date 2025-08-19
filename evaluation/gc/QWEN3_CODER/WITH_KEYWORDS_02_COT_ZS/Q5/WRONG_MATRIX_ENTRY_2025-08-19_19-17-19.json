@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer verwendet \u0027ich\u0027 in seiner Anfrage. Dieser relative Verweis wurde aufgelöst und durch die vorgegebene Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist ein Attribut (characteristic). 3. Die Beziehungen: maria -\u003e wear (perform), wear -\u003e hat (target), hat -\u003e yellow (attached). 4. Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen enthalten: maria (object, id\u003d1), wear (activity, id\u003d4), hat (object, id\u003d1), yellow (characteristic, id\u003d14), perform (id\u003d8), target (id\u003d9), attached (id\u003d5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet \u0027ich\u0027 in seiner Anfrage. Dieser relative Verweis wurde aufgelöst und durch die vorgegebene Identifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist ein Attribut (characteristic). 3. Die Beziehungen: maria -\u003e wear (perform), wear -\u003e hat (target), hat -\u003e yellow (attached). 4. Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen enthalten: maria (object, id\u003d1), wear (activity, id\u003d4), hat (object, id\u003d1), yellow (characteristic, id\u003d14), perform (id\u003d8), target (id\u003d9), attached (id\u003d5).\"\n}"
+}

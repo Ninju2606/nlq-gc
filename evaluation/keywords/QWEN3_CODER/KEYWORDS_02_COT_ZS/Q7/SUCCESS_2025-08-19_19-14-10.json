@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage „Häuser um Fragen zu malen“ wurde verarbeitet. Es wurden die Stichwörter identifiziert, ins Englische übersetzt und keine relativen Verweise oder selbstreferenziellen Ausdrücke gefunden. Die Identifikation des Nutzers (Maria) war nicht relevant.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"question\", \"paint\"],\n    \"description\": \"Die Nutzeranfrage „Häuser um Fragen zu malen“ wurde verarbeitet. Es wurden die Stichwörter identifiziert, ins Englische übersetzt und keine relativen Verweise oder selbstreferenziellen Ausdrücke gefunden. Die Identifikation des Nutzers (Maria) war nicht relevant.\"\n}"
+}

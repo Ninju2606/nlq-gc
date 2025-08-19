@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält eine implizite Beziehung (\u0027Meine Tochter\u0027) welche nicht durch das gegebene Vokabular abgedeckt ist. Es gibt keinen Eintrag \u0027daughter\u0027 im Vokabular und somit kann die zugehörige Beziehung zur Nutzeridentifikation \u0027maria\u0027 nicht korrekt typisiert werden.",
+  "error": "Unvollständige semantische Zuordnung: Der Begriff \u0027Meine Tochter\u0027 lässt sich nicht direkt auf die vorgegebenen Vokabulareinträge abbilden. Es fehlt eine eindeutige Abbildung auf \u0027daughter\u0027 im Vokabular sowie die entsprechende Beziehung zur Nutzeridentifikation \u0027maria\u0027.",
+  "responsePlain": "{\n  \"error\": \"Unvollständige semantische Zuordnung: Der Begriff \u0027Meine Tochter\u0027 lässt sich nicht direkt auf die vorgegebenen Vokabulareinträge abbilden. Es fehlt eine eindeutige Abbildung auf \u0027daughter\u0027 im Vokabular sowie die entsprechende Beziehung zur Nutzeridentifikation \u0027maria\u0027.\",\n  \"description\": \"Die Anfrage enthält eine implizite Beziehung (\u0027Meine Tochter\u0027) welche nicht durch das gegebene Vokabular abgedeckt ist. Es gibt keinen Eintrag \u0027daughter\u0027 im Vokabular und somit kann die zugehörige Beziehung zur Nutzeridentifikation \u0027maria\u0027 nicht korrekt typisiert werden.\"\n}"
+}

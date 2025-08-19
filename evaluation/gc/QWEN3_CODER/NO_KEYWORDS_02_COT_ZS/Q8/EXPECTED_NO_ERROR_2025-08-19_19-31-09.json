@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält grammatikalisch verwirrende Elemente oder unklare Formulierungen, weshalb kein sinnvoller GraphCode generiert werden kann. Konkret: \u0027fahren Boot\u0027 ist nicht eindeutig – es fehlt eine klare Aktivität wie z. B. \u0027bootfahren\u0027 oder \u0027schwimmen\u0027. Bitte präzisieren.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage enthält grammatikalisch verwirrende Elemente oder unklare Formulierungen, weshalb kein sinnvoller GraphCode generiert werden kann. Konkret: \u0027fahren Boot\u0027 ist nicht eindeutig – es fehlt eine klare Aktivität wie z. B. \u0027bootfahren\u0027 oder \u0027schwimmen\u0027. Bitte präzisieren.\"\n}"
+}

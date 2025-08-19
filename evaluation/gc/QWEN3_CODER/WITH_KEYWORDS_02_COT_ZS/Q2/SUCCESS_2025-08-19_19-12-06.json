@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine aufgelösten relativen Verweise oder Selbstanzeigen des Nutzers in der Anfrage. Daher wird die Identifikation \u0027Maria\u0027 nicht verwendet. 2. Attributierungen der Stichwörter: \u0027tim\u0027 ist vom Typ \u0027object\u0027 (Person), \u0027run\u0027 ist vom Typ \u0027activity\u0027 (Tätigkeit). 3. Die Beziehung zwischen den Stichwörtern ist, dass \u0027tim\u0027 die Tätigkeit \u0027run\u0027 ausführt. 4. Für die Relationen existieren passende Typkodierungen: \u0027object\u0027 (ID 1) und \u0027activity\u0027 (ID 4) für die Diagonalelemente, sowie \u0027perform\u0027 (ID 8) für die Beziehung von Subjekt zu Aktivität.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es gibt keine aufgelösten relativen Verweise oder Selbstanzeigen des Nutzers in der Anfrage. Daher wird die Identifikation \u0027Maria\u0027 nicht verwendet. 2. Attributierungen der Stichwörter: \u0027tim\u0027 ist vom Typ \u0027object\u0027 (Person), \u0027run\u0027 ist vom Typ \u0027activity\u0027 (Tätigkeit). 3. Die Beziehung zwischen den Stichwörtern ist, dass \u0027tim\u0027 die Tätigkeit \u0027run\u0027 ausführt. 4. Für die Relationen existieren passende Typkodierungen: \u0027object\u0027 (ID 1) und \u0027activity\u0027 (ID 4) für die Diagonalelemente, sowie \u0027perform\u0027 (ID 8) für die Beziehung von Subjekt zu Aktivität.\"\n}"
+}

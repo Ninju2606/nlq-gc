@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Relationen zwischen den Stichwörtern: maria -\u003e wear (perform), wear -\u003e hat (target), hat -\u003e yellow (attached), yellow -\u003e yellow (characteristic), maria -\u003e maria (object), wear -\u003e wear (activity), hat -\u003e hat (object). 4. Alle Relationen sind in den vorgegebenen Typkodierungen enthalten: perform (8), target (9), attached (5), characteristic (14), object (1), activity (4).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027maria\u0027 ersetzt. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object), \u0027yellow\u0027 ist eine Eigenschaft (characteristic). 3. Relationen zwischen den Stichwörtern: maria -\u003e wear (perform), wear -\u003e hat (target), hat -\u003e yellow (attached), yellow -\u003e yellow (characteristic), maria -\u003e maria (object), wear -\u003e wear (activity), hat -\u003e hat (object). 4. Alle Relationen sind in den vorgegebenen Typkodierungen enthalten: perform (8), target (9), attached (5), characteristic (14), object (1), activity (4).\"\n}"
+}

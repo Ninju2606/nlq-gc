@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist nicht konkret genug, um einen GraphCode zu generieren. Es fehlen beschreibende Elemente einer Szene im Metaverse.",
+  "error": "Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich auf eine Szene im Metaverse beziehen. Die Formulierung \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu abstrakt und enthält keine spezifischen Elemente für einen GraphCode.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die sich auf eine Szene im Metaverse beziehen. Die Formulierung \u0027Wir müssen bald einen Termin ausmachen\u0027 ist zu abstrakt und enthält keine spezifischen Elemente für einen GraphCode.\",\n  \"description\": \"Die Anfrage ist nicht konkret genug, um einen GraphCode zu generieren. Es fehlen beschreibende Elemente einer Szene im Metaverse.\"\n}"
+}

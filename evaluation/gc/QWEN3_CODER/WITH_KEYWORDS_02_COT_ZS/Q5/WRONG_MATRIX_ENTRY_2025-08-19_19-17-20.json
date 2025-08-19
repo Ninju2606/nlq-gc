@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der Nutzer bezieht sich selbst mit \u0027ich\u0027, was der bereitgestellten Identifikation \u0027maria\u0027 entspricht. \u0027Ich trage\u0027 wird interpretiert als \u0027maria wear\u0027.\n2. Die Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Typ 1 (\u0027object\u0027), da es sich um eine Person handelt.\n   - \u0027wear\u0027: Typ 4 (\u0027activity\u0027), da es eine Handlung darstellt.\n   - \u0027hat\u0027: Typ 1 (\u0027object\u0027), da es sich um ein physisches Objekt handelt.\n   - \u0027yellow\u0027: Typ 1 (\u0027object\u0027), da es als charakteristisches Merkmal z. B. eines Objekts interpretiert wird.\n3. Die Relationen:\n   - \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus → Relation: perform (Typ 8).\n   - \u0027wear\u0027 bezieht sich auf das Objekt \u0027hat\u0027 → keine direkte Kodierung vorhanden, daher wird dies implizit über Matrix-Analyse behandelt.\n   - Das Objekt \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027 → Keine direkte Typ-Kodierung für Attributionsbeziehungen außerhalb der Diagonalen erlaubt; hier ist dies die Verbindung zur Beschreibung, nicht zur Aktivität.\n4. Für alle notwendigen Relationen existieren entsprechende Typkodierungen:\n   - \u0027maria\u0027 → Typ 1 (object)\n   - \u0027wear\u0027 → Typ 4 (activity)\n   - \u0027hat\u0027 → Typ 1 (object)\n   - \u0027yellow\u0027 → Typ 1 (object)\n   - Relation \u0027maria\u0027 -\u003e \u0027wear\u0027: Typ 8 (perform)\n5. Der resultierende GraphCode besteht aus dem gegebenen Vokabular und der Bewertungsmatrix, die die Identitäten sowie deren Beziehungen gemäß den gegebenen Typkodierungen abbildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst mit \u0027ich\u0027, was der bereitgestellten Identifikation \u0027maria\u0027 entspricht. \u0027Ich trage\u0027 wird interpretiert als \u0027maria wear\u0027.\\n2. Die Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Typ 1 (\u0027object\u0027), da es sich um eine Person handelt.\\n   - \u0027wear\u0027: Typ 4 (\u0027activity\u0027), da es eine Handlung darstellt.\\n   - \u0027hat\u0027: Typ 1 (\u0027object\u0027), da es sich um ein physisches Objekt handelt.\\n   - \u0027yellow\u0027: Typ 1 (\u0027object\u0027), da es als charakteristisches Merkmal z. B. eines Objekts interpretiert wird.\\n3. Die Relationen:\\n   - \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus → Relation: perform (Typ 8).\\n   - \u0027wear\u0027 bezieht sich auf das Objekt \u0027hat\u0027 → keine direkte Kodierung vorhanden, daher wird dies implizit über Matrix-Analyse behandelt.\\n   - Das Objekt \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027 → Keine direkte Typ-Kodierung für Attributionsbeziehungen außerhalb der Diagonalen erlaubt; hier ist dies die Verbindung zur Beschreibung, nicht zur Aktivität.\\n4. Für alle notwendigen Relationen existieren entsprechende Typkodierungen:\\n   - \u0027maria\u0027 → Typ 1 (object)\\n   - \u0027wear\u0027 → Typ 4 (activity)\\n   - \u0027hat\u0027 → Typ 1 (object)\\n   - \u0027yellow\u0027 → Typ 1 (object)\\n   - Relation \u0027maria\u0027 -\u003e \u0027wear\u0027: Typ 8 (perform)\\n5. Der resultierende GraphCode besteht aus dem gegebenen Vokabular und der Bewertungsmatrix, die die Identitäten sowie deren Beziehungen gemäß den gegebenen Typkodierungen abbildet.\"\n}"
+}

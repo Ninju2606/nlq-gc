@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode repräsentiert: Maria führt die Aktivität \u0027paint\u0027 aus, wobei \u0027question\u0027 das Zielobjekt ist. Ein \u0027house\u0027 ist thematisch im Kontext vorhanden.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n    \"matrix\": [\n        [1, 0, 8, 9],\n        [0, 1, 0, 0],\n        [0, 0, 4, 8],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"GraphCode repräsentiert: Maria führt die Aktivität \u0027paint\u0027 aus, wobei \u0027question\u0027 das Zielobjekt ist. Ein \u0027house\u0027 ist thematisch im Kontext vorhanden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "appointment",
+    "schedule",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte bald einen Termin ausmachen. Maria ist dabei als Akteur identifiziert, \u0027appointment\u0027 und \u0027schedule\u0027 stehen in aktivitätsbasierter Beziehung (\u0027perform\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"appointment\", \"schedule\", \"soon\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 8, 0],\n    [0, 8, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer möchte bald einen Termin ausmachen. Maria ist dabei als Akteur identifiziert, \u0027appointment\u0027 und \u0027schedule\u0027 stehen in aktivitätsbasierter Beziehung (\u0027perform\u0027).\"\n}"
+}

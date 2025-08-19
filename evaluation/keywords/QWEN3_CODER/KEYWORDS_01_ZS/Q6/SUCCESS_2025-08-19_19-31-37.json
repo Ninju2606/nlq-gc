@@ -1,0 +1,13 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "meeting",
+    "plan"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte einen Termin ausmachen, was durch die Begriffe \u0027schedule\u0027, \u0027appointment\u0027, \u0027meeting\u0027 und \u0027plan\u0027 abgedeckt ist. Die Identifikation \u0027Maria\u0027 wird verwendet, da die Anfrage keine selbst identifizierenden Wörter enthält, aber die Regel zur Nutzeridentifikation greift, um den Kontext zu personalisieren.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"meeting\", \"plan\"],\n  \"description\": \"Der Nutzer möchte einen Termin ausmachen, was durch die Begriffe \u0027schedule\u0027, \u0027appointment\u0027, \u0027meeting\u0027 und \u0027plan\u0027 abgedeckt ist. Die Identifikation \u0027Maria\u0027 wird verwendet, da die Anfrage keine selbst identifizierenden Wörter enthält, aber die Regel zur Nutzeridentifikation greift, um den Kontext zu personalisieren.\"\n}"
+}

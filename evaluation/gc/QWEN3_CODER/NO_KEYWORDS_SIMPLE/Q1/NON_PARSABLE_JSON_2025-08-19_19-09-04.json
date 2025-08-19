@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Ich\",\n    \"spiele\",\n    \"Basketball\"\n  ],\n  \"matrix\": [\n    [0, 8, 9],\n    [0, 0, 1],\n    [0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n- **\"Ich\"** führt aus: \n  - **\"spiele\"** → Beziehung `perform (8)` von *\"Ich\"* zu *\"spiele\"*.\n  - **\"Basketball\"** → Beziehung `target (9)` von *\"Ich\"* zu *\"Basketball\"*.\n- **\"spiele\"** ist eine Tätigkeit und verweist auf das Objekt:\n  - **\"Basketball\"** → Beziehung `object (1)` von *\"spiele\"* zu *\"Basketball\"*.\n\nDie Matrix repräsentiert somit die typcodierten Beziehungen gemäß Wagenpfeil-Notation."
+}

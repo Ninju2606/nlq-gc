@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst und durch die Identifikation \u0027maria\u0027 ersetzt. 2. Die Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027play\u0027 ist eine Aktivität (ID 4), \u0027basketball\u0027 ist ein Objekt (ID 1). 3. Die Relationen: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027 mit ID 8), \u0027play\u0027 hat das Zielobjekt \u0027basketball\u0027 (Relation \u0027target\u0027 mit ID 9). 4. Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen enthalten: \u0027object\u0027 (ID 1), \u0027perform\u0027 (ID 8), \u0027activity\u0027 (ID 4), \u0027target\u0027 (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst und durch die Identifikation \u0027maria\u0027 ersetzt. 2. Die Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027play\u0027 ist eine Aktivität (ID 4), \u0027basketball\u0027 ist ein Objekt (ID 1). 3. Die Relationen: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027 mit ID 8), \u0027play\u0027 hat das Zielobjekt \u0027basketball\u0027 (Relation \u0027target\u0027 mit ID 9). 4. Alle erforderlichen Relationen sind in den vorgegebenen Typkodierungen enthalten: \u0027object\u0027 (ID 1), \u0027perform\u0027 (ID 8), \u0027activity\u0027 (ID 4), \u0027target\u0027 (ID 9).\"\n}"
+}

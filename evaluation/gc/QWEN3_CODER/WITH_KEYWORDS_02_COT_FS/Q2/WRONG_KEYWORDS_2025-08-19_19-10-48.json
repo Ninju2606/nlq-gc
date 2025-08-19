@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \\\"Tim\\\" ist eindeutig und bedarf keiner Auflösung. Die Identifikation des Nutzers \\\"Maria\\\" wird verwendet, da die Anfrage keine selbst-identifizierenden Wörter enthält, jedoch die Regel besagt, dass in diesem Fall die Identifikation des Nutzers verwendet werden soll, um eine Person im Vokabular zu repräsentieren – hier wurde \\\"Tim\\\" als Objekt im Vokabular übernommen, daher wird \\\"Maria\\\" nicht direkt in das Vokabular aufgenommen, es sei denn sie ist Teil der Szene. Korrektur: \\\"Tim\\\" führt die Aktion aus, daher wird er als Aktor betrachtet. Es gibt keine Verweise auf den Nutzer selbst in der Handlung, daher bleibt das Vokabular wie gegeben, und \\\"Maria\\\" wird nicht hinzugefügt.\n        2. \\\"tim\\\" ist ein Objekt (object). \\\"run\\\" ist eine Aktivität (activity).\n        3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus. \\\"run\\\" bezieht sich auf \\\"tim\\\" als Ausführenden, daher ist die Beziehung vom Subjekt \\\"tim\\\" zur Aktivität \\\"run\\\" durch \\\"perform\\\" gegeben, und innerhalb der Matrix von \\\"tim\\\" zu \\\"run\\\" wird dies kodiert. Auf der Diagonale sind die Typen der Begriffe angegeben.\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 9. Die ID für Ausführen (perform) ist 8. Alle benötigten Beziehungen sind in den Typkodierungen enthalten.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n    \"matrix\": [[1, 0, 0], [0, 1, 8], [0, 0, 4]],\n    \"description\": \"1. Der relative Verweis \\\\\\\"Tim\\\\\\\" ist eindeutig und bedarf keiner Auflösung. Die Identifikation des Nutzers \\\\\\\"Maria\\\\\\\" wird verwendet, da die Anfrage keine selbst-identifizierenden Wörter enthält, jedoch die Regel besagt, dass in diesem Fall die Identifikation des Nutzers verwendet werden soll, um eine Person im Vokabular zu repräsentieren – hier wurde \\\\\\\"Tim\\\\\\\" als Objekt im Vokabular übernommen, daher wird \\\\\\\"Maria\\\\\\\" nicht direkt in das Vokabular aufgenommen, es sei denn sie ist Teil der Szene. Korrektur: \\\\\\\"Tim\\\\\\\" führt die Aktion aus, daher wird er als Aktor betrachtet. Es gibt keine Verweise auf den Nutzer selbst in der Handlung, daher bleibt das Vokabular wie gegeben, und \\\\\\\"Maria\\\\\\\" wird nicht hinzugefügt.\\n        2. \\\\\\\"tim\\\\\\\" ist ein Objekt (object). \\\\\\\"run\\\\\\\" ist eine Aktivität (activity).\\n        3. \\\\\\\"tim\\\\\\\" führt die Aktivität \\\\\\\"run\\\\\\\" aus. \\\\\\\"run\\\\\\\" bezieht sich auf \\\\\\\"tim\\\\\\\" als Ausführenden, daher ist die Beziehung vom Subjekt \\\\\\\"tim\\\\\\\" zur Aktivität \\\\\\\"run\\\\\\\" durch \\\\\\\"perform\\\\\\\" gegeben, und innerhalb der Matrix von \\\\\\\"tim\\\\\\\" zu \\\\\\\"run\\\\\\\" wird dies kodiert. Auf der Diagonale sind die Typen der Begriffe angegeben.\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 9. Die ID für Ausführen (perform) ist 8. Alle benötigten Beziehungen sind in den Typkodierungen enthalten.\"\n}"
+}

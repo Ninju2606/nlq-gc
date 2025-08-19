@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"Fragen\\\", \\\"malen\\\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \\\"house\\\", \\\"question\\\", \\\"paint\\\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"house\\\", \\\"paint\\\", \\\"question\\\".",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\\\\\"Häuser\\\\\\\", \\\\\\\"Fragen\\\\\\\", \\\\\\\"malen\\\\\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\\\\\"house\\\\\\\", \\\\\\\"question\\\\\\\", \\\\\\\"paint\\\\\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\\\\\"Maria\\\\\\\", \\\\\\\"house\\\\\\\", \\\\\\\"paint\\\\\\\", \\\\\\\"question\\\\\\\".\"\n}"
+}

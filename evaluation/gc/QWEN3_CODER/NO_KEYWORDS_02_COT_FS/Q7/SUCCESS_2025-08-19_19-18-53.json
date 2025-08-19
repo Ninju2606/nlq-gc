@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \"Häuser um Fragen zu malen\" abgeleitet werden, da die semantische Struktur der Anfrage nicht klar ist. Die Beziehung zwischen \"Häuser\", \"Fragen\" und \"malen\" ist nicht eindeutig interpretierbar.",
+  "error": "Die Anfrage enthält grammatikalische Unklarheiten oder ist semantisch nicht eindeutig. Bitte formuliere eine präzisere Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält grammatikalische Unklarheiten oder ist semantisch nicht eindeutig. Bitte formuliere eine präzisere Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \\\"Häuser um Fragen zu malen\\\" abgeleitet werden, da die semantische Struktur der Anfrage nicht klar ist. Die Beziehung zwischen \\\"Häuser\\\", \\\"Fragen\\\" und \\\"malen\\\" ist nicht eindeutig interpretierbar.\"\n}"
+}

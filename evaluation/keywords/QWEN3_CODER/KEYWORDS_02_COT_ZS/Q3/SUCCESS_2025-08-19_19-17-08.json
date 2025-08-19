@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\"ich\", \"schwimme\", \"Pool\", \"gehört\", \"mir\"]\n2. Relative Verweise aufgelöst: [\"ich\" → \"Maria\", \"mir\" → \"Maria\"]\n3. Stichwörter ins Englische übersetzt: [\"schwimme\" → \"swim\", \"Pool\" → \"pool\", \"gehört\" → \"own\"]\n4. Identifikation des Nutzers ersetzt: [\"ich\" → \"Maria\"]",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n    \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage ermittelt: [\\\"ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\", \\\"mir\\\"]\\n2. Relative Verweise aufgelöst: [\\\"ich\\\" → \\\"Maria\\\", \\\"mir\\\" → \\\"Maria\\\"]\\n3. Stichwörter ins Englische übersetzt: [\\\"schwimme\\\" → \\\"swim\\\", \\\"Pool\\\" → \\\"pool\\\", \\\"gehört\\\" → \\\"own\\\"]\\n4. Identifikation des Nutzers ersetzt: [\\\"ich\\\" → \\\"Maria\\\"]\"\n}"
+}

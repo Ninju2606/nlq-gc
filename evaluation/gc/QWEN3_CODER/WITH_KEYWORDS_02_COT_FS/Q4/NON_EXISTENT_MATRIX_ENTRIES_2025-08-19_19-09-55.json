@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \"ich\" wurde zu \"Maria\" aufgelöst.\n2. \"Maria\" und \"pool\" sind Objekte. \"swim\" ist eine Aktivität. \"own\" ist ein Attribut (ähnlich einem Kontext).\n3. \"Maria\" ist im Besitz von \"pool\" (\"own\" als attached-Beziehung). \"Maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\".\n4. Die IDs sind: object\u003d1, activity\u003d4, attached\u003d4, perform\u003d8, target\u003d9, daughter\u003d10, characteristic\u003d14. Allerdings gibt es einen Konflikt: \"own\" ist in der gegebenen Typkodierung nicht direkt enthalten. Es wird lediglich \"attached\" (ID\u003d5), \"under\" (ID\u003d6), \"above\" (ID\u003d7), \"perform\" (ID\u003d8), \"target\" (ID\u003d9), \"daughter\" (ID\u003d10) sowie \"characteristic\" (ID\u003d14) unterstützt. \"own\" ist semantisch nah an \"attached\", aber nicht identisch. Da es keinen exakten Treffer gibt, wird dies als fehlende Typkodierung gewertet.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 4, 0], [0, 4, 0, 0], [0, 0, 4, 0], [0, 9, 0, 1]],\n    \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde zu \\\"Maria\\\" aufgelöst.\\n2. \\\"Maria\\\" und \\\"pool\\\" sind Objekte. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist ein Attribut (ähnlich einem Kontext).\\n3. \\\"Maria\\\" ist im Besitz von \\\"pool\\\" (\\\"own\\\" als attached-Beziehung). \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\".\\n4. Die IDs sind: object\u003d1, activity\u003d4, attached\u003d4, perform\u003d8, target\u003d9, daughter\u003d10, characteristic\u003d14. Allerdings gibt es einen Konflikt: \\\"own\\\" ist in der gegebenen Typkodierung nicht direkt enthalten. Es wird lediglich \\\"attached\\\" (ID\u003d5), \\\"under\\\" (ID\u003d6), \\\"above\\\" (ID\u003d7), \\\"perform\\\" (ID\u003d8), \\\"target\\\" (ID\u003d9), \\\"daughter\\\" (ID\u003d10) sowie \\\"characteristic\\\" (ID\u003d14) unterstützt. \\\"own\\\" ist semantisch nah an \\\"attached\\\", aber nicht identisch. Da es keinen exakten Treffer gibt, wird dies als fehlende Typkodierung gewertet.\"\n}"
+}

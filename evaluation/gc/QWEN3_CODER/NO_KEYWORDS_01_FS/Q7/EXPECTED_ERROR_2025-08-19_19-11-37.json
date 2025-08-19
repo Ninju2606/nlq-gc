@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria Häuser in Frage stellt, die gemalt werden sollen. Die Matrix zeigt, dass Maria (1) ein Objekt ist, Häuser (2) ebenfalls Objekte sind, die Aktivität des Malens (3) durchgeführt wird und Fragestellungen (4) als Kontext dienen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"paint\", \"question\"],\n  \"matrix\": [[1, 0, 0, 0], [0, 1, 8, 9], [0, 0, 9, 8], [0, 0, 0, 1]],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria Häuser in Frage stellt, die gemalt werden sollen. Die Matrix zeigt, dass Maria (1) ein Objekt ist, Häuser (2) ebenfalls Objekte sind, die Aktivität des Malens (3) durchgeführt wird und Fragestellungen (4) als Kontext dienen.\"\n}"
+}

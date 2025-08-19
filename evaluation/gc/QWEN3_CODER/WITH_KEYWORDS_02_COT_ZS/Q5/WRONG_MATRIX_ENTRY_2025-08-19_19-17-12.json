@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Begriff \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da der Nutzer mit dieser Identifikation angegeben ist. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist vom Typ \u0027object\u0027, \u0027wear\u0027 ist eine \u0027activity\u0027, \u0027hat\u0027 ist ein \u0027object\u0027, \u0027yellow\u0027 ist eine \u0027characteristic\u0027. 3. Relationen zwischen den Stichwörtern: maria -\u003e wear (perform), wear -\u003e hat (target), hat -\u003e yellow (attached). 4. Alle Relationen haben gültige Typkodierungen: perform (8), target (9), attached (5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Begriff \u0027ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da der Nutzer mit dieser Identifikation angegeben ist. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist vom Typ \u0027object\u0027, \u0027wear\u0027 ist eine \u0027activity\u0027, \u0027hat\u0027 ist ein \u0027object\u0027, \u0027yellow\u0027 ist eine \u0027characteristic\u0027. 3. Relationen zwischen den Stichwörtern: maria -\u003e wear (perform), wear -\u003e hat (target), hat -\u003e yellow (attached). 4. Alle Relationen haben gültige Typkodierungen: perform (8), target (9), attached (5).\"\n}"
+}

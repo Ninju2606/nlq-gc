@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Termin\", \"ausmachen\", \"bald\", \"wir\", \"müssen\"],\n  \"matrix\": [\n    [0, 8, 2, 9, 1],\n    [0, 0, 0, 1, 1],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 8],\n    [0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erläuterung zur Typcodierung (Adjazenzmatrix):\n\n- **\"Termin\"** ist ein `object` (Typ 1), steht im Kontext (`context`, Typ 2) von **\"bald\"** und wird durch **\"ausmachen\"** (`perform`, Typ 8) bestimmt.\n- **\"ausmachen\"** ist eine Tätigkeit (`activity`, Typ 4) und wird von **\"wir\"** (`target`, Typ 9) und **\"müssen\"** (`perform`, Typ 8) ausgeführt.\n- **\"bald\"** ist ein Kontext (`context`, Typ 2).\n- **\"wir\"** ist ein Akteur (`object`, Typ 1) und Ziel (`target`, Typ 9).\n- **\"müssen\"** ist eine Aktivität (`activity`, Typ 4), die mit **\"wir\"** verbunden ist.\n\nDie Matrix gibt die Beziehungen gemäß der gegebenen Typ-Codes zwischen den Begriffen an. Bei Bedarf kann diese Darstellung erweitert werden, um komplexere semantische Strukturen abzubilden."
+}

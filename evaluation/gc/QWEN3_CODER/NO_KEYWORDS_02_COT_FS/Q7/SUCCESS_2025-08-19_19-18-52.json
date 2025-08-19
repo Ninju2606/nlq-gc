@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \"Häuser um Fragen zu malen\" extrahiert werden, da die Formulierung unklar und grammatikalisch verwirrend ist. Es fehlen konkrete Hinweise auf Objekte, Aktivitäten oder deren Beziehungen, um einen gültigen GraphCode zu generieren.",
+  "error": "Ich kann die Anfrage leider nicht sinnvoll interpretieren. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht sinnvoll interpretieren. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \\\"Häuser um Fragen zu malen\\\" extrahiert werden, da die Formulierung unklar und grammatikalisch verwirrend ist. Es fehlen konkrete Hinweise auf Objekte, Aktivitäten oder deren Beziehungen, um einen gültigen GraphCode zu generieren.\"\n}"
+}

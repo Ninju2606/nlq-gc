@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\"Ich\", \"schwimme\", \"Pool\", \"gehört\"].\n2. Relative Verweise aufgelöst: \"Ich\" bezieht sich auf die Nutzeridentifikation.\n3. Stichwörter ins Englische übersetzt: [\"Maria\", \"swim\", \"pool\", \"own\"].\n4. Nutzeridentifikation ersetzt: \"Ich\" wurde durch \"Maria\" ersetzt.\n5. Attributeigenschaften erklärt: \n   - \"Maria\": object (person)\n   - \"swim\": activity (action)\n   - \"pool\": object (location)\n   - \"own\": characteristic (possession)\n6. Relationen erklärt:\n   - Maria führt die Aktivität \"swim\" (perform)\n   - Maria besitzt den Pool (own)\n   - \"swim\" findet im \"pool\" statt (target)\n7. Typkodierungen gefunden:\n   - Maria (object) → id: 1\n   - swim (activity) → id: 4\n   - pool (object) → id: 1\n   - own (characteristic) → id: 14\n   - perform (relation) → id: 8\n   - target (relation) → id: 9\n   - attached (unused) → id: 5",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\"].\\n2. Relative Verweise aufgelöst: \\\"Ich\\\" bezieht sich auf die Nutzeridentifikation.\\n3. Stichwörter ins Englische übersetzt: [\\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\"].\\n4. Nutzeridentifikation ersetzt: \\\"Ich\\\" wurde durch \\\"Maria\\\" ersetzt.\\n5. Attributeigenschaften erklärt: \\n   - \\\"Maria\\\": object (person)\\n   - \\\"swim\\\": activity (action)\\n   - \\\"pool\\\": object (location)\\n   - \\\"own\\\": characteristic (possession)\\n6. Relationen erklärt:\\n   - Maria führt die Aktivität \\\"swim\\\" (perform)\\n   - Maria besitzt den Pool (own)\\n   - \\\"swim\\\" findet im \\\"pool\\\" statt (target)\\n7. Typkodierungen gefunden:\\n   - Maria (object) → id: 1\\n   - swim (activity) → id: 4\\n   - pool (object) → id: 1\\n   - own (characteristic) → id: 14\\n   - perform (relation) → id: 8\\n   - target (relation) → id: 9\\n   - attached (unused) → id: 5\"\n}"
+}

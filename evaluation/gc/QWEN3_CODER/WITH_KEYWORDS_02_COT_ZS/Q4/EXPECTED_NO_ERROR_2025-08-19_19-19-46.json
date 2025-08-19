@@ -1,0 +1,6 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "error": "Die Anfrage enthält nicht genug relevante Informationen oder ist grammatikalisch nicht klar genug, um einen sinnvollen GraphCode zu generieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält nicht genug relevante Informationen oder ist grammatikalisch nicht klar genug, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      2
+    ],
+    [
+      5,
+      4,
+      8,
+      2
+    ],
+    [
+      9,
+      9,
+      4,
+      2
+    ],
+    [
+      6,
+      6,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage von Maria, bald einen Termin auszumachen. Maria (object) hat die Aktivität (activity) \u0027schedule\u0027 oder \u0027appointment\u0027, welche in naher Zukunft (context: soon) stattfinden soll. Die Begriffe \u0027schedule\u0027 und \u0027appointment\u0027 sind semantisch eng verwandt und werden als aktivitätsbasierte Synonyme betrachtet (attached).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 5, 8, 2],\n    [5, 4, 8, 2],\n    [9, 9, 4, 2],\n    [6, 6, 6, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage von Maria, bald einen Termin auszumachen. Maria (object) hat die Aktivität (activity) \u0027schedule\u0027 oder \u0027appointment\u0027, welche in naher Zukunft (context: soon) stattfinden soll. Die Begriffe \u0027schedule\u0027 und \u0027appointment\u0027 sind semantisch eng verwandt und werden als aktivitätsbasierte Synonyme betrachtet (attached).\"\n}"
+}

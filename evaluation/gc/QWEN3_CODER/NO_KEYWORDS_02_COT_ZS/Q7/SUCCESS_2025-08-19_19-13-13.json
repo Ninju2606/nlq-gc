@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch oder inhaltlich mehrdeutig und lässt keine eindeutige Identifikation von Objekten, Attributen oder Aktivitäten zu, die für die Erstellung eines GraphCodes notwendig sind.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch oder inhaltlich mehrdeutig und lässt keine eindeutige Identifikation von Objekten, Attributen oder Aktivitäten zu, die für die Erstellung eines GraphCodes notwendig sind.\"\n}"
+}

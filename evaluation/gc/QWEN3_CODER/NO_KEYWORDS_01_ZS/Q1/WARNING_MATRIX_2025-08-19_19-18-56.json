@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "Der Nutzer spielt Basketball. Die Matrix zeigt, dass Maria (object) die Aktivität play (activity) mit dem Objekt basketball (object) durchführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\", \"play\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 1, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Der Nutzer spielt Basketball. Die Matrix zeigt, dass Maria (object) die Aktivität play (activity) mit dem Objekt basketball (object) durchführt.\"\n}"
+}

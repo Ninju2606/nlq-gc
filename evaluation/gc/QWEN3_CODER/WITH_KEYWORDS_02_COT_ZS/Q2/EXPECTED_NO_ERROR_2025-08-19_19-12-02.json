@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher kann die Identifikation des Nutzers (Maria) ignoriert werden. Es fehlen zudem ausreichende Kontextinformationen, um eine sinnvolle Szenenbeschreibung im Metaverse zu generieren. Insbesondere ist unklar, ob \u0027rennt\u0027 als Aktivität oder Objekt interpretiert werden soll. Daher kann kein valider GraphCode erstellt werden.",
+  "error": "Unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Anfrage\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher kann die Identifikation des Nutzers (Maria) ignoriert werden. Es fehlen zudem ausreichende Kontextinformationen, um eine sinnvolle Szenenbeschreibung im Metaverse zu generieren. Insbesondere ist unklar, ob \u0027rennt\u0027 als Aktivität oder Objekt interpretiert werden soll. Daher kann kein valider GraphCode erstellt werden.\"\n}"
+}

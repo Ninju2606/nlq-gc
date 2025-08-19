@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Maria und \u0027person\u0027 sind über \u0027daughter\u0027 (Tochter) verbunden. Maria und die Tochter führen die Aktivität \u0027drive\u0027 aus. Das Boot ist das Ziel (\u0027target\u0027) der Fahrt und steht in räumlicher Beziehung (\u0027under\u0027) zum See, der den Kontext (\u0027context\u0027) darstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 7, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 3]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria mit ihrer Tochter ein Boot auf einem See fährt. Maria und \u0027person\u0027 sind über \u0027daughter\u0027 (Tochter) verbunden. Maria und die Tochter führen die Aktivität \u0027drive\u0027 aus. Das Boot ist das Ziel (\u0027target\u0027) der Fahrt und steht in räumlicher Beziehung (\u0027under\u0027) zum See, der den Kontext (\u0027context\u0027) darstellt.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"in\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 0, 0],\n    [0, 0, 5, 0, 9],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 3],\n    [0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n- **\"Ich\"** führt die **Aktivität** \"schwimme\" aus → Typ **8 (perform)**.\n- **\"schwimme\"** ist eine **Aktivität** und wird **im Kontext** von etwas ausgeführt → Typ **4 (activity)**.\n- **\"schwimme\"** hat den **Zielort** \"Pool\" → Typ **9 (target)**.\n- **\"schwimme\"** ist **attached** (örtlich verbunden) mit \"in\" → Typ **5 (attached)**.\n- **\"in\"** ist eine **Präposition**, drückt einen **räumlichen Zusammenhang** aus, aber keine eigenständige Beziehung im Begriffssinn.\n- **\"meinem\"** ist ein **Attribut / Kontext** von \"Pool\" → Typ **2 (context)**.\n- **\"Pool\"** ist ein **Objekt** und Synonym oder Spezifikation von \"Pool\" → Typ **1 (object)**.\n- **\"meinem\"** ist ein **Synonym** von \"mein\" oder spezifisch für \"Pool\" → Typ **3 (synonym)**.\n\nDie Matrix ist somit typcodiert nach den angegebenen Beziehungen."
+}

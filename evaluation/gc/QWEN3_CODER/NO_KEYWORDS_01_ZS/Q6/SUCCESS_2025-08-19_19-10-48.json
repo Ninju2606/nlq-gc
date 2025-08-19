@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Wir müssen bald einen Termin ausmachen\" enthält keine spezifischen Objekte, Attribute, Aktivitäten oder räumlichen/zeitlichen Beziehungen, die sich für eine sinnvolle Bewertungsmatrix und ein dazugehöriges Vokabular eignen. Daher kann kein GraphCode generiert werden.",
+  "error": "Unklare oder unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage\",\n  \"description\": \"Die Anfrage \\\"Wir müssen bald einen Termin ausmachen\\\" enthält keine spezifischen Objekte, Attribute, Aktivitäten oder räumlichen/zeitlichen Beziehungen, die sich für eine sinnvolle Bewertungsmatrix und ein dazugehöriges Vokabular eignen. Daher kann kein GraphCode generiert werden.\"\n}"
+}

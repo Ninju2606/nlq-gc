@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      11
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen Maria und dem Tragen (\"wear\") wird durch den Wert 7 (perform) ausgedrückt. Der Hut ist gelb, was durch das Attribut \"characteristic\" mit Wert 11 dargestellt wird. Der Hut wird durch \"wear\" verbunden, was durch den Wert 8 (target) gekennzeichnet ist.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [[1, 7, 0, 0], [0, 9, 8, 0], [0, 0, 1, 11], [0, 0, 0, 3]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung zwischen Maria und dem Tragen (\\\"wear\\\") wird durch den Wert 7 (perform) ausgedrückt. Der Hut ist gelb, was durch das Attribut \\\"characteristic\\\" mit Wert 11 dargestellt wird. Der Hut wird durch \\\"wear\\\" verbunden, was durch den Wert 8 (target) gekennzeichnet ist.\"\n}"
+}

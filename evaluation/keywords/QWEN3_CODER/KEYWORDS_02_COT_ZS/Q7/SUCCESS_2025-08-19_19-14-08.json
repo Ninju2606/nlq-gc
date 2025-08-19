@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027malen\u0027, \u0027Fragen\u0027. 2. Relative Verweise werden nicht benötigt, da keine Pronomen wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten sind. 3. Übersetzung ins Englische: \u0027Häuser\u0027 → \u0027house\u0027, \u0027malen\u0027 → \u0027paint\u0027, \u0027Fragen\u0027 → \u0027question\u0027. 4. Identifikation des Nutzers wird nicht verwendet, da keine selbstreferenzierenden Wörter vorliegen.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Häuser\u0027, \u0027malen\u0027, \u0027Fragen\u0027. 2. Relative Verweise werden nicht benötigt, da keine Pronomen wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten sind. 3. Übersetzung ins Englische: \u0027Häuser\u0027 → \u0027house\u0027, \u0027malen\u0027 → \u0027paint\u0027, \u0027Fragen\u0027 → \u0027question\u0027. 4. Identifikation des Nutzers wird nicht verwendet, da keine selbstreferenzierenden Wörter vorliegen.\"\n}"
+}

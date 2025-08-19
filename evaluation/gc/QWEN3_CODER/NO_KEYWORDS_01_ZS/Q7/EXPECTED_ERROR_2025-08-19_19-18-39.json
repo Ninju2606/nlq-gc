@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0
+    ],
+    [
+      5,
+      1,
+      9,
+      0
+    ],
+    [
+      8,
+      9,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene im Metaverse, in der Maria Häuser mit Fragen bemalt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: \u0027house\u0027 ist mit \u0027question\u0027 attached und wird von Maria gemalt (\u0027paint\u0027). \u0027paint\u0027 ist eine Aktivität, die Maria ausführt und \u0027question\u0027 ist das Ziel (\u0027target\u0027) der Aktivität. Maria ist als \u0027object\u0027 gekennzeichnet und führt die Aktion durch.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\", \"Maria\"],\n  \"matrix\": [\n    [1, 5, 8, 0],\n    [5, 1, 9, 0],\n    [8, 9, 4, 8],\n    [0, 0, 8, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene im Metaverse, in der Maria Häuser mit Fragen bemalt. Die Matrix zeigt die Beziehungen zwischen den Begriffen: \u0027house\u0027 ist mit \u0027question\u0027 attached und wird von Maria gemalt (\u0027paint\u0027). \u0027paint\u0027 ist eine Aktivität, die Maria ausführt und \u0027question\u0027 ist das Ziel (\u0027target\u0027) der Aktivität. Maria ist als \u0027object\u0027 gekennzeichnet und führt die Aktion durch.\"\n}"
+}

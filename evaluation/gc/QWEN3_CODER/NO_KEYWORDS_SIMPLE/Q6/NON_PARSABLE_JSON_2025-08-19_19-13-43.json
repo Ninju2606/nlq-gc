@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"wir\",\n    \"bald\",\n    \"termin\",\n    \"ausmachen\"\n  ],\n  \"matrix\": [\n    [0, 0, 0, 8],\n    [0, 0, 1, 0],\n    [9, 0, 0, 0],\n    [0, 0, 0, 0]\n  ]\n}\n\n\n### Erläuterung:\n\n#### Begriffe (Dictionary):\n- **wir**  \n- **bald**  \n- **termin**  \n- **ausmachen**\n\n#### Beziehungen (Matrix):\n\nDie Zahlen in der Matrix stehen für typkodierte Beziehungen gemäß dem übergebenen Schema:\n\n- **wir → ausmachen \u003d 8 (perform)**  \n- **bald → termin \u003d 1 (object)**  \n- **termin → wir \u003d 9 (target)**  \n\nAlle anderen Kombinationen haben keine definierte Beziehung (0).\n\nWenn du möchtest, kann ich auch eine grafische Darstellung oder eine ausführlichere semantische Analyse liefern."
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer führt aus, dass Maria rennt. Daher wird Maria als Objekt und Run als Aktivität erfasst. Die Beziehung zwischen Maria und Run ist perform (Typ 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"Der Nutzer führt aus, dass Maria rennt. Daher wird Maria als Objekt und Run als Aktivität erfasst. Die Beziehung zwischen Maria und Run ist perform (Typ 8).\"\n}"
+}

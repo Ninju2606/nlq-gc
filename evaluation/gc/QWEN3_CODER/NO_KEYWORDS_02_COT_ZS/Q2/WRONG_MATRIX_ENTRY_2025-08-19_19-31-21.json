@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise in der Anfrage, die aufgelöst werden müssen.\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\n4. Es ist keine Ersetzung der Nutzeridentifikation nötig, da weder \u0027ich\u0027, \u0027mein\u0027 noch \u0027mir\u0027 verwendet wurden.\n5. Attributklärung: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\n6. Beziehung zwischen den Stichwörtern: Tim führt die Aktivität \u0027run\u0027 aus, dies entspricht der Relation \u0027perform\u0027.\n7. Überprüfung der Typkodierung: \u0027object\u0027 hat ID 1, \u0027activity\u0027 hat ID 4, \u0027perform\u0027 hat ID 8. Diese IDs sind in der Typkodierung enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise in der Anfrage, die aufgelöst werden müssen.\\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027.\\n4. Es ist keine Ersetzung der Nutzeridentifikation nötig, da weder \u0027ich\u0027, \u0027mein\u0027 noch \u0027mir\u0027 verwendet wurden.\\n5. Attributklärung: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\\n6. Beziehung zwischen den Stichwörtern: Tim führt die Aktivität \u0027run\u0027 aus, dies entspricht der Relation \u0027perform\u0027.\\n7. Überprüfung der Typkodierung: \u0027object\u0027 hat ID 1, \u0027activity\u0027 hat ID 4, \u0027perform\u0027 hat ID 8. Diese IDs sind in der Typkodierung enthalten.\"\n}"
+}

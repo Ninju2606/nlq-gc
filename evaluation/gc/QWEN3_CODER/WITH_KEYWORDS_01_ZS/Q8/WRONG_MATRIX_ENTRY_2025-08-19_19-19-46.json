@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      9,
+      6
+    ],
+    [
+      5,
+      1,
+      8,
+      9,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.64,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria und eine Person (ihre Tochter) ein Boot auf einem See fahren. Maria und die Person sind durch die Beziehung \u0027daughter\u0027 verbunden. Beide führen die Aktivität \u0027drive\u0027 mit dem Zielobjekt \u0027boat\u0027 aus, welches sich \u0027above\u0027 dem See befindet. Die Aktivität findet im Kontext eines Sees (\u0027lake\u0027) statt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 9, 6],\n    [5, 1, 8, 9, 6],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria und eine Person (ihre Tochter) ein Boot auf einem See fahren. Maria und die Person sind durch die Beziehung \u0027daughter\u0027 verbunden. Beide führen die Aktivität \u0027drive\u0027 mit dem Zielobjekt \u0027boat\u0027 aus, welches sich \u0027above\u0027 dem See befindet. Die Aktivität findet im Kontext eines Sees (\u0027lake\u0027) statt.\"\n}"
+}

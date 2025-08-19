@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der Nutzer verwendet \u0027ich\u0027 in der Anfrage und identifiziert sich als \u0027Maria\u0027. Daher wird der Begriff \u0027maria\u0027 in den GraphCode übernommen, um den Nutzer zu repräsentieren. 2. Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object, id\u003d1), \u0027wear\u0027 ist eine Aktivität (activity, id\u003d4), \u0027hat\u0027 ist ein Objekt (object, id\u003d1) und \u0027yellow\u0027 ist eine Eigenschaft (characteristic, id\u003d14). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus (id\u003d8), \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 (id\u003d5). 4. Alle verwendeten Relationen haben passende Einträge in den vorgegebenen Typkodierungen. Es tritt kein Fehler auf. 5. Der GraphCode wurde entsprechend zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet \u0027ich\u0027 in der Anfrage und identifiziert sich als \u0027Maria\u0027. Daher wird der Begriff \u0027maria\u0027 in den GraphCode übernommen, um den Nutzer zu repräsentieren. 2. Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object, id\u003d1), \u0027wear\u0027 ist eine Aktivität (activity, id\u003d4), \u0027hat\u0027 ist ein Objekt (object, id\u003d1) und \u0027yellow\u0027 ist eine Eigenschaft (characteristic, id\u003d14). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus (id\u003d8), \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 (id\u003d5). 4. Alle verwendeten Relationen haben passende Einträge in den vorgegebenen Typkodierungen. Es tritt kein Fehler auf. 5. Der GraphCode wurde entsprechend zusammengesetzt.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer wünscht eine Szene, in der Maria Basketball spielt. Die Identifikation \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. Die Verallgemeinerung des Verbs \u0027spiele\u0027 erfolgte zu \u0027play\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Der Nutzer wünscht eine Szene, in der Maria Basketball spielt. Die Identifikation \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. Die Verallgemeinerung des Verbs \u0027spiele\u0027 erfolgte zu \u0027play\u0027.\"\n}"
+}

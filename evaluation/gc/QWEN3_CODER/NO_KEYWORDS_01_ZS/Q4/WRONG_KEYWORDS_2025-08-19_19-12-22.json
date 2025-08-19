@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria (object) führt die Aktivität (activity) „swim“ aus, verbunden durch die Relation perform (8). Maria ist durch attached (5) mit dem Pool verbunden. Der Pool ist ein Objekt (object).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria (object) führt die Aktivität (activity) „swim“ aus, verbunden durch die Relation perform (8). Maria ist durch attached (5) mit dem Pool verbunden. Der Pool ist ein Objekt (object).\"\n}"
+}

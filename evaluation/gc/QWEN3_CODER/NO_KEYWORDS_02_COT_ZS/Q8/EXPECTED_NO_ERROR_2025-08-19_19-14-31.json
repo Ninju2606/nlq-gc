@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Hinweise auf eine spezifische Szene im Metaverse mit definierten Objekten, Attributen oder Aktivitäten, die in einen GraphCode übersetzt werden könnten. Relative Verweise wie \u0027meine Tochter\u0027 und \u0027ich\u0027 wurden identifiziert, jedoch fehlt eine präzise Beschreibung der Szene selbst.",
+  "error": "Unklare oder unvollständige Anfrage. Es fehlen spezifische Szenenbeschreibungen zur Erstellung eines gültigen GraphCodes.",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage. Es fehlen spezifische Szenenbeschreibungen zur Erstellung eines gültigen GraphCodes.\",\n  \"description\": \"Die Anfrage enthält keine klaren Hinweise auf eine spezifische Szene im Metaverse mit definierten Objekten, Attributen oder Aktivitäten, die in einen GraphCode übersetzt werden könnten. Relative Verweise wie \u0027meine Tochter\u0027 und \u0027ich\u0027 wurden identifiziert, jedoch fehlt eine präzise Beschreibung der Szene selbst.\"\n}"
+}

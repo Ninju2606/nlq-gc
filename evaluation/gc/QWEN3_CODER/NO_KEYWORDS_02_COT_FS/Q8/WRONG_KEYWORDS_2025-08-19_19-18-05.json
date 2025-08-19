@@ -1,0 +1,64 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\".\n        2. \"Meine Tochter\" ist ein relativer Verweis. Die neuen Stichwörter sind \"ich\", \"Tochter\", \"Person\", \"fahren\", \"Boot\", \"See\". Dabei ist \"Tochter\" eine Tochter von \"ich\" und \"Person\" eine allgemeine Bezeichnung für eine Person.\n        3. Die englischen Stichwörter sind \"I\", \"daughter\", \"person\", \"drive\", \"boat\", \"lake\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"person\", \"drive\", \"boat\", \"lake\".\n        5. \"Maria\", \"daughter\", \"person\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität. \"lake\" ist außerdem ein Kontext.\n        6. \"daughter\" ist Tochter von \"Maria\". \"person\" ist synonym zu \"daughter\". \"Maria\" und \"daughter\" führen die Aktivität \"drive\" aus. \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich im \"lake\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Synonym (synonym) ist 3. Die ID für in/unter/über (attached/above/under) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 7, 0, 0],\n    [0, 1, 0, 7, 0, 0],\n    [0, 0, 1, 7, 0, 0],\n    [0, 0, 0, 4, 8, 0],\n    [0, 0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n        2. \\\"Meine Tochter\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\"ich\\\", \\\"Tochter\\\", \\\"Person\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\". Dabei ist \\\"Tochter\\\" eine Tochter von \\\"ich\\\" und \\\"Person\\\" eine allgemeine Bezeichnung für eine Person.\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"daughter\\\", \\\"person\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"person\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\".\\n        5. \\\"Maria\\\", \\\"daughter\\\", \\\"person\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität. \\\"lake\\\" ist außerdem ein Kontext.\\n        6. \\\"daughter\\\" ist Tochter von \\\"Maria\\\". \\\"person\\\" ist synonym zu \\\"daughter\\\". \\\"Maria\\\" und \\\"daughter\\\" führen die Aktivität \\\"drive\\\" aus. \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich im \\\"lake\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Synonym (synonym) ist 3. Die ID für in/unter/über (attached/above/under) ist 6.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "GraphCode für die Szene: Maria schwimmt in ihrem Pool. Die Matrix enthält die Beziehungen zwischen den Begriffen. \u0027maria\u0027 (object) führt die Aktivität \u0027swim\u0027 (activity) aus, verbunden durch \u0027perform\u0027 (8). \u0027swim\u0027 (activity) hat das Ziel \u0027pool\u0027 (object), verbunden durch \u0027target\u0027 (9). \u0027own\u0027 (object) ist ein Attribut des Pools, verbunden durch \u0027attached\u0027 (5).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 0, 9],\n        [0, 0, 1, 5],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"GraphCode für die Szene: Maria schwimmt in ihrem Pool. Die Matrix enthält die Beziehungen zwischen den Begriffen. \u0027maria\u0027 (object) führt die Aktivität \u0027swim\u0027 (activity) aus, verbunden durch \u0027perform\u0027 (8). \u0027swim\u0027 (activity) hat das Ziel \u0027pool\u0027 (object), verbunden durch \u0027target\u0027 (9). \u0027own\u0027 (object) ist ein Attribut des Pools, verbunden durch \u0027attached\u0027 (5).\"\n}"
+}

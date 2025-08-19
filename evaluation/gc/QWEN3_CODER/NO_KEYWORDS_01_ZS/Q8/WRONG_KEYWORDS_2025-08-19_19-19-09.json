@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      6
+    ],
+    [
+      10,
+      1,
+      8,
+      6
+    ],
+    [
+      5,
+      5,
+      1,
+      2
+    ],
+    [
+      7,
+      7,
+      4,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Beteiligten (Maria, Tochter) und den Objekten (Boot, See) sowie deren räumliche und aktive Verknüpfungen ab.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 6],\n    [10, 1, 8, 6],\n    [5, 5, 1, 2],\n    [7, 7, 4, 1]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Matrix bildet die Beziehungen zwischen den Beteiligten (Maria, Tochter) und den Objekten (Boot, See) sowie deren räumliche und aktive Verknüpfungen ab.\"\n}"
+}

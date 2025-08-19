@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n \n\n**Erklärung:**\n- **\"Tim\"** ist der Akteur, der die Handlung ausführt.\n- **\"rennt\"** ist die Aktivität/Handlung.\n- Die Beziehung zwischen *Tim* und *rennt* ist vom Typ **\"perform\"**, was der Typkodierung **8** entspricht.\n- In der Matrix bedeutet `matrix[0][1] \u003d 8`, dass der erste Begriff (*Tim*) die Aktivität (*rennt*) ausführt."
+}

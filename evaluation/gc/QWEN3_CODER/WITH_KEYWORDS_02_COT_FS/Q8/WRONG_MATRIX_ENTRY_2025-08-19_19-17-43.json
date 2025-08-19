@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Der relative Verweis \"Meine Tochter\" wurde aufgelöst zu \"person\". \"Ich\" wurde ersetzt durch die Identifikation des Nutzers \"maria\".\n2. \"maria\" und \"person\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität. \"boat\" und \"lake\" sind Objekte.\n3. \"person\" ist die Tochter von \"maria\". \"maria\" führt die Aktivität \"drive\" aus. \"person\" führt die Aktivität \"drive\" aus. Die Aktivität \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich auf \"lake\".\n4. Die ID für Objekt (object) ist 1. Die ID für Tochter (daughter) ist 10. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für auf (above) wäre passend, aber es wird \"auf einem See\" verwendet, was den Kontext \"See\" impliziert – richtig ist \"in\" (auf/in/by See). Daher ist die ID für \"in\" \u003d 6. Alles korrekt abbildbar.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [[1, 10, 7, 0, 0], [0, 1, 7, 0, 0], [0, 0, 4, 8, 0], [0, 0, 0, 1, 6], [0, 0, 0, 0, 1]],\n  \"description\": \"1. Der relative Verweis \\\"Meine Tochter\\\" wurde aufgelöst zu \\\"person\\\". \\\"Ich\\\" wurde ersetzt durch die Identifikation des Nutzers \\\"maria\\\".\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind Objekte.\\n3. \\\"person\\\" ist die Tochter von \\\"maria\\\". \\\"maria\\\" führt die Aktivität \\\"drive\\\" aus. \\\"person\\\" führt die Aktivität \\\"drive\\\" aus. Die Aktivität \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Tochter (daughter) ist 10. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für auf (above) wäre passend, aber es wird \\\"auf einem See\\\" verwendet, was den Kontext \\\"See\\\" impliziert – richtig ist \\\"in\\\" (auf/in/by See). Daher ist die ID für \\\"in\\\" \u003d 6. Alles korrekt abbildbar.\"\n}"
+}

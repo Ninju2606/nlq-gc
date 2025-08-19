@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      9
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Aufgabe 1: Die relative Identifikation des Nutzers \u0027mein\u0027 wurde aufgelöst und auf den konkreten Nutzernamen \u0027maria\u0027 abgebildet. Aufgabe 2: Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object, ID 1), \u0027swim\u0027 ist eine Aktivität (activity, ID 4), \u0027own\u0027 ist eine Beziehung (attached, ID 5), \u0027pool\u0027 ist ein Objekt (object, ID 1). Aufgabe 3: Die Relationen sind wie folgt definiert: maria -\u003e swim (perform, ID 8), maria -\u003e pool (target, ID 9), maria -\u003e pool über own (attached, ID 5). Aufgabe 4: Alle Relationen haben gültige Einträge in den Typkodierungen. swim -\u003e pool (keine direkte Relation, daher 0).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 9],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Aufgabe 1: Die relative Identifikation des Nutzers \u0027mein\u0027 wurde aufgelöst und auf den konkreten Nutzernamen \u0027maria\u0027 abgebildet. Aufgabe 2: Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object, ID 1), \u0027swim\u0027 ist eine Aktivität (activity, ID 4), \u0027own\u0027 ist eine Beziehung (attached, ID 5), \u0027pool\u0027 ist ein Objekt (object, ID 1). Aufgabe 3: Die Relationen sind wie folgt definiert: maria -\u003e swim (perform, ID 8), maria -\u003e pool (target, ID 9), maria -\u003e pool über own (attached, ID 5). Aufgabe 4: Alle Relationen haben gültige Einträge in den Typkodierungen. swim -\u003e pool (keine direkte Relation, daher 0).\"\n}"
+}

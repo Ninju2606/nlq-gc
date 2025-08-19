@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027]\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027meinem\u0027 → \u0027Maria\u0027\n3. Übersetzung der Stichwörter ins Englische: [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027]\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object).\n6. Relationen:\n   - Maria führt die Aktivität \u0027swim\u0027 aus (perform)\n   - Maria ist mit dem Pool verbunden (attached)\n   - \u0027swim\u0027 hat den Pool als Ziel (target)\n7. Typkodierungen wurden erfolgreich zugeordnet:\n   - Maria (object) \u003d 1\n   - swim (activity) \u003d 4\n   - pool (object) \u003d 1\n   - perform \u003d 8\n   - attached \u003d 5\n   - target \u003d 9",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027]\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027meinem\u0027 → \u0027Maria\u0027\\n3. Übersetzung der Stichwörter ins Englische: [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027]\\n4. Ersetzung der Nutzeridentifikation: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (object), \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object).\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027swim\u0027 aus (perform)\\n   - Maria ist mit dem Pool verbunden (attached)\\n   - \u0027swim\u0027 hat den Pool als Ziel (target)\\n7. Typkodierungen wurden erfolgreich zugeordnet:\\n   - Maria (object) \u003d 1\\n   - swim (activity) \u003d 4\\n   - pool (object) \u003d 1\\n   - perform \u003d 8\\n   - attached \u003d 5\\n   - target \u003d 9\"\n}"
+}

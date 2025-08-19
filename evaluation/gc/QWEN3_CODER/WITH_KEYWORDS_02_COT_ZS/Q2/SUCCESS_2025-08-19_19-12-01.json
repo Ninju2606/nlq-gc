@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer hat keine selbst-identifizierenden Wörter wie „ich“ oder „mein“ verwendet. Daher wird die Identifikation „Maria“ nicht in den GraphCode übernommen. 2. Attributeigenschaften der Stichwörter: „tim“ ist vom Typ „object“ (ID 1), da es sich um ein Objekt handelt. „run“ ist eine Aktivität und wird als „activity“ (ID 4) identifiziert. 3. Relationen zwischen den Stichwörtern: „tim“ führt die Aktivität „run“ aus. Diese Relation wird durch den Typ „perform“ (ID 8) beschrieben. 4. Überprüfung der Typkodierungen: Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten. „object“ (ID 1), „activity“ (ID 4) und „perform“ (ID 8) sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer hat keine selbst-identifizierenden Wörter wie „ich“ oder „mein“ verwendet. Daher wird die Identifikation „Maria“ nicht in den GraphCode übernommen. 2. Attributeigenschaften der Stichwörter: „tim“ ist vom Typ „object“ (ID 1), da es sich um ein Objekt handelt. „run“ ist eine Aktivität und wird als „activity“ (ID 4) identifiziert. 3. Relationen zwischen den Stichwörtern: „tim“ führt die Aktivität „run“ aus. Diese Relation wird durch den Typ „perform“ (ID 8) beschrieben. 4. Überprüfung der Typkodierungen: Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten. „object“ (ID 1), „activity“ (ID 4) und „perform“ (ID 8) sind vorhanden.\"\n}"
+}

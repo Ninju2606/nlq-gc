@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"in\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 0, 0],\n    [0, 0, 2, 0, 1],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 3],\n    [0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n#### Begriffe (Dictionary):\n- **Ich**\n- **schwimme**\n- **in**\n- **meinem**\n- **Pool**\n\n#### Beziehungen (Matrix):\n\n- `\"Ich\"` **perform** (8) → `\"schwimme\"`\n- `\"schwimme\"` **context** (2) → `\"in\"`\n- `\"schwimme\"` **object** (1) → `\"Pool\"`\n- `\"meinem\"` **synonym** (3) → `\"Pool\"` (da \"meinem Pool\" \u003d \"Pool\", synonyme Beziehung)\n\nMatrix ist typcodiert nach den gegebenen Beziehungen. Alle anderen Zellen sind 0, da keine weiteren Beziehungen bestehen."
+}

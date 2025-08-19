@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist ein Objekt (object), \u0027hat\u0027 eine Aktivität (activity), \u0027yellow\u0027 eine Eigenschaft (characteristic) und \u0027hat\u0027 (als Objekt) ein Objekt (object). Die Beziehung zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist \u0027attached\u0027, da die Farbe dem Hut zugeordnet ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. \u0027Maria\u0027 ist ein Objekt (object), \u0027hat\u0027 eine Aktivität (activity), \u0027yellow\u0027 eine Eigenschaft (characteristic) und \u0027hat\u0027 (als Objekt) ein Objekt (object). Die Beziehung zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist \u0027attached\u0027, da die Farbe dem Hut zugeordnet ist.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Dabei ist \u0027Maria\u0027 vom Typ \u0027object\u0027, \u0027swim\u0027 vom Typ \u0027activity\u0027, \u0027pool\u0027 vom Typ \u0027context\u0027 und \u0027own\u0027 vom Typ \u0027object\u0027. Die Relationen sind wie folgt: Maria führt die Aktivität \u0027swim\u0027 aus (Eintrag 8 in der Matrix), der Pool ist der Kontext (Typ 2) und der Besitz wird durch die Relation \u0027attached\u0027 (Typ 5) zwischen Pool und own ausgedrückt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Dabei ist \u0027Maria\u0027 vom Typ \u0027object\u0027, \u0027swim\u0027 vom Typ \u0027activity\u0027, \u0027pool\u0027 vom Typ \u0027context\u0027 und \u0027own\u0027 vom Typ \u0027object\u0027. Die Relationen sind wie folgt: Maria führt die Aktivität \u0027swim\u0027 aus (Eintrag 8 in der Matrix), der Pool ist der Kontext (Typ 2) und der Besitz wird durch die Relation \u0027attached\u0027 (Typ 5) zwischen Pool und own ausgedrückt.\"\n}"
+}

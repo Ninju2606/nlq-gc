@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung \u0027trägt\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) zwischen Maria und der Aktivität \u0027wear\u0027 ausgedrückt. Der Hut ist das Ziel der Trage-Aktivität (Target, ID 9), während die Farbe \u0027gelb\u0027 als charakteristisches Merkmal des Huts mit \u0027characteristic\u0027 (ID 14) verknüpft ist.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 1, 14], [0, 0, 0, 3]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria einen gelben Hut trägt. Die Beziehung \u0027trägt\u0027 wird durch den Typ \u0027perform\u0027 (ID 8) zwischen Maria und der Aktivität \u0027wear\u0027 ausgedrückt. Der Hut ist das Ziel der Trage-Aktivität (Target, ID 9), während die Farbe \u0027gelb\u0027 als charakteristisches Merkmal des Huts mit \u0027characteristic\u0027 (ID 14) verknüpft ist.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 9],\n    [0, 0, 0, 0],\n    [0, 0, 0, 1],\n    [0, 0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n- **\"dictionary\"**: Enthält die im Text vorkommenden Begriffe in der Reihenfolge ihrer Zeilen-/Spalten-Indizes.\n- **\"matrix\"**: Adjazenzmatrix, in der die Beziehungen zwischen den Begriffen gemäß der Typkodierung dargestellt sind:\n  - **Ich → schwimme**: Beziehung `perform` → Typ **8**\n  - **Ich → Pool**: Beziehung `target` (Schwimmziel) → Typ **9**\n  - **meinem → Pool**: Beziehung `attached` (Possessiv) → Typ **5**\n  - Alle anderen Beziehungen sind nicht vorhanden → **0**\n\n typcodierte Beziehungen orientieren sich an den vorgegebenen Typen."
+}

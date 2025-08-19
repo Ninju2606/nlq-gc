@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      6,
+      5
+    ],
+    [
+      8,
+      4,
+      6,
+      5
+    ],
+    [
+      7,
+      7,
+      2,
+      5
+    ],
+    [
+      9,
+      9,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.25,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027]\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027mir\u0027 -\u003e \u0027Maria\u0027\n3. Übersetzung der Stichwörter ins Englische: [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027]\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027/\u0027mir\u0027 -\u003e \u0027Maria\u0027\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object) bzw. Kontext (context), \u0027gehört\u0027 beschreibt eine Zugehörigkeit (attached)\n6. Relationen erklärt: Maria führt die Aktivität \u0027schwimmen\u0027 aus (perform), Maria befindet sich im Kontext \u0027Pool\u0027 (under), der Pool gehört Maria (attached)\n7. Alle Relationen haben einen passenden Eintrag in den Typkodierungen: object(1), activity(4), context(2), attached(5), perform(8), under(6)",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 6, 5],\n    [8, 4, 6, 5],\n    [7, 7, 2, 5],\n    [9, 9, 9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027]\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 -\u003e \u0027Maria\u0027, \u0027mir\u0027 -\u003e \u0027Maria\u0027\\n3. Übersetzung der Stichwörter ins Englische: [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027]\\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027/\u0027mir\u0027 -\u003e \u0027Maria\u0027\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (object), \u0027schwimme\u0027 ist eine Aktivität (activity), \u0027Pool\u0027 ist ein Objekt (object) bzw. Kontext (context), \u0027gehört\u0027 beschreibt eine Zugehörigkeit (attached)\\n6. Relationen erklärt: Maria führt die Aktivität \u0027schwimmen\u0027 aus (perform), Maria befindet sich im Kontext \u0027Pool\u0027 (under), der Pool gehört Maria (attached)\\n7. Alle Relationen haben einen passenden Eintrag in den Typkodierungen: object(1), activity(4), context(2), attached(5), perform(8), under(6)\"\n}"
+}

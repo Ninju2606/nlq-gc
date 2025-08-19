@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria (object) führt die Aktivität (activity) schwimmen (swim) aus, was durch den Eintrag 8 (perform) gekennzeichnet ist. Zusätzlich ist im Kontext (context) des Pools (pool) eine zugehörige Aktion (attached) kodiert, wobei der Pool unter dem Begriff \u0027under\u0027 keine direkte Rolle spielt – daher hier lediglich eine Anbindung (attached) via Typ 5 (attached).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Die Beziehung zwischen den Begriffen ist wie folgt kodiert: Maria (object) führt die Aktivität (activity) schwimmen (swim) aus, was durch den Eintrag 8 (perform) gekennzeichnet ist. Zusätzlich ist im Kontext (context) des Pools (pool) eine zugehörige Aktion (attached) kodiert, wobei der Pool unter dem Begriff \u0027under\u0027 keine direkte Rolle spielt – daher hier lediglich eine Anbindung (attached) via Typ 5 (attached).\"\n}"
+}

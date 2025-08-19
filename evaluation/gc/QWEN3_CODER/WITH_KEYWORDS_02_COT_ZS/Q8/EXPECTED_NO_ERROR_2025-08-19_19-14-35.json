@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anzahl der Begriffe in der Anfrage übersteigt die Anzahl der zur Verfügung stehenden Vokabeln. Es konnte kein gültiger GraphCode erstellt werden, da nicht alle notwendigen Begriffe im Vokabular enthalten sind.",
+  "error": "Die Anfrage enthält mehr Begriffe als das vorgegebene englischsprachige Vokabular. Die deutsche Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 enthält Begriffe wie \u0027Tochter\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027, welche nicht alle im Vokabular [\u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027] enthalten sind. Eine vollständige und korrekte Zuordnung ist daher nicht möglich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält mehr Begriffe als das vorgegebene englischsprachige Vokabular. Die deutsche Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 enthält Begriffe wie \u0027Tochter\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027, welche nicht alle im Vokabular [\u0027maria\u0027, \u0027person\u0027, \u0027drive\u0027, \u0027boat\u0027, \u0027lake\u0027] enthalten sind. Eine vollständige und korrekte Zuordnung ist daher nicht möglich.\",\n  \"description\": \"Die Anzahl der Begriffe in der Anfrage übersteigt die Anzahl der zur Verfügung stehenden Vokabeln. Es konnte kein gültiger GraphCode erstellt werden, da nicht alle notwendigen Begriffe im Vokabular enthalten sind.\"\n}"
+}

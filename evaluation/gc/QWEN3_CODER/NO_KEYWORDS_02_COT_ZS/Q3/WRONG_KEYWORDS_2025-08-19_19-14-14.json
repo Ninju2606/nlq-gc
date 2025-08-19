@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027].\n2. Relative Verweise aufgelöst: \u0027gehört\u0027 bezieht sich auf \u0027Pool\u0027 und \u0027mir\u0027 (also \u0027Ich\u0027 -\u003e \u0027Maria\u0027).\n3. Stichwörter ins Englische übersetzt: [\u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e entfernt, da Attributzuweisung].\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), Beziehung \u0027gehört\u0027 interpretiert als \u0027attached\u0027 (Typ 5).\n6. Relationen erklärt: \u0027Maria\u0027 -\u003e führt aus -\u003e \u0027swim\u0027 (Typ 8), \u0027Maria\u0027 -\u003e ist attached an -\u003e \u0027pool\u0027 (Typ 5), \u0027swim\u0027 -\u003e hat Ziel -\u003e \u0027pool\u0027 (Typ 9).\n7. Alle Relationen haben gültige Typkodierungen gefunden. IDs: object\u003d1, activity\u003d4, context\u003d2, perform\u003d8, attached\u003d5, target\u003d9.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage ermittelt: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027].\\n2. Relative Verweise aufgelöst: \u0027gehört\u0027 bezieht sich auf \u0027Pool\u0027 und \u0027mir\u0027 (also \u0027Ich\u0027 -\u003e \u0027Maria\u0027).\\n3. Stichwörter ins Englische übersetzt: [\u0027schwimme\u0027 -\u003e \u0027swim\u0027, \u0027Pool\u0027 -\u003e \u0027pool\u0027, \u0027gehört\u0027 -\u003e entfernt, da Attributzuweisung].\\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1), Beziehung \u0027gehört\u0027 interpretiert als \u0027attached\u0027 (Typ 5).\\n6. Relationen erklärt: \u0027Maria\u0027 -\u003e führt aus -\u003e \u0027swim\u0027 (Typ 8), \u0027Maria\u0027 -\u003e ist attached an -\u003e \u0027pool\u0027 (Typ 5), \u0027swim\u0027 -\u003e hat Ziel -\u003e \u0027pool\u0027 (Typ 9).\\n7. Alle Relationen haben gültige Typkodierungen gefunden. IDs: object\u003d1, activity\u003d4, context\u003d2, perform\u003d8, attached\u003d5, target\u003d9.\"\n}"
+}

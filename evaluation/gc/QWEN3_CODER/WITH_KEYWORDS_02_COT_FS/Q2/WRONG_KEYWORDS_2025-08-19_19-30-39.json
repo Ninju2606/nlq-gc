@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wurde nicht zur Identifikation des Nutzers verwendet, da keine selbst-identifizierenden Wörter wie \"ich\" oder \"mein\" vorliegen.\n2. \"tim\" und \"run\" sind Objekte bzw. Aktivitäten der Anfrage. \"Maria\" wird als Objekt interpretiert, da sie als Identifikation des Nutzers angegeben wurde, aber nicht verwendet wird, weil die Anfrage nicht aus Sicht des Nutzers gestellt ist.\n3. In der gegebenen Anfrage wird beschrieben, dass \"tim\" die Aktion \"run\" ausführt. Es besteht eine Beziehung zwischen \"tim\" und \"run\", wobei \"run\" eine Aktivität ist, die auf \"tim\" bezogen ist.\n4. Die zugrunde liegenden Typen sind:\n   - object: ID 1 (für \"tim\" und \"Maria\")\n   - activity: ID 4 (für \"run\")\n   - target: ID 8 (Beziehung von \"run\" zu \"tim\")\nAllerdings ergibt sich ein logischer Konflikt: \"Maria\" ist die Identifikation des Nutzers, aber die Anfrage behandelt \"Tim rennt\" – also eine unabhängige Szene ohne direkten Bezug zum Nutzer. Laut Regel könnte \"Maria\" ignoriert werden, da kein Hinweis auf ihre Beteiligung besteht. Somit besteht nur die Beziehung von \"tim\" → \"run\", was zu einer inkonsistenten Matrix führt, wenn \"Maria\" im Vokabular bleibt. Diese Konstellation ist grammatikalisch abweichend von typischen Szenenbeschreibungen, daher kann kein sinnvoller GraphCode generiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [[1, 0, 0], [0, 1, 8], [0, 0, 4]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wurde nicht zur Identifikation des Nutzers verwendet, da keine selbst-identifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" vorliegen.\\n2. \\\"tim\\\" und \\\"run\\\" sind Objekte bzw. Aktivitäten der Anfrage. \\\"Maria\\\" wird als Objekt interpretiert, da sie als Identifikation des Nutzers angegeben wurde, aber nicht verwendet wird, weil die Anfrage nicht aus Sicht des Nutzers gestellt ist.\\n3. In der gegebenen Anfrage wird beschrieben, dass \\\"tim\\\" die Aktion \\\"run\\\" ausführt. Es besteht eine Beziehung zwischen \\\"tim\\\" und \\\"run\\\", wobei \\\"run\\\" eine Aktivität ist, die auf \\\"tim\\\" bezogen ist.\\n4. Die zugrunde liegenden Typen sind:\\n   - object: ID 1 (für \\\"tim\\\" und \\\"Maria\\\")\\n   - activity: ID 4 (für \\\"run\\\")\\n   - target: ID 8 (Beziehung von \\\"run\\\" zu \\\"tim\\\")\\nAllerdings ergibt sich ein logischer Konflikt: \\\"Maria\\\" ist die Identifikation des Nutzers, aber die Anfrage behandelt \\\"Tim rennt\\\" – also eine unabhängige Szene ohne direkten Bezug zum Nutzer. Laut Regel könnte \\\"Maria\\\" ignoriert werden, da kein Hinweis auf ihre Beteiligung besteht. Somit besteht nur die Beziehung von \\\"tim\\\" → \\\"run\\\", was zu einer inkonsistenten Matrix führt, wenn \\\"Maria\\\" im Vokabular bleibt. Diese Konstellation ist grammatikalisch abweichend von typischen Szenenbeschreibungen, daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

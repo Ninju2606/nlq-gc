@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage sind: \"Termin\", \"ausmachen\", \"bald\". 2. Es gibt keine relativen Verweise in der Anfrage. 3. Die Stichwörter wurden ins Englische übersetzt: \"Termin\" → \"appointment\", \"ausmachen\" → \"schedule\", \"bald\" → \"soon\". 4. Es kommen keine selbst-identifizierenden Wörter wie \"ich\" oder \"mein\" vor, daher wird die Identifikation des Nutzers nicht verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"schedule\", \"appointment\", \"soon\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage sind: \\\"Termin\\\", \\\"ausmachen\\\", \\\"bald\\\". 2. Es gibt keine relativen Verweise in der Anfrage. 3. Die Stichwörter wurden ins Englische übersetzt: \\\"Termin\\\" → \\\"appointment\\\", \\\"ausmachen\\\" → \\\"schedule\\\", \\\"bald\\\" → \\\"soon\\\". 4. Es kommen keine selbst-identifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" vor, daher wird die Identifikation des Nutzers nicht verwendet.\"\n}"
+}

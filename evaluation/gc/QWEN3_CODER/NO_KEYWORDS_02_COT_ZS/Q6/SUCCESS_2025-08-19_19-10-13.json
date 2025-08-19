@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage \"Wir müssen bald einen Termin ausmachen\" beschreibt eine intendierte zukünftige Handlung, aber keine Szene mit objektiven Inhalten, Attributen oder Aktivitäten, die für die Erstellung eines GraphCodes nutzbar wären. Insbesondere fehlen konkrete Objekte, Akteure oder räumliche sowie zeitliche Relationen.",
+  "error": "Die Anfrage enthält keine spezifizierbaren Szeneninhalte oder handlungsrelevante Elemente, aus denen ein GraphCode generiert werden könnte.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifizierbaren Szeneninhalte oder handlungsrelevante Elemente, aus denen ein GraphCode generiert werden könnte.\",\n  \"description\": \"Die Nutzeranfrage \\\"Wir müssen bald einen Termin ausmachen\\\" beschreibt eine intendierte zukünftige Handlung, aber keine Szene mit objektiven Inhalten, Attributen oder Aktivitäten, die für die Erstellung eines GraphCodes nutzbar wären. Insbesondere fehlen konkrete Objekte, Akteure oder räumliche sowie zeitliche Relationen.\"\n}"
+}

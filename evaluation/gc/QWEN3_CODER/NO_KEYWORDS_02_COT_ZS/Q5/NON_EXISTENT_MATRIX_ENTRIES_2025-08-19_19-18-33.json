@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\"ich\", \"gelben Hut\", \"trage\"]\n2. Relative Verweise aufgelöst: \"ich\" → \"Maria\"\n3. Übersetzung ins Englische: [\"Maria\", \"wear\", \"yellow hat\"]\n4. Ersetzung der Nutzeridentifikation: \"ich\" → \"Maria\" (bereits in Schritt 2 umgesetzt)\n5. Attribut-Erklärungen: \n   - \"yellow\" ist ein Merkmal von \"hat\" (characteristic)\n   - \"hat\" ist ein Objekt (object)\n   - \"Maria\" ist eine Person, also auch ein Objekt (object)\n   - \"wear\" beschreibt eine Aktivität (activity)\n6. Relationen erklärt:\n   - Maria führt die Aktivität \"wear\" aus → TypID 8 (perform)\n   - Die Aktivität \"wear\" bezieht sich auf den Hut → TypID 9 (target)\n   - Der Hut hat die Eigenschaft \"yellow\" → TypID 14 (characteristic)\n   - \"yellow\" ist Teil von \"hat\" → TypID 5 (attached)\n7. Alle Relationen haben gültige Typkodierungen erhalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\\\"ich\\\", \\\"gelben Hut\\\", \\\"trage\\\"]\\n2. Relative Verweise aufgelöst: \\\"ich\\\" → \\\"Maria\\\"\\n3. Übersetzung ins Englische: [\\\"Maria\\\", \\\"wear\\\", \\\"yellow hat\\\"]\\n4. Ersetzung der Nutzeridentifikation: \\\"ich\\\" → \\\"Maria\\\" (bereits in Schritt 2 umgesetzt)\\n5. Attribut-Erklärungen: \\n   - \\\"yellow\\\" ist ein Merkmal von \\\"hat\\\" (characteristic)\\n   - \\\"hat\\\" ist ein Objekt (object)\\n   - \\\"Maria\\\" ist eine Person, also auch ein Objekt (object)\\n   - \\\"wear\\\" beschreibt eine Aktivität (activity)\\n6. Relationen erklärt:\\n   - Maria führt die Aktivität \\\"wear\\\" aus → TypID 8 (perform)\\n   - Die Aktivität \\\"wear\\\" bezieht sich auf den Hut → TypID 9 (target)\\n   - Der Hut hat die Eigenschaft \\\"yellow\\\" → TypID 14 (characteristic)\\n   - \\\"yellow\\\" ist Teil von \\\"hat\\\" → TypID 5 (attached)\\n7. Alle Relationen haben gültige Typkodierungen erhalten.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Nutzerin Maria ist vom Typ \u0027object\u0027, Tochter ist eine \u0027person\u0027, die Relation ist \u0027daughter\u0027 (10). Fahrt ist eine \u0027activity\u0027 (9), realisiert durch das Verb \u0027drive\u0027 (7), das Ziel ist das Boot (\u0027object\u0027, 1), welches \u0027above\u0027 (7) dem See ist. Der See ist vom Typ \u0027context\u0027 (3), da er den Ort definiert.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n    \"matrix\": [\n        [1, 10, 7, 0, 0],\n        [0, 1, 7, 0, 0],\n        [0, 0, 9, 8, 0],\n        [0, 0, 0, 1, 6],\n        [0, 0, 0, 0, 3]\n    ],\n    \"description\": \"GraphCode für die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Nutzerin Maria ist vom Typ \u0027object\u0027, Tochter ist eine \u0027person\u0027, die Relation ist \u0027daughter\u0027 (10). Fahrt ist eine \u0027activity\u0027 (9), realisiert durch das Verb \u0027drive\u0027 (7), das Ziel ist das Boot (\u0027object\u0027, 1), welches \u0027above\u0027 (7) dem See ist. Der See ist vom Typ \u0027context\u0027 (3), da er den Ort definiert.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \\\"Ich\\\" wurde zu \\\"maria\\\" aufgelöst.\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"maria\\\" führt die Aktivität \\\"own\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"pool\\\" ist Ziel der Aktivität \\\"own\\\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für target ist 9. Die ID für Beziehung (attached) ist 4. Die ID für characteristic ist 5.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 4, 0],\n    [0, 4, 9, 8],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\\\\\"Ich\\\\\\\" wurde zu \\\\\\\"maria\\\\\\\" aufgelöst.\\n2. \\\\\\\"maria\\\\\\\" und \\\\\\\"pool\\\\\\\" sind Objekte. \\\\\\\"swim\\\\\\\" und \\\\\\\"own\\\\\\\" sind Aktivitäten.\\n3. \\\\\\\"maria\\\\\\\" führt die Aktivität \\\\\\\"swim\\\\\\\" aus. \\\\\\\"maria\\\\\\\" führt die Aktivität \\\\\\\"own\\\\\\\" aus. \\\\\\\"swim\\\\\\\" bezieht sich auf \\\\\\\"pool\\\\\\\". \\\\\\\"pool\\\\\\\" ist Ziel der Aktivität \\\\\\\"own\\\\\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für target ist 9. Die ID für Beziehung (attached) ist 4. Die ID für characteristic ist 5.\"\n}"
+}

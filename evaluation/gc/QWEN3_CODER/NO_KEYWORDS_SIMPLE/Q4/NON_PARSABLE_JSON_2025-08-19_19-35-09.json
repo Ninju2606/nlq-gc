@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Ich\",\n    \"schwimme\",\n    \"in\",\n    \"meinem\",\n    \"Pool\"\n  ],\n  \"matrix\": [\n    [0, 8, 0, 0, 0],\n    [0, 0, 0, 0, 9],\n    [0, 0, 0, 0, 5],\n    [0, 0, 0, 0, 3],\n    [0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erläuterung:\n\n- **dictionary**: Enthält die Begriffe aus dem Satz „Ich schwimme in meinem Pool“ in der Reihenfolge ihres Auftretens.\n- **matrix**: Ist eine quadratische Matrix, wobei die Zellen Beziehungen zwischen den Begriffen repräsentieren.\n  - **8 (perform)**: „Ich“ führt „schwimme“ aus.\n  - **9 (target)**: „schwimme“ hat „Pool“ als Ziel.\n  - **5 (attached)**: „in“ verknüpft „Pool“ (örtliche Bindung).\n  - **3 (synonym)**: „meinem“ ist synonym oder attributiv zu „Pool“ (Besitzverhältnis, eingeschränkt synonym).\n\nMöchtest du eine andere Kodierung oder feinere Granularität (z. B. grammatische Rollen)?"
+}

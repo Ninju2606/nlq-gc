@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Wir\" wurde ignoriert, da keine klare Identifikation stattfindet. \n2. \"Maria\" ist ein Objekt. \"Make\" ist eine Aktivität. \"Appointment\" ist ein Objekt. \n3. \"Make\" bezieht sich auf \"appointment\". \"Maria\" ist Ziel der Handlung \"make\". \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ziel (target) ist 9. Die ID für Handlung (perform) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Wir\\\" wurde ignoriert, da keine klare Identifikation stattfindet. \\n2. \\\"Maria\\\" ist ein Objekt. \\\"Make\\\" ist eine Aktivität. \\\"Appointment\\\" ist ein Objekt. \\n3. \\\"Make\\\" bezieht sich auf \\\"appointment\\\". \\\"Maria\\\" ist Ziel der Handlung \\\"make\\\". \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ziel (target) ist 9. Die ID für Handlung (perform) ist 8.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Maria ist ein Objekt (Typ 1), swim ist eine Aktivität (Typ 4), own ist ein Objekt (Typ 1) und pool ist ein Objekt (Typ 1). Die Beziehung zwischen maria und swim ist \u0027perform\u0027 (Typ 8). Die Beziehung zwischen swim und own ist \u0027target\u0027 (Typ 9). Die Beziehung zwischen own und pool ist \u0027attached\u0027 (Typ 5).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 9, 0],\n        [0, 0, 1, 5],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria schwimmt. Maria ist ein Objekt (Typ 1), swim ist eine Aktivität (Typ 4), own ist ein Objekt (Typ 1) und pool ist ein Objekt (Typ 1). Die Beziehung zwischen maria und swim ist \u0027perform\u0027 (Typ 8). Die Beziehung zwischen swim und own ist \u0027target\u0027 (Typ 9). Die Beziehung zwischen own und pool ist \u0027attached\u0027 (Typ 5).\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine hinreichend klare Szenenbeschreibung im Metaverse-Kontext. Begriffe wie \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind nicht präzise genug, um daraus einen vollständigen und sinnvollen GraphCode zu generieren. Es fehlen explizite Relationen zwischen den Begriffen, die für eine Bewertungsmatrix notwendig wären.",
+  "error": "Unklare oder unvollständige Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage.\",\n  \"description\": \"Die Anfrage enthält keine hinreichend klare Szenenbeschreibung im Metaverse-Kontext. Begriffe wie \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind nicht präzise genug, um daraus einen vollständigen und sinnvollen GraphCode zu generieren. Es fehlen explizite Relationen zwischen den Begriffen, die für eine Bewertungsmatrix notwendig wären.\"\n}"
+}

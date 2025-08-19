@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Ausdruck \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da dies die explizit angegebene Identifikation des Nutzers ist. \u0027Meinem\u0027 wurde interpretiert als ein Hinweis auf Besitz, weshalb der Begriff \u0027own\u0027 aufgenommen wurde.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), da es sich um eine identifizizierbare Entität handelt. \u0027swim\u0027 ist eine Aktivität (activity), da es eine Handlung darstellt. \u0027own\u0027 ist eine Beziehung (attached), die Eigentum anzeigt. \u0027pool\u0027 ist ein Objekt (object), da es sich um ein physisches Element handelt.\n3. Relationen zwischen den Stichwörtern: maria führt die Aktivität swim aus (perform, id\u003d8). swim bezieht sich auf pool als Ziel oder Ort (target, id\u003d9) und findet im Kontext des pool statt (context, id\u003d2). maria besitzt den pool (attached, id\u003d5).\n4. Verwendete Typkodierungen: Alle genannten Relationen sind in den vorgegebenen Typkodierungen enthalten. object\u003d1, activity\u003d4, attached\u003d5, above\u003d7, under\u003d6, synonym\u003d3, context\u003d2, perform\u003d8, target\u003d9, daughter\u003d10, characteristic\u003d14.",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 9, 2],\n        [0, 0, 1, 5],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Ausdruck \u0027Ich\u0027 wurde durch \u0027maria\u0027 ersetzt, da dies die explizit angegebene Identifikation des Nutzers ist. \u0027Meinem\u0027 wurde interpretiert als ein Hinweis auf Besitz, weshalb der Begriff \u0027own\u0027 aufgenommen wurde.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), da es sich um eine identifizizierbare Entität handelt. \u0027swim\u0027 ist eine Aktivität (activity), da es eine Handlung darstellt. \u0027own\u0027 ist eine Beziehung (attached), die Eigentum anzeigt. \u0027pool\u0027 ist ein Objekt (object), da es sich um ein physisches Element handelt.\\n3. Relationen zwischen den Stichwörtern: maria führt die Aktivität swim aus (perform, id\u003d8). swim bezieht sich auf pool als Ziel oder Ort (target, id\u003d9) und findet im Kontext des pool statt (context, id\u003d2). maria besitzt den pool (attached, id\u003d5).\\n4. Verwendete Typkodierungen: Alle genannten Relationen sind in den vorgegebenen Typkodierungen enthalten. object\u003d1, activity\u003d4, attached\u003d5, above\u003d7, under\u003d6, synonym\u003d3, context\u003d2, perform\u003d8, target\u003d9, daughter\u003d10, characteristic\u003d14.\"\n}"
+}

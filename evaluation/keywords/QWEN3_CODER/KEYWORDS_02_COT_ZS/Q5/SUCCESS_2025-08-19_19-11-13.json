@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte Situationen sehen, in denen er einen gelben Hut trägt. Die Identifikation des Nutzers wurde in der Anfrage als \u0027Maria\u0027 spezifiziert. Das Stichwort \u0027ich\u0027 wurde entsprechend ersetzt. Die übersetzten Begriffe sind: \u0027yellow\u0027 für \u0027gelb\u0027, \u0027hat\u0027 für \u0027Hut\u0027, \u0027wear\u0027 für \u0027trage\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Der Nutzer möchte Situationen sehen, in denen er einen gelben Hut trägt. Die Identifikation des Nutzers wurde in der Anfrage als \u0027Maria\u0027 spezifiziert. Das Stichwort \u0027ich\u0027 wurde entsprechend ersetzt. Die übersetzten Begriffe sind: \u0027yellow\u0027 für \u0027gelb\u0027, \u0027hat\u0027 für \u0027Hut\u0027, \u0027wear\u0027 für \u0027trage\u0027.\"\n}"
+}

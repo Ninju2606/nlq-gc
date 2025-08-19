@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer sucht nach einer Szene, in der Tim rennt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"description\": \"Der Nutzer sucht nach einer Szene, in der Tim rennt.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer schwimmt in einem Pool, der ihm gehört. Die Szene beschreibt eine spezifische Aktivität (Schwimmen) an einem Ort (Pool), wobei der Besitz des Pools durch den Nutzer ausgedrückt wird.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n    \"description\": \"Der Nutzer schwimmt in einem Pool, der ihm gehört. Die Szene beschreibt eine spezifische Aktivität (Schwimmen) an einem Ort (Pool), wobei der Besitz des Pools durch den Nutzer ausgedrückt wird.\"\n}"
+}

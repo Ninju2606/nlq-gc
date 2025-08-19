@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anzahl der Begriffe im Vokabular (5) entspricht nicht der Anzahl der logisch abgeleiteten Entitäten und Beziehungen aus der Anfrage. Die Anfrage enthält implizit auch \u0027Tochter\u0027, was nicht im vorgegebenen Vokabular enthalten ist, aber notwendig wäre, um alle Beziehungen korrekt abzubilden. Daher kann kein gültiger GraphCode erstellt werden.",
+  "error": "Fehler bei der Erstellung des GraphCodes",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Erstellung des GraphCodes\",\n  \"description\": \"Die Anzahl der Begriffe im Vokabular (5) entspricht nicht der Anzahl der logisch abgeleiteten Entitäten und Beziehungen aus der Anfrage. Die Anfrage enthält implizit auch \u0027Tochter\u0027, was nicht im vorgegebenen Vokabular enthalten ist, aber notwendig wäre, um alle Beziehungen korrekt abzubilden. Daher kann kein gültiger GraphCode erstellt werden.\"\n}"
+}

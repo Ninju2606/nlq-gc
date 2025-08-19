@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria die Aktivität \u0027tragen\u0027 (hat) ausführt. Dabei ist das Objekt, das getragen wird, ein Hut (hat). Der Hut ist gelb (yellow), was als charakteristisches Merkmal des Objekts modelliert wird. Die Beziehung zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist durch \u0027characteristic\u0027 und \u0027attached\u0027 ausgedrückt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria die Aktivität \u0027tragen\u0027 (hat) ausführt. Dabei ist das Objekt, das getragen wird, ein Hut (hat). Der Hut ist gelb (yellow), was als charakteristisches Merkmal des Objekts modelliert wird. Die Beziehung zwischen \u0027yellow\u0027 und \u0027hat\u0027 ist durch \u0027characteristic\u0027 und \u0027attached\u0027 ausgedrückt.\"\n}"
+}

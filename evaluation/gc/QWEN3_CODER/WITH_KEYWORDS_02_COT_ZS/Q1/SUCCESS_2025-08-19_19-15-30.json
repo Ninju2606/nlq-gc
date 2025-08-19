@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, welches durch die Identifikation \u0027maria\u0027 ersetzt wird. 2. Die Attribut-Eigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity) und \u0027basketball\u0027 ist ein Objekt (object). 3. Die Relationen sind: \u0027maria\u0027 -\u003e \u0027play\u0027 (perform), \u0027play\u0027 -\u003e \u0027basketball\u0027 (target). 4. Es gibt passende Typkodierungen: \u0027maria\u0027 (1 - object), \u0027play\u0027 (4 - activity), \u0027basketball\u0027 (1 - object), \u0027perform\u0027 (8), \u0027target\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich selbst mit dem Wort \u0027Ich\u0027, welches durch die Identifikation \u0027maria\u0027 ersetzt wird. 2. Die Attribut-Eigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity) und \u0027basketball\u0027 ist ein Objekt (object). 3. Die Relationen sind: \u0027maria\u0027 -\u003e \u0027play\u0027 (perform), \u0027play\u0027 -\u003e \u0027basketball\u0027 (target). 4. Es gibt passende Typkodierungen: \u0027maria\u0027 (1 - object), \u0027play\u0027 (4 - activity), \u0027basketball\u0027 (1 - object), \u0027perform\u0027 (8), \u0027target\u0027 (9).\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die vom Nutzer gestellte Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 ist grammatikalisch korrekt, jedoch wird hier keine explizite Szene eines Metaverses geschildert. Es fehlen spezifische Objekte, Attribute oder Aktivitäten innerhalb einer virtuellen Umgebung. Daher kann kein valider GraphCode generiert werden.",
+  "error": "Die Anfrage enthält keine ausreichenden Informationen für die Erstellung eines GraphCodes, da sie keine klare Szenenbeschreibung im Metaverse darstellt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine ausreichenden Informationen für die Erstellung eines GraphCodes, da sie keine klare Szenenbeschreibung im Metaverse darstellt.\",\n  \"description\": \"Die vom Nutzer gestellte Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 ist grammatikalisch korrekt, jedoch wird hier keine explizite Szene eines Metaverses geschildert. Es fehlen spezifische Objekte, Attribute oder Aktivitäten innerhalb einer virtuellen Umgebung. Daher kann kein valider GraphCode generiert werden.\"\n}"
+}

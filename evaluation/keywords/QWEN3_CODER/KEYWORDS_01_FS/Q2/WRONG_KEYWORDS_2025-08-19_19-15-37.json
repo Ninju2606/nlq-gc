@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich aus der Anfrage generiert. Die Identifikation \u0027Maria\u0027 wurde verwendet, da die Anfrage eine Handlung von \u0027Tim\u0027 beschreibt, jedoch keine selbst identifizierenden Wörter wie \u0027ich\u0027 enthält. Daher wird die spezifizierte Nutzeridentifikation \u0027Maria\u0027 berücksichtigt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\"],\n    \"description\": \"Der GraphCode wurde erfolgreich aus der Anfrage generiert. Die Identifikation \u0027Maria\u0027 wurde verwendet, da die Anfrage eine Handlung von \u0027Tim\u0027 beschreibt, jedoch keine selbst identifizierenden Wörter wie \u0027ich\u0027 enthält. Daher wird die spezifizierte Nutzeridentifikation \u0027Maria\u0027 berücksichtigt.\"\n}"
+}

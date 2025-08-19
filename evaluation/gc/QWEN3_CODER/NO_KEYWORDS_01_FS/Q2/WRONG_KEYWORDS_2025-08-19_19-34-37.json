@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria rennt. Die Beziehung zwischen Maria und der Aktivität \u0027rennen\u0027 wird durch den Typ \u0027perform\u0027 ausgedrückt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\"],\n    \"matrix\": [[1, 8], [0, 4]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria rennt. Die Beziehung zwischen Maria und der Aktivität \u0027rennen\u0027 wird durch den Typ \u0027perform\u0027 ausgedrückt.\"\n}"
+}

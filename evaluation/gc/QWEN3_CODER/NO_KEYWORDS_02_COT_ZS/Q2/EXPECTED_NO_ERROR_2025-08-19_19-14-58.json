@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält lediglich ein Subjekt und ein Verb, allerdings fehlen weitere Elemente wie Attribute, Kontext oder Aktivitäten, um einen vollständigen GraphCode zu erstellen. Es ist unklar, ob \u0027rennt\u0027 eine selbständige Aktivität darstellt oder im Kontext mit anderen Objekten oder Attributen steht. Daher kann kein valider GraphCode erstellt werden.",
+  "error": "Die Anfrage ist zu kurz und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist zu kurz und enthält nicht genügend Informationen, um einen sinnvollen GraphCode zu generieren.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält lediglich ein Subjekt und ein Verb, allerdings fehlen weitere Elemente wie Attribute, Kontext oder Aktivitäten, um einen vollständigen GraphCode zu erstellen. Es ist unklar, ob \u0027rennt\u0027 eine selbständige Aktivität darstellt oder im Kontext mit anderen Objekten oder Attributen steht. Daher kann kein valider GraphCode erstellt werden.\"\n}"
+}

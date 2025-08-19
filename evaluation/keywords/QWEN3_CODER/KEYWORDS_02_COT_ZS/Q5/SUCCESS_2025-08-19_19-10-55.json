@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte Situationen im Metaverse sehen, in denen er (identifiziert als Maria) einen gelben Hut trägt. Die Stichwörter wurden ermittelt, relative Verweise aufgelöst, ins Englische übersetzt und die Nutzeridentifikation eingefügt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n    \"description\": \"Der Nutzer möchte Situationen im Metaverse sehen, in denen er (identifiziert als Maria) einen gelben Hut trägt. Die Stichwörter wurden ermittelt, relative Verweise aufgelöst, ins Englische übersetzt und die Nutzeridentifikation eingefügt.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      8,
+      4,
+      9
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Die Identifikation \u0027Maria\u0027 wurde verwendet, da die Anfrage \u0027Ich spiele Basketball\u0027 einen selbstidentifizierenden Bezug (\u0027Ich\u0027) enthält. Daher wurde \u0027Ich\u0027 durch \u0027Maria\u0027 ersetzt.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), da es eine Person identifiziert. \u0027play\u0027 ist eine Aktivität (activity), da sie eine Handlung beschreibt. \u0027basketball\u0027 ist ein Objekt (object), da es sich um ein Dinge handelt.\n3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027play\u0027, was durch den Eintrag mit Typkodierung \u0027perform\u0027 (ID: 8) dargestellt wird. \u0027play\u0027 hat das Ziel \u0027basketball\u0027, was durch den Eintrag mit Typkodierung \u0027target\u0027 (ID: 9) beschrieben wird.\n4. Zuordnung der Typkodierungen: Alle Relationen konnten mithilfe der gegebenen Typkodierungen abgebildet werden. Die zugehörigen IDs sind: \n   - \u0027maria\u0027 -\u003e object (ID: 1)\n   - \u0027play\u0027 -\u003e activity (ID: 4)\n   - \u0027basketball\u0027 -\u003e object (ID: 1)\n   - maria --perform--\u003e play (ID: 8)\n   - play --target--\u003e basketball (ID: 9)",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [8, 4, 9],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Die Identifikation \u0027Maria\u0027 wurde verwendet, da die Anfrage \u0027Ich spiele Basketball\u0027 einen selbstidentifizierenden Bezug (\u0027Ich\u0027) enthält. Daher wurde \u0027Ich\u0027 durch \u0027Maria\u0027 ersetzt.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (object), da es eine Person identifiziert. \u0027play\u0027 ist eine Aktivität (activity), da sie eine Handlung beschreibt. \u0027basketball\u0027 ist ein Objekt (object), da es sich um ein Dinge handelt.\\n3. Relationen zwischen den Stichwörtern: \u0027maria\u0027 führt die Aktivität \u0027play\u0027, was durch den Eintrag mit Typkodierung \u0027perform\u0027 (ID: 8) dargestellt wird. \u0027play\u0027 hat das Ziel \u0027basketball\u0027, was durch den Eintrag mit Typkodierung \u0027target\u0027 (ID: 9) beschrieben wird.\\n4. Zuordnung der Typkodierungen: Alle Relationen konnten mithilfe der gegebenen Typkodierungen abgebildet werden. Die zugehörigen IDs sind: \\n   - \u0027maria\u0027 -\u003e object (ID: 1)\\n   - \u0027play\u0027 -\u003e activity (ID: 4)\\n   - \u0027basketball\u0027 -\u003e object (ID: 1)\\n   - maria --perform--\u003e play (ID: 8)\\n   - play --target--\u003e basketball (ID: 9)\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Es gibt keine selbstidentifizierenden Wörter wie „ich“ oder „mein“. Daher wird die Identifikation des Nutzers (Maria) ignoriert. 2. Attributeigenschaften: „tim“ ist ein Objekt (id\u003d1), „run“ ist eine Aktivität (id\u003d4). 3. Relationen: „tim“ führt die Aktivität „run“ aus, was durch die Relation „perform“ (id\u003d8) ausgedrückt wird. Diese Relation steht in der Matrix an Position (0,1). 4. Alle Relationen konnten mithilfe der vorgegebenen Typkodierungen abgebildet werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Es gibt keine selbstidentifizierenden Wörter wie „ich“ oder „mein“. Daher wird die Identifikation des Nutzers (Maria) ignoriert. 2. Attributeigenschaften: „tim“ ist ein Objekt (id\u003d1), „run“ ist eine Aktivität (id\u003d4). 3. Relationen: „tim“ führt die Aktivität „run“ aus, was durch die Relation „perform“ (id\u003d8) ausgedrückt wird. Diese Relation steht in der Matrix an Position (0,1). 4. Alle Relationen konnten mithilfe der vorgegebenen Typkodierungen abgebildet werden.\"\n}"
+}

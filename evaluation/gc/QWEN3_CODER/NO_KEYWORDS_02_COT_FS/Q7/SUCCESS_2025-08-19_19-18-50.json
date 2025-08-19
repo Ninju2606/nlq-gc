@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden, da diese grammatikalisch verwirrend ist und keine klare Szenenbeschreibung darstellt.",
+  "error": "Die Anfrage enthält keine gültigen oder verständlichen Szenenbeschreibungen. Bitte formuliere eine neue Anfrage, die eine klare Szene im Metaverse beschreibt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine gültigen oder verständlichen Szenenbeschreibungen. Bitte formuliere eine neue Anfrage, die eine klare Szene im Metaverse beschreibt.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden, da diese grammatikalisch verwirrend ist und keine klare Szenenbeschreibung darstellt.\"\n}"
+}

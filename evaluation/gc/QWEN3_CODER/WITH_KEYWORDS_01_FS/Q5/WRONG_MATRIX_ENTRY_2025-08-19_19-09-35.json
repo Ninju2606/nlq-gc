@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode repräsentiert eine Szene, in der Maria einen Hut trägt. \u0027Maria\u0027 ist als Objekt (Typ 1) definiert und führt die Aktivität \u0027wear\u0027 (Typ 8) aus. \u0027Wear\u0027 ist eine Aktivität (Typ 4), deren Ziel (Typ 9) der Hut ist. Der Hut ist ein Objekt (Typ 1) und hat die Eigenschaft gelb (Typ 14). \u0027Gelb\u0027 ist eine Charakteristik (Typ 3).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 1, 14], [0, 0, 0, 3]],\n    \"description\": \"Der GraphCode repräsentiert eine Szene, in der Maria einen Hut trägt. \u0027Maria\u0027 ist als Objekt (Typ 1) definiert und führt die Aktivität \u0027wear\u0027 (Typ 8) aus. \u0027Wear\u0027 ist eine Aktivität (Typ 4), deren Ziel (Typ 9) der Hut ist. Der Hut ist ein Objekt (Typ 1) und hat die Eigenschaft gelb (Typ 14). \u0027Gelb\u0027 ist eine Charakteristik (Typ 3).\"\n}"
+}

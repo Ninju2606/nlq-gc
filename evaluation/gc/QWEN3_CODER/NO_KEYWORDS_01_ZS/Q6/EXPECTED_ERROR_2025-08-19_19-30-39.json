@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer drückt aus, dass er bald einen Termin ausmachen muss. Maria wird als Akteur identifiziert, der die Aktivität \u0027schedule\u0027 ausführt. Die Aktivität \u0027schedule\u0027 wird mit dem Objekt \u0027appointment\u0027 verknüpft. Der zeitliche Kontext \u0027soon\u0027 wird hinzugefügt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 8, 0],\n    [0, 9, 1, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"Der Nutzer drückt aus, dass er bald einen Termin ausmachen muss. Maria wird als Akteur identifiziert, der die Aktivität \u0027schedule\u0027 ausführt. Die Aktivität \u0027schedule\u0027 wird mit dem Objekt \u0027appointment\u0027 verknüpft. Der zeitliche Kontext \u0027soon\u0027 wird hinzugefügt.\"\n}"
+}

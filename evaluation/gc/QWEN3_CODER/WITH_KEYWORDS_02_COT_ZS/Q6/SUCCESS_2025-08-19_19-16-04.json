@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Szenenbeschreibungen oder handlungsrelevante Inhalte, aus denen ein GraphCode generiert werden könnte. Die verwendeten Wörter \u0027bald\u0027, \u0027termin\u0027, \u0027ausmachen\u0027 sind zu vage, um eine eindeutige Zuordnung zu Objekten, Attributen oder Aktivitäten im vorgegebenen Vokabular vorzunehmen. Daher kann kein valider GraphCode erstellt werden.",
+  "error": "Unvollständige oder fehlerhafte Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige oder fehlerhafte Eingabe\",\n  \"description\": \"Die Anfrage enthält keine klaren Szenenbeschreibungen oder handlungsrelevante Inhalte, aus denen ein GraphCode generiert werden könnte. Die verwendeten Wörter \u0027bald\u0027, \u0027termin\u0027, \u0027ausmachen\u0027 sind zu vage, um eine eindeutige Zuordnung zu Objekten, Attributen oder Aktivitäten im vorgegebenen Vokabular vorzunehmen. Daher kann kein valider GraphCode erstellt werden.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027. Es handelt sich um eine klare Szene mit Subjekt und Aktivität. Kein Fehler. 2. Relative Verweise: Es gibt keine relativen Verweise in der Anfrage (\u0027Tim\u0027 ist ein spezifischer Name). 3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027. 4. Ersetzung der Nutzeridentifikation: Es kommt kein selbstbeziehendes Wort wie \u0027ich\u0027 vor, daher wird dieser Schritt ignoriert. 5. Erklärung der Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). 6. In Relation setzen: Tim führt die Aktivität \u0027run\u0027 aus. Daher wird eine Beziehung vom Typ \u0027perform\u0027 (Typ 8) zwischen \u0027Tim\u0027 und \u0027run\u0027 hergestellt. 7. Überprüfung der Typkodierungen: \u0027object\u0027 → Typ 1, \u0027activity\u0027 → Typ 4, \u0027perform\u0027 → Typ 8 vorhanden. Alles korrekt. 8. Der GraphCode wurde erfolgreich zusammengestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027. Es handelt sich um eine klare Szene mit Subjekt und Aktivität. Kein Fehler. 2. Relative Verweise: Es gibt keine relativen Verweise in der Anfrage (\u0027Tim\u0027 ist ein spezifischer Name). 3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027. 4. Ersetzung der Nutzeridentifikation: Es kommt kein selbstbeziehendes Wort wie \u0027ich\u0027 vor, daher wird dieser Schritt ignoriert. 5. Erklärung der Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4). 6. In Relation setzen: Tim führt die Aktivität \u0027run\u0027 aus. Daher wird eine Beziehung vom Typ \u0027perform\u0027 (Typ 8) zwischen \u0027Tim\u0027 und \u0027run\u0027 hergestellt. 7. Überprüfung der Typkodierungen: \u0027object\u0027 → Typ 1, \u0027activity\u0027 → Typ 4, \u0027perform\u0027 → Typ 8 vorhanden. Alles korrekt. 8. Der GraphCode wurde erfolgreich zusammengestellt.\"\n}"
+}

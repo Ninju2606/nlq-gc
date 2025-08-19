@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      6
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria in ihrem Pool schwimmt. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027swim\u0027 ist eine Aktivität (\u0027activity\u0027) und \u0027pool\u0027 ist ein Objekt (\u0027object\u0027). Die Beziehung \u0027schwimmen in etwas\u0027 wird über den Kontext (\u0027in\u0027) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [[1, 7, 6], [0, 4, 8], [0, 0, 1]],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria in ihrem Pool schwimmt. \u0027Maria\u0027 ist vom Typ \u0027object\u0027, \u0027swim\u0027 ist eine Aktivität (\u0027activity\u0027) und \u0027pool\u0027 ist ein Objekt (\u0027object\u0027). Die Beziehung \u0027schwimmen in etwas\u0027 wird über den Kontext (\u0027in\u0027) dargestellt.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027].\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 und \u0027meinem\u0027 beziehen sich auf den Nutzer (\u0027Maria\u0027).\n3. Stichwörter ins Englische übersetzt: [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027].\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027.\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt, \u0027schwimmen\u0027 ist eine Aktivität, \u0027Pool\u0027 ist ein Objekt, das als Ziel oder Ort dient.\n6. Relationen erklärt: Maria führt die Aktivität schwimmen aus (perform), und diese Aktivität hat eine Beziehung zum Pool (attached/target).\n7. Typkodierungen überprüft und zugeordnet:\n   - Maria (object) \u003d 1,\n   - swim (activity) \u003d 4,\n   - pool (object) \u003d 1,\n   - perform (relation between Maria and swim) \u003d 8,\n   - attached/target (relation between swim and pool) \u003d 5.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027].\\n2. Relative Verweise aufgelöst: \u0027Ich\u0027 und \u0027meinem\u0027 beziehen sich auf den Nutzer (\u0027Maria\u0027).\\n3. Stichwörter ins Englische übersetzt: [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027].\\n4. Identifikation des Nutzers ersetzt: \u0027Ich\u0027 → \u0027Maria\u0027.\\n5. Attributeigenschaften erklärt: \u0027Maria\u0027 ist ein Objekt, \u0027schwimmen\u0027 ist eine Aktivität, \u0027Pool\u0027 ist ein Objekt, das als Ziel oder Ort dient.\\n6. Relationen erklärt: Maria führt die Aktivität schwimmen aus (perform), und diese Aktivität hat eine Beziehung zum Pool (attached/target).\\n7. Typkodierungen überprüft und zugeordnet:\\n   - Maria (object) \u003d 1,\\n   - swim (activity) \u003d 4,\\n   - pool (object) \u003d 1,\\n   - perform (relation between Maria and swim) \u003d 8,\\n   - attached/target (relation between swim and pool) \u003d 5.\"\n}"
+}

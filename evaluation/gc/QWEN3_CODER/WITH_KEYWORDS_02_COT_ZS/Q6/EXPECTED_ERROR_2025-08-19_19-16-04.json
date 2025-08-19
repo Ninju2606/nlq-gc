@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027wir\u0027 wurde aufgelöst zu \u0027maria\u0027, da dies die angegebene Identifikation des Nutzers ist. 2. Die Attributeigenschaften der Stichwörter sind: maria (object), make (activity), appointment (object). 3. Die Beziehungen zwischen den Stichwörtern sind: maria führt make aus (perform), make bezieht sich auf appointment (attached). 4. Alle erforderlichen Relationen haben entsprechende Einträge in den Typkodierungen: maria→make \u003d perform (ID 8), make→appointment \u003d attached (ID 5).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 9],\n    [0, 4, 5],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027wir\u0027 wurde aufgelöst zu \u0027maria\u0027, da dies die angegebene Identifikation des Nutzers ist. 2. Die Attributeigenschaften der Stichwörter sind: maria (object), make (activity), appointment (object). 3. Die Beziehungen zwischen den Stichwörtern sind: maria führt make aus (perform), make bezieht sich auf appointment (attached). 4. Alle erforderlichen Relationen haben entsprechende Einträge in den Typkodierungen: maria→make \u003d perform (ID 8), make→appointment \u003d attached (ID 5).\"\n}"
+}

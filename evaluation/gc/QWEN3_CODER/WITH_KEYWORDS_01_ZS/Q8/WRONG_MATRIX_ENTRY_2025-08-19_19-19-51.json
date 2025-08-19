@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      9,
+      6
+    ],
+    [
+      5,
+      1,
+      8,
+      9,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.64,
+  "description": "Maria und eine Person (möglicherweise ihre Tochter) fahren mit einem Boot auf einem See. Maria ist durch ihren Namen identifiziert, \u0027person\u0027 steht stellvertretend für ihre Tochter, \u0027drive\u0027 beschreibt die Aktivität, \u0027boat\u0027 ist das Objekt der Fortbewegung und \u0027lake\u0027 der Kontext.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 9, 6],\n    [5, 1, 8, 9, 6],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Maria und eine Person (möglicherweise ihre Tochter) fahren mit einem Boot auf einem See. Maria ist durch ihren Namen identifiziert, \u0027person\u0027 steht stellvertretend für ihre Tochter, \u0027drive\u0027 beschreibt die Aktivität, \u0027boat\u0027 ist das Objekt der Fortbewegung und \u0027lake\u0027 der Kontext.\"\n}"
+}

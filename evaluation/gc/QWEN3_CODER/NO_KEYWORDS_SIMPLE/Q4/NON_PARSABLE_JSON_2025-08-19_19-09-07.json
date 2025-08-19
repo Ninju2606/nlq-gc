@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"in\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [0, 8, 0, 0, 0],\n    [0, 0, 5, 0, 9],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 3],\n    [0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n\n- **\"Ich\"** führt die Aktivität **\"schwimme\"** aus → Beziehung `perform` (Typ 8)\n- **\"schwimme\"** erfolgt **\"in\"** Richtung **\"Pool\"** → Beziehung `attached` (Typ 5), Ziel \u003d Pool (Typ 9 `target`)\n- **\"meinem\"** ist ein Attribut von **\"Pool\"**, also Synonym oder Besitzverhältnis → `synonym` (Typ 3)\n\nDie Matrix ist typcodiert nach den gegebenen Beziehungen. Reihen und Spalten der Matrix entsprechen den Begriffen im `dictionary`."
+}

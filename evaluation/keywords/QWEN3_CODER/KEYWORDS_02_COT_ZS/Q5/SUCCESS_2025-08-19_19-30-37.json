@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte Situationen finden, in denen er (als Maria) einen gelben Hut trägt. Die Begriffe wurden ins Englische übersetzt und das Vokabular entsprechend angepasst. Relative Verweise wie „ich“ wurden durch die Nutzeridentifikation „Maria“ ersetzt. Die Stichwörter wurden auf ihre Grundform verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"description\": \"Der Nutzer möchte Situationen finden, in denen er (als Maria) einen gelben Hut trägt. Die Begriffe wurden ins Englische übersetzt und das Vokabular entsprechend angepasst. Relative Verweise wie „ich“ wurden durch die Nutzeridentifikation „Maria“ ersetzt. Die Stichwörter wurden auf ihre Grundform verallgemeinert.\"\n}"
+}

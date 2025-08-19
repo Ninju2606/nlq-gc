@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria und Tochter sind über eine \u0027daughter\u0027-Beziehung verbunden. Beide performen die Aktivität \u0027boat\u0027, was über den \u0027perform\u0027-Typ (8) abgebildet wird. Das Boot ist auf dem See, was durch den \u0027attached\u0027-Typ (5) dargestellt wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0],\n    [10, 1, 8, 0],\n    [0, 0, 1, 5],\n    [0, 0, 5, 1]\n  ],\n  \"description\": \"Die Nutzerin Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria und Tochter sind über eine \u0027daughter\u0027-Beziehung verbunden. Beide performen die Aktivität \u0027boat\u0027, was über den \u0027perform\u0027-Typ (8) abgebildet wird. Das Boot ist auf dem See, was durch den \u0027attached\u0027-Typ (5) dargestellt wird.\"\n}"
+}

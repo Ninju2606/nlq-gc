@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält nicht genügend Informationen, um sinnvolle Relationen oder ein Szenario im Kontext des Metaverse zu erstellen. Es fehlen weitere relevante Begriffe oder Kontext zur Handlung.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält nicht genügend Informationen, um sinnvolle Relationen oder ein Szenario im Kontext des Metaverse zu erstellen. Es fehlen weitere relevante Begriffe oder Kontext zur Handlung.\"\n}"
+}

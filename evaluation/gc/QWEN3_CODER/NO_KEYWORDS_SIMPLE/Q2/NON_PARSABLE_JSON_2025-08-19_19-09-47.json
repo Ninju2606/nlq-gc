@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"rennt\"],\n  \"matrix\": [\n    [0, 4],\n    [0, 0]\n  ]\n}\n \n\n**Erklärung:**\n- Die Begriffe \"Tim\" und \"rennt\" bilden die Knoten des Graphen.\n- In der Adjazenzmatrix wird die Beziehung von \"Tim\" zu \"rennt\" als **activity (Typ 4)** codiert, da \"rennt\" eine Handlung (Tätigkeit) ist, die von \"Tim\" ausgeführt wird.\n- Es gibt keine weitere Beziehung, deshalb stehen die restlichen Felder auf `0`."
+}

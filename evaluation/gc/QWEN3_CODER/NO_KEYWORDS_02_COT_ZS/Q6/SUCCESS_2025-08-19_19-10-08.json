@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, sondern einen allgemeinen Wunsch zur Terminvereinbarung. Daher kann kein sinnvoller GraphCode erstellt werden.",
+  "error": "Die Anfrage ist zu generisch und enthält keine spezifischen Szenenbeschreibungen, Objekte, Attribute oder Aktivitäten, die für die Generierung eines GraphCodes notwendig wären.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist zu generisch und enthält keine spezifischen Szenenbeschreibungen, Objekte, Attribute oder Aktivitäten, die für die Generierung eines GraphCodes notwendig wären.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, sondern einen allgemeinen Wunsch zur Terminvereinbarung. Daher kann kein sinnvoller GraphCode erstellt werden.\"\n}"
+}

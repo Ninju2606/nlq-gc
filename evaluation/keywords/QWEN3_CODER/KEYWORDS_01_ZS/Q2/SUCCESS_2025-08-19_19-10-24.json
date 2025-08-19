@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer Tim führt die Handlung des Rennens aus. Die Szene beschreibt somit eine Bewegungssituation mit dem Nutzer Tim.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"description\": \"Der Nutzer Tim führt die Handlung des Rennens aus. Die Szene beschreibt somit eine Bewegungssituation mit dem Nutzer Tim.\"\n}"
+}

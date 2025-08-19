@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027Meine Tochter\u0027 wurde als \u0027person\u0027 interpretiert, da keine explizite Bezeichnung vorliegt. Der Nutzer bezieht sich selbst mit \u0027ich\u0027, was durch die Identifikation \u0027maria\u0027 aufgelöst wurde.\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des Nutzers (Typ: object). \u0027person\u0027 beschreibt eine Person (Typ: object). \u0027drive\u0027 beschreibt eine Aktivität (Typ: activity). \u0027boat\u0027 ist ein Objekt (Typ: object). \u0027lake\u0027 ist ein Kontext (Typ: context).\n3. Relationen zwischen den Stichwörtern: maria -\u003e person: attached (Tochter); maria -\u003e drive: perform; person -\u003e drive: perform; drive -\u003e boat: target; boat -\u003e lake: under.\n4. Zuweisung der IDs gemäß Typkodierung: object\u003d1, context\u003d2, activity\u003d4, attached\u003d5, under\u003d6, above\u003d7, perform\u003d8, target\u003d9. Alle Beziehungen konnten gültigen IDs zugeordnet werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 0, 0, 0],\n    [5, 1, 8, 0, 0],\n    [0, 8, 4, 9, 0],\n    [0, 0, 9, 1, 5],\n    [0, 0, 0, 5, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Nutzeridentifikation: Das Wort \u0027Meine Tochter\u0027 wurde als \u0027person\u0027 interpretiert, da keine explizite Bezeichnung vorliegt. Der Nutzer bezieht sich selbst mit \u0027ich\u0027, was durch die Identifikation \u0027maria\u0027 aufgelöst wurde.\\n2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist eine Identifikation des Nutzers (Typ: object). \u0027person\u0027 beschreibt eine Person (Typ: object). \u0027drive\u0027 beschreibt eine Aktivität (Typ: activity). \u0027boat\u0027 ist ein Objekt (Typ: object). \u0027lake\u0027 ist ein Kontext (Typ: context).\\n3. Relationen zwischen den Stichwörtern: maria -\u003e person: attached (Tochter); maria -\u003e drive: perform; person -\u003e drive: perform; drive -\u003e boat: target; boat -\u003e lake: under.\\n4. Zuweisung der IDs gemäß Typkodierung: object\u003d1, context\u003d2, activity\u003d4, attached\u003d5, under\u003d6, above\u003d7, perform\u003d8, target\u003d9. Alle Beziehungen konnten gültigen IDs zugeordnet werden.\"\n}"
+}

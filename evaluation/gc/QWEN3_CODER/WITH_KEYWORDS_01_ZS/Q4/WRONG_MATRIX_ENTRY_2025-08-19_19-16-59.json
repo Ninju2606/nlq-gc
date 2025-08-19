@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der Nutzer führt die Aktivität \u0027swim\u0027 aus. Die Beziehung zwischen \u0027maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027. \u0027maria\u0027 besitzt den \u0027pool\u0027, daher ist die Beziehung \u0027attached\u0027 zwischen \u0027maria\u0027 und \u0027own\u0027 sowie zwischen \u0027own\u0027 und \u0027pool\u0027. \u0027swim\u0027 hat \u0027pool\u0027 als Ziel (\u0027target\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der Nutzer führt die Aktivität \u0027swim\u0027 aus. Die Beziehung zwischen \u0027maria\u0027 und \u0027swim\u0027 ist \u0027perform\u0027. \u0027maria\u0027 besitzt den \u0027pool\u0027, daher ist die Beziehung \u0027attached\u0027 zwischen \u0027maria\u0027 und \u0027own\u0027 sowie zwischen \u0027own\u0027 und \u0027pool\u0027. \u0027swim\u0027 hat \u0027pool\u0027 als Ziel (\u0027target\u0027).\"\n}"
+}

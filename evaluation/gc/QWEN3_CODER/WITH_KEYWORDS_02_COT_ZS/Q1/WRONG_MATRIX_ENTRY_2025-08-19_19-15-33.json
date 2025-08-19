@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027maria\u0027, da der Nutzer sich selbst identifiziert. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object). 3. Die Beziehungen sind: \u0027maria\u0027 führt \u0027play\u0027 aus (perform), \u0027play\u0027 hat das Zielobjekt \u0027basketball\u0027 (target). 4. Für alle Relationen gibt es passende Einträge in den Typkodierungen: \u0027maria\u0027 (1), \u0027play\u0027 (4), \u0027basketball\u0027 (1), \u0027perform\u0027 (8), \u0027target\u0027 (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027maria\u0027, da der Nutzer sich selbst identifiziert. 2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object). 3. Die Beziehungen sind: \u0027maria\u0027 führt \u0027play\u0027 aus (perform), \u0027play\u0027 hat das Zielobjekt \u0027basketball\u0027 (target). 4. Für alle Relationen gibt es passende Einträge in den Typkodierungen: \u0027maria\u0027 (1), \u0027play\u0027 (4), \u0027basketball\u0027 (1), \u0027perform\u0027 (8), \u0027target\u0027 (9).\"\n}"
+}

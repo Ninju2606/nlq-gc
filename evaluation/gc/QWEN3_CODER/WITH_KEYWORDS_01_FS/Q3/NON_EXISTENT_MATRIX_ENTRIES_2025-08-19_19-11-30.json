@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria führt die Aktivität \u0027swim\u0027 aus, die auf das Objekt \u0027pool\u0027 abzielt. Die Beziehung \u0027perform\u0027 verbindet Maria mit der Aktivität. Der Begriff \u0027own\u0027 beschreibt eine Beziehung zum Pool, wobei \u0027pool\u0027 das Objekt ist, das besessen wird.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [\n        [1, 7, 0, 0],\n        [0, 4, 0, 8],\n        [0, 0, 9, 8],\n        [0, 0, 0, 1]\n    ],\n    \"description\": \"Maria führt die Aktivität \u0027swim\u0027 aus, die auf das Objekt \u0027pool\u0027 abzielt. Die Beziehung \u0027perform\u0027 verbindet Maria mit der Aktivität. Der Begriff \u0027own\u0027 beschreibt eine Beziehung zum Pool, wobei \u0027pool\u0027 das Objekt ist, das besessen wird.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es konnten keine relevanten Stichwörter ermittelt werden, da die Anfrage grammatikalisch nicht klar ist oder keine beschreibende Szeneninformation enthält.",
+  "error": "Die Anfrage enthält keine klaren oder sinnvollen Szenenbeschreibungen. Bitte formuliere eine neue Anfrage, die eine spezifische Metaverse-Situation beschreibt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klaren oder sinnvollen Szenenbeschreibungen. Bitte formuliere eine neue Anfrage, die eine spezifische Metaverse-Situation beschreibt.\",\n  \"description\": \"Es konnten keine relevanten Stichwörter ermittelt werden, da die Anfrage grammatikalisch nicht klar ist oder keine beschreibende Szeneninformation enthält.\"\n}"
+}

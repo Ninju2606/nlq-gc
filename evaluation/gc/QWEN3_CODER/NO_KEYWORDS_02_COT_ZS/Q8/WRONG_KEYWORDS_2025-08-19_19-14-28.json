@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      6
+    ],
+    [
+      10,
+      1,
+      8,
+      6
+    ],
+    [
+      5,
+      5,
+      1,
+      0
+    ],
+    [
+      7,
+      7,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren Boot\u0027, \u0027See\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Meine Tochter\u0027 -\u003e \u0027daughter\u0027, \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027fahren Boot\u0027 -\u003e \u0027boat\u0027, \u0027See\u0027 -\u003e \u0027lake\u0027.\n4. Die Identifikation des Nutzers wurde in den Stichwörtern ersetzt: \u0027ich\u0027 -\u003e \u0027Maria\u0027.\n5. Attributeigenschaften wurden erklärt: \u0027Maria\u0027 ist ein Objekt, \u0027Tochter\u0027 ist eine Beziehung, \u0027Boot\u0027 ist ein Objekt, \u0027See\u0027 ist ein Kontext. \u0027fahren\u0027 ist eine Aktivität.\n6. Die Beziehungen zwischen den Stichwörtern wurden ermittelt: Maria (1) ist die Tochter (10) von jemandem (muss nicht explizit genannt sein), Maria (1) fährt (8) mit einem Boot (3), das sich auf einem See (6) befindet; die Tochter (2) fährt (8) ebenfalls mit dem Boot (3) auf dem See (6); das Boot (3) befindet sich über dem See (7); der See (4) ist der Kontext (2) für die Szene.\n7. Für alle Relationen wurden passende Einträge in den Typkodierungen gefunden:\n   - Maria (object, id\u003d1)\n   - daughter (daughter, id\u003d10)\n   - boat (object, id\u003d1)\n   - lake (context, id\u003d2)\n   - Maria performs activity\u003dfahren (perform, id\u003d8)\n   - Tochter is attached to Maria (attached, id\u003d5, aber 10 ist bereits genommen für daughter -\u003e daughter(10)\n   - boat is above lake (above, id\u003d7)\n   - lake is under boat (under, id\u003d6)\n   - lake ist context(2)\n   - Maria ist object(1)\n   - daughter ist object(1)\n   - boat ist object(1)\n Beachte: In der Einheitsdiagonalen stehen nur Werte mit identityMapping\u003dtrue.\n",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 6],\n    [10, 1, 8, 6],\n    [5, 5, 1, 0],\n    [7, 7, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 wurde durch die Identifikation des Nutzers \u0027Maria\u0027 ersetzt.\\n3. Die Stichwörter wurden ins Englische übersetzt: \u0027Meine Tochter\u0027 -\u003e \u0027daughter\u0027, \u0027ich\u0027 -\u003e \u0027Maria\u0027, \u0027fahren Boot\u0027 -\u003e \u0027boat\u0027, \u0027See\u0027 -\u003e \u0027lake\u0027.\\n4. Die Identifikation des Nutzers wurde in den Stichwörtern ersetzt: \u0027ich\u0027 -\u003e \u0027Maria\u0027.\\n5. Attributeigenschaften wurden erklärt: \u0027Maria\u0027 ist ein Objekt, \u0027Tochter\u0027 ist eine Beziehung, \u0027Boot\u0027 ist ein Objekt, \u0027See\u0027 ist ein Kontext. \u0027fahren\u0027 ist eine Aktivität.\\n6. Die Beziehungen zwischen den Stichwörtern wurden ermittelt: Maria (1) ist die Tochter (10) von jemandem (muss nicht explizit genannt sein), Maria (1) fährt (8) mit einem Boot (3), das sich auf einem See (6) befindet; die Tochter (2) fährt (8) ebenfalls mit dem Boot (3) auf dem See (6); das Boot (3) befindet sich über dem See (7); der See (4) ist der Kontext (2) für die Szene.\\n7. Für alle Relationen wurden passende Einträge in den Typkodierungen gefunden:\\n   - Maria (object, id\u003d1)\\n   - daughter (daughter, id\u003d10)\\n   - boat (object, id\u003d1)\\n   - lake (context, id\u003d2)\\n   - Maria performs activity\u003dfahren (perform, id\u003d8)\\n   - Tochter is attached to Maria (attached, id\u003d5, aber 10 ist bereits genommen für daughter -\u003e daughter(10)\\n   - boat is above lake (above, id\u003d7)\\n   - lake is under boat (under, id\u003d6)\\n   - lake ist context(2)\\n   - Maria ist object(1)\\n   - daughter ist object(1)\\n   - boat ist object(1)\\n Beachte: In der Einheitsdiagonalen stehen nur Werte mit identityMapping\u003dtrue.\\n\"\n}"
+}

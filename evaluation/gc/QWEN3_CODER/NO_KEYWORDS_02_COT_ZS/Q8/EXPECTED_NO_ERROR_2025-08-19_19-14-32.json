@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare Szenenbeschreibung, die zur Generierung eines GraphCodes geeignet ist. Sie wirkt unvollständig oder grammatikalisch verwirrend.",
+  "error": "Ungültige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Ungültige Anfrage\",\n  \"description\": \"Die Anfrage enthält keine klare Szenenbeschreibung, die zur Generierung eines GraphCodes geeignet ist. Sie wirkt unvollständig oder grammatikalisch verwirrend.\"\n}"
+}

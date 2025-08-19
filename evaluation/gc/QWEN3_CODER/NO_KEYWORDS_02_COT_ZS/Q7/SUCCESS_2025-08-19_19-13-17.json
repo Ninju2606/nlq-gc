@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und enthält keine klaren Szenenbeschreibungen oder Relationen, die sich sinnvoll in einen GraphCode übersetzen ließen. Insbesondere fehlt eine eindeutige Verbindung zwischen den Begriffen „Häuser“, „Fragen“ und „malen“, die den intendierten Sachverhalt widerspiegelt. Ohne weitere Kontextinformation oder Klarstellung kann kein valider GraphCode generiert werden.",
+  "error": "Unklare oder unvollständige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare oder unvollständige Anfrage\",\n  \"description\": \"Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und enthält keine klaren Szenenbeschreibungen oder Relationen, die sich sinnvoll in einen GraphCode übersetzen ließen. Insbesondere fehlt eine eindeutige Verbindung zwischen den Begriffen „Häuser“, „Fragen“ und „malen“, die den intendierten Sachverhalt widerspiegelt. Ohne weitere Kontextinformation oder Klarstellung kann kein valider GraphCode generiert werden.\"\n}"
+}

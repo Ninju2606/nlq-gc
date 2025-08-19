@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Wir\",\n    \"müssen\",\n    \"bald\",\n    \"einen\",\n    \"Termin\",\n    \"ausmachen\"\n  ],\n  \"matrix\": [\n    [0, 8, 0, 0, 9, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erläuterung:\n- Die Begriffe des Satzes bilden die Knoten des Graphen: **\"Wir\", \"müssen\", \"bald\", \"einen\", \"Termin\", \"ausmachen\"**.\n- In der Matrix werden die Beziehungen gemäß der gegebenen Typkodierungen eingetragen:\n  - **\"Wir\"** → **\"müssen\"** \u003d **8 (perform)** (Subjekt führt Aktivität aus)\n  - **\"müssen\"** → **\"Termin\"** \u003d **9 (target)** (Objekt der Handlung)\n  - **\"ausmachen\"** → **\"Termin\"** \u003d implizit enthalten, aber hier nicht direkt kodiert, da \"ausmachen\" und \"Termin\" beide unter „target“ stehen könnten – hier aber nur direkte Relationen eingetragen.\n\nDie restlichen Kombinationen haben keine definierte Beziehung im Sinne der gegebenen Typen, daher Nullen."
+}

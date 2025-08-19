@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Meine Tochter und ich fahren Boot auf einem See. Die Stichwörter wurden ermittelt, relative Verweise aufgelöst, ins Englische übersetzt und die Nutzeridentifikation eingebunden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"description\": \"Meine Tochter und ich fahren Boot auf einem See. Die Stichwörter wurden ermittelt, relative Verweise aufgelöst, ins Englische übersetzt und die Nutzeridentifikation eingebunden.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Wir müssen bald einen Termin ausmachen\" ist zu vage und allgemein gehalten, um daraus eindeutige Stichwörter wie Objekte, Attribute oder Aktivitäten zu extrahieren, die für die Erstellung eines GraphCodes notwendig sind. Es fehlen konkrete Hinweise auf Personen, Objekte, räumliche Anordnungen oder Handlungen innerhalb einer Szene im Metaverse.",
+  "error": "Die Anfrage enthält keine spezifischen Szenenbeschreibungen oder identifizierbare Objekte, Attribute oder Aktivitäten, die in einen GraphCode überführt werden könnten.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifischen Szenenbeschreibungen oder identifizierbare Objekte, Attribute oder Aktivitäten, die in einen GraphCode überführt werden könnten.\",\n  \"description\": \"Die Anfrage \\\"Wir müssen bald einen Termin ausmachen\\\" ist zu vage und allgemein gehalten, um daraus eindeutige Stichwörter wie Objekte, Attribute oder Aktivitäten zu extrahieren, die für die Erstellung eines GraphCodes notwendig sind. Es fehlen konkrete Hinweise auf Personen, Objekte, räumliche Anordnungen oder Handlungen innerhalb einer Szene im Metaverse.\"\n}"
+}

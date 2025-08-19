@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde generiert, jedoch ohne Beziehungen zwischen den Begriffen, da keine spezifischen relationalen Angaben in der Anfrage enthalten waren.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde generiert, jedoch ohne Beziehungen zwischen den Begriffen, da keine spezifischen relationalen Angaben in der Anfrage enthalten waren.\"\n}"
+}

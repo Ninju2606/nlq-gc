@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \"Ich spiele Basketball\" sind: \"Ich\", \"spiele\", \"Basketball\". 2. Relative Verweise: \"Ich\" bezieht sich auf den Nutzer. 3. Übersetzung ins Englische: \"Ich\" → \"Maria\" (gemäß Regel mit Ersetzung), \"spiele\" → \"play\", \"Basketball\" → \"basketball\". 4. Ersetzung von \"Ich\" durch die Nutzeridentifikation \"Maria\". 5. Attributeigenschaften: \"Maria\" ist ein Objekt (Typ-ID 1), \"basketball\" ist ein Objekt (Typ-ID 1), \"play\" ist eine Aktivität (Typ-ID 4). 6. Relationen: \"Maria\" performt \"play\" (Typ-ID 8), \"basketball\" ist Ziel der Aktivität \"play\" (Typ-ID 9). 7. Alle Relationen wurden erfolgreich auf vorhandene Typkodierungen abgebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\", \"play\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 1, 4],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \\\"Ich spiele Basketball\\\" sind: \\\"Ich\\\", \\\"spiele\\\", \\\"Basketball\\\". 2. Relative Verweise: \\\"Ich\\\" bezieht sich auf den Nutzer. 3. Übersetzung ins Englische: \\\"Ich\\\" → \\\"Maria\\\" (gemäß Regel mit Ersetzung), \\\"spiele\\\" → \\\"play\\\", \\\"Basketball\\\" → \\\"basketball\\\". 4. Ersetzung von \\\"Ich\\\" durch die Nutzeridentifikation \\\"Maria\\\". 5. Attributeigenschaften: \\\"Maria\\\" ist ein Objekt (Typ-ID 1), \\\"basketball\\\" ist ein Objekt (Typ-ID 1), \\\"play\\\" ist eine Aktivität (Typ-ID 4). 6. Relationen: \\\"Maria\\\" performt \\\"play\\\" (Typ-ID 8), \\\"basketball\\\" ist Ziel der Aktivität \\\"play\\\" (Typ-ID 9). 7. Alle Relationen wurden erfolgreich auf vorhandene Typkodierungen abgebildet.\"\n}"
+}

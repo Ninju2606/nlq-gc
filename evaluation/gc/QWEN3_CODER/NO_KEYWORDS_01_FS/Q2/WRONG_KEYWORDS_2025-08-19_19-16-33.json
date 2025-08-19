@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run",
+    "Tim"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      4
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte eine Szene im Metaverse finden, in der Tim rennt. Die Beziehung zwischen den Begriffen wird durch die Typkodierungen dargestellt.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\", \"Tim\"],\n    \"matrix\": [[1, 7, 4], [0, 4, 8], [0, 0, 1]],\n    \"description\": \"Der Nutzer möchte eine Szene im Metaverse finden, in der Tim rennt. Die Beziehung zwischen den Begriffen wird durch die Typkodierungen dargestellt.\"\n}"
+}

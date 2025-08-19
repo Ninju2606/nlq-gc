@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist vom Typ \u0027perform\u0027 (ID 8). Die Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027 ist vom Typ \u0027target\u0027 (ID 9). Der Begriff \u0027play\u0027 ist eine Aktivität (ID 4), \u0027maria\u0027 ist ein Objekt (ID 1) und \u0027basketball\u0027 ist ein Objekt (ID 1).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n    \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n    \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria Basketball spielt. Die Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027 ist vom Typ \u0027perform\u0027 (ID 8). Die Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027 ist vom Typ \u0027target\u0027 (ID 9). Der Begriff \u0027play\u0027 ist eine Aktivität (ID 4), \u0027maria\u0027 ist ein Objekt (ID 1) und \u0027basketball\u0027 ist ein Objekt (ID 1).\"\n}"
+}

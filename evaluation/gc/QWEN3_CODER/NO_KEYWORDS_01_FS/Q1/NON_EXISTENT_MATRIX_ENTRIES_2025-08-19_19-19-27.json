@@ -1,0 +1,28 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer spielt Basketball. Die Szene beschreibt die Aktivität \"play\" mit dem Objekt \"basketball\" von der Person \"Maria\" ausgehend.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n    \"matrix\": [[1, 7, 0], [0, 9, 8], [0, 0, 1]],\n    \"description\": \"Der Nutzer spielt Basketball. Die Szene beschreibt die Aktivität \\\"play\\\" mit dem Objekt \\\"basketball\\\" von der Person \\\"Maria\\\" ausgehend.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte eine Szene im Metaverse finden, in der Häuser im Zusammenhang mit dem Malen von Fragen stehen. Es wurden keine relativen Verweise oder selbstidentifizierenden Ausdrücke verwendet. Die Stichwörter wurden ins Englische übersetzt und grammatisch vereinfacht.",
+  "responsePlain": "{\n    \"dictionary\": [\"house\", \"question\", \"paint\"],\n    \"description\": \"Der Nutzer möchte eine Szene im Metaverse finden, in der Häuser im Zusammenhang mit dem Malen von Fragen stehen. Es wurden keine relativen Verweise oder selbstidentifizierenden Ausdrücke verwendet. Die Stichwörter wurden ins Englische übersetzt und grammatisch vereinfacht.\"\n}"
+}

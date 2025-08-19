@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die gegebene Anfrage \u0027Tim rennt\u0027 ist grammatikalisch wirr oder unvollständig. Es fehlen präzise Informationen zur Szene, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die gegebene Anfrage \u0027Tim rennt\u0027 ist grammatikalisch wirr oder unvollständig. Es fehlen präzise Informationen zur Szene, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

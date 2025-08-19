@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Meine\",\n    \"Tochter\",\n    \"ich\",\n    \"fahren\",\n    \"Boot\",\n    \"See\"\n  ],\n  \"matrix\": [\n    [0, 10, 0, 0, 0, 0],\n    [0, 0, 0, 8, 0, 0],\n    [0, 0, 0, 8, 0, 0],\n    [0, 0, 0, 0, 9, 2],\n    [0, 0, 0, 0, 0, 6],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n \n\n### Erklärung:\n- **Typkodierungen**:\n  - `10`: *daughter* (Tochter)\n  - `8`: *perform* (fahren)\n  - `9`: *target* (Boot als Ziel der Tätigkeit)\n  - `2`: *context* (See als Kontext)\n  - `6`: *under* (Boot auf dem See – räumliche Beziehung „auf“ wird hier als „unter“ interpretiert im Sinne von „auf der Oberfläche von...“)\n\n#### Beziehungen:\n- „Meine“ → „Tochter“: **daughter (10)**\n- „Tochter“ → „fahren“: **perform (8)**\n- „ich“ → „fahren“: **perform (8)**\n- „fahren“ → „Boot“: **target (9)**\n- „fahren“ → „See“: **context (2)**\n- „Boot“ → „See“: **under (6)** (räumliche Beziehung: Boot ist auf dem See)\n\nAlle anderen Kombinationen haben keine Beziehung → Wert `0`."
+}

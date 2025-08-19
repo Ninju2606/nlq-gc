@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      9,
+      6
+    ],
+    [
+      5,
+      1,
+      8,
+      9,
+      6
+    ],
+    [
+      8,
+      8,
+      4,
+      9,
+      6
+    ],
+    [
+      9,
+      9,
+      9,
+      1,
+      6
+    ],
+    [
+      6,
+      6,
+      6,
+      6,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.28,
+  "description": "GraphCode basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Nutzeridentifikation \u0027maria\u0027 wurde verwendet. Die Beziehungen spiegeln die Aktivität und räumliche Zuordnung wider.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 9, 6],\n    [5, 1, 8, 9, 6],\n    [8, 8, 4, 9, 6],\n    [9, 9, 9, 1, 6],\n    [6, 6, 6, 6, 2]\n  ],\n  \"description\": \"GraphCode basierend auf der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Nutzeridentifikation \u0027maria\u0027 wurde verwendet. Die Beziehungen spiegeln die Aktivität und räumliche Zuordnung wider.\"\n}"
+}

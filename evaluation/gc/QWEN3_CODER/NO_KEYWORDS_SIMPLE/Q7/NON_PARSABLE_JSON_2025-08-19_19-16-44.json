@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Häuser\", \"Fragen\", \"malen\"],\n  \"matrix\": [\n    [0, 2, 4],\n    [0, 0, 4],\n    [0, 0, 0]\n  ]\n}\n \n\n### Erläuterung:\n\n- **Begriffe (Knoten):**\n  - \"Häuser\"\n  - \"Fragen\"\n  - \"malen\"\n\n- **Beziehungen (gerichtete Kanten mit Typen):**\n  - *Häuser* → *Fragen* \u003d Typ **2** (\"context\") – Die Häuser stehen im Kontext der Fragen.\n  - *Häuser* → *malen* \u003d Typ **4** (\"activity\") – Es findet eine Aktivität des Malens an den Häusern statt.\n  - *Fragen* → *malen* \u003d Typ **4** (\"activity\") – Auch die Fragen stehen im Zusammenhang mit der Aktivität des Malens.\n\nDie Matrix ist also eine **typcodierte Adjazenzmatrix**, wobei die Zeilen und Spalten den Begriffen entsprechen und die Zellen die Beziehungstypen enthalten. Nicht vorhandene Beziehungen sind mit `0` gekennzeichnet."
+}

@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält nicht genug semantische Informationen, um sinnvolle Relationen und ein vollständiges Vokabular für den GraphCode zu generieren. Es fehlen Kontext, Aktivitäten oder Attribute, die eine Verknüpfung mit anderen Begriffen ermöglichen.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält nicht genug semantische Informationen, um sinnvolle Relationen und ein vollständiges Vokabular für den GraphCode zu generieren. Es fehlen Kontext, Aktivitäten oder Attribute, die eine Verknüpfung mit anderen Begriffen ermöglichen.\"\n}"
+}

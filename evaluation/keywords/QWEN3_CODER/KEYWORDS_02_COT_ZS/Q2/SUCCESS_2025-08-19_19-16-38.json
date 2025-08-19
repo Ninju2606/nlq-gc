@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Tim\u0027, \u0027rennt\u0027. Keine relativen Verweise vorhanden. 2. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wurde zu \u0027run\u0027. 3. Es wurden keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 gefunden, daher wurde die Identifikation des Nutzers nicht verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Tim\u0027, \u0027rennt\u0027. Keine relativen Verweise vorhanden. 2. Die Stichwörter wurden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wurde zu \u0027run\u0027. 3. Es wurden keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 gefunden, daher wurde die Identifikation des Nutzers nicht verwendet.\"\n}"
+}

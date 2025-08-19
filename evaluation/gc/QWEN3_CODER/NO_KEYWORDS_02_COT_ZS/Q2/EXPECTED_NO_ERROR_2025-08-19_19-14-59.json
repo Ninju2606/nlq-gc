@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält nicht genug Informationen, um sinnvoll einen GraphCode zu generieren. Es fehlen Kontext, Aktivitäten oder Relationen zu anderen Begriffen.",
+  "error": "Unvollständige Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige Eingabe\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält nicht genug Informationen, um sinnvoll einen GraphCode zu generieren. Es fehlen Kontext, Aktivitäten oder Relationen zu anderen Begriffen.\"\n}"
+}

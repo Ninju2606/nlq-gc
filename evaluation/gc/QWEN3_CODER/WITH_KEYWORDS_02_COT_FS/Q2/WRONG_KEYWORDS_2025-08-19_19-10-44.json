@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wurde nicht durch den Nutzer als sich selbst identifiziert, daher bleibt es im Vokabular. Die Identifikation des Nutzers ist \"Maria\", doch da kein selbstbezüglicher Begriff vorliegt, wird sie nicht ausgelöst.\n        2. \"Maria\" und \"tim\" sind Objekte der Anfrage. \"run\" ist eine Aktivität.\n        3. \"tim\" führt die Aktivität \"run\" aus. \"run\" bezieht sich auf \"tim\".\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n    \"matrix\": [[1, 0, 0], [0, 1, 8], [0, 0, 4]],\n    \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wurde nicht durch den Nutzer als sich selbst identifiziert, daher bleibt es im Vokabular. Die Identifikation des Nutzers ist \\\"Maria\\\", doch da kein selbstbezüglicher Begriff vorliegt, wird sie nicht ausgelöst.\\n        2. \\\"Maria\\\" und \\\"tim\\\" sind Objekte der Anfrage. \\\"run\\\" ist eine Aktivität.\\n        3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus. \\\"run\\\" bezieht sich auf \\\"tim\\\".\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Beziehen (target) ist 8.\"\n}"
+}

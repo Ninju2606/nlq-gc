@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer identifiziert sich selbst als \u0027Maria\u0027, was dem Begriff \u0027maria\u0027 im Vokabular entspricht. Es liegen keine weiteren relativen Verweise vor. 2. Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist vom Typ \u0027object\u0027, da es sich um eine Person handelt; \u0027make\u0027 ist eine \u0027activity\u0027, da es eine Handlung beschreibt; \u0027appointment\u0027 ist ein \u0027object\u0027, da es ein konkretes Ding darstellt. 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus, und \u0027make\u0027 bezieht sich auf das Objekt \u0027appointment\u0027. Somit besteht eine \u0027perform\u0027-Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 sowie eine implizite \u0027perform\u0027-Beziehung zwischen \u0027maria\u0027 und \u0027appointment\u0027. 4. Für alle diese Relationen existieren entsprechende Einträge in den Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), und \u0027perform\u0027 (ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 8],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer identifiziert sich selbst als \u0027Maria\u0027, was dem Begriff \u0027maria\u0027 im Vokabular entspricht. Es liegen keine weiteren relativen Verweise vor. 2. Die Attributeigenschaften der Stichwörter sind wie folgt: \u0027maria\u0027 ist vom Typ \u0027object\u0027, da es sich um eine Person handelt; \u0027make\u0027 ist eine \u0027activity\u0027, da es eine Handlung beschreibt; \u0027appointment\u0027 ist ein \u0027object\u0027, da es ein konkretes Ding darstellt. 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus, und \u0027make\u0027 bezieht sich auf das Objekt \u0027appointment\u0027. Somit besteht eine \u0027perform\u0027-Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 sowie eine implizite \u0027perform\u0027-Beziehung zwischen \u0027maria\u0027 und \u0027appointment\u0027. 4. Für alle diese Relationen existieren entsprechende Einträge in den Typkodierungen: \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), und \u0027perform\u0027 (ID 8).\"\n}"
+}

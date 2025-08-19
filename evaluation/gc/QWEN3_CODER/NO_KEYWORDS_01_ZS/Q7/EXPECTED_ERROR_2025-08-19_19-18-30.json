@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode zur Suche nach Szenen im Metaverse, in denen Maria Fragen malt, die mit Häusern verbunden sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\", \"Maria\"],\n  \"matrix\": [\n    [1, 5, 8, 0],\n    [0, 1, 9, 0],\n    [0, 0, 4, 0],\n    [0, 0, 8, 1]\n  ],\n  \"description\": \"GraphCode zur Suche nach Szenen im Metaverse, in denen Maria Fragen malt, die mit Häusern verbunden sind.\"\n}"
+}

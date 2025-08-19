@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klaren Szenenbeschreibungen oder handlungsrelevante Begriffe, die sich auf eine Metaverse-Situation beziehen. Daher kann kein valider GraphCode generiert werden.",
+  "error": "Unvollständige oder fehlerhafte Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige oder fehlerhafte Eingabe\",\n  \"description\": \"Die Anfrage enthält keine klaren Szenenbeschreibungen oder handlungsrelevante Begriffe, die sich auf eine Metaverse-Situation beziehen. Daher kann kein valider GraphCode generiert werden.\"\n}"
+}

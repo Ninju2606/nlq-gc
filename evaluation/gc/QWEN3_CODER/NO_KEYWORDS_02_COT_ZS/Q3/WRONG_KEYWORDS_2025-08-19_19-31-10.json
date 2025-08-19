@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027]\n2. Auflösung relativer Verweise: \u0027gehört\u0027 zeigt eine Besitzrelation des Pools zum Anfragensteller (\u0027ich\u0027)\n3. Übersetzung der Stichwörter ins Englische: [\u0027I\u0027 → \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027]\n4. Ersetzung der Nutzeridentifikation: \u0027I\u0027 → \u0027Maria\u0027\n5. Erklärung der Attributeigenschaften:\n   - \u0027Maria\u0027: Typ \u0027object\u0027, da es sich um eine Person handelt\n   - \u0027swim\u0027: Typ \u0027activity\u0027, da dies eine durchgeführte Tätigkeit ist\n   - \u0027pool\u0027: Typ \u0027object\u0027, da physisches Objekt\n   - \u0027gehört\u0027: ausgedrückte Relation \u0027attached\u0027, da Besitzverhältnis\n6. Erklärung der Relationen:\n   - Maria → schwimmt → pool \u003d\u003e Relation \u0027perform\u0027 (ID\u003d8)\n   - Maria ← gehört ← pool \u003d\u003e Relation \u0027attached\u0027 (ID\u003d5)\n7. Alle Relationen wurden gefunden und haben gültige Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027]\\n2. Auflösung relativer Verweise: \u0027gehört\u0027 zeigt eine Besitzrelation des Pools zum Anfragensteller (\u0027ich\u0027)\\n3. Übersetzung der Stichwörter ins Englische: [\u0027I\u0027 → \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027]\\n4. Ersetzung der Nutzeridentifikation: \u0027I\u0027 → \u0027Maria\u0027\\n5. Erklärung der Attributeigenschaften:\\n   - \u0027Maria\u0027: Typ \u0027object\u0027, da es sich um eine Person handelt\\n   - \u0027swim\u0027: Typ \u0027activity\u0027, da dies eine durchgeführte Tätigkeit ist\\n   - \u0027pool\u0027: Typ \u0027object\u0027, da physisches Objekt\\n   - \u0027gehört\u0027: ausgedrückte Relation \u0027attached\u0027, da Besitzverhältnis\\n6. Erklärung der Relationen:\\n   - Maria → schwimmt → pool \u003d\u003e Relation \u0027perform\u0027 (ID\u003d8)\\n   - Maria ← gehört ← pool \u003d\u003e Relation \u0027attached\u0027 (ID\u003d5)\\n7. Alle Relationen wurden gefunden und haben gültige Typkodierungen.\"\n}"
+}

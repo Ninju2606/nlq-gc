@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\", \"rennt\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Tim\", \"run\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Tim\", \"run\".\n        5. \"Tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität.\n        6. \"Tim\" führt die Aktivität \"run\" aus.\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 8 - diese Beziehung ist implizit durch die Position in der Matrix gegeben, aber nicht in der Diagonalen kodiert, daher wird sie hier nicht direkt als ID eingetragen. Die Matrix enthält nur die Typkodierungen für die Begriffe (Diagonale) und mögliche Relationen (außerhalb der Diagonalen). In diesem Fall gibt es keine explizite Relation außerhalb der Diagonalen, da keine zusätzliche Relation definiert wurde.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"matrix\": [[1,0],[0,9]],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\", \\\"rennt\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Tim\\\", \\\"run\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Tim\\\", \\\"run\\\".\\n        5. \\\"Tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität.\\n        6. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 8 - diese Beziehung ist implizit durch die Position in der Matrix gegeben, aber nicht in der Diagonalen kodiert, daher wird sie hier nicht direkt als ID eingetragen. Die Matrix enthält nur die Typkodierungen für die Begriffe (Diagonale) und mögliche Relationen (außerhalb der Diagonalen). In diesem Fall gibt es keine explizite Relation außerhalb der Diagonalen, da keine zusätzliche Relation definiert wurde.\"\n}"
+}

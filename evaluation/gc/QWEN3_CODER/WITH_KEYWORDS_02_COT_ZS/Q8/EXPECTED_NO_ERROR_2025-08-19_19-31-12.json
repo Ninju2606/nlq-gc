@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die übergebene Anfrage enthält nicht alle notwendigen Informationen zur Erstellung eines GraphCodes. Es fehlen Angaben darüber, wie die Identifikation des Nutzers konkret in der Szene zu verwenden ist, sowie eine klare Zuordnung aller Begriffe im Kontext der vorgegebenen Typkodierungen. Insbesondere ist unklar, ob \u0027Meine Tochter\u0027 als explizit identifizierter Nutzer zu behandeln ist oder lediglich beschreibend im Kontext der Szene genannt wird, ohne selbst aktiv zu handeln.",
+  "error": "Unvollständige oder fehlerhafte Eingabe",
+  "responsePlain": "{\n  \"error\": \"Unvollständige oder fehlerhafte Eingabe\",\n  \"description\": \"Die übergebene Anfrage enthält nicht alle notwendigen Informationen zur Erstellung eines GraphCodes. Es fehlen Angaben darüber, wie die Identifikation des Nutzers konkret in der Szene zu verwenden ist, sowie eine klare Zuordnung aller Begriffe im Kontext der vorgegebenen Typkodierungen. Insbesondere ist unklar, ob \u0027Meine Tochter\u0027 als explizit identifizierter Nutzer zu behandeln ist oder lediglich beschreibend im Kontext der Szene genannt wird, ohne selbst aktiv zu handeln.\"\n}"
+}

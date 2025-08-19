@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare Szenenbeschreibung oder relevante Aktivitäten, welche die Erstellung eines GraphCodes ermöglichen würden. Es fehlen konkrete Angaben zu Objekten, Attributen oder Relationen innerhalb einer Szene im Metaverse.",
+  "error": "Fehler bei der Verarbeitung",
+  "responsePlain": "{\n  \"error\": \"Fehler bei der Verarbeitung\",\n  \"description\": \"Die Anfrage enthält keine klare Szenenbeschreibung oder relevante Aktivitäten, welche die Erstellung eines GraphCodes ermöglichen würden. Es fehlen konkrete Angaben zu Objekten, Attributen oder Relationen innerhalb einer Szene im Metaverse.\"\n}"
+}

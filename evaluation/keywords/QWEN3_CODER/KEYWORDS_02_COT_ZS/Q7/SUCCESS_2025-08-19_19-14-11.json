@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte Häuser malen, die mit Fragen zu tun haben. Die Stichwörter wurden ins Englische übersetzt. Es kommen keine selbst-identifizierenden Wörter vor, weshalb die Nutzeridentifikation ignoriert werden kann.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"description\": \"Der Nutzer möchte Häuser malen, die mit Fragen zu tun haben. Die Stichwörter wurden ins Englische übersetzt. Es kommen keine selbst-identifizierenden Wörter vor, weshalb die Nutzeridentifikation ignoriert werden kann.\"\n}"
+}

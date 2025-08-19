@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (als Objekt) die Aktivität \u0027play\u0027 (spielen) mit dem Objekt \u0027basketball\u0027 (Basketball) ausführt. Die Matrix zeigt die Beziehung zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (als Objekt) die Aktivität \u0027play\u0027 (spielen) mit dem Objekt \u0027basketball\u0027 (Basketball) ausführt. Die Matrix zeigt die Beziehung zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.\"\n}"
+}

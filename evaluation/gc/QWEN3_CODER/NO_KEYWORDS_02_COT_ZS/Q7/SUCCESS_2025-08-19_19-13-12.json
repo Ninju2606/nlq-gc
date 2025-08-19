@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält keine klare Szenenbeschreibung im Metaverse. Es lassen sich keine sinnvollen Stichwörter oder Relationen ableiten, um einen GraphCode zu generieren.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und enthält keine klare Szenenbeschreibung im Metaverse. Es lassen sich keine sinnvollen Stichwörter oder Relationen ableiten, um einen GraphCode zu generieren.\"\n}"
+}

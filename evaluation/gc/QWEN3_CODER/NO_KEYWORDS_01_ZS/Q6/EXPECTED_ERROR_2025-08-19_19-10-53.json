@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      2
+    ],
+    [
+      5,
+      1,
+      8,
+      2
+    ],
+    [
+      9,
+      9,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte bald einen Termin ausmachen. Die Matrix zeigt die Beziehungen zwischen Maria (object), dem Termin (object), der Tätigkeit (activity) und dem Kontext (context).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"schedule\", \"appointment\", \"soon\"],\n  \"matrix\": [\n    [1, 5, 8, 2],\n    [5, 1, 8, 2],\n    [9, 9, 1, 2],\n    [2, 2, 2, 1]\n  ],\n  \"description\": \"Der Nutzer möchte bald einen Termin ausmachen. Die Matrix zeigt die Beziehungen zwischen Maria (object), dem Termin (object), der Tätigkeit (activity) und dem Kontext (context).\"\n}"
+}

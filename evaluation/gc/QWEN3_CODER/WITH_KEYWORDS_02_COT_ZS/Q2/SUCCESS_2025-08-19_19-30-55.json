@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine aufgelösten relativen Verweise oder Identifikationen des Nutzers, da die Anfrage keine Formulierung wie „ich“ oder „mein“ enthält. Die Identifikation ‚Maria‘ wird daher nicht verwendet. 2. Die Attributeigenschaften der Stichwörter: ‚tim‘ ist ein Objekt (id\u003d1), ‚run‘ ist eine Aktivität (id\u003d4). 3. Die Beziehung zwischen den Stichwörtern ist: Tim (Objekt) führt die Handlung rennen (Activity) aus. Diese Relation wird durch den Eintrag ‚perform‘ mit id\u003d8 beschrieben. 4. Alle Relationen und Attributeigenschaften finden eine Entsprechung in den vorgegebenen Typkodierungen. 5. Der GraphCode wurde zusammengestellt basierend auf dem Vokabular und den zugehörigen Beziehungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es gibt keine aufgelösten relativen Verweise oder Identifikationen des Nutzers, da die Anfrage keine Formulierung wie „ich“ oder „mein“ enthält. Die Identifikation ‚Maria‘ wird daher nicht verwendet. 2. Die Attributeigenschaften der Stichwörter: ‚tim‘ ist ein Objekt (id\u003d1), ‚run‘ ist eine Aktivität (id\u003d4). 3. Die Beziehung zwischen den Stichwörtern ist: Tim (Objekt) führt die Handlung rennen (Activity) aus. Diese Relation wird durch den Eintrag ‚perform‘ mit id\u003d8 beschrieben. 4. Alle Relationen und Attributeigenschaften finden eine Entsprechung in den vorgegebenen Typkodierungen. 5. Der GraphCode wurde zusammengestellt basierend auf dem Vokabular und den zugehörigen Beziehungen.\"\n}"
+}

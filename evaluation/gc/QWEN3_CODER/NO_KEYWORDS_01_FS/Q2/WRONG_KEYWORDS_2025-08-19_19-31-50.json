@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "run",
+    "Tim"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer Maria sucht eine Szene, in der Tim rennt. Daher wird \u0027Maria\u0027 als Kontextobjekt, \u0027Tim\u0027 als Objekt und \u0027run\u0027 als Aktivität interpretiert. Die Beziehung zwischen Maria und \u0027run\u0027 ist perform (8), zwischen \u0027run\u0027 und Tim ist target (9).",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"run\", \"Tim\"],\n    \"matrix\": [[1, 8, 9], [0, 4, 8], [0, 0, 1]],\n    \"description\": \"Der Nutzer Maria sucht eine Szene, in der Tim rennt. Daher wird \u0027Maria\u0027 als Kontextobjekt, \u0027Tim\u0027 als Objekt und \u0027run\u0027 als Aktivität interpretiert. Die Beziehung zwischen Maria und \u0027run\u0027 ist perform (8), zwischen \u0027run\u0027 und Tim ist target (9).\"\n}"
+}

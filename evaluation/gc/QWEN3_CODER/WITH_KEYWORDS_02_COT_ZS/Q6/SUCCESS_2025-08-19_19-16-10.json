@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine expliziten relativen Verweise, keine klaren Attribuierungen und keine Aktivitäten, die sich direkt auf die angegebenen Vokabeln \u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027 beziehen. Insbesondere fehlt eine semantische Relation, die eine Verknüpfung via Typkodierung außerhalb der Diagonalen rechtfertigen würde. Daher kann kein valider GraphCode generiert werden.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung oder spezifische Beziehungen zwischen den Begriffen, die für die Erstellung eines GraphCodes notwendig wären.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung oder spezifische Beziehungen zwischen den Begriffen, die für die Erstellung eines GraphCodes notwendig wären.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine expliziten relativen Verweise, keine klaren Attribuierungen und keine Aktivitäten, die sich direkt auf die angegebenen Vokabeln \u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027 beziehen. Insbesondere fehlt eine semantische Relation, die eine Verknüpfung via Typkodierung außerhalb der Diagonalen rechtfertigen würde. Daher kann kein valider GraphCode generiert werden.\"\n}"
+}

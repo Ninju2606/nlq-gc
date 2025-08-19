@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt, dass Maria (object) die Aktivität swim (activity) ausführt, wobei swim auf das Objekt pool (object) über die Beziehung target (8) verweist. Das Attribut own (context) steht in Beziehung zu pool über attached (5).",
+  "responsePlain": "{\n    \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n    \"matrix\": [[1, 8, 0, 0], [0, 4, 9, 0], [0, 0, 2, 1], [0, 0, 5, 1]],\n    \"description\": \"Der GraphCode beschreibt, dass Maria (object) die Aktivität swim (activity) ausführt, wobei swim auf das Objekt pool (object) über die Beziehung target (8) verweist. Das Attribut own (context) steht in Beziehung zu pool über attached (5).\"\n}"
+}

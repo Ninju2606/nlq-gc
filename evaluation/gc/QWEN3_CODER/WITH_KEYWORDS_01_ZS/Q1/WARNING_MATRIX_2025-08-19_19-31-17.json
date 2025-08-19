@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "Der GraphCode wurde aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 generiert. Die Identifikation des Nutzers ist \u0027maria\u0027. Das Vokabular besteht aus den Begriffen \u0027maria\u0027, \u0027play\u0027 und \u0027basketball\u0027. Die Bewertungsmatrix spiegelt die Beziehungen wider: \u0027maria\u0027 performt (8) \u0027play\u0027, \u0027play\u0027 ist eine Aktivität (4) und \u0027basketball\u0027 ist ein Objekt (1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 generiert. Die Identifikation des Nutzers ist \u0027maria\u0027. Das Vokabular besteht aus den Begriffen \u0027maria\u0027, \u0027play\u0027 und \u0027basketball\u0027. Die Bewertungsmatrix spiegelt die Beziehungen wider: \u0027maria\u0027 performt (8) \u0027play\u0027, \u0027play\u0027 ist eine Aktivität (4) und \u0027basketball\u0027 ist ein Objekt (1).\"\n}"
+}

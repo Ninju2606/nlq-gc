@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt eine Szene, in der Maria die Aktivität \u0027tragen\u0027 (perform) mit dem Objekt \u0027Hut\u0027 durchführt. Der Hut ist durch das Attribut \u0027gelb\u0027 charakterisiert. Die Beziehung zwischen \u0027gelb\u0027 und \u0027Hut\u0027 ist über den Typ \u0027attached\u0027 ausgedrückt. \u0027hat\u0027 ist die englische Übersetzung von \u0027trage\u0027 und steht für die Aktivität, weshalb es als \u0027activity\u0027 gekennzeichnet ist. \u0027yellow\u0027 ist eine \u0027characteristic\u0027, der Hut ein \u0027object\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt eine Szene, in der Maria die Aktivität \u0027tragen\u0027 (perform) mit dem Objekt \u0027Hut\u0027 durchführt. Der Hut ist durch das Attribut \u0027gelb\u0027 charakterisiert. Die Beziehung zwischen \u0027gelb\u0027 und \u0027Hut\u0027 ist über den Typ \u0027attached\u0027 ausgedrückt. \u0027hat\u0027 ist die englische Übersetzung von \u0027trage\u0027 und steht für die Aktivität, weshalb es als \u0027activity\u0027 gekennzeichnet ist. \u0027yellow\u0027 ist eine \u0027characteristic\u0027, der Hut ein \u0027object\u0027.\"\n}"
+}

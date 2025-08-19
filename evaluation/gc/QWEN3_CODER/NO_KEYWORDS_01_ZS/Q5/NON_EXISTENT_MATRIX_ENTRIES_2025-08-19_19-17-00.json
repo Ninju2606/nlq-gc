@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert eine Szene, in der Maria die Aktivität \u0027tragen\u0027 (hat) ausführt. Der gelbe Hut wird dabei als Objekt identifiziert, wobei \u0027yellow\u0027 eine characteristic des Hut-Objekts ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert eine Szene, in der Maria die Aktivität \u0027tragen\u0027 (hat) ausführt. Der gelbe Hut wird dabei als Objekt identifiziert, wobei \u0027yellow\u0027 eine characteristic des Hut-Objekts ist.\"\n}"
+}

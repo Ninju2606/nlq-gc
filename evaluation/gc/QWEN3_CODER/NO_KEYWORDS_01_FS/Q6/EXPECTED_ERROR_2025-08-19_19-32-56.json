@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "meeting"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Nutzer möchte einen Termin ausmachen. Daher ist \u0027schedule\u0027 die Aktivität und \u0027meeting\u0027 das Objekt dieser Aktivität. Maria ist der Nutzer und führt diese Planung aus.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"schedule\", \"meeting\"],\n    \"matrix\": [[1, 7, 0], [0, 9, 8], [0, 0, 1]],\n    \"description\": \"Der Nutzer möchte einen Termin ausmachen. Daher ist \u0027schedule\u0027 die Aktivität und \u0027meeting\u0027 das Objekt dieser Aktivität. Maria ist der Nutzer und führt diese Planung aus.\"\n}"
+}

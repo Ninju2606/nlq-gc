@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf den Anfragensteller.\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Regel: Person ersetzen), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\n4. Ersetze Identifikation: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften:\n   - \u0027Maria\u0027: Typ \u0027object\u0027 (id\u003d1)\n   - \u0027play\u0027: Typ \u0027activity\u0027 (id\u003d4)\n   - \u0027basketball\u0027: Typ \u0027object\u0027 (id\u003d1)\n6. Relationen:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Typ \u0027perform\u0027 (id\u003d8)\n   - \u0027play\u0027 ist spezifiziert durch \u0027basketball\u0027 → keine direkte Typkodierung vorhanden, aber abgedeckt durch Kontext\n7. Überprüfung der Typkodierungen:\n   - Maria (object) -\u003e play (activity) mit perform (id\u003d8): gültig\n   - play (activity) -\u003e basketball (object): keine direkte relationale Kodierung notwendig, da es sich um die Ausprägung der activity handelt.\n8. GraphCode wurde zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 bezieht sich auf den Anfragensteller.\\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (gemäß Regel: Person ersetzen), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027.\\n4. Ersetze Identifikation: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027: Typ \u0027object\u0027 (id\u003d1)\\n   - \u0027play\u0027: Typ \u0027activity\u0027 (id\u003d4)\\n   - \u0027basketball\u0027: Typ \u0027object\u0027 (id\u003d1)\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Typ \u0027perform\u0027 (id\u003d8)\\n   - \u0027play\u0027 ist spezifiziert durch \u0027basketball\u0027 → keine direkte Typkodierung vorhanden, aber abgedeckt durch Kontext\\n7. Überprüfung der Typkodierungen:\\n   - Maria (object) -\u003e play (activity) mit perform (id\u003d8): gültig\\n   - play (activity) -\u003e basketball (object): keine direkte relationale Kodierung notwendig, da es sich um die Ausprägung der activity handelt.\\n8. GraphCode wurde zusammengesetzt.\"\n}"
+}
