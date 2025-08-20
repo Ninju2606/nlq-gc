@@ -25,5 +25,4 @@
   "matrixSimilarity": 0.0,
   "description": "Der GraphCode beschreibt die Szene, in der Maria Basketball spielt. Das Vokabular enthält die Identifikation der Person (Maria), das Aktivitätsverbum (play) und das Objekt (basketball). Die Bewertungsmatrix kodiert die Beziehungen zwischen den Begriffen.",
   "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 7, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria Basketball spielt. Das Vokabular enthält die Identifikation der Person (Maria), das Aktivitätsverbum (play) und das Objekt (basketball). Die Bewertungsmatrix kodiert die Beziehungen zwischen den Begriffen.\"\n}"
-}lation zwischen \u0027Maria\u0027 und \u0027play\u0027 wird durch Typkodierung 7 (perform) dargestellt, und zwischen \u0027play\u0027 und \u0027basketball\u0027 wird Typkodierung 8 (target) verwendet.\"\n}"
 }
