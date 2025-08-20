@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      1,
+      0
+    ],
+    [
+      9,
+      9,
+      5,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027Meine Tochter\u0027 → \u0027Tochter von Maria\u0027, \u0027ich\u0027 → \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027, \u0027ride\u0027.\n4. Die selbstbezüglichen Pronomen \u0027ich\u0027 und \u0027mein\u0027 wurden durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (Typ 1),\n   - \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1),\n   - \u0027ride\u0027 ist eine Aktivität (Typ 4).\n   Zusätzlich wird die Tochter-Beziehung durch Typ 10 (\u0027daughter\u0027) repräsentiert.\n6. Relationen:\n   - Maria führt die Aktivität \u0027ride\u0027 aus → Typ 8 (perform)\n   - Tochter führt die Aktivität \u0027ride\u0027 aus → Typ 8 (perform)\n   - \u0027ride\u0027 hat als Ziel \u0027boat\u0027 → Typ 9 (target)\n   - \u0027boat\u0027 ist auf dem \u0027lake\u0027 → Typ 6 (under), oder umgekehrt \u0027lake\u0027 ist unter \u0027boat\u0027 → jedoch logischer ist \u0027boat above lake\u0027, also Typ 7 (above)\n   - Maria hat eine Tochter → Typ 10 (daughter)\n   - \u0027boat\u0027 ist angebracht/verbunden mit der Aktivität → Typ 5 (attached)\n7. Alle Relationen haben entsprechende Typkodierungen:\n   - object (1), activity (4), daughter (10), perform (8), target (9), above (7), under (6), attached (5) sind alle in der Typkodierungstabelle vorhanden.\n   - Die Matrix verwendet nur erlaubte IDs: auf der Diagonale nur Typen mit identityMapping\u003dtrue (1 für Objekte, 4 für Aktivität), außerhalb nur Typen mit identityMapping\u003dfalse (5–10, abgesehen von verbotenen).",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      10,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      1,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      0,\n      1,\n      6,\n      0\n    ],\n    [\n      0,\n      0,\n      7,\n      1,\n      0\n    ],\n    [\n      9,\n      9,\n      5,\n      0,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027Meine Tochter\u0027 → \u0027Tochter von Maria\u0027, \u0027ich\u0027 → \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027, \u0027ride\u0027.\\n4. Die selbstbezüglichen Pronomen \u0027ich\u0027 und \u0027mein\u0027 wurden durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (Typ 1),\\n   - \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1),\\n   - \u0027ride\u0027 ist eine Aktivität (Typ 4).\\n   Zusätzlich wird die Tochter-Beziehung durch Typ 10 (\u0027daughter\u0027) repräsentiert.\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027ride\u0027 aus → Typ 8 (perform)\\n   - Tochter führt die Aktivität \u0027ride\u0027 aus → Typ 8 (perform)\\n   - \u0027ride\u0027 hat als Ziel \u0027boat\u0027 → Typ 9 (target)\\n   - \u0027boat\u0027 ist auf dem \u0027lake\u0027 → Typ 6 (under), oder umgekehrt \u0027lake\u0027 ist unter \u0027boat\u0027 → jedoch logischer ist \u0027boat above lake\u0027, also Typ 7 (above)\\n   - Maria hat eine Tochter → Typ 10 (daughter)\\n   - \u0027boat\u0027 ist angebracht/verbunden mit der Aktivität → Typ 5 (attached)\\n7. Alle Relationen haben entsprechende Typkodierungen:\\n   - object (1), activity (4), daughter (10), perform (8), target (9), above (7), under (6), attached (5) sind alle in der Typkodierungstabelle vorhanden.\\n   - Die Matrix verwendet nur erlaubte IDs: auf der Diagonale nur Typen mit identityMapping\u003dtrue (1 für Objekte, 4 für Aktivität), außerhalb nur Typen mit identityMapping\u003dfalse (5–10, abgesehen von verbotenen).\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die auf eine Szene im Metaverse verweisen. Es handelt sich um eine organisatorische Absicht ohne räumliche, visuelle oder interaktive Elemente, die in einem GraphCode abgebildet werden könnten. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Es konnten keine klaren Stichwörter oder Objekte aus der Anfrage extrahiert werden, die eine Szenenbeschreibung im Metaverse darstellen.",
+  "responsePlain": "{\n  \"error\": \"Es konnten keine klaren Stichwörter oder Objekte aus der Anfrage extrahiert werden, die eine Szenenbeschreibung im Metaverse darstellen.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die auf eine Szene im Metaverse verweisen. Es handelt sich um eine organisatorische Absicht ohne räumliche, visuelle oder interaktive Elemente, die in einem GraphCode abgebildet werden könnten. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

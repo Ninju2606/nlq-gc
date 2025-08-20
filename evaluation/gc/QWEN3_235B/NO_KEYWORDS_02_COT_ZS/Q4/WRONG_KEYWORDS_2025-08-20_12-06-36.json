@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027: \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027meinem\u0027 beziehen sich auf den Nutzer, also auf \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. Die Präposition \u0027in\u0027 wird als räumliche Relation interpretiert.\n4. Der Nutzerbezug \u0027ich\u0027 und \u0027mein\u0027 wird durch die Identifikation \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist eine Person → Typ 1 (object), da identityMapping\u003dtrue.\n   - \u0027swim\u0027 ist eine Aktivität → Typ 4 (activity), da identityMapping\u003dtrue.\n   - \u0027pool\u0027 ist ein Objekt → Typ 1 (object), da identityMapping\u003dtrue.\n6. Relationen:\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu swim.\n   - \u0027swim\u0027 hat den Ort \u0027pool\u0027 als Ziel bzw. Ort der Handlung → Relation \u0027target\u0027 (ID 9) von swim zu pool.\n   - Der Pool gehört Maria → Relation \u0027attached\u0027 (ID 5) von Maria zu pool (da Eigentumsverhältnis, vergleichbar mit \u0027attached to\u0027).\n7. Alle benötigten Typkodierungen existieren:\n   - \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5).\n   Alle Relationen können abgebildet werden.\n8. Der GraphCode wurde entsprechend zusammengesetzt: 3 Einträge im Vokabular, 3x3-Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue (1, 4, 1). Außerhalb sind nur identityMapping\u003dfalse-Typen (5, 8, 9) und Nullen eingetragen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027: \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027meinem\u0027 beziehen sich auf den Nutzer, also auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. Die Präposition \u0027in\u0027 wird als räumliche Relation interpretiert.\\n4. Der Nutzerbezug \u0027ich\u0027 und \u0027mein\u0027 wird durch die Identifikation \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist eine Person → Typ 1 (object), da identityMapping\u003dtrue.\\n   - \u0027swim\u0027 ist eine Aktivität → Typ 4 (activity), da identityMapping\u003dtrue.\\n   - \u0027pool\u0027 ist ein Objekt → Typ 1 (object), da identityMapping\u003dtrue.\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu swim.\\n   - \u0027swim\u0027 hat den Ort \u0027pool\u0027 als Ziel bzw. Ort der Handlung → Relation \u0027target\u0027 (ID 9) von swim zu pool.\\n   - Der Pool gehört Maria → Relation \u0027attached\u0027 (ID 5) von Maria zu pool (da Eigentumsverhältnis, vergleichbar mit \u0027attached to\u0027).\\n7. Alle benötigten Typkodierungen existieren:\\n   - \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5).\\n   Alle Relationen können abgebildet werden.\\n8. Der GraphCode wurde entsprechend zusammengesetzt: 3 Einträge im Vokabular, 3x3-Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue (1, 4, 1). Außerhalb sind nur identityMapping\u003dfalse-Typen (5, 8, 9) und Nullen eingetragen.\"\n}"
+}

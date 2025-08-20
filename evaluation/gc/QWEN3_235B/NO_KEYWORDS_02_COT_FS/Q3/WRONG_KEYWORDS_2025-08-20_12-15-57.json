@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"belong\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"belong\".\n        5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"belong\" sind Aktivitäten.\n        6. \"Maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". Es wird ausgesagt, dass der \"pool\" der Person \"Maria\" gehört, was als Aktivität \"belong\" zwischen \"pool\" und \"Maria\" interpretiert wird. Somit steht \"pool\" in einem Besitzverhältnis zu \"Maria\", dargestellt durch die Relation \"target\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für die Beziehung \"belong\" entspricht logisch der umgekehrten Richtung von \"target\", da der Pool Maria gehört. Da \"target\" identityMapping\u003d\u003dfalse hat und ID 9 zur Verfügung steht, wird „pool -\u003e belong -\u003e target -\u003e Maria“ als „belong target Maria“ modelliert. Da jedoch keine direkte Typkodierung für „belong“ existiert, wird angenommen, dass „belong“ durch die Relation „target“ (ID: 9) im Kontext von Besitz gemeint ist. Allerdings ist in den vorgegebenen Typkodierungen kein Eintrag für „belong“ vorhanden, und auch keine direkte Beziehung wie „owner“ oder „possess“. Daher ist kein gültiger Typkodierungscode verfügbar, um das Verhältnis „gehört mir\" korrekt abzubilden. Einzig eine mögliche Interpretation wäre, dass „belongs“ als „attached“ (ID:5) oder eine semantisch nicht erfasste Beziehung gemeint ist. Aber „attached“ bezieht sich auf physische Verbindung, nicht Besitz. Die gegebene Typkodierung enthält keine id mit \u0027attribute\u0027: \u0027belong\u0027 oder \u0027possess\u0027. Damit ist kein gültiger Code vorhanden, um diese Relation abzubilden. Daher ist dies ein Fehler.\n        ACHTUNG: In vorheriger Logik wurde fälschlicherweise angenommen, dass „belong“ durch existierende Typen darstellbar sei. Tatsächlich ist in den vorgegebenen Typkodierungen kein Eintrag für eine Besitzrelation enthalten. Die Attribute sind: attached, under, above, perform, target, daughter, characteristic. Keines davon beschreibt „gehört mir“ oder „belongs to“. Damit ist die Relation \"belongs\" nicht kodierbar.\n        → Fehlende Typkodierung für Besitz (belong) führt zu Fehler.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n        5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"belong\\\" sind Aktivitäten.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". Es wird ausgesagt, dass der \\\"pool\\\" der Person \\\"Maria\\\" gehört, was als Aktivität \\\"belong\\\" zwischen \\\"pool\\\" und \\\"Maria\\\" interpretiert wird. Somit steht \\\"pool\\\" in einem Besitzverhältnis zu \\\"Maria\\\", dargestellt durch die Relation \\\"target\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für die Beziehung \\\"belong\\\" entspricht logisch der umgekehrten Richtung von \\\"target\\\", da der Pool Maria gehört. Da \\\"target\\\" identityMapping\u003d\u003dfalse hat und ID 9 zur Verfügung steht, wird „pool -\u003e belong -\u003e target -\u003e Maria“ als „belong target Maria“ modelliert. Da jedoch keine direkte Typkodierung für „belong“ existiert, wird angenommen, dass „belong“ durch die Relation „target“ (ID: 9) im Kontext von Besitz gemeint ist. Allerdings ist in den vorgegebenen Typkodierungen kein Eintrag für „belong“ vorhanden, und auch keine direkte Beziehung wie „owner“ oder „possess“. Daher ist kein gültiger Typkodierungscode verfügbar, um das Verhältnis „gehört mir\\\" korrekt abzubilden. Einzig eine mögliche Interpretation wäre, dass „belongs“ als „attached“ (ID:5) oder eine semantisch nicht erfasste Beziehung gemeint ist. Aber „attached“ bezieht sich auf physische Verbindung, nicht Besitz. Die gegebene Typkodierung enthält keine id mit \u0027attribute\u0027: \u0027belong\u0027 oder \u0027possess\u0027. Damit ist kein gültiger Code vorhanden, um diese Relation abzubilden. Daher ist dies ein Fehler.\\n        ACHTUNG: In vorheriger Logik wurde fälschlicherweise angenommen, dass „belong“ durch existierende Typen darstellbar sei. Tatsächlich ist in den vorgegebenen Typkodierungen kein Eintrag für eine Besitzrelation enthalten. Die Attribute sind: attached, under, above, perform, target, daughter, characteristic. Keines davon beschreibt „gehört mir“ oder „belongs to“. Damit ist die Relation \\\"belongs\\\" nicht kodierbar.\\n        → Fehlende Typkodierung für Besitz (belong) führt zu Fehler.\"\n}"
+}

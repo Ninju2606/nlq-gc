@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die eine sinnvolle Generierung eines Vokabulars für einen GraphCode ermöglichen.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die eine sinnvolle Generierung eines Vokabulars für einen GraphCode ermöglichen.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

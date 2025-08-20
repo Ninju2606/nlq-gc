@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 (ID 6) dargestellt, da laut Vorgabe \u0027in\u0027 nicht direkt vorhanden ist, aber räumliche Enthaltenheit durch \u0027under\u0027 modelliert wird. \u0027own\u0027 (besitzen) wird über \u0027attached\u0027 (ID 5) abgebildet, da es eine Besitzbeziehung darstellt. \u0027swim\u0027 wird Maria durch \u0027perform\u0027 (ID 8) zugeordnet. Alle Typkodierungen stammen aus der vorgegebenen Liste.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 6],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 (ID 6) dargestellt, da laut Vorgabe \u0027in\u0027 nicht direkt vorhanden ist, aber räumliche Enthaltenheit durch \u0027under\u0027 modelliert wird. \u0027own\u0027 (besitzen) wird über \u0027attached\u0027 (ID 5) abgebildet, da es eine Besitzbeziehung darstellt. \u0027swim\u0027 wird Maria durch \u0027perform\u0027 (ID 8) zugeordnet. Alle Typkodierungen stammen aus der vorgegebenen Liste.\"\n}"
+}

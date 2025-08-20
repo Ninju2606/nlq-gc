@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern einen allgemeinen Hinweis auf die Notwendigkeit, einen Termin auszumachen. Es fehlen konkrete Objekte, Attribute oder räumliche/zeitliche Aktivitätsrelationen, die im GraphCode abgebildet werden könnten. Zudem wird keine Verbindung zwischen den Vokabulareinträgen (\"maria\", \"make\", \"appointment\") durch erkennbare Beziehungen hergestellt, die mit den vorgegebenen Typkodierungen darstellbar wären.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern einen allgemeinen Hinweis auf die Notwendigkeit, einen Termin auszumachen. Es fehlen konkrete Objekte, Attribute oder räumliche/zeitliche Aktivitätsrelationen, die im GraphCode abgebildet werden könnten. Zudem wird keine Verbindung zwischen den Vokabulareinträgen (\\\"maria\\\", \\\"make\\\", \\\"appointment\\\") durch erkennbare Beziehungen hergestellt, die mit den vorgegebenen Typkodierungen darstellbar wären.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

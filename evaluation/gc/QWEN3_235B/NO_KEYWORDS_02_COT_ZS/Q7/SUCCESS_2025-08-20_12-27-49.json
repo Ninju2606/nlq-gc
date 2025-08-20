@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen \"Häuser\", \"Fragen\" und \"malen\" herstellen. Die Handlung oder Relation zwischen den Objekten ist nicht verständlich.",
+  "error": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen \"Häuser\", \"Fragen\" und \"malen\" herstellen. Die Handlung oder Relation zwischen den Objekten ist nicht verständlich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen \\\"Häuser\\\", \\\"Fragen\\\" und \\\"malen\\\" herstellen. Die Handlung oder Relation zwischen den Objekten ist nicht verständlich.\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen \\\"Häuser\\\", \\\"Fragen\\\" und \\\"malen\\\" herstellen. Die Handlung oder Relation zwischen den Objekten ist nicht verständlich.\"\n}"
+}

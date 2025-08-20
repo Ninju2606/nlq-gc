@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      5,
+      8
+    ],
+    [
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      1,
+      5
+    ],
+    [
+      8,
+      0,
+      5,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\n2. Der relative Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\n4. Der Verweis \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, object), da es eine Entität bezeichnet.\n   - \u0027yellow\u0027 ist ein Attribut (Typ 14, characteristic), da es eine Eigenschaft beschreibt.\n   - \u0027hat\u0027 ist ein Objekt (Typ 1, object), da es ein konkretes Ding im Metaverse ist.\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4, activity), da es eine Handlung beschreibt.\n6. Relationen zwischen den Begriffen:\n   - Maria führt die Aktivität \u0027wear\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\n   - Maria trägt einen Hut → Hut ist Objekt der Handlung, also \u0027attached\u0027 (Typ 5) an die Aktivität.\n   - Der Hut hat die Farbe gelb → \u0027characteristic\u0027 (Typ 14) des Objekts Hut.\n   - \u0027wear\u0027 hat das Ziel \u0027hat\u0027 → \u0027target\u0027 (Typ 9) verbindet Aktivität und Objekt.\n7. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1) existiert → für Maria und hat.\n   - \u0027characteristic\u0027 (ID 14) existiert → für yellow am hat.\n   - \u0027attached\u0027 (ID 5) existiert → Verbindung zwischen Aktivität und Objekt.\n   - \u0027perform\u0027 (ID 8) existiert → Maria führt wear aus.\n   - \u0027target\u0027 (ID 9) existiert → wear hat das Ziel hat.\n   Alle benötigten Typen sind vorhanden. IDs wurden entsprechend zugewiesen.\n8. Zusammenstellung des GraphCodes: Vokabular und Bewertungsmatrix wurden entsprechend der Regeln erstellt. Einträge auf der Diagonale (i\u003dj) nutzen nur Typen mit identityMapping\u003dtrue (1, 4, 14). Off-diagonal (i≠j) nutzen nur Typen mit identityMapping\u003dfalse (5, 8, 14).",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"yellow\",\n    \"hat\",\n    \"wear\"\n  ],\n  \"matrix\": [\n    [1, 14, 5, 8],\n    [14, 0, 0, 0],\n    [5, 0, 1, 5],\n    [8, 0, 5, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Der relative Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\\n4. Der Verweis \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, object), da es eine Entität bezeichnet.\\n   - \u0027yellow\u0027 ist ein Attribut (Typ 14, characteristic), da es eine Eigenschaft beschreibt.\\n   - \u0027hat\u0027 ist ein Objekt (Typ 1, object), da es ein konkretes Ding im Metaverse ist.\\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4, activity), da es eine Handlung beschreibt.\\n6. Relationen zwischen den Begriffen:\\n   - Maria führt die Aktivität \u0027wear\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\\n   - Maria trägt einen Hut → Hut ist Objekt der Handlung, also \u0027attached\u0027 (Typ 5) an die Aktivität.\\n   - Der Hut hat die Farbe gelb → \u0027characteristic\u0027 (Typ 14) des Objekts Hut.\\n   - \u0027wear\u0027 hat das Ziel \u0027hat\u0027 → \u0027target\u0027 (Typ 9) verbindet Aktivität und Objekt.\\n7. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1) existiert → für Maria und hat.\\n   - \u0027characteristic\u0027 (ID 14) existiert → für yellow am hat.\\n   - \u0027attached\u0027 (ID 5) existiert → Verbindung zwischen Aktivität und Objekt.\\n   - \u0027perform\u0027 (ID 8) existiert → Maria führt wear aus.\\n   - \u0027target\u0027 (ID 9) existiert → wear hat das Ziel hat.\\n   Alle benötigten Typen sind vorhanden. IDs wurden entsprechend zugewiesen.\\n8. Zusammenstellung des GraphCodes: Vokabular und Bewertungsmatrix wurden entsprechend der Regeln erstellt. Einträge auf der Diagonale (i\u003dj) nutzen nur Typen mit identityMapping\u003dtrue (1, 4, 14). Off-diagonal (i≠j) nutzen nur Typen mit identityMapping\u003dfalse (5, 8, 14).\"\n}"
+}

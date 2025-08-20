@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse direkt representiert werden könnten. Es fehlen konkrete Begriffe, die in ein Vokabular für einen GraphCode übersetzt werden könnten, wie z. B. Personen, Handlungen oder Gegenstände. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Keine konkreten Objekte, Attribute oder Aktivitäten identifizierbar.",
+  "responsePlain": "{\n  \"error\": \"Keine konkreten Objekte, Attribute oder Aktivitäten identifizierbar.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einer Szene im Metaverse direkt representiert werden könnten. Es fehlen konkrete Begriffe, die in ein Vokabular für einen GraphCode übersetzt werden könnten, wie z. B. Personen, Handlungen oder Gegenstände. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

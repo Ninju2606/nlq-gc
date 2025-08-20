@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment",
+    "arrange",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittelte Stichwörter: Termin, ausmachen, bald. Relative Verweise wie \u0027wir\u0027 wurden erkannt, beziehen sich aber nicht direkt auf den Anfragensteller mit \u0027ich\u0027/\u0027mein\u0027, daher keine Ersetzung der Nutzeridentifikation. Übersetzung ins Englische: appointment, arrange, soon. Alle relevanten Begriffe wurden generalisiert und für den GraphCode vorbereitet.",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"arrange\", \"soon\"],\n  \"description\": \"Ermittelte Stichwörter: Termin, ausmachen, bald. Relative Verweise wie \u0027wir\u0027 wurden erkannt, beziehen sich aber nicht direkt auf den Anfragensteller mit \u0027ich\u0027/\u0027mein\u0027, daher keine Ersetzung der Nutzeridentifikation. Übersetzung ins Englische: appointment, arrange, soon. Alle relevanten Begriffe wurden generalisiert und für den GraphCode vorbereitet.\"\n}"
+}

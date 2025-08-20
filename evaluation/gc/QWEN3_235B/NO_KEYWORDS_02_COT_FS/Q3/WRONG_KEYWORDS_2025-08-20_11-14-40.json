@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n         2. Es gibt keine relativen Verweise.\n         3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\", \"belong\".\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"belong\".\n         5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"belong\" sind Aktivitäten.\n         6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" bezieht sich auf \"pool\". \"belong\" beschreibt die Beziehung zwischen \"pool\" und \"Maria\", wobei \"pool\" Maria gehört. Die Eigenschaft \"characteristic\" wird verwendet, um anzuzeigen, dass der Besitz (belong) eine inhaltliche Beziehung darstellt, hier über die Charakteristik des Objekts.\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für in ist 6. Die ID für characteristic ist 14. Die ID für attached ist 5. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 6, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n         2. Es gibt keine relativen Verweise.\\n         3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n         5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"belong\\\" sind Aktivitäten.\\n         6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"belong\\\" beschreibt die Beziehung zwischen \\\"pool\\\" und \\\"Maria\\\", wobei \\\"pool\\\" Maria gehört. Die Eigenschaft \\\"characteristic\\\" wird verwendet, um anzuzeigen, dass der Besitz (belong) eine inhaltliche Beziehung darstellt, hier über die Charakteristik des Objekts.\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für in ist 6. Die ID für characteristic ist 14. Die ID für attached ist 5. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

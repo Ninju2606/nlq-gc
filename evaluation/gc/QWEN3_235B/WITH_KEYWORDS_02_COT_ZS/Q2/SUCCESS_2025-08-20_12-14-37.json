@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Benutzer hat keine selbstreferenzierenden Begriffe wie \u0027ich\u0027 verwendet, daher wird die Identifikation \u0027Maria\u0027 ignoriert.\n\n2. Die Attributeigenschaften der Stichwörter: \n   - \u0027tim\u0027: Dies ist ein Subjekt, das eine Handlung ausführt. Es handelt sich um ein Objekt im Sinne des Modells, da es eine eigenständige Entität bezeichnet. Gemäß den Typkodierungen wird dafür der Typ \u0027object\u0027 (ID: 1) verwendet.\n   - \u0027run\u0027: Dies ist eine Aktion, die von \u0027tim\u0027 ausgeführt wird. Es handelt sich um eine Aktivität, daher wird der Typ \u0027activity\u0027 (ID: 4) zugeordnet.\n\n3. Die Relation zwischen den Stichwörtern: \n   - Zwischen \u0027tim\u0027 und \u0027run\u0027 besteht eine Beziehung der Ausführung: \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID: 8) dargestellt.\n   - In der Matrix bedeutet dies: Eintrag (0,1) \u003d 8 (tim performt run).\n   - Umgekehrt ist keine aktive Beziehung von \u0027run\u0027 zu \u0027tim\u0027 nötig, daher bleibt (1,0) \u003d 0.\n\n4. Überprüfung der Typkodierungen: \n   - object (ID: 1) ist vorhanden und erlaubt identityMapping \u003d true → gültig für Diagonale.\n   - activity (ID: 4) ist vorhanden und erlaubt identityMapping \u003d true → gültig für Diagonale.\n   - perform (ID: 8) ist vorhanden und erlaubt identityMapping \u003d false → gültig für Nicht-Diagonale.\n   → Alle benötigten Typen sind in den bereitgestellten Kodierungen enthalten.\n\n5. Zusammenstellung des GraphCodes: \n   - Vokabular bleibt unverändert: [\"tim\", \"run\"].\n   - Bewertungsmatrix 2x2: \n     - (0,0) \u003d 1 (tim ist ein object)\n     - (1,1) \u003d 4 (run ist eine activity)\n     - (0,1) \u003d 8 (tim performt run)\n     - (1,0) \u003d 0 (keine definierte Rückbeziehung)\n   → Gültiger GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Benutzer hat keine selbstreferenzierenden Begriffe wie \u0027ich\u0027 verwendet, daher wird die Identifikation \u0027Maria\u0027 ignoriert.\\n\\n2. Die Attributeigenschaften der Stichwörter: \\n   - \u0027tim\u0027: Dies ist ein Subjekt, das eine Handlung ausführt. Es handelt sich um ein Objekt im Sinne des Modells, da es eine eigenständige Entität bezeichnet. Gemäß den Typkodierungen wird dafür der Typ \u0027object\u0027 (ID: 1) verwendet.\\n   - \u0027run\u0027: Dies ist eine Aktion, die von \u0027tim\u0027 ausgeführt wird. Es handelt sich um eine Aktivität, daher wird der Typ \u0027activity\u0027 (ID: 4) zugeordnet.\\n\\n3. Die Relation zwischen den Stichwörtern: \\n   - Zwischen \u0027tim\u0027 und \u0027run\u0027 besteht eine Beziehung der Ausführung: \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID: 8) dargestellt.\\n   - In der Matrix bedeutet dies: Eintrag (0,1) \u003d 8 (tim performt run).\\n   - Umgekehrt ist keine aktive Beziehung von \u0027run\u0027 zu \u0027tim\u0027 nötig, daher bleibt (1,0) \u003d 0.\\n\\n4. Überprüfung der Typkodierungen: \\n   - object (ID: 1) ist vorhanden und erlaubt identityMapping \u003d true → gültig für Diagonale.\\n   - activity (ID: 4) ist vorhanden und erlaubt identityMapping \u003d true → gültig für Diagonale.\\n   - perform (ID: 8) ist vorhanden und erlaubt identityMapping \u003d false → gültig für Nicht-Diagonale.\\n   → Alle benötigten Typen sind in den bereitgestellten Kodierungen enthalten.\\n\\n5. Zusammenstellung des GraphCodes: \\n   - Vokabular bleibt unverändert: [\\\"tim\\\", \\\"run\\\"].\\n   - Bewertungsmatrix 2x2: \\n     - (0,0) \u003d 1 (tim ist ein object)\\n     - (1,1) \u003d 4 (run ist eine activity)\\n     - (0,1) \u003d 8 (tim performt run)\\n     - (1,0) \u003d 0 (keine definierte Rückbeziehung)\\n   → Gültiger GraphCode wurde erstellt.\"\n}"
+}

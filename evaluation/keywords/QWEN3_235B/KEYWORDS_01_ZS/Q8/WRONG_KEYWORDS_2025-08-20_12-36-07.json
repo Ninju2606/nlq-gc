@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Vokabular erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"ride\", \"boat\", \"lake\"],\n  \"description\": \"Vokabular erfolgreich generiert.\"\n}"
+}

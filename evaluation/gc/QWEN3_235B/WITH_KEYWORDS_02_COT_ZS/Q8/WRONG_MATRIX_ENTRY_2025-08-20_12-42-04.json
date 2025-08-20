@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      8,
+      0,
+      0
+    ],
+    [
+      14,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      5,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      9,
+      7,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6,
+  "description": "1. Der Nutzer bezieht sich auf sich selbst mit \u0027ich\u0027 und erwähnt \u0027meine Tochter\u0027. Da \u0027ich\u0027 vorkommt, wird die Identifikation \u0027Maria\u0027 verwendet. \u0027Meine Tochter\u0027 wird als relationale Verbindung zwischen Maria und einer unbekannten Person verstanden. Es wird angenommen, dass \u0027Tochter\u0027 hier nicht als eigenständiger Begriff im Vokabular steht, sondern über die Beziehung \u0027daughter\u0027 abgebildet wird.\n\n2. Die Attributeigenschaften der Stichwörter im Vokabular sind:\n- \u0027maria\u0027: konkrete Person, also vom Typ \u0027object\u0027 (ID 1), da es ein reales Exemplar ist.\n- \u0027person\u0027: allgemeine Kategorie, ebenfalls \u0027object\u0027 (ID 1), da es ein Objekt-Typ ist.\n- \u0027drive\u0027: Handlung, also \u0027activity\u0027 (ID 4).\n- \u0027boat\u0027: physisches Objekt, also \u0027object\u0027 (ID 1).\n- \u0027lake\u0027: physisches Objekt/Ort, also \u0027object\u0027 (ID 1).\n\n3. Relationen zwischen den Begriffen:\n- \u0027maria\u0027 und \u0027person\u0027: Maria ist eine Person → \u0027characteristic\u0027 (ID 14), da es eine Eigenschaft oder Klassifikation ist.\n- \u0027maria\u0027 und \u0027drive\u0027, sowie \u0027person\u0027 und \u0027drive\u0027: Maria (und die angesprochene Person, vermutlich die Tochter) führt die Aktivität \u0027drive\u0027 aus → \u0027perform\u0027 (ID 8).\n- \u0027drive\u0027 und \u0027boat\u0027: Das Boot ist das Objekt, mit dem gefahren wird → \u0027attached\u0027 (ID 5), da es ein Hilfs- oder Begleitobjekt der Aktivität ist.\n- \u0027drive\u0027 und \u0027lake\u0027: Die Aktivität findet auf dem See statt → \u0027target\u0027 (ID 9), da der See das Ziel/der Ort der Aktivität ist.\n- \u0027boat\u0027 und \u0027lake\u0027: Das Boot ist auf dem See → \u0027above\u0027 (ID 7), da es sich über dem See befindet (Annahme: das Boot schwimmt auf dem Wasser).\n- \u0027maria\u0027 und die Tochter: Die Tochter ist eine weitere Person, die mit Maria verbunden ist → \u0027daughter\u0027 (ID 10). Da \u0027daughter\u0027 nicht im Vokabular steht, wird angenommen, dass eine Person (zweite \u0027person\u0027) gemeint ist. Da jedoch nur ein \u0027person\u0027-Eintrag im Vokabular existiert und keine zweite Person explizit benannt ist, wird hier vereinfachend angenommen, dass \u0027person\u0027 als Platzhalter für die Tochter dient. Somit Beziehung \u0027daughter\u0027 von \u0027maria\u0027 zu \u0027person\u0027 → ID 10. Allerdings ist im Vokabular nicht zwischen Maria und \u0027person\u0027 klar unterschieden, ob \u0027person\u0027 die Tochter ist. Da die Aufgabe verlangt, die gegebenen Vokabulareinträge beizubehalten und keine neuen hinzuzufügen, wird angenommen, dass \u0027person\u0027 die Tochter repräsentiert.\n\n4. Prüfung der Relationen auf Typkodierungen:\n- object (maria) → person: \u0027characteristic\u0027 (ID 14) → vorhanden.\n- maria → drive: \u0027perform\u0027 (ID 8) → vorhanden.\n- person → drive: \u0027perform\u0027 (ID 8) → vorhanden.\n- drive → boat: \u0027attached\u0027 (ID 5) → vorhanden.\n- drive → lake: \u0027target\u0027 (ID 9) → vorhanden.\n- boat → lake: \u0027above\u0027 (ID 7) → vorhanden.\n- maria → person (als Tochter): \u0027daughter\u0027 (ID 10) → vorhanden.\nAlle benötigten Typkodierungen existieren.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit 5 Einträgen, also 5x5 Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue: IDs 1 (object) und 4 (activity). Alle anderen Einträge (außerhalb der Diagonale) verwenden nur Typen mit identityMapping\u003dfalse (IDs 5–10, 14). Die Matrix wurde entsprechend befüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 14, 8, 0, 0],\n    [14, 1, 8, 0, 0],\n    [8, 8, 4, 5, 9],\n    [0, 0, 5, 1, 6],\n    [0, 0, 9, 7, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich auf sich selbst mit \u0027ich\u0027 und erwähnt \u0027meine Tochter\u0027. Da \u0027ich\u0027 vorkommt, wird die Identifikation \u0027Maria\u0027 verwendet. \u0027Meine Tochter\u0027 wird als relationale Verbindung zwischen Maria und einer unbekannten Person verstanden. Es wird angenommen, dass \u0027Tochter\u0027 hier nicht als eigenständiger Begriff im Vokabular steht, sondern über die Beziehung \u0027daughter\u0027 abgebildet wird.\\n\\n2. Die Attributeigenschaften der Stichwörter im Vokabular sind:\\n- \u0027maria\u0027: konkrete Person, also vom Typ \u0027object\u0027 (ID 1), da es ein reales Exemplar ist.\\n- \u0027person\u0027: allgemeine Kategorie, ebenfalls \u0027object\u0027 (ID 1), da es ein Objekt-Typ ist.\\n- \u0027drive\u0027: Handlung, also \u0027activity\u0027 (ID 4).\\n- \u0027boat\u0027: physisches Objekt, also \u0027object\u0027 (ID 1).\\n- \u0027lake\u0027: physisches Objekt/Ort, also \u0027object\u0027 (ID 1).\\n\\n3. Relationen zwischen den Begriffen:\\n- \u0027maria\u0027 und \u0027person\u0027: Maria ist eine Person → \u0027characteristic\u0027 (ID 14), da es eine Eigenschaft oder Klassifikation ist.\\n- \u0027maria\u0027 und \u0027drive\u0027, sowie \u0027person\u0027 und \u0027drive\u0027: Maria (und die angesprochene Person, vermutlich die Tochter) führt die Aktivität \u0027drive\u0027 aus → \u0027perform\u0027 (ID 8).\\n- \u0027drive\u0027 und \u0027boat\u0027: Das Boot ist das Objekt, mit dem gefahren wird → \u0027attached\u0027 (ID 5), da es ein Hilfs- oder Begleitobjekt der Aktivität ist.\\n- \u0027drive\u0027 und \u0027lake\u0027: Die Aktivität findet auf dem See statt → \u0027target\u0027 (ID 9), da der See das Ziel/der Ort der Aktivität ist.\\n- \u0027boat\u0027 und \u0027lake\u0027: Das Boot ist auf dem See → \u0027above\u0027 (ID 7), da es sich über dem See befindet (Annahme: das Boot schwimmt auf dem Wasser).\\n- \u0027maria\u0027 und die Tochter: Die Tochter ist eine weitere Person, die mit Maria verbunden ist → \u0027daughter\u0027 (ID 10). Da \u0027daughter\u0027 nicht im Vokabular steht, wird angenommen, dass eine Person (zweite \u0027person\u0027) gemeint ist. Da jedoch nur ein \u0027person\u0027-Eintrag im Vokabular existiert und keine zweite Person explizit benannt ist, wird hier vereinfachend angenommen, dass \u0027person\u0027 als Platzhalter für die Tochter dient. Somit Beziehung \u0027daughter\u0027 von \u0027maria\u0027 zu \u0027person\u0027 → ID 10. Allerdings ist im Vokabular nicht zwischen Maria und \u0027person\u0027 klar unterschieden, ob \u0027person\u0027 die Tochter ist. Da die Aufgabe verlangt, die gegebenen Vokabulareinträge beizubehalten und keine neuen hinzuzufügen, wird angenommen, dass \u0027person\u0027 die Tochter repräsentiert.\\n\\n4. Prüfung der Relationen auf Typkodierungen:\\n- object (maria) → person: \u0027characteristic\u0027 (ID 14) → vorhanden.\\n- maria → drive: \u0027perform\u0027 (ID 8) → vorhanden.\\n- person → drive: \u0027perform\u0027 (ID 8) → vorhanden.\\n- drive → boat: \u0027attached\u0027 (ID 5) → vorhanden.\\n- drive → lake: \u0027target\u0027 (ID 9) → vorhanden.\\n- boat → lake: \u0027above\u0027 (ID 7) → vorhanden.\\n- maria → person (als Tochter): \u0027daughter\u0027 (ID 10) → vorhanden.\\nAlle benötigten Typkodierungen existieren.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit 5 Einträgen, also 5x5 Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue: IDs 1 (object) und 4 (activity). Alle anderen Einträge (außerhalb der Diagonale) verwenden nur Typen mit identityMapping\u003dfalse (IDs 5–10, 14). Die Matrix wurde entsprechend befüllt.\"\n}"
+}

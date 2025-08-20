@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer hat keine selbstidentifizierenden Wörter wie \u0027ich\u0027 verwendet, daher wird die Identifikation \u0027Maria\u0027 ignoriert. \u0027Tim\u0027 ist eine klare Objektangabe ohne relative Verweise.\n2. \u0027tim\u0027 ist ein Objekt (ID 1, identityMapping\u003dtrue), \u0027run\u0027 ist eine Aktivität (ID 4, identityMapping\u003dtrue).\n3. \u0027tim\u0027 steht in der Relation \u0027perform\u0027 (ID 8) zu \u0027run\u0027, da die Person die Aktivität ausführt.\n4. Alle Typkodierungen existieren: Objekt (1), Aktivität (4) und perform (8) sind in den vorgegebenen Mapping-Regeln enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer hat keine selbstidentifizierenden Wörter wie \u0027ich\u0027 verwendet, daher wird die Identifikation \u0027Maria\u0027 ignoriert. \u0027Tim\u0027 ist eine klare Objektangabe ohne relative Verweise.\\n2. \u0027tim\u0027 ist ein Objekt (ID 1, identityMapping\u003dtrue), \u0027run\u0027 ist eine Aktivität (ID 4, identityMapping\u003dtrue).\\n3. \u0027tim\u0027 steht in der Relation \u0027perform\u0027 (ID 8) zu \u0027run\u0027, da die Person die Aktivität ausführt.\\n4. Alle Typkodierungen existieren: Objekt (1), Aktivität (4) und perform (8) sind in den vorgegebenen Mapping-Regeln enthalten.\"\n}"
+}

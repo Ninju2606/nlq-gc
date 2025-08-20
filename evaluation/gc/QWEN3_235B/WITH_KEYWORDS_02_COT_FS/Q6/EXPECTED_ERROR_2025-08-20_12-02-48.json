@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027wir\u0027 wurde zur Identifikation \u0027maria\u0027 aufgelöst, da der Nutzer eine Handlung mit seiner Person beschreibt.\n2. \u0027maria\u0027 und \u0027appointment\u0027 sind Objekte (object, ID 1). \u0027make\u0027 ist eine Aktivität (activity, ID 4).\n3. \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus (perform). Die Aktivität \u0027make\u0027 bezieht sich auf das Objekt \u0027appointment\u0027 (target).\n4. Die ID für \u0027object\u0027 ist 1. Die ID für \u0027activity\u0027 ist 4. Die ID für \u0027perform\u0027 ist 8. Die ID für \u0027target\u0027 ist 9. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027wir\u0027 wurde zur Identifikation \u0027maria\u0027 aufgelöst, da der Nutzer eine Handlung mit seiner Person beschreibt.\\n2. \u0027maria\u0027 und \u0027appointment\u0027 sind Objekte (object, ID 1). \u0027make\u0027 ist eine Aktivität (activity, ID 4).\\n3. \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus (perform). Die Aktivität \u0027make\u0027 bezieht sich auf das Objekt \u0027appointment\u0027 (target).\\n4. Die ID für \u0027object\u0027 ist 1. Die ID für \u0027activity\u0027 ist 4. Die ID für \u0027perform\u0027 ist 8. Die ID für \u0027target\u0027 ist 9. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

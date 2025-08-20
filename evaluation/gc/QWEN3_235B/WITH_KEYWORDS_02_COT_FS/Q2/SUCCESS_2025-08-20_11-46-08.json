@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wird als eigenständiges Objekt verwendet, da kein selbstidentifizierendes Pronomen wie \"ich\" in der Anfrage vorkommt. Die Identifikation \"Maria\" wird daher ignoriert.\n2. \"tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität.\n3. \"tim\" führt die Aktivität \"run\" aus. Die Beziehung zwischen \"tim\" und \"run\" ist also, dass das Objekt die Aktivität ausführt.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 4]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wird als eigenständiges Objekt verwendet, da kein selbstidentifizierendes Pronomen wie \\\"ich\\\" in der Anfrage vorkommt. Die Identifikation \\\"Maria\\\" wird daher ignoriert.\\n2. \\\"tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität.\\n3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus. Die Beziehung zwischen \\\"tim\\\" und \\\"run\\\" ist also, dass das Objekt die Aktivität ausführt.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

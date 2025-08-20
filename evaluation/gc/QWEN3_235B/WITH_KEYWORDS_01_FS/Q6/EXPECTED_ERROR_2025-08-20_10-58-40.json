@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria führt die Aktivität \u0027make\u0027 aus, um den Termin \u0027appointment\u0027 zu vereinbaren. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität, während \u0027target\u0027 (9) das Zielobjekt der Aktivität darstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria führt die Aktivität \u0027make\u0027 aus, um den Termin \u0027appointment\u0027 zu vereinbaren. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität, während \u0027target\u0027 (9) das Zielobjekt der Aktivität darstellt.\"\n}"
+}

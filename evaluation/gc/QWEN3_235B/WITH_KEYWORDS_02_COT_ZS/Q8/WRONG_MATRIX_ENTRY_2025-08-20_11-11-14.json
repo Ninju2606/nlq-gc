@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Die relativen Verweise \u0027ich\u0027 und \u0027meine Tochter\u0027 werden aufgelöst: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, und \u0027Tochter\u0027 wird als semantisches Attribut oder Beziehung interpretiert. Da \u0027Tochter\u0027 nicht im Vokabular enthalten ist, kann die Beziehung \u0027daughter\u0027 (ID 10) nicht vollständig abgebildet werden. Allerdings ist im Vokabular der Begriff \u0027person\u0027 enthalten, der als generische Kategorie dienen könnte. Jedoch fehlt eine explizite Kodierung für die Beziehung zwischen \u0027Maria\u0027 und \u0027person\u0027 als Eltern-Kind-Beziehung. \n\n2. Die Attributeigenschaften der Stichwörter: \n- \u0027maria\u0027: konkretes Individuum, wird als Objekt (Typ 1) klassifiziert.\n- \u0027person\u0027: allgemeiner Typ, klassifiziert als Objekt (Typ 1).\n- \u0027drive\u0027: Aktivität (Typ 4).\n- \u0027boat\u0027: physisches Objekt (Typ 1).\n- \u0027lake\u0027: physischer Ort, Objekt (Typ 1).\n\n3. Relationen zwischen den Stichwörtern:\n- Maria führt die Aktivität \u0027drive\u0027 durch → \u0027perform\u0027-Relation (Maria → drive, Typ 8).\n- Die Aktivität \u0027drive\u0027 hat das Ziel \u0027boat\u0027 → \u0027target\u0027-Relation (drive → boat, Typ 9).\n- Das Boot ist auf dem See → räumliche Relation \u0027on\u0027. Jedoch ist \u0027on\u0027 nicht direkt in den Typkodierungen enthalten. \u0027above\u0027 (7) oder \u0027under\u0027 (6) wären naheliegend, aber \u0027on\u0027 ist nicht abgedeckt. Alternativ könnte \u0027attached\u0027 (5) gemeint sein, passt aber nicht exakt.\n- \u0027Meine Tochter\u0027 deutet auf eine \u0027daughter\u0027-Relation (Typ 10) zwischen Maria und einer weiteren Person hin. Allerdings ist die zweite Person nicht im Vokabular enthalten. Der Eintrag \u0027person\u0027 ist zwar vorhanden, aber ohne klare Identifikation, ob es sich um die Tochter handelt. Damit fehlt eine direkte Abbildung der \u0027daughter\u0027-Beziehung.\n\n4. Überprüfung der Relationen auf Typkodierung:\n- \u0027perform\u0027 (Maria → drive): Typ 8 → vorhanden (ID 8).\n- \u0027target\u0027 (drive → boat): Typ 9 → vorhanden (ID 9).\n- \u0027on\u0027 (boat → lake): keine direkte Kodierung. \u0027above\u0027 (7) wäre annähernd, aber nicht äquivalent. Keine passende Typkodierung → Fehler.\n- \u0027daughter\u0027 (Maria → Tochter): Typ 10 → vorhanden (ID 10), ABER das Objekt \u0027Tochter\u0027 fehlt im Vokabular. Somit kann die Relation nicht eingetragen werden, da kein Index für die Tochter existiert.\n\nDa sowohl die räumliche Relation \u0027on\u0027 (kein Typ vorhanden) als auch die \u0027Tochter\u0027-Beziehung (fehlendes Vokabular-Element) nicht korrekt abgebildet werden können, ist eine vollständige und korrekte Generierung des GraphCodes unmöglich. Der GraphCode würde unvollständige oder falsche Informationen repräsentieren.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relativen Verweise \u0027ich\u0027 und \u0027meine Tochter\u0027 werden aufgelöst: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, und \u0027Tochter\u0027 wird als semantisches Attribut oder Beziehung interpretiert. Da \u0027Tochter\u0027 nicht im Vokabular enthalten ist, kann die Beziehung \u0027daughter\u0027 (ID 10) nicht vollständig abgebildet werden. Allerdings ist im Vokabular der Begriff \u0027person\u0027 enthalten, der als generische Kategorie dienen könnte. Jedoch fehlt eine explizite Kodierung für die Beziehung zwischen \u0027Maria\u0027 und \u0027person\u0027 als Eltern-Kind-Beziehung. \\n\\n2. Die Attributeigenschaften der Stichwörter: \\n- \u0027maria\u0027: konkretes Individuum, wird als Objekt (Typ 1) klassifiziert.\\n- \u0027person\u0027: allgemeiner Typ, klassifiziert als Objekt (Typ 1).\\n- \u0027drive\u0027: Aktivität (Typ 4).\\n- \u0027boat\u0027: physisches Objekt (Typ 1).\\n- \u0027lake\u0027: physischer Ort, Objekt (Typ 1).\\n\\n3. Relationen zwischen den Stichwörtern:\\n- Maria führt die Aktivität \u0027drive\u0027 durch → \u0027perform\u0027-Relation (Maria → drive, Typ 8).\\n- Die Aktivität \u0027drive\u0027 hat das Ziel \u0027boat\u0027 → \u0027target\u0027-Relation (drive → boat, Typ 9).\\n- Das Boot ist auf dem See → räumliche Relation \u0027on\u0027. Jedoch ist \u0027on\u0027 nicht direkt in den Typkodierungen enthalten. \u0027above\u0027 (7) oder \u0027under\u0027 (6) wären naheliegend, aber \u0027on\u0027 ist nicht abgedeckt. Alternativ könnte \u0027attached\u0027 (5) gemeint sein, passt aber nicht exakt.\\n- \u0027Meine Tochter\u0027 deutet auf eine \u0027daughter\u0027-Relation (Typ 10) zwischen Maria und einer weiteren Person hin. Allerdings ist die zweite Person nicht im Vokabular enthalten. Der Eintrag \u0027person\u0027 ist zwar vorhanden, aber ohne klare Identifikation, ob es sich um die Tochter handelt. Damit fehlt eine direkte Abbildung der \u0027daughter\u0027-Beziehung.\\n\\n4. Überprüfung der Relationen auf Typkodierung:\\n- \u0027perform\u0027 (Maria → drive): Typ 8 → vorhanden (ID 8).\\n- \u0027target\u0027 (drive → boat): Typ 9 → vorhanden (ID 9).\\n- \u0027on\u0027 (boat → lake): keine direkte Kodierung. \u0027above\u0027 (7) wäre annähernd, aber nicht äquivalent. Keine passende Typkodierung → Fehler.\\n- \u0027daughter\u0027 (Maria → Tochter): Typ 10 → vorhanden (ID 10), ABER das Objekt \u0027Tochter\u0027 fehlt im Vokabular. Somit kann die Relation nicht eingetragen werden, da kein Index für die Tochter existiert.\\n\\nDa sowohl die räumliche Relation \u0027on\u0027 (kein Typ vorhanden) als auch die \u0027Tochter\u0027-Beziehung (fehlendes Vokabular-Element) nicht korrekt abgebildet werden können, ist eine vollständige und korrekte Generierung des GraphCodes unmöglich. Der GraphCode würde unvollständige oder falsche Informationen repräsentieren.\"\n}"
+}

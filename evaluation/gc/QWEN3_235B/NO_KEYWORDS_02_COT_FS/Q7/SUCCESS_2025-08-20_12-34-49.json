@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden. Die Satzkonstruktion ist grammatikalisch verwirrt und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu. Weder die Handlung noch die Beziehungen zwischen den Objekten sind nachvollziehbar. Daher kann kein valides Vokabular gebildet und kein GraphCode generiert werden.",
+  "error": "Die Anfrage ist grammatikalisch unklar und enthält keine sinnvolle Szenenbeschreibung. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht verständlich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar und enthält keine sinnvolle Szenenbeschreibung. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht verständlich.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden. Die Satzkonstruktion ist grammatikalisch verwirrt und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu. Weder die Handlung noch die Beziehungen zwischen den Objekten sind nachvollziehbar. Daher kann kein valides Vokabular gebildet und kein GraphCode generiert werden.\"\n}"
+}

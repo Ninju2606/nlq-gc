@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "person",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die generierten Stichwörter wurden aus der Benutzeranfrage abgeleitet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"person\", \"boat\", \"lake\"],\n  \"description\": \"Die generierten Stichwörter wurden aus der Benutzeranfrage abgeleitet.\"\n}"
+}

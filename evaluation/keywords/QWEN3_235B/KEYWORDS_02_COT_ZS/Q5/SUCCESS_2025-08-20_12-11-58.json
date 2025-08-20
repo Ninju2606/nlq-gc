@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Schritt 1: Potenzielle Stichwörter aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 sind \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\nSchritt 2: Der relative Verweis \u0027ich\u0027 wird aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\nSchritt 3: Übersetzung der Stichwörter ins Englische: \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027. Der Begriff \u0027Maria\u0027 bleibt unübersetzt, da es ein Eigenname ist.\nSchritt 4: Die Referenz \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, sodass im Vokabular nun die reale Identifikation steht.\nVerallgemeinerung: \u0027trage\u0027 wurde als Verb in den Grundformen \u0027wear\u0027 erfasst.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"wear\",\n    \"yellow\",\n    \"hat\"\n  ],\n  \"description\": \"Schritt 1: Potenzielle Stichwörter aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 sind \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\nSchritt 2: Der relative Verweis \u0027ich\u0027 wird aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\nSchritt 3: Übersetzung der Stichwörter ins Englische: \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027. Der Begriff \u0027Maria\u0027 bleibt unübersetzt, da es ein Eigenname ist.\\nSchritt 4: Die Referenz \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, sodass im Vokabular nun die reale Identifikation steht.\\nVerallgemeinerung: \u0027trage\u0027 wurde als Verb in den Grundformen \u0027wear\u0027 erfasst.\"\n}"
+}

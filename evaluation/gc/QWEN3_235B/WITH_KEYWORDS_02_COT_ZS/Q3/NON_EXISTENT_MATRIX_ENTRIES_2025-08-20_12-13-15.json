@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      10
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer \"Maria\" identifiziert sich selbst mit dem Pronomen \"Ich\" und bezieht sich mit \"mir\" auf ihr Eigentum. Diese relativen Verweise werden aufgelöst zu \"Maria schwimmt\" und \"der Pool gehört Maria\".\n\n2. Attributeigenschaften der Stichwörter:\n   - \"maria\": Handelnde Person → Typ 1 (object), da es ein Objekt (Entität) ist und identityMapping\u003dtrue.\n   - \"swim\": Aktivität, die Maria ausführt → Typ 4 (activity), identityMapping\u003dtrue.\n   - \"own\": Beziehung des Besitzes → Typ 5 (attached), identityMapping\u003dfalse.\n   - \"pool\": Objekt (Entität) → Typ 1 (object), identityMapping\u003dtrue.\n\n3. Relationen zwischen den Stichwörtern:\n   - Maria (0) führt die Aktivität swim (1) aus → Relation: perform (Typ 8).\n   - swim (1) hat den Zielgegenstand pool (3) → Relation: target (Typ 9).\n   - Maria (0) besitzt pool (3) → Relation: attached (Typ 5, als Besitzbeziehung interpretiert).\n   - own (2) wird als relationale Rolle verstanden und bildet die Beziehung zwischen maria (0) und pool (3) ab; durch die Einordnung als Verb im Kontext von Eigentum wird own (2) als „daughter“-Beziehung (Typ 10) zur Organisation im Graphen verwendet, wobei pool (3) die untergeordnete Entität ist.\n\n4. Überprüfung der Typkodierungen:\n   - (0,0): object (ID 1) → vorhanden (identityMapping\u003dtrue) ✓\n   - (1,1): activity (ID 4) → vorhanden (identityMapping\u003dtrue) ✓\n   - (2,2): own als Beziehung → benötigt Typ mit identityMapping\u003dfalse → attached (ID 5) passt als allgemeine Beziehung, jedoch hat \u0027own\u0027 keine direkte Typkodierung. Allerdings ist \u0027attached\u0027 (ID 5) als generische Besitz-/Anbringungsbeziehung vorgesehen → akzeptabel ✓\n   - (3,3): pool als object (ID 1) → vorhanden ✓\n   - (0,1): Maria → swim: perform (ID 8) → vorhanden (identityMapping\u003dfalse) ✓\n   - (1,3): swim → pool: target (ID 9) → vorhanden ✓\n   - (0,3): Maria → pool: ownership → hier wird attached (ID 5) als adäquat angenommen ✓\n   - (2,3): own → pool: Semantisch: own beschreibt die Beziehung, bei der pool das untergeordnete Element ist → daughter (ID 10) passt ✓\n   - Alle verwendeten IDs (1, 4, 5, 8, 9, 10) sind in den vorgegebenen Typkodierungen enthalten.\n\n5. Der GraphCode wurde entsprechend den Regeln zusammengesetzt: Vokabular in gegebener Reihenfolge übernommen, Matrix 4x4, Einheitsdiagonale nur mit Typen, bei denen identityMapping\u003dtrue (1 und 4), alle anderen Einträge mit identityMapping\u003dfalse (5, 8, 9, 10).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 5, 10],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \\\"Maria\\\" identifiziert sich selbst mit dem Pronomen \\\"Ich\\\" und bezieht sich mit \\\"mir\\\" auf ihr Eigentum. Diese relativen Verweise werden aufgelöst zu \\\"Maria schwimmt\\\" und \\\"der Pool gehört Maria\\\".\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \\\"maria\\\": Handelnde Person → Typ 1 (object), da es ein Objekt (Entität) ist und identityMapping\u003dtrue.\\n   - \\\"swim\\\": Aktivität, die Maria ausführt → Typ 4 (activity), identityMapping\u003dtrue.\\n   - \\\"own\\\": Beziehung des Besitzes → Typ 5 (attached), identityMapping\u003dfalse.\\n   - \\\"pool\\\": Objekt (Entität) → Typ 1 (object), identityMapping\u003dtrue.\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - Maria (0) führt die Aktivität swim (1) aus → Relation: perform (Typ 8).\\n   - swim (1) hat den Zielgegenstand pool (3) → Relation: target (Typ 9).\\n   - Maria (0) besitzt pool (3) → Relation: attached (Typ 5, als Besitzbeziehung interpretiert).\\n   - own (2) wird als relationale Rolle verstanden und bildet die Beziehung zwischen maria (0) und pool (3) ab; durch die Einordnung als Verb im Kontext von Eigentum wird own (2) als „daughter“-Beziehung (Typ 10) zur Organisation im Graphen verwendet, wobei pool (3) die untergeordnete Entität ist.\\n\\n4. Überprüfung der Typkodierungen:\\n   - (0,0): object (ID 1) → vorhanden (identityMapping\u003dtrue) ✓\\n   - (1,1): activity (ID 4) → vorhanden (identityMapping\u003dtrue) ✓\\n   - (2,2): own als Beziehung → benötigt Typ mit identityMapping\u003dfalse → attached (ID 5) passt als allgemeine Beziehung, jedoch hat \u0027own\u0027 keine direkte Typkodierung. Allerdings ist \u0027attached\u0027 (ID 5) als generische Besitz-/Anbringungsbeziehung vorgesehen → akzeptabel ✓\\n   - (3,3): pool als object (ID 1) → vorhanden ✓\\n   - (0,1): Maria → swim: perform (ID 8) → vorhanden (identityMapping\u003dfalse) ✓\\n   - (1,3): swim → pool: target (ID 9) → vorhanden ✓\\n   - (0,3): Maria → pool: ownership → hier wird attached (ID 5) als adäquat angenommen ✓\\n   - (2,3): own → pool: Semantisch: own beschreibt die Beziehung, bei der pool das untergeordnete Element ist → daughter (ID 10) passt ✓\\n   - Alle verwendeten IDs (1, 4, 5, 8, 9, 10) sind in den vorgegebenen Typkodierungen enthalten.\\n\\n5. Der GraphCode wurde entsprechend den Regeln zusammengesetzt: Vokabular in gegebener Reihenfolge übernommen, Matrix 4x4, Einheitsdiagonale nur mit Typen, bei denen identityMapping\u003dtrue (1 und 4), alle anderen Einträge mit identityMapping\u003dfalse (5, 8, 9, 10).\"\n}"
+}

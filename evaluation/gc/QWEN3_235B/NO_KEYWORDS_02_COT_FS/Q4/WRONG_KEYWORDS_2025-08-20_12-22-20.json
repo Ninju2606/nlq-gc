@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      6
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"meinem\", \"Pool\".\n        2. Es gibt relative Verweise: \"meinem\" bezieht sich auf den Nutzer, also auf Maria.\n        3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\". (\"schwimme\" → \"swim\", \"Pool\" → \"pool\")\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\". Dabei wird \"meinem Pool\" interpretiert als Beziehung zwischen Maria und dem Pool.\n        5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität.\n        6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" hat eine räumliche Beziehung zum Objekt \"pool\", nämlich \"in\". Zudem ist der Pool dem Nutzer zugeordnet (Besitz), was durch die Position \"meinem Pool\" angedeutet wird.\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für in ist 6. Alle benötigten Typkodierungen sind vorhanden: \u0027perform\u0027 (id\u003d8), \u0027in\u0027 (id\u003d6), \u0027target\u0027 (id\u003d9), \u0027object\u0027 (id\u003d1), \u0027activity\u0027 (id\u003d4). Beziehung \u0027in\u0027 wird verwendet für räumliche Einbettung der Aktivität. Besitz wird nicht explizit über eine Typkodierung abgebildet, ist aber hier nicht nötig, da das Vokabular bereits den Pool direkt als Teil der Szenenbeziehung enthält – die personale Bindung wird über die Nutzer-ID erfasst.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 6],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"meinem\\\", \\\"Pool\\\".\\n        2. Es gibt relative Verweise: \\\"meinem\\\" bezieht sich auf den Nutzer, also auf Maria.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\". (\\\"schwimme\\\" → \\\"swim\\\", \\\"Pool\\\" → \\\"pool\\\")\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\". Dabei wird \\\"meinem Pool\\\" interpretiert als Beziehung zwischen Maria und dem Pool.\\n        5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" hat eine räumliche Beziehung zum Objekt \\\"pool\\\", nämlich \\\"in\\\". Zudem ist der Pool dem Nutzer zugeordnet (Besitz), was durch die Position \\\"meinem Pool\\\" angedeutet wird.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für in ist 6. Alle benötigten Typkodierungen sind vorhanden: \u0027perform\u0027 (id\u003d8), \u0027in\u0027 (id\u003d6), \u0027target\u0027 (id\u003d9), \u0027object\u0027 (id\u003d1), \u0027activity\u0027 (id\u003d4). Beziehung \u0027in\u0027 wird verwendet für räumliche Einbettung der Aktivität. Besitz wird nicht explizit über eine Typkodierung abgebildet, ist aber hier nicht nötig, da das Vokabular bereits den Pool direkt als Teil der Szenenbeziehung enthält – die personale Bindung wird über die Nutzer-ID erfasst.\"\n}"
+}

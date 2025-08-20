@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027in\u0027 wird durch Typ 6 (attached) ausgedrückt, da \u0027in\u0027 semantisch als räumliche Zugehörigkeit interpretiert wird. \u0027Eigentümerschaft\u0027 (own) wird über die Beziehung \u0027attached\u0027 (Typ 5) zwischen Maria und Pool abgebildet. \u0027Schwimmen\u0027 ist eine Aktivität (Typ 4), die von Maria (Objekt) ausgeführt wird (Typ 8: perform).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 6],\n    [0, 0, 4, 5],\n    [1, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027in\u0027 wird durch Typ 6 (attached) ausgedrückt, da \u0027in\u0027 semantisch als räumliche Zugehörigkeit interpretiert wird. \u0027Eigentümerschaft\u0027 (own) wird über die Beziehung \u0027attached\u0027 (Typ 5) zwischen Maria und Pool abgebildet. \u0027Schwimmen\u0027 ist eine Aktivität (Typ 4), die von Maria (Objekt) ausgeführt wird (Typ 8: perform).\"\n}"
+}

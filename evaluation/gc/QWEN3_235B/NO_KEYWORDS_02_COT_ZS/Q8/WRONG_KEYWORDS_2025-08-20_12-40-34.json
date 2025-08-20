@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      4
+    ],
+    [
+      0,
+      0,
+      7,
+      1,
+      4
+    ],
+    [
+      0,
+      0,
+      9,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n\n2. Der relative Verweis \u0027meine Tochter\u0027 wird aufgelöst zu \u0027Tochter von Maria\u0027. Der Verweis \u0027ich\u0027 bezieht sich auf den Nutzer, also \u0027Maria\u0027.\n\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027 (da Identifikation gegeben), \u0027fahren\u0027 → \u0027ride\u0027 (verallgemeinert von \u0027fahren\u0027), \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\n\n4. Die selbstreferenziellen Ausdrücke \u0027meine\u0027 und \u0027ich\u0027 werden durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Somit wird \u0027meine Tochter\u0027 zu \u0027Maria\u0027s daughter\u0027, im Vokabular als separate Beziehung erfasst durch Typkodierung 10 (daughter).\n\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (Typ 1: object)\n   - \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1)\n   - \u0027ride\u0027 ist eine Aktivität (Typ 4: activity)\n   - Beziehungen außerhalb der Diagonale müssen Typen mit identityMapping\u003dfalse haben, wie z.B. \u0027daughter\u0027, \u0027perform\u0027, \u0027target\u0027, etc.\n\n6. Relationen zwischen den Stichwörtern:\n   - Maria hat eine Tochter → Relation \u0027daughter\u0027 (ID 10)\n   - Maria führt die Aktivität \u0027ride\u0027 aus → Relation \u0027perform\u0027 (ID 8)\n   - Tochter führt ebenfalls die Aktivität \u0027ride\u0027 aus → Relation \u0027perform\u0027 (ID 8)\n   - \u0027ride\u0027 bezieht sich auf das Objekt \u0027boat\u0027 als Ziel → Relation \u0027target\u0027 (ID 9)\n   - \u0027boat\u0027 ist auf dem \u0027lake\u0027 → räumliche Relation \u0027under\u0027 (ID 6), da das Boot auf dem See liegt (See darunter)\n   - Umgekehrt: \u0027lake\u0027 ist unter dem \u0027boat\u0027 → Relation \u0027above\u0027 (ID 7)\n\n7. Überprüfung der Typkodierungen:\n   - object (1), daughter (10), perform (8), target (9), under (6), above (7), activity (4) sind alle in den vorgegebenen Typkodierungen vorhanden.\n   - Alle verwendeten Beziehungen haben entsprechende IDs mit korrektem identityMapping.\n\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular enthält 5 Einträge, die Matrix ist 5x5. Diagonaleinträge (i,i) enthalten nur Typen mit identityMapping\u003dtrue (hier Typ 1 für Objekte und Typ 4 für Aktivität). Außerhalb der Diagonale werden nur Typen mit identityMapping\u003dfalse verwendet. Alle Relationen sind gültig.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      10,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      1,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      0,\n      1,\n      6,\n      4\n    ],\n    [\n      0,\n      0,\n      7,\n      1,\n      4\n    ],\n    [\n      0,\n      0,\n      9,\n      9,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n\\n2. Der relative Verweis \u0027meine Tochter\u0027 wird aufgelöst zu \u0027Tochter von Maria\u0027. Der Verweis \u0027ich\u0027 bezieht sich auf den Nutzer, also \u0027Maria\u0027.\\n\\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027 (da Identifikation gegeben), \u0027fahren\u0027 → \u0027ride\u0027 (verallgemeinert von \u0027fahren\u0027), \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\\n\\n4. Die selbstreferenziellen Ausdrücke \u0027meine\u0027 und \u0027ich\u0027 werden durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Somit wird \u0027meine Tochter\u0027 zu \u0027Maria\u0027s daughter\u0027, im Vokabular als separate Beziehung erfasst durch Typkodierung 10 (daughter).\\n\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (Typ 1: object)\\n   - \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1)\\n   - \u0027ride\u0027 ist eine Aktivität (Typ 4: activity)\\n   - Beziehungen außerhalb der Diagonale müssen Typen mit identityMapping\u003dfalse haben, wie z.B. \u0027daughter\u0027, \u0027perform\u0027, \u0027target\u0027, etc.\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria hat eine Tochter → Relation \u0027daughter\u0027 (ID 10)\\n   - Maria führt die Aktivität \u0027ride\u0027 aus → Relation \u0027perform\u0027 (ID 8)\\n   - Tochter führt ebenfalls die Aktivität \u0027ride\u0027 aus → Relation \u0027perform\u0027 (ID 8)\\n   - \u0027ride\u0027 bezieht sich auf das Objekt \u0027boat\u0027 als Ziel → Relation \u0027target\u0027 (ID 9)\\n   - \u0027boat\u0027 ist auf dem \u0027lake\u0027 → räumliche Relation \u0027under\u0027 (ID 6), da das Boot auf dem See liegt (See darunter)\\n   - Umgekehrt: \u0027lake\u0027 ist unter dem \u0027boat\u0027 → Relation \u0027above\u0027 (ID 7)\\n\\n7. Überprüfung der Typkodierungen:\\n   - object (1), daughter (10), perform (8), target (9), under (6), above (7), activity (4) sind alle in den vorgegebenen Typkodierungen vorhanden.\\n   - Alle verwendeten Beziehungen haben entsprechende IDs mit korrektem identityMapping.\\n\\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular enthält 5 Einträge, die Matrix ist 5x5. Diagonaleinträge (i,i) enthalten nur Typen mit identityMapping\u003dtrue (hier Typ 1 für Objekte und Typ 4 für Aktivität). Außerhalb der Diagonale werden nur Typen mit identityMapping\u003dfalse verwendet. Alle Relationen sind gültig.\"\n}"
+}

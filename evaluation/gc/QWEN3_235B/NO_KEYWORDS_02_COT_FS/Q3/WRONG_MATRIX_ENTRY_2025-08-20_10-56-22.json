@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      14,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"own\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"own\".\n        5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" wird als Kontext interpretiert, da es eine Zugehörigkeit ausdrückt.\n        6. \"Maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". \"own\" beschreibt eine Eigenschaft (Zugehörigkeit) des Pools, also \"pool\" ist \"owned\" von \"Maria\". Somit ist \"Maria\" der Träger des Kontexts, dass sie den \"pool\" besitzt – dies wird über das Attribut \"characteristic\" modelliert mit Bezug von \"own\" auf \"pool\" und Verbindung von \"Maria\" zum Kontext \"own\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für in (attached) ist 5. Die ID für perform ist 8. Die ID für characteristic ist 14. Die ID für context ist 2. Damit können alle Relationen abgebildet werden: (Maria → swim: perform, ID 8), (swim → pool: attached, ID 5), (own → pool: characteristic, ID 14), (Maria → own: context, ID 2).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [[1, 8, 5, 0], [0, 4, 0, 0], [0, 0, 1, 0], [14, 0, 0, 2]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\\n        5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" wird als Kontext interpretiert, da es eine Zugehörigkeit ausdrückt.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"own\\\" beschreibt eine Eigenschaft (Zugehörigkeit) des Pools, also \\\"pool\\\" ist \\\"owned\\\" von \\\"Maria\\\". Somit ist \\\"Maria\\\" der Träger des Kontexts, dass sie den \\\"pool\\\" besitzt – dies wird über das Attribut \\\"characteristic\\\" modelliert mit Bezug von \\\"own\\\" auf \\\"pool\\\" und Verbindung von \\\"Maria\\\" zum Kontext \\\"own\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für in (attached) ist 5. Die ID für perform ist 8. Die ID für characteristic ist 14. Die ID für context ist 2. Damit können alle Relationen abgebildet werden: (Maria → swim: perform, ID 8), (swim → pool: attached, ID 5), (own → pool: characteristic, ID 14), (Maria → own: context, ID 2).\"\n}"
+}

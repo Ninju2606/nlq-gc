@@ -1,0 +1,13 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Vokabular für die Szene mit Maria und ihrer Tochter beim Bootfahren auf einem See erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"description\": \"Vokabular für die Szene mit Maria und ihrer Tochter beim Bootfahren auf einem See erfolgreich generiert.\"\n}"
+}

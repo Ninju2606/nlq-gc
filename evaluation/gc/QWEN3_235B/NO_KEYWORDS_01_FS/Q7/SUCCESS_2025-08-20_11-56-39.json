@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Eingabe \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch nicht klar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und wie sie zueinander in Beziehung stehen. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt in diesem Kontext keinen sinnvollen Satz.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Eingabe \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch nicht klar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und wie sie zueinander in Beziehung stehen. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt in diesem Kontext keinen sinnvollen Satz.\"\n}"
+}

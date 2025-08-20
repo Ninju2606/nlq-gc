@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Maria spielt Basketball. Die Beziehung \u0027play\u0027 (Activity) wird von Maria ausgeführt (perform-Beziehung, Typ 8) und hat \u0027basketball\u0027 als Ziel (target-Beziehung, Typ 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria spielt Basketball. Die Beziehung \u0027play\u0027 (Activity) wird von Maria ausgeführt (perform-Beziehung, Typ 8) und hat \u0027basketball\u0027 als Ziel (target-Beziehung, Typ 9).\"\n}"
+}

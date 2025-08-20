@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und enthält keine korrekte Satzstruktur. Es fehlt ein Subjekt/Verb für die Hauptaktion (z.B. \u0027Ich male Häuser, um Fragen zu stellen\u0027). Der GraphCode kann aufgrund der unvollständigen Information nicht generiert werden.",
+  "error": "Unclear query structure",
+  "responsePlain": "{\n  \"error\": \"Unclear query structure\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und enthält keine korrekte Satzstruktur. Es fehlt ein Subjekt/Verb für die Hauptaktion (z.B. \u0027Ich male Häuser, um Fragen zu stellen\u0027). Der GraphCode kann aufgrund der unvollständigen Information nicht generiert werden.\"\n}"
+}

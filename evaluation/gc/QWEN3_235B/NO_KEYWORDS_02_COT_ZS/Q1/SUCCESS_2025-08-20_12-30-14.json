@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, \u0027Maria\u0027 bleibt erhalten.\n4. Der Verweis \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist eine Person → Typ \u0027object\u0027 (ID 1), da es ein Objekt ist und identityMapping\u003dtrue.\n   - \u0027play\u0027 ist eine Aktivität → Typ \u0027activity\u0027 (ID 4), da es eine Handlung ist und identityMapping\u003dtrue.\n   - \u0027basketball\u0027 ist ein Objekt → Typ \u0027object\u0027 (ID 1), da es ein Spielgegenstand ist und identityMapping\u003dtrue.\n6. Relationen:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu play.\n   - Die Aktivität \u0027play\u0027 hat als Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (ID 9) von play zu basketball.\n7. Prüfung der Relationen auf gültige Typkodierungen:\n   - \u0027perform\u0027 hat ID 8 → erlaubt (identityMapping\u003dfalse) → gültig.\n   - \u0027target\u0027 hat ID 9 → erlaubt (identityMapping\u003dfalse) → gültig.\n   - Alle Typen auf der Diagonale: Maria (object\u003d1), play (activity\u003d4), basketball (object\u003d1) → alle mit identityMapping\u003dtrue → gültig.\n8. Der GraphCode wurde erfolgreich zusammengesetzt unter Einhaltung aller Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, \u0027Maria\u0027 bleibt erhalten.\\n4. Der Verweis \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist eine Person → Typ \u0027object\u0027 (ID 1), da es ein Objekt ist und identityMapping\u003dtrue.\\n   - \u0027play\u0027 ist eine Aktivität → Typ \u0027activity\u0027 (ID 4), da es eine Handlung ist und identityMapping\u003dtrue.\\n   - \u0027basketball\u0027 ist ein Objekt → Typ \u0027object\u0027 (ID 1), da es ein Spielgegenstand ist und identityMapping\u003dtrue.\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu play.\\n   - Die Aktivität \u0027play\u0027 hat als Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (ID 9) von play zu basketball.\\n7. Prüfung der Relationen auf gültige Typkodierungen:\\n   - \u0027perform\u0027 hat ID 8 → erlaubt (identityMapping\u003dfalse) → gültig.\\n   - \u0027target\u0027 hat ID 9 → erlaubt (identityMapping\u003dfalse) → gültig.\\n   - Alle Typen auf der Diagonale: Maria (object\u003d1), play (activity\u003d4), basketball (object\u003d1) → alle mit identityMapping\u003dtrue → gültig.\\n8. Der GraphCode wurde erfolgreich zusammengesetzt unter Einhaltung aller Regeln.\"\n}"
+}

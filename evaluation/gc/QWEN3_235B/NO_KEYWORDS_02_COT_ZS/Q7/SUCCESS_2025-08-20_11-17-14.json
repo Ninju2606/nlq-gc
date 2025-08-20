@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch inkorrekt oder unklar und lässt keine sinnvolle Interpretation der Intention zu. Es ist nicht verständlich, in welcher Beziehung Häuser, Fragen und die Tätigkeit des Malens stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.",
+  "error": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch inkorrekt oder unklar und lässt keine sinnvolle Interpretation der Intention zu. Es ist nicht verständlich, in welcher Beziehung Häuser, Fragen und die Tätigkeit des Malens stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch inkorrekt oder unklar und lässt keine sinnvolle Interpretation der Intention zu. Es ist nicht verständlich, in welcher Beziehung Häuser, Fragen und die Tätigkeit des Malens stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch inkorrekt oder unklar und lässt keine sinnvolle Interpretation der Intention zu. Es ist nicht verständlich, in welcher Beziehung Häuser, Fragen und die Tätigkeit des Malens stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.\"\n}"
+}

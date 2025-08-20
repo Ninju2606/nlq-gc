@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 sind \u0027schwimme\u0027 (Verb, Aktivität), \u0027meinem\u0027 (Bezug auf Besitz) und \u0027Pool\u0027 (Objekt). Der relative Verweis \u0027meinem\u0027 bezieht sich auf den Nutzer \u0027Maria\u0027, daher wird \u0027mein Pool\u0027 als \u0027Maria pool\u0027 interpretiert. Die Stichwörter wurden ins Englische übersetzt: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. Der Benutzerbezug \u0027ich\u0027 und \u0027mein\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt. Verallgemeinerung: \u0027schwimme\u0027 → \u0027swim\u0027 (Infinitiv).",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 sind \u0027schwimme\u0027 (Verb, Aktivität), \u0027meinem\u0027 (Bezug auf Besitz) und \u0027Pool\u0027 (Objekt). Der relative Verweis \u0027meinem\u0027 bezieht sich auf den Nutzer \u0027Maria\u0027, daher wird \u0027mein Pool\u0027 als \u0027Maria pool\u0027 interpretiert. Die Stichwörter wurden ins Englische übersetzt: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. Der Benutzerbezug \u0027ich\u0027 und \u0027mein\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt. Verallgemeinerung: \u0027schwimme\u0027 → \u0027swim\u0027 (Infinitiv).\"\n}"
+}

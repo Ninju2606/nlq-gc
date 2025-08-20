@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \"Wir müssen bald einen Termin ausmachen.\" beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einem GraphCode abgebildet werden könnten. Es fehlen konkrete darstellbare Elemente wie Personen, Handlungen oder räumliche/zeitliche Beziehungen, die in einem Medienobjekt szenisch repräsentiert wären. Die Aussage ist zu abstrakt und thematisiert eine organisatorische Absprache, keine darstellbare virtuelle Szene.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \\\"Wir müssen bald einen Termin ausmachen.\\\" beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einem GraphCode abgebildet werden könnten. Es fehlen konkrete darstellbare Elemente wie Personen, Handlungen oder räumliche/zeitliche Beziehungen, die in einem Medienobjekt szenisch repräsentiert wären. Die Aussage ist zu abstrakt und thematisiert eine organisatorische Absprache, keine darstellbare virtuelle Szene.\"\n}"
+}

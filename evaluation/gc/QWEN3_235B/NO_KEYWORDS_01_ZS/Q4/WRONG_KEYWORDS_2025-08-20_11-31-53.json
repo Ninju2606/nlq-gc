@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Anfrage \u0027Ich schwimme in meinem Pool\u0027 mit Benutzer Maria. Enthält Maria (Objekt), Schwimmen (Aktivität) und Pool (Objekt) mit den Beziehungen \u0027perform\u0027 (Maria führt Schwimmen aus) und \u0027attached\u0027 (Schwimmen findet im Pool statt).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 5],\n    [0, 0, 1]\n  ],\n  \"description\": \"GraphCode für die Anfrage \u0027Ich schwimme in meinem Pool\u0027 mit Benutzer Maria. Enthält Maria (Objekt), Schwimmen (Aktivität) und Pool (Objekt) mit den Beziehungen \u0027perform\u0027 (Maria führt Schwimmen aus) und \u0027attached\u0027 (Schwimmen findet im Pool statt).\"\n}"
+}

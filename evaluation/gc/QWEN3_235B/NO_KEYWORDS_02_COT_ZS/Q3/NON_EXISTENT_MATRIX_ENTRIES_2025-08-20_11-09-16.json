@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      10
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027mir\u0027 beziehen sich auf den Nutzer, dessen Identifikation \u0027Maria\u0027 ist. Diese wird anstelle der Pronomen verwendet.\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027.\n4. Ersetzung der Identifikation: Statt \u0027ich\u0027 und \u0027mir\u0027 wird \u0027Maria\u0027 verwendet.\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine konkrete Entität ist.\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\n   - \u0027pool\u0027 ist ein Objekt (Typ 1: object).\n   - \u0027own\u0027 ist eine Beziehung (Typ 5: attached), da es einen Besitzverhältnis ausdrückt und identityMapping\u003dfalse.\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktion \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\n   - \u0027swim\u0027 hat als Zielort den \u0027pool\u0027 → Relation \u0027target\u0027 (Typ 9).\n   - \u0027Maria\u0027 besitzt den \u0027pool\u0027 → Relation \u0027attached\u0027 (Typ 5).\n   - \u0027own\u0027 beschreibt eine Eigenschaft (characteristic) des \u0027pool\u0027, der Maria gehört → Relation \u0027daughter\u0027 (Typ 10).\n7. Überprüfung der Typkodierungen:\n   - Typ 1 (object): vorhanden → für \u0027Maria\u0027 und \u0027pool\u0027.\n   - Typ 4 (activity): vorhanden → für \u0027swim\u0027.\n   - Typ 5 (attached): vorhanden → für Besitzverhältnis.\n   - Typ 8 (perform): vorhanden → Maria führt swim aus.\n   - Typ 9 (target): vorhanden → swim hat Ziel pool.\n   - Typ 10 (daughter): vorhanden → own als Unterbegriff/Attribut von pool.\n   Alle benötigten Typen sind in der vorgegebenen Liste enthalten. Kein Fehler.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"own\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0,\n      5\n    ],\n    [\n      0,\n      4,\n      9,\n      0\n    ],\n    [\n      0,\n      0,\n      1,\n      10\n    ],\n    [\n      0,\n      0,\n      0,\n      5\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027mir\u0027 beziehen sich auf den Nutzer, dessen Identifikation \u0027Maria\u0027 ist. Diese wird anstelle der Pronomen verwendet.\\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027.\\n4. Ersetzung der Identifikation: Statt \u0027ich\u0027 und \u0027mir\u0027 wird \u0027Maria\u0027 verwendet.\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine konkrete Entität ist.\\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\\n   - \u0027pool\u0027 ist ein Objekt (Typ 1: object).\\n   - \u0027own\u0027 ist eine Beziehung (Typ 5: attached), da es einen Besitzverhältnis ausdrückt und identityMapping\u003dfalse.\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktion \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\\n   - \u0027swim\u0027 hat als Zielort den \u0027pool\u0027 → Relation \u0027target\u0027 (Typ 9).\\n   - \u0027Maria\u0027 besitzt den \u0027pool\u0027 → Relation \u0027attached\u0027 (Typ 5).\\n   - \u0027own\u0027 beschreibt eine Eigenschaft (characteristic) des \u0027pool\u0027, der Maria gehört → Relation \u0027daughter\u0027 (Typ 10).\\n7. Überprüfung der Typkodierungen:\\n   - Typ 1 (object): vorhanden → für \u0027Maria\u0027 und \u0027pool\u0027.\\n   - Typ 4 (activity): vorhanden → für \u0027swim\u0027.\\n   - Typ 5 (attached): vorhanden → für Besitzverhältnis.\\n   - Typ 8 (perform): vorhanden → Maria führt swim aus.\\n   - Typ 9 (target): vorhanden → swim hat Ziel pool.\\n   - Typ 10 (daughter): vorhanden → own als Unterbegriff/Attribut von pool.\\n   Alle benötigten Typen sind in der vorgegebenen Liste enthalten. Kein Fehler.\"\n}"
+}

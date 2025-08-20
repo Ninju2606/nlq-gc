@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "person",
+    "sail",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter wurden erfolgreich extrahiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"person\", \"sail\", \"boat\", \"lake\"],\n  \"description\": \"Die Stichwörter wurden erfolgreich extrahiert.\"\n}"
+}

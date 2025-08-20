@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (Nutzeridentifikation bleibt erhalten), \u0027spiele\u0027 → \u0027play\u0027 (verallgemeinert von \u0027playing\u0027), \u0027Basketball\u0027 → \u0027basketball\u0027 (bleibt gleich).\n4. Der Hinweis \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da es sich auf den Anfragensteller bezieht.\n5. Attributierung der Begriffe: \n   - \u0027Maria\u0027 ist ein Objekt (Person) → Typ 1 (object)\n   - \u0027play\u0027 ist eine Aktivität → Typ 4 (activity)\n   - \u0027basketball\u0027 ist ein Objekt (Spiel) → Typ 1 (object)\n6. Relationen zwischen den Begriffen:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ 8, identityMapping\u003dfalse)\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (Typ 9, identityMapping\u003dfalse)\n   - Keine weiteren Relationen liegen vor.\n7. Überprüfung der Relationen auf gültige Typkodierungen:\n   - \u0027perform\u0027 → ID 8 vorhanden und erlaubt (identityMapping\u003dfalse)\n   - \u0027target\u0027 → ID 9 vorhanden und erlaubt (identityMapping\u003dfalse)\n   - Alle benötigten Typen sind verfügbar. Kein Fehler.\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt. Die Matrix ist 3x3, die Diagonale enthält die Typen der Begriffe (1, 4, 1), außerhalb stehen nur erlaubte identityMapping\u003dfalse-Typen (8 und 9) oder 0. Die Struktur ist valide.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\\n3. Übersetzung ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (Nutzeridentifikation bleibt erhalten), \u0027spiele\u0027 → \u0027play\u0027 (verallgemeinert von \u0027playing\u0027), \u0027Basketball\u0027 → \u0027basketball\u0027 (bleibt gleich).\\n4. Der Hinweis \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da es sich auf den Anfragensteller bezieht.\\n5. Attributierung der Begriffe: \\n   - \u0027Maria\u0027 ist ein Objekt (Person) → Typ 1 (object)\\n   - \u0027play\u0027 ist eine Aktivität → Typ 4 (activity)\\n   - \u0027basketball\u0027 ist ein Objekt (Spiel) → Typ 1 (object)\\n6. Relationen zwischen den Begriffen:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ 8, identityMapping\u003dfalse)\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (Typ 9, identityMapping\u003dfalse)\\n   - Keine weiteren Relationen liegen vor.\\n7. Überprüfung der Relationen auf gültige Typkodierungen:\\n   - \u0027perform\u0027 → ID 8 vorhanden und erlaubt (identityMapping\u003dfalse)\\n   - \u0027target\u0027 → ID 9 vorhanden und erlaubt (identityMapping\u003dfalse)\\n   - Alle benötigten Typen sind verfügbar. Kein Fehler.\\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt. Die Matrix ist 3x3, die Diagonale enthält die Typen der Begriffe (1, 4, 1), außerhalb stehen nur erlaubte identityMapping\u003dfalse-Typen (8 und 9) oder 0. Die Struktur ist valide.\"\n}"
+}

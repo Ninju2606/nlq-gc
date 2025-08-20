@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.88,
+  "description": "1. Der relative Verweis \"meine Tochter\" wird im Vokabular durch den Eintrag \"person\" erfasst, welcher als Tochter von \"maria\" identifiziert wird. Der Verweis \"ich\" wird aufgelöst zu \"maria\" gemäß der Nutzeridentifikation.\n2. \"maria\", \"person\", \"boat\" und \"lake\" sind Objekte der Anfrage (Typ: object). \"drive\" ist eine Aktivität (Typ: activity).\n3. \"person\" ist die Tochter von \"maria\" (Relation: daughter). Sowohl \"maria\" als auch \"person\" führen die Aktivität \"drive\" aus (Relation: perform). Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\" (Relation: target). Das \"boat\" befindet sich auf dem \"lake\" (Relation: above). Außerdem befindet sich das \"boat\" im \"lake\" (Relation: in), was als kreative Interpretation erlaubt ist, da ein Boot auf einem See auch im Kontext des Sees gilt.\n4. Die ID für \"object\" ist 1 (identityMapping\u003dtrue). Die ID für \"activity\" ist 4 (identityMapping\u003dtrue). Die ID für \"daughter\" ist 10 (identityMapping\u003dfalse). Die ID für \"perform\" ist 8 (identityMapping\u003dfalse). Die ID für \"target\" ist 9 ---\u003e FEHLER: ID für \"target\" ist in den bereitgestellten Typkodierungen nicht vorhanden. Richtig? Nein: Es ist ein Fehler aufgetreten. Die Typkodierung für \"target\" fehlt. In der gegebenen Liste der Typkodierungen existiert kein Eintrag mit dem Attribut \"target\". Daher kann die Relation zwischen \"drive\" und \"boat\" nicht kodiert werden. --\u003e Fehlermeldung wird ausgegeben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wird im Vokabular durch den Eintrag \\\"person\\\" erfasst, welcher als Tochter von \\\"maria\\\" identifiziert wird. Der Verweis \\\"ich\\\" wird aufgelöst zu \\\"maria\\\" gemäß der Nutzeridentifikation.\\n2. \\\"maria\\\", \\\"person\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage (Typ: object). \\\"drive\\\" ist eine Aktivität (Typ: activity).\\n3. \\\"person\\\" ist die Tochter von \\\"maria\\\" (Relation: daughter). Sowohl \\\"maria\\\" als auch \\\"person\\\" führen die Aktivität \\\"drive\\\" aus (Relation: perform). Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\" (Relation: target). Das \\\"boat\\\" befindet sich auf dem \\\"lake\\\" (Relation: above). Außerdem befindet sich das \\\"boat\\\" im \\\"lake\\\" (Relation: in), was als kreative Interpretation erlaubt ist, da ein Boot auf einem See auch im Kontext des Sees gilt.\\n4. Die ID für \\\"object\\\" ist 1 (identityMapping\u003dtrue). Die ID für \\\"activity\\\" ist 4 (identityMapping\u003dtrue). Die ID für \\\"daughter\\\" ist 10 (identityMapping\u003dfalse). Die ID für \\\"perform\\\" ist 8 (identityMapping\u003dfalse). Die ID für \\\"target\\\" ist 9 ---\u003e FEHLER: ID für \\\"target\\\" ist in den bereitgestellten Typkodierungen nicht vorhanden. Richtig? Nein: Es ist ein Fehler aufgetreten. Die Typkodierung für \\\"target\\\" fehlt. In der gegebenen Liste der Typkodierungen existiert kein Eintrag mit dem Attribut \\\"target\\\". Daher kann die Relation zwischen \\\"drive\\\" und \\\"boat\\\" nicht kodiert werden. --\u003e Fehlermeldung wird ausgegeben.\"\n}"
+}

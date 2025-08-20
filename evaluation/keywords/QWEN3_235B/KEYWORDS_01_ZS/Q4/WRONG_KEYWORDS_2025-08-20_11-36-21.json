@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in meinem Pool",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"Ich schwimme in meinem Pool\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeranfrage »Häuser um Fragen zu malen« enthält eine nicht plausible Aktivität (Fragen können nicht gemalt werden). Da keine validen Relationen zwischen den Begriffen erstellt werden können, ist ein GraphCode nicht generierbar.",
+  "error": "Die Anfrage ist semantisch unklar, da »Fragen malen« keine sinnvolle Aktion im Metaverse darstellt. Es fehlen passende Beziehungstypen, um die Verbindung zwischen den Begriffen korrekt abzubilden.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist semantisch unklar, da »Fragen malen« keine sinnvolle Aktion im Metaverse darstellt. Es fehlen passende Beziehungstypen, um die Verbindung zwischen den Begriffen korrekt abzubilden.\",\n  \"description\": \"Die Nutzeranfrage »Häuser um Fragen zu malen« enthält eine nicht plausible Aktivität (Fragen können nicht gemalt werden). Da keine validen Relationen zwischen den Begriffen erstellt werden können, ist ein GraphCode nicht generierbar.\"\n}"
+}

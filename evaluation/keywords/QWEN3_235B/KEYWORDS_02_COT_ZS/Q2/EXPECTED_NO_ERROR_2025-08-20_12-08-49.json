@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält zwar ein Subjekt und eine Tätigkeit, aber keine klare Beziehung zur Nutzeridentifikation oder weiteren Objekten, Attributen oder Aktivitäten, die eine sinnvolle Bewertungsmatrix ermöglichen würden. Zudem fehlt ein Kontext, der auf eine komplexe Szene im Metaverse hindeutet. Eine sinnvolle GraphCode-Generierung ist derzeit nicht möglich.",
+  "error": "Unzureichende Information für einen sinnvollen GraphCode",
+  "responsePlain": "{\n  \"error\": \"Unzureichende Information für einen sinnvollen GraphCode\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält zwar ein Subjekt und eine Tätigkeit, aber keine klare Beziehung zur Nutzeridentifikation oder weiteren Objekten, Attributen oder Aktivitäten, die eine sinnvolle Bewertungsmatrix ermöglichen würden. Zudem fehlt ein Kontext, der auf eine komplexe Szene im Metaverse hindeutet. Eine sinnvolle GraphCode-Generierung ist derzeit nicht möglich.\"\n}"
+}

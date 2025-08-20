@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n⚠️ ERROR: Der Anfragetext enthält mehrdeutige oder unvollständige Angaben, die eine korrekte Generierung eines GraphCodes verhindern.\n\n! Die Anfrage lautet: „Zeig mir Situationen, in denen ich einen gelben Hut trage“.  \n! Obwohl die!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n\"error\": \"Mehrdeutige Relation oder fehlende Typkodierung\",  \n\"description\": \"Die Handlung \u0027trage\u0027 (englisch: \u0027wear\u0027) bezieht sich auf eine Beziehung zwischen einer Person (Maria) und einem Objekt (hat). Diese Beziehung müsste durch ein Attribut wie \u0027perform\u0027 (ID 8) oder \u0027attached\u0027 (ID 5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "GraphCode für die Anfrage \u0027Ich schwimme in meinem Pool\u0027. Maria (Objekt) führt die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 aus. Die Schwimmaktivität findet \u0027unter\u0027 (in) dem Pool statt. Der Besitz des Pools durch Maria wird über die Aktivität \u0027own\u0027 mit Ziel \u0027pool\u0027 abgebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 6],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode für die Anfrage \u0027Ich schwimme in meinem Pool\u0027. Maria (Objekt) führt die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 aus. Die Schwimmaktivität findet \u0027unter\u0027 (in) dem Pool statt. Der Besitz des Pools durch Maria wird über die Aktivität \u0027own\u0027 mit Ziel \u0027pool\u0027 abgebildet.\"\n}"
+}

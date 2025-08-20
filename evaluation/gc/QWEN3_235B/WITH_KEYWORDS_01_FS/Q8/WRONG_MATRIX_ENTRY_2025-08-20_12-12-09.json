@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Maria (Person) führt die Aktivität \u0027drive\u0027 (Bootfahren) aus. Die Aktivität \u0027drive\u0027 hat \u0027boat\u0027 als Ziel und befindet sich im Kontext \u0027lake\u0027. Die Beziehung \u0027daughter\u0027 verbindet Maria mit dem Attribut \u0027person\u0027, um die Rolle als Tochter zu kodieren.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria (Person) führt die Aktivität \u0027drive\u0027 (Bootfahren) aus. Die Aktivität \u0027drive\u0027 hat \u0027boat\u0027 als Ziel und befindet sich im Kontext \u0027lake\u0027. Die Beziehung \u0027daughter\u0027 verbindet Maria mit dem Attribut \u0027person\u0027, um die Rolle als Tochter zu kodieren.\"\n}"
+}

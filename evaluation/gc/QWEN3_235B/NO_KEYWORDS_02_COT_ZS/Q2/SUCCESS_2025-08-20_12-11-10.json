@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Tim\u0027 (Name), \u0027rennt\u0027 (Verb). 2. Keine relativen Verweise vorhanden. 3. Übersetzung: \u0027Tim\u0027 bleibt unverändert, \u0027rennt\u0027 → \u0027run\u0027 (Stammform). 4. Keine Selbstreferenzen (\u0027ich\u0027, \u0027mein\u0027), daher keine Ersetzung. 5. Attributtypen: \u0027Tim\u0027 \u003d object (ID 1, Identitätszuordnung), \u0027run\u0027 \u003d activity (ID 4, Identitätszuordnung). 6. Relation: Tim führt die Aktivität \u0027run\u0027 aus (Typ \u0027perform\u0027). 7. Alle Relationen abgedeckt: Diagonale mit IDs 1/4 (identityMapping\u003dtrue), Off-Diagonale (Tim→run) mit ID 8 (perform, identityMapping\u003dfalse).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Tim\u0027 (Name), \u0027rennt\u0027 (Verb). 2. Keine relativen Verweise vorhanden. 3. Übersetzung: \u0027Tim\u0027 bleibt unverändert, \u0027rennt\u0027 → \u0027run\u0027 (Stammform). 4. Keine Selbstreferenzen (\u0027ich\u0027, \u0027mein\u0027), daher keine Ersetzung. 5. Attributtypen: \u0027Tim\u0027 \u003d object (ID 1, Identitätszuordnung), \u0027run\u0027 \u003d activity (ID 4, Identitätszuordnung). 6. Relation: Tim führt die Aktivität \u0027run\u0027 aus (Typ \u0027perform\u0027). 7. Alle Relationen abgedeckt: Diagonale mit IDs 1/4 (identityMapping\u003dtrue), Off-Diagonale (Tim→run) mit ID 8 (perform, identityMapping\u003dfalse).\"\n}"
+}

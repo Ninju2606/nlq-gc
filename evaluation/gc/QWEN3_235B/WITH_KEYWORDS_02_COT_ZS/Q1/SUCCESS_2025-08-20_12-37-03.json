@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer verweist mit \u0027Ich\u0027 direkt auf sich selbst, daher wird die Identifikation \u0027Maria\u0027 im Vokabular verwendet und dem Begriff \u0027play\u0027 zugeordnet.\n\n2. Die Attributeigenschaften der Stichwörter sind:\n   - \u0027maria\u0027: Dies ist eine Person, daher handelt es sich um ein Objekt (object, ID 1).\n   - \u0027play\u0027: Beschreibt eine Handlung, also eine Aktivität (activity, ID 4).\n   - \u0027basketball\u0027: Bezeichnet ein Objekt, konkret ein Sportgerät, daher ebenfalls ein object (ID 1).\n\n3. Die Relationen zwischen den Begriffen sind:\n   - Maria führt die Aktivität \u0027play\u0027 aus → \u0027perform\u0027-Relation von \u0027maria\u0027 zu \u0027play\u0027 (Typ 8).\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → \u0027target\u0027-Relation von \u0027play\u0027 zu \u0027basketball\u0027 (Typ 9).\n   - Zudem wird der Typ jedes Begriffs auf der Diagonalen festgelegt: \u0027maria\u0027 als object (1), \u0027play\u0027 als activity (4), \u0027basketball\u0027 als object (1).\n\n4. Überprüfung der Relationen gegen die vorgegebenen Typkodierungen:\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → vorhanden.\n   - \u0027target\u0027 (9, identityMapping\u003dfalse) → vorhanden.\n   - \u0027object\u0027 (1) und \u0027activity\u0027 (4) mit identityMapping\u003dtrue → gültig für Diagonale.\n   Alle benötigten Relationen sind in den bereitgestellten Typkodierungen enthalten.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert, die Bewertungsmatrix ist 3x3, Einträge auf der Diagonalen definieren die Typen (1,4,1), Relationen außerhalb werden mit den IDs 8 (perform) und 9 (target) kodiert. Symmetrische oder nicht benötigte Einträge bleiben 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verweist mit \u0027Ich\u0027 direkt auf sich selbst, daher wird die Identifikation \u0027Maria\u0027 im Vokabular verwendet und dem Begriff \u0027play\u0027 zugeordnet.\\n\\n2. Die Attributeigenschaften der Stichwörter sind:\\n   - \u0027maria\u0027: Dies ist eine Person, daher handelt es sich um ein Objekt (object, ID 1).\\n   - \u0027play\u0027: Beschreibt eine Handlung, also eine Aktivität (activity, ID 4).\\n   - \u0027basketball\u0027: Bezeichnet ein Objekt, konkret ein Sportgerät, daher ebenfalls ein object (ID 1).\\n\\n3. Die Relationen zwischen den Begriffen sind:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → \u0027perform\u0027-Relation von \u0027maria\u0027 zu \u0027play\u0027 (Typ 8).\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → \u0027target\u0027-Relation von \u0027play\u0027 zu \u0027basketball\u0027 (Typ 9).\\n   - Zudem wird der Typ jedes Begriffs auf der Diagonalen festgelegt: \u0027maria\u0027 als object (1), \u0027play\u0027 als activity (4), \u0027basketball\u0027 als object (1).\\n\\n4. Überprüfung der Relationen gegen die vorgegebenen Typkodierungen:\\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → vorhanden.\\n   - \u0027target\u0027 (9, identityMapping\u003dfalse) → vorhanden.\\n   - \u0027object\u0027 (1) und \u0027activity\u0027 (4) mit identityMapping\u003dtrue → gültig für Diagonale.\\n   Alle benötigten Relationen sind in den bereitgestellten Typkodierungen enthalten.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert, die Bewertungsmatrix ist 3x3, Einträge auf der Diagonalen definieren die Typen (1,4,1), Relationen außerhalb werden mit den IDs 8 (perform) und 9 (target) kodiert. Symmetrische oder nicht benötigte Einträge bleiben 0.\"\n}"
+}

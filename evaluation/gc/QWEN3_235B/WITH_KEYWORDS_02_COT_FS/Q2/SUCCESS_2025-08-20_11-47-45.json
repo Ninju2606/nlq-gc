@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine relativen Verweise. Der Nutzer hat keine Selbstbezugswörter wie „ich“ verwendet, daher wird die Identifikation „Maria“ ignoriert.\n2. „tim“ ist ein Objekt (object) der Anfrage. „run“ ist eine Aktivität (activity).\n3. „tim“ führt die Aktivität „run“ aus (perform).\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. Der Nutzer hat keine Selbstbezugswörter wie „ich“ verwendet, daher wird die Identifikation „Maria“ ignoriert.\\n2. „tim“ ist ein Objekt (object) der Anfrage. „run“ ist eine Aktivität (activity).\\n3. „tim“ führt die Aktivität „run“ aus (perform).\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8.\"\n}"
+}

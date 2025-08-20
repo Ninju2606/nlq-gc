@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027. Da keine selbstreferenzierenden Pronomen wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkommen, wird die Identifikation des Nutzers (Maria) ignoriert. Das Verb \u0027rennt\u0027 wird verallgemeinert zu \u0027run\u0027. Die Begriffe werden ins Englische übersetzt, wobei \u0027Tim\u0027 erhalten bleibt und \u0027rennt\u0027 als \u0027run\u0027 übernommen wird. Es liegen klare, szenenbezogene Begriffe vor, die eine sinnvolle Generierung des Vokabulars erlauben.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Tim\",\n    \"run\"\n  ],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027. Da keine selbstreferenzierenden Pronomen wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorkommen, wird die Identifikation des Nutzers (Maria) ignoriert. Das Verb \u0027rennt\u0027 wird verallgemeinert zu \u0027run\u0027. Die Begriffe werden ins Englische übersetzt, wobei \u0027Tim\u0027 erhalten bleibt und \u0027rennt\u0027 als \u0027run\u0027 übernommen wird. Es liegen klare, szenenbezogene Begriffe vor, die eine sinnvolle Generierung des Vokabulars erlauben.\"\n}"
+}

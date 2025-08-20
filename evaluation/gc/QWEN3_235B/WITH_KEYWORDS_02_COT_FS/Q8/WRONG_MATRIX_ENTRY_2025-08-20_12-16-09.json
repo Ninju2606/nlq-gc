@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.88,
+  "description": "1. Der relative Verweis \"meine Tochter\" wurde aufgelöst zu \"person\", wobei \"person\" als Tochter von \"maria\" interpretiert wird. Der Ausdruck \"ich\" wurde zur Identifikation \"maria\" zugeordnet.\n2. \"maria\" und \"person\" (die Tochter) sind Objekte der Anfrage und vom Typ object (ID 1). \"boat\" und \"lake\" sind ebenfalls Objekte. \"drive\" ist eine Aktivität (activity, ID 4).\n3. \"maria\" führt die Aktivität \"drive\" aus. Auch \"person\" (die Tochter) führt die Aktivität \"drive\" aus (gemeinsames Bootfahren). Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\". Das \"boat\" befindet sich auf dem \"lake\" (Beziehung: above). Alternativ kann \"boat\" auch im \"lake\" sein (in), aber \"auf\" wird hier als „above“ interpretiert. Zudem steht \"person\" in der Eltern-Kind-Beziehung zur \"maria\" als „daughter“.\n4. Die ID für object ist 1 (identityMapping\u003dtrue). Die ID für activity ist 4 (identityMapping\u003dtrue). Die Beziehung „daughter“ hat die ID 10 (identityMapping\u003dfalse). Die Beziehung „perform“ (wer führt die Aktivität aus) hat ID 8. Die Beziehung „target“ (worin besteht die Aktivität?) hat ID 9 – ACHTUNG: In den vorgegebenen Typkodierungen fehlt jedoch die ID für „target“ (sollte ID 9 sein, ist aber nicht vorhanden). Stattdessen ist ID 9 nicht in der Liste. Gegeben ist: [1:object, 2:context, 3:synonym, 4:activity, 5:attached, 6:under, 7:above, 8:perform, 9:target, 10:daughter, 14:characteristic]. → Korrekt: ID 9 existiert mit \"target\", also verfügt. Ebenso: „drive“ als activity hat Typ 4. „boat“ ist Ziel (target) von „drive“ → ID 9. „boat“ ist above „lake“ → ID 7. „boat“ ist in „lake“ → ID 6. Beide Relationen möglich, aber „auf einem See“ deutet eher auf „in“ hin (geographisch), also ID 6. Allerdings wird „auf“ oft als „above“ (ID 7) interpretiert. Beide typologisch vorhanden. „daughter“ hat ID 10. „perform“ hat ID 8. „person“ (Tochter) führt ebenfalls „drive“ aus → Eintrag (person, perform, drive) → ID 8. Zusammenfassung: Alle benötigten Typkodierungen sind vorhanden: object(1), activity(4), daughter(10), perform(8), target(9), in(6) oder above(7). Es wird „in“ gewählt (ID 6), da „auf einem See“ im Sinne von „im Gewässer“ verstanden wird. Matrix-Einträge: (maria → drive) \u003d perform (8), (person → drive) \u003d perform (8), (drive → boat) \u003d target (9), (boat → lake) \u003d in (6), (maria → person) \u003d daughter (10). Diagonale: alle Typen object für maria, person, boat, lake (ID 1), activity für drive (ID 4).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wurde aufgelöst zu \\\"person\\\", wobei \\\"person\\\" als Tochter von \\\"maria\\\" interpretiert wird. Der Ausdruck \\\"ich\\\" wurde zur Identifikation \\\"maria\\\" zugeordnet.\\n2. \\\"maria\\\" und \\\"person\\\" (die Tochter) sind Objekte der Anfrage und vom Typ object (ID 1). \\\"boat\\\" und \\\"lake\\\" sind ebenfalls Objekte. \\\"drive\\\" ist eine Aktivität (activity, ID 4).\\n3. \\\"maria\\\" führt die Aktivität \\\"drive\\\" aus. Auch \\\"person\\\" (die Tochter) führt die Aktivität \\\"drive\\\" aus (gemeinsames Bootfahren). Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\". Das \\\"boat\\\" befindet sich auf dem \\\"lake\\\" (Beziehung: above). Alternativ kann \\\"boat\\\" auch im \\\"lake\\\" sein (in), aber \\\"auf\\\" wird hier als „above“ interpretiert. Zudem steht \\\"person\\\" in der Eltern-Kind-Beziehung zur \\\"maria\\\" als „daughter“.\\n4. Die ID für object ist 1 (identityMapping\u003dtrue). Die ID für activity ist 4 (identityMapping\u003dtrue). Die Beziehung „daughter“ hat die ID 10 (identityMapping\u003dfalse). Die Beziehung „perform“ (wer führt die Aktivität aus) hat ID 8. Die Beziehung „target“ (worin besteht die Aktivität?) hat ID 9 – ACHTUNG: In den vorgegebenen Typkodierungen fehlt jedoch die ID für „target“ (sollte ID 9 sein, ist aber nicht vorhanden). Stattdessen ist ID 9 nicht in der Liste. Gegeben ist: [1:object, 2:context, 3:synonym, 4:activity, 5:attached, 6:under, 7:above, 8:perform, 9:target, 10:daughter, 14:characteristic]. → Korrekt: ID 9 existiert mit \\\"target\\\", also verfügt. Ebenso: „drive“ als activity hat Typ 4. „boat“ ist Ziel (target) von „drive“ → ID 9. „boat“ ist above „lake“ → ID 7. „boat“ ist in „lake“ → ID 6. Beide Relationen möglich, aber „auf einem See“ deutet eher auf „in“ hin (geographisch), also ID 6. Allerdings wird „auf“ oft als „above“ (ID 7) interpretiert. Beide typologisch vorhanden. „daughter“ hat ID 10. „perform“ hat ID 8. „person“ (Tochter) führt ebenfalls „drive“ aus → Eintrag (person, perform, drive) → ID 8. Zusammenfassung: Alle benötigten Typkodierungen sind vorhanden: object(1), activity(4), daughter(10), perform(8), target(9), in(6) oder above(7). Es wird „in“ gewählt (ID 6), da „auf einem See“ im Sinne von „im Gewässer“ verstanden wird. Matrix-Einträge: (maria → drive) \u003d perform (8), (person → drive) \u003d perform (8), (drive → boat) \u003d target (9), (boat → lake) \u003d in (6), (maria → person) \u003d daughter (10). Diagonale: alle Typen object für maria, person, boat, lake (ID 1), activity für drive (ID 4).\"\n}"
+}

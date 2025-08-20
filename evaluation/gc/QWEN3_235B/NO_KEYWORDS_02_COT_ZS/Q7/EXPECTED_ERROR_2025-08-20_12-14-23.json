@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      5
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Ermittelte Stichwörter: Häuser, Fragen, malen. 2. Keine relativen Verweise (z.B. \u0027ich\u0027) vorhanden. 3. Übersetzung: house, question, paint (Basisformen nach Wortstamm-Verallgemeinerung). 4. Keine Benutzerreferenz (\u0027Maria\u0027 nicht genutzt). 5. Attributeigenschaften: \u0027house\u0027 und \u0027question\u0027 als Objekte (Typ 1/object), \u0027paint\u0027 als Aktivität (Typ 4/activity). 6. Relationen: \u0027house\u0027 ist mit \u0027paint\u0027 über \u0027attached\u0027 (räumliche Zugehörigkeit) verbunden; \u0027paint\u0027 hat \u0027question\u0027 als \u0027target\u0027 (Ziel der Aktivität). 7. Valide Typkodierungen: \u0027attached\u0027 (ID 5) und \u0027target\u0027 (ID 9) existieren in den vorgegebenen Relationstypen. Matrix-Diagonale enthält nur identityMapping\u003dtrue-Typen (1,1,4).",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 5],\n    [0, 1, 0],\n    [0, 9, 4]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: Häuser, Fragen, malen. 2. Keine relativen Verweise (z.B. \u0027ich\u0027) vorhanden. 3. Übersetzung: house, question, paint (Basisformen nach Wortstamm-Verallgemeinerung). 4. Keine Benutzerreferenz (\u0027Maria\u0027 nicht genutzt). 5. Attributeigenschaften: \u0027house\u0027 und \u0027question\u0027 als Objekte (Typ 1/object), \u0027paint\u0027 als Aktivität (Typ 4/activity). 6. Relationen: \u0027house\u0027 ist mit \u0027paint\u0027 über \u0027attached\u0027 (räumliche Zugehörigkeit) verbunden; \u0027paint\u0027 hat \u0027question\u0027 als \u0027target\u0027 (Ziel der Aktivität). 7. Valide Typkodierungen: \u0027attached\u0027 (ID 5) und \u0027target\u0027 (ID 9) existieren in den vorgegebenen Relationstypen. Matrix-Diagonale enthält nur identityMapping\u003dtrue-Typen (1,1,4).\"\n}"
+}

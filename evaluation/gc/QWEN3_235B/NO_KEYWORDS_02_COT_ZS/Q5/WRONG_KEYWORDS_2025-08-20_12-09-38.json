@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Schritt 1: Potenzielle Stichwörter sind \u0027ich\u0027, \u0027trage\u0027, \u0027gelben Hut\u0027. Schritt 2: \u0027ich\u0027 wurde auf die Nutzeridentifikation \u0027Maria\u0027 aufgelöst. Schritt 3: Übersetzung ins Englische ergibt \u0027Maria\u0027, \u0027wear\u0027, \u0027yellow hat\u0027 (Verallgemeinerung zu Grundformen). Schritt 4: Selbstreferenz \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Schritt 5: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027yellow hat\u0027 ist ein Objekt (Typ 1). Schritt 6: Maria führt \u0027wear\u0027 aus (Relation \u0027perform\u0027, Typ 8), \u0027wear\u0027 bezieht sich auf \u0027yellow hat\u0027 als Zielobjekt (Relation \u0027target\u0027, Typ 9). Schritt 7: Alle Relationen haben gültige Typkodierungen (8 und 9 sind in der Liste vorhanden). Schritt 8: Vokabular und Bewertungsmatrix wurden gemäß Vorgaben zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow hat\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Schritt 1: Potenzielle Stichwörter sind \u0027ich\u0027, \u0027trage\u0027, \u0027gelben Hut\u0027. Schritt 2: \u0027ich\u0027 wurde auf die Nutzeridentifikation \u0027Maria\u0027 aufgelöst. Schritt 3: Übersetzung ins Englische ergibt \u0027Maria\u0027, \u0027wear\u0027, \u0027yellow hat\u0027 (Verallgemeinerung zu Grundformen). Schritt 4: Selbstreferenz \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Schritt 5: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027yellow hat\u0027 ist ein Objekt (Typ 1). Schritt 6: Maria führt \u0027wear\u0027 aus (Relation \u0027perform\u0027, Typ 8), \u0027wear\u0027 bezieht sich auf \u0027yellow hat\u0027 als Zielobjekt (Relation \u0027target\u0027, Typ 9). Schritt 7: Alle Relationen haben gültige Typkodierungen (8 und 9 sind in der Liste vorhanden). Schritt 8: Vokabular und Bewertungsmatrix wurden gemäß Vorgaben zusammengesetzt.\"\n}"
+}

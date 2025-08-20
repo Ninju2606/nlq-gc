@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Sie bezieht sich lediglich auf die Notwendigkeit, einen Termin auszumachen, was keine für den GraphCode erfassbare Szenenbeschreibung darstellt.",
+  "error": "Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Sie bezieht sich lediglich auf die Notwendigkeit, einen Termin auszumachen, was keine für den GraphCode erfassbare Szenenbeschreibung darstellt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Sie bezieht sich lediglich auf die Notwendigkeit, einen Termin auszumachen, was keine für den GraphCode erfassbare Szenenbeschreibung darstellt.\",\n  \"description\": \"Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Sie bezieht sich lediglich auf die Notwendigkeit, einen Termin auszumachen, was keine für den GraphCode erfassbare Szenenbeschreibung darstellt.\"\n}"
+}

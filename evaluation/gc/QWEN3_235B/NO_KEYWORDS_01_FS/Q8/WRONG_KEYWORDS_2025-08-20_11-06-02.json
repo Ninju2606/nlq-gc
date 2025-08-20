@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "ride",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren Boot auf einem See. Die Tochter ist ein Familienverhältnis (daughter) zu Maria. \u0027Ride\u0027 ist die Aktivität, die sowohl von Maria als auch von ihrer Tochter durchgeführt wird. Das Boot ist das Objekt der Aktivität \u0027ride\u0027. Der See stellt den Kontext dar, in dem die Aktivität stattfindet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"ride\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 0, 8, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 14, 6],\n    [0, 0, 0, 4, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren Boot auf einem See. Die Tochter ist ein Familienverhältnis (daughter) zu Maria. \u0027Ride\u0027 ist die Aktivität, die sowohl von Maria als auch von ihrer Tochter durchgeführt wird. Das Boot ist das Objekt der Aktivität \u0027ride\u0027. Der See stellt den Kontext dar, in dem die Aktivität stattfindet.\"\n}"
+}

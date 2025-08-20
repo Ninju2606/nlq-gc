@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      14
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027schwimme\u0027 (Aktivität), \u0027Pool\u0027 (Objekt/Kontext), \u0027meinem\u0027 (relativer Verweis auf Nutzer). 2. \u0027meinem\u0027 wurde als Verweis auf Maria aufgelöst, \u0027Ich\u0027 durch Identifikation \u0027Maria\u0027 ersetzt. 3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 bleibt \u0027pool\u0027. 4. Nutzeridentifikation \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meinem\u0027. 5. Attribute: \u0027Maria\u0027 (Typ: object), \u0027swim\u0027 (Typ: activity), \u0027pool\u0027 (Typ: context). 6. Relationen: Maria führt \u0027swim\u0027 aus (perform), \u0027pool\u0027 ist ein Charakteristikum von Maria (characteristic), \u0027swim\u0027 hat \u0027pool\u0027 als Zielort (target). 7. Alle Relationen haben passende Typkodierungen: perform (ID 8), characteristic (ID 14), target (ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 14],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schwimme\u0027 (Aktivität), \u0027Pool\u0027 (Objekt/Kontext), \u0027meinem\u0027 (relativer Verweis auf Nutzer). 2. \u0027meinem\u0027 wurde als Verweis auf Maria aufgelöst, \u0027Ich\u0027 durch Identifikation \u0027Maria\u0027 ersetzt. 3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 bleibt \u0027pool\u0027. 4. Nutzeridentifikation \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meinem\u0027. 5. Attribute: \u0027Maria\u0027 (Typ: object), \u0027swim\u0027 (Typ: activity), \u0027pool\u0027 (Typ: context). 6. Relationen: Maria führt \u0027swim\u0027 aus (perform), \u0027pool\u0027 ist ein Charakteristikum von Maria (characteristic), \u0027swim\u0027 hat \u0027pool\u0027 als Zielort (target). 7. Alle Relationen haben passende Typkodierungen: perform (ID 8), characteristic (ID 14), target (ID 9).\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      5,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch den Typkodierungseintrag mit ID 6 (\u0027under\u0027) repräsentiert, da in den gegebenen Typkodierungen kein direkter Eintrag für \u0027in\u0027 vorhanden ist, aber \u0027under\u0027 als räumliche Beziehung nach unten interpretiert werden kann. \u0027own\u0027 (besitzen) wird verwendet, um die Zugehörigkeit des Pools zu Maria auszudrücken. \u0027swim\u0027 ist eine Aktivität (ID 4), die von Maria ausgeführt wird. Die Matrix erfüllt alle Regeln: Einheitsdiagonale enthält nur Typen mit identityMapping\u003dtrue (1 für object, 4 für activity), und außerhalb der Diagonale werden nur Beziehungen mit identityMapping\u003dfalse verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 6],\n    [0, 0, 5, 8],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch den Typkodierungseintrag mit ID 6 (\u0027under\u0027) repräsentiert, da in den gegebenen Typkodierungen kein direkter Eintrag für \u0027in\u0027 vorhanden ist, aber \u0027under\u0027 als räumliche Beziehung nach unten interpretiert werden kann. \u0027own\u0027 (besitzen) wird verwendet, um die Zugehörigkeit des Pools zu Maria auszudrücken. \u0027swim\u0027 ist eine Aktivität (ID 4), die von Maria ausgeführt wird. Die Matrix erfüllt alle Regeln: Einheitsdiagonale enthält nur Typen mit identityMapping\u003dtrue (1 für object, 4 für activity), und außerhalb der Diagonale werden nur Beziehungen mit identityMapping\u003dfalse verwendet.\"\n}"
+}

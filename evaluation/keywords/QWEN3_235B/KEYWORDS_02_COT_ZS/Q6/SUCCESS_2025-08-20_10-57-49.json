@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene repräsentiert werden könnten. Es fehlen handfeste Begriffe für die Bildung eines Vokabulars. Die Aussage ist zu vage und beschreibt lediglich eine Absicht oder Planung, nicht jedoch eine rekonstruierbare Szene.",
+  "error": "Keine konkrete Szenenbeschreibung vorhanden",
+  "responsePlain": "{\n  \"error\": \"Keine konkrete Szenenbeschreibung vorhanden\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene repräsentiert werden könnten. Es fehlen handfeste Begriffe für die Bildung eines Vokabulars. Die Aussage ist zu vage und beschreibt lediglich eine Absicht oder Planung, nicht jedoch eine rekonstruierbare Szene.\"\n}"
+}

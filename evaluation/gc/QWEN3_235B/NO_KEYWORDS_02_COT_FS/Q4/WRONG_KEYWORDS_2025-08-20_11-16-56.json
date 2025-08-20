@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\".\n         2. Es gibt keine relativen Verweise.\n         3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\".\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\".\n         5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität.\n         6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" hat das Ziel \"pool\". \"swim\" findet räumlich \"in\" dem \"pool\" statt. Die Beziehung \"in\" wird über den Relationstyp \"under\" kodiert, wenn \"swim\" die Aktivität und \"pool\" das umgebende Objekt ist.\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für in (als untergeordnete Beziehung über \"under\") ist 6. Allerdings ist keine direkte räumliche Beziehung \"in\" in den Typkodierungen vorhanden. Stattdessen existieren \"under\" (ID 6) und \"above\" (ID 7), aber nicht \"in\". Da \"in\" nicht abgebildet werden kann und keine äquivalente Typkodierung (wie z. B. \"contained\") zur Verfügung steht, fehlt eine notwendige Relation. Daher tritt ein Fehler auf.\n         8. Aufgrund des Fehlens einer geeigneten Typkodierung für die räumliche Beziehung \"in\" kann kein gültiger GraphCode generiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 5, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\".\\n         2. Es gibt keine relativen Verweise.\\n         3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\".\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n         5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität.\\n         6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" hat das Ziel \\\"pool\\\". \\\"swim\\\" findet räumlich \\\"in\\\" dem \\\"pool\\\" statt. Die Beziehung \\\"in\\\" wird über den Relationstyp \\\"under\\\" kodiert, wenn \\\"swim\\\" die Aktivität und \\\"pool\\\" das umgebende Objekt ist.\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für in (als untergeordnete Beziehung über \\\"under\\\") ist 6. Allerdings ist keine direkte räumliche Beziehung \\\"in\\\" in den Typkodierungen vorhanden. Stattdessen existieren \\\"under\\\" (ID 6) und \\\"above\\\" (ID 7), aber nicht \\\"in\\\". Da \\\"in\\\" nicht abgebildet werden kann und keine äquivalente Typkodierung (wie z. B. \\\"contained\\\") zur Verfügung steht, fehlt eine notwendige Relation. Daher tritt ein Fehler auf.\\n         8. Aufgrund des Fehlens einer geeigneten Typkodierung für die räumliche Beziehung \\\"in\\\" kann kein gültiger GraphCode generiert werden.\"\n}"
+}

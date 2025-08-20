@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "sail",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter ermittelt: Tochter, fahren, Boot, See. Relative Verweise \u0027meine\u0027 und \u0027ich\u0027 auf Maria aufgelöst. Übersetzung ins Englische mit Verallgemeinerung der Wortstämme: daughter (Tochter), sail (fahren als Grundform), boat (Boot), lake (See). Benutzeridentifikation Maria anstelle von \u0027ich\u0027 und \u0027mein\u0027 im Vokabular verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"sail\", \"boat\", \"lake\"],\n  \"description\": \"Stichwörter ermittelt: Tochter, fahren, Boot, See. Relative Verweise \u0027meine\u0027 und \u0027ich\u0027 auf Maria aufgelöst. Übersetzung ins Englische mit Verallgemeinerung der Wortstämme: daughter (Tochter), sail (fahren als Grundform), boat (Boot), lake (See). Benutzeridentifikation Maria anstelle von \u0027ich\u0027 und \u0027mein\u0027 im Vokabular verwendet.\"\n}"
+}

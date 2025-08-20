@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 auf den Nutzer Maria, daher entfällt das Auflösen solcher Verweise.\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigenname), \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinerter Verbstamm von \u0027rennen\u0027).\n4. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorhanden sind, wird die Identifikation des Nutzers (Maria) ignoriert.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (konkrete Person/Entität im Raum) → Typ-ID 1 (object). \u0027run\u0027 ist eine Aktivität → Typ-ID 4 (activity).\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Dies entspricht der Beziehung \u0027perform\u0027, also wer führt was aus.\n7. Die Relation \u0027perform\u0027 ist in den Typkodierungen enthalten mit ID 8 (attribute: perform, identityMapping: false). Die Typen auf der Diagonale (1 für Tim, 4 für run) sind gültig (identityMapping: true). Alle verwendeten IDs sind zulässig.\n8. Der GraphCode wurde erfolgreich erstellt: Vokabular mit 2 Einträgen, 2x2-Matrix. Diagonale enthält Objekt- und Aktivitätstyp, Beziehung \u0027Tim perform run\u0027 mit ID 8 außerhalb der Diagonale.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Tim\",\n    \"run\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8\n    ],\n    [\n      0,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 auf den Nutzer Maria, daher entfällt das Auflösen solcher Verweise.\\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigenname), \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinerter Verbstamm von \u0027rennen\u0027).\\n4. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorhanden sind, wird die Identifikation des Nutzers (Maria) ignoriert.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (konkrete Person/Entität im Raum) → Typ-ID 1 (object). \u0027run\u0027 ist eine Aktivität → Typ-ID 4 (activity).\\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Dies entspricht der Beziehung \u0027perform\u0027, also wer führt was aus.\\n7. Die Relation \u0027perform\u0027 ist in den Typkodierungen enthalten mit ID 8 (attribute: perform, identityMapping: false). Die Typen auf der Diagonale (1 für Tim, 4 für run) sind gültig (identityMapping: true). Alle verwendeten IDs sind zulässig.\\n8. Der GraphCode wurde erfolgreich erstellt: Vokabular mit 2 Einträgen, 2x2-Matrix. Diagonale enthält Objekt- und Aktivitätstyp, Beziehung \u0027Tim perform run\u0027 mit ID 8 außerhalb der Diagonale.\"\n}"
+}

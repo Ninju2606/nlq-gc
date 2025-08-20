@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt oder semantisch unklar. Der Ausdruck \u0027Fragen zu malen\u0027 ist im Deutschen nicht sinnvoll verwendbar und es lassen sich keine eindeutigen Objekte, Attribute oder Aktivitäten für einen validen GraphCode identifizieren. Bitte prüfen Sie die Formulierung der Suchanfrage.",
+  "error": "Unclear or grammatically incorrect query",
+  "responsePlain": "{\n  \"error\": \"Unclear or grammatically incorrect query\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt oder semantisch unklar. Der Ausdruck \u0027Fragen zu malen\u0027 ist im Deutschen nicht sinnvoll verwendbar und es lassen sich keine eindeutigen Objekte, Attribute oder Aktivitäten für einen validen GraphCode identifizieren. Bitte prüfen Sie die Formulierung der Suchanfrage.\"\n}"
+}

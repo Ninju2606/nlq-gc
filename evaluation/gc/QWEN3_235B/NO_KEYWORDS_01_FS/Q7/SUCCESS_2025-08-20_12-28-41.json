@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und ob die Handlung von Maria ausgeführt wird oder nicht. Zudem scheint die Wendung \u0027Häuser um Fragen zu malen\u0027 keinen klaren Sinn zu ergeben – möglicherweise ist sie falsch formuliert oder unvollständig. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und ob die Handlung von Maria ausgeführt wird oder nicht. Zudem scheint die Wendung \u0027Häuser um Fragen zu malen\u0027 keinen klaren Sinn zu ergeben – möglicherweise ist sie falsch formuliert oder unvollständig. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

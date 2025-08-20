@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird der Identifikation \u0027Maria\u0027 zugeordnet, da in der Eingabe angegeben ist, dass der Nutzer Maria ist, und die Regel besagt, dass bei Verwendung von \u0027ich\u0027 die konkrete Identifikation verwendet werden soll.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Es handelt sich um eine Person, also ein Objekt. Typkodierung mit ID 1 (\u0027object\u0027).\n- \u0027wear\u0027: Beschreibt eine Aktion, also eine Tätigkeit. Typkodierung mit ID 4 (\u0027activity\u0027).\n- \u0027hat\u0027: Ein Gegenstand, also ein Objekt. Typkodierung mit ID 1 (\u0027object\u0027).\n- \u0027yellow\u0027: Ein Attribut, das eine Eigenschaft beschreibt (hier Farbe). Typkodierung mit ID 14 (\u0027characteristic\u0027).\n\n3. Relationen zwischen den Begriffen:\n- \u0027maria\u0027 führt die Aktion \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8), da Maria den Hut trägt.\n- \u0027wear\u0027 (Aktion) hat als Ziel \u0027hat\u0027 → Relation \u0027target\u0027 (ID 9), da der Hut das Objekt der Handlung ist.\n- \u0027hat\u0027 besitzt die Eigenschaft \u0027yellow\u0027 → Relation \u0027characteristic\u0027 (ID 14), da der Hut gelb ist.\n\n4. Überprüfung der Relationen auf vorhandene Typkodierungen:\n- Relation \u0027perform\u0027 zwischen \u0027maria\u0027 und \u0027wear\u0027 → ID 8 (vorhanden, identityMapping\u003dfalse) ✓\n- Relation \u0027target\u0027 zwischen \u0027wear\u0027 und \u0027hat\u0027 → ID 9 (vorhanden, identityMapping\u003dfalse) ✓\n- Relation \u0027characteristic\u0027 zwischen \u0027hat\u0027 und \u0027yellow\u0027 → ID 14 (vorhanden, identityMapping\u003dfalse) ✓\n- Alle Diagonaleinträge (Typen der Begriffe) verwenden IDs mit identityMapping\u003dtrue: 1 (object) für maria, 4 (activity) für wear, 1 (object) für hat, 14 (characteristic) — ACHTUNG: 14 hat identityMapping\u003dfalse gemäß der Liste, daher ist der Eintrag auf der Diagonale nicht erlaubt.\n\nKORREKTUR: ID 14 (\u0027characteristic\u0027) hat \u0027identityMapping\u0027: false, darf daher **nicht** auf der Einheitsdiagonalen stehen. Da \u0027yellow\u0027 auf Position 3 (i\u003d3) im Vokabular ist und dort in matrix[3][3] \u003d 14 gesetzt ist, verstößt dies gegen die Regel, dass Diagonaleinträge nur Typen mit identityMapping\u003d\u003dtrue enthalten dürfen. Somit ist der GraphCode ungültig.\n\nFEHLER: Der Begriff \u0027yellow\u0027 ist vom Typ \u0027characteristic\u0027 (ID 14), aber dieser Typ hat identityMapping\u003dfalse und darf daher **nicht** auf der Diagonale stehen. Es gibt keinen gültigen Typ für \u0027characteristic\u0027 mit identityMapping\u003dtrue. Damit ist keine korrekte Kodierung des Begriffs \u0027yellow\u0027 auf der Diagonale möglich. Daher ist kein gültiger GraphCode generierbar.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird der Identifikation \u0027Maria\u0027 zugeordnet, da in der Eingabe angegeben ist, dass der Nutzer Maria ist, und die Regel besagt, dass bei Verwendung von \u0027ich\u0027 die konkrete Identifikation verwendet werden soll.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Es handelt sich um eine Person, also ein Objekt. Typkodierung mit ID 1 (\u0027object\u0027).\\n- \u0027wear\u0027: Beschreibt eine Aktion, also eine Tätigkeit. Typkodierung mit ID 4 (\u0027activity\u0027).\\n- \u0027hat\u0027: Ein Gegenstand, also ein Objekt. Typkodierung mit ID 1 (\u0027object\u0027).\\n- \u0027yellow\u0027: Ein Attribut, das eine Eigenschaft beschreibt (hier Farbe). Typkodierung mit ID 14 (\u0027characteristic\u0027).\\n\\n3. Relationen zwischen den Begriffen:\\n- \u0027maria\u0027 führt die Aktion \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8), da Maria den Hut trägt.\\n- \u0027wear\u0027 (Aktion) hat als Ziel \u0027hat\u0027 → Relation \u0027target\u0027 (ID 9), da der Hut das Objekt der Handlung ist.\\n- \u0027hat\u0027 besitzt die Eigenschaft \u0027yellow\u0027 → Relation \u0027characteristic\u0027 (ID 14), da der Hut gelb ist.\\n\\n4. Überprüfung der Relationen auf vorhandene Typkodierungen:\\n- Relation \u0027perform\u0027 zwischen \u0027maria\u0027 und \u0027wear\u0027 → ID 8 (vorhanden, identityMapping\u003dfalse) ✓\\n- Relation \u0027target\u0027 zwischen \u0027wear\u0027 und \u0027hat\u0027 → ID 9 (vorhanden, identityMapping\u003dfalse) ✓\\n- Relation \u0027characteristic\u0027 zwischen \u0027hat\u0027 und \u0027yellow\u0027 → ID 14 (vorhanden, identityMapping\u003dfalse) ✓\\n- Alle Diagonaleinträge (Typen der Begriffe) verwenden IDs mit identityMapping\u003dtrue: 1 (object) für maria, 4 (activity) für wear, 1 (object) für hat, 14 (characteristic) — ACHTUNG: 14 hat identityMapping\u003dfalse gemäß der Liste, daher ist der Eintrag auf der Diagonale nicht erlaubt.\\n\\nKORREKTUR: ID 14 (\u0027characteristic\u0027) hat \u0027identityMapping\u0027: false, darf daher **nicht** auf der Einheitsdiagonalen stehen. Da \u0027yellow\u0027 auf Position 3 (i\u003d3) im Vokabular ist und dort in matrix[3][3] \u003d 14 gesetzt ist, verstößt dies gegen die Regel, dass Diagonaleinträge nur Typen mit identityMapping\u003d\u003dtrue enthalten dürfen. Somit ist der GraphCode ungültig.\\n\\nFEHLER: Der Begriff \u0027yellow\u0027 ist vom Typ \u0027characteristic\u0027 (ID 14), aber dieser Typ hat identityMapping\u003dfalse und darf daher **nicht** auf der Diagonale stehen. Es gibt keinen gültigen Typ für \u0027characteristic\u0027 mit identityMapping\u003dtrue. Damit ist keine korrekte Kodierung des Begriffs \u0027yellow\u0027 auf der Diagonale möglich. Daher ist kein gültiger GraphCode generierbar.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch die Typkodierung \u0027under\u0027 (ID 6) repräsentiert, da \u0027in\u0027 nicht direkt verfügbar ist, aber im Kontext von räumlichen Beziehungen \u0027under\u0027 als Annäherung für Aufenthalt innerhalb eines Objekts verwendet wird. \u0027own\u0027 (besitzen) wird über die Beziehung \u0027attached\u0027 (ID 5) dargestellt, da dies die verfügbare Kodierung für Besitzverhältnisse ist. Maria führt die Aktivität \u0027swim\u0027 aus (perform, ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch die Typkodierung \u0027under\u0027 (ID 6) repräsentiert, da \u0027in\u0027 nicht direkt verfügbar ist, aber im Kontext von räumlichen Beziehungen \u0027under\u0027 als Annäherung für Aufenthalt innerhalb eines Objekts verwendet wird. \u0027own\u0027 (besitzen) wird über die Beziehung \u0027attached\u0027 (ID 5) dargestellt, da dies die verfügbare Kodierung für Besitzverhältnisse ist. Maria führt die Aktivität \u0027swim\u0027 aus (perform, ID 8).\"\n}"
+}

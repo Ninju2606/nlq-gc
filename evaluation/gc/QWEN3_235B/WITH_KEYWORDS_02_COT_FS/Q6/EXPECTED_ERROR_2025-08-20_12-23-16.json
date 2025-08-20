@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \"wir\" bezieht sich auf eine Gruppe, die auch Maria einschließt. Da die Identifikation des Nutzers mit \"Maria\" angegeben ist und die Handlung implizit sie betreffen dürfte, wird „wir“ aufgelöst und „maria“ im Vokabular verwendet. \n2. „maria“ ist ein Objekt (Person). „make“ ist eine Aktivität (activity). „appointment“ ist ein Kontext oder ein Objekt, das im Zusammenhang mit einer Handlung steht – hier als eigenständiger Begriff interpretiert; gemäß der Typkodierungen wird „appointment“ als Synonym (id\u003d3) klassifiziert, da es keine direkte Entsprechung für „Termin“ gibt, aber als ähnlicher Begriff im Kontext verstanden werden kann. \n3. „maria“ führt die Aktivität „make“ aus. Die Aktivität „make“ hat das Ziel oder bezieht sich auf „appointment“. „appointment“ fungiert als Ziel der Aktion und ist inhaltlich mit „make“ verknüpft. \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Synonym (synonym) ist 3. Die Beziehung „perform“ (Ausführung einer Aktivität durch ein Objekt) hat die ID 8. Die Beziehung „target“ (Ziel einer Aktivität) hat die ID 9. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 3]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"wir\\\" bezieht sich auf eine Gruppe, die auch Maria einschließt. Da die Identifikation des Nutzers mit \\\"Maria\\\" angegeben ist und die Handlung implizit sie betreffen dürfte, wird „wir“ aufgelöst und „maria“ im Vokabular verwendet. \\n2. „maria“ ist ein Objekt (Person). „make“ ist eine Aktivität (activity). „appointment“ ist ein Kontext oder ein Objekt, das im Zusammenhang mit einer Handlung steht – hier als eigenständiger Begriff interpretiert; gemäß der Typkodierungen wird „appointment“ als Synonym (id\u003d3) klassifiziert, da es keine direkte Entsprechung für „Termin“ gibt, aber als ähnlicher Begriff im Kontext verstanden werden kann. \\n3. „maria“ führt die Aktivität „make“ aus. Die Aktivität „make“ hat das Ziel oder bezieht sich auf „appointment“. „appointment“ fungiert als Ziel der Aktion und ist inhaltlich mit „make“ verknüpft. \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Synonym (synonym) ist 3. Die Beziehung „perform“ (Ausführung einer Aktivität durch ein Objekt) hat die ID 8. Die Beziehung „target“ (Ziel einer Aktivität) hat die ID 9. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

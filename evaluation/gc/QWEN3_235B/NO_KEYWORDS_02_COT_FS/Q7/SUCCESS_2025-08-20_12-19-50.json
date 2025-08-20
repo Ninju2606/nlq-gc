@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden, da die Satzkonstruktion unklar und grammatikalisch nicht korrekt ist. Möglicherweise handelt es sich um einen Tippfehler oder eine fehlgeleitete Formulierung. Weder die Handlung noch die Relationen zwischen den Begriffen sind nachvollziehbar. Daher kann kein valides Vokabular und keine Bewertungsmatrix generiert werden.",
+  "error": "Die Anfrage ist grammatikalisch inkorrekt oder unverständlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt im gegebenen Kontext keinen Sinn.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch inkorrekt oder unverständlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt im gegebenen Kontext keinen Sinn.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden, da die Satzkonstruktion unklar und grammatikalisch nicht korrekt ist. Möglicherweise handelt es sich um einen Tippfehler oder eine fehlgeleitete Formulierung. Weder die Handlung noch die Relationen zwischen den Begriffen sind nachvollziehbar. Daher kann kein valides Vokabular und keine Bewertungsmatrix generiert werden.\"\n}"
+}

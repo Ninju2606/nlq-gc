@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 wurde zur Identifikation \u0027maria\u0027 aufgelöst.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (ID 1, object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (ID 4, activity).\n3. \u0027maria\u0027 führt die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 aus (perform). Die Aktivität \u0027swim\u0027 steht in räumlichem Zusammenhang mit \u0027pool\u0027 (attached). Die Aktivität \u0027own\u0027 bezieht sich auf \u0027pool\u0027 (target).\n4. Die benötigten Typkodierungen existieren: object (1), activity (4), perform (8), attached (5), target (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 5],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Ich\u0027 wurde zur Identifikation \u0027maria\u0027 aufgelöst.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (ID 1, object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (ID 4, activity).\\n3. \u0027maria\u0027 führt die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 aus (perform). Die Aktivität \u0027swim\u0027 steht in räumlichem Zusammenhang mit \u0027pool\u0027 (attached). Die Aktivität \u0027own\u0027 bezieht sich auf \u0027pool\u0027 (target).\\n4. Die benötigten Typkodierungen existieren: object (1), activity (4), perform (8), attached (5), target (9).\"\n}"
+}

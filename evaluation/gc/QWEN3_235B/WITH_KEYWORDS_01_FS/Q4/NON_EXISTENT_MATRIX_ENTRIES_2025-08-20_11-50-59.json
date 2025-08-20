@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch \u0027attached\u0027 (ID 5) ausgedrückt, da es eine räumliche Verbindung beschreibt. \u0027own\u0027 (besitzen) wird über das Attribut \u0027characteristic\u0027 (ID 14) als Eigenschaft von \u0027maria\u0027 zum \u0027pool\u0027 modelliert. \u0027swim\u0027 ist eine Aktivität (ID 4) und \u0027maria\u0027 führt diese aus (perform, ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 5],\n    [0, 0, 14, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch \u0027attached\u0027 (ID 5) ausgedrückt, da es eine räumliche Verbindung beschreibt. \u0027own\u0027 (besitzen) wird über das Attribut \u0027characteristic\u0027 (ID 14) als Eigenschaft von \u0027maria\u0027 zum \u0027pool\u0027 modelliert. \u0027swim\u0027 ist eine Aktivität (ID 4) und \u0027maria\u0027 führt diese aus (perform, ID 8).\"\n}"
+}

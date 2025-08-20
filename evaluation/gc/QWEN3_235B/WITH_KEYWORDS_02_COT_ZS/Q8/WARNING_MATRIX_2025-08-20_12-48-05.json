@@ -1,0 +1,50 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.92,
+  "description": "1. Relative Verweise: \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet; \u0027meine Tochter\u0027 wird als \u0027person\u0027-Eintrag mit Relationstyp \u0027daughter\u0027 (ID 10) zu \u0027maria\u0027 aufgelöst. 2. Attributtypen: \u0027maria\u0027, \u0027person\u0027, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1, identityMapping\u003dtrue); \u0027drive\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue). 3. Relationen: Maria hat eine Tochter (person, ID 10); sowohl Maria als auch person führen die Aktivität drive aus (ID 8); drive hat das Ziel boat (ID 9); drive findet auf dem lake statt (ID 5 \u0027attached\u0027). 4. Alle Relationen sind in den Typkodierungen enthalten: ID 10 (daughter), ID 8 (perform), ID 9 (target), ID 5 (attached).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 9, 5],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Relative Verweise: \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet; \u0027meine Tochter\u0027 wird als \u0027person\u0027-Eintrag mit Relationstyp \u0027daughter\u0027 (ID 10) zu \u0027maria\u0027 aufgelöst. 2. Attributtypen: \u0027maria\u0027, \u0027person\u0027, \u0027boat\u0027 und \u0027lake\u0027 sind Objekte (Typ 1, identityMapping\u003dtrue); \u0027drive\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue). 3. Relationen: Maria hat eine Tochter (person, ID 10); sowohl Maria als auch person führen die Aktivität drive aus (ID 8); drive hat das Ziel boat (ID 9); drive findet auf dem lake statt (ID 5 \u0027attached\u0027). 4. Alle Relationen sind in den Typkodierungen enthalten: ID 10 (daughter), ID 8 (perform), ID 9 (target), ID 5 (attached).\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine organisatorische Absprache in der realen Welt und enthält keine darstellbaren Elemente einer Szene im Metaverse wie Objekte, Aktivitäten oder räumliche Beziehungen. Es liegen keine Informationen vor, die in einen GraphCode mit Begriffen und Relationen übersetzt werden könnten.",
+  "error": "Ich kann die Anfrage leider nicht als sinnvolle Szene im Metaverse interpretieren. Die Aussage bezieht sich auf einen realen Termin und enthält keine Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene abgebildet werden können.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht als sinnvolle Szene im Metaverse interpretieren. Die Aussage bezieht sich auf einen realen Termin und enthält keine Objekte, Attribute oder Aktivitäten, die in einer Metaverse-Szene abgebildet werden können.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine organisatorische Absprache in der realen Welt und enthält keine darstellbaren Elemente einer Szene im Metaverse wie Objekte, Aktivitäten oder räumliche Beziehungen. Es liegen keine Informationen vor, die in einen GraphCode mit Begriffen und Relationen übersetzt werden könnten.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "schedule",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      4,
+      9
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Terminvereinbarung zwischen Benutzern im Metaverse. \u0027schedule\u0027 ist die Aktivität (Typ 4), \u0027appointment\u0027 das Zielobjekt (Typ 1). Die Relation \u0027target\u0027 (ID 9) verbindet die Aktivität mit dem Termin.",
+  "responsePlain": "{\n  \"dictionary\": [\"schedule\", \"appointment\"],\n  \"matrix\": [\n    [4, 9],\n    [0, 1]\n  ],\n  \"description\": \"GraphCode für die Terminvereinbarung zwischen Benutzern im Metaverse. \u0027schedule\u0027 ist die Aktivität (Typ 4), \u0027appointment\u0027 das Zielobjekt (Typ 1). Die Relation \u0027target\u0027 (ID 9) verbindet die Aktivität mit dem Termin.\"\n}"
+}

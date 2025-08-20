@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten, da die Handlung (Fragen malen) und ihr Bezug zu Häusern nicht verständlich ist. Eine eindeutige Erstellung eines GraphCodes ist daher nicht möglich.",
+  "error": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten, da die Handlung (Fragen malen) und ihr Bezug zu Häusern nicht verständlich ist. Eine eindeutige Erstellung eines GraphCodes ist daher nicht möglich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten, da die Handlung (Fragen malen) und ihr Bezug zu Häusern nicht verständlich ist. Eine eindeutige Erstellung eines GraphCodes ist daher nicht möglich.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten, da die Handlung (Fragen malen) und ihr Bezug zu Häusern nicht verständlich ist. Eine eindeutige Erstellung eines GraphCodes ist daher nicht möglich.\"\n}"
+}

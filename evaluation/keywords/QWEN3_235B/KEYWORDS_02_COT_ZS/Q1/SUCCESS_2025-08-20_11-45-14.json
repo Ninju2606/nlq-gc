@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich spiele Basketball. Die Anfrage enthält ein selbst identifizierendes Wort \u0027ich\u0027, daher wird die Identifikation des Nutzers, Maria, im Vokabular verwendet. Die Tätigkeit \u0027spiele\u0027 wird verallgemeinert zu \u0027play\u0027. Das Objekt \u0027Basketball\u0027 bleibt als englischer Begriff bestehen. Relative Verweise wie \u0027ich\u0027 wurden aufgelöst zu \u0027Maria\u0027. Die Wörter wurden bereits in Englisch übersetzt, da die Begriffe international verständlich sind und im Englischen vorliegen. Es handelt sich um eine klare Szenenbeschreibung im Metaverse, daher wird ein gültiger GraphCode-Input generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"Ich spiele Basketball. Die Anfrage enthält ein selbst identifizierendes Wort \u0027ich\u0027, daher wird die Identifikation des Nutzers, Maria, im Vokabular verwendet. Die Tätigkeit \u0027spiele\u0027 wird verallgemeinert zu \u0027play\u0027. Das Objekt \u0027Basketball\u0027 bleibt als englischer Begriff bestehen. Relative Verweise wie \u0027ich\u0027 wurden aufgelöst zu \u0027Maria\u0027. Die Wörter wurden bereits in Englisch übersetzt, da die Begriffe international verständlich sind und im Englischen vorliegen. Es handelt sich um eine klare Szenenbeschreibung im Metaverse, daher wird ein gültiger GraphCode-Input generiert.\"\n}"
+}

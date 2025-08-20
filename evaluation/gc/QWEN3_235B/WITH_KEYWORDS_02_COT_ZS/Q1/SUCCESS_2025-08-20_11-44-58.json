@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 in der Anfrage \u0027Ich spiele Basketball\u0027 wird aufgelöst zu \u0027Maria\u0027, basierend auf der angegebenen Identifikation des Nutzers. Somit bezieht sich die Handlung auf Maria als handelnde Person.\n\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Dies ist eine konkrete Entität, die eine Person bezeichnet. Laut Regeln wird dies als \u0027object\u0027 klassifiziert (Typ-ID 1), da es ein Objekt im Sinne eines handelnden Subjekts ist.\n   - \u0027play\u0027: Beschreibt eine Handlung oder Aktion. Es wird als \u0027activity\u0027 klassifiziert (Typ-ID 4).\n   - \u0027basketball\u0027: Bezeichnet ein Objekt, genauer einen Sportgegenstand oder -bereich. Es wird ebenfalls als \u0027object\u0027 (Typ-ID 1) klassifiziert.\n\n3. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktion \u0027play\u0027 aus → Relation \u0027perform\u0027 (Maria performt play).\n   - Die Aktion \u0027play\u0027 hat \u0027basketball\u0027 als Ziel oder Gegenstand → Relation \u0027target\u0027 (play target basketball).\n   Zusätzlich werden die Selbsttypisierungen auf der Diagonalen gesetzt: jedes Wort wird als sein eigener Typ codiert.\n\n4. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1) ist vorhanden und zulässig für die Diagonale (identityMapping\u003dtrue) → gültig für \u0027maria\u0027 und \u0027basketball\u0027.\n   - \u0027activity\u0027 (ID 4) ist vorhanden und zulässig für die Diagonale → gültig für \u0027play\u0027.\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → beschreibt, wer eine Aktivität ausführt. Gültig für Relation (maria → play).\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → beschreibt, worauf sich eine Aktivität bezieht. Gültig für Relation (play → basketball).\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\n\n5. Der GraphCode wurde gemäß den Regeln zusammengesetzt: Das Vokabular bleibt unverändert. Die 3x3-Bewertungsmatrix codiert die Typen auf der Diagonalen und die Relationen außerhalb. Die Matrix ist wie folgt befüllt:\n   - (0,0): \u0027maria\u0027 ist ein \u0027object\u0027 → 1\n   - (1,1): \u0027play\u0027 ist eine \u0027activity\u0027 → 4\n   - (2,2): \u0027basketball\u0027 ist ein \u0027object\u0027 → 1\n   - (0,1): \u0027maria\u0027 führt \u0027play\u0027 aus → \u0027perform\u0027 (ID 8)\n   - (1,2): \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → \u0027target\u0027 (ID 9)\n   Alle anderen Einträge bleiben 0, da keine weiteren Relationen vorliegen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Ich\u0027 in der Anfrage \u0027Ich spiele Basketball\u0027 wird aufgelöst zu \u0027Maria\u0027, basierend auf der angegebenen Identifikation des Nutzers. Somit bezieht sich die Handlung auf Maria als handelnde Person.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Dies ist eine konkrete Entität, die eine Person bezeichnet. Laut Regeln wird dies als \u0027object\u0027 klassifiziert (Typ-ID 1), da es ein Objekt im Sinne eines handelnden Subjekts ist.\\n   - \u0027play\u0027: Beschreibt eine Handlung oder Aktion. Es wird als \u0027activity\u0027 klassifiziert (Typ-ID 4).\\n   - \u0027basketball\u0027: Bezeichnet ein Objekt, genauer einen Sportgegenstand oder -bereich. Es wird ebenfalls als \u0027object\u0027 (Typ-ID 1) klassifiziert.\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktion \u0027play\u0027 aus → Relation \u0027perform\u0027 (Maria performt play).\\n   - Die Aktion \u0027play\u0027 hat \u0027basketball\u0027 als Ziel oder Gegenstand → Relation \u0027target\u0027 (play target basketball).\\n   Zusätzlich werden die Selbsttypisierungen auf der Diagonalen gesetzt: jedes Wort wird als sein eigener Typ codiert.\\n\\n4. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1) ist vorhanden und zulässig für die Diagonale (identityMapping\u003dtrue) → gültig für \u0027maria\u0027 und \u0027basketball\u0027.\\n   - \u0027activity\u0027 (ID 4) ist vorhanden und zulässig für die Diagonale → gültig für \u0027play\u0027.\\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → beschreibt, wer eine Aktivität ausführt. Gültig für Relation (maria → play).\\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → beschreibt, worauf sich eine Aktivität bezieht. Gültig für Relation (play → basketball).\\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\\n\\n5. Der GraphCode wurde gemäß den Regeln zusammengesetzt: Das Vokabular bleibt unverändert. Die 3x3-Bewertungsmatrix codiert die Typen auf der Diagonalen und die Relationen außerhalb. Die Matrix ist wie folgt befüllt:\\n   - (0,0): \u0027maria\u0027 ist ein \u0027object\u0027 → 1\\n   - (1,1): \u0027play\u0027 ist eine \u0027activity\u0027 → 4\\n   - (2,2): \u0027basketball\u0027 ist ein \u0027object\u0027 → 1\\n   - (0,1): \u0027maria\u0027 führt \u0027play\u0027 aus → \u0027perform\u0027 (ID 8)\\n   - (1,2): \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → \u0027target\u0027 (ID 9)\\n   Alle anderen Einträge bleiben 0, da keine weiteren Relationen vorliegen.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch das Attribut \u0027attached\u0027 (ID 5) ausgedrückt, da es eine räumliche Verbindung beschreibt. \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (ID 4), und Maria führt die Aktivität \u0027swim\u0027 aus (perform, ID 8). Der Pool ist das Zielobjekt der Aktivität \u0027own\u0027 und steht in einer \u0027attached\u0027-Beziehung zu Maria im Kontext des Schwimmens.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch das Attribut \u0027attached\u0027 (ID 5) ausgedrückt, da es eine räumliche Verbindung beschreibt. \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (ID 4), und Maria führt die Aktivität \u0027swim\u0027 aus (perform, ID 8). Der Pool ist das Zielobjekt der Aktivität \u0027own\u0027 und steht in einer \u0027attached\u0027-Beziehung zu Maria im Kontext des Schwimmens.\"\n}"
+}

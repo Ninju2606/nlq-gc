@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einem GraphCode abgebildet werden können. Es fehlen konkrete Szenenbestandteile wie Objekte, Handlungen oder räumliche/zeitliche Beziehungen. Zudem wird kein klares Subject oder Objekt genannt, das im Metaverse identifiziert oder lokalisiert werden könnte. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt keine Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einem GraphCode abgebildet werden können. Es fehlen konkrete Szenenbestandteile wie Objekte, Handlungen oder räumliche/zeitliche Beziehungen. Zudem wird kein klares Subject oder Objekt genannt, das im Metaverse identifiziert oder lokalisiert werden könnte. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027mir\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Attributeigenschaften: \u0027maria\u0027 (Typ: object, ID 1), \u0027swim\u0027 (Typ: activity, ID 4), \u0027own\u0027 (Typ: activity, ID 4), \u0027pool\u0027 (Typ: object, ID 1). 3. Relationen: Maria führt die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 aus (perform, ID 8); sowohl \u0027swim\u0027 als auch \u0027own\u0027 beziehen sich auf \u0027pool\u0027 als Zielort/Zielobjekt (target, ID 9). 4. Alle Relationen haben passende Typkodierungen: perform (ID 8) und target (ID 9) sind in den vorgegebenen Typen enthalten. 5. Der GraphCode wurde entsprechend den Regeln zusammengesetzt, mit korrekten Diagonal- (identityMapping\u003dtrue) und Off-Diagonal-Einträgen (identityMapping\u003dfalse).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027mir\u0027 wurde aufgelöst und der Identifikation \u0027Maria\u0027 zugeordnet. 2. Attributeigenschaften: \u0027maria\u0027 (Typ: object, ID 1), \u0027swim\u0027 (Typ: activity, ID 4), \u0027own\u0027 (Typ: activity, ID 4), \u0027pool\u0027 (Typ: object, ID 1). 3. Relationen: Maria führt die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 aus (perform, ID 8); sowohl \u0027swim\u0027 als auch \u0027own\u0027 beziehen sich auf \u0027pool\u0027 als Zielort/Zielobjekt (target, ID 9). 4. Alle Relationen haben passende Typkodierungen: perform (ID 8) und target (ID 9) sind in den vorgegebenen Typen enthalten. 5. Der GraphCode wurde entsprechend den Regeln zusammengesetzt, mit korrekten Diagonal- (identityMapping\u003dtrue) und Off-Diagonal-Einträgen (identityMapping\u003dfalse).\"\n}"
+}

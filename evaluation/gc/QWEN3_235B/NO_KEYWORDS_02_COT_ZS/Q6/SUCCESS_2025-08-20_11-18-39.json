@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die im Metaverse-Szenenkontext identifizierbar wären. Begriffe wie \u0027Termin ausmachen\u0027 sind zu abstrakt und lassen keine eindeutige Zuordnung zu einem Szeneninhalt zu.",
+  "error": "Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die im Metaverse-Szenenkontext identifizierbar wären. Begriffe wie \u0027Termin ausmachen\u0027 sind zu abstrakt und lassen keine eindeutige Zuordnung zu einem Szeneninhalt zu.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die im Metaverse-Szenenkontext identifizierbar wären. Begriffe wie \u0027Termin ausmachen\u0027 sind zu abstrakt und lassen keine eindeutige Zuordnung zu einem Szeneninhalt zu.\",\n  \"description\": \"Die Anfrage enthält keine konkreten Objekte, Attribute oder Aktivitäten, die im Metaverse-Szenenkontext identifizierbar wären. Begriffe wie \u0027Termin ausmachen\u0027 sind zu abstrakt und lassen keine eindeutige Zuordnung zu einem Szeneninhalt zu.\"\n}"
+}

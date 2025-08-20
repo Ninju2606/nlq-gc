@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: schwimmen, Pool, Maria (da \u0027meinem\u0027 auf den Nutzer verweist).\n2. Relative Verweise: \u0027meinem\u0027 wurde durch die Nutzer-Identifikation \u0027Maria\u0027 ersetzt.\n3. Übersetzung ins Englische: swim, pool, Maria.\n4. Ersetzung der Nutzeridentifikation: \u0027meinem Pool\u0027 wird zu \u0027Maria\u0027s pool\u0027, daher \u0027Maria\u0027 im Vokabular.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist ein Objekt (id\u003d1), \n   - \u0027swim\u0027 ist eine Aktivität (id\u003d4), \n   - \u0027pool\u0027 ist ein Kontext (id\u003d2).\n6. Relationen: \n   - Maria führt die Aktivität \u0027swim\u0027 aus (perform, id\u003d8), \n   - Maria besitzt den \u0027pool\u0027 (attached, id\u003d5), \n   - Die Aktivität \u0027swim\u0027 hat den \u0027pool\u0027 als Zielort (target, id\u003d9).\n7. Alle Relationen haben passende Typkodierungen: IDs 8, 5, 9 sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 9],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: schwimmen, Pool, Maria (da \u0027meinem\u0027 auf den Nutzer verweist).\\n2. Relative Verweise: \u0027meinem\u0027 wurde durch die Nutzer-Identifikation \u0027Maria\u0027 ersetzt.\\n3. Übersetzung ins Englische: swim, pool, Maria.\\n4. Ersetzung der Nutzeridentifikation: \u0027meinem Pool\u0027 wird zu \u0027Maria\u0027s pool\u0027, daher \u0027Maria\u0027 im Vokabular.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist ein Objekt (id\u003d1), \\n   - \u0027swim\u0027 ist eine Aktivität (id\u003d4), \\n   - \u0027pool\u0027 ist ein Kontext (id\u003d2).\\n6. Relationen: \\n   - Maria führt die Aktivität \u0027swim\u0027 aus (perform, id\u003d8), \\n   - Maria besitzt den \u0027pool\u0027 (attached, id\u003d5), \\n   - Die Aktivität \u0027swim\u0027 hat den \u0027pool\u0027 als Zielort (target, id\u003d9).\\n7. Alle Relationen haben passende Typkodierungen: IDs 8, 5, 9 sind vorhanden.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      5,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Häuser, Fragen, malen.\n2. Keine relativen Verweise (wie \u0027ich\u0027 oder \u0027mein\u0027) vorhanden.\n3. Übersetzung ins Englische: houses, questions, paint (Stammformen korrigiert: \u0027paint\u0027 statt \u0027malen\u0027).\n4. Keine Nutzerreferenzen in der Anfrage, daher keine Ersetzung mit \u0027Maria\u0027 nötig.\n5. Attributeigenschaften: \u0027houses\u0027 und \u0027questions\u0027 sind Objekte (Typ 1, identityMapping\u003dtrue); \u0027paint\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue).\n6. Relationen: Die Aktivität \u0027paint\u0027 (Index 2) hat \u0027questions\u0027 (Index 1) als Ziel (target, ID 9) und steht mit \u0027houses\u0027 (Index 0) in der Beziehung \u0027attached\u0027 (ID 5), da die Häuser als Kontext für das Malen der Fragen fungieren.\n7. Alle Relationen haben valide Typkodierungen: \u0027target\u0027 (ID 9) und \u0027attached\u0027 (ID 5) sind in den vorgegebenen Kodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [5, 9, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Häuser, Fragen, malen.\\n2. Keine relativen Verweise (wie \u0027ich\u0027 oder \u0027mein\u0027) vorhanden.\\n3. Übersetzung ins Englische: houses, questions, paint (Stammformen korrigiert: \u0027paint\u0027 statt \u0027malen\u0027).\\n4. Keine Nutzerreferenzen in der Anfrage, daher keine Ersetzung mit \u0027Maria\u0027 nötig.\\n5. Attributeigenschaften: \u0027houses\u0027 und \u0027questions\u0027 sind Objekte (Typ 1, identityMapping\u003dtrue); \u0027paint\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue).\\n6. Relationen: Die Aktivität \u0027paint\u0027 (Index 2) hat \u0027questions\u0027 (Index 1) als Ziel (target, ID 9) und steht mit \u0027houses\u0027 (Index 0) in der Beziehung \u0027attached\u0027 (ID 5), da die Häuser als Kontext für das Malen der Fragen fungieren.\\n7. Alle Relationen haben valide Typkodierungen: \u0027target\u0027 (ID 9) und \u0027attached\u0027 (ID 5) sind in den vorgegebenen Kodierungen enthalten.\"\n}"
+}

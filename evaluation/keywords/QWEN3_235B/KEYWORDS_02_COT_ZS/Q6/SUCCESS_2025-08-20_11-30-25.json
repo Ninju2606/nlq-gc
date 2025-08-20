@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die eine eindeutige Szenenbeschreibung im Metaverse ermöglichen würden. Es fehlen handfeste Begriffe wie Personen, Gegenstände oder räumliche und zeitliche Bezüge, die in ein Vokabular übersetzt werden könnten. Zwar wird auf einen Termin Bezug genommen, aber ohne Angabe von Beteiligten, Ort, Zweck oder Aktivitäten bleibt die Beschreibung zu unbestimmt, um einen sinnvollen GraphCode zu generieren.",
+  "error": "Keine konkreten Stichwörter zur Szenenbeschreibung gefunden.",
+  "responsePlain": "{\n  \"error\": \"Keine konkreten Stichwörter zur Szenenbeschreibung gefunden.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die eine eindeutige Szenenbeschreibung im Metaverse ermöglichen würden. Es fehlen handfeste Begriffe wie Personen, Gegenstände oder räumliche und zeitliche Bezüge, die in ein Vokabular übersetzt werden könnten. Zwar wird auf einen Termin Bezug genommen, aber ohne Angabe von Beteiligten, Ort, Zweck oder Aktivitäten bleibt die Beschreibung zu unbestimmt, um einen sinnvollen GraphCode zu generieren.\"\n}"
+}

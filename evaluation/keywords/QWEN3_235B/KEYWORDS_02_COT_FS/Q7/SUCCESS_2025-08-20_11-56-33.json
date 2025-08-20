@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und semantisch unklar. Es lässt sich kein verständlicher Kontext oder Zusammenhang zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 herstellen, der auf eine konkrete Szene im Metaverse hinweist.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrend und semantisch unklar. Es lässt sich kein verständlicher Kontext oder Zusammenhang zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 herstellen, der auf eine konkrete Szene im Metaverse hinweist.\"\n}"
+}

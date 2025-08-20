@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"Ich\" wurde durch die Identifikation \"maria\" ersetzt. \"mir gehört\" wurde zu \"own\" mit Bezug von maria auf pool.\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"own\" sind Aktivitäten.\n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" hat als Ziel das Objekt \"pool\" (Schwimmen findet in einem Pool statt). \"maria\" führt die Aktivität \"own\" aus. \"own\" hat als Ziel das Objekt \"pool\" (Maria besitzt den Pool). \"pool\" ist durch die Beziehung \"under\" dem Objekt untergeordnet, das „own“ ausführt.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für unter (under) ist 6. Die ID für possessed (owned) ist mit \u0027own\u0027 nicht direkt als Typkodierung vorhanden, aber die Relation \u0027under\u0027 mit ID 6 wird für Besitzbeziehungen verwendet, da \u0027identityMapping\u0027\u003d\u003dfalse und damit eine relationale Bedeutung hat. Die Verwendung von \u0027under\u0027 als Bedeutung für \u0027gehört mir\u0027 entspricht der intendierten Kodierung.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde durch die Identifikation \\\"maria\\\" ersetzt. \\\"mir gehört\\\" wurde zu \\\"own\\\" mit Bezug von maria auf pool.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" hat als Ziel das Objekt \\\"pool\\\" (Schwimmen findet in einem Pool statt). \\\"maria\\\" führt die Aktivität \\\"own\\\" aus. \\\"own\\\" hat als Ziel das Objekt \\\"pool\\\" (Maria besitzt den Pool). \\\"pool\\\" ist durch die Beziehung \\\"under\\\" dem Objekt untergeordnet, das „own“ ausführt.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für unter (under) ist 6. Die ID für possessed (owned) ist mit \u0027own\u0027 nicht direkt als Typkodierung vorhanden, aber die Relation \u0027under\u0027 mit ID 6 wird für Besitzbeziehungen verwendet, da \u0027identityMapping\u0027\u003d\u003dfalse und damit eine relationale Bedeutung hat. Die Verwendung von \u0027under\u0027 als Bedeutung für \u0027gehört mir\u0027 entspricht der intendierten Kodierung.\"\n}"
+}

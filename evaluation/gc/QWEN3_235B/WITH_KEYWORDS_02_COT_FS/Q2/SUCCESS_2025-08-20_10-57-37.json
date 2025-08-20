@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine relativen Verweise. Der Nutzer verwendet kein selbstidentifizierendes Wort wie \"ich\" oder \"mein\", daher bleibt \"tim\" unverändert.\n2. \"tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität.\n3. \"tim\" führt die Aktivität \"run\" aus. Die Aktivität steht in Bezug auf das Subjekt \"tim\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Diese Typkodierungen existieren in den vorgegebenen Kodierungen. Somit sind alle benötigten Relationen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. Der Nutzer verwendet kein selbstidentifizierendes Wort wie \\\"ich\\\" oder \\\"mein\\\", daher bleibt \\\"tim\\\" unverändert.\\n2. \\\"tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität.\\n3. \\\"tim\\\" führt die Aktivität \\\"run\\\" aus. Die Aktivität steht in Bezug auf das Subjekt \\\"tim\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Diese Typkodierungen existieren in den vorgegebenen Kodierungen. Somit sind alle benötigten Relationen abgedeckt.\"\n}"
+}

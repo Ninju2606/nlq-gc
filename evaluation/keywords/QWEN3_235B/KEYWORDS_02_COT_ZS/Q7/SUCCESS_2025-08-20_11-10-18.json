@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch nicht sinnvoll interpretierbar. Es ist nicht ersichtlich, welche Objekte, Attribute oder Aktivitäten gemeint sind. Der Ausdruck \u0027um Fragen zu malen\u0027 lässt keine klare Bedeutung im Kontext einer Szenenbeschreibung im Metaverse zu.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch nicht sinnvoll interpretierbar. Es ist nicht ersichtlich, welche Objekte, Attribute oder Aktivitäten gemeint sind. Der Ausdruck \u0027um Fragen zu malen\u0027 lässt keine klare Bedeutung im Kontext einer Szenenbeschreibung im Metaverse zu.\"\n}"
+}

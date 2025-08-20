@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      14,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      14
+    ],
+    [
+      0,
+      9,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mein\u0027, wodurch die Identifikation \u0027Maria\u0027 im Vokabular verwendet wird. \u0027Ich schwimme\u0027 wird aufgelöst zu \u0027maria swim\u0027, und \u0027meinem Pool\u0027 zu \u0027pool\u0027 mit Bezug zu Maria über die Beziehung \u0027own\u0027.\n\n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine konkrete Entität ist. \u0027swim\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue). \u0027own\u0027 wird hier als Beziehung verstanden, existiert aber nicht direkt als Typ – jedoch wird die Eigenschaftsbeziehung über \u0027characteristic\u0027 (Typ 14) abgebildet. \u0027pool\u0027 ist ein Objekt (Typ 1).\n\n3. Die Relationen sind: Maria führt die Aktivität \u0027swim\u0027 aus (maria → swim: Typ 8 \u0027perform\u0027). Die Aktivität \u0027swim\u0027 hat als Ziel den \u0027pool\u0027 (swim → pool: Typ 9 \u0027target\u0027). Maria besitzt den Pool, also ist der Pool eine Eigenschaft von Maria (maria → pool: Typ 5 \u0027attached\u0027, oder über Typ 14 \u0027characteristic\u0027 als Merkmal). Zusätzlich wird \u0027own\u0027 als eigenes Vokabularwort aufgenommen, aber als Beziehung nicht direkt typkodiert – hier wird \u0027characteristic\u0027 (14) zur Abbildung verwendet. \u0027own\u0027 selbst ist keine Typkodierung, aber die Beziehung wird inhaltlich durch Typ 14 abgedeckt.\n\n4. Überprüfung der Relationen:\n- maria → swim: \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) – vorhanden.\n- swim → pool: \u0027target\u0027 (ID 9, identityMapping\u003dfalse) – vorhanden.\n- maria → pool: Beziehung der Zugehörigkeit – wird durch \u0027attached\u0027 (ID 5) oder \u0027characteristic\u0027 (ID 14) abgedeckt. Beide sind vorhanden; \u0027characteristic\u0027 ist passender für Eigentum.\n- own als Konzept: Kein direkter Typ \u0027own\u0027, aber inhaltlich durch \u0027characteristic\u0027 (14) abgebildet.\n- Alle benötigten Relationen können mit vorhandenen Typkodierungen abgebildet werden.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular bleibt unverändert. Die Hauptdiagonale enthält nur Typen mit identityMapping\u003dtrue: maria (1: object), swim (4: activity), own (14: characteristic – akzeptiert, da identityMapping\u003dtrue bei 14), pool (1: object). Außerhalb der Diagonale werden nur Typen mit identityMapping\u003dfalse verwendet: 8 (perform), 9 (target), 5 (attached), 14 (characteristic als Beziehung von own zu anderen). Die Matrix ist konsistent mit den Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 14, 5],\n    [0, 4, 0, 0],\n    [0, 0, 14, 14],\n    [0, 9, 5, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mein\u0027, wodurch die Identifikation \u0027Maria\u0027 im Vokabular verwendet wird. \u0027Ich schwimme\u0027 wird aufgelöst zu \u0027maria swim\u0027, und \u0027meinem Pool\u0027 zu \u0027pool\u0027 mit Bezug zu Maria über die Beziehung \u0027own\u0027.\\n\\n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine konkrete Entität ist. \u0027swim\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue). \u0027own\u0027 wird hier als Beziehung verstanden, existiert aber nicht direkt als Typ – jedoch wird die Eigenschaftsbeziehung über \u0027characteristic\u0027 (Typ 14) abgebildet. \u0027pool\u0027 ist ein Objekt (Typ 1).\\n\\n3. Die Relationen sind: Maria führt die Aktivität \u0027swim\u0027 aus (maria → swim: Typ 8 \u0027perform\u0027). Die Aktivität \u0027swim\u0027 hat als Ziel den \u0027pool\u0027 (swim → pool: Typ 9 \u0027target\u0027). Maria besitzt den Pool, also ist der Pool eine Eigenschaft von Maria (maria → pool: Typ 5 \u0027attached\u0027, oder über Typ 14 \u0027characteristic\u0027 als Merkmal). Zusätzlich wird \u0027own\u0027 als eigenes Vokabularwort aufgenommen, aber als Beziehung nicht direkt typkodiert – hier wird \u0027characteristic\u0027 (14) zur Abbildung verwendet. \u0027own\u0027 selbst ist keine Typkodierung, aber die Beziehung wird inhaltlich durch Typ 14 abgedeckt.\\n\\n4. Überprüfung der Relationen:\\n- maria → swim: \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) – vorhanden.\\n- swim → pool: \u0027target\u0027 (ID 9, identityMapping\u003dfalse) – vorhanden.\\n- maria → pool: Beziehung der Zugehörigkeit – wird durch \u0027attached\u0027 (ID 5) oder \u0027characteristic\u0027 (ID 14) abgedeckt. Beide sind vorhanden; \u0027characteristic\u0027 ist passender für Eigentum.\\n- own als Konzept: Kein direkter Typ \u0027own\u0027, aber inhaltlich durch \u0027characteristic\u0027 (14) abgebildet.\\n- Alle benötigten Relationen können mit vorhandenen Typkodierungen abgebildet werden.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular bleibt unverändert. Die Hauptdiagonale enthält nur Typen mit identityMapping\u003dtrue: maria (1: object), swim (4: activity), own (14: characteristic – akzeptiert, da identityMapping\u003dtrue bei 14), pool (1: object). Außerhalb der Diagonale werden nur Typen mit identityMapping\u003dfalse verwendet: 8 (perform), 9 (target), 5 (attached), 14 (characteristic als Beziehung von own zu anderen). Die Matrix ist konsistent mit den Regeln.\"\n}"
+}

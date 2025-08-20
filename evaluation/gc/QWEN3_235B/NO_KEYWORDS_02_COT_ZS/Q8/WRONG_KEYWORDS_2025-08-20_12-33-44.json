@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      5,
+      6,
+      8
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, \u0027meine Tochter\u0027 wird als \u0027daughter\u0027 interpretiert und in Relation zu Maria gesetzt.\n3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027, \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\n4. Die selbstreferenziellen Begriffe \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt, gemäß den Regeln.\n5. Attribut-Eigenschaften: \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027ride\u0027 ist eine Aktivität (Typ 4).\n6. Relationen: \n   - Maria hat eine Tochter (Tochter-Beziehung → Typ 10 \u0027daughter\u0027).\n   - \u0027Boot\u0027 ist \u0027auf einem See\u0027 → hier wird \u0027boat\u0027 als \u0027attached\u0027 (Typ 5) oder \u0027under\u0027 (Typ 6) interpretiert; da der See unter dem Boot ist, wird \u0027under\u0027 (6) genommen, also See ist unter Boot.\n   - Boot steht über dem See → \u0027above\u0027 (Typ 7), wird symmetrisch zu \u0027under\u0027 verwendet.\n   - Maria und ihre Tochter führen gemeinsam die Aktivität \u0027ride\u0027 aus → \u0027perform\u0027 (Typ 8).\n7. Alle Relationen haben korrespondierende Typkodierungen:\n   - \u0027daughter\u0027 → ID 10 (erlaubt, identityMapping\u003dfalse, korrekt außerhalb Diagonale)\n   - \u0027attached\u0027 (Boot-See) → ID 5 (passend für räumliche Bindung)\n   - \u0027under\u0027 (See unter Boot) → ID 6\n   - \u0027above\u0027 (Boot über See) → ID 7\n   - \u0027perform\u0027 (Person führt Aktivität aus) → ID 8\n   - Aktivität \u0027ride\u0027 → ID 4 (activity, identityMapping\u003dtrue) in Diagonale.\n   - Objekte und Kontexte korrekt in Diagonale mit IDs 1 (object) oder 2 (context) eingetragen.\n   Alle verwendeten Typen existieren in der vorgegebenen Liste und werden regelkonform eingesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"matrix\": [\n    [1, 10, 5, 6, 8],\n    [10, 1, 0, 0, 0],\n    [5, 0, 1, 6, 0],\n    [0, 0, 7, 1, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027, \u0027meine Tochter\u0027 wird als \u0027daughter\u0027 interpretiert und in Relation zu Maria gesetzt.\\n3. Übersetzung ins Englische: \u0027Meine Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027, \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\\n4. Die selbstreferenziellen Begriffe \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt, gemäß den Regeln.\\n5. Attribut-Eigenschaften: \u0027Maria\u0027 und \u0027daughter\u0027 sind Objekte (Typ 1), \u0027lake\u0027 ist ein Kontext (Typ 2), \u0027boat\u0027 ist ein Objekt (Typ 1), \u0027ride\u0027 ist eine Aktivität (Typ 4).\\n6. Relationen: \\n   - Maria hat eine Tochter (Tochter-Beziehung → Typ 10 \u0027daughter\u0027).\\n   - \u0027Boot\u0027 ist \u0027auf einem See\u0027 → hier wird \u0027boat\u0027 als \u0027attached\u0027 (Typ 5) oder \u0027under\u0027 (Typ 6) interpretiert; da der See unter dem Boot ist, wird \u0027under\u0027 (6) genommen, also See ist unter Boot.\\n   - Boot steht über dem See → \u0027above\u0027 (Typ 7), wird symmetrisch zu \u0027under\u0027 verwendet.\\n   - Maria und ihre Tochter führen gemeinsam die Aktivität \u0027ride\u0027 aus → \u0027perform\u0027 (Typ 8).\\n7. Alle Relationen haben korrespondierende Typkodierungen:\\n   - \u0027daughter\u0027 → ID 10 (erlaubt, identityMapping\u003dfalse, korrekt außerhalb Diagonale)\\n   - \u0027attached\u0027 (Boot-See) → ID 5 (passend für räumliche Bindung)\\n   - \u0027under\u0027 (See unter Boot) → ID 6\\n   - \u0027above\u0027 (Boot über See) → ID 7\\n   - \u0027perform\u0027 (Person führt Aktivität aus) → ID 8\\n   - Aktivität \u0027ride\u0027 → ID 4 (activity, identityMapping\u003dtrue) in Diagonale.\\n   - Objekte und Kontexte korrekt in Diagonale mit IDs 1 (object) oder 2 (context) eingetragen.\\n   Alle verwendeten Typen existieren in der vorgegebenen Liste und werden regelkonform eingesetzt.\"\n}"
+}

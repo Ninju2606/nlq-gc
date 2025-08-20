@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 in der Anfrage \u0027Ich spiele Basketball\u0027 wird aufgelöst zur spezifizierten Identifikation \u0027Maria\u0027. Laut Regel wird \u0027maria\u0027 daher ins Vokabular übernommen, da es ein selbstidentifizierendes Pronomen (\u0027ich\u0027) gibt.\n\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Handelt es sich um eine Person, also ein Objekt → Typ \u0027object\u0027 (ID 1)\n   - \u0027play\u0027: Beschreibt eine Handlung/Aktivität → Typ \u0027activity\u0027 (ID 4)\n   - \u0027basketball\u0027: Ist ein Objekt, konkret ein Sportgerät oder Spiel → Typ \u0027object\u0027 (ID 1)\n\n3. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8): maria perform play\n   - Die Aktivität \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 → Relation \u0027target\u0027 (ID 9): play target basketball\n   - Zusätzlich wird auf der Diagonalen der Typ jedes Begriffs gesetzt.\n\n4. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1, identityMapping\u003dtrue) → gültig für Diagonale\n   - \u0027activity\u0027 (ID 4, identityMapping\u003dtrue) → gültig für Diagonale\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → gültig für Off-Diagonale\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → gültig für Off-Diagonale\n   → Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\n\n5. Zusammenstellung des GraphCodes:\n   - Vokabular bleibt wie gegeben: [\"maria\", \"play\", \"basketball\"]\n   - Bewertungsmatrix 3x3:\n     - (0,0): maria → object → 1\n     - (1,1): play → activity → 4\n     - (2,2): basketball → object → 1\n     - (0,1): maria perform play → 8\n     - (1,2): play target basketball → 9\n     - Alle anderen Einträge bleiben 0, da keine weiteren Relationen vorliegen.\n   → Matrix: [[1,8,0],[0,4,9],[0,0,1]]",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 in der Anfrage \u0027Ich spiele Basketball\u0027 wird aufgelöst zur spezifizierten Identifikation \u0027Maria\u0027. Laut Regel wird \u0027maria\u0027 daher ins Vokabular übernommen, da es ein selbstidentifizierendes Pronomen (\u0027ich\u0027) gibt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Handelt es sich um eine Person, also ein Objekt → Typ \u0027object\u0027 (ID 1)\\n   - \u0027play\u0027: Beschreibt eine Handlung/Aktivität → Typ \u0027activity\u0027 (ID 4)\\n   - \u0027basketball\u0027: Ist ein Objekt, konkret ein Sportgerät oder Spiel → Typ \u0027object\u0027 (ID 1)\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8): maria perform play\\n   - Die Aktivität \u0027play\u0027 bezieht sich auf das Objekt \u0027basketball\u0027 → Relation \u0027target\u0027 (ID 9): play target basketball\\n   - Zusätzlich wird auf der Diagonalen der Typ jedes Begriffs gesetzt.\\n\\n4. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1, identityMapping\u003dtrue) → gültig für Diagonale\\n   - \u0027activity\u0027 (ID 4, identityMapping\u003dtrue) → gültig für Diagonale\\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → gültig für Off-Diagonale\\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → gültig für Off-Diagonale\\n   → Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\\n\\n5. Zusammenstellung des GraphCodes:\\n   - Vokabular bleibt wie gegeben: [\\\"maria\\\", \\\"play\\\", \\\"basketball\\\"]\\n   - Bewertungsmatrix 3x3:\\n     - (0,0): maria → object → 1\\n     - (1,1): play → activity → 4\\n     - (2,2): basketball → object → 1\\n     - (0,1): maria perform play → 8\\n     - (1,2): play target basketball → 9\\n     - Alle anderen Einträge bleiben 0, da keine weiteren Relationen vorliegen.\\n   → Matrix: [[1,8,0],[0,4,9],[0,0,1]]\"\n}"
+}

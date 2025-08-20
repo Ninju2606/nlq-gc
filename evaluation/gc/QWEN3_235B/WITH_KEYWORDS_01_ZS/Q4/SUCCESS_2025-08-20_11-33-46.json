@@ -1,0 +1,38 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Der GraphCode modelliert, dass Maria (maria) die Aktivitäten \u0027schwimmen\u0027 (swim) und \u0027Besitzen\u0027 (own) ausführt. Die Schwimmtätigkeit hat den Pool (pool) als Zielort (target), ebenso zeigt die Besitzrelation (own) auf den Pool. Diagonaleinträge kodieren Objekte (id 1) und Aktivitäten (id 4), während perform (8) und target (9) die semantischen Beziehungen abbilden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode modelliert, dass Maria (maria) die Aktivitäten \u0027schwimmen\u0027 (swim) und \u0027Besitzen\u0027 (own) ausführt. Die Schwimmtätigkeit hat den Pool (pool) als Zielort (target), ebenso zeigt die Besitzrelation (own) auf den Pool. Diagonaleinträge kodieren Objekte (id 1) und Aktivitäten (id 4), während perform (8) und target (9) die semantischen Beziehungen abbilden.\"\n}"
+}

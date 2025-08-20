@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und semantisch unklar. Die Struktur mit \u0027um...zu\u0027 erfordert einen vollständigen Satz (z.B. \u0027Ich male Häuser, um Fragen zu stellen\u0027), enthält aber keinen logischen Handlungszusammenhang zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Es lässt sich keine klare Objekt-Aktivitäts-Relation ableiten, die den vorgegebenen Typkodierungen entspricht. Zudem fehlen notwendige Bezüge wie Subjekte oder Zielrichtungen für eine sinnvolle GraphCode-Generierung.",
+  "error": "Ungültige Anfrage",
+  "responsePlain": "{\n  \"error\": \"Ungültige Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und semantisch unklar. Die Struktur mit \u0027um...zu\u0027 erfordert einen vollständigen Satz (z.B. \u0027Ich male Häuser, um Fragen zu stellen\u0027), enthält aber keinen logischen Handlungszusammenhang zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027. Es lässt sich keine klare Objekt-Aktivitäts-Relation ableiten, die den vorgegebenen Typkodierungen entspricht. Zudem fehlen notwendige Bezüge wie Subjekte oder Zielrichtungen für eine sinnvolle GraphCode-Generierung.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst und durch die Identifikation des Nutzers ersetzt, also \u0027Maria\u0027.\n\n3. Übersetzung der Stichwörter ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Lehnwort erhalten.\n\n4. Der Verweis \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da in der Anfrage auf den Anfragensteller Bezug genommen wird.\n\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist eine Person und damit ein Objekt → Typ 1 (object)\n   - \u0027play\u0027 ist eine Handlung → Typ 4 (activity)\n   - \u0027basketball\u0027 ist ein Objekt → Typ 1 (object)\n\n6. Relationen zwischen den Begriffen:\n   - Maria führt die Handlung \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ 8) von Maria zu play\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (Typ 9) von play zu basketball\n\n7. Überprüfung der Typkodierungen:\n   - \u0027perform\u0027 (Typ 8, ID 8) → vorhanden\n   - \u0027target\u0027 (Typ 9, ID 9) → vorhanden\n   - Alle Objekt-Typen (object, ID 1) und activity (ID 4) sind in den Typkodierungen enthalten, alle benötigten Beziehungen außerhalb der Diagonale nutzen IDs mit identityMapping\u003dfalse.\n\n8. Der GraphCode wurde erfolgreich erstellt: Das Vokabular enthält die Begriffe in englischer Form, die Matrix ist 3x3, die Diagonale enthält nur Typen mit identityMapping\u003dtrue (IDs 1 und 4), alle anderen Einträge entsprechen den erlaubten Beziehungstypen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst und durch die Identifikation des Nutzers ersetzt, also \u0027Maria\u0027.\\n\\n3. Übersetzung der Stichwörter ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Lehnwort erhalten.\\n\\n4. Der Verweis \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da in der Anfrage auf den Anfragensteller Bezug genommen wird.\\n\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist eine Person und damit ein Objekt → Typ 1 (object)\\n   - \u0027play\u0027 ist eine Handlung → Typ 4 (activity)\\n   - \u0027basketball\u0027 ist ein Objekt → Typ 1 (object)\\n\\n6. Relationen zwischen den Begriffen:\\n   - Maria führt die Handlung \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ 8) von Maria zu play\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (Typ 9) von play zu basketball\\n\\n7. Überprüfung der Typkodierungen:\\n   - \u0027perform\u0027 (Typ 8, ID 8) → vorhanden\\n   - \u0027target\u0027 (Typ 9, ID 9) → vorhanden\\n   - Alle Objekt-Typen (object, ID 1) und activity (ID 4) sind in den Typkodierungen enthalten, alle benötigten Beziehungen außerhalb der Diagonale nutzen IDs mit identityMapping\u003dfalse.\\n\\n8. Der GraphCode wurde erfolgreich erstellt: Das Vokabular enthält die Begriffe in englischer Form, die Matrix ist 3x3, die Diagonale enthält nur Typen mit identityMapping\u003dtrue (IDs 1 und 4), alle anderen Einträge entsprechen den erlaubten Beziehungstypen.\"\n}"
+}

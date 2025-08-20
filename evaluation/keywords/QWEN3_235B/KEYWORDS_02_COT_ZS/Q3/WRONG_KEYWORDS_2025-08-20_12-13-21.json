@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in einem Pool, der mir gehört. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Relative Verweise wie \u0027mir\u0027 wurden aufgelöst zu \u0027Maria\u0027. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027. Die Identifikation des Nutzers \u0027Maria\u0027 wurde eingefügt, da die Anfrage demonstrative Pronomen wie \u0027mir\u0027 enthält. Wurzelverallgemeinerung angewendet: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027gehört\u0027 → \u0027belong\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"belong\"\n  ],\n  \"description\": \"Ich schwimme in einem Pool, der mir gehört. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Relative Verweise wie \u0027mir\u0027 wurden aufgelöst zu \u0027Maria\u0027. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027. Die Identifikation des Nutzers \u0027Maria\u0027 wurde eingefügt, da die Anfrage demonstrative Pronomen wie \u0027mir\u0027 enthält. Wurzelverallgemeinerung angewendet: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027gehört\u0027 → \u0027belong\u0027.\"\n}"
+}

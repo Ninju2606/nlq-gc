@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Häuser um Fragen zu malen",
+  "error": "Die Anfrage ist grammatikalisch unklar oder fehlerhaft und lässt keine sinnvolle Extraktion von Begriffen für ein Vokabular zu.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar oder fehlerhaft und lässt keine sinnvolle Extraktion von Begriffen für ein Vokabular zu.\",\n  \"description\": \"Häuser um Fragen zu malen\"\n}"
+}

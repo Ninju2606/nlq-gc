@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      8,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 mit ID 6 ausgedrückt, da \u0027in\u0027 im Kontext von dreidimensionalen Räumen als \u0027unter der Wasseroberfläche\u0027 interpretiert werden kann. Die Zugehörigkeit \u0027own\u0027 wird durch \u0027attached\u0027 (ID 5) abgebildet, da es eine Besitzbeziehung darstellt. Das Attribut \u0027characteristic\u0027 (ID 14) verbindet \u0027own\u0027 mit \u0027pool\u0027 als Eigenschaft der Beziehung. \u0027swim\u0027 ist eine Aktivität (ID 4), die von Maria ausgeführt wird (perform, ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 6],\n    [0, 4, 0, 6],\n    [0, 0, 8, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 mit ID 6 ausgedrückt, da \u0027in\u0027 im Kontext von dreidimensionalen Räumen als \u0027unter der Wasseroberfläche\u0027 interpretiert werden kann. Die Zugehörigkeit \u0027own\u0027 wird durch \u0027attached\u0027 (ID 5) abgebildet, da es eine Besitzbeziehung darstellt. Das Attribut \u0027characteristic\u0027 (ID 14) verbindet \u0027own\u0027 mit \u0027pool\u0027 als Eigenschaft der Beziehung. \u0027swim\u0027 ist eine Aktivität (ID 4), die von Maria ausgeführt wird (perform, ID 8).\"\n}"
+}

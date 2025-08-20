@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch verwirrend und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu.",
+  "error": "Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch verwirrend und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch verwirrend und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu.\",\n  \"description\": \"Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch verwirrend und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu.\"\n}"
+}

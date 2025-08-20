@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim rennt. Da die Handlung indirekt über eine dritte Person (Tim) erfolgt, wird der Nutzer \u0027Maria\u0027 im Vokabular hinzugefügt, weil die Regel besagt, dass bei Handlungen, die der Nutzer beschreibt und die seine Person betreffen, die Nutzeridentifikation im Vokabular erscheint. Hier beschreibt Maria jedoch eine Handlung von Tim, daher wird Tim als Objekt und \u0027run\u0027 als Aktivität betrachtet. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird über die Typkodierung \u0027perform\u0027 (ID 8) verbunden. Da \u0027tim\u0027 ein Objekt ist (ID 1) und \u0027run\u0027 eine Aktivität (ID 4), werden die Diagonaleinträge entsprechend gesetzt. Die Relation \u0027daughter\u0027 (ID 10) verbindet Maria mit Tim, um den Kontext der Benennung abzubilden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [\n    [1, 10, 0],\n    [0, 1, 8],\n    [0, 0, 4]\n  ],\n  \"description\": \"Tim rennt. Da die Handlung indirekt über eine dritte Person (Tim) erfolgt, wird der Nutzer \u0027Maria\u0027 im Vokabular hinzugefügt, weil die Regel besagt, dass bei Handlungen, die der Nutzer beschreibt und die seine Person betreffen, die Nutzeridentifikation im Vokabular erscheint. Hier beschreibt Maria jedoch eine Handlung von Tim, daher wird Tim als Objekt und \u0027run\u0027 als Aktivität betrachtet. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird über die Typkodierung \u0027perform\u0027 (ID 8) verbunden. Da \u0027tim\u0027 ein Objekt ist (ID 1) und \u0027run\u0027 eine Aktivität (ID 4), werden die Diagonaleinträge entsprechend gesetzt. Die Relation \u0027daughter\u0027 (ID 10) verbindet Maria mit Tim, um den Kontext der Benennung abzubilden.\"\n}"
+}

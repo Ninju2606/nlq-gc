@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren zusammen Boot auf einem See. Die Beziehung \u0027daughter\u0027 wird über die Typkodierung \u0027daughter\u0027 (ID 10) zwischen Maria und dem Begriff \u0027daughter\u0027 hergestellt. Die Aktivität \u0027ride\u0027 (Boot fahren) wird über die Typkodierung \u0027perform\u0027 (ID 8) Maria zugeordnet. Das Boot steht in räumlichem Kontext \u0027on\u0027 (als \u0027attached\u0027, ID 5, da kein \u0027on\u0027 vorhanden ist, aber \u0027attached\u0027 identityMapping\u003dfalse hat und als generische Verbindung verwendet werden kann) zum See. Der See bildet den Kontext \u0027in\u0027 (hier über \u0027under\u0027, ID 6 – als Umkehrung von \u0027above\u0027, interpretiert als räumliche Einbettung). Die Aktivität \u0027ride\u0027 wird als \u0027activity\u0027 (ID 4) klassifiziert.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"matrix\": [\n    [1, 10, 0, 0, 8],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 6, 5],\n    [0, 0, 0, 1, 5],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren zusammen Boot auf einem See. Die Beziehung \u0027daughter\u0027 wird über die Typkodierung \u0027daughter\u0027 (ID 10) zwischen Maria und dem Begriff \u0027daughter\u0027 hergestellt. Die Aktivität \u0027ride\u0027 (Boot fahren) wird über die Typkodierung \u0027perform\u0027 (ID 8) Maria zugeordnet. Das Boot steht in räumlichem Kontext \u0027on\u0027 (als \u0027attached\u0027, ID 5, da kein \u0027on\u0027 vorhanden ist, aber \u0027attached\u0027 identityMapping\u003dfalse hat und als generische Verbindung verwendet werden kann) zum See. Der See bildet den Kontext \u0027in\u0027 (hier über \u0027under\u0027, ID 6 – als Umkehrung von \u0027above\u0027, interpretiert als räumliche Einbettung). Die Aktivität \u0027ride\u0027 wird als \u0027activity\u0027 (ID 4) klassifiziert.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch verwirrend und semantisch unklar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und wie sie zueinander in Beziehung stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.",
+  "error": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch verwirrend und semantisch unklar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und wie sie zueinander in Beziehung stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch verwirrend und semantisch unklar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und wie sie zueinander in Beziehung stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch verwirrend und semantisch unklar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind, und wie sie zueinander in Beziehung stehen. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.\"\n}"
+}

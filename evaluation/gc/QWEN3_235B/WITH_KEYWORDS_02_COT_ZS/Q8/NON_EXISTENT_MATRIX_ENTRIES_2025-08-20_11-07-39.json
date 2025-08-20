@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. \u0027Meine Tochter\u0027 wird im aktuellen Vokabular nicht explizit abgebildet, ist aber implizit über die Beziehung \u0027daughter\u0027 zu erfassen – dieser Begriff fehlt jedoch im Vokabular. Da \u0027Tochter\u0027 nicht enthalten ist und auch kein Synonym oder anderer Stellvertreter verwendet wird, kann die Relation \u0027daughter\u0027 nicht vollständig abgebildet werden. Allerdings wird die Aktivität \u0027fahren\u0027 von \u0027Maria\u0027 (repräsentiert als \u0027maria\u0027 und \u0027person\u0027) ausgeführt, also wird \u0027ich\u0027 korrekt als \u0027maria\u0027 erfasst. Der Begriff \u0027person\u0027 wird als Attribut zur Typisierung verwendet.\n\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\n   - \u0027maria\u0027: konkrete Instanz einer Person → Typ \u0027object\u0027 (id\u003d1), da es eine individuelle Identität darstellt.\n   - \u0027person\u0027: allgemeiner Typ, beschreibt die Kategorie → Typ \u0027object\u0027 (id\u003d1), da es ein Objekt im Sinne eines Entitätstyps ist.\n   - \u0027drive\u0027: beschreibt eine Aktion → Typ \u0027activity\u0027 (id\u003d4).\n   - \u0027boat\u0027: physisches Objekt → Typ \u0027object\u0027 (id\u003d1).\n   - \u0027lake\u0027: geografisches Objekt / Kontext → Typ \u0027context\u0027 (id\u003d2), da es den Ort der Handlung angibt.\n\n3. Die Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 ist eine \u0027person\u0027 → Relation \u0027synonym\u0027 oder allgemeiner \u0027object\u0027-Typisierung. Da beides Objekte sind und Identitätszuordnung erlaubt ist, wird id\u003d1 (object) in der Diagonalen verwendet, und die Beziehung kann als Typzuordnung (object) verstanden werden.\n   - \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus → Relation \u0027perform\u0027 (id\u003d8).\n   - \u0027drive\u0027 hat als Ziel \u0027boat\u0027 → Relation \u0027target\u0027 (id\u003d9).\n   - \u0027boat\u0027 ist \u0027auf\u0027 einem \u0027lake\u0027 → räumliche Beziehung \u0027above\u0027 (id\u003d7) oder \u0027on\u0027. Da \u0027above\u0027 verfügbar ist, wird id\u003d7 verwendet.\n   - Zusätzlich wird implizit \u0027Tochter\u0027 als Teilnehmer erfasst, dieser Begriff fehlt jedoch im Vokabular. Die Relation \u0027daughter\u0027 (id\u003d10) könnte verwendet werden, wenn \u0027daughter\u0027 oder ein entsprechendes Objekt vorhanden wäre. Da dies nicht der Fall ist, kann diese Beziehung nicht dargestellt werden.\n\n4. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (id\u003d1): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\n   - \u0027context\u0027 (id\u003d2): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\n   - \u0027activity\u0027 (id\u003d4): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\n   - \u0027perform\u0027 (id\u003d8): vorhanden, identityMapping\u003dfalse → gültig für Nicht-Diagonale.\n   - \u0027target\u0027 (id\u003d9): vorhanden, identityMapping\u003dfalse → gültig für Nicht-Diagonale.\n   - \u0027above\u0027 (id\u003d7): vorhanden, identityMapping\u003dfalse → gültig für Nicht-Diagonale.\n   - \u0027attached\u0027 (id\u003d5) wird hier nicht benötigt.\n   - Die Relation \u0027daughter\u0027 (id\u003d10) würde benötigt, um \u0027Tochter\u0027 zu beschreiben, aber da \u0027daughter\u0027 oder ein entsprechendes Objekt im Vokabular fehlt, kann die Beziehung nicht abgebildet werden. Da die Anfrage explizit \u0027Meine Tochter\u0027 nennt, ist dies ein zentraler Bestandteil der Szene. Ohne entsprechenden Eintrag im Vokabular kann der GraphCode die Anfrage nicht vollständig repräsentieren.\n   → FEHLER: Die Person \u0027Tochter\u0027 wird in der Anfrage genannt, aber fehlt im Vokabular. Es gibt keinen Begriff wie \u0027daughter\u0027 oder \u0027child\u0027 im Vokabular, um diese zu erfassen. Auch wenn die Relation id\u003d10 (\u0027daughter\u0027) existiert, fehlt das passende Objekt. Daher ist der GraphCode inkorrekt oder unvollständig.\n\n→ Aufgrund des fehlenden Schlüsselbegriffs \u0027daughter\u0027 oder eines äquivalenten Begriffs im Vokabular kann der GraphCode die gesamte Anfrage nicht korrekt abbilden. Die Aufgabe verlangt, den GraphCode zu generieren, aber gemäß den Regeln muss ein Fehler ausgegeben werden, wenn nicht alle Relationen abgebildet werden können. Da die Anfrage \u0027Meine Tochter\u0027 enthält und diese nicht im Vokabular vorhanden ist, ist die Generierung eines korrekten GraphCodes nicht möglich.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 1, 0, 0, 0],\n    [1, 1, 0, 0, 0],\n    [0, 0, 4, 8, 9],\n    [0, 0, 0, 1, 5],\n    [0, 0, 0, 6, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. \u0027Meine Tochter\u0027 wird im aktuellen Vokabular nicht explizit abgebildet, ist aber implizit über die Beziehung \u0027daughter\u0027 zu erfassen – dieser Begriff fehlt jedoch im Vokabular. Da \u0027Tochter\u0027 nicht enthalten ist und auch kein Synonym oder anderer Stellvertreter verwendet wird, kann die Relation \u0027daughter\u0027 nicht vollständig abgebildet werden. Allerdings wird die Aktivität \u0027fahren\u0027 von \u0027Maria\u0027 (repräsentiert als \u0027maria\u0027 und \u0027person\u0027) ausgeführt, also wird \u0027ich\u0027 korrekt als \u0027maria\u0027 erfasst. Der Begriff \u0027person\u0027 wird als Attribut zur Typisierung verwendet.\\n\\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027: konkrete Instanz einer Person → Typ \u0027object\u0027 (id\u003d1), da es eine individuelle Identität darstellt.\\n   - \u0027person\u0027: allgemeiner Typ, beschreibt die Kategorie → Typ \u0027object\u0027 (id\u003d1), da es ein Objekt im Sinne eines Entitätstyps ist.\\n   - \u0027drive\u0027: beschreibt eine Aktion → Typ \u0027activity\u0027 (id\u003d4).\\n   - \u0027boat\u0027: physisches Objekt → Typ \u0027object\u0027 (id\u003d1).\\n   - \u0027lake\u0027: geografisches Objekt / Kontext → Typ \u0027context\u0027 (id\u003d2), da es den Ort der Handlung angibt.\\n\\n3. Die Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 ist eine \u0027person\u0027 → Relation \u0027synonym\u0027 oder allgemeiner \u0027object\u0027-Typisierung. Da beides Objekte sind und Identitätszuordnung erlaubt ist, wird id\u003d1 (object) in der Diagonalen verwendet, und die Beziehung kann als Typzuordnung (object) verstanden werden.\\n   - \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus → Relation \u0027perform\u0027 (id\u003d8).\\n   - \u0027drive\u0027 hat als Ziel \u0027boat\u0027 → Relation \u0027target\u0027 (id\u003d9).\\n   - \u0027boat\u0027 ist \u0027auf\u0027 einem \u0027lake\u0027 → räumliche Beziehung \u0027above\u0027 (id\u003d7) oder \u0027on\u0027. Da \u0027above\u0027 verfügbar ist, wird id\u003d7 verwendet.\\n   - Zusätzlich wird implizit \u0027Tochter\u0027 als Teilnehmer erfasst, dieser Begriff fehlt jedoch im Vokabular. Die Relation \u0027daughter\u0027 (id\u003d10) könnte verwendet werden, wenn \u0027daughter\u0027 oder ein entsprechendes Objekt vorhanden wäre. Da dies nicht der Fall ist, kann diese Beziehung nicht dargestellt werden.\\n\\n4. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (id\u003d1): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\\n   - \u0027context\u0027 (id\u003d2): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\\n   - \u0027activity\u0027 (id\u003d4): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\\n   - \u0027perform\u0027 (id\u003d8): vorhanden, identityMapping\u003dfalse → gültig für Nicht-Diagonale.\\n   - \u0027target\u0027 (id\u003d9): vorhanden, identityMapping\u003dfalse → gültig für Nicht-Diagonale.\\n   - \u0027above\u0027 (id\u003d7): vorhanden, identityMapping\u003dfalse → gültig für Nicht-Diagonale.\\n   - \u0027attached\u0027 (id\u003d5) wird hier nicht benötigt.\\n   - Die Relation \u0027daughter\u0027 (id\u003d10) würde benötigt, um \u0027Tochter\u0027 zu beschreiben, aber da \u0027daughter\u0027 oder ein entsprechendes Objekt im Vokabular fehlt, kann die Beziehung nicht abgebildet werden. Da die Anfrage explizit \u0027Meine Tochter\u0027 nennt, ist dies ein zentraler Bestandteil der Szene. Ohne entsprechenden Eintrag im Vokabular kann der GraphCode die Anfrage nicht vollständig repräsentieren.\\n   → FEHLER: Die Person \u0027Tochter\u0027 wird in der Anfrage genannt, aber fehlt im Vokabular. Es gibt keinen Begriff wie \u0027daughter\u0027 oder \u0027child\u0027 im Vokabular, um diese zu erfassen. Auch wenn die Relation id\u003d10 (\u0027daughter\u0027) existiert, fehlt das passende Objekt. Daher ist der GraphCode inkorrekt oder unvollständig.\\n\\n→ Aufgrund des fehlenden Schlüsselbegriffs \u0027daughter\u0027 oder eines äquivalenten Begriffs im Vokabular kann der GraphCode die gesamte Anfrage nicht korrekt abbilden. Die Aufgabe verlangt, den GraphCode zu generieren, aber gemäß den Regeln muss ein Fehler ausgegeben werden, wenn nicht alle Relationen abgebildet werden können. Da die Anfrage \u0027Meine Tochter\u0027 enthält und diese nicht im Vokabular vorhanden ist, ist die Generierung eines korrekten GraphCodes nicht möglich.\"\n}"
+}

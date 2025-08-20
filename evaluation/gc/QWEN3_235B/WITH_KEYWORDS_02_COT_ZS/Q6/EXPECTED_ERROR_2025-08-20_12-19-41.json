@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027wir\u0027 wurde auf die Nutzer-Identifikation \u0027Maria\u0027 aufgelöst, da die Aufgabe vorsieht, bei Handlungsbezug die spezifizierte Identifikation zu nutzen. 2. \u0027maria\u0027 ist ein Objekt (Typ-ID 1), \u0027make\u0027 eine Aktivität (Typ-ID 4), \u0027appointment\u0027 ein Objekt (Typ-ID 1). 3. Maria (Subject) führt die Aktivität \u0027make\u0027 durch (Relation \u0027perform\u0027, ID 8), die auf \u0027appointment\u0027 als Ziel verweist (Relation \u0027target\u0027, ID 9). 4. Alle Relationen finden passende Typkodierungen: \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) sind in der vorgegebenen Liste vorhanden. 5. Der GraphCode wurde entsprechend der Vokabularreihenfolge und den validen Relationen erstellt, Diagonaleinträge entsprechen den Attribut-Typen mit identityMapping\u003dtrue.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027wir\u0027 wurde auf die Nutzer-Identifikation \u0027Maria\u0027 aufgelöst, da die Aufgabe vorsieht, bei Handlungsbezug die spezifizierte Identifikation zu nutzen. 2. \u0027maria\u0027 ist ein Objekt (Typ-ID 1), \u0027make\u0027 eine Aktivität (Typ-ID 4), \u0027appointment\u0027 ein Objekt (Typ-ID 1). 3. Maria (Subject) führt die Aktivität \u0027make\u0027 durch (Relation \u0027perform\u0027, ID 8), die auf \u0027appointment\u0027 als Ziel verweist (Relation \u0027target\u0027, ID 9). 4. Alle Relationen finden passende Typkodierungen: \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) sind in der vorgegebenen Liste vorhanden. 5. Der GraphCode wurde entsprechend der Vokabularreihenfolge und den validen Relationen erstellt, Diagonaleinträge entsprechen den Attribut-Typen mit identityMapping\u003dtrue.\"\n}"
+}

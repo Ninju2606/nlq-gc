@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"meinem\", \"Pool\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"I\", \"swim\", \"my\", \"pool\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\".\n        5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität.\n        6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" hat die räumliche Beziehung \"in\" zum Objekt \"pool\". Diese Beziehung wird als \"target\" mit Kontext \"in\" abgebildet.\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die räumliche Beziehung \"in\" wird im Kontext über \"target\" erfasst, da explizit ein \"in\"-Typ fehlt, jedoch der Eintrag \"under\", \"above\" und \"attached\" vorhanden sind. Allerdings fehlt explizit ein Typ für \"in\". In den vorgegebenen Typkodierungen existiert kein Eintrag für \"in\". Daher ist die Beziehung nicht direkt abbildbar. → Fehler.\n        \n        Korrektur: Es wurde zunächst fälschlicherweise angenommen, dass \"target\" die räumliche Beziehung \"in\" erfassen kann. Tatsächlich beschreibt \"target\" lediglich die inhaltliche Zielsetzung einer Aktivität (z. B. mit wem oder was die Aktivität stattfindet), nicht die räumliche Position. Die tatsächliche räumliche Beziehung \"in\" müsste durch einen eigenen Typkodierungseintrag wie \"in\" oder vergleichbar dargestellt werden. Da in den bereitgestellten Typkodierungen kein Eintrag für \"in\" existiert (nur \"under\" mit ID 6 und \"above\" mit ID 7), kann die Relation \"in\" nicht abgebildet werden.\n        \n        → Fehler: Die Relation \"in\" ist nicht in den vorgegebenen Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"meinem\\\", \\\"Pool\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"my\\\", \\\"pool\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n        5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" hat die räumliche Beziehung \\\"in\\\" zum Objekt \\\"pool\\\". Diese Beziehung wird als \\\"target\\\" mit Kontext \\\"in\\\" abgebildet.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die räumliche Beziehung \\\"in\\\" wird im Kontext über \\\"target\\\" erfasst, da explizit ein \\\"in\\\"-Typ fehlt, jedoch der Eintrag \\\"under\\\", \\\"above\\\" und \\\"attached\\\" vorhanden sind. Allerdings fehlt explizit ein Typ für \\\"in\\\". In den vorgegebenen Typkodierungen existiert kein Eintrag für \\\"in\\\". Daher ist die Beziehung nicht direkt abbildbar. → Fehler.\\n        \\n        Korrektur: Es wurde zunächst fälschlicherweise angenommen, dass \\\"target\\\" die räumliche Beziehung \\\"in\\\" erfassen kann. Tatsächlich beschreibt \\\"target\\\" lediglich die inhaltliche Zielsetzung einer Aktivität (z. B. mit wem oder was die Aktivität stattfindet), nicht die räumliche Position. Die tatsächliche räumliche Beziehung \\\"in\\\" müsste durch einen eigenen Typkodierungseintrag wie \\\"in\\\" oder vergleichbar dargestellt werden. Da in den bereitgestellten Typkodierungen kein Eintrag für \\\"in\\\" existiert (nur \\\"under\\\" mit ID 6 und \\\"above\\\" mit ID 7), kann die Relation \\\"in\\\" nicht abgebildet werden.\\n        \\n        → Fehler: Die Relation \\\"in\\\" ist nicht in den vorgegebenen Typkodierungen enthalten.\"\n}"
+}

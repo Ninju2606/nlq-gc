@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht sinnvoll interpretierbar.",
+  "error": "Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht sinnvoll interpretierbar.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht sinnvoll interpretierbar.\",\n  \"description\": \"Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht sinnvoll interpretierbar.\"\n}"
+}

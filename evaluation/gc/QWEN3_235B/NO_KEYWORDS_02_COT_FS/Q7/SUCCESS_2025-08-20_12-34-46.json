@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage ermittelt werden, da der Satz grammatikalisch nicht korrekt und inhaltlich unklar ist. \u0027Häuser um Fragen zu malen\u0027 ergibt im gegebenen Kontext keinen Sinn – weder als Handlung noch als Szenenbeschreibung im Metaverse. Daher kann kein valides Vokabular oder keine sinnvolle Relationsstruktur abgeleitet werden.",
+  "error": "Die Anfrage enthält unklare oder grammatikalische Fehler: \u0027Häuser um Fragen zu malen\u0027 ist nicht sinnvoll verstehbar. Möglicherweise ist die Absicht unklar oder es liegt ein Syntaxfehler vor.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält unklare oder grammatikalische Fehler: \u0027Häuser um Fragen zu malen\u0027 ist nicht sinnvoll verstehbar. Möglicherweise ist die Absicht unklar oder es liegt ein Syntaxfehler vor.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage ermittelt werden, da der Satz grammatikalisch nicht korrekt und inhaltlich unklar ist. \u0027Häuser um Fragen zu malen\u0027 ergibt im gegebenen Kontext keinen Sinn – weder als Handlung noch als Szenenbeschreibung im Metaverse. Daher kann kein valides Vokabular oder keine sinnvolle Relationsstruktur abgeleitet werden.\"\n}"
+}

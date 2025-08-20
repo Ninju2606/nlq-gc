@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittlung der Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027. Relative Verweise wie \u0027meine\u0027 und \u0027ich\u0027 werden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027. Verallgemeinerung der Wortstämme: \u0027fahren\u0027 wird zu \u0027ride\u0027. Die Szene beschreibt eine Aktivität im Metaverse, in der Maria mit ihrer Tochter gemeinsam Boot fährt. Alle Begriffe sind klar und grammatikalisch sinnvoll. Der GraphCode kann korrekt generiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"description\": \"Ermittlung der Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027. Relative Verweise wie \u0027meine\u0027 und \u0027ich\u0027 werden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027. Verallgemeinerung der Wortstämme: \u0027fahren\u0027 wird zu \u0027ride\u0027. Die Szene beschreibt eine Aktivität im Metaverse, in der Maria mit ihrer Tochter gemeinsam Boot fährt. Alle Begriffe sind klar und grammatikalisch sinnvoll. Der GraphCode kann korrekt generiert werden.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Stichwörter für die Suche nach Situationen mit gelbem Hut wurden extrahiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"description\": \"Stichwörter für die Suche nach Situationen mit gelbem Hut wurden extrahiert.\"\n}"
+}

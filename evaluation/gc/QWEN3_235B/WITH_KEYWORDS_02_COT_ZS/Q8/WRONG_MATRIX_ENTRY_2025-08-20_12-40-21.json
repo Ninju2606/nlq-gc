@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      9,
+      7,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.68,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen:\n   - \u0027Ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n   - \u0027Meine Tochter\u0027 wird als relationale Verbindung zwischen \u0027Maria\u0027 und einer weiteren Person interpretiert. Da \"daughter\" im Vokabular fehlt, wird stattdessen die Beziehung \u0027daughter\u0027 (ID 10) zwischen \u0027maria\u0027 und \u0027person\u0027 verwendet, um die familiäre Beziehung darzustellen.\n\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Typ \u0027object\u0027 (ID 1), da es ein konkretes Objekt (eine Person) ist. Auf der Diagonale mit identityMapping\u003dtrue.\n   - \u0027person\u0027: Typ \u0027object\u0027 (ID 1), allgemeiner Typ einer Entität; hier für die Tochter. identityMapping\u003dtrue.\n   - \u0027drive\u0027: Aktivität (ID 4), beschreibt eine Handlung. identityMapping\u003dtrue.\n   - \u0027boat\u0027: Objekt (ID 1), ein transportfähiges Objekt. identityMapping\u003dtrue.\n   - \u0027lake\u0027: Objekt (ID 1), ein geographisches Objekt. identityMapping\u003dtrue.\n\n3. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 hat eine \u0027daughter\u0027-Beziehung (ID 10) zu \u0027person\u0027 (der Tochter).\n   - \u0027person\u0027 (die Tochter) und \u0027Maria\u0027 führen gemeinsam die Aktivität \u0027drive\u0027 aus → Beziehung \u0027perform\u0027 (ID 8) von \u0027drive\u0027 zu beiden Personen.\n   - \u0027drive\u0027 bezieht sich auf das Objekt \u0027boat\u0027 (mittels \u0027attached\u0027, ID 5) – sie fahren *ein Boot*.\n   - \u0027drive\u0027 bezieht sich außerdem auf den Ort \u0027lake\u0027 (mittels \u0027target\u0027, ID 9) – das Ziel oder der Ort der Aktion ist der See.\n   - \u0027boat\u0027 ist *auf* dem \u0027lake\u0027 → räumliche Beziehung \u0027above\u0027 (ID 7) von \u0027boat\u0027 zu \u0027lake\u0027.\n   - Umgekehrt ist \u0027lake\u0027 *unter* \u0027boat\u0027 → Beziehung \u0027under\u0027 (ID 6) von \u0027lake\u0027 zu \u0027boat\u0027.\n\n4. Überprüfung der Typkodierungen:\n   - object (ID 1): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\n   - context (ID 2): nicht verwendet.\n   - synonym (ID 3): nicht verwendet.\n   - activity (ID 4): gültig für \u0027drive\u0027.\n   - attached (ID 5): vorhanden, identityMapping\u003dfalse → gültig für \u0027drive\u0027 → \u0027boat\u0027.\n   - under (ID 6): vorhanden, identityMapping\u003dfalse → gültig für \u0027lake\u0027 → \u0027boat\u0027.\n   - above (ID 7): vorhanden, identityMapping\u003dfalse → gültig für \u0027boat\u0027 → \u0027lake\u0027.\n   - perform (ID 8): vorhanden, identityMapping\u003dfalse → gültig für \u0027drive\u0027 → \u0027maria\u0027 und \u0027drive\u0027 → \u0027person\u0027.\n   - target (ID 9): vorhanden, identityMapping\u003dfalse → gültig für \u0027drive\u0027 → \u0027lake\u0027.\n   - daughter (ID 10): vorhanden, identityMapping\u003dfalse → gültig für \u0027maria\u0027 → \u0027person\u0027.\n   - characteristic (ID 14): nicht benötigt.\n   → Alle benötigten Relationen sind in den Typkodierungen enthalten.\n\n5. Zusammenstellung des GraphCodes:\n   - Vokabular bleibt unverändert: [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"].\n   - Bewertungsmatrix 5x5, mit korrekten Typ-IDs:\n     - Diagonale: Alle Einträge (i,i) mit 1 (object) oder 4 (activity), da nur diese identityMapping\u003dtrue haben.\n     - Off-Diagonale: Nur IDs mit identityMapping\u003dfalse.\n   - Matrix wurde entsprechend befüllt und validiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [10, 1, 0, 0, 0],\n    [0, 0, 4, 5, 9],\n    [0, 0, 5, 1, 6],\n    [0, 0, 9, 7, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen:\\n   - \u0027Ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n   - \u0027Meine Tochter\u0027 wird als relationale Verbindung zwischen \u0027Maria\u0027 und einer weiteren Person interpretiert. Da \\\"daughter\\\" im Vokabular fehlt, wird stattdessen die Beziehung \u0027daughter\u0027 (ID 10) zwischen \u0027maria\u0027 und \u0027person\u0027 verwendet, um die familiäre Beziehung darzustellen.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Typ \u0027object\u0027 (ID 1), da es ein konkretes Objekt (eine Person) ist. Auf der Diagonale mit identityMapping\u003dtrue.\\n   - \u0027person\u0027: Typ \u0027object\u0027 (ID 1), allgemeiner Typ einer Entität; hier für die Tochter. identityMapping\u003dtrue.\\n   - \u0027drive\u0027: Aktivität (ID 4), beschreibt eine Handlung. identityMapping\u003dtrue.\\n   - \u0027boat\u0027: Objekt (ID 1), ein transportfähiges Objekt. identityMapping\u003dtrue.\\n   - \u0027lake\u0027: Objekt (ID 1), ein geographisches Objekt. identityMapping\u003dtrue.\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 hat eine \u0027daughter\u0027-Beziehung (ID 10) zu \u0027person\u0027 (der Tochter).\\n   - \u0027person\u0027 (die Tochter) und \u0027Maria\u0027 führen gemeinsam die Aktivität \u0027drive\u0027 aus → Beziehung \u0027perform\u0027 (ID 8) von \u0027drive\u0027 zu beiden Personen.\\n   - \u0027drive\u0027 bezieht sich auf das Objekt \u0027boat\u0027 (mittels \u0027attached\u0027, ID 5) – sie fahren *ein Boot*.\\n   - \u0027drive\u0027 bezieht sich außerdem auf den Ort \u0027lake\u0027 (mittels \u0027target\u0027, ID 9) – das Ziel oder der Ort der Aktion ist der See.\\n   - \u0027boat\u0027 ist *auf* dem \u0027lake\u0027 → räumliche Beziehung \u0027above\u0027 (ID 7) von \u0027boat\u0027 zu \u0027lake\u0027.\\n   - Umgekehrt ist \u0027lake\u0027 *unter* \u0027boat\u0027 → Beziehung \u0027under\u0027 (ID 6) von \u0027lake\u0027 zu \u0027boat\u0027.\\n\\n4. Überprüfung der Typkodierungen:\\n   - object (ID 1): vorhanden, identityMapping\u003dtrue → gültig für Diagonale.\\n   - context (ID 2): nicht verwendet.\\n   - synonym (ID 3): nicht verwendet.\\n   - activity (ID 4): gültig für \u0027drive\u0027.\\n   - attached (ID 5): vorhanden, identityMapping\u003dfalse → gültig für \u0027drive\u0027 → \u0027boat\u0027.\\n   - under (ID 6): vorhanden, identityMapping\u003dfalse → gültig für \u0027lake\u0027 → \u0027boat\u0027.\\n   - above (ID 7): vorhanden, identityMapping\u003dfalse → gültig für \u0027boat\u0027 → \u0027lake\u0027.\\n   - perform (ID 8): vorhanden, identityMapping\u003dfalse → gültig für \u0027drive\u0027 → \u0027maria\u0027 und \u0027drive\u0027 → \u0027person\u0027.\\n   - target (ID 9): vorhanden, identityMapping\u003dfalse → gültig für \u0027drive\u0027 → \u0027lake\u0027.\\n   - daughter (ID 10): vorhanden, identityMapping\u003dfalse → gültig für \u0027maria\u0027 → \u0027person\u0027.\\n   - characteristic (ID 14): nicht benötigt.\\n   → Alle benötigten Relationen sind in den Typkodierungen enthalten.\\n\\n5. Zusammenstellung des GraphCodes:\\n   - Vokabular bleibt unverändert: [\\\"maria\\\", \\\"person\\\", \\\"drive\\\", \\\"boat\\\", \\\"lake\\\"].\\n   - Bewertungsmatrix 5x5, mit korrekten Typ-IDs:\\n     - Diagonale: Alle Einträge (i,i) mit 1 (object) oder 4 (activity), da nur diese identityMapping\u003dtrue haben.\\n     - Off-Diagonale: Nur IDs mit identityMapping\u003dfalse.\\n   - Matrix wurde entsprechend befüllt und validiert.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 (ID 6) repräsentiert, da \u0027in\u0027 im Metaverse als Position \u0027unter\u0027 interpretiert wird. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform, ID 8). \u0027own\u0027 zeigt den Besitz von Maria an, verbindet aber auch das Subjekt mit dem Objekt. \u0027swim\u0027 hat \u0027pool\u0027 als Ziel (target, ID 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 0],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 (ID 6) repräsentiert, da \u0027in\u0027 im Metaverse als Position \u0027unter\u0027 interpretiert wird. \u0027Maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform, ID 8). \u0027own\u0027 zeigt den Besitz von Maria an, verbindet aber auch das Subjekt mit dem Objekt. \u0027swim\u0027 hat \u0027pool\u0027 als Ziel (target, ID 9).\"\n}"
+}

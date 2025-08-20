@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Es wurden keine selbstidentifizierenden Wör!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!kör!!---!-wörter wie \"ich\" oder \"mein\" verwendet, daher wird die Identifikation des Nutzers (Maria) ignoriert. Die Anfrage „Tim rennt“ ist grammatikalisch korrekt und lässt sich klar in die Stichwörter „Tim“ und „!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\" übersetzen. Das Verb „rennt“ wurde verallgemeinert zu „run“.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Tim\",\n    \"run\"\n  ],\n  \"description\": \"Es wurden keine selbstidentifizierenden Wör!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!kör!!---!-wörter wie \\\"ich\\\" oder \\\"mein\\\" verwendet, daher wird die Identifikation des Nutzers (Maria) ignoriert. Die Anfrage „Tim rennt“ ist grammatikalisch korrekt und lässt sich klar in die Stichwörter „Tim“ und „!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\\\" übersetzen. Das Verb „rennt“ wurde verallgemeinert zu „run“.\"\n}"
+}

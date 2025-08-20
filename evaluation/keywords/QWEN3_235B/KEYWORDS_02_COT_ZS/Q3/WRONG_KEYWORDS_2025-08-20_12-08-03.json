@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Es wurden folgende Stichwörter ermittelt: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027. Da \u0027mir\u0027 ein selbstreferenzielles Pronomen ist und auf den Nutzer verweist, wurde dies durch die Identifikation \u0027Maria\u0027 ersetzt. Die Wörter wurden ins Englische übersetzt: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027Maria\u0027 bleibt erhalten. Das Verb \u0027schwimme\u0027 wurde verallgemeinert zu \u0027swim\u0027. Der Begriff \u0027gehört\u0027 wurde nicht ins Vokabular aufgenommen, da es eine Relation beschreibt, die in der Bewertungsmatrix erfasst würde, nicht jedoch Teil des Vokabulars ist.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"swim\",\n    \"pool\",\n    \"Maria\"\n  ],\n  \"description\": \"Es wurden folgende Stichwörter ermittelt: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027mir\u0027. Da \u0027mir\u0027 ein selbstreferenzielles Pronomen ist und auf den Nutzer verweist, wurde dies durch die Identifikation \u0027Maria\u0027 ersetzt. Die Wörter wurden ins Englische übersetzt: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027Maria\u0027 bleibt erhalten. Das Verb \u0027schwimme\u0027 wurde verallgemeinert zu \u0027swim\u0027. Der Begriff \u0027gehört\u0027 wurde nicht ins Vokabular aufgenommen, da es eine Relation beschreibt, die in der Bewertungsmatrix erfasst würde, nicht jedoch Teil des Vokabulars ist.\"\n}"
+}

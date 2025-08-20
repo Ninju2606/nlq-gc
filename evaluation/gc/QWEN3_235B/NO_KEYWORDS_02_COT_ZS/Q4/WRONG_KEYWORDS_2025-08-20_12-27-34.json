@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027 sind: \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n\n2. Relative Verweise: \u0027ich\u0027 und \u0027meinem\u0027 beziehen sich auf den Anfragensteller. Gemäß den Regeln wird \u0027ich\u0027 und \u0027mein\u0027 durch die Identifikation des Nutzers, also \u0027Maria\u0027, ersetzt.\n\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. Der Name \u0027Maria\u0027 bleibt unverändert.\n\n4. Ersetzung der Selbstreferenzen: \u0027ich\u0027 und \u0027meinem\u0027 werden durch \u0027Maria\u0027 ersetzt. Damit lautet die verarbeitete Anfrage sinngemäß: \u0027Maria swim in Maria pool\u0027.\n\n5. Attribut-Eigenschaften:\n   - \u0027Maria\u0027 ist eine Person und somit ein Objekt → Typ-ID 1 (object)\n   - \u0027swim\u0027 ist eine Tätigkeit → Typ-ID 4 (activity)\n   - \u0027pool\u0027 ist ein Objekt → Typ-ID 1 (object)\n\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) von \u0027Maria\u0027 zu \u0027swim\u0027\n   - Die Aktivität \u0027swim\u0027 hat das Ziel \u0027pool\u0027 → Relation \u0027target\u0027 (ID 9) von \u0027swim\u0027 zu \u0027pool\u0027\n   - Der \u0027pool\u0027 gehört Maria → Relation \u0027attached\u0027 (ID 5) von \u0027pool\u0027 zu \u0027Maria\u0027 (da es \u0027mein Pool\u0027 ist)\n\n7. Überprüfung der Relationen auf Typkodierungen:\n   - \u0027perform\u0027 (Maria → swim): ID 8 vorhanden, identityMapping\u003dfalse → gültig\n   - \u0027target\u0027 (swim → pool): ID 9 vorhanden, identityMapping\u003dfalse → gültig\n   - \u0027attached\u0027 (pool → Maria): ID 5 vorhanden, identityMapping\u003dfalse → gültig\n   - Diagonale: Alle Einträge sind Typen mit identityMapping\u003dtrue: \u0027Maria\u0027 (object, ID\u003d1), \u0027swim\u0027 (activity, ID\u003d4), \u0027pool\u0027 (object, ID\u003d1) → alle gültig\n\n8. Zusammenstellung des GraphCodes: Das Vokabular enthält [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027]. Die Bewertungsmatrix ist 3x3. Diagonale enthält die Typ-IDs der Begriffe. Relationen außerhalb der Diagonalen sind mit den entsprechenden Typkodierungen gefüllt, alle anderen Einträge sind 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027 sind: \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n\\n2. Relative Verweise: \u0027ich\u0027 und \u0027meinem\u0027 beziehen sich auf den Anfragensteller. Gemäß den Regeln wird \u0027ich\u0027 und \u0027mein\u0027 durch die Identifikation des Nutzers, also \u0027Maria\u0027, ersetzt.\\n\\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. Der Name \u0027Maria\u0027 bleibt unverändert.\\n\\n4. Ersetzung der Selbstreferenzen: \u0027ich\u0027 und \u0027meinem\u0027 werden durch \u0027Maria\u0027 ersetzt. Damit lautet die verarbeitete Anfrage sinngemäß: \u0027Maria swim in Maria pool\u0027.\\n\\n5. Attribut-Eigenschaften:\\n   - \u0027Maria\u0027 ist eine Person und somit ein Objekt → Typ-ID 1 (object)\\n   - \u0027swim\u0027 ist eine Tätigkeit → Typ-ID 4 (activity)\\n   - \u0027pool\u0027 ist ein Objekt → Typ-ID 1 (object)\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) von \u0027Maria\u0027 zu \u0027swim\u0027\\n   - Die Aktivität \u0027swim\u0027 hat das Ziel \u0027pool\u0027 → Relation \u0027target\u0027 (ID 9) von \u0027swim\u0027 zu \u0027pool\u0027\\n   - Der \u0027pool\u0027 gehört Maria → Relation \u0027attached\u0027 (ID 5) von \u0027pool\u0027 zu \u0027Maria\u0027 (da es \u0027mein Pool\u0027 ist)\\n\\n7. Überprüfung der Relationen auf Typkodierungen:\\n   - \u0027perform\u0027 (Maria → swim): ID 8 vorhanden, identityMapping\u003dfalse → gültig\\n   - \u0027target\u0027 (swim → pool): ID 9 vorhanden, identityMapping\u003dfalse → gültig\\n   - \u0027attached\u0027 (pool → Maria): ID 5 vorhanden, identityMapping\u003dfalse → gültig\\n   - Diagonale: Alle Einträge sind Typen mit identityMapping\u003dtrue: \u0027Maria\u0027 (object, ID\u003d1), \u0027swim\u0027 (activity, ID\u003d4), \u0027pool\u0027 (object, ID\u003d1) → alle gültig\\n\\n8. Zusammenstellung des GraphCodes: Das Vokabular enthält [\u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027]. Die Bewertungsmatrix ist 3x3. Diagonale enthält die Typ-IDs der Begriffe. Relationen außerhalb der Diagonalen sind mit den entsprechenden Typkodierungen gefüllt, alle anderen Einträge sind 0.\"\n}"
+}

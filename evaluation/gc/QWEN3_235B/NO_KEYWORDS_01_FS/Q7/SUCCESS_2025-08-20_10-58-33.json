@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch nicht korrekt und semantisch unklar. Es ist nicht ersichtlich, welche Szene im Metaverse gemeint ist, da die Handlung (\"Fragen malen\") und deren Beziehung zu \"Häusern\" nicht nachvollziehbar ist. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch nicht korrekt und semantisch unklar. Es ist nicht ersichtlich, welche Szene im Metaverse gemeint ist, da die Handlung (\\\"Fragen malen\\\") und deren Beziehung zu \\\"Häusern\\\" nicht nachvollziehbar ist. Eine sinnvolle Generierung eines GraphCodes ist daher nicht möglich.\"\n}"
+}

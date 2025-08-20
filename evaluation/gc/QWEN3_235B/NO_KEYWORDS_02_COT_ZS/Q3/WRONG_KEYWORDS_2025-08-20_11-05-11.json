@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "pool",
+    "swim"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      14,
+      1,
+      0
+    ],
+    [
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027 identifiziert. 2. Relativer Verweis \u0027mir\u0027 aufgelöst zu \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 impliziert Besitz-Relation. 4. \u0027mir\u0027 durch Nutzer-Identifikation \u0027Maria\u0027 ersetzt. 5. Attributtypen: Maria \u003d object (Typ 1), pool \u003d object (Typ 1), swim \u003d activity (Typ 4). 6. Relationen: Maria führt \u0027swim\u0027 aus (perform/TYP8), Pool gehört Maria (characteristic/TYP14), \u0027swim\u0027 hat Pool als Ort (target/TYP9). 7. Alle Relationen passen zu Typkodierungen: TYP8 (perform), TYP14 (characteristic), TYP9 (target) existieren in der Vorgabeliste.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"pool\", \"swim\"],\n    \"matrix\": [\n        [1, 0, 8],\n        [14, 1, 0],\n        [0, 9, 4]\n    ],\n    \"description\": \"1. Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027 identifiziert. 2. Relativer Verweis \u0027mir\u0027 aufgelöst zu \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 impliziert Besitz-Relation. 4. \u0027mir\u0027 durch Nutzer-Identifikation \u0027Maria\u0027 ersetzt. 5. Attributtypen: Maria \u003d object (Typ 1), pool \u003d object (Typ 1), swim \u003d activity (Typ 4). 6. Relationen: Maria führt \u0027swim\u0027 aus (perform/TYP8), Pool gehört Maria (characteristic/TYP14), \u0027swim\u0027 hat Pool als Ort (target/TYP9). 7. Alle Relationen passen zu Typkodierungen: TYP8 (perform), TYP14 (characteristic), TYP9 (target) existieren in der Vorgabeliste.\"\n}"
+}

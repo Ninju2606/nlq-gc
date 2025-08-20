@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage beschreibt keine konkrete Szenenbeschreibung eines Metaverse-Medienobjekts, sondern einen organisatorischen Vorgang (Terminvereinbarung). \n2. Es sind keine Objekte, Attribute oder Aktivitäten in einer Szene enthalten, die für den GraphCode relevant wären. \n3. Formulierungen wie \u0027wir müssen... ausmachen\u0027 dienen der Anfragebeschreibung und enthalten keine fassbaren Szenenelemente gemäß den Vorgaben.",
+  "error": "Es können keine sinnvollen Stichwörter für eine Metaverse-Szenenbeschreibung ermittelt werden.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter für eine Metaverse-Szenenbeschreibung ermittelt werden.\",\n  \"description\": \"1. Die Anfrage beschreibt keine konkrete Szenenbeschreibung eines Metaverse-Medienobjekts, sondern einen organisatorischen Vorgang (Terminvereinbarung). \\n2. Es sind keine Objekte, Attribute oder Aktivitäten in einer Szene enthalten, die für den GraphCode relevant wären. \\n3. Formulierungen wie \u0027wir müssen... ausmachen\u0027 dienen der Anfragebeschreibung und enthalten keine fassbaren Szenenelemente gemäß den Vorgaben.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027, die aufgelöst werden müssten.\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinertes Verb: Infinitiv).\n4. Da kein selbstidentifizierendes Pronomen (wie \u0027ich\u0027, \u0027mein\u0027) vorkommt, wird die Identifikation des Nutzers (Maria) ignoriert.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Person), daher Typ 1 (object). \u0027run\u0027 ist eine Aktivität, daher Typ 4 (activity).\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Die passende Relation ist \u0027perform\u0027 (wer führt was aus?).\n7. Die Relation \u0027perform\u0027 ist in den Typkodierungen mit ID 8 enthalten und erlaubt identityMapping\u003dfalse (außerhalb der Diagonale). Somit ist die Kodierung gültig.\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Vokabular [\u0027Tim\u0027, \u0027run\u0027], Matrix mit Typ 1 (object) für \u0027Tim\u0027, Typ 4 (activity) für \u0027run\u0027, sowie Relation (0,1) mit Typ 8 (perform) – Tim führt run aus.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027, die aufgelöst werden müssten.\\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinertes Verb: Infinitiv).\\n4. Da kein selbstidentifizierendes Pronomen (wie \u0027ich\u0027, \u0027mein\u0027) vorkommt, wird die Identifikation des Nutzers (Maria) ignoriert.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Person), daher Typ 1 (object). \u0027run\u0027 ist eine Aktivität, daher Typ 4 (activity).\\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Die passende Relation ist \u0027perform\u0027 (wer führt was aus?).\\n7. Die Relation \u0027perform\u0027 ist in den Typkodierungen mit ID 8 enthalten und erlaubt identityMapping\u003dfalse (außerhalb der Diagonale). Somit ist die Kodierung gültig.\\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Vokabular [\u0027Tim\u0027, \u0027run\u0027], Matrix mit Typ 1 (object) für \u0027Tim\u0027, Typ 4 (activity) für \u0027run\u0027, sowie Relation (0,1) mit Typ 8 (perform) – Tim führt run aus.\"\n}"
+}

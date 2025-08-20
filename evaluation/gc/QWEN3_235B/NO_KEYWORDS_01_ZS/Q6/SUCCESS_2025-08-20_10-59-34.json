@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode übersetzt werden könnte. Es wird lediglich eine allgemeine Absicht zur Terminvereinbarung geäußert, ohne räumliche, objektbasierte oder interaktive Elemente, die für eine Szenenrepräsentation erforderlich sind.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode übersetzt werden könnte. Es wird lediglich eine allgemeine Absicht zur Terminvereinbarung geäußert, ohne räumliche, objektbasierte oder interaktive Elemente, die für eine Szenenrepräsentation erforderlich sind.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

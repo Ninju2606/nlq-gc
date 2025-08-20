@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Schritt 1: Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\nSchritt 2: Relative Verweise wie \u0027ich\u0027 und \u0027meine\u0027 beziehen sich auf den Nutzer. \u0027Meine Tochter\u0027 wird als Bezug auf \u0027Tochter von Maria\u0027 aufgelöst.\nSchritt 3: Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027 (durch Identifikation ersetzt), \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\nSchritt 4: Der Verweis \u0027meine\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt, sodass die Beziehung \u0027Maria\u0027 und \u0027daughter\u0027 im Vokabular erfasst wird. Der Begriff \u0027ich\u0027 wird ebenfalls durch \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"description\": \"Schritt 1: Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\nSchritt 2: Relative Verweise wie \u0027ich\u0027 und \u0027meine\u0027 beziehen sich auf den Nutzer. \u0027Meine Tochter\u0027 wird als Bezug auf \u0027Tochter von Maria\u0027 aufgelöst.\\nSchritt 3: Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027 (durch Identifikation ersetzt), \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\\nSchritt 4: Der Verweis \u0027meine\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt, sodass die Beziehung \u0027Maria\u0027 und \u0027daughter\u0027 im Vokabular erfasst wird. Der Begriff \u0027ich\u0027 wird ebenfalls durch \u0027Maria\u0027 ersetzt.\"\n}"
+}

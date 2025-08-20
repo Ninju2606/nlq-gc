@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Ich spiele Basketball\u0027 enthält das Subjekt \u0027ich\u0027, welches auf die Identifikation des Nutzers, Maria, verweist. Daher wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Die Stichwörter sind \u0027spielen\u0027 und \u0027Basketball\u0027. Das Verb \u0027spiele\u0027 wird in den Basisformen \u0027play\u0027 verallgemeinert. Alle Begriffe werden ins Englische übersetzt, wobei \u0027Basketball\u0027 sprachunabhängig bleibt. Das Vokabular enthält somit die Begriffe \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"Die Anfrage \u0027Ich spiele Basketball\u0027 enthält das Subjekt \u0027ich\u0027, welches auf die Identifikation des Nutzers, Maria, verweist. Daher wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Die Stichwörter sind \u0027spielen\u0027 und \u0027Basketball\u0027. Das Verb \u0027spiele\u0027 wird in den Basisformen \u0027play\u0027 verallgemeinert. Alle Begriffe werden ins Englische übersetzt, wobei \u0027Basketball\u0027 sprachunabhängig bleibt. Das Vokabular enthält somit die Begriffe \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027.\"\n}"
+}

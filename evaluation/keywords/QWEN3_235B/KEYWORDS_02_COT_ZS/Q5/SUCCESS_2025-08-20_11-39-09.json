@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aus der Anfrage wurden die Stichwörter \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027 und \u0027trage\u0027 extrahiert. Teile wie \u0027Zeig mir Situationen\u0027 wurden ignoriert, da sie zur Anfragenbeschreibung gehören. 2. Der relative Verweis \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. 3. Die Stichwörter wurden ins Englische übersetzt: \u0027gelben\u0027 → \u0027yellow\u0027, \u0027Hut\u0027 → \u0027hat\u0027, \u0027trage\u0027 → \u0027wear\u0027 (verallgemeinerter Wortstamm). 4. Die Identifikation \u0027ich\u0027 wurde erfolgreich durch \u0027Maria\u0027 ersetzt. Alle Prozessschritte waren eindeutig und grammatikalisch korrekt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"wear\"],\n  \"description\": \"1. Aus der Anfrage wurden die Stichwörter \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027 und \u0027trage\u0027 extrahiert. Teile wie \u0027Zeig mir Situationen\u0027 wurden ignoriert, da sie zur Anfragenbeschreibung gehören. 2. Der relative Verweis \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. 3. Die Stichwörter wurden ins Englische übersetzt: \u0027gelben\u0027 → \u0027yellow\u0027, \u0027Hut\u0027 → \u0027hat\u0027, \u0027trage\u0027 → \u0027wear\u0027 (verallgemeinerter Wortstamm). 4. Die Identifikation \u0027ich\u0027 wurde erfolgreich durch \u0027Maria\u0027 ersetzt. Alle Prozessschritte waren eindeutig und grammatikalisch korrekt.\"\n}"
+}

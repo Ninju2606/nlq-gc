@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode kodiert, dass Maria (Objekt, Typ 1) die Aktivität \u0027make\u0027 (Typ 4) ausführt, um einen \u0027appointment\u0027 (Objekt, Typ 1) zu vereinbaren. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität, während \u0027target\u0027 (9) die Aktivität mit dem Termin verknüpft. Zeitliche Angaben wie \u0027bald\u0027 werden nicht im GraphCode berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode kodiert, dass Maria (Objekt, Typ 1) die Aktivität \u0027make\u0027 (Typ 4) ausführt, um einen \u0027appointment\u0027 (Objekt, Typ 1) zu vereinbaren. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität, während \u0027target\u0027 (9) die Aktivität mit dem Termin verknüpft. Zeitliche Angaben wie \u0027bald\u0027 werden nicht im GraphCode berücksichtigt.\"\n}"
+}

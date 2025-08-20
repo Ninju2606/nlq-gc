@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält eine semantisch unsinnige Beschreibung (Fragen werden nicht gemalt), sodass kein sinnvoller GraphCode generiert werden kann.",
+  "error": "Die Anfrage ist unklar oder grammatikalisch fehlerhaft. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unklar oder grammatikalisch fehlerhaft. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält eine semantisch unsinnige Beschreibung (Fragen werden nicht gemalt), sodass kein sinnvoller GraphCode generiert werden kann.\"\n}"
+}

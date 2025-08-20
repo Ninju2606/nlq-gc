@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer bezieht sich mit \"Ich\" auf sich selbst. Gemäß der Regel wird diese Person durch die spezifizierte Identifikation \"Maria\" ersetzt, sodass im Vokabular „maria“ verwendet wird.\n\n2. Attributeigenschaften der Stichwörter:\n   - \"maria\": Dies ist eine konkrete Entität, genauer eine Person. Laut Kontext handelt es sich um einen Charakter im Metaverse. Entsprechend wird „maria“ als „object“ klassifiziert (Typ-ID 1).\n   - \"play\": Dies beschreibt eine Aktion, die von einem Objekt (hier: Maria) ausgeführt wird. Es ist eine Tätigkeit und wird daher als „activity“ klassifiziert (Typ-ID 4).\n   - \"basketball\": Dies ist ein Objekt, genauer ein Sportgerät oder Spielkonzept. Es handelt sich um ein handelbares oder nutzbares Objekt im Metaverse, daher ebenfalls als „object“ (Typ-ID 1).\n\n3. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktion „play“ aus → Beziehung: „perform“ („maria“ führt „play“ aus). \n   - Die Aktion „play“ bezieht sich auf das Objekt „basketball“ → Beziehung: „target“ („play“ hat „basketball“ als Ziel).\n   Diese Relationen ergeben eine semantische Struktur: Maria (object) führt die Aktivität (activity) „spielen“ aus, wobei das Ziel (target) „basketball“ ist.\n\n4. Überprüfung der Typkodierungen:\n   - Beziehung „perform“ zwischen „maria“ und „play“ → ID 8 („perform“, identityMapping\u003dfalse) → vorhanden.\n   - Beziehung „target“ zwischen „play“ und „basketball“ → ID 9 („target“, identityMapping\u003dfalse) → vorhanden.\n   - Typzuordnung auf Hauptdiagonalen:\n     - (0,0) \u003d „maria“ → Typ 1 (object, identityMapping\u003dtrue) → erlaubt.\n     - (1,1) \u003d „play“ → Typ 4 (activity, identityMapping\u003dtrue) → erlaubt.\n     - (2,2) \u003d „basketball“ → Typ 1 (object, identityMapping\u003dtrue) → erlaubt.\n   Alle benötigten Typkodierungen sind vorhanden.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Bewertungsmatrix ist 3x3, da drei Einträge vorhanden sind. Die Typkodierungen wurden gemäß den Regeln in die Matrix eingetragen, wobei die Diagonale die Typen der Begriffe enthält und die Off-Diagonalen die Relationen. Die Matrix ist so aufgebaut, dass Zeile i Beziehungen von Begriff i zu anderen Begriffen enthält.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich mit \\\"Ich\\\" auf sich selbst. Gemäß der Regel wird diese Person durch die spezifizierte Identifikation \\\"Maria\\\" ersetzt, sodass im Vokabular „maria“ verwendet wird.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \\\"maria\\\": Dies ist eine konkrete Entität, genauer eine Person. Laut Kontext handelt es sich um einen Charakter im Metaverse. Entsprechend wird „maria“ als „object“ klassifiziert (Typ-ID 1).\\n   - \\\"play\\\": Dies beschreibt eine Aktion, die von einem Objekt (hier: Maria) ausgeführt wird. Es ist eine Tätigkeit und wird daher als „activity“ klassifiziert (Typ-ID 4).\\n   - \\\"basketball\\\": Dies ist ein Objekt, genauer ein Sportgerät oder Spielkonzept. Es handelt sich um ein handelbares oder nutzbares Objekt im Metaverse, daher ebenfalls als „object“ (Typ-ID 1).\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktion „play“ aus → Beziehung: „perform“ („maria“ führt „play“ aus). \\n   - Die Aktion „play“ bezieht sich auf das Objekt „basketball“ → Beziehung: „target“ („play“ hat „basketball“ als Ziel).\\n   Diese Relationen ergeben eine semantische Struktur: Maria (object) führt die Aktivität (activity) „spielen“ aus, wobei das Ziel (target) „basketball“ ist.\\n\\n4. Überprüfung der Typkodierungen:\\n   - Beziehung „perform“ zwischen „maria“ und „play“ → ID 8 („perform“, identityMapping\u003dfalse) → vorhanden.\\n   - Beziehung „target“ zwischen „play“ und „basketball“ → ID 9 („target“, identityMapping\u003dfalse) → vorhanden.\\n   - Typzuordnung auf Hauptdiagonalen:\\n     - (0,0) \u003d „maria“ → Typ 1 (object, identityMapping\u003dtrue) → erlaubt.\\n     - (1,1) \u003d „play“ → Typ 4 (activity, identityMapping\u003dtrue) → erlaubt.\\n     - (2,2) \u003d „basketball“ → Typ 1 (object, identityMapping\u003dtrue) → erlaubt.\\n   Alle benötigten Typkodierungen sind vorhanden.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Bewertungsmatrix ist 3x3, da drei Einträge vorhanden sind. Die Typkodierungen wurden gemäß den Regeln in die Matrix eingetragen, wobei die Diagonale die Typen der Begriffe enthält und die Off-Diagonalen die Relationen. Die Matrix ist so aufgebaut, dass Zeile i Beziehungen von Begriff i zu anderen Begriffen enthält.\"\n}"
+}

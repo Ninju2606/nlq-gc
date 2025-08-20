@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Der relative Verweis \"meine Tochter\" wird aufgelöst in Bezug auf die Nutzeridentifikation \"Maria\". Somit ist \"person\" im Vokabular als Tochter von \"maria\" definiert. Der Begriff \"ich\" wird durch die Identifikation \"maria\" ersetzt.\n2. \"maria\" und \"person\" sind Objekte; \"boat\" und \"lake\" sind ebenfalls Objekte. \"drive\" ist eine Aktivität.\n3. \"maria\" hat eine Tochter, nämlich \"person\" (Typ: daughter). \"person\" führt die Aktivität \"drive\" aus (Typ: perform). Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\" (Typ: target). \"boat\" befindet sich auf dem \"lake\" (Typ: above). Außerdem befinden sich \"person\" und \"boat\" im Kontext \"lake\" (Typ: context).\n4. Die ID für \"object\" ist 1 (identityMapping\u003dtrue). Die ID für \"activity\" ist 4 (identityMapping\u003dtrue). Die ID für \"daughter\" ist 10 (identityMapping\u003dfalse). Die ID für \"perform\" ist 8 (identityMapping\u003dfalse). Die ID für \"target\" ist 9 (identityMapping\u003dfalse). Die ID für \"above\" ist 7 (identityMapping\u003dfalse). Die ID für \"context\" ist 2 (identityMapping\u003dfalse). Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 5, 6],\n    [0, 0, 4, 9, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wird aufgelöst in Bezug auf die Nutzeridentifikation \\\"Maria\\\". Somit ist \\\"person\\\" im Vokabular als Tochter von \\\"maria\\\" definiert. Der Begriff \\\"ich\\\" wird durch die Identifikation \\\"maria\\\" ersetzt.\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte; \\\"boat\\\" und \\\"lake\\\" sind ebenfalls Objekte. \\\"drive\\\" ist eine Aktivität.\\n3. \\\"maria\\\" hat eine Tochter, nämlich \\\"person\\\" (Typ: daughter). \\\"person\\\" führt die Aktivität \\\"drive\\\" aus (Typ: perform). Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\" (Typ: target). \\\"boat\\\" befindet sich auf dem \\\"lake\\\" (Typ: above). Außerdem befinden sich \\\"person\\\" und \\\"boat\\\" im Kontext \\\"lake\\\" (Typ: context).\\n4. Die ID für \\\"object\\\" ist 1 (identityMapping\u003dtrue). Die ID für \\\"activity\\\" ist 4 (identityMapping\u003dtrue). Die ID für \\\"daughter\\\" ist 10 (identityMapping\u003dfalse). Die ID für \\\"perform\\\" ist 8 (identityMapping\u003dfalse). Die ID für \\\"target\\\" ist 9 (identityMapping\u003dfalse). Die ID für \\\"above\\\" ist 7 (identityMapping\u003dfalse). Die ID für \\\"context\\\" ist 2 (identityMapping\u003dfalse). Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

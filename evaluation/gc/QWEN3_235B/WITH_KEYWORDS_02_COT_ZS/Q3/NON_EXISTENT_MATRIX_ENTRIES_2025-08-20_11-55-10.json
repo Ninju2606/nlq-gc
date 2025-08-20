@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mir\u0027, was auf eine Selbstidentifikation hinweist. Gemäß den Regeln wird \u0027ich\u0027 durch die vorgegebene Identifikation \u0027Maria\u0027 ersetzt. Der relative Verweis \u0027mir gehört\u0027 wird aufgelöst in \u0027Maria own pool\u0027.\n\n2. Die Attributeigenschaften der Stichwörter im Vokabular sind:\n   - \u0027maria\u0027: Handelt von einer Person, also einem Objekt → Typ 1 (object)\n   - \u0027swim\u0027: Beschreibt eine Handlung → Typ 4 (activity)\n   - \u0027own\u0027: Beschreibt eine Besitzrelation, ist aber keine Identitätsabbildung → Typ 5 (attached)\n   - \u0027pool\u0027: Ein physisches Objekt → Typ 1 (object)\n\n3. Die Relationen zwischen den Begriffen sind:\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation: \u0027maria perform swim\u0027 → Typ 8 (perform)\n   - Die Aktivität \u0027swim\u0027 hat das Ziel \u0027pool\u0027 → Relation: \u0027swim target pool\u0027 → Typ 9 (target)\n   - \u0027own\u0027 beschreibt die Beziehung \u0027Maria owns pool\u0027 → semantisch äquivalent zu \u0027attached\u0027 (da Besitz eine nicht-identitätsabbildende Beziehung ist) → Typ 5 (attached)\n   - \u0027pool\u0027 hat die Eigenschaft, \u0027owned\u0027 zu sein → könnte über \u0027characteristic\u0027 dargestellt werden, aber direkte Relation \u0027own → pool\u0027 als Merkmal → Typ 14 (characteristic) für \u0027own characteristic pool\u0027\n\n4. Überprüfung der Typkodierungen:\n   - (maria, maria): Typ 1 (object) → erlaubt (identityMapping\u003dtrue) ✓\n   - (swim, swim): Typ 4 (activity) → erlaubt (identityMapping\u003dtrue) ✓\n   - (own, own): Typ 5 (attached) → hier problematisch, da identityMapping\u003dfalse, aber auf Diagonale benötigt man identityMapping\u003dtrue.\n     → FEHLER: \u0027own\u0027 kann nicht auf der Diagonalen stehen, weil Typ 5 (attached) die Eigenschaft identityMapping\u003dfalse hat.\n     Es gibt keinen gültigen Typ mit identityMapping\u003dtrue für Verben wie \u0027own\u0027, die keine Synonyme, Objekte, Kontexte oder Aktivitäten sind.\n     Keine gültige Typkodierung für \u0027own\u0027 auf der Diagonalen möglich.\n\nDa die Einheitsdiagonale nur Typen mit identityMapping\u003dtrue erlaubt, aber für das Wort \u0027own\u0027 kein solcher Typ existiert, ist ein korrekter GraphCode nicht möglich.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 5, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mir\u0027, was auf eine Selbstidentifikation hinweist. Gemäß den Regeln wird \u0027ich\u0027 durch die vorgegebene Identifikation \u0027Maria\u0027 ersetzt. Der relative Verweis \u0027mir gehört\u0027 wird aufgelöst in \u0027Maria own pool\u0027.\\n\\n2. Die Attributeigenschaften der Stichwörter im Vokabular sind:\\n   - \u0027maria\u0027: Handelt von einer Person, also einem Objekt → Typ 1 (object)\\n   - \u0027swim\u0027: Beschreibt eine Handlung → Typ 4 (activity)\\n   - \u0027own\u0027: Beschreibt eine Besitzrelation, ist aber keine Identitätsabbildung → Typ 5 (attached)\\n   - \u0027pool\u0027: Ein physisches Objekt → Typ 1 (object)\\n\\n3. Die Relationen zwischen den Begriffen sind:\\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation: \u0027maria perform swim\u0027 → Typ 8 (perform)\\n   - Die Aktivität \u0027swim\u0027 hat das Ziel \u0027pool\u0027 → Relation: \u0027swim target pool\u0027 → Typ 9 (target)\\n   - \u0027own\u0027 beschreibt die Beziehung \u0027Maria owns pool\u0027 → semantisch äquivalent zu \u0027attached\u0027 (da Besitz eine nicht-identitätsabbildende Beziehung ist) → Typ 5 (attached)\\n   - \u0027pool\u0027 hat die Eigenschaft, \u0027owned\u0027 zu sein → könnte über \u0027characteristic\u0027 dargestellt werden, aber direkte Relation \u0027own → pool\u0027 als Merkmal → Typ 14 (characteristic) für \u0027own characteristic pool\u0027\\n\\n4. Überprüfung der Typkodierungen:\\n   - (maria, maria): Typ 1 (object) → erlaubt (identityMapping\u003dtrue) ✓\\n   - (swim, swim): Typ 4 (activity) → erlaubt (identityMapping\u003dtrue) ✓\\n   - (own, own): Typ 5 (attached) → hier problematisch, da identityMapping\u003dfalse, aber auf Diagonale benötigt man identityMapping\u003dtrue.\\n     → FEHLER: \u0027own\u0027 kann nicht auf der Diagonalen stehen, weil Typ 5 (attached) die Eigenschaft identityMapping\u003dfalse hat.\\n     Es gibt keinen gültigen Typ mit identityMapping\u003dtrue für Verben wie \u0027own\u0027, die keine Synonyme, Objekte, Kontexte oder Aktivitäten sind.\\n     Keine gültige Typkodierung für \u0027own\u0027 auf der Diagonalen möglich.\\n\\nDa die Einheitsdiagonale nur Typen mit identityMapping\u003dtrue erlaubt, aber für das Wort \u0027own\u0027 kein solcher Typ existiert, ist ein korrekter GraphCode nicht möglich.\"\n}"
+}

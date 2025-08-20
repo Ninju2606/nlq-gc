@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu. Es ist nicht erkennbar, inwiefern Häuser mit dem Stellen oder Malen von Fragen verbunden sind. Eine sinnvolle Extraktion von Stichwörtern oder Relationen ist nicht möglich.",
+  "error": "Die Anfrage ist grammatikalisch unklar oder unvollständig.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar oder unvollständig.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und lässt keine klare Interpretation der beabsichtigten Szene im Metaverse zu. Es ist nicht erkennbar, inwiefern Häuser mit dem Stellen oder Malen von Fragen verbunden sind. Eine sinnvolle Extraktion von Stichwörtern oder Relationen ist nicht möglich.\"\n}"
+}

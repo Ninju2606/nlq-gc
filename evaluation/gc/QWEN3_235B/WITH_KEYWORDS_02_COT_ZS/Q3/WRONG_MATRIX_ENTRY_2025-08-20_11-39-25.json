@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "1. Der relative Verweis \u0027mir\u0027 wurde der Nutzer-Identifikation \u0027Maria\u0027 zugeordnet.\n2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (ID 4), \u0027pool\u0027 ist ein Objekt (ID 1).\n3. Relationen: Maria führt \u0027swim\u0027 und \u0027own\u0027 aus (perform/ID 8); \u0027swim\u0027 befindet sich räumlich im \u0027pool\u0027 (attached/ID 5); \u0027own\u0027 hat \u0027pool\u0027 als Zielobjekt (target/ID 9).\n4. Alle Relationen haben passende Typkodierungen: perform (8), attached (5) und target (9) existieren in den vorgegebenen Kodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 5],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027mir\u0027 wurde der Nutzer-Identifikation \u0027Maria\u0027 zugeordnet.\\n2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (ID 4), \u0027pool\u0027 ist ein Objekt (ID 1).\\n3. Relationen: Maria führt \u0027swim\u0027 und \u0027own\u0027 aus (perform/ID 8); \u0027swim\u0027 befindet sich räumlich im \u0027pool\u0027 (attached/ID 5); \u0027own\u0027 hat \u0027pool\u0027 als Zielobjekt (target/ID 9).\\n4. Alle Relationen haben passende Typkodierungen: perform (8), attached (5) und target (9) existieren in den vorgegebenen Kodierungen.\"\n}"
+}

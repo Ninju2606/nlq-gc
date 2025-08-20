@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Schritt 1: Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\nSchritt 2: Der relative Verweis \u0027ich\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. \u0027Meine\u0027 bezieht sich auf Maria und wird somit aufgelöst.\nSchritt 3: Übersetzung der Stichwörter ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027. \u0027Maria\u0027 bleibt erhalten, da es ein Eigenname ist.\nSchritt 4: Die Personenneigung \u0027ich\u0027 und \u0027mein\u0027 wird durch \u0027Maria\u0027 ersetzt. Im Vokabular steht stattdessen \u0027Maria\u0027 als Subjekt der Handlung.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"ride\",\n    \"boat\",\n    \"lake\"\n  ],\n  \"description\": \"Schritt 1: Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\nSchritt 2: Der relative Verweis \u0027ich\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. \u0027Meine\u0027 bezieht sich auf Maria und wird somit aufgelöst.\\nSchritt 3: Übersetzung der Stichwörter ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027. \u0027Maria\u0027 bleibt erhalten, da es ein Eigenname ist.\\nSchritt 4: Die Personenneigung \u0027ich\u0027 und \u0027mein\u0027 wird durch \u0027Maria\u0027 ersetzt. Im Vokabular steht stattdessen \u0027Maria\u0027 als Subjekt der Handlung.\"\n}"
+}

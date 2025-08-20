@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "appointment",
+    "schedule"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter \u0027Termin\u0027 und \u0027ausmachen\u0027 identifiziert. Keine relativen Verweise vorhanden. Stichwörter ins Englische übersetzt: \u0027appointment\u0027, \u0027schedule\u0027. Keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 in der Anfrage, daher keine Ersetzung der Nutzeridentifikation erforderlich.",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"schedule\"],\n  \"description\": \"Potenzielle Stichwörter \u0027Termin\u0027 und \u0027ausmachen\u0027 identifiziert. Keine relativen Verweise vorhanden. Stichwörter ins Englische übersetzt: \u0027appointment\u0027, \u0027schedule\u0027. Keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 in der Anfrage, daher keine Ersetzung der Nutzeridentifikation erforderlich.\"\n}"
+}

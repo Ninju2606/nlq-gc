@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer bezieht sich mit \"ich\" auf sich selbst, daher wird die Identifikation \"Maria\" im Vokabular verwendet. \n2. Die Attributeigenschaften der Stichwörter sind: \"maria\" ist ein Objekt (Typ 1), da es eine Entität bezeichnet; \"wear\" ist eine Aktivität (Typ 4), da es eine Handlung beschreibt; \"hat\" ist ein Objekt (Typ 1), da es ein physisches Ding ist; \"yellow\" ist kein Objekt, sondern ein Merkmal, also ein Attribut (Typ 14 – characteristic). \n3. Die Relationen sind: Maria führt die Aktivität \u0027wear\u0027 aus (Maria performt \u0027wear\u0027 → Typ 8 \u0027perform\u0027); die Aktivität \u0027wear\u0027 hat als Ziel das Objekt \u0027hat\u0027 (Typ 9 \u0027target\u0027); das Objekt \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027 (Typ 14 \u0027characteristic\u0027). \n4. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027characteristic\u0027 (14). Die Diagonale enthält nur Typen mit identityMapping\u003dtrue (1 und 4 und 14 – Hinweis: 14 hat identityMapping\u003dfalse, hier liegt ein Problem vor). Korrektur: Typ 14 (characteristic) hat identityMapping\u003dfalse, darf also nicht in der Diagonalen stehen. Fehlerhafte Zuordnung!\n\nKorrektur: Einträge in der Diagonalen müssen Typen mit identityMapping\u003d\u003dtrue sein. Mögliche Typen für Diagonale: 1 (object), 2 (context), 3 (synonym), 4 (activity). Aber \u0027yellow\u0027 ist ein Attribut (characteristic), Typ 14 hat identityMapping\u003dfalse → darf nicht in Diagonale! Daher ist die Zuordnung in der Diagonale für \u0027yellow\u0027 (Index 3) ungültig. Es gibt keinen gültigen Typ mit identityMapping\u003dtrue für ein reines Attribut wie \u0027yellow\u0027. Somit kann \u0027yellow\u0027 nicht als eigenständiger Knoten mit gültigem Diagonaleintrag existieren. Lösung: \u0027yellow\u0027 müsste ggf. als Kontext oder Objekt interpretiert werden, aber laut Spezifikation ist \u0027characteristic\u0027 der korrekte Typ. Da \u0027characteristic\u0027 (14) identityMapping\u003dfalse hat, kann er nicht in der Diagonale stehen. Somit ist die Anforderung verletzt.\n\n\u003d\u003e FEHLER: Der Begriff \u0027yellow\u0027 erfordert eine Typzuweisung in der Diagonale (Eintrag (4,4)), aber der passende Typ 14 hat identityMapping\u003dfalse und ist daher in der Diagonale nicht erlaubt. Es gibt keinen anderen geeigneten Typ mit identityMapping\u003dtrue, der \u0027yellow\u0027 korrekt repräsentiert (z. B. als Attribut). Damit kann kein gültiger GraphCode erstellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich mit \\\"ich\\\" auf sich selbst, daher wird die Identifikation \\\"Maria\\\" im Vokabular verwendet. \\n2. Die Attributeigenschaften der Stichwörter sind: \\\"maria\\\" ist ein Objekt (Typ 1), da es eine Entität bezeichnet; \\\"wear\\\" ist eine Aktivität (Typ 4), da es eine Handlung beschreibt; \\\"hat\\\" ist ein Objekt (Typ 1), da es ein physisches Ding ist; \\\"yellow\\\" ist kein Objekt, sondern ein Merkmal, also ein Attribut (Typ 14 – characteristic). \\n3. Die Relationen sind: Maria führt die Aktivität \u0027wear\u0027 aus (Maria performt \u0027wear\u0027 → Typ 8 \u0027perform\u0027); die Aktivität \u0027wear\u0027 hat als Ziel das Objekt \u0027hat\u0027 (Typ 9 \u0027target\u0027); das Objekt \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027 (Typ 14 \u0027characteristic\u0027). \\n4. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027perform\u0027 (8), \u0027target\u0027 (9), \u0027characteristic\u0027 (14). Die Diagonale enthält nur Typen mit identityMapping\u003dtrue (1 und 4 und 14 – Hinweis: 14 hat identityMapping\u003dfalse, hier liegt ein Problem vor). Korrektur: Typ 14 (characteristic) hat identityMapping\u003dfalse, darf also nicht in der Diagonalen stehen. Fehlerhafte Zuordnung!\\n\\nKorrektur: Einträge in der Diagonalen müssen Typen mit identityMapping\u003d\u003dtrue sein. Mögliche Typen für Diagonale: 1 (object), 2 (context), 3 (synonym), 4 (activity). Aber \u0027yellow\u0027 ist ein Attribut (characteristic), Typ 14 hat identityMapping\u003dfalse → darf nicht in Diagonale! Daher ist die Zuordnung in der Diagonale für \u0027yellow\u0027 (Index 3) ungültig. Es gibt keinen gültigen Typ mit identityMapping\u003dtrue für ein reines Attribut wie \u0027yellow\u0027. Somit kann \u0027yellow\u0027 nicht als eigenständiger Knoten mit gültigem Diagonaleintrag existieren. Lösung: \u0027yellow\u0027 müsste ggf. als Kontext oder Objekt interpretiert werden, aber laut Spezifikation ist \u0027characteristic\u0027 der korrekte Typ. Da \u0027characteristic\u0027 (14) identityMapping\u003dfalse hat, kann er nicht in der Diagonale stehen. Somit ist die Anforderung verletzt.\\n\\n\u003d\u003e FEHLER: Der Begriff \u0027yellow\u0027 erfordert eine Typzuweisung in der Diagonale (Eintrag (4,4)), aber der passende Typ 14 hat identityMapping\u003dfalse und ist daher in der Diagonale nicht erlaubt. Es gibt keinen anderen geeigneten Typ mit identityMapping\u003dtrue, der \u0027yellow\u0027 korrekt repräsentiert (z. B. als Attribut). Damit kann kein gültiger GraphCode erstellt werden.\"\n}"
+}

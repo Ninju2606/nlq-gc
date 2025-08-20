@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "paint",
+    "question"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      14
+    ],
+    [
+      9,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Häuser\", \"Fragen\", \"malen\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \"house\", \"paint\", \"question\".\n4. Die Anfrage enthält keine selbstidentifizierenden Wörter wie \"ich\" oder \"mein\", daher wird die Nutzeridentifikation Maria ignoriert.\n5. \"house\" und \"question\" sind Objekte (object) der Anfrage. \"paint\" ist eine Aktivität (activity).\n6. Die Aktivität \"paint\" bezieht sich auf das Objekt \"house\" (target). Das Objekt \"house\" hat die Charakteristik \"question\" (characteristic).\n7. Die ID für object ist 1, für activity ist 4, für target ist 9 und für characteristic ist 14. Alle benötigten Relationen sind in den Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"paint\", \"question\"],\n  \"matrix\": [\n    [1, 0, 14],\n    [9, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"Fragen\\\", \\\"malen\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"house\\\", \\\"paint\\\", \\\"question\\\".\\n4. Die Anfrage enthält keine selbstidentifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\", daher wird die Nutzeridentifikation Maria ignoriert.\\n5. \\\"house\\\" und \\\"question\\\" sind Objekte (object) der Anfrage. \\\"paint\\\" ist eine Aktivität (activity).\\n6. Die Aktivität \\\"paint\\\" bezieht sich auf das Objekt \\\"house\\\" (target). Das Objekt \\\"house\\\" hat die Charakteristik \\\"question\\\" (characteristic).\\n7. Die ID für object ist 1, für activity ist 4, für target ist 9 und für characteristic ist 14. Alle benötigten Relationen sind in den Typkodierungen vorhanden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation. \u0027mir\u0027 (im Besitz) wurde als Relation \u0027own\u0027 interpretiert und bezieht sich auf Maria als Besitzerin des Pools.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object), da sie physische Entitäten darstellen. \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity), da sie Handlungen beschreiben, die Maria ausführt.\n3. Maria führt die Aktivität \u0027swim\u0027 aus und befindet sich dabei in einem Pool. Gleichzeitig führt Maria die Aktivität \u0027own\u0027 aus, wobei der Pool das Ziel (target) dieser Aktivität ist. Die Aktivität \u0027swim\u0027 bezieht sich ebenfalls auf den Pool als Ort (via \u0027in\u0027).\n4. Die ID für \u0027object\u0027 ist 1 (identityMapping\u003dtrue). Die ID für \u0027activity\u0027 ist 4 (identityMapping\u003dtrue). Die ID für \u0027perform\u0027 ist 8 (identityMapping\u003dfalse) – beschreibt, dass Maria die Aktivitäten ausführt. Die ID für \u0027target\u0027 ist 9 (identityMapping\u003dfalse) – beschreibt, dass der Pool Ziel der Aktivität \u0027own\u0027 ist. Die ID für \u0027under\u0027 ist 6, \u0027above\u0027 ist 7 — jedoch fehlt eine explizite Kodierung für \u0027in\u0027. Stattdessen wird \u0027in\u0027 in den Informationen nicht aufgeführt. Allerdings ist \u0027attached\u0027 (ID 5) gegeben, was als generelle Beziehung verwendet werden könnte. Da aber im Kontext von Positionen wie \u0027in\u0027, \u0027above\u0027, \u0027under\u0027 erwartet wird und \u0027in\u0027 nicht explizit existiert, ist dies problematisch. Jedoch: laut Anfrage schwimmt Maria *in einem Pool* – dies ist eine räumliche Beziehung. In den Typkodierungen gibt es *keine* direkte Beziehung für \u0027in\u0027. Die vorhandenen räumlichen Beziehungen sind \u0027under\u0027 (ID 6) und \u0027above\u0027 (ID 7), aber nicht \u0027in\u0027. Daher fehlt eine notwendige Typkodierung für die Relation \u0027in\u0027.\nFehler: Die Relation \u0027in\u0027 ist in den gegebenen Typkodierungen nicht vorhanden. Es gibt keine ID, die die räumliche Position \u0027in\u0027 beschreibt. Obwohl \u0027attached\u0027 (ID 5) existiert, ist dies zu unspezifisch und beschreibt keine räumliche Enthaltenheit. Somit ist eine korrekte Kodierung der Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 („in“) nicht möglich.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation. \u0027mir\u0027 (im Besitz) wurde als Relation \u0027own\u0027 interpretiert und bezieht sich auf Maria als Besitzerin des Pools.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object), da sie physische Entitäten darstellen. \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity), da sie Handlungen beschreiben, die Maria ausführt.\\n3. Maria führt die Aktivität \u0027swim\u0027 aus und befindet sich dabei in einem Pool. Gleichzeitig führt Maria die Aktivität \u0027own\u0027 aus, wobei der Pool das Ziel (target) dieser Aktivität ist. Die Aktivität \u0027swim\u0027 bezieht sich ebenfalls auf den Pool als Ort (via \u0027in\u0027).\\n4. Die ID für \u0027object\u0027 ist 1 (identityMapping\u003dtrue). Die ID für \u0027activity\u0027 ist 4 (identityMapping\u003dtrue). Die ID für \u0027perform\u0027 ist 8 (identityMapping\u003dfalse) – beschreibt, dass Maria die Aktivitäten ausführt. Die ID für \u0027target\u0027 ist 9 (identityMapping\u003dfalse) – beschreibt, dass der Pool Ziel der Aktivität \u0027own\u0027 ist. Die ID für \u0027under\u0027 ist 6, \u0027above\u0027 ist 7 — jedoch fehlt eine explizite Kodierung für \u0027in\u0027. Stattdessen wird \u0027in\u0027 in den Informationen nicht aufgeführt. Allerdings ist \u0027attached\u0027 (ID 5) gegeben, was als generelle Beziehung verwendet werden könnte. Da aber im Kontext von Positionen wie \u0027in\u0027, \u0027above\u0027, \u0027under\u0027 erwartet wird und \u0027in\u0027 nicht explizit existiert, ist dies problematisch. Jedoch: laut Anfrage schwimmt Maria *in einem Pool* – dies ist eine räumliche Beziehung. In den Typkodierungen gibt es *keine* direkte Beziehung für \u0027in\u0027. Die vorhandenen räumlichen Beziehungen sind \u0027under\u0027 (ID 6) und \u0027above\u0027 (ID 7), aber nicht \u0027in\u0027. Daher fehlt eine notwendige Typkodierung für die Relation \u0027in\u0027.\\nFehler: Die Relation \u0027in\u0027 ist in den gegebenen Typkodierungen nicht vorhanden. Es gibt keine ID, die die räumliche Position \u0027in\u0027 beschreibt. Obwohl \u0027attached\u0027 (ID 5) existiert, ist dies zu unspezifisch und beschreibt keine räumliche Enthaltenheit. Somit ist eine korrekte Kodierung der Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 („in“) nicht möglich.\"\n}"
+}

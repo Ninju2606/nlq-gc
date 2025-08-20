@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.88,
+  "description": "1. Der relative Verweis \"meine Tochter\" wurde aufgelöst in die Identifikation des Nutzers \"maria\" und das Stichwort \"person\", wobei \"person\" die Tochter von \"maria\" ist. Der Verweis \"ich\" wurde zu \"maria\" zugeordnet.\n2. \"maria\", \"person\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität.\n3. \"maria\" führt die Aktivität \"drive\" aus. \"person\" (die Tochter) führt ebenfalls die Aktivität \"drive\" aus. Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\". Das Boot befindet sich auf dem See (\"boat\" ist \"above\" \"lake\"). \"boat\" befindet sich in \"lake\" (im Kontext des Sees). \"person\" ist die Tochter von \"maria\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für above ist 7, jedoch ist stattdessen 5 (\"under\") in der Liste vorhanden – korrigierend: ID für \"above\" ist 7. Die ID für in (in) ist 6. Die ID für attached ist 5, allerdings wurde 5 als \"under\" definiert – hier liegt ein Problem vor: \"attached\" hat ID 5, aber im Kontext wird \"in\" und \"above\" benötigt. Richtig: ID 6 \u003d \"under\", ID 7 \u003d \"above\", ID 6 \u003d \"under\" ist falsch zugeordnet? Überprüfung: Typkodierungen: 5 \u003d \"under\", 6 \u003d \"under\"? Nein: in den gegebenen Typkodierungen ist ID 6 \u003d \"under\", ID 7 \u003d \"above\". In meiner Zuordnung: boat ist above lake → ID 7, boat in lake → ID 6 (contextual/location). Aber ID 6 ist \"under\", nicht \"in\". Es gibt kein Attribut \"in\" in den gegebenen Typkodierungen. Dies ist ein Fehler.\nKorrektur: Es gibt keine Typkodierung für \"in\" in der vorgegebenen Liste. Gegebene Relationen: 5\u003dunder, 7\u003dabove, 14\u003dcharacteristic, aber kein Eintrag für \"in\". Daher ist die Relation \"boat in lake\" nicht abbildbar. Somit existiert kein gültiger Eintrag für die räumliche Beziehung \"in\" zwischen \"boat\" und \"lake\". Eintrag 6 in der Matrix für (boat,lake) bezieht sich auf eine fehlende Typkodierung. Es gibt keine ID mit attribute\u003d\"in\". Daher ist der GraphCode ungültig.\nFehler: Relation \"in\" ist nicht in den bereitgestellten Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wurde aufgelöst in die Identifikation des Nutzers \\\"maria\\\" und das Stichwort \\\"person\\\", wobei \\\"person\\\" die Tochter von \\\"maria\\\" ist. Der Verweis \\\"ich\\\" wurde zu \\\"maria\\\" zugeordnet.\\n2. \\\"maria\\\", \\\"person\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\\n3. \\\"maria\\\" führt die Aktivität \\\"drive\\\" aus. \\\"person\\\" (die Tochter) führt ebenfalls die Aktivität \\\"drive\\\" aus. Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\". Das Boot befindet sich auf dem See (\\\"boat\\\" ist \\\"above\\\" \\\"lake\\\"). \\\"boat\\\" befindet sich in \\\"lake\\\" (im Kontext des Sees). \\\"person\\\" ist die Tochter von \\\"maria\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für above ist 7, jedoch ist stattdessen 5 (\\\"under\\\") in der Liste vorhanden – korrigierend: ID für \\\"above\\\" ist 7. Die ID für in (in) ist 6. Die ID für attached ist 5, allerdings wurde 5 als \\\"under\\\" definiert – hier liegt ein Problem vor: \\\"attached\\\" hat ID 5, aber im Kontext wird \\\"in\\\" und \\\"above\\\" benötigt. Richtig: ID 6 \u003d \\\"under\\\", ID 7 \u003d \\\"above\\\", ID 6 \u003d \\\"under\\\" ist falsch zugeordnet? Überprüfung: Typkodierungen: 5 \u003d \\\"under\\\", 6 \u003d \\\"under\\\"? Nein: in den gegebenen Typkodierungen ist ID 6 \u003d \\\"under\\\", ID 7 \u003d \\\"above\\\". In meiner Zuordnung: boat ist above lake → ID 7, boat in lake → ID 6 (contextual/location). Aber ID 6 ist \\\"under\\\", nicht \\\"in\\\". Es gibt kein Attribut \\\"in\\\" in den gegebenen Typkodierungen. Dies ist ein Fehler.\\nKorrektur: Es gibt keine Typkodierung für \\\"in\\\" in der vorgegebenen Liste. Gegebene Relationen: 5\u003dunder, 7\u003dabove, 14\u003dcharacteristic, aber kein Eintrag für \\\"in\\\". Daher ist die Relation \\\"boat in lake\\\" nicht abbildbar. Somit existiert kein gültiger Eintrag für die räumliche Beziehung \\\"in\\\" zwischen \\\"boat\\\" und \\\"lake\\\". Eintrag 6 in der Matrix für (boat,lake) bezieht sich auf eine fehlende Typkodierung. Es gibt keine ID mit attribute\u003d\\\"in\\\". Daher ist der GraphCode ungültig.\\nFehler: Relation \\\"in\\\" ist nicht in den bereitgestellten Typkodierungen enthalten.\"\n}"
+}

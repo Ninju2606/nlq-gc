@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \"Ich\" wurde aufgelöst zu \"maria\" gemäß der Identifikation des Nutzers.\n2. \"maria\" und \"basketball\" sind Objekte (object) der Anfrage. \"play\" ist eine Aktivität (activity).\n3. \"maria\" führt die Aktivität \"play\" aus (perform). Die Aktivität \"play\" bezieht sich auf das Objekt \"basketball\" (target). Zusätzlich wird der Typ der Begriffe auf der Diagonalen abgebildet: \"maria\" ist ein Objekt (id\u003d1), \"play\" ist eine Aktivität (id\u003d4), \"basketball\" ist ein Objekt (id\u003d1).\n4. Die Typkodierungen sind wie folgt vorhanden: object (id\u003d1, identityMapping\u003dtrue), activity (id\u003d4, identityMapping\u003dtrue), perform (id\u003d8, identityMapping\u003dfalse), target (id\u003d9, identityMapping\u003dfalse). Alle benötigten Relationen haben gültige IDs in den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Identifikation des Nutzers.\\n2. \\\"maria\\\" und \\\"basketball\\\" sind Objekte (object) der Anfrage. \\\"play\\\" ist eine Aktivität (activity).\\n3. \\\"maria\\\" führt die Aktivität \\\"play\\\" aus (perform). Die Aktivität \\\"play\\\" bezieht sich auf das Objekt \\\"basketball\\\" (target). Zusätzlich wird der Typ der Begriffe auf der Diagonalen abgebildet: \\\"maria\\\" ist ein Objekt (id\u003d1), \\\"play\\\" ist eine Aktivität (id\u003d4), \\\"basketball\\\" ist ein Objekt (id\u003d1).\\n4. Die Typkodierungen sind wie folgt vorhanden: object (id\u003d1, identityMapping\u003dtrue), activity (id\u003d4, identityMapping\u003dtrue), perform (id\u003d8, identityMapping\u003dfalse), target (id\u003d9, identityMapping\u003dfalse). Alle benötigten Relationen haben gültige IDs in den vorgegebenen Typkodierungen.\"\n}"
+}

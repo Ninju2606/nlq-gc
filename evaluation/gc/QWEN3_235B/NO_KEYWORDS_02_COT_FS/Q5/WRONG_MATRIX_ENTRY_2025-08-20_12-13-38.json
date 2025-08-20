@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      2,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "1. Die relevanten Stichwörter sind \"ich\", \"gelben\", \"Hut\", \"trage\".\n2. \"ich\" ist ein relativer Verweis, der zur Nutzeridentifikation \"Maria\" aufgelöst wird.\n3. Die englischen Stichwörter sind \"Maria\", \"yellow\", \"hat\", \"wear\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"yellow\", \"hat\", \"wear\".\n5. \"Maria\" und \"hat\" sind Objekte der Anfrage (object). \"yellow\" ist ein Kontext/Attribut (context). \"wear\" ist eine Aktivität (activity).\n6. \"Maria\" führt die Aktivität \"wear\" aus (perform). Die Aktivität \"wear\" bezieht sich auf \"hat\" (target). \"yellow\" ist eine Charakteristik von \"hat\" (characteristic).\n7. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n    \"matrix\": [\n        [1, 0, 0, 8],\n        [0, 2, 14, 0],\n        [0, 0, 1, 0],\n        [0, 0, 9, 4]\n    ],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"ich\\\", \\\"gelben\\\", \\\"Hut\\\", \\\"trage\\\".\\n2. \\\"ich\\\" ist ein relativer Verweis, der zur Nutzeridentifikation \\\"Maria\\\" aufgelöst wird.\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"yellow\\\", \\\"hat\\\", \\\"wear\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"yellow\\\", \\\"hat\\\", \\\"wear\\\".\\n5. \\\"Maria\\\" und \\\"hat\\\" sind Objekte der Anfrage (object). \\\"yellow\\\" ist ein Kontext/Attribut (context). \\\"wear\\\" ist eine Aktivität (activity).\\n6. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus (perform). Die Aktivität \\\"wear\\\" bezieht sich auf \\\"hat\\\" (target). \\\"yellow\\\" ist eine Charakteristik von \\\"hat\\\" (characteristic).\\n7. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14.\"\n}"
+}

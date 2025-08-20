@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Der GraphCode beschreibt, dass Maria (object) die Aktivität \u0027wear\u0027 ausführt, deren Zielobjekt \u0027hat\u0027 (object) ist. Der Hut besitzt das Merkmal \u0027yellow\u0027 (context), kodiert durch die characteristic-Relation (ID 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt, dass Maria (object) die Aktivität \u0027wear\u0027 ausführt, deren Zielobjekt \u0027hat\u0027 (object) ist. Der Hut besitzt das Merkmal \u0027yellow\u0027 (context), kodiert durch die characteristic-Relation (ID 14).\"\n}"
+}

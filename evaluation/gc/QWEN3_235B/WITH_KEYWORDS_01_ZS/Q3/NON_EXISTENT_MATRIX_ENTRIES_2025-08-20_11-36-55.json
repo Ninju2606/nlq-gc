@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in einem Pool, der mir gehört. Die Szene beschreibt Maria als Handelnde, die schwimmt (Aktivität) im Pool. Der Pool steht in einer Besitz-Beziehung zu Maria (own \u003d gehört mir). Der Pool wird als Objekt klassifiziert und hat die Eigenschaft, von Maria besessen zu werden. Die Beziehung \u0027attached\u0027 (id\u003d5) wird verwendet, um den Besitz (own) räumlich oder logisch mit dem Objekt \u0027pool\u0027 zu verbinden. Die Beziehung \u0027perform\u0027 (id\u003d8) verbindet Maria mit der Aktivität \u0027swim\u0027. Die Beziehung \u0027target\u0027 (id\u003d9) zeigt an, dass die Aktivität \u0027swim\u0027 den Pool als Ort (Target) hat. Die Beziehung \u0027characteristic\u0027 (id\u003d14) verbindet \u0027own\u0027 mit \u0027pool\u0027, um auszudrücken, dass der Pool das Objekt des Besitzes ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 5, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Ich schwimme in einem Pool, der mir gehört. Die Szene beschreibt Maria als Handelnde, die schwimmt (Aktivität) im Pool. Der Pool steht in einer Besitz-Beziehung zu Maria (own \u003d gehört mir). Der Pool wird als Objekt klassifiziert und hat die Eigenschaft, von Maria besessen zu werden. Die Beziehung \u0027attached\u0027 (id\u003d5) wird verwendet, um den Besitz (own) räumlich oder logisch mit dem Objekt \u0027pool\u0027 zu verbinden. Die Beziehung \u0027perform\u0027 (id\u003d8) verbindet Maria mit der Aktivität \u0027swim\u0027. Die Beziehung \u0027target\u0027 (id\u003d9) zeigt an, dass die Aktivität \u0027swim\u0027 den Pool als Ort (Target) hat. Die Beziehung \u0027characteristic\u0027 (id\u003d14) verbindet \u0027own\u0027 mit \u0027pool\u0027, um auszudrücken, dass der Pool das Objekt des Besitzes ist.\"\n}"
+}

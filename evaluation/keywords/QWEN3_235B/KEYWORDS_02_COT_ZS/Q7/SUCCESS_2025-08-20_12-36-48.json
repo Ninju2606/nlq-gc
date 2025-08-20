@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und semantisch nicht klar verständlich. Es lässt sich nicht eindeutig bestimmen, welche Objekte, Attribute oder Aktivitäten gemeint sind. Der Ausdruck \u0027um Fragen zu malen\u0027 ist inkohärent, da \u0027Fragen malen\u0027 keine sinnvolle Handlung darstellt und die Beziehung zu \u0027Häusern\u0027 unklar ist. Daher können keine sinnvollen Stichwörter extrahiert werden.",
+  "error": "Unklare Anfragestruktur",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfragestruktur\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und semantisch nicht klar verständlich. Es lässt sich nicht eindeutig bestimmen, welche Objekte, Attribute oder Aktivitäten gemeint sind. Der Ausdruck \u0027um Fragen zu malen\u0027 ist inkohärent, da \u0027Fragen malen\u0027 keine sinnvolle Handlung darstellt und die Beziehung zu \u0027Häusern\u0027 unklar ist. Daher können keine sinnvollen Stichwörter extrahiert werden.\"\n}"
+}

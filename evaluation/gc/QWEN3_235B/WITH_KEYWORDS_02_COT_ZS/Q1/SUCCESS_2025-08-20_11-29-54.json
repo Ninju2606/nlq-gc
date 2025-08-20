@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Schritt 1: Das relative Pronomen \u0027ich\u0027 wird der Benutzeridentifikation \u0027Maria\u0027 zugeordnet. Schritt 2: Attribute der Stichwörter - \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1). Schritt 3: Relationen - Maria (0) führt die Aktivität \u0027play\u0027 aus (Typ 8), die Aktivität \u0027play\u0027 (1) hat \u0027basketball\u0027 (2) als Zielobjekt (Typ 9). Schritt 4: Alle Relationen haben passende Typkodierungen (IDs 8 und 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Schritt 1: Das relative Pronomen \u0027ich\u0027 wird der Benutzeridentifikation \u0027Maria\u0027 zugeordnet. Schritt 2: Attribute der Stichwörter - \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1). Schritt 3: Relationen - Maria (0) führt die Aktivität \u0027play\u0027 aus (Typ 8), die Aktivität \u0027play\u0027 (1) hat \u0027basketball\u0027 (2) als Zielobjekt (Typ 9). Schritt 4: Alle Relationen haben passende Typkodierungen (IDs 8 und 9).\"\n}"
+}

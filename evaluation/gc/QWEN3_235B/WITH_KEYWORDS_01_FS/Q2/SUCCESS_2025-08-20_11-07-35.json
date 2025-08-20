@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "GraphCode für die Anfrage \u0027Tim rennt\u0027 mit tim als Objekt (Typ 1) und run als Aktivität (Typ 4), verbunden durch die Relation \u0027perform\u0027 (Typ 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 4]],\n  \"description\": \"GraphCode für die Anfrage \u0027Tim rennt\u0027 mit tim als Objekt (Typ 1) und run als Aktivität (Typ 4), verbunden durch die Relation \u0027perform\u0027 (Typ 8).\"\n}"
+}

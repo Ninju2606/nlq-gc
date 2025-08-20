@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich kein verständlicher Zusammenhang zwischen \"Häuser\", \"Fragen\" und \"malen\" herstellen.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich kein verständlicher Zusammenhang zwischen \\\"Häuser\\\", \\\"Fragen\\\" und \\\"malen\\\" herstellen.\"\n}"
+}

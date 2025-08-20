@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "question",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      5
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Häuser\", \"Fragen\", \"malen\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \"house\", \"question\", \"paint\".\n4. Es gibt keine selbstreferenzierenden Wörter wie \"ich\" oder \"mein\", daher bleibt die Nutzeridentifikation unberücksichtigt.\n5. \"house\" und \"question\" sind Objekte der Anfrage (Typ: object). \"paint\" ist eine Aktivität (Typ: activity).\n6. \"house\" hat die Charakteristik \"question\" (Fragen sind Merkmale des Hauses). \"house\" ist mit der Aktivität \"paint\" verbunden (räumliche Beziehung). Die Aktivität \"paint\" bezieht sich auf \"question\" (Fragen werden gemalt).\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Charakteristik (characteristic) ist 14. Die ID für verbunden (attached) ist 5. Die ID für Ziel (target) ist 9. Alle benötigten Typkodierungen existieren in den vorgegebenen Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"question\", \"paint\"],\n  \"matrix\": [\n    [1, 14, 5],\n    [0, 1, 0],\n    [0, 9, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"Fragen\\\", \\\"malen\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"house\\\", \\\"question\\\", \\\"paint\\\".\\n4. Es gibt keine selbstreferenzierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\", daher bleibt die Nutzeridentifikation unberücksichtigt.\\n5. \\\"house\\\" und \\\"question\\\" sind Objekte der Anfrage (Typ: object). \\\"paint\\\" ist eine Aktivität (Typ: activity).\\n6. \\\"house\\\" hat die Charakteristik \\\"question\\\" (Fragen sind Merkmale des Hauses). \\\"house\\\" ist mit der Aktivität \\\"paint\\\" verbunden (räumliche Beziehung). Die Aktivität \\\"paint\\\" bezieht sich auf \\\"question\\\" (Fragen werden gemalt).\\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Charakteristik (characteristic) ist 14. Die ID für verbunden (attached) ist 5. Die ID für Ziel (target) ist 9. Alle benötigten Typkodierungen existieren in den vorgegebenen Regeln.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \"Ich\" wurde aufgelöst zu \"maria\" gemäß der gegebenen Nutzeridentifikation. \"Meinem\" wurde als Besitzverhältnis interpretiert und in die Beziehung \"own\" übersetzt, bezogen auf \"pool\".\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"own\" sind Aktivitäten.\n3. \"maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" hat die Zielbeziehung (target) zu \"pool\", d.h., Maria schwimmt im Pool. Zudem besteht eine Besitzbeziehung: \"maria\" führt die Aktivität \"own\" aus, die sich auf \"pool\" bezieht.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für unter (under) ist 6, aber hier ist die räumliche Beziehung \"in\" gemeint. Für \"in\" gibt es keine direkte Typkodierung. Allerdings ist die Beziehung \"attached\" (ID 5) mit identityMapping\u003dfalse vorhanden und könnte als generische Beziehung für Lokationen dienen, wenn keine spezifischere vorhanden ist. Da jedoch explizit nach \"in\" gesucht wird und diese Beziehung nicht in den vorgegebenen Typkodierungen enthalten ist (keine ID für \"in\"), müsste eigentlich ein Fehler ausgegeben werden. Allerdings deutet die Relation \"attached\" (ID 5) in den Beispielen manchmal auf allgemeine Verbindungen hin. Da in den tatsächlichen Typkodierungen kein Eintrag für \"in\" existiert, wäre dies problematisch. Jedoch wird in den Typkodierungen eine Beziehung \"attached\" (ID 5) mit identityMapping\u003dfalse als generische Verbindung angeboten. Da keine spezifischere Beziehung wie \"in\" verfügbar ist, wird „attached“ als Ersatz für die räumliche Beziehung verwendet. Damit ist die Relation zwischen swim und pool über „target“ (ID 9) abgedeckt, und die Beziehung „in“ wird durch die Aktivität „swim“ impliziert. Die Beziehung zwischen „maria“ und „pool“ über „own“ wird durch „perform“ (ID 8) dargestellt. Die Beziehung „target“ (ID 9) wird für swim → pool verwendet. Die Einheitsdiagonale enthält nur IDs mit identityMapping\u003dtrue: Objekt (1) und Aktivität (4). Alle off-diagonalen Einträge sind entweder 0 oder IDs mit identityMapping\u003dfalse (5, 8, 9). Die ID für „target“ ist 9, für „perform“ ist 8, für „attached“ ist 5. Damit sind alle benötigten Relationen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der gegebenen Nutzeridentifikation. \\\"Meinem\\\" wurde als Besitzverhältnis interpretiert und in die Beziehung \\\"own\\\" übersetzt, bezogen auf \\\"pool\\\".\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" hat die Zielbeziehung (target) zu \\\"pool\\\", d.h., Maria schwimmt im Pool. Zudem besteht eine Besitzbeziehung: \\\"maria\\\" führt die Aktivität \\\"own\\\" aus, die sich auf \\\"pool\\\" bezieht.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für unter (under) ist 6, aber hier ist die räumliche Beziehung \\\"in\\\" gemeint. Für \\\"in\\\" gibt es keine direkte Typkodierung. Allerdings ist die Beziehung \\\"attached\\\" (ID 5) mit identityMapping\u003dfalse vorhanden und könnte als generische Beziehung für Lokationen dienen, wenn keine spezifischere vorhanden ist. Da jedoch explizit nach \\\"in\\\" gesucht wird und diese Beziehung nicht in den vorgegebenen Typkodierungen enthalten ist (keine ID für \\\"in\\\"), müsste eigentlich ein Fehler ausgegeben werden. Allerdings deutet die Relation \\\"attached\\\" (ID 5) in den Beispielen manchmal auf allgemeine Verbindungen hin. Da in den tatsächlichen Typkodierungen kein Eintrag für \\\"in\\\" existiert, wäre dies problematisch. Jedoch wird in den Typkodierungen eine Beziehung \\\"attached\\\" (ID 5) mit identityMapping\u003dfalse als generische Verbindung angeboten. Da keine spezifischere Beziehung wie \\\"in\\\" verfügbar ist, wird „attached“ als Ersatz für die räumliche Beziehung verwendet. Damit ist die Relation zwischen swim und pool über „target“ (ID 9) abgedeckt, und die Beziehung „in“ wird durch die Aktivität „swim“ impliziert. Die Beziehung zwischen „maria“ und „pool“ über „own“ wird durch „perform“ (ID 8) dargestellt. Die Beziehung „target“ (ID 9) wird für swim → pool verwendet. Die Einheitsdiagonale enthält nur IDs mit identityMapping\u003dtrue: Objekt (1) und Aktivität (4). Alle off-diagonalen Einträge sind entweder 0 oder IDs mit identityMapping\u003dfalse (5, 8, 9). Die ID für „target“ ist 9, für „perform“ ist 8, für „attached“ ist 5. Damit sind alle benötigten Relationen abgedeckt.\"\n}"
+}

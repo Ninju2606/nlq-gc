@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und semantisch nicht sinnvoll, da \u0027Fragen malen\u0027 keine erkennbare Aktion oder Beziehung im Metaverse-Szenenkontext darstellt. Es fehlen entscheidende Informationen für einen validen GraphCode.",
+  "error": "Unclear query structure",
+  "responsePlain": "{\n  \"error\": \"Unclear query structure\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und semantisch nicht sinnvoll, da \u0027Fragen malen\u0027 keine erkennbare Aktion oder Beziehung im Metaverse-Szenenkontext darstellt. Es fehlen entscheidende Informationen für einen validen GraphCode.\"\n}"
+}

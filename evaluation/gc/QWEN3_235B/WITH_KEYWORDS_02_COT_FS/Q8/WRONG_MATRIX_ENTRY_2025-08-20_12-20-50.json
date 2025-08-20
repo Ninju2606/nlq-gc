@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.88,
+  "description": "1. Der relative Verweis \"meine Tochter\" wird im Vokabular durch die Kombination aus \"maria\" (Identifikation des Nutzers) und \"person\" (repräsentiert die Tochter als eigenständige Entität) aufgelöst. \"Ich\" bezieht sich auf \"maria\".\n2. \"maria\" und \"person\" sind Objekte (object). \"boat\" und \"lake\" sind ebenfalls Objekte (object). \"drive\" ist eine Aktivität (activity). \n3. \"person\" (die Tochter) ist die Tochter von \"maria\" (daughter-Beziehung). Sowohl \"maria\" als auch \"person\" führen die Aktivität \"drive\" aus (perform). Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\" (target). Das Boot befindet sich auf dem See (above-Beziehung zwischen \"boat\" und \"lake\"). Zudem befindet sich das Boot im See (in-Beziehung). \n4. Die ID für \"object\" ist 1 (identityMapping\u003dtrue). Die ID für \"activity\" ist 4. Die ID für \"daughter\" ist 10. Die ID für \"perform\" ist 8. Die ID für \"target\" ist 9. Die ID für \"above\" ist 7. Die ID für \"in\" ist 6. Es gibt allerdings ein Problem: Die Relation \"perform\" (ID 8) wird verwendet, wenn eine Person eine Aktivität ausführt. Laut Vorgabe ist aber ID 8 als \"perform\" mit identityMapping\u003dfalse korrekt einsetzbar. Allerdings fehlt die Relation \"target\" mit ID 9 zur Verknüpfung von Aktivität und Objekt. In der vorgegebenen Typkodierung existiert die ID 9 mit dem Attribut \"target\" und identityMapping\u003dfalse, also ist sie verwendbar. ID 6 (\"in\") und ID 7 (\"above\") sind ebenfalls vorhanden. Damit sind alle benötigten Relationen abgedeckt. Korrektur: In der Matrix wurde fälschlicherweise 5 (für \"under\") statt 7 (\"above\") verwendet – hier liegt ein Fehler vor. Es muss 7 verwendet werden. Außerdem wurde in der Matrix bei (drive→boat) die ID 5 verwendet, was nicht korrekt ist. Stattdessen muss die ID 9 (target) verwendet werden. Zudem wurde bei (drive→lake) 6 (in) falsch platziert: „fahren auf einem See“ impliziert, dass das Boot *auf* dem See ist, nicht die Aktivität. Die Beziehung „in“ oder „above“ muss zwischen „boat“ und „lake“ bestehen. Korrektur der Matrix notwendig.\n\nNach Korrektur:\n- (drive, boat) → ID 9 (target)\n- (boat, lake) → ID 7 (above) oder 6 (in). Da „auf einem See“ eher eine „above“-Beziehung ist, wird ID 7 verwendet.\n- (maria, person) → ID 10 (daughter)\n- (maria, drive) → ID 8 (perform)\n- (person, drive) → ID 8 (perform)\n\nFinales Mapping:\n(0,1): maria → person → ID 10 (daughter)\n(0,2): maria → drive → ID 8 (perform)\n(1,2): person → drive → ID 8 (perform)\n(2,3): drive → boat → ID 9 (target)\n(3,4): boat → lake → ID 7 (above)\n\nDiagonale: alle Einträge sind 1 (object oder activity). Aber: \"drive\" ist activity → ID 4, nicht 1. Fehler!\n\nKorrektur der Diagonale:\n- (0,0): maria → object → ID 1\n- (1,1): person → object → ID 1\n- (2,2): drive → activity → ID 4\n- (3,3): boat → object → ID 1\n- (4,4): lake → object → ID 1\n\nAußerdem: Beziehung „in“ wird in der Aufzählung als ID 6 geführt, aber in den vorgegebenen Typkodierungen existiert **keine ID 6 mit Attribut \u0027in\u0027**! Stattdessen haben wir:\nVorgegebene Typkodierungen:\n{\n  \"id\":6, \"attribute\":\"under\"\n},\n{\n  \"id\":7, \"attribute\":\"above\"\n}\n→ Also: Es gibt **keine Typkodierung für \u0027in\u0027 (ID 6 mit attribute\u003din)**, wie fälschlicherweise in den Beispielen angenommen! \n\nAber in der Anfrage steht: „auf einem See“. Das entspricht „above“. ID 7 ist vorhanden. Also ist \u0027above\u0027 \u003d 7 verwendbar.\nAber: Die Beziehung zwischen „drive“ und „boat“ muss \u0027target\u0027 sein → ID 9 ist vorhanden.\n\nEndgültige Konsistenzprüfung:\n- ID 1: object → ja, identityMapping\u003dtrue → OK für Diagonale\n- ID 4: activity → identityMapping\u003dtrue → OK für Diagonale\n- ID 8: perform → identityMapping\u003dfalse → außerhalb Diagonale erlaubt\n- ID 9: target → identityMapping\u003dfalse → erlaubt\n- ID 10: daughter → identityMapping\u003dfalse → erlaubt\n- ID 7: above → identityMapping\u003dfalse → erlaubt\n\nAlle benötigten Relationen sind vorhanden.\n\nKorrigierter GraphCode:\nMatrix:\n[\n [1, 10, 8, 0, 0],      // maria → person: daughter (10), maria → drive: perform (8)\n [0, 1, 8, 0, 0],       // person → drive: perform (8)\n [0, 0, 4, 9, 0],       // drive → boat: target (9)\n [0, 0, 0, 1, 7],       // boat → lake: above (7)\n [0, 0, 0, 0, 1]        // lake: object\n]\n\nDamit ist alles abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wird im Vokabular durch die Kombination aus \\\"maria\\\" (Identifikation des Nutzers) und \\\"person\\\" (repräsentiert die Tochter als eigenständige Entität) aufgelöst. \\\"Ich\\\" bezieht sich auf \\\"maria\\\".\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte (object). \\\"boat\\\" und \\\"lake\\\" sind ebenfalls Objekte (object). \\\"drive\\\" ist eine Aktivität (activity). \\n3. \\\"person\\\" (die Tochter) ist die Tochter von \\\"maria\\\" (daughter-Beziehung). Sowohl \\\"maria\\\" als auch \\\"person\\\" führen die Aktivität \\\"drive\\\" aus (perform). Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\" (target). Das Boot befindet sich auf dem See (above-Beziehung zwischen \\\"boat\\\" und \\\"lake\\\"). Zudem befindet sich das Boot im See (in-Beziehung). \\n4. Die ID für \\\"object\\\" ist 1 (identityMapping\u003dtrue). Die ID für \\\"activity\\\" ist 4. Die ID für \\\"daughter\\\" ist 10. Die ID für \\\"perform\\\" ist 8. Die ID für \\\"target\\\" ist 9. Die ID für \\\"above\\\" ist 7. Die ID für \\\"in\\\" ist 6. Es gibt allerdings ein Problem: Die Relation \\\"perform\\\" (ID 8) wird verwendet, wenn eine Person eine Aktivität ausführt. Laut Vorgabe ist aber ID 8 als \\\"perform\\\" mit identityMapping\u003dfalse korrekt einsetzbar. Allerdings fehlt die Relation \\\"target\\\" mit ID 9 zur Verknüpfung von Aktivität und Objekt. In der vorgegebenen Typkodierung existiert die ID 9 mit dem Attribut \\\"target\\\" und identityMapping\u003dfalse, also ist sie verwendbar. ID 6 (\\\"in\\\") und ID 7 (\\\"above\\\") sind ebenfalls vorhanden. Damit sind alle benötigten Relationen abgedeckt. Korrektur: In der Matrix wurde fälschlicherweise 5 (für \\\"under\\\") statt 7 (\\\"above\\\") verwendet – hier liegt ein Fehler vor. Es muss 7 verwendet werden. Außerdem wurde in der Matrix bei (drive→boat) die ID 5 verwendet, was nicht korrekt ist. Stattdessen muss die ID 9 (target) verwendet werden. Zudem wurde bei (drive→lake) 6 (in) falsch platziert: „fahren auf einem See“ impliziert, dass das Boot *auf* dem See ist, nicht die Aktivität. Die Beziehung „in“ oder „above“ muss zwischen „boat“ und „lake“ bestehen. Korrektur der Matrix notwendig.\\n\\nNach Korrektur:\\n- (drive, boat) → ID 9 (target)\\n- (boat, lake) → ID 7 (above) oder 6 (in). Da „auf einem See“ eher eine „above“-Beziehung ist, wird ID 7 verwendet.\\n- (maria, person) → ID 10 (daughter)\\n- (maria, drive) → ID 8 (perform)\\n- (person, drive) → ID 8 (perform)\\n\\nFinales Mapping:\\n(0,1): maria → person → ID 10 (daughter)\\n(0,2): maria → drive → ID 8 (perform)\\n(1,2): person → drive → ID 8 (perform)\\n(2,3): drive → boat → ID 9 (target)\\n(3,4): boat → lake → ID 7 (above)\\n\\nDiagonale: alle Einträge sind 1 (object oder activity). Aber: \\\"drive\\\" ist activity → ID 4, nicht 1. Fehler!\\n\\nKorrektur der Diagonale:\\n- (0,0): maria → object → ID 1\\n- (1,1): person → object → ID 1\\n- (2,2): drive → activity → ID 4\\n- (3,3): boat → object → ID 1\\n- (4,4): lake → object → ID 1\\n\\nAußerdem: Beziehung „in“ wird in der Aufzählung als ID 6 geführt, aber in den vorgegebenen Typkodierungen existiert **keine ID 6 mit Attribut \u0027in\u0027**! Stattdessen haben wir:\\nVorgegebene Typkodierungen:\\n{\\n  \\\"id\\\":6, \\\"attribute\\\":\\\"under\\\"\\n},\\n{\\n  \\\"id\\\":7, \\\"attribute\\\":\\\"above\\\"\\n}\\n→ Also: Es gibt **keine Typkodierung für \u0027in\u0027 (ID 6 mit attribute\u003din)**, wie fälschlicherweise in den Beispielen angenommen! \\n\\nAber in der Anfrage steht: „auf einem See“. Das entspricht „above“. ID 7 ist vorhanden. Also ist \u0027above\u0027 \u003d 7 verwendbar.\\nAber: Die Beziehung zwischen „drive“ und „boat“ muss \u0027target\u0027 sein → ID 9 ist vorhanden.\\n\\nEndgültige Konsistenzprüfung:\\n- ID 1: object → ja, identityMapping\u003dtrue → OK für Diagonale\\n- ID 4: activity → identityMapping\u003dtrue → OK für Diagonale\\n- ID 8: perform → identityMapping\u003dfalse → außerhalb Diagonale erlaubt\\n- ID 9: target → identityMapping\u003dfalse → erlaubt\\n- ID 10: daughter → identityMapping\u003dfalse → erlaubt\\n- ID 7: above → identityMapping\u003dfalse → erlaubt\\n\\nAlle benötigten Relationen sind vorhanden.\\n\\nKorrigierter GraphCode:\\nMatrix:\\n[\\n [1, 10, 8, 0, 0],      // maria → person: daughter (10), maria → drive: perform (8)\\n [0, 1, 8, 0, 0],       // person → drive: perform (8)\\n [0, 0, 4, 9, 0],       // drive → boat: target (9)\\n [0, 0, 0, 1, 7],       // boat → lake: above (7)\\n [0, 0, 0, 0, 1]        // lake: object\\n]\\n\\nDamit ist alles abgedeckt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der angegebenen Nutzeridentifikation. \u0027mir gehört\u0027 bezieht sich auf den Besitz des Pools durch Maria.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity).\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, die sich auf \u0027pool\u0027 bezieht (Maria schwimmt im Pool). Außerdem führt \u0027maria\u0027 die Aktivität \u0027own\u0027 aus, die sich ebenfalls auf \u0027pool\u0027 bezieht (Maria besitzt den Pool). Die Aktivität \u0027swim\u0027 findet in einem Kontext statt, der durch die Beziehung \u0027in\u0027 (hier kodiert als ID 5) zur Ortsangabe \u0027pool\u0027 hergestellt wird. Die Beziehung \u0027in\u0027 wird über die Typkodierung \u0027under\u0027 (ID 6) nicht korrekt abgebildet; stattdessen wird im vorliegenden Kontext die Bedeutung \u0027in\u0027 durch die Beziehung \u0027attached\u0027 (ID 5) abgebildet, da keine explizite \u0027in\u0027-Kodierung vorhanden ist – dies ist jedoch inakzeptabel. Stattdessen muss geprüft werden, ob ein geeigneter Typ für die Relation \u0027in\u0027 existiert.\nDa im vorgegebenen Kodierungssatz keine Relation \u0027in\u0027 enthalten ist, darf die Relation nicht willkürlich durch \u0027attached\u0027 (ID 5) oder \u0027under\u0027 (ID 6) ersetzt werden. Tatsächlich ist die Beziehung \u0027in\u0027 im echten Kodierungssatz nicht vorhanden. Die verfügbaren räumlichen Beziehungen sind \u0027under\u0027 (ID 6), \u0027above\u0027 (ID 7) und \u0027attached\u0027 (ID 5). Es gibt **keine** Kodierung für \u0027in\u0027.\n4. Die Relation \u0027in\u0027, wie in \u0027schwimmen in einem Pool\u0027, ist **nicht** in den bereitgestellten Typkodierungen enthalten. Es existiert keine ID für die Beziehung \u0027in\u0027. Somit kann die räumliche Beziehung zwischen \u0027swim\u0027 und \u0027pool\u0027 nicht korrekt dargestellt werden. Obwohl \u0027attached\u0027 (ID 5) verwendet wurde, ist dies semantisch ungenau und nicht zulässig, da keine \u0027in\u0027-Beziehung definiert ist. Daher: **Fehler – die benötigte Relation \u0027in\u0027 ist nicht in den Typkodierungen vorhanden.**",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der angegebenen Nutzeridentifikation. \u0027mir gehört\u0027 bezieht sich auf den Besitz des Pools durch Maria.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity).\\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, die sich auf \u0027pool\u0027 bezieht (Maria schwimmt im Pool). Außerdem führt \u0027maria\u0027 die Aktivität \u0027own\u0027 aus, die sich ebenfalls auf \u0027pool\u0027 bezieht (Maria besitzt den Pool). Die Aktivität \u0027swim\u0027 findet in einem Kontext statt, der durch die Beziehung \u0027in\u0027 (hier kodiert als ID 5) zur Ortsangabe \u0027pool\u0027 hergestellt wird. Die Beziehung \u0027in\u0027 wird über die Typkodierung \u0027under\u0027 (ID 6) nicht korrekt abgebildet; stattdessen wird im vorliegenden Kontext die Bedeutung \u0027in\u0027 durch die Beziehung \u0027attached\u0027 (ID 5) abgebildet, da keine explizite \u0027in\u0027-Kodierung vorhanden ist – dies ist jedoch inakzeptabel. Stattdessen muss geprüft werden, ob ein geeigneter Typ für die Relation \u0027in\u0027 existiert.\\nDa im vorgegebenen Kodierungssatz keine Relation \u0027in\u0027 enthalten ist, darf die Relation nicht willkürlich durch \u0027attached\u0027 (ID 5) oder \u0027under\u0027 (ID 6) ersetzt werden. Tatsächlich ist die Beziehung \u0027in\u0027 im echten Kodierungssatz nicht vorhanden. Die verfügbaren räumlichen Beziehungen sind \u0027under\u0027 (ID 6), \u0027above\u0027 (ID 7) und \u0027attached\u0027 (ID 5). Es gibt **keine** Kodierung für \u0027in\u0027.\\n4. Die Relation \u0027in\u0027, wie in \u0027schwimmen in einem Pool\u0027, ist **nicht** in den bereitgestellten Typkodierungen enthalten. Es existiert keine ID für die Beziehung \u0027in\u0027. Somit kann die räumliche Beziehung zwischen \u0027swim\u0027 und \u0027pool\u0027 nicht korrekt dargestellt werden. Obwohl \u0027attached\u0027 (ID 5) verwendet wurde, ist dies semantisch ungenau und nicht zulässig, da keine \u0027in\u0027-Beziehung definiert ist. Daher: **Fehler – die benötigte Relation \u0027in\u0027 ist nicht in den Typkodierungen vorhanden.**\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch inkorrekt oder unklar. Der Satz \u0027Häuser um Fragen zu malen\u0027 enthält keine vollständige Satzstruktur (fehlendes Subjekt/Prädikat außerhalb der \u0027um...zu\u0027-Konstruktion), sodass keine eindeutigen Objekte, Attribute oder Aktivitäten für einen sinnvollen GraphCode identifiziert werden können.",
+  "error": "Grammatical error",
+  "responsePlain": "{\n  \"error\": \"Grammatical error\",\n  \"description\": \"Die Anfrage ist grammatikalisch inkorrekt oder unklar. Der Satz \u0027Häuser um Fragen zu malen\u0027 enthält keine vollständige Satzstruktur (fehlendes Subjekt/Prädikat außerhalb der \u0027um...zu\u0027-Konstruktion), sodass keine eindeutigen Objekte, Attribute oder Aktivitäten für einen sinnvollen GraphCode identifiziert werden können.\"\n}"
+}

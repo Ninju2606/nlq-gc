@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die eine Szene im Metaverse beschreiben würden. Es handelt sich um eine vage Planungsabsicht ohne räumliche, interaktive oder visuelle Elemente, die für einen GraphCode notwendig wären. Daher kann kein aussagekräftiges Vokabular extrahiert werden.",
+  "error": "Keine sinnvolle Szenenbeschreibung im Metaverse erkennbar.",
+  "responsePlain": "{\n  \"error\": \"Keine sinnvolle Szenenbeschreibung im Metaverse erkennbar.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die eine Szene im Metaverse beschreiben würden. Es handelt sich um eine vage Planungsabsicht ohne räumliche, interaktive oder visuelle Elemente, die für einen GraphCode notwendig wären. Daher kann kein aussagekräftiges Vokabular extrahiert werden.\"\n}"
+}

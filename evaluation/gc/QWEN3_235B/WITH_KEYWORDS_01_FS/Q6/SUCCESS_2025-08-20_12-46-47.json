@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Relation \"perform\" ist für die Aktivität des Termins nicht bekannt oder nicht im Vokabular abbildbar. Zudem fehlt ein geeigneter Typkodierungseintrag für die zeitliche Komponente \"bald\", die nicht eindeutig zuordbar ist. Die Anfrage enthält ungenaue relationale Angaben, die mit den gegebenen Typkodierungen nicht abgebildet werden können.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \\\"perform\\\" ist für die Aktivität des Termins nicht bekannt oder nicht im Vokabular abbildbar. Zudem fehlt ein geeigneter Typkodierungseintrag für die zeitliche Komponente \\\"bald\\\", die nicht eindeutig zuordbar ist. Die Anfrage enthält ungenaue relationale Angaben, die mit den gegebenen Typkodierungen nicht abgebildet werden können.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

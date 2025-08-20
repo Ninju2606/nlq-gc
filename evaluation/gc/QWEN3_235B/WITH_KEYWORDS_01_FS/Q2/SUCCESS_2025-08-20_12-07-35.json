@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Tim (Objekt) führt die Aktivität Laufen (run) aus. Die Beziehung zwischen Tim und der Aktivität wird durch \u0027perform\u0027 (ID 8) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"Tim (Objekt) führt die Aktivität Laufen (run) aus. Die Beziehung zwischen Tim und der Aktivität wird durch \u0027perform\u0027 (ID 8) dargestellt.\"\n}"
+}

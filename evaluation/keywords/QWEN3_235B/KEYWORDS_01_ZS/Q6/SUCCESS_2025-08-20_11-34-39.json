@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern einen organisatorischen Hinweis, der nicht in ein Medienobjekt einer Szene im Metaverse übersetzt werden kann.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern einen organisatorischen Hinweis, der nicht in ein Medienobjekt einer Szene im Metaverse übersetzt werden kann.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

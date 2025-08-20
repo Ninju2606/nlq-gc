@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage \u0027Häuser um Fragen zu malen\u0027 grammatikalisch widersprüchlich und inhaltlich unklar ist. Der Satz lässt keine sinnvolle Zuordnung von Objekten, Attributen oder Aktivitäten zu. Mögliche Interpretationen (z. B. Häuser malen, die Fragen enthalten, oder Häuser, die um Fragen herum gestaltet sind) sind spekulativ und nicht eindeutig. Daher kann kein gültiger GraphCode generiert werden.",
+  "error": "Die Anfrage ist grammatikalisch nicht korrekt oder sinnvoll interpretierbar. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht klar verständlich. Bitte formuliere die Anfrage präziser.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch nicht korrekt oder sinnvoll interpretierbar. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist nicht klar verständlich. Bitte formuliere die Anfrage präziser.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage \u0027Häuser um Fragen zu malen\u0027 grammatikalisch widersprüchlich und inhaltlich unklar ist. Der Satz lässt keine sinnvolle Zuordnung von Objekten, Attributen oder Aktivitäten zu. Mögliche Interpretationen (z. B. Häuser malen, die Fragen enthalten, oder Häuser, die um Fragen herum gestaltet sind) sind spekulativ und nicht eindeutig. Daher kann kein gültiger GraphCode generiert werden.\"\n}"
+}

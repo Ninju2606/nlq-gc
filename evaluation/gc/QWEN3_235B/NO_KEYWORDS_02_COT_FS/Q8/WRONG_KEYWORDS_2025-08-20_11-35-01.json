@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "ride",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      5,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine\", \"Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\".\n2. \"Meine Tochter\" ist ein relativer Verweis. Die Beziehung zwischen \"ich\" und \"Tochter\" wird als \"daughter\" kodiert. Die neuen Stichwörter sind \"Maria\", \"daughter\", \"boat\", \"ride\", \"lake\".\n3. Die englischen Stichwörter sind \"Maria\", \"daughter\", \"boat\", \"ride\", \"lake\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"boat\", \"ride\", \"lake\".\n5. \"Maria\", \"daughter\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"ride\" ist eine Aktivität. \"daughter\" ist über eine relationale Beziehung (daughter) mit \"Maria\" verbunden.\n6. \"Maria\" hat eine Tochter genannt \"daughter\". \"Maria\" und \"daughter\" führen gemeinsam die Aktivität \"ride\" aus. \"ride\" bezieht sich auf das Objekt \"boat\". \"boat\" befindet sich auf dem \"lake\". \"lake\" fungiert als räumlicher Kontext.\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \"daughter\" ist 10. Die ID für \"perform\" ist 8. Die ID für \"attached\" ist 5. Die ID für \"target\" ist 9. Die ID für \"under\" ist 6. Die ID für \"context\" ist 2.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"ride\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 5, 8, 0],\n    [0, 1, 0, 8, 0],\n    [0, 0, 1, 0, 6],\n    [0, 0, 0, 4, 9],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine\\\", \\\"Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n2. \\\"Meine Tochter\\\" ist ein relativer Verweis. Die Beziehung zwischen \\\"ich\\\" und \\\"Tochter\\\" wird als \\\"daughter\\\" kodiert. Die neuen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"ride\\\", \\\"lake\\\".\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"ride\\\", \\\"lake\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"ride\\\", \\\"lake\\\".\\n5. \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"ride\\\" ist eine Aktivität. \\\"daughter\\\" ist über eine relationale Beziehung (daughter) mit \\\"Maria\\\" verbunden.\\n6. \\\"Maria\\\" hat eine Tochter genannt \\\"daughter\\\". \\\"Maria\\\" und \\\"daughter\\\" führen gemeinsam die Aktivität \\\"ride\\\" aus. \\\"ride\\\" bezieht sich auf das Objekt \\\"boat\\\". \\\"boat\\\" befindet sich auf dem \\\"lake\\\". \\\"lake\\\" fungiert als räumlicher Kontext.\\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \\\"daughter\\\" ist 10. Die ID für \\\"perform\\\" ist 8. Die ID für \\\"attached\\\" ist 5. Die ID für \\\"target\\\" ist 9. Die ID für \\\"under\\\" ist 6. Die ID für \\\"context\\\" ist 2.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      5,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert Marias Aktivität (schwimmen) im selbstbesitzenden Pool. Maria (Objekt) führt das Activity \u0027swim\u0027 aus (Typ 8: perform). Das Activity \u0027swim\u0027 steht in Beziehung zum Pool (Objekt) durch \u0027attached\u0027 (Typ 5), was die Positionsangabe \u0027in\u0027 abbildet. Der Pool ist durch \u0027attached\u0027 (Typ 5) Marias Eigentum, was die Besitzrelation abbildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 5],\n    [5, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert Marias Aktivität (schwimmen) im selbstbesitzenden Pool. Maria (Objekt) führt das Activity \u0027swim\u0027 aus (Typ 8: perform). Das Activity \u0027swim\u0027 steht in Beziehung zum Pool (Objekt) durch \u0027attached\u0027 (Typ 5), was die Positionsangabe \u0027in\u0027 abbildet. Der Pool ist durch \u0027attached\u0027 (Typ 5) Marias Eigentum, was die Besitzrelation abbildet.\"\n}"
+}

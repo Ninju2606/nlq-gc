@@ -1,0 +1,38 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      6,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch Typ 6 (\u0027under\u0027) genutzt, da \u0027in\u0027 nicht direkt verfügbar ist, aber im Kontext von räumlicher Einbettung als adäquat angenommen wird. \u0027own\u0027 (besitzen) wird durch Typ 5 (\u0027attached\u0027) abgebildet, da eine Besitzbeziehung eine nicht-identitätskodierende Relation erfordert und \u0027attached\u0027 als generische Zugehörigkeit interpretiert wird. \u0027perform\u0027 (Typ 8) zeigt, dass Maria die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 ausführt. \u0027target\u0027 (Typ 9) verbindet die Aktivitäten mit ihrem Zielobjekt \u0027pool\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 9],\n    [0, 6, 5, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch Typ 6 (\u0027under\u0027) genutzt, da \u0027in\u0027 nicht direkt verfügbar ist, aber im Kontext von räumlicher Einbettung als adäquat angenommen wird. \u0027own\u0027 (besitzen) wird durch Typ 5 (\u0027attached\u0027) abgebildet, da eine Besitzbeziehung eine nicht-identitätskodierende Relation erfordert und \u0027attached\u0027 als generische Zugehörigkeit interpretiert wird. \u0027perform\u0027 (Typ 8) zeigt, dass Maria die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 ausführt. \u0027target\u0027 (Typ 9) verbindet die Aktivitäten mit ihrem Zielobjekt \u0027pool\u0027.\"\n}"
+}

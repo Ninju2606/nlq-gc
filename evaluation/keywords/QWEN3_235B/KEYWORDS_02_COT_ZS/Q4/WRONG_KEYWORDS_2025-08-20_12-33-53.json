@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027meinem\u0027 beziehen sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027.\n4. Die Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 und \u0027meinem\u0027 wurden durch \u0027Maria\u0027 ersetzt, da sie sich auf den Anfragensteller beziehen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027meinem\u0027 beziehen sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027.\\n4. Die Identifikation des Nutzers wurde ersetzt: \u0027ich\u0027 und \u0027meinem\u0027 wurden durch \u0027Maria\u0027 ersetzt, da sie sich auf den Anfragensteller beziehen.\"\n}"
+}

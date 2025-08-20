@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es lassen sich keine für den GraphCode relevanten Szenenbeschreibungen identifizieren. Die Anfrage „Wir müssen bald einen Termin ausmachen“ enthält keine konkreten Elemente wie Objekte (z.B. Möbel, Natur), Personen in Aktionen oder räumliche Gegebenheiten, die für die Beschreibung einer Metaverse-Szene erforderlich wären. Stattdessen wird eine abstrakte Terminplanung thematisiert, die nicht als visuelle Szene abgebildet werden kann.",
+  "error": "Es können keine sinnvollen Stichwörter für eine Szenenbeschreibung im Metaverse ermittelt werden. Die Anfrage beschreibt lediglich eine administrativen Handlung (Terminvereinbarung) ohne konkrete Objekte, Attribute oder Aktivitäten einer Metaverse-Szene.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter für eine Szenenbeschreibung im Metaverse ermittelt werden. Die Anfrage beschreibt lediglich eine administrativen Handlung (Terminvereinbarung) ohne konkrete Objekte, Attribute oder Aktivitäten einer Metaverse-Szene.\",\n  \"description\": \"Es lassen sich keine für den GraphCode relevanten Szenenbeschreibungen identifizieren. Die Anfrage „Wir müssen bald einen Termin ausmachen“ enthält keine konkreten Elemente wie Objekte (z.B. Möbel, Natur), Personen in Aktionen oder räumliche Gegebenheiten, die für die Beschreibung einer Metaverse-Szene erforderlich wären. Stattdessen wird eine abstrakte Terminplanung thematisiert, die nicht als visuelle Szene abgebildet werden kann.\"\n}"
+}

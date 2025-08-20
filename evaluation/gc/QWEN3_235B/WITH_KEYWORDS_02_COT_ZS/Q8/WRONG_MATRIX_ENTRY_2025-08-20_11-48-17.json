@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      5,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      9,
+      7,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6,
+  "description": "1. Der Nutzer \u0027Maria\u0027 identifiziert sich selbst mit \u0027ich\u0027 und bezieht ihre Tochter über \u0027meine Tochter\u0027 ein. Beide handeln gemeinsam (fahren Boot). Da im Vokabular kein separater Eintrag für \u0027Tochter\u0027 existiert, wird stattdessen die Beziehung \u0027daughter\u0027 aus den Typkodierungen erwartet. Allerdings fehlt \u0027daughter\u0027 im Vokabular als Stichwort – stattdessen wird indirekt über die Relation \u0027daughter\u0027 Bezug genommen. Laut Regeln muss das Vokabular beibehalten werden, aber es enthält keinen Eintrag wie \u0027daughter\u0027 oder \u0027child\u0027. Daher kann die semantische Bindung \u0027Maria hat eine Tochter\u0027 nicht vollständig abgebildet werden, da kein Vokabular-Eintrag für das Kind existiert.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: konkrete Person, Identifikation des Nutzers → Typ \u0027object\u0027 (id\u003d1)\n- \u0027person\u0027: allgemeine Kategorie, beschreibt Mensch → Typ \u0027object\u0027 (id\u003d1)\n- \u0027drive\u0027: Aktivität, wird ausgeführt → Typ \u0027activity\u0027 (id\u003d4)\n- \u0027boat\u0027: physisches Objekt → Typ \u0027object\u0027 (id\u003d1)\n- \u0027lake\u0027: räumlicher Kontext/Ort → Typ \u0027context\u0027 (id\u003d2)\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 ist eine \u0027person\u0027 → Relation \u0027attached\u0027 (id\u003d5)\n- \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus → \u0027perform\u0027 (id\u003d8)\n- \u0027drive\u0027 hat als Zielobjekt das \u0027boat\u0027 → \u0027target\u0027 (id\u003d9)\n- \u0027drive\u0027 findet auf dem \u0027lake\u0027 statt → räumlicher Kontext, \u0027context\u0027 (id\u003d2), aber keine direkte Relation zur Aktivität über \u0027context\u0027 vorgesehen; statt dessen: \u0027boat\u0027 ist \u0027on\u0027/\u0027above\u0027 dem \u0027lake\u0027? → \u0027above\u0027 (id\u003d7) oder \u0027under\u0027 (id\u003d6)? Hier wird angenommen, dass \u0027boat\u0027 \u0027on\u0027 dem \u0027lake\u0027 schwimmt → \u0027above\u0027 oder umgekehrt \u0027under\u0027. Da Boote auf dem See sind, aber nicht unter ihm, ist \u0027boat above lake\u0027 sinnvoll → id\u003d7. Alternativ könnte man \u0027lake under boat\u0027 sehen, aber räumlich ist \u0027boat above lake\u0027 korrekt.\n- Die Phrase \u0027meine Tochter\u0027 fehlt im Vokabular. Es gibt kein Stichwort für \u0027Tochter\u0027. Damit kann die Relation \u0027daughter\u0027 (id\u003d10) nicht sinnvoll zugewiesen werden, da kein Knoten existiert, der das Kind repräsentiert.\n\n4. Überprüfung der Typkodierungen:\n- \u0027maria\u0027 - \u0027person\u0027: \u0027attached\u0027 (id\u003d5) → erlaubt (identityMapping\u003dfalse) → OK\n- \u0027maria\u0027 - \u0027drive\u0027: \u0027perform\u0027 (id\u003d8) → erlaubt → OK\n- \u0027drive\u0027 - \u0027boat\u0027: \u0027target\u0027 (id\u003d9) → erlaubt → OK\n- \u0027boat\u0027 - \u0027lake\u0027: \u0027above\u0027 (id\u003d7) → erlaubt → OK\n- \u0027maria\u0027 - \u0027daughter\u0027: Problem! Es gibt keine Vokabular-Komponente für \u0027Tochter\u0027. Die Relation \u0027daughter\u0027 (id\u003d10) kann nicht dargestellt werden, da kein Eintrag im Vokabular existiert, auf den die Relation bezogen werden könnte. Zwar ist \u0027daughter\u0027 in den Typkodierungen vorhanden, aber ohne entsprechendes Vokabularwort kann keine Matrixposition dafür geschaffen werden. Und da das Vokabular vorgegeben und unveränderbar ist, fehlt ein notwendiger Begriff.\n\nDa die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 explizit eine zweite Person (die Tochter) enthält, die im Vokabular nicht berücksichtigt ist, kann der Sachverhalt nicht korrekt abgebildet werden. Es fehlt ein Stichwort wie \u0027daughter\u0027 oder \u0027child\u0027 im Vokabular, um die Beziehung herzustellen. Daher ist der GraphCode unvollständig und nicht korrekt.\n\nFehler: Obwohl \u0027daughter\u0027 in den Typkodierungen existiert (id\u003d10), fehlt das dazugehörige Vokabular-Element. Ohne dieses kann die Beziehung nicht realisiert werden. Somit ist die Anfrage nicht vollständig abbildbar mit dem gegebenen Vokabular.\n\n5. Aufgrund des Fehlers bei der Abbildung von \u0027meine Tochter\u0027 kann kein korrekter GraphCode generiert werden, da ein wesentlicher Bestandteil der Anfrage (das zweite Subjekt) im Vokabular fehlt. Die Regeln erlauben keine Erweiterung des Vokabulars. Daher ist die Anfrage mit den gegebenen Mitteln nicht korrekt darstellbar.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 8, 0, 0],\n    [5, 1, 8, 0, 0],\n    [8, 8, 4, 5, 9],\n    [0, 0, 5, 1, 6],\n    [0, 0, 9, 7, 1]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 identifiziert sich selbst mit \u0027ich\u0027 und bezieht ihre Tochter über \u0027meine Tochter\u0027 ein. Beide handeln gemeinsam (fahren Boot). Da im Vokabular kein separater Eintrag für \u0027Tochter\u0027 existiert, wird stattdessen die Beziehung \u0027daughter\u0027 aus den Typkodierungen erwartet. Allerdings fehlt \u0027daughter\u0027 im Vokabular als Stichwort – stattdessen wird indirekt über die Relation \u0027daughter\u0027 Bezug genommen. Laut Regeln muss das Vokabular beibehalten werden, aber es enthält keinen Eintrag wie \u0027daughter\u0027 oder \u0027child\u0027. Daher kann die semantische Bindung \u0027Maria hat eine Tochter\u0027 nicht vollständig abgebildet werden, da kein Vokabular-Eintrag für das Kind existiert.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: konkrete Person, Identifikation des Nutzers → Typ \u0027object\u0027 (id\u003d1)\\n- \u0027person\u0027: allgemeine Kategorie, beschreibt Mensch → Typ \u0027object\u0027 (id\u003d1)\\n- \u0027drive\u0027: Aktivität, wird ausgeführt → Typ \u0027activity\u0027 (id\u003d4)\\n- \u0027boat\u0027: physisches Objekt → Typ \u0027object\u0027 (id\u003d1)\\n- \u0027lake\u0027: räumlicher Kontext/Ort → Typ \u0027context\u0027 (id\u003d2)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 → Relation \u0027attached\u0027 (id\u003d5)\\n- \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus → \u0027perform\u0027 (id\u003d8)\\n- \u0027drive\u0027 hat als Zielobjekt das \u0027boat\u0027 → \u0027target\u0027 (id\u003d9)\\n- \u0027drive\u0027 findet auf dem \u0027lake\u0027 statt → räumlicher Kontext, \u0027context\u0027 (id\u003d2), aber keine direkte Relation zur Aktivität über \u0027context\u0027 vorgesehen; statt dessen: \u0027boat\u0027 ist \u0027on\u0027/\u0027above\u0027 dem \u0027lake\u0027? → \u0027above\u0027 (id\u003d7) oder \u0027under\u0027 (id\u003d6)? Hier wird angenommen, dass \u0027boat\u0027 \u0027on\u0027 dem \u0027lake\u0027 schwimmt → \u0027above\u0027 oder umgekehrt \u0027under\u0027. Da Boote auf dem See sind, aber nicht unter ihm, ist \u0027boat above lake\u0027 sinnvoll → id\u003d7. Alternativ könnte man \u0027lake under boat\u0027 sehen, aber räumlich ist \u0027boat above lake\u0027 korrekt.\\n- Die Phrase \u0027meine Tochter\u0027 fehlt im Vokabular. Es gibt kein Stichwort für \u0027Tochter\u0027. Damit kann die Relation \u0027daughter\u0027 (id\u003d10) nicht sinnvoll zugewiesen werden, da kein Knoten existiert, der das Kind repräsentiert.\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027maria\u0027 - \u0027person\u0027: \u0027attached\u0027 (id\u003d5) → erlaubt (identityMapping\u003dfalse) → OK\\n- \u0027maria\u0027 - \u0027drive\u0027: \u0027perform\u0027 (id\u003d8) → erlaubt → OK\\n- \u0027drive\u0027 - \u0027boat\u0027: \u0027target\u0027 (id\u003d9) → erlaubt → OK\\n- \u0027boat\u0027 - \u0027lake\u0027: \u0027above\u0027 (id\u003d7) → erlaubt → OK\\n- \u0027maria\u0027 - \u0027daughter\u0027: Problem! Es gibt keine Vokabular-Komponente für \u0027Tochter\u0027. Die Relation \u0027daughter\u0027 (id\u003d10) kann nicht dargestellt werden, da kein Eintrag im Vokabular existiert, auf den die Relation bezogen werden könnte. Zwar ist \u0027daughter\u0027 in den Typkodierungen vorhanden, aber ohne entsprechendes Vokabularwort kann keine Matrixposition dafür geschaffen werden. Und da das Vokabular vorgegeben und unveränderbar ist, fehlt ein notwendiger Begriff.\\n\\nDa die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 explizit eine zweite Person (die Tochter) enthält, die im Vokabular nicht berücksichtigt ist, kann der Sachverhalt nicht korrekt abgebildet werden. Es fehlt ein Stichwort wie \u0027daughter\u0027 oder \u0027child\u0027 im Vokabular, um die Beziehung herzustellen. Daher ist der GraphCode unvollständig und nicht korrekt.\\n\\nFehler: Obwohl \u0027daughter\u0027 in den Typkodierungen existiert (id\u003d10), fehlt das dazugehörige Vokabular-Element. Ohne dieses kann die Beziehung nicht realisiert werden. Somit ist die Anfrage nicht vollständig abbildbar mit dem gegebenen Vokabular.\\n\\n5. Aufgrund des Fehlers bei der Abbildung von \u0027meine Tochter\u0027 kann kein korrekter GraphCode generiert werden, da ein wesentlicher Bestandteil der Anfrage (das zweite Subjekt) im Vokabular fehlt. Die Regeln erlauben keine Erweiterung des Vokabulars. Daher ist die Anfrage mit den gegebenen Mitteln nicht korrekt darstellbar.\"\n}"
+}

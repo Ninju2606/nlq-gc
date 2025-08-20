@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Vokabular erfolgreich generiert.",
+  "responsePlain": "{\n    \"dictionary\": [\"Tim\", \"run\"],\n    \"description\": \"Vokabular erfolgreich generiert.\"\n}"
+}

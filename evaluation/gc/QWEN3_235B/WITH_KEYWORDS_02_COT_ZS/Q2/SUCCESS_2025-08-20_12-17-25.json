@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer hat die Identifikation \u0027Maria\u0027, jedoch enthält die Anfrage \u0027Tim rennt\u0027 keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation des Nutzers ignoriert und das Vokabular bleibt unverändert.\n\n2. Die Attributeigenschaften der Stichwörter:\n   - \u0027tim\u0027: Dies ist ein Subjekt in der Anfrage. Es bezeichnet eine Person und wird daher als Objekt klassifiziert (Typ 1: object).\n   - \u0027run\u0027: Dies ist eine Handlung, die von \u0027tim\u0027 ausgeführt wird. Es handelt sich um eine Aktivität (Typ 4: activity).\n\n3. Die Relation zwischen den Stichwörtern:\n   - \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Die Relation ist also, dass \u0027tim\u0027 die Handlung \u0027run\u0027 ausführt (perform-Beziehung).\n   - In der Bewertungsmatrix wird dies durch den Typ 8 (\u0027perform\u0027) ausgedrückt, der angibt, dass ein Objekt (tim) eine Aktivität (run) ausführt.\n\n4. Überprüfung der Relationen:\n   - Diagonale (Typen der Begriffe):\n     - \u0027tim\u0027 → Typ 1 (object) → id: 1, identityMapping: true → gültig.\n     - \u0027run\u0027 → Typ 4 (activity) → id: 4, identityMapping: true → gültig.\n   - Außerhalb der Diagonale:\n     - Relation von \u0027tim\u0027 zu \u0027run\u0027 (Ausführung der Aktivität): Typ 8 (perform), identityMapping: false → gültig.\n     - Umgekehrte Relation (run → tim) ist nicht nötig, da keine Rückbeziehung beschrieben wird; Eintrag bleibt 0.\n   - Alle verwendeten Typen sind in den bereitgestellten Kodierungen vorhanden.\n\n5. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular bleibt [\u0027tim\u0027, \u0027run\u0027], die Matrix ist 2x2, mit korrekten Typen auf der Diagonale und der \u0027perform\u0027-Relation von Zeile 0 (tim) zu Spalte 1 (run).",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer hat die Identifikation \u0027Maria\u0027, jedoch enthält die Anfrage \u0027Tim rennt\u0027 keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation des Nutzers ignoriert und das Vokabular bleibt unverändert.\\n\\n2. Die Attributeigenschaften der Stichwörter:\\n   - \u0027tim\u0027: Dies ist ein Subjekt in der Anfrage. Es bezeichnet eine Person und wird daher als Objekt klassifiziert (Typ 1: object).\\n   - \u0027run\u0027: Dies ist eine Handlung, die von \u0027tim\u0027 ausgeführt wird. Es handelt sich um eine Aktivität (Typ 4: activity).\\n\\n3. Die Relation zwischen den Stichwörtern:\\n   - \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Die Relation ist also, dass \u0027tim\u0027 die Handlung \u0027run\u0027 ausführt (perform-Beziehung).\\n   - In der Bewertungsmatrix wird dies durch den Typ 8 (\u0027perform\u0027) ausgedrückt, der angibt, dass ein Objekt (tim) eine Aktivität (run) ausführt.\\n\\n4. Überprüfung der Relationen:\\n   - Diagonale (Typen der Begriffe):\\n     - \u0027tim\u0027 → Typ 1 (object) → id: 1, identityMapping: true → gültig.\\n     - \u0027run\u0027 → Typ 4 (activity) → id: 4, identityMapping: true → gültig.\\n   - Außerhalb der Diagonale:\\n     - Relation von \u0027tim\u0027 zu \u0027run\u0027 (Ausführung der Aktivität): Typ 8 (perform), identityMapping: false → gültig.\\n     - Umgekehrte Relation (run → tim) ist nicht nötig, da keine Rückbeziehung beschrieben wird; Eintrag bleibt 0.\\n   - Alle verwendeten Typen sind in den bereitgestellten Kodierungen vorhanden.\\n\\n5. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular bleibt [\u0027tim\u0027, \u0027run\u0027], die Matrix ist 2x2, mit korrekten Typen auf der Diagonale und der \u0027perform\u0027-Relation von Zeile 0 (tim) zu Spalte 1 (run).\"\n}"
+}

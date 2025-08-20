@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der relative Verweis \"Ich\" und das Besitzpronomen \"meinem\" wurden aufgelöst und auf die Identifikation \"Maria\" bezogen.\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"own\" sind Aktivitäten.\n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" hat das Ziel \"pool\" (schwimmt in). \"maria\" führt auch die Aktivität \"own\" aus. \"own\" hat das Ziel \"pool\" (eigene Beziehung). \"own\" impliziert eine Beziehung zwischen \"maria\" und \"pool\". Zudem befindet sich \"maria\" in \"pool\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für unter (under) ist 6, aber die Beziehung \"in\" wird durch \"under\" nicht exakt abgebildet. Allerdings ist in den bereitgestellten Typkodierungen kein Eintrag für \"in\" enthalten. Stattdessen gibt es jedoch den Typ \"under\" (ID 6) und \"above\" (ID 7), aber kein explizites \"in\". Da \"in\" im Sinne einer räumlichen Einkapselung gemeint ist, liegt es nahe, diesen durch eine verfügbare räumliche Beziehung abzubilden. Da jedoch kein Attribut \"in\" existiert und auch kein Synonym wie \"inside\" zur Verfügung steht, kann die Relation \"in\" nicht direkt abgebildet werden. Dies stellt einen kritischen Fehler dar. Da jedoch im Beispielkontext manchmal \"under\" auch für räumliche Einbettung verwendet wird (z. B. im Pool liegend/unter Wasser), und kein besser passendes Attribut vorhanden ist, wird hier ein pragmatischer Interpretationsspielraum eingeräumt: Es wird angenommen, dass \"in\" im Sinne von „unter Wasser in einem Pool“ gemeint ist, daher wird die Beziehung zwischen \"swim\" und \"pool\" über \"target\" (ID 9) abgebildet, und die Relation \"own\" zwischen \"maria\" und \"pool\" wird über \"attached\" (ID 5) abgebildet, da \"own\" im Vokabular steht, aber kein Typ \"own\" existiert. Allerdings ist „own“ als Stichwort vorhanden, aber keine Typkodierung für „own“ definiert. Also muss die Beziehung „own“ zwischen zwei Objekten dargestellt werden. Die einzige verfügbare Beziehung mit identityMapping\u003dfalse, die eine solche Assoziation darstellen könnte, ist „attached“ (ID 5). Daher wird angenommen, dass „own“ hier durch „attached“ abgebildet wird. Damit ergibt sich: Die Beziehung zwischen \"maria\" und \"pool\" über \"own\" wird durch ID 5 (attached) repräsentiert. Die Aktivität \"swim\" wird von \"maria\" ausgeführt (ID 8 \u003d perform). Die Aktivität \"own\" wird ebenfalls von \"maria\" ausgeführt (ID 8). Das Ziel von \"swim\" ist \"pool\" (ID 9 \u003d target). Da \"own\" kein eigener Typ ist, wird die Beziehung „own“ zwischen \"maria\" und \"pool\" über die Matrixposition (0,3) als attached (ID 5) erfasst. Alle verwendeten IDs sind in den bereitgestellten Typkodierungen enthalten: 1 (object), 4 (activity), 5 (attached), 8 (perform), 9 (target).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 1, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" und das Besitzpronomen \\\"meinem\\\" wurden aufgelöst und auf die Identifikation \\\"Maria\\\" bezogen.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" hat das Ziel \\\"pool\\\" (schwimmt in). \\\"maria\\\" führt auch die Aktivität \\\"own\\\" aus. \\\"own\\\" hat das Ziel \\\"pool\\\" (eigene Beziehung). \\\"own\\\" impliziert eine Beziehung zwischen \\\"maria\\\" und \\\"pool\\\". Zudem befindet sich \\\"maria\\\" in \\\"pool\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für unter (under) ist 6, aber die Beziehung \\\"in\\\" wird durch \\\"under\\\" nicht exakt abgebildet. Allerdings ist in den bereitgestellten Typkodierungen kein Eintrag für \\\"in\\\" enthalten. Stattdessen gibt es jedoch den Typ \\\"under\\\" (ID 6) und \\\"above\\\" (ID 7), aber kein explizites \\\"in\\\". Da \\\"in\\\" im Sinne einer räumlichen Einkapselung gemeint ist, liegt es nahe, diesen durch eine verfügbare räumliche Beziehung abzubilden. Da jedoch kein Attribut \\\"in\\\" existiert und auch kein Synonym wie \\\"inside\\\" zur Verfügung steht, kann die Relation \\\"in\\\" nicht direkt abgebildet werden. Dies stellt einen kritischen Fehler dar. Da jedoch im Beispielkontext manchmal \\\"under\\\" auch für räumliche Einbettung verwendet wird (z. B. im Pool liegend/unter Wasser), und kein besser passendes Attribut vorhanden ist, wird hier ein pragmatischer Interpretationsspielraum eingeräumt: Es wird angenommen, dass \\\"in\\\" im Sinne von „unter Wasser in einem Pool“ gemeint ist, daher wird die Beziehung zwischen \\\"swim\\\" und \\\"pool\\\" über \\\"target\\\" (ID 9) abgebildet, und die Relation \\\"own\\\" zwischen \\\"maria\\\" und \\\"pool\\\" wird über \\\"attached\\\" (ID 5) abgebildet, da \\\"own\\\" im Vokabular steht, aber kein Typ \\\"own\\\" existiert. Allerdings ist „own“ als Stichwort vorhanden, aber keine Typkodierung für „own“ definiert. Also muss die Beziehung „own“ zwischen zwei Objekten dargestellt werden. Die einzige verfügbare Beziehung mit identityMapping\u003dfalse, die eine solche Assoziation darstellen könnte, ist „attached“ (ID 5). Daher wird angenommen, dass „own“ hier durch „attached“ abgebildet wird. Damit ergibt sich: Die Beziehung zwischen \\\"maria\\\" und \\\"pool\\\" über \\\"own\\\" wird durch ID 5 (attached) repräsentiert. Die Aktivität \\\"swim\\\" wird von \\\"maria\\\" ausgeführt (ID 8 \u003d perform). Die Aktivität \\\"own\\\" wird ebenfalls von \\\"maria\\\" ausgeführt (ID 8). Das Ziel von \\\"swim\\\" ist \\\"pool\\\" (ID 9 \u003d target). Da \\\"own\\\" kein eigener Typ ist, wird die Beziehung „own“ zwischen \\\"maria\\\" und \\\"pool\\\" über die Matrixposition (0,3) als attached (ID 5) erfasst. Alle verwendeten IDs sind in den bereitgestellten Typkodierungen enthalten: 1 (object), 4 (activity), 5 (attached), 8 (perform), 9 (target).\"\n}"
+}

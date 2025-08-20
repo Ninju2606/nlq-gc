@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (basierend auf der gegebenen Nutzeridentifikation).\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, da es bereits englisch ist. Der Begriff \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n4. Der Hinweis auf den Nutzer (\u0027ich\u0027) wurde durch die Identifikation \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist eine Person, also vom Typ \u0027object\u0027 (Typ-ID 1).\n   - \u0027play\u0027 ist eine Tätigkeit, also vom Typ \u0027activity\u0027 (Typ-ID 4).\n   - \u0027basketball\u0027 ist ein Objekt (Sportart), also vom Typ \u0027object\u0027 (Typ-ID 1).\n6. Relationen: \n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ-ID 8) zwischen Maria (Index 0) und play (Index 1).\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (Typ-ID 9) zwischen play (Index 1) und basketball (Index 2).\n7. Überprüfung der Typkodierungen: \n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) existiert → gültig.\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) existiert → gültig.\n   - Typen auf der Diagonale: 1 (object), 4 (activity), 1 (object) – alle mit identityMapping\u003dtrue → gültig.\n   Alle benötigten Relationen und Typen sind in den vorgegebenen Kodierungen enthalten. Kein Fehler.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (basierend auf der gegebenen Nutzeridentifikation).\\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, da es bereits englisch ist. Der Begriff \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n4. Der Hinweis auf den Nutzer (\u0027ich\u0027) wurde durch die Identifikation \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist eine Person, also vom Typ \u0027object\u0027 (Typ-ID 1).\\n   - \u0027play\u0027 ist eine Tätigkeit, also vom Typ \u0027activity\u0027 (Typ-ID 4).\\n   - \u0027basketball\u0027 ist ein Objekt (Sportart), also vom Typ \u0027object\u0027 (Typ-ID 1).\\n6. Relationen: \\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ-ID 8) zwischen Maria (Index 0) und play (Index 1).\\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (Typ-ID 9) zwischen play (Index 1) und basketball (Index 2).\\n7. Überprüfung der Typkodierungen: \\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) existiert → gültig.\\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) existiert → gültig.\\n   - Typen auf der Diagonale: 1 (object), 4 (activity), 1 (object) – alle mit identityMapping\u003dtrue → gültig.\\n   Alle benötigten Relationen und Typen sind in den vorgegebenen Kodierungen enthalten. Kein Fehler.\"\n}"
+}

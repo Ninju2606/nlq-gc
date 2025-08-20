@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "appointment",
+    "schedule",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      9,
+      4,
+      0
+    ],
+    [
+      0,
+      14,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027schedule\u0027 (aus \u0027ausmachen\u0027), \u0027appointment\u0027 (Termin), \u0027soon\u0027 (bald).\n2. Keine relativen Verweise zu lösen.\n3. Übersetzung ins Englische bereits durchgeführt.\n4. Keine self-identifizierenden Wörter wie \u0027ich\u0027, daher Ignorierung der Nutzer-Identifikation \u0027Maria\u0027.\n5. Attribute: \u0027appointment\u0027 ist ein Objekt (ID 1), \u0027schedule\u0027 ist eine Aktivität (ID 4), \u0027soon\u0027 ist ein Kontext (ID 2).\n6. Relationen: \u0027schedule\u0027 hat \u0027appointment\u0027 als Ziel (target, ID 9); \u0027soon\u0027 beschreibt eine Charakteristik von \u0027schedule\u0027 (characteristic, ID 14).\n7. Alle Relationen haben passende Typkodierungen (IDs 9 und 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"schedule\", \"soon\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [9, 4, 0],\n    [0, 14, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schedule\u0027 (aus \u0027ausmachen\u0027), \u0027appointment\u0027 (Termin), \u0027soon\u0027 (bald).\\n2. Keine relativen Verweise zu lösen.\\n3. Übersetzung ins Englische bereits durchgeführt.\\n4. Keine self-identifizierenden Wörter wie \u0027ich\u0027, daher Ignorierung der Nutzer-Identifikation \u0027Maria\u0027.\\n5. Attribute: \u0027appointment\u0027 ist ein Objekt (ID 1), \u0027schedule\u0027 ist eine Aktivität (ID 4), \u0027soon\u0027 ist ein Kontext (ID 2).\\n6. Relationen: \u0027schedule\u0027 hat \u0027appointment\u0027 als Ziel (target, ID 9); \u0027soon\u0027 beschreibt eine Charakteristik von \u0027schedule\u0027 (characteristic, ID 14).\\n7. Alle Relationen haben passende Typkodierungen (IDs 9 und 14).\"\n}"
+}

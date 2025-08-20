@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Es gibt keine passende Typkodierung für die räumliche Beziehung \"in\" zwischen den Begriffen \"swim\" und \"pool\". Gemäß den vorgegebenen Typkodierungen existiert kein Eintrag für die Präposition \"in\" (IDs mit identityMapping\u003dfalse sind: 5\u003dattached, 6\u003dunder, 7\u003dabove, 8\u003dperform, 9\u003dtarget, 10\u003ddaughter, 14\u003dcharacteristic).",
+  "error": "Die Relation \"in\" ist nicht bekannt.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \\\"in\\\" ist nicht bekannt.\",\n  \"description\": \"Es gibt keine passende Typkodierung für die räumliche Beziehung \\\"in\\\" zwischen den Begriffen \\\"swim\\\" und \\\"pool\\\". Gemäß den vorgegebenen Typkodierungen existiert kein Eintrag für die Präposition \\\"in\\\" (IDs mit identityMapping\u003dfalse sind: 5\u003dattached, 6\u003dunder, 7\u003dabove, 8\u003dperform, 9\u003dtarget, 10\u003ddaughter, 14\u003dcharacteristic).\"\n}"
+}

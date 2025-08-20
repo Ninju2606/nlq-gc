@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "person",
+    "schedule",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"wir\", \"Termin\", \"ausmachen\".\n2. \"wir\" ist ein relativer Verweis. Die neuen Stichwörter sind \"Maria\", \"person\", \"Termin\", \"ausmachen\". Dabei ist \"person\" die andere Person neben \"Maria\".\n3. Die englischen Stichwörter sind \"Maria\", \"person\", \"schedule\", \"appointment\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"person\", \"schedule\", \"appointment\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"person\", \"schedule\", \"appointment\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"wir\\\", \\\"Termin\\\", \\\"ausmachen\\\".\\n2. \\\"wir\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\"Maria\\\", \\\"person\\\", \\\"Termin\\\", \\\"ausmachen\\\". Dabei ist \\\"person\\\" die andere Person neben \\\"Maria\\\".\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"person\\\", \\\"schedule\\\", \\\"appointment\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"person\\\", \\\"schedule\\\", \\\"appointment\\\".\"\n}"
+}

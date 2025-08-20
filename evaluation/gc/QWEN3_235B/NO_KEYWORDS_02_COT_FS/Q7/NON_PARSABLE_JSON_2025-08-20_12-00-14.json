@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "%7B%0A++++%22error%22%3A%5B%22Die+Anfrage+%5C%22H%C3%A4user+um+Fragen+zu+malen%5C%22+ist+grammatikalisch+unklar+und+kann+nicht+sinnvoll+interpretiert+werden.%22%5D%2C%0A++++%22description%22%3A%22Es+k%C3%B6nnen+keine+sinnvollen+Stichw%C3%B6rter+aus+der+Anfrage+%5C%22H%C3%A4user+um+Fragen+zu+malen%5C%22+ermittelt+werden.+Die+Formulierung+ist+grammatikalisch+wirr+und+l%C3%A4sst+keine+klare+Interpretation+der+gemeinten+Situation+im+Metaverse+zu.+M%C3%B6glicherweise+ist+eine+Absicht+wie+%5C%22jemand+malt+H%C3%A4user%5C%22+oder+%5C%22Fragen+zu+H%C3%A4usern+werden+gestellt%5C%22+gemeint%2C+aber+ohne+klare+Subjekt-Verb-Objekt-Struktur+oder+verst%C3%A4ndliche+Relationen+kann+kein+g%C3%BCltiger+GraphCode+erstellt+werden.%22%0A%7D"
+}

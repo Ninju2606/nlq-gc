@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"meinem\".\n2. Es gibt relative Verweise: \"meinem Pool\" bezieht sich auf den Pool der Nutzerin. Der Verweis wird aufgelöst zu \"Pool von Maria\".\n3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\".",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"meinem\\\".\\n2. Es gibt relative Verweise: \\\"meinem Pool\\\" bezieht sich auf den Pool der Nutzerin. Der Verweis wird aufgelöst zu \\\"Pool von Maria\\\".\\n3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\"\n}"
+}

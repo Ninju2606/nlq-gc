@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers, also \u0027Maria\u0027, gemäß der Regel, dass selbstidentifizierende Pronomen durch die gegebene Nutzer-ID ersetzt werden.\n\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als international verständliches Substantiv unverändert. \u0027Maria\u0027 ist ein Eigenname und bleibt erhalten.\n\n4. Der Verweis \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da die Anfrage auf den Anfragensteller Bezug nimmt.\n\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist eine Person, also ein Objekt → Typ 1 (object)\n   - \u0027play\u0027 ist eine Handlung, also eine Aktivität → Typ 4 (activity)\n   - \u0027basketball\u0027 ist ein Objekt (Sportart/Objekt der Aktivität) → Typ 1 (object)\n\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8) zwischen Maria (Index 0) und play (Index 1)\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel oder Gegenstand → Relation \u0027target\u0027 (ID 9) zwischen play (Index 1) und basketball (Index 2)\n\n7. Überprüfung der Relationen:\n   - \u0027perform\u0027 (zwischen Maria und play) → ID 8 ist vorhanden und hat identityMapping\u003dfalse → gültig\n   - \u0027target\u0027 (zwischen play und basketball) → ID 9 ist vorhanden und hat identityMapping\u003dfalse → gültig\n   - Alle Diagonaleinträge:\n     - (0,0): Maria → object (ID 1, identityMapping\u003dtrue) → gültig\n     - (1,1): play → activity (ID 4, identityMapping\u003dtrue) → gültig\n     - (2,2): basketball → object (ID 1, identityMapping\u003dtrue) → gültig\n   Alle benötigten Typkodierungen sind vorhanden.\n\n8. Zusammenstellung des GraphCodes:\n   - Vokabular: [\"Maria\", \"play\", \"basketball\"]\n   - Bewertungsmatrix 3x3:\n     - (0,0) \u003d 1 (Maria ist ein object)\n     - (1,1) \u003d 4 (play ist eine activity)\n     - (2,2) \u003d 1 (basketball ist ein object)\n     - (0,1) \u003d 8 (Maria performt play)\n     - (1,2) \u003d 9 (play hat als target basketball)\n     - Alle nicht benötigten Einträge sind 0.\n\nErgebnis ist ein korrekter, gültiger GraphCode.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers, also \u0027Maria\u0027, gemäß der Regel, dass selbstidentifizierende Pronomen durch die gegebene Nutzer-ID ersetzt werden.\\n\\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als international verständliches Substantiv unverändert. \u0027Maria\u0027 ist ein Eigenname und bleibt erhalten.\\n\\n4. Der Verweis \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da die Anfrage auf den Anfragensteller Bezug nimmt.\\n\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist eine Person, also ein Objekt → Typ 1 (object)\\n   - \u0027play\u0027 ist eine Handlung, also eine Aktivität → Typ 4 (activity)\\n   - \u0027basketball\u0027 ist ein Objekt (Sportart/Objekt der Aktivität) → Typ 1 (object)\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8) zwischen Maria (Index 0) und play (Index 1)\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel oder Gegenstand → Relation \u0027target\u0027 (ID 9) zwischen play (Index 1) und basketball (Index 2)\\n\\n7. Überprüfung der Relationen:\\n   - \u0027perform\u0027 (zwischen Maria und play) → ID 8 ist vorhanden und hat identityMapping\u003dfalse → gültig\\n   - \u0027target\u0027 (zwischen play und basketball) → ID 9 ist vorhanden und hat identityMapping\u003dfalse → gültig\\n   - Alle Diagonaleinträge:\\n     - (0,0): Maria → object (ID 1, identityMapping\u003dtrue) → gültig\\n     - (1,1): play → activity (ID 4, identityMapping\u003dtrue) → gültig\\n     - (2,2): basketball → object (ID 1, identityMapping\u003dtrue) → gültig\\n   Alle benötigten Typkodierungen sind vorhanden.\\n\\n8. Zusammenstellung des GraphCodes:\\n   - Vokabular: [\\\"Maria\\\", \\\"play\\\", \\\"basketball\\\"]\\n   - Bewertungsmatrix 3x3:\\n     - (0,0) \u003d 1 (Maria ist ein object)\\n     - (1,1) \u003d 4 (play ist eine activity)\\n     - (2,2) \u003d 1 (basketball ist ein object)\\n     - (0,1) \u003d 8 (Maria performt play)\\n     - (1,2) \u003d 9 (play hat als target basketball)\\n     - Alle nicht benötigten Einträge sind 0.\\n\\nErgebnis ist ein korrekter, gültiger GraphCode.\"\n}"
+}

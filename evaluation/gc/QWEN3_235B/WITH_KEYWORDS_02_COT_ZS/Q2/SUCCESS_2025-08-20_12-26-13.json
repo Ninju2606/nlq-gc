@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer hat die Identifikation \u0027Maria\u0027, verwendet in der Anfrage aber kein selbstidentifizierendes Pronomen wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation ignoriert und das Vokabular [\u0027tim\u0027, \u0027run\u0027] bleibt unverändert.\n\n2. Die Attributeigenschaften der Stichwörter werden über ihre Rolle im Satz bestimmt: \u0027tim\u0027 ist ein Subjekt und damit ein Objekt (Typ \u0027object\u0027, ID 1). \u0027run\u0027 ist eine Handlung und fällt unter den Typ \u0027activity\u0027 (ID 4).\n\n3. Die beiden Stichwörter stehen in einer inhaltlichen Beziehung: die Person \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Diese Beziehung wird durch die Typkodierung \u0027perform\u0027 ausgedrückt (ID 8), da sie angibt, dass ein Objekt (hier: tim) eine Aktivität ausführt.\n\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 existiert eine passende Typkodierung: \u0027perform\u0027 mit der ID 8 (identityMapping\u003dfalse). Auf der Einheitsdiagonalen sind die Typen \u0027object\u0027 (ID 1) für \u0027tim\u0027 und \u0027activity\u0027 (ID 4) für \u0027run\u0027 korrekt zugeordnet. Beide IDs haben identityMapping\u003dtrue, entsprechen also den Vorgaben. Alle benötigten Kodierungen sind verfügbar.\n\n5. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular bleibt [\u0027tim\u0027, \u0027run\u0027]. Die 2x2-Bewertungsmatrix enthält auf Position (0,0) den Typ 1 (tim ist ein Objekt), auf (1,1) den Typ 4 (run ist eine Aktivität). Die Beziehung (0,1) – tim führt run aus – wird mit Typ 8 (\u0027perform\u0027) codiert. Der Eintrag (1,0) bleibt 0, da keine umgekehrte Beziehung angegeben ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer hat die Identifikation \u0027Maria\u0027, verwendet in der Anfrage aber kein selbstidentifizierendes Pronomen wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation ignoriert und das Vokabular [\u0027tim\u0027, \u0027run\u0027] bleibt unverändert.\\n\\n2. Die Attributeigenschaften der Stichwörter werden über ihre Rolle im Satz bestimmt: \u0027tim\u0027 ist ein Subjekt und damit ein Objekt (Typ \u0027object\u0027, ID 1). \u0027run\u0027 ist eine Handlung und fällt unter den Typ \u0027activity\u0027 (ID 4).\\n\\n3. Die beiden Stichwörter stehen in einer inhaltlichen Beziehung: die Person \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus. Diese Beziehung wird durch die Typkodierung \u0027perform\u0027 ausgedrückt (ID 8), da sie angibt, dass ein Objekt (hier: tim) eine Aktivität ausführt.\\n\\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 existiert eine passende Typkodierung: \u0027perform\u0027 mit der ID 8 (identityMapping\u003dfalse). Auf der Einheitsdiagonalen sind die Typen \u0027object\u0027 (ID 1) für \u0027tim\u0027 und \u0027activity\u0027 (ID 4) für \u0027run\u0027 korrekt zugeordnet. Beide IDs haben identityMapping\u003dtrue, entsprechen also den Vorgaben. Alle benötigten Kodierungen sind verfügbar.\\n\\n5. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular bleibt [\u0027tim\u0027, \u0027run\u0027]. Die 2x2-Bewertungsmatrix enthält auf Position (0,0) den Typ 1 (tim ist ein Objekt), auf (1,1) den Typ 4 (run ist eine Aktivität). Die Beziehung (0,1) – tim führt run aus – wird mit Typ 8 (\u0027perform\u0027) codiert. Der Eintrag (1,0) bleibt 0, da keine umgekehrte Beziehung angegeben ist.\"\n}"
+}

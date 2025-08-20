@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und lässt keine sinnvolle Interpretation der beabsichtigten Szenenbeschreibung im Metaverse zu. Die Beziehung zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 ist mehrdeutig und kann nicht eindeutig in Relationen übersetzt werden.",
+  "error": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und lässt keine sinnvolle Interpretation der beabsichtigten Szenenbeschreibung im Metaverse zu. Die Beziehung zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 ist mehrdeutig und kann nicht eindeutig in Relationen übersetzt werden.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und lässt keine sinnvolle Interpretation der beabsichtigten Szenenbeschreibung im Metaverse zu. Die Beziehung zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 ist mehrdeutig und kann nicht eindeutig in Relationen übersetzt werden.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unklar und lässt keine sinnvolle Interpretation der beabsichtigten Szenenbeschreibung im Metaverse zu. Die Beziehung zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 ist mehrdeutig und kann nicht eindeutig in Relationen übersetzt werden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 (ID 6) dargestellt, da \u0027in\u0027 im Sinne eines enthalten seins im Raum als \u0027unter\u0027 dem Bereich des Pools interpretiert wird. \u0027own\u0027 (besitzen) wird mit Typ 14 (characteristic) als Eigenschaft von Maria zum Pool verknüpft. Die Aktivität \u0027swim\u0027 wird Maria mittels \u0027perform\u0027 (ID 8) zugeordnet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 6],\n    [0, 0, 14, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem Pool. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027under\u0027 (ID 6) dargestellt, da \u0027in\u0027 im Sinne eines enthalten seins im Raum als \u0027unter\u0027 dem Bereich des Pools interpretiert wird. \u0027own\u0027 (besitzen) wird mit Typ 14 (characteristic) als Eigenschaft von Maria zum Pool verknüpft. Die Aktivität \u0027swim\u0027 wird Maria mittels \u0027perform\u0027 (ID 8) zugeordnet.\"\n}"
+}

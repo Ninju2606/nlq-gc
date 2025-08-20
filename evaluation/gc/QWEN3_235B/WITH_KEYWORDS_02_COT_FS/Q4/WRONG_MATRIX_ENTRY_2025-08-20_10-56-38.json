@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      10
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \"Ich\" und das Besitzpronomen \"mein\" wurden aufgelöst zu \"maria\" gemäß der gegebenen Identifikation des Nutzers.\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" wird als Aktivität interpretiert, da es eine Handlung beschreibt.\n3. \"maria\" führt die Aktivität \"swim\" aus. \"maria\" führt auch die Aktivität \"own\" aus. Die Aktivität \"swim\" hat die Beziehung \"in\" zum Objekt \"pool\". Die Aktivität \"own\" bezieht sich auf \"pool\". \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \"perform\" ist 8. Die ID für die Beziehung \"under\" ist 6 — jedoch wird hier die Beziehung \"in\" benötigt, die in den bereitgestellten Typkodierungen nicht vorhanden ist. Die ID für \"attached\" ist 5, was fälschlicherweise für \"in\" verwendet wurde. Da \"in\" keine gültige Typkodierung hat, ist dies ein Fehler.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 10],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" und das Besitzpronomen \\\"mein\\\" wurden aufgelöst zu \\\"maria\\\" gemäß der gegebenen Identifikation des Nutzers.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" wird als Aktivität interpretiert, da es eine Handlung beschreibt.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"maria\\\" führt auch die Aktivität \\\"own\\\" aus. Die Aktivität \\\"swim\\\" hat die Beziehung \\\"in\\\" zum Objekt \\\"pool\\\". Die Aktivität \\\"own\\\" bezieht sich auf \\\"pool\\\". \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \\\"perform\\\" ist 8. Die ID für die Beziehung \\\"under\\\" ist 6 — jedoch wird hier die Beziehung \\\"in\\\" benötigt, die in den bereitgestellten Typkodierungen nicht vorhanden ist. Die ID für \\\"attached\\\" ist 5, was fälschlicherweise für \\\"in\\\" verwendet wurde. Da \\\"in\\\" keine gültige Typkodierung hat, ist dies ein Fehler.\"\n}"
+}

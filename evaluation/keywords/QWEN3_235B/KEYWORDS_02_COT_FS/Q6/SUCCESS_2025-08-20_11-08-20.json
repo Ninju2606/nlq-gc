@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage bezieht sich auf eine zukünftige Handlung (Termin ausmachen) und enthält keine beschreibenden Elemente einer Szene im Metaverse, wie Objekte, Attribute oder Aktivitäten, die in einem GraphCode abgebildet werden könnten.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden. Die Anfrage bezieht sich auf eine zukünftige Handlung (Termin ausmachen) und enthält keine beschreibenden Elemente einer Szene im Metaverse, wie Objekte, Attribute oder Aktivitäten, die in einem GraphCode abgebildet werden könnten.\"\n}"
+}

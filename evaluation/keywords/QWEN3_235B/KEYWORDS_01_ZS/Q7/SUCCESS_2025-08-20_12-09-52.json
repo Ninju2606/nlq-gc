@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch wirr und unklar. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt im Kontext keinen Sinn und lässt keine klare Extraktion von Objekten, Attributen oder Aktivitäten zu.",
+  "error": "Die Anfrage ist grammatikalisch wirr und unklar. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt im Kontext keinen Sinn und lässt keine klare Extraktion von Objekten, Attributen oder Aktivitäten zu.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch wirr und unklar. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt im Kontext keinen Sinn und lässt keine klare Extraktion von Objekten, Attributen oder Aktivitäten zu.\",\n  \"description\": \"Die Anfrage ist grammatikalisch wirr und unklar. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ergibt im Kontext keinen Sinn und lässt keine klare Extraktion von Objekten, Attributen oder Aktivitäten zu.\"\n}"
+}

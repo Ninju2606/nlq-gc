@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine relativen Verweise und keine Identifikation des Nutzers in der Anfrage. Die Identifikation „Maria“ wurde ignoriert, da die Anfrage keine selbstidentifizierenden Wörter wie „ich“ oder „mein“ enthält.\n2. „tim“ ist ein Objekt (object) der Anfrage. „run“ ist eine Aktivität (activity).\n3. „tim“ führt die Aktivität „run“ aus (perform).\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise und keine Identifikation des Nutzers in der Anfrage. Die Identifikation \\u201eMaria\\u201c wurde ignoriert, da die Anfrage keine selbstidentifizierenden W\\u00f6rter wie \\u201eich\\u201c oder \\u201emein\\u201c enth\\u00e4lt.\\n2. \\u201etim\\u201c ist ein Objekt (object) der Anfrage. \\u201erun\\u201c ist eine Aktivit\\u00e4t (activity).\\n3. \\u201etim\\u201c f\\u00fchrt die Aktivit\\u00e4t \\u201erun\\u201c aus (perform).\\n4. Die ID f\\u00fcr Objekt (object) ist 1. Die ID f\\u00fcr Aktivit\\u00e4t (activity) ist 4. Die ID f\\u00fcr Ausf\\u00fchren (perform) ist 8.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch inkorrekt und semantisch unklar. Die Kombination aus \"Häuser\", \"Fragen\" und \"malen\" bildet keine nachvollziehbare Szenenbeschreibung einer Metaverse-Situation (z.B. Häuser können nicht Fragen malen). Es fehlen klare Objekte, Attribute oder Aktivitäten für einen validen GraphCode.",
+  "error": "Es können keine sinnvollen Stichwörter ermittelt werden.",
+  "responsePlain": "{\n  \"error\": \"Es können keine sinnvollen Stichwörter ermittelt werden.\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch inkorrekt und semantisch unklar. Die Kombination aus \\\"Häuser\\\", \\\"Fragen\\\" und \\\"malen\\\" bildet keine nachvollziehbare Szenenbeschreibung einer Metaverse-Situation (z.B. Häuser können nicht Fragen malen). Es fehlen klare Objekte, Attribute oder Aktivitäten für einen validen GraphCode.\"\n}"
+}

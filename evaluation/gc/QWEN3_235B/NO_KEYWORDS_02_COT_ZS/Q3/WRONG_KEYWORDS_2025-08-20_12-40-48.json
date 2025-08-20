@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      14,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört mir\u0027. Da relative Verweise und Übersetzung erforderlich sind, werden sie in Schritt 2-4 verarbeitet.\n2. Relativer Verweis \u0027mir\u0027 wurde zur Nutzeridentifikation \u0027Maria\u0027 aufgelöst.\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. \u0027gehört\u0027 wird als Relation, nicht als separates Stichwort, behandelt.\n4. Nutzerreferenz \u0027mir\u0027 durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\n6. Relationen: Maria (0) führt swim (1) aus (Typ 8 \u0027perform\u0027); swim (1) hat pool (2) als Zielort (Typ 9 \u0027target\u0027); pool (2) besitzt Maria (0) als Eigentümer (Typ 14 \u0027characteristic\u0027).\n7. Alle Relationen haben gültige Typkodierungen: 8 (perform), 9 (target), 14 (characteristic) sind in den vorgegebenen Kodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [14, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört mir\u0027. Da relative Verweise und Übersetzung erforderlich sind, werden sie in Schritt 2-4 verarbeitet.\\n2. Relativer Verweis \u0027mir\u0027 wurde zur Nutzeridentifikation \u0027Maria\u0027 aufgelöst.\\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027. \u0027gehört\u0027 wird als Relation, nicht als separates Stichwort, behandelt.\\n4. Nutzerreferenz \u0027mir\u0027 durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 ist eine Aktivität (Typ 4), \u0027pool\u0027 ist ein Objekt (Typ 1).\\n6. Relationen: Maria (0) führt swim (1) aus (Typ 8 \u0027perform\u0027); swim (1) hat pool (2) als Zielort (Typ 9 \u0027target\u0027); pool (2) besitzt Maria (0) als Eigentümer (Typ 14 \u0027characteristic\u0027).\\n7. Alle Relationen haben gültige Typkodierungen: 8 (perform), 9 (target), 14 (characteristic) sind in den vorgegebenen Kodierungen enthalten.\"\n}"
+}

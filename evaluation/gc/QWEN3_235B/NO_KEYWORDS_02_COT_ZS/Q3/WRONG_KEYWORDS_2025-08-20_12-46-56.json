@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "Pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027.\n\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf den Anfragensteller (Maria). Dies wird bei der Beziehung zwischen \u0027Pool\u0027 und \u0027Maria\u0027 berücksichtigt (Besitzverhältnis).\n\n3. Übersetzung der Stichwörter ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027Pool\u0027 (bleibt gleich), \u0027gehört\u0027 → \u0027belong\u0027.\n\n4. Ersetzung der Selbstbezugswörter: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt, sodass die Beziehung \u0027Pool gehört Maria\u0027 lautet.\n\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität ist.\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\n   - \u0027Pool\u0027 ist ein Objekt (Typ 1: object).\n   - \u0027belong\u0027 ist eine Beziehung, die keinen Identitätsbezug hat (Typ 5: attached), da es eine Besitzbeziehung darstellt.\n\n6. Relationen zwischen den Stichwörtern: \n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\n   - Maria besitzt den Pool → Relation \u0027attached\u0027 (Typ 5), da \u0027attached\u0027 für Besitz/Verbindung steht.\n   - \u0027swim\u0027 findet im \u0027Pool\u0027 statt → räumliche Beziehung \u0027in\u0027 (könnte als \u0027under\u0027 oder \u0027above\u0027 missverständlich sein; \u0027in\u0027 ist nicht direkt vorhanden). Allerdings ist \u0027in\u0027 nicht explizit in den Typkodierungen enthalten. Stattdessen wird angenommen, dass \u0027in\u0027 als räumliche Enthaltenheit interpretiert wird. Keine direkte Kodierung für \u0027in\u0027 vorhanden. Allerdings: \u0027under\u0027 (6), \u0027above\u0027 (7) – \u0027in\u0027 fehlt.\n   → Problem: Es gibt **keine Typkodierung für \u0027in\u0027** (räumliche Enthaltenheit). Dies ist entscheidend.\n\n7. Überprüfung der Relationen:\n   - Maria - schwimmt → perform (ID 8) ✅\n   - Pool - gehört zu Maria → attached (ID 5) ✅\n   - schwimmen - in Pool → Beziehung \u0027in\u0027 erforderlich. Mögliche Alternativen: \u0027under\u0027, \u0027above\u0027 – beides passt nicht zu \u0027in\u0027. \u0027attached\u0027? Nein, weil \u0027attached\u0027 für Besitz steht. Kein Typ kodiert \u0027in\u0027. → ❌ Kein passender Typ für \u0027in\u0027 vorhanden.\n\nDa die räumliche Beziehung \u0027in\u0027 zwischen der Aktivität \u0027swim\u0027 und dem Objekt \u0027Pool\u0027 nicht durch eine verfügbare Typkodierung abgebildet werden kann, ist kein vollständiger GraphCode möglich. Die vorhandenen Typen (5: attached, 6: under, 7: above) reichen nicht aus, um \u0027in\u0027 korrekt darzustellen. Daher ist ein Fehler auszugeben.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"Pool\",\n    \"belong\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0,\n      5\n    ],\n    [\n      0,\n      4,\n      0,\n      0\n    ],\n    [\n      0,\n      0,\n      1,\n      0\n    ],\n    [\n      0,\n      0,\n      0,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027.\\n\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf den Anfragensteller (Maria). Dies wird bei der Beziehung zwischen \u0027Pool\u0027 und \u0027Maria\u0027 berücksichtigt (Besitzverhältnis).\\n\\n3. Übersetzung der Stichwörter ins Englische: \u0027Ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027Pool\u0027 (bleibt gleich), \u0027gehört\u0027 → \u0027belong\u0027.\\n\\n4. Ersetzung der Selbstbezugswörter: \u0027mir\u0027 wird durch \u0027Maria\u0027 ersetzt, sodass die Beziehung \u0027Pool gehört Maria\u0027 lautet.\\n\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität ist.\\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\\n   - \u0027Pool\u0027 ist ein Objekt (Typ 1: object).\\n   - \u0027belong\u0027 ist eine Beziehung, die keinen Identitätsbezug hat (Typ 5: attached), da es eine Besitzbeziehung darstellt.\\n\\n6. Relationen zwischen den Stichwörtern: \\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\\n   - Maria besitzt den Pool → Relation \u0027attached\u0027 (Typ 5), da \u0027attached\u0027 für Besitz/Verbindung steht.\\n   - \u0027swim\u0027 findet im \u0027Pool\u0027 statt → räumliche Beziehung \u0027in\u0027 (könnte als \u0027under\u0027 oder \u0027above\u0027 missverständlich sein; \u0027in\u0027 ist nicht direkt vorhanden). Allerdings ist \u0027in\u0027 nicht explizit in den Typkodierungen enthalten. Stattdessen wird angenommen, dass \u0027in\u0027 als räumliche Enthaltenheit interpretiert wird. Keine direkte Kodierung für \u0027in\u0027 vorhanden. Allerdings: \u0027under\u0027 (6), \u0027above\u0027 (7) – \u0027in\u0027 fehlt.\\n   → Problem: Es gibt **keine Typkodierung für \u0027in\u0027** (räumliche Enthaltenheit). Dies ist entscheidend.\\n\\n7. Überprüfung der Relationen:\\n   - Maria - schwimmt → perform (ID 8) ✅\\n   - Pool - gehört zu Maria → attached (ID 5) ✅\\n   - schwimmen - in Pool → Beziehung \u0027in\u0027 erforderlich. Mögliche Alternativen: \u0027under\u0027, \u0027above\u0027 – beides passt nicht zu \u0027in\u0027. \u0027attached\u0027? Nein, weil \u0027attached\u0027 für Besitz steht. Kein Typ kodiert \u0027in\u0027. → ❌ Kein passender Typ für \u0027in\u0027 vorhanden.\\n\\nDa die räumliche Beziehung \u0027in\u0027 zwischen der Aktivität \u0027swim\u0027 und dem Objekt \u0027Pool\u0027 nicht durch eine verfügbare Typkodierung abgebildet werden kann, ist kein vollständiger GraphCode möglich. Die vorhandenen Typen (5: attached, 6: under, 7: above) reichen nicht aus, um \u0027in\u0027 korrekt darzustellen. Daher ist ein Fehler auszugeben.\"\n}"
+}

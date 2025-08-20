@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relativen Verweise der Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 wurden aufgelöst. Der Begriff \u0027ich\u0027 wird durch die gegebene Identifikation \u0027Maria\u0027 ersetzt. \u0027Meine Tochter\u0027 wird als Verbindung zwischen Maria und einer anderen Person interpretiert, wobei \u0027Tochter\u0027 die Beziehung \u0027daughter\u0027 darstellt. Da \u0027Tochter\u0027 im Vokabular nicht explizit enthalten ist, wird stattdessen die Beziehung im GraphCode über den Typ \u0027daughter\u0027 (ID 10) erfasst, sofern möglich. Allerdings ist \u0027daughter\u0027 im Vokabular nicht als eigenständiger Begriff enthalten, sondern nur als Relationship-Typ. Daher wird \u0027person\u0027 als allgemeiner Begriff verwendet, um Maria und ggf. die Tochter zu repräsentieren.\n\n2. Die Attributeigenschaften der Stichwörter im Vokabular sind:\n- \u0027maria\u0027: Bezeichnet eine konkrete Person (Identifikation des Nutzers). Laut Regel soll dieses Wort verwendet werden, wenn \u0027ich\u0027 oder \u0027mein\u0027 vorkommt. Typ: object (da konkrete Entität, ID 1).\n- \u0027person\u0027: Allgemeiner Typ für menschliche Akteure. Typ: object (ID 1).\n- \u0027drive\u0027: Beschreibt eine Aktivität, die ausgeführt wird. Typ: activity (ID 4).\n- \u0027boat\u0027: Objekt, das bewegt wird oder benutzt wird. Typ: object (ID 1).\n- \u0027lake\u0027: Geografischer Ort oder Kontext, in dem die Aktivität stattfindet. Typ: context (ID 2).\n\n3. Die Relationen zwischen den Stichwörtern sind:\n- \u0027maria\u0027 ist eine \u0027person\u0027 → Typ: \u0027object\u0027 (ID 1), da es sich um eine konkrete Instanz eines Objekts handelt.\n- \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus → Beziehung: \u0027perform\u0027 (ID 8), da eine Person eine Aktivität ausführt.\n- \u0027drive\u0027 hat als Zielobjekt \u0027boat\u0027 → Beziehung: \u0027target\u0027 (ID 9), da das Boot das Objekt der Aktivität ist.\n- \u0027drive\u0027 findet auf dem \u0027lake\u0027 statt → \u0027lake\u0027 ist Kontext der Aktivität. Es fehlt jedoch ein Relationship-Typ wie \u0027in\u0027 oder \u0027on\u0027, der direkt eine solche räumliche Beziehung darstellt. Der vorhandene Typ \u0027under\u0027 (ID 6) oder \u0027above\u0027 (ID 7) passt nicht. Ein \u0027context\u0027-Bezug (ID 2) ist nur für Diagonaleinträge vorgesehen.\n- Zusätzlich soll \u0027Tochter\u0027 durch die Beziehung \u0027daughter\u0027 (ID 10) verknüpft sein: \u0027maria\u0027 hat Tochter → Beziehung \u0027daughter\u0027 von \u0027maria\u0027 zu einer weiteren \u0027person\u0027. Aber: Es gibt im Vokabular keine explizite Person für die Tochter. Ohne zusätzlichen Eintrag in Dictionary und Matrix nicht darstellbar.\n\n4. Probleme bei der Zuordnung:\n- Es gibt keine Relationship-Typen wie \u0027in\u0027, \u0027on\u0027 oder \u0027at\u0027 in den vorgegebenen Typkodierungen. \u0027under\u0027 (6), \u0027above\u0027 (7) sind gegeben, aber \u0027on\u0027 fehlt. Daher kann die Relation \u0027fahren auf einem See\u0027 nicht korrekt kodiert werden. Keine passende ID für \u0027on\u0027-Beziehung vorhanden.\n- Die Beziehung \u0027daughter\u0027 (ID 10) existiert, aber es fehlt ein zweiter Personeneintrag (z.B. \u0027daughter_person\u0027) im Vokabular, um diese Beziehung darzustellen. Das Vokabular enthält nur \u0027maria\u0027 und \u0027person\u0027 – \u0027person\u0027 ist zu allgemein, um zwei verschiedene Personen zu unterscheiden, ohne Duplikate oder zusätzliche Einträge.\n- Laut Regel: Alle Einträge im Vokabular müssen übernommen werden – keine Ergänzungen erlaubt. Also kann kein weiterer Eintrag für \u0027Tochter\u0027 hinzugefügt werden.\n- Daher ist die Beziehung \u0027daughter\u0027 (ID 10) nicht darstellbar, da kein zweiter Personenbezug (z. B. zweiter Name oder Identifikator) existiert.\n- Die räumliche Beziehung \u0027auf dem See\u0027 kann nicht mit den vorhandenen Typen (\u0027under\u0027, \u0027above\u0027) ausgedrückt werden. Weder \u0027attached\u0027, \u0027under\u0027 noch \u0027above\u0027 passen für \u0027auf einem See\u0027 beim Bootfahren.\n\nFazit: Es fehlen notwendige Relationship-Typen (\u0027on\u0027, \u0027in\u0027) und eine ausreichende Differenzierung im Vokabular, um sowohl die Tochter als auch die räumliche Beziehung korrekt darzustellen. Außerdem ist die Beziehung \u0027context\u0027 (ID 2) nur für die Diagonale vorgesehen – also als Typdefinition –, nicht als Relationship außerhalb der Diagonale.\n\nDa zwei wesentliche Relationen (\u0027Tochter von Maria\u0027, \u0027Aktivität findet auf See statt\u0027) nicht mit den gegebenen Typkodierungen abgebildet werden können, kann kein gültiger GraphCode generiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 1, 0, 0, 0],\n    [1, 1, 0, 0, 0],\n    [0, 0, 4, 8, 9],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relativen Verweise der Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 wurden aufgelöst. Der Begriff \u0027ich\u0027 wird durch die gegebene Identifikation \u0027Maria\u0027 ersetzt. \u0027Meine Tochter\u0027 wird als Verbindung zwischen Maria und einer anderen Person interpretiert, wobei \u0027Tochter\u0027 die Beziehung \u0027daughter\u0027 darstellt. Da \u0027Tochter\u0027 im Vokabular nicht explizit enthalten ist, wird stattdessen die Beziehung im GraphCode über den Typ \u0027daughter\u0027 (ID 10) erfasst, sofern möglich. Allerdings ist \u0027daughter\u0027 im Vokabular nicht als eigenständiger Begriff enthalten, sondern nur als Relationship-Typ. Daher wird \u0027person\u0027 als allgemeiner Begriff verwendet, um Maria und ggf. die Tochter zu repräsentieren.\\n\\n2. Die Attributeigenschaften der Stichwörter im Vokabular sind:\\n- \u0027maria\u0027: Bezeichnet eine konkrete Person (Identifikation des Nutzers). Laut Regel soll dieses Wort verwendet werden, wenn \u0027ich\u0027 oder \u0027mein\u0027 vorkommt. Typ: object (da konkrete Entität, ID 1).\\n- \u0027person\u0027: Allgemeiner Typ für menschliche Akteure. Typ: object (ID 1).\\n- \u0027drive\u0027: Beschreibt eine Aktivität, die ausgeführt wird. Typ: activity (ID 4).\\n- \u0027boat\u0027: Objekt, das bewegt wird oder benutzt wird. Typ: object (ID 1).\\n- \u0027lake\u0027: Geografischer Ort oder Kontext, in dem die Aktivität stattfindet. Typ: context (ID 2).\\n\\n3. Die Relationen zwischen den Stichwörtern sind:\\n- \u0027maria\u0027 ist eine \u0027person\u0027 → Typ: \u0027object\u0027 (ID 1), da es sich um eine konkrete Instanz eines Objekts handelt.\\n- \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus → Beziehung: \u0027perform\u0027 (ID 8), da eine Person eine Aktivität ausführt.\\n- \u0027drive\u0027 hat als Zielobjekt \u0027boat\u0027 → Beziehung: \u0027target\u0027 (ID 9), da das Boot das Objekt der Aktivität ist.\\n- \u0027drive\u0027 findet auf dem \u0027lake\u0027 statt → \u0027lake\u0027 ist Kontext der Aktivität. Es fehlt jedoch ein Relationship-Typ wie \u0027in\u0027 oder \u0027on\u0027, der direkt eine solche räumliche Beziehung darstellt. Der vorhandene Typ \u0027under\u0027 (ID 6) oder \u0027above\u0027 (ID 7) passt nicht. Ein \u0027context\u0027-Bezug (ID 2) ist nur für Diagonaleinträge vorgesehen.\\n- Zusätzlich soll \u0027Tochter\u0027 durch die Beziehung \u0027daughter\u0027 (ID 10) verknüpft sein: \u0027maria\u0027 hat Tochter → Beziehung \u0027daughter\u0027 von \u0027maria\u0027 zu einer weiteren \u0027person\u0027. Aber: Es gibt im Vokabular keine explizite Person für die Tochter. Ohne zusätzlichen Eintrag in Dictionary und Matrix nicht darstellbar.\\n\\n4. Probleme bei der Zuordnung:\\n- Es gibt keine Relationship-Typen wie \u0027in\u0027, \u0027on\u0027 oder \u0027at\u0027 in den vorgegebenen Typkodierungen. \u0027under\u0027 (6), \u0027above\u0027 (7) sind gegeben, aber \u0027on\u0027 fehlt. Daher kann die Relation \u0027fahren auf einem See\u0027 nicht korrekt kodiert werden. Keine passende ID für \u0027on\u0027-Beziehung vorhanden.\\n- Die Beziehung \u0027daughter\u0027 (ID 10) existiert, aber es fehlt ein zweiter Personeneintrag (z.B. \u0027daughter_person\u0027) im Vokabular, um diese Beziehung darzustellen. Das Vokabular enthält nur \u0027maria\u0027 und \u0027person\u0027 – \u0027person\u0027 ist zu allgemein, um zwei verschiedene Personen zu unterscheiden, ohne Duplikate oder zusätzliche Einträge.\\n- Laut Regel: Alle Einträge im Vokabular müssen übernommen werden – keine Ergänzungen erlaubt. Also kann kein weiterer Eintrag für \u0027Tochter\u0027 hinzugefügt werden.\\n- Daher ist die Beziehung \u0027daughter\u0027 (ID 10) nicht darstellbar, da kein zweiter Personenbezug (z. B. zweiter Name oder Identifikator) existiert.\\n- Die räumliche Beziehung \u0027auf dem See\u0027 kann nicht mit den vorhandenen Typen (\u0027under\u0027, \u0027above\u0027) ausgedrückt werden. Weder \u0027attached\u0027, \u0027under\u0027 noch \u0027above\u0027 passen für \u0027auf einem See\u0027 beim Bootfahren.\\n\\nFazit: Es fehlen notwendige Relationship-Typen (\u0027on\u0027, \u0027in\u0027) und eine ausreichende Differenzierung im Vokabular, um sowohl die Tochter als auch die räumliche Beziehung korrekt darzustellen. Außerdem ist die Beziehung \u0027context\u0027 (ID 2) nur für die Diagonale vorgesehen – also als Typdefinition –, nicht als Relationship außerhalb der Diagonale.\\n\\nDa zwei wesentliche Relationen (\u0027Tochter von Maria\u0027, \u0027Aktivität findet auf See statt\u0027) nicht mit den gegebenen Typkodierungen abgebildet werden können, kann kein gültiger GraphCode generiert werden.\"\n}"
+}

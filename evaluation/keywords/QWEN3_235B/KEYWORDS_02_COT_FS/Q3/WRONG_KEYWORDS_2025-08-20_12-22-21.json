@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"mir\".\n      2. \"mir\" ist ein relativer Verweis auf den Nutzer. Die neuen Stichwörter sind \"Ich\", \"schwimmen\", \"Pool\", \"gehören\". Dabei bezieht sich \"mir\" auf die Nutzeridentifikation.\n      3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"belong\". Da \"belong\" bereits als Beziehung implizit enthalten ist und kein eigenständiges Objekt, Attribut oder Aktivität beschreibt, wird es nicht ins Vokabular aufgenommen. Verben werden verallgemeinert: \"schwimme\" → \"swim\".\n      4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\".",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"mir\\\".\\n      2. \\\"mir\\\" ist ein relativer Verweis auf den Nutzer. Die neuen Stichwörter sind \\\"Ich\\\", \\\"schwimmen\\\", \\\"Pool\\\", \\\"gehören\\\". Dabei bezieht sich \\\"mir\\\" auf die Nutzeridentifikation.\\n      3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\". Da \\\"belong\\\" bereits als Beziehung implizit enthalten ist und kein eigenständiges Objekt, Attribut oder Aktivität beschreibt, wird es nicht ins Vokabular aufgenommen. Verben werden verallgemeinert: \\\"schwimme\\\" → \\\"swim\\\".\\n      4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\"\n}"
+}

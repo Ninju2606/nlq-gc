@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Ermittlung der potenziellen Stichwörter: Aus der Anfrage \u0027Ich spiele Basketball\u0027 werden die Wörter \u0027Ich\u0027, \u0027spiele\u0027 und \u0027Basketball\u0027 extrahiert.\n\n2. Auflösen relativer Verweise: Das Pronomen \u0027Ich\u0027 bezieht sich auf den Nutzer und wird durch die angegebene Identifikation \u0027Maria\u0027 ersetzt.\n\n3. Übersetzung ins Englische: Die Stichwörter werden übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027 (Identifikation bleibt erhalten), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Nomen unverändert.\n\n4. Ersetzung des Nutzerbezugs: Da in der Anfrage \u0027Ich\u0027 vorkommt, wird dieses durch den Namen \u0027Maria\u0027 ersetzt, gemäß der Regel zur Nutzeridentifikation.\n\n5. Attributierung der Stichwörter: \n- \u0027Maria\u0027 ist ein Objekt (Person) → Typ 1 (object)\n- \u0027play\u0027 ist eine Aktivität → Typ 4 (activity)\n- \u0027basketball\u0027 ist ein Objekt (Spiel/Gegenstand) → Typ 1 (object)\n\n6. Relationen zwischen den Stichwörtern: \n- Maria führt die Aktivität \u0027play\u0027 aus → Relation: Maria → play mit Typ 8 (perform)\n- Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel/Objekt → Relation: play → basketball mit Typ 9 (target)\n\n7. Prüfung der Typkodierungen: \n- Typ 8 (perform): ID 8, identityMapping\u003dfalse → gültig für Relation (i≠j)\n- Typ 9 (target): ID 9, identityMapping\u003dfalse → gültig für Relation (i≠j)\n- Typ 1 (object): ID 1, identityMapping\u003dtrue → gültig für Diagonale\n- Typ 4 (activity): ID 4, identityMapping\u003dtrue → gültig für Diagonale\nAlle verwendeten Typen existieren und werden korrekt verwendet.\n\n8. Zusammenstellung des GraphCodes: \n- Vokabular (dictionary) enthält: [\"Maria\", \"play\", \"basketball\"]\n- Bewertungsmatrix (4x4 wäre bei 4 Einträgen, hier 3x3):\n  - (0,0): Maria ist ein Objekt → 1\n  - (1,1): play ist eine Aktivität → 4\n  - (2,2): basketball ist ein Objekt → 1\n  - (0,1): Maria führt aus → perform (8)\n  - (1,2): play hat Ziel → target (9)\n  - Alle sonstigen Einträge bleiben 0, da keine andere Relation angegeben.\n\nDer GraphCode ist vollständig und entspricht allen Vorgaben.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Ermittlung der potenziellen Stichwörter: Aus der Anfrage \u0027Ich spiele Basketball\u0027 werden die Wörter \u0027Ich\u0027, \u0027spiele\u0027 und \u0027Basketball\u0027 extrahiert.\\n\\n2. Auflösen relativer Verweise: Das Pronomen \u0027Ich\u0027 bezieht sich auf den Nutzer und wird durch die angegebene Identifikation \u0027Maria\u0027 ersetzt.\\n\\n3. Übersetzung ins Englische: Die Stichwörter werden übersetzt: \u0027Ich\u0027 → \u0027Maria\u0027 (Identifikation bleibt erhalten), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Nomen unverändert.\\n\\n4. Ersetzung des Nutzerbezugs: Da in der Anfrage \u0027Ich\u0027 vorkommt, wird dieses durch den Namen \u0027Maria\u0027 ersetzt, gemäß der Regel zur Nutzeridentifikation.\\n\\n5. Attributierung der Stichwörter: \\n- \u0027Maria\u0027 ist ein Objekt (Person) → Typ 1 (object)\\n- \u0027play\u0027 ist eine Aktivität → Typ 4 (activity)\\n- \u0027basketball\u0027 ist ein Objekt (Spiel/Gegenstand) → Typ 1 (object)\\n\\n6. Relationen zwischen den Stichwörtern: \\n- Maria führt die Aktivität \u0027play\u0027 aus → Relation: Maria → play mit Typ 8 (perform)\\n- Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel/Objekt → Relation: play → basketball mit Typ 9 (target)\\n\\n7. Prüfung der Typkodierungen: \\n- Typ 8 (perform): ID 8, identityMapping\u003dfalse → gültig für Relation (i≠j)\\n- Typ 9 (target): ID 9, identityMapping\u003dfalse → gültig für Relation (i≠j)\\n- Typ 1 (object): ID 1, identityMapping\u003dtrue → gültig für Diagonale\\n- Typ 4 (activity): ID 4, identityMapping\u003dtrue → gültig für Diagonale\\nAlle verwendeten Typen existieren und werden korrekt verwendet.\\n\\n8. Zusammenstellung des GraphCodes: \\n- Vokabular (dictionary) enthält: [\\\"Maria\\\", \\\"play\\\", \\\"basketball\\\"]\\n- Bewertungsmatrix (4x4 wäre bei 4 Einträgen, hier 3x3):\\n  - (0,0): Maria ist ein Objekt → 1\\n  - (1,1): play ist eine Aktivität → 4\\n  - (2,2): basketball ist ein Objekt → 1\\n  - (0,1): Maria führt aus → perform (8)\\n  - (1,2): play hat Ziel → target (9)\\n  - Alle sonstigen Einträge bleiben 0, da keine andere Relation angegeben.\\n\\nDer GraphCode ist vollständig und entspricht allen Vorgaben.\"\n}"
+}

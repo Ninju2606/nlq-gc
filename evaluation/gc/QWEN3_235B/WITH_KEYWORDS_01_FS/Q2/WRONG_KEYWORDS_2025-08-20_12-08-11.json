@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim rennt. Maria ist die identifizierte Nutzerin, da die Handlung einer Person zugeordnet ist. \u0027tim\u0027 wird als Objekt (Typ 1) klassifiziert, \u0027run\u0027 als Aktivität (Typ 4). Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (Typ 8) beschrieben. Da \u0027tim\u0027 als Name einer Person auftritt und nicht identisch mit der Nutzerin ist, wird die Relation \u0027daughter\u0027 (Typ 10) von \u0027Maria\u0027 zu \u0027tim\u0027 eingefügt, um die untergeordnete Rolle im Kontext darzustellen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [\n    [1, 10, 0],\n    [0, 1, 8],\n    [0, 0, 4]\n  ],\n  \"description\": \"Tim rennt. Maria ist die identifizierte Nutzerin, da die Handlung einer Person zugeordnet ist. \u0027tim\u0027 wird als Objekt (Typ 1) klassifiziert, \u0027run\u0027 als Aktivität (Typ 4). Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (Typ 8) beschrieben. Da \u0027tim\u0027 als Name einer Person auftritt und nicht identisch mit der Nutzerin ist, wird die Relation \u0027daughter\u0027 (Typ 10) von \u0027Maria\u0027 zu \u0027tim\u0027 eingefügt, um die untergeordnete Rolle im Kontext darzustellen.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "1. Es gibt relative Verweise: \\\"Ich\\\" und \\\"mir\\\" wurden zu \\\"maria\\\" aufgelöst.\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"maria\\\" führt die Aktivität \\\"own\\\" aus. Die Aktivität \\\"swim\\\" findet \\\"in\\\" (approximiert durch \\\"under\\\") \\\"pool\\\" statt. Die Aktivität \\\"own\\\" bezieht sich auf \\\"pool\\\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für under (under) ist 6. Die ID für Beziehen (target) ist 9.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 6],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt relative Verweise: \\\\\\\"Ich\\\\\\\" und \\\\\\\"mir\\\\\\\" wurden zu \\\\\\\"maria\\\\\\\" aufgelöst.\\n2. \\\\\\\"maria\\\\\\\" und \\\\\\\"pool\\\\\\\" sind Objekte der Anfrage. \\\\\\\"swim\\\\\\\" und \\\\\\\"own\\\\\\\" sind Aktivitäten.\\n3. \\\\\\\"maria\\\\\\\" führt die Aktivität \\\\\\\"swim\\\\\\\" aus. \\\\\\\"maria\\\\\\\" führt die Aktivität \\\\\\\"own\\\\\\\" aus. Die Aktivität \\\\\\\"swim\\\\\\\" findet \\\\\\\"in\\\\\\\" (approximiert durch \\\\\\\"under\\\\\\\") \\\\\\\"pool\\\\\\\" statt. Die Aktivität \\\\\\\"own\\\\\\\" bezieht sich auf \\\\\\\"pool\\\\\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für under (under) ist 6. Die ID für Beziehen (target) ist 9.\"\n}"
+}

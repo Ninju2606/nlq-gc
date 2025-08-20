@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten. Begriffe wie \"Häuser um Fragen\" oder \"Fragen zu malen\" sind widersprüchlich oder nicht verknüpfbar. Eine eindeutige Extraktion von Objekten, Attributen und Aktivitäten ist nicht möglich.",
+  "error": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten. Begriffe wie \"Häuser um Fragen\" oder \"Fragen zu malen\" sind widersprüchlich oder nicht verknüpfbar. Eine eindeutige Extraktion von Objekten, Attributen und Aktivitäten ist nicht möglich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten. Begriffe wie \\\"Häuser um Fragen\\\" oder \\\"Fragen zu malen\\\" sind widersprüchlich oder nicht verknüpfbar. Eine eindeutige Extraktion von Objekten, Attributen und Aktivitäten ist nicht möglich.\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch nicht korrekt und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse ableiten. Begriffe wie \\\"Häuser um Fragen\\\" oder \\\"Fragen zu malen\\\" sind widersprüchlich oder nicht verknüpfbar. Eine eindeutige Extraktion von Objekten, Attributen und Aktivitäten ist nicht möglich.\"\n}"
+}

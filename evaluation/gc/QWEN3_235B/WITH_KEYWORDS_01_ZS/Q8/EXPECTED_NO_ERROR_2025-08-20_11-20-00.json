@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Meine Tochter und ich fahren Boot auf einem See",
+  "error": "Die Anfrage enthält eine Person (\u0027Meine Tochter\u0027), die im vorgegebenen Vokabular nicht enthalten ist. Es fehlt ein Eintrag für \u0027daughter\u0027 oder eine semantisch passende Alternative im Vokabular, um die Beziehung korrekt abbilden zu können.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält eine Person (\u0027Meine Tochter\u0027), die im vorgegebenen Vokabular nicht enthalten ist. Es fehlt ein Eintrag für \u0027daughter\u0027 oder eine semantisch passende Alternative im Vokabular, um die Beziehung korrekt abbilden zu können.\",\n  \"description\": \"Meine Tochter und ich fahren Boot auf einem See\"\n}"
+}

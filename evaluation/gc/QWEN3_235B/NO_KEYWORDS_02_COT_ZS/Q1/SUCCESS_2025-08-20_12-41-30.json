@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst und durch die Identifikation des Nutzers, \u0027Maria\u0027, ersetzt.\n\n3. Übersetzung der Stichwörter ins Englische: \u0027Maria\u0027 (bleibt unverändert, Eigenname), \u0027spiele\u0027 → \u0027play\u0027 (verallgemeinertes Verb), \u0027Basketball\u0027 → \u0027basketball\u0027 (unverändert, Substantiv).\n\n4. Die Person \u0027Ich\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\n\n5. Attributeigenschaften der Begriffe:\n   - \u0027Maria\u0027: handelt es sich um eine Entität, die eine Person darstellt → Typ: \u0027object\u0027 (id: 1)\n   - \u0027play\u0027: beschreibt eine Handlung/Aktivität → Typ: \u0027activity\u0027 (id: 4)\n   - \u0027basketball\u0027: ein Objekt, das gespielt wird → Typ: \u0027object\u0027 (id: 1)\n\n6. Relationen zwischen den Begriffen:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (id: 8) von \u0027Maria\u0027 zu \u0027play\u0027\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (id: 9) von \u0027play\u0027 zu \u0027basketball\u0027\n\n7. Überprüfung der Relationen auf Typkodierungen:\n   - \u0027perform\u0027 (id: 8) existiert in den Typkodierungen mit identityMapping\u003dfalse → gültig\n   - \u0027target\u0027 (id: 9) existiert in den Typkodierungen mit identityMapping\u003dfalse → gültig\n   - Diagonaleinträge: \u0027Maria\u0027 → \u0027object\u0027 (id: 1, identityMapping\u003dtrue), \u0027play\u0027 → \u0027activity\u0027 (id: 4, identityMapping\u003dtrue), \u0027basketball\u0027 → \u0027object\u0027 (id: 1, identityMapping\u003dtrue) → alle gültig\n\n8. Der GraphCode wurde erfolgreich aus den Worten und Relationen zusammengesetzt. Die Matrix ist quadratisch (3x3). Die Diagonale (i\u003dj) enthält nur Typen mit identityMapping\u003dtrue (1, 4, 1). Außerhalb der Diagonale sind nur Typen mit identityMapping\u003dfalse (8, 9) oder 0. Die Indizes entsprechen: Zeile/Spalte 0 \u003d Maria, 1 \u003d play, 2 \u003d basketball.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst und durch die Identifikation des Nutzers, \u0027Maria\u0027, ersetzt.\\n\\n3. Übersetzung der Stichwörter ins Englische: \u0027Maria\u0027 (bleibt unverändert, Eigenname), \u0027spiele\u0027 → \u0027play\u0027 (verallgemeinertes Verb), \u0027Basketball\u0027 → \u0027basketball\u0027 (unverändert, Substantiv).\\n\\n4. Die Person \u0027Ich\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\n\\n5. Attributeigenschaften der Begriffe:\\n   - \u0027Maria\u0027: handelt es sich um eine Entität, die eine Person darstellt → Typ: \u0027object\u0027 (id: 1)\\n   - \u0027play\u0027: beschreibt eine Handlung/Aktivität → Typ: \u0027activity\u0027 (id: 4)\\n   - \u0027basketball\u0027: ein Objekt, das gespielt wird → Typ: \u0027object\u0027 (id: 1)\\n\\n6. Relationen zwischen den Begriffen:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (id: 8) von \u0027Maria\u0027 zu \u0027play\u0027\\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (id: 9) von \u0027play\u0027 zu \u0027basketball\u0027\\n\\n7. Überprüfung der Relationen auf Typkodierungen:\\n   - \u0027perform\u0027 (id: 8) existiert in den Typkodierungen mit identityMapping\u003dfalse → gültig\\n   - \u0027target\u0027 (id: 9) existiert in den Typkodierungen mit identityMapping\u003dfalse → gültig\\n   - Diagonaleinträge: \u0027Maria\u0027 → \u0027object\u0027 (id: 1, identityMapping\u003dtrue), \u0027play\u0027 → \u0027activity\u0027 (id: 4, identityMapping\u003dtrue), \u0027basketball\u0027 → \u0027object\u0027 (id: 1, identityMapping\u003dtrue) → alle gültig\\n\\n8. Der GraphCode wurde erfolgreich aus den Worten und Relationen zusammengesetzt. Die Matrix ist quadratisch (3x3). Die Diagonale (i\u003dj) enthält nur Typen mit identityMapping\u003dtrue (1, 4, 1). Außerhalb der Diagonale sind nur Typen mit identityMapping\u003dfalse (8, 9) oder 0. Die Indizes entsprechen: Zeile/Spalte 0 \u003d Maria, 1 \u003d play, 2 \u003d basketball.\"\n}"
+}

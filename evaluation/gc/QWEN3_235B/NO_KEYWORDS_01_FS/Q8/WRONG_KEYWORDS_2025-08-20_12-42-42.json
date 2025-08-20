@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "sail",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren gemeinsam mit einem Boot auf einem See. Maria ist die Nutzeridentifikation, die Tochter steht in einer daughter-Beziehung zu Maria. Die Aktivität \u0027sail\u0027 wird von beiden ausgeführt und hat das Boot als Ziel. Das Boot befindet sich oberhalb des Sees (above-Relation).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"sail\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 8, 0, 0],\n    [10, 1, 8, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 7],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren gemeinsam mit einem Boot auf einem See. Maria ist die Nutzeridentifikation, die Tochter steht in einer daughter-Beziehung zu Maria. Die Aktivität \u0027sail\u0027 wird von beiden ausgeführt und hat das Boot als Ziel. Das Boot befindet sich oberhalb des Sees (above-Relation).\"\n}"
+}

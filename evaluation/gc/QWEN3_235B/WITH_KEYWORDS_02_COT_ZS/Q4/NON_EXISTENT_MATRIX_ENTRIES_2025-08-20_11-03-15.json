@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      10
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer \u0027Maria\u0027 referenziert sich selbst mit \u0027ich\u0027 und \u0027meinem\u0027, daher wird die Identifikation \u0027maria\u0027 im Vokabular verwendet. \n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), \u0027swim\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue), \u0027own\u0027 wird hier als Beziehung (Eigentümerschaft) interpretiert und ist keine eigenständige Aktivität, daher wird es nicht als Typ in der Diagonale verwendet, \u0027pool\u0027 ist ein Objekt (Typ 1). Allerdings ist im gegebenen Vokabular \u0027own\u0027 enthalten, daher muss es berücksichtigt werden. Da \u0027own\u0027 im Kontext \u0027mein Pool\u0027 impliziert, dass Maria den Pool besitzt, wird \u0027own\u0027 als Beziehung (attached) interpretiert, hat aber keinen direkten Typ in der Liste. Stattdessen wird \u0027attached\u0027 (ID 5) verwendet, um die Zugehörigkeit auszudrücken. \n3. Die Relationen sind: Maria führt die Aktivität \u0027swim\u0027 aus (perform, ID 8), \u0027swim\u0027 hat als Zielort den \u0027pool\u0027 (target, ID 9), und Maria \u0027own\u0027t den \u0027pool\u0027 (hier modelliert als \u0027attached\u0027, ID 5, da kein \u0027own\u0027-Typ existiert, aber \u0027attached\u0027 am ehesten passt). Außerdem kann \u0027own\u0027 als Tochterbeziehung (daughter, ID 10) modelliert werden, um die Hierarchie auszudrücken. \n4. Überprüfung der Typkodierungen: \n   - object (ID 1): für \u0027maria\u0027 und \u0027pool\u0027 – gültig. \n   - activity (ID 4): für \u0027swim\u0027 – gültig. \n   - perform (ID 8): zwischen \u0027maria\u0027 und \u0027swim\u0027 – gültig. \n   - target (ID 9): zwischen \u0027swim\u0027 und \u0027pool\u0027 – gültig. \n   - attached (ID 5): zwischen \u0027maria\u0027 und \u0027pool\u0027 – gültig (passt für Besitz). \n   - daughter (ID 10): zwischen \u0027own\u0027 und \u0027pool\u0027 – gültig (falls \u0027own\u0027 als Kategorie interpretiert wird). \n   - \u0027own\u0027 als eigenständiger Begriff: es gibt keinen direkten Typ \u0027own\u0027, aber es wird durch \u0027attached\u0027 (5) oder \u0027daughter\u0027 (10) ersetzt. Da \u0027own\u0027 im Vokabular steht, muss es eine Bedeutung haben. Da \u0027own\u0027 eine relationale Rolle ist und kein Objekt oder Attribut, wird es nicht auf der Diagonale mit einem identityMapping\u003dtrue-Typ belegt. Daher bleibt die Diagonale für \u0027own\u0027 (Index 2) leer – was nicht erlaubt ist, da alle Diagonaleinträge gefüllt sein müssen. \n   Problematik: Es gibt keinen Typ mit identityMapping\u003dtrue für \u0027own\u0027. Alle Einträge auf der Diagonale müssen einen Typ mit identityMapping\u003dtrue haben (also 1\u003dobject, 2\u003dcontext, 3\u003dsynonym, 4\u003dactivity). \u0027own\u0027 ist keine Aktivität wie \u0027swim\u0027, kein Objekt, kein Kontext und kein Synonym. Daher kann kein gültiger Diagonaleintrag gesetzt werden. Folge: ungültige Matrix.\n5. Aufgrund der Tatsache, dass \u0027own\u0027 im Vokabular enthalten ist und somit Zeile/Spalte 2 der Matrix entspricht, muss Eintrag (2,2) einen Typ mit identityMapping\u003dtrue haben. Es gibt jedoch keinen passenden Typ in der vorgegebenen Liste, der \u0027own\u0027 als solches klassifiziert und gleichzeitig identityMapping\u003dtrue hat. Daher ist die Erstellung eines gültigen GraphCode nicht möglich.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 9],\n    [0, 0, 0, 10],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 referenziert sich selbst mit \u0027ich\u0027 und \u0027meinem\u0027, daher wird die Identifikation \u0027maria\u0027 im Vokabular verwendet. \\n2. Die Attributeigenschaften der Stichwörter sind: \u0027maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), \u0027swim\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue), \u0027own\u0027 wird hier als Beziehung (Eigentümerschaft) interpretiert und ist keine eigenständige Aktivität, daher wird es nicht als Typ in der Diagonale verwendet, \u0027pool\u0027 ist ein Objekt (Typ 1). Allerdings ist im gegebenen Vokabular \u0027own\u0027 enthalten, daher muss es berücksichtigt werden. Da \u0027own\u0027 im Kontext \u0027mein Pool\u0027 impliziert, dass Maria den Pool besitzt, wird \u0027own\u0027 als Beziehung (attached) interpretiert, hat aber keinen direkten Typ in der Liste. Stattdessen wird \u0027attached\u0027 (ID 5) verwendet, um die Zugehörigkeit auszudrücken. \\n3. Die Relationen sind: Maria führt die Aktivität \u0027swim\u0027 aus (perform, ID 8), \u0027swim\u0027 hat als Zielort den \u0027pool\u0027 (target, ID 9), und Maria \u0027own\u0027t den \u0027pool\u0027 (hier modelliert als \u0027attached\u0027, ID 5, da kein \u0027own\u0027-Typ existiert, aber \u0027attached\u0027 am ehesten passt). Außerdem kann \u0027own\u0027 als Tochterbeziehung (daughter, ID 10) modelliert werden, um die Hierarchie auszudrücken. \\n4. Überprüfung der Typkodierungen: \\n   - object (ID 1): für \u0027maria\u0027 und \u0027pool\u0027 – gültig. \\n   - activity (ID 4): für \u0027swim\u0027 – gültig. \\n   - perform (ID 8): zwischen \u0027maria\u0027 und \u0027swim\u0027 – gültig. \\n   - target (ID 9): zwischen \u0027swim\u0027 und \u0027pool\u0027 – gültig. \\n   - attached (ID 5): zwischen \u0027maria\u0027 und \u0027pool\u0027 – gültig (passt für Besitz). \\n   - daughter (ID 10): zwischen \u0027own\u0027 und \u0027pool\u0027 – gültig (falls \u0027own\u0027 als Kategorie interpretiert wird). \\n   - \u0027own\u0027 als eigenständiger Begriff: es gibt keinen direkten Typ \u0027own\u0027, aber es wird durch \u0027attached\u0027 (5) oder \u0027daughter\u0027 (10) ersetzt. Da \u0027own\u0027 im Vokabular steht, muss es eine Bedeutung haben. Da \u0027own\u0027 eine relationale Rolle ist und kein Objekt oder Attribut, wird es nicht auf der Diagonale mit einem identityMapping\u003dtrue-Typ belegt. Daher bleibt die Diagonale für \u0027own\u0027 (Index 2) leer – was nicht erlaubt ist, da alle Diagonaleinträge gefüllt sein müssen. \\n   Problematik: Es gibt keinen Typ mit identityMapping\u003dtrue für \u0027own\u0027. Alle Einträge auf der Diagonale müssen einen Typ mit identityMapping\u003dtrue haben (also 1\u003dobject, 2\u003dcontext, 3\u003dsynonym, 4\u003dactivity). \u0027own\u0027 ist keine Aktivität wie \u0027swim\u0027, kein Objekt, kein Kontext und kein Synonym. Daher kann kein gültiger Diagonaleintrag gesetzt werden. Folge: ungültige Matrix.\\n5. Aufgrund der Tatsache, dass \u0027own\u0027 im Vokabular enthalten ist und somit Zeile/Spalte 2 der Matrix entspricht, muss Eintrag (2,2) einen Typ mit identityMapping\u003dtrue haben. Es gibt jedoch keinen passenden Typ in der vorgegebenen Liste, der \u0027own\u0027 als solches klassifiziert und gleichzeitig identityMapping\u003dtrue hat. Daher ist die Erstellung eines gültigen GraphCode nicht möglich.\"\n}"
+}

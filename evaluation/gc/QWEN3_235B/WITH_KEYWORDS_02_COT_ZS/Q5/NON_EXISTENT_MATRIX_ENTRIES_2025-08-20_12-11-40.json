@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird der Identifikation \u0027Maria\u0027 zugeordnet, da laut Regel der Nutzername verwendet wird, wenn \u0027ich\u0027 vorkommt und eine Identifikation gegeben ist.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: handelt von einer Person, also \u0027object\u0027 (Typ-ID 1)\n- \u0027wear\u0027: beschreibt eine Aktion, also \u0027activity\u0027 (Typ-ID 4)\n- \u0027hat\u0027: ist ein Objekt, also \u0027object\u0027 (Typ-ID 1)\n- \u0027yellow\u0027: beschreibt eine Eigenschaft/Farbe, also \u0027characteristic\u0027 (Typ-ID 14)\n\n3. Relationen zwischen den Stichwörtern:\n- Maria führt die Aktion \u0027wear\u0027 aus → \u0027perform\u0027-Beziehung (Maria perform wear)\n- Die Aktion \u0027wear\u0027 hat als Ziel das \u0027hat\u0027 → \u0027target\u0027-Beziehung (wear target hat)\n- \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 → \u0027characteristic\u0027-Beziehung (hat characteristic yellow)\n- Zusätzlich: \u0027wear\u0027 ist eine Aktivität → Eintrag auf Diagonale (ID 4)\n- \u0027maria\u0027, \u0027hat\u0027, \u0027yellow\u0027 sind ihrer Art nach gekennzeichnet (object, object, characteristic)\n\n4. Prüfung der Relationen auf Typkodierungen:\n- perform → ID 8 (identityMapping\u003dfalse) → gültig\n- target → ID 9 (identityMapping\u003dfalse) → gültig\n- characteristic → ID 14 (identityMapping\u003dfalse) → gültig\n- object → ID 1 (identityMapping\u003dtrue) → gültig für Diagonale\n- activity → ID 4 (identityMapping\u003dtrue) → gültig für Diagonale\n- Alle benötigten Typkodierungen existieren.\n\n5. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt. Die Matrix ist 4x4, da das Vokabular 4 Einträge hat. Die Diagonale enthält nur Typen mit identityMapping\u003dtrue (IDs 1, 4, 1, 14 – korrekt zugewiesen). Außerhalb der Diagonale stehen nur Werte mit identityMapping\u003dfalse (IDs 8, 9, 14) oder 0. Alle Regeln sind erfüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird der Identifikation \u0027Maria\u0027 zugeordnet, da laut Regel der Nutzername verwendet wird, wenn \u0027ich\u0027 vorkommt und eine Identifikation gegeben ist.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: handelt von einer Person, also \u0027object\u0027 (Typ-ID 1)\\n- \u0027wear\u0027: beschreibt eine Aktion, also \u0027activity\u0027 (Typ-ID 4)\\n- \u0027hat\u0027: ist ein Objekt, also \u0027object\u0027 (Typ-ID 1)\\n- \u0027yellow\u0027: beschreibt eine Eigenschaft/Farbe, also \u0027characteristic\u0027 (Typ-ID 14)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- Maria führt die Aktion \u0027wear\u0027 aus → \u0027perform\u0027-Beziehung (Maria perform wear)\\n- Die Aktion \u0027wear\u0027 hat als Ziel das \u0027hat\u0027 → \u0027target\u0027-Beziehung (wear target hat)\\n- \u0027hat\u0027 hat die Eigenschaft \u0027yellow\u0027 → \u0027characteristic\u0027-Beziehung (hat characteristic yellow)\\n- Zusätzlich: \u0027wear\u0027 ist eine Aktivität → Eintrag auf Diagonale (ID 4)\\n- \u0027maria\u0027, \u0027hat\u0027, \u0027yellow\u0027 sind ihrer Art nach gekennzeichnet (object, object, characteristic)\\n\\n4. Prüfung der Relationen auf Typkodierungen:\\n- perform → ID 8 (identityMapping\u003dfalse) → gültig\\n- target → ID 9 (identityMapping\u003dfalse) → gültig\\n- characteristic → ID 14 (identityMapping\u003dfalse) → gültig\\n- object → ID 1 (identityMapping\u003dtrue) → gültig für Diagonale\\n- activity → ID 4 (identityMapping\u003dtrue) → gültig für Diagonale\\n- Alle benötigten Typkodierungen existieren.\\n\\n5. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt. Die Matrix ist 4x4, da das Vokabular 4 Einträge hat. Die Diagonale enthält nur Typen mit identityMapping\u003dtrue (IDs 1, 4, 1, 14 – korrekt zugewiesen). Außerhalb der Diagonale stehen nur Werte mit identityMapping\u003dfalse (IDs 8, 9, 14) oder 0. Alle Regeln sind erfüllt.\"\n}"
+}

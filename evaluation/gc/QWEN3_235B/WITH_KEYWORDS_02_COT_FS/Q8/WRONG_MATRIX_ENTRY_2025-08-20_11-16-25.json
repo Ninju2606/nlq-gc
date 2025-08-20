@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Der relative Verweis \"meine Tochter\" wurde aufgelöst in \"person\", wobei \"person\" als Tochter von \"maria\" interpretiert wird. Der Begriff \"ich\" wurde durch die Identifikation \"maria\" ersetzt.\n2. \"maria\" und \"boat\" sowie \"lake\" sind Objekte der Anfrage. \"person\" ist ebenfalls ein Objekt, das hier die Tochter darstellt. \"drive\" ist eine Aktivität. Es gibt keinen expliziten Attributvermerk wie Farbe oder Zustand.\n3. \"maria\" und \"person\" (Tochter) führen gemeinsam die Aktivität \"drive\" aus. Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\". Das Boot befindet sich auf dem \"lake\". Zudem ist die räumliche Relation \"auf\" zwischen \"boat\" und \"lake\" gegeben. Die semantische Beziehung \"Tochter\" besteht zwischen \"maria\" und \"person\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \"Tochter\" (daughter) ist 10. Die ID für die Beziehung \"perform\" ist 8. Die ID für die räumliche Relation \"unter\" ist 6, aber hier liegt \"above\" (auf) vor – die ID für \"above\" ist 7. Allerdings ist im Kontext von Oberfläche (z. B. Boot auf See) oft \"on\" gemeint, das hier nicht explizit verfügbar ist. Stattdessen wird in ähnlichen Fällen oft \"attached\" oder \"above\" verwendet. Da „on“ nicht zur Verfügung steht, kann „above“ (ID 7) oder „attached“ (ID 5) als annähernd passend betrachtet werden. Jedoch ist in den Typkodierungen kein expliziter Eintrag für \"on\" enthalten. Allerdings ist „attached“ (ID 5, attribute: \"attached\", identityMapping: false) geeignet, um räumliche Verbundenheit auszudrücken. Da jedoch im Beispielkontext „auf“ durch „above“ (ID 7) abgebildet wird und diese ID vorhanden ist, wird ID 7 für „boat above lake“ verwendet. Die ID für den Kontext (context) ist 2 – „lake“ fungiert als räumlicher Kontext der Szene, daher wird Eintrag (4,4) mit ID 2 (context) belegt. Alle benötigten Relationen (daughter, perform, above, target, context) haben entsprechende Typkodierungen: ID 10 (daughter), ID 8 (perform), ID 7 (above), ID 6 (under – wird nicht verwendet), ID 6 wird hier nicht benötigt, da „on“ ≈ „above“ (ID 7). ID 6 ist „under“, ID 7 ist „above“ – also korrekt verwendbar. Die ID 6 wird in Relation „boat under lake“ nicht verwendet, da dies falsch wäre. Stattdessen ist „boat above lake“ – ID 7 korrekt. ID 6 wird hier nicht benötigt. ID 2 (context) wird für „lake“ als Hintergrundkontext verwendet. Alle verwendeten Typkodierungen existieren: object (1), context (2), activity (4), attached (5), under (6), above (7), perform (8), daughter (10), characteristic (14).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wurde aufgelöst in \\\"person\\\", wobei \\\"person\\\" als Tochter von \\\"maria\\\" interpretiert wird. Der Begriff \\\"ich\\\" wurde durch die Identifikation \\\"maria\\\" ersetzt.\\n2. \\\"maria\\\" und \\\"boat\\\" sowie \\\"lake\\\" sind Objekte der Anfrage. \\\"person\\\" ist ebenfalls ein Objekt, das hier die Tochter darstellt. \\\"drive\\\" ist eine Aktivität. Es gibt keinen expliziten Attributvermerk wie Farbe oder Zustand.\\n3. \\\"maria\\\" und \\\"person\\\" (Tochter) führen gemeinsam die Aktivität \\\"drive\\\" aus. Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\". Das Boot befindet sich auf dem \\\"lake\\\". Zudem ist die räumliche Relation \\\"auf\\\" zwischen \\\"boat\\\" und \\\"lake\\\" gegeben. Die semantische Beziehung \\\"Tochter\\\" besteht zwischen \\\"maria\\\" und \\\"person\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \\\"Tochter\\\" (daughter) ist 10. Die ID für die Beziehung \\\"perform\\\" ist 8. Die ID für die räumliche Relation \\\"unter\\\" ist 6, aber hier liegt \\\"above\\\" (auf) vor – die ID für \\\"above\\\" ist 7. Allerdings ist im Kontext von Oberfläche (z. B. Boot auf See) oft \\\"on\\\" gemeint, das hier nicht explizit verfügbar ist. Stattdessen wird in ähnlichen Fällen oft \\\"attached\\\" oder \\\"above\\\" verwendet. Da „on“ nicht zur Verfügung steht, kann „above“ (ID 7) oder „attached“ (ID 5) als annähernd passend betrachtet werden. Jedoch ist in den Typkodierungen kein expliziter Eintrag für \\\"on\\\" enthalten. Allerdings ist „attached“ (ID 5, attribute: \\\"attached\\\", identityMapping: false) geeignet, um räumliche Verbundenheit auszudrücken. Da jedoch im Beispielkontext „auf“ durch „above“ (ID 7) abgebildet wird und diese ID vorhanden ist, wird ID 7 für „boat above lake“ verwendet. Die ID für den Kontext (context) ist 2 – „lake“ fungiert als räumlicher Kontext der Szene, daher wird Eintrag (4,4) mit ID 2 (context) belegt. Alle benötigten Relationen (daughter, perform, above, target, context) haben entsprechende Typkodierungen: ID 10 (daughter), ID 8 (perform), ID 7 (above), ID 6 (under – wird nicht verwendet), ID 6 wird hier nicht benötigt, da „on“ ≈ „above“ (ID 7). ID 6 ist „under“, ID 7 ist „above“ – also korrekt verwendbar. Die ID 6 wird in Relation „boat under lake“ nicht verwendet, da dies falsch wäre. Stattdessen ist „boat above lake“ – ID 7 korrekt. ID 6 wird hier nicht benötigt. ID 2 (context) wird für „lake“ als Hintergrundkontext verwendet. Alle verwendeten Typkodierungen existieren: object (1), context (2), activity (4), attached (5), under (6), above (7), perform (8), daughter (10), characteristic (14).\"\n}"
+}

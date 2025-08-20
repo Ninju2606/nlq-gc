@@ -1,0 +1,49 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Ich",
+    "schwimme",
+    "in",
+    "meinem",
+    "Pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"Ich\", \"schwimme\", \"in\", \"meinem\", \"Pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0, 0],\n    [0, 4, 9, 0, 0],\n    [0, 0, 2, 0, 6],\n    [0, 0, 0, 2, 14],\n    [0, 0, 0, 0, 1]\n  ]\n}"
+}

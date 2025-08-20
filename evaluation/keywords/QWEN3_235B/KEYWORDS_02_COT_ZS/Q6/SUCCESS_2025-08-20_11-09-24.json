@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die eine sinnvolle Generierung eines GraphCodes im Kontext einer Metaverse-Szene ermöglichen. Es fehlen konkrete Begriffe für Objekte, Personen (außer implizit \u0027wir\u0027) oder räumliche und zeitliche Bezüge, die als Stichwörter dienen könnten. Zudem handelt es sich um eine organisatorische Absicht, nicht um eine Beschreibung einer darstellbaren Szene. Daher kann kein Vokabular erstellt werden.",
+  "error": "Keine konkreten Szenenbeschreibung gefunden",
+  "responsePlain": "{\n  \"error\": \"Keine konkreten Szenenbeschreibung gefunden\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die eine sinnvolle Generierung eines GraphCodes im Kontext einer Metaverse-Szene ermöglichen. Es fehlen konkrete Begriffe für Objekte, Personen (außer implizit \u0027wir\u0027) oder räumliche und zeitliche Bezüge, die als Stichwörter dienen könnten. Zudem handelt es sich um eine organisatorische Absicht, nicht um eine Beschreibung einer darstellbaren Szene. Daher kann kein Vokabular erstellt werden.\"\n}"
+}

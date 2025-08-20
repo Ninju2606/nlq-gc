@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      8,
+      9
+    ],
+    [
+      6,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027attached\u0027 (ID 5) angenähert, da \u0027in\u0027 nicht explizit vorhanden ist, aber \u0027attached\u0027 räumliche Zugehörigkeit ausdrücken kann. Die Beziehung \u0027besitzt\u0027 wird durch \u0027perform\u0027 (Schwimmen) und \u0027target\u0027 (Ziel der Handlung) ergänzt, da \u0027own\u0027 als Aktivität modelliert wird. Direkter Support für \u0027own\u0027 als Relation fehlt, daher wird \u0027perform\u0027 und \u0027target\u0027 verwendet, um die Handlung der Zugehörigkeit abzubilden. Die Diagonale enthält nur Typen mit identityMapping\u003dtrue: \u0027object\u0027 (1) für maria und pool, \u0027activity\u0027 (4) für swim und own.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 8, 9],\n    [6, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch den Typ \u0027attached\u0027 (ID 5) angenähert, da \u0027in\u0027 nicht explizit vorhanden ist, aber \u0027attached\u0027 räumliche Zugehörigkeit ausdrücken kann. Die Beziehung \u0027besitzt\u0027 wird durch \u0027perform\u0027 (Schwimmen) und \u0027target\u0027 (Ziel der Handlung) ergänzt, da \u0027own\u0027 als Aktivität modelliert wird. Direkter Support für \u0027own\u0027 als Relation fehlt, daher wird \u0027perform\u0027 und \u0027target\u0027 verwendet, um die Handlung der Zugehörigkeit abzubilden. Die Diagonale enthält nur Typen mit identityMapping\u003dtrue: \u0027object\u0027 (1) für maria und pool, \u0027activity\u0027 (4) für swim und own.\"\n}"
+}

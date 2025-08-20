@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Formulierung \u0027Häuser um Fragen zu malen\u0027 enthält keine klare Szenenbeschreibung eines Metaverse-Objekts. Es fehlen eindeutige Objekte, Attribute oder Aktivitäten, die in einen sinnvollen GraphCode umgesetzt werden könnten. Der Zweckzusammenhang zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 ist nicht nachvollziehbar.",
+  "error": "Die Anfrage ist unklar oder grammatikalisch nicht eindeutig. Bitte beschreibe die Szene genauer.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unklar oder grammatikalisch nicht eindeutig. Bitte beschreibe die Szene genauer.\",\n  \"description\": \"Die Formulierung \u0027Häuser um Fragen zu malen\u0027 enthält keine klare Szenenbeschreibung eines Metaverse-Objekts. Es fehlen eindeutige Objekte, Attribute oder Aktivitäten, die in einen sinnvollen GraphCode umgesetzt werden könnten. Der Zweckzusammenhang zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 ist nicht nachvollziehbar.\"\n}"
+}

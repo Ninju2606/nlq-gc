@@ -1,0 +1,50 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "GraphCode zur Darstellung der Szene: Maria und ihre Tochter (person) führen gemeinsam die Aktivität \u0027drive\u0027 aus. Das Ziel der Aktivität ist das \u0027boat\u0027, welches sich \u0027above\u0027 dem \u0027lake\u0027 befindet. Die Beziehung \u0027daughter\u0027 (10) verknüpft Maria als Mutter mit der Tochter.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 7],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode zur Darstellung der Szene: Maria und ihre Tochter (person) führen gemeinsam die Aktivität \u0027drive\u0027 aus. Das Ziel der Aktivität ist das \u0027boat\u0027, welches sich \u0027above\u0027 dem \u0027lake\u0027 befindet. Die Beziehung \u0027daughter\u0027 (10) verknüpft Maria als Mutter mit der Tochter.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      5,
+      8
+    ],
+    [
+      14,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 bezieht sich auf den Nutzer, daher wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.\n3. Übersetzung ins Englische: \u0027gelben\u0027 → \u0027yellow\u0027, \u0027Hut\u0027 → \u0027hat\u0027, \u0027trage\u0027 → \u0027wear\u0027. \u0027Maria\u0027 bleibt unverändert.\n4. Subjektbezug aufgelöst: \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\n5. Attributdefinitionen: \n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet.\n   - \u0027yellow\u0027 ist ein Attribut (Typ 14: characteristic) von \u0027hat\u0027.\n   - \u0027hat\u0027 ist ein Objekt (Typ 1: object), das getragen wird.\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4: activity), die Maria ausführt.\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027wear\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\n   - \u0027wear\u0027 hat als Zielobjekt den \u0027hat\u0027 → Relation \u0027target\u0027 (Typ 9).\n   - \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027 → Relation \u0027characteristic\u0027 (Typ 14).\n   - \u0027hat\u0027 ist am Kopf von Maria befestigt (implizit durch \u0027tragen\u0027) → Relation \u0027attached\u0027 (Typ 5).\n   Hinweis: \u0027attached\u0027 beschreibt die räumliche Beziehung zwischen Hut und Person.\n7. Überprüfung der Typkodierungen: \n   - \u0027object\u0027 (ID 1) → gültig für Maria und hat.\n   - \u0027characteristic\u0027 (ID 14) → gültig für Beziehung zwischen hat und yellow.\n   - \u0027attached\u0027 (ID 5) → gültig für Beziehung zwischen Maria und hat (implizit durch Tragen).\n   - \u0027perform\u0027 (ID 8) → gültig für Maria → wear.\n   - \u0027target\u0027 (ID 9) → gültig für wear → hat.\n   - \u0027activity\u0027 (ID 4) → gültig für wear.\n   Alle Relationen haben passende Typkodierungen.\n8. Der GraphCode wurde erfolgreich erstellt: Vokabular mit 4 Einträgen, Bewerterungsmatrix 4x4 mit korrekten Typ-IDs.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [1, 14, 5, 8],\n    [14, 0, 0, 0],\n    [5, 0, 1, 0],\n    [8, 0, 9, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 bezieht sich auf den Nutzer, daher wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.\\n3. Übersetzung ins Englische: \u0027gelben\u0027 → \u0027yellow\u0027, \u0027Hut\u0027 → \u0027hat\u0027, \u0027trage\u0027 → \u0027wear\u0027. \u0027Maria\u0027 bleibt unverändert.\\n4. Subjektbezug aufgelöst: \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\n5. Attributdefinitionen: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet.\\n   - \u0027yellow\u0027 ist ein Attribut (Typ 14: characteristic) von \u0027hat\u0027.\\n   - \u0027hat\u0027 ist ein Objekt (Typ 1: object), das getragen wird.\\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4: activity), die Maria ausführt.\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027wear\u0027 aus → Relation \u0027perform\u0027 (Typ 8).\\n   - \u0027wear\u0027 hat als Zielobjekt den \u0027hat\u0027 → Relation \u0027target\u0027 (Typ 9).\\n   - \u0027hat\u0027 hat das Merkmal \u0027yellow\u0027 → Relation \u0027characteristic\u0027 (Typ 14).\\n   - \u0027hat\u0027 ist am Kopf von Maria befestigt (implizit durch \u0027tragen\u0027) → Relation \u0027attached\u0027 (Typ 5).\\n   Hinweis: \u0027attached\u0027 beschreibt die räumliche Beziehung zwischen Hut und Person.\\n7. Überprüfung der Typkodierungen: \\n   - \u0027object\u0027 (ID 1) → gültig für Maria und hat.\\n   - \u0027characteristic\u0027 (ID 14) → gültig für Beziehung zwischen hat und yellow.\\n   - \u0027attached\u0027 (ID 5) → gültig für Beziehung zwischen Maria und hat (implizit durch Tragen).\\n   - \u0027perform\u0027 (ID 8) → gültig für Maria → wear.\\n   - \u0027target\u0027 (ID 9) → gültig für wear → hat.\\n   - \u0027activity\u0027 (ID 4) → gültig für wear.\\n   Alle Relationen haben passende Typkodierungen.\\n8. Der GraphCode wurde erfolgreich erstellt: Vokabular mit 4 Einträgen, Bewerterungsmatrix 4x4 mit korrekten Typ-IDs.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittlung der potenziellen Stichwörter aus der Anfrage: \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027.\nDie relevanten Stichwörter sind: \u0027ich\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027. Attribute wie \u0027gelben\u0027 werden als Modifikator erfasst.\nRelative Verweise wie \u0027ich\u0027 werden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\nÜbersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027trage\u0027 → \u0027wear\u0027, \u0027gelben\u0027 → \u0027yellow\u0027, \u0027Hut\u0027 → \u0027hat\u0027.\nVerallgemeinerung der Wortstämme: \u0027trage\u0027 → \u0027wear\u0027 (Infinitiv).\nDie Ausdrücke \u0027Zeig mir Situationen\u0027 dienen der Anfragenbeschreibung und werden nicht im Vokabular berücksichtigt.\nDer GraphCode enthält nur die semantischen Elemente der Szene.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"wear\",\n    \"yellow\",\n    \"hat\"\n  ],\n  \"description\": \"Ermittlung der potenziellen Stichwörter aus der Anfrage: \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027.\\nDie relevanten Stichwörter sind: \u0027ich\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027. Attribute wie \u0027gelben\u0027 werden als Modifikator erfasst.\\nRelative Verweise wie \u0027ich\u0027 werden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\nÜbersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027trage\u0027 → \u0027wear\u0027, \u0027gelben\u0027 → \u0027yellow\u0027, \u0027Hut\u0027 → \u0027hat\u0027.\\nVerallgemeinerung der Wortstämme: \u0027trage\u0027 → \u0027wear\u0027 (Infinitiv).\\nDie Ausdrücke \u0027Zeig mir Situationen\u0027 dienen der Anfragenbeschreibung und werden nicht im Vokabular berücksichtigt.\\nDer GraphCode enthält nur die semantischen Elemente der Szene.\"\n}"
+}

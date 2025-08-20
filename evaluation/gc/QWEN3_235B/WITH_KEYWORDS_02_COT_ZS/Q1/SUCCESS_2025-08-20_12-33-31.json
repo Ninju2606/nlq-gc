@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer verwendet das selbstidentifizierende Wort \"Ich\", daher wird die Identifikation \"Maria\" im Vokabular verwendet und bezieht sich auf die Person, die die Handlung ausführt.\n\n2. Attributeigenschaften der Stichwörter:\n   - \"maria\": Dies ist ein Subjekt, das eine Person bezeichnet. Laut den Typkodierungen wird dies als \"object\" (id\u003d1) klassifiziert, da es ein konkretes Objekt/Individuum darstellt.\n   - \"play\": Dies beschreibt eine Handlung/Aktivität. Es wird als \"activity\" (id\u003d4) klassifiziert.\n   - \"basketball\": Dies ist ein Objekt, genauer ein Sportgerät oder eine Aktivität. Im Kontext der Anfrage \"Ich spiele Basketball\" handelt es sich um das Objekt der Aktivität, also ein \"object\" (id\u003d1).\n\n3. Relationen zwischen den Stichwörtern:\n   - Maria (maria) führt die Aktivität \"play\" aus → Relation: \"perform\" (id\u003d8), da eine Person eine Aktivität ausführt.\n   - Die Aktivität \"play\" bezieht sich auf das Ziel „basketball“ → Relation: \"target\" (id\u003d9), da Basketball das Ziel der Handlung ist.\n   - Zudem wird „basketball“ als eigenständiges Objekt betrachtet, daher steht es in der Diagonale mit Typ 1 (object).\n\n4. Überprüfung der Relationen auf Vorhandensein in den Typkodierungen:\n   - Typ 1 (object) existiert → ja, id\u003d1, identityMapping\u003dtrue → zulässig auf Diagonale.\n   - Typ 4 (activity) existiert → ja, id\u003d4, identityMapping\u003dtrue → zulässig auf Diagonale.\n   - Relation \"perform\" (Maria → play) → id\u003d8 vorhanden, identityMapping\u003dfalse → korrekt außerhalb Diagonale.\n   - Relation \"target\" (play → basketball) → id\u003d9 vorhanden, identityMapping\u003dfalse → korrekt außerhalb Diagonale.\n   - Alle benötigten Typkodierungen sind vorhanden.\n\n5. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular bleibt wie gegeben. Die Matrix ist 3x3. Auf der Diagonale stehen die Typen der Begriffe: maria\u003d1, play\u003d4, basketball\u003d1. Die Relationen sind positioniert als matrix[0][1] \u003d 8 (maria führt play aus) und matrix[1][2] \u003d 9 (play hat Ziel basketball). Alle weiteren Einträge bleiben 0, da keine weiteren Relationen bestehen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet das selbstidentifizierende Wort \\\"Ich\\\", daher wird die Identifikation \\\"Maria\\\" im Vokabular verwendet und bezieht sich auf die Person, die die Handlung ausführt.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \\\"maria\\\": Dies ist ein Subjekt, das eine Person bezeichnet. Laut den Typkodierungen wird dies als \\\"object\\\" (id\u003d1) klassifiziert, da es ein konkretes Objekt/Individuum darstellt.\\n   - \\\"play\\\": Dies beschreibt eine Handlung/Aktivität. Es wird als \\\"activity\\\" (id\u003d4) klassifiziert.\\n   - \\\"basketball\\\": Dies ist ein Objekt, genauer ein Sportgerät oder eine Aktivität. Im Kontext der Anfrage \\\"Ich spiele Basketball\\\" handelt es sich um das Objekt der Aktivität, also ein \\\"object\\\" (id\u003d1).\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - Maria (maria) führt die Aktivität \\\"play\\\" aus → Relation: \\\"perform\\\" (id\u003d8), da eine Person eine Aktivität ausführt.\\n   - Die Aktivität \\\"play\\\" bezieht sich auf das Ziel „basketball“ → Relation: \\\"target\\\" (id\u003d9), da Basketball das Ziel der Handlung ist.\\n   - Zudem wird „basketball“ als eigenständiges Objekt betrachtet, daher steht es in der Diagonale mit Typ 1 (object).\\n\\n4. Überprüfung der Relationen auf Vorhandensein in den Typkodierungen:\\n   - Typ 1 (object) existiert → ja, id\u003d1, identityMapping\u003dtrue → zulässig auf Diagonale.\\n   - Typ 4 (activity) existiert → ja, id\u003d4, identityMapping\u003dtrue → zulässig auf Diagonale.\\n   - Relation \\\"perform\\\" (Maria → play) → id\u003d8 vorhanden, identityMapping\u003dfalse → korrekt außerhalb Diagonale.\\n   - Relation \\\"target\\\" (play → basketball) → id\u003d9 vorhanden, identityMapping\u003dfalse → korrekt außerhalb Diagonale.\\n   - Alle benötigten Typkodierungen sind vorhanden.\\n\\n5. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular bleibt wie gegeben. Die Matrix ist 3x3. Auf der Diagonale stehen die Typen der Begriffe: maria\u003d1, play\u003d4, basketball\u003d1. Die Relationen sind positioniert als matrix[0][1] \u003d 8 (maria führt play aus) und matrix[1][2] \u003d 9 (play hat Ziel basketball). Alle weiteren Einträge bleiben 0, da keine weiteren Relationen bestehen.\"\n}"
+}

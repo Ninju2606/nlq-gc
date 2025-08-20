@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Tim rennt beschreibt eine Szene, in der Tim die Aktivität des Laufens ausübt. Der GraphCode kodiert Tim als Objekt (Typ 1) und rennt als Aktivität (Typ 4), verbunden durch die \u0027perform\u0027-Beziehung (Typ 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"Tim rennt beschreibt eine Szene, in der Tim die Aktivit\\u00e4t des Laufens aus\\u00fcbt. Der GraphCode kodiert Tim als Objekt (Typ 1) und rennt als Aktivit\\u00e4t (Typ 4), verbunden durch die \u0027perform\u0027-Beziehung (Typ 8).\"\n}"
+}

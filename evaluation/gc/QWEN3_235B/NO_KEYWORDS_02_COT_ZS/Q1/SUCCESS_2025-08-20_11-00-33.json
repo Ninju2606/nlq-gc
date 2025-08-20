@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Relativer Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027play\u0027 (von \u0027spiele\u0027), \u0027basketball\u0027 (unverändert).\n4. \u0027Ich\u0027-Verweis ersetzt durch Nutzer-Identifikation \u0027Maria\u0027.\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027play\u0027 ist eine Aktivität (id\u003d4), \u0027basketball\u0027 ist ein Objekt (id\u003d1).\n6. Relationen: Maria führt \u0027play\u0027 aus (perform, id\u003d8); \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (target, id\u003d9).\n7. Alle Relationen sind durch Typkodierungen abgedeckt (id\u003d8 und id\u003d9 vorhanden).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Relativer Verweis \u0027Ich\u0027 wurde aufgelöst zu \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027play\u0027 (von \u0027spiele\u0027), \u0027basketball\u0027 (unverändert).\\n4. \u0027Ich\u0027-Verweis ersetzt durch Nutzer-Identifikation \u0027Maria\u0027.\\n5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (id\u003d1), \u0027play\u0027 ist eine Aktivität (id\u003d4), \u0027basketball\u0027 ist ein Objekt (id\u003d1).\\n6. Relationen: Maria führt \u0027play\u0027 aus (perform, id\u003d8); \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (target, id\u003d9).\\n7. Alle Relationen sind durch Typkodierungen abgedeckt (id\u003d8 und id\u003d9 vorhanden).\"\n}"
+}

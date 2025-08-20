@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Benutzer hat die Aktion \u0027Tim rennt\u0027 beschrieben. Es gibt keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die angegebene Identifikation \u0027Maria\u0027 ignoriert.\n\n2. Die Attributeigenschaften der Stichwörter sind: \n   - \u0027tim\u0027: Dies ist ein Objekt im Kontext der Anfrage. Es bezeichnet eine Person oder Entität, die eine Aktion ausführt. Laut Regeln wird solchen Entitäten, die handeln, der Typ \u0027object\u0027 (ID 1) zugeordnet.\n   - \u0027run\u0027: Dies beschreibt eine Handlung oder Tätigkeit. Entsprechend wird hier der Typ \u0027activity\u0027 (ID 4) verwendet.\n\n3. Die Stichwörter stehen in folgender Relation zueinander: \n   - \u0027tim\u0027 führt die Aktion \u0027run\u0027 aus. Diese Beziehung wird als \u0027perform\u0027 ausgedrückt – also wer führt die Aktivität aus?\n   - Daher wird im GraphCode die Relation von \u0027tim\u0027 (Index 0) zu \u0027run\u0027 (Index 1) mit dem Typ \u0027perform\u0027 kodiert.\n\n4. Überprüfung der Typkodierungen:\n   - Für \u0027tim\u0027 als Objekt: ID 1 (\u0027object\u0027) → erlaubt auf Diagonale (identityMapping\u003dtrue) → gültig.\n   - Für \u0027run\u0027 als Aktivität: ID 4 (\u0027activity\u0027) → erlaubt auf Diagonale (identityMapping\u003dtrue) → gültig.\n   - Für die Relation \u0027tim perform run\u0027: ID 8 (\u0027perform\u0027) → erlaubt außerhalb der Diagonale (identityMapping\u003dfalse) → gültig.\n   → Alle benötigten Typkodierungen sind vorhanden.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Matrix ist 2x2. Auf der Diagonalen stehen die Typen der Begriffe (1 und 4). Die Beziehung \u0027tim\u0027 → \u0027run\u0027 als \u0027perform\u0027 wird mit ID 8 in matrix[0][1] eingetragen. Alle Regeln zur Matrixbelegung sind erfüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Benutzer hat die Aktion \u0027Tim rennt\u0027 beschrieben. Es gibt keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die angegebene Identifikation \u0027Maria\u0027 ignoriert.\\n\\n2. Die Attributeigenschaften der Stichwörter sind: \\n   - \u0027tim\u0027: Dies ist ein Objekt im Kontext der Anfrage. Es bezeichnet eine Person oder Entität, die eine Aktion ausführt. Laut Regeln wird solchen Entitäten, die handeln, der Typ \u0027object\u0027 (ID 1) zugeordnet.\\n   - \u0027run\u0027: Dies beschreibt eine Handlung oder Tätigkeit. Entsprechend wird hier der Typ \u0027activity\u0027 (ID 4) verwendet.\\n\\n3. Die Stichwörter stehen in folgender Relation zueinander: \\n   - \u0027tim\u0027 führt die Aktion \u0027run\u0027 aus. Diese Beziehung wird als \u0027perform\u0027 ausgedrückt – also wer führt die Aktivität aus?\\n   - Daher wird im GraphCode die Relation von \u0027tim\u0027 (Index 0) zu \u0027run\u0027 (Index 1) mit dem Typ \u0027perform\u0027 kodiert.\\n\\n4. Überprüfung der Typkodierungen:\\n   - Für \u0027tim\u0027 als Objekt: ID 1 (\u0027object\u0027) → erlaubt auf Diagonale (identityMapping\u003dtrue) → gültig.\\n   - Für \u0027run\u0027 als Aktivität: ID 4 (\u0027activity\u0027) → erlaubt auf Diagonale (identityMapping\u003dtrue) → gültig.\\n   - Für die Relation \u0027tim perform run\u0027: ID 8 (\u0027perform\u0027) → erlaubt außerhalb der Diagonale (identityMapping\u003dfalse) → gültig.\\n   → Alle benötigten Typkodierungen sind vorhanden.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Matrix ist 2x2. Auf der Diagonalen stehen die Typen der Begriffe (1 und 4). Die Beziehung \u0027tim\u0027 → \u0027run\u0027 als \u0027perform\u0027 wird mit ID 8 in matrix[0][1] eingetragen. Alle Regeln zur Matrixbelegung sind erfüllt.\"\n}"
+}

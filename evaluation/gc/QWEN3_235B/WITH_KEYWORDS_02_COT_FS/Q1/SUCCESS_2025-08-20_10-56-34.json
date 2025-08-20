@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \"Ich\" wurde aufgelöst zu \"maria\" gemäß der Nutzeridentifikation.\n2. \"maria\" und \"basketball\" sind Objekte (object) der Anfrage. \"play\" ist eine Aktivität (activity).\n3. \"maria\" führt die Aktivität \"play\" aus (perform). Die Aktivität \"play\" hat \"basketball\" als Ziel (target). Zudem wird \"play\" als eigenständige Aktivität klassifiziert.\n4. Die ID für \"object\" ist 1 (identityMapping\u003dtrue). Die ID für \"activity\" ist 4 (identityMapping\u003dtrue). Die ID für \"perform\" ist 8 (identityMapping\u003dfalse). Die ID für \"target\" ist 9 (identityMapping\u003dfalse). Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Nutzeridentifikation.\\n2. \\\"maria\\\" und \\\"basketball\\\" sind Objekte (object) der Anfrage. \\\"play\\\" ist eine Aktivität (activity).\\n3. \\\"maria\\\" führt die Aktivität \\\"play\\\" aus (perform). Die Aktivität \\\"play\\\" hat \\\"basketball\\\" als Ziel (target). Zudem wird \\\"play\\\" als eigenständige Aktivität klassifiziert.\\n4. Die ID für \\\"object\\\" ist 1 (identityMapping\u003dtrue). Die ID für \\\"activity\\\" ist 4 (identityMapping\u003dtrue). Die ID für \\\"perform\\\" ist 8 (identityMapping\u003dfalse). Die ID für \\\"target\\\" ist 9 (identityMapping\u003dfalse). Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

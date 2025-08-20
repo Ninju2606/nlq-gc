@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich spiele Basketball. Die Schlüsselwörter sind \u0027spiele\u0027 und \u0027Basketball\u0027. Der Nutzerbezug \u0027ich\u0027 wird durch die Identifikation \u0027Maria\u0027 ersetzt. Die Verben werden auf den Stamm \u0027play\u0027 reduziert. Das Vokabular enthält somit: Maria, play, basketball.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"Ich spiele Basketball. Die Schlüsselwörter sind \u0027spiele\u0027 und \u0027Basketball\u0027. Der Nutzerbezug \u0027ich\u0027 wird durch die Identifikation \u0027Maria\u0027 ersetzt. Die Verben werden auf den Stamm \u0027play\u0027 reduziert. Das Vokabular enthält somit: Maria, play, basketball.\"\n}"
+}

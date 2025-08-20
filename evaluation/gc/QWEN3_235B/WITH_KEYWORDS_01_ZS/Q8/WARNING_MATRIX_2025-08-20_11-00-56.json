@@ -1,0 +1,50 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.92,
+  "description": "Der GraphCode repräsentiert die Szene, in der Maria (maria) und ihre Tochter (person) gemeinsam ein Boot (boat) auf einem See (lake) fahren (drive). Die Tochter steht über die \u0027daughter\u0027-Relation (Typ 10) mit Maria in Verbindung. Beide Personen führen die Aktivität \u0027drive\u0027 aus (Typ 8). Das Ziel der Aktivität ist das Boot (Typ 9). Das Boot befindet sich zudem \u0027above\u0027 (Typ 7) dem See, was die räumliche Position beschreibt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 8, 0, 0],\n    [10, 1, 8, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 7],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene, in der Maria (maria) und ihre Tochter (person) gemeinsam ein Boot (boat) auf einem See (lake) fahren (drive). Die Tochter steht über die \u0027daughter\u0027-Relation (Typ 10) mit Maria in Verbindung. Beide Personen führen die Aktivität \u0027drive\u0027 aus (Typ 8). Das Ziel der Aktivität ist das Boot (Typ 9). Das Boot befindet sich zudem \u0027above\u0027 (Typ 7) dem See, was die räumliche Position beschreibt.\"\n}"
+}

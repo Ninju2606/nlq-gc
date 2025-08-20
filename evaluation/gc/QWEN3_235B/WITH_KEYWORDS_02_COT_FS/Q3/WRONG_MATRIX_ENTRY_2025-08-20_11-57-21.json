@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"Ich\" und das Besitzpronomen \"mir\" wurden aufgelöst und durch die Identifikation \"maria\" ersetzt. \n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"own\" sind Aktivitäten. \n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" bezieht sich auf \"pool\". \"maria\" führt die Aktivität \"own\" aus. \"own\" bezieht sich auf \"pool\". \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Target (target) ist 9. Die ID für Besitz (own) als Beziehung entspricht nicht direkt einem Typ – jedoch ist \"own\" im Vokabular enthalten und wird als Aktivität behandelt, die über \"perform\" (ID 8) und \"target\" (ID 9) verknüpft wird. Da \"own\" selbst keine vorgegebene Relation ist, aber als Aktivität im Vokabular steht und die Verben „swim“ und „own“ beide Aktivitäten sind, können diese über „perform“ und „target“ korrekt verknüpft werden. Die Relationen „perform“ (ID 8) und „target“ (ID 9) existieren. Die Beziehung des Besitzes wird hier durch die Aktivität \"own\" repräsentiert, die von \"maria\" ausgeführt wird und sich auf \"pool\" bezieht – das ist konsistent mit dem Modell. Somit sind alle benötigten Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" und das Besitzpronomen \\\"mir\\\" wurden aufgelöst und durch die Identifikation \\\"maria\\\" ersetzt. \\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten. \\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" bezieht sich auf \\\"pool\\\". \\\"maria\\\" führt die Aktivität \\\"own\\\" aus. \\\"own\\\" bezieht sich auf \\\"pool\\\". \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Target (target) ist 9. Die ID für Besitz (own) als Beziehung entspricht nicht direkt einem Typ – jedoch ist \\\"own\\\" im Vokabular enthalten und wird als Aktivität behandelt, die über \\\"perform\\\" (ID 8) und \\\"target\\\" (ID 9) verknüpft wird. Da \\\"own\\\" selbst keine vorgegebene Relation ist, aber als Aktivität im Vokabular steht und die Verben „swim“ und „own“ beide Aktivitäten sind, können diese über „perform“ und „target“ korrekt verknüpft werden. Die Relationen „perform“ (ID 8) und „target“ (ID 9) existieren. Die Beziehung des Besitzes wird hier durch die Aktivität \\\"own\\\" repräsentiert, die von \\\"maria\\\" ausgeführt wird und sich auf \\\"pool\\\" bezieht – das ist konsistent mit dem Modell. Somit sind alle benötigten Typkodierungen vorhanden.\"\n}"
+}

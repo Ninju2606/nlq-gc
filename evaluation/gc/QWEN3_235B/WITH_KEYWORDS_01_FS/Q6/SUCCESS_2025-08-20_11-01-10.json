@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine Absicht oder Planung im Realen und enthält keine konkrete Szenenbeschreibung einer Situation im Metaverse, die in einen sinnvollen GraphCode überführt werden könnte. Zwar sind Begriffe wie \u0027make\u0027 und \u0027appointment\u0027 im Vokabular enthalten und die Nutzeridentität \u0027maria\u0027 wird genannt, aber es fehlt eine räumliche, objektbezogene oder handlungsbezogene Szene, wie sie für die Generierung eines GraphCodes erforderlich ist. Daher kann kein gültiger GraphCode erstellt werden.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 beschreibt eine Absicht oder Planung im Realen und enthält keine konkrete Szenenbeschreibung einer Situation im Metaverse, die in einen sinnvollen GraphCode überführt werden könnte. Zwar sind Begriffe wie \u0027make\u0027 und \u0027appointment\u0027 im Vokabular enthalten und die Nutzeridentität \u0027maria\u0027 wird genannt, aber es fehlt eine räumliche, objektbezogene oder handlungsbezogene Szene, wie sie für die Generierung eines GraphCodes erforderlich ist. Daher kann kein gültiger GraphCode erstellt werden.\"\n}"
+}

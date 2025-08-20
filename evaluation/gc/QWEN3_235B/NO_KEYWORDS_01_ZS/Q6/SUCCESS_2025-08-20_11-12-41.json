@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine szenenbeschreibenden Begriffe, die im Metaverse abgebildet werden können. Es wird lediglich eine allgemeine Absicht zur Terminabsprache geäußert, ohne konkrete Objekte, Attribute oder Aktivitäten anzugeben.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine szenenbeschreibenden Begriffe, die im Metaverse abgebildet werden können. Es wird lediglich eine allgemeine Absicht zur Terminabsprache geäußert, ohne konkrete Objekte, Attribute oder Aktivitäten anzugeben.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

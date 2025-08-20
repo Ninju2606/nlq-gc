@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in meinem Pool. Die Stichwörter wurden identifiziert: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Relative Verweise wie \u0027ich\u0027 und \u0027mein\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die relevanten Begriffe für das Vokabular sind daher \u0027Maria\u0027, \u0027schwimme\u0027 und \u0027Pool\u0027. Diese wurden ins Englische übersetzt und verallgemeinert zu \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027. Die Wörter \u0027in\u0027 und \u0027meinem\u0027 sind funktional und werden nicht ins Vokabular aufgenommen. Es handelt sich um eine klare Szenenbeschreibung im Metaverse, daher wird ein gültiger GraphCode generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"Ich schwimme in meinem Pool. Die Stichwörter wurden identifiziert: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027. Relative Verweise wie \u0027ich\u0027 und \u0027mein\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die relevanten Begriffe für das Vokabular sind daher \u0027Maria\u0027, \u0027schwimme\u0027 und \u0027Pool\u0027. Diese wurden ins Englische übersetzt und verallgemeinert zu \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027. Die Wörter \u0027in\u0027 und \u0027meinem\u0027 sind funktional und werden nicht ins Vokabular aufgenommen. Es handelt sich um eine klare Szenenbeschreibung im Metaverse, daher wird ein gültiger GraphCode generiert.\"\n}"
+}

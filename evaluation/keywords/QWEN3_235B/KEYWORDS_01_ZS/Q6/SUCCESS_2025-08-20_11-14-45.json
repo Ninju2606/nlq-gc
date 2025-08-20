@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute und Aktivitäten im Metaverse, die in ein Vokabular übersetzt werden könnten. Sie beschreibt lediglich die Absicht, einen Termin auszumachen, ohne konkrete Elemente der Szene anzugeben.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute und Aktivitäten im Metaverse, die in ein Vokabular übersetzt werden könnten. Sie beschreibt lediglich die Absicht, einen Termin auszumachen, ohne konkrete Elemente der Szene anzugeben.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute und Aktivitäten im Metaverse, die in ein Vokabular übersetzt werden könnten. Sie beschreibt lediglich die Absicht, einen Termin auszumachen, ohne konkrete Elemente der Szene anzugeben.\",\n  \"description\": \"Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute und Aktivitäten im Metaverse, die in ein Vokabular übersetzt werden könnten. Sie beschreibt lediglich die Absicht, einen Termin auszumachen, ohne konkrete Elemente der Szene anzugeben.\"\n}"
+}

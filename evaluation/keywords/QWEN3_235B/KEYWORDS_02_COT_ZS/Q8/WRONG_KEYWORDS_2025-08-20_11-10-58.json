@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Meine Tochter und ich fahren Boot auf einem See. Die Anfrage enthält die selbst identifizierenden Wörter \u0027meine\u0027 und \u0027ich\u0027, daher wird die Identifikation des Nutzers, \u0027Maria\u0027, im Vokabular verwendet. Die Stichwörter wurden extrahiert und ins Englische übersetzt: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahre Boot\u0027 → \u0027ride boat\u0027, \u0027See\u0027 → \u0027lake\u0027. Die Verben wurden verallgemeinert (\u0027fahren\u0027 → \u0027ride\u0027). Die relative Bezüge \u0027meine\u0027 und \u0027ich\u0027 wurden aufgelöst zu \u0027Maria\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"ride\",\n    \"boat\",\n    \"lake\"\n  ],\n  \"description\": \"Meine Tochter und ich fahren Boot auf einem See. Die Anfrage enthält die selbst identifizierenden Wörter \u0027meine\u0027 und \u0027ich\u0027, daher wird die Identifikation des Nutzers, \u0027Maria\u0027, im Vokabular verwendet. Die Stichwörter wurden extrahiert und ins Englische übersetzt: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahre Boot\u0027 → \u0027ride boat\u0027, \u0027See\u0027 → \u0027lake\u0027. Die Verben wurden verallgemeinert (\u0027fahren\u0027 → \u0027ride\u0027). Die relative Bezüge \u0027meine\u0027 und \u0027ich\u0027 wurden aufgelöst zu \u0027Maria\u0027.\"\n}"
+}

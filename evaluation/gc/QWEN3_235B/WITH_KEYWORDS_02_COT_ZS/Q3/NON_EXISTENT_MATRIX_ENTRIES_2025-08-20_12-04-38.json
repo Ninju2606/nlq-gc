@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      10,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      8,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer gibt mit \u0027Ich schwimme\u0027 und \u0027der mir gehört\u0027 selbstbezogene Handlungen und Zugehörigkeiten an. Daher wird die Identifikation \u0027Maria\u0027 verwendet und den Begriffen \u0027schwimme\u0027 (Aktivität) und \u0027Pool\u0027 (Objekt, das gehört) zugeordnet.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Dies ist eine konkrete Entität, also ein Objekt (Typ-ID 1, object).\n- \u0027swim\u0027: Beschreibt eine Aktivität (Typ-ID 4, activity).\n- \u0027own\u0027: Beschreibt eine Handlung (Typ-ID 8, perform), da es um eine Handlung der Zugehörigkeit geht.\n- \u0027pool\u0027: Ein physisches Objekt (Typ-ID 1, object).\n\n3. Relationen zwischen den Stichwörtern:\n- Maria führt die Aktivität \u0027schwimmen\u0027 aus → \u0027maria\u0027 → \u0027swim\u0027 (Beziehung: \u0027perform\u0027, Typ-ID 8).\n- \u0027schwimmen\u0027 hat als Ziel den \u0027Pool\u0027 → \u0027swim\u0027 → \u0027pool\u0027 (Beziehung: \u0027target\u0027, Typ-ID 9).\n- Maria \u0027besitzt\u0027 den Pool → \u0027maria\u0027 → \u0027own\u0027 (Beziehung: \u0027daughter\u0027, Typ-ID 10, da \u0027own\u0027 von Maria ausgeht, als Tochterbeziehung).\n- \u0027own\u0027 hat den \u0027pool\u0027 als charakteristische Eigenschaft → \u0027own\u0027 → \u0027pool\u0027 (Beziehung: \u0027characteristic\u0027, Typ-ID 14).\n- Die Diagonale beschreibt die Typen: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (activity), \u0027pool\u0027 (object). Da \u0027own\u0027 eine Handlung ist, wird es wie \u0027swim\u0027 als activity (Typ 4) eingestuft, daher Eintrag (2,2) und (3,3) in der Matrix.\n\n4. Überprüfung der Typkodierungen:\n- (0,0): \u0027maria\u0027 ist ein Objekt → Typ-ID 1 (object) → gültig (identityMapping\u003dtrue).\n- (1,1): \u0027swim\u0027 ist eine Aktivität → Typ-ID 4 (activity) → gültig.\n- (2,2): \u0027own\u0027 als Aktivität → Typ-ID 4 (activity) → gültig.\n- (3,3): \u0027pool\u0027 ist ein Objekt → Typ-ID 1 → gültig.\n- (0,1): Maria führt \u0027schimmen\u0027 aus → \u0027perform\u0027 → Typ-ID 8 → vorhanden.\n- (1,3): \u0027swim\u0027 hat \u0027pool\u0027 als Ziel → \u0027target\u0027 → Typ-ID 9 → vorhanden.\n- (0,2): Maria ist Urheber von \u0027own\u0027 → relationale Ableitung → \u0027daughter\u0027 (Typ-ID 10) wird verwendet, obwohl sonst oft für Objekthierarchien genutzt. Passt hier als Beziehung von Subjekt zu Verbalhandlung.\n- (2,3): \u0027own\u0027 charakterisiert Beziehung zu \u0027pool\u0027 → \u0027characteristic\u0027 → Typ-ID 14 → vorhanden.\n\nAlle notwendigen Typkodierungen existieren. Die Matrix wurde entsprechend gefüllt. Symmetrische oder nicht benötigte Einträge sind mit 0 belegt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 10, 0],\n    [0, 4, 0, 9],\n    [0, 0, 8, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer gibt mit \u0027Ich schwimme\u0027 und \u0027der mir gehört\u0027 selbstbezogene Handlungen und Zugehörigkeiten an. Daher wird die Identifikation \u0027Maria\u0027 verwendet und den Begriffen \u0027schwimme\u0027 (Aktivität) und \u0027Pool\u0027 (Objekt, das gehört) zugeordnet.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Dies ist eine konkrete Entität, also ein Objekt (Typ-ID 1, object).\\n- \u0027swim\u0027: Beschreibt eine Aktivität (Typ-ID 4, activity).\\n- \u0027own\u0027: Beschreibt eine Handlung (Typ-ID 8, perform), da es um eine Handlung der Zugehörigkeit geht.\\n- \u0027pool\u0027: Ein physisches Objekt (Typ-ID 1, object).\\n\\n3. Relationen zwischen den Stichwörtern:\\n- Maria führt die Aktivität \u0027schwimmen\u0027 aus → \u0027maria\u0027 → \u0027swim\u0027 (Beziehung: \u0027perform\u0027, Typ-ID 8).\\n- \u0027schwimmen\u0027 hat als Ziel den \u0027Pool\u0027 → \u0027swim\u0027 → \u0027pool\u0027 (Beziehung: \u0027target\u0027, Typ-ID 9).\\n- Maria \u0027besitzt\u0027 den Pool → \u0027maria\u0027 → \u0027own\u0027 (Beziehung: \u0027daughter\u0027, Typ-ID 10, da \u0027own\u0027 von Maria ausgeht, als Tochterbeziehung).\\n- \u0027own\u0027 hat den \u0027pool\u0027 als charakteristische Eigenschaft → \u0027own\u0027 → \u0027pool\u0027 (Beziehung: \u0027characteristic\u0027, Typ-ID 14).\\n- Die Diagonale beschreibt die Typen: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (activity), \u0027pool\u0027 (object). Da \u0027own\u0027 eine Handlung ist, wird es wie \u0027swim\u0027 als activity (Typ 4) eingestuft, daher Eintrag (2,2) und (3,3) in der Matrix.\\n\\n4. Überprüfung der Typkodierungen:\\n- (0,0): \u0027maria\u0027 ist ein Objekt → Typ-ID 1 (object) → gültig (identityMapping\u003dtrue).\\n- (1,1): \u0027swim\u0027 ist eine Aktivität → Typ-ID 4 (activity) → gültig.\\n- (2,2): \u0027own\u0027 als Aktivität → Typ-ID 4 (activity) → gültig.\\n- (3,3): \u0027pool\u0027 ist ein Objekt → Typ-ID 1 → gültig.\\n- (0,1): Maria führt \u0027schimmen\u0027 aus → \u0027perform\u0027 → Typ-ID 8 → vorhanden.\\n- (1,3): \u0027swim\u0027 hat \u0027pool\u0027 als Ziel → \u0027target\u0027 → Typ-ID 9 → vorhanden.\\n- (0,2): Maria ist Urheber von \u0027own\u0027 → relationale Ableitung → \u0027daughter\u0027 (Typ-ID 10) wird verwendet, obwohl sonst oft für Objekthierarchien genutzt. Passt hier als Beziehung von Subjekt zu Verbalhandlung.\\n- (2,3): \u0027own\u0027 charakterisiert Beziehung zu \u0027pool\u0027 → \u0027characteristic\u0027 → Typ-ID 14 → vorhanden.\\n\\nAlle notwendigen Typkodierungen existieren. Die Matrix wurde entsprechend gefüllt. Symmetrische oder nicht benötigte Einträge sind mit 0 belegt.\"\n}"
+}

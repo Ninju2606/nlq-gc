@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "Der GraphCode beschreibt Marias Aktivität im Metaverse: Maria (Objekt) führt die Aktivität \u0027schwimmen\u0027 aus, die sich im Pool (Ort/Umfeld) abspielt (\u0027under\u0027-Relation). Gleichzeitig wird durch die Aktivität \u0027own\u0027 dargestellt, dass der Pool Maria gehört (\u0027target\u0027-Relation). Die Diagonale kodiert Typen korrekt (Objekte\u003d1, Aktivitäten\u003d4).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 6],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt Marias Aktivität im Metaverse: Maria (Objekt) führt die Aktivität \u0027schwimmen\u0027 aus, die sich im Pool (Ort/Umfeld) abspielt (\u0027under\u0027-Relation). Gleichzeitig wird durch die Aktivität \u0027own\u0027 dargestellt, dass der Pool Maria gehört (\u0027target\u0027-Relation). Die Diagonale kodiert Typen korrekt (Objekte\u003d1, Aktivitäten\u003d4).\"\n}"
+}

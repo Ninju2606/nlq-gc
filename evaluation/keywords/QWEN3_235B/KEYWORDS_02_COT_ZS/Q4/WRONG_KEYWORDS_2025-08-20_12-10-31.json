@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 sind \u0027schwimme\u0027 (Verb) und \u0027Pool\u0027 (Substantiv). Der Besitzverweis \u0027meinem\u0027 bezieht sich auf den Nutzer, dessen Identifikation als \u0027Maria\u0027 gegeben ist. Daher wird \u0027mein Pool\u0027 durch \u0027Maria pool\u0027 ersetzt. Das Verb \u0027schwimme\u0027 wird in die Grundform \u0027swim\u0027 verallgemeinert. Die Übersetzung ins Englische ergibt: \u0027Maria swim in pool\u0027. Die relevanten Stichwörter für das Vokabular sind somit \u0027Maria\u0027, \u0027swim\u0027 und \u0027pool\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 sind \u0027schwimme\u0027 (Verb) und \u0027Pool\u0027 (Substantiv). Der Besitzverweis \u0027meinem\u0027 bezieht sich auf den Nutzer, dessen Identifikation als \u0027Maria\u0027 gegeben ist. Daher wird \u0027mein Pool\u0027 durch \u0027Maria pool\u0027 ersetzt. Das Verb \u0027schwimme\u0027 wird in die Grundform \u0027swim\u0027 verallgemeinert. Die Übersetzung ins Englische ergibt: \u0027Maria swim in pool\u0027. Die relevanten Stichwörter für das Vokabular sind somit \u0027Maria\u0027, \u0027swim\u0027 und \u0027pool\u0027.\"\n}"
+}

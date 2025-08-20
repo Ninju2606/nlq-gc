@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n         2. \"mir gehört\" ist ein relativer Verweis auf den Besitz des Pools. Die Person \"ich\" besitzt den Pool.\n         3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"belong\".\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"belong\".\n         5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"belong\" sind Aktivitäten.\n         6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" bezieht sich auf den \"pool\". \"Maria\" führt die Aktivität \"belong\" aus. Die Aktivität \"belong\" bezieht sich auf den \"pool\".\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für unter (under) ist 6. Die ID für target (target) ist 9. Die ID für attached (attached) ist 5.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 6, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n         2. \\\"mir gehört\\\" ist ein relativer Verweis auf den Besitz des Pools. Die Person \\\"ich\\\" besitzt den Pool.\\n         3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n         5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"belong\\\" sind Aktivitäten.\\n         6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" bezieht sich auf den \\\"pool\\\". \\\"Maria\\\" führt die Aktivität \\\"belong\\\" aus. Die Aktivität \\\"belong\\\" bezieht sich auf den \\\"pool\\\".\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für unter (under) ist 6. Die ID für target (target) ist 9. Die ID für attached (attached) ist 5.\"\n}"
+}

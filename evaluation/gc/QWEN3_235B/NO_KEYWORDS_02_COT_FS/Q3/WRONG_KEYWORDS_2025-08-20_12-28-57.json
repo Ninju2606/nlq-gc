@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      9,
+      14,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n         2. Es gibt keine relativen Verweise.\n         3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"belong\".\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"belong\".\n         5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"belong\" sind Aktivitäten.\n         6. \"Maria\" führt die Aktivität \"swim\" aus. \"Maria\" steht in einer Beziehung des Besitzens (\"belong\") zum \"pool\". Die Aktivität \"swim\" findet im \"pool\" statt. Die Aktivität \"belong\" bezieht sich auf \"pool\". Der Kontext der Aktivität \"swim\" ist \"pool\" als Ort. \n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für characteristic ist 14. Die ID für attached ist 5. Alle Relationen können mit den gegebenen Typkodierungen abgebildet werden. Insbesondere: \"Maria swim im pool\" -\u003e swim (ID 4) wird von Maria (ID 1) durchgeführt (ID 8), swim bezieht sich auf pool über den Kontext \u0027in\u0027, was nicht direkt vorhanden ist, aber durch \u0027context\u0027 (ID 2) oder \u0027attached\u0027 (ID 5) approximiert werden kann. Da „in“ fehlt, wird stattdessen \u0027attached\u0027 verwendet, um eine räumliche Bindung zu kodieren. Die Zugehörigkeit („gehört mir“) wird als Aktivität \u0027belong\u0027 (ID 4) modelliert, mit der Relation \u0027target\u0027 (ID 9, da belong auf pool zielt) und die Eigenschaft, dass der pool Maria gehört, wird über \u0027characteristic\u0027 (ID 14) mit belong verknüpft.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 9, 14, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n         2. Es gibt keine relativen Verweise.\\n         3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n         5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"belong\\\" sind Aktivitäten.\\n         6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"Maria\\\" steht in einer Beziehung des Besitzens (\\\"belong\\\") zum \\\"pool\\\". Die Aktivität \\\"swim\\\" findet im \\\"pool\\\" statt. Die Aktivität \\\"belong\\\" bezieht sich auf \\\"pool\\\". Der Kontext der Aktivität \\\"swim\\\" ist \\\"pool\\\" als Ort. \\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für characteristic ist 14. Die ID für attached ist 5. Alle Relationen können mit den gegebenen Typkodierungen abgebildet werden. Insbesondere: \\\"Maria swim im pool\\\" -\u003e swim (ID 4) wird von Maria (ID 1) durchgeführt (ID 8), swim bezieht sich auf pool über den Kontext \u0027in\u0027, was nicht direkt vorhanden ist, aber durch \u0027context\u0027 (ID 2) oder \u0027attached\u0027 (ID 5) approximiert werden kann. Da „in“ fehlt, wird stattdessen \u0027attached\u0027 verwendet, um eine räumliche Bindung zu kodieren. Die Zugehörigkeit („gehört mir“) wird als Aktivität \u0027belong\u0027 (ID 4) modelliert, mit der Relation \u0027target\u0027 (ID 9, da belong auf pool zielt) und die Eigenschaft, dass der pool Maria gehört, wird über \u0027characteristic\u0027 (ID 14) mit belong verknüpft.\"\n}"
+}

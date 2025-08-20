@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "Der GraphCode stellt dar, dass Maria (Objekt) die Aktivitäten \u0027schwimmen\u0027 und \u0027besitzen\u0027 ausführt. \u0027Schwimmen\u0027 ist dem Pool (Objekt) über die Beziehung \u0027attached\u0027 zugeordnet (räumliche Einbettung im Pool). \u0027Besitzen\u0027 verknüpft Maria als Ausführende (über \u0027perform\u0027) mit dem Pool als Zielobjekt (über \u0027target\u0027). Die Diagonale kodiert korrekt die Typen: Objekte (ID 1) und Aktivitäten (ID 4).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 5],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode stellt dar, dass Maria (Objekt) die Aktivitäten \u0027schwimmen\u0027 und \u0027besitzen\u0027 ausführt. \u0027Schwimmen\u0027 ist dem Pool (Objekt) über die Beziehung \u0027attached\u0027 zugeordnet (räumliche Einbettung im Pool). \u0027Besitzen\u0027 verknüpft Maria als Ausführende (über \u0027perform\u0027) mit dem Pool als Zielobjekt (über \u0027target\u0027). Die Diagonale kodiert korrekt die Typen: Objekte (ID 1) und Aktivitäten (ID 4).\"\n}"
+}

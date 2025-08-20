@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Maria spielt Basketball. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität \u0027play\u0027, und die Beziehung \u0027target\u0027 (9) verbindet die Aktivität \u0027play\u0027 mit dem Objekt \u0027basketball\u0027. Auf der Diagonalen werden die Typen \u0027object\u0027 (1) für Personen und Objekte sowie \u0027activity\u0027 (4) für Handlungen korrekt zugeordnet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria spielt Basketball. Die Beziehung \u0027perform\u0027 (8) verbindet Maria mit der Aktivität \u0027play\u0027, und die Beziehung \u0027target\u0027 (9) verbindet die Aktivität \u0027play\u0027 mit dem Objekt \u0027basketball\u0027. Auf der Diagonalen werden die Typen \u0027object\u0027 (1) für Personen und Objekte sowie \u0027activity\u0027 (4) für Handlungen korrekt zugeordnet.\"\n}"
+}

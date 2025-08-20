@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage beschreibt keine Szenen im Metaverse mit Objekten, Attributen oder Aktivitäten, sondern einen organisatorischen Vorgang (Terminabsprache), der sich nicht in einen strukturierten GraphCode mit den gegebenen Typkodierungen übersetzen lässt.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage beschreibt keine Szenen im Metaverse mit Objekten, Attributen oder Aktivitäten, sondern einen organisatorischen Vorgang (Terminabsprache), der sich nicht in einen strukturierten GraphCode mit den gegebenen Typkodierungen übersetzen lässt.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

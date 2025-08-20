@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittlung der Stichwörter: \u0027Tim\u0027 und \u0027rennt\u0027. Da \u0027rennt\u0027 ein Verb im Present Progressive ist, wird es als Infinitiv \u0027run\u0027 verallgemeinert. Es liegen keine selbstreferenziellen Begriffe wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vor, daher wird die Nutzeridentifikation \u0027Maria\u0027 nicht im Vokabular verwendet. Die Beziehung zwischen \u0027Tim\u0027 und \u0027run\u0027 wird später in der Bewertungsmatrix abgebildet. Die Anfrage ist klar und grammatikalisch korrekt, daher wird ein GraphCode generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Tim\",\n    \"run\"\n  ],\n  \"description\": \"Ermittlung der Stichwörter: \u0027Tim\u0027 und \u0027rennt\u0027. Da \u0027rennt\u0027 ein Verb im Present Progressive ist, wird es als Infinitiv \u0027run\u0027 verallgemeinert. Es liegen keine selbstreferenziellen Begriffe wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vor, daher wird die Nutzeridentifikation \u0027Maria\u0027 nicht im Vokabular verwendet. Die Beziehung zwischen \u0027Tim\u0027 und \u0027run\u0027 wird später in der Bewertungsmatrix abgebildet. Die Anfrage ist klar und grammatikalisch korrekt, daher wird ein GraphCode generiert.\"\n}"
+}

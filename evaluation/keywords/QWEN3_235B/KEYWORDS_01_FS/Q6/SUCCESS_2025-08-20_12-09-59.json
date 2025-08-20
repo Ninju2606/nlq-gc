@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "schedule",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Erfolgreiche Generierung des GraphCode-Vokabulars.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"schedule\", \"appointment\"],\n  \"description\": \"Erfolgreiche Generierung des GraphCode-Vokabulars.\"\n}"
+}

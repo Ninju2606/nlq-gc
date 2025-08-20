@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer hat die Identifikation \u0027Maria\u0027, allerdings kommen in der Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor. Daher wird die Identifikation des Nutzers ignoriert und stattdessen der explizit genannte Name \u0027Tim\u0027 im Vokabular beibehalten.\n\n2. Die Attributeigenschaften der Stichwörter werden wie folgt ermittelt: \u0027tim\u0027 ist eine konkrete Entität, die als Objekt im Metaverse interpretiert wird – daher wird der Typ \u0027object\u0027 (ID 1) verwendet. Das Wort \u0027run\u0027 beschreibt eine Handlung, also eine Aktivität, und erhält daher den Typ \u0027activity\u0027 (ID 4).\n\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 wird folgendermaßen verstanden: \u0027tim\u0027 führt die Handlung \u0027run\u0027 aus. Diese semantische Beziehung wird durch die Beziehung \u0027perform\u0027 ausgedrückt: Die Person \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus.\n\n4. Die Relation \u0027perform\u0027 ist in den vorgegebenen Typkodierungen enthalten und hat die ID 8. Diese wird verwendet, um den Eintrag in der Bewertungsmatrix von \u0027tim\u0027 (Index 0) zu \u0027run\u0027 (Index 1) zu setzen. Auf der Einheitsdiagonalen: \u0027tim\u0027 (Index 0,0) erhält Typ 1 (\u0027object\u0027), \u0027run\u0027 (Index 1,1) erhält Typ 4 (\u0027activity\u0027), beide mit identityMapping\u003dtrue. Die Relation (0,1) erhält Typ 8 (\u0027perform\u0027), welcher identityMapping\u003dfalse hat – zulässig außerhalb der Diagonale. Alle Beziehungen sind in den definierten Typkodierungen enthalten.\n\n5. Der GraphCode wurde entsprechend aus Vokabular und Bewertungsmatrix zusammengesetzt. Die Matrix ist 2x2, da zwei Begriffe im Vokabular vorhanden sind. Die Zuweisung der Typen erfolgt korrekt gemäß den Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer hat die Identifikation \u0027Maria\u0027, allerdings kommen in der Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vor. Daher wird die Identifikation des Nutzers ignoriert und stattdessen der explizit genannte Name \u0027Tim\u0027 im Vokabular beibehalten.\\n\\n2. Die Attributeigenschaften der Stichwörter werden wie folgt ermittelt: \u0027tim\u0027 ist eine konkrete Entität, die als Objekt im Metaverse interpretiert wird – daher wird der Typ \u0027object\u0027 (ID 1) verwendet. Das Wort \u0027run\u0027 beschreibt eine Handlung, also eine Aktivität, und erhält daher den Typ \u0027activity\u0027 (ID 4).\\n\\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 wird folgendermaßen verstanden: \u0027tim\u0027 führt die Handlung \u0027run\u0027 aus. Diese semantische Beziehung wird durch die Beziehung \u0027perform\u0027 ausgedrückt: Die Person \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus.\\n\\n4. Die Relation \u0027perform\u0027 ist in den vorgegebenen Typkodierungen enthalten und hat die ID 8. Diese wird verwendet, um den Eintrag in der Bewertungsmatrix von \u0027tim\u0027 (Index 0) zu \u0027run\u0027 (Index 1) zu setzen. Auf der Einheitsdiagonalen: \u0027tim\u0027 (Index 0,0) erhält Typ 1 (\u0027object\u0027), \u0027run\u0027 (Index 1,1) erhält Typ 4 (\u0027activity\u0027), beide mit identityMapping\u003dtrue. Die Relation (0,1) erhält Typ 8 (\u0027perform\u0027), welcher identityMapping\u003dfalse hat – zulässig außerhalb der Diagonale. Alle Beziehungen sind in den definierten Typkodierungen enthalten.\\n\\n5. Der GraphCode wurde entsprechend aus Vokabular und Bewertungsmatrix zusammengesetzt. Die Matrix ist 2x2, da zwei Begriffe im Vokabular vorhanden sind. Die Zuweisung der Typen erfolgt korrekt gemäß den Regeln.\"\n}"
+}

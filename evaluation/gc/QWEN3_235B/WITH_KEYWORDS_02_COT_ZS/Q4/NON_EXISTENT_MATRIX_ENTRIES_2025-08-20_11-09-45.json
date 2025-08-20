@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      10,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 in der Anfrage \u0027Ich schwimme in meinem Pool\u0027 wird der Identifikation des Nutzers, \u0027Maria\u0027, zugeordnet. Ebenso wird \u0027meinem\u0027 auf \u0027Maria\u0027 zurückgeführt, sodass die Beziehung \u0027Maria owns pool\u0027 hergestellt wird.\n\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\n- \u0027maria\u0027: Es handelt sich um ein Objekt (Typ ID 1), da es eine Person bezeichnet, die im Metaverse als Entität existiert.\n- \u0027swim\u0027: Dies ist eine Aktivität (Typ ID 4), da es eine durchgeführte Handlung beschreibt.\n- \u0027own\u0027: Bezeichnet eine relationale Rolle (Typ ID 10: daughter), da es eine asymmetrische Beziehung ausdrückt, bei der \u0027Maria\u0027 Träger einer Beziehung zu \u0027pool\u0027 ist.\n- \u0027pool\u0027: Wird als Objekt klassifiziert (Typ ID 1), da es ein physisches oder virtuelles Artefakt im Metaverse darstellt.\n\n3. Die Relationen zwischen den Stichwörtern sind:\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ ID 8): swim wird von maria ausgeführt.\n- \u0027maria\u0027 steht in einer Eigentümerbeziehung zu \u0027pool\u0027 → Relation \u0027daughter\u0027 (Typ ID 10): own hat maria als Träger.\n- \u0027own\u0027 bezieht sich auf \u0027pool\u0027 → Relation \u0027target\u0027 (Typ ID 9): pool ist das Ziel der ownership-Beziehung.\n- Zusätzlich ist implizit: die Aktivität \u0027swim\u0027 findet \u0027in\u0027 (attached) einem \u0027pool\u0027 statt → Relation \u0027attached\u0027 (Typ ID 5).\n\n4. Überprüfung der Relationen:\n- maria → swim (Perform): ID 8 (perform, identityMapping\u003dfalse) → gültig.\n- maria → own (daughter): ID 10 (daughter, identityMapping\u003dfalse) → gültig.\n- own → pool (target): ID 9 (target, identityMapping\u003dfalse) → gültig.\n- swim → pool (attached): ID 5 (attached, identityMapping\u003dfalse) → gültig.\n- Diagonale: maria (ID 1: object), swim (ID 4: activity), own (ID 10: daughter), pool (ID 1: object). Alle haben identityMapping\u003dtrue, soweit für Diagonale nötig. Hinweis: \u0027own\u0027 ist jedoch in den Typkodierungen als \u0027daughter\u0027 (ID 10) definiert, was identityMapping\u003dfalse hat – hier liegt ein Problem vor.\n\nKorrektur: Regel besagt: Einträge auf der Diagonale dürfen nur Typen enthalten, bei denen identityMapping \u003d\u003d true ist. \u0027daughter\u0027 (ID 10) hat identityMapping \u003d false → darf nicht auf der Diagonale stehen.\n\nFehler: Das Stichwort \u0027own\u0027 ist im Vokabular enthalten und muss in Zeile/Spalte 2 der Matrix abgebildet werden. Auf Position (2,2) steht aktuell 10, was \u0027daughter\u0027 entspricht – aber dieser Typ darf laut Regel *nicht* auf der Diagonale stehen, da identityMapping \u003d false.\n\nDieser Zustand verstößt gegen die Regeln. Es gibt jedoch keinen Typ für \u0027own\u0027 mit identityMapping\u003dtrue. Kein gültiger Typkodierungseintrag erlaubt es, \u0027own\u0027 korrekt als Diagonalelement abzubilden.\n\n\u003d\u003e Es ist nicht möglich, das Vokabular-Element \u0027own\u0027 gemäß den Regeln korrekt in der Einheitsdiagonalen abzubilden, da kein Typ mit identityMapping\u003dtrue für \u0027own\u0027 existiert und ID 10 (daughter) nur außerhalb der Diagonale erlaubt ist.\n\nFazit: Der GraphCode verstößt gegen die Regeln. Daher ist die Ausgabe nicht gültig.\n\nFehlerhafte Annahme: \u0027own\u0027 wurde in der Diagonale verwendet, obwohl kein dafür geeigneter Typ (mit identityMapping\u003dtrue) existiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 10, 5],\n    [0, 4, 0, 0],\n    [0, 0, 10, 1],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 in der Anfrage \u0027Ich schwimme in meinem Pool\u0027 wird der Identifikation des Nutzers, \u0027Maria\u0027, zugeordnet. Ebenso wird \u0027meinem\u0027 auf \u0027Maria\u0027 zurückgeführt, sodass die Beziehung \u0027Maria owns pool\u0027 hergestellt wird.\\n\\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\\n- \u0027maria\u0027: Es handelt sich um ein Objekt (Typ ID 1), da es eine Person bezeichnet, die im Metaverse als Entität existiert.\\n- \u0027swim\u0027: Dies ist eine Aktivität (Typ ID 4), da es eine durchgeführte Handlung beschreibt.\\n- \u0027own\u0027: Bezeichnet eine relationale Rolle (Typ ID 10: daughter), da es eine asymmetrische Beziehung ausdrückt, bei der \u0027Maria\u0027 Träger einer Beziehung zu \u0027pool\u0027 ist.\\n- \u0027pool\u0027: Wird als Objekt klassifiziert (Typ ID 1), da es ein physisches oder virtuelles Artefakt im Metaverse darstellt.\\n\\n3. Die Relationen zwischen den Stichwörtern sind:\\n- \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ ID 8): swim wird von maria ausgeführt.\\n- \u0027maria\u0027 steht in einer Eigentümerbeziehung zu \u0027pool\u0027 → Relation \u0027daughter\u0027 (Typ ID 10): own hat maria als Träger.\\n- \u0027own\u0027 bezieht sich auf \u0027pool\u0027 → Relation \u0027target\u0027 (Typ ID 9): pool ist das Ziel der ownership-Beziehung.\\n- Zusätzlich ist implizit: die Aktivität \u0027swim\u0027 findet \u0027in\u0027 (attached) einem \u0027pool\u0027 statt → Relation \u0027attached\u0027 (Typ ID 5).\\n\\n4. Überprüfung der Relationen:\\n- maria → swim (Perform): ID 8 (perform, identityMapping\u003dfalse) → gültig.\\n- maria → own (daughter): ID 10 (daughter, identityMapping\u003dfalse) → gültig.\\n- own → pool (target): ID 9 (target, identityMapping\u003dfalse) → gültig.\\n- swim → pool (attached): ID 5 (attached, identityMapping\u003dfalse) → gültig.\\n- Diagonale: maria (ID 1: object), swim (ID 4: activity), own (ID 10: daughter), pool (ID 1: object). Alle haben identityMapping\u003dtrue, soweit für Diagonale nötig. Hinweis: \u0027own\u0027 ist jedoch in den Typkodierungen als \u0027daughter\u0027 (ID 10) definiert, was identityMapping\u003dfalse hat – hier liegt ein Problem vor.\\n\\nKorrektur: Regel besagt: Einträge auf der Diagonale dürfen nur Typen enthalten, bei denen identityMapping \u003d\u003d true ist. \u0027daughter\u0027 (ID 10) hat identityMapping \u003d false → darf nicht auf der Diagonale stehen.\\n\\nFehler: Das Stichwort \u0027own\u0027 ist im Vokabular enthalten und muss in Zeile/Spalte 2 der Matrix abgebildet werden. Auf Position (2,2) steht aktuell 10, was \u0027daughter\u0027 entspricht – aber dieser Typ darf laut Regel *nicht* auf der Diagonale stehen, da identityMapping \u003d false.\\n\\nDieser Zustand verstößt gegen die Regeln. Es gibt jedoch keinen Typ für \u0027own\u0027 mit identityMapping\u003dtrue. Kein gültiger Typkodierungseintrag erlaubt es, \u0027own\u0027 korrekt als Diagonalelement abzubilden.\\n\\n\u003d\u003e Es ist nicht möglich, das Vokabular-Element \u0027own\u0027 gemäß den Regeln korrekt in der Einheitsdiagonalen abzubilden, da kein Typ mit identityMapping\u003dtrue für \u0027own\u0027 existiert und ID 10 (daughter) nur außerhalb der Diagonale erlaubt ist.\\n\\nFazit: Der GraphCode verstößt gegen die Regeln. Daher ist die Ausgabe nicht gültig.\\n\\nFehlerhafte Annahme: \u0027own\u0027 wurde in der Diagonale verwendet, obwohl kein dafür geeigneter Typ (mit identityMapping\u003dtrue) existiert.\"\n}"
+}

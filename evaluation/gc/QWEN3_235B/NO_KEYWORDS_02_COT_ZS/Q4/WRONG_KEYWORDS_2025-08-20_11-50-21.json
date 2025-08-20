@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      2,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\n2. Relative Verweise: \u0027Ich\u0027 und \u0027meinem\u0027 wurden auf die Nutzeridentifikation \u0027Maria\u0027 aufgelöst.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027 (Grammatikalische Formen wie \u0027schwimme\u0027 wurden auf Stamm \u0027swim\u0027 vereinfacht).\n4. Nutzeridentifikation: \u0027meinem Pool\u0027 wurde zu \u0027Maria\u0027 als Eigentümerkontext aufgelöst.\n5. Attributeigenschaften: \u0027Maria\u0027 \u003d context (ID 2, identityMapping\u003dtrue), \u0027swim\u0027 \u003d activity (ID 4, identityMapping\u003dtrue), \u0027pool\u0027 \u003d object (ID 1, identityMapping\u003dtrue).\n6. Relationen: Maria (context) führt \u0027swim\u0027 (activity) aus (Typ 8 \u0027perform\u0027); \u0027swim\u0027 (activity) hat \u0027pool\u0027 (object) als Ort (Typ 9 \u0027target\u0027).\n7. Typkodierungen vorhanden: perform (ID 8) und target (ID 9) existieren in der Typkodierungsliste mit identityMapping\u003dfalse für nicht-diagonale Einträge.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [2, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise: \u0027Ich\u0027 und \u0027meinem\u0027 wurden auf die Nutzeridentifikation \u0027Maria\u0027 aufgelöst.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027 (Grammatikalische Formen wie \u0027schwimme\u0027 wurden auf Stamm \u0027swim\u0027 vereinfacht).\\n4. Nutzeridentifikation: \u0027meinem Pool\u0027 wurde zu \u0027Maria\u0027 als Eigentümerkontext aufgelöst.\\n5. Attributeigenschaften: \u0027Maria\u0027 \u003d context (ID 2, identityMapping\u003dtrue), \u0027swim\u0027 \u003d activity (ID 4, identityMapping\u003dtrue), \u0027pool\u0027 \u003d object (ID 1, identityMapping\u003dtrue).\\n6. Relationen: Maria (context) führt \u0027swim\u0027 (activity) aus (Typ 8 \u0027perform\u0027); \u0027swim\u0027 (activity) hat \u0027pool\u0027 (object) als Ort (Typ 9 \u0027target\u0027).\\n7. Typkodierungen vorhanden: perform (ID 8) und target (ID 9) existieren in der Typkodierungsliste mit identityMapping\u003dfalse für nicht-diagonale Einträge.\"\n}"
+}

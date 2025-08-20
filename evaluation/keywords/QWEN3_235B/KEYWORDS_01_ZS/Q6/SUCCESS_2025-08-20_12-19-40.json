@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist eine allgemeine Absichtserklärung ohne konkrete Beschreibung einer Szene, beteiligter Objekte oder Aktivitäten im Metaverse. Es fehlen wesentliche Elemente wie Handlungsträger (abgesehen von \u0027wir\u0027), klar definierte Objekte oder räumlich-lokalisierbare Aktivitäten, die in ein Vokabular eines GraphCodes umgewandelt werden könnten.",
+  "error": "Die Anfrage enthält keine Objekte, Attribute oder Aktivitäten, die eine sinnvolle Szenenbeschreibung im Metaverse darstellen.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Objekte, Attribute oder Aktivitäten, die eine sinnvolle Szenenbeschreibung im Metaverse darstellen.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist eine allgemeine Absichtserklärung ohne konkrete Beschreibung einer Szene, beteiligter Objekte oder Aktivitäten im Metaverse. Es fehlen wesentliche Elemente wie Handlungsträger (abgesehen von \u0027wir\u0027), klar definierte Objekte oder räumlich-lokalisierbare Aktivitäten, die in ein Vokabular eines GraphCodes umgewandelt werden könnten.\"\n}"
+}

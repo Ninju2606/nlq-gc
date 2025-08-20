@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 in der Anfrage \u0027Ich spiele Basketball\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. Somit wird das Subjekt der Handlung als \u0027maria\u0027 im Vokabular erfasst.\n\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Dies ist eine konkrete Person, also ein Objekt. Entsprechend wird der Typ \u0027object\u0027 (ID 1) verwendet.\n   - \u0027play\u0027: Dies beschreibt eine Handlung oder Aktion. Der geeignete Typ ist \u0027activity\u0027 (ID 4).\n   - \u0027basketball\u0027: Dies ist ein Spiel bzw. ein Objekt, an dem eine Aktivität durchgeführt wird. Es wird als \u0027object\u0027 (ID 1) klassifiziert.\n\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus → Beziehung \u0027perform\u0027 (ID 8): maria perform play.\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel/Aktivitätsgegenstand → Beziehung \u0027target\u0027 (ID 9): play target basketball.\n   Zusätzlich werden die Typen auf der Diagonalen gesetzt: maria als object (1), play als activity (4), basketball als object (1).\n\n4. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1, identityMapping\u003dtrue) → gültig für Diagonale.\n   - \u0027activity\u0027 (ID 4, identityMapping\u003dtrue) → gültig für Diagonale.\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → gültig für Off-Diagonale.\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → gültig für Off-Diagonale.\n   Alle benötigten Typkodierungen existieren.\n\n5. Der GraphCode wurde entsprechend aufgebaut: Das Vokabular hat 3 Einträge, daher ist die Matrix 3x3. Die Diagonale enthält die Typ-IDs der Begriffe (1, 4, 1). Die Relationen wurden an den korrekten Positionen eingetragen: matrix[0][1] \u003d 8 (maria perform play), matrix[1][2] \u003d 9 (play target basketball). Alle weiteren Einträge bleiben 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Ich\u0027 in der Anfrage \u0027Ich spiele Basketball\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. Somit wird das Subjekt der Handlung als \u0027maria\u0027 im Vokabular erfasst.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Dies ist eine konkrete Person, also ein Objekt. Entsprechend wird der Typ \u0027object\u0027 (ID 1) verwendet.\\n   - \u0027play\u0027: Dies beschreibt eine Handlung oder Aktion. Der geeignete Typ ist \u0027activity\u0027 (ID 4).\\n   - \u0027basketball\u0027: Dies ist ein Spiel bzw. ein Objekt, an dem eine Aktivität durchgeführt wird. Es wird als \u0027object\u0027 (ID 1) klassifiziert.\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus → Beziehung \u0027perform\u0027 (ID 8): maria perform play.\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel/Aktivitätsgegenstand → Beziehung \u0027target\u0027 (ID 9): play target basketball.\\n   Zusätzlich werden die Typen auf der Diagonalen gesetzt: maria als object (1), play als activity (4), basketball als object (1).\\n\\n4. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1, identityMapping\u003dtrue) → gültig für Diagonale.\\n   - \u0027activity\u0027 (ID 4, identityMapping\u003dtrue) → gültig für Diagonale.\\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → gültig für Off-Diagonale.\\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → gültig für Off-Diagonale.\\n   Alle benötigten Typkodierungen existieren.\\n\\n5. Der GraphCode wurde entsprechend aufgebaut: Das Vokabular hat 3 Einträge, daher ist die Matrix 3x3. Die Diagonale enthält die Typ-IDs der Begriffe (1, 4, 1). Die Relationen wurden an den korrekten Positionen eingetragen: matrix[0][1] \u003d 8 (maria perform play), matrix[1][2] \u003d 9 (play target basketball). Alle weiteren Einträge bleiben 0.\"\n}"
+}

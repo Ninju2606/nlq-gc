@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      8
+    ],
+    [
+      5,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.4444444444444444,
+  "description": "Maria spielt Basketball. Die Szene stellt eine Person (maria) dar, die eine Aktivität (play) ausführt, bei der das Objekt (basketball) das Ziel der Aktion ist. \u0027maria\u0027 und \u0027basketball\u0027 sind Objekte (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4). Die Beziehung \u0027attached\u0027 (Typ 5) verbindet Maria und Basketball räumlich oder thematisch, \u0027perform\u0027 (Typ 8) zeigt an, dass \u0027play\u0027 von \u0027maria\u0027 ausgeführt wird, und \u0027target\u0027 (Typ 9) zeigt an, dass \u0027basketball\u0027 das Ziel der Aktivität ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 5],\n    [0, 4, 8],\n    [5, 9, 1]\n  ],\n  \"description\": \"Maria spielt Basketball. Die Szene stellt eine Person (maria) dar, die eine Aktivität (play) ausführt, bei der das Objekt (basketball) das Ziel der Aktion ist. \u0027maria\u0027 und \u0027basketball\u0027 sind Objekte (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4). Die Beziehung \u0027attached\u0027 (Typ 5) verbindet Maria und Basketball räumlich oder thematisch, \u0027perform\u0027 (Typ 8) zeigt an, dass \u0027play\u0027 von \u0027maria\u0027 ausgeführt wird, und \u0027target\u0027 (Typ 9) zeigt an, dass \u0027basketball\u0027 das Ziel der Aktivität ist.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird der Identifikation \u0027Maria\u0027 zugeordnet, da die Regel besagt, dass wenn der Nutzer angibt, dass er etwas tut, die spezifizierte Identifikation verwendet wird.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Typ \u0027object\u0027 (ID 1), da es sich um ein Objekt (Person) handelt und in der Einheitsdiagonalen mit identityMapping\u003dtrue steht.\n- \u0027wear\u0027: Typ \u0027activity\u0027 (ID 4), beschreibt eine Handlung.\n- \u0027hat\u0027: Typ \u0027object\u0027 (ID 1), ein stoffliches Objekt.\n- \u0027yellow\u0027: Typ \u0027characteristic\u0027 (ID 14), beschreibt eine Eigenschaft/Farbe.\n\n3. Relationen zwischen den Stichwörtern:\n- Maria führt die Aktion \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8) von \u0027maria\u0027 zu \u0027wear\u0027.\n- Die Aktion \u0027wear\u0027 hat das Ziel \u0027hat\u0027 → Relation \u0027target\u0027 (ID 9) von \u0027wear\u0027 zu \u0027hat\u0027.\n- \u0027hat\u0027 besitzt die Eigenschaft \u0027yellow\u0027 → Relation \u0027characteristic\u0027 (ID 14) von \u0027hat\u0027 zu \u0027yellow\u0027.\nZusätzlich: \u0027yellow\u0027 beschreibt eine Eigenschaft und wird selbst als solche klassifiziert.\n\n4. Überprüfung der Relationen auf Vorhandensein in den Typkodierungen:\n- \u0027object\u0027 (ID 1) → vorhanden (identityMapping\u003dtrue) → OK für Diagonale.\n- \u0027activity\u0027 (ID 4) → vorhanden (identityMapping\u003dtrue) → OK für Diagonale.\n- \u0027perform\u0027 (ID 8) → vorhanden (identityMapping\u003dfalse) → OK für Off-Diagonale.\n- \u0027target\u0027 (ID 9) → vorhanden (identityMapping\u003dfalse) → OK für Off-Diagonale.\n- \u0027characteristic\u0027 (ID 14) → vorhanden (identityMapping\u003dfalse) → OK für Off-Diagonale.\nAlle benötigten Typkodierungen sind vorhanden.\n\n5. Der GraphCode wurde entsprechend den Regeln zusammengesetzt: Das Vokabular bleibt unverändert, die Bewertungsmatrix ist 4x4, Einträge in der Diagonalen nutzen nur Typen mit identityMapping\u003dtrue (IDs 1, 4, 1, 14 – korrigiert: \u0027yellow\u0027 als \u0027characteristic\u0027 in der Diagonalen darf nicht stehen, da \u0027characteristic\u0027 die ID 14 hat und identityMapping\u003dfalse. \n\nFehlerkorrektur: Eintrag (4,4) für \u0027yellow\u0027 darf nicht 14 sein, da 14 identityMapping\u003dfalse hat, aber Diagonale nur Typen mit identityMapping\u003dtrue erlaubt. Es gibt keinen Typ in der vorgegebenen Liste mit identityMapping\u003dtrue, der \u0027yellow\u0027 als Eigenschaft korrekt klassifiziert. Mögliche Typen mit identityMapping\u003dtrue sind: object(1), context(2), synonym(3), activity(4). Keiner beschreibt \u0027yellow\u0027 sachlich korrekt als Eigenschaft, und \u0027characteristic\u0027 hat identityMapping\u003dfalse, darf also nicht in Diagonale. Daher ist kein korrekter Eintrag für (4,4) möglich.\n\n→ Fehler: Kein gültiger Typ mit identityMapping\u003dtrue ist für das Stichwort \u0027yellow\u0027 verfügbar, der dessen semantische Rolle (Eigenschaft/Farbe) angemessen abbildet. \u0027characteristic\u0027 kann nicht in Diagonale, da identityMapping\u003dfalse. Somit Verstoß gegen Regel: Einträge in Einheitsdiagonale dürfen nur Typen mit identityMapping\u003dtrue enthalten. Keine passende Typkodierung für die Diagonale bei \u0027yellow\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird der Identifikation \u0027Maria\u0027 zugeordnet, da die Regel besagt, dass wenn der Nutzer angibt, dass er etwas tut, die spezifizierte Identifikation verwendet wird.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Typ \u0027object\u0027 (ID 1), da es sich um ein Objekt (Person) handelt und in der Einheitsdiagonalen mit identityMapping\u003dtrue steht.\\n- \u0027wear\u0027: Typ \u0027activity\u0027 (ID 4), beschreibt eine Handlung.\\n- \u0027hat\u0027: Typ \u0027object\u0027 (ID 1), ein stoffliches Objekt.\\n- \u0027yellow\u0027: Typ \u0027characteristic\u0027 (ID 14), beschreibt eine Eigenschaft/Farbe.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- Maria führt die Aktion \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8) von \u0027maria\u0027 zu \u0027wear\u0027.\\n- Die Aktion \u0027wear\u0027 hat das Ziel \u0027hat\u0027 → Relation \u0027target\u0027 (ID 9) von \u0027wear\u0027 zu \u0027hat\u0027.\\n- \u0027hat\u0027 besitzt die Eigenschaft \u0027yellow\u0027 → Relation \u0027characteristic\u0027 (ID 14) von \u0027hat\u0027 zu \u0027yellow\u0027.\\nZusätzlich: \u0027yellow\u0027 beschreibt eine Eigenschaft und wird selbst als solche klassifiziert.\\n\\n4. Überprüfung der Relationen auf Vorhandensein in den Typkodierungen:\\n- \u0027object\u0027 (ID 1) → vorhanden (identityMapping\u003dtrue) → OK für Diagonale.\\n- \u0027activity\u0027 (ID 4) → vorhanden (identityMapping\u003dtrue) → OK für Diagonale.\\n- \u0027perform\u0027 (ID 8) → vorhanden (identityMapping\u003dfalse) → OK für Off-Diagonale.\\n- \u0027target\u0027 (ID 9) → vorhanden (identityMapping\u003dfalse) → OK für Off-Diagonale.\\n- \u0027characteristic\u0027 (ID 14) → vorhanden (identityMapping\u003dfalse) → OK für Off-Diagonale.\\nAlle benötigten Typkodierungen sind vorhanden.\\n\\n5. Der GraphCode wurde entsprechend den Regeln zusammengesetzt: Das Vokabular bleibt unverändert, die Bewertungsmatrix ist 4x4, Einträge in der Diagonalen nutzen nur Typen mit identityMapping\u003dtrue (IDs 1, 4, 1, 14 – korrigiert: \u0027yellow\u0027 als \u0027characteristic\u0027 in der Diagonalen darf nicht stehen, da \u0027characteristic\u0027 die ID 14 hat und identityMapping\u003dfalse. \\n\\nFehlerkorrektur: Eintrag (4,4) für \u0027yellow\u0027 darf nicht 14 sein, da 14 identityMapping\u003dfalse hat, aber Diagonale nur Typen mit identityMapping\u003dtrue erlaubt. Es gibt keinen Typ in der vorgegebenen Liste mit identityMapping\u003dtrue, der \u0027yellow\u0027 als Eigenschaft korrekt klassifiziert. Mögliche Typen mit identityMapping\u003dtrue sind: object(1), context(2), synonym(3), activity(4). Keiner beschreibt \u0027yellow\u0027 sachlich korrekt als Eigenschaft, und \u0027characteristic\u0027 hat identityMapping\u003dfalse, darf also nicht in Diagonale. Daher ist kein korrekter Eintrag für (4,4) möglich.\\n\\n→ Fehler: Kein gültiger Typ mit identityMapping\u003dtrue ist für das Stichwort \u0027yellow\u0027 verfügbar, der dessen semantische Rolle (Eigenschaft/Farbe) angemessen abbildet. \u0027characteristic\u0027 kann nicht in Diagonale, da identityMapping\u003dfalse. Somit Verstoß gegen Regel: Einträge in Einheitsdiagonale dürfen nur Typen mit identityMapping\u003dtrue enthalten. Keine passende Typkodierung für die Diagonale bei \u0027yellow\u0027.\"\n}"
+}

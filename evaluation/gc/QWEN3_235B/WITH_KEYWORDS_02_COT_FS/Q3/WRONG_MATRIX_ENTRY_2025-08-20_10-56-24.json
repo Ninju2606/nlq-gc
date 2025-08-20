@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"Ich\" wurde aufgelöst zu \"maria\", da die Identifikation des Nutzers Maria ist. \"mir gehört\" wurde als Beziehung zwischen Maria und dem Pool interpretiert, wobei \"own\" die Zugehörigkeit ausdrückt.\n2. \"maria\" und \"pool\" sind Objekte (object), daher Typ 1. \"swim\" und \"own\" sind Aktivitäten (activity), daher Typ 4 laut vorgegebener Typkodierungen.\n3. Maria führt die Aktivität \"swim\" aus, deshalb besteht eine \"perform\"-Beziehung (ID 8) von maria zu swim. Die Aktivität \"swim\" bezieht sich auf das Objekt \"pool\" (target, ID 9). Maria führt auch die Aktivität \"own\" aus (perform, ID 8), und diese Aktivität hat als Ziel den \"pool\" (target, ID 9). Zusätzlich wird implizit klargestellt, dass der Pool Maria gehört – dies ist eine inhaltliche Beziehung, die über die „own“-Aktivität abgebildet wird. Die Beziehung „under“ oder „in“ ist nicht direkt sinnvoll hier, da „in einem Pool“ als räumlicher Kontext interpretiert wird, aber im Vokabular fehlt ein direkter Hinweis auf „in“. Stattdessen wird angenommen, dass „swim in a pool“ bedeutet, dass die Aktivität „swim“ ein räumliches Ziel hat, also der Pool das Target ist. Die Beziehung „attached“ (ID 5) wird hier als relationale Verbindung zwischen einer Person und einem Objekt bei Besitz verwendet, analog zur Verwendung in Beispiel 4 mit „attached“ für Verbindungen.\n4. Die benötigten Typkodierungen sind: object (ID 1, identityMapping\u003dtrue), activity (ID 4, identityMapping\u003dtrue), perform (ID 8, identityMapping\u003dfalse), target (ID 9, identityMapping\u003dfalse), attached (ID 5, identityMapping\u003dfalse). Alle diese IDs existieren in den vorgegebenen Typkodierungen. Die Beziehung „in“ wäre wünschenswert gewesen, existiert aber nicht in den Typkodierungen – stattdessen wird „target“ (ID 9) genutzt, um auszudrücken, dass die Aktivität auf ein Objekt bezogen ist. Da „in“ nicht vorhanden ist, wird stattdessen die semantische Interpretation über „target“ genutzt, was akzeptabel ist, da „swim“ ein Verb ist, das eine Beziehung zu einem Objekt (hier: Ort) erfordert. Somit sind alle benötigten Relationen durch existierende Typkodierungen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde aufgelöst zu \\\"maria\\\", da die Identifikation des Nutzers Maria ist. \\\"mir gehört\\\" wurde als Beziehung zwischen Maria und dem Pool interpretiert, wobei \\\"own\\\" die Zugehörigkeit ausdrückt.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte (object), daher Typ 1. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten (activity), daher Typ 4 laut vorgegebener Typkodierungen.\\n3. Maria führt die Aktivität \\\"swim\\\" aus, deshalb besteht eine \\\"perform\\\"-Beziehung (ID 8) von maria zu swim. Die Aktivität \\\"swim\\\" bezieht sich auf das Objekt \\\"pool\\\" (target, ID 9). Maria führt auch die Aktivität \\\"own\\\" aus (perform, ID 8), und diese Aktivität hat als Ziel den \\\"pool\\\" (target, ID 9). Zusätzlich wird implizit klargestellt, dass der Pool Maria gehört – dies ist eine inhaltliche Beziehung, die über die „own“-Aktivität abgebildet wird. Die Beziehung „under“ oder „in“ ist nicht direkt sinnvoll hier, da „in einem Pool“ als räumlicher Kontext interpretiert wird, aber im Vokabular fehlt ein direkter Hinweis auf „in“. Stattdessen wird angenommen, dass „swim in a pool“ bedeutet, dass die Aktivität „swim“ ein räumliches Ziel hat, also der Pool das Target ist. Die Beziehung „attached“ (ID 5) wird hier als relationale Verbindung zwischen einer Person und einem Objekt bei Besitz verwendet, analog zur Verwendung in Beispiel 4 mit „attached“ für Verbindungen.\\n4. Die benötigten Typkodierungen sind: object (ID 1, identityMapping\u003dtrue), activity (ID 4, identityMapping\u003dtrue), perform (ID 8, identityMapping\u003dfalse), target (ID 9, identityMapping\u003dfalse), attached (ID 5, identityMapping\u003dfalse). Alle diese IDs existieren in den vorgegebenen Typkodierungen. Die Beziehung „in“ wäre wünschenswert gewesen, existiert aber nicht in den Typkodierungen – stattdessen wird „target“ (ID 9) genutzt, um auszudrücken, dass die Aktivität auf ein Objekt bezogen ist. Da „in“ nicht vorhanden ist, wird stattdessen die semantische Interpretation über „target“ genutzt, was akzeptabel ist, da „swim“ ein Verb ist, das eine Beziehung zu einem Objekt (hier: Ort) erfordert. Somit sind alle benötigten Relationen durch existierende Typkodierungen abgedeckt.\"\n}"
+}

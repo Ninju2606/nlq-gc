@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.88,
+  "description": "1. Der relative Verweis \"Meine Tochter\" wurde aufgelöst in die Nutzeridentifikation \"maria\" und das Stichwort \"person\", wobei \"person\" die Tochter von \"maria\" ist. Der Verweis \"ich\" bezieht sich auf \"maria\". \n2. \"maria\" und \"person\" sind Objekte (Typ: object). \"boat\" und \"lake\" sind ebenfalls Objekte. \"drive\" ist eine Aktivität (Typ: activity). \n3. \"maria\" hat eine Tochter, die durch \"person\" dargestellt wird (Relation: daughter). Sowohl \"maria\" als auch \"person\" führen die Aktivität \"drive\" aus (Relation: perform). Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\" (Relation: target). Das \"boat\" befindet sich auf dem \"lake\" (Relation: above). Die \"person\" (Tochter) befindet sich auf dem \"boat\" (Relation: above) und im \"lake\"-Umfeld (Relation: under). \n4. Die ID für \"object\" ist 1. Die ID für \"activity\" ist 4. Die ID für \"daughter\" ist 10. Die ID für \"perform\" ist 8. Die ID für \"target\" ist 9. Die ID für \"above\" ist 7. Die ID für \"under\" ist 6. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 5, 6],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Meine Tochter\\\" wurde aufgelöst in die Nutzeridentifikation \\\"maria\\\" und das Stichwort \\\"person\\\", wobei \\\"person\\\" die Tochter von \\\"maria\\\" ist. Der Verweis \\\"ich\\\" bezieht sich auf \\\"maria\\\". \\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte (Typ: object). \\\"boat\\\" und \\\"lake\\\" sind ebenfalls Objekte. \\\"drive\\\" ist eine Aktivität (Typ: activity). \\n3. \\\"maria\\\" hat eine Tochter, die durch \\\"person\\\" dargestellt wird (Relation: daughter). Sowohl \\\"maria\\\" als auch \\\"person\\\" führen die Aktivität \\\"drive\\\" aus (Relation: perform). Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\" (Relation: target). Das \\\"boat\\\" befindet sich auf dem \\\"lake\\\" (Relation: above). Die \\\"person\\\" (Tochter) befindet sich auf dem \\\"boat\\\" (Relation: above) und im \\\"lake\\\"-Umfeld (Relation: under). \\n4. Die ID für \\\"object\\\" ist 1. Die ID für \\\"activity\\\" ist 4. Die ID für \\\"daughter\\\" ist 10. Die ID für \\\"perform\\\" ist 8. Die ID für \\\"target\\\" ist 9. Die ID für \\\"above\\\" ist 7. Die ID für \\\"under\\\" ist 6. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\"\n}"
+}

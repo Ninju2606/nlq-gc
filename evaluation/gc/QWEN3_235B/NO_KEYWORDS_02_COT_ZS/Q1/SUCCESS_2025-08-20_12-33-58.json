@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \"Ich spiele Basketball\" sind: \"Ich\", \"spiele\", \"Basketball\".\n\n2. Der relative Verweis \"Ich\" wird aufgelöst und durch die Identifikation des Nutzers, \"Maria\", ersetzt. Dieser Bezug wird für die Relationen berücksichtigt.\n\n3. Übersetzung der Stichwörter ins Englische: \"spiele\" → \"play\", \"Basketball\" bleibt als etablierter Begriff \"basketball\" (Kleinschreibung gemäß Konvention). \"Maria\" bleibt unverändert.\n\n4. Der Verweis \"ich\" wird durch \"Maria\" ersetzt, da in der Anfrage auf den Anfragensteller Bezug genommen wird.\n\n5. Attributeigenschaften:\n   - \"Maria\": handelt es sich um eine Person, also ein Objekt → Typ-ID 1 (object)\n   - \"play\": beschreibt eine Tätigkeit → Typ-ID 4 (activity)\n   - \"basketball\": ist ein Objekt (Sportart/Gerät) → Typ-ID 1 (object)\n\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität „play“ aus → Relation „perform“ (Typ-ID 8) von „Maria“ zu „play“\n   - Die Aktivität „play“ hat das Ziel „basketball“ → Relation „target“ (Typ-ID 9) von „play“ zu „basketball“\n\n7. Überprüfung der Typkodierungen:\n   - „perform“ (ID 8, identityMapping\u003dfalse) → existiert und ist gültig für die Relation von „Maria“ zu „play“\n   - „target“ (ID 9, identityMapping\u003dfalse) → existiert und ist gültig für die Relation von „play“ zu „basketball“\n   - Diagonaleinträge: \n     • (0,0): Maria → object (ID 1, identityMapping\u003dtrue) → gültig\n     • (1,1): play → activity (ID 4, identityMapping\u003dtrue) → gültig\n     • (2,2): basketball → object (ID 1, identityMapping\u003dtrue) → gültig\n   → Alle benötigten Typkodierungen existieren.\n\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \\\"Ich spiele Basketball\\\" sind: \\\"Ich\\\", \\\"spiele\\\", \\\"Basketball\\\".\\n\\n2. Der relative Verweis \\\"Ich\\\" wird aufgelöst und durch die Identifikation des Nutzers, \\\"Maria\\\", ersetzt. Dieser Bezug wird für die Relationen berücksichtigt.\\n\\n3. Übersetzung der Stichwörter ins Englische: \\\"spiele\\\" → \\\"play\\\", \\\"Basketball\\\" bleibt als etablierter Begriff \\\"basketball\\\" (Kleinschreibung gemäß Konvention). \\\"Maria\\\" bleibt unverändert.\\n\\n4. Der Verweis \\\"ich\\\" wird durch \\\"Maria\\\" ersetzt, da in der Anfrage auf den Anfragensteller Bezug genommen wird.\\n\\n5. Attributeigenschaften:\\n   - \\\"Maria\\\": handelt es sich um eine Person, also ein Objekt → Typ-ID 1 (object)\\n   - \\\"play\\\": beschreibt eine Tätigkeit → Typ-ID 4 (activity)\\n   - \\\"basketball\\\": ist ein Objekt (Sportart/Gerät) → Typ-ID 1 (object)\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität „play“ aus → Relation „perform“ (Typ-ID 8) von „Maria“ zu „play“\\n   - Die Aktivität „play“ hat das Ziel „basketball“ → Relation „target“ (Typ-ID 9) von „play“ zu „basketball“\\n\\n7. Überprüfung der Typkodierungen:\\n   - „perform“ (ID 8, identityMapping\u003dfalse) → existiert und ist gültig für die Relation von „Maria“ zu „play“\\n   - „target“ (ID 9, identityMapping\u003dfalse) → existiert und ist gültig für die Relation von „play“ zu „basketball“\\n   - Diagonaleinträge: \\n     • (0,0): Maria → object (ID 1, identityMapping\u003dtrue) → gültig\\n     • (1,1): play → activity (ID 4, identityMapping\u003dtrue) → gültig\\n     • (2,2): basketball → object (ID 1, identityMapping\u003dtrue) → gültig\\n   → Alle benötigten Typkodierungen existieren.\\n\\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix erstellt.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Der Nutzer \u0027Maria\u0027 bezieht sich mit \u0027ich\u0027 auf sich selbst, daher wird ihr Name \u0027maria\u0027 im Vokabular verwendet. \u0027Tochter\u0027 ist in der Anfrage enthalten, aber nicht im gegebenen Vokabular. Da das gegebene Vokabular \u0027person\u0027 enthält, könnte \u0027person\u0027 als generischer Vertreter für \u0027Tochter\u0027 fungieren, jedoch fehlt eine Relation wie \u0027daughter\u0027 oder eine Zuordnung zwischen \u0027maria\u0027 und einer anderen Person als Tochter. Dies führt zu einem Problem.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Konkrete Person, vom Nutzer identifiziert → Typ \u0027object\u0027 (ID 1)\n- \u0027person\u0027: Allgemeine Kategorie einer Person → Typ \u0027object\u0027 (ID 1)\n- \u0027drive\u0027: Aktivität → Typ \u0027activity\u0027 (ID 4)\n- \u0027boat\u0027: Physisches Objekt → Typ \u0027object\u0027 (ID 1)\n- \u0027lake\u0027: Standort/Objekt → Typ \u0027object\u0027 (ID 1)\n\n3. Erwartete Relationen:\n- \u0027Maria\u0027 und \u0027person\u0027 (Tochter) führen gemeinsam die Aktivität \u0027drive\u0027 aus → beide sollten mit \u0027drive\u0027 über \u0027perform\u0027 (ID 8) verbunden sein.\n- \u0027drive\u0027 hat als Zielobjekt \u0027boat\u0027 → \u0027target\u0027 (ID 9)\n- \u0027boat\u0027 ist auf dem \u0027lake\u0027 → räumliche Relation, \u0027on\u0027 fehlt jedoch in Typkodierungen. Näheres wäre \u0027under\u0027 oder \u0027above\u0027, aber keine direkte Kodierung für \u0027on\u0027. Alternativ könnte \u0027attached\u0027 (ID 5) verwendet werden, falls \u0027on\u0027 als feste Verbindung interpretiert wird.\n- Zwischen \u0027maria\u0027 und \u0027person\u0027 fehlt die Relation \u0027daughter\u0027 (ID 10), da nicht klar ist, wem die Tochter zugeordnet ist – hier müsste die Tochter die \u0027person\u0027 sein und Maria die Mutter. Aber es gibt keine Relation \u0027mother\u0027 oder Rückwärtsbezug zu \u0027daughter\u0027.\n\n4. Überprüfung der Relationen:\n- \u0027maria\u0027 → \u0027drive\u0027: soll durch \u0027perform\u0027 (ID 8) verbunden sein → gültig\n- \u0027person\u0027 → \u0027drive\u0027: ebenfalls \u0027perform\u0027 (ID 8) → gültig\n- \u0027drive\u0027 → \u0027boat\u0027: \u0027target\u0027 (ID 9) → gültig\n- \u0027boat\u0027 → \u0027lake\u0027: braucht Relation wie \u0027on\u0027. Keine direkte Kodierung vorhanden. \u0027attached\u0027 (ID 5) könnte akzeptiert werden, wenn \u0027Boot auf See\u0027 als feste Lage interpretiert wird. Alternativ \u0027above\u0027 (ID 7): Boot ist über dem See? Unlogisch. \u0027under\u0027 (ID 6) passt nicht. Der Begriff \u0027on\u0027 fehlt komplett. Es gibt **keine geeignete Typkodierung** für die Relation \u0027ist auf\u0027. Selbst \u0027attached\u0027 ist zweifelhaft, da es eher feste Verbindungen wie \u0027angeschlossen\u0027 meint.\n- \u0027maria\u0027 und \u0027person\u0027: fehlende Relation \u0027daughter\u0027 – müsste als (person, daughter, maria) oder umgekehrt kodiert sein. ID 10 existiert, aber die Richtung ist unklar: \u0027daughter\u0027 bezeichnet das Kind. Wenn \u0027person\u0027 die Tochter ist, dann wäre (maria, ? , person) mit einer nicht vorhandenen \u0027has daughter\u0027-Relation. Es existiert nur \u0027daughter\u0027 (ID 10), aber keine Spezifikation der Richtung im Kontext.\n  Allerdings ist entscheidend: \u0027daughter\u0027-Relation ist in Typkodierungen vorhanden (ID 10). Aber im Vokabular ist nicht klar, welche der Personen die Tochter ist. Ohne zusätzliche Codierung oder Indikator, dass \u0027person\u0027 die Tochter ist, und fehlende Verbindung zu \u0027maria\u0027, kann die Beziehung nicht eindeutig dargestellt werden. Zudem fehlt eine Aktivitätszuweisung: Wer führt \u0027drive\u0027 aus? Beide? Oder nur Maria? Der Satz \u0027Meine Tochter und ich fahren Boot\u0027 deutet darauf hin, dass beide an der Aktivität beteiligt sind.\n\nKritischer Fehler: Die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 (\u0027auf\u0027) ist nicht durch eine verfügbare Typkodierung abgedeckt. Es gibt keinen Eintrag für \u0027on\u0027 oder \u0027on the\u0027. Die vorhandenen räumlichen Relationen sind \u0027under\u0027, \u0027above\u0027, \u0027attached\u0027 – keiner beschreibt präzise \u0027auf der Oberfläche\u0027. \u0027attached\u0027 (ID 5) könnte im Kontext akzeptiert werden, wenn man es weiträumig als räumliche Bindung versteht, aber laut Spezifikation sollte nur verwendet werden, wenn es exakt passt. Da keine passende Relation existiert, ist dies ein Fehler.\n\n→ Es gibt **keine geeignete Typkodierung** für die Relation \u0027boat auf lake\u0027. Daher kann kein korrekter GraphCode generiert werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 8, 9],\n    [0, 0, 0, 1, 5],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \u0027Maria\u0027 bezieht sich mit \u0027ich\u0027 auf sich selbst, daher wird ihr Name \u0027maria\u0027 im Vokabular verwendet. \u0027Tochter\u0027 ist in der Anfrage enthalten, aber nicht im gegebenen Vokabular. Da das gegebene Vokabular \u0027person\u0027 enthält, könnte \u0027person\u0027 als generischer Vertreter für \u0027Tochter\u0027 fungieren, jedoch fehlt eine Relation wie \u0027daughter\u0027 oder eine Zuordnung zwischen \u0027maria\u0027 und einer anderen Person als Tochter. Dies führt zu einem Problem.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Konkrete Person, vom Nutzer identifiziert → Typ \u0027object\u0027 (ID 1)\\n- \u0027person\u0027: Allgemeine Kategorie einer Person → Typ \u0027object\u0027 (ID 1)\\n- \u0027drive\u0027: Aktivität → Typ \u0027activity\u0027 (ID 4)\\n- \u0027boat\u0027: Physisches Objekt → Typ \u0027object\u0027 (ID 1)\\n- \u0027lake\u0027: Standort/Objekt → Typ \u0027object\u0027 (ID 1)\\n\\n3. Erwartete Relationen:\\n- \u0027Maria\u0027 und \u0027person\u0027 (Tochter) führen gemeinsam die Aktivität \u0027drive\u0027 aus → beide sollten mit \u0027drive\u0027 über \u0027perform\u0027 (ID 8) verbunden sein.\\n- \u0027drive\u0027 hat als Zielobjekt \u0027boat\u0027 → \u0027target\u0027 (ID 9)\\n- \u0027boat\u0027 ist auf dem \u0027lake\u0027 → räumliche Relation, \u0027on\u0027 fehlt jedoch in Typkodierungen. Näheres wäre \u0027under\u0027 oder \u0027above\u0027, aber keine direkte Kodierung für \u0027on\u0027. Alternativ könnte \u0027attached\u0027 (ID 5) verwendet werden, falls \u0027on\u0027 als feste Verbindung interpretiert wird.\\n- Zwischen \u0027maria\u0027 und \u0027person\u0027 fehlt die Relation \u0027daughter\u0027 (ID 10), da nicht klar ist, wem die Tochter zugeordnet ist – hier müsste die Tochter die \u0027person\u0027 sein und Maria die Mutter. Aber es gibt keine Relation \u0027mother\u0027 oder Rückwärtsbezug zu \u0027daughter\u0027.\\n\\n4. Überprüfung der Relationen:\\n- \u0027maria\u0027 → \u0027drive\u0027: soll durch \u0027perform\u0027 (ID 8) verbunden sein → gültig\\n- \u0027person\u0027 → \u0027drive\u0027: ebenfalls \u0027perform\u0027 (ID 8) → gültig\\n- \u0027drive\u0027 → \u0027boat\u0027: \u0027target\u0027 (ID 9) → gültig\\n- \u0027boat\u0027 → \u0027lake\u0027: braucht Relation wie \u0027on\u0027. Keine direkte Kodierung vorhanden. \u0027attached\u0027 (ID 5) könnte akzeptiert werden, wenn \u0027Boot auf See\u0027 als feste Lage interpretiert wird. Alternativ \u0027above\u0027 (ID 7): Boot ist über dem See? Unlogisch. \u0027under\u0027 (ID 6) passt nicht. Der Begriff \u0027on\u0027 fehlt komplett. Es gibt **keine geeignete Typkodierung** für die Relation \u0027ist auf\u0027. Selbst \u0027attached\u0027 ist zweifelhaft, da es eher feste Verbindungen wie \u0027angeschlossen\u0027 meint.\\n- \u0027maria\u0027 und \u0027person\u0027: fehlende Relation \u0027daughter\u0027 – müsste als (person, daughter, maria) oder umgekehrt kodiert sein. ID 10 existiert, aber die Richtung ist unklar: \u0027daughter\u0027 bezeichnet das Kind. Wenn \u0027person\u0027 die Tochter ist, dann wäre (maria, ? , person) mit einer nicht vorhandenen \u0027has daughter\u0027-Relation. Es existiert nur \u0027daughter\u0027 (ID 10), aber keine Spezifikation der Richtung im Kontext.\\n  Allerdings ist entscheidend: \u0027daughter\u0027-Relation ist in Typkodierungen vorhanden (ID 10). Aber im Vokabular ist nicht klar, welche der Personen die Tochter ist. Ohne zusätzliche Codierung oder Indikator, dass \u0027person\u0027 die Tochter ist, und fehlende Verbindung zu \u0027maria\u0027, kann die Beziehung nicht eindeutig dargestellt werden. Zudem fehlt eine Aktivitätszuweisung: Wer führt \u0027drive\u0027 aus? Beide? Oder nur Maria? Der Satz \u0027Meine Tochter und ich fahren Boot\u0027 deutet darauf hin, dass beide an der Aktivität beteiligt sind.\\n\\nKritischer Fehler: Die Relation zwischen \u0027boat\u0027 und \u0027lake\u0027 (\u0027auf\u0027) ist nicht durch eine verfügbare Typkodierung abgedeckt. Es gibt keinen Eintrag für \u0027on\u0027 oder \u0027on the\u0027. Die vorhandenen räumlichen Relationen sind \u0027under\u0027, \u0027above\u0027, \u0027attached\u0027 – keiner beschreibt präzise \u0027auf der Oberfläche\u0027. \u0027attached\u0027 (ID 5) könnte im Kontext akzeptiert werden, wenn man es weiträumig als räumliche Bindung versteht, aber laut Spezifikation sollte nur verwendet werden, wenn es exakt passt. Da keine passende Relation existiert, ist dies ein Fehler.\\n\\n→ Es gibt **keine geeignete Typkodierung** für die Relation \u0027boat auf lake\u0027. Daher kann kein korrekter GraphCode generiert werden.\"\n}"
+}

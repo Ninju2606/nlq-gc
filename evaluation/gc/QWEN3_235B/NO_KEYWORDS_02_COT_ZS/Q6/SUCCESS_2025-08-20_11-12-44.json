@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine konkrete Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine allgemeine Absprache eines Termins, ohne Objekte, Attribute oder Aktivitäten im Sinne eines Szenenkontexts im Metaverse zu beschreiben. Es lassen sich keine relevanten Stichwörter für ein Medienobjekt im Metaverse extrahieren.",
+  "error": "Die Anfrage enthält keine konkrete Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine allgemeine Absprache eines Termins, ohne Objekte, Attribute oder Aktivitäten im Sinne eines Szenenkontexts im Metaverse zu beschreiben. Es lassen sich keine relevanten Stichwörter für ein Medienobjekt im Metaverse extrahieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine konkrete Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine allgemeine Absprache eines Termins, ohne Objekte, Attribute oder Aktivitäten im Sinne eines Szenenkontexts im Metaverse zu beschreiben. Es lassen sich keine relevanten Stichwörter für ein Medienobjekt im Metaverse extrahieren.\",\n  \"description\": \"Die Anfrage enthält keine konkrete Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine allgemeine Absprache eines Termins, ohne Objekte, Attribute oder Aktivitäten im Sinne eines Szenenkontexts im Metaverse zu beschreiben. Es lassen sich keine relevanten Stichwörter für ein Medienobjekt im Metaverse extrahieren.\"\n}"
+}

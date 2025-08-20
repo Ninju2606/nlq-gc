@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Aufgabe 1: Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind \u0027spiele\u0027 und \u0027Basketball\u0027.\nAufgabe 2: Der relative Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027.\nAufgabe 3: Übersetzung der Stichwörter ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Lehnwort bestehen.\nAufgabe 4: Der Verweis \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Endgültige Begriffe für das Vokabular: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"Aufgabe 1: Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind \u0027spiele\u0027 und \u0027Basketball\u0027.\\nAufgabe 2: Der relative Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027.\\nAufgabe 3: Übersetzung der Stichwörter ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Lehnwort bestehen.\\nAufgabe 4: Der Verweis \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Endgültige Begriffe für das Vokabular: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\"\n}"
+}

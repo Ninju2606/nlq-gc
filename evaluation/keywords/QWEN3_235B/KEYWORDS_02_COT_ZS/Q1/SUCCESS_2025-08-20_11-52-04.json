@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "Basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Es wurden die Stichwörter \u0027spiele\u0027 und \u0027Basketball\u0027 identifiziert. Der relative Verweis \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die Stichwörter wurden ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027 (Grundform), \u0027Basketball\u0027 bleibt gleich. Das Vokabular enthält somit die Begriffe für die Person, Aktivität und das Objekt der Szenenbeschreibung.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"Basketball\"],\n  \"description\": \"Es wurden die Stichwörter \u0027spiele\u0027 und \u0027Basketball\u0027 identifiziert. Der relative Verweis \u0027ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die Stichwörter wurden ins Englische übersetzt: \u0027spiele\u0027 → \u0027play\u0027 (Grundform), \u0027Basketball\u0027 bleibt gleich. Das Vokabular enthält somit die Begriffe für die Person, Aktivität und das Objekt der Szenenbeschreibung.\"\n}"
+}

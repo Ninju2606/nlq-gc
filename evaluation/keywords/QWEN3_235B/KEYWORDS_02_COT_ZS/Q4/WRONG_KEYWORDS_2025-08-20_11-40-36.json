@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Schritt 1: Stichwörter \u0027schwimmen\u0027, \u0027Pool\u0027 und \u0027mein\u0027 extrahiert. Schritt 2: Relative Verweise \u0027ich\u0027 und \u0027mein\u0027 wurden zu \u0027Maria\u0027 aufgelöst. Schritt 3: Übersetzung ins Englische mit Verallgemeinerung der Wortstämme (\u0027schwimmen\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027). Schritt 4: Nutzeridentifikation \u0027Maria\u0027 ersetzt persönliche Bezüge.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Schritt 1: Stichwörter \u0027schwimmen\u0027, \u0027Pool\u0027 und \u0027mein\u0027 extrahiert. Schritt 2: Relative Verweise \u0027ich\u0027 und \u0027mein\u0027 wurden zu \u0027Maria\u0027 aufgelöst. Schritt 3: Übersetzung ins Englische mit Verallgemeinerung der Wortstämme (\u0027schwimmen\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027). Schritt 4: Nutzeridentifikation \u0027Maria\u0027 ersetzt persönliche Bezüge.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "wear",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      14,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Zeig mir Situationen, in denen ich einen gelben Hut trage",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"hat\",\n    \"yellow\",\n    \"wear\",\n    \"hat\"\n  ],\n  \"matrix\": [\n    [1, 8, 14, 8, 5],\n    [0, 4, 0, 4, 0],\n    [0, 0, 1, 0, 0],\n    [0, 4, 0, 4, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Zeig mir Situationen, in denen ich einen gelben Hut trage\"\n}"
+}

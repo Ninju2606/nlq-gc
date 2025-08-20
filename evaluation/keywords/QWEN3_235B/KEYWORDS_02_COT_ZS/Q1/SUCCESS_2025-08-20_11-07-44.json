@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich spiele Basketball. Die Schlüsselwörter sind \u0027spiele\u0027 und \u0027Basketball\u0027. Der Begriff \u0027spiele\u0027 wird als Grundform \u0027play\u0027 ins Englische übersetzt. Da \u0027ich\u0027 auf den Nutzer verweist und die Identifikation \u0027Maria\u0027 gegeben ist, wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Es entsteht das Vokabular mit den Einträgen \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"Ich spiele Basketball. Die Schlüsselwörter sind \u0027spiele\u0027 und \u0027Basketball\u0027. Der Begriff \u0027spiele\u0027 wird als Grundform \u0027play\u0027 ins Englische übersetzt. Da \u0027ich\u0027 auf den Nutzer verweist und die Identifikation \u0027Maria\u0027 gegeben ist, wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt. Es entsteht das Vokabular mit den Einträgen \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027.\"\n}"
+}

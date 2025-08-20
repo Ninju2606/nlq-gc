@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"belong\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"belong\".\n        5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"belong\" sind Aktivitäten.\n        6. \"Maria\" führt die Aktivität \"swim\" aus. \"Maria\" führt die Aktivität \"belong\" aus. Die Aktivität \"swim\" hat die Beziehung \"in\" zum Objekt \"pool\". Die Aktivität \"belong\" bezieht sich auf \"pool\". \"pool\" ist eine Charakteristik von \"Maria\" über die Beziehung \"belong\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die Beziehung \"in\" ist nicht in den vorgegebenen Typkodierungen vorhanden. Daher wird ein Fehler erwartet. Allerdings fehlt die Relation \"in\" (ID für \"in\" müsste existieren, ist aber nicht in den vorgegebenen Typkodierungen enthalten). Die gegebenen Typkodierungen enthalten keine Beziehung für \"in\". Es ist lediglich \"attached\", \"under\", \"above\" vorhanden. Daher: Fehlende Kodierung für räumliche Beziehung \"in\". Es existiert keine Typkodierung mit dem Attribut \"in\". \u003d\u003e Fehler.\n        ABER: Nach erneuter Prüfung: Die Relation \"in\" fehlt tatsächlich in den vorgegebenen Typkodierungen. Es gibt keine ID mit attribute\u003d\"in\". Möglicherweise soll „attached“ (ID 5) verwendet werden? Aber laut Spezifikation: Nur wenn exakte Typkodierung existiert, darf Beziehung codiert werden. Es gibt keinen Eintrag \"in\", daher ist die Relation \"in\" nicht abbildbar. \u003d\u003e Fehler.\n        Korrektur: Es gibt keine Typkodierung für die Relation \"in\", daher kann die räumliche Beziehung zwischen \"swim\" und \"pool\" nicht dargestellt werden. \u003d\u003e Fehler.\n        Allerdings: In den Typkodierungen ist \"under\" (6), \"above\" (7), aber nicht \"in\" enthalten. Daher: Keine gültige ID für die Beziehung \"in\".\n        Ergo: Fehlende Typkodierung für Beziehung \"in\" zwischen Aktivität \"swim\" und Objekt \"pool\".\n        Folglich ist ein Fehler auszugeben.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n        5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"belong\\\" sind Aktivitäten.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"Maria\\\" führt die Aktivität \\\"belong\\\" aus. Die Aktivität \\\"swim\\\" hat die Beziehung \\\"in\\\" zum Objekt \\\"pool\\\". Die Aktivität \\\"belong\\\" bezieht sich auf \\\"pool\\\". \\\"pool\\\" ist eine Charakteristik von \\\"Maria\\\" über die Beziehung \\\"belong\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die Beziehung \\\"in\\\" ist nicht in den vorgegebenen Typkodierungen vorhanden. Daher wird ein Fehler erwartet. Allerdings fehlt die Relation \\\"in\\\" (ID für \\\"in\\\" müsste existieren, ist aber nicht in den vorgegebenen Typkodierungen enthalten). Die gegebenen Typkodierungen enthalten keine Beziehung für \\\"in\\\". Es ist lediglich \\\"attached\\\", \\\"under\\\", \\\"above\\\" vorhanden. Daher: Fehlende Kodierung für räumliche Beziehung \\\"in\\\". Es existiert keine Typkodierung mit dem Attribut \\\"in\\\". \u003d\u003e Fehler.\\n        ABER: Nach erneuter Prüfung: Die Relation \\\"in\\\" fehlt tatsächlich in den vorgegebenen Typkodierungen. Es gibt keine ID mit attribute\u003d\\\"in\\\". Möglicherweise soll „attached“ (ID 5) verwendet werden? Aber laut Spezifikation: Nur wenn exakte Typkodierung existiert, darf Beziehung codiert werden. Es gibt keinen Eintrag \\\"in\\\", daher ist die Relation \\\"in\\\" nicht abbildbar. \u003d\u003e Fehler.\\n        Korrektur: Es gibt keine Typkodierung für die Relation \\\"in\\\", daher kann die räumliche Beziehung zwischen \\\"swim\\\" und \\\"pool\\\" nicht dargestellt werden. \u003d\u003e Fehler.\\n        Allerdings: In den Typkodierungen ist \\\"under\\\" (6), \\\"above\\\" (7), aber nicht \\\"in\\\" enthalten. Daher: Keine gültige ID für die Beziehung \\\"in\\\".\\n        Ergo: Fehlende Typkodierung für Beziehung \\\"in\\\" zwischen Aktivität \\\"swim\\\" und Objekt \\\"pool\\\".\\n        Folglich ist ein Fehler auszugeben.\"\n}"
+}

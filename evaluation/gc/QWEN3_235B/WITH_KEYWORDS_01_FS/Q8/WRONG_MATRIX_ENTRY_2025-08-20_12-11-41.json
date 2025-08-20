@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Maria (Person) führt die Aktivität \u0027drive\u0027 (Bootfahren) aus, bei der das Boot das Ziel der Aktion ist und sich auf dem See befindet. Der See fungiert als Kontext. Die Beziehung \u0027daughter\u0027 verknüpft Maria mit dem impliziten Begriff \u0027person\u0027, um ihre Rolle als Mutter zu modellieren, da in der Anfrage von \u0027meine Tochter\u0027 die Beziehung zur eigenen Person implizit ist. Die Aktivität \u0027drive\u0027 ist einer \u0027activity\u0027 zugeordnet (Typ 4). Positionsbeziehungen wie \u0027on\u0027 (auf) werden durch \u0027attached\u0027 (5) und \u0027in context\u0027 (6) abgebildet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria (Person) führt die Aktivität \u0027drive\u0027 (Bootfahren) aus, bei der das Boot das Ziel der Aktion ist und sich auf dem See befindet. Der See fungiert als Kontext. Die Beziehung \u0027daughter\u0027 verknüpft Maria mit dem impliziten Begriff \u0027person\u0027, um ihre Rolle als Mutter zu modellieren, da in der Anfrage von \u0027meine Tochter\u0027 die Beziehung zur eigenen Person implizit ist. Die Aktivität \u0027drive\u0027 ist einer \u0027activity\u0027 zugeordnet (Typ 4). Positionsbeziehungen wie \u0027on\u0027 (auf) werden durch \u0027attached\u0027 (5) und \u0027in context\u0027 (6) abgebildet.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist sprachlich nicht korrekt oder kohärent formuliert. Es ist nicht klar, ob gemeint ist, dass Häuser gemalt werden sollen, um Fragen daran zu stellen, oder ob es darum geht, Häuser zu bemalen, die mit Fragen zu tun haben. Zudem fehlt ein sinnvoller Zusammenhang zwischen den Begriffen. Eine eindeutige Extraktion von Stichwörtern und deren Beziehungen ist daher nicht möglich.",
+  "error": "Die Anfrage ist grammatikalisch unklar oder unvollständig.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar oder unvollständig.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist sprachlich nicht korrekt oder kohärent formuliert. Es ist nicht klar, ob gemeint ist, dass Häuser gemalt werden sollen, um Fragen daran zu stellen, oder ob es darum geht, Häuser zu bemalen, die mit Fragen zu tun haben. Zudem fehlt ein sinnvoller Zusammenhang zwischen den Begriffen. Eine eindeutige Extraktion von Stichwörtern und deren Beziehungen ist daher nicht möglich.\"\n}"
+}

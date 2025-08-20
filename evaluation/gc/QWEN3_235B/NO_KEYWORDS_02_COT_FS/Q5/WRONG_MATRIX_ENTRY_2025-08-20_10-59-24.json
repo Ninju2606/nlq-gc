@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die relevanten Stichwörter sind \"ich\", \"trage\", \"Hut\", \"gelb\".\n         2. Es gibt keine relativen Verweise.\n         3. Die englischen Stichwörter sind \"Maria\", \"wear\", \"hat\", \"yellow\".\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"wear\", \"hat\", \"yellow\".\n         5. \"Maria\" und \"hat\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität. \"yellow\" ist ein Attribut zur Farbe, also ein Kontext.\n         6. \"Maria\" führt die Aktivität \"wear\" aus. Die Aktivität \"wear\" bezieht sich auf das Objekt \"hat\". Das Attribut \"yellow\" beschreibt eine Charakteristik von \"hat\".\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für characteristic ist 14. Die ID für context ist 2. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"ich\\\", \\\"trage\\\", \\\"Hut\\\", \\\"gelb\\\".\\n         2. Es gibt keine relativen Verweise.\\n         3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"wear\\\", \\\"hat\\\", \\\"yellow\\\".\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"wear\\\", \\\"hat\\\", \\\"yellow\\\".\\n         5. \\\"Maria\\\" und \\\"hat\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität. \\\"yellow\\\" ist ein Attribut zur Farbe, also ein Kontext.\\n         6. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus. Die Aktivität \\\"wear\\\" bezieht sich auf das Objekt \\\"hat\\\". Das Attribut \\\"yellow\\\" beschreibt eine Charakteristik von \\\"hat\\\".\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für characteristic ist 14. Die ID für context ist 2. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

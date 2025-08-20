@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird aufgelöst zu \u0027Maria\u0027 gemäß der gegebenen Identifikation des Nutzers. Da in der Anfrage der Nutzer selbst handelt (\u0027ich trage\u0027), wird der Name \u0027maria\u0027 im Vokabular verwendet.\n\n2. Attributeigenschaften der Stichwörter im Vokabular:\n- \u0027maria\u0027: Bezeichnet eine Person; entspricht einem Objekt im Kontext, daher Typ \u0027object\u0027 (ID 1).\n- \u0027wear\u0027: Beschreibt eine Aktion, die von einer Person ausgeführt wird; daher Typ \u0027activity\u0027 (ID 4).\n- \u0027hat\u0027: Ein Gegenstand; klar ein Objekt, daher Typ \u0027object\u0027 (ID 1).\n- \u0027yellow\u0027: Bezeichnet eine Eigenschaft/Farbe; ist ein Attribut eines Objekts, daher Typ \u0027characteristic\u0027 (ID 14).\n\n3. Relationen zwischen den Stichwörtern:\n- \u0027maria\u0027 führt die Aktion \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8): maria perform wear.\n- \u0027wear\u0027 hat als Ziel das Objekt \u0027hat\u0027 → Relation \u0027target\u0027 (ID 9): wear target hat.\n- \u0027hat\u0027 besitzt die Eigenschaft \u0027yellow\u0027 → Relation \u0027attached\u0027 (ID 5): hat attached yellow.\nZusätzlich werden die Typen auf der Diagonalen korrekt zugeordnet.\n\n4. Überprüfung der Relationen auf gültige Typkodierungen:\n- \u0027object\u0027 (ID 1) für \u0027maria\u0027, \u0027hat\u0027 → identityMapping\u003dtrue → gültig auf Diagonale.\n- \u0027activity\u0027 (ID 4) für \u0027wear\u0027 → identityMapping\u003dtrue → gültig auf Diagonale.\n- \u0027characteristic\u0027 (ID 14) für \u0027yellow\u0027 → identityMapping\u003dtrue → gültig auf Diagonale.\n- \u0027perform\u0027 (ID 8) zwischen maria (Index 0) und wear (Index 1) → identityMapping\u003dfalse → gültig außerhalb Diagonale.\n- \u0027target\u0027 (ID 9) zwischen wear (Index 1) und hat (Index 2) → identityMapping\u003dfalse → gültig.\n- \u0027attached\u0027 (ID 5) zwischen hat (Index 2) und yellow (Index 3) → identityMapping\u003dfalse → gültig.\nAlle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\n\n5. Der GraphCode wurde erfolgreich aus dem Vokabular und der Bewertungsmatrix zusammengesetzt. Die Matrix ist quadratisch (4x4), Einträge auf der Diagonalen entsprechen den Typ-IDs mit identityMapping\u003dtrue, alle anderen Relationen nutzen IDs mit identityMapping\u003dfalse. Keine unzulässigen Werte sind enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 5],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 in der Anfrage wird aufgelöst zu \u0027Maria\u0027 gemäß der gegebenen Identifikation des Nutzers. Da in der Anfrage der Nutzer selbst handelt (\u0027ich trage\u0027), wird der Name \u0027maria\u0027 im Vokabular verwendet.\\n\\n2. Attributeigenschaften der Stichwörter im Vokabular:\\n- \u0027maria\u0027: Bezeichnet eine Person; entspricht einem Objekt im Kontext, daher Typ \u0027object\u0027 (ID 1).\\n- \u0027wear\u0027: Beschreibt eine Aktion, die von einer Person ausgeführt wird; daher Typ \u0027activity\u0027 (ID 4).\\n- \u0027hat\u0027: Ein Gegenstand; klar ein Objekt, daher Typ \u0027object\u0027 (ID 1).\\n- \u0027yellow\u0027: Bezeichnet eine Eigenschaft/Farbe; ist ein Attribut eines Objekts, daher Typ \u0027characteristic\u0027 (ID 14).\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \u0027maria\u0027 führt die Aktion \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8): maria perform wear.\\n- \u0027wear\u0027 hat als Ziel das Objekt \u0027hat\u0027 → Relation \u0027target\u0027 (ID 9): wear target hat.\\n- \u0027hat\u0027 besitzt die Eigenschaft \u0027yellow\u0027 → Relation \u0027attached\u0027 (ID 5): hat attached yellow.\\nZusätzlich werden die Typen auf der Diagonalen korrekt zugeordnet.\\n\\n4. Überprüfung der Relationen auf gültige Typkodierungen:\\n- \u0027object\u0027 (ID 1) für \u0027maria\u0027, \u0027hat\u0027 → identityMapping\u003dtrue → gültig auf Diagonale.\\n- \u0027activity\u0027 (ID 4) für \u0027wear\u0027 → identityMapping\u003dtrue → gültig auf Diagonale.\\n- \u0027characteristic\u0027 (ID 14) für \u0027yellow\u0027 → identityMapping\u003dtrue → gültig auf Diagonale.\\n- \u0027perform\u0027 (ID 8) zwischen maria (Index 0) und wear (Index 1) → identityMapping\u003dfalse → gültig außerhalb Diagonale.\\n- \u0027target\u0027 (ID 9) zwischen wear (Index 1) und hat (Index 2) → identityMapping\u003dfalse → gültig.\\n- \u0027attached\u0027 (ID 5) zwischen hat (Index 2) und yellow (Index 3) → identityMapping\u003dfalse → gültig.\\nAlle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\\n\\n5. Der GraphCode wurde erfolgreich aus dem Vokabular und der Bewertungsmatrix zusammengesetzt. Die Matrix ist quadratisch (4x4), Einträge auf der Diagonalen entsprechen den Typ-IDs mit identityMapping\u003dtrue, alle anderen Relationen nutzen IDs mit identityMapping\u003dfalse. Keine unzulässigen Werte sind enthalten.\"\n}"
+}

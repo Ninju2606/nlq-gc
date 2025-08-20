@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      5,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n         2. \"mir gehört\" ist ein relativer Verweis auf den Besitz des Pools. Die Beziehung ist, dass der Pool Maria gehört.\n         3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\", \"belong\".\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\".\n         5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. Die Beziehung des Besitzes (\"gehört mir\") wird durch eine Relation zwischen \"pool\" und \"Maria\" ausgedrückt.\n         6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" findet \"in\" einem \"pool\" statt. Der \"pool\" gehört \"Maria\" – dies ist eine Besitzbeziehung. Die Relation \"in\" beschreibt die räumliche Lage von Maria relativ zum Pool. Die Besitzbeziehung entspricht einer \"attached\"-Relation gemäß den Typkodierungen, da \"identityMapping\"\u003d\u003dfalse ist und für Beziehungen zwischen Objekten verwendet wird.\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für \"perform\" ist 8. Die ID für \"in\" ist 5 (da keine explizite Typkodierung für \"in\" existiert, aber \"under\" (6), \"above\" (7) und \"attached\" (5) vorhanden sind – hier ergibt sich ein Problem: es gibt keine Typkodierung für \"in\" in den vorgegebenen IDs). Korrektur: Unter den vorgegebenen Typkodierungen gibt es keinen Eintrag für \"in\". Mögliche räumliche Relationen sind nur \"under\" (6), \"above\" (7), aber nicht \"in\". Daher fehlt die notwendige Typkodierung für die Relation \"in\". Der Eintrag für \"in\" müsste einer der identityMapping\u003d\u003dfalse Typen sein, jedoch ist kein solcher Typ mit der Bedeutung \"in\" vorhanden. Somit kann die Relation nicht kodiert werden.\n         Daher: Fehler – es gibt keine Typkodierung für die Relation \"in\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [[1, 8, 0], [0, 4, 5], [5, 0, 1]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n         2. \\\"mir gehört\\\" ist ein relativer Verweis auf den Besitz des Pools. Die Beziehung ist, dass der Pool Maria gehört.\\n         3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n         5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. Die Beziehung des Besitzes (\\\"gehört mir\\\") wird durch eine Relation zwischen \\\"pool\\\" und \\\"Maria\\\" ausgedrückt.\\n         6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" findet \\\"in\\\" einem \\\"pool\\\" statt. Der \\\"pool\\\" gehört \\\"Maria\\\" – dies ist eine Besitzbeziehung. Die Relation \\\"in\\\" beschreibt die räumliche Lage von Maria relativ zum Pool. Die Besitzbeziehung entspricht einer \\\"attached\\\"-Relation gemäß den Typkodierungen, da \\\"identityMapping\\\"\u003d\u003dfalse ist und für Beziehungen zwischen Objekten verwendet wird.\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für \\\"perform\\\" ist 8. Die ID für \\\"in\\\" ist 5 (da keine explizite Typkodierung für \\\"in\\\" existiert, aber \\\"under\\\" (6), \\\"above\\\" (7) und \\\"attached\\\" (5) vorhanden sind – hier ergibt sich ein Problem: es gibt keine Typkodierung für \\\"in\\\" in den vorgegebenen IDs). Korrektur: Unter den vorgegebenen Typkodierungen gibt es keinen Eintrag für \\\"in\\\". Mögliche räumliche Relationen sind nur \\\"under\\\" (6), \\\"above\\\" (7), aber nicht \\\"in\\\". Daher fehlt die notwendige Typkodierung für die Relation \\\"in\\\". Der Eintrag für \\\"in\\\" müsste einer der identityMapping\u003d\u003dfalse Typen sein, jedoch ist kein solcher Typ mit der Bedeutung \\\"in\\\" vorhanden. Somit kann die Relation nicht kodiert werden.\\n         Daher: Fehler – es gibt keine Typkodierung für die Relation \\\"in\\\".\"\n}"
+}

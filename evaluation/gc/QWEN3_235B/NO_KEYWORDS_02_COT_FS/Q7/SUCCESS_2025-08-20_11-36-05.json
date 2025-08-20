@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden. Der Satz ist grammatikalisch inkorrekt und semantisch unklar. Mögliche Interpretationen (z. B. ob \u0027Häuser\u0027 etwas tun, ob jemand Häuser malt, ob metaphorisch \u0027Fragen\u0027 mit \u0027Häusern\u0027 verbunden werden) lassen sich nicht eindeutig einem Szenario im Metaverse zuordnen. Daher kann kein korrekter GraphCode generiert werden.",
+  "error": "Die Anfrage ist unvollständig oder grammatikalisch nicht verständlich. Bitte präzisieren Sie Ihre Eingabe.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist unvollständig oder grammatikalisch nicht verständlich. Bitte präzisieren Sie Ihre Eingabe.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 ermittelt werden. Der Satz ist grammatikalisch inkorrekt und semantisch unklar. Mögliche Interpretationen (z. B. ob \u0027Häuser\u0027 etwas tun, ob jemand Häuser malt, ob metaphorisch \u0027Fragen\u0027 mit \u0027Häusern\u0027 verbunden werden) lassen sich nicht eindeutig einem Szenario im Metaverse zuordnen. Daher kann kein korrekter GraphCode generiert werden.\"\n}"
+}

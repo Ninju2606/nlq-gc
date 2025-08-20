@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, die aufgelöst werden müssten.\n3. Die Stichwörter werden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027. Der Stamm des Verbs wird verwendet (nach Regel der Verallgemeinerung von Wortstämmen).\n4. Da keine selbstidentifizierenden Wörter (wie \u0027ich\u0027, \u0027mein\u0027) vorkommen, wird die Identifikation des Nutzers (Maria) ignoriert.\n5. Die Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Person), also Typ 1 (\u0027object\u0027). \u0027run\u0027 ist eine Aktivität, also Typ 4 (\u0027activity\u0027).\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID 8) ausgedrückt: Subjekt \u0027Tim\u0027 führt das Verb \u0027run\u0027 aus.\n7. Für die Relation \u0027perform\u0027 zwischen einem Objekt und einer Aktivität existiert die Typkodierung mit ID 8 (\u0027perform\u0027, identityMapping\u003dfalse), was gültig ist. Auf der Diagonale sind Typ 1 (object) für \u0027Tim\u0027 und Typ 4 (activity) für \u0027run\u0027 korrekt zugewiesen. Alle verwendeten Typen sind in den vorgegebenen Kodierungen enthalten.\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit zwei Einträgen, 2x2-Matrix. Diagonale enthält die Typen der Begriffe (1, 4). Die Beziehung (Tim → run) wird mit Typ 8 (\u0027perform\u0027) in Position (0,1) erfasst. Position (1,0) bleibt 0, da keine umgekehrte Beziehung angegeben ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, die aufgelöst werden müssten.\\n3. Die Stichwörter werden ins Englische übersetzt: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027. Der Stamm des Verbs wird verwendet (nach Regel der Verallgemeinerung von Wortstämmen).\\n4. Da keine selbstidentifizierenden Wörter (wie \u0027ich\u0027, \u0027mein\u0027) vorkommen, wird die Identifikation des Nutzers (Maria) ignoriert.\\n5. Die Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Person), also Typ 1 (\u0027object\u0027). \u0027run\u0027 ist eine Aktivität, also Typ 4 (\u0027activity\u0027).\\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID 8) ausgedrückt: Subjekt \u0027Tim\u0027 führt das Verb \u0027run\u0027 aus.\\n7. Für die Relation \u0027perform\u0027 zwischen einem Objekt und einer Aktivität existiert die Typkodierung mit ID 8 (\u0027perform\u0027, identityMapping\u003dfalse), was gültig ist. Auf der Diagonale sind Typ 1 (object) für \u0027Tim\u0027 und Typ 4 (activity) für \u0027run\u0027 korrekt zugewiesen. Alle verwendeten Typen sind in den vorgegebenen Kodierungen enthalten.\\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit zwei Einträgen, 2x2-Matrix. Diagonale enthält die Typen der Begriffe (1, 4). Die Beziehung (Tim → run) wird mit Typ 8 (\u0027perform\u0027) in Position (0,1) erfasst. Position (1,0) bleibt 0, da keine umgekehrte Beziehung angegeben ist.\"\n}"
+}

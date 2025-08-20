@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage zu vage ist und keine klare Szenenbeschreibung im Metaverse enthält. Aussagen wie \"Wir müssen bald einen Termin ausmachen\" beinhalten keine Objekte, Attribute oder Aktivitäten, die in einer Aufnahme verortet oder abgebildet sein könnten.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage zu vage ist und keine klare Szenenbeschreibung im Metaverse enthält. Aussagen wie \\\"Wir müssen bald einen Termin ausmachen\\\" beinhalten keine Objekte, Attribute oder Aktivitäten, die in einer Aufnahme verortet oder abgebildet sein könnten.\"\n}"
+}

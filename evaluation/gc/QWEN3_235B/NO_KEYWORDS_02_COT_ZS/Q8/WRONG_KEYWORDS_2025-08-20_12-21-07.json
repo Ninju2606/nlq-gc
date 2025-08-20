@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "sail",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n\n2. Relative Verweise wurden aufgelöst: \u0027meine Tochter\u0027 bezieht sich auf die Tochter der Nutzerin Maria, \u0027ich\u0027 bezieht sich direkt auf Maria.\n\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027sail\u0027 (Verallgemeinerung des Wortstamms von \u0027fahren Boot\u0027 als Aktivität), \u0027Boot\u0027 wird im Kontext als Teil der Aktivität \u0027sail\u0027 integriert und nicht separat benötigt, \u0027See\u0027 → \u0027lake\u0027.\n\n4. Die Selbstreferenzen \u0027ich\u0027 und \u0027meine\u0027 wurden durch die Identifikation \u0027Maria\u0027 ersetzt. Damit wird \u0027Maria\u0027 als eigenständiger Begriff im Vokabular verwendet.\n\n5. Attributdefinitionen:\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, object), da es eine Person bezeichnet.\n   - \u0027daughter\u0027 ist ein Objekt (Typ 1), da es eine Person bezeichnet.\n   - \u0027sail\u0027 ist eine Aktivität (Typ 4, activity).\n   - \u0027lake\u0027 ist ein Kontext (Typ 2, context), da es den Ort der Aktivität beschreibt.\n\n6. Relationen zwischen den Stichwörtern:\n   - \u0027Maria\u0027 hat eine Beziehung \u0027daughter\u0027 zu \u0027daughter\u0027 → Typ 10 (daughter).\n   - \u0027Maria\u0027 führt die Aktivität \u0027sail\u0027 durch → Typ 8 (perform).\n   - \u0027daughter\u0027 führt ebenfalls die Aktivität \u0027sail\u0027 durch → zweifache Durchführung durch zwei Personen, ebenfalls Typ 8.\n   - Die Aktivität \u0027sail\u0027 hat das Ziel oder stattfindet \u0027auf einem See\u0027 → \u0027sail\u0027 hat Bezug zu \u0027lake\u0027 als Ort → Typ 9 (target).\n   Anmerkung: \u0027Boot\u0027 wird als impliziter Bestandteil der Aktivität \u0027sail\u0027 verstanden und nicht separat im Vokabular aufgeführt, da es nicht notwendig ist, um die Szene korrekt darzustellen.\n\n7. Überprüfung der Relationen auf gültige Typkodierungen:\n   - Typ 1 (object): identityMapping \u003d true → gültig für Diagonale.\n   - Typ 2 (context): identityMapping \u003d true → gültig für Diagonale.\n   - Typ 4 (activity): identityMapping \u003d true → gültig für Diagonale.\n   - Typ 8 (perform): identityMapping \u003d false → gültig für Nicht-Diagonale.\n   - Typ 9 (target): identityMapping \u003d false → gültig für Nicht-Diagonale.\n   - Typ 10 (daughter): identityMapping \u003d false → gültig für Nicht-Diagonale.\n   Alle verwendeten Typen sind in den bereitgestellten Kodierungen vorhanden.\n\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular enthält 4 Einträge, daher ist die Bewertungsmatrix 4×4. Diagonaleinträge enthalten die Typen der Begriffe (1,1)\u003dobject, (2,2)\u003dobject, (3,3)\u003dactivity, (4,4)\u003dcontext. Relationen außerhalb der Diagonalen: (1,2)\u003d10 (Maria hat Tochter), (1,3)\u003d8 (Maria führt \u0027sail\u0027 aus), (2,3)\u003d8 (Tochter führt \u0027sail\u0027 aus), (3,4)\u003d9 (\u0027sail\u0027 hat Ziel \u0027lake\u0027). Alle anderen Einträge sind 0, da keine weiteren Relationen vorliegen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"sail\",\n    \"lake\"\n  ],\n  \"matrix\": [\n    [1, 10, 8, 0],\n    [0, 1, 0, 0],\n    [0, 0, 4, 9],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n\\n2. Relative Verweise wurden aufgelöst: \u0027meine Tochter\u0027 bezieht sich auf die Tochter der Nutzerin Maria, \u0027ich\u0027 bezieht sich direkt auf Maria.\\n\\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027sail\u0027 (Verallgemeinerung des Wortstamms von \u0027fahren Boot\u0027 als Aktivität), \u0027Boot\u0027 wird im Kontext als Teil der Aktivität \u0027sail\u0027 integriert und nicht separat benötigt, \u0027See\u0027 → \u0027lake\u0027.\\n\\n4. Die Selbstreferenzen \u0027ich\u0027 und \u0027meine\u0027 wurden durch die Identifikation \u0027Maria\u0027 ersetzt. Damit wird \u0027Maria\u0027 als eigenständiger Begriff im Vokabular verwendet.\\n\\n5. Attributdefinitionen:\\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, object), da es eine Person bezeichnet.\\n   - \u0027daughter\u0027 ist ein Objekt (Typ 1), da es eine Person bezeichnet.\\n   - \u0027sail\u0027 ist eine Aktivität (Typ 4, activity).\\n   - \u0027lake\u0027 ist ein Kontext (Typ 2, context), da es den Ort der Aktivität beschreibt.\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - \u0027Maria\u0027 hat eine Beziehung \u0027daughter\u0027 zu \u0027daughter\u0027 → Typ 10 (daughter).\\n   - \u0027Maria\u0027 führt die Aktivität \u0027sail\u0027 durch → Typ 8 (perform).\\n   - \u0027daughter\u0027 führt ebenfalls die Aktivität \u0027sail\u0027 durch → zweifache Durchführung durch zwei Personen, ebenfalls Typ 8.\\n   - Die Aktivität \u0027sail\u0027 hat das Ziel oder stattfindet \u0027auf einem See\u0027 → \u0027sail\u0027 hat Bezug zu \u0027lake\u0027 als Ort → Typ 9 (target).\\n   Anmerkung: \u0027Boot\u0027 wird als impliziter Bestandteil der Aktivität \u0027sail\u0027 verstanden und nicht separat im Vokabular aufgeführt, da es nicht notwendig ist, um die Szene korrekt darzustellen.\\n\\n7. Überprüfung der Relationen auf gültige Typkodierungen:\\n   - Typ 1 (object): identityMapping \u003d true → gültig für Diagonale.\\n   - Typ 2 (context): identityMapping \u003d true → gültig für Diagonale.\\n   - Typ 4 (activity): identityMapping \u003d true → gültig für Diagonale.\\n   - Typ 8 (perform): identityMapping \u003d false → gültig für Nicht-Diagonale.\\n   - Typ 9 (target): identityMapping \u003d false → gültig für Nicht-Diagonale.\\n   - Typ 10 (daughter): identityMapping \u003d false → gültig für Nicht-Diagonale.\\n   Alle verwendeten Typen sind in den bereitgestellten Kodierungen vorhanden.\\n\\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular enthält 4 Einträge, daher ist die Bewertungsmatrix 4×4. Diagonaleinträge enthalten die Typen der Begriffe (1,1)\u003dobject, (2,2)\u003dobject, (3,3)\u003dactivity, (4,4)\u003dcontext. Relationen außerhalb der Diagonalen: (1,2)\u003d10 (Maria hat Tochter), (1,3)\u003d8 (Maria führt \u0027sail\u0027 aus), (2,3)\u003d8 (Tochter führt \u0027sail\u0027 aus), (3,4)\u003d9 (\u0027sail\u0027 hat Ziel \u0027lake\u0027). Alle anderen Einträge sind 0, da keine weiteren Relationen vorliegen.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      8,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      14
+    ],
+    [
+      5,
+      9,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027attached\u0027 (id\u003d5) zeigt an, dass der Pool an Maria angebunden ist (Eigentum). Die Aktivität \u0027swim\u0027 (id\u003d4) wird von Maria ausgeführt (perform, id\u003d8), und der Pool ist das Ziel der Aktivität (target, id\u003d9). Das Attribut \u0027own\u0027 (id\u003d4) verbindet Maria mit dem Pool, und das Merkmal \u0027characteristic\u0027 (id\u003d14) beschreibt, dass der Pool die Eigenschaft hat, von Maria besessen zu werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [8, 4, 0, 9],\n    [0, 0, 4, 14],\n    [5, 9, 14, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, der ihr gehört. Die Beziehung \u0027attached\u0027 (id\u003d5) zeigt an, dass der Pool an Maria angebunden ist (Eigentum). Die Aktivität \u0027swim\u0027 (id\u003d4) wird von Maria ausgeführt (perform, id\u003d8), und der Pool ist das Ziel der Aktivität (target, id\u003d9). Das Attribut \u0027own\u0027 (id\u003d4) verbindet Maria mit dem Pool, und das Merkmal \u0027characteristic\u0027 (id\u003d14) beschreibt, dass der Pool die Eigenschaft hat, von Maria besessen zu werden.\"\n}"
+}

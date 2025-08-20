@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und lässt keine sinnvolle Extraktion von Objekten, Attributen oder Aktivitäten zu. Der Ausdruck \u0027Fragen zu malen\u0027 ist semantisch nicht sinnvoll, da \u0027malen\u0027 normalerweise nicht auf \u0027Fragen\u0027 angewendet wird. Zudem fehlt eine klare Handlungsbeschreibung oder Relation zwischen den Begriffen.",
+  "error": "Unklare oder grammatikalisch inkorrekte Anfrage",
+  "responsePlain": "{\"error\":\"Unklare oder grammatikalisch inkorrekte Anfrage\",\"description\":\"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und lässt keine sinnvolle Extraktion von Objekten, Attributen oder Aktivitäten zu. Der Ausdruck \u0027Fragen zu malen\u0027 ist semantisch nicht sinnvoll, da \u0027malen\u0027 normalerweise nicht auf \u0027Fragen\u0027 angewendet wird. Zudem fehlt eine klare Handlungsbeschreibung oder Relation zwischen den Begriffen.\"}"
+}

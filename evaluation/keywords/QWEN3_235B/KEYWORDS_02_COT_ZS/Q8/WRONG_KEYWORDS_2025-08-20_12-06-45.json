@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Meine Tochter und ich fahren Boot auf einem See. Umwandlung der Stichwörter: \u0027Meine Tochter\u0027 wird zu \u0027daughter\u0027, \u0027ich\u0027 bezieht sich auf die Nutzerin Maria, daher wird \u0027Maria\u0027 verwendet. \u0027fahren Boot\u0027 wird als Aktion \u0027ride\u0027 mit Objekt \u0027boat\u0027 interpretiert. \u0027auf einem See\u0027 wird zu \u0027lake\u0027. Verallgemeinerung der Verben: \u0027fahren\u0027 → \u0027ride\u0027. Alle Begriffe wurden korrekt ins Englische übersetzt. Relative Verweise wie \u0027meine\u0027, \u0027ich\u0027 wurden aufgelöst und durch \u0027Maria\u0027 ersetzt, wo nötig.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"description\": \"Meine Tochter und ich fahren Boot auf einem See. Umwandlung der Stichwörter: \u0027Meine Tochter\u0027 wird zu \u0027daughter\u0027, \u0027ich\u0027 bezieht sich auf die Nutzerin Maria, daher wird \u0027Maria\u0027 verwendet. \u0027fahren Boot\u0027 wird als Aktion \u0027ride\u0027 mit Objekt \u0027boat\u0027 interpretiert. \u0027auf einem See\u0027 wird zu \u0027lake\u0027. Verallgemeinerung der Verben: \u0027fahren\u0027 → \u0027ride\u0027. Alle Begriffe wurden korrekt ins Englische übersetzt. Relative Verweise wie \u0027meine\u0027, \u0027ich\u0027 wurden aufgelöst und durch \u0027Maria\u0027 ersetzt, wo nötig.\"\n}"
+}

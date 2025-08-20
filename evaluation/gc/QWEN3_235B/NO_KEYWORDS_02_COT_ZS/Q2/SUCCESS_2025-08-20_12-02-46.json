@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, daher entfällt das Auflösen solcher Verweise.\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigenname), \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinert vom Verb \u0027to run\u0027).\n4. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Nutzeridentifikation \u0027Maria\u0027 ignoriert.\n5. Attributdefinitionen: \u0027Tim\u0027 ist ein Objekt (Typ 1: object), da es eine Entität ist. \u0027run\u0027 ist eine Aktivität (Typ 4: activity).\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Dies wird durch die Beziehung \u0027perform\u0027 ausgedrückt (Typ 8: perform), wobei \u0027Tim\u0027 etwas ausführt (hier: \u0027run\u0027).\n7. Die Relation \u0027perform\u0027 zwischen einem Objekt und einer Aktivität ist in den Typkodierungen mit ID 8 enthalten. Somit ist die Kodierung valide.\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular enthält die englischen Begriffe [\u0027Tim\u0027, \u0027run\u0027]. Die Bewertungsmatrix ist 2x2. Auf der Diagonale stehen die Typen 1 (object) für \u0027Tim\u0027 und 4 (activity) für \u0027run\u0027. Außerhalb der Diagonale steht an Position (0,1) der Wert 8 (perform), was angibt, dass Tim die Aktivität ausführt. Alle Regeln zur Matrixbelegung wurden eingehalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, daher entfällt das Auflösen solcher Verweise.\\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigenname), \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinert vom Verb \u0027to run\u0027).\\n4. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Nutzeridentifikation \u0027Maria\u0027 ignoriert.\\n5. Attributdefinitionen: \u0027Tim\u0027 ist ein Objekt (Typ 1: object), da es eine Entität ist. \u0027run\u0027 ist eine Aktivität (Typ 4: activity).\\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt. Dies wird durch die Beziehung \u0027perform\u0027 ausgedrückt (Typ 8: perform), wobei \u0027Tim\u0027 etwas ausführt (hier: \u0027run\u0027).\\n7. Die Relation \u0027perform\u0027 zwischen einem Objekt und einer Aktivität ist in den Typkodierungen mit ID 8 enthalten. Somit ist die Kodierung valide.\\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Das Vokabular enthält die englischen Begriffe [\u0027Tim\u0027, \u0027run\u0027]. Die Bewertungsmatrix ist 2x2. Auf der Diagonale stehen die Typen 1 (object) für \u0027Tim\u0027 und 4 (activity) für \u0027run\u0027. Außerhalb der Diagonale steht an Position (0,1) der Wert 8 (perform), was angibt, dass Tim die Aktivität ausführt. Alle Regeln zur Matrixbelegung wurden eingehalten.\"\n}"
+}

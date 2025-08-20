@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Gefundene Schlüsselwörter basierend auf der Nutzeranfrage.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Gefundene Schlüsselwörter basierend auf der Nutzeranfrage.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich nicht zweifelsfrei eruieren, ob die Absicht darin besteht, Häuser dabei zu beobachten, wie sie Fragen malen, oder ob es um das Malen von Häusern im Kontext von Fragen geht. Der Ausdruck \u0027Fragen malen\u0027 ist außerdem nicht idiomatisch und lässt keine klare Zuordnung von Objekten, Attributen oder Aktivitäten zu. Daher können keine sinnvollen Stichwörter für ein Vokabular extrahiert werden.",
+  "error": "Unklare Anfragestruktur",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfragestruktur\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch unklar. Es lässt sich nicht zweifelsfrei eruieren, ob die Absicht darin besteht, Häuser dabei zu beobachten, wie sie Fragen malen, oder ob es um das Malen von Häusern im Kontext von Fragen geht. Der Ausdruck \u0027Fragen malen\u0027 ist außerdem nicht idiomatisch und lässt keine klare Zuordnung von Objekten, Attributen oder Aktivitäten zu. Daher können keine sinnvollen Stichwörter für ein Vokabular extrahiert werden.\"\n}"
+}

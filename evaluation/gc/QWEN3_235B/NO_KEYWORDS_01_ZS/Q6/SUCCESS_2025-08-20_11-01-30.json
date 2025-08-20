@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage beschreibt keine Szene im Metaverse, sondern einen organisatorischen Vorgang (Terminabsprache), der keine Objekte, Attribute oder Aktivitäten in einer räumlichen oder inhaltlichen Beziehung im Sinne einer Metaverse-Szene enthält. Es können keine relevanten Begriffe für ein Vokabular extrahiert werden, die den Regeln für die GraphCode-Erstellung genügen.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage beschreibt keine Szene im Metaverse, sondern einen organisatorischen Vorgang (Terminabsprache), der keine Objekte, Attribute oder Aktivitäten in einer räumlichen oder inhaltlichen Beziehung im Sinne einer Metaverse-Szene enthält. Es können keine relevanten Begriffe für ein Vokabular extrahiert werden, die den Regeln für die GraphCode-Erstellung genügen.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

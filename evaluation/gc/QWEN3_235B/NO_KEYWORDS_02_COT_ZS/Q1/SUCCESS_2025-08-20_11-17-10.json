@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Nutzeridentifikation).\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, \u0027Maria\u0027 bleibt erhalten.\n4. Der Verweis \u0027Ich\u0027 wird ersetzt durch \u0027Maria\u0027.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist eine Person, also ein Objekt (Typ 1: object).\n   - \u0027play\u0027 ist eine Tätigkeit (Typ 4: activity).\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1: object).\n6. Relationen: \n   - Maria führt die Handlung \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ 8) von Maria zu play.\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (Typ 9) von play zu basketball.\n7. Prüfung der Typkodierungen: \n   - \u0027perform\u0027 (id\u003d8, identityMapping\u003dfalse) existiert → verwendbar außerhalb Diagonale.\n   - \u0027target\u0027 (id\u003d9, identityMapping\u003dfalse) existiert → verwendbar außerhalb Diagonale.\n   - \u0027object\u0027 (id\u003d1, identityMapping\u003dtrue) für Maria und basketball → verwendbar in Diagonale.\n   - \u0027activity\u0027 (id\u003d4, identityMapping\u003dtrue) für play → verwendbar in Diagonale.\n   → Alle benötigten Typkodierungen sind vorhanden.\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Vokabular mit 3 Einträgen, 3x3-Bewertungsmatrix mit korrekten Typzuweisungen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Nutzeridentifikation).\\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, \u0027Maria\u0027 bleibt erhalten.\\n4. Der Verweis \u0027Ich\u0027 wird ersetzt durch \u0027Maria\u0027.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist eine Person, also ein Objekt (Typ 1: object).\\n   - \u0027play\u0027 ist eine Tätigkeit (Typ 4: activity).\\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1: object).\\n6. Relationen: \\n   - Maria führt die Handlung \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ 8) von Maria zu play.\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (Typ 9) von play zu basketball.\\n7. Prüfung der Typkodierungen: \\n   - \u0027perform\u0027 (id\u003d8, identityMapping\u003dfalse) existiert → verwendbar außerhalb Diagonale.\\n   - \u0027target\u0027 (id\u003d9, identityMapping\u003dfalse) existiert → verwendbar außerhalb Diagonale.\\n   - \u0027object\u0027 (id\u003d1, identityMapping\u003dtrue) für Maria und basketball → verwendbar in Diagonale.\\n   - \u0027activity\u0027 (id\u003d4, identityMapping\u003dtrue) für play → verwendbar in Diagonale.\\n   → Alle benötigten Typkodierungen sind vorhanden.\\n8. Der GraphCode wurde erfolgreich zusammengesetzt: Vokabular mit 3 Einträgen, 3x3-Bewertungsmatrix mit korrekten Typzuweisungen.\"\n}"
+}

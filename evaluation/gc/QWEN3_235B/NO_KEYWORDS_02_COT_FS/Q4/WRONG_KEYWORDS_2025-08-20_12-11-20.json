@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\".\n         2. Es gibt keine relativen Verweise.\n         3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\".\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\".\n         5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität.\n         6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" hat als Ort den \"pool\" (Befindet-sich-in-Beziehung). Die Aktivität \"swim\" bezieht sich also auf den \"pool\".\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für die Beziehung \"in\" fehlt, jedoch ist in den vorgegebenen Typkodierungen stattdessen die Beziehung \"under\" (6), \"above\" (7) und \"attached\" (5) vorhanden, jedoch nicht \"in\". Allerdings wird in der Anfrage „ich schwimme in meinem Pool“ die räumliche Beziehung „in“ impliziert. Die vorgegebenen Typkodierungen enthalten jedoch keinen Eintrag für „in“. Somit fehlt eine geeignete Kodierung für diese Relation. Dieser Fehler wurde zuvor übersehen. Korrektur: In den vorgegebenen Typkodierungen ist kein Eintrag für die Beziehung „in“ vorhanden. Mögliche räumliche Beziehungen sind nur „under“ (6), „above“ (7) und „attached“ (5). Daher kann die Beziehung „in“ nicht abgebildet werden. Es muss ein Fehler ausgegeben werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\".\\n         2. Es gibt keine relativen Verweise.\\n         3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\".\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n         5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität.\\n         6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" hat als Ort den \\\"pool\\\" (Befindet-sich-in-Beziehung). Die Aktivität \\\"swim\\\" bezieht sich also auf den \\\"pool\\\".\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für die Beziehung \\\"in\\\" fehlt, jedoch ist in den vorgegebenen Typkodierungen stattdessen die Beziehung \\\"under\\\" (6), \\\"above\\\" (7) und \\\"attached\\\" (5) vorhanden, jedoch nicht \\\"in\\\". Allerdings wird in der Anfrage „ich schwimme in meinem Pool“ die räumliche Beziehung „in“ impliziert. Die vorgegebenen Typkodierungen enthalten jedoch keinen Eintrag für „in“. Somit fehlt eine geeignete Kodierung für diese Relation. Dieser Fehler wurde zuvor übersehen. Korrektur: In den vorgegebenen Typkodierungen ist kein Eintrag für die Beziehung „in“ vorhanden. Mögliche räumliche Beziehungen sind nur „under“ (6), „above“ (7) und „attached“ (5). Daher kann die Beziehung „in“ nicht abgebildet werden. Es muss ein Fehler ausgegeben werden.\"\n}"
+}

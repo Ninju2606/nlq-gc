@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \nFEHLER:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \nDie!Anfrage!ist!nicht!eindeutig!zum!Zeitpunkt!des!Handelns:!„schwimme“!könnte!sich!auf!ein!laufendes!Ereignis!beziehen!oder!eine!allgemeine!Tätigkeit!beschreiben,!  \nwas!im!K!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n  \n{\"error\":\"Mehrdeutigkeit in der Handlungsbeschreibung\",\"description\":\"Die Angabe \u0027schwimme\u0027 ist grammatisch nicht eindeutig im Kontext der gegenwärtigen Szene. Es ist unklar, ob es sich um eine generische Handlung, einen laufenden Vorgang oder eine hypothetische Situation handelt, was für die Generierung eines sinnvollen GraphCodes zu wenig präzise ist.\"}"
+}

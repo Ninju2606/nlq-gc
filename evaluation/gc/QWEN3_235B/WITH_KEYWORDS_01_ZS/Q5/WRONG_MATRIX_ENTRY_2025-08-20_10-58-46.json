@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "GraphCode beschreibt die Szene: Maria (Objekt) führt die Aktivität \u0027tragen\u0027 aus, deren Ziel ein Hut (Objekt) ist. Der Hut besitzt das charakteristische Attribut \u0027gelb\u0027 (als Objekt typisiert, da keine passende Diagonalen-Kodierung für Attribute mit identityMapping\u003dtrue existiert). Beziehungen: \u0027perform\u0027 (8) zwischen Maria und Tragen, \u0027target\u0027 (9) zwischen Tragen und Hut, \u0027characteristic\u0027 (14) zwischen Hut und Gelb.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode beschreibt die Szene: Maria (Objekt) führt die Aktivität \u0027tragen\u0027 aus, deren Ziel ein Hut (Objekt) ist. Der Hut besitzt das charakteristische Attribut \u0027gelb\u0027 (als Objekt typisiert, da keine passende Diagonalen-Kodierung für Attribute mit identityMapping\u003dtrue existiert). Beziehungen: \u0027perform\u0027 (8) zwischen Maria und Tragen, \u0027target\u0027 (9) zwischen Tragen und Hut, \u0027characteristic\u0027 (14) zwischen Hut und Gelb.\"\n}"
+}

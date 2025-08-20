@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Relation \u0027in\u0027 ist nicht in den vorgegebenen Typkodierungen enthalten. Mögliche Relationen sind: attached, under, above, perform, target, daughter, characteristic.",
+  "error": "Die Relation \u0027in\u0027 ist nicht bekannt.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \u0027in\u0027 ist nicht bekannt.\",\n  \"description\": \"Die Relation \u0027in\u0027 ist nicht in den vorgegebenen Typkodierungen enthalten. Mögliche Relationen sind: attached, under, above, perform, target, daughter, characteristic.\"\n}"
+}

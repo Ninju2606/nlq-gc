@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \n**ERROR: The model attempted to call an external tool, but tool calling is disabled.**  \nPlease ensure that no function calls or tool invocations (e.g., `search`, `calculate`, etc.) are made.  \nContinue with pure reasoning.  \n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+}

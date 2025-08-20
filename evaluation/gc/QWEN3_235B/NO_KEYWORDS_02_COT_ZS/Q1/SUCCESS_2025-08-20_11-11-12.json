@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Nutzeridentifikation).\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation bleibt gleich), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027 (bleibt gleich, Eigenname).\n4. Die Selbstreferenz \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist eine Person, also vom Typ \u0027object\u0027 (ID 1, identityMapping\u003dtrue).\n   - \u0027play\u0027 ist eine Handlung, also vom Typ \u0027activity\u0027 (ID 4, identityMapping\u003dtrue).\n   - \u0027basketball\u0027 ist ein Objekt, also vom Typ \u0027object\u0027 (ID 1, identityMapping\u003dtrue).\n6. Relationen:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Maria performs play) → Typ 8.\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (play targets basketball) → Typ 9.\n   - \u0027Maria\u0027 und \u0027basketball\u0027 stehen direkt nicht in Relation, daher 0.\n7. Überprüfung der Relationen:\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → gültig für (Maria, play) → Eintrag (0,1) \u003d 8.\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → gültig für (play, basketball) → Eintrag (1,2) \u003d 9.\n   - Alle weiteren Relationen sind entweder diagonal (Typen) oder 0, wo keine Beziehung besteht.\n   - Diagonale: \n     - (0,0): \u0027Maria\u0027 → \u0027object\u0027 → ID 1 (erlaubt, identityMapping\u003dtrue)\n     - (1,1): \u0027play\u0027 → \u0027activity\u0027 → ID 4 (erlaubt, identityMapping\u003dtrue)\n     - (2,2): \u0027basketball\u0027 → \u0027object\u0027 → ID 1 (erlaubt, identityMapping\u003dtrue)\n   - Alle Typen sind in der vorgegebenen Liste enthalten. Kein Fehler.\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Nutzeridentifikation).\\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation bleibt gleich), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 → \u0027basketball\u0027 (bleibt gleich, Eigenname).\\n4. Die Selbstreferenz \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist eine Person, also vom Typ \u0027object\u0027 (ID 1, identityMapping\u003dtrue).\\n   - \u0027play\u0027 ist eine Handlung, also vom Typ \u0027activity\u0027 (ID 4, identityMapping\u003dtrue).\\n   - \u0027basketball\u0027 ist ein Objekt, also vom Typ \u0027object\u0027 (ID 1, identityMapping\u003dtrue).\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Maria performs play) → Typ 8.\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (play targets basketball) → Typ 9.\\n   - \u0027Maria\u0027 und \u0027basketball\u0027 stehen direkt nicht in Relation, daher 0.\\n7. Überprüfung der Relationen:\\n   - \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → gültig für (Maria, play) → Eintrag (0,1) \u003d 8.\\n   - \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → gültig für (play, basketball) → Eintrag (1,2) \u003d 9.\\n   - Alle weiteren Relationen sind entweder diagonal (Typen) oder 0, wo keine Beziehung besteht.\\n   - Diagonale: \\n     - (0,0): \u0027Maria\u0027 → \u0027object\u0027 → ID 1 (erlaubt, identityMapping\u003dtrue)\\n     - (1,1): \u0027play\u0027 → \u0027activity\u0027 → ID 4 (erlaubt, identityMapping\u003dtrue)\\n     - (2,2): \u0027basketball\u0027 → \u0027object\u0027 → ID 1 (erlaubt, identityMapping\u003dtrue)\\n   - Alle Typen sind in der vorgegebenen Liste enthalten. Kein Fehler.\\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt.\"\n}"
+}

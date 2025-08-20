@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die relevanten Stichwörter sind \"Tim\", \"rennt\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \"Tim\", \"run\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Tim\", \"run\". Da keine selbstidentifizierenden Wörter wie \"ich\" oder \"mein\" vorkommen, wird die Identifikation Maria ignoriert.\n5. \"Tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität.\n6. \"Tim\" führt die Aktivität \"run\" aus.\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für target ist 9. Auf der Hauptdiagonalen stehen die Typen: Eintrag (1,1) für \"Tim\" ist 1 (object), Eintrag (2,2) für \"run\" ist 4 (activity). Die Beziehung \"Tim führt run aus\" wird durch Matrixeintrag (1,2) \u003d 8 (perform) dargestellt. Alle verwendeten Typkodierungen existieren in der vorgegebenen Liste.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [5, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Tim\\\", \\\"rennt\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"Tim\\\", \\\"run\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Tim\\\", \\\"run\\\". Da keine selbstidentifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" vorkommen, wird die Identifikation Maria ignoriert.\\n5. \\\"Tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität.\\n6. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus.\\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für target ist 9. Auf der Hauptdiagonalen stehen die Typen: Eintrag (1,1) für \\\"Tim\\\" ist 1 (object), Eintrag (2,2) für \\\"run\\\" ist 4 (activity). Die Beziehung \\\"Tim führt run aus\\\" wird durch Matrixeintrag (1,2) \u003d 8 (perform) dargestellt. Alle verwendeten Typkodierungen existieren in der vorgegebenen Liste.\"\n}"
+}

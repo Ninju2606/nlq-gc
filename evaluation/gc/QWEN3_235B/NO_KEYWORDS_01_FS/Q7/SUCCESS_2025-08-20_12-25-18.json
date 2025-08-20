@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Formulierung \u0027Häuser um Fragen zu malen\u0027 enthält eine widersprüchliche Satzstruktur (Präposition \u0027um...zu\u0027 mit nicht zuzuordnendem Zweck) und semantisch unmögliche Handlungsbeziehungen (Häuser können keine Fragen malen). Es fehlen klare Objekte, Attribute oder Aktivitäten für einen GraphCode.",
+  "error": "Die Anfrage ist grammatikalisch inkorrekt oder semantisch unklar. Es lässt sich keine sinnvolle Szenenbeschreibung im Metaverse ableiten.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch inkorrekt oder semantisch unklar. Es lässt sich keine sinnvolle Szenenbeschreibung im Metaverse ableiten.\",\n  \"description\": \"Die Formulierung \u0027Häuser um Fragen zu malen\u0027 enthält eine widersprüchliche Satzstruktur (Präposition \u0027um...zu\u0027 mit nicht zuzuordnendem Zweck) und semantisch unmögliche Handlungsbeziehungen (Häuser können keine Fragen malen). Es fehlen klare Objekte, Attribute oder Aktivitäten für einen GraphCode.\"\n}"
+}

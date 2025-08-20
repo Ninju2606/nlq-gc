@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter: Tochter, ich, fahren, Boot, See. Relative Verweise gelöst: \u0027ich\u0027 durch Benutzer-ID \u0027Maria\u0027 ersetzt, \u0027meine Tochter\u0027 als Verweis auf Maria\u0027s Tochter interpretiert. Übersetzung ins Englische: Maria (Name bleibt unverändert), daughter, ride (Grundform von fahren), boat, lake. Benutzeridentifikation korrekt in Stichwörtern angewendet. Alle Begriffe verallgemeinert und grammatikalisch bereinigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"ride\", \"boat\", \"lake\"],\n  \"description\": \"Potenzielle Stichwörter: Tochter, ich, fahren, Boot, See. Relative Verweise gelöst: \u0027ich\u0027 durch Benutzer-ID \u0027Maria\u0027 ersetzt, \u0027meine Tochter\u0027 als Verweis auf Maria\u0027s Tochter interpretiert. Übersetzung ins Englische: Maria (Name bleibt unverändert), daughter, ride (Grundform von fahren), boat, lake. Benutzeridentifikation korrekt in Stichwörtern angewendet. Alle Begriffe verallgemeinert und grammatikalisch bereinigt.\"\n}"
+}

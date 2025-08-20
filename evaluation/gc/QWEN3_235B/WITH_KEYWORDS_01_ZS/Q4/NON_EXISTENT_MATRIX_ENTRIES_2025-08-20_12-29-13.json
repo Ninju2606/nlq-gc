@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      9,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in ihrem Pool. Die Szene beschreibt eine Nutzerin (Maria), die eine Aktivität (schwimmen) ausführt, die mit einem Objekt (Pool) in Beziehung steht, das ihr gehört. Der GraphCode bildet die semantischen Beziehungen zwischen den Begriffen ab.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 0, 5],\n    [0, 9, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in ihrem Pool. Die Szene beschreibt eine Nutzerin (Maria), die eine Aktivität (schwimmen) ausführt, die mit einem Objekt (Pool) in Beziehung steht, das ihr gehört. Der GraphCode bildet die semantischen Beziehungen zwischen den Begriffen ab.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter: schwimme, Pool, mir. Relative Verweise aufgelöst: \u0027mir\u0027 → Maria. Übersetzung ins Englische: swim, pool, Maria.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"description\": \"Potenzielle Stichwörter: schwimme, Pool, mir. Relative Verweise aufgelöst: \u0027mir\u0027 → Maria. Übersetzung ins Englische: swim, pool, Maria.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      9
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch die Typkodierung \u0027attached\u0027 (ID 5 → ID 14 in echten Kodierungen: \u0027attached\u0027 hat ID 5, aber hier korrigiert auf ID 6 gemäß Aufgabenstellung nicht vorhanden; jedoch ist \u0027attached\u0027 mit ID 5 in der Liste → Problem).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 5, 9],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027in\u0027 wird durch die Typkodierung \u0027attached\u0027 (ID 5 → ID 14 in echten Kodierungen: \u0027attached\u0027 hat ID 5, aber hier korrigiert auf ID 6 gemäß Aufgabenstellung nicht vorhanden; jedoch ist \u0027attached\u0027 mit ID 5 in der Liste → Problem).\"\n}"
+}

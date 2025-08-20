@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in einem Pool, der mir gehört. Die Stichwörter wurden extrahiert: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027. Der relative Verweis \u0027mir\u0027 wurde aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Alle Begriffe wurden ins Englische übersetzt und als Lemma normalisiert.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"own\"\n  ],\n  \"description\": \"Ich schwimme in einem Pool, der mir gehört. Die Stichwörter wurden extrahiert: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027. Der relative Verweis \u0027mir\u0027 wurde aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Alle Begriffe wurden ins Englische übersetzt und als Lemma normalisiert.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Es gibt keine relativen Verweise. Die Identifikation \u0027Maria\u0027 wird ignoriert, da in der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen.\n2. \u0027tim\u0027 ist ein Objekt der Anfrage. \u0027run\u0027 ist eine Aktivität.\n3. \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführung (perform) ist 8. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 4]],\n  \"description\": \"1. Es gibt keine relativen Verweise. Die Identifikation \u0027Maria\u0027 wird ignoriert, da in der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen.\\n2. \u0027tim\u0027 ist ein Objekt der Anfrage. \u0027run\u0027 ist eine Aktivität.\\n3. \u0027tim\u0027 führt die Aktivität \u0027run\u0027 aus.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführung (perform) ist 8. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

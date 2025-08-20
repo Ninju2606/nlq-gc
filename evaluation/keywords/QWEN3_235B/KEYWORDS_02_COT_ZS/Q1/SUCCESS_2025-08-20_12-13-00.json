@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich spiele Basketball. Die Anfrage enthält ein Verb (spiele) und ein Objekt (Basketball), sowie eine Selbstreferenz (ich). Die Selbstreferenz wird durch den Namen der Nutzerin, Maria, ersetzt. Die Wörter wurden verallgemeinert (spiele → play) und ins Englische übersetzt. Es liegen klare, sinnvolle Stichwörter vor, die eine Szene im Metaverse beschreiben.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"Ich spiele Basketball. Die Anfrage enthält ein Verb (spiele) und ein Objekt (Basketball), sowie eine Selbstreferenz (ich). Die Selbstreferenz wird durch den Namen der Nutzerin, Maria, ersetzt. Die Wörter wurden verallgemeinert (spiele → play) und ins Englische übersetzt. Es liegen klare, sinnvolle Stichwörter vor, die eine Szene im Metaverse beschreiben.\"\n}"
+}

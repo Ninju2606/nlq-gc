@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Relative Verweise wie \u0027mir\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Übersetzung ins Englische erfolgt mit Verallgemeinerung der Wortstämme: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027. Da \u0027mir\u0027 auf den Anfragenden verweist, wurde das Subjekt \u0027ich\u0027 als \u0027Maria\u0027 im Vokabular berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"own\"\n  ],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Relative Verweise wie \u0027mir\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Übersetzung ins Englische erfolgt mit Verallgemeinerung der Wortstämme: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027. Da \u0027mir\u0027 auf den Anfragenden verweist, wurde das Subjekt \u0027ich\u0027 als \u0027Maria\u0027 im Vokabular berücksichtigt.\"\n}"
+}

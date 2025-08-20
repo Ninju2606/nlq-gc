@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch verwirrend und unklar. Es ist nicht deutlich, welche Beziehung zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 bestehen soll. Die Handlung oder Szene im Metaverse lässt sich nicht sinnvoll interpretieren.",
+  "error": "Die Anfrage ist grammatikalisch verwirrend und unklar. Es ist nicht deutlich, welche Beziehung zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 bestehen soll. Die Handlung oder Szene im Metaverse lässt sich nicht sinnvoll interpretieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch verwirrend und unklar. Es ist nicht deutlich, welche Beziehung zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 bestehen soll. Die Handlung oder Szene im Metaverse lässt sich nicht sinnvoll interpretieren.\",\n  \"description\": \"Die Anfrage ist grammatikalisch verwirrend und unklar. Es ist nicht deutlich, welche Beziehung zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 bestehen soll. Die Handlung oder Szene im Metaverse lässt sich nicht sinnvoll interpretieren.\"\n}"
+}

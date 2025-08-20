@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \"wir\" wurde zur Benutzeridentifikation \"Maria\" aufgelöst.\n2. \"maria\" und \"appointment\" sind Objekte der Anfrage. \"make\" ist eine Aktivität.\n3. \"maria\" führt die Aktivität \"make\" aus. \"make\" bezieht sich auf \"appointment\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [[1, 8, 0], [0, 4, 9], [0, 0, 1]],\n  \"description\": \"1. Der relative Verweis \\\"wir\\\" wurde zur Benutzeridentifikation \\\"Maria\\\" aufgelöst.\\n2. \\\"maria\\\" und \\\"appointment\\\" sind Objekte der Anfrage. \\\"make\\\" ist eine Aktivität.\\n3. \\\"maria\\\" führt die Aktivität \\\"make\\\" aus. \\\"make\\\" bezieht sich auf \\\"appointment\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9.\"\n}"
+}

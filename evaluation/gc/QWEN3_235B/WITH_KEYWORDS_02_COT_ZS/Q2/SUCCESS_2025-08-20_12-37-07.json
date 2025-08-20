@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Die Anfrage \u0027Tim rennt\u0027 enthält keine selbstbezugnehmenden Begriffe wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation des Nutzers (Maria) ignoriert.\n\n2. Die Attributeigenschaften der Stichwörter werden wie folgt ermittelt:\n   - \u0027tim\u0027: Dies ist ein Subjekt, das eine Person im Metaverse bezeichnet. Es handelt sich um ein Objekt, daher wird der Typ \u0027object\u0027 (ID 1) verwendet.\n   - \u0027run\u0027: Dies beschreibt eine Handlung oder Aktion. Es handelt sich um eine Aktivität, daher wird der Typ \u0027activity\u0027 (ID 4) verwendet.\n\n3. Die Relation zwischen den Stichwörtern ist, dass \u0027tim\u0027 die Aktion \u0027run\u0027 ausführt. Diese semantische Beziehung wird durch die Beziehung \u0027perform\u0027 ausgedrückt – das Subjekt führt die Aktivität aus. Entsprechend wird die Beziehung von \u0027tim\u0027 zu \u0027run\u0027 als \u0027perform\u0027 kodiert.\n\n4. Überprüfung der Typkodierungen:\n   - Für \u0027tim\u0027 als \u0027object\u0027 (ID 1) mit identityMapping\u003dtrue → gültig auf Diagonale.\n   - Für \u0027run\u0027 als \u0027activity\u0027 (ID 4) mit identityMapping\u003dtrue → gültig auf Diagonale.\n   - Für die Relation \u0027tim perform run\u0027 → \u0027perform\u0027 hat ID 8 und identityMapping\u003dfalse → gültig außerhalb der Diagonalen.\n   Alle benötigten Typkodierungen existieren.\n\n5. Der GraphCode wurde erfolgreich aus dem vorgegebenen Vokabular und der Bewertungsmatrix erstellt. Die Matrix ist 2x2, da zwei Stichwörter vorliegen. Die Diagonale (1,4) gibt die Typen von \u0027tim\u0027 und \u0027run\u0027 an. Der Eintrag (0,1) \u003d 8 kodiert die Beziehung \u0027tim perform run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Die Anfrage \u0027Tim rennt\u0027 enthält keine selbstbezugnehmenden Begriffe wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation des Nutzers (Maria) ignoriert.\\n\\n2. Die Attributeigenschaften der Stichwörter werden wie folgt ermittelt:\\n   - \u0027tim\u0027: Dies ist ein Subjekt, das eine Person im Metaverse bezeichnet. Es handelt sich um ein Objekt, daher wird der Typ \u0027object\u0027 (ID 1) verwendet.\\n   - \u0027run\u0027: Dies beschreibt eine Handlung oder Aktion. Es handelt sich um eine Aktivität, daher wird der Typ \u0027activity\u0027 (ID 4) verwendet.\\n\\n3. Die Relation zwischen den Stichwörtern ist, dass \u0027tim\u0027 die Aktion \u0027run\u0027 ausführt. Diese semantische Beziehung wird durch die Beziehung \u0027perform\u0027 ausgedrückt – das Subjekt führt die Aktivität aus. Entsprechend wird die Beziehung von \u0027tim\u0027 zu \u0027run\u0027 als \u0027perform\u0027 kodiert.\\n\\n4. Überprüfung der Typkodierungen:\\n   - Für \u0027tim\u0027 als \u0027object\u0027 (ID 1) mit identityMapping\u003dtrue → gültig auf Diagonale.\\n   - Für \u0027run\u0027 als \u0027activity\u0027 (ID 4) mit identityMapping\u003dtrue → gültig auf Diagonale.\\n   - Für die Relation \u0027tim perform run\u0027 → \u0027perform\u0027 hat ID 8 und identityMapping\u003dfalse → gültig außerhalb der Diagonalen.\\n   Alle benötigten Typkodierungen existieren.\\n\\n5. Der GraphCode wurde erfolgreich aus dem vorgegebenen Vokabular und der Bewertungsmatrix erstellt. Die Matrix ist 2x2, da zwei Stichwörter vorliegen. Die Diagonale (1,4) gibt die Typen von \u0027tim\u0027 und \u0027run\u0027 an. Der Eintrag (0,1) \u003d 8 kodiert die Beziehung \u0027tim perform run\u0027.\"\n}"
+}

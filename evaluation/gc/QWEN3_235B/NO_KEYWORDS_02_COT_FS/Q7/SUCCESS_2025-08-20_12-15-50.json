@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage \"Häuser um Fragen zu malen\" sprachlich inkorrekt und semantisch unklar ist. Möglicherweise ist eine falsche Präposition oder falsche Wortstellung vorhanden (z. B. statt \"um\" eher \"zum\" oder \"beim\"). Ohne klare Bedeutung kann kein korrekter GraphCode erstellt werden.",
+  "error": "Die Anfrage ist grammatikalisch nicht sinnvoll verständlich. Der Ausdruck \"Häuser um Fragen zu malen\" ergibt im Kontext keine klare Szenenbeschreibung.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch nicht sinnvoll verständlich. Der Ausdruck \\\"Häuser um Fragen zu malen\\\" ergibt im Kontext keine klare Szenenbeschreibung.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage \\\"Häuser um Fragen zu malen\\\" sprachlich inkorrekt und semantisch unklar ist. Möglicherweise ist eine falsche Präposition oder falsche Wortstellung vorhanden (z. B. statt \\\"um\\\" eher \\\"zum\\\" oder \\\"beim\\\"). Ohne klare Bedeutung kann kein korrekter GraphCode erstellt werden.\"\n}"
+}

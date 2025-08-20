@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      14,
+      7,
+      0
+    ],
+    [
+      0,
+      14,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\n2. Relativer Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist eine Person (object, ID 1), daher Typ 1 auf Diagonale.\n   - \u0027yellow\u0027 ist ein Attribut (characteristic, ID 14), beschreibt Farbe.\n   - \u0027hat\u0027 ist ein Objekt (object, ID 1), daher Typ 1 auf Diagonale.\n   - \u0027wear\u0027 ist eine Aktivität (activity, ID 4), daher Typ 4 auf Diagonale.\n6. Relationen:\n   - Maria führt die Aktivität \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu wear.\n   - \u0027yellow\u0027 charakterisiert \u0027hat\u0027 → Relation \u0027characteristic\u0027 (ID 14) in beide Richtungen (symmetrisch interpretiert).\n   - \u0027hat\u0027 ist am Tragen beteiligt → \u0027attached\u0027 (ID 5) zwischen hat und wear.\n   - \u0027wear\u0027 hat \u0027hat\u0027 als Ziel → Relation \u0027target\u0027 (ID 9) von wear zu hat.\n   - \u0027hat\u0027 ist über dem Kopf (implizit), aber da keine räumliche Angabe explizit, wird nur \u0027above\u0027 (ID 7) zwischen yellow und hat nicht logisch zugeordnet – stattdessen: \u0027yellow\u0027 beschreibt \u0027hat\u0027, daher characteristic.\n7. Alle verwendeten Relationen haben passende Typkodierungen:\n   - \u0027perform\u0027 → ID 8 (identityMapping\u003dfalse)\n   - \u0027characteristic\u0027 → ID 14 (identityMapping\u003dfalse)\n   - \u0027attached\u0027 → ID 5 (identityMapping\u003dfalse)\n   - \u0027target\u0027 → ID 9 (identityMapping\u003dfalse)\n   - Diagonale: object\u003d1, characteristic\u003d14, object\u003d1, activity\u003d4 → alle erlaubt (identityMapping\u003dtrue).\n   → Keine fehlenden Typkodierungen.\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"yellow\",\n    \"hat\",\n    \"wear\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      14,\n      7,\n      0\n    ],\n    [\n      0,\n      14,\n      1,\n      5\n    ],\n    [\n      0,\n      0,\n      9,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Relativer Verweis \u0027ich\u0027 wird aufgelöst zu \u0027Maria\u0027 (Identifikation des Nutzers).\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist eine Person (object, ID 1), daher Typ 1 auf Diagonale.\\n   - \u0027yellow\u0027 ist ein Attribut (characteristic, ID 14), beschreibt Farbe.\\n   - \u0027hat\u0027 ist ein Objekt (object, ID 1), daher Typ 1 auf Diagonale.\\n   - \u0027wear\u0027 ist eine Aktivität (activity, ID 4), daher Typ 4 auf Diagonale.\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027wear\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu wear.\\n   - \u0027yellow\u0027 charakterisiert \u0027hat\u0027 → Relation \u0027characteristic\u0027 (ID 14) in beide Richtungen (symmetrisch interpretiert).\\n   - \u0027hat\u0027 ist am Tragen beteiligt → \u0027attached\u0027 (ID 5) zwischen hat und wear.\\n   - \u0027wear\u0027 hat \u0027hat\u0027 als Ziel → Relation \u0027target\u0027 (ID 9) von wear zu hat.\\n   - \u0027hat\u0027 ist über dem Kopf (implizit), aber da keine räumliche Angabe explizit, wird nur \u0027above\u0027 (ID 7) zwischen yellow und hat nicht logisch zugeordnet – stattdessen: \u0027yellow\u0027 beschreibt \u0027hat\u0027, daher characteristic.\\n7. Alle verwendeten Relationen haben passende Typkodierungen:\\n   - \u0027perform\u0027 → ID 8 (identityMapping\u003dfalse)\\n   - \u0027characteristic\u0027 → ID 14 (identityMapping\u003dfalse)\\n   - \u0027attached\u0027 → ID 5 (identityMapping\u003dfalse)\\n   - \u0027target\u0027 → ID 9 (identityMapping\u003dfalse)\\n   - Diagonale: object\u003d1, characteristic\u003d14, object\u003d1, activity\u003d4 → alle erlaubt (identityMapping\u003dtrue).\\n   → Keine fehlenden Typkodierungen.\\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt.\"\n}"
+}

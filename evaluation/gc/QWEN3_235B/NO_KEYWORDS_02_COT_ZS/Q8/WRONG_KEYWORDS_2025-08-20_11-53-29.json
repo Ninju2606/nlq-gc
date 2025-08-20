@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      5,
+      2,
+      8
+    ],
+    [
+      10,
+      1,
+      5,
+      2,
+      8
+    ],
+    [
+      5,
+      5,
+      1,
+      2,
+      8
+    ],
+    [
+      2,
+      2,
+      2,
+      1,
+      8
+    ],
+    [
+      8,
+      8,
+      8,
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027meine\u0027, \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027.\n\n2. Relative Verweise werden aufgelöst: \u0027meine Tochter\u0027 → Beziehung zwischen dem Nutzer und \u0027Tochter\u0027; \u0027ich\u0027 → bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027. \u0027meine\u0027 und \u0027ich\u0027 werden durch die Identifikation \u0027Maria\u0027 ersetzt.\n\n4. Die Selbstreferenzen \u0027meine\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 ersetzt. Somit ergibt sich: \u0027Maria\u0027, \u0027daughter\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027.\n\n5. Attributeigenschaften werden zugewiesen:\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Person bezeichnet.\n   - \u0027daughter\u0027 ist ebenfalls ein Objekt, jedoch mit der relationalen Bedeutung \u0027daughter\u0027 (Typ 10: daughter), die eine spezifische Beziehung zu \u0027Maria\u0027 beschreibt.\n   - \u0027boat\u0027 ist ein Objekt (Typ 1), das ein physisches Objekt darstellt.\n   - \u0027lake\u0027 ist ein Kontext (Typ 2: context), da es den Ort der Handlung angibt.\n   - \u0027ride\u0027 ist eine Aktivität (Typ 4: activity).\n\n6. Relationen zwischen den Stichwörtern:\n   - Maria → daughter: Beziehung \u0027daughter\u0027 (Typ 10), da es sich um die Tochter der Nutzerin handelt.\n   - Maria → ride: Maria führt die Aktivität \u0027ride\u0027 aus (Typ 8: perform).\n   - daughter → ride: Auch die Tochter führt die Aktivität \u0027ride\u0027 aus (Typ 8: perform).\n   - ride → boat: Die Aktivität \u0027ride\u0027 bezieht sich auf das Objekt \u0027boat\u0027 (Typ 9: target).\n   - boat → lake: Das Boot befindet sich auf dem See, also räumliche Beziehung \u0027above\u0027 (Typ 7: above) oder \u0027on\u0027 (hier: \u0027above\u0027 als Oberbegriff für \u0027auf\u0027)\n   - ride → lake: Die Aktivität findet im Kontext \u0027lake\u0027 statt (Typ 2: context).\n   Zusätzlich: boat ist \u0027attached\u0027 (Typ 5) an den Kontext lake als Ort.\n\n7. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (1), \u0027context\u0027 (2), \u0027daughter\u0027 (10), \u0027perform\u0027 (8), \u0027attached\u0027 (5), \u0027target\u0027 (9) sind alle in den vorgegebenen Typkodierungen enthalten. \n   - \u0027above\u0027 (7) ist vorhanden, wird aber hier nicht benötigt, da \u0027attached\u0027 (5) für Objekt-Kontext-Zuweisung ausreicht.\n   - Alle benötigten Relationen können abgebildet werden.\n\n8. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular enthält alle englischen Begriffe, die Matrix ist 5x5. Auf der Diagonalen stehen die Typen der Begriffe (1 für Objekte, 4 für Aktivität, 2 für Kontext). Außerhalb der Diagonalen werden die Relations-Typen eingetragen. Dabei gilt: perform (8) von Maria und daughter zur Aktivität ride; target (9) von ride zum boat; attached (5) von boat zum lake; daughter (10) von Maria zu daughter; context (2) von ride, boat und daughter zum lake. Die Matrix wurde entsprechend gefüllt, unter Einhaltung der identityMapping-Regeln (nur Typen mit identityMapping\u003dtrue auf Diagonale, alle anderen außerhalb).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"ride\"],\n  \"matrix\": [\n    [1, 10, 5, 2, 8],\n    [10, 1, 5, 2, 8],\n    [5, 5, 1, 2, 8],\n    [2, 2, 2, 1, 8],\n    [8, 8, 8, 8, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027meine\u0027, \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027.\\n\\n2. Relative Verweise werden aufgelöst: \u0027meine Tochter\u0027 → Beziehung zwischen dem Nutzer und \u0027Tochter\u0027; \u0027ich\u0027 → bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n\\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027fahren\u0027 → \u0027ride\u0027, \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027. \u0027meine\u0027 und \u0027ich\u0027 werden durch die Identifikation \u0027Maria\u0027 ersetzt.\\n\\n4. Die Selbstreferenzen \u0027meine\u0027 und \u0027ich\u0027 werden durch \u0027Maria\u0027 ersetzt. Somit ergibt sich: \u0027Maria\u0027, \u0027daughter\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n\\n5. Attributeigenschaften werden zugewiesen:\\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Person bezeichnet.\\n   - \u0027daughter\u0027 ist ebenfalls ein Objekt, jedoch mit der relationalen Bedeutung \u0027daughter\u0027 (Typ 10: daughter), die eine spezifische Beziehung zu \u0027Maria\u0027 beschreibt.\\n   - \u0027boat\u0027 ist ein Objekt (Typ 1), das ein physisches Objekt darstellt.\\n   - \u0027lake\u0027 ist ein Kontext (Typ 2: context), da es den Ort der Handlung angibt.\\n   - \u0027ride\u0027 ist eine Aktivität (Typ 4: activity).\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria → daughter: Beziehung \u0027daughter\u0027 (Typ 10), da es sich um die Tochter der Nutzerin handelt.\\n   - Maria → ride: Maria führt die Aktivität \u0027ride\u0027 aus (Typ 8: perform).\\n   - daughter → ride: Auch die Tochter führt die Aktivität \u0027ride\u0027 aus (Typ 8: perform).\\n   - ride → boat: Die Aktivität \u0027ride\u0027 bezieht sich auf das Objekt \u0027boat\u0027 (Typ 9: target).\\n   - boat → lake: Das Boot befindet sich auf dem See, also räumliche Beziehung \u0027above\u0027 (Typ 7: above) oder \u0027on\u0027 (hier: \u0027above\u0027 als Oberbegriff für \u0027auf\u0027)\\n   - ride → lake: Die Aktivität findet im Kontext \u0027lake\u0027 statt (Typ 2: context).\\n   Zusätzlich: boat ist \u0027attached\u0027 (Typ 5) an den Kontext lake als Ort.\\n\\n7. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (1), \u0027context\u0027 (2), \u0027daughter\u0027 (10), \u0027perform\u0027 (8), \u0027attached\u0027 (5), \u0027target\u0027 (9) sind alle in den vorgegebenen Typkodierungen enthalten. \\n   - \u0027above\u0027 (7) ist vorhanden, wird aber hier nicht benötigt, da \u0027attached\u0027 (5) für Objekt-Kontext-Zuweisung ausreicht.\\n   - Alle benötigten Relationen können abgebildet werden.\\n\\n8. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular enthält alle englischen Begriffe, die Matrix ist 5x5. Auf der Diagonalen stehen die Typen der Begriffe (1 für Objekte, 4 für Aktivität, 2 für Kontext). Außerhalb der Diagonalen werden die Relations-Typen eingetragen. Dabei gilt: perform (8) von Maria und daughter zur Aktivität ride; target (9) von ride zum boat; attached (5) von boat zum lake; daughter (10) von Maria zu daughter; context (2) von ride, boat und daughter zum lake. Die Matrix wurde entsprechend gefüllt, unter Einhaltung der identityMapping-Regeln (nur Typen mit identityMapping\u003dtrue auf Diagonale, alle anderen außerhalb).\"\n}"
+}

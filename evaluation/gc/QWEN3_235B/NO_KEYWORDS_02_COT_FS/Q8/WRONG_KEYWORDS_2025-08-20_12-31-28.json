@@ -1,0 +1,64 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "person",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      10,
+      0,
+      0,
+      7
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine\", \"Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\".\n         2. \"Meine Tochter\" ist ein relativer Verweis. Die neuen Stichwörter sind \"Maria\", \"Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\". Dabei ist \"Tochter\" die Tochter von \"Maria\".\n         3. Die englischen Stichwörter sind \"Maria\", \"daughter\", \"person\", \"ride\", \"boat\", \"lake\". Hinweis: \"ich\" wird als \"person\" abgebildet, da es sich um eine generische Bezugsperson handelt, die bereits durch Maria ersetzt wird. Verben wie \"fahren\" (hier im Sinn von Boot fahren) werden als \"ride\" verstanden und verallgemeinert.\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"person\", \"ride\", \"boat\", \"lake\". Da \"ich\" und \"mein\" auf Maria verweisen, wird \"Maria\" explizit verwendet. \"daughter\" wird als separates Objekt behandelt, aber in Relation zu Maria gesetzt.\n         5. \"Maria\", \"daughter\", \"person\", \"boat\", \"lake\" sind Objekte der Anfrage. \"ride\" ist eine Aktivität. \"daughter\" ist ein Beziehungsattribut zu \"Maria\" und wird als Objekt klassifiziert, da es ein Family-Rolle ist. \"lake\" fungiert als Kontext für die Ortung, wird aber als Objekt behandelt, da kein Typ \"context\" im Vokabular nötig ist – Ort ist physisches Objekt. Die Beziehung \"Tochter\" wird über Typ 10 (daughter) erfasst.\n         6. \"Maria\" hat eine Tochter namens \"person\" (bzw. der Eintrag \"daughter\"). Beide führen die Aktivität \"ride\" aus. Die Aktivität \"ride\" bezieht sich auf das Objekt \"boat\". Das \"boat\" befindet sich auf dem \"lake\". Die Aktivität des Bootfahrens findet also auf dem See statt. Die Beziehung zwischen \"person\" und \"Maria\" ist \"daughter\". Die Aktivität \"ride\" wird von beiden ausgeführt.\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \"daughter\" ist 10. Die ID für die räumliche Beziehung \"on\" wird durch \"above\" (ID 7) angenähert, jedoch ist in den gegebenen Typkodierungen kein direkter Eintrag für \"auf\" vorhanden. Allerdings ist \"above\" (ID 7) mit identityMapping\u003dfalse vorhanden und passt zur räumlichen Relation \"auf (einem See)\" – da jedoch das Fahrzeug *auf* dem Wasser *schwimmt*, ist die Relation semantisch korrekt als \"above\" zu kodieren. Die Beziehung \"in\" existiert nicht, aber \"under\" (ID 6) ist vorhanden. Es wird jedoch die Relation \"in\" benötigt, wenn etwas innerhalb eines Bereichs ist – hier ist jedoch \"on\" oder \"above\" sinnvoll. Da \"above\" (ID 7) vorhanden ist („above“ mit ID 7), kann diese verwendet werden. Allerdings ist in der Aufgabenstellung „auf einem See“ als Position des Bootes zu interpretieren. Die Relation zwischen Boot und See ist also „boat above lake“. ID 7 steht für „above“ (identityMapping\u003dfalse), ist also zulässig. Die Ausführung „perform“ (wer führt die Aktivität aus?) hat die ID 8. Aber: In den Typkodierungen ist \"perform\" mit ID 8 enthalten (identityMapping\u003dfalse), also zulässig. Die Beziehung zwischen Aktivität und Ziel (target) ist ID 9 („target“). In den Typkodierungen ist „target“ mit ID 9 vorhanden, identityMapping\u003dfalse → gültig. Die Beziehung „daughter“ ist mit ID 10 vorhanden (identityMapping\u003dfalse) → gültig. Die Relation zwischen „boat“ und „lake“ ist „above“ (ID 7). Die Relation „attached“ (ID 5, identityMapping\u003dfalse) wird nicht benötigt. Die Relation „characteristic“ (ID 14) wird nicht benötigt. Alle benötigten Relationen sind vorhanden: object (1), activity (4), daughter (10), perform (8), target (9), above (7). Die Matrix wird entsprechend befüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"person\", \"boat\", \"lake\", \"ride\"],\n  \"matrix\": [\n    [1, 10, 10, 0, 0, 7],\n    [0, 1, 0, 0, 0, 8],\n    [0, 0, 1, 0, 0, 7],\n    [0, 0, 0, 1, 6, 0],\n    [0, 0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine\\\", \\\"Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n         2. \\\"Meine Tochter\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\"Maria\\\", \\\"Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\". Dabei ist \\\"Tochter\\\" die Tochter von \\\"Maria\\\".\\n         3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"person\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\". Hinweis: \\\"ich\\\" wird als \\\"person\\\" abgebildet, da es sich um eine generische Bezugsperson handelt, die bereits durch Maria ersetzt wird. Verben wie \\\"fahren\\\" (hier im Sinn von Boot fahren) werden als \\\"ride\\\" verstanden und verallgemeinert.\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"person\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\". Da \\\"ich\\\" und \\\"mein\\\" auf Maria verweisen, wird \\\"Maria\\\" explizit verwendet. \\\"daughter\\\" wird als separates Objekt behandelt, aber in Relation zu Maria gesetzt.\\n         5. \\\"Maria\\\", \\\"daughter\\\", \\\"person\\\", \\\"boat\\\", \\\"lake\\\" sind Objekte der Anfrage. \\\"ride\\\" ist eine Aktivität. \\\"daughter\\\" ist ein Beziehungsattribut zu \\\"Maria\\\" und wird als Objekt klassifiziert, da es ein Family-Rolle ist. \\\"lake\\\" fungiert als Kontext für die Ortung, wird aber als Objekt behandelt, da kein Typ \\\"context\\\" im Vokabular nötig ist – Ort ist physisches Objekt. Die Beziehung \\\"Tochter\\\" wird über Typ 10 (daughter) erfasst.\\n         6. \\\"Maria\\\" hat eine Tochter namens \\\"person\\\" (bzw. der Eintrag \\\"daughter\\\"). Beide führen die Aktivität \\\"ride\\\" aus. Die Aktivität \\\"ride\\\" bezieht sich auf das Objekt \\\"boat\\\". Das \\\"boat\\\" befindet sich auf dem \\\"lake\\\". Die Aktivität des Bootfahrens findet also auf dem See statt. Die Beziehung zwischen \\\"person\\\" und \\\"Maria\\\" ist \\\"daughter\\\". Die Aktivität \\\"ride\\\" wird von beiden ausgeführt.\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Beziehung \\\"daughter\\\" ist 10. Die ID für die räumliche Beziehung \\\"on\\\" wird durch \\\"above\\\" (ID 7) angenähert, jedoch ist in den gegebenen Typkodierungen kein direkter Eintrag für \\\"auf\\\" vorhanden. Allerdings ist \\\"above\\\" (ID 7) mit identityMapping\u003dfalse vorhanden und passt zur räumlichen Relation \\\"auf (einem See)\\\" – da jedoch das Fahrzeug *auf* dem Wasser *schwimmt*, ist die Relation semantisch korrekt als \\\"above\\\" zu kodieren. Die Beziehung \\\"in\\\" existiert nicht, aber \\\"under\\\" (ID 6) ist vorhanden. Es wird jedoch die Relation \\\"in\\\" benötigt, wenn etwas innerhalb eines Bereichs ist – hier ist jedoch \\\"on\\\" oder \\\"above\\\" sinnvoll. Da \\\"above\\\" (ID 7) vorhanden ist („above“ mit ID 7), kann diese verwendet werden. Allerdings ist in der Aufgabenstellung „auf einem See“ als Position des Bootes zu interpretieren. Die Relation zwischen Boot und See ist also „boat above lake“. ID 7 steht für „above“ (identityMapping\u003dfalse), ist also zulässig. Die Ausführung „perform“ (wer führt die Aktivität aus?) hat die ID 8. Aber: In den Typkodierungen ist \\\"perform\\\" mit ID 8 enthalten (identityMapping\u003dfalse), also zulässig. Die Beziehung zwischen Aktivität und Ziel (target) ist ID 9 („target“). In den Typkodierungen ist „target“ mit ID 9 vorhanden, identityMapping\u003dfalse → gültig. Die Beziehung „daughter“ ist mit ID 10 vorhanden (identityMapping\u003dfalse) → gültig. Die Relation zwischen „boat“ und „lake“ ist „above“ (ID 7). Die Relation „attached“ (ID 5, identityMapping\u003dfalse) wird nicht benötigt. Die Relation „characteristic“ (ID 14) wird nicht benötigt. Alle benötigten Relationen sind vorhanden: object (1), activity (4), daughter (10), perform (8), target (9), above (7). Die Matrix wird entsprechend befüllt.\"\n}"
+}

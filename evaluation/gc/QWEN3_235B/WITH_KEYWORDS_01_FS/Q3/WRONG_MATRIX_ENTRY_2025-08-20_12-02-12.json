@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027swim\u0027 wird durch \u0027perform\u0027 (ID 8) verknüpft, \u0027in\u0027 durch die Relation \u0027under\u0027 (ID 6), da kein direkter Typ \u0027in\u0027 existiert, aber \u0027under\u0027 im Kontext von Positionierung verwendet wird. Die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 sind vom Typ \u0027activity\u0027 (ID 4), Objekte wie \u0027maria\u0027 und \u0027pool\u0027 sind vom Typ \u0027object\u0027 (ID 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027swim\u0027 wird durch \u0027perform\u0027 (ID 8) verknüpft, \u0027in\u0027 durch die Relation \u0027under\u0027 (ID 6), da kein direkter Typ \u0027in\u0027 existiert, aber \u0027under\u0027 im Kontext von Positionierung verwendet wird. Die Aktivitäten \u0027swim\u0027 und \u0027own\u0027 sind vom Typ \u0027activity\u0027 (ID 4), Objekte wie \u0027maria\u0027 und \u0027pool\u0027 sind vom Typ \u0027object\u0027 (ID 1).\"\n}"
+}

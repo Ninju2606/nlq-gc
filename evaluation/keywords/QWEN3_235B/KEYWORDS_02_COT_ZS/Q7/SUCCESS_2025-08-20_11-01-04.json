@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und lässt keine eindeutige Interpretation der gewünschten Szene im Metaverse zu. Die Beziehung zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und der Tätigkeit \u0027malen\u0027 ist nicht erkennbar. Es ist unklar, was gemeint ist – ob Häuser gemalt werden sollen, um Fragen darin zu stellen, oder ob Häuser verwendet werden, um Fragen visuell darzustellen. Eine sinnvolle Generierung eines Vokabulars und damit eines GraphCodes ist auf dieser Grundlage nicht möglich.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verworren und lässt keine eindeutige Interpretation der gewünschten Szene im Metaverse zu. Die Beziehung zwischen \u0027Häuser\u0027, \u0027Fragen\u0027 und der Tätigkeit \u0027malen\u0027 ist nicht erkennbar. Es ist unklar, was gemeint ist – ob Häuser gemalt werden sollen, um Fragen darin zu stellen, oder ob Häuser verwendet werden, um Fragen visuell darzustellen. Eine sinnvolle Generierung eines Vokabulars und damit eines GraphCodes ist auf dieser Grundlage nicht möglich.\"\n}"
+}

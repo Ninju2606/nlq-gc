@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers, \u0027Maria\u0027, wie in den Regeln vorgesehen. Da die Anfrage \u0027Ich spiele Basketball\u0027 lautet, wird \u0027Ich\u0027 durch \u0027maria\u0027 ersetzt.\n\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\n   - \u0027maria\u0027: Dies ist eine Person und fällt damit unter die Kategorie \u0027object\u0027 (Typ-ID 1), da sie ein eigenständiges Objekt in der Szene darstellt.\n   - \u0027play\u0027: Beschreibt eine Handlung oder Aktivität. Es gehört zur Kategorie \u0027activity\u0027 (Typ-ID 4).\n   - \u0027basketball\u0027: Ein Objekt, das gespielt wird. Es ist ebenfalls ein \u0027object\u0027 (Typ-ID 1).\n\n3. Die Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Beziehung: \u0027perform\u0027 (Typ-ID 8), verbindet Subjekt (maria) mit Aktivität (play).\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Beziehung: \u0027target\u0027 (Typ-ID 9), verbindet Aktivität mit Objekt der Handlung.\n   Zusätzlich werden die Typen auf der Diagonalen festgelegt: maria ist ein object (1), play ist eine activity (4), basketball ist ein object (1).\n\n4. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1): vorhanden → für maria und basketball\n   - \u0027activity\u0027 (ID 4): vorhanden → für play\n   - \u0027perform\u0027 (ID 8): vorhanden → für \u0027maria\u0027 → \u0027play\u0027\n   - \u0027target\u0027 (ID 9): vorhanden → für \u0027play\u0027 → \u0027basketball\u0027\n   Alle benötigten Typkodierungen existieren im vorgegebenen Set.\n\n5. Der GraphCode wurde erfolgreich generiert: Das Vokabular ist übernommen, die 3x3-Bewertungsmatrix enthält auf der Diagonalen die Typen der Begriffe (1, 4, 1), außerhalb die Relationen \u0027perform\u0027 (8) und \u0027target\u0027 (9). Alle Regeln zur Matrixbelegung sind erfüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers, \u0027Maria\u0027, wie in den Regeln vorgesehen. Da die Anfrage \u0027Ich spiele Basketball\u0027 lautet, wird \u0027Ich\u0027 durch \u0027maria\u0027 ersetzt.\\n\\n2. Die Attributeigenschaften der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027: Dies ist eine Person und fällt damit unter die Kategorie \u0027object\u0027 (Typ-ID 1), da sie ein eigenständiges Objekt in der Szene darstellt.\\n   - \u0027play\u0027: Beschreibt eine Handlung oder Aktivität. Es gehört zur Kategorie \u0027activity\u0027 (Typ-ID 4).\\n   - \u0027basketball\u0027: Ein Objekt, das gespielt wird. Es ist ebenfalls ein \u0027object\u0027 (Typ-ID 1).\\n\\n3. Die Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Beziehung: \u0027perform\u0027 (Typ-ID 8), verbindet Subjekt (maria) mit Aktivität (play).\\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Beziehung: \u0027target\u0027 (Typ-ID 9), verbindet Aktivität mit Objekt der Handlung.\\n   Zusätzlich werden die Typen auf der Diagonalen festgelegt: maria ist ein object (1), play ist eine activity (4), basketball ist ein object (1).\\n\\n4. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1): vorhanden → für maria und basketball\\n   - \u0027activity\u0027 (ID 4): vorhanden → für play\\n   - \u0027perform\u0027 (ID 8): vorhanden → für \u0027maria\u0027 → \u0027play\u0027\\n   - \u0027target\u0027 (ID 9): vorhanden → für \u0027play\u0027 → \u0027basketball\u0027\\n   Alle benötigten Typkodierungen existieren im vorgegebenen Set.\\n\\n5. Der GraphCode wurde erfolgreich generiert: Das Vokabular ist übernommen, die 3x3-Bewertungsmatrix enthält auf der Diagonalen die Typen der Begriffe (1, 4, 1), außerhalb die Relationen \u0027perform\u0027 (8) und \u0027target\u0027 (9). Alle Regeln zur Matrixbelegung sind erfüllt.\"\n}"
+}

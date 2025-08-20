@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\n4. Die Person \u0027ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt.\n5. Attributdefinitionen: \n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine konkrete Person ist.\n   - \u0027yellow\u0027 ist ein Attribut (characteristic, Typ 14, identityMapping\u003dfalse), da es eine Eigenschaft beschreibt.\n   - \u0027hat\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es ein physisches Ding ist.\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue), da es eine Handlung ist.\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027wear\u0027 aus (Relation: perform, Typ 8).\n   - Der Gegenstand der Aktivität \u0027wear\u0027 ist \u0027hat\u0027 (Relation: target, Typ 9).\n   - Der Hut hat die Eigenschaft \u0027yellow\u0027 (Relation: characteristic, Typ 14).\n7. Überprüfung der Relationen auf Validität:\n   - perform → Typ 8 existiert (id:8, attribute:\u0027perform\u0027, identityMapping:false).\n   - target → Typ 9 existiert (id:9, attribute:\u0027target\u0027, identityMapping:false).\n   - characteristic → Typ 14 existiert (id:14, attribute:\u0027characteristic\u0027, identityMapping:false).\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"yellow\",\n    \"hat\",\n    \"wear\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      14,\n      0,\n      8\n    ],\n    [\n      0,\n      1,\n      0,\n      0\n    ],\n    [\n      0,\n      0,\n      1,\n      5\n    ],\n    [\n      0,\n      0,\n      9,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\\n4. Die Person \u0027ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt.\\n5. Attributdefinitionen: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine konkrete Person ist.\\n   - \u0027yellow\u0027 ist ein Attribut (characteristic, Typ 14, identityMapping\u003dfalse), da es eine Eigenschaft beschreibt.\\n   - \u0027hat\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es ein physisches Ding ist.\\n   - \u0027wear\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue), da es eine Handlung ist.\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027wear\u0027 aus (Relation: perform, Typ 8).\\n   - Der Gegenstand der Aktivität \u0027wear\u0027 ist \u0027hat\u0027 (Relation: target, Typ 9).\\n   - Der Hut hat die Eigenschaft \u0027yellow\u0027 (Relation: characteristic, Typ 14).\\n7. Überprüfung der Relationen auf Validität:\\n   - perform → Typ 8 existiert (id:8, attribute:\u0027perform\u0027, identityMapping:false).\\n   - target → Typ 9 existiert (id:9, attribute:\u0027target\u0027, identityMapping:false).\\n   - characteristic → Typ 14 existiert (id:14, attribute:\u0027characteristic\u0027, identityMapping:false).\\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\\n8. Der GraphCode wurde erfolgreich aus Vokabular und Bewertungsmatrix zusammengesetzt.\"\n}"
+}

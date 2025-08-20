@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Marias Aktivität im Metaverse: Maria (Objekt) führt die Aktivität \u0027schwimmen\u0027 aus, die sich im Pool (Objekt) befindet. Der Pool ist Maria mittels \u0027attached\u0027-Relation zugeordnet, die Schwimmaktivität steht via \u0027under\u0027-Relation zum Pool.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 6],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt Marias Aktivität im Metaverse: Maria (Objekt) führt die Aktivität \u0027schwimmen\u0027 aus, die sich im Pool (Objekt) befindet. Der Pool ist Maria mittels \u0027attached\u0027-Relation zugeordnet, die Schwimmaktivität steht via \u0027under\u0027-Relation zum Pool.\"\n}"
+}

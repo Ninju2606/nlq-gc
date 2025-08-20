@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      9,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, sowie der Bezug zu \u0027mir\u0027 (ich).\n\n2. Der relative Verweis \u0027mir\u0027 wird aufgelöst und durch die Identifikation des Nutzers, \u0027Maria\u0027, ersetzt. Der Bezug \u0027mir gehört\u0027 wird damit zu \u0027Maria gehört\u0027 bzw. \u0027belongs to Maria\u0027.\n\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027belong\u0027. Das Subjekt \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, basierend auf der gegebenen Identifikation.\n\n4. Die selbstreferenziellen Begriffe \u0027ich\u0027 und \u0027mir\u0027 wurden durch \u0027Maria\u0027 ersetzt, da die Anfrage eine direkte Bezugnahme auf den Nutzer enthält.\n\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet.\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\n   - \u0027pool\u0027 ist ein Objekt (Typ 1: object).\n   - \u0027belong\u0027 ist eine Aktivität (Typ 4: activity), da es eine Zugehörigkeitsbeziehung als Handlung beschreibt.\n\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ 8) zwischen \u0027Maria\u0027 und \u0027swim\u0027.\n   - \u0027swim\u0027 findet \u0027in\u0027 einem \u0027pool\u0027 statt → Relation \u0027attached\u0027 (Typ 5) zwischen \u0027swim\u0027 und \u0027pool\u0027, da \u0027in\u0027 räumliche Bindung beschreibt.\n   - Der \u0027pool\u0027 hat die Eigenschaft, \u0027belongs to Maria\u0027 → Relation \u0027target\u0027 (Typ 9) von \u0027belong\u0027 zu \u0027Maria\u0027, da Maria das Ziel der Zugehörigkeit ist. Gleichzeitig ist \u0027pool\u0027 durch \u0027characteristic\u0027 (Typ 14) mit \u0027belong\u0027 verknüpft, da die Zugehörigkeit ein Merkmal des Pools ist.\n\n7. Überprüfung Typkodierungen:\n   - \u0027perform\u0027 (Typ 8, id\u003d8) existiert → ja.\n   - \u0027attached\u0027 (Typ 5, id\u003d5) existiert → ja.\n   - \u0027target\u0027 (Typ 9, id\u003d9) existiert → ja.\n   - \u0027characteristic\u0027 (Typ 14, id\u003d10) existiert → nein. Hier liegt ein Fehler vor.\n\nKorrektur: Es wurde fälschlicherweise angenommen, dass \u0027characteristic\u0027 die ID 10 hat. Tatsächlich hat \u0027characteristic\u0027 die ID 14 (laut Typkodierungen: {\"id\":14,\"attribute\":\"characteristic\"...}). Also ist ID 14 korrekt → gültig.\n\nAlle Relationen haben gültige Typkodierungen.\n\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular hat 4 Einträge, daher 4x4-Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue (1 für object, 4 für activity). Off-diagonal: Relationen mit Typen 5 (attached), 8 (perform), 9 (target), 14 (characteristic). Die Matrix berücksichtigt alle Regeln: Diagonale vollständig, nur erlaubte Typen an den richtigen Positionen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"belong\"\n  ],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 5, 0],\n    [0, 0, 1, 14],\n    [0, 9, 0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, sowie der Bezug zu \u0027mir\u0027 (ich).\\n\\n2. Der relative Verweis \u0027mir\u0027 wird aufgelöst und durch die Identifikation des Nutzers, \u0027Maria\u0027, ersetzt. Der Bezug \u0027mir gehört\u0027 wird damit zu \u0027Maria gehört\u0027 bzw. \u0027belongs to Maria\u0027.\\n\\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027belong\u0027. Das Subjekt \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, basierend auf der gegebenen Identifikation.\\n\\n4. Die selbstreferenziellen Begriffe \u0027ich\u0027 und \u0027mir\u0027 wurden durch \u0027Maria\u0027 ersetzt, da die Anfrage eine direkte Bezugnahme auf den Nutzer enthält.\\n\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet.\\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\\n   - \u0027pool\u0027 ist ein Objekt (Typ 1: object).\\n   - \u0027belong\u0027 ist eine Aktivität (Typ 4: activity), da es eine Zugehörigkeitsbeziehung als Handlung beschreibt.\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Typ 8) zwischen \u0027Maria\u0027 und \u0027swim\u0027.\\n   - \u0027swim\u0027 findet \u0027in\u0027 einem \u0027pool\u0027 statt → Relation \u0027attached\u0027 (Typ 5) zwischen \u0027swim\u0027 und \u0027pool\u0027, da \u0027in\u0027 räumliche Bindung beschreibt.\\n   - Der \u0027pool\u0027 hat die Eigenschaft, \u0027belongs to Maria\u0027 → Relation \u0027target\u0027 (Typ 9) von \u0027belong\u0027 zu \u0027Maria\u0027, da Maria das Ziel der Zugehörigkeit ist. Gleichzeitig ist \u0027pool\u0027 durch \u0027characteristic\u0027 (Typ 14) mit \u0027belong\u0027 verknüpft, da die Zugehörigkeit ein Merkmal des Pools ist.\\n\\n7. Überprüfung Typkodierungen:\\n   - \u0027perform\u0027 (Typ 8, id\u003d8) existiert → ja.\\n   - \u0027attached\u0027 (Typ 5, id\u003d5) existiert → ja.\\n   - \u0027target\u0027 (Typ 9, id\u003d9) existiert → ja.\\n   - \u0027characteristic\u0027 (Typ 14, id\u003d10) existiert → nein. Hier liegt ein Fehler vor.\\n\\nKorrektur: Es wurde fälschlicherweise angenommen, dass \u0027characteristic\u0027 die ID 10 hat. Tatsächlich hat \u0027characteristic\u0027 die ID 14 (laut Typkodierungen: {\\\"id\\\":14,\\\"attribute\\\":\\\"characteristic\\\"...}). Also ist ID 14 korrekt → gültig.\\n\\nAlle Relationen haben gültige Typkodierungen.\\n\\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular hat 4 Einträge, daher 4x4-Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue (1 für object, 4 für activity). Off-diagonal: Relationen mit Typen 5 (attached), 8 (perform), 9 (target), 14 (characteristic). Die Matrix berücksichtigt alle Regeln: Diagonale vollständig, nur erlaubte Typen an den richtigen Positionen.\"\n}"
+}

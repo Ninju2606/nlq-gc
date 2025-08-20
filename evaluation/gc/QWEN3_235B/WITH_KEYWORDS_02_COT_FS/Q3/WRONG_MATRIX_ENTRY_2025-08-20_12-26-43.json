@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"Ich\" wurde durch die Identifikation \"maria\" ersetzt. \"mir gehört\" wurde als Aktivität \"own\" interpretiert, bezogen auf Maria.\n2. \"maria\" und \"pool\" sind Objekte (object). \"swim\" und \"own\" sind Aktivitäten (activity).\n3. Maria führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" bezieht sich auf das Objekt \"pool\". Maria führt auch die Aktivität \"own\" aus. Die Aktivität \"own\" bezieht sich auf das Objekt \"pool\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für besitzen (own) als Beziehung „attached“ ist nicht vorgesehen, aber „own“ wird als Aktivität typisiert. Da „own“ eine Aktivität ist, die Maria ausführt und sich auf „pool“ bezieht, wird „perform“ (8) von Maria zu „own“ und „target“ (9) von „own“ zu „pool“ verwendet. Zudem ist „attached“ (5) als Beziehung von einer Aktivität auf ein Objekt möglich, wenn es um Besitz geht. Hier wird „own\" als Aktivität behandelt, die sich auf „pool“ bezieht – dies entspricht „target“ (9). Weitere relationale Verben wie „in“ fehlen zunächst. Allerdings: Die Präposition „in“ aus „schwimme in einem Pool“ beschreibt eine räumliche Beziehung. Diese wird nicht durch ein Verb, sondern durch eine Relation dargestellt. Es fehlt die Relation \"in\", jedoch ist im Typkodierungs-Set kein Eintrag \"in\" vorhanden. \nAber: Es existieren die räumlichen Relationen \"under\" (6) und \"above\" (7), aber \"in\" ist nicht explizit enthalten. Damit fehlt eine notwendige Relation, um „schwimmen in einem Pool“ korrekt abzubilden. \nGenauer: Die Aktivität „swim“ erfolgt nicht einfach nur bezogen auf den Pool allgemein, sondern innerhalb davon – das erfordert die räumliche Relation „in“. Da im bereitgestellten Typkodierungs-Set kein Eintrag für „in“ existiert, kann die Relation nicht kodiert werden.\nFehlerhaft ist jedoch: Obwohl in Beispiel 2 eine Relation „in“ mit ID 6 verwendet wurde, ist im aktuellen echten Typkodierungs-Set (gemäß Aufgabenstellung) kein Eintrag für \"in\" enthalten. Die IDs 5 (above), 6 (under), aber nicht 6\u003din vorhanden. Also: Es gibt KEINE Typkodierung für die Beziehung \"in\".\nDaher ist die Relation zwischen \"swim\" und \"pool\", die räumlich ist („in“), nicht abbildbar.\n→ Fehlende Typkodierung für \"in\".\n\nNach Überprüfung: Die Relation \"in\" ist in den vorgegebenen Typkodierungen NICHT enthalten. Lediglich \"under\" (6), \"above\" (7), \"attached\" (5). Es gibt keine Kodierung für „in“. Daher fehlt eine notwendige Beziehung, um die Aktivität im Kontext des Pools korrekt darzustellen. Der Satz „Ich schwimme in einem Pool“ kann also nicht vollständig abgebildet werden.\n\nFEHLER: Die Relation \"in\" fehlt in den verfügbaren Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde durch die Identifikation \\\"maria\\\" ersetzt. \\\"mir gehört\\\" wurde als Aktivität \\\"own\\\" interpretiert, bezogen auf Maria.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte (object). \\\"swim\\\" und \\\"own\\\" sind Aktivitäten (activity).\\n3. Maria führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" bezieht sich auf das Objekt \\\"pool\\\". Maria führt auch die Aktivität \\\"own\\\" aus. Die Aktivität \\\"own\\\" bezieht sich auf das Objekt \\\"pool\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für besitzen (own) als Beziehung „attached“ ist nicht vorgesehen, aber „own“ wird als Aktivität typisiert. Da „own“ eine Aktivität ist, die Maria ausführt und sich auf „pool“ bezieht, wird „perform“ (8) von Maria zu „own“ und „target“ (9) von „own“ zu „pool“ verwendet. Zudem ist „attached“ (5) als Beziehung von einer Aktivität auf ein Objekt möglich, wenn es um Besitz geht. Hier wird „own\\\" als Aktivität behandelt, die sich auf „pool“ bezieht – dies entspricht „target“ (9). Weitere relationale Verben wie „in“ fehlen zunächst. Allerdings: Die Präposition „in“ aus „schwimme in einem Pool“ beschreibt eine räumliche Beziehung. Diese wird nicht durch ein Verb, sondern durch eine Relation dargestellt. Es fehlt die Relation \\\"in\\\", jedoch ist im Typkodierungs-Set kein Eintrag \\\"in\\\" vorhanden. \\nAber: Es existieren die räumlichen Relationen \\\"under\\\" (6) und \\\"above\\\" (7), aber \\\"in\\\" ist nicht explizit enthalten. Damit fehlt eine notwendige Relation, um „schwimmen in einem Pool“ korrekt abzubilden. \\nGenauer: Die Aktivität „swim“ erfolgt nicht einfach nur bezogen auf den Pool allgemein, sondern innerhalb davon – das erfordert die räumliche Relation „in“. Da im bereitgestellten Typkodierungs-Set kein Eintrag für „in“ existiert, kann die Relation nicht kodiert werden.\\nFehlerhaft ist jedoch: Obwohl in Beispiel 2 eine Relation „in“ mit ID 6 verwendet wurde, ist im aktuellen echten Typkodierungs-Set (gemäß Aufgabenstellung) kein Eintrag für \\\"in\\\" enthalten. Die IDs 5 (above), 6 (under), aber nicht 6\u003din vorhanden. Also: Es gibt KEINE Typkodierung für die Beziehung \\\"in\\\".\\nDaher ist die Relation zwischen \\\"swim\\\" und \\\"pool\\\", die räumlich ist („in“), nicht abbildbar.\\n→ Fehlende Typkodierung für \\\"in\\\".\\n\\nNach Überprüfung: Die Relation \\\"in\\\" ist in den vorgegebenen Typkodierungen NICHT enthalten. Lediglich \\\"under\\\" (6), \\\"above\\\" (7), \\\"attached\\\" (5). Es gibt keine Kodierung für „in“. Daher fehlt eine notwendige Beziehung, um die Aktivität im Kontext des Pools korrekt darzustellen. Der Satz „Ich schwimme in einem Pool“ kann also nicht vollständig abgebildet werden.\\n\\nFEHLER: Die Relation \\\"in\\\" fehlt in den verfügbaren Typkodierungen.\"\n}"
+}

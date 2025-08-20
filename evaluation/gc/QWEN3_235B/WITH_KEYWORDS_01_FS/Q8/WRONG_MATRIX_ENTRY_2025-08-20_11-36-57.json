@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria wird als Person identifiziert, die Tochter ist über die Relation \u0027daughter\u0027 (ID 10) mit ihr verbunden. Die Aktivität \u0027drive\u0027 (ID 4) wird von Maria ausgeführt und bezieht sich auf das Objekt \u0027boat\u0027. Das Boot ist über die Relation \u0027on\u0027 (hier als \u0027attached\u0027, ID 5) mit dem See verbunden, und der See bildet den Kontext (ID 6, \u0027under\u0027 interpretiert als räumliche Einbettung).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria wird als Person identifiziert, die Tochter ist über die Relation \u0027daughter\u0027 (ID 10) mit ihr verbunden. Die Aktivität \u0027drive\u0027 (ID 4) wird von Maria ausgeführt und bezieht sich auf das Objekt \u0027boat\u0027. Das Boot ist über die Relation \u0027on\u0027 (hier als \u0027attached\u0027, ID 5) mit dem See verbunden, und der See bildet den Kontext (ID 6, \u0027under\u0027 interpretiert als räumliche Einbettung).\"\n}"
+}

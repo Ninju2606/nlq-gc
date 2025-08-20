@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die eine Szenenbeschreibung im Metaverse darstellen. Es handelt sich um eine allgemeine Planungsabsicht ohne relevante, für einen GraphCode erfassbare Elemente wie Objekte, Personen (abgesehen von \u0027wir\u0027) oder räumlich-zeitliche Zustände. Zudem fehlen klare Bezugnahmen zu darstellbaren Entitäten oder Relationen im Metaverse. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Keine sinnvolle Extraktion von Stichwörtern möglich.",
+  "responsePlain": "{\n  \"error\": \"Keine sinnvolle Extraktion von Stichwörtern möglich.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die eine Szenenbeschreibung im Metaverse darstellen. Es handelt sich um eine allgemeine Planungsabsicht ohne relevante, für einen GraphCode erfassbare Elemente wie Objekte, Personen (abgesehen von \u0027wir\u0027) oder räumlich-zeitliche Zustände. Zudem fehlen klare Bezugnahmen zu darstellbaren Entitäten oder Relationen im Metaverse. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst zu \"maria\" gemäß der Identifikation des Nutzers. \"meinem Pool\" wurde als Besitz von \"maria\" am Begriff \"pool\" gebunden, wobei \"own\" aus dem Vokabular diese Beziehung darstellt.\n2. \"maria\" und \"pool\" sind Objekte (Typ: object). \"swim\" ist eine Aktivität (Typ: activity). \"own\" beschreibt eine Aktivität, die einen Besitz ausdrückt, also ebenfalls eine Aktivität (Typ: activity).\n3. \"maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" hat „pool“ als Ziel (target), da geschwommen wird „in“ dem Pool. Zudem verbindet der Besitz (\"own\") \"maria\" mit \"pool\" – „maria own pool“. Dies drückt eine relationale Aktivität aus. Es besteht eine räumliche Beziehung: „in“, also befindet sich die Person während des Schwimmens innerhalb des Pools. \n4. Die ID für „object“ ist 1. Die ID für „activity“ ist 4. Die Beziehung „perform“ (Ausführung einer Aktivität durch ein Objekt) hat ID 8. Die Beziehung „target“ (Ziel einer Aktivität) hat ID 9. Die Beziehung „attached“ (hier: Besitzbindung) hat ID 5. Alle benötigten Typkodierungen sind vorhanden. Es gibt keine unbekannten Relationen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 9, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Identifikation des Nutzers. \\\"meinem Pool\\\" wurde als Besitz von \\\"maria\\\" am Begriff \\\"pool\\\" gebunden, wobei \\\"own\\\" aus dem Vokabular diese Beziehung darstellt.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte (Typ: object). \\\"swim\\\" ist eine Aktivität (Typ: activity). \\\"own\\\" beschreibt eine Aktivität, die einen Besitz ausdrückt, also ebenfalls eine Aktivität (Typ: activity).\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" hat „pool“ als Ziel (target), da geschwommen wird „in“ dem Pool. Zudem verbindet der Besitz (\\\"own\\\") \\\"maria\\\" mit \\\"pool\\\" – „maria own pool“. Dies drückt eine relationale Aktivität aus. Es besteht eine räumliche Beziehung: „in“, also befindet sich die Person während des Schwimmens innerhalb des Pools. \\n4. Die ID für „object“ ist 1. Die ID für „activity“ ist 4. Die Beziehung „perform“ (Ausführung einer Aktivität durch ein Objekt) hat ID 8. Die Beziehung „target“ (Ziel einer Aktivität) hat ID 9. Die Beziehung „attached“ (hier: Besitzbindung) hat ID 5. Alle benötigten Typkodierungen sind vorhanden. Es gibt keine unbekannten Relationen.\"\n}"
+}

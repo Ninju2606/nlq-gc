@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\"dictionary\":[\"maria\",\"swim\",\"own\",\"pool\"],\"matrix\":[[1,8,8,0],[0,4,0,5],[0,0,4,9],[0,0,0,1],\"description\":\"1. Der relative Verweis \u0027meinem\u0027 wurde aufgelöst zu Maria als Besitzerin des Pools. Die Identifikation \u0027Maria\u0027 ersetzt das Selbstpronomen \u0027ich\u0027.\\n2. Attributeigenschaften: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027swim\u0027 eine Aktivität (Typ 4), \u0027own\u0027 eine Aktivität (Typ 4, als Besitzhandlung interpretiert), \u0027pool\u0027 ein Objekt (Typ 1).\\n3. Relationen: Maria führt \u0027swim\u0027 aus (perform/8), Maria führt \u0027own\u0027 aus (perform/8), \u0027own\u0027 hat \u0027pool\u0027 als Ziel (target/9), \u0027swim\u0027 befindet sich im \u0027pool\u0027 (attached/5).\\n4. Alle Relationen haben passende Typkodierungen: perform (ID 8), target (ID 9), attached (ID 5).\"}"
+}

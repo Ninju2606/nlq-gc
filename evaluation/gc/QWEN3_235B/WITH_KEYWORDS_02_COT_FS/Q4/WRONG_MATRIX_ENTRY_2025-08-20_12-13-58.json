@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation. \u0027meinem Pool\u0027 wurde zu \u0027own\u0027 als Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 interpretiert.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object). \u0027swim\u0027 ist eine Aktivität (activity). \u0027own\u0027 ist kein Attributtyp im Sinne der Einheitsdiagonale, sondern beschreibt eine Beziehung; daher steht es nicht in der Diagonalen, sondern außerhalb. Allerdings ist \u0027own\u0027 nicht in den vorgegebenen Typkodierungen enthalten.\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027swim\u0027 hat das Ziel (target) \u0027pool\u0027, da sie im Pool schwimmt. \u0027maria\u0027 steht in einer Besitzbeziehung (\u0027own\u0027) zu \u0027pool\u0027.\n4. Die ID für \u0027object\u0027 ist 1 (gültig für Einheitsdiagonale). Die ID für \u0027activity\u0027 ist 4 (gültig). Die Relation \u0027perform\u0027 (ID 8) existiert und beschreibt, dass ein Objekt eine Aktivität ausführt. Die Relation \u0027target\u0027 (ID 9) müsste verwendet werden, um die Beziehung zwischen Aktivität und Zielobjekt darzustellen, aber hier wurde \u0027in\u0027 impliziert. Die räumliche Beziehung \u0027in\u0027 ist nicht direkt als Typkodierung vorhanden. Stattdessen ist \u0027attached\u0027 (5), \u0027under\u0027 (6), \u0027above\u0027 (7) enthalten, aber \u0027in\u0027 fehlt. Zudem ist die Beziehung \u0027own\u0027 nicht in den Typkodierungen enthalten. Insbesondere die Beziehung \u0027in\u0027 zwischen \u0027swim\u0027 und \u0027pool\u0027 sowie die Beziehung \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027 können nicht abgebildet werden, da die benötigten Typkodierungen fehlen. Daher ist ein Fehler gegeben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation. \u0027meinem Pool\u0027 wurde zu \u0027own\u0027 als Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 interpretiert.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object). \u0027swim\u0027 ist eine Aktivität (activity). \u0027own\u0027 ist kein Attributtyp im Sinne der Einheitsdiagonale, sondern beschreibt eine Beziehung; daher steht es nicht in der Diagonalen, sondern außerhalb. Allerdings ist \u0027own\u0027 nicht in den vorgegebenen Typkodierungen enthalten.\\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027swim\u0027 hat das Ziel (target) \u0027pool\u0027, da sie im Pool schwimmt. \u0027maria\u0027 steht in einer Besitzbeziehung (\u0027own\u0027) zu \u0027pool\u0027.\\n4. Die ID für \u0027object\u0027 ist 1 (gültig für Einheitsdiagonale). Die ID für \u0027activity\u0027 ist 4 (gültig). Die Relation \u0027perform\u0027 (ID 8) existiert und beschreibt, dass ein Objekt eine Aktivität ausführt. Die Relation \u0027target\u0027 (ID 9) müsste verwendet werden, um die Beziehung zwischen Aktivität und Zielobjekt darzustellen, aber hier wurde \u0027in\u0027 impliziert. Die räumliche Beziehung \u0027in\u0027 ist nicht direkt als Typkodierung vorhanden. Stattdessen ist \u0027attached\u0027 (5), \u0027under\u0027 (6), \u0027above\u0027 (7) enthalten, aber \u0027in\u0027 fehlt. Zudem ist die Beziehung \u0027own\u0027 nicht in den Typkodierungen enthalten. Insbesondere die Beziehung \u0027in\u0027 zwischen \u0027swim\u0027 und \u0027pool\u0027 sowie die Beziehung \u0027own\u0027 zwischen \u0027maria\u0027 und \u0027pool\u0027 können nicht abgebildet werden, da die benötigten Typkodierungen fehlen. Daher ist ein Fehler gegeben.\"\n}"
+}

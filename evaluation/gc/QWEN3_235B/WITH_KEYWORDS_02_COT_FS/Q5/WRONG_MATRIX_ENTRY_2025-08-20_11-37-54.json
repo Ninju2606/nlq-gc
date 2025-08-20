@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst zu \"maria\" gemäß der Nutzeridentifikation.\n2. \"maria\" und \"hat\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität. \"yellow\" ist ein Attribut, das als Kontext verstanden wird.\n3. \"maria\" führt die Aktivität \"wear\" aus. Die Aktivität \"wear\" bezieht sich auf das Objekt \"hat\". Das Attribut \"yellow\" beschreibt eine Charakteristik des Objekts \"hat\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die ID für Kontext (context) ist 2. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Nutzeridentifikation.\\n2. \\\"maria\\\" und \\\"hat\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität. \\\"yellow\\\" ist ein Attribut, das als Kontext verstanden wird.\\n3. \\\"maria\\\" führt die Aktivität \\\"wear\\\" aus. Die Aktivität \\\"wear\\\" bezieht sich auf das Objekt \\\"hat\\\". Das Attribut \\\"yellow\\\" beschreibt eine Charakteristik des Objekts \\\"hat\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die ID für Kontext (context) ist 2. Alle benötigten Relationen sind in den vorgegebenen Typkodierungen vorhanden.\"\n}"
+}

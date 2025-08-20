@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027mein\u0027 beziehen sich auf die Nutzeridentifikation \u0027Maria\u0027. Somit wird \u0027Maria\u0027 im Vokabular verwendet, statt \u0027ich\u0027 oder \u0027mein\u0027.\n\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027fahren\u0027 → \u0027ride\u0027 (verallgemeinert von \u0027fahren\u0027), \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\n\n4. Die Begriffe \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt.\n\n5. Attribut-Eigenschaften:\n   - \u0027Maria\u0027 ist ein Objekt (Person) → Typ 1 (object)\n   - \u0027daughter\u0027 ist ein Objekt (Person) → Typ 1 (object)\n   - \u0027boat\u0027 ist ein Objekt → Typ 1 (object)\n   - \u0027lake\u0027 ist ein Kontext (Ort) → Typ 2 (context)\n   - \u0027ride\u0027 ist eine Aktivität → Typ 4 (activity)\n\n6. Relationen zwischen den Begriffen:\n   - Maria führt die Aktivität \u0027ride\u0027 aus → \u0027Maria perform ride\u0027 → Typ 8 (perform)\n   - Tochter führt die Aktivität \u0027ride\u0027 aus → \u0027daughter perform ride\u0027 → Typ 8 (perform)\n   - Die Aktivität \u0027ride\u0027 hat das Ziel \u0027boat\u0027 → \u0027ride target boat\u0027 → Typ 9 (target)\n   - \u0027boat\u0027 befindet sich \u0027auf\u0027 dem \u0027lake\u0027 → \u0027boat above lake\u0027 → Typ 7 (above)\n   - Umgekehrt: \u0027lake\u0027 ist \u0027unter\u0027 dem \u0027boat\u0027 → \u0027lake under boat\u0027 → Typ 6 (under)\n   - \u0027daughter\u0027 ist die Tochter von \u0027Maria\u0027 → \u0027daughter daughter Maria\u0027 → Typ 10 (daughter)\n\n7. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1): vorhanden → für Maria, daughter, boat\n   - \u0027context\u0027 (ID 2): vorhanden → für lake\n   - \u0027activity\u0027 (ID 4): vorhanden → für ride\n   - \u0027perform\u0027 (ID 8): vorhanden → Maria → ride, daughter → ride\n   - \u0027target\u0027 (ID 9): vorhanden → ride → boat\n   - \u0027above\u0027 (ID 7): vorhanden → boat → lake\n   - \u0027under\u0027 (ID 6): vorhanden → lake → boat\n   - \u0027daughter\u0027 (ID 10): vorhanden → daughter → Maria\n   → Alle benötigten Typkodierungen sind verfügbar.\n\n8. Zusammenstellung des GraphCodes: Das Vokabular enthält 5 Einträge, daher ist die Matrix 5x5. Die Einheitsdiagonale (i\u003di) enthält nur Typen mit identityMapping\u003dtrue (1,2,4). Die Relationen außerhalb der Diagonalen nutzen nur Typen mit identityMapping\u003dfalse (6,7,8,9,10). Alle Werte sind korrekt zugeordnet.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      10,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      1,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      0,\n      1,\n      6,\n      0\n    ],\n    [\n      0,\n      0,\n      7,\n      1,\n      0\n    ],\n    [\n      0,\n      0,\n      0,\n      0,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 sind: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n\\n2. Relative Verweise wurden aufgelöst: \u0027ich\u0027 und \u0027mein\u0027 beziehen sich auf die Nutzeridentifikation \u0027Maria\u0027. Somit wird \u0027Maria\u0027 im Vokabular verwendet, statt \u0027ich\u0027 oder \u0027mein\u0027.\\n\\n3. Übersetzung ins Englische: \u0027Tochter\u0027 → \u0027daughter\u0027, \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027fahren\u0027 → \u0027ride\u0027 (verallgemeinert von \u0027fahren\u0027), \u0027Boot\u0027 → \u0027boat\u0027, \u0027See\u0027 → \u0027lake\u0027.\\n\\n4. Die Begriffe \u0027ich\u0027 und \u0027mein\u0027 wurden durch \u0027Maria\u0027 ersetzt.\\n\\n5. Attribut-Eigenschaften:\\n   - \u0027Maria\u0027 ist ein Objekt (Person) → Typ 1 (object)\\n   - \u0027daughter\u0027 ist ein Objekt (Person) → Typ 1 (object)\\n   - \u0027boat\u0027 ist ein Objekt → Typ 1 (object)\\n   - \u0027lake\u0027 ist ein Kontext (Ort) → Typ 2 (context)\\n   - \u0027ride\u0027 ist eine Aktivität → Typ 4 (activity)\\n\\n6. Relationen zwischen den Begriffen:\\n   - Maria führt die Aktivität \u0027ride\u0027 aus → \u0027Maria perform ride\u0027 → Typ 8 (perform)\\n   - Tochter führt die Aktivität \u0027ride\u0027 aus → \u0027daughter perform ride\u0027 → Typ 8 (perform)\\n   - Die Aktivität \u0027ride\u0027 hat das Ziel \u0027boat\u0027 → \u0027ride target boat\u0027 → Typ 9 (target)\\n   - \u0027boat\u0027 befindet sich \u0027auf\u0027 dem \u0027lake\u0027 → \u0027boat above lake\u0027 → Typ 7 (above)\\n   - Umgekehrt: \u0027lake\u0027 ist \u0027unter\u0027 dem \u0027boat\u0027 → \u0027lake under boat\u0027 → Typ 6 (under)\\n   - \u0027daughter\u0027 ist die Tochter von \u0027Maria\u0027 → \u0027daughter daughter Maria\u0027 → Typ 10 (daughter)\\n\\n7. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1): vorhanden → für Maria, daughter, boat\\n   - \u0027context\u0027 (ID 2): vorhanden → für lake\\n   - \u0027activity\u0027 (ID 4): vorhanden → für ride\\n   - \u0027perform\u0027 (ID 8): vorhanden → Maria → ride, daughter → ride\\n   - \u0027target\u0027 (ID 9): vorhanden → ride → boat\\n   - \u0027above\u0027 (ID 7): vorhanden → boat → lake\\n   - \u0027under\u0027 (ID 6): vorhanden → lake → boat\\n   - \u0027daughter\u0027 (ID 10): vorhanden → daughter → Maria\\n   → Alle benötigten Typkodierungen sind verfügbar.\\n\\n8. Zusammenstellung des GraphCodes: Das Vokabular enthält 5 Einträge, daher ist die Matrix 5x5. Die Einheitsdiagonale (i\u003di) enthält nur Typen mit identityMapping\u003dtrue (1,2,4). Die Relationen außerhalb der Diagonalen nutzen nur Typen mit identityMapping\u003dfalse (6,7,8,9,10). Alle Werte sind korrekt zugeordnet.\"\n}"
+}

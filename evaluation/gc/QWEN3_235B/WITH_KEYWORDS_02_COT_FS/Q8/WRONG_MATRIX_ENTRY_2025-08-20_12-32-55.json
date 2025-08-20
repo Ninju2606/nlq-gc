@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.92,
+  "description": "1. \"Meine Tochter und ich\" wurde aufgelöst: \"ich\" bezieht sich auf die identifizierte Nutzerin \"maria\", und \"Tochter\" wird als relationale Verbindung zwischen \"person\" (die Tochter) und \"maria\" verstanden. \n2. \"maria\" und \"person\" sind Objekte (object, Typ 1); \"boat\" und \"lake\" sind ebenfalls Objekte (object, Typ 1). \"drive\" ist eine Aktivität (activity, Typ 4). Die Rolle \"Tochter\" wird durch das Attribut \"daughter\" (Typ 10) beschrieben. \n3. \"maria\" hat eine Tochter, dargestellt durch die Relation \"daughter\" (Typ 10) von \"person\" zu \"maria\". Sowohl \"maria\" als auch \"person\" führen die Aktivität \"drive\" aus (Relation \"perform\", Typ 8). Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\" (Relation \"target\", Typ 9). Das „boat“ befindet sich „above“ (Typ 7) dem „lake“. Zudem ist das „boat“ im Kontext des „lake“ platziert, was durch „under“ (Typ 6) oder „above“ dargestellt werden könnte – hier wird „above“ verwendet, da das Boot auf dem See ist. \n4. Die Typkodierungen sind wie folgt vorhanden: Object (ID 1, identityMapping\u003dtrue), activity (ID 4, identityMapping\u003dtrue), daughter (ID 10, identityMapping\u003dfalse), perform (ID 8, identityMapping\u003dfalse), target (ID 9, identityMapping\u003dfalse), above (ID 7, identityMapping\u003dfalse). Die Relation „under“ (ID 6) wäre ebenfalls möglich, aber „above“ ist hier sinnvoller. Alle benötigten Typkodierungen existieren in der vorgegebenen Liste.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 9, 7],\n    [0, 0, 0, 1, 5],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. \\\"Meine Tochter und ich\\\" wurde aufgelöst: \\\"ich\\\" bezieht sich auf die identifizierte Nutzerin \\\"maria\\\", und \\\"Tochter\\\" wird als relationale Verbindung zwischen \\\"person\\\" (die Tochter) und \\\"maria\\\" verstanden. \\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte (object, Typ 1); \\\"boat\\\" und \\\"lake\\\" sind ebenfalls Objekte (object, Typ 1). \\\"drive\\\" ist eine Aktivität (activity, Typ 4). Die Rolle \\\"Tochter\\\" wird durch das Attribut \\\"daughter\\\" (Typ 10) beschrieben. \\n3. \\\"maria\\\" hat eine Tochter, dargestellt durch die Relation \\\"daughter\\\" (Typ 10) von \\\"person\\\" zu \\\"maria\\\". Sowohl \\\"maria\\\" als auch \\\"person\\\" führen die Aktivität \\\"drive\\\" aus (Relation \\\"perform\\\", Typ 8). Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\" (Relation \\\"target\\\", Typ 9). Das „boat“ befindet sich „above“ (Typ 7) dem „lake“. Zudem ist das „boat“ im Kontext des „lake“ platziert, was durch „under“ (Typ 6) oder „above“ dargestellt werden könnte – hier wird „above“ verwendet, da das Boot auf dem See ist. \\n4. Die Typkodierungen sind wie folgt vorhanden: Object (ID 1, identityMapping\u003dtrue), activity (ID 4, identityMapping\u003dtrue), daughter (ID 10, identityMapping\u003dfalse), perform (ID 8, identityMapping\u003dfalse), target (ID 9, identityMapping\u003dfalse), above (ID 7, identityMapping\u003dfalse). Die Relation „under“ (ID 6) wäre ebenfalls möglich, aber „above“ ist hier sinnvoller. Alle benötigten Typkodierungen existieren in der vorgegebenen Liste.\"\n}"
+}

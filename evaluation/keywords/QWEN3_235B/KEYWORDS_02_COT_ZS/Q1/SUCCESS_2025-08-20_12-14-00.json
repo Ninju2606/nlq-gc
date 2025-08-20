@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 und für die späteren Relationen merkt man sich, dass die Person auf den Anfragensteller referenziert.\n3. Übersetzung der Stichwörter ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Lehnwort bestehen.\n4. Der Verweis \u0027ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst zu \u0027Maria\u0027 und für die späteren Relationen merkt man sich, dass die Person auf den Anfragensteller referenziert.\\n3. Übersetzung der Stichwörter ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als englisches Lehnwort bestehen.\\n4. Der Verweis \u0027ich\u0027 wurde durch die Identifikation \u0027Maria\u0027 ersetzt.\"\n}"
+}

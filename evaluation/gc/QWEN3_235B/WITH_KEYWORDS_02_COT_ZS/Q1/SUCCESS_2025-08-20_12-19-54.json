@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer verwendet das selbstreferenzielle Pronomen \u0027ich\u0027, das auf die Identifikation \u0027Maria\u0027 verweist. Daher wird \u0027maria\u0027 als Subjekt in das Vokabular aufgenommen.\n\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: Handelt es sich um eine Person, also ein Objekt im Sinne des Metaverse-Kontexts. Der Typ \u0027object\u0027 (ID 1) ist passend, da \u0027identityMapping\u0027 \u003d true ist und es eine eigenständige Entität beschreibt.\n   - \u0027play\u0027: Beschreibt eine Handlung bzw. Aktivität. Entsprechend wird der Typ \u0027activity\u0027 (ID 4) zugeordnet.\n   - \u0027basketball\u0027: Bezeichnet ein Objekt (Spiel/ Sportart), daher ebenfalls Typ \u0027object\u0027 (ID 1).\n\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8): maria perform play.\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (ID 9): play target basketball.\n   Zusätzlich werden die Typen auf der Diagonalen gesetzt: maria (object, ID 1), play (activity, ID 4), basketball (object, ID 1).\n\n4. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1) → vorhanden, identityMapping \u003d true → gültig für Diagonale.\n   - \u0027activity\u0027 (ID 4) → vorhanden, identityMapping \u003d true → gültig für Diagonale.\n   - \u0027perform\u0027 (ID 8) → vorhanden, identityMapping \u003d false → gültig für Nicht-Diagonale.\n   - \u0027target\u0027 (ID 9) → vorhanden, identityMapping \u003d false → gültig für Nicht-Diagonale.\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Bewertungsmatrix ist 3x3. Auf der Diagonalen stehen die Typ-IDs der jeweiligen Begriffe. Die Relationen wurden entsprechend den Typ-IDs eingetragen, wobei die Richtung beachtet wurde: Zeile → Spalte. Alle Regeln wurden eingehalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet das selbstreferenzielle Pronomen \u0027ich\u0027, das auf die Identifikation \u0027Maria\u0027 verweist. Daher wird \u0027maria\u0027 als Subjekt in das Vokabular aufgenommen.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: Handelt es sich um eine Person, also ein Objekt im Sinne des Metaverse-Kontexts. Der Typ \u0027object\u0027 (ID 1) ist passend, da \u0027identityMapping\u0027 \u003d true ist und es eine eigenständige Entität beschreibt.\\n   - \u0027play\u0027: Beschreibt eine Handlung bzw. Aktivität. Entsprechend wird der Typ \u0027activity\u0027 (ID 4) zugeordnet.\\n   - \u0027basketball\u0027: Bezeichnet ein Objekt (Spiel/ Sportart), daher ebenfalls Typ \u0027object\u0027 (ID 1).\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8): maria perform play.\\n   - Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 → Relation \u0027target\u0027 (ID 9): play target basketball.\\n   Zusätzlich werden die Typen auf der Diagonalen gesetzt: maria (object, ID 1), play (activity, ID 4), basketball (object, ID 1).\\n\\n4. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1) → vorhanden, identityMapping \u003d true → gültig für Diagonale.\\n   - \u0027activity\u0027 (ID 4) → vorhanden, identityMapping \u003d true → gültig für Diagonale.\\n   - \u0027perform\u0027 (ID 8) → vorhanden, identityMapping \u003d false → gültig für Nicht-Diagonale.\\n   - \u0027target\u0027 (ID 9) → vorhanden, identityMapping \u003d false → gültig für Nicht-Diagonale.\\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Bewertungsmatrix ist 3x3. Auf der Diagonalen stehen die Typ-IDs der jeweiligen Begriffe. Die Relationen wurden entsprechend den Typ-IDs eingetragen, wobei die Richtung beachtet wurde: Zeile → Spalte. Alle Regeln wurden eingehalten.\"\n}"
+}

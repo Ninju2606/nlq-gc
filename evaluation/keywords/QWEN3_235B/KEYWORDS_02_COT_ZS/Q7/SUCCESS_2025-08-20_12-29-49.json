@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und liefert keine klare Szenenbeschreibung. Der Ausdruck \u0027um... zu\u0027 erfordert einen sinnvollen Zweckzusammenhang (z. B. \u0027Häuser malen, um Fragen zu beantworten\u0027), hier jedoch sind die Begriffe \u0027Fragen malen\u0027 semantisch nicht plausibel und die Satzstruktur unvollständig.",
+  "error": "Unclear query structure",
+  "responsePlain": "{\n  \"error\": \"Unclear query structure\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und liefert keine klare Szenenbeschreibung. Der Ausdruck \u0027um... zu\u0027 erfordert einen sinnvollen Zweckzusammenhang (z. B. \u0027Häuser malen, um Fragen zu beantworten\u0027), hier jedoch sind die Begriffe \u0027Fragen malen\u0027 semantisch nicht plausibel und die Satzstruktur unvollständig.\"\n}"
+}

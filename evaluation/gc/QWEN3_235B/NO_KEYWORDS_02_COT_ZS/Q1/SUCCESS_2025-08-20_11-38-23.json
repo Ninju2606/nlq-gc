@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers: \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. Dabei wird der Wortstamm \u0027spiele\u0027 als \u0027play\u0027 verallgemeinert.\n4. Die Person \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, gemäß der Regel, dass Nutzeridentifikation eingesetzt wird, wenn Selbstbezug vorliegt.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine Entität bezeichnet.\n   - \u0027play\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue).\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine Aktivität oder ein Item im Kontext darstellt.\n6. Relationen:\n   - \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation: perform, ID 8).\n   - \u0027play\u0027 hat das Ziel \u0027basketball\u0027 (Relation: target, ID 9).\n   - Die Diagonale beschreibt die Typen: Maria (object), play (activity), basketball (object).\n7. Alle Relationen (8: perform, 9: target) sind in den vorgegebenen Typkodierungen enthalten und gültig. Kein Fehler.\n8. Der GraphCode wurde erfolgreich aus Vokabular und Matrix zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers: \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. Dabei wird der Wortstamm \u0027spiele\u0027 als \u0027play\u0027 verallgemeinert.\\n4. Die Person \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, gemäß der Regel, dass Nutzeridentifikation eingesetzt wird, wenn Selbstbezug vorliegt.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine Entität bezeichnet.\\n   - \u0027play\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue).\\n   - \u0027basketball\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), da es eine Aktivität oder ein Item im Kontext darstellt.\\n6. Relationen:\\n   - \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation: perform, ID 8).\\n   - \u0027play\u0027 hat das Ziel \u0027basketball\u0027 (Relation: target, ID 9).\\n   - Die Diagonale beschreibt die Typen: Maria (object), play (activity), basketball (object).\\n7. Alle Relationen (8: perform, 9: target) sind in den vorgegebenen Typkodierungen enthalten und gültig. Kein Fehler.\\n8. Der GraphCode wurde erfolgreich aus Vokabular und Matrix zusammengesetzt.\"\n}"
+}

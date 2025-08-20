@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Häuser um Fragen zu malen",
+  "error": "Die Anfrage ist grammatikalisch unklar oder unvollständig.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar oder unvollständig.\",\n  \"description\": \"Häuser um Fragen zu malen\"\n}"
+}

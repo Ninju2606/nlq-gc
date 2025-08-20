@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Das Vokabular enthält die Begriffe Maria, swim und pool für die beschriebene Szene.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Das Vokabular enthält die Begriffe Maria, swim und pool für die beschriebene Szene.\"\n}"
+}

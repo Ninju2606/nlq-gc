@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und semantisch unklar. Es lässt sich keine sinnvolle Zuordnung von Objekten, Attributen oder Aktivitäten ableiten, die für die Generierung eines GraphCodes geeignet wäre. Der Ausdruck \u0027um Fragen zu malen\u0027 ist nicht nachvollziehbar im Kontext einer Szenenbeschreibung im Metaverse.",
+  "error": "Ungültige Anfragestruktur",
+  "responsePlain": "{\n  \"error\": \"Ungültige Anfragestruktur\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und semantisch unklar. Es lässt sich keine sinnvolle Zuordnung von Objekten, Attributen oder Aktivitäten ableiten, die für die Generierung eines GraphCodes geeignet wäre. Der Ausdruck \u0027um Fragen zu malen\u0027 ist nicht nachvollziehbar im Kontext einer Szenenbeschreibung im Metaverse.\"\n}"
+}

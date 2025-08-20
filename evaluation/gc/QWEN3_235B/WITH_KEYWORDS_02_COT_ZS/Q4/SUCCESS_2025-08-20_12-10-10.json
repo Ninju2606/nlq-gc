@@ -1,0 +1,38 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis \u0027meinem\u0027 wurde aufgelöst: \u0027meinem Pool\u0027 bezieht sich auf Marias Besitz (Identifikation \u0027Maria\u0027 aus der Benutzereingabe).\n2. Attributzuordnung der Stichwörter:\n   - \u0027maria\u0027: Typ 1 (object), da es eine konkrete Entität (Person) darstellt.\n   - \u0027swim\u0027: Typ 4 (activity), da es eine Handlung beschreibt.\n   - \u0027own\u0027: Typ 4 (activity), da es als reifizierte Besitz-Handlung modelliert wird.\n   - \u0027pool\u0027: Typ 1 (object), da es ein physisches Objekt ist.\n3. Relationen zwischen den Stichwörtern:\n   - Maria führt \u0027swim\u0027 aus (perform-Beziehung).\n   - Maria führt \u0027own\u0027 aus (perform-Beziehung für Besitz).\n   - \u0027swim\u0027 und \u0027own\u0027 beziehen sich beide auf den \u0027pool\u0027 (target-Beziehung).\n4. Alle Relationen passen zu den Typkodierungen:\n   - perform (ID 8) für Maria→swim und Maria→own.\n   - target (ID 9) für swim→pool und own→pool.\n5. Der GraphCode wurde gemäß Vorgaben zusammengesetzt. Diagonale enthält nur identityMapping\u003dtrue-Typen, alle Relationen nutzen gültige off-diagonale Typcodes.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027meinem\u0027 wurde aufgelöst: \u0027meinem Pool\u0027 bezieht sich auf Marias Besitz (Identifikation \u0027Maria\u0027 aus der Benutzereingabe).\\n2. Attributzuordnung der Stichwörter:\\n   - \u0027maria\u0027: Typ 1 (object), da es eine konkrete Entität (Person) darstellt.\\n   - \u0027swim\u0027: Typ 4 (activity), da es eine Handlung beschreibt.\\n   - \u0027own\u0027: Typ 4 (activity), da es als reifizierte Besitz-Handlung modelliert wird.\\n   - \u0027pool\u0027: Typ 1 (object), da es ein physisches Objekt ist.\\n3. Relationen zwischen den Stichwörtern:\\n   - Maria führt \u0027swim\u0027 aus (perform-Beziehung).\\n   - Maria führt \u0027own\u0027 aus (perform-Beziehung für Besitz).\\n   - \u0027swim\u0027 und \u0027own\u0027 beziehen sich beide auf den \u0027pool\u0027 (target-Beziehung).\\n4. Alle Relationen passen zu den Typkodierungen:\\n   - perform (ID 8) für Maria→swim und Maria→own.\\n   - target (ID 9) für swim→pool und own→pool.\\n5. Der GraphCode wurde gemäß Vorgaben zusammengesetzt. Diagonale enthält nur identityMapping\u003dtrue-Typen, alle Relationen nutzen gültige off-diagonale Typcodes.\"\n}"
+}

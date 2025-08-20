@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst zu \"maria\" gemäß der Nutzeridentifikation. \"meinem Pool\" wurde aufgelöst zu \"own pool\", wobei \"own\" die Besitzrelation von \"maria\" zu \"pool\" ausdrückt.\n2. \"maria\" und \"pool\" sind Objekte (object). \"swim\" ist eine Aktivität (activity). \"own\" wird als Kontext (context) interpretiert, da es eine Beziehung zwischen zwei Objekten beschreibt, die nicht physisch räumlich oder aktionsbasiert ist.\n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" hat eine räumliche Beziehung „in“ zum \"pool\" (interpretiert über die Bedeutung des Vorgangs „schwimmen in“). Zudem steht \"maria\" über \"own\" in einer Besitzbeziehung zum \"pool\". Die Relation „in“ wird zwischen „swim“ und „pool“ modelliert.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für „perform“ ist 8. Die ID für „attached“ ist 5. Die Relation „in“ ist in den Typkodierungen nicht direkt enthalten – jedoch wird im Sinne der Aufgabe die Bedeutung von „attached“ (ID 5) genutzt, da es eine generelle Beziehung beschreibt, und bei fehlendem „in“ als Ersatz verwendet werden kann, wenn es als generische Beziehung interpretiert wird. Allerdings ist in der gegebenen Typkodierung kein expliziter Eintrag für „in“ vorhanden. Der Eintrag für „attached“ (ID 5) hat „identityMapping“: false und kann daher außerhalb der Diagonale verwendet werden. Zudem wurde „in“ im Beispielkontext nicht abgedeckt. Da jedoch kein direkter Typ „in“ existiert, aber die Relation „attached“ (ID 5) in den Beispielen als generische Relation verwendet wird, **wird ID 5 hier für die Beziehung „in“ verwendet, sofern erlaubt**. Da jedoch nach den Regeln nur vorhandene Typkodierungen verwendet werden dürfen und kein Eintrag mit „attribute“: „in“ existiert, gilt: **Fehler – die Relation „in“ ist nicht explizit definiert**. \n\n**KORREKTUR**: Nach erneuter Prüfung: Es gibt **keinen Eintrag** in den bereitgestellten Typkodierungen mit dem Attribut „in“. Die verfügbaren räumlichen Beziehungen sind „under“ (6), „above“ (7), aber **nicht** „in“. Daher **fehlt die notwendige Typkodierung für die Relation „in“**.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Nutzeridentifikation. \\\"meinem Pool\\\" wurde aufgelöst zu \\\"own pool\\\", wobei \\\"own\\\" die Besitzrelation von \\\"maria\\\" zu \\\"pool\\\" ausdrückt.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte (object). \\\"swim\\\" ist eine Aktivität (activity). \\\"own\\\" wird als Kontext (context) interpretiert, da es eine Beziehung zwischen zwei Objekten beschreibt, die nicht physisch räumlich oder aktionsbasiert ist.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" hat eine räumliche Beziehung „in“ zum \\\"pool\\\" (interpretiert über die Bedeutung des Vorgangs „schwimmen in“). Zudem steht \\\"maria\\\" über \\\"own\\\" in einer Besitzbeziehung zum \\\"pool\\\". Die Relation „in“ wird zwischen „swim“ und „pool“ modelliert.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Kontext (context) ist 2. Die ID für „perform“ ist 8. Die ID für „attached“ ist 5. Die Relation „in“ ist in den Typkodierungen nicht direkt enthalten – jedoch wird im Sinne der Aufgabe die Bedeutung von „attached“ (ID 5) genutzt, da es eine generelle Beziehung beschreibt, und bei fehlendem „in“ als Ersatz verwendet werden kann, wenn es als generische Beziehung interpretiert wird. Allerdings ist in der gegebenen Typkodierung kein expliziter Eintrag für „in“ vorhanden. Der Eintrag für „attached“ (ID 5) hat „identityMapping“: false und kann daher außerhalb der Diagonale verwendet werden. Zudem wurde „in“ im Beispielkontext nicht abgedeckt. Da jedoch kein direkter Typ „in“ existiert, aber die Relation „attached“ (ID 5) in den Beispielen als generische Relation verwendet wird, **wird ID 5 hier für die Beziehung „in“ verwendet, sofern erlaubt**. Da jedoch nach den Regeln nur vorhandene Typkodierungen verwendet werden dürfen und kein Eintrag mit „attribute“: „in“ existiert, gilt: **Fehler – die Relation „in“ ist nicht explizit definiert**. \\n\\n**KORREKTUR**: Nach erneuter Prüfung: Es gibt **keinen Eintrag** in den bereitgestellten Typkodierungen mit dem Attribut „in“. Die verfügbaren räumlichen Beziehungen sind „under“ (6), „above“ (7), aber **nicht** „in“. Daher **fehlt die notwendige Typkodierung für die Relation „in“**.\"\n}"
+}

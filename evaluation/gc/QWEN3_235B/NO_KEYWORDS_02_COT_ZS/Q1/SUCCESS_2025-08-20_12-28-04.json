@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers: \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, da es ein Lehnwort ist und im Englischen identisch verwendet wird. \u0027Maria\u0027 bleibt unverändert, da es ein Eigenname ist.\n4. Da in der Anfrage die Person \u0027ich\u0027 vorkommt, die auf den Anfragensteller verweist, wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist eine Person → Typ 1 (object), da identityMapping\u003dtrue und es ein Subjekt handelt.\n   - \u0027play\u0027 ist eine Aktivität → Typ 4 (activity), da identityMapping\u003dtrue.\n   - \u0027basketball\u0027 ist ein Objekt → Typ 1 (object), da identityMapping\u003dtrue.\n6. Relationen zwischen den Stichwörtern:\n   - Maria (Subjekt) führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu play.\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (ID 9) von play zu basketball.\n7. Überprüfung der Relationen auf valide Typkodierungen:\n   - \u0027perform\u0027 (ID 8) existiert mit identityMapping\u003dfalse → gültig.\n   - \u0027target\u0027 (ID 9) existiert mit identityMapping\u003dfalse → gültig.\n   - Diagonaleinträge: [1,4,1] entsprechen Typen mit identityMapping\u003dtrue → alle gültig.\n   Alle benötigten Relationen haben entsprechende IDs in den vorgegebenen Typkodierungen. Kein Fehler.\n8. Zusammenstellung des GraphCodes mit Vokabular und Bewertungsmatrix erfolgt oben im JSON.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Identifikation des Nutzers: \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt erhalten, da es ein Lehnwort ist und im Englischen identisch verwendet wird. \u0027Maria\u0027 bleibt unverändert, da es ein Eigenname ist.\\n4. Da in der Anfrage die Person \u0027ich\u0027 vorkommt, die auf den Anfragensteller verweist, wird \u0027ich\u0027 durch \u0027Maria\u0027 ersetzt.\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist eine Person → Typ 1 (object), da identityMapping\u003dtrue und es ein Subjekt handelt.\\n   - \u0027play\u0027 ist eine Aktivität → Typ 4 (activity), da identityMapping\u003dtrue.\\n   - \u0027basketball\u0027 ist ein Objekt → Typ 1 (object), da identityMapping\u003dtrue.\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria (Subjekt) führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (ID 8) von Maria zu play.\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation \u0027target\u0027 (ID 9) von play zu basketball.\\n7. Überprüfung der Relationen auf valide Typkodierungen:\\n   - \u0027perform\u0027 (ID 8) existiert mit identityMapping\u003dfalse → gültig.\\n   - \u0027target\u0027 (ID 9) existiert mit identityMapping\u003dfalse → gültig.\\n   - Diagonaleinträge: [1,4,1] entsprechen Typen mit identityMapping\u003dtrue → alle gültig.\\n   Alle benötigten Relationen haben entsprechende IDs in den vorgegebenen Typkodierungen. Kein Fehler.\\n8. Zusammenstellung des GraphCodes mit Vokabular und Bewertungsmatrix erfolgt oben im JSON.\"\n}"
+}

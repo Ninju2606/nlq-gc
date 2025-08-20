@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittlelt werden, da die Anfrage zu vage ist und keine konkrete Szenenbeschreibung im Metaverse enthält. Formulierungen wie \"wir müssen bald einen Termin ausmachen\" beschreiben eine Absicht oder Planung, nicht jedoch eine darstellbare Szene mit Objekten, Attributen oder Aktivitäten.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittlelt werden, da die Anfrage zu vage ist und keine konkrete Szenenbeschreibung im Metaverse enthält. Formulierungen wie \\\"wir müssen bald einen Termin ausmachen\\\" beschreiben eine Absicht oder Planung, nicht jedoch eine darstellbare Szene mit Objekten, Attributen oder Aktivitäten.\"\n}"
+}

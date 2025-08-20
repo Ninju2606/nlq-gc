@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer verwendet das Pronomen \u0027ich\u0027, das auf seine Identifikation \u0027Maria\u0027 verweist. Daher wird im Vokabular der konkrete Name \u0027maria\u0027 verwendet, statt eines generischen Begriffs.\n\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027: handelt sich um eine konkrete Entität im Metaverse. Da es eine Person ist, wird dieser Begriff als \u0027object\u0027 (Typ-ID 1) klassifiziert.\n   - \u0027play\u0027: beschreibt eine Aktion, die eine Person ausführt. Es handelt sich um eine Aktivität, daher wird der Typ \u0027activity\u0027 (Typ-ID 4) zugewiesen.\n   - \u0027basketball\u0027: ist ein Objekt, das gespielt wird. Es ist ebenfalls ein \u0027object\u0027 (Typ-ID 1), da es ein materielles oder konzeptuelles Ding im Szenenkontext darstellt.\n\n3. Relationen zwischen den Stichwörtern:\n   - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ-ID 8) von \u0027maria\u0027 zu \u0027play\u0027.\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel/Inhalt → Relation \u0027target\u0027 (Typ-ID 9) von \u0027play\u0027 zu \u0027basketball\u0027.\n   - Zudem ist \u0027play\u0027 selbst eine Aktivität, also steht es in der Diagonale mit Typ 4.\n   - \u0027maria\u0027 und \u0027basketball\u0027 sind beide Objekte, also jeweils Typ 1 in der Diagonale.\n\n4. Überprüfung der Typkodierungen:\n   - Typ \u0027object\u0027 (ID 1, identityMapping\u003dtrue) → vorhanden → verwendbar für Diagonale.\n   - Typ \u0027activity\u0027 (ID 4, identityMapping\u003dtrue) → vorhanden → verwendbar für Diagonale.\n   - Typ \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → vorhanden → verwendbar für Relation (maria → play).\n   - Typ \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → vorhanden → verwendbar für Relation (play → basketball).\n   - Alle benötigten Typen sind verfügbar.\n\n5. Der GraphCode wurde erfolgreich erstellt: Das Vokabular bleibt unverändert. Die 3x3-Bewertungsmatrix weist die korrekten Typ-IDs auf. Diagonale enthält nur IDs mit identityMapping\u003dtrue (1, 4, 1), alle sonstigen Einträge enthalten nur 0 oder IDs mit identityMapping\u003dfalse (8 und 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet das Pronomen \u0027ich\u0027, das auf seine Identifikation \u0027Maria\u0027 verweist. Daher wird im Vokabular der konkrete Name \u0027maria\u0027 verwendet, statt eines generischen Begriffs.\\n\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027: handelt sich um eine konkrete Entität im Metaverse. Da es eine Person ist, wird dieser Begriff als \u0027object\u0027 (Typ-ID 1) klassifiziert.\\n   - \u0027play\u0027: beschreibt eine Aktion, die eine Person ausführt. Es handelt sich um eine Aktivität, daher wird der Typ \u0027activity\u0027 (Typ-ID 4) zugewiesen.\\n   - \u0027basketball\u0027: ist ein Objekt, das gespielt wird. Es ist ebenfalls ein \u0027object\u0027 (Typ-ID 1), da es ein materielles oder konzeptuelles Ding im Szenenkontext darstellt.\\n\\n3. Relationen zwischen den Stichwörtern:\\n   - \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Typ-ID 8) von \u0027maria\u0027 zu \u0027play\u0027.\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel/Inhalt → Relation \u0027target\u0027 (Typ-ID 9) von \u0027play\u0027 zu \u0027basketball\u0027.\\n   - Zudem ist \u0027play\u0027 selbst eine Aktivität, also steht es in der Diagonale mit Typ 4.\\n   - \u0027maria\u0027 und \u0027basketball\u0027 sind beide Objekte, also jeweils Typ 1 in der Diagonale.\\n\\n4. Überprüfung der Typkodierungen:\\n   - Typ \u0027object\u0027 (ID 1, identityMapping\u003dtrue) → vorhanden → verwendbar für Diagonale.\\n   - Typ \u0027activity\u0027 (ID 4, identityMapping\u003dtrue) → vorhanden → verwendbar für Diagonale.\\n   - Typ \u0027perform\u0027 (ID 8, identityMapping\u003dfalse) → vorhanden → verwendbar für Relation (maria → play).\\n   - Typ \u0027target\u0027 (ID 9, identityMapping\u003dfalse) → vorhanden → verwendbar für Relation (play → basketball).\\n   - Alle benötigten Typen sind verfügbar.\\n\\n5. Der GraphCode wurde erfolgreich erstellt: Das Vokabular bleibt unverändert. Die 3x3-Bewertungsmatrix weist die korrekten Typ-IDs auf. Diagonale enthält nur IDs mit identityMapping\u003dtrue (1, 4, 1), alle sonstigen Einträge enthalten nur 0 oder IDs mit identityMapping\u003dfalse (8 und 9).\"\n}"
+}

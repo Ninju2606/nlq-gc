@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "1. \u0027Ich\u0027 und \u0027mir\u0027 wurden zu \u0027maria\u0027 aufgelöst.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage (object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity).\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform). \u0027maria\u0027 führt die Aktivität \u0027own\u0027 aus (perform). Die Aktivität \u0027own\u0027 bezieht sich auf \u0027pool\u0027 als Zielobjekt (target). Die Aktivität \u0027swim\u0027 findet innerhalb von \u0027pool\u0027 statt, was als allgemeine räumliche Verbindung (attached) interpretiert wird.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Für die räumliche Beziehung \u0027in\u0027 wird attached (ID: 5) verwendet, da keine spezifischere Beziehung wie \u0027in\u0027 in den Typkodierungen vorhanden ist, aber \u0027attached\u0027 als allgemeine Verbindungsbeziehung akzeptabel ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 5],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. \u0027Ich\u0027 und \u0027mir\u0027 wurden zu \u0027maria\u0027 aufgelöst.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage (object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity).\\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus (perform). \u0027maria\u0027 führt die Aktivität \u0027own\u0027 aus (perform). Die Aktivität \u0027own\u0027 bezieht sich auf \u0027pool\u0027 als Zielobjekt (target). Die Aktivität \u0027swim\u0027 findet innerhalb von \u0027pool\u0027 statt, was als allgemeine räumliche Verbindung (attached) interpretiert wird.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Für die räumliche Beziehung \u0027in\u0027 wird attached (ID: 5) verwendet, da keine spezifischere Beziehung wie \u0027in\u0027 in den Typkodierungen vorhanden ist, aber \u0027attached\u0027 als allgemeine Verbindungsbeziehung akzeptabel ist.\"\n}"
+}

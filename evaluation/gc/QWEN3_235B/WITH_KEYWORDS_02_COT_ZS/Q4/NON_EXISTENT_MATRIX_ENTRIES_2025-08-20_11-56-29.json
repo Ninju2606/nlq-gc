@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      5
+    ],
+    [
+      0,
+      9,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mein\u0027, was auf eine Selbstidentifikation hinweist. Daher wird die angegebene Identifikation \u0027Maria\u0027 im Vokabular anstelle von \u0027ich\u0027 und \u0027mein\u0027 verwendet. Das Objekt \u0027Pool\u0027 wird als von Maria besessen interpretiert (\u0027mein Pool\u0027), weshalb die Beziehung \u0027own\u0027 (besitzen) zwischen \u0027maria\u0027 und \u0027pool\u0027 hergestellt wird.\n\n2. Attributeigenschaften der Stichwörter:\n- \u0027maria\u0027: Dies ist eine Entität, die ein Objekt darstellt (Typ: object, id\u003d1), da es eine konkrete Person im Metaverse bezeichnet.\n- \u0027swim\u0027: Beschreibt eine Handlung oder Aktivität (Typ: activity, id\u003d4).\n- \u0027own\u0027: Zeigt eine Besitzbeziehung an. Dies ist keine Identitätskodierung, sondern eine relationale Beziehung (id\u003d5, \u0027attached\u0027). Im Kontext wird \u0027own\u0027 als \u0027ist verbunden mit\u0027 (attached) interpretiert, da es eine Zugehörigkeit ausdrückt.\n- \u0027pool\u0027: Ein physikalisches Objekt im Szenenkontext (Typ: object, id\u003d1).\n\n3. Relationsdarstellung:\n- Maria führt die Aktivität \u0027swim\u0027 aus → Beziehung \u0027perform\u0027 (id\u003d8) von \u0027maria\u0027 zu \u0027swim\u0027.\n- Die Aktivität \u0027swim\u0027 hat als Zielort den \u0027pool\u0027 → Beziehung \u0027target\u0027 (id\u003d9) von \u0027swim\u0027 zu \u0027pool\u0027.\n- Maria besitzt den \u0027pool\u0027 → Beziehung \u0027attached\u0027 (id\u003d5) zwischen \u0027maria\u0027 und \u0027pool\u0027. Zusätzlich wird \u0027own\u0027 als Aktivität oder Zustand verstanden, daher auch Beziehung von \u0027maria\u0027 zu \u0027own\u0027 (attached, id\u003d5) und von \u0027own\u0027 zu \u0027pool\u0027 (attached, id\u003d5).\n- \u0027own\u0027 selbst ist eine Beziehung, daher kein eigenes Objekt oder eine Aktivität im Sinne von Handlung – es wird als relationales Attribut (\u0027attached\u0027) modelliert.\n\n4. Überprüfung der Typkodierungen:\n- object (id\u003d1): vorhanden → verwendet für \u0027maria\u0027 und \u0027pool\u0027 auf Diagonale.\n- activity (id\u003d4): vorhanden → verwendet für \u0027swim\u0027 auf Diagonale.\n- attached (id\u003d5): vorhanden → beschreibt Besitz- und Zugehörigkeitsbeziehungen.\n- perform (id\u003d8): vorhanden → Maria führt swim aus.\n- target (id\u003d9): vorhanden → swim findet im pool statt.\nAlle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\n\n5. Der GraphCode wurde entsprechend dem Vokabular und den relationsbasierten Typkodierungen zusammengesetzt. Die Matrix ist 4x4, da das Vokabular 4 Einträge hat. Die Diagonale enthält nur Typen mit identityMapping\u003dtrue (1, 4), alle anderen Einträge außerhalb nutzen nur Typen mit identityMapping\u003dfalse (5, 8, 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 5, 5],\n    [0, 9, 5, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mein\u0027, was auf eine Selbstidentifikation hinweist. Daher wird die angegebene Identifikation \u0027Maria\u0027 im Vokabular anstelle von \u0027ich\u0027 und \u0027mein\u0027 verwendet. Das Objekt \u0027Pool\u0027 wird als von Maria besessen interpretiert (\u0027mein Pool\u0027), weshalb die Beziehung \u0027own\u0027 (besitzen) zwischen \u0027maria\u0027 und \u0027pool\u0027 hergestellt wird.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \u0027maria\u0027: Dies ist eine Entität, die ein Objekt darstellt (Typ: object, id\u003d1), da es eine konkrete Person im Metaverse bezeichnet.\\n- \u0027swim\u0027: Beschreibt eine Handlung oder Aktivität (Typ: activity, id\u003d4).\\n- \u0027own\u0027: Zeigt eine Besitzbeziehung an. Dies ist keine Identitätskodierung, sondern eine relationale Beziehung (id\u003d5, \u0027attached\u0027). Im Kontext wird \u0027own\u0027 als \u0027ist verbunden mit\u0027 (attached) interpretiert, da es eine Zugehörigkeit ausdrückt.\\n- \u0027pool\u0027: Ein physikalisches Objekt im Szenenkontext (Typ: object, id\u003d1).\\n\\n3. Relationsdarstellung:\\n- Maria führt die Aktivität \u0027swim\u0027 aus → Beziehung \u0027perform\u0027 (id\u003d8) von \u0027maria\u0027 zu \u0027swim\u0027.\\n- Die Aktivität \u0027swim\u0027 hat als Zielort den \u0027pool\u0027 → Beziehung \u0027target\u0027 (id\u003d9) von \u0027swim\u0027 zu \u0027pool\u0027.\\n- Maria besitzt den \u0027pool\u0027 → Beziehung \u0027attached\u0027 (id\u003d5) zwischen \u0027maria\u0027 und \u0027pool\u0027. Zusätzlich wird \u0027own\u0027 als Aktivität oder Zustand verstanden, daher auch Beziehung von \u0027maria\u0027 zu \u0027own\u0027 (attached, id\u003d5) und von \u0027own\u0027 zu \u0027pool\u0027 (attached, id\u003d5).\\n- \u0027own\u0027 selbst ist eine Beziehung, daher kein eigenes Objekt oder eine Aktivität im Sinne von Handlung – es wird als relationales Attribut (\u0027attached\u0027) modelliert.\\n\\n4. Überprüfung der Typkodierungen:\\n- object (id\u003d1): vorhanden → verwendet für \u0027maria\u0027 und \u0027pool\u0027 auf Diagonale.\\n- activity (id\u003d4): vorhanden → verwendet für \u0027swim\u0027 auf Diagonale.\\n- attached (id\u003d5): vorhanden → beschreibt Besitz- und Zugehörigkeitsbeziehungen.\\n- perform (id\u003d8): vorhanden → Maria führt swim aus.\\n- target (id\u003d9): vorhanden → swim findet im pool statt.\\nAlle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\\n\\n5. Der GraphCode wurde entsprechend dem Vokabular und den relationsbasierten Typkodierungen zusammengesetzt. Die Matrix ist 4x4, da das Vokabular 4 Einträge hat. Die Diagonale enthält nur Typen mit identityMapping\u003dtrue (1, 4), alle anderen Einträge außerhalb nutzen nur Typen mit identityMapping\u003dfalse (5, 8, 9).\"\n}"
+}

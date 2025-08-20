@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der relative Verweis „Ich“ wurde zu „maria“ aufgelöst.\n2. „maria“ und „basketball“ sind Objekte (object) der Anfrage. „play“ ist eine Aktivität (activity).\n3. „maria“ führt die Aktivität „play“ aus (perform). Die Aktivität „play“ bezieht sich (target) auf „basketball“.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Zielbezug (target) ist 9.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\u201eIch\\u201c wurde zu \\u201emaria\\u201c aufgel\\u00f6st.\\n2. \\u201emaria\\u201c und \\u201ebasketball\\u201c sind Objekte (object) der Anfrage. \\u201eplay\\u201c ist eine Aktivit\\u00e4t (activity).\\n3. \\u201emaria\\u201c f\\u00fchrt die Aktivit\\u00e4t \\u201eplay\\u201c aus (perform). Die Aktivit\\u00e4t \\u201eplay\\u201c bezieht sich (target) auf \\u201ebasketball\\u201c.\\n4. Die ID f\\u00fcr Objekt (object) ist 1. Die ID f\\u00fcr Aktivit\\u00e4t (activity) ist 4. Die ID f\\u00fcr Ausf\\u00fchren (perform) ist 8. Die ID f\\u00fcr Zielbezug (target) ist 9.\"\n}"
+}

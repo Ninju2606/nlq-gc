@@ -1,0 +1,63 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "meine tochter",
+    "ich",
+    "fahren",
+    "boot",
+    "auf",
+    "see"
+  ],
+  "matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"meine tochter\",\n    \"ich\",\n    \"fahren\",\n    \"boot\",\n    \"auf\",\n    \"see\"\n  ],\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 8, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}"
+}

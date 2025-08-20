@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage \u0027Häuser um Fragen zu malen\u0027 nicht grammatikalisch oder semantisch korrekt ist. Begriffe wie \u0027Häuser\u0027 und \u0027Fragen zu malen\u0027 stehen in keinem klaren inhaltlichen Zusammenhang. Eine sinnvolle Ableitung von Objekten, Attributen oder Aktivitäten ist nicht möglich.",
+  "error": "Die Anfrage ist grammatikalisch nicht sinnvoll verständlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 enthält semantische Unstimmigkeiten und lässt keine klare Situationsbeschreibung im Metaverse zu.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch nicht sinnvoll verständlich. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 enthält semantische Unstimmigkeiten und lässt keine klare Situationsbeschreibung im Metaverse zu.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Anfrage \u0027Häuser um Fragen zu malen\u0027 nicht grammatikalisch oder semantisch korrekt ist. Begriffe wie \u0027Häuser\u0027 und \u0027Fragen zu malen\u0027 stehen in keinem klaren inhaltlichen Zusammenhang. Eine sinnvolle Ableitung von Objekten, Attributen oder Aktivitäten ist nicht möglich.\"\n}"
+}

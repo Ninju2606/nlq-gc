@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "soon",
+    "schedule",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      14,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Wir\", \"bald\", \"Termin\", \"ausmachen\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \"we\", \"soon\", \"schedule\", \"appointment\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"soon\", \"schedule\", \"appointment\".\n5. \"Maria\" und \"appointment\" sind Objekte der Anfrage. \"soon\" ist ein Kontext. \"schedule\" ist eine Aktivität.\n6. \"Maria\" führt die Aktivität \"schedule\" aus. Die Aktivität \"schedule\" bezieht sich auf \"appointment\". Die Aktivität \"schedule\" hat den Kontext \"soon\".\n7. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"soon\", \"schedule\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 8, 0],\n    [0, 2, 0, 0],\n    [0, 14, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Wir\\\", \\\"bald\\\", \\\"Termin\\\", \\\"ausmachen\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"we\\\", \\\"soon\\\", \\\"schedule\\\", \\\"appointment\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"soon\\\", \\\"schedule\\\", \\\"appointment\\\".\\n5. \\\"Maria\\\" und \\\"appointment\\\" sind Objekte der Anfrage. \\\"soon\\\" ist ein Kontext. \\\"schedule\\\" ist eine Aktivität.\\n6. \\\"Maria\\\" führt die Aktivität \\\"schedule\\\" aus. Die Aktivität \\\"schedule\\\" bezieht sich auf \\\"appointment\\\". Die Aktivität \\\"schedule\\\" hat den Kontext \\\"soon\\\".\\n7. Die ID für Objekt (object) ist 1. Die ID für Kontext (context) ist 2. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Der Nutzer verweist mit \u0027Ich\u0027 auf sich selbst, weshalb die Identifikation \u0027Maria\u0027 im Vokabular verwendet wird. Die Handlung \u0027spiele\u0027 wird auf das Verb \u0027play\u0027 abgebildet, das Substantiv \u0027Basketball\u0027 bleibt als Objekt erhalten.\n\n2. Die Attributeigenschaften der Stichwörter sind:\n   - \u0027maria\u0027: Es handelt sich um eine Person, also ein Objekt. Typkodierung mit ID 1 (object), da identityMapping\u003dtrue.\n   - \u0027play\u0027: Beschreibt eine Handlung oder Aktivität. Typkodierung mit ID 4 (activity), da identityMapping\u003dtrue.\n   - \u0027basketball\u0027: Ein konkretes Objekt (Spielgerät). Typkodierung mit ID 1 (object), da identityMapping\u003dtrue.\n\n3. Die Relationen zwischen den Stichwörtern sind:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Beziehung \u0027perform\u0027 (ID 8) von \u0027maria\u0027 zu \u0027play\u0027.\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Beziehung \u0027target\u0027 (ID 9) von \u0027play\u0027 zu \u0027basketball\u0027.\n   Zusätzlich wird auf der Diagonalen der Typ jedes Begriffs angegeben.\n\n4. Überprüfung der Relationen auf Existenz in den Typkodierungen:\n   - \u0027perform\u0027 (ID 8): existiert, identityMapping\u003dfalse → gültig für (0,1)\n   - \u0027target\u0027 (ID 9): existiert, identityMapping\u003dfalse → gültig für (1,2)\n   - Typen auf Diagonale:\n     (0,0): \u0027object\u0027 (ID 1) → erlaubt (identityMapping\u003dtrue)\n     (1,1): \u0027activity\u0027 (ID 4) → erlaubt (identityMapping\u003dtrue)\n     (2,2): \u0027object\u0027 (ID 1) → erlaubt (identityMapping\u003dtrue)\n   Alle notwendigen Typkodierungen sind vorhanden.\n\n5. Der GraphCode wurde entsprechend aufgebaut: Das Vokabular bleibt unverändert. Die Bewertungsmatrix ist 3x3, mit Typen auf der Diagonalen und Relationen außerhalb. Es wurden nur erlaubte IDs verwendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Der Nutzer verweist mit \u0027Ich\u0027 auf sich selbst, weshalb die Identifikation \u0027Maria\u0027 im Vokabular verwendet wird. Die Handlung \u0027spiele\u0027 wird auf das Verb \u0027play\u0027 abgebildet, das Substantiv \u0027Basketball\u0027 bleibt als Objekt erhalten.\\n\\n2. Die Attributeigenschaften der Stichwörter sind:\\n   - \u0027maria\u0027: Es handelt sich um eine Person, also ein Objekt. Typkodierung mit ID 1 (object), da identityMapping\u003dtrue.\\n   - \u0027play\u0027: Beschreibt eine Handlung oder Aktivität. Typkodierung mit ID 4 (activity), da identityMapping\u003dtrue.\\n   - \u0027basketball\u0027: Ein konkretes Objekt (Spielgerät). Typkodierung mit ID 1 (object), da identityMapping\u003dtrue.\\n\\n3. Die Relationen zwischen den Stichwörtern sind:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Beziehung \u0027perform\u0027 (ID 8) von \u0027maria\u0027 zu \u0027play\u0027.\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Beziehung \u0027target\u0027 (ID 9) von \u0027play\u0027 zu \u0027basketball\u0027.\\n   Zusätzlich wird auf der Diagonalen der Typ jedes Begriffs angegeben.\\n\\n4. Überprüfung der Relationen auf Existenz in den Typkodierungen:\\n   - \u0027perform\u0027 (ID 8): existiert, identityMapping\u003dfalse → gültig für (0,1)\\n   - \u0027target\u0027 (ID 9): existiert, identityMapping\u003dfalse → gültig für (1,2)\\n   - Typen auf Diagonale:\\n     (0,0): \u0027object\u0027 (ID 1) → erlaubt (identityMapping\u003dtrue)\\n     (1,1): \u0027activity\u0027 (ID 4) → erlaubt (identityMapping\u003dtrue)\\n     (2,2): \u0027object\u0027 (ID 1) → erlaubt (identityMapping\u003dtrue)\\n   Alle notwendigen Typkodierungen sind vorhanden.\\n\\n5. Der GraphCode wurde entsprechend aufgebaut: Das Vokabular bleibt unverändert. Die Bewertungsmatrix ist 3x3, mit Typen auf der Diagonalen und Relationen außerhalb. Es wurden nur erlaubte IDs verwendet.\"\n}"
+}

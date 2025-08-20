@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Begriffe, die auf Objekte, Attribute oder Aktivitäten in einer Metaverse-Szene verweisen, die für die Generierung eines sinnvollen GraphCodes geeignet wären. Es fehlen erkennbare Szenenelemente wie Personen in Handlungen, Objekte oder räumliche Relationen. Zwar kommt der Begriff \u0027Termin\u0027 vor, dieser ist aber zu abstrakt und wird nicht mit konkreten Szenenmerkmalen verknüpft. Daher kann kein Vokabular erstellt werden.",
+  "error": "Keine spezifischen Objekte, Attribute oder Aktivitäten identifizierbar.",
+  "responsePlain": "{\n  \"error\": \"Keine spezifischen Objekte, Attribute oder Aktivitäten identifizierbar.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Begriffe, die auf Objekte, Attribute oder Aktivitäten in einer Metaverse-Szene verweisen, die für die Generierung eines sinnvollen GraphCodes geeignet wären. Es fehlen erkennbare Szenenelemente wie Personen in Handlungen, Objekte oder räumliche Relationen. Zwar kommt der Begriff \u0027Termin\u0027 vor, dieser ist aber zu abstrakt und wird nicht mit konkreten Szenenmerkmalen verknüpft. Daher kann kein Vokabular erstellt werden.\"\n}"
+}

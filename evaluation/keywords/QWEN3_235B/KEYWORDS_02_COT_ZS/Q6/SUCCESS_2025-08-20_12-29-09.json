@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Schritt 1: Potenzielle Stichwörter \u0027Termin\u0027, \u0027ausmachen\u0027 und \u0027bald\u0027 extrahiert. Schritt 2: Keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027 gefunden, daher keine Auflösung notwendig. Schritt 3: Stichwörter ins Englische übersetzt zu \u0027appointment\u0027, \u0027schedule\u0027 und \u0027soon\u0027. Schritt 4: Da keine Selbstbezugswörter (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage vorhanden sind, wurde die Nutzeridentifikation \u0027Maria\u0027 nicht ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"schedule\", \"appointment\", \"soon\"],\n  \"description\": \"Schritt 1: Potenzielle Stichwörter \u0027Termin\u0027, \u0027ausmachen\u0027 und \u0027bald\u0027 extrahiert. Schritt 2: Keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027 gefunden, daher keine Auflösung notwendig. Schritt 3: Stichwörter ins Englische übersetzt zu \u0027appointment\u0027, \u0027schedule\u0027 und \u0027soon\u0027. Schritt 4: Da keine Selbstbezugswörter (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) in der Anfrage vorhanden sind, wurde die Nutzeridentifikation \u0027Maria\u0027 nicht ersetzt.\"\n}"
+}

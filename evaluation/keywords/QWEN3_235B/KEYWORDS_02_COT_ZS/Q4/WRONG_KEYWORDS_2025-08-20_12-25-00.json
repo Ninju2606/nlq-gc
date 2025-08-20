@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 sind \u0027schwimme\u0027 und \u0027Pool\u0027. Der Begriff \u0027ich\u0027 ist ein selbst identifizierendes Wort und bezieht sich auf den Nutzer. Daher wird \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Der Begriff \u0027schwimme\u0027 wird als Infinitiv \u0027swim\u0027 ins Englische übersetzt und verallgemeinert. \u0027Pool\u0027 wird zu \u0027pool\u0027 verallgemeinert und ins Englische übertragen. Der Besitz \u0027meinem\u0027 bezieht sich auf den Nutzer, daher wird \u0027meinem Pool\u0027 als \u0027Maria pool\u0027 interpretiert. Die semantisch sinnvolle Szene im Metaverse ist damit klar beschrieben.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in meinem Pool\u0027 sind \u0027schwimme\u0027 und \u0027Pool\u0027. Der Begriff \u0027ich\u0027 ist ein selbst identifizierendes Wort und bezieht sich auf den Nutzer. Daher wird \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Der Begriff \u0027schwimme\u0027 wird als Infinitiv \u0027swim\u0027 ins Englische übersetzt und verallgemeinert. \u0027Pool\u0027 wird zu \u0027pool\u0027 verallgemeinert und ins Englische übertragen. Der Besitz \u0027meinem\u0027 bezieht sich auf den Nutzer, daher wird \u0027meinem Pool\u0027 als \u0027Maria pool\u0027 interpretiert. Die semantisch sinnvolle Szene im Metaverse ist damit klar beschrieben.\"\n}"
+}

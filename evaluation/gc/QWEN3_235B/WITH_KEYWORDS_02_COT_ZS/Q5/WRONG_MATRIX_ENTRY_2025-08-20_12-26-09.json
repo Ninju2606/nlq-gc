@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und durch die Identifikation \u0027Maria\u0027 ersetzt. 2. Die Attributeigenschaften sind: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027hat\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 wird als Kontext (Typ 2) klassifiziert. 3. Die Relationen sind: Maria führt die Aktivität \u0027wear\u0027 aus (Relation 8), die Aktivität \u0027wear\u0027 hat das Ziel \u0027hat\u0027 (Relation 9), das Objekt \u0027hat\u0027 besitzt das Merkmal \u0027yellow\u0027 (Relation 14). 4. Alle Relationen haben passende Typkodierungen mit den IDs 8, 9 und 14.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst und durch die Identifikation \u0027Maria\u0027 ersetzt. 2. Die Attributeigenschaften sind: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027hat\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 wird als Kontext (Typ 2) klassifiziert. 3. Die Relationen sind: Maria führt die Aktivität \u0027wear\u0027 aus (Relation 8), die Aktivität \u0027wear\u0027 hat das Ziel \u0027hat\u0027 (Relation 9), das Objekt \u0027hat\u0027 besitzt das Merkmal \u0027yellow\u0027 (Relation 14). 4. Alle Relationen haben passende Typkodierungen mit den IDs 8, 9 und 14.\"\n}"
+}

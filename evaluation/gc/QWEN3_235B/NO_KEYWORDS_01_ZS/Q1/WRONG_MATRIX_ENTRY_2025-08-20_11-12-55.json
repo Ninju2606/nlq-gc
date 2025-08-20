@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      8
+    ],
+    [
+      0,
+      1,
+      9
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.6666666666666666,
+  "description": "Ich spiele Basketball",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"basketball\",\n    \"play\"\n  ],\n  \"matrix\": [\n    [1, 5, 8],\n    [0, 1, 9],\n    [0, 0, 4]\n  ],\n  \"description\": \"Ich spiele Basketball\"\n}"
+}

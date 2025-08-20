@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n        2. \"mir gehört\" ist ein relativer Verweis auf den Benutzer. Die Beziehung bezieht sich auf den Besitz des Pools durch den Nutzer. Es entsteht die neue Beziehung zwischen Maria und dem Pool.\n        3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\". Das Verb \"schwimme\" wird als Stamm \"swim\" übernommen.\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\". Dabei bezieht sich der Pool auf den von Maria besitzten Pool.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n        2. \\\"mir gehört\\\" ist ein relativer Verweis auf den Benutzer. Die Beziehung bezieht sich auf den Besitz des Pools durch den Nutzer. Es entsteht die neue Beziehung zwischen Maria und dem Pool.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\". Das Verb \\\"schwimme\\\" wird als Stamm \\\"swim\\\" übernommen.\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\". Dabei bezieht sich der Pool auf den von Maria besitzten Pool.\"\n}"
+}

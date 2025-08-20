@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Potenzielle Stichwörter aus der Anfrage: \u0027ich\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027Maria\u0027. Die Begriffe wurden ins Englische übersetzt: \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027. \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Verallgemeinerung der Wortstämme durchgeführt, z. B. \u0027trage\u0027 → \u0027wear\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"wear\",\n    \"yellow\",\n    \"hat\"\n  ],\n  \"description\": \"Potenzielle Stichwörter aus der Anfrage: \u0027ich\u0027, \u0027trage\u0027, \u0027gelben\u0027, \u0027Hut\u0027. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027Maria\u0027. Die Begriffe wurden ins Englische übersetzt: \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027. \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Verallgemeinerung der Wortstämme durchgeführt, z. B. \u0027trage\u0027 → \u0027wear\u0027.\"\n}"
+}

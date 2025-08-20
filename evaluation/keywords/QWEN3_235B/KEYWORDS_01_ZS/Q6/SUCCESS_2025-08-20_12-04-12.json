@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist zu vage und bezieht sich auf eine organisatorische Absicht, nicht auf eine konkrete Szene im Metaverse mit identifizierbaren Begriffen wie Objekten, Attributen oder Aktivitäten, die in einem GraphCode abgebildet werden könnten.",
+  "error": "Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die in eine Szenenbeschreibung im Metaverse übersetzt werden können.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klaren Objekte, Attribute oder Aktivitäten, die in eine Szenenbeschreibung im Metaverse übersetzt werden können.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist zu vage und bezieht sich auf eine organisatorische Absicht, nicht auf eine konkrete Szene im Metaverse mit identifizierbaren Begriffen wie Objekten, Attributen oder Aktivitäten, die in einem GraphCode abgebildet werden könnten.\"\n}"
+}

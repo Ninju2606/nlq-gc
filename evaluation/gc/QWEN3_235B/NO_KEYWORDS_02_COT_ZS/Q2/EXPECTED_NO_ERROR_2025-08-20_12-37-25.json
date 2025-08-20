@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 enthält zwar ein Objekt (Tim) und eine Aktivität (rennt), jedoch fehlt eine klare relationale Beschreibung, die eine Verbindung zwischen Begriffen im Sinne des GraphCode erlaubt. Zwar kann \u0027rennt\u0027 als Aktivität interpretiert werden, aber es wird nicht angegeben, von wem oder in welchem Kontext diese Aktivität ausgeführt wird, und es fehlt eine Relation, die im vorgegebenen Typkodierungssystem abgebildet werden kann. Insbesondere fehlt eine Verknüpfung wie \u0027perform\u0027 (wer führt die Aktivität aus?), um eine gültige Matrix zu generieren. Daher kann kein korrekter GraphCode erstellt werden.",
+  "error": "Keine gültige Szenenbeschreibung gefunden.",
+  "responsePlain": "{\n  \"error\": \"Keine gültige Szenenbeschreibung gefunden.\",\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 enthält zwar ein Objekt (Tim) und eine Aktivität (rennt), jedoch fehlt eine klare relationale Beschreibung, die eine Verbindung zwischen Begriffen im Sinne des GraphCode erlaubt. Zwar kann \u0027rennt\u0027 als Aktivität interpretiert werden, aber es wird nicht angegeben, von wem oder in welchem Kontext diese Aktivität ausgeführt wird, und es fehlt eine Relation, die im vorgegebenen Typkodierungssystem abgebildet werden kann. Insbesondere fehlt eine Verknüpfung wie \u0027perform\u0027 (wer führt die Aktivität aus?), um eine gültige Matrix zu generieren. Daher kann kein korrekter GraphCode erstellt werden.\"\n}"
+}

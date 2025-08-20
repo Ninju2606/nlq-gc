@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode bildet die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 ab. Maria (Objekt, ID1) führt die Aktivität \u0027tragen\u0027 (ID4) aus (Beziehung \u0027perform\u0027 ID8), deren Zielobjekt ein Hut (Objekt, ID1) ist (Beziehung \u0027target\u0027 ID9). Der Hut besitzt die Charakteristik Gelb (Beziehung \u0027characteristic\u0027 ID14).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode bildet die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 ab. Maria (Objekt, ID1) führt die Aktivität \u0027tragen\u0027 (ID4) aus (Beziehung \u0027perform\u0027 ID8), deren Zielobjekt ein Hut (Objekt, ID1) ist (Beziehung \u0027target\u0027 ID9). Der Hut besitzt die Charakteristik Gelb (Beziehung \u0027characteristic\u0027 ID14).\"\n}"
+}

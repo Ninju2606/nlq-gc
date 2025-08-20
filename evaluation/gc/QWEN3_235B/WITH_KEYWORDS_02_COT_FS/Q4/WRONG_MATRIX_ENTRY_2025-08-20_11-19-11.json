@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"Ich\" wurde aufgelöst zu \"maria\" gemäß der gegebenen Nutzeridentifikation. \"Meinem\" wurde als Besitzverhältnis interpretiert und führt zur Aufnahme des Stichworts \"own\" im Vokabular, welches die Beziehung zwischen Maria und dem Pool darstellt.\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" wird als Aktivität klassifiziert, da es eine Handlung beschreibt (Besitzen), und somit dem Typ \"activity\" entspricht.\n3. \"maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" bezieht sich auf den \"pool\" (als Ort der Handlung). Zudem steht \"maria\" in einer Besitzbeziehung zum \"pool\", dargestellt durch \"own\". Der \"own\"-Beziehung wird die Charakteristik \"characteristic\" zugewiesen, um den Pool als Eigentum von Maria zu kennzeichnen.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Alle benötigten Typkodierungen sind vorhanden und korrekt angewendet.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der gegebenen Nutzeridentifikation. \\\"Meinem\\\" wurde als Besitzverhältnis interpretiert und führt zur Aufnahme des Stichworts \\\"own\\\" im Vokabular, welches die Beziehung zwischen Maria und dem Pool darstellt.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" wird als Aktivität klassifiziert, da es eine Handlung beschreibt (Besitzen), und somit dem Typ \\\"activity\\\" entspricht.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" bezieht sich auf den \\\"pool\\\" (als Ort der Handlung). Zudem steht \\\"maria\\\" in einer Besitzbeziehung zum \\\"pool\\\", dargestellt durch \\\"own\\\". Der \\\"own\\\"-Beziehung wird die Charakteristik \\\"characteristic\\\" zugewiesen, um den Pool als Eigentum von Maria zu kennzeichnen.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Alle benötigten Typkodierungen sind vorhanden und korrekt angewendet.\"\n}"
+}

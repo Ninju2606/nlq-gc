@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Tim\u0027 (Eigennamen-Objekt) und \u0027rennt\u0027 (Aktivität). 2. Keine relativen Verweise wie \u0027ich\u0027 vorhanden, daher Ignorieren der Nutzeridentifikation \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt unverändert (Eigennamen), \u0027rennt\u0027 → \u0027run\u0027 (Stammform). 4. Keine selbstidentifizierenden Wörter vorhanden, daher keine Ersetzung notwendig. 5. Attribute: \u0027Tim\u0027 ist ein \u0027object\u0027 (Typ-ID 1), \u0027run\u0027 ist eine \u0027activity\u0027 (Typ-ID 4). 6. Relation: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus (Relationstyp \u0027perform\u0027). 7. Die Relation \u0027perform\u0027 entspricht der Typ-ID 8 (identityMapping\u003dfalse), alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Tim\u0027 (Eigennamen-Objekt) und \u0027rennt\u0027 (Aktivität). 2. Keine relativen Verweise wie \u0027ich\u0027 vorhanden, daher Ignorieren der Nutzeridentifikation \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt unverändert (Eigennamen), \u0027rennt\u0027 → \u0027run\u0027 (Stammform). 4. Keine selbstidentifizierenden Wörter vorhanden, daher keine Ersetzung notwendig. 5. Attribute: \u0027Tim\u0027 ist ein \u0027object\u0027 (Typ-ID 1), \u0027run\u0027 ist eine \u0027activity\u0027 (Typ-ID 4). 6. Relation: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus (Relationstyp \u0027perform\u0027). 7. Die Relation \u0027perform\u0027 entspricht der Typ-ID 8 (identityMapping\u003dfalse), alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

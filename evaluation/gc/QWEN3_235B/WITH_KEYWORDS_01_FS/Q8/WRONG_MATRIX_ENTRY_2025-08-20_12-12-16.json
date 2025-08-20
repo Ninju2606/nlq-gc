@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.96,
+  "description": "Der GraphCode beschreibt die Szene, in der Maria mit ihrer Tochter (person) ein Boot (boat) auf einem See (lake) fährt. Maria hat eine Tochter-Beziehung (10) zur Person, beide führen die Aktivität drive (4) aus (8 \u003d perform). Das Ziel der Aktivität ist das Boot (9 \u003d target). Das Boot befindet sich oberhalb des Sees (7 \u003d above), wobei der See als Kontext (2) modelliert ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 7],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Szene, in der Maria mit ihrer Tochter (person) ein Boot (boat) auf einem See (lake) fährt. Maria hat eine Tochter-Beziehung (10) zur Person, beide führen die Aktivität drive (4) aus (8 \u003d perform). Das Ziel der Aktivität ist das Boot (9 \u003d target). Das Boot befindet sich oberhalb des Sees (7 \u003d above), wobei der See als Kontext (2) modelliert ist.\"\n}"
+}

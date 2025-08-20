@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst und durch die Nutzeridentifikation \"maria\" ersetzt.\n2. \"maria\" und \"hat\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität. \"yellow\" ist ein Attribut, das als Kontext eingestuft wird.\n3. \"maria\" führt die Aktivität \"wear\" aus. Die Aktivität \"wear\" hat das Ziel \"hat\". Das Objekt \"hat\" hat die Charakteristik \"yellow\". \"yellow\" fungiert als Kontextmerkmal des Hutes.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die ID für Kontext (context) ist 2, jedoch wird \"yellow\" hier als „characteristic“ verwendet, da es ein Attribut des Objekts ist. Es gibt keine Typkodierung mit attribute\u003d„context“ und identityMapping\u003dtrue bei ID 3 (dort ist „synonym“). Korrektur: ID 2 ist „context“ mit identityMapping\u003dtrue. Aber laut Vokabularverwendung ist „yellow“ kein eigenständiger Kontext, sondern eine Eigenschaft. Daher ist „characteristic“ (ID 14) zulässig. Die Beziehung zwischen \"hat\" und \"yellow\" ist über ID 14 korrekt. Die Klassifizierung von \"yellow\" im Vokabular erfordert einen Eintrag mit identityMapping\u003dtrue: aber 14 hat identityMapping\u003dfalse. Problem! Eintrag auf Diagonale muss identityMapping\u003dtrue haben. Daher ist ID 14 nicht zulässig auf Diagonale (i\u003dj). Es fehlt ein Typ mit identityMapping\u003dtrue für Attribute wie Farben. Mögliche Typen mit identityMapping\u003dtrue sind: object (1), context (2), synonym (3), activity (4). „yellow“ ist kein Objekt, keine Aktivität, kein Synonym. Also müsste es unter „context“ (ID 2) eingeordnet werden. Daher muss „yellow“ als Kontext (ID 2) klassifiziert werden, obwohl es eine Eigenschaft ist. Nach Regeln: nur Einträge mit identityMapping\u003dtrue sind auf Diagonale erlaubt. Daher: „yellow“ muss Typ 2 (context) erhalten. Danach: Beziehung „hat“ – „yellow“ \u003d characteristic (ID 14) erlaubt, da außerhalb Diagonale und identityMapping\u003dfalse. Korrektur: Matrix[3][3] muss 2 statt 3 sein? Aber „attribute\":\"context\" hat ID 2. Richtig. Also: \"yellow\" ist Kontext → ID 2 auf Diagonale. Die ID für context ist 2. Damit ist der Eintrag korrekt, wenn matrix[3][3] \u003d 2. Aber aktuell steht dort 3 – Behebung nötig. Auch: Ist „wear“ eine Aktivität? Ja, id\u003d4 (activity) → matrix[1][1]\u003d4. Bisher war 4 als ID für „activity“ definiert. Korrekt. Bisher fälschlicherweise 8 auf Diagonale – falsch. Korrektur: matrix[1][1] muss 4 sein (activity), nicht 8. 8 ist „perform“, nur außerhalb erlaubt. Fehler in erster Version. Endgültige Korrekturen:\n- matrix[0][0] \u003d 1 (object, maria)\n- matrix[1][1] \u003d 4 (activity, wear)\n- matrix[2][2] \u003d 1 (object, hat)\n- matrix[3][3] \u003d 2 (context, yellow)\nBeziehungen:\n- maria führt wear aus → matrix[0][1] \u003d 8 (perform)\n- wear bezieht sich auf hat → matrix[1][2] \u003d 9 (target)\n- hat hat Eigenschaft yellow → matrix[2][3] \u003d 14 (characteristic)\nAlle IDs existieren und entsprechen den Regeln.\nEndgültige Matrix:",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst und durch die Nutzeridentifikation \\\"maria\\\" ersetzt.\\n2. \\\"maria\\\" und \\\"hat\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität. \\\"yellow\\\" ist ein Attribut, das als Kontext eingestuft wird.\\n3. \\\"maria\\\" führt die Aktivität \\\"wear\\\" aus. Die Aktivität \\\"wear\\\" hat das Ziel \\\"hat\\\". Das Objekt \\\"hat\\\" hat die Charakteristik \\\"yellow\\\". \\\"yellow\\\" fungiert als Kontextmerkmal des Hutes.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Ziel (target) ist 9. Die ID für Charakteristik (characteristic) ist 14. Die ID für Kontext (context) ist 2, jedoch wird \\\"yellow\\\" hier als „characteristic“ verwendet, da es ein Attribut des Objekts ist. Es gibt keine Typkodierung mit attribute\u003d„context“ und identityMapping\u003dtrue bei ID 3 (dort ist „synonym“). Korrektur: ID 2 ist „context“ mit identityMapping\u003dtrue. Aber laut Vokabularverwendung ist „yellow“ kein eigenständiger Kontext, sondern eine Eigenschaft. Daher ist „characteristic“ (ID 14) zulässig. Die Beziehung zwischen \\\"hat\\\" und \\\"yellow\\\" ist über ID 14 korrekt. Die Klassifizierung von \\\"yellow\\\" im Vokabular erfordert einen Eintrag mit identityMapping\u003dtrue: aber 14 hat identityMapping\u003dfalse. Problem! Eintrag auf Diagonale muss identityMapping\u003dtrue haben. Daher ist ID 14 nicht zulässig auf Diagonale (i\u003dj). Es fehlt ein Typ mit identityMapping\u003dtrue für Attribute wie Farben. Mögliche Typen mit identityMapping\u003dtrue sind: object (1), context (2), synonym (3), activity (4). „yellow“ ist kein Objekt, keine Aktivität, kein Synonym. Also müsste es unter „context“ (ID 2) eingeordnet werden. Daher muss „yellow“ als Kontext (ID 2) klassifiziert werden, obwohl es eine Eigenschaft ist. Nach Regeln: nur Einträge mit identityMapping\u003dtrue sind auf Diagonale erlaubt. Daher: „yellow“ muss Typ 2 (context) erhalten. Danach: Beziehung „hat“ – „yellow“ \u003d characteristic (ID 14) erlaubt, da außerhalb Diagonale und identityMapping\u003dfalse. Korrektur: Matrix[3][3] muss 2 statt 3 sein? Aber „attribute\\\":\\\"context\\\" hat ID 2. Richtig. Also: \\\"yellow\\\" ist Kontext → ID 2 auf Diagonale. Die ID für context ist 2. Damit ist der Eintrag korrekt, wenn matrix[3][3] \u003d 2. Aber aktuell steht dort 3 – Behebung nötig. Auch: Ist „wear“ eine Aktivität? Ja, id\u003d4 (activity) → matrix[1][1]\u003d4. Bisher war 4 als ID für „activity“ definiert. Korrekt. Bisher fälschlicherweise 8 auf Diagonale – falsch. Korrektur: matrix[1][1] muss 4 sein (activity), nicht 8. 8 ist „perform“, nur außerhalb erlaubt. Fehler in erster Version. Endgültige Korrekturen:\\n- matrix[0][0] \u003d 1 (object, maria)\\n- matrix[1][1] \u003d 4 (activity, wear)\\n- matrix[2][2] \u003d 1 (object, hat)\\n- matrix[3][3] \u003d 2 (context, yellow)\\nBeziehungen:\\n- maria führt wear aus → matrix[0][1] \u003d 8 (perform)\\n- wear bezieht sich auf hat → matrix[1][2] \u003d 9 (target)\\n- hat hat Eigenschaft yellow → matrix[2][3] \u003d 14 (characteristic)\\nAlle IDs existieren und entsprechen den Regeln.\\nEndgültige Matrix:\"\n}"
+}

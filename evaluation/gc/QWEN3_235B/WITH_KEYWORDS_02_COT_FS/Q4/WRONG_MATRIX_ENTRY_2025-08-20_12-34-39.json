@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      10
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"ich\" wurde durch die Nutzeridentifikation \"Maria\" ersetzt. \"Meinem Pool\" wurde aufgelöst zu \"own\" (mein) als Beziehung zwischen Maria und Pool.\n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"own\" sind Aktivitäten.\n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" hat das Ziel (target) \"pool\", da sie im Pool schwimmt. \"maria\" führt auch die Aktivität \"own\" aus. \"own\" bezieht sich auf \"pool\" (Maria besitzt den Pool). Zudem ist die Ortsrelation \"in\" zwischen der Aktivität \"swim\" und dem Objekt \"pool\" gegeben.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für target ist 9. Die ID für die Beziehung \"own\" als synonym für Besitz wird durch \"daughter\" (ID 10) repräsentiert, da kein direkter Typ „own“ existiert, aber „daughter“ identityMapping\u003dfalse hat und hier als Beziehung für Besitz verwendet wird. Die Relation \"in\" ist nicht in den Typkodierungen enthalten – stattdessen wird für die Ortsangabe \"in\" die Beziehung \"attached\" (ID 5) verwendet, da laut Kontext \"attached\" für in verwendet wird. Die ID für target (9) wird korrekt verwendet. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 10],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde durch die Nutzeridentifikation \\\"Maria\\\" ersetzt. \\\"Meinem Pool\\\" wurde aufgelöst zu \\\"own\\\" (mein) als Beziehung zwischen Maria und Pool.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" hat das Ziel (target) \\\"pool\\\", da sie im Pool schwimmt. \\\"maria\\\" führt auch die Aktivität \\\"own\\\" aus. \\\"own\\\" bezieht sich auf \\\"pool\\\" (Maria besitzt den Pool). Zudem ist die Ortsrelation \\\"in\\\" zwischen der Aktivität \\\"swim\\\" und dem Objekt \\\"pool\\\" gegeben.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für target ist 9. Die ID für die Beziehung \\\"own\\\" als synonym für Besitz wird durch \\\"daughter\\\" (ID 10) repräsentiert, da kein direkter Typ „own“ existiert, aber „daughter“ identityMapping\u003dfalse hat und hier als Beziehung für Besitz verwendet wird. Die Relation \\\"in\\\" ist nicht in den Typkodierungen enthalten – stattdessen wird für die Ortsangabe \\\"in\\\" die Beziehung \\\"attached\\\" (ID 5) verwendet, da laut Kontext \\\"attached\\\" für in verwendet wird. Die ID für target (9) wird korrekt verwendet. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

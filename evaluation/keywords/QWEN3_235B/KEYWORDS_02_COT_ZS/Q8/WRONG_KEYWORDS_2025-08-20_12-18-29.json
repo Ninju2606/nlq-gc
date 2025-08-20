@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria\u0027s daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittelte Stichwörter: Tochter, ich, fahren, Boot, See. Relative Verweise aufgelöst: \u0027meine Tochter\u0027 wurde zu \u0027Maria\u0027s daughter\u0027 und \u0027ich\u0027 zu \u0027Maria\u0027 zugeordnet. Übersetzung ins Englische: Tochter -\u003e Maria\u0027s daughter, ich -\u003e Maria, fahren Boot -\u003e boat, See -\u003e lake. Selbstreferenzen durch Nutzer-ID \u0027Maria\u0027 ersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\u0027s daughter\", \"Maria\", \"boat\", \"lake\"],\n  \"description\": \"Ermittelte Stichwörter: Tochter, ich, fahren, Boot, See. Relative Verweise aufgelöst: \u0027meine Tochter\u0027 wurde zu \u0027Maria\u0027s daughter\u0027 und \u0027ich\u0027 zu \u0027Maria\u0027 zugeordnet. Übersetzung ins Englische: Tochter -\u003e Maria\u0027s daughter, ich -\u003e Maria, fahren Boot -\u003e boat, See -\u003e lake. Selbstreferenzen durch Nutzer-ID \u0027Maria\u0027 ersetzt.\"\n}"
+}

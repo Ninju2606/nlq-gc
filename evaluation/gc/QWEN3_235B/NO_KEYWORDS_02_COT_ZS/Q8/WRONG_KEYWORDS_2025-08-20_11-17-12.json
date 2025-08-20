@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "ride",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Stichwörter ermittelt: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise gelöst: \u0027mein\u0027 und \u0027ich\u0027 beziehen sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Nutzerreferenzen ersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027Meine Tochter\u0027 → \u0027daughter\u0027 (implizite Relation zu Maria).\n5. Attributeigenschaften: Maria (object/1), daughter (object/1), ride (activity/4), boat (object/1), lake (object/1).\n6. Relationen: Maria → daughter (daughter/10), Maria → ride (perform/8), daughter → ride (perform/8), ride → boat (target/9), ride → lake (above/7).\n7. Alle Relationen haben passende Typkodierungen (IDs 10,8,9,7 existieren).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"ride\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 9, 7],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Stichwörter ermittelt: \u0027Tochter\u0027, \u0027ich\u0027, \u0027fahren\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise gelöst: \u0027mein\u0027 und \u0027ich\u0027 beziehen sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027daughter\u0027, \u0027Maria\u0027, \u0027ride\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Nutzerreferenzen ersetzt: \u0027ich\u0027 → \u0027Maria\u0027, \u0027Meine Tochter\u0027 → \u0027daughter\u0027 (implizite Relation zu Maria).\\n5. Attributeigenschaften: Maria (object/1), daughter (object/1), ride (activity/4), boat (object/1), lake (object/1).\\n6. Relationen: Maria → daughter (daughter/10), Maria → ride (perform/8), daughter → ride (perform/8), ride → boat (target/9), ride → lake (above/7).\\n7. Alle Relationen haben passende Typkodierungen (IDs 10,8,9,7 existieren).\"\n}"
+}

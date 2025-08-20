@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter: \u0027spiele\u0027 (Tätigkeit), \u0027Basketball\u0027 (Objekt), \u0027Ich\u0027 (selbstreferenzierend). 2. \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. 3. Übersetzung: \u0027spiele\u0027 → \u0027play\u0027 (verallgemeinerter Wortstamm), \u0027Basketball\u0027 bleibt englisch. 4. \u0027Ich\u0027-Referenz durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), \u0027play\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue), \u0027basketball\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue). 6. Relationen: Maria (Subjekt) führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, ID 8), die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Zielobjekt (Relation \u0027target\u0027, ID 9). 7. Beide Relationen haben gültige Typkodierungen (ID 8 und 9, identityMapping\u003dfalse).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027spiele\u0027 (Tätigkeit), \u0027Basketball\u0027 (Objekt), \u0027Ich\u0027 (selbstreferenzierend). 2. \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. 3. Übersetzung: \u0027spiele\u0027 → \u0027play\u0027 (verallgemeinerter Wortstamm), \u0027Basketball\u0027 bleibt englisch. 4. \u0027Ich\u0027-Referenz durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue), \u0027play\u0027 ist eine Aktivität (Typ 4, identityMapping\u003dtrue), \u0027basketball\u0027 ist ein Objekt (Typ 1, identityMapping\u003dtrue). 6. Relationen: Maria (Subjekt) führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, ID 8), die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Zielobjekt (Relation \u0027target\u0027, ID 9). 7. Beide Relationen haben gültige Typkodierungen (ID 8 und 9, identityMapping\u003dfalse).\"\n}"
+}

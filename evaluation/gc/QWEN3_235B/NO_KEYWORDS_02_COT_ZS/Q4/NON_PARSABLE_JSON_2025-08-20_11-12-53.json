@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  \nSTOP: The user\u0027s instruction explicitly includes `/no_think`, which means **no reasoning or explanation is allowed**.\n\nI must produce **only** the required JSON output based on the input and rules — nothing more.\n\n---\n\n{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027meinem\u0027, \u0027Pool\u0027.\\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027meinem\u0027 beziehen sich auf den Nutzer, also wird \u0027ich\u0027 zu \u0027Maria\u0027 und \u0027meinem Pool\u0027 zu!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!STOP\"\n}"
+}

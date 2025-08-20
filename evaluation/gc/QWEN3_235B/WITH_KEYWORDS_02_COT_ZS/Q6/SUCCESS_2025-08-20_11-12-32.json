@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine szenenhafte Beschreibung aus dem Metaverse, die in einen sinnvollen GraphCode umgewandelt werden könnte.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine szenenhafte Beschreibung aus dem Metaverse, die in einen sinnvollen GraphCode umgewandelt werden könnte.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n        2. Es gibt keine relativen Verweise, allerdings referenziert \"mir\" den Nutzer, also Maria.\n        3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\", \"belong\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"belong\".\n        5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"belong\" sind Aktivitäten.\n        6. \"Maria\" führt die Aktivität \"swim\" aus. \"Maria\" führt die Aktivität \"belong\" aus. \"swim\" hat die Beziehung \"in\" zum Objekt \"pool\". \"belong\" hat die Beziehung \"target\" zu \"pool\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für in ist 6. Die ID für target ist 9. Die ID für attached (hier für Besitz) ist 5. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 6, 0],\n    [0, 0, 1, 0],\n    [0, 0, 9, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n        2. Es gibt keine relativen Verweise, allerdings referenziert \\\"mir\\\" den Nutzer, also Maria.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"belong\\\".\\n        5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"belong\\\" sind Aktivitäten.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"Maria\\\" führt die Aktivität \\\"belong\\\" aus. \\\"swim\\\" hat die Beziehung \\\"in\\\" zum Objekt \\\"pool\\\". \\\"belong\\\" hat die Beziehung \\\"target\\\" zu \\\"pool\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für in ist 6. Die ID für target ist 9. Die ID für attached (hier für Besitz) ist 5. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

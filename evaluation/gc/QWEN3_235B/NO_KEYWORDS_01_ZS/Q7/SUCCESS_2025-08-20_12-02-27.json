@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist semantisch nicht sinnvoll interpretierbar (z.B. \u0027Fragen malen\u0027 ist keine valide Aktion/Konstellation im Metaverse-Kontext) und enthält keine klare Szenenbeschreibung für einen GraphCode.",
+  "error": "Unclear query",
+  "responsePlain": "{\n  \"error\": \"Unclear query\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist semantisch nicht sinnvoll interpretierbar (z.B. \u0027Fragen malen\u0027 ist keine valide Aktion/Konstellation im Metaverse-Kontext) und enthält keine klare Szenenbeschreibung für einen GraphCode.\"\n}"
+}

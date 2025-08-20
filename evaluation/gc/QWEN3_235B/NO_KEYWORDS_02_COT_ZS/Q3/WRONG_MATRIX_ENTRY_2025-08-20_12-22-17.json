@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf den Anfragenden (Maria), \u0027gehört\u0027 beschreibt eine Zugehörigkeit zu Maria.\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027. Die Wörter \u0027Ich\u0027 und \u0027mir\u0027 werden durch \u0027Maria\u0027 ersetzt.\n4. Ersetzung der Selbstbezugswörter: \u0027Ich\u0027 und \u0027mir\u0027 werden durch \u0027Maria\u0027 ersetzt, da sie auf den Nutzer verweisen.\n5. Attribut-Eigenschaften: \n   - \u0027Maria\u0027 ist eine Person → Typ \u0027object\u0027 (ID 1)\n   - \u0027swim\u0027 ist eine Aktion → Typ \u0027activity\u0027 (ID 4)\n   - \u0027pool\u0027 ist ein Objekt → Typ \u0027object\u0027 (ID 1)\n   - \u0027own\u0027 beschreibt eine Eigentümerschaft → Typ \u0027activity\u0027 (ID 4), da es eine Handlung darstellt (jemand besitzt etwas)\n6. Relationen zwischen den Begriffen:\n   - Maria führt die Aktion \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) zwischen Maria (Index 0) und swim (Index 1)\n   - Maria besitzt den Pool → Relation \u0027attached\u0027 (ID 5) zwischen Maria (Index 0) und own (Index 3)\n   - Die Aktivität \u0027own\u0027 bezieht sich auf das Objekt \u0027pool\u0027 → Relation \u0027target\u0027 (ID 9) zwischen \u0027own\u0027 (Index 3) und \u0027pool\u0027 (Index 2)\n7. Überprüfung der Typkodierungen:\n   - \u0027perform\u0027 (ID 8) existiert in den Typkodierungen und ist gültig (identityMapping\u003dfalse)\n   - \u0027attached\u0027 (ID 5) existiert (identityMapping\u003dfalse)\n   - \u0027target\u0027 (ID 9) existiert (identityMapping\u003dfalse)\n   - Alle Knoten haben gültige Typen auf der Diagonale: Maria (object\u003d1), swim (activity\u003d4), pool (object\u003d1), own (activity\u003d4)\n   - Die Matrix berücksichtigt die Regeln: Diagonale hat nur identityMapping\u003dtrue-Typen (IDs 1 und 4), außerhalb nur 0 oder identityMapping\u003dfalse-Typen (5,8,9)\n   → Alle Relationen sind kodierbar.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"own\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0,\n      5\n    ],\n    [\n      0,\n      4,\n      0,\n      0\n    ],\n    [\n      0,\n      0,\n      1,\n      0\n    ],\n    [\n      0,\n      0,\n      0,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise: \u0027mir\u0027 bezieht sich auf den Anfragenden (Maria), \u0027gehört\u0027 beschreibt eine Zugehörigkeit zu Maria.\\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027. Die Wörter \u0027Ich\u0027 und \u0027mir\u0027 werden durch \u0027Maria\u0027 ersetzt.\\n4. Ersetzung der Selbstbezugswörter: \u0027Ich\u0027 und \u0027mir\u0027 werden durch \u0027Maria\u0027 ersetzt, da sie auf den Nutzer verweisen.\\n5. Attribut-Eigenschaften: \\n   - \u0027Maria\u0027 ist eine Person → Typ \u0027object\u0027 (ID 1)\\n   - \u0027swim\u0027 ist eine Aktion → Typ \u0027activity\u0027 (ID 4)\\n   - \u0027pool\u0027 ist ein Objekt → Typ \u0027object\u0027 (ID 1)\\n   - \u0027own\u0027 beschreibt eine Eigentümerschaft → Typ \u0027activity\u0027 (ID 4), da es eine Handlung darstellt (jemand besitzt etwas)\\n6. Relationen zwischen den Begriffen:\\n   - Maria führt die Aktion \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) zwischen Maria (Index 0) und swim (Index 1)\\n   - Maria besitzt den Pool → Relation \u0027attached\u0027 (ID 5) zwischen Maria (Index 0) und own (Index 3)\\n   - Die Aktivität \u0027own\u0027 bezieht sich auf das Objekt \u0027pool\u0027 → Relation \u0027target\u0027 (ID 9) zwischen \u0027own\u0027 (Index 3) und \u0027pool\u0027 (Index 2)\\n7. Überprüfung der Typkodierungen:\\n   - \u0027perform\u0027 (ID 8) existiert in den Typkodierungen und ist gültig (identityMapping\u003dfalse)\\n   - \u0027attached\u0027 (ID 5) existiert (identityMapping\u003dfalse)\\n   - \u0027target\u0027 (ID 9) existiert (identityMapping\u003dfalse)\\n   - Alle Knoten haben gültige Typen auf der Diagonale: Maria (object\u003d1), swim (activity\u003d4), pool (object\u003d1), own (activity\u003d4)\\n   - Die Matrix berücksichtigt die Regeln: Diagonale hat nur identityMapping\u003dtrue-Typen (IDs 1 und 4), außerhalb nur 0 oder identityMapping\u003dfalse-Typen (5,8,9)\\n   → Alle Relationen sind kodierbar.\"\n}"
+}

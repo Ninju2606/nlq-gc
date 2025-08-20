@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Es wurden folgende Stichwörter aus der Anfrage ermittelt: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. Relative Verweise wie \u0027ich\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die Begriffe wurden ins Englische übersetzt: \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027. Der Wortstamm \u0027trage\u0027 wurde verallgemeinert zu \u0027wear\u0027. Der Anweisungsteil \u0027Zeig mir Situationen\u0027 wurde ignoriert, da er der Anfragenbeschreibung dient und keine Szeneninformation enthält. Das resultierende Vokabular enthält die Begriffe in englischer Sprache und berücksichtigt die Nutzeridentifikation gemäß den Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"wear\",\n    \"yellow\",\n    \"hat\"\n  ],\n  \"description\": \"Es wurden folgende Stichwörter aus der Anfrage ermittelt: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. Relative Verweise wie \u0027ich\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Die Begriffe wurden ins Englische übersetzt: \u0027wear\u0027, \u0027yellow\u0027, \u0027hat\u0027. Der Wortstamm \u0027trage\u0027 wurde verallgemeinert zu \u0027wear\u0027. Der Anweisungsteil \u0027Zeig mir Situationen\u0027 wurde ignoriert, da er der Anfragenbeschreibung dient und keine Szeneninformation enthält. Das resultierende Vokabular enthält die Begriffe in englischer Sprache und berücksichtigt die Nutzeridentifikation gemäß den Regeln.\"\n}"
+}

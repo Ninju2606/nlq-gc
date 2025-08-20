@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"mir gehört\".\n        2. \"mir gehört\" ist ein relativer Verweis auf den Besitz des Pools durch den Nutzer. Dies wird aufgelöst in eine Beziehung zwischen Maria und dem Pool.\n        3. Die englischen Stichwörter sind \"Maria\", \"swim\", \"pool\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\".\n        5. \"Maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität.\n        6. \"Maria\" führt die Aktivität \"swim\" aus. Die Aktivität „schwimmen“ findet „in“ einem Pool statt. Der Pool gehört Maria, was einer Besitzrelation (attached) entspricht.\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für in (in) ist 6. Die ID für attached (Besitz) ist 5. Die Relation \u0027in\u0027 ist mit ID 6 vorhanden, \u0027attached\u0027 mit ID 5, \u0027perform\u0027 mit ID 8 – alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"mir gehört\\\".\\n        2. \\\"mir gehört\\\" ist ein relativer Verweis auf den Besitz des Pools durch den Nutzer. Dies wird aufgelöst in eine Beziehung zwischen Maria und dem Pool.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n        5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität „schwimmen“ findet „in“ einem Pool statt. Der Pool gehört Maria, was einer Besitzrelation (attached) entspricht.\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für in (in) ist 6. Die ID für attached (Besitz) ist 5. Die Relation \u0027in\u0027 ist mit ID 6 vorhanden, \u0027attached\u0027 mit ID 5, \u0027perform\u0027 mit ID 8 – alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

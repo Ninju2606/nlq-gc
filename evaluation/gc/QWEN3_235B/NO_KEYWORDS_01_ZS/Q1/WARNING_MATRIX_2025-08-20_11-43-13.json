@@ -1,0 +1,28 @@
+{
+  "state": "WARNING_MATRIX",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "play"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.8888888888888888,
+  "description": "Ich spiele Basketball",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"basketball\",\n    \"play\"\n  ],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 1, 5],\n    [0, 9, 4]\n  ],\n  \"description\": \"Ich spiele Basketball\"\n}"
+}

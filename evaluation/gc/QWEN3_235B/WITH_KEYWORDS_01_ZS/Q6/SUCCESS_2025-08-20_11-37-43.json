@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung einer Situation im Metaverse, die mit den gegebenen Begriffen des Vokabulars abgebildet werden kann. Es wird lediglich eine zeitnahe Absprache eines Termins erwähnt, ohne räumliche, objektive oder interaktive Elemente im Metaverse zu beschreiben.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung einer Situation im Metaverse, die mit den gegebenen Begriffen des Vokabulars abgebildet werden kann. Es wird lediglich eine zeitnahe Absprache eines Termins erwähnt, ohne räumliche, objektive oder interaktive Elemente im Metaverse zu beschreiben.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

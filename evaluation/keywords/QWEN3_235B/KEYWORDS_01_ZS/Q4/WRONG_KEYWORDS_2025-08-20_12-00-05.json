@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der Vokabular-Eintrag wurde erfolgreich aus der Nutzeranfrage extrahiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Der Vokabular-Eintrag wurde erfolgreich aus der Nutzeranfrage extrahiert.\"\n}"
+}

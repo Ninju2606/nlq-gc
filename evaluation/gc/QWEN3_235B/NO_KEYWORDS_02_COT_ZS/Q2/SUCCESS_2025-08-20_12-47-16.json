@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 auf den Nutzer Maria, daher entfällt eine Umsetzung.\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt erhalten, \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinerte Verbform).\n4. Da keine selbstidentifizierenden Wörter (z. B. \u0027ich\u0027, \u0027mein\u0027) vorkommen, bleibt \u0027Tim\u0027 unverändert.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet. \u0027run\u0027 ist eine Aktivität (Typ 4: activity).\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt, also \u0027perform\u0027-Beziehung (Typ 8: perform).\n7. Für die Relation \u0027Tim perform run\u0027 existiert die Typkodierung mit ID 8 (\u0027perform\u0027, identityMapping\u003dfalse), was gültig ist. Die Einheitsdiagonale nutzt Typ 1 (object) für Tim und Typ 4 (activity) für run – beide mit identityMapping\u003dtrue, also zulässig. Alle Beziehungen außerhalb der Diagonale nutzen nur identityMapping\u003dfalse-Typen oder 0.\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit zwei Einträgen, Bewertungsmatrix 2x2 mit korrekten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Tim\",\n    \"run\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8\n    ],\n    [\n      0,\n      4\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 auf den Nutzer Maria, daher entfällt eine Umsetzung.\\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt erhalten, \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinerte Verbform).\\n4. Da keine selbstidentifizierenden Wörter (z. B. \u0027ich\u0027, \u0027mein\u0027) vorkommen, bleibt \u0027Tim\u0027 unverändert.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet. \u0027run\u0027 ist eine Aktivität (Typ 4: activity).\\n6. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 ist, dass Tim die Aktivität ausführt, also \u0027perform\u0027-Beziehung (Typ 8: perform).\\n7. Für die Relation \u0027Tim perform run\u0027 existiert die Typkodierung mit ID 8 (\u0027perform\u0027, identityMapping\u003dfalse), was gültig ist. Die Einheitsdiagonale nutzt Typ 1 (object) für Tim und Typ 4 (activity) für run – beide mit identityMapping\u003dtrue, also zulässig. Alle Beziehungen außerhalb der Diagonale nutzen nur identityMapping\u003dfalse-Typen oder 0.\\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit zwei Einträgen, Bewertungsmatrix 2x2 mit korrekten Typkodierungen.\"\n}"
+}

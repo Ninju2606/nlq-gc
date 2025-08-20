@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage beschreibt keine Szenen im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Es handelt sich um eine organisatorische Aussage (\"Wir müssen bald einen Termin ausmachen\"), die keine räumlichen, physischen oder interaktiven Gegebenheiten im Metaverse abbildet.",
+  "error": "Die Anfrage beschreibt keine Szenen im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Es handelt sich um eine organisatorische Aussage (\"Wir müssen bald einen Termin ausmachen\"), die keine räumlichen, physischen oder interaktiven Gegebenheiten im Metaverse abbildet.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage beschreibt keine Szenen im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Es handelt sich um eine organisatorische Aussage (\\\"Wir müssen bald einen Termin ausmachen\\\"), die keine räumlichen, physischen oder interaktiven Gegebenheiten im Metaverse abbildet.\",\n  \"description\": \"Die Anfrage beschreibt keine Szenen im Metaverse mit Objekten, Attributen oder Aktivitäten, die in einen sinnvollen GraphCode umgewandelt werden könnten. Es handelt sich um eine organisatorische Aussage (\\\"Wir müssen bald einen Termin ausmachen\\\"), die keine räumlichen, physischen oder interaktiven Gegebenheiten im Metaverse abbildet.\"\n}"
+}

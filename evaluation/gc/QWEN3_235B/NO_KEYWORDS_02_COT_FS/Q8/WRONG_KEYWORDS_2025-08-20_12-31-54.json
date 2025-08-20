@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "ride",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine\", \"Tochter\", \"ich\", \"fahren\", \"Boot\", \"See\".\n         2. \u0027Meine Tochter\u0027 und \u0027ich\u0027 sind relative Verweise. Die Person \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027. \u0027Meine Tochter\u0027 wird aufgelöst in die Beziehung zwischen \u0027Maria\u0027 und dem Objekt \u0027daughter\u0027.\n         3. Die englischen Stichwörter sind \"Maria\", \"daughter\", \"boat\", \"ride\", \"lake\". Bei \u0027fahre Boot\u0027 wird das Verb \u0027fahren\u0027 verallgemeinert zu \u0027ride\u0027.\n         4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"boat\", \"ride\", \"lake\". Dabei bezieht sich \"daughter\" über die Relation \u0027daughter\u0027 auf \"Maria\".\n         5. \"Maria\", \"daughter\", \"boat\" und \"lake\" sind Objekte der Anfrage. \u0027daughter\u0027 beschreibt eine spezifische Person im Kontext von Maria. \u0027ride\u0027 ist eine Aktivität.\n         6. \u0027Maria\u0027 hat eine \u0027daughter\u0027 (Beziehung \u0027daughter\u0027). \u0027Maria\u0027 führt die Aktivität \u0027ride\u0027 aus. \u0027daughter\u0027 führt ebenfalls die Aktivität \u0027ride\u0027 aus (da in Kooperation mit Maria). Die Aktivität \u0027ride\u0027 bezieht sich auf das Objekt \u0027boat\u0027. Das \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027. Somit ist \u0027boat\u0027 über \u0027above\u0027 mit \u0027lake\u0027 verbunden. Die Aktivität \u0027ride\u0027 findet im Kontext \u0027lake\u0027 statt, weshalb \u0027ride\u0027 über \u0027context\u0027 mit \u0027lake\u0027 verbunden ist.\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für \u0027daughter\u0027 ist 10. Die ID für \u0027perform\u0027 ist 8. Die ID für \u0027attached\u0027 ist 5. Die ID für \u0027above\u0027 ist 7. Die ID für \u0027context\u0027 ist 2. Alle benötigten Relationen sind in den Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"ride\",\n    \"lake\"\n  ],\n  \"matrix\": [\n    [1, 10, 0, 8, 0],\n    [0, 1, 0, 5, 0],\n    [0, 0, 1, 0, 6],\n    [0, 0, 0, 4, 9],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine\\\", \\\"Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n         2. \u0027Meine Tochter\u0027 und \u0027ich\u0027 sind relative Verweise. Die Person \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027. \u0027Meine Tochter\u0027 wird aufgelöst in die Beziehung zwischen \u0027Maria\u0027 und dem Objekt \u0027daughter\u0027.\\n         3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"ride\\\", \\\"lake\\\". Bei \u0027fahre Boot\u0027 wird das Verb \u0027fahren\u0027 verallgemeinert zu \u0027ride\u0027.\\n         4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"ride\\\", \\\"lake\\\". Dabei bezieht sich \\\"daughter\\\" über die Relation \u0027daughter\u0027 auf \\\"Maria\\\".\\n         5. \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \u0027daughter\u0027 beschreibt eine spezifische Person im Kontext von Maria. \u0027ride\u0027 ist eine Aktivität.\\n         6. \u0027Maria\u0027 hat eine \u0027daughter\u0027 (Beziehung \u0027daughter\u0027). \u0027Maria\u0027 führt die Aktivität \u0027ride\u0027 aus. \u0027daughter\u0027 führt ebenfalls die Aktivität \u0027ride\u0027 aus (da in Kooperation mit Maria). Die Aktivität \u0027ride\u0027 bezieht sich auf das Objekt \u0027boat\u0027. Das \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027. Somit ist \u0027boat\u0027 über \u0027above\u0027 mit \u0027lake\u0027 verbunden. Die Aktivität \u0027ride\u0027 findet im Kontext \u0027lake\u0027 statt, weshalb \u0027ride\u0027 über \u0027context\u0027 mit \u0027lake\u0027 verbunden ist.\\n         7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für \u0027daughter\u0027 ist 10. Die ID für \u0027perform\u0027 ist 8. Die ID für \u0027attached\u0027 ist 5. Die ID für \u0027above\u0027 ist 7. Die ID für \u0027context\u0027 ist 2. Alle benötigten Relationen sind in den Typkodierungen enthalten.\"\n}"
+}

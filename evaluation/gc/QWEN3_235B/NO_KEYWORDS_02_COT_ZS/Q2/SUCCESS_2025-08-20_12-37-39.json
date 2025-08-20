@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, daher entfällt das Auflösen von Selbstbezügen.\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigennamen werden nicht verändert), \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinerter Verbstamm von \u0027rennen\u0027).\n4. Da kein Selbstbezug (wie \u0027ich\u0027, \u0027mein\u0027) vorhanden ist, wird die Identifikation des Nutzers (Maria) ignoriert.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (konkrete Person, eigenständiges Subjekt) → Typ 1 (object). \u0027run\u0027 ist eine Aktivität → Typ 4 (activity).\n6. Relationen: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Die Relation wird als \u0027perform\u0027 dargestellt (Typ 8), wobei Tim der Akteur (Subjekt) ist, der die Handlung ausführt.\n7. Überprüfung der Typkodierungen: \n   - Diagonale: Typ 1 (object) für \u0027Tim\u0027 – erlaubt, da identityMapping\u003dtrue. \n     Typ 4 (activity) für \u0027run\u0027 – erlaubt, da identityMapping\u003dtrue.\n   - Außerhalb der Diagonale: Relation (0,1) \u003d \u0027Tim\u0027 → \u0027run\u0027 mit Typ 8 (perform) – erlaubt, da identityMapping\u003dfalse. \n     Alle verwendeten Typen sind in den vorgegebenen Kodierungen vorhanden.\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit 2 Einträgen, 2x2-Matrix mit korrekten Typzuweisungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, daher entfällt das Auflösen von Selbstbezügen.\\n3. Übersetzung der Stichwörter ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027 (Eigennamen werden nicht verändert), \u0027rennt\u0027 wird zu \u0027run\u0027 (verallgemeinerter Verbstamm von \u0027rennen\u0027).\\n4. Da kein Selbstbezug (wie \u0027ich\u0027, \u0027mein\u0027) vorhanden ist, wird die Identifikation des Nutzers (Maria) ignoriert.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (konkrete Person, eigenständiges Subjekt) → Typ 1 (object). \u0027run\u0027 ist eine Aktivität → Typ 4 (activity).\\n6. Relationen: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Die Relation wird als \u0027perform\u0027 dargestellt (Typ 8), wobei Tim der Akteur (Subjekt) ist, der die Handlung ausführt.\\n7. Überprüfung der Typkodierungen: \\n   - Diagonale: Typ 1 (object) für \u0027Tim\u0027 – erlaubt, da identityMapping\u003dtrue. \\n     Typ 4 (activity) für \u0027run\u0027 – erlaubt, da identityMapping\u003dtrue.\\n   - Außerhalb der Diagonale: Relation (0,1) \u003d \u0027Tim\u0027 → \u0027run\u0027 mit Typ 8 (perform) – erlaubt, da identityMapping\u003dfalse. \\n     Alle verwendeten Typen sind in den vorgegebenen Kodierungen vorhanden.\\n8. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular mit 2 Einträgen, 2x2-Matrix mit korrekten Typzuweisungen.\"\n}"
+}

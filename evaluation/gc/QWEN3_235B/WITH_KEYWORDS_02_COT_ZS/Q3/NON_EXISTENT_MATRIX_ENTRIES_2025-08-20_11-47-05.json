@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      8,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer verwendet den persönlichen Pronomen \"ich\", der auf die Identifikation \"Maria\" verweist. Auch das Pronomen \"mir\" in \"der mir gehört\" bezieht sich auf Maria. Diese relativen Verweise werden aufgelöst, sodass im Vokabular „maria“ verwendet wird.\n\n2. Die Attributeigenschaften der Stichwörter:\n- \"maria\": Eine Person, daher vom Typ \u0027object\u0027 (ID 1), da es ein konkretes Objekt in der Szene ist.\n- \"swim\": Eine Handlung, also \u0027activity\u0027 (ID 4).\n- \"own\": Eine Handlung (Besitzbeziehung), aber im Kontext eine Aktivität, also ebenfalls \u0027activity\u0027 (ID 4). Allerdings wird hier die Handlung des Eigentums ausgedrückt, was als „perform“ modelliert werden kann.\n- \"pool\": Ein physisches Objekt, also ebenfalls \u0027object\u0027 (ID 1).\n\n3. Relationsdarstellung:\n- Maria führt die Aktivität „swim“ aus → Relation: maria --perform--\u003e swim (Typ 8).\n- Die Aktivität „swim“ findet in einem „pool“ statt → swim --target--\u003e pool (Typ 9).\n- Maria besitzt den Pool → maria --perform--\u003e own (Typ 8), und own --target--\u003e pool (Typ 9).\nDa „own“ selbst eine Aktivität ist, wird sie als Knoten behandelt.\n\n4. Überprüfung der Typkodierungen:\n- Typ 8 (perform): existiert (ID 8, identityMapping\u003dfalse) → gültig für „maria führt swim aus“ sowie „maria führt own aus“.\n- Typ 9 (target): existiert (ID 9, identityMapping\u003dfalse) → gültig für „swim richtet sich auf pool“ und „own richtet sich auf pool“.\n- Diagonale: Typen müssen identityMapping\u003dtrue haben.\n  - maria (Index 0): Typ 1 (object) → erlaubt.\n  - swim (Index 1): Typ 4 (activity) → erlaubt.\n  - own (Index 2): Typ 8? Nein – Typ 8 ist „perform“ mit identityMapping\u003dfalse. Aber in der Diagonale darf nur ein Typ mit identityMapping\u003dtrue stehen.\n\nFehler: Der Eintrag für \u0027own\u0027 auf der Diagonalen (Index 2,2) darf nur ein Typ mit identityMapping\u003dtrue sein. Mögliche Typen für Diagonale: IDs 1 (object), 2 (context), 3 (synonym), 4 (activity). ID 8 (perform) ist nicht erlaubt in der Diagonale.\nKorrektur: Der Begriff \u0027own\u0027 ist eine Aktivität, also muss er in der Diagonale Typ 4 (activity) erhalten, nicht 8.\n\nAnpassung:\n- matrix[2][2] \u003d 4 (weil „own“ eine Aktivität ist, also activity)\n- Die Relationen außerhalb der Diagonale können Typ 8 und 9 nutzen.\n\nKorrigierte Matrix:\n- (0,1): maria --perform--\u003e swim → 8\n- (0,2): maria --perform--\u003e own → 8\n- (1,3): swim --target--\u003e pool → 9\n- (2,3): own --target--\u003e pool → 9\n- Diagonale: [1, 4, 4, 1]\n\nAlle verwendeten Relationen (Typ 8, 9) sind in der Liste der Typkodierungen vorhanden.\n\n5. Der GraphCode wurde entsprechend korrekt zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 0, 9],\n    [0, 0, 8, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer verwendet den persönlichen Pronomen \\\"ich\\\", der auf die Identifikation \\\"Maria\\\" verweist. Auch das Pronomen \\\"mir\\\" in \\\"der mir gehört\\\" bezieht sich auf Maria. Diese relativen Verweise werden aufgelöst, sodass im Vokabular „maria“ verwendet wird.\\n\\n2. Die Attributeigenschaften der Stichwörter:\\n- \\\"maria\\\": Eine Person, daher vom Typ \u0027object\u0027 (ID 1), da es ein konkretes Objekt in der Szene ist.\\n- \\\"swim\\\": Eine Handlung, also \u0027activity\u0027 (ID 4).\\n- \\\"own\\\": Eine Handlung (Besitzbeziehung), aber im Kontext eine Aktivität, also ebenfalls \u0027activity\u0027 (ID 4). Allerdings wird hier die Handlung des Eigentums ausgedrückt, was als „perform“ modelliert werden kann.\\n- \\\"pool\\\": Ein physisches Objekt, also ebenfalls \u0027object\u0027 (ID 1).\\n\\n3. Relationsdarstellung:\\n- Maria führt die Aktivität „swim“ aus → Relation: maria --perform--\u003e swim (Typ 8).\\n- Die Aktivität „swim“ findet in einem „pool“ statt → swim --target--\u003e pool (Typ 9).\\n- Maria besitzt den Pool → maria --perform--\u003e own (Typ 8), und own --target--\u003e pool (Typ 9).\\nDa „own“ selbst eine Aktivität ist, wird sie als Knoten behandelt.\\n\\n4. Überprüfung der Typkodierungen:\\n- Typ 8 (perform): existiert (ID 8, identityMapping\u003dfalse) → gültig für „maria führt swim aus“ sowie „maria führt own aus“.\\n- Typ 9 (target): existiert (ID 9, identityMapping\u003dfalse) → gültig für „swim richtet sich auf pool“ und „own richtet sich auf pool“.\\n- Diagonale: Typen müssen identityMapping\u003dtrue haben.\\n  - maria (Index 0): Typ 1 (object) → erlaubt.\\n  - swim (Index 1): Typ 4 (activity) → erlaubt.\\n  - own (Index 2): Typ 8? Nein – Typ 8 ist „perform“ mit identityMapping\u003dfalse. Aber in der Diagonale darf nur ein Typ mit identityMapping\u003dtrue stehen.\\n\\nFehler: Der Eintrag für \u0027own\u0027 auf der Diagonalen (Index 2,2) darf nur ein Typ mit identityMapping\u003dtrue sein. Mögliche Typen für Diagonale: IDs 1 (object), 2 (context), 3 (synonym), 4 (activity). ID 8 (perform) ist nicht erlaubt in der Diagonale.\\nKorrektur: Der Begriff \u0027own\u0027 ist eine Aktivität, also muss er in der Diagonale Typ 4 (activity) erhalten, nicht 8.\\n\\nAnpassung:\\n- matrix[2][2] \u003d 4 (weil „own“ eine Aktivität ist, also activity)\\n- Die Relationen außerhalb der Diagonale können Typ 8 und 9 nutzen.\\n\\nKorrigierte Matrix:\\n- (0,1): maria --perform--\u003e swim → 8\\n- (0,2): maria --perform--\u003e own → 8\\n- (1,3): swim --target--\u003e pool → 9\\n- (2,3): own --target--\u003e pool → 9\\n- Diagonale: [1, 4, 4, 1]\\n\\nAlle verwendeten Relationen (Typ 8, 9) sind in der Liste der Typkodierungen vorhanden.\\n\\n5. Der GraphCode wurde entsprechend korrekt zusammengesetzt.\"\n}"
+}

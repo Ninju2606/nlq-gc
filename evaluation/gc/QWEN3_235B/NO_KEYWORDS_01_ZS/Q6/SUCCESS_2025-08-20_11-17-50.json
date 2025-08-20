@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine reale, organisatorische Absprache („einen Termin ausmachen“). Es lassen sich keine Objekte, Attribute oder Aktivitäten im Sinne einer Metaverse-Szene extrahieren, die für die Generierung eines sinnvollen GraphCodes geeignet wären.",
+  "error": "Die Anfrage enthält keine Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine reale, organisatorische Absprache („einen Termin ausmachen“). Es lassen sich keine Objekte, Attribute oder Aktivitäten im Sinne einer Metaverse-Szene extrahieren, die für die Generierung eines sinnvollen GraphCodes geeignet wären.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine reale, organisatorische Absprache („einen Termin ausmachen“). Es lassen sich keine Objekte, Attribute oder Aktivitäten im Sinne einer Metaverse-Szene extrahieren, die für die Generierung eines sinnvollen GraphCodes geeignet wären.\",\n  \"description\": \"Die Anfrage enthält keine Beschreibung einer Szene im Metaverse, sondern bezieht sich auf eine reale, organisatorische Absprache („einen Termin ausmachen“). Es lassen sich keine Objekte, Attribute oder Aktivitäten im Sinne einer Metaverse-Szene extrahieren, die für die Generierung eines sinnvollen GraphCodes geeignet wären.\"\n}"
+}

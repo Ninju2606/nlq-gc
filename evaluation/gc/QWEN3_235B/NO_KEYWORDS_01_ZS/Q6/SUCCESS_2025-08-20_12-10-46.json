@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse, sondern einen organisatorischen Hinweis (Terminabsprache), der keine Objekte, Attribute oder Aktivitäten in einer virtuellen Umgebung beschreibt. Es lassen sich keine relevanten Begriffe für ein Szenenverständnis extrahieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Beschreibung einer Szene im Metaverse, sondern einen organisatorischen Hinweis (Terminabsprache), der keine Objekte, Attribute oder Aktivitäten in einer virtuellen Umgebung beschreibt. Es lassen sich keine relevanten Begriffe für ein Szenenverständnis extrahieren.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

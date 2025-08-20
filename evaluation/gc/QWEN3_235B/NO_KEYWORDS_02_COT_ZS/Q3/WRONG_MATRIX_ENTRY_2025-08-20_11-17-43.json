@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      5,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      14,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.5625,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027.\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027mir\u0027 beziehen sich auf den Nutzer, dessen Identifikation \u0027Maria\u0027 ist. Diese wird im Vokabular verwendet.\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027.  Die Wörter werden vereinheitlicht (\u0027swim\u0027 statt \u0027schwimme\u0027, \u0027own\u0027 statt \u0027gehört\u0027).\n4. Subjekt-Referenzen auf den Nutzer werden ersetzt: \u0027ich\u0027 und \u0027mir\u0027 werden durch \u0027Maria\u0027 repräsentiert.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet.\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\n   - \u0027pool\u0027 ist ein Objekt (Typ 1: object).\n   - \u0027own\u0027 wird als Kontext (Typ 2: context) interpretiert, da es eine Besitzbeziehung beschreibt.\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) zwischen \u0027Maria\u0027 und \u0027swim\u0027.\n   - \u0027swim\u0027 findet in einem \u0027pool\u0027 statt → Relation \u0027target\u0027 (ID 9) zwischen \u0027swim\u0027 und \u0027pool\u0027.\n   - Maria besitzt den \u0027pool\u0027 → Die Beziehung \u0027own\u0027 wird durch das Attribut \u0027characteristic\u0027 (ID 14) dargestellt, da \u0027own\u0027 eine Eigenschaft (Besitz) des Objekts \u0027pool\u0027 in Bezug auf Maria ist.\n   - \u0027own\u0027 bezieht sich auf \u0027pool\u0027 → \u0027characteristic\u0027 (ID 14) zwischen \u0027own\u0027 und \u0027pool\u0027.\n7. Überprüfung der Typkodierungen:\n   - \u0027perform\u0027 (Maria → swim): ID 8 vorhanden.\n   - \u0027target\u0027 (swim → pool): ID 9 vorhanden.\n   - \u0027attached\u0027 würde räumliche Nähe beschreiben, ist aber hier nicht nötig, da \u0027in\u0027 über die Aktivität \u0027swim\u0027 und deren Ziel implizit abgedeckt ist.\n   - \u0027characteristic\u0027 (own → pool): ID 14 vorhanden.\n   - Besitz von Maria → pool: wird über das Konstrukt \u0027own\u0027 als Kontext und dessen Charakteristik erfasst. Da \u0027own\u0027 selbst als Kontext (ID 2) modelliert wird, und die Beziehung zu \u0027pool\u0027 über \u0027characteristic\u0027 (ID 14) erfolgt, ist dies zulässig.\n   Alle benötigten Typkodierungen sind vorhanden.\n8. Zusammenstellung des GraphCodes: Das Vokabular enthält 4 Einträge, daher ist die Matrix 4x4. Auf der Diagonalen stehen die Typ-IDs der Begriffe (nur mit identityMapping\u003dtrue): 1 (object), 4 (activity), 1 (object), 2 (context). Die Relationen außerhalb der Diagonalen verwenden nur Typen mit identityMapping\u003dfalse (IDs 5, 9, 14). Die Matrix wurde entsprechend befüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"own\"\n  ],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 5, 0],\n    [0, 5, 1, 14],\n    [0, 0, 14, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027.\\n2. Relative Verweise werden aufgelöst: \u0027ich\u0027 und \u0027mir\u0027 beziehen sich auf den Nutzer, dessen Identifikation \u0027Maria\u0027 ist. Diese wird im Vokabular verwendet.\\n3. Übersetzung ins Englische: \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027own\u0027.  Die Wörter werden vereinheitlicht (\u0027swim\u0027 statt \u0027schwimme\u0027, \u0027own\u0027 statt \u0027gehört\u0027).\\n4. Subjekt-Referenzen auf den Nutzer werden ersetzt: \u0027ich\u0027 und \u0027mir\u0027 werden durch \u0027Maria\u0027 repräsentiert.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ 1: object), da es eine Entität bezeichnet.\\n   - \u0027swim\u0027 ist eine Aktivität (Typ 4: activity).\\n   - \u0027pool\u0027 ist ein Objekt (Typ 1: object).\\n   - \u0027own\u0027 wird als Kontext (Typ 2: context) interpretiert, da es eine Besitzbeziehung beschreibt.\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027swim\u0027 aus → Relation \u0027perform\u0027 (ID 8) zwischen \u0027Maria\u0027 und \u0027swim\u0027.\\n   - \u0027swim\u0027 findet in einem \u0027pool\u0027 statt → Relation \u0027target\u0027 (ID 9) zwischen \u0027swim\u0027 und \u0027pool\u0027.\\n   - Maria besitzt den \u0027pool\u0027 → Die Beziehung \u0027own\u0027 wird durch das Attribut \u0027characteristic\u0027 (ID 14) dargestellt, da \u0027own\u0027 eine Eigenschaft (Besitz) des Objekts \u0027pool\u0027 in Bezug auf Maria ist.\\n   - \u0027own\u0027 bezieht sich auf \u0027pool\u0027 → \u0027characteristic\u0027 (ID 14) zwischen \u0027own\u0027 und \u0027pool\u0027.\\n7. Überprüfung der Typkodierungen:\\n   - \u0027perform\u0027 (Maria → swim): ID 8 vorhanden.\\n   - \u0027target\u0027 (swim → pool): ID 9 vorhanden.\\n   - \u0027attached\u0027 würde räumliche Nähe beschreiben, ist aber hier nicht nötig, da \u0027in\u0027 über die Aktivität \u0027swim\u0027 und deren Ziel implizit abgedeckt ist.\\n   - \u0027characteristic\u0027 (own → pool): ID 14 vorhanden.\\n   - Besitz von Maria → pool: wird über das Konstrukt \u0027own\u0027 als Kontext und dessen Charakteristik erfasst. Da \u0027own\u0027 selbst als Kontext (ID 2) modelliert wird, und die Beziehung zu \u0027pool\u0027 über \u0027characteristic\u0027 (ID 14) erfolgt, ist dies zulässig.\\n   Alle benötigten Typkodierungen sind vorhanden.\\n8. Zusammenstellung des GraphCodes: Das Vokabular enthält 4 Einträge, daher ist die Matrix 4x4. Auf der Diagonalen stehen die Typ-IDs der Begriffe (nur mit identityMapping\u003dtrue): 1 (object), 4 (activity), 1 (object), 2 (context). Die Relationen außerhalb der Diagonalen verwenden nur Typen mit identityMapping\u003dfalse (IDs 5, 9, 14). Die Matrix wurde entsprechend befüllt.\"\n}"
+}

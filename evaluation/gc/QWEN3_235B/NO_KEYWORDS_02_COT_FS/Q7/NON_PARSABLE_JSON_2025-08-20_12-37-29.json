@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"error\": [\n    \"Die Anfrage ist grammatikalisch und semantisch nicht korrekt verständlich. Es fehlen klare Beziehungen oder ein Verb, das die Handlung beschreibt. \u0027Häuser um Fragen zu malen\u0027 ergibt im Deutschen keinen sinnvollen Satz.\"\n  ],\n  \"description\": \"Es können keine sinnvollen Stichwörter oder Relationen aus der Anfrage \u0027Häuser um Fragen zu malen\u0027 extrahiert werden. Der Satz ist semantisch inkorrekt oder unvollständig. Möglicherweise ist ein Verb falsch platziert oder es handelt sich um einen Tippfehler (z. B. \u0027Fragen\u0027 statt \u0027Fassaden\u0027 oder \u0027malen\u0027 im Sinne von \u0027bemalen\u0027). Ohne klare Objekte, Attribute oder Aktivitäten kann kein GraphCode generiert werden.\"\n}"
+}

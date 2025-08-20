@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Stichwörter: \u0027Tim\u0027 und \u0027rennt\u0027 identifiziert.\n2. Keine relativen Verweise wie \u0027ich\u0027, also keine Ersetzung nötig.\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt, \u0027rennt\u0027 → \u0027run\u0027.\n4. Keine Selbstreferenzen, daher keine Ersetzung mit Maria.\n5. Attribute: \u0027Tim\u0027 ist Objekt (Typ 1), \u0027run\u0027 ist Aktivität (Typ 4).\n6. Relation: Tim führt die Aktivität \u0027run\u0027 aus (perform, Typ 8).\n7. Alle Relationen haben gültige Typkodierungen (perform \u003d ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Stichwörter: \u0027Tim\u0027 und \u0027rennt\u0027 identifiziert.\\n2. Keine relativen Verweise wie \u0027ich\u0027, also keine Ersetzung nötig.\\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt, \u0027rennt\u0027 → \u0027run\u0027.\\n4. Keine Selbstreferenzen, daher keine Ersetzung mit Maria.\\n5. Attribute: \u0027Tim\u0027 ist Objekt (Typ 1), \u0027run\u0027 ist Aktivität (Typ 4).\\n6. Relation: Tim führt die Aktivität \u0027run\u0027 aus (perform, Typ 8).\\n7. Alle Relationen haben gültige Typkodierungen (perform \u003d ID 8).\"\n}"
+}

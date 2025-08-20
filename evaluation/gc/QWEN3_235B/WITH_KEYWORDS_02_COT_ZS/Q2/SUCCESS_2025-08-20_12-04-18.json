@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer hat die Identifikation \u0027Maria\u0027, jedoch verwendet die Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation des Nutzers ignoriert und der Name \u0027tim\u0027 aus der Anfrage direkt übernommen.\n\n2. Die Attributeigenschaften der Stichwörter werden basierend auf ihrer Rolle in der Anfrage bestimmt: \u0027tim\u0027 ist ein Subjekt, das eine Handlung ausführt, und wird daher als Objekt (Typ-ID 1, \u0027object\u0027) klassifiziert. \u0027run\u0027 beschreibt eine Handlung und wird als Aktivität (Typ-ID 4, \u0027activity\u0027) klassifiziert.\n\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. Diese Beziehung wird durch die Typkodierung \u0027perform\u0027 (Typ-ID 8) dargestellt, da \u0027perform\u0027 die Zuordnung eines Subjekts zu einer durchgeführten Aktivität abbildet.\n\n4. Für die Diagonaleinträge: Die Typ-ID 1 (\u0027object\u0027) für \u0027tim\u0027 und ID 4 (\u0027activity\u0027) für \u0027run\u0027 sind gültig, da beide \u0027identityMapping\u0027 \u003d\u003d true haben. Für die nicht-diagonale Relation (tim → run) wird Typ-ID 8 (\u0027perform\u0027) verwendet, die \u0027identityMapping\u0027 \u003d\u003d false hat und somit außerhalb der Diagonalen zulässig ist. Alle benötigten Typkodierungen existieren in der vorgegebenen Liste.\n\n5. Der GraphCode wurde erfolgreich erstellt: Das Vokabular bleibt wie vorgegeben. Die 2x2-Bewertungsmatrix enthält auf der Diagonalen die Typen der Begriffe und außerhalb die Relation \u0027perform\u0027 (ID 8) von \u0027tim\u0027 zu \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer hat die Identifikation \u0027Maria\u0027, jedoch verwendet die Anfrage \u0027Tim rennt\u0027 keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027. Daher wird die Identifikation des Nutzers ignoriert und der Name \u0027tim\u0027 aus der Anfrage direkt übernommen.\\n\\n2. Die Attributeigenschaften der Stichwörter werden basierend auf ihrer Rolle in der Anfrage bestimmt: \u0027tim\u0027 ist ein Subjekt, das eine Handlung ausführt, und wird daher als Objekt (Typ-ID 1, \u0027object\u0027) klassifiziert. \u0027run\u0027 beschreibt eine Handlung und wird als Aktivität (Typ-ID 4, \u0027activity\u0027) klassifiziert.\\n\\n3. Die Relation zwischen \u0027tim\u0027 und \u0027run\u0027 ist, dass \u0027tim\u0027 die Aktivität \u0027run\u0027 ausführt. Diese Beziehung wird durch die Typkodierung \u0027perform\u0027 (Typ-ID 8) dargestellt, da \u0027perform\u0027 die Zuordnung eines Subjekts zu einer durchgeführten Aktivität abbildet.\\n\\n4. Für die Diagonaleinträge: Die Typ-ID 1 (\u0027object\u0027) für \u0027tim\u0027 und ID 4 (\u0027activity\u0027) für \u0027run\u0027 sind gültig, da beide \u0027identityMapping\u0027 \u003d\u003d true haben. Für die nicht-diagonale Relation (tim → run) wird Typ-ID 8 (\u0027perform\u0027) verwendet, die \u0027identityMapping\u0027 \u003d\u003d false hat und somit außerhalb der Diagonalen zulässig ist. Alle benötigten Typkodierungen existieren in der vorgegebenen Liste.\\n\\n5. Der GraphCode wurde erfolgreich erstellt: Das Vokabular bleibt wie vorgegeben. Die 2x2-Bewertungsmatrix enthält auf der Diagonalen die Typen der Begriffe und außerhalb die Relation \u0027perform\u0027 (ID 8) von \u0027tim\u0027 zu \u0027run\u0027.\"\n}"
+}

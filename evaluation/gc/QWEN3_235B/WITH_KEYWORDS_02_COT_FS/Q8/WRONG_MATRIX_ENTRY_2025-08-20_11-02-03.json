@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "1. Der relative Verweis \"Meine Tochter und ich\" wurde aufgelöst: \"ich\" entspricht der gegebenen Identifikation \"maria\", und \"Tochter\" wurde als relationale Verbindung zwischen \"maria\" und einem neuen Objekt \"person\" interpretiert, wobei \"person\" die Tochter ist. \n2. \"maria\" und \"person\" sind Objekte (object). \"drive\" ist eine Aktivität (activity). \"boat\" ist ein Objekt (object). \"lake\" fungiert als Kontext (context) der Szene. \n3. \"maria\" hat eine Tochter, die durch das Objekt \"person\" repräsentiert wird (Relation: daughter). Sowohl \"maria\" als auch \"person\" führen die Aktivität \"drive\" aus. Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\" (target). Das Objekt \"person\" ist mit \"boat\" verbunden (attached), da es gemeinsam Boot fährt. Sowohl \"person\" als auch \"boat\" befinden sich auf dem \"lake\" (above) und im \"lake\" Kontext (in). \n4. Die ID für \u0027object\u0027 ist 1 (identityMapping\u003dtrue). Die ID für \u0027activity\u0027 ist 4 (identityMapping\u003dtrue). Die ID für \u0027context\u0027 ist 2 (identityMapping\u003dtrue). Die ID für \u0027perform\u0027 ist 8 (identityMapping\u003dfalse). Die ID für \u0027target\u0027 ist 9 (identityMapping\u003dfalse). Die ID für \u0027attached\u0027 ist 5 (identityMapping\u003dfalse). Die ID für \u0027above\u0027 ist 7 (identityMapping\u003dfalse). Die ID für \u0027in\u0027 ist 6 (identityMapping\u003dfalse). Die ID für \u0027daughter\u0027 ist 10 (identityMapping\u003dfalse). Alle benötigten Relationen sind in den gegebenen Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 5, 6],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Meine Tochter und ich\\\" wurde aufgelöst: \\\"ich\\\" entspricht der gegebenen Identifikation \\\"maria\\\", und \\\"Tochter\\\" wurde als relationale Verbindung zwischen \\\"maria\\\" und einem neuen Objekt \\\"person\\\" interpretiert, wobei \\\"person\\\" die Tochter ist. \\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte (object). \\\"drive\\\" ist eine Aktivität (activity). \\\"boat\\\" ist ein Objekt (object). \\\"lake\\\" fungiert als Kontext (context) der Szene. \\n3. \\\"maria\\\" hat eine Tochter, die durch das Objekt \\\"person\\\" repräsentiert wird (Relation: daughter). Sowohl \\\"maria\\\" als auch \\\"person\\\" führen die Aktivität \\\"drive\\\" aus. Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\" (target). Das Objekt \\\"person\\\" ist mit \\\"boat\\\" verbunden (attached), da es gemeinsam Boot fährt. Sowohl \\\"person\\\" als auch \\\"boat\\\" befinden sich auf dem \\\"lake\\\" (above) und im \\\"lake\\\" Kontext (in). \\n4. Die ID für \u0027object\u0027 ist 1 (identityMapping\u003dtrue). Die ID für \u0027activity\u0027 ist 4 (identityMapping\u003dtrue). Die ID für \u0027context\u0027 ist 2 (identityMapping\u003dtrue). Die ID für \u0027perform\u0027 ist 8 (identityMapping\u003dfalse). Die ID für \u0027target\u0027 ist 9 (identityMapping\u003dfalse). Die ID für \u0027attached\u0027 ist 5 (identityMapping\u003dfalse). Die ID für \u0027above\u0027 ist 7 (identityMapping\u003dfalse). Die ID für \u0027in\u0027 ist 6 (identityMapping\u003dfalse). Die ID für \u0027daughter\u0027 ist 10 (identityMapping\u003dfalse). Alle benötigten Relationen sind in den gegebenen Typkodierungen vorhanden.\"\n}"
+}

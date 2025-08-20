@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      1,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim rennt. Maria ist die Nutzeridentifikation, da die Aktion indirekt Bezug auf die Beobachtung durch Maria hat. \u0027run\u0027 ist eine Aktivität (Typ 4). Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (Typ 8) ausgedrückt. Da Tim eine Person ist und im Kontext als Objekt auftritt, erhält \u0027tim\u0027 den Typ 1 (object). Maria steht über die Beobachtungsrolle in Beziehung zur Aktion, daher Verbindung von Maria zu \u0027run\u0027 mittels \u0027perform\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [1, 1, 8],\n    [0, 0, 4]\n  ],\n  \"description\": \"Tim rennt. Maria ist die Nutzeridentifikation, da die Aktion indirekt Bezug auf die Beobachtung durch Maria hat. \u0027run\u0027 ist eine Aktivität (Typ 4). Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (Typ 8) ausgedrückt. Da Tim eine Person ist und im Kontext als Objekt auftritt, erhält \u0027tim\u0027 den Typ 1 (object). Maria steht über die Beobachtungsrolle in Beziehung zur Aktion, daher Verbindung von Maria zu \u0027run\u0027 mittels \u0027perform\u0027.\"\n}"
+}

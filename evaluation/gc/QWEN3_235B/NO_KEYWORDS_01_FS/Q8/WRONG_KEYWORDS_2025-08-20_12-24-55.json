@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      5,
+      6,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      8
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Maria und ihre Tochter fahren gemeinsam mit einem Boot auf einem See.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"daughter\",\n    \"boat\",\n    \"lake\",\n    \"ride\"\n  ],\n  \"matrix\": [\n    [1, 10, 5, 6, 8],\n    [0, 1, 0, 0, 8],\n    [0, 0, 1, 6, 8],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren gemeinsam mit einem Boot auf einem See.\"\n}"
+}

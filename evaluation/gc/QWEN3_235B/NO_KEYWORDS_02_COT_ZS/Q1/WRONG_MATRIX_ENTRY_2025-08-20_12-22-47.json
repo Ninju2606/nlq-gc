@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Nutzeridentifikation \u0027Maria\u0027, wie in den Regeln vorgegeben.\n\n3. Übersetzung der Stichwörter ins Englische: \u0027spiele\u0027 → \u0027play\u0027 (infinitiv, verallgemeinerter Wortstamm), \u0027Basketball\u0027 bleibt erhalten, da es ein Substantiv ist und im Englischen identisch verwendet wird.\n\n4. Der Verweis \u0027Ich\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\n\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist eine Person, also ein Objekt → Typ-ID 1 (object).\n   - \u0027play\u0027 beschreibt eine Handlung → Typ-ID 4 (activity).\n   - \u0027basketball\u0027 ist ein Objekt → Typ-ID 1 (object).\n\n6. Relationen zwischen den Stichwörtern:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Maria performs play) → Typ-ID 8.\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Zielobjekt → Relation \u0027target\u0027 (play targets basketball) → Typ-ID 9.\n\n7. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1) mit identityMapping\u003dtrue → gültig für Diagonale.\n   - \u0027activity\u0027 (ID 4) mit identityMapping\u003dtrue → gültig für Diagonale.\n   - \u0027perform\u0027 (ID 8) mit identityMapping\u003dfalse → gültig für Nicht-Diagonale.\n   - \u0027target\u0027 (ID 9) mit identityMapping\u003dfalse → gültig für Nicht-Diagonale.\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\n\n8. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular enthält drei Einträge in Englisch. Die 3x3-Bewertungsmatrix ordnet jedem Begriff seinen Typ in der Diagonalen zu und stellt die Relationen außerhalb der Diagonalen dar.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 0],\n    [0, 9, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst in die Nutzeridentifikation \u0027Maria\u0027, wie in den Regeln vorgegeben.\\n\\n3. Übersetzung der Stichwörter ins Englische: \u0027spiele\u0027 → \u0027play\u0027 (infinitiv, verallgemeinerter Wortstamm), \u0027Basketball\u0027 bleibt erhalten, da es ein Substantiv ist und im Englischen identisch verwendet wird.\\n\\n4. Der Verweis \u0027Ich\u0027 wird durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\n\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist eine Person, also ein Objekt → Typ-ID 1 (object).\\n   - \u0027play\u0027 beschreibt eine Handlung → Typ-ID 4 (activity).\\n   - \u0027basketball\u0027 ist ein Objekt → Typ-ID 1 (object).\\n\\n6. Relationen zwischen den Stichwörtern:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation \u0027perform\u0027 (Maria performs play) → Typ-ID 8.\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Zielobjekt → Relation \u0027target\u0027 (play targets basketball) → Typ-ID 9.\\n\\n7. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1) mit identityMapping\u003dtrue → gültig für Diagonale.\\n   - \u0027activity\u0027 (ID 4) mit identityMapping\u003dtrue → gültig für Diagonale.\\n   - \u0027perform\u0027 (ID 8) mit identityMapping\u003dfalse → gültig für Nicht-Diagonale.\\n   - \u0027target\u0027 (ID 9) mit identityMapping\u003dfalse → gültig für Nicht-Diagonale.\\n   Alle benötigten Relationen sind in den vorgegebenen Typkodierungen enthalten.\\n\\n8. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular enthält drei Einträge in Englisch. Die 3x3-Bewertungsmatrix ordnet jedem Begriff seinen Typ in der Diagonalen zu und stellt die Relationen außerhalb der Diagonalen dar.\"\n}"
+}

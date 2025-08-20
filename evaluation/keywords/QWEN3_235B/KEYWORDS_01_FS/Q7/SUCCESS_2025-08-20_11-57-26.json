@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch inkorrekt oder unklar. Der Ausdruck \u0027Fragen zu malen\u0027 ergibt in diesem Kontext keinen Sinn, da \u0027Fragen\u0027 ein Substantiv ist und nicht als Objekt für die Tätigkeit \u0027malen\u0027 verwendet werden kann.",
+  "error": "Die Anfrage ist grammatikalisch inkorrekt oder unklar. Der Ausdruck \u0027Fragen zu malen\u0027 ergibt in diesem Kontext keinen Sinn, da \u0027Fragen\u0027 ein Substantiv ist und nicht als Objekt für die Tätigkeit \u0027malen\u0027 verwendet werden kann.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch inkorrekt oder unklar. Der Ausdruck \u0027Fragen zu malen\u0027 ergibt in diesem Kontext keinen Sinn, da \u0027Fragen\u0027 ein Substantiv ist und nicht als Objekt für die Tätigkeit \u0027malen\u0027 verwendet werden kann.\",\n  \"description\": \"Die Anfrage ist grammatikalisch inkorrekt oder unklar. Der Ausdruck \u0027Fragen zu malen\u0027 ergibt in diesem Kontext keinen Sinn, da \u0027Fragen\u0027 ein Substantiv ist und nicht als Objekt für die Tätigkeit \u0027malen\u0027 verwendet werden kann.\"\n}"
+}

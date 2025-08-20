@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "Aufgabe 1: Der relative Verweis \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. \u0027mir gehört\u0027 wurde als Besitzrelation (\u0027own\u0027) zwischen Maria und Pool interpretiert. Aufgabe 2: \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (Typ 1), \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (Typ 4). Aufgabe 3: Maria führt \u0027swim\u0027 (Relation \u0027perform\u0027 ID 8) und \u0027own\u0027 (ID 8) aus; \u0027own\u0027 bezieht sich auf \u0027pool\u0027 (Relation \u0027target\u0027 ID 9); \u0027swim\u0027 steht in räumlicher Relation zu \u0027pool\u0027 (Relation \u0027attached\u0027 ID 5). Aufgabe 4: Alle Relationen haben valide Typkodierungen (IDs 5, 8, 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 5],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Aufgabe 1: Der relative Verweis \u0027Ich\u0027 wurde durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. \u0027mir gehört\u0027 wurde als Besitzrelation (\u0027own\u0027) zwischen Maria und Pool interpretiert. Aufgabe 2: \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (Typ 1), \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (Typ 4). Aufgabe 3: Maria führt \u0027swim\u0027 (Relation \u0027perform\u0027 ID 8) und \u0027own\u0027 (ID 8) aus; \u0027own\u0027 bezieht sich auf \u0027pool\u0027 (Relation \u0027target\u0027 ID 9); \u0027swim\u0027 steht in räumlicher Relation zu \u0027pool\u0027 (Relation \u0027attached\u0027 ID 5). Aufgabe 4: Alle Relationen haben valide Typkodierungen (IDs 5, 8, 9).\"\n}"
+}

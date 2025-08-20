@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "schedule",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Gefundene Stichwörter: Termin, ausmachen, bald. Übersetzung ins Englische: schedule, appointment, soon. Keine personenbezogenen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten, daher keine Ersetzung der Nutzeridentifikation erforderlich.",
+  "responsePlain": "{\n  \"dictionary\": [\"schedule\", \"appointment\", \"soon\"],\n  \"description\": \"Gefundene Stichwörter: Termin, ausmachen, bald. Übersetzung ins Englische: schedule, appointment, soon. Keine personenbezogenen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027 enthalten, daher keine Ersetzung der Nutzeridentifikation erforderlich.\"\n}"
+}

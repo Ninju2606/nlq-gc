@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch nicht klar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind. Der Ausdruck \u0027Fragen zu malen\u0027 ist sinnentstellend, da \u0027Fragen\u0027 normalerweise nicht gemalt werden. Es fehlt eine klare Handlungs- oder Objektbeziehung, die für die Generierung eines sinnvollen GraphCodes erforderlich ist.",
+  "error": "Unklare Anfragestruktur",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfragestruktur\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch verwirrt und semantisch nicht klar. Es ist nicht erkennbar, welche Objekte, Attribute oder Aktivitäten gemeint sind. Der Ausdruck \u0027Fragen zu malen\u0027 ist sinnentstellend, da \u0027Fragen\u0027 normalerweise nicht gemalt werden. Es fehlt eine klare Handlungs- oder Objektbeziehung, die für die Generierung eines sinnvollen GraphCodes erforderlich ist.\"\n}"
+}

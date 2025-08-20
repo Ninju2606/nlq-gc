@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in einem Pool, der mir gehört. Maria führt die Aktivität \u0027schwimmen\u0027 aus, wobei der Pool das Ziel der Aktivität ist. Maria besitzt den Pool, wobei \u0027own\u0027 die Beziehung \u0027attached\u0027 (id\u003d5) darstellt. Der Pool wird als Objekt (id\u003d1) klassifiziert, ebenso Maria. \u0027Swim\u0027 ist eine Aktivität (id\u003d4). Die Beziehung \u0027characteristic\u0027 (id\u003d14) wird verwendet, um anzugeben, dass der Pool eine Eigenschaft der Beziehung \u0027own\u0027 ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 5, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Ich schwimme in einem Pool, der mir gehört. Maria führt die Aktivität \u0027schwimmen\u0027 aus, wobei der Pool das Ziel der Aktivität ist. Maria besitzt den Pool, wobei \u0027own\u0027 die Beziehung \u0027attached\u0027 (id\u003d5) darstellt. Der Pool wird als Objekt (id\u003d1) klassifiziert, ebenso Maria. \u0027Swim\u0027 ist eine Aktivität (id\u003d4). Die Beziehung \u0027characteristic\u0027 (id\u003d14) wird verwendet, um anzugeben, dass der Pool eine Eigenschaft der Beziehung \u0027own\u0027 ist.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern bezieht sich auf eine reale, zukünftige Handlung (Termin ausmachen), die nicht in einer Aufnahme einer Szene im Metaverse abgebildet werden kann.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern bezieht sich auf eine reale, zukünftige Handlung (Termin ausmachen), die nicht in einer Aufnahme einer Szene im Metaverse abgebildet werden kann.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern bezieht sich auf eine reale, zukünftige Handlung (Termin ausmachen), die nicht in einer Aufnahme einer Szene im Metaverse abgebildet werden kann.\",\n  \"description\": \"Die Anfrage enthält keine klare Szenenbeschreibung aus dem Metaverse, sondern bezieht sich auf eine reale, zukünftige Handlung (Termin ausmachen), die nicht in einer Aufnahme einer Szene im Metaverse abgebildet werden kann.\"\n}"
+}

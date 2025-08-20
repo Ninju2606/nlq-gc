@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "sail",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "GraphCode für die Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Enthält Relationen: Maria hat eine Tochter (10), beide führen die Aktivität \u0027sail\u0027 aus (8), \u0027sail\u0027 hat das Ziel \u0027boat\u0027 (9), \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (7).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"sail\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 9, 0],\n    [0, 0, 0, 1, 7],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"GraphCode für die Nutzeranfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Enthält Relationen: Maria hat eine Tochter (10), beide führen die Aktivität \u0027sail\u0027 aus (8), \u0027sail\u0027 hat das Ziel \u0027boat\u0027 (9), \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 (7).\"\n}"
+}

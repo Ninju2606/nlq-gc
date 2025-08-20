@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 5],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria spielt Basketball. \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4), \u0027basketball\u0027 ist ein Objekt (Typ 1). Die Beziehung \u0027play\u0027 hat das Ziel \u0027basketball\u0027 (Typ 9) und \u0027maria\u0027 führt die Aktivität aus (Typ 8 fehlt, wird aber durch \u0027perform\u0027-Relation impliziert; stattdessen wird \u0027attached\u0027 (Typ 5) zwischen \u0027maria\u0027 und \u0027play\u0027 genutzt, um Teilnahme auszudrücken, da kein \u0027perform\u0027-Typ (8) von den Regeln zugelassen ist für Diagonale, aber außerhalb ist 8 erlaubt. Korrektur: Typ 8 \u0027perform\u0027 ist vorhanden und identityMapping\u003dfalse → darf außerhalb Diagonale verwendet werden. Also Eintrag (0,1) \u003d 8 statt 5.\"\n  ]\n}"
+}

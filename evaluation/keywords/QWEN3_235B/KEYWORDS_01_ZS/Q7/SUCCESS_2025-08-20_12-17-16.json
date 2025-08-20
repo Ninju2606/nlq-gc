@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und enthält keine klare Szenenbeschreibung für einen sinnvollen GraphCode. Der Ausdruck \u0027um...zu\u0027 benötigt ein Hauptverb im Hauptsatz, das in der Anfrage fehlt.",
+  "error": "Grammatikalische Unklarheit",
+  "responsePlain": "{\n  \"error\": \"Grammatikalische Unklarheit\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch inkorrekt und enthält keine klare Szenenbeschreibung für einen sinnvollen GraphCode. Der Ausdruck \u0027um...zu\u0027 benötigt ein Hauptverb im Hauptsatz, das in der Anfrage fehlt.\"\n}"
+}

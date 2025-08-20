@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"0\": \"Ich\",\n    \"1\": \"schwimme\",\n    \"2\": \"Pool\",\n    \"3\": \"gehört\",\n    \"4\": \"mir\"\n  },\n  \"matrix\": [\n    [0, 8, 0, 0, 3],\n    [0, 0, 6, 0, 0],\n    [0, 0, 0, 8, 0],\n    [0, 0, 0, 0, 9],\n    [3, 0, 0, 0, 0]\n  ]\n}"
+}

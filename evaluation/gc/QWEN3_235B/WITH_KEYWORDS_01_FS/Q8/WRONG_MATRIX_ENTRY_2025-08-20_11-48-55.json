@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist eine Person und hat eine Tochter-Beziehung (daughter) zur impliziten Tochter. Die Aktivität \u0027drive\u0027 wird von Maria ausgeführt und bezieht sich auf das Objekt \u0027boat\u0027. Das Boot befindet sich auf dem See (\u0027lake\u0027), wobei \u0027above\u0027 und \u0027in\u0027 als räumliche Beziehungen verwendet werden. Der Kontext \u0027lake\u0027 wird über das Attribut \u0027context\u0027 kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist eine Person und hat eine Tochter-Beziehung (daughter) zur impliziten Tochter. Die Aktivität \u0027drive\u0027 wird von Maria ausgeführt und bezieht sich auf das Objekt \u0027boat\u0027. Das Boot befindet sich auf dem See (\u0027lake\u0027), wobei \u0027above\u0027 und \u0027in\u0027 als räumliche Beziehungen verwendet werden. Der Kontext \u0027lake\u0027 wird über das Attribut \u0027context\u0027 kodiert.\"\n}"
+}

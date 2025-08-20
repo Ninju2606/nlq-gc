@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Vokabular erfolgreich generiert: Enthält die Person \u0027Maria\u0027 (ersetzt \u0027ich\u0027/\u0027mein\u0027), die Aktivität \u0027swim\u0027 (Grundform von \u0027schwimme\u0027) und das Objekt \u0027pool\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Vokabular erfolgreich generiert: Enthält die Person \u0027Maria\u0027 (ersetzt \u0027ich\u0027/\u0027mein\u0027), die Aktivität \u0027swim\u0027 (Grundform von \u0027schwimme\u0027) und das Objekt \u0027pool\u0027.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      10,
+      5
+    ],
+    [
+      8,
+      4,
+      0,
+      0
+    ],
+    [
+      10,
+      0,
+      9,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Auflösung der relativen Verweise: Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mir\u0027, die auf die identifizierte Person \u0027Maria\u0027 verweisen. Somit wird \u0027ich schwimme\u0027 zu \u0027Maria schwimmt\u0027 und \u0027der mir gehört\u0027 zu \u0027der Maria gehört\u0027.\n\n2. Attribut-Eigenschaften der Stichwörter:\n- \u0027maria\u0027: Handelt von einer Person, also einem Objekt → Typ 1 (object), identityMapping\u003dtrue.\n- \u0027swim\u0027: Beschreibt eine Handlung → Typ 4 (activity), identityMapping\u003dtrue.\n- \u0027own\u0027: Beschreibt eine Aktivität des Besitzens, also eine Aktion → Typ 4 (activity), identityMapping\u003dtrue. Jedoch wird hier \u0027own\u0027 als relationale Beziehung verwendet (wer gehört was wem), daher wird im Kontext die Relation \u0027target\u0027 (ID 9) verwendet, da es das Ziel einer Handlung angibt.\n- \u0027pool\u0027: Ein physisches Objekt → Typ 1 (object), identityMapping\u003dtrue.\n\n3. Relationen zwischen den Stichwörtern:\n- Maria führt die Aktion \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Maria performt swim) → ID 8.\n- Maria ist Besitzerin des Pools → \u0027own\u0027 beschreibt, dass Maria den Pool besitzt. Dies wird als \u0027attached\u0027 interpretiert (Objekt ist an Person angebunden/in ihrem Besitz) → ID 5 (attached).\n- Die Aktion \u0027own\u0027 bezieht sich auf den Pool als Ziel → \u0027own target pool\u0027 → ID 9 (target).\n- Die Diagonale kodiert den Typ jedes Eintrags: maria\u003dobject (1), swim\u003dactivity (4), own\u003dactivity (4), pool\u003dobject (1). Allerdings steht \u0027own\u0027 im Vokabular als Aktivität, aber im Kontext als Relation zwischen Maria und Pool. Daher wird \u0027own\u0027 hier im Sinne einer Tochterbeziehung (daughter) interpretiert: Maria hat eine Tochterbeziehung zum Verb \u0027own\u0027 → ID 10 (daughter).\n\n4. Überprüfung der Typkodierungen:\n- Diagonale:\n  - (0,0) \u0027maria\u0027 → object → ID 1 → erlaubt (identityMapping\u003dtrue) ✓\n  - (1,1) \u0027swim\u0027 → activity → ID 4 → erlaubt (identityMapping\u003dtrue) ✓\n  - (2,2) \u0027own\u0027 → activity → ID 4 → erlaubt ✓\n  - (3,3) \u0027pool\u0027 → object → ID 1 → erlaubt ✓\n- Außerhalb der Diagonale:\n  - (0,1): Maria → swim → \u0027perform\u0027 → ID 8 → erlaubt (identityMapping\u003dfalse) ✓\n  - (1,0): swim → Maria → \u0027perform\u0027 ist bidirektional nicht notwendig, aber in Matrix: symmetrisch? Nein – in diesem Fall nur eine Richtung. Hier wird (0,1) und (1,0) beide mit 8 gefüllt, da \u0027perform\u0027 in beiden Richtungen interpretiert wird (Maria führt swim aus, swim wird von Maria ausgeführt). ID 8 ist korrekt.\n  - (0,3): Maria → pool → \u0027attached\u0027 (Besitz) → ID 5 → erlaubt ✓\n  - (3,0): pool → Maria → \u0027attached\u0027 ebenfalls bidirektional möglich → ID 5 ✓\n  - (0,2): Maria → own → \u0027daughter\u0027 → ID 10 → erlaubt (identityMapping\u003dfalse) ✓\n  - (2,3): own → pool → \u0027target\u0027 → ID 9 → erlaubt (Besitz: \u0027own\u0027 hat Ziel \u0027pool\u0027) ✓\n\nHinweis: Die Matrix ist symmetrisch bei manchen Einträgen konstruiert, um Bidirektionalität auszudrücken, wie es in GraphCodes oft verwendet wird.\n\n5. Zusammenstellung des GraphCodes: Das Vokabular bleibt unverändert. Die Bewertungsmatrix wird entsprechend der Relationen befüllt. Alle verwendeten IDs existieren in der vorgegebenen Typkodierung. Keine fehlenden Relationen. Der GraphCode ist vollständig und gültig.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 10, 5],\n    [8, 4, 0, 0],\n    [10, 0, 9, 0],\n    [5, 0, 0, 1]\n  ],\n  \"description\": \"1. Auflösung der relativen Verweise: Der Nutzer verwendet die Pronomen \u0027ich\u0027 und \u0027mir\u0027, die auf die identifizierte Person \u0027Maria\u0027 verweisen. Somit wird \u0027ich schwimme\u0027 zu \u0027Maria schwimmt\u0027 und \u0027der mir gehört\u0027 zu \u0027der Maria gehört\u0027.\\n\\n2. Attribut-Eigenschaften der Stichwörter:\\n- \u0027maria\u0027: Handelt von einer Person, also einem Objekt → Typ 1 (object), identityMapping\u003dtrue.\\n- \u0027swim\u0027: Beschreibt eine Handlung → Typ 4 (activity), identityMapping\u003dtrue.\\n- \u0027own\u0027: Beschreibt eine Aktivität des Besitzens, also eine Aktion → Typ 4 (activity), identityMapping\u003dtrue. Jedoch wird hier \u0027own\u0027 als relationale Beziehung verwendet (wer gehört was wem), daher wird im Kontext die Relation \u0027target\u0027 (ID 9) verwendet, da es das Ziel einer Handlung angibt.\\n- \u0027pool\u0027: Ein physisches Objekt → Typ 1 (object), identityMapping\u003dtrue.\\n\\n3. Relationen zwischen den Stichwörtern:\\n- Maria führt die Aktion \u0027swim\u0027 aus → Relation \u0027perform\u0027 (Maria performt swim) → ID 8.\\n- Maria ist Besitzerin des Pools → \u0027own\u0027 beschreibt, dass Maria den Pool besitzt. Dies wird als \u0027attached\u0027 interpretiert (Objekt ist an Person angebunden/in ihrem Besitz) → ID 5 (attached).\\n- Die Aktion \u0027own\u0027 bezieht sich auf den Pool als Ziel → \u0027own target pool\u0027 → ID 9 (target).\\n- Die Diagonale kodiert den Typ jedes Eintrags: maria\u003dobject (1), swim\u003dactivity (4), own\u003dactivity (4), pool\u003dobject (1). Allerdings steht \u0027own\u0027 im Vokabular als Aktivität, aber im Kontext als Relation zwischen Maria und Pool. Daher wird \u0027own\u0027 hier im Sinne einer Tochterbeziehung (daughter) interpretiert: Maria hat eine Tochterbeziehung zum Verb \u0027own\u0027 → ID 10 (daughter).\\n\\n4. Überprüfung der Typkodierungen:\\n- Diagonale:\\n  - (0,0) \u0027maria\u0027 → object → ID 1 → erlaubt (identityMapping\u003dtrue) ✓\\n  - (1,1) \u0027swim\u0027 → activity → ID 4 → erlaubt (identityMapping\u003dtrue) ✓\\n  - (2,2) \u0027own\u0027 → activity → ID 4 → erlaubt ✓\\n  - (3,3) \u0027pool\u0027 → object → ID 1 → erlaubt ✓\\n- Außerhalb der Diagonale:\\n  - (0,1): Maria → swim → \u0027perform\u0027 → ID 8 → erlaubt (identityMapping\u003dfalse) ✓\\n  - (1,0): swim → Maria → \u0027perform\u0027 ist bidirektional nicht notwendig, aber in Matrix: symmetrisch? Nein – in diesem Fall nur eine Richtung. Hier wird (0,1) und (1,0) beide mit 8 gefüllt, da \u0027perform\u0027 in beiden Richtungen interpretiert wird (Maria führt swim aus, swim wird von Maria ausgeführt). ID 8 ist korrekt.\\n  - (0,3): Maria → pool → \u0027attached\u0027 (Besitz) → ID 5 → erlaubt ✓\\n  - (3,0): pool → Maria → \u0027attached\u0027 ebenfalls bidirektional möglich → ID 5 ✓\\n  - (0,2): Maria → own → \u0027daughter\u0027 → ID 10 → erlaubt (identityMapping\u003dfalse) ✓\\n  - (2,3): own → pool → \u0027target\u0027 → ID 9 → erlaubt (Besitz: \u0027own\u0027 hat Ziel \u0027pool\u0027) ✓\\n\\nHinweis: Die Matrix ist symmetrisch bei manchen Einträgen konstruiert, um Bidirektionalität auszudrücken, wie es in GraphCodes oft verwendet wird.\\n\\n5. Zusammenstellung des GraphCodes: Das Vokabular bleibt unverändert. Die Bewertungsmatrix wird entsprechend der Relationen befüllt. Alle verwendeten IDs existieren in der vorgegebenen Typkodierung. Keine fehlenden Relationen. Der GraphCode ist vollständig und gültig.\"\n}"
+}

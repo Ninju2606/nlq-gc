@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können zwar Stichwörter extrahiert werden (Häuser, Fragen, malen), jedoch ergibt die Kombination im Metaverse-Kontext keine sinnvolle Szenenbeschreibung. Die Formulierung \u0027Häuser um Fragen zu malen\u0027 ist semantisch unklar und lässt keine eindeutige Interpretation als reale Handlung oder Situation zu.",
+  "error": "Kann die Anfrage nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Kann die Anfrage nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können zwar Stichwörter extrahiert werden (Häuser, Fragen, malen), jedoch ergibt die Kombination im Metaverse-Kontext keine sinnvolle Szenenbeschreibung. Die Formulierung \u0027Häuser um Fragen zu malen\u0027 ist semantisch unklar und lässt keine eindeutige Interpretation als reale Handlung oder Situation zu.\"\n}"
+}

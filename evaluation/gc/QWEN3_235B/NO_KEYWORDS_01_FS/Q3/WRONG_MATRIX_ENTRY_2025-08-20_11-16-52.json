@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      6
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Ich schwimme in einem Pool, der mir gehört.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"own\"\n  ],\n  \"matrix\": [\n    [1, 8, 0, 6],\n    [0, 4, 9, 0],\n    [0, 0, 1, 0],\n    [0, 0, 5, 2]\n  ],\n  \"description\": \"Ich schwimme in einem Pool, der mir gehört.\"\n}"
+}

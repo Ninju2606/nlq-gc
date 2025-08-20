@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen herstellen, der eine korrekte Generierung eines GraphCodes ermöglicht.",
+  "error": "Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen herstellen, der eine korrekte Generierung eines GraphCodes ermöglicht.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen herstellen, der eine korrekte Generierung eines GraphCodes ermöglicht.\",\n  \"description\": \"Die Anfrage „Häuser um Fragen zu malen“ ist grammatikalisch wirr und semantisch unklar. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen herstellen, der eine korrekte Generierung eines GraphCodes ermöglicht.\"\n}"
+}

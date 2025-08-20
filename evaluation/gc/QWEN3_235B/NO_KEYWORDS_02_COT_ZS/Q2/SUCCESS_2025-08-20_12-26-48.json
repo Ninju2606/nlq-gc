@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, daher muss nichts aufgelöst werden.\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027 (Basisform des Verbs).\n4. Da keine selbstreferenziellen Pronomen wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Nutzeridentifikation \u0027Maria\u0027 ignoriert.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ \u0027object\u0027, ID 1), da es eine Entität bezeichnet. \u0027run\u0027 ist eine Aktivität (Typ \u0027activity\u0027, ID 4).\n6. Relationen: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID 8) ausgedrückt, wobei Zeile i (Subjekt) die ausführende Entität und Spalte j (Objekt) die Aktivität angibt.\n7. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (ID 8) korrekt abgebildet. Dieser Eintrag existiert in den Typkodierungen (ID 8, attribute: \u0027perform\u0027, identityMapping: false). Die Diagonaleinträge sind korrekt mit Typen belegt, bei denen identityMapping \u003d\u003d true ist (1: object, 4: activity). Alle Bedingungen sind erfüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Tim rennt\u0027 sind \u0027Tim\u0027 und \u0027rennt\u0027.\\n2. Es gibt keine relativen Verweise wie \u0027ich\u0027 oder \u0027mein\u0027, daher muss nichts aufgelöst werden.\\n3. Übersetzung ins Englische: \u0027Tim\u0027 bleibt \u0027Tim\u0027, \u0027rennt\u0027 wird zu \u0027run\u0027 (Basisform des Verbs).\\n4. Da keine selbstreferenziellen Pronomen wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, wird die Nutzeridentifikation \u0027Maria\u0027 ignoriert.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (Typ \u0027object\u0027, ID 1), da es eine Entität bezeichnet. \u0027run\u0027 ist eine Aktivität (Typ \u0027activity\u0027, ID 4).\\n6. Relationen: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Diese Beziehung wird durch den Typ \u0027perform\u0027 (ID 8) ausgedrückt, wobei Zeile i (Subjekt) die ausführende Entität und Spalte j (Objekt) die Aktivität angibt.\\n7. Die Relation zwischen \u0027Tim\u0027 und \u0027run\u0027 wird durch \u0027perform\u0027 (ID 8) korrekt abgebildet. Dieser Eintrag existiert in den Typkodierungen (ID 8, attribute: \u0027perform\u0027, identityMapping: false). Die Diagonaleinträge sind korrekt mit Typen belegt, bei denen identityMapping \u003d\u003d true ist (1: object, 4: activity). Alle Bedingungen sind erfüllt.\"\n}"
+}

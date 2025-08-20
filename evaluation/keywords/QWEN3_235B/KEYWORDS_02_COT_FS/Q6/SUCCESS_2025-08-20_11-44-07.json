@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter zur Beschreibung einer Szene im Metaverse ermittelt werden. Die Äußerung \"Wir müssen bald einen Termin ausmachen\" beschreibt eine Absicht oder Planungshandlung, enthält aber keine Objekte, Attribute oder Aktivitäten, die eine räumliche oder visuelle Szene im Metaverse beschreiben würden.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter zur Beschreibung einer Szene im Metaverse ermittelt werden. Die Äußerung \\\"Wir müssen bald einen Termin ausmachen\\\" beschreibt eine Absicht oder Planungshandlung, enthält aber keine Objekte, Attribute oder Aktivitäten, die eine räumliche oder visuelle Szene im Metaverse beschreiben würden.\"\n}"
+}

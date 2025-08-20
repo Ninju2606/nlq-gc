@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck „Häuser um Fragen zu malen“ ergibt semantisch keinen Sinn, da „Fragen malen“ nicht mit „Häuser“ sinnvoll verknüpft werden kann. Es fehlt eine klare Beschreibung von Objekten, Attributen oder Aktivitäten im Metaverse.",
+  "error": "Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck „Häuser um Fragen zu malen“ ergibt semantisch keinen Sinn, da „Fragen malen“ nicht mit „Häuser“ sinnvoll verknüpft werden kann. Es fehlt eine klare Beschreibung von Objekten, Attributen oder Aktivitäten im Metaverse.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck „Häuser um Fragen zu malen“ ergibt semantisch keinen Sinn, da „Fragen malen“ nicht mit „Häuser“ sinnvoll verknüpft werden kann. Es fehlt eine klare Beschreibung von Objekten, Attributen oder Aktivitäten im Metaverse.\",\n  \"description\": \"Die Anfrage ist grammatikalisch unklar oder widersprüchlich. Der Ausdruck „Häuser um Fragen zu malen“ ergibt semantisch keinen Sinn, da „Fragen malen“ nicht mit „Häuser“ sinnvoll verknüpft werden kann. Es fehlt eine klare Beschreibung von Objekten, Attributen oder Aktivitäten im Metaverse.\"\n}"
+}

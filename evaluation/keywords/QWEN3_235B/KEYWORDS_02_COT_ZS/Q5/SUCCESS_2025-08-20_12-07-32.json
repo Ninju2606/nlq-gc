@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Zeig mir Situationen, in denen ich einen gelben Hut trage. Die Anfrage enthält das selbst identifizierende Wort \u0027ich\u0027, daher wird die Nutzeridentifikation \u0027Maria\u0027 im Vokabular verwendet. Die relevanten Stichwörter der Szenenbeschreibung sind \u0027trage\u0027 (verallgemeinert zu \u0027wear\u0027), \u0027gelben\u0027 (zu \u0027yellow\u0027) und \u0027Hut\u0027 (zu \u0027hat\u0027). Die Einleitung \u0027Zeig mir Situationen\u0027 dient der Anfragedarstellung und wird nicht im Vokabular berücksichtigt. Die Wörter wurden ins Englische übersetzt. Die Person \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt gemäß Regel 4.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"wear\",\n    \"yellow\",\n    \"hat\"\n  ],\n  \"description\": \"Zeig mir Situationen, in denen ich einen gelben Hut trage. Die Anfrage enthält das selbst identifizierende Wort \u0027ich\u0027, daher wird die Nutzeridentifikation \u0027Maria\u0027 im Vokabular verwendet. Die relevanten Stichwörter der Szenenbeschreibung sind \u0027trage\u0027 (verallgemeinert zu \u0027wear\u0027), \u0027gelben\u0027 (zu \u0027yellow\u0027) und \u0027Hut\u0027 (zu \u0027hat\u0027). Die Einleitung \u0027Zeig mir Situationen\u0027 dient der Anfragedarstellung und wird nicht im Vokabular berücksichtigt. Die Wörter wurden ins Englische übersetzt. Die Person \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt gemäß Regel 4.\"\n}"
+}

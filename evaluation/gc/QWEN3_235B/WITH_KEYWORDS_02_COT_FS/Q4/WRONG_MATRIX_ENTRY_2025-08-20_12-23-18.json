@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation. \u0027mein Pool\u0027 wurde aufgelöst als \u0027own pool\u0027, wobei die Besitzbeziehung durch den Begriff \u0027own\u0027 im Vokabular erfasst wird.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 wird hier als Aktivität interpretiert, die eine dauerhafte Beziehung (Eigentum) ausdrückt.\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027maria\u0027 steht im Besitz von \u0027pool\u0027 (ausgedrückt durch \u0027own\u0027). \u0027swim\u0027 findet innerhalb von \u0027pool\u0027 statt (Ortspräposition \u0027in\u0027 als Beziehung zwischen Aktivität und Ort). Die Aktivität \u0027swim\u0027 bezieht sich auf das Objekt \u0027pool\u0027 als Ort.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für \u0027perform\u0027 (Ausführen einer Aktivität durch eine Person) ist 8. Die ID für \u0027target\u0027 (Beziehung einer Aktivität zu einem Objekt) ist 9 – jedoch wird \u0027in\u0027 benötigt. Die ID für \u0027in\u0027 (unter, above, attached etc.) ist nicht direkt gegeben, aber \u0027under\u0027 hat ID 6, \u0027above\u0027 hat ID 7. Es fehlt jedoch explizit die Kodierung für \u0027in\u0027 im Bereich der spatial relations. Allerdings ist \u0027attached\u0027 (ID 5) mit identityMapping\u003dfalse gegeben, aber \u0027in\u0027 ist nicht in der Liste. Da \u0027in\u0027 nicht direkt als Typkodierung vorhanden ist, und die Liste der Typkodierungen keine räumliche Beziehung \u0027in\u0027 enthält (es gibt \u0027under\u0027 und \u0027above\u0027, aber nicht \u0027in\u0027), kann die Relation \u0027in\u0027 nicht korrekt kodiert werden. Daher tritt ein Fehler auf.\nFehler: Die Relation \u0027in\u0027 (räumliche Einbettung) ist in den vorgegebenen Typkodierungen nicht vorhanden. Mögliche IDs für räumliche Beziehungen sind 5 (under), 6 (above), aber keine für \u0027in\u0027. Somit ist kein gültiger Eintrag für die Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 als \u0027in\u0027 verfügbar.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 6],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation. \u0027mein Pool\u0027 wurde aufgelöst als \u0027own pool\u0027, wobei die Besitzbeziehung durch den Begriff \u0027own\u0027 im Vokabular erfasst wird.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 wird hier als Aktivität interpretiert, die eine dauerhafte Beziehung (Eigentum) ausdrückt.\\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. \u0027maria\u0027 steht im Besitz von \u0027pool\u0027 (ausgedrückt durch \u0027own\u0027). \u0027swim\u0027 findet innerhalb von \u0027pool\u0027 statt (Ortspräposition \u0027in\u0027 als Beziehung zwischen Aktivität und Ort). Die Aktivität \u0027swim\u0027 bezieht sich auf das Objekt \u0027pool\u0027 als Ort.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für \u0027perform\u0027 (Ausführen einer Aktivität durch eine Person) ist 8. Die ID für \u0027target\u0027 (Beziehung einer Aktivität zu einem Objekt) ist 9 – jedoch wird \u0027in\u0027 benötigt. Die ID für \u0027in\u0027 (unter, above, attached etc.) ist nicht direkt gegeben, aber \u0027under\u0027 hat ID 6, \u0027above\u0027 hat ID 7. Es fehlt jedoch explizit die Kodierung für \u0027in\u0027 im Bereich der spatial relations. Allerdings ist \u0027attached\u0027 (ID 5) mit identityMapping\u003dfalse gegeben, aber \u0027in\u0027 ist nicht in der Liste. Da \u0027in\u0027 nicht direkt als Typkodierung vorhanden ist, und die Liste der Typkodierungen keine räumliche Beziehung \u0027in\u0027 enthält (es gibt \u0027under\u0027 und \u0027above\u0027, aber nicht \u0027in\u0027), kann die Relation \u0027in\u0027 nicht korrekt kodiert werden. Daher tritt ein Fehler auf.\\nFehler: Die Relation \u0027in\u0027 (räumliche Einbettung) ist in den vorgegebenen Typkodierungen nicht vorhanden. Mögliche IDs für räumliche Beziehungen sind 5 (under), 6 (above), aber keine für \u0027in\u0027. Somit ist kein gültiger Eintrag für die Relation zwischen \u0027swim\u0027 und \u0027pool\u0027 als \u0027in\u0027 verfügbar.\"\n}"
+}

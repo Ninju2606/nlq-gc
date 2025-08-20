@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.88,
+  "description": "1. Der relative Verweis \"meine Tochter\" wird aufgelöst in die Identifikation \"maria\" (Nutzeridentität) und das Stichwort \"person\", wobei \"person\" die Tochter von \"maria\" darstellt. Der Verweis \"ich\" wird zu \"maria\".\n2. \"maria\" und \"person\" sind Objekte, \"drive\" ist eine Aktivität. \"boat\" und \"lake\" sind Objekte. \n3. \"maria\" und \"person\" führen gemeinsam die Aktivität \"drive\" aus. Die Aktivität \"drive\" bezieht sich auf das Objekt \"boat\". Das Objekt \"boat\" befindet sich auf dem \"lake\". \"person\" ist die Tochter von \"maria\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für auf (above) ist 7, aber im Sachkontext wird \"auf\" hier räumlich gemeint (boat ist auf lake), jedoch ist die Relation \"auf\" durch \"above\" abgedeckt – daher ID 7. Allerdings ist im Vokabular der Eintrag \"boat\" auf \"lake\" mit der Relation \"above\" korrekt abbildbar. Ebenso ist \"in\" durch ID 6 (under -\u003e aber in Mapping offenbar auch für enthalten sein) nicht präzise, aber laut vorliegenden Typkodierungen ist \"above\" (7) und \"under\" (6) vorhanden. Hier ist das Boot *auf* dem See – also ID 7 (above). Zudem ist die Relation \"perform\" (8) vorhanden. Die Relation \"daughter\" (10) existiert ebenfalls. Alle benötigten Relationen sind in den Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"meine Tochter\\\" wird aufgelöst in die Identifikation \\\"maria\\\" (Nutzeridentität) und das Stichwort \\\"person\\\", wobei \\\"person\\\" die Tochter von \\\"maria\\\" darstellt. Der Verweis \\\"ich\\\" wird zu \\\"maria\\\".\\n2. \\\"maria\\\" und \\\"person\\\" sind Objekte, \\\"drive\\\" ist eine Aktivität. \\\"boat\\\" und \\\"lake\\\" sind Objekte. \\n3. \\\"maria\\\" und \\\"person\\\" führen gemeinsam die Aktivität \\\"drive\\\" aus. Die Aktivität \\\"drive\\\" bezieht sich auf das Objekt \\\"boat\\\". Das Objekt \\\"boat\\\" befindet sich auf dem \\\"lake\\\". \\\"person\\\" ist die Tochter von \\\"maria\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für auf (above) ist 7, aber im Sachkontext wird \\\"auf\\\" hier räumlich gemeint (boat ist auf lake), jedoch ist die Relation \\\"auf\\\" durch \\\"above\\\" abgedeckt – daher ID 7. Allerdings ist im Vokabular der Eintrag \\\"boat\\\" auf \\\"lake\\\" mit der Relation \\\"above\\\" korrekt abbildbar. Ebenso ist \\\"in\\\" durch ID 6 (under -\u003e aber in Mapping offenbar auch für enthalten sein) nicht präzise, aber laut vorliegenden Typkodierungen ist \\\"above\\\" (7) und \\\"under\\\" (6) vorhanden. Hier ist das Boot *auf* dem See – also ID 7 (above). Zudem ist die Relation \\\"perform\\\" (8) vorhanden. Die Relation \\\"daughter\\\" (10) existiert ebenfalls. Alle benötigten Relationen sind in den Typkodierungen enthalten.\"\n}"
+}

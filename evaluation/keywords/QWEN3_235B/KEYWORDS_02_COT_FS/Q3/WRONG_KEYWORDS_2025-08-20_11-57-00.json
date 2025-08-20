@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"schwimme\", \"Pool\", \"gehört\".\n        2. \"mir gehört\" ist ein relativer Verweis. Die Person \"Ich\" bezieht sich auf den Besitz des Pools. Die neuen Stichwörter sind \"Ich\", \"schwimmen\", \"Pool\", \"besitzen\".\n        3. Die englischen Stichwörter sind \"I\", \"swim\", \"pool\", \"own\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"swim\", \"pool\", \"own\". Dabei wird die Beziehung \"own\" zwischen \"Maria\" und \"pool\" im GraphCode erfasst, obwohl das Verb „own“ nicht im Vokabular erscheint, da Einträge der Bewertungsmatrix nicht zum Vokabular gehören. Daher wird „own“ in der Matrix verarbeitet, aber im Vokabular nur die Begriffe \"Maria\", \"swim\", \"pool\" aufgenommen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\"\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\", \\\"gehört\\\".\\n        2. \\\"mir gehört\\\" ist ein relativer Verweis. Die Person \\\"Ich\\\" bezieht sich auf den Besitz des Pools. Die neuen Stichwörter sind \\\"Ich\\\", \\\"schwimmen\\\", \\\"Pool\\\", \\\"besitzen\\\".\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\", \\\"own\\\". Dabei wird die Beziehung \\\"own\\\" zwischen \\\"Maria\\\" und \\\"pool\\\" im GraphCode erfasst, obwohl das Verb „own“ nicht im Vokabular erscheint, da Einträge der Bewertungsmatrix nicht zum Vokabular gehören. Daher wird „own“ in der Matrix verarbeitet, aber im Vokabular nur die Begriffe \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\" aufgenommen.\"\n}"
+}

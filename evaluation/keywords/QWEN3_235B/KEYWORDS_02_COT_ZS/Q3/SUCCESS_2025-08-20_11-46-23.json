@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in einem Pool, der mir gehört. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Relative Verweise wie \u0027mir\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027. Stammverben wurden verallgemeinert (z. B. \u0027schwimme\u0027 → \u0027swim\u0027). Das Verb \u0027gehört\u0027 wurde als \u0027own\u0027 erfasst. Die Person \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da ein Selbstbezug (\u0027mir\u0027) vorliegt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"own\"\n  ],\n  \"description\": \"Ich schwimme in einem Pool, der mir gehört. Potenzielle Stichwörter: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027. Relative Verweise wie \u0027mir\u0027 wurden aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027. Stammverben wurden verallgemeinert (z. B. \u0027schwimme\u0027 → \u0027swim\u0027). Das Verb \u0027gehört\u0027 wurde als \u0027own\u0027 erfasst. Die Person \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da ein Selbstbezug (\u0027mir\u0027) vorliegt.\"\n}"
+}

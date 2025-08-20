@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält einen semantischen Widerspruch: \u0027Fragen\u0027 können nicht \u0027gemalt\u0027 werden, da \u0027malen\u0027 sich auf physische Objekte (z.B. Häuser) bezieht. Der Satz ist grammatikalisch inkorrekt oder beruht auf einem Bedeutungswirrwarr. Für einen validen GraphCode müssen klare Objekte, Attribute oder Aktivitäten mit logischen Beziehungen vorliegen.",
+  "error": "Grammatikalische Unklarheit",
+  "responsePlain": "{\n  \"error\": \"Grammatikalische Unklarheit\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält einen semantischen Widerspruch: \u0027Fragen\u0027 können nicht \u0027gemalt\u0027 werden, da \u0027malen\u0027 sich auf physische Objekte (z.B. Häuser) bezieht. Der Satz ist grammatikalisch inkorrekt oder beruht auf einem Bedeutungswirrwarr. Für einen validen GraphCode müssen klare Objekte, Attribute oder Aktivitäten mit logischen Beziehungen vorliegen.\"\n}"
+}

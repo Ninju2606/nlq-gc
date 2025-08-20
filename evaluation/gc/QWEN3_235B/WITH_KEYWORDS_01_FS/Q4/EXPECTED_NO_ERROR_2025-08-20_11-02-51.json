@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die räumliche Beziehung \"in\" zwischen der Aktivität \"swim\" und dem Objekt \"pool\" kann nicht abgebildet werden, da in den vorgegebenen Typkodierungen kein entsprechender Eintrag (z.B. für \"containment\" oder \"in\") vorhanden ist. Erlaubte Relationen außerhalb der Diagonale sind lediglich attached, under, above, perform, target, daughter und characteristic.",
+  "error": "Die Relation \"in\" ist nicht bekannt.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \\\"in\\\" ist nicht bekannt.\",\n  \"description\": \"Die räumliche Beziehung \\\"in\\\" zwischen der Aktivität \\\"swim\\\" und dem Objekt \\\"pool\\\" kann nicht abgebildet werden, da in den vorgegebenen Typkodierungen kein entsprechender Eintrag (z.B. für \\\"containment\\\" oder \\\"in\\\") vorhanden ist. Erlaubte Relationen außerhalb der Diagonale sind lediglich attached, under, above, perform, target, daughter und characteristic.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. 2. Der relative Verweis \u0027Ich\u0027 wird in die Nutzeridentifikation \u0027Maria\u0027 aufgelöst. 3. Die Stichwörter werden ins Englische übersetzt zu \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. 4. \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 und \u0027basketball\u0027 sind Objekte (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4). 6. \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, Typ 8), die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (Relation \u0027target\u0027, Typ 9). 7. Alle Relationen haben gültige Typkodierungen (8 und 9).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027. 2. Der relative Verweis \u0027Ich\u0027 wird in die Nutzeridentifikation \u0027Maria\u0027 aufgelöst. 3. Die Stichwörter werden ins Englische übersetzt zu \u0027Maria\u0027, \u0027play\u0027, \u0027basketball\u0027. 4. \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. \u0027Maria\u0027 und \u0027basketball\u0027 sind Objekte (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4). 6. \u0027Maria\u0027 führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, Typ 8), die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel (Relation \u0027target\u0027, Typ 9). 7. Alle Relationen haben gültige Typkodierungen (8 und 9).\"\n}"
+}

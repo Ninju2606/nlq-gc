@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist die Person, die die Aktivität des Fahrens ausführt. Die Tochter ist über die Beziehung \u0027daughter\u0027 (ID 10) mit Maria verbunden. Die Aktivität \u0027drive\u0027 wird auf dem Objekt \u0027boat\u0027 ausgeführt, welches sich auf dem See (\u0027lake\u0027) befindet. Der See fungiert als Kontext für das Boot mittels der Beziehung \u0027in\u0027 (ID 6), und das Boot ist \u0027attached\u0027 (ID 5) zur Aktivität des Fahrens. Alle Typkodierungen entsprechen den vorgegebenen Regeln, mit identityMapping\u003dtrue auf der Diagonalen und Beziehungen mit identityMapping\u003dfalse außerhalb.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist die Person, die die Aktivität des Fahrens ausführt. Die Tochter ist über die Beziehung \u0027daughter\u0027 (ID 10) mit Maria verbunden. Die Aktivität \u0027drive\u0027 wird auf dem Objekt \u0027boat\u0027 ausgeführt, welches sich auf dem See (\u0027lake\u0027) befindet. Der See fungiert als Kontext für das Boot mittels der Beziehung \u0027in\u0027 (ID 6), und das Boot ist \u0027attached\u0027 (ID 5) zur Aktivität des Fahrens. Alle Typkodierungen entsprechen den vorgegebenen Regeln, mit identityMapping\u003dtrue auf der Diagonalen und Beziehungen mit identityMapping\u003dfalse außerhalb.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer bezieht sich mit \"ich\" auf sich selbst, daher wird die Identifikation \"Maria\" im Vokabular verwendet.\n\n2. Attributeigenschaften der Stichwörter:\n- \"maria\": Person, die handelt → Typ \u0027object\u0027 (ID 1)\n- \"wear\": Handlung, die ausgeführt wird → Typ \u0027activity\u0027 (ID 4)\n- \"hat\": Gegenstand, der getragen wird → Typ \u0027object\u0027 (ID 1)\n- \"yellow\": Eigenschaft/Farbe des Hutes → Typ \u0027characteristic\u0027 (ID 14)\n\n3. Relationen zwischen den Stichwörtern:\n- \"maria\" führt die Aktivität \"wear\" aus → Relation: \u0027perform\u0027 (ID 8)\n- \"wear\" hat als Zielobjekt \"hat\" → Relation: \u0027target\u0027 (ID 9)\n- \"hat\" besitzt die Eigenschaft \"yellow\" → Relation: \u0027characteristic\u0027 (ID 14)\n\n4. Überprüfung der Typkodierungen:\n- \u0027object\u0027 (ID 1): vorhanden, identityMapping\u003dtrue → gültig für Diagonale\n- \u0027activity\u0027 (ID 4): vorhanden, identityMapping\u003dtrue → gültig für Diagonale\n- \u0027characteristic\u0027 (ID 14): vorhanden, identityMapping\u003dfalse → gültig für Relation\n- \u0027perform\u0027 (ID 8): vorhanden, identityMapping\u003dfalse → gültig für Relation\n- \u0027target\u0027 (ID 9): vorhanden, identityMapping\u003dfalse → gültig für Relation\nAlle benötigten Typkodierungen sind verfügbar.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular in gegebener Reihenfolge übernommen, Bewertungsmatrix mit korrekten Typ-IDs gefüllt, Diagonale enthält nur identityMapping\u003dtrue-Typen, außerhalb der Diagonale nur 0 oder identityMapping\u003dfalse-Typen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 14]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich mit \\\"ich\\\" auf sich selbst, daher wird die Identifikation \\\"Maria\\\" im Vokabular verwendet.\\n\\n2. Attributeigenschaften der Stichwörter:\\n- \\\"maria\\\": Person, die handelt → Typ \u0027object\u0027 (ID 1)\\n- \\\"wear\\\": Handlung, die ausgeführt wird → Typ \u0027activity\u0027 (ID 4)\\n- \\\"hat\\\": Gegenstand, der getragen wird → Typ \u0027object\u0027 (ID 1)\\n- \\\"yellow\\\": Eigenschaft/Farbe des Hutes → Typ \u0027characteristic\u0027 (ID 14)\\n\\n3. Relationen zwischen den Stichwörtern:\\n- \\\"maria\\\" führt die Aktivität \\\"wear\\\" aus → Relation: \u0027perform\u0027 (ID 8)\\n- \\\"wear\\\" hat als Zielobjekt \\\"hat\\\" → Relation: \u0027target\u0027 (ID 9)\\n- \\\"hat\\\" besitzt die Eigenschaft \\\"yellow\\\" → Relation: \u0027characteristic\u0027 (ID 14)\\n\\n4. Überprüfung der Typkodierungen:\\n- \u0027object\u0027 (ID 1): vorhanden, identityMapping\u003dtrue → gültig für Diagonale\\n- \u0027activity\u0027 (ID 4): vorhanden, identityMapping\u003dtrue → gültig für Diagonale\\n- \u0027characteristic\u0027 (ID 14): vorhanden, identityMapping\u003dfalse → gültig für Relation\\n- \u0027perform\u0027 (ID 8): vorhanden, identityMapping\u003dfalse → gültig für Relation\\n- \u0027target\u0027 (ID 9): vorhanden, identityMapping\u003dfalse → gültig für Relation\\nAlle benötigten Typkodierungen sind verfügbar.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular in gegebener Reihenfolge übernommen, Bewertungsmatrix mit korrekten Typ-IDs gefüllt, Diagonale enthält nur identityMapping\u003dtrue-Typen, außerhalb der Diagonale nur 0 oder identityMapping\u003dfalse-Typen.\"\n}"
+}

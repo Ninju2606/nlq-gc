@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist eine Person und hat eine Tochter-Beziehung zur impliziten Tochter (über \u0027daughter\u0027-Typkodierung 10 verbunden). Die Aktivität \u0027drive\u0027 (Boot fahren) wird von Maria ausgeführt (Typ 8: perform) und bezieht sich auf das Boot (Typ 5: attached). Das Boot ist auf dem See (Typ 6: in), und der See definiert den Kontext.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren mit einem Boot auf einem See. Maria ist eine Person und hat eine Tochter-Beziehung zur impliziten Tochter (über \u0027daughter\u0027-Typkodierung 10 verbunden). Die Aktivität \u0027drive\u0027 (Boot fahren) wird von Maria ausgeführt (Typ 8: perform) und bezieht sich auf das Boot (Typ 5: attached). Das Boot ist auf dem See (Typ 6: in), und der See definiert den Kontext.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter im Kontext einer Metaverse-Szene ermittelt werden. Die Aussage \"Wir müssen bald einen Termin ausmachen\" beschreibt eine Absicht oder Planung, keine darstellbare Szene mit Objekten, Attributen oder Aktivitäten.",
+  "error": "Ich kann die Anfrage leider nicht als Szenenbeschreibung im Metaverse interpretieren. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, die in einer Aufnahme identifizierbar wären.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht als Szenenbeschreibung im Metaverse interpretieren. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, die in einer Aufnahme identifizierbar wären.\",\n  \"description\": \"Es können keine sinnvollen Stichwörter im Kontext einer Metaverse-Szene ermittelt werden. Die Aussage \\\"Wir müssen bald einen Termin ausmachen\\\" beschreibt eine Absicht oder Planung, keine darstellbare Szene mit Objekten, Attributen oder Aktivitäten.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch wirr und es fehlt eine klare Relation zwischen den Elementen, um einen validen GraphCode zu generieren.",
+  "error": "Die Anfrage \"Häuser um Fragen zu malen\" ist grammatikalisch unschlüssig und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse aus den Begriffen ableiten. Die Verbindung zwischen \"Häuser\", \"Fragen\" und der Aktivität des \"Malens\" ist nicht verständlich.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist grammatikalisch unschlüssig und semantisch unklar. Es lässt sich keine sinnvolle Szene im Metaverse aus den Begriffen ableiten. Die Verbindung zwischen \\\"Häuser\\\", \\\"Fragen\\\" und der Aktivität des \\\"Malens\\\" ist nicht verständlich.\",\n  \"description\": \"Die Anfrage ist grammatikalisch wirr und es fehlt eine klare Relation zwischen den Elementen, um einen validen GraphCode zu generieren.\"\n}"
+}

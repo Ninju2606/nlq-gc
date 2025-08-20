@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      8,
+      0,
+      0
+    ],
+    [
+      14,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      9,
+      7,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. \u0027Meine Tochter\u0027 wird als Bezug zu Maria erkannt, jedoch ist \u0027Tochter\u0027 nicht im Vokabular enthalten und kann daher nicht direkt abgebildet werden. Da im Vokabular kein Eintrag für \u0027daughter\u0027 oder \u0027tochter\u0027 vorhanden ist, kann die relationale Verbindung zwischen Maria und der Tochter nicht dargestellt werden. Somit wird nur Maria als Person im Szenario berücksichtigt.\n\n2. Die Attributeigenschaften der Stichwörter: \n- \u0027maria\u0027: handelt von einer konkreten Person, daher Typ \u0027object\u0027 (ID 1)\n- \u0027person\u0027: ist eine allgemeine Kategorie, aber im Kontext als Typisierung einer Entität, daher ebenfalls \u0027object\u0027 (ID 1)\n- \u0027drive\u0027: beschreibt eine Aktion, daher Typ \u0027activity\u0027 (ID 4)\n- \u0027boat\u0027: physikalisches Objekt, daher \u0027object\u0027 (ID 1)\n- \u0027lake\u0027: räumlicher Kontext, daher \u0027context\u0027 (ID 2)\n\n3. Beziehungen zwischen den Stichwörtern:\n- Maria ist eine Person → characteristic (ID 14)\n- Person führt die Aktivität \u0027drive\u0027 aus → perform (ID 8)\n- Maria führt die Aktivität \u0027drive\u0027 aus → perform (ID 8)\n- \u0027drive\u0027 hat als Zielobjekt \u0027boat\u0027 → target (ID 9)\n- \u0027drive\u0027 findet auf \u0027lake\u0027 statt → target (ID 9), jedoch kann der räumliche Zusammenhang \u0027auf\u0027 am ehesten über \u0027above\u0027 (ID 7) oder \u0027under\u0027 (ID 6) abgebildet werden; da ein Boot *auf* dem See ist, wird \u0027above\u0027 (ID 7) verwendet\n- \u0027boat\u0027 ist *auf* dem \u0027lake\u0027 → above (ID 7)\n- Alternativ könnte der See als Kontext der Aktion fungieren → target (ID 9) ist hier als Verbindung zwischen \u0027drive\u0027 und \u0027lake\u0027 genutzt\n\n4. Überprüfung der Kodierungen:\n- object (ID 1): vorhanden → ja (ID 1)\n- context (ID 2): vorhanden → ja (ID 2), aber nicht auf Diagonale genutzt, da \u0027lake\u0027 auch als object klassifiziert werden muss (Korrektur notwendig: laut Regeln muss Diagonale mit Typen mit identityMapping\u003dtrue gefüllt sein; \u0027context\u0027 hat identityMapping\u003dtrue, also ist ID 2 erlaubt. Allerdings wird \u0027lake\u0027 als Objekt im Raum besser als \u0027object\u0027 klassifiziert)\n\nKorrekturen:\n- \u0027lake\u0027 ist ein physisches Objekt, kein abstrakter Kontext → daher Typ \u0027object\u0027 (ID 1), nicht \u0027context\u0027 (ID 2)\n- \u0027person\u0027 ist eine Kategorie, aber als Begriff im Vokabular → \u0027object\u0027 (ID 1)\n- Somit: Diagonale muss alle \u0027object\u0027 (ID 1) oder \u0027activity\u0027 (ID 4) enthalten (beides identityMapping\u003dtrue)\n- \u0027drive\u0027 ist Aktivität → ID 4\n- \u0027boat\u0027 ist Objekt → ID 1\n- \u0027lake\u0027 ist Objekt → ID 1\n- \u0027person\u0027 ist Objekt → ID 1\n- \u0027maria\u0027 ist konkrete Instanz → ID 1\n\nAnpassung: alle Diagonaleinträge sind gültig (1 oder 4)\n\nBeziehungen außerhalb der Diagonale:\n- Maria → person: characteristic (14) → erlaubt (identityMapping\u003dfalse)\n- person → drive: perform (8) → erlaubt\n- maria → drive: perform (8) → erlaubt\n- drive → boat: target (9) → erlaubt\n- drive → lake: target (9) → erlaubt (als räumliche Zielbeziehung interpretiert)\n- boat → lake: above (7) → erlaubt\n- lake → boat: under (6) → symmetrisch, jedoch nicht notwendig; hier wird nur boat above lake gesetzt\n\n5. Zusammenstellung des GraphCodes wie oben im JSON dargestellt. Alle Relationen sind mit vorhandenen Typkodierungen abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 14, 8, 0, 0],\n    [14, 1, 8, 0, 0],\n    [8, 8, 4, 0, 9],\n    [0, 0, 9, 1, 6],\n    [0, 0, 9, 7, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. \u0027Meine Tochter\u0027 wird als Bezug zu Maria erkannt, jedoch ist \u0027Tochter\u0027 nicht im Vokabular enthalten und kann daher nicht direkt abgebildet werden. Da im Vokabular kein Eintrag für \u0027daughter\u0027 oder \u0027tochter\u0027 vorhanden ist, kann die relationale Verbindung zwischen Maria und der Tochter nicht dargestellt werden. Somit wird nur Maria als Person im Szenario berücksichtigt.\\n\\n2. Die Attributeigenschaften der Stichwörter: \\n- \u0027maria\u0027: handelt von einer konkreten Person, daher Typ \u0027object\u0027 (ID 1)\\n- \u0027person\u0027: ist eine allgemeine Kategorie, aber im Kontext als Typisierung einer Entität, daher ebenfalls \u0027object\u0027 (ID 1)\\n- \u0027drive\u0027: beschreibt eine Aktion, daher Typ \u0027activity\u0027 (ID 4)\\n- \u0027boat\u0027: physikalisches Objekt, daher \u0027object\u0027 (ID 1)\\n- \u0027lake\u0027: räumlicher Kontext, daher \u0027context\u0027 (ID 2)\\n\\n3. Beziehungen zwischen den Stichwörtern:\\n- Maria ist eine Person → characteristic (ID 14)\\n- Person führt die Aktivität \u0027drive\u0027 aus → perform (ID 8)\\n- Maria führt die Aktivität \u0027drive\u0027 aus → perform (ID 8)\\n- \u0027drive\u0027 hat als Zielobjekt \u0027boat\u0027 → target (ID 9)\\n- \u0027drive\u0027 findet auf \u0027lake\u0027 statt → target (ID 9), jedoch kann der räumliche Zusammenhang \u0027auf\u0027 am ehesten über \u0027above\u0027 (ID 7) oder \u0027under\u0027 (ID 6) abgebildet werden; da ein Boot *auf* dem See ist, wird \u0027above\u0027 (ID 7) verwendet\\n- \u0027boat\u0027 ist *auf* dem \u0027lake\u0027 → above (ID 7)\\n- Alternativ könnte der See als Kontext der Aktion fungieren → target (ID 9) ist hier als Verbindung zwischen \u0027drive\u0027 und \u0027lake\u0027 genutzt\\n\\n4. Überprüfung der Kodierungen:\\n- object (ID 1): vorhanden → ja (ID 1)\\n- context (ID 2): vorhanden → ja (ID 2), aber nicht auf Diagonale genutzt, da \u0027lake\u0027 auch als object klassifiziert werden muss (Korrektur notwendig: laut Regeln muss Diagonale mit Typen mit identityMapping\u003dtrue gefüllt sein; \u0027context\u0027 hat identityMapping\u003dtrue, also ist ID 2 erlaubt. Allerdings wird \u0027lake\u0027 als Objekt im Raum besser als \u0027object\u0027 klassifiziert)\\n\\nKorrekturen:\\n- \u0027lake\u0027 ist ein physisches Objekt, kein abstrakter Kontext → daher Typ \u0027object\u0027 (ID 1), nicht \u0027context\u0027 (ID 2)\\n- \u0027person\u0027 ist eine Kategorie, aber als Begriff im Vokabular → \u0027object\u0027 (ID 1)\\n- Somit: Diagonale muss alle \u0027object\u0027 (ID 1) oder \u0027activity\u0027 (ID 4) enthalten (beides identityMapping\u003dtrue)\\n- \u0027drive\u0027 ist Aktivität → ID 4\\n- \u0027boat\u0027 ist Objekt → ID 1\\n- \u0027lake\u0027 ist Objekt → ID 1\\n- \u0027person\u0027 ist Objekt → ID 1\\n- \u0027maria\u0027 ist konkrete Instanz → ID 1\\n\\nAnpassung: alle Diagonaleinträge sind gültig (1 oder 4)\\n\\nBeziehungen außerhalb der Diagonale:\\n- Maria → person: characteristic (14) → erlaubt (identityMapping\u003dfalse)\\n- person → drive: perform (8) → erlaubt\\n- maria → drive: perform (8) → erlaubt\\n- drive → boat: target (9) → erlaubt\\n- drive → lake: target (9) → erlaubt (als räumliche Zielbeziehung interpretiert)\\n- boat → lake: above (7) → erlaubt\\n- lake → boat: under (6) → symmetrisch, jedoch nicht notwendig; hier wird nur boat above lake gesetzt\\n\\n5. Zusammenstellung des GraphCodes wie oben im JSON dargestellt. Alle Relationen sind mit vorhandenen Typkodierungen abgedeckt.\"\n}"
+}

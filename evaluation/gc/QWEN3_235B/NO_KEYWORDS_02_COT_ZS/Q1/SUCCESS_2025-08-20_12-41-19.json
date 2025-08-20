@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n2. Der relative Verweis \u0027ich\u0027 wird aufgelöst in die Identifikation des Nutzers: \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt \u0027basketball\u0027 (bereits englisch).\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da es sich um eine Selbstreferenz handelt.\n5. Attributeigenschaften: \n   - \u0027Maria\u0027 ist eine Person, also ein Objekt → Typ 1 (object)\n   - \u0027play\u0027 ist eine Aktivität → Typ 4 (activity)\n   - \u0027basketball\u0027 ist ein Objekt → Typ 1 (object)\n6. Relationen: \n   - Maria führt die Aktivität \u0027play\u0027 aus → Beziehung \u0027perform\u0027 (Typ 8): Maria → play\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Beziehung \u0027target\u0027 (Typ 9): play → basketball\n7. Überprüfung der Typkodierungen:\n   - \u0027perform\u0027 hat ID 8 (identityMapping \u003d false) → gültig außerhalb Diagonale\n   - \u0027target\u0027 hat ID 9 (identityMapping \u003d false) → gültig außerhalb Diagonale\n   - Typen auf der Diagonale: \n     - Maria: object (ID 1, identityMapping \u003d true) → gültig\n     - play: activity (ID 4, identityMapping \u003d true) → gültig\n     - basketball: object (ID 1, identityMapping \u003d true) → gültig\n   → Alle erforderlichen Kodierungen existieren.\n8. Der GraphCode wurde erfolgreich aus Vokabular und Matrix zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n2. Der relative Verweis \u0027ich\u0027 wird aufgelöst in die Identifikation des Nutzers: \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (Identifikation), \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt \u0027basketball\u0027 (bereits englisch).\\n4. \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt, da es sich um eine Selbstreferenz handelt.\\n5. Attributeigenschaften: \\n   - \u0027Maria\u0027 ist eine Person, also ein Objekt → Typ 1 (object)\\n   - \u0027play\u0027 ist eine Aktivität → Typ 4 (activity)\\n   - \u0027basketball\u0027 ist ein Objekt → Typ 1 (object)\\n6. Relationen: \\n   - Maria führt die Aktivität \u0027play\u0027 aus → Beziehung \u0027perform\u0027 (Typ 8): Maria → play\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Beziehung \u0027target\u0027 (Typ 9): play → basketball\\n7. Überprüfung der Typkodierungen:\\n   - \u0027perform\u0027 hat ID 8 (identityMapping \u003d false) → gültig außerhalb Diagonale\\n   - \u0027target\u0027 hat ID 9 (identityMapping \u003d false) → gültig außerhalb Diagonale\\n   - Typen auf der Diagonale: \\n     - Maria: object (ID 1, identityMapping \u003d true) → gültig\\n     - play: activity (ID 4, identityMapping \u003d true) → gültig\\n     - basketball: object (ID 1, identityMapping \u003d true) → gültig\\n   → Alle erforderlichen Kodierungen existieren.\\n8. Der GraphCode wurde erfolgreich aus Vokabular und Matrix zusammengesetzt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      14,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "GraphCode für die Anfrage \u0027Ich schwimme in meinem Pool\u0027. Maria (object) führt die Aktivität \u0027swim\u0027 aus (perform/8). Der Besitz des Pools wird über den Kontext \u0027own\u0027 (context/2) modelliert: Maria hat eine charakteristische Beziehung (characteristic/14) zu \u0027own\u0027, welches am Pool (attached/5) anliegt. Die Schwimm-Aktivität hat den Pool als Zielort (target/9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 14, 0],\n    [0, 4, 0, 9],\n    [0, 0, 2, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"GraphCode für die Anfrage \u0027Ich schwimme in meinem Pool\u0027. Maria (object) führt die Aktivität \u0027swim\u0027 aus (perform/8). Der Besitz des Pools wird über den Kontext \u0027own\u0027 (context/2) modelliert: Maria hat eine charakteristische Beziehung (characteristic/14) zu \u0027own\u0027, welches am Pool (attached/5) anliegt. Die Schwimm-Aktivität hat den Pool als Zielort (target/9).\"\n}"
+}

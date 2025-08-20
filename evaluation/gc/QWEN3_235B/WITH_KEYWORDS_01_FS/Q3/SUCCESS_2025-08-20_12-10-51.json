@@ -1,0 +1,38 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027swim\u0027 (Aktivität) wird von Maria ausgeführt und hat \u0027pool\u0027 als Ziel. Die Beziehung \u0027own\u0027 (Eigentümerschaft) wird ebenfalls von Maria ausgeführt und bezieht sich auf den Pool.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt in einem Pool, den sie besitzt. Die Beziehung \u0027swim\u0027 (Aktivität) wird von Maria ausgeführt und hat \u0027pool\u0027 als Ziel. Die Beziehung \u0027own\u0027 (Eigentümerschaft) wird ebenfalls von Maria ausgeführt und bezieht sich auf den Pool.\"\n}"
+}

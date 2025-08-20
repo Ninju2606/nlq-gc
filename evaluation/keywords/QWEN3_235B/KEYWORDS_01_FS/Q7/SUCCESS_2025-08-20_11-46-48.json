@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unvollständig, da die \u0027um...zu\u0027-Konstruktion ein Subjekt im Hauptsatz erfordert. Es fehlt eine klare Handlungsabsicht oder Person, die die Aktivität ausführt. Bitte formuliere die Anfrage mit vollständigem Kontext.",
+  "error": "Grammatikalische Unklarheit",
+  "responsePlain": "{\n  \"error\": \"Grammatikalische Unklarheit\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch unvollständig, da die \u0027um...zu\u0027-Konstruktion ein Subjekt im Hauptsatz erfordert. Es fehlt eine klare Handlungsabsicht oder Person, die die Aktivität ausführt. Bitte formuliere die Anfrage mit vollständigem Kontext.\"\n}"
+}

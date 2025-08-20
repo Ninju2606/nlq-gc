@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"Ich\" wurde aufgelöst zu \"maria\" gemäß der Identifikation des Nutzers. \"mir gehört\" wurde entsprechend als Beziehung zwischen \"maria\" und \"pool\" interpretiert, ausgedrückt durch die Aktivität \"own\".\n2. \"maria\" und \"pool\" sind Objekte der Anfrage (Typ: object). \"swim\" und \"own\" sind Aktivitäten (Typ: activity).\n3. \"maria\" führt die Aktivität \"swim\" aus, die sich auf \"pool\" bezieht („schwimmen in einem Pool“). Gleichzeitig führt \"maria\" die Aktivität \"own\" aus, die sich ebenfalls auf \"pool\" bezieht („der mir gehört“). Somit ist \"pool\" das Ziel (target) beider Aktivitäten. Die Beziehung \"in\" wird durch die Kombination der Aktivität \"swim\" (Ausführen durch maria) und ihrer Beziehung zu \"pool\" (target) dargestellt.\n4. Die ID für „object“ ist 1, die ID für „activity“ ist 4, die ID für „perform“ ist 8, die ID für „target“ ist 9, die ID für „own“ als Beziehung „belongs to“ kann nicht direkt abgebildet werden – jedoch ist die Bedeutung über die Aktivität „own“ als activity selbst und die Beziehungen „perform“ und „target“ erfasst. Da „own“ ein Verb/Aktivität ist, wird es im Vokabular als solches behandelt und benötigt keinen separaten Relationstyp außerhalb der bestehenden. Die relationale Struktur wird durch „perform“ (8) und „target“ (9) abgebildet. Alle benötigten Typkodierungen sind vorhanden: object (1), activity (4), perform (8), target (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"Ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Identifikation des Nutzers. \\\"mir gehört\\\" wurde entsprechend als Beziehung zwischen \\\"maria\\\" und \\\"pool\\\" interpretiert, ausgedrückt durch die Aktivität \\\"own\\\".\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage (Typ: object). \\\"swim\\\" und \\\"own\\\" sind Aktivitäten (Typ: activity).\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus, die sich auf \\\"pool\\\" bezieht („schwimmen in einem Pool“). Gleichzeitig führt \\\"maria\\\" die Aktivität \\\"own\\\" aus, die sich ebenfalls auf \\\"pool\\\" bezieht („der mir gehört“). Somit ist \\\"pool\\\" das Ziel (target) beider Aktivitäten. Die Beziehung \\\"in\\\" wird durch die Kombination der Aktivität \\\"swim\\\" (Ausführen durch maria) und ihrer Beziehung zu \\\"pool\\\" (target) dargestellt.\\n4. Die ID für „object“ ist 1, die ID für „activity“ ist 4, die ID für „perform“ ist 8, die ID für „target“ ist 9, die ID für „own“ als Beziehung „belongs to“ kann nicht direkt abgebildet werden – jedoch ist die Bedeutung über die Aktivität „own“ als activity selbst und die Beziehungen „perform“ und „target“ erfasst. Da „own“ ein Verb/Aktivität ist, wird es im Vokabular als solches behandelt und benötigt keinen separaten Relationstyp außerhalb der bestehenden. Die relationale Struktur wird durch „perform“ (8) und „target“ (9) abgebildet. Alle benötigten Typkodierungen sind vorhanden: object (1), activity (4), perform (8), target (9).\"\n}"
+}

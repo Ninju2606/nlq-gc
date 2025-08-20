@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde zur Identifikation \u0027maria\u0027 aufgelöst. \u0027mir gehört\u0027 wurde als Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 interpretiert, wobei \u0027own\u0027 als Aktivität verwendet wird.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity).\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, die sich auf \u0027pool\u0027 bezieht. Außerdem führt \u0027maria\u0027 die Aktivität \u0027own\u0027 aus, die ebenfalls auf \u0027pool\u0027 bezogen ist. \u0027pool\u0027 ist Ziel (target) der Aktivität \u0027swim\u0027.\n4. Die ID für \u0027object\u0027 ist 1. Die ID für \u0027activity\u0027 ist 4. Die ID für \u0027perform\u0027 ist 8. Die ID für \u0027target\u0027 ist 9. Die ID für \u0027under\u0027 ist 6, aber hier wird \u0027in\u0027 benötigt – jedoch ist \u0027in\u0027 nicht in den Typkodierungen enthalten. Allerdings entspricht die Beziehung \u0027in\u0027 hier einem logischen Zusammenhang zwischen einer Aktivität und einem Ort, also wird \u0027target\u0027 (ID 9) als Beziehung zwischen \u0027swim\u0027 und \u0027pool\u0027 verwendet. Die Beziehung \u0027own\u0027 wird als Aktivität von \u0027maria\u0027 auf \u0027pool\u0027 mit \u0027perform\u0027 (8) und \u0027target\u0027 (9) behandelt. Somit sind alle benötigten Typkodierungen vorhanden: object (1), activity (4), perform (8), target (9).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde zur Identifikation \u0027maria\u0027 aufgelöst. \u0027mir gehört\u0027 wurde als Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 interpretiert, wobei \u0027own\u0027 als Aktivität verwendet wird.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte (object). \u0027swim\u0027 und \u0027own\u0027 sind Aktivitäten (activity).\\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus, die sich auf \u0027pool\u0027 bezieht. Außerdem führt \u0027maria\u0027 die Aktivität \u0027own\u0027 aus, die ebenfalls auf \u0027pool\u0027 bezogen ist. \u0027pool\u0027 ist Ziel (target) der Aktivität \u0027swim\u0027.\\n4. Die ID für \u0027object\u0027 ist 1. Die ID für \u0027activity\u0027 ist 4. Die ID für \u0027perform\u0027 ist 8. Die ID für \u0027target\u0027 ist 9. Die ID für \u0027under\u0027 ist 6, aber hier wird \u0027in\u0027 benötigt – jedoch ist \u0027in\u0027 nicht in den Typkodierungen enthalten. Allerdings entspricht die Beziehung \u0027in\u0027 hier einem logischen Zusammenhang zwischen einer Aktivität und einem Ort, also wird \u0027target\u0027 (ID 9) als Beziehung zwischen \u0027swim\u0027 und \u0027pool\u0027 verwendet. Die Beziehung \u0027own\u0027 wird als Aktivität von \u0027maria\u0027 auf \u0027pool\u0027 mit \u0027perform\u0027 (8) und \u0027target\u0027 (9) behandelt. Somit sind alle benötigten Typkodierungen vorhanden: object (1), activity (4), perform (8), target (9).\"\n}"
+}

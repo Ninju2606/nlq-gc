@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage ist grammatikalisch wirr und unklar. Die Wortfolge \u0027Häuser um Fragen zu malen\u0027 ergibt keinen sinnvollen Zusammenhang und lässt keine eindeutige Interpretation der beabsichtigten Szene im Metaverse zu.",
+  "error": "Die Anfrage ist grammatikalisch wirr und unklar. Die Wortfolge \u0027Häuser um Fragen zu malen\u0027 ergibt keinen sinnvollen Zusammenhang und lässt keine eindeutige Interpretation der beabsichtigten Szene im Metaverse zu.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage ist grammatikalisch wirr und unklar. Die Wortfolge \u0027Häuser um Fragen zu malen\u0027 ergibt keinen sinnvollen Zusammenhang und lässt keine eindeutige Interpretation der beabsichtigten Szene im Metaverse zu.\",\n  \"description\": \"Die Anfrage ist grammatikalisch wirr und unklar. Die Wortfolge \u0027Häuser um Fragen zu malen\u0027 ergibt keinen sinnvollen Zusammenhang und lässt keine eindeutige Interpretation der beabsichtigten Szene im Metaverse zu.\"\n}"
+}

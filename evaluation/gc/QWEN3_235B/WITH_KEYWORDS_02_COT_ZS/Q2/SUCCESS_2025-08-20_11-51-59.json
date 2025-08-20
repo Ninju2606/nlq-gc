@@ -1,0 +1,20 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Der Nutzer hat angegeben, dass \u0027Tim rennt\u0027. Es gibt keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation \u0027Maria\u0027 ignoriert.\n\n2. Die Attributeigenschaften der Stichwörter: \n   - \u0027tim\u0027: Dies ist ein Subjekt, das eine Person bezeichnet. Es handelt sich um ein Objekt im Sinne des Metaverse-Kontexts, daher wird der Typ \u0027object\u0027 (ID 1) zugewiesen.\n   - \u0027run\u0027: Dies beschreibt eine Aktion, also eine Tätigkeit. Der passende Typ ist \u0027activity\u0027 (ID 4).\n\n3. Die Relation zwischen den Stichwörtern: \n   - \u0027tim\u0027 führt die Aktion \u0027run\u0027 aus. Die Relation wird als \u0027perform\u0027 ausgedrückt (ein Subjekt führt eine Aktivität aus). Entsprechend steht \u0027tim\u0027 in Beziehung zu \u0027run\u0027 über den Typ \u0027perform\u0027 (ID 8). In der Matrix wird dies durch den Eintrag (0,1) \u003d 8 dargestellt.\n\n4. Überprüfung der Typkodierungen:\n   - \u0027object\u0027 (ID 1) ist in der Liste enthalten und hat identityMapping\u003dtrue → gültig für Diagonale.\n   - \u0027activity\u0027 (ID 4) ist in der Liste enthalten und hat identityMapping\u003dtrue → gültig für Diagonale.\n   - \u0027perform\u0027 (ID 8) ist in der Liste enthalten und hat identityMapping\u003dfalse → gültig für Nicht-Diagonale.\n   Alle benötigten Typen sind vorhanden.\n\n5. Zusammenstellung des GraphCodes:\n   - Vokabular bleibt unverändert: [\u0027tim\u0027, \u0027run\u0027].\n   - Bewertungsmatrix 2x2:\n     - (0,0): \u0027tim\u0027 ist ein \u0027object\u0027 → 1\n     - (0,1): \u0027tim\u0027 führt \u0027run\u0027 aus → \u0027perform\u0027 → 8\n     - (1,0): Keine definierte Relation von \u0027run\u0027 zu \u0027tim\u0027 in Rückrichtung → 0\n     - (1,1): \u0027run\u0027 ist eine \u0027activity\u0027 → 4\n   Matrix: [[1,8],[0,4]].",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [\n    [1, 8],\n    [0, 4]\n  ],\n  \"description\": \"1. Der Nutzer hat angegeben, dass \u0027Tim rennt\u0027. Es gibt keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027, daher wird die Identifikation \u0027Maria\u0027 ignoriert.\\n\\n2. Die Attributeigenschaften der Stichwörter: \\n   - \u0027tim\u0027: Dies ist ein Subjekt, das eine Person bezeichnet. Es handelt sich um ein Objekt im Sinne des Metaverse-Kontexts, daher wird der Typ \u0027object\u0027 (ID 1) zugewiesen.\\n   - \u0027run\u0027: Dies beschreibt eine Aktion, also eine Tätigkeit. Der passende Typ ist \u0027activity\u0027 (ID 4).\\n\\n3. Die Relation zwischen den Stichwörtern: \\n   - \u0027tim\u0027 führt die Aktion \u0027run\u0027 aus. Die Relation wird als \u0027perform\u0027 ausgedrückt (ein Subjekt führt eine Aktivität aus). Entsprechend steht \u0027tim\u0027 in Beziehung zu \u0027run\u0027 über den Typ \u0027perform\u0027 (ID 8). In der Matrix wird dies durch den Eintrag (0,1) \u003d 8 dargestellt.\\n\\n4. Überprüfung der Typkodierungen:\\n   - \u0027object\u0027 (ID 1) ist in der Liste enthalten und hat identityMapping\u003dtrue → gültig für Diagonale.\\n   - \u0027activity\u0027 (ID 4) ist in der Liste enthalten und hat identityMapping\u003dtrue → gültig für Diagonale.\\n   - \u0027perform\u0027 (ID 8) ist in der Liste enthalten und hat identityMapping\u003dfalse → gültig für Nicht-Diagonale.\\n   Alle benötigten Typen sind vorhanden.\\n\\n5. Zusammenstellung des GraphCodes:\\n   - Vokabular bleibt unverändert: [\u0027tim\u0027, \u0027run\u0027].\\n   - Bewertungsmatrix 2x2:\\n     - (0,0): \u0027tim\u0027 ist ein \u0027object\u0027 → 1\\n     - (0,1): \u0027tim\u0027 führt \u0027run\u0027 aus → \u0027perform\u0027 → 8\\n     - (1,0): Keine definierte Relation von \u0027run\u0027 zu \u0027tim\u0027 in Rückrichtung → 0\\n     - (1,1): \u0027run\u0027 ist eine \u0027activity\u0027 → 4\\n   Matrix: [[1,8],[0,4]].\"\n}"
+}

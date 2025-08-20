@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027.\n\n2. Relative Verweise: \u0027mir\u0027 und \u0027ich\u0027 verweisen auf den Anfragenden (Maria). \u0027mir gehört\u0027 wird aufgelöst in die Beziehung \u0027gehört Maria\u0027.\n\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (identitätsersetzt), \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027belong\u0027.\n\n4. Die Selbstbezugswörter \u0027ich\u0027 und \u0027mir\u0027 wurden durch den Nutzernamen \u0027Maria\u0027 ersetzt. Damit lautet die semantische Repräsentation: Maria, swim, pool, belong.\n\n5. Attributdefinitionen: \n   - \u0027Maria\u0027 ist ein Objekt (Typ: object, ID 1, identityMapping\u003dtrue) \n   - \u0027swim\u0027 ist eine Aktivität (Typ: activity, ID 4, identityMapping\u003dtrue) \n   - \u0027pool\u0027 ist ein Objekt (Typ: object, ID 1, identityMapping\u003dtrue) \n   - \u0027belong\u0027 ist ein Attribut, das eine Eigentümerschaft beschreibt (Typ: characteristic, ID 14, identityMapping\u003dfalse)\n\n6. Relationen: \n   - Maria führt die Aktivität swim aus → Relation: (Maria, swim) mit Typ \u0027perform\u0027 (ID 8) \n   - swim findet im pool statt → Relation: (swim, pool) mit Typ \u0027in\u0027 → aber \u0027in\u0027 ist nicht direkt verfügbar. Stattdessen wird \u0027attached\u0027 (ID 5) als räumliche Verbindung genutzt.\n   - pool gehört Maria → Relation: (pool, Maria) mit Typ \u0027characteristic\u0027 (Eigenschaft), hier konkret \u0027belong\u0027. Da \u0027belong\u0027 nicht direkt im Typsystem existiert, wird es mittels \u0027characteristic\u0027 (ID 14) abgebildet.\n\n7. Überprüfung der Relationen auf Typkodierungen:\n   - (Maria, swim) mit Typ \u0027perform\u0027 → ID 8 (vorhanden, identityMapping\u003dfalse) → gültig\n   - (swim, pool) mit räumlicher Beziehung \u0027in\u0027 → kein direkter Typ für \u0027in\u0027, aber \u0027attached\u0027 (ID 5) ist allgemein für räumliche Anbindung definiert → wird verwendet\n   - (pool, Maria) mit \u0027gehört\u0027 → wird abgebildet auf \u0027characteristic\u0027 (ID 14), da es eine Eigenschaft des Objekts pool ist → gültig\n   - Zusätzlich: \u0027belong\u0027 als eigenes Stichwort → wird im Vokabular als Begriff geführt, aber nicht als eigenständige Aktivität; stattdessen wird es als Beziehung über \u0027characteristic\u0027 abgebildet.\n   → Alle benötigten Typkodierungen sind verfügbar.\n\n8. Der GraphCode wurde erfolgreich erstellt: Vokabular hat 4 Einträge, daher 4x4-Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue (1 für Objekte, 4 für Aktivität). Off-Diagonale verwendet nur Typen mit identityMapping\u003dfalse: 5 (attached), 8 (perform), 14 (characteristic).",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"swim\",\n    \"pool\",\n    \"belong\"\n  ],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 5, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 3]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 sind: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027Pool\u0027, \u0027gehört\u0027, \u0027mir\u0027.\\n\\n2. Relative Verweise: \u0027mir\u0027 und \u0027ich\u0027 verweisen auf den Anfragenden (Maria). \u0027mir gehört\u0027 wird aufgelöst in die Beziehung \u0027gehört Maria\u0027.\\n\\n3. Übersetzung ins Englische: \u0027ich\u0027 → \u0027Maria\u0027 (identitätsersetzt), \u0027schwimme\u0027 → \u0027swim\u0027, \u0027Pool\u0027 → \u0027pool\u0027, \u0027gehört\u0027 → \u0027belong\u0027.\\n\\n4. Die Selbstbezugswörter \u0027ich\u0027 und \u0027mir\u0027 wurden durch den Nutzernamen \u0027Maria\u0027 ersetzt. Damit lautet die semantische Repräsentation: Maria, swim, pool, belong.\\n\\n5. Attributdefinitionen: \\n   - \u0027Maria\u0027 ist ein Objekt (Typ: object, ID 1, identityMapping\u003dtrue) \\n   - \u0027swim\u0027 ist eine Aktivität (Typ: activity, ID 4, identityMapping\u003dtrue) \\n   - \u0027pool\u0027 ist ein Objekt (Typ: object, ID 1, identityMapping\u003dtrue) \\n   - \u0027belong\u0027 ist ein Attribut, das eine Eigentümerschaft beschreibt (Typ: characteristic, ID 14, identityMapping\u003dfalse)\\n\\n6. Relationen: \\n   - Maria führt die Aktivität swim aus → Relation: (Maria, swim) mit Typ \u0027perform\u0027 (ID 8) \\n   - swim findet im pool statt → Relation: (swim, pool) mit Typ \u0027in\u0027 → aber \u0027in\u0027 ist nicht direkt verfügbar. Stattdessen wird \u0027attached\u0027 (ID 5) als räumliche Verbindung genutzt.\\n   - pool gehört Maria → Relation: (pool, Maria) mit Typ \u0027characteristic\u0027 (Eigenschaft), hier konkret \u0027belong\u0027. Da \u0027belong\u0027 nicht direkt im Typsystem existiert, wird es mittels \u0027characteristic\u0027 (ID 14) abgebildet.\\n\\n7. Überprüfung der Relationen auf Typkodierungen:\\n   - (Maria, swim) mit Typ \u0027perform\u0027 → ID 8 (vorhanden, identityMapping\u003dfalse) → gültig\\n   - (swim, pool) mit räumlicher Beziehung \u0027in\u0027 → kein direkter Typ für \u0027in\u0027, aber \u0027attached\u0027 (ID 5) ist allgemein für räumliche Anbindung definiert → wird verwendet\\n   - (pool, Maria) mit \u0027gehört\u0027 → wird abgebildet auf \u0027characteristic\u0027 (ID 14), da es eine Eigenschaft des Objekts pool ist → gültig\\n   - Zusätzlich: \u0027belong\u0027 als eigenes Stichwort → wird im Vokabular als Begriff geführt, aber nicht als eigenständige Aktivität; stattdessen wird es als Beziehung über \u0027characteristic\u0027 abgebildet.\\n   → Alle benötigten Typkodierungen sind verfügbar.\\n\\n8. Der GraphCode wurde erfolgreich erstellt: Vokabular hat 4 Einträge, daher 4x4-Matrix. Diagonale enthält nur Typen mit identityMapping\u003dtrue (1 für Objekte, 4 für Aktivität). Off-Diagonale verwendet nur Typen mit identityMapping\u003dfalse: 5 (attached), 8 (perform), 14 (characteristic).\"\n}"
+}

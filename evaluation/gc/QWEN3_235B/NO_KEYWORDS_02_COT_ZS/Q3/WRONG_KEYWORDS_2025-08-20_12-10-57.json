@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      14,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027schwimme\u0027 (Aktivität), \u0027Pool\u0027 (Objekt), \u0027gehört\u0027 (Attributbezug). 2. Relativer Verweis \u0027mir\u0027 wurde auf \u0027Maria\u0027 aufgelöst. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. \u0027Ich\u0027 und \u0027mir\u0027 durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: Maria (Objekt, Typ 1), swim (Aktivität, Typ 4), pool (Objekt, Typ 1). 6. Relationen: Maria führt swim aus (perform), swim hat pool als Zielort (target), pool hat Maria als Eigentümer (characteristic). 7. Alle Relationen sind in den Typkodierungen abgebildet: perform (ID 8), target (ID 9), characteristic (ID 14).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [14, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027schwimme\u0027 (Aktivität), \u0027Pool\u0027 (Objekt), \u0027gehört\u0027 (Attributbezug). 2. Relativer Verweis \u0027mir\u0027 wurde auf \u0027Maria\u0027 aufgelöst. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. \u0027Ich\u0027 und \u0027mir\u0027 durch \u0027Maria\u0027 ersetzt. 5. Attribut-Eigenschaften: Maria (Objekt, Typ 1), swim (Aktivität, Typ 4), pool (Objekt, Typ 1). 6. Relationen: Maria führt swim aus (perform), swim hat pool als Zielort (target), pool hat Maria als Eigentümer (characteristic). 7. Alle Relationen sind in den Typkodierungen abgebildet: perform (ID 8), target (ID 9), characteristic (ID 14).\"\n}"
+}

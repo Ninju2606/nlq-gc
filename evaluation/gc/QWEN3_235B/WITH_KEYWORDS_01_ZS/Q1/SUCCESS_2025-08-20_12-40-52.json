@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Maria spielt Basketball. Die Beziehung \u0027play\u0027 (Spielen) wird durch die Typkodierung \u0027perform\u0027 (ID 8) dargestellt: Maria führt die Aktivität \u0027play\u0027 aus. Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 über die Relation \u0027target\u0027 (ID 9). \u0027Maria\u0027 und \u0027basketball\u0027 sind Objekte (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"Maria spielt Basketball. Die Beziehung \u0027play\u0027 (Spielen) wird durch die Typkodierung \u0027perform\u0027 (ID 8) dargestellt: Maria führt die Aktivität \u0027play\u0027 aus. Die Aktivität \u0027play\u0027 hat das Ziel \u0027basketball\u0027 über die Relation \u0027target\u0027 (ID 9). \u0027Maria\u0027 und \u0027basketball\u0027 sind Objekte (Typ 1), \u0027play\u0027 ist eine Aktivität (Typ 4).\"\n}"
+}

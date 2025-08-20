@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake",
+    "ride"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      1,
+      6,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine\", \"Tochter\", \"ich\", \"fahren\", \"Boot\", \"auf\", \"einem\", \"See\".\n2. \"Meine Tochter\" ist ein relativer Verweis. Die Person \"Tochter\" bezieht sich auf die Nutzerin Maria. Die neuen Stichwörter sind daher \"Maria\", \"Tochter\", \"fahren\", \"Boot\", \"See\".\n3. Die englischen Stichwörter sind \"Maria\", \"daughter\", \"ride\", \"boat\", \"lake\". Dabei wird \"fahren\" als Aktivität in der Grundform als \"ride\" übersetzt.\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"ride\", \"boat\", \"lake\". Da \"ich\" und \"mein\" auf Maria verweisen, wird „Maria“ explizit im Vokabular verwendet.\n5. \"Maria\", \"daughter\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"ride\" ist eine Aktivität. Die Präposition \"auf\" wird als räumliche Relation interpretiert, entspricht aber nicht direkt einem Vokabeleintrag, sondern einer Beziehung (attached oder above). Da Boot auf dem See ist, wird „attached“ (ID 5) verwendet. Die Aktivität „ride“ wird von Personen ausgeführt und bezieht sich auf das Transportmittel und den Ort.\n6. \"daughter\" ist die Tochter von \"Maria\". Sowohl \"Maria\" als auch \"daughter\" führen die Aktivität \"ride\" aus. Die Aktivität \"ride\" bezieht sich auf \"boat\" und „lake“. Das \"boat\" befindet sich auf dem \"lake\" (attached). \n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für attached ist 5. Die Relation \"attached\" (Boot auf See) hat die ID 5. Die Relation \"perform\" (Person fährt) hat die ID 8. Die Relation \"target\" (die Aktivität bezieht sich auf ein Objekt) hat die ID 9. Die Relation \"daughter\" hat die ID 10. Alle benötigten Typkodierungen sind vorhanden. Daher kann der GraphCode erzeugt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\", \"ride\"],\n  \"matrix\": [\n    [1, 10, 0, 0, 8],\n    [0, 1, 0, 0, 8],\n    [0, 0, 1, 6, 4],\n    [0, 0, 0, 1, 4],\n    [0, 0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine\\\", \\\"Tochter\\\", \\\"ich\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"auf\\\", \\\"einem\\\", \\\"See\\\".\\n2. \\\"Meine Tochter\\\" ist ein relativer Verweis. Die Person \\\"Tochter\\\" bezieht sich auf die Nutzerin Maria. Die neuen Stichwörter sind daher \\\"Maria\\\", \\\"Tochter\\\", \\\"fahren\\\", \\\"Boot\\\", \\\"See\\\".\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\". Dabei wird \\\"fahren\\\" als Aktivität in der Grundform als \\\"ride\\\" übersetzt.\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"ride\\\", \\\"boat\\\", \\\"lake\\\". Da \\\"ich\\\" und \\\"mein\\\" auf Maria verweisen, wird „Maria“ explizit im Vokabular verwendet.\\n5. \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"ride\\\" ist eine Aktivität. Die Präposition \\\"auf\\\" wird als räumliche Relation interpretiert, entspricht aber nicht direkt einem Vokabeleintrag, sondern einer Beziehung (attached oder above). Da Boot auf dem See ist, wird „attached“ (ID 5) verwendet. Die Aktivität „ride“ wird von Personen ausgeführt und bezieht sich auf das Transportmittel und den Ort.\\n6. \\\"daughter\\\" ist die Tochter von \\\"Maria\\\". Sowohl \\\"Maria\\\" als auch \\\"daughter\\\" führen die Aktivität \\\"ride\\\" aus. Die Aktivität \\\"ride\\\" bezieht sich auf \\\"boat\\\" und „lake“. Das \\\"boat\\\" befindet sich auf dem \\\"lake\\\" (attached). \\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9. Die ID für attached ist 5. Die Relation \\\"attached\\\" (Boot auf See) hat die ID 5. Die Relation \\\"perform\\\" (Person fährt) hat die ID 8. Die Relation \\\"target\\\" (die Aktivität bezieht sich auf ein Objekt) hat die ID 9. Die Relation \\\"daughter\\\" hat die ID 10. Alle benötigten Typkodierungen sind vorhanden. Daher kann der GraphCode erzeugt werden.\"\n}"
+}

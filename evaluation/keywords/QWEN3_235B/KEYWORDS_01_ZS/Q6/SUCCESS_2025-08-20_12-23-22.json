@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine relevanten Szenenbeschreibungen oder Objekte, Attribute bzw. Aktivitäten im Metaverse, die in ein Vokabular übersetzt werden könnten. Es wird lediglich auf einen Termin hingewiesen, ohne konkrete Beteiligte, Orte oder Handlungen im Metaverse zu spezifizieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine relevanten Szenenbeschreibungen oder Objekte, Attribute bzw. Aktivitäten im Metaverse, die in ein Vokabular übersetzt werden könnten. Es wird lediglich auf einen Termin hingewiesen, ohne konkrete Beteiligte, Orte oder Handlungen im Metaverse zu spezifizieren.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

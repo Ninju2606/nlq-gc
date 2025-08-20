@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation des Nutzers. Das Possessivpronomen \u0027meinem\u0027 wurde zu \u0027own\u0027 aufgelöst und bezieht sich ebenfalls auf Maria.\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 wird als attributiver Bezug (Besitz) interpretiert und dient hier als relationales Attribut zwischen Maria und dem Pool.\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. Die Aktivität \u0027swim\u0027 findet im \u0027pool\u0027 statt (Relation \u0027in\u0027). Der Pool gehört Maria – ausgedrückt durch die Relation \u0027own\u0027. Diese wird als charakteristische Beziehung (Besitz) interpretiert, die zwischen \u0027maria\u0027 und \u0027pool\u0027 besteht.\n4. Die ID für \u0027object\u0027 ist 1 (zulässig auf der Diagonalen, identityMapping\u003dtrue). Die ID für \u0027activity\u0027 ist 4 (zulässig auf der Diagonalen). Die Relation \u0027perform\u0027 (zwischen Subjekt und Aktivität) hat die ID 8 (identityMapping\u003dfalse, zulässig außerhalb). Die Relation \u0027in\u0027 wird durch \u0027attached\u0027 codiert, was ID 5 entspricht (laut vorgegebener Kodierung: \u0027attached\u0027 hat ID\u003d5, wird hier als räumliche Einbettung \u0027in\u0027 interpretiert). Die Besitzrelation \u0027own\u0027 wird durch \u0027daughter\u0027 (ID\u003d10) oder \u0027characteristic\u0027 (ID\u003d14) modelliert; da \u0027own\u0027 eine Charakteristik (Eigentümer-Beziehung) ausdrückt, wird ID\u003d14 (\u0027characteristic\u0027) verwendet. Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 6],\n    [0, 0, 14, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wurde aufgelöst zu \u0027maria\u0027 gemäß der gegebenen Identifikation des Nutzers. Das Possessivpronomen \u0027meinem\u0027 wurde zu \u0027own\u0027 aufgelöst und bezieht sich ebenfalls auf Maria.\\n2. \u0027maria\u0027 und \u0027pool\u0027 sind Objekte der Anfrage. \u0027swim\u0027 ist eine Aktivität. \u0027own\u0027 wird als attributiver Bezug (Besitz) interpretiert und dient hier als relationales Attribut zwischen Maria und dem Pool.\\n3. \u0027maria\u0027 führt die Aktivität \u0027swim\u0027 aus. Die Aktivität \u0027swim\u0027 findet im \u0027pool\u0027 statt (Relation \u0027in\u0027). Der Pool gehört Maria – ausgedrückt durch die Relation \u0027own\u0027. Diese wird als charakteristische Beziehung (Besitz) interpretiert, die zwischen \u0027maria\u0027 und \u0027pool\u0027 besteht.\\n4. Die ID für \u0027object\u0027 ist 1 (zulässig auf der Diagonalen, identityMapping\u003dtrue). Die ID für \u0027activity\u0027 ist 4 (zulässig auf der Diagonalen). Die Relation \u0027perform\u0027 (zwischen Subjekt und Aktivität) hat die ID 8 (identityMapping\u003dfalse, zulässig außerhalb). Die Relation \u0027in\u0027 wird durch \u0027attached\u0027 codiert, was ID 5 entspricht (laut vorgegebener Kodierung: \u0027attached\u0027 hat ID\u003d5, wird hier als räumliche Einbettung \u0027in\u0027 interpretiert). Die Besitzrelation \u0027own\u0027 wird durch \u0027daughter\u0027 (ID\u003d10) oder \u0027characteristic\u0027 (ID\u003d14) modelliert; da \u0027own\u0027 eine Charakteristik (Eigentümer-Beziehung) ausdrückt, wird ID\u003d14 (\u0027characteristic\u0027) verwendet. Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}

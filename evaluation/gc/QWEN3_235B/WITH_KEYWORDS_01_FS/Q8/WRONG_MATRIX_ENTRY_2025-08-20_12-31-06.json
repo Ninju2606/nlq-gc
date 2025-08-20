@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.84,
+  "description": "Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung \u0027daughter\u0027 (ID 10) verbindet Maria mit dem Begriff \u0027person\u0027, der als allgemeine Kategorie dient. Die Aktivität \u0027drive\u0027 (ID 4) wird von Maria ausgeführt (ID 8 \u003d perform). Das Boot ist mit dem See durch die räumliche Relation \u0027on\u0027 (hier abgebildet durch \u0027above\u0027, ID 7 → in Matrix korrekt als 7, aber in gegebenen Typkodierungen fehlt \u0027on\u0027; Annahme: \u0027above\u0027 (ID 7) wird als Ersatz verwendet, falls \u0027on\u0027 gemeint ist. Allerdings fehlt ein direktes Attribut für \u0027on\u0027. Problem: \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027 sind gegeben. \u0027on\u0027 könnte als \u0027above\u0027 modelliert werden. Da \u0027above\u0027 (ID 7) vorhanden ist und räumliche Beziehung \u0027über\u0027 beschreibt, wird hier ID 7 für \u0027boat above lake\u0027 verwendet. Ebenso: \u0027drive\u0027 ist eine Aktivität (ID 4), verbunden mittels \u0027perform\u0027 (ID 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 5, 6],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Maria und ihre Tochter fahren mit einem Boot auf einem See. Die Beziehung \u0027daughter\u0027 (ID 10) verbindet Maria mit dem Begriff \u0027person\u0027, der als allgemeine Kategorie dient. Die Aktivität \u0027drive\u0027 (ID 4) wird von Maria ausgeführt (ID 8 \u003d perform). Das Boot ist mit dem See durch die räumliche Relation \u0027on\u0027 (hier abgebildet durch \u0027above\u0027, ID 7 → in Matrix korrekt als 7, aber in gegebenen Typkodierungen fehlt \u0027on\u0027; Annahme: \u0027above\u0027 (ID 7) wird als Ersatz verwendet, falls \u0027on\u0027 gemeint ist. Allerdings fehlt ein direktes Attribut für \u0027on\u0027. Problem: \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027 sind gegeben. \u0027on\u0027 könnte als \u0027above\u0027 modelliert werden. Da \u0027above\u0027 (ID 7) vorhanden ist und räumliche Beziehung \u0027über\u0027 beschreibt, wird hier ID 7 für \u0027boat above lake\u0027 verwendet. Ebenso: \u0027drive\u0027 ist eine Aktivität (ID 4), verbunden mittels \u0027perform\u0027 (ID 8).\"\n}"
+}

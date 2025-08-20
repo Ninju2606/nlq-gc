@@ -1,0 +1,49 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situations",
+    "i",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      0,
+      14,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      9,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\n    \"situations\",\n    \"i\",\n    \"yellow\",\n    \"hat\",\n    \"wear\"\n  ],\n  \"matrix\": [\n    [\n      2,\n      0,\n      0,\n      0,\n      0\n    ],\n    [\n      0,\n      1,\n      0,\n      0,\n      8\n    ],\n    [\n      0,\n      0,\n      14,\n      0,\n      0\n    ],\n    [\n      0,\n      0,\n      5,\n      1,\n      0\n    ],\n    [\n      0,\n      0,\n      0,\n      9,\n      4\n    ]\n  ]\n}"
+}

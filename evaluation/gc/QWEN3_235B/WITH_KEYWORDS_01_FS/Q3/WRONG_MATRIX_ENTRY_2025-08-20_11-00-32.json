@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Maria schwimmt im Pool und besitzt den Pool. Die Aktivität \u0027swim\u0027 wird von Maria ausgeführt und findet im Pool statt. Die Beziehung \u0027own\u0027 beschreibt, dass Maria Eigentümerin des Pools ist, wobei \u0027target\u0027 angibt, dass der Pool das Ziel der Eigentumsbeziehung ist. Die Beziehung \u0027in\u0027 wird genutzt, um die Lokation der Aktivität zu beschreiben.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 5],\n    [0, 4, 0, 0],\n    [0, 0, 4, 9],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"Maria schwimmt im Pool und besitzt den Pool. Die Aktivität \u0027swim\u0027 wird von Maria ausgeführt und findet im Pool statt. Die Beziehung \u0027own\u0027 beschreibt, dass Maria Eigentümerin des Pools ist, wobei \u0027target\u0027 angibt, dass der Pool das Ziel der Eigentumsbeziehung ist. Die Beziehung \u0027in\u0027 wird genutzt, um die Lokation der Aktivität zu beschreiben.\"\n}"
+}

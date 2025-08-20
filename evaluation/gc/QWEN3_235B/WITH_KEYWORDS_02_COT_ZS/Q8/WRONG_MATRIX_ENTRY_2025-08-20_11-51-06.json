@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      10,
+      8,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      4,
+      5,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      9,
+      7,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.64,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. Der Ausdruck \u0027meine Tochter\u0027 wird durch die Relation \u0027daughter\u0027 (ID 10) zwischen \u0027maria\u0027 und \u0027person\u0027 abgebildet, wobei angenommen wird, dass \u0027person\u0027 hier als generisches Pendant für \u0027daughter\u0027 dient, da im Vokabular kein spezifischer Begriff wie \u0027daughter\u0027 enthalten ist. Der Satzteil \u0027fahren Boot\u0027 wird als Aktivität \u0027drive\u0027 mit dem Objekt \u0027boat\u0027 interpretiert. Die Lokation \u0027auf einem See\u0027 wird als \u0027above\u0027 (ID 7) bezogen auf \u0027lake\u0027 verstanden, da ein Boot auf dem See schwimmt. Die Aktivität \u0027drive\u0027 wird Maria zugeordnet (über \u0027perform\u0027, ID 8). Das Boot wird als \u0027attached\u0027 (ID 5) an die Aktivität des Fahrens verknüpft. Der See ist das Ziel der Aktivität (\u0027target\u0027, ID 9). \n\n2. Die Attributeigenschaften der Stichwörter sind: \n- \u0027maria\u0027: Person, Identifikation des Nutzers → Typ \u0027object\u0027 (ID 1) \n- \u0027person\u0027: Dient hier als Ersatz für \u0027Tochter\u0027 → Typ \u0027object\u0027 (ID 1) \n- \u0027drive\u0027: Handlung, Aktivität → Typ \u0027activity\u0027 (ID 4) \n- \u0027boat\u0027: Physisches Objekt → Typ \u0027object\u0027 (ID 1) \n- \u0027lake\u0027: Ort, Kontext → Typ \u0027context\u0027 (ID 2) \n\n3. Relationen: \n- \u0027maria\u0027 hat eine \u0027daughter\u0027-Beziehung zu \u0027person\u0027 (ID 10) \n- \u0027maria\u0027 führt aus (perform) die Aktivität \u0027drive\u0027 (ID 8) \n- \u0027drive\u0027 hat ein Ziel (target) \u0027lake\u0027 (ID 9) \n- \u0027drive\u0027 hat ein verbundenes Objekt (attached) \u0027boat\u0027 (ID 5) \n- \u0027boat\u0027 befindet sich \u0027above\u0027 (ID 7) \u0027lake\u0027 \n- \u0027drive\u0027 ist eine \u0027activity\u0027 (ID 4) → Einheitsdiagonale \n- \u0027lake\u0027 ist ein \u0027context\u0027 (ID 2) → Einheitsdiagonale \n\n4. Überprüfung der Typkodierungen: \n- object (ID 1): ja, identityMapping\u003dtrue → gültig für Diagonale \n- context (ID 2): ja, identityMapping\u003dtrue → gültig für Diagonale \n- activity (ID 4): ja, identityMapping\u003dtrue → gültig für Diagonale \n- perform (ID 8): ja, identityMapping\u003dfalse → gültig für Relation \n- target (ID 9): ja, identityMapping\u003dfalse → gültig für Relation \n- attached (ID 5): ja, identityMapping\u003dfalse → gültig für Relation \n- above (ID 7): ja, identityMapping\u003dfalse → gültig für Relation \n- daughter (ID 10): ja, identityMapping\u003dfalse → gültig für Relation \nAlle benötigten Relationen sind in den Typkodierungen enthalten. \n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular bleibt unverändert, Matrix ist 5x5, Diagonale enthält die Typen 1,1,4,1,2 (object, object, activity, object, context), alle Relationen nutzen gültige Typ-IDs außerhalb der Diagonale.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 10, 8, 0, 0],\n    [10, 1, 0, 0, 0],\n    [8, 0, 4, 5, 9],\n    [0, 0, 5, 1, 6],\n    [0, 0, 9, 7, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. Der Ausdruck \u0027meine Tochter\u0027 wird durch die Relation \u0027daughter\u0027 (ID 10) zwischen \u0027maria\u0027 und \u0027person\u0027 abgebildet, wobei angenommen wird, dass \u0027person\u0027 hier als generisches Pendant für \u0027daughter\u0027 dient, da im Vokabular kein spezifischer Begriff wie \u0027daughter\u0027 enthalten ist. Der Satzteil \u0027fahren Boot\u0027 wird als Aktivität \u0027drive\u0027 mit dem Objekt \u0027boat\u0027 interpretiert. Die Lokation \u0027auf einem See\u0027 wird als \u0027above\u0027 (ID 7) bezogen auf \u0027lake\u0027 verstanden, da ein Boot auf dem See schwimmt. Die Aktivität \u0027drive\u0027 wird Maria zugeordnet (über \u0027perform\u0027, ID 8). Das Boot wird als \u0027attached\u0027 (ID 5) an die Aktivität des Fahrens verknüpft. Der See ist das Ziel der Aktivität (\u0027target\u0027, ID 9). \\n\\n2. Die Attributeigenschaften der Stichwörter sind: \\n- \u0027maria\u0027: Person, Identifikation des Nutzers → Typ \u0027object\u0027 (ID 1) \\n- \u0027person\u0027: Dient hier als Ersatz für \u0027Tochter\u0027 → Typ \u0027object\u0027 (ID 1) \\n- \u0027drive\u0027: Handlung, Aktivität → Typ \u0027activity\u0027 (ID 4) \\n- \u0027boat\u0027: Physisches Objekt → Typ \u0027object\u0027 (ID 1) \\n- \u0027lake\u0027: Ort, Kontext → Typ \u0027context\u0027 (ID 2) \\n\\n3. Relationen: \\n- \u0027maria\u0027 hat eine \u0027daughter\u0027-Beziehung zu \u0027person\u0027 (ID 10) \\n- \u0027maria\u0027 führt aus (perform) die Aktivität \u0027drive\u0027 (ID 8) \\n- \u0027drive\u0027 hat ein Ziel (target) \u0027lake\u0027 (ID 9) \\n- \u0027drive\u0027 hat ein verbundenes Objekt (attached) \u0027boat\u0027 (ID 5) \\n- \u0027boat\u0027 befindet sich \u0027above\u0027 (ID 7) \u0027lake\u0027 \\n- \u0027drive\u0027 ist eine \u0027activity\u0027 (ID 4) → Einheitsdiagonale \\n- \u0027lake\u0027 ist ein \u0027context\u0027 (ID 2) → Einheitsdiagonale \\n\\n4. Überprüfung der Typkodierungen: \\n- object (ID 1): ja, identityMapping\u003dtrue → gültig für Diagonale \\n- context (ID 2): ja, identityMapping\u003dtrue → gültig für Diagonale \\n- activity (ID 4): ja, identityMapping\u003dtrue → gültig für Diagonale \\n- perform (ID 8): ja, identityMapping\u003dfalse → gültig für Relation \\n- target (ID 9): ja, identityMapping\u003dfalse → gültig für Relation \\n- attached (ID 5): ja, identityMapping\u003dfalse → gültig für Relation \\n- above (ID 7): ja, identityMapping\u003dfalse → gültig für Relation \\n- daughter (ID 10): ja, identityMapping\u003dfalse → gültig für Relation \\nAlle benötigten Relationen sind in den Typkodierungen enthalten. \\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Vokabular bleibt unverändert, Matrix ist 5x5, Diagonale enthält die Typen 1,1,4,1,2 (object, object, activity, object, context), alle Relationen nutzen gültige Typ-IDs außerhalb der Diagonale.\"\n}"
+}

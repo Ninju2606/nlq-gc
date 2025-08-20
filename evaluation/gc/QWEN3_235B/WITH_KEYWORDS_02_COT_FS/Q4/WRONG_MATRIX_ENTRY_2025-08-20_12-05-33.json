@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst zu \"maria\" gemäß der Identifikation des Nutzers. \"meinem\" wurde als Zugehörigkeit von \"maria\" zum \"pool\" interpretiert.\n2. \"maria\" und \"pool\" sind Objekte (object). \"swim\" ist eine Aktivität (activity). \"own\" beschreibt eine Beziehung des Besitzes und wird als Aktivität interpretiert, da es eine Handlung ist, die im Vokabular explizit enthalten ist.\n3. \"maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" bezieht sich auf das Objekt \"pool\" (Schwimmen findet im Pool statt). \"maria\" steht in einer Besitzbeziehung zu \"pool\" über das Stichwort \"own\", wobei \"own\" als Handlung zwischen \"maria\" und \"pool\" wirkt.\n4. Die ID für \"object\" ist 1. Die ID für \"activity\" ist 4. Die ID für \"perform\" (Ausführen einer Aktivität) ist 8. Die ID für \"target\" (Ziel einer Aktivität) ist 9. Die ID für \"attached\" (Verbindung/Besitz) ist 5. Alle benötigten Relationen sind in den Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Identifikation des Nutzers. \\\"meinem\\\" wurde als Zugehörigkeit von \\\"maria\\\" zum \\\"pool\\\" interpretiert.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte (object). \\\"swim\\\" ist eine Aktivität (activity). \\\"own\\\" beschreibt eine Beziehung des Besitzes und wird als Aktivität interpretiert, da es eine Handlung ist, die im Vokabular explizit enthalten ist.\\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" bezieht sich auf das Objekt \\\"pool\\\" (Schwimmen findet im Pool statt). \\\"maria\\\" steht in einer Besitzbeziehung zu \\\"pool\\\" über das Stichwort \\\"own\\\", wobei \\\"own\\\" als Handlung zwischen \\\"maria\\\" und \\\"pool\\\" wirkt.\\n4. Die ID für \\\"object\\\" ist 1. Die ID für \\\"activity\\\" ist 4. Die ID für \\\"perform\\\" (Ausführen einer Aktivität) ist 8. Die ID für \\\"target\\\" (Ziel einer Aktivität) ist 9. Die ID für \\\"attached\\\" (Verbindung/Besitz) ist 5. Alle benötigten Relationen sind in den Typkodierungen enthalten.\"\n}"
+}

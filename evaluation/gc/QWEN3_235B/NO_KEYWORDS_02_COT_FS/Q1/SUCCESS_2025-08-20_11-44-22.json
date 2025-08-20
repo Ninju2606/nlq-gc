@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Die relevanten Stichwörter sind \"Ich\", \"spiele\", \"Basketball\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"I\", \"play\", \"basketball\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"play\", \"basketball\".\n        5. \"Maria\" und \"basketball\" sind Objekte der Anfrage. \"play\" ist eine Aktivität.\n        6. \"Maria\" führt die Aktivität \"play\" aus. Die Aktivität \"play\" bezieht sich auf \"basketball\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"spiele\\\", \\\"Basketball\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"play\\\", \\\"basketball\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"play\\\", \\\"basketball\\\".\\n        5. \\\"Maria\\\" und \\\"basketball\\\" sind Objekte der Anfrage. \\\"play\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"play\\\" aus. Die Aktivität \\\"play\\\" bezieht sich auf \\\"basketball\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Die ID für Beziehen (target) ist 9.\"\n}"
+}

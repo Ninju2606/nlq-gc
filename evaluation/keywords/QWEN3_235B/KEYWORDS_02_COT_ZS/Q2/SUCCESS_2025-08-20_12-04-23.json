@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ermittlung der Stichwörter aus der Anfrage \u0027Tim rennt\u0027: \u0027Tim\u0027 und \u0027rennt\u0027. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 enthalten sind, wird die Identifikation des Nutzers (Maria) ignoriert. Der Begriff \u0027rennt\u0027 wird verallgemeinert zum Infinitiv \u0027run\u0027 und ins Englische übertragen. Da die Anfrage grammatikalisch korrekt und eindeutig ist, konnte ein Vokabular für den GraphCode erstellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Tim\",\n    \"run\"\n  ],\n  \"description\": \"Ermittlung der Stichwörter aus der Anfrage \u0027Tim rennt\u0027: \u0027Tim\u0027 und \u0027rennt\u0027. Da keine selbstidentifizierenden Wörter wie \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 enthalten sind, wird die Identifikation des Nutzers (Maria) ignoriert. Der Begriff \u0027rennt\u0027 wird verallgemeinert zum Infinitiv \u0027run\u0027 und ins Englische übertragen. Da die Anfrage grammatikalisch korrekt und eindeutig ist, konnte ein Vokabular für den GraphCode erstellt werden.\"\n}"
+}

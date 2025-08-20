@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\"error\":[\"Die Relation \\\"in\\\" ist nicht bekannt.\"],\"description\":\"1. Die relevanten Stichwörter sind \\\"Ich\\\", \\\"schwimme\\\", \\\"Pool\\\".\\n2. Der relative Verweis \\\"meinem\\\" wird auf die Nutzeridentifikation \\\"Maria\\\" aufgelöst.\\n3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"swim\\\", \\\"pool\\\".\\n5. \\\"Maria\\\" und \\\"pool\\\" sind Objekte der Anfrage (Typ: object). \\\"swim\\\" ist eine Aktivität (Typ: activity).\\n6. \\\"Maria\\\" führt die Aktivität \\\"swim\\\" aus (Relation: perform). Die Aktivität \\\"swim\\\" findet in \\\"pool\\\" statt (Relation: in).\\n7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für Ausführen (perform) ist 8. Es existiert jedoch keine Typkodierung für die Relation \\\"in\\\" (keine entsprechende ID in den vorgegebenen Typkodierungen).\"}`"
+}

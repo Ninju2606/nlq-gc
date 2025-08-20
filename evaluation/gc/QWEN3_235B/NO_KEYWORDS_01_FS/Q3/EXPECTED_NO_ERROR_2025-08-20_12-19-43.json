@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Angabe \"in einem Pool\" enthält eine relationale Beschreibung, die in den vorgegebenen Typkodierungen nicht abgebildet werden kann. Es sind nur die Relationen \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, \u0027perform\u0027, \u0027target\u0027, \u0027daughter\u0027 und \u0027characteristic\u0027 erlaubt.",
+  "error": "Die Relation \"in\" ist nicht bekannt.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \\\"in\\\" ist nicht bekannt.\",\n  \"description\": \"Die Angabe \\\"in einem Pool\\\" enthält eine relationale Beschreibung, die in den vorgegebenen Typkodierungen nicht abgebildet werden kann. Es sind nur die Relationen \u0027attached\u0027, \u0027under\u0027, \u0027above\u0027, \u0027perform\u0027, \u0027target\u0027, \u0027daughter\u0027 und \u0027characteristic\u0027 erlaubt.\"\n}"
+}

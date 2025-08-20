@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.875,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst zu \"maria\" entsprechend der Nutzeridentifikation. \"meinem Pool\" wurde aufgelöst zu \"maria own pool\", wobei \"own\" die Besitzrelation darstellt.\n2. \"maria\" und \"pool\" sind Objekte (object). \"swim\" und \"own\" sind Aktivitäten (activity). \n3. \"maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" hat als Ziel (target) das Objekt \"pool\". Zusätzlich führt \"maria\" die Aktivität \"own\" aus, die sich auf \"pool\" bezieht. Die Raumsituation \"in\" wird durch die Aktivität des Schwimmens im Pool impliziert und als räumliche Beziehung \"in\" modelliert – hier wird dafür die Relation \"attached\" (ID 5) verwendet, da „in“ in den Typkodierungen nicht explizit vorhanden ist, aber als räumliche Zugehörigkeit durch „attached“ approximiert wird.\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Ausführung (perform) ist 8. Die ID für das Ziel (target) ist 9. Die ID für räumliche Zugehörigkeit (attached) ist 5. Alle benötigten Relationen sind in den gegebenen Typkodierungen enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst zu \\\"maria\\\" entsprechend der Nutzeridentifikation. \\\"meinem Pool\\\" wurde aufgelöst zu \\\"maria own pool\\\", wobei \\\"own\\\" die Besitzrelation darstellt.\\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte (object). \\\"swim\\\" und \\\"own\\\" sind Aktivitäten (activity). \\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" hat als Ziel (target) das Objekt \\\"pool\\\". Zusätzlich führt \\\"maria\\\" die Aktivität \\\"own\\\" aus, die sich auf \\\"pool\\\" bezieht. Die Raumsituation \\\"in\\\" wird durch die Aktivität des Schwimmens im Pool impliziert und als räumliche Beziehung \\\"in\\\" modelliert – hier wird dafür die Relation \\\"attached\\\" (ID 5) verwendet, da „in“ in den Typkodierungen nicht explizit vorhanden ist, aber als räumliche Zugehörigkeit durch „attached“ approximiert wird.\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für die Ausführung (perform) ist 8. Die ID für das Ziel (target) ist 9. Die ID für räumliche Zugehörigkeit (attached) ist 5. Alle benötigten Relationen sind in den gegebenen Typkodierungen enthalten.\"\n}"
+}

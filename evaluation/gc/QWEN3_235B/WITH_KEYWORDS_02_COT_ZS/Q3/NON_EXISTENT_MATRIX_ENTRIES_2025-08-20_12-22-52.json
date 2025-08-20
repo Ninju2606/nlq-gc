@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      14,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      14,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer bezieht sich mit \"Ich\" auf sich selbst, also wird die Identifikation \"Maria\" in das Vokabular übernommen. Der relative Verweis \"mir gehört\" zeigt einen Besitzanspruch von Maria auf den Pool an.\n\n2. Die Attributeigenschaften der Stichwörter sind: \n- \"maria\": als Person ist dies ein Objekt (Typ 1: object), da es eine Entität darstellt. \n- \"swim\": beschreibt eine Aktion, also eine Aktivität (Typ 4: activity). \n- \"own\": drückt eine Eigenschaft oder Beziehung des Besitzes aus, also ein Attribut (Typ 14: characteristic). \n- \"pool\": ein physisches Objekt (Typ 1: object).\n\n3. Die Relationen zwischen den Stichwörtern sind: \n- Maria führt die Aktion \u0027swim\u0027 aus → Beziehung \u0027perform\u0027 (Typ 8) von \u0027maria\u0027 zu \u0027swim\u0027. \n- \u0027swim\u0027 findet im \u0027pool\u0027 statt → Beziehung \u0027target\u0027 (Typ 9) von \u0027swim\u0027 zu \u0027pool\u0027. \n- Maria besitzt den \u0027pool\u0027 → Beziehung \u0027attached\u0027 (Typ 5) von \u0027own\u0027 zu \u0027pool\u0027, wobei \u0027own\u0027 als charakterisierendes Attribut (characteristic) von Maria ist.\n- \u0027own\u0027 ist ein Attribut, das Maria charakterisiert → Beziehung \u0027characteristic\u0027 (Typ 14) von \u0027maria\u0027 zu \u0027own\u0027.\n\n4. Überprüfung der Typkodierungen: \n- \u0027object\u0027 (ID 1) für \u0027maria\u0027 und \u0027pool\u0027 → existiert ✅\n- \u0027activity\u0027 (ID 4) für \u0027swim\u0027 → existiert ✅\n- \u0027characteristic\u0027 (ID 14) für \u0027own\u0027 → existiert ✅\n- \u0027perform\u0027 (ID 8) zwischen \u0027maria\u0027 und \u0027swim\u0027 → existiert ✅\n- \u0027target\u0027 (ID 9) zwischen \u0027swim\u0027 und \u0027pool\u0027 → existiert ✅\n- \u0027attached\u0027 (ID 5) zwischen \u0027own\u0027 und \u0027pool\u0027 → existiert ✅\n- \u0027characteristic\u0027 (ID 14) zwischen \u0027maria\u0027 und \u0027own\u0027 → existiert ✅\nAlle verwendeten Typen sind in den vorgegebenen Kodierungen enthalten.\n\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Bewertungsmatrix wurde gemäß den Beziehungen und Typkodierungen gefüllt, unter Einhaltung der Regeln für die Einheitsdiagonale (nur identityMapping\u003dtrue) und die restlichen Einträge (nur identityMapping\u003dfalse oder 0).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 14, 5],\n    [0, 4, 0, 9],\n    [0, 0, 14, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer bezieht sich mit \\\"Ich\\\" auf sich selbst, also wird die Identifikation \\\"Maria\\\" in das Vokabular übernommen. Der relative Verweis \\\"mir gehört\\\" zeigt einen Besitzanspruch von Maria auf den Pool an.\\n\\n2. Die Attributeigenschaften der Stichwörter sind: \\n- \\\"maria\\\": als Person ist dies ein Objekt (Typ 1: object), da es eine Entität darstellt. \\n- \\\"swim\\\": beschreibt eine Aktion, also eine Aktivität (Typ 4: activity). \\n- \\\"own\\\": drückt eine Eigenschaft oder Beziehung des Besitzes aus, also ein Attribut (Typ 14: characteristic). \\n- \\\"pool\\\": ein physisches Objekt (Typ 1: object).\\n\\n3. Die Relationen zwischen den Stichwörtern sind: \\n- Maria führt die Aktion \u0027swim\u0027 aus → Beziehung \u0027perform\u0027 (Typ 8) von \u0027maria\u0027 zu \u0027swim\u0027. \\n- \u0027swim\u0027 findet im \u0027pool\u0027 statt → Beziehung \u0027target\u0027 (Typ 9) von \u0027swim\u0027 zu \u0027pool\u0027. \\n- Maria besitzt den \u0027pool\u0027 → Beziehung \u0027attached\u0027 (Typ 5) von \u0027own\u0027 zu \u0027pool\u0027, wobei \u0027own\u0027 als charakterisierendes Attribut (characteristic) von Maria ist.\\n- \u0027own\u0027 ist ein Attribut, das Maria charakterisiert → Beziehung \u0027characteristic\u0027 (Typ 14) von \u0027maria\u0027 zu \u0027own\u0027.\\n\\n4. Überprüfung der Typkodierungen: \\n- \u0027object\u0027 (ID 1) für \u0027maria\u0027 und \u0027pool\u0027 → existiert ✅\\n- \u0027activity\u0027 (ID 4) für \u0027swim\u0027 → existiert ✅\\n- \u0027characteristic\u0027 (ID 14) für \u0027own\u0027 → existiert ✅\\n- \u0027perform\u0027 (ID 8) zwischen \u0027maria\u0027 und \u0027swim\u0027 → existiert ✅\\n- \u0027target\u0027 (ID 9) zwischen \u0027swim\u0027 und \u0027pool\u0027 → existiert ✅\\n- \u0027attached\u0027 (ID 5) zwischen \u0027own\u0027 und \u0027pool\u0027 → existiert ✅\\n- \u0027characteristic\u0027 (ID 14) zwischen \u0027maria\u0027 und \u0027own\u0027 → existiert ✅\\nAlle verwendeten Typen sind in den vorgegebenen Kodierungen enthalten.\\n\\n5. Der GraphCode wurde entsprechend zusammengesetzt: Das Vokabular bleibt unverändert. Die Bewertungsmatrix wurde gemäß den Beziehungen und Typkodierungen gefüllt, unter Einhaltung der Regeln für die Einheitsdiagonale (nur identityMapping\u003dtrue) und die restlichen Einträge (nur identityMapping\u003dfalse oder 0).\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine Beschreibung einer Szene oder Situation im Metaverse, sondern drückt lediglich eine allgemeine Absicht aus, einen Termin auszumachen. Es liegen keine Objekte, Attribute oder Aktivitäten vor, die im Metaverse abgebildet werden könnten. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Die Anfrage enthält keine Beschreibung einer Szene oder Situation im Metaverse, sondern drückt lediglich eine allgemeine Absicht aus, einen Termin auszumachen. Es liegen keine Objekte, Attribute oder Aktivitäten vor, die im Metaverse abgebildet werden könnten. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine Beschreibung einer Szene oder Situation im Metaverse, sondern drückt lediglich eine allgemeine Absicht aus, einen Termin auszumachen. Es liegen keine Objekte, Attribute oder Aktivitäten vor, die im Metaverse abgebildet werden könnten. Daher kann kein sinnvoller GraphCode generiert werden.\",\n  \"description\": \"Die Anfrage enthält keine Beschreibung einer Szene oder Situation im Metaverse, sondern drückt lediglich eine allgemeine Absicht aus, einen Termin auszumachen. Es liegen keine Objekte, Attribute oder Aktivitäten vor, die im Metaverse abgebildet werden könnten. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

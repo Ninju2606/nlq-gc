@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Wir müssen bald einen Termin ausmachen.",
+  "error": "Die Anfrage enthält keine klare Beschreibung einer Szene oder Situation im Metaverse, sondern bezieht sich auf eine allgemeine Absprache eines Termins, ohne konkrete Objekte, Attribute oder Aktivitäten in einer virtuellen Umgebung zu benennen.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Beschreibung einer Szene oder Situation im Metaverse, sondern bezieht sich auf eine allgemeine Absprache eines Termins, ohne konkrete Objekte, Attribute oder Aktivitäten in einer virtuellen Umgebung zu benennen.\",\n  \"description\": \"Wir müssen bald einen Termin ausmachen.\"\n}"
+}

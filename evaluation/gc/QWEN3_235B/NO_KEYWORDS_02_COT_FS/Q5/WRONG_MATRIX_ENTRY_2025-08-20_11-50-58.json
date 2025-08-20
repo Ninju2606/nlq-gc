@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Die relevanten Stichwörter sind \"ich\", \"trage\", \"gelben\", \"Hut\".\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \"I\", \"wear\", \"yellow\", \"hat\".\n4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"wear\", \"hat\", \"yellow\".\n5. \"Maria\" und \"hat\" sind Objekte (object), \"wear\" ist eine Aktivität (activity) und \"yellow\" ist ein Kontext (context).\n6. \"Maria\" führt die Aktivität \"wear\" aus (perform). Die Aktivität \"wear\" bezieht sich auf das Objekt \"hat\" (target). Das Objekt \"hat\" hat die Charakteristik \"yellow\" (characteristic).\n7. Die ID für object ist 1, für activity 4, für context 2, für perform 8, für target 9 und für characteristic 14. Alle benötigten Relationen sind in den Typkodierungen vorhanden.",
+  "responsePlain": "{\n    \"dictionary\": [\"Maria\", \"wear\", \"hat\", \"yellow\"],\n    \"matrix\": [\n        [1, 8, 0, 0],\n        [0, 4, 9, 0],\n        [0, 0, 1, 14],\n        [0, 0, 0, 2]\n    ],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"ich\\\", \\\"trage\\\", \\\"gelben\\\", \\\"Hut\\\".\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \\\"I\\\", \\\"wear\\\", \\\"yellow\\\", \\\"hat\\\".\\n4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"wear\\\", \\\"hat\\\", \\\"yellow\\\".\\n5. \\\"Maria\\\" und \\\"hat\\\" sind Objekte (object), \\\"wear\\\" ist eine Aktivität (activity) und \\\"yellow\\\" ist ein Kontext (context).\\n6. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus (perform). Die Aktivität \\\"wear\\\" bezieht sich auf das Objekt \\\"hat\\\" (target). Das Objekt \\\"hat\\\" hat die Charakteristik \\\"yellow\\\" (characteristic).\\n7. Die ID für object ist 1, für activity 4, für context 2, für perform 8, für target 9 und für characteristic 14. Alle benötigten Relationen sind in den Typkodierungen vorhanden.\"\n}"
+}

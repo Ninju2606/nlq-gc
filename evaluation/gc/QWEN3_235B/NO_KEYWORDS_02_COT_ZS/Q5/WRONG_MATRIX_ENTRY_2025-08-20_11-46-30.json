@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "hat",
+    "yellow",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "Ermittelte Stichwörter: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. Relative Verweise: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. Übersetzung ins Englische: Maria, yellow, hat, wear. Benutzeridentifikation \u0027Maria\u0027 wurde für \u0027ich\u0027 eingesetzt. Attributeigenschaften: \u0027yellow\u0027 ist ein Attribut (Kontext) des Objekts \u0027hat\u0027. Relationen: Maria (Objekt) führt die Aktivität \u0027wear\u0027 aus (perform, ID 8); \u0027wear\u0027 hat \u0027hat\u0027 als Zielobjekt (target, ID 9); \u0027hat\u0027 besitzt das Merkmal \u0027yellow\u0027 (characteristic, ID 14). Alle Relationen haben gültige Typkodierungen gemäß der Vorgaben. Vokabulareinträge wurden in Basisform übersetzt (wear statt trage).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"hat\", \"yellow\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0, 8],\n    [0, 1, 14, 0],\n    [0, 0, 2, 0],\n    [0, 9, 0, 4]\n  ],\n  \"description\": \"Ermittelte Stichwörter: \u0027ich\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. Relative Verweise: \u0027ich\u0027 wurde durch \u0027Maria\u0027 ersetzt. Übersetzung ins Englische: Maria, yellow, hat, wear. Benutzeridentifikation \u0027Maria\u0027 wurde für \u0027ich\u0027 eingesetzt. Attributeigenschaften: \u0027yellow\u0027 ist ein Attribut (Kontext) des Objekts \u0027hat\u0027. Relationen: Maria (Objekt) führt die Aktivität \u0027wear\u0027 aus (perform, ID 8); \u0027wear\u0027 hat \u0027hat\u0027 als Zielobjekt (target, ID 9); \u0027hat\u0027 besitzt das Merkmal \u0027yellow\u0027 (characteristic, ID 14). Alle Relationen haben gültige Typkodierungen gemäß der Vorgaben. Vokabulareinträge wurden in Basisform übersetzt (wear statt trage).\"\n}"
+}

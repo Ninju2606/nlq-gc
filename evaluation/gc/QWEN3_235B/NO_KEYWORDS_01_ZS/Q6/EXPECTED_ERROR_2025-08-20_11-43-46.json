@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "appointment",
+    "schedule",
+    "soon"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      9,
+      4,
+      14
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Metaverse-Szenenbeschreibung: Eine \u0027schedule\u0027-Aktivität (Termin ausmachen) bezieht sich auf das Objekt \u0027appointment\u0027 (Termin) mit dem zeitlichen Kontext \u0027soon\u0027 (bald). Die Identifikation \u0027Maria\u0027 wurde ignoriert, da die Anfrage mit \u0027wir\u0027 formuliert ist und keine expliziten Selbstbezugswörter wie \u0027ich\u0027 enthält.",
+  "responsePlain": "{\n  \"dictionary\": [\"appointment\", \"schedule\", \"soon\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [9, 4, 14],\n    [0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Metaverse-Szenenbeschreibung: Eine \u0027schedule\u0027-Aktivität (Termin ausmachen) bezieht sich auf das Objekt \u0027appointment\u0027 (Termin) mit dem zeitlichen Kontext \u0027soon\u0027 (bald). Die Identifikation \u0027Maria\u0027 wurde ignoriert, da die Anfrage mit \u0027wir\u0027 formuliert ist und keine expliziten Selbstbezugswörter wie \u0027ich\u0027 enthält.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute bzw. Aktivitäten im Metaverse, die in ein Vokabular umgewandelt werden könnten. Es fehlen konkrete Begriffe für eine sinnvolle Generierung des GraphCodes.",
+  "error": "Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute bzw. Aktivitäten im Metaverse, die in ein Vokabular umgewandelt werden könnten. Es fehlen konkrete Begriffe für eine sinnvolle Generierung des GraphCodes.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute bzw. Aktivitäten im Metaverse, die in ein Vokabular umgewandelt werden könnten. Es fehlen konkrete Begriffe für eine sinnvolle Generierung des GraphCodes.\",\n  \"description\": \"Die Anfrage enthält keine klare Szenenbeschreibung oder Objekte, Attribute bzw. Aktivitäten im Metaverse, die in ein Vokabular umgewandelt werden könnten. Es fehlen konkrete Begriffe für eine sinnvolle Generierung des GraphCodes.\"\n}"
+}

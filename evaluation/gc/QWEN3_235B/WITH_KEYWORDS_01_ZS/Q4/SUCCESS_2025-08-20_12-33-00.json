@@ -1,0 +1,38 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "Eine Szene im Metaverse, in der Maria (Objekt) die Aktivität \u0027schwimmen\u0027 ausführt. Die Schwimmtätigkeit steht in räumlichem Bezug (\u0027target\u0027) zum Pool. Gleichzeitig wird über die Aktivität \u0027own\u0027 (Eigentum) der Bezug zwischen Maria und dem Pool als \u0027target\u0027-Relation hergestellt. Der Pool ist ein Objekt, das sowohl Ziel der Schwimmbewegung als auch Gegenstand des Eigentums ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 9],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Eine Szene im Metaverse, in der Maria (Objekt) die Aktivität \u0027schwimmen\u0027 ausführt. Die Schwimmtätigkeit steht in räumlichem Bezug (\u0027target\u0027) zum Pool. Gleichzeitig wird über die Aktivität \u0027own\u0027 (Eigentum) der Bezug zwischen Maria und dem Pool als \u0027target\u0027-Relation hergestellt. Der Pool ist ein Objekt, das sowohl Ziel der Schwimmbewegung als auch Gegenstand des Eigentums ist.\"\n}"
+}

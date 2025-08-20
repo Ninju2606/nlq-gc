@@ -1,0 +1,7 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält eine unklare Referenzstruktur bezüglich des Besitzverhältnisses, die mit den verfügbaren Typkodierungen nicht vollständig abbildbar ist.",
+  "error": "Die Anfrage enthält eine unklare Referenzstruktur bezüglich des Besitzverhältnisses, die mit den verfügbaren Typkodierungen nicht vollständig abbildbar ist.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage enthält eine unklare Referenzstruktur bezüglich des Besitzverhältnisses, die mit den verfügbaren Typkodierungen nicht vollständig abbildbar ist.\",\n  \"description\": \"Die Anfrage enthält eine unklare Referenzstruktur bezüglich des Besitzverhältnisses, die mit den verfügbaren Typkodierungen nicht vollständig abbildbar ist.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst zu \"maria\" gemäß der Identifikation des Nutzers. \"mir gehört\" bezieht sich auf eine Besitzbeziehung, die auf Maria trifft.\n         2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" und \"own\" sind Aktivitäten.\n         3. \"maria\" führt die Aktivität \"swim\" aus. Die Aktivität \"swim\" bezieht sich auf das Objekt \"pool\". \"maria\" führt auch die Aktivität \"own\" aus. Die Aktivität \"own\" bezieht sich auf das Objekt \"pool\".\n         4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für own bzw. possess geht über den Typ \"attached\" (ID 5) nicht hinaus – jedoch ist \"own\" im Sinne des Kontexts eine Aktivität (activity, ID\u003d4) und die Beziehung „besitzt“ könnte als Semantik von „attached“ interpretiert werden. Allerdings fehlt ein expliziter Typ „own“ oder „possess“. Da „own“ jedoch im Vokabular als eigenständiges Stichwort vorhanden ist und „activity“ ist, wird es als Aktivität (ID\u003d4) klassifiziert. Die relationale Bedeutung von „Besitz“ kann über die Kombination aus „perform (8)“ und „target (9)“ abgebildet werden. Die Beziehung zwischen \"maria\" und \"pool\" über \"own\" wird durch die Matrixeinträge (0,2)\u003d8 und (2,3)\u003d notwendig. Hier fehlt jedoch eine Relation, die explizit „besitzt“ meint. Da stattdessen \"own\" im Vokabular steht und als Aktivität verwendet wird, wird es mit „activity“ (ID\u003d4) klassifiziert. Die Relation zwischen Subjekt und Objekt der Aktivität bleibt über „perform“ (8) und „target“ (9) abbildbar. Somit sind alle benötigten Typkodierungen vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 5, 14],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der Identifikation des Nutzers. \\\"mir gehört\\\" bezieht sich auf eine Besitzbeziehung, die auf Maria trifft.\\n         2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" und \\\"own\\\" sind Aktivitäten.\\n         3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. Die Aktivität \\\"swim\\\" bezieht sich auf das Objekt \\\"pool\\\". \\\"maria\\\" führt auch die Aktivität \\\"own\\\" aus. Die Aktivität \\\"own\\\" bezieht sich auf das Objekt \\\"pool\\\".\\n         4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9. Die ID für own bzw. possess geht über den Typ \\\"attached\\\" (ID 5) nicht hinaus – jedoch ist \\\"own\\\" im Sinne des Kontexts eine Aktivität (activity, ID\u003d4) und die Beziehung „besitzt“ könnte als Semantik von „attached“ interpretiert werden. Allerdings fehlt ein expliziter Typ „own“ oder „possess“. Da „own“ jedoch im Vokabular als eigenständiges Stichwort vorhanden ist und „activity“ ist, wird es als Aktivität (ID\u003d4) klassifiziert. Die relationale Bedeutung von „Besitz“ kann über die Kombination aus „perform (8)“ und „target (9)“ abgebildet werden. Die Beziehung zwischen \\\"maria\\\" und \\\"pool\\\" über \\\"own\\\" wird durch die Matrixeinträge (0,2)\u003d8 und (2,3)\u003d notwendig. Hier fehlt jedoch eine Relation, die explizit „besitzt“ meint. Da stattdessen \\\"own\\\" im Vokabular steht und als Aktivität verwendet wird, wird es mit „activity“ (ID\u003d4) klassifiziert. Die Relation zwischen Subjekt und Objekt der Aktivität bleibt über „perform“ (8) und „target“ (9) abbildbar. Somit sind alle benötigten Typkodierungen vorhanden.\"\n}"
+}

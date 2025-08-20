@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.9375,
+  "description": "Maria führt die Aktivität \u0027schwimmen\u0027 aus (perform/8), die sich im Pool befindet (attached/5). Gleichzeitig wird die Beziehung \u0027eigenen Besitz\u0027 durch die Aktivität \u0027own\u0027 abgebildet, bei der Maria (perform/8) den Pool als Ziel (target/9) hat.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 8, 0],\n    [0, 4, 0, 5],\n    [0, 0, 4, 9],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Maria führt die Aktivität \u0027schwimmen\u0027 aus (perform/8), die sich im Pool befindet (attached/5). Gleichzeitig wird die Beziehung \u0027eigenen Besitz\u0027 durch die Aktivität \u0027own\u0027 abgebildet, bei der Maria (perform/8) den Pool als Ziel (target/9) hat.\"\n}"
+}

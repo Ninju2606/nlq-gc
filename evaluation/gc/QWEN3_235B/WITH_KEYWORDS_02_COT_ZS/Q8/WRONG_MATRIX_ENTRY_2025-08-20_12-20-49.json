@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      14,
+      8,
+      0,
+      0
+    ],
+    [
+      14,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      8,
+      4,
+      9,
+      9
+    ],
+    [
+      0,
+      0,
+      9,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      9,
+      5,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.64,
+  "description": "1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. Der Ausdruck \u0027meine Tochter\u0027 wird als \u0027person\u0027 interpretiert, da \u0027Tochter\u0027 im Kontext eine Person ist, die mit Maria in einer Beziehung steht.\n\n2. Die Attributegenschaften der Stichwörter sind:\n- \u0027maria\u0027: Typ 1 (\u0027object\u0027), da es ein konkretes Objekt (Person) ist und identityMapping\u003dtrue.\n- \u0027person\u0027: Typ 1 (\u0027object\u0027), da es eine Objektkategorie ist.\n- \u0027drive\u0027: Typ 4 (\u0027activity\u0027), da es eine Handlung beschreibt.\n- \u0027boat\u0027: Typ 1 (\u0027object\u0027), da es ein physisches Objekt ist.\n- \u0027lake\u0027: Typ 1 (\u0027object\u0027), da es ein geografisches Objekt ist.\n\n3. Die Relationen zwischen den Stichwörtern sind:\n- Maria und \u0027person\u0027 (Tochter) sind durch eine charakteristische Beziehung (\u0027characteristic\u0027, ID 14) verbunden – hier interpretiert als Familienbeziehung.\n- Maria und die Tochter (beide vom Typ \u0027person\u0027) führen die Aktivität \u0027drive\u0027 aus (Relation \u0027perform\u0027, ID 8).\n- Die Aktivität \u0027drive\u0027 bezieht sich auf das Objekt \u0027boat\u0027 als Ziel (target, ID 9).\n- Die Aktivität \u0027drive\u0027 findet auf dem \u0027lake\u0027 statt, was als räumliche Bindung \u0027attached\u0027 (ID 5) interpretiert wird.\n- Das \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 – ebenfalls über \u0027attached\u0027 (ID 5).\n\n4. Überprüfung der Relationen auf verfügbare Typkodierungen:\n- \u0027object\u0027 (maria) ↔ \u0027person\u0027 (Tochter): \u0027characteristic\u0027 (ID 14) ist vorhanden und zulässig.\n- \u0027person\u0027 ↔ \u0027drive\u0027: \u0027perform\u0027 (ID 8) ist vorhanden.\n- \u0027drive\u0027 ↔ \u0027boat\u0027: \u0027target\u0027 (ID 9) ist vorhanden.\n- \u0027drive\u0027 ↔ \u0027lake\u0027: \u0027target\u0027 (ID 9) – hier angenommen, dass die Aktivität auf dem See stattfindet, also Zielbezug.\n- \u0027boat\u0027 ↔ \u0027lake\u0027: \u0027attached\u0027 (ID 5) ist vorhanden (räumliche Zugehörigkeit).\n- Alle verwendeten Typen (1, 4, 5, 8, 9, 14) sind in den vorgegebenen Kodierungen enthalten.\n\n5. Der GraphCode wurde entsprechend dem Vokabular und den korrekten Typkodierungen erstellt. Die Matrix ist quadratisch (5x5), Einträge auf der Diagonalen (i\u003dj) nutzen nur Typen mit identityMapping\u003dtrue (IDs 1 und 4), alle anderen Einträge nutzen Typen mit identityMapping\u003dfalse oder 0. Alle Relationen sind plausibel und durch die Kodierung abgedeckt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 14, 8, 0, 0],\n    [14, 1, 8, 0, 0],\n    [8, 8, 4, 9, 9],\n    [0, 0, 9, 1, 5],\n    [0, 0, 9, 5, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \u0027ich\u0027 wird der Identifikation \u0027Maria\u0027 zugeordnet. Der Ausdruck \u0027meine Tochter\u0027 wird als \u0027person\u0027 interpretiert, da \u0027Tochter\u0027 im Kontext eine Person ist, die mit Maria in einer Beziehung steht.\\n\\n2. Die Attributegenschaften der Stichwörter sind:\\n- \u0027maria\u0027: Typ 1 (\u0027object\u0027), da es ein konkretes Objekt (Person) ist und identityMapping\u003dtrue.\\n- \u0027person\u0027: Typ 1 (\u0027object\u0027), da es eine Objektkategorie ist.\\n- \u0027drive\u0027: Typ 4 (\u0027activity\u0027), da es eine Handlung beschreibt.\\n- \u0027boat\u0027: Typ 1 (\u0027object\u0027), da es ein physisches Objekt ist.\\n- \u0027lake\u0027: Typ 1 (\u0027object\u0027), da es ein geografisches Objekt ist.\\n\\n3. Die Relationen zwischen den Stichwörtern sind:\\n- Maria und \u0027person\u0027 (Tochter) sind durch eine charakteristische Beziehung (\u0027characteristic\u0027, ID 14) verbunden – hier interpretiert als Familienbeziehung.\\n- Maria und die Tochter (beide vom Typ \u0027person\u0027) führen die Aktivität \u0027drive\u0027 aus (Relation \u0027perform\u0027, ID 8).\\n- Die Aktivität \u0027drive\u0027 bezieht sich auf das Objekt \u0027boat\u0027 als Ziel (target, ID 9).\\n- Die Aktivität \u0027drive\u0027 findet auf dem \u0027lake\u0027 statt, was als räumliche Bindung \u0027attached\u0027 (ID 5) interpretiert wird.\\n- Das \u0027boat\u0027 befindet sich auf dem \u0027lake\u0027 – ebenfalls über \u0027attached\u0027 (ID 5).\\n\\n4. Überprüfung der Relationen auf verfügbare Typkodierungen:\\n- \u0027object\u0027 (maria) ↔ \u0027person\u0027 (Tochter): \u0027characteristic\u0027 (ID 14) ist vorhanden und zulässig.\\n- \u0027person\u0027 ↔ \u0027drive\u0027: \u0027perform\u0027 (ID 8) ist vorhanden.\\n- \u0027drive\u0027 ↔ \u0027boat\u0027: \u0027target\u0027 (ID 9) ist vorhanden.\\n- \u0027drive\u0027 ↔ \u0027lake\u0027: \u0027target\u0027 (ID 9) – hier angenommen, dass die Aktivität auf dem See stattfindet, also Zielbezug.\\n- \u0027boat\u0027 ↔ \u0027lake\u0027: \u0027attached\u0027 (ID 5) ist vorhanden (räumliche Zugehörigkeit).\\n- Alle verwendeten Typen (1, 4, 5, 8, 9, 14) sind in den vorgegebenen Kodierungen enthalten.\\n\\n5. Der GraphCode wurde entsprechend dem Vokabular und den korrekten Typkodierungen erstellt. Die Matrix ist quadratisch (5x5), Einträge auf der Diagonalen (i\u003dj) nutzen nur Typen mit identityMapping\u003dtrue (IDs 1 und 4), alle anderen Einträge nutzen Typen mit identityMapping\u003dfalse oder 0. Alle Relationen sind plausibel und durch die Kodierung abgedeckt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Der relative Verweis \"ich\" und das Besitzpronomen \"meinem\" werden aufgelöst zu \"maria\", basierend auf der gegebenen Identifikation des Nutzers. \n2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist eine Aktivität (im Sinne einer Handlung oder Beziehung des Eigentums). \n3. \"maria\" führt die Aktivität \"swim\" aus. \"swim\" steht in Beziehung zum Ziel \"pool\" (Schwimmen findet in einem Pool statt). \"maria\" steht in einer Besitzbeziehung zum \"pool\" über die Aktivität \"own\". \"own\" bezieht sich auf \"pool\". Die Beziehung \"in\" zwischen \"swim\" und \"pool\" wird durch die Typkodierung \"under\" oder \"in\" abgebildet. \n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9 – jedoch ist \"target\" in der Typkodierung vorhanden (ID 9), wird hier aber korrekt als Beziehung von Aktivität zu Objekt genutzt. Die ID für die Ortsbeziehung \"in\" ist 6. Die ID für die Eigentumsbeziehung \"own\" als Aktivität ist nicht direkt als Beziehung vorgesehen, aber da \"own\" als Aktivität behandelt wird und die Diagonale ID 4 (activity) verwendet, ist dies zulässig. Die räumliche Beziehung \"in\" zwischen Handlung und Ort ist über ID 6 (under) nicht korrekt abgebildet – es besteht ein Fehler: ID 6 ist \"under\" (unter), nicht \"in\" (in). Es existiert keine Typkodierung für \"in\" in den gegebenen Codes. Stattdessen existiert nur \"under\" (6), \"above\" (7), aber kein expliziter Typ für \"in\". Daher kann die Relation \"in\" nicht abgebildet werden. → Fehlende Typkodierung für \"in\". Korrektur: Es gibt KEINE Typkodierung für \"in\" unter den gegebenen IDs. Die vorhandenen räumlichen Relationen sind \"under\" (6) und \"above\" (7), aber nicht \"in\". Der Eintrag in der Matrix von \"swim\" zu \"pool\" mit Wert 6 (\"under\") wäre falsch, da \"in\" gemeint ist. Somit: KEINE gültige Typkodierung für die Relation \"in\" vorhanden. FEHLER.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 6],\n    [0, 0, 4, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" und das Besitzpronomen \\\"meinem\\\" werden aufgelöst zu \\\"maria\\\", basierend auf der gegebenen Identifikation des Nutzers. \\n2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist eine Aktivität (im Sinne einer Handlung oder Beziehung des Eigentums). \\n3. \\\"maria\\\" führt die Aktivität \\\"swim\\\" aus. \\\"swim\\\" steht in Beziehung zum Ziel \\\"pool\\\" (Schwimmen findet in einem Pool statt). \\\"maria\\\" steht in einer Besitzbeziehung zum \\\"pool\\\" über die Aktivität \\\"own\\\". \\\"own\\\" bezieht sich auf \\\"pool\\\". Die Beziehung \\\"in\\\" zwischen \\\"swim\\\" und \\\"pool\\\" wird durch die Typkodierung \\\"under\\\" oder \\\"in\\\" abgebildet. \\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 4. Die ID für perform ist 8. Die ID für target ist 9 – jedoch ist \\\"target\\\" in der Typkodierung vorhanden (ID 9), wird hier aber korrekt als Beziehung von Aktivität zu Objekt genutzt. Die ID für die Ortsbeziehung \\\"in\\\" ist 6. Die ID für die Eigentumsbeziehung \\\"own\\\" als Aktivität ist nicht direkt als Beziehung vorgesehen, aber da \\\"own\\\" als Aktivität behandelt wird und die Diagonale ID 4 (activity) verwendet, ist dies zulässig. Die räumliche Beziehung \\\"in\\\" zwischen Handlung und Ort ist über ID 6 (under) nicht korrekt abgebildet – es besteht ein Fehler: ID 6 ist \\\"under\\\" (unter), nicht \\\"in\\\" (in). Es existiert keine Typkodierung für \\\"in\\\" in den gegebenen Codes. Stattdessen existiert nur \\\"under\\\" (6), \\\"above\\\" (7), aber kein expliziter Typ für \\\"in\\\". Daher kann die Relation \\\"in\\\" nicht abgebildet werden. → Fehlende Typkodierung für \\\"in\\\". Korrektur: Es gibt KEINE Typkodierung für \\\"in\\\" unter den gegebenen IDs. Die vorhandenen räumlichen Relationen sind \\\"under\\\" (6) und \\\"above\\\" (7), aber nicht \\\"in\\\". Der Eintrag in der Matrix von \\\"swim\\\" zu \\\"pool\\\" mit Wert 6 (\\\"under\\\") wäre falsch, da \\\"in\\\" gemeint ist. Somit: KEINE gültige Typkodierung für die Relation \\\"in\\\" vorhanden. FEHLER.\"\n}"
+}

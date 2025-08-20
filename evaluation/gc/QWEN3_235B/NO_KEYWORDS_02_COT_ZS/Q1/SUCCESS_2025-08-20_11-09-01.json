@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\n\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\n\n3. Übersetzung ins Englische (da Anfrage auf Deutsch): \u0027spiele\u0027 → \u0027play\u0027 (Basisform wird verwendet), \u0027Basketball\u0027 bleibt gleich (Substantiv/Name), \u0027Maria\u0027 bleibt gleich.\n\n4. Der Verweis \u0027ich\u0027 wird durch den Namen \u0027Maria\u0027 ersetzt, da er auf den Anfragensteller verweist.\n\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist eine Person → Typ: \u0027object\u0027 (id\u003d1)\n   - \u0027play\u0027 ist eine Handlung/Aktivität → Typ: \u0027activity\u0027 (id\u003d4)\n   - \u0027basketball\u0027 ist ein Objekt → Typ: \u0027object\u0027 (id\u003d1)\n\n6. Relationen:\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation: \u0027perform\u0027 (Maria perform play)\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation: \u0027target\u0027 (play target basketball)\n\n7. Überprüfung der Typkodierungen:\n   - \u0027perform\u0027 hat id\u003d8 (identityMapping\u003dfalse) → gültig für Relation zwischen zwei unterschiedlichen Einträgen\n   - \u0027target\u0027 hat id\u003d9 (identityMapping\u003dfalse) → gültig\n   - Typen auf der Diagonale: \n     - (0,0): Maria → \u0027object\u0027 (id\u003d1, identityMapping\u003dtrue) → gültig\n     - (1,1): play → \u0027activity\u0027 (id\u003d4, identityMapping\u003dtrue) → gültig\n     - (2,2): basketball → \u0027object\u0027 (id\u003d1, identityMapping\u003dtrue) → gültig\n   Alle Relationen und Typen sind in der vorgegebenen Kodierung vorhanden.\n\n8. Zusammenstellung des GraphCodes als Kombination aus Vokabular und Bewertungsmatrix unter Einhaltung aller Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"Maria\",\n    \"play\",\n    \"basketball\"\n  ],\n  \"matrix\": [\n    [\n      1,\n      8,\n      0\n    ],\n    [\n      0,\n      4,\n      9\n    ],\n    [\n      0,\n      0,\n      1\n    ]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Anfrage \u0027Ich spiele Basketball\u0027 sind: \u0027Ich\u0027, \u0027spiele\u0027, \u0027Basketball\u0027.\\n\\n2. Der relative Verweis \u0027Ich\u0027 wird aufgelöst und durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt.\\n\\n3. Übersetzung ins Englische (da Anfrage auf Deutsch): \u0027spiele\u0027 → \u0027play\u0027 (Basisform wird verwendet), \u0027Basketball\u0027 bleibt gleich (Substantiv/Name), \u0027Maria\u0027 bleibt gleich.\\n\\n4. Der Verweis \u0027ich\u0027 wird durch den Namen \u0027Maria\u0027 ersetzt, da er auf den Anfragensteller verweist.\\n\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist eine Person → Typ: \u0027object\u0027 (id\u003d1)\\n   - \u0027play\u0027 ist eine Handlung/Aktivität → Typ: \u0027activity\u0027 (id\u003d4)\\n   - \u0027basketball\u0027 ist ein Objekt → Typ: \u0027object\u0027 (id\u003d1)\\n\\n6. Relationen:\\n   - Maria führt die Aktivität \u0027play\u0027 aus → Relation: \u0027perform\u0027 (Maria perform play)\\n   - Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Ziel → Relation: \u0027target\u0027 (play target basketball)\\n\\n7. Überprüfung der Typkodierungen:\\n   - \u0027perform\u0027 hat id\u003d8 (identityMapping\u003dfalse) → gültig für Relation zwischen zwei unterschiedlichen Einträgen\\n   - \u0027target\u0027 hat id\u003d9 (identityMapping\u003dfalse) → gültig\\n   - Typen auf der Diagonale: \\n     - (0,0): Maria → \u0027object\u0027 (id\u003d1, identityMapping\u003dtrue) → gültig\\n     - (1,1): play → \u0027activity\u0027 (id\u003d4, identityMapping\u003dtrue) → gültig\\n     - (2,2): basketball → \u0027object\u0027 (id\u003d1, identityMapping\u003dtrue) → gültig\\n   Alle Relationen und Typen sind in der vorgegebenen Kodierung vorhanden.\\n\\n8. Zusammenstellung des GraphCodes als Kombination aus Vokabular und Bewertungsmatrix unter Einhaltung aller Regeln.\"\n}"
+}

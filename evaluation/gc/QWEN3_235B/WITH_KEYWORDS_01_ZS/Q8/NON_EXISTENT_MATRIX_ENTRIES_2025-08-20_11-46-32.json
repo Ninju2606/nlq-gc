@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      2,
+      8,
+      5,
+      6
+    ],
+    [
+      2,
+      1,
+      8,
+      5,
+      6
+    ],
+    [
+      8,
+      8,
+      4,
+      9,
+      0
+    ],
+    [
+      5,
+      5,
+      9,
+      1,
+      6
+    ],
+    [
+      6,
+      6,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Meine Tochter und ich fahren Boot auf einem See",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 2, 8, 5, 6],\n    [2, 1, 8, 5, 6],\n    [8, 8, 4, 9, 0],\n    [5, 5, 9, 1, 6],\n    [6, 6, 0, 6, 1]\n  ],\n  \"description\": \"Meine Tochter und ich fahren Boot auf einem See\"\n}"
+}

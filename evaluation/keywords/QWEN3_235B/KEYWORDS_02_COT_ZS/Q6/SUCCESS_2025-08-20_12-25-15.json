@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die für eine Szenenbeschreibung im Metaverse relevant sind. Es fehlen spezifische Begriffe, die im Vokabular des GraphCodes abgebildet werden könnten. Die Aussage beschreibt eine Absicht zur Terminvereinbarung, aber keine darstellbare Szene mit Beziehungen zwischen Begriffen. Daher kann kein sinnvoller GraphCode generiert werden.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält keine konkreten Objekte, Attribute oder Aktivitäten, die für eine Szenenbeschreibung im Metaverse relevant sind. Es fehlen spezifische Begriffe, die im Vokabular des GraphCodes abgebildet werden könnten. Die Aussage beschreibt eine Absicht zur Terminvereinbarung, aber keine darstellbare Szene mit Beziehungen zwischen Begriffen. Daher kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

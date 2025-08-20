@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      5,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ich schwimme in einem Pool, der mir gehört. Die Szene beschreibt Maria als handelnde Person (object), die die Aktivität \u0027swim\u0027 ausführt. \u0027Swim\u0027 wird von Maria durchgeführt (perform-Beziehung). Maria besitzt (own) den Pool, wobei \u0027own\u0027 eine Beziehung vom Typ \u0027attached\u0027 darstellt. Der Pool ist ebenfalls ein Objekt (object). Die Beziehung \u0027target\u0027 verbindet die Aktivität \u0027swim\u0027 mit dem Objekt \u0027pool\u0027, da im Pool geschwommen wird. Die Typkodierungen folgen den vorgegebenen Regeln mit identityMapping auf der Diagonalen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 0, 9],\n    [0, 0, 5, 5],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Ich schwimme in einem Pool, der mir gehört. Die Szene beschreibt Maria als handelnde Person (object), die die Aktivität \u0027swim\u0027 ausführt. \u0027Swim\u0027 wird von Maria durchgeführt (perform-Beziehung). Maria besitzt (own) den Pool, wobei \u0027own\u0027 eine Beziehung vom Typ \u0027attached\u0027 darstellt. Der Pool ist ebenfalls ein Objekt (object). Die Beziehung \u0027target\u0027 verbindet die Aktivität \u0027swim\u0027 mit dem Objekt \u0027pool\u0027, da im Pool geschwommen wird. Die Typkodierungen folgen den vorgegebenen Regeln mit identityMapping auf der Diagonalen.\"\n}"
+}

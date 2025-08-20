@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist semantisch inkohärent und grammatikalisch mehrdeutig. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 herstellen. Insbesondere der Ausdruck \u0027Fragen zu malen\u0027 widerspricht alltäglicher Sprachverwendung und lässt keine eindeutige Zuordnung von Objekten, Attributen oder Aktivitäten zu. Ohne klare Szenenbeschreibung im Metaverse-Kontext können keine validen Stichwörter ermittelt und Relationen abgeleitet werden.",
+  "error": "Unklare Anfrage",
+  "responsePlain": "{\n  \"error\": \"Unklare Anfrage\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist semantisch inkohärent und grammatikalisch mehrdeutig. Es lässt sich kein sinnvoller Zusammenhang zwischen den Begriffen \u0027Häuser\u0027, \u0027Fragen\u0027 und \u0027malen\u0027 herstellen. Insbesondere der Ausdruck \u0027Fragen zu malen\u0027 widerspricht alltäglicher Sprachverwendung und lässt keine eindeutige Zuordnung von Objekten, Attributen oder Aktivitäten zu. Ohne klare Szenenbeschreibung im Metaverse-Kontext können keine validen Stichwörter ermittelt und Relationen abgeleitet werden.\"\n}"
+}

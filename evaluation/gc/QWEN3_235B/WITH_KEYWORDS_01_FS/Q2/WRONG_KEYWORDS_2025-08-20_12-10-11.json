@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      8
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Tim rennt. Die Szene beschreibt eine Handlung (run) eines Objekts (tim). Da die Handlung von einer Person (tim) ausgeführt wird, wird die Relation \u0027perform\u0027 (ID 8) zwischen \u0027tim\u0027 und \u0027run\u0027 hergestellt. Da \u0027run\u0027 eine Aktivität ist, erhält es auf der Diagonalen den Typ 4 (activity). Da die Nutzeranfrage impliziert, dass Maria die Identifikation des Nutzers ist und die Handlung nicht direkt von ihr ausgeführt wird, wird Maria als Objekt (ID 1) eingetragen und initial mit niemandem verknüpft. Die Matrix respektiert alle Regeln bezüglich identityMapping und Beziehungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"tim\", \"run\"],\n  \"matrix\": [\n    [1, 0, 8],\n    [0, 1, 8],\n    [0, 0, 4]\n  ],\n  \"description\": \"Tim rennt. Die Szene beschreibt eine Handlung (run) eines Objekts (tim). Da die Handlung von einer Person (tim) ausgeführt wird, wird die Relation \u0027perform\u0027 (ID 8) zwischen \u0027tim\u0027 und \u0027run\u0027 hergestellt. Da \u0027run\u0027 eine Aktivität ist, erhält es auf der Diagonalen den Typ 4 (activity). Da die Nutzeranfrage impliziert, dass Maria die Identifikation des Nutzers ist und die Handlung nicht direkt von ihr ausgeführt wird, wird Maria als Objekt (ID 1) eingetragen und initial mit niemandem verknüpft. Die Matrix respektiert alle Regeln bezüglich identityMapping und Beziehungen.\"\n}"
+}

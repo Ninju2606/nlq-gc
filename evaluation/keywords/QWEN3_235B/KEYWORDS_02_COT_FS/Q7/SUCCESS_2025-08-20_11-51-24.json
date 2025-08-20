@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter ermittelt werden, da die Phrase \u0027Häuser um Fragen zu malen\u0027 semantisch nicht korrekt ist (z.B. \u0027Fragen malen\u0027 ist keine sinnvolle Handlung).",
+  "error": "Die Anfrage ist grammatikalisch unklar oder ergibt keinen Sinn. Bitte überprüfe die Formulierung.",
+  "responsePlain": "{\n    \"error\": \"Die Anfrage ist grammatikalisch unklar oder ergibt keinen Sinn. Bitte überprüfe die Formulierung.\",\n    \"description\": \"Es können keine sinnvollen Stichwörter ermittelt werden, da die Phrase \u0027Häuser um Fragen zu malen\u0027 semantisch nicht korrekt ist (z.B. \u0027Fragen malen\u0027 ist keine sinnvolle Handlung).\"\n}"
+}

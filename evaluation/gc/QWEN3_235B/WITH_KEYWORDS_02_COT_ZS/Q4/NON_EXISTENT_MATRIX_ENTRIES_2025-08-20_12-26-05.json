@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      5
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027ich\u0027 wird durch die angegebene Identifikation \u0027Maria\u0027 ersetzt. \u0027Meinem Pool\u0027 wird zu \u0027Maras Pool\u0027 im Sinne der Zugehörigkeit, also durch die Relation \u0027own\u0027 (besitzen) zwischen Maria und Pool.\n\n2. Attributeigenschaften der Stichwörter: \n- \u0027maria\u0027: Dies ist ein Objekt (Typ 1), da es eine Entität bezeichnet. \n- \u0027swim\u0027: Dies ist eine Aktivität (Typ 4), beschreibt eine Handlung.\n- \u0027own\u0027: Stellt eine Beziehung der Zugehörigkeit dar. Laut Typkodierung ist \u0027own\u0027 nicht direkt enthalten, aber die Relation \u0027attached\u0027 (Typ 5) wird genutzt, um Besitz abzubilden, da es für räumliche oder relationale Zugehörigkeit steht und hier analog verwendet wird.\n- \u0027pool\u0027: Ein Objekt (Typ 1), konkrete Entität.\n\n3. Relationen zwischen den Stichwörtern: \n- Maria \u0027perform\u0027 swim → Maria führt das Schwimmen aus (Relation \u0027perform\u0027, Typ 8).\n- Swim \u0027target\u0027 pool → Das Schwimmen findet im Pool statt, d.h. der Pool ist das Zielobjekt der Aktivität (Relation \u0027target\u0027, Typ 9).\n- Maria \u0027attached\u0027 pool → Maria besitzt den Pool, also besteht eine Zugehörigkeit (Relation \u0027attached\u0027, Typ 5).\n- \u0027own\u0027 wird als relationales Verb verwendet, aber als eigenständiger Begriff im Vokabular klassifiziert. Da \u0027own\u0027 kein direkter Typ ist, wird es als \u0027daughter\u0027-Beziehung (Typ 10) von \u0027attached\u0027 interpretiert. Allerdings ist im Typsystem \u0027own\u0027 nicht explizit vorgesehen, daher wird stattdessen die bestmögliche Abbildung über \u0027attached\u0027 (Typ 5) zwischen Maria und Pool verwendet. Der Eintrag für \u0027own\u0027 im Vokabular wird daher als Kontext oder Hilfsrelation betrachtet, wird aber in der Matrix über die Relation \u0027daughter\u0027 (Typ 10) auf Maria → Pool abgebildet, um seine Rolle als Besitz-Beziehung darzustellen. Der Eintrag (2,2) für \u0027own\u0027 muss ein Typ mit identityMapping\u003dtrue sein – \u0027own\u0027 ist jedoch kein solcher Typ. Da \u0027own\u0027 weder ein Objekt, noch Kontext, noch Synonym, noch Aktivität ist, gibt es keinen geeigneten Typ mit identityMapping\u003dtrue, der auf (2,2) passt. Hier entsteht ein Widerspruch.\n\n4. Überprüfung der Typkodierungen: \n- \u0027maria\u0027 (Typ 1: object) → erlaubt, identityMapping\u003dtrue → gültig.\n- \u0027swim\u0027 (Typ 4: activity) → erlaubt, identityMapping\u003dtrue → gültig.\n- \u0027own\u0027 → muss auf Diagonale (2,2) einen Typ mit identityMapping\u003dtrue haben. Mögliche Typen sind nur 1 (object), 2 (context), 3 (synonym), 4 (activity). \u0027own\u0027 ist kein Objekt, keine Aktivität, kein Synonym, aber könnte als Kontext (Typ 2) angesehen werden. Allerdings ist \u0027own\u0027 eine relationale Aktion, also kein neutraler Kontext. Es gibt keine direkte Typkodierung für \u0027own\u0027 mit identityMapping\u003dtrue. Kein gültiger Typ kann auf Index 2 (für \u0027own\u0027) in der Diagonale zugewiesen werden. Daher ist die Matrix ungültig.\n\nFehlerhafte Zuweisung: Der Begriff \u0027own\u0027 im Vokabular erfordert einen Diagonaleintrag mit identityMapping\u003dtrue, aber es existiert kein passender Typ (id:1,2,3,4). Die Typen 5 bis 10 haben identityMapping\u003dfalse und dürfen daher nicht auf der Diagonalen stehen. Somit ist die Anforderung nicht erfüllbar. Daher muss ein Fehler ausgelöst werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 5],\n    [0, 4, 0, 0],\n    [0, 0, 10, 0],\n    [0, 9, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Das Pronomen \u0027ich\u0027 wird durch die angegebene Identifikation \u0027Maria\u0027 ersetzt. \u0027Meinem Pool\u0027 wird zu \u0027Maras Pool\u0027 im Sinne der Zugehörigkeit, also durch die Relation \u0027own\u0027 (besitzen) zwischen Maria und Pool.\\n\\n2. Attributeigenschaften der Stichwörter: \\n- \u0027maria\u0027: Dies ist ein Objekt (Typ 1), da es eine Entität bezeichnet. \\n- \u0027swim\u0027: Dies ist eine Aktivität (Typ 4), beschreibt eine Handlung.\\n- \u0027own\u0027: Stellt eine Beziehung der Zugehörigkeit dar. Laut Typkodierung ist \u0027own\u0027 nicht direkt enthalten, aber die Relation \u0027attached\u0027 (Typ 5) wird genutzt, um Besitz abzubilden, da es für räumliche oder relationale Zugehörigkeit steht und hier analog verwendet wird.\\n- \u0027pool\u0027: Ein Objekt (Typ 1), konkrete Entität.\\n\\n3. Relationen zwischen den Stichwörtern: \\n- Maria \u0027perform\u0027 swim → Maria führt das Schwimmen aus (Relation \u0027perform\u0027, Typ 8).\\n- Swim \u0027target\u0027 pool → Das Schwimmen findet im Pool statt, d.h. der Pool ist das Zielobjekt der Aktivität (Relation \u0027target\u0027, Typ 9).\\n- Maria \u0027attached\u0027 pool → Maria besitzt den Pool, also besteht eine Zugehörigkeit (Relation \u0027attached\u0027, Typ 5).\\n- \u0027own\u0027 wird als relationales Verb verwendet, aber als eigenständiger Begriff im Vokabular klassifiziert. Da \u0027own\u0027 kein direkter Typ ist, wird es als \u0027daughter\u0027-Beziehung (Typ 10) von \u0027attached\u0027 interpretiert. Allerdings ist im Typsystem \u0027own\u0027 nicht explizit vorgesehen, daher wird stattdessen die bestmögliche Abbildung über \u0027attached\u0027 (Typ 5) zwischen Maria und Pool verwendet. Der Eintrag für \u0027own\u0027 im Vokabular wird daher als Kontext oder Hilfsrelation betrachtet, wird aber in der Matrix über die Relation \u0027daughter\u0027 (Typ 10) auf Maria → Pool abgebildet, um seine Rolle als Besitz-Beziehung darzustellen. Der Eintrag (2,2) für \u0027own\u0027 muss ein Typ mit identityMapping\u003dtrue sein – \u0027own\u0027 ist jedoch kein solcher Typ. Da \u0027own\u0027 weder ein Objekt, noch Kontext, noch Synonym, noch Aktivität ist, gibt es keinen geeigneten Typ mit identityMapping\u003dtrue, der auf (2,2) passt. Hier entsteht ein Widerspruch.\\n\\n4. Überprüfung der Typkodierungen: \\n- \u0027maria\u0027 (Typ 1: object) → erlaubt, identityMapping\u003dtrue → gültig.\\n- \u0027swim\u0027 (Typ 4: activity) → erlaubt, identityMapping\u003dtrue → gültig.\\n- \u0027own\u0027 → muss auf Diagonale (2,2) einen Typ mit identityMapping\u003dtrue haben. Mögliche Typen sind nur 1 (object), 2 (context), 3 (synonym), 4 (activity). \u0027own\u0027 ist kein Objekt, keine Aktivität, kein Synonym, aber könnte als Kontext (Typ 2) angesehen werden. Allerdings ist \u0027own\u0027 eine relationale Aktion, also kein neutraler Kontext. Es gibt keine direkte Typkodierung für \u0027own\u0027 mit identityMapping\u003dtrue. Kein gültiger Typ kann auf Index 2 (für \u0027own\u0027) in der Diagonale zugewiesen werden. Daher ist die Matrix ungültig.\\n\\nFehlerhafte Zuweisung: Der Begriff \u0027own\u0027 im Vokabular erfordert einen Diagonaleintrag mit identityMapping\u003dtrue, aber es existiert kein passender Typ (id:1,2,3,4). Die Typen 5 bis 10 haben identityMapping\u003dfalse und dürfen daher nicht auf der Diagonalen stehen. Somit ist die Anforderung nicht erfüllbar. Daher muss ein Fehler ausgelöst werden.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Vokabular erfolgreich mit den Schlüsselwörtern \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027 generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"description\": \"Vokabular erfolgreich mit den Schlüsselwörtern \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027 generiert.\"\n}"
+}

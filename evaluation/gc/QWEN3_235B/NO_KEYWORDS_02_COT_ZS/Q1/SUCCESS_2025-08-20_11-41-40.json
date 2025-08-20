@@ -1,0 +1,28 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      4,
+      9
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 1.0,
+  "description": "1. Ermittelte Stichwörter: \u0027spiele\u0027 (Aktivität), \u0027Basketball\u0027 (Objekt). \u0027Ich\u0027 als Benutzerreferenz identifiziert.\n2. Relativer Verweis \u0027Ich\u0027 wurde durch die Benutzeridentifikation \u0027Maria\u0027 ersetzt.\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als \u0027basketball\u0027 (Eigennamen werden nicht übersetzt).\n4. Benutzeridentifikation \u0027Maria\u0027 für den Verweis \u0027Ich\u0027 eingefügt.\n5. Attributeigenschaften: \u0027Maria\u0027 (Typ 1: object), \u0027play\u0027 (Typ 4: activity), \u0027basketball\u0027 (Typ 1: object).\n6. Relationen: Maria führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, i\u003d0→j\u003d1). Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Zielobjekt (Relation \u0027target\u0027, i\u003d1→j\u003d2).\n7. Alle Relationen haben gültige Typkodierungen: \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) existieren in den vorgegebenen Kodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 4, 9],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Ermittelte Stichwörter: \u0027spiele\u0027 (Aktivität), \u0027Basketball\u0027 (Objekt). \u0027Ich\u0027 als Benutzerreferenz identifiziert.\\n2. Relativer Verweis \u0027Ich\u0027 wurde durch die Benutzeridentifikation \u0027Maria\u0027 ersetzt.\\n3. Übersetzung ins Englische: \u0027spiele\u0027 → \u0027play\u0027, \u0027Basketball\u0027 bleibt als \u0027basketball\u0027 (Eigennamen werden nicht übersetzt).\\n4. Benutzeridentifikation \u0027Maria\u0027 für den Verweis \u0027Ich\u0027 eingefügt.\\n5. Attributeigenschaften: \u0027Maria\u0027 (Typ 1: object), \u0027play\u0027 (Typ 4: activity), \u0027basketball\u0027 (Typ 1: object).\\n6. Relationen: Maria führt die Aktivität \u0027play\u0027 aus (Relation \u0027perform\u0027, i\u003d0→j\u003d1). Die Aktivität \u0027play\u0027 hat \u0027basketball\u0027 als Zielobjekt (Relation \u0027target\u0027, i\u003d1→j\u003d2).\\n7. Alle Relationen haben gültige Typkodierungen: \u0027perform\u0027 (ID 8) und \u0027target\u0027 (ID 9) existieren in den vorgegebenen Kodierungen.\"\n}"
+}

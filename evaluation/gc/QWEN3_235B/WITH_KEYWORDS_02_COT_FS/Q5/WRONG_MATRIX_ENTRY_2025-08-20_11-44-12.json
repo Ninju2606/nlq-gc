@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      5,
+      0
+    ],
+    [
+      0,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Der relative Verweis \"ich\" wurde aufgelöst zu \"maria\" gemäß der vorgegebenen Identifikation des Nutzers.\n2. \"maria\" und \"hat\" sind Objekte der Anfrage (Typ: object). \"wear\" ist eine Aktivität (Typ: activity). \"yellow\" ist ein Attribut, das eine Eigenschaft beschreibt, also ein Kontext (Typ: context).\n3. \"maria\" führt die Aktivität \"wear\" aus. Die Aktivität \"wear\" hat als Ziel das Objekt \"hat\". Das Objekt \"hat\" besitzt die Charakteristik \"yellow\". Der Begriff \"yellow\" fungiert als Kontext und beschreibt ein Attribut des Hutes.\n4. Die ID für \"object\" ist 1 (identityMapping\u003dtrue). Die ID für \"activity\" ist 4 (identityMapping\u003dtrue). Die ID für \"perform\" ist 8 (identityMapping\u003dfalse). Die ID für \"target\" ist 9 (identityMapping\u003dfalse). Die ID für \"characteristic\" ist 14 (identityMapping\u003dfalse). Die ID für \"context\" ist 3 (identityMapping\u003dtrue). Alle benötigten Typkodierungen sind vorhanden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 8, 5, 0],\n    [0, 4, 9, 0],\n    [0, 0, 1, 14],\n    [0, 0, 0, 3]\n  ],\n  \"description\": \"1. Der relative Verweis \\\"ich\\\" wurde aufgelöst zu \\\"maria\\\" gemäß der vorgegebenen Identifikation des Nutzers.\\n2. \\\"maria\\\" und \\\"hat\\\" sind Objekte der Anfrage (Typ: object). \\\"wear\\\" ist eine Aktivität (Typ: activity). \\\"yellow\\\" ist ein Attribut, das eine Eigenschaft beschreibt, also ein Kontext (Typ: context).\\n3. \\\"maria\\\" führt die Aktivität \\\"wear\\\" aus. Die Aktivität \\\"wear\\\" hat als Ziel das Objekt \\\"hat\\\". Das Objekt \\\"hat\\\" besitzt die Charakteristik \\\"yellow\\\". Der Begriff \\\"yellow\\\" fungiert als Kontext und beschreibt ein Attribut des Hutes.\\n4. Die ID für \\\"object\\\" ist 1 (identityMapping\u003dtrue). Die ID für \\\"activity\\\" ist 4 (identityMapping\u003dtrue). Die ID für \\\"perform\\\" ist 8 (identityMapping\u003dfalse). Die ID für \\\"target\\\" ist 9 (identityMapping\u003dfalse). Die ID für \\\"characteristic\\\" ist 14 (identityMapping\u003dfalse). Die ID für \\\"context\\\" ist 3 (identityMapping\u003dtrue). Alle benötigten Typkodierungen sind vorhanden.\"\n}"
+}
