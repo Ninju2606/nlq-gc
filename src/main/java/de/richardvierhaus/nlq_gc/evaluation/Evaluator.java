@@ -1,5 +1,6 @@
 package de.richardvierhaus.nlq_gc.evaluation;
 
+import de.richardvierhaus.nlq_gc.enums.ModelLiterals;
 import de.richardvierhaus.nlq_gc.enums.PromptGraphCode;
 import de.richardvierhaus.nlq_gc.enums.PromptKeyword;
 import org.slf4j.Logger;
@@ -12,10 +13,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Evaluator {
 
-    private static final int RUNS_PER_EXECUTION = 10;
+    private static final int RUNS_PER_EXECUTION = 20;
 
     private final Logger LOGGER = LoggerFactory.getLogger(Evaluator.class);
     private final List<Execution> executions = new ArrayList<>();
@@ -53,14 +56,22 @@ public class Evaluator {
 
     private void run() {
         LOGGER.info(String.valueOf(executions.size()));
-        executions.forEach(this::runExecution);
+        Collections.shuffle(executions);
+        ExecutorService executor = Executors.newFixedThreadPool(10);
+        try {
+            for (Execution exec : executions) {
+                executor.submit(() -> runExecution(exec));
+            }
+        } finally {
+            executor.shutdown();
+        }
     }
 
     private void runExecution(final Execution execution) {
         try {
             LOGGER.info("Starting execution of prompt [{}] with query [{}]", execution.getPrompt(), execution.getNlq());
-            String transaction = Execution.getModel().getLLM().handlePrompt(execution.getFullPrompt());
-            String response = pollResponse(transaction);
+            String transaction = execution.getModel().getLLM().handlePrompt(execution.getFullPrompt());
+            String response = pollResponse(transaction, execution.getModel());
             LOGGER.debug("Response: {}", response);
             if (!StringUtils.hasText(response)) return;
 
@@ -75,14 +86,14 @@ public class Evaluator {
         }
     }
 
-    private String pollResponse(final String transactionID) {
+    private String pollResponse(final String transactionID, final ModelLiterals model) {
         int maxAttempts = 60; // 60 seconds
         int attempts = 0;
         String response = null;
 
         while (attempts < maxAttempts) {
             try {
-                response = Execution.getModel().getLLM().getResponse(transactionID);
+                response = model.getLLM().getResponse(transactionID);
                 if (StringUtils.hasText(response)) break;
 
                 Thread.sleep(1000);

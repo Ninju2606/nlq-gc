@@ -15,7 +15,7 @@ public class Execution {
     private static final Gson GSON = new Gson();
     private static final String USER = "Maria";
     private static final List<EncodingMapping> ENCODINGS = createEncodings();
-    private static final ModelLiterals MODEL = ModelLiterals.QWEN3_CODER;
+    private static final ModelLiterals MODEL = ModelLiterals.QWEN2_5_72B_INSTRUCT;
 
     private final Prompt prompt;
     private final Query nlq;
@@ -99,7 +99,7 @@ public class Execution {
         return ENCODINGS;
     }
 
-    public static ModelLiterals getModel() {
+    public ModelLiterals getModel() {
         return MODEL;
     }
 
