@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "situation"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Der Begriff \u0027Maria\u0027 wird als Objekt (Typobject) kodiert, \u0027gelb\u0027 als Attribut (Typactivity), \u0027Hut\u0027 als Objekt (Typobject) und \u0027situation\u0027 als Kontext (Typcontext).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"situation\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt Situationen, in denen Maria einen gelben Hut trägt. Der Begriff \u0027Maria\u0027 wird als Objekt (Typobject) kodiert, \u0027gelb\u0027 als Attribut (Typactivity), \u0027Hut\u0027 als Objekt (Typobject) und \u0027situation\u0027 als Kontext (Typcontext).\"\n}"
+}

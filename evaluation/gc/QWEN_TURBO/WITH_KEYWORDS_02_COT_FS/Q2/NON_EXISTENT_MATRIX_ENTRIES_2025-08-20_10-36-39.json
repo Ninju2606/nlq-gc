@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Tim\" wurde nicht zu einer Identifikation des Nutzers zugeordnet, da keine Selbstidentifikation wie \"ich\" oder \"mein\" vorliegt. 2. \"Tim\" ist ein Objekt der Anfrage. \"run\" ist eine Aktivität. 3. \"Tim\" führt die Aktivität \"run\" aus. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die Relation \"ausführen\" (perform) ist vorhanden. Die Relation \"beziehen\" (target) ist nicht direkt anwendbar, da nicht klar ist, was \"run\" bezieht. Es gibt keine Notwendigkeit für eine Beziehung zwischen \"tim\" und \"run\" außer dem Ausführen. 5. Die Matrix enthält ausschließlich erlaubte Werte. Auf der Diagonalen sind Objekt und Aktivität korrekt kodiert. Zwischen den Begriffen ist die Beziehung \"ausführen\" (ID 7) korrekt dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Tim\\\" wurde nicht zu einer Identifikation des Nutzers zugeordnet, da keine Selbstidentifikation wie \\\"ich\\\" oder \\\"mein\\\" vorliegt. 2. \\\"Tim\\\" ist ein Objekt der Anfrage. \\\"run\\\" ist eine Aktivität. 3. \\\"Tim\\\" führt die Aktivität \\\"run\\\" aus. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die Relation \\\"ausführen\\\" (perform) ist vorhanden. Die Relation \\\"beziehen\\\" (target) ist nicht direkt anwendbar, da nicht klar ist, was \\\"run\\\" bezieht. Es gibt keine Notwendigkeit für eine Beziehung zwischen \\\"tim\\\" und \\\"run\\\" außer dem Ausführen. 5. Die Matrix enthält ausschließlich erlaubte Werte. Auf der Diagonalen sind Objekt und Aktivität korrekt kodiert. Zwischen den Begriffen ist die Beziehung \\\"ausführen\\\" (ID 7) korrekt dargestellt.\"\n}"
+}

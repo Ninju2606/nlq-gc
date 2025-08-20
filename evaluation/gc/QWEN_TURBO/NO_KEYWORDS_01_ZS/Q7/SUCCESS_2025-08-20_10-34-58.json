@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klaren Begriffe, die einem Metaverse-Medienobjekt entsprechen. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, um einen sinnvollen GraphCode zu erstellen.",
+  "error": "No valid GraphCode could be generated",
+  "responsePlain": "{\n  \"error\": \"No valid GraphCode could be generated\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 enthält keine klaren Begriffe, die einem Metaverse-Medienobjekt entsprechen. Es fehlen konkrete Objekte, Attribute oder Aktivitäten, um einen sinnvollen GraphCode zu erstellen.\"\n}"
+}

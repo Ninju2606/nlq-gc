@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \"Maria\" wird im Vokabular berücksichtigt, da sie explizit angegeben wurde. 2. Die Attribute der Stichwörter sind wie folgt: - \"maria\": ist ein Objekt (identityMapping: true) - \"make\": ist eine Aktivität (identityMapping: true) - \"appointment\": ist ein Objekt (identityMapping: true) 3. Die Beziehungen zwischen den Stichwörtern sind: - \"maria\" und \"make\": Es wird angenommen, dass Maria eine Aktivität (Make) durchführt. Die Beziehung kann als \"perform\" (ID:8) kodiert werden. - \"make\" und \"appointment\": Die Aktivität \"make\" bezieht sich auf die \"appointment\", was als \"target\" (ID:9) kodiert werden könnte. - \"maria\" und \"appointment\": Die Beziehung zwischen Maria und dem Termin könnte als \"target\" (ID:9) interpretiert werden. 4. Alle Relationen aus Schritten 2 und 3 haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde auf Basis der gegebenen Anfrage und Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \\\"Maria\\\" wird im Vokabular berücksichtigt, da sie explizit angegeben wurde. 2. Die Attribute der Stichwörter sind wie folgt: - \\\"maria\\\": ist ein Objekt (identityMapping: true) - \\\"make\\\": ist eine Aktivität (identityMapping: true) - \\\"appointment\\\": ist ein Objekt (identityMapping: true) 3. Die Beziehungen zwischen den Stichwörtern sind: - \\\"maria\\\" und \\\"make\\\": Es wird angenommen, dass Maria eine Aktivität (Make) durchführt. Die Beziehung kann als \\\"perform\\\" (ID:8) kodiert werden. - \\\"make\\\" und \\\"appointment\\\": Die Aktivität \\\"make\\\" bezieht sich auf die \\\"appointment\\\", was als \\\"target\\\" (ID:9) kodiert werden könnte. - \\\"maria\\\" und \\\"appointment\\\": Die Beziehung zwischen Maria und dem Termin könnte als \\\"target\\\" (ID:9) interpretiert werden. 4. Alle Relationen aus Schritten 2 und 3 haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde auf Basis der gegebenen Anfrage und Typkodierungen erstellt.\"\n}"
+}

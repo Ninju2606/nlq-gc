@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage **„Ich schwimme in meinem Pool“** als **GraphCode im Wagenpfeil-Format** (typcodierte Adjazenzmatrix), ausgedrückt als **JSON-Objekt** mit den Attributen `dictionary` (Bezeichner der Begriffe) und `matrix` (Adjazenzmatrix mit Typwerten):\n\n\n{\n  \"dictionary\": {\n    \"0\": \"Ich\",\n    \"1\": \"schwimme\",\n    \"2\": \"in\",\n    \"3\": \"meinem\",\n    \"4\": \"Pool\"\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erläuterung:\n\nDa die Anfrage **„Ich schwimme in meinem Pool“** lediglich **eine Phrase** ist, die keine expliziten Beziehungen zwischen den Begriffen (d.h. keine Relationen wie \"under\", \"above\", \"target\" usw.) enthält, wird die **Adjazenzmatrix** mit Nullen gefüllt. Es sind **keine Beziehungen** zwischen den Begriffen im Text definiert.\n\nWenn du willst, kann ich auch eine Beispielmatrix mit Beziehungen erstellen, wenn die Anfrage komplexer ist."
+}

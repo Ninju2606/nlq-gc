@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Die Identifikation des Nutzers (Maria) wurde in das Vokabular aufgenommen. Der Nutzer bezieht sich auf sich selbst mit der Identifikation \u0027Maria\u0027. 2. Die Stichwörter haben folgende Attribute: \u0027maria\u0027 ist eine Person (object), \u0027person\u0027 ist eine Personenklasse (object), \u0027drive\u0027 ist eine Aktivität (activity), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Kontext (context). 3. Die Stichwörter stehen in folgenden Beziehungen: \u0027maria\u0027 ist eine \u0027person\u0027 (object), \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus, \u0027drive\u0027 bezieht sich auf ein \u0027boat\u0027, und \u0027boat\u0027 ist auf einem \u0027lake\u0027. 4. Alle Relationen haben passende Typkodierungen: \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4). 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonalen die Werte der identityMapping mit identityMapping\u003dtrue enthalten und die übrigen Einträge valide sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wurde in das Vokabular aufgenommen. Der Nutzer bezieht sich auf sich selbst mit der Identifikation \u0027Maria\u0027. 2. Die Stichwörter haben folgende Attribute: \u0027maria\u0027 ist eine Person (object), \u0027person\u0027 ist eine Personenklasse (object), \u0027drive\u0027 ist eine Aktivität (activity), \u0027boat\u0027 ist ein Objekt (object), \u0027lake\u0027 ist ein Kontext (context). 3. Die Stichwörter stehen in folgenden Beziehungen: \u0027maria\u0027 ist eine \u0027person\u0027 (object), \u0027maria\u0027 führt die Aktivität \u0027drive\u0027 aus, \u0027drive\u0027 bezieht sich auf ein \u0027boat\u0027, und \u0027boat\u0027 ist auf einem \u0027lake\u0027. 4. Alle Relationen haben passende Typkodierungen: \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4). 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonalen die Werte der identityMapping mit identityMapping\u003dtrue enthalten und die übrigen Einträge valide sind.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "house",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027. Nach Filterung und Verallgemeinerung: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 im Stichwort. 5. Attributeigenschaften: \u0027house\u0027 (object), \u0027ask\u0027 (context), \u0027paint\u0027 (activity). 6. Beziehungen: \u0027house\u0027 und \u0027ask\u0027 (context), \u0027house\u0027 und \u0027paint\u0027 (activity), \u0027ask\u0027 und \u0027paint\u0027 (activity). 7. Alle Relationen sind in den Typkodierungen enthalten. 8. GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027. Nach Filterung und Verallgemeinerung: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 im Stichwort. 5. Attributeigenschaften: \u0027house\u0027 (object), \u0027ask\u0027 (context), \u0027paint\u0027 (activity). 6. Beziehungen: \u0027house\u0027 und \u0027ask\u0027 (context), \u0027house\u0027 und \u0027paint\u0027 (activity), \u0027ask\u0027 und \u0027paint\u0027 (activity). 7. Alle Relationen sind in den Typkodierungen enthalten. 8. GraphCode wurde erstellt.\"\n}"
+}

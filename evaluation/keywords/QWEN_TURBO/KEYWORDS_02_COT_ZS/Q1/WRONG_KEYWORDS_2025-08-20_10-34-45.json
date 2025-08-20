@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Das Stichwort \u0027Basketball\u0027 wurde ins Englische übersetzt und als \u0027basketball\u0027 hinzugefügt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Das Stichwort \u0027Basketball\u0027 wurde ins Englische übersetzt und als \u0027basketball\u0027 hinzugefügt.\"\n}"
+}

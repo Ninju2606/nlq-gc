@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert, basierend auf der Anfrage \u0027Ich schwimme in meinem Pool\u0027. Der Nutzer \u0027Maria\u0027 wird als Begriff im Vokabular berücksichtigt, \u0027schwimmen\u0027 als Aktivität und \u0027Pool\u0027 als Objekt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert, basierend auf der Anfrage \u0027Ich schwimme in meinem Pool\u0027. Der Nutzer \u0027Maria\u0027 wird als Begriff im Vokabular berücksichtigt, \u0027schwimmen\u0027 als Aktivität und \u0027Pool\u0027 als Objekt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie Bezug nimmt. 2. Die Attribute der Begriffe sind: \u0027maria\u0027 als Objekt, \u0027wear\u0027 als Aktivität, \u0027hat\u0027 als Objekt und \u0027yellow\u0027 als Merkmal. 3. \u0027maria\u0027 und \u0027wear\u0027 stehen in einer Aktivitätsbeziehung (ID 8), \u0027maria\u0027 und \u0027hat\u0027 in einer Identitätsbeziehung (ID 1), \u0027maria\u0027 und \u0027yellow\u0027 in einer Identitätsbeziehung (ID 1), \u0027wear\u0027 und \u0027hat\u0027 in einer Identitätsbeziehung (ID 1), \u0027wear\u0027 und \u0027yellow\u0027 in einer Identitätsbeziehung (ID 1), sowie \u0027hat\u0027 und \u0027yellow\u0027 in einer Identitätsbeziehung (ID 1). 4. Alle Relationen sind mit verfügbaren Typkodierungen abgedeckt. 5. Der GraphCode wurde entsprechend der Anforderungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie Bezug nimmt. 2. Die Attribute der Begriffe sind: \u0027maria\u0027 als Objekt, \u0027wear\u0027 als Aktivität, \u0027hat\u0027 als Objekt und \u0027yellow\u0027 als Merkmal. 3. \u0027maria\u0027 und \u0027wear\u0027 stehen in einer Aktivitätsbeziehung (ID 8), \u0027maria\u0027 und \u0027hat\u0027 in einer Identitätsbeziehung (ID 1), \u0027maria\u0027 und \u0027yellow\u0027 in einer Identitätsbeziehung (ID 1), \u0027wear\u0027 und \u0027hat\u0027 in einer Identitätsbeziehung (ID 1), \u0027wear\u0027 und \u0027yellow\u0027 in einer Identitätsbeziehung (ID 1), sowie \u0027hat\u0027 und \u0027yellow\u0027 in einer Identitätsbeziehung (ID 1). 4. Alle Relationen sind mit verfügbaren Typkodierungen abgedeckt. 5. Der GraphCode wurde entsprechend der Anforderungen erstellt.\"\n}"
+}

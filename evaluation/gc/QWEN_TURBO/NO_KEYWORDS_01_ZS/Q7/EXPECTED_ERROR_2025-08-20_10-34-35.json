@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "ask",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Beziehung zwischen \u0027houses\u0027, \u0027ask\u0027 und \u0027paint\u0027. \u0027houses\u0027 ist ein Objekt (Typ 1), \u0027ask\u0027 ist eine Aktivität (Typ 4), und \u0027paint\u0027 ist ein Objekt (Typ 1). Es gibt keine direkte Beziehung zwischen \u0027ask\u0027 und \u0027paint\u0027, daher ist der Matrixeintrag 0.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"ask\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Beziehung zwischen \u0027houses\u0027, \u0027ask\u0027 und \u0027paint\u0027. \u0027houses\u0027 ist ein Objekt (Typ 1), \u0027ask\u0027 ist eine Aktivität (Typ 4), und \u0027paint\u0027 ist ein Objekt (Typ 1). Es gibt keine direkte Beziehung zwischen \u0027ask\u0027 und \u0027paint\u0027, daher ist der Matrixeintrag 0.\"\n}"
+}

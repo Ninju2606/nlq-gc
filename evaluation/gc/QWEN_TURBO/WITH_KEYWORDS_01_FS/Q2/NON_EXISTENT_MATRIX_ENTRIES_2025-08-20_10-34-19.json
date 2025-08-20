@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. \u0027tim\u0027 ist im Vokabular als Person identifiziert. \u0027run\u0027 wird als Aktivität dargestellt, wobei \u0027tim\u0027 die Aktivität \u0027run\u0027 ausübt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. \u0027tim\u0027 ist im Vokabular als Person identifiziert. \u0027run\u0027 wird als Aktivität dargestellt, wobei \u0027tim\u0027 die Aktivität \u0027run\u0027 ausübt.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Keine passende Typkodierung gefunden für die Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027.",
+  "error": "Keine passende Typkodierung gefunden für die Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: [\u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027]\\n2. Relative Verweise: Keine gefunden.\\n3. Übersetzung ins Englische: [\u0027Houses\u0027, \u0027Questions\u0027, \u0027paint\u0027]\\n4. Identifikation des Nutzers: Keine Referenz auf \u0027Maria\u0027 in den Stichwörtern.\\n5. Attributeigenschaften: \u0027Houses\u0027 ist ein Objekt, \u0027Questions\u0027 ist ein Kontext, \u0027paint\u0027 ist eine Aktivität.\\n6. Beziehungen: \u0027Häuser\u0027 und \u0027Fragen\u0027 haben eine Beziehung, \u0027Häuser\u0027 und \u0027malen\u0027 haben eine Beziehung, \u0027Fragen\u0027 und \u0027malen\u0027 haben eine Beziehung.\\n7. Typkodierungen: Für die Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027 gibt es keine passende Kodierung. Fehlermeldung: Keine passende Typkodierung gefunden für die Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027.\",\n  \"error\": \"Keine passende Typkodierung gefunden für die Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027.\",\n  \"description\": \"Keine passende Typkodierung gefunden für die Beziehung zwischen \u0027Häuser\u0027 und \u0027Fragen\u0027.\"\n}"
+}

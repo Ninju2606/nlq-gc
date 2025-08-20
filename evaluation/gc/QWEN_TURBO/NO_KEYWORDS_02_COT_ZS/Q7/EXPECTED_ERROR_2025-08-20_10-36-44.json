@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "houses",
+    "questions",
+    "paint"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 erforderlich, da keine Referenz auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorhanden. 5. \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Kontext (context), \u0027paint\u0027 ist eine Aktivität (activity). 6. Die Stichwörter beziehen sich aufeinander, wobei \u0027houses\u0027 und \u0027questions\u0027 in einem Kontext stehen und \u0027paint\u0027 eine Aktivität ist. 7. Alle Relationen sind in den Typkodierungen vorhanden: \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4). 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"houses\", \"questions\", \"paint\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: \u0027houses\u0027, \u0027questions\u0027, \u0027paint\u0027. 4. Keine Identifikation des Nutzers \u0027Maria\u0027 erforderlich, da keine Referenz auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 vorhanden. 5. \u0027houses\u0027 ist ein Objekt (object), \u0027questions\u0027 ist ein Kontext (context), \u0027paint\u0027 ist eine Aktivität (activity). 6. Die Stichwörter beziehen sich aufeinander, wobei \u0027houses\u0027 und \u0027questions\u0027 in einem Kontext stehen und \u0027paint\u0027 eine Aktivität ist. 7. Alle Relationen sind in den Typkodierungen vorhanden: \u0027object\u0027 (ID 1), \u0027context\u0027 (ID 2), \u0027activity\u0027 (ID 4). 8. Der GraphCode wurde erstellt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode repräsentiert die Szene \u0027Ich schwimme in meinem Pool\u0027 mit den Begriffen \u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027 und \u0027pool\u0027. Die Einheitsdiagonalen codieren die Identitäten der Begriffe, während die außerdiagonalen Einträge 0 sind, da keine Beziehungen zwischen den Begriffen existieren, die mit identityMapping\u003dfalse kodiert werden können.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Szene \u0027Ich schwimme in meinem Pool\u0027 mit den Begriffen \u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027 und \u0027pool\u0027. Die Einheitsdiagonalen codieren die Identitäten der Begriffe, während die außerdiagonalen Einträge 0 sind, da keine Beziehungen zwischen den Begriffen existieren, die mit identityMapping\u003dfalse kodiert werden können.\"\n}"
+}

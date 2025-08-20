@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise gefunden. 3. Stichwörter ins Englische übersetzt: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027a\u0027, \u0027meeting\u0027, \u0027make\u0027. 4. Keine Identifikation des Nutzers im Stichwort vorhanden. 5. Attributeigenschaften: \u0027we\u0027 (object), \u0027must\u0027 (object), \u0027soon\u0027 (object), \u0027a\u0027 (object), \u0027meeting\u0027 (object), \u0027make\u0027 (object). 6. Beziehungen: \u0027we\u0027 und \u0027make\u0027 beziehen sich auf eine Aktivität, \u0027meeting\u0027 ist ein Objekt. 7. Alle Relationen haben einen passenden Typ in der Kodierung. 8. GraphCode erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise gefunden. 3. Stichwörter ins Englische übersetzt: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027a\u0027, \u0027meeting\u0027, \u0027make\u0027. 4. Keine Identifikation des Nutzers im Stichwort vorhanden. 5. Attributeigenschaften: \u0027we\u0027 (object), \u0027must\u0027 (object), \u0027soon\u0027 (object), \u0027a\u0027 (object), \u0027meeting\u0027 (object), \u0027make\u0027 (object). 6. Beziehungen: \u0027we\u0027 und \u0027make\u0027 beziehen sich auf eine Aktivität, \u0027meeting\u0027 ist ein Objekt. 7. Alle Relationen haben einen passenden Typ in der Kodierung. 8. GraphCode erstellt.\"\n}"
+}

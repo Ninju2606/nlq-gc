@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage „**Ich spiele Basketball**“ als **GraphCode nach Wagenpfeil** (typcodierte Adjazenzmatrix) in **JSON-Format**:\n\n\n{\n  \"dictionary\": [\n    \"Ich\",\n    \"spiele\",\n    \"Basketball\"\n  ],\n  \"matrix\": [\n    [0, 4, 0],\n    [8, 0, 14],\n    [0, 14, 0]\n  ]\n}\n\n\n### Erläuterung:\n\n- **dictionary** enthält die Begriffe aus dem Text: `\"Ich\"`, `\"spiele\"`, `\"Basketball\"`.\n- **matrix** ist eine quadratische Adjazenzmatrix, wobei die Zeilen und Spalten mit den Begriffen aus dem `dictionary` übereinstimmen.\n- Die Werte in der Matrix repräsentieren die **Typkodierungen** entsprechend der angegebenen Liste:\n  - `4` steht für den Typ **\"perform\"** (entspricht dem Verben „spiele“).\n  - `14` steht für den Typ **\"characteristic\"** (kann als Beziehung zwischen „spiele“ und „Basketball“ interpretiert werden – z. B. „spiele“ hat die „Basketball“ als „characteristic“).\n\nWenn du weitere Sätze oder Erweiterungen benötigst, lass mich wissen!"
+}

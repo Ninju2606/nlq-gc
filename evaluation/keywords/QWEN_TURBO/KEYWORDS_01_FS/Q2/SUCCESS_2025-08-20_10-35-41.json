@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Tim rennt\u0027 wurde analysiert. Das Vokabular enthält die Benutzeridentifikation \u0027Tim\u0027 und das Verb \u0027run\u0027, das die Bewegung beschreibt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Anfrage \u0027Tim rennt\u0027 wurde analysiert. Das Vokabular enthält die Benutzeridentifikation \u0027Tim\u0027 und das Verb \u0027run\u0027, das die Bewegung beschreibt.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- Die Anfrage **\"Tim rennt\"** wird in eine Adjazenzmatrix umgewandelt, wobei die Begriffe **\"Tim\"** und **\"rennt\"** als Zeilen und Spalten der Matrix dargestellt werden.\n- Der **Typwert** für die Beziehung **\"Tim\" → \"rennt\"** ist **8**, was gemäß deiner Typkodierung dem Attribut **\"perform\"** entspricht.\n- Die Attribute **\"object\"**, **\"context\"**, **\"synonym\"**, **\"activity\"** haben **identityMapping: true**, d. h. sie sind **Identitätsbeziehungen (1:1)**.\n- Die restlichen Attribute (z. B. \"perform\", \"target\", etc.) haben **identityMapping: false**, sie repräsentieren **Beziehungen zwischen Objekten**.\n\nDas Ergebnis ist ein **GraphCode nach Wagenpfeil**, codiert als **typcodierte Adjazenzmatrix**."
+}

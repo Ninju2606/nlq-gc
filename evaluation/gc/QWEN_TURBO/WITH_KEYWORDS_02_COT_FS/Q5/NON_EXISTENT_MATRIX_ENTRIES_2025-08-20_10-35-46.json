@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer wurde identifiziert und ist mit dem Stichwort \u0027maria\u0027 versehen. Es gibt keine weiteren relativen Verweise oder Identifikationen. 2. \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist eine Verbindung (attached), \u0027yellow\u0027 ist ein Kontext (context). 3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus. \u0027wear\u0027 bezieht sich auf \u0027hat\u0027. \u0027hat\u0027 ist mit \u0027yellow\u0027 in Verbindung. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Verbindung (attached) ist 4. Die ID für Kontext (context) ist 2.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer wurde identifiziert und ist mit dem Stichwort \u0027maria\u0027 versehen. Es gibt keine weiteren relativen Verweise oder Identifikationen. 2. \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist eine Verbindung (attached), \u0027yellow\u0027 ist ein Kontext (context). 3. \u0027maria\u0027 führt die Aktivität \u0027wear\u0027 aus. \u0027wear\u0027 bezieht sich auf \u0027hat\u0027. \u0027hat\u0027 ist mit \u0027yellow\u0027 in Verbindung. 4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Verbindung (attached) ist 4. Die ID für Kontext (context) ist 2.\"\n}"
+}

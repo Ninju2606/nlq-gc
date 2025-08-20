@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "Der GraphCode repräsentiert die Situation \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. \u0027maria\u0027 und \u0027person\u0027 stehen in Beziehung zur Person, \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 ist das Objekt und \u0027lake\u0027 ist der Kontext.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situation \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. \u0027maria\u0027 und \u0027person\u0027 stehen in Beziehung zur Person, \u0027drive\u0027 ist die Aktivität, \u0027boat\u0027 ist das Objekt und \u0027lake\u0027 ist der Kontext.\"\n}"
+}

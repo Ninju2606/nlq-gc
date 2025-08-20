@@ -1,0 +1,29 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Beziehungen \u0027perform\u0027 und \u0027target\u0027 zwischen den Begriffen \u0027maria\u0027 und \u0027play\u0027, sowie \u0027play\u0027 und \u0027basketball\u0027 sind in der Bereitgestellten Typkodierung nicht vorhanden. Es können daher keine passenden Einträge in der Bewertungsmatrix erzeugt werden.",
+  "error": "Fehler",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde im Vokabular berücksichtigt. Der Begriff \u0027play\u0027 steht für eine Aktivität und \u0027basketball\u0027 für ein Objekt. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object, identityMapping: true), \u0027play\u0027 (activity, identityMapping: true), \u0027basketball\u0027 (object, identityMapping: true). 3. \u0027Maria\u0027 ist die Ausführende der Aktivität \u0027play\u0027, wobei \u0027basketball\u0027 das Objekt der Aktivität darstellt. Es besteht eine \u0027perform\u0027-Beziehung zwischen \u0027maria\u0027 und \u0027play\u0027, sowie eine \u0027target\u0027-Beziehung zwischen \u0027play\u0027 und \u0027basketball\u0027. 4. Für die Beziehungen \u0027perform\u0027 und \u0027target\u0027 gibt es keine passende ID in den Typkodierungen, daher wird ein Fehler ausgegeben. 5. Der GraphCode wurde nicht vollständig erstellt, da die erforderlichen Relationen nicht in den Typkodierungen vorhanden sind.\",\n  \"error\": \"Fehler\",\n  \"description\": \"Die Beziehungen \u0027perform\u0027 und \u0027target\u0027 zwischen den Begriffen \u0027maria\u0027 und \u0027play\u0027, sowie \u0027play\u0027 und \u0027basketball\u0027 sind in der Bereitgestellten Typkodierung nicht vorhanden. Es können daher keine passenden Einträge in der Bewertungsmatrix erzeugt werden.\"\n}"
+}

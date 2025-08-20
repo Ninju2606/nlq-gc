@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"wir\": 0,\n    \"müssen\": 1,\n    \"bald\": 2,\n    \"einen\": 3,\n    \"Termin\": 4,\n    \"ausmachen\": 5\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\nDa keine spezifischen Beziehungen zwischen den Begriffen der Anfrage (`\"Wir müssten bald einen Termin ausmachen\"`) in der vorgegebenen Typkodierung (z. B. `object`, `context`, `synonym`, `activity`, usw.) gefunden wurden, ist die **Adjazenzmatrix** vollständig mit `0` gefüllt.\n\nWenn du konkrete Beziehungen definierst, z. B. \"wir\" ist ein `object`, \"ausmachen\" ist eine `activity`, etc., können wir die Matrix entsprechend füllen. Melde dich gerne, falls du solche Beziehungen hinzufügen möchtest!"
+}

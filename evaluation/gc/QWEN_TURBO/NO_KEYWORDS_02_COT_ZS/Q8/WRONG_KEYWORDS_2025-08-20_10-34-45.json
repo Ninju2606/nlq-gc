@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "my daughter",
+    "i",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      5,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      8,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf eine Person, \u0027ich\u0027 bezieht sich auf Maria.\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027\n4. Identifikation des Nutzers: \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meine Tochter\u0027 (wenn relevant).\n5. Attributeigenschaften:\n   - \u0027My daughter\u0027 ist ein Objekt (object)\n   - \u0027I\u0027 ist ein Objekt (object)\n   - \u0027boat\u0027 ist ein Objekt (object)\n   - \u0027lake\u0027 ist ein Objekt (object)\n6. Relationen:\n   - \u0027My daughter\u0027 und \u0027I\u0027 haben eine Beziehung \u0027attached\u0027 (unter Verwendung der Identifikation \u0027Maria\u0027)\n   - \u0027I\u0027 und \u0027boat\u0027 haben eine Beziehung \u0027perform\u0027 (Fahrten mit dem Boot)\n   - \u0027boat\u0027 und \u0027lake\u0027 haben eine Beziehung \u0027under\u0027 (das Boot ist auf dem See)\n7. Typkodierungen:\n   - \u0027attached\u0027 (ID 5) ist gültig\n   - \u0027perform\u0027 (ID 8) ist gültig\n   - \u0027under\u0027 (ID 6) ist gültig\n8. GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf eine Person, \u0027ich\u0027 bezieht sich auf Maria.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027\\n4. Identifikation des Nutzers: \u0027Maria\u0027 ersetzt \u0027ich\u0027 und \u0027meine Tochter\u0027 (wenn relevant).\\n5. Attributeigenschaften:\\n   - \u0027My daughter\u0027 ist ein Objekt (object)\\n   - \u0027I\u0027 ist ein Objekt (object)\\n   - \u0027boat\u0027 ist ein Objekt (object)\\n   - \u0027lake\u0027 ist ein Objekt (object)\\n6. Relationen:\\n   - \u0027My daughter\u0027 und \u0027I\u0027 haben eine Beziehung \u0027attached\u0027 (unter Verwendung der Identifikation \u0027Maria\u0027)\\n   - \u0027I\u0027 und \u0027boat\u0027 haben eine Beziehung \u0027perform\u0027 (Fahrten mit dem Boot)\\n   - \u0027boat\u0027 und \u0027lake\u0027 haben eine Beziehung \u0027under\u0027 (das Boot ist auf dem See)\\n7. Typkodierungen:\\n   - \u0027attached\u0027 (ID 5) ist gültig\\n   - \u0027perform\u0027 (ID 8) ist gültig\\n   - \u0027under\u0027 (ID 6) ist gültig\\n8. GraphCode wurde erstellt.\",\n  \"dictionary\": [\"my daughter\", \"i\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 5, 0, 0],\n    [5, 1, 8, 0],\n    [0, 8, 1, 6],\n    [0, 0, 6, 1]\n  ]\n}"
+}

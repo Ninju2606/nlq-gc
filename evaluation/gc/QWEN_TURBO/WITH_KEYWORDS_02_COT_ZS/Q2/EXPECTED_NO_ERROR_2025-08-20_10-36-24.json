@@ -1,0 +1,29 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers (Maria) wird hinzugefügt, da der Nutzer etwas mit seiner Person tut (Tim rennt). 2. Die Attribute der Stichwörter: \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity), \u0027maria\u0027 ist ein Objekt (object). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 die Aktivität ist, die \u0027tim\u0027 ausführt. \u0027maria\u0027 ist nicht direkt mit \u0027tim\u0027 oder \u0027run\u0027 verknüpft. 4. Für \u0027object\u0027 (ID 1) und \u0027activity\u0027 (ID 4) existieren Einträge in den Typkodierungen. Für \u0027tim\u0027 und \u0027run\u0027 wird die Beziehung \u0027perform\u0027 (ID 8) genutzt, was nicht direkt im Vokabular vorhanden ist, daher wird ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt, wobei \u0027maria\u0027 als Objekt (ID 1) auf der Diagonalen eingetragen wurde, \u0027tim\u0027 (ID 1) und \u0027run\u0027 (ID 4) sowie die Beziehung \u0027perform\u0027 (ID 8) für \u0027tim\u0027 -\u003e \u0027run\u0027.",
+  "error": "Es gibt keinen passenden Typkodierungs-Eintrag für die Beziehung \u0027perform\u0027, der die Aktivität \u0027run\u0027 von \u0027tim\u0027 beschreibt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wird hinzugefügt, da der Nutzer etwas mit seiner Person tut (Tim rennt). 2. Die Attribute der Stichwörter: \u0027tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity), \u0027maria\u0027 ist ein Objekt (object). 3. \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 die Aktivität ist, die \u0027tim\u0027 ausführt. \u0027maria\u0027 ist nicht direkt mit \u0027tim\u0027 oder \u0027run\u0027 verknüpft. 4. Für \u0027object\u0027 (ID 1) und \u0027activity\u0027 (ID 4) existieren Einträge in den Typkodierungen. Für \u0027tim\u0027 und \u0027run\u0027 wird die Beziehung \u0027perform\u0027 (ID 8) genutzt, was nicht direkt im Vokabular vorhanden ist, daher wird ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt, wobei \u0027maria\u0027 als Objekt (ID 1) auf der Diagonalen eingetragen wurde, \u0027tim\u0027 (ID 1) und \u0027run\u0027 (ID 4) sowie die Beziehung \u0027perform\u0027 (ID 8) für \u0027tim\u0027 -\u003e \u0027run\u0027.\",\n  \"error\": \"Es gibt keinen passenden Typkodierungs-Eintrag für die Beziehung \u0027perform\u0027, der die Aktivität \u0027run\u0027 von \u0027tim\u0027 beschreibt.\"\n}"
+}

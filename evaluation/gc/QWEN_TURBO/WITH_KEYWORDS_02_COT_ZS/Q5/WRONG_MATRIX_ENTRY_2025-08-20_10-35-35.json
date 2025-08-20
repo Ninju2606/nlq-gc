@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.8125,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. Der Nutzer bezieht sich auf sich selbst, daher ist \u0027Maria\u0027 im Vokabular enthalten. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027wear\u0027 (activity), \u0027hat\u0027 (object), \u0027yellow\u0027 (characteristic). 3. Die Stichwörter stehen in folgender Relation: \u0027maria\u0027 und \u0027wear\u0027 (perform), \u0027wear\u0027 und \u0027hat\u0027 (target), \u0027hat\u0027 und \u0027yellow\u0027 (attached). 4. Alle Relationen haben entsprechende Einträge in den Typkodierungen: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5). 5. Der GraphCode wurde entsprechend den Anforderungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet. Der Nutzer bezieht sich auf sich selbst, daher ist \u0027Maria\u0027 im Vokabular enthalten. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027wear\u0027 (activity), \u0027hat\u0027 (object), \u0027yellow\u0027 (characteristic). 3. Die Stichwörter stehen in folgender Relation: \u0027maria\u0027 und \u0027wear\u0027 (perform), \u0027wear\u0027 und \u0027hat\u0027 (target), \u0027hat\u0027 und \u0027yellow\u0027 (attached). 4. Alle Relationen haben entsprechende Einträge in den Typkodierungen: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5). 5. Der GraphCode wurde entsprechend den Anforderungen erstellt.\"\n}"
+}

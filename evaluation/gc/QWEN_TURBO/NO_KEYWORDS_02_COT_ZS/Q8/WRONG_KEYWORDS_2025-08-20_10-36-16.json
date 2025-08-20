@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027 -\u003e \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 wird zu \u0027daughter\u0027, \u0027ich\u0027 wird zu \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation: \u0027ich\u0027 wird zu \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027daughter\u0027 ist ein Objekt, \u0027boat\u0027 ist ein Objekt, \u0027lake\u0027 ist ein Kontext. 6. Beziehungen: \u0027Maria\u0027 und \u0027daughter\u0027 sind in einer \u0027attached\u0027-Beziehung, \u0027Maria\u0027 und \u0027boat\u0027 sind in einer \u0027perform\u0027-Beziehung, \u0027boat\u0027 und \u0027lake\u0027 sind in einer \u0027above\u0027-Beziehung. 7. Typkodierungen: \u0027attached\u0027 (ID 5), \u0027perform\u0027 (ID 8), \u0027above\u0027 (ID 7) sind vorhanden. 8. Der GraphCode wurde erfolgreich zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf einem See\u0027 -\u003e \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 wird zu \u0027daughter\u0027, \u0027ich\u0027 wird zu \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation: \u0027ich\u0027 wird zu \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt, \u0027daughter\u0027 ist ein Objekt, \u0027boat\u0027 ist ein Objekt, \u0027lake\u0027 ist ein Kontext. 6. Beziehungen: \u0027Maria\u0027 und \u0027daughter\u0027 sind in einer \u0027attached\u0027-Beziehung, \u0027Maria\u0027 und \u0027boat\u0027 sind in einer \u0027perform\u0027-Beziehung, \u0027boat\u0027 und \u0027lake\u0027 sind in einer \u0027above\u0027-Beziehung. 7. Typkodierungen: \u0027attached\u0027 (ID 5), \u0027perform\u0027 (ID 8), \u0027above\u0027 (ID 7) sind vorhanden. 8. Der GraphCode wurde erfolgreich zusammengesetzt.\"\n}"
+}

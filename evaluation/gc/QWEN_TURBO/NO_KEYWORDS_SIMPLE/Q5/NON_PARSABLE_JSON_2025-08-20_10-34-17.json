@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"ich\": 1,\n    \"einen\": 2,\n    \"gelben\": 3,\n    \"Hut\": 4,\n    \"trage\": 5\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Bemerkung:\nDie Anfrage **„Zeig mir Situationen, in denen ich einen gelben Hut trage“** beinhaltet keine Beziehungen, die in der typcodierten **Adjazenzmatrix** basierend auf den gegebenen Typkodierungen (z. B. *object*, *context*, *synonym*, *activity*, usw.) aufgezeichnet werden können. Daher ist die **Matrix** leere 6x6-Matrix, da keine Beziehungen zwischen den Begriffen im Text erkannt werden können.\n\nWenn du spezifische Beziehungen oder Beispiele zur Matrix hinzufügen möchtest, gib bitte an, wie die Beziehungen zwischen den Begriffen aussehen sollen."
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "My daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf eine Person (nicht explizit genannt), \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzen der Identifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n5. Attributeigenschaften:\n   - \u0027My daughter\u0027 ist ein Objekt (object).\n   - \u0027Maria\u0027 ist ein Objekt (object).\n   - \u0027boat\u0027 ist ein Objekt (object).\n   - \u0027lake\u0027 ist ein Objekt (object).\n6. Beziehungen:\n   - \u0027Maria\u0027 und \u0027My daughter\u0027 sind in der Beziehung \u0027attached\u0027 (Person und ihr Kind).\n   - \u0027Maria\u0027 und \u0027boat\u0027 sind in der Beziehung \u0027perform\u0027 (Person führt eine Aktivität durch).\n   - \u0027boat\u0027 und \u0027lake\u0027 sind in der Beziehung \u0027under\u0027 (Boot befindet sich auf dem See).\n7. Typkodierungen:\n   - \u0027attached\u0027 (ID: 5)\n   - \u0027perform\u0027 (ID: 8)\n   - \u0027under\u0027 (ID: 6)\n   Alle Beziehungen haben passende Typkodierungen.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf eine Person (nicht explizit genannt), \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzen der Identifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027My daughter\u0027 ist ein Objekt (object).\\n   - \u0027Maria\u0027 ist ein Objekt (object).\\n   - \u0027boat\u0027 ist ein Objekt (object).\\n   - \u0027lake\u0027 ist ein Objekt (object).\\n6. Beziehungen:\\n   - \u0027Maria\u0027 und \u0027My daughter\u0027 sind in der Beziehung \u0027attached\u0027 (Person und ihr Kind).\\n   - \u0027Maria\u0027 und \u0027boat\u0027 sind in der Beziehung \u0027perform\u0027 (Person führt eine Aktivität durch).\\n   - \u0027boat\u0027 und \u0027lake\u0027 sind in der Beziehung \u0027under\u0027 (Boot befindet sich auf dem See).\\n7. Typkodierungen:\\n   - \u0027attached\u0027 (ID: 5)\\n   - \u0027perform\u0027 (ID: 8)\\n   - \u0027under\u0027 (ID: 6)\\n   Alle Beziehungen haben passende Typkodierungen.\\n8. Der GraphCode wurde erfolgreich erstellt.\",\n  \"dictionary\": [\"My daughter\", \"Maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [5, 1, 0, 0],\n    [0, 8, 1, 0],\n    [0, 0, 6, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf eine Person (nicht explizit genannt), \u0027ich\u0027 bezieht sich auf die Nutzeridentifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzen der Identifikation: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n5. Attributeigenschaften:\\n   - \u0027My daughter\u0027 ist ein Objekt (object).\\n   - \u0027Maria\u0027 ist ein Objekt (object).\\n   - \u0027boat\u0027 ist ein Objekt (object).\\n   - \u0027lake\u0027 ist ein Objekt (object).\\n6. Beziehungen:\\n   - \u0027Maria\u0027 und \u0027My daughter\u0027 sind in der Beziehung \u0027attached\u0027 (Person und ihr Kind).\\n   - \u0027Maria\u0027 und \u0027boat\u0027 sind in der Beziehung \u0027perform\u0027 (Person führt eine Aktivität durch).\\n   - \u0027boat\u0027 und \u0027lake\u0027 sind in der Beziehung \u0027under\u0027 (Boot befindet sich auf dem See).\\n7. Typkodierungen:\\n   - \u0027attached\u0027 (ID: 5)\\n   - \u0027perform\u0027 (ID: 8)\\n   - \u0027under\u0027 (ID: 6)\\n   Alle Beziehungen haben passende Typkodierungen.\\n8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

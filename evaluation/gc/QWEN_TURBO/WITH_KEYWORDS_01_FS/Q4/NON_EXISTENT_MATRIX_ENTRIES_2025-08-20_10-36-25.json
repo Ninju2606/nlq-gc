@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Ich schwimme in meinem Pool\u0027. Maria ist in dem Vokabular enthalten, da sie die Identifikation des Nutzers ist. \u0027swim\u0027 wird als Aktivität (ID 8: \u0027perform\u0027) kodiert, \u0027own\u0027 als Merkmal (ID 14: \u0027characteristic\u0027), und \u0027pool\u0027 als Objekt (ID 1: \u0027object\u0027).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Ich schwimme in meinem Pool\u0027. Maria ist in dem Vokabular enthalten, da sie die Identifikation des Nutzers ist. \u0027swim\u0027 wird als Aktivität (ID 8: \u0027perform\u0027) kodiert, \u0027own\u0027 als Merkmal (ID 14: \u0027characteristic\u0027), und \u0027pool\u0027 als Objekt (ID 1: \u0027object\u0027).\"\n}"
+}

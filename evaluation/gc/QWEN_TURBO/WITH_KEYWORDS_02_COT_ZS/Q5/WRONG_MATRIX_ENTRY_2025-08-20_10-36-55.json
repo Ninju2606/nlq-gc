@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie explizit in der Anfrage genannt wurde. Die relativierten Verweise wie \u0027ich\u0027 wurden nicht benötigt, da \u0027Maria\u0027 bereits explizit als Identifikation gegeben ist. \n2. Die Attribute der Stichwörter sind wie folgt:\n- \u0027maria\u0027 ist ein Objekt (id 1), da es die Identifikation des Nutzers darstellt.\n- \u0027wear\u0027 ist eine Aktivität (id 4), da es beschreibt, was Maria tut.\n- \u0027hat\u0027 ist ein Objekt (id 1), da es einen Gegenstand bezeichnet.\n- \u0027yellow\u0027 ist ein Objekt (id 1), da es ein Merkmal oder eine Eigenschaft beschreibt.\n3. Die Stichwörter stehen in folgender Relation zueinander:\n- \u0027maria\u0027 und \u0027wear\u0027 stehen in einer \u0027perform\u0027-Beziehung (id 8), da Maria die Aktivität \u0027wear\u0027 ausführt.\n- \u0027wear\u0027 und \u0027hat\u0027 stehen in einer \u0027target\u0027-Beziehung (id 9), da der Hut das Ziel der Aktivität \u0027wear\u0027 ist.\n- \u0027hat\u0027 und \u0027yellow\u0027 stehen in einer \u0027characteristic\u0027-Beziehung (id 14), da \u0027yellow\u0027 eine Eigenschaft des \u0027hat\u0027 ist.\n4. Für die Relation \u0027perform\u0027 zwischen \u0027maria\u0027 und \u0027wear\u0027 ist die ID 8 vorhanden.\nFür die Relation \u0027target\u0027 zwischen \u0027wear\u0027 und \u0027hat\u0027 ist die ID 9 vorhanden.\nFür die Relation \u0027characteristic\u0027 zwischen \u0027hat\u0027 und \u0027yellow\u0027 ist die ID 14 vorhanden.\nAlle Relationen haben passende Typkodierungen.\n5. Der GraphCode wurde konstruiert, wobei die Einheitsdiagonalen nur Werte mit identityMapping \u003d true enthalten und die anderen Einträge nur Werte mit identityMapping \u003d false enthalten.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da sie explizit in der Anfrage genannt wurde. Die relativierten Verweise wie \u0027ich\u0027 wurden nicht benötigt, da \u0027Maria\u0027 bereits explizit als Identifikation gegeben ist. \\n2. Die Attribute der Stichwörter sind wie folgt:\\n- \u0027maria\u0027 ist ein Objekt (id 1), da es die Identifikation des Nutzers darstellt.\\n- \u0027wear\u0027 ist eine Aktivität (id 4), da es beschreibt, was Maria tut.\\n- \u0027hat\u0027 ist ein Objekt (id 1), da es einen Gegenstand bezeichnet.\\n- \u0027yellow\u0027 ist ein Objekt (id 1), da es ein Merkmal oder eine Eigenschaft beschreibt.\\n3. Die Stichwörter stehen in folgender Relation zueinander:\\n- \u0027maria\u0027 und \u0027wear\u0027 stehen in einer \u0027perform\u0027-Beziehung (id 8), da Maria die Aktivität \u0027wear\u0027 ausführt.\\n- \u0027wear\u0027 und \u0027hat\u0027 stehen in einer \u0027target\u0027-Beziehung (id 9), da der Hut das Ziel der Aktivität \u0027wear\u0027 ist.\\n- \u0027hat\u0027 und \u0027yellow\u0027 stehen in einer \u0027characteristic\u0027-Beziehung (id 14), da \u0027yellow\u0027 eine Eigenschaft des \u0027hat\u0027 ist.\\n4. Für die Relation \u0027perform\u0027 zwischen \u0027maria\u0027 und \u0027wear\u0027 ist die ID 8 vorhanden.\\nFür die Relation \u0027target\u0027 zwischen \u0027wear\u0027 und \u0027hat\u0027 ist die ID 9 vorhanden.\\nFür die Relation \u0027characteristic\u0027 zwischen \u0027hat\u0027 und \u0027yellow\u0027 ist die ID 14 vorhanden.\\nAlle Relationen haben passende Typkodierungen.\\n5. Der GraphCode wurde konstruiert, wobei die Einheitsdiagonalen nur Werte mit identityMapping \u003d true enthalten und die anderen Einträge nur Werte mit identityMapping \u003d false enthalten.\"\n}"
+}

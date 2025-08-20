@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"ich\": 1,\n    \"einen\": 2,\n    \"gelben\": 3,\n    \"Hut\": 4,\n    \"trage\": 5\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n**Erklärung:**  \nDa die Anfrage **\"Zeig mir Situationen, in denen ich einen gelben Hut trage\"** lediglich **Begriffe** enthält und keine expliziten Beziehungen zwischen den Begriffen aufzeigt, kann keine typcodierte Adjazenzmatrix mit Beziehungen gebildet werden. Die Beziehungen (z. B. \"trage\", \"gelben\", \"Hut\") sind im Text nicht explizit als Verknüpfungen zwischen den Begriffen dargestellt, weshalb die Matrix mit Nullen gefüllt bleibt.\n\nFalls du Beziehungen im Text identifizieren möchtest, z. B. \"trage\" als **activity**, \"gelben\" als **characteristic**, \"Hut\" als **object**, dann kann die Matrix entsprechend gefüllt werden. Gib gerne an, wie genau die Beziehungen sein sollen."
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"fahre\", \"Boot\", \"auf\", \"einem See\". \n        2. Es gibt keinen relativen Verweis, der auf den Nutzer verweist. \n        3. Die englischen Stichwörter sind \"my daughter\", \"drive\", \"boat\", \"on\", \"a lake\". \n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"boat\", \"lake\". \n        5. \"Maria\" und \"lake\" sind Objekte der Anfrage. \"daughter\" ist ein Objekt. \"boat\" ist eine Aktivität. \n        6. \"Maria\" fährt mit \"boat\". \"boat\" befindet sich auf \"lake\". \n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"fahre\\\", \\\"Boot\\\", \\\"auf\\\", \\\"einem See\\\". \\n        2. Es gibt keinen relativen Verweis, der auf den Nutzer verweist. \\n        3. Die englischen Stichwörter sind \\\"my daughter\\\", \\\"drive\\\", \\\"boat\\\", \\\"on\\\", \\\"a lake\\\". \\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"lake\\\". \\n        5. \\\"Maria\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"daughter\\\" ist ein Objekt. \\\"boat\\\" ist eine Aktivität. \\n        6. \\\"Maria\\\" fährt mit \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\". \\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.\"\n}"
+}

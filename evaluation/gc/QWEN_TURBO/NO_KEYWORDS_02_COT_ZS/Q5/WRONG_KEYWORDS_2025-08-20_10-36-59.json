@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "situation",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. 2. Relative Verweise: Keine vorhanden. 3. Übersetzung ins Englische: \u0027situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. Identifikation des Nutzers: \u0027Maria\u0027 wird in das Vokabular aufgenommen. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027situations\u0027 ist eine Aktivität (Typ 4), \u0027yellow\u0027 ist ein Merkmal (Typ 14), \u0027hat\u0027 ist eine Aktivität (Typ 8). 6. Beziehungen: \u0027Maria\u0027 und \u0027situations\u0027 (Typ 8), \u0027Maria\u0027 und \u0027yellow\u0027 (Typ 14), \u0027Maria\u0027 und \u0027hat\u0027 (Typ 8), \u0027situations\u0027 und \u0027yellow\u0027 (keine Relation), \u0027situations\u0027 und \u0027hat\u0027 (keine Relation), \u0027yellow\u0027 und \u0027hat\u0027 (keine Relation). 7. Typkodierungen: Alle benötigten Relationsarten sind in der Liste vorhanden. 8. GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"situation\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027. 2. Relative Verweise: Keine vorhanden. 3. Übersetzung ins Englische: \u0027situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027. 4. Identifikation des Nutzers: \u0027Maria\u0027 wird in das Vokabular aufgenommen. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (Typ 1), \u0027situations\u0027 ist eine Aktivität (Typ 4), \u0027yellow\u0027 ist ein Merkmal (Typ 14), \u0027hat\u0027 ist eine Aktivität (Typ 8). 6. Beziehungen: \u0027Maria\u0027 und \u0027situations\u0027 (Typ 8), \u0027Maria\u0027 und \u0027yellow\u0027 (Typ 14), \u0027Maria\u0027 und \u0027hat\u0027 (Typ 8), \u0027situations\u0027 und \u0027yellow\u0027 (keine Relation), \u0027situations\u0027 und \u0027hat\u0027 (keine Relation), \u0027yellow\u0027 und \u0027hat\u0027 (keine Relation). 7. Typkodierungen: Alle benötigten Relationsarten sind in der Liste vorhanden. 8. GraphCode wurde erstellt.\"\n}"
+}

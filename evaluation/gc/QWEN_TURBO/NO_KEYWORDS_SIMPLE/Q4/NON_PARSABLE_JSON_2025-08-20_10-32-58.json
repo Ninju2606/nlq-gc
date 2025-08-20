@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"schwimme\": 0,\n    \"in\": 1,\n    \"meinem\": 2,\n    \"Pool\": 3\n  },\n  \"matrix\": [\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ]\n}\n\n\n### Hinweis:\nDie Anfrage **\"Ich schwimme in meinem Pool\"** enthält keine Beziehungen, die durch die angegebenen **Typkodierungen** (z. B. `object`, `context`, `synonym`, `activity`, `attached`, `under`, `above`, `perform`, `target`, `daughter`, `characteristic`) abgebildet werden können. Daher ist die **Adjazenzmatrix** leer (alle Werte sind `0`).\n\nFalls weitere Kontexte oder Beziehungen explizit definiert werden, können diese in der Matrix entsprechend hinzugefügt werden."
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage `\"Tim rennt\"` als **GraphCode** nach **Wagenpfeil** – also als typcodierte **Adjazenzmatrix**, die als JSON-Objekt dargestellt wird:\n\n\n{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 0],\n    [0, 0]\n  ],\n  \"types\": [\n    {\n      \"id\": 8,\n      \"attribute\": \"perform\",\n      \"identityMapping\": false\n    }\n  ]\n}\n\n\n### Erklärung:\n\n- **dictionary**: Ordnet die Begriffe (`\"Tim\"`, `\"rennt\"`) eindeutigen Indexwerten zu.\n- **matrix**: Adjazenzmatrix mit `0` als Standardwert. Da keine Beziehungen explizit vorliegen, sind alle Werte `0`.\n- **types**: Wird hier nur als Beispiel angegeben, da in der Anfrage `\"Tim rennt\"` keine klaren Beziehungen wie z.B. `perform` (Typ 8) zwischen den Begriffen definiert sind. Falls eine Beziehung erkannt werden soll (z.B. dass \"Tim\" \"rennt\"), müsste die Matrix z.B. `[ [0, 8], [0, 0] ]` lauten.\n\nWenn du willst, dass der Beziehungstyp `perform` automatisch erkannt und in die Matrix eingetragen wird, kann ich das auch berücksichtigen. Möchtest du das?"
+}

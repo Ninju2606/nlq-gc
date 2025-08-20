@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "see",
+    "father",
+    "daughter"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode stellt die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 dar. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027boat\u0027, \u0027see\u0027, \u0027father\u0027, \u0027daughter\u0027. Die Bewertungsmatrix kodiert die Beziehungen zwischen diesen Begriffen gemäß den festgelegten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"see\", \"father\", \"daughter\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 8, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode stellt die Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 dar. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027boat\u0027, \u0027see\u0027, \u0027father\u0027, \u0027daughter\u0027. Die Bewertungsmatrix kodiert die Beziehungen zwischen diesen Begriffen gemäß den festgelegten Typkodierungen.\"\n}"
+}

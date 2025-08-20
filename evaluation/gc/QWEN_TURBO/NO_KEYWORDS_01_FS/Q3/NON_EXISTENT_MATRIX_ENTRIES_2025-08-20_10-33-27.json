@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Die Identifikation \u0027Maria\u0027 wird im Vokabular verwendet, da der Nutzer explizit seine Person erwähnt. \u0027swim\u0027 wird als Aktivität (Typkodierung 9) kodiert, \u0027pool\u0027 als Objekt (Typkodierung 1), \u0027own\u0027 als Beziehung (Typkodierung 8).",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027. Die Identifikation \u0027Maria\u0027 wird im Vokabular verwendet, da der Nutzer explizit seine Person erwähnt. \u0027swim\u0027 wird als Aktivität (Typkodierung 9) kodiert, \u0027pool\u0027 als Objekt (Typkodierung 1), \u0027own\u0027 als Beziehung (Typkodierung 8).\"\n}"
+}

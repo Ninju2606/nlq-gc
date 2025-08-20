@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "my daughter",
+    "maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      8,
+      6
+    ],
+    [
+      0,
+      8,
+      1,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 (Nutzeridentifikation), \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\n4. Ersetzen der Identifikation: \u0027My daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\n5. Attributeigenschaften: \u0027My daughter\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027Maria\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027boat\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027lake\u0027 ist ein \u0027object\u0027 (Typ 1).\n6. Relationen: \u0027Maria\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027 Beziehung (Typ 8); \u0027Maria\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027 Beziehung (Typ 6); \u0027My daughter\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027 Beziehung (Typ 8); \u0027My daughter\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027 Beziehung (Typ 6);\n7. Alle Relationen haben passende Typkodierungen.\n8. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 (Nutzeridentifikation), \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzen der Identifikation: \u0027My daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n5. Attributeigenschaften: \u0027My daughter\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027Maria\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027boat\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027lake\u0027 ist ein \u0027object\u0027 (Typ 1).\\n6. Relationen: \u0027Maria\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027 Beziehung (Typ 8); \u0027Maria\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027 Beziehung (Typ 6); \u0027My daughter\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027 Beziehung (Typ 8); \u0027My daughter\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027 Beziehung (Typ 6);\\n7. Alle Relationen haben passende Typkodierungen.\\n8. Der GraphCode wurde erfolgreich generiert.\",\n  \"dictionary\": [\"my daughter\", \"maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 8, 6],\n    [0, 8, 1, 0],\n    [0, 6, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027.\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027 (Nutzeridentifikation), \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n4. Ersetzen der Identifikation: \u0027My daughter\u0027, \u0027Maria\u0027, \u0027boat\u0027, \u0027lake\u0027.\\n5. Attributeigenschaften: \u0027My daughter\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027Maria\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027boat\u0027 ist ein \u0027object\u0027 (Typ 1); \u0027lake\u0027 ist ein \u0027object\u0027 (Typ 1).\\n6. Relationen: \u0027Maria\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027 Beziehung (Typ 8); \u0027Maria\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027 Beziehung (Typ 6); \u0027My daughter\u0027 und \u0027boat\u0027 haben eine \u0027perform\u0027 Beziehung (Typ 8); \u0027My daughter\u0027 und \u0027lake\u0027 haben eine \u0027under\u0027 Beziehung (Typ 6);\\n7. Alle Relationen haben passende Typkodierungen.\\n8. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

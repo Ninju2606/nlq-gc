@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode beschreibt die Situation: \u0027Maria und ich fahren Boot auf einem See\u0027. \u0027maria\u0027 und \u0027person\u0027 werden als identisch kodiert (Typ 1). \u0027drive\u0027 wird als Aktivität kodiert (Typ 8). \u0027boat\u0027 und \u0027lake\u0027 werden als Objekte kodiert (Typ 1).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 8, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode beschreibt die Situation: \u0027Maria und ich fahren Boot auf einem See\u0027. \u0027maria\u0027 und \u0027person\u0027 werden als identisch kodiert (Typ 1). \u0027drive\u0027 wird als Aktivität kodiert (Typ 8). \u0027boat\u0027 und \u0027lake\u0027 werden als Objekte kodiert (Typ 1).\"\n}"
+}

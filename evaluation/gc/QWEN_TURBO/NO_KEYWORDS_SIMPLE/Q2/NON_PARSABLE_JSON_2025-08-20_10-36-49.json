@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Tim\": 0\n  },\n  \"matrix\": [\n    [0]\n  ]\n}\n \n\n**Erklärung:**  \nDie Anfrage \"Tim rennt\" enthält nur den Begriff *\"Tim\"*. Da kein weiterer Begriff enthalten ist und keine Beziehungen zwischen Begriffen erkannt werden können, ist die Adjazenzmatrix nur 1x1 groß. Das Element ist 0, da keine Beziehung zwischen *\"Tim\"* und sich selbst (im Sinne der Kanten) existiert."
+}

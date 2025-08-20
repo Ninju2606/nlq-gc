@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde direkt im Vokabular berücksichtigt. Es gibt keine weiteren aufgelösten relativen Verweise.\n2. Die Attribute der Stichwörter sind:\n   - \u0027maria\u0027: object (Identität des Nutzers)\n   - \u0027play\u0027: activity (handlungsorientierter Begriff)\n   - \u0027basketball\u0027: object (Gegenstand)\n3. Die Stichwörter stehen in folgender Beziehung:\n   - \u0027maria\u0027 und \u0027play\u0027: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typkodierung: perform mit ID 8)\n   - \u0027maria\u0027 und \u0027basketball\u0027: \u0027maria\u0027 spielt \u0027basketball\u0027 (Typkodierung: target mit ID 9)\n   - \u0027play\u0027 und \u0027basketball\u0027: \u0027play\u0027 bezieht sich auf \u0027basketball\u0027 (Typkodierung: target mit ID 9)\n4. Für alle Relationen aus den Schritten 2 und 3 wurden passende Typkodierungen gefunden:\n   - \u0027maria\u0027 und \u0027play\u0027: ID 8 (perform)\n   - \u0027maria\u0027 und \u0027basketball\u0027: ID 9 (target)\n   - \u0027play\u0027 und \u0027basketball\u0027: ID 9 (target)\n5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix mit den korrekten Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde direkt im Vokabular berücksichtigt. Es gibt keine weiteren aufgelösten relativen Verweise.\\n2. Die Attribute der Stichwörter sind:\\n   - \u0027maria\u0027: object (Identität des Nutzers)\\n   - \u0027play\u0027: activity (handlungsorientierter Begriff)\\n   - \u0027basketball\u0027: object (Gegenstand)\\n3. Die Stichwörter stehen in folgender Beziehung:\\n   - \u0027maria\u0027 und \u0027play\u0027: \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus (Typkodierung: perform mit ID 8)\\n   - \u0027maria\u0027 und \u0027basketball\u0027: \u0027maria\u0027 spielt \u0027basketball\u0027 (Typkodierung: target mit ID 9)\\n   - \u0027play\u0027 und \u0027basketball\u0027: \u0027play\u0027 bezieht sich auf \u0027basketball\u0027 (Typkodierung: target mit ID 9)\\n4. Für alle Relationen aus den Schritten 2 und 3 wurden passende Typkodierungen gefunden:\\n   - \u0027maria\u0027 und \u0027play\u0027: ID 8 (perform)\\n   - \u0027maria\u0027 und \u0027basketball\u0027: ID 9 (target)\\n   - \u0027play\u0027 und \u0027basketball\u0027: ID 9 (target)\\n5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix mit den korrekten Typkodierungen.\"\n}"
+}

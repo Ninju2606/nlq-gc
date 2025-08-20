@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"1\": \"Ich\",\n    \"2\": \"schwimme\",\n    \"3\": \"in\",\n    \"4\": \"meinem\",\n    \"5\": \"Pool\"\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\nDie Anfrage **\"Ich schwimme in meinem Pool\"** wurde in eine **Adjazenzmatrix** nach Wagenpfeil-Code konvertiert, wobei:\n- **Zeilen und Spalten** die Begriffe aus dem Text repräsentieren.\n- **Typkodierungen** werden nur dann gesetzt, wenn eine Beziehung zwischen den Begriffen **existiert**.\n- Im vorliegenden Beispiel **besteht keine Beziehung** zwischen den Begriffen, basierend auf der gegebenen Typkodierung und dem Text.\n\nWenn du eine **konkrete Beziehung** zwischen den Begriffen hast, z. B. \"Ich schwimme in meinem Pool\" mit einer Beziehung wie \"under\" oder \"context\", dann füge ich gerne die richtigen Werte der Matrix hinzu."
+}

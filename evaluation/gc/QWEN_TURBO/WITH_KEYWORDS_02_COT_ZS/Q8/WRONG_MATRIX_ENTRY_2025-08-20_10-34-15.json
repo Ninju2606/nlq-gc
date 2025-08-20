@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer hat sich als \u0027Maria\u0027 identifiziert. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein \u0027object\u0027 (ID 1), \u0027person\u0027 ist ein \u0027context\u0027 (ID 2), \u0027drive\u0027 ist ein \u0027activity\u0027 (ID 4), \u0027boat\u0027 ist ein \u0027object\u0027 (ID 1), \u0027lake\u0027 ist ein \u0027context\u0027 (ID 2). 3. Relationen der Stichwörter: \u0027maria\u0027 und \u0027person\u0027 stehen in einer \u0027identity\u0027-Beziehung (ID 1), \u0027person\u0027 und \u0027drive\u0027 in einer \u0027perform\u0027-Beziehung (ID 8), \u0027drive\u0027 und \u0027boat\u0027 in einer \u0027target\u0027-Beziehung (ID 9), \u0027boat\u0027 und \u0027lake\u0027 in einer \u0027above\u0027-Beziehung (ID 7). 4. Alle Relationen sind durch die bereitgestellten Typkodierungen abgedeckt. 5. Der GraphCode wurde basierend auf den gegebenen Angaben zusammengefügt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer hat sich als \u0027Maria\u0027 identifiziert. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein \u0027object\u0027 (ID 1), \u0027person\u0027 ist ein \u0027context\u0027 (ID 2), \u0027drive\u0027 ist ein \u0027activity\u0027 (ID 4), \u0027boat\u0027 ist ein \u0027object\u0027 (ID 1), \u0027lake\u0027 ist ein \u0027context\u0027 (ID 2). 3. Relationen der Stichwörter: \u0027maria\u0027 und \u0027person\u0027 stehen in einer \u0027identity\u0027-Beziehung (ID 1), \u0027person\u0027 und \u0027drive\u0027 in einer \u0027perform\u0027-Beziehung (ID 8), \u0027drive\u0027 und \u0027boat\u0027 in einer \u0027target\u0027-Beziehung (ID 9), \u0027boat\u0027 und \u0027lake\u0027 in einer \u0027above\u0027-Beziehung (ID 7). 4. Alle Relationen sind durch die bereitgestellten Typkodierungen abgedeckt. 5. Der GraphCode wurde basierend auf den gegebenen Angaben zusammengefügt.\"\n}"
+}

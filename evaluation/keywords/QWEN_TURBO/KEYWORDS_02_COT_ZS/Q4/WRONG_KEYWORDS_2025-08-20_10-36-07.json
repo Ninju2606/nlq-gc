@@ -1,0 +1,10 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027 extrahiert und ins Englische übersetzt. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da die Anfrage auf den Nutzer bezieht. Die Begriffe \u0027schwimme\u0027 und \u0027meinem\u0027 wurden in \u0027swim\u0027 und \u0027pool\u0027 verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Ich schwimme in meinem Pool\u0027 extrahiert und ins Englische übersetzt. \u0027Ich\u0027 wurde durch \u0027Maria\u0027 ersetzt, da die Anfrage auf den Nutzer bezieht. Die Begriffe \u0027schwimme\u0027 und \u0027meinem\u0027 wurden in \u0027swim\u0027 und \u0027pool\u0027 verallgemeinert.\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Basketball\": 1\n  },\n  \"matrix\": {\n    \"1\": {\n      \"1\": 1\n    }\n  }\n}\n\n\n### Erklärung:\n- Der Begriff **\"Basketball\"** wird als **object** (Typ `id\u003d1`) kodiert.\n- Da es in der Anfrage keine andere Begriffe oder Beziehungen gibt, ist die Adjazenzmatrix nur mit einem Eintrag gefüllt.\n- Jeder Begriff ist mit sich selbst in Beziehung, da `identityMapping` für `id\u003d1` auf `true` gesetzt ist. Das bedeutet, dass ein Begriff immer mit sich selbst in Beziehung steht."
+}

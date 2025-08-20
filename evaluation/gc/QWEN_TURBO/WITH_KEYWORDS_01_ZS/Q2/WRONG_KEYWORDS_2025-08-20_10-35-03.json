@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Situation \u0027Tim rennt\u0027 im Metaverse. \u0027tim\u0027 ist als Objekt identifiziert, \u0027run\u0027 als Aktivität. Die Identifikation des Nutzers \u0027maria\u0027 wurde hinzugefügt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situation \u0027Tim rennt\u0027 im Metaverse. \u0027tim\u0027 ist als Objekt identifiziert, \u0027run\u0027 als Aktivität. Die Identifikation des Nutzers \u0027maria\u0027 wurde hinzugefügt.\"\n}"
+}

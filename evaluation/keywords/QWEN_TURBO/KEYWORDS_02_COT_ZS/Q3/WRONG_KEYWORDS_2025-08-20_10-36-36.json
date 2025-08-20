@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 ermittelt. Die Identifikation des Nutzers (Maria) wurde berücksichtigt und in \u0027own\u0027 verallgemeinert. Die Stichwörter wurden ins Englische übersetzt und die irrelevanten Teile der Anfrage wurden nicht berücksichtigt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 ermittelt. Die Identifikation des Nutzers (Maria) wurde berücksichtigt und in \u0027own\u0027 verallgemeinert. Die Stichwörter wurden ins Englische übersetzt und die irrelevanten Teile der Anfrage wurden nicht berücksichtigt.\"\n}"
+}

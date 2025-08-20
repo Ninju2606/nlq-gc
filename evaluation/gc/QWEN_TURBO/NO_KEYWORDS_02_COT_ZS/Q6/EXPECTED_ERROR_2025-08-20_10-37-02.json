@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we must",
+    "make an appointment",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027We must\u0027, \u0027make an appointment\u0027. 4. \u0027Wir\u0027 wird durch \u0027Maria\u0027 ersetzt, da es auf den Nutzer verweist. 5. Attributeigenschaften: \u0027We must\u0027 ist ein Aktivitätsbegriff (ID: 8), \u0027make an appointment\u0027 ist eine Aktivität (ID: 8), \u0027Maria\u0027 ist ein Objekt (ID: 1). 6. \u0027We must\u0027 und \u0027make an appointment\u0027 stehen in einer Beziehung, da sie eine Handlung und ihr Ziel darstellen. \u0027Maria\u0027 verknüpft die Aktivität mit der Person. 7. Alle Relationen haben passende Typkodierungen. 8. GraphCode erstellt mit dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"we must\", \"make an appointment\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027We must\u0027, \u0027make an appointment\u0027. 4. \u0027Wir\u0027 wird durch \u0027Maria\u0027 ersetzt, da es auf den Nutzer verweist. 5. Attributeigenschaften: \u0027We must\u0027 ist ein Aktivitätsbegriff (ID: 8), \u0027make an appointment\u0027 ist eine Aktivität (ID: 8), \u0027Maria\u0027 ist ein Objekt (ID: 1). 6. \u0027We must\u0027 und \u0027make an appointment\u0027 stehen in einer Beziehung, da sie eine Handlung und ihr Ziel darstellen. \u0027Maria\u0027 verknüpft die Aktivität mit der Person. 7. Alle Relationen haben passende Typkodierungen. 8. GraphCode erstellt mit dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

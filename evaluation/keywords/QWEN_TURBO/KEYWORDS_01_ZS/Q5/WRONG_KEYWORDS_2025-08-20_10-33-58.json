@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "person",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 abgeleitet.",
+  "responsePlain": "{\n  \"dictionary\": [\"person\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 abgeleitet.\"\n}"
+}

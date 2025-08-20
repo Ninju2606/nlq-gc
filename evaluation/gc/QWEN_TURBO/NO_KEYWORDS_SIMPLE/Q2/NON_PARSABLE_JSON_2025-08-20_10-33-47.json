@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage `„Tim rennt“` als `GraphCode` nach Wagenpfeil in der gewünschten JSON-Formatierung, also als typcodierte **Adjazenzmatrix**, bei der die Begriffe im Text die Zeilen/Spalten bilden und die Beziehungen zwischen ihnen die **Typwerte** sind:\n\n\n{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- **dictionary**: Enthält die Zuordnung der Begriffe zur Indexnummer (0 \u003d \"Tim\", 1 \u003d \"rennt\").\n- **matrix**: Die Adjazenzmatrix, wobei `matrix[i][j]` den Typwert der Beziehung von Begriff `i` zu Begriff `j` darstellt.\n  - `\"Tim\"` (Index 0) hat eine Beziehung zur Aktivität `\"rennt\"` (Index 1), wobei der Typwert `8` entsprechend dem Attribut `\"perform\"` ist.\n  - `\"rennt\"` (Index 1) hat keine Beziehung zu anderen Begriffen in diesem Text, daher `0`.\n\nWenn du weitere Anfragen oder eine erweiterte Darstellung hast, kann ich dir gerne helfen!"
+}

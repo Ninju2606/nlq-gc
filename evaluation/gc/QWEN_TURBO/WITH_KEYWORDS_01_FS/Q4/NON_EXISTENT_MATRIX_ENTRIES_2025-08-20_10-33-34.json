@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Ich schwimme in meinem Pool\u0027. \u0027Maria\u0027 ist die identifizierte Person, \u0027schwimmen\u0027 ist die Aktivität, \u0027mein\u0027 wird durch \u0027own\u0027 dargestellt und \u0027Pool\u0027 ist das Objekt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 7, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Ich schwimme in meinem Pool\u0027. \u0027Maria\u0027 ist die identifizierte Person, \u0027schwimmen\u0027 ist die Aktivität, \u0027mein\u0027 wird durch \u0027own\u0027 dargestellt und \u0027Pool\u0027 ist das Objekt.\"\n}"
+}

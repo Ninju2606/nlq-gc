@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars des GraphCodes basieren auf der Nutzeridentifikation \u0027Maria\u0027, dem Objekt \u0027Hut\u0027 und der Aktivität \u0027tragen\u0027, sowie dem Attribut \u0027gelb\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Die Stichwörter des Vokabulars des GraphCodes basieren auf der Nutzeridentifikation \u0027Maria\u0027, dem Objekt \u0027Hut\u0027 und der Aktivität \u0027tragen\u0027, sowie dem Attribut \u0027gelb\u0027.\"\n}"
+}

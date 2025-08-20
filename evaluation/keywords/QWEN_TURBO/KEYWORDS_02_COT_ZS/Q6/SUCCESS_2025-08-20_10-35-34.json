@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "meeting",
+    "schedule"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage extrahiert und ins Englische übersetzt. \u0027Termin ausmachen\u0027 wurde als \u0027meeting\u0027 und \u0027schedule\u0027 kodiert. Keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 wurden gefunden, daher wurde die Nutzeridentifikation ignoriert.",
+  "responsePlain": "{\n  \"dictionary\": [\"meeting\", \"schedule\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage extrahiert und ins Englische übersetzt. \u0027Termin ausmachen\u0027 wurde als \u0027meeting\u0027 und \u0027schedule\u0027 kodiert. Keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 wurden gefunden, daher wurde die Nutzeridentifikation ignoriert.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situations",
+    "yellow hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: [\u0027Situationen\u0027, \u0027gelber Hut\u0027, \u0027trage\u0027]\n2. Relative Verweise: Keine Verweise auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden.\n3. Übersetzung ins Englische: [\u0027Situations\u0027, \u0027yellow hat\u0027, \u0027wear\u0027]\n4. Ersetzen der Identifikation: Keine Referenz auf \u0027Maria\u0027 in den Stichwörtern gefunden.\n5. Attributeigenschaften: \u0027Situations\u0027 ist eine Aktivität, \u0027yellow hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität.\n6. Beziehungen zwischen den Stichwörtern: \u0027Situations\u0027 und \u0027yellow hat\u0027 haben eine \u0027attached\u0027-Beziehung, \u0027Situations\u0027 und \u0027wear\u0027 haben eine \u0027perform\u0027-Beziehung, \u0027yellow hat\u0027 und \u0027wear\u0027 haben eine \u0027target\u0027-Beziehung.\n7. Typkodierungen: \u0027attached\u0027 (ID 5), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9) sind vorhanden.\n8. GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: [\u0027Situationen\u0027, \u0027gelber Hut\u0027, \u0027trage\u0027]\\n2. Relative Verweise: Keine Verweise auf \u0027ich\u0027, \u0027mein\u0027 oder \u0027mir\u0027 gefunden.\\n3. Übersetzung ins Englische: [\u0027Situations\u0027, \u0027yellow hat\u0027, \u0027wear\u0027]\\n4. Ersetzen der Identifikation: Keine Referenz auf \u0027Maria\u0027 in den Stichwörtern gefunden.\\n5. Attributeigenschaften: \u0027Situations\u0027 ist eine Aktivität, \u0027yellow hat\u0027 ist ein Objekt, \u0027wear\u0027 ist eine Aktivität.\\n6. Beziehungen zwischen den Stichwörtern: \u0027Situations\u0027 und \u0027yellow hat\u0027 haben eine \u0027attached\u0027-Beziehung, \u0027Situations\u0027 und \u0027wear\u0027 haben eine \u0027perform\u0027-Beziehung, \u0027yellow hat\u0027 und \u0027wear\u0027 haben eine \u0027target\u0027-Beziehung.\\n7. Typkodierungen: \u0027attached\u0027 (ID 5), \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9) sind vorhanden.\\n8. GraphCode wurde erstellt.\",\n  \"dictionary\": [\"situations\", \"yellow hat\", \"wear\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ]\n}"
+}

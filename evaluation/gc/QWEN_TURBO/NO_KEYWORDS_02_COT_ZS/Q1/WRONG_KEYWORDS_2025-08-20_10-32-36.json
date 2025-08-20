@@ -1,0 +1,36 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Basketball\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027basketball\u0027. 4. Identifikation des Nutzers \u0027Maria\u0027 wird in das Vokabular aufgenommen, da die Anfrage auf die Person \u0027Ich\u0027 verweist. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027basketball\u0027 ist ein \u0027object\u0027. 6. Die Stichwörter \u0027Maria\u0027 und \u0027basketball\u0027 stehen in der Relation \u0027perform\u0027, da Maria Basketball spielt. 7. Es gibt einen entsprechenden Eintrag für die Relation \u0027perform\u0027 mit ID 8. 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Basketball\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: \u0027basketball\u0027. 4. Identifikation des Nutzers \u0027Maria\u0027 wird in das Vokabular aufgenommen, da die Anfrage auf die Person \u0027Ich\u0027 verweist. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027basketball\u0027 ist ein \u0027object\u0027. 6. Die Stichwörter \u0027Maria\u0027 und \u0027basketball\u0027 stehen in der Relation \u0027perform\u0027, da Maria Basketball spielt. 7. Es gibt einen entsprechenden Eintrag für die Relation \u0027perform\u0027 mit ID 8. 8. Der GraphCode wurde erstellt.\"\n}"
+}

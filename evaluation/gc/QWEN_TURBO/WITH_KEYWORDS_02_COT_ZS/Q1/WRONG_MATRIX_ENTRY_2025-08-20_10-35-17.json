@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt. Die Anfrage \u0027Ich spiele Basketball\u0027 wird aufgelöst zu den Begriffen \u0027maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\n2. Die Attribute der Stichwörter sind wie folgt:\n- \u0027maria\u0027: ist eine Person (identityMapping \u003d true, Typ: object)\n- \u0027play\u0027: beschreibt eine Aktivität (identityMapping \u003d false, Typ: activity)\n- \u0027basketball\u0027: ist ein Objekt (identityMapping \u003d true, Typ: object)\n3. Die Stichwörter stehen in folgenden Relationen zueinander:\n- \u0027maria\u0027 und \u0027play\u0027 haben eine \u0027perform\u0027-Beziehung (Typ: activity, identityMapping \u003d false)\n- \u0027play\u0027 und \u0027basketball\u0027 haben eine \u0027target\u0027-Beziehung (Typ: target, identityMapping \u003d false)\n4. Alle Relationen haben entsprechende Typkodierungen:\n- \u0027maria\u0027 und \u0027play\u0027 → ID 8 (\u0027perform\u0027)\n- \u0027play\u0027 und \u0027basketball\u0027 → ID 9 (\u0027target\u0027)\n5. Der GraphCode wurde erfolgreich erstellt, bestehend aus dem Vokabular und einer 3x3-Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt. Die Anfrage \u0027Ich spiele Basketball\u0027 wird aufgelöst zu den Begriffen \u0027maria\u0027, \u0027play\u0027, \u0027basketball\u0027.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n- \u0027maria\u0027: ist eine Person (identityMapping \u003d true, Typ: object)\\n- \u0027play\u0027: beschreibt eine Aktivität (identityMapping \u003d false, Typ: activity)\\n- \u0027basketball\u0027: ist ein Objekt (identityMapping \u003d true, Typ: object)\\n3. Die Stichwörter stehen in folgenden Relationen zueinander:\\n- \u0027maria\u0027 und \u0027play\u0027 haben eine \u0027perform\u0027-Beziehung (Typ: activity, identityMapping \u003d false)\\n- \u0027play\u0027 und \u0027basketball\u0027 haben eine \u0027target\u0027-Beziehung (Typ: target, identityMapping \u003d false)\\n4. Alle Relationen haben entsprechende Typkodierungen:\\n- \u0027maria\u0027 und \u0027play\u0027 → ID 8 (\u0027perform\u0027)\\n- \u0027play\u0027 und \u0027basketball\u0027 → ID 9 (\u0027target\u0027)\\n5. Der GraphCode wurde erfolgreich erstellt, bestehend aus dem Vokabular und einer 3x3-Bewertungsmatrix.\"\n}"
+}

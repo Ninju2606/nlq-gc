@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      14,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Ein GraphCode wurde generiert, der die Szene \u0027Ich schwimme in einem Pool, der mir gehört\u0027 beschreibt. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027 und \u0027own\u0027. Die Bewertungsmatrix definiert die Beziehungen zwischen diesen Begriffen gemäß den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 14, 1]\n  ],\n  \"description\": \"Ein GraphCode wurde generiert, der die Szene \u0027Ich schwimme in einem Pool, der mir gehört\u0027 beschreibt. Das Vokabular enthält die Begriffe \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027 und \u0027own\u0027. Die Bewertungsmatrix definiert die Beziehungen zwischen diesen Begriffen gemäß den vorgegebenen Typkodierungen.\"\n}"
+}

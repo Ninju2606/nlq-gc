@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Anfrage \u0027Meine Tochter und ich fahren Boot auf einem See\u0027 generiert.\"\n}"
+}

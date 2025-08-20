@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situations",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrix": [
+    [
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      14,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\n2. Relative Verweise: \u0027ich\u0027 referenziert auf die Identifikation \u0027Maria\u0027.\n3. Übersetzung ins Englische: \u0027Situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\n4. Identifikation des Nutzers \u0027Maria\u0027 wurde ersetzt, da \u0027ich\u0027 referenziert wird.\n5. Attributeigenschaften: \u0027Situations\u0027 (context), \u0027yellow\u0027 (object), \u0027hat\u0027 (object), \u0027wear\u0027 (activity).\n6. Beziehungen: \u0027Situations\u0027 und \u0027wear\u0027 (activity), \u0027wear\u0027 und \u0027hat\u0027 (attached), \u0027hat\u0027 und \u0027yellow\u0027 (characteristic).\n7. Prüfung der Typkodierungen: \u0027Situations\u0027 → 2 (context), \u0027yellow\u0027 → 1 (object), \u0027hat\u0027 → 1 (object), \u0027wear\u0027 → 4 (activity), \u0027wear\u0027 und \u0027hat\u0027 → 5 (attached), \u0027hat\u0027 und \u0027yellow\u0027 → 14 (characteristic). Alle Beziehungen sind in der Typkodierung vorhanden.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Situationen\u0027, \u0027gelben\u0027, \u0027Hut\u0027, \u0027trage\u0027.\\n2. Relative Verweise: \u0027ich\u0027 referenziert auf die Identifikation \u0027Maria\u0027.\\n3. Übersetzung ins Englische: \u0027Situations\u0027, \u0027yellow\u0027, \u0027hat\u0027, \u0027wear\u0027.\\n4. Identifikation des Nutzers \u0027Maria\u0027 wurde ersetzt, da \u0027ich\u0027 referenziert wird.\\n5. Attributeigenschaften: \u0027Situations\u0027 (context), \u0027yellow\u0027 (object), \u0027hat\u0027 (object), \u0027wear\u0027 (activity).\\n6. Beziehungen: \u0027Situations\u0027 und \u0027wear\u0027 (activity), \u0027wear\u0027 und \u0027hat\u0027 (attached), \u0027hat\u0027 und \u0027yellow\u0027 (characteristic).\\n7. Prüfung der Typkodierungen: \u0027Situations\u0027 → 2 (context), \u0027yellow\u0027 → 1 (object), \u0027hat\u0027 → 1 (object), \u0027wear\u0027 → 4 (activity), \u0027wear\u0027 und \u0027hat\u0027 → 5 (attached), \u0027hat\u0027 und \u0027yellow\u0027 → 14 (characteristic). Alle Beziehungen sind in der Typkodierung vorhanden.\\n8. Der GraphCode wurde erfolgreich erstellt.\",\n  \"dictionary\": [\"situations\", \"yellow\", \"hat\", \"wear\"],\n  \"matrix\": [\n    [2, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 5, 14, 4]\n  ]\n}"
+}

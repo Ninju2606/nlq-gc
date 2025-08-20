@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "meet",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Wir\" (implizit als Maria), \"bald\", \"Termin\", \"ausmachen\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"Maria\", \"meet\", \"appointment\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"meet\", \"appointment\".",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"meet\", \"appointment\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Wir\\\" (implizit als Maria), \\\"bald\\\", \\\"Termin\\\", \\\"ausmachen\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"Maria\\\", \\\"meet\\\", \\\"appointment\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"meet\\\", \\\"appointment\\\".\"\n}"
+}

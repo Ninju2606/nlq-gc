@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Schlüsselwörter des Vokabulars wurden basierend auf der Nutzeranfrage identifiziert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"description\": \"Die Schlüsselwörter des Vokabulars wurden basierend auf der Nutzeranfrage identifiziert.\"\n}"
+}

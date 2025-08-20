@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Meine Tochter\", \"fahre\", \"Boot\", \"auf\", \"einem See\".\n        2. \"Meine Tochter\" ist ein relativer Verweis. Die neuen Stichwörter sind \"Maria\", \"daughter\", \"boat\", \"lake\". Dabei ist \"daughter\" die Tochter von \"Maria\".\n        3. Die englischen Stichwörter sind \"I\", \"daughter\", \"boat\", \"lake\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"daughter\", \"boat\", \"lake\".\n        5. \"Maria\", \"daughter\", \"boat\", und \"lake\" sind Objekte der Anfrage. \"boat\" ist eine Aktivität.\n        6. \"Maria\" fährt mit der Aktivität \"boat\". \"boat\" bezieht sich auf \"lake\". \"daughter\" ist Teil von \"Maria\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Meine Tochter\\\", \\\"fahre\\\", \\\"Boot\\\", \\\"auf\\\", \\\"einem See\\\".\\n        2. \\\"Meine Tochter\\\" ist ein relativer Verweis. Die neuen Stichwörter sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"lake\\\". Dabei ist \\\"daughter\\\" die Tochter von \\\"Maria\\\".\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"daughter\\\", \\\"boat\\\", \\\"lake\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", \\\"lake\\\".\\n        5. \\\"Maria\\\", \\\"daughter\\\", \\\"boat\\\", und \\\"lake\\\" sind Objekte der Anfrage. \\\"boat\\\" ist eine Aktivität.\\n        6. \\\"Maria\\\" fährt mit der Aktivität \\\"boat\\\". \\\"boat\\\" bezieht sich auf \\\"lake\\\". \\\"daughter\\\" ist Teil von \\\"Maria\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8.\"\n}"
+}

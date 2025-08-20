@@ -1,0 +1,39 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer explizit seine Identität angibt. Der Ausdruck \u0027schwimme\u0027 wird als Aktivität (Typ \u0027activity\u0027) interpretiert. \u0027meinem\u0027 wird als Kontext (Typ \u0027context\u0027) gewertet. \u0027Pool\u0027 wird als Objekt (Typ \u0027object\u0027) interpretiert. 2. \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Kontext (context), \u0027pool\u0027 ist ein Objekt (object). 3. \u0027Maria\u0027 ist in der Aktivität \u0027schwimmen\u0027 und hat \u0027meinen Pool\u0027 als Kontext. 4. Es gibt für die Relationen \u0027maria\u0027 (object) mit \u0027swim\u0027 (activity) keine passende Kodierung, daher wird ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonale korrekt befüllt ist, und die Relationen außerhalb der Diagonalen nicht zulässig sind.",
+  "error": "Es fehlt eine passende Typkodierung für die Relation zwischen \u0027maria\u0027 (object) und \u0027swim\u0027 (activity).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer explizit seine Identität angibt. Der Ausdruck \u0027schwimme\u0027 wird als Aktivität (Typ \u0027activity\u0027) interpretiert. \u0027meinem\u0027 wird als Kontext (Typ \u0027context\u0027) gewertet. \u0027Pool\u0027 wird als Objekt (Typ \u0027object\u0027) interpretiert. 2. \u0027maria\u0027 ist ein Objekt (object), \u0027swim\u0027 ist eine Aktivität (activity), \u0027own\u0027 ist ein Kontext (context), \u0027pool\u0027 ist ein Objekt (object). 3. \u0027Maria\u0027 ist in der Aktivität \u0027schwimmen\u0027 und hat \u0027meinen Pool\u0027 als Kontext. 4. Es gibt für die Relationen \u0027maria\u0027 (object) mit \u0027swim\u0027 (activity) keine passende Kodierung, daher wird ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonale korrekt befüllt ist, und die Relationen außerhalb der Diagonalen nicht zulässig sind.\",\n  \"error\": \"Es fehlt eine passende Typkodierung für die Relation zwischen \u0027maria\u0027 (object) und \u0027swim\u0027 (activity).\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Termin\": 0,\n    \"ausmachen\": 1,\n    \"Wir\": 2,\n    \"müssen\": 3,\n    \"bald\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\n\nIn dieser Anfrage wird nur der Text `„Wir müssenn bald einen Termin ausmachen.“` analysiert. Es werden **keine Beziehungen** zwischen den Begriffen erkannt (z. B. keine Verben, Subjekte, Objekte, Kontexte, Synonyme, etc.). Daher sind alle Werte in der **Adjazenzmatrix** auf `0` gesetzt.\n\nDie **Begriffe** sind in der `dictionary` als numerische Schlüssel aufgelistet, wobei:\n- `\"Termin\"` → 0\n- `\"ausmachen\"` → 1\n- `\"Wir\"` → 2\n- `\"müssen\"` → 3\n- `\"bald\"` → 4\n\nDa es keine Beziehungen gibt (keine Attribute aus der Typkodierung), bleibt die `matrix` leer (bestehend aus Nullen)."
+}

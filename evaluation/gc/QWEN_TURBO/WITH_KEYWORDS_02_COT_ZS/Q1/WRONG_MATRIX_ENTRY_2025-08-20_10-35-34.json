@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 die Person direkt anspricht. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (identifizierbarer Begriff, Typ: object), \u0027play\u0027 (Aktivität, Typ: activity), \u0027basketball\u0027 (Objekt, Typ: object). 3. \u0027Maria\u0027 und \u0027basketball\u0027 werden durch \u0027play\u0027 in einer Beziehung verbunden, wobei \u0027play\u0027 die Aktivität darstellt, die Maria mit dem Basketball ausführt. 4. Für die Beziehungen \u0027maria\u0027 (object) und \u0027basketball\u0027 (object) sind die Typkodierungen vorhanden (ID 1 und 4). Die Aktivität \u0027play\u0027 (activity) ist auch als Typkodierung vorhanden (ID 4). 5. Der GraphCode wurde basierend auf den Vorgaben und den Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da die Anfrage \u0027Ich spiele Basketball\u0027 die Person direkt anspricht. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (identifizierbarer Begriff, Typ: object), \u0027play\u0027 (Aktivität, Typ: activity), \u0027basketball\u0027 (Objekt, Typ: object). 3. \u0027Maria\u0027 und \u0027basketball\u0027 werden durch \u0027play\u0027 in einer Beziehung verbunden, wobei \u0027play\u0027 die Aktivität darstellt, die Maria mit dem Basketball ausführt. 4. Für die Beziehungen \u0027maria\u0027 (object) und \u0027basketball\u0027 (object) sind die Typkodierungen vorhanden (ID 1 und 4). Die Aktivität \u0027play\u0027 (activity) ist auch als Typkodierung vorhanden (ID 4). 5. Der GraphCode wurde basierend auf den Vorgaben und den Typkodierungen erstellt.\"\n}"
+}

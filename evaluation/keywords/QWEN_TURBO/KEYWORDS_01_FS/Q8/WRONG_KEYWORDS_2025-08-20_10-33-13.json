@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die eingegangene Anfrage wurde erfolgreich verarbeitet. Das Vokabular des GraphCodes enthält die relevanten Begriffe aus der Anfrage.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"boat\", \"lake\"],\n  \"description\": \"Die eingegangene Anfrage wurde erfolgreich verarbeitet. Das Vokabular des GraphCodes enthält die relevanten Begriffe aus der Anfrage.\"\n}"
+}

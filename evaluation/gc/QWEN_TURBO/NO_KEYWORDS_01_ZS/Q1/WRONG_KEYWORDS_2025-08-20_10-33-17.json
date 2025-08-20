@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball",
+    "activity"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Ich spiele Basketball\u0027. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027basketball\u0027 ist das Objekt und \u0027activity\u0027 beschreibt die Handlung.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\", \"activity\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Ich spiele Basketball\u0027. \u0027Maria\u0027 ist die Nutzeridentifikation, \u0027basketball\u0027 ist das Objekt und \u0027activity\u0027 beschreibt die Handlung.\"\n}"
+}

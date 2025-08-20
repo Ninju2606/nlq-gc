@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Zuordnung: Die Identifikation des Nutzers \u0027Maria\u0027 wurde hinzugefügt, da die Anfrage \u0027Tim rennt\u0027 mit der Nutzeridentifikation \u0027Maria\u0027 verbunden ist. 2. Attributeigenschaften: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4), \u0027maria\u0027 ist ein Objekt (Typ 1). 3. Beziehungen: \u0027tim\u0027 und \u0027run\u0027 haben eine Beziehung \u0027perform\u0027 (Typ 8), \u0027tim\u0027 und \u0027maria\u0027 haben keine direkte Beziehung, \u0027run\u0027 und \u0027maria\u0027 haben keine direkte Beziehung. 4. Prüfung der Typkodierungen: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027perform\u0027 (8) sind vorhanden, andere Beziehungen fehlen. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Zuordnung: Die Identifikation des Nutzers \u0027Maria\u0027 wurde hinzugefügt, da die Anfrage \u0027Tim rennt\u0027 mit der Nutzeridentifikation \u0027Maria\u0027 verbunden ist. 2. Attributeigenschaften: \u0027tim\u0027 ist ein Objekt (Typ 1), \u0027run\u0027 ist eine Aktivität (Typ 4), \u0027maria\u0027 ist ein Objekt (Typ 1). 3. Beziehungen: \u0027tim\u0027 und \u0027run\u0027 haben eine Beziehung \u0027perform\u0027 (Typ 8), \u0027tim\u0027 und \u0027maria\u0027 haben keine direkte Beziehung, \u0027run\u0027 und \u0027maria\u0027 haben keine direkte Beziehung. 4. Prüfung der Typkodierungen: \u0027object\u0027 (1), \u0027activity\u0027 (4), \u0027perform\u0027 (8) sind vorhanden, andere Beziehungen fehlen. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

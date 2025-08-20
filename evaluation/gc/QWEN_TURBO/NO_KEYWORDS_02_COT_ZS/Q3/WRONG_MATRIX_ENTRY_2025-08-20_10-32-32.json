@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. 2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027. 4. Ersetzen der Nutzeridentifikation: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027mir\u0027 → \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027 (ID 1), \u0027swim\u0027 ist eine \u0027activity\u0027 (ID 4), \u0027pool\u0027 ist ein \u0027object\u0027 (ID 1), \u0027own\u0027 ist ein \u0027attribute\u0027 (ID 14). 6. Relationen: \u0027Maria\u0027 performt \u0027swim\u0027, \u0027Maria\u0027 besitzt \u0027pool\u0027, \u0027pool\u0027 ist \u0027own\u0027 von \u0027Maria\u0027. 7. Prüfung der Typkodierungen: Alle Relationen sind zulässig. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"own\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. 2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027. 4. Ersetzen der Nutzeridentifikation: \u0027Ich\u0027 → \u0027Maria\u0027, \u0027mir\u0027 → \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027 (ID 1), \u0027swim\u0027 ist eine \u0027activity\u0027 (ID 4), \u0027pool\u0027 ist ein \u0027object\u0027 (ID 1), \u0027own\u0027 ist ein \u0027attribute\u0027 (ID 14). 6. Relationen: \u0027Maria\u0027 performt \u0027swim\u0027, \u0027Maria\u0027 besitzt \u0027pool\u0027, \u0027pool\u0027 ist \u0027own\u0027 von \u0027Maria\u0027. 7. Prüfung der Typkodierungen: Alle Relationen sind zulässig. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt, da der Nutzer explizit erwähnt wird. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 als \u0027object\u0027, \u0027make\u0027 als \u0027activity\u0027, \u0027appointment\u0027 als \u0027object\u0027. 3. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist eine \u0027perform\u0027 (ID 8), da Maria einen Termin machen will. Die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 ist eine \u0027target\u0027 (ID 9), da das Ziel des Machens ein Termin ist. 4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt, da der Nutzer explizit erwähnt wird. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 als \u0027object\u0027, \u0027make\u0027 als \u0027activity\u0027, \u0027appointment\u0027 als \u0027object\u0027. 3. Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 ist eine \u0027perform\u0027 (ID 8), da Maria einen Termin machen will. Die Beziehung zwischen \u0027make\u0027 und \u0027appointment\u0027 ist eine \u0027target\u0027 (ID 9), da das Ziel des Machens ein Termin ist. 4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

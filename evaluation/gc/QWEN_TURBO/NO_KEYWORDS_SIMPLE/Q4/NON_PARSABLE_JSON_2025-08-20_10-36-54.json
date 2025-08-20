@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"schwimme\": 0,\n    \"in\": 1,\n    \"meinem\": 2,\n    \"Pool\": 3\n  },\n  \"matrix\": [\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ]\n}\n\n\n### Erläuterung:\nDa die Anfrage **\"Ich schwimme in meinem Pool\"** nur **einzelne Wörter** enthält und **keine Beziehungen** wie \"object\", \"context\", \"synonym\", \"activity\", \"attached\", \"under\", \"above\", \"perform\", \"target\", \"daughter\", oder \"characteristic\" zwischen den Begriffen erkennbar sind, ist die Adjazenzmatrix mit Nullen gefüllt.\n\nWenn du die Beziehungen konkret definieren möchtest (z. B. \"schwimme\" ist eine **activity**, \"Pool\" ist ein **object**, \"in\" ist eine **context**), kann ich dir eine vollständigere Matrix bereitstellen, basierend auf deinen definieren Beziehungen. Lass mich wissen, wie du die Beziehungen gern codieren möchtest!"
+}

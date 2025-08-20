@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.5555555555555556,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Ich spiele Basketball\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Die Einträge in der Diagonalen definieren die Identität der Begriffe, wobei \u0027maria\u0027 als Objekt (id 1), \u0027play\u0027 als Kontext (id 2) und \u0027basketball\u0027 als Aktivität (id 4) kodiert sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 2, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Ich spiele Basketball\u0027 mit der Nutzeridentifikation \u0027Maria\u0027. Die Einträge in der Diagonalen definieren die Identität der Begriffe, wobei \u0027maria\u0027 als Objekt (id 1), \u0027play\u0027 als Kontext (id 2) und \u0027basketball\u0027 als Aktivität (id 4) kodiert sind.\"\n}"
+}

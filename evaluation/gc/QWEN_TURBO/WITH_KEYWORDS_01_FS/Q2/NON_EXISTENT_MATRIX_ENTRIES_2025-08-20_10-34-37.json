@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Tim rennt\u0027. \u0027tim\u0027 ist der Benutzer, \u0027run\u0027 beschreibt die Aktivität. Die Einträge auf der Diagonalen sind mit identityMapping\u003dtrue belegt. Der Eintrag (1,2) ist mit 8 (attribut: \u0027perform\u0027) kodiert, da \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Tim rennt\u0027. \u0027tim\u0027 ist der Benutzer, \u0027run\u0027 beschreibt die Aktivität. Die Einträge auf der Diagonalen sind mit identityMapping\u003dtrue belegt. Der Eintrag (1,2) ist mit 8 (attribut: \u0027perform\u0027) kodiert, da \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt.\"\n}"
+}

@@ -1,0 +1,39 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we",
+    "must",
+    "soon",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische erfolgt: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027make\u0027, \u0027appointment\u0027. 4. Der Begriff \u0027wir\u0027 wurde in \u0027we\u0027 übersetzt, \u0027bald\u0027 in \u0027soon\u0027. 5. Die Attributeigenschaften der Begriffe: \u0027we\u0027 (object), \u0027must\u0027 (object), \u0027soon\u0027 (object), \u0027make\u0027 (object), \u0027appointment\u0027 (object). 6. Die Begriffe beziehen sich aufeinander durch die Beziehung \u0027perform\u0027, was bedeutet, dass \u0027we\u0027 etwas \u0027make\u0027 (ausmachen) mit \u0027appointment\u0027. 7. Für die Beziehung \u0027perform\u0027 ist keine passende Typkodierung in den bereitgestellten Daten vorhanden. 8. Der GraphCode wurde nicht vollständig generiert, da keine passende Typkodierung für die Beziehung gefunden wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"we\", \"must\", \"soon\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische erfolgt: \u0027we\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027make\u0027, \u0027appointment\u0027. 4. Der Begriff \u0027wir\u0027 wurde in \u0027we\u0027 übersetzt, \u0027bald\u0027 in \u0027soon\u0027. 5. Die Attributeigenschaften der Begriffe: \u0027we\u0027 (object), \u0027must\u0027 (object), \u0027soon\u0027 (object), \u0027make\u0027 (object), \u0027appointment\u0027 (object). 6. Die Begriffe beziehen sich aufeinander durch die Beziehung \u0027perform\u0027, was bedeutet, dass \u0027we\u0027 etwas \u0027make\u0027 (ausmachen) mit \u0027appointment\u0027. 7. Für die Beziehung \u0027perform\u0027 ist keine passende Typkodierung in den bereitgestellten Daten vorhanden. 8. Der GraphCode wurde nicht vollständig generiert, da keine passende Typkodierung für die Beziehung gefunden wurde.\"\n}"
+}

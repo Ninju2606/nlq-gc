@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" ist unklar und enthält keine eindeutigen Szenenbeschreibungen oder Beziehungen zwischen Objekten, die für die Generierung eines GraphCodes erforderlich sind.",
+  "error": "Die Anfrage kann nicht vollständig verarbeitet werden. Es fehlen wichtige Informationen, um einen sinnvollen GraphCode zu generieren.",
+  "responsePlain": "{\n  \"error\": \"Die Anfrage kann nicht vollständig verarbeitet werden. Es fehlen wichtige Informationen, um einen sinnvollen GraphCode zu generieren.\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" ist unklar und enthält keine eindeutigen Szenenbeschreibungen oder Beziehungen zwischen Objekten, die für die Generierung eines GraphCodes erforderlich sind.\"\n}"
+}

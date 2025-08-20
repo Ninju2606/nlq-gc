@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "situation",
+    "user",
+    "yellow",
+    "hat"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde in den GraphCode integriert. Potenzielle Stichwörter wurden aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 ermittelt und ins Englische übersetzt. Die Stichwörter \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027 und \u0027ich\u0027 wurden verarbeitet, wobei \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"situation\", \"user\", \"yellow\", \"hat\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde in den GraphCode integriert. Potenzielle Stichwörter wurden aus der Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027 ermittelt und ins Englische übersetzt. Die Stichwörter \u0027Situationen\u0027, \u0027gelben Hut\u0027, \u0027trage\u0027 und \u0027ich\u0027 wurden verarbeitet, wobei \u0027ich\u0027 durch die Nutzeridentifikation \u0027Maria\u0027 ersetzt wurde.\"\n}"
+}

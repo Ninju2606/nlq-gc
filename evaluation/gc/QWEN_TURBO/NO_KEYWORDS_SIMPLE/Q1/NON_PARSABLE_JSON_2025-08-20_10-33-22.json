@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Basketball\": 1\n  },\n  \"matrix\": {\n    \"1\": {\n      \"1\": 0\n    }\n  }\n}\n\n\n### Erläuterung:\nDie Anfrage „Ich spiele Basketball“ wird in eine typcodierte Adjazenzmatrix (GraphCode nach Wagenpfeil) übersetzt. In diesem Fall gibt es nur einen Begriff: **\"Basketball\"**. Da keine anderen Begriffe im Text vorkommen, ist die Matrix nur ein Element groß (1x1), und es gibt keine Beziehungen (Typwerte). Daher ist die gesamte Matrix mit 0 gefüllt."
+}

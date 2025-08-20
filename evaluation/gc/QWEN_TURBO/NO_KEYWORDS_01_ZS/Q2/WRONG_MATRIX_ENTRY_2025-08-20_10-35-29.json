@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "Der GraphCode wurde erfolgreich generiert. \u0027Tim\u0027 ist ein Objekt und \u0027run\u0027 ist eine Aktivität.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. \u0027Tim\u0027 ist ein Objekt und \u0027run\u0027 ist eine Aktivität.\"\n}"
+}

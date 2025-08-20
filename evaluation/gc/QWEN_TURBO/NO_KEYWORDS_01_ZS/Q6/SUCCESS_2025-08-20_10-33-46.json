@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine konkreten Objekte, Attribute oder AktivitÃ¤ten, die in einen GraphCode Ã¼berfÃ¼hrt werden kÃ¶nnen. Es fehlen die notwendigen Begriffe fÃ¼r das Vokabular und die Beziehungen fÃ¼r die Bewertungsmatrix.",
+  "error": "No suitable GraphCode could be generated.",
+  "responsePlain": "{\n  \"error\": \"No suitable GraphCode could be generated.\",\n  \"description\": \"Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine konkreten Objekte, Attribute oder AktivitÃ¤ten, die in einen GraphCode Ã¼berfÃ¼hrt werden kÃ¶nnen. Es fehlen die notwendigen Begriffe fÃ¼r das Vokabular und die Beziehungen fÃ¼r die Bewertungsmatrix.\"\n}"
+}

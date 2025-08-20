@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit von \u0027ich\u0027 (Maria) stammt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object) und \u0027yellow\u0027 ist ein Objekt (object). 3. Die Stichwörter \u0027maria\u0027 und \u0027wear\u0027 stehen in einer \u0027perform\u0027-Beziehung (d.h., Maria trägt etwas), \u0027wear\u0027 und \u0027hat\u0027 sind synonym (synonym), \u0027maria\u0027 und \u0027yellow\u0027 haben keine direkte Beziehung, \u0027hat\u0027 und \u0027yellow\u0027 sind verknüpft über eine \u0027attached\u0027-Beziehung (d.h., Maria trägt einen gelben Hut). 4. Für die Relationen \u0027perform\u0027 (zwischen \u0027maria\u0027 und \u0027wear\u0027), \u0027synonym\u0027 (zwischen \u0027wear\u0027 und \u0027hat\u0027), \u0027attached\u0027 (zwischen \u0027hat\u0027 und \u0027yellow\u0027) gibt es passende Typkodierungen (IDs 8, 3, 5). 5. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit von \u0027ich\u0027 (Maria) stammt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object), \u0027wear\u0027 ist eine Aktivität (activity), \u0027hat\u0027 ist ein Objekt (object) und \u0027yellow\u0027 ist ein Objekt (object). 3. Die Stichwörter \u0027maria\u0027 und \u0027wear\u0027 stehen in einer \u0027perform\u0027-Beziehung (d.h., Maria trägt etwas), \u0027wear\u0027 und \u0027hat\u0027 sind synonym (synonym), \u0027maria\u0027 und \u0027yellow\u0027 haben keine direkte Beziehung, \u0027hat\u0027 und \u0027yellow\u0027 sind verknüpft über eine \u0027attached\u0027-Beziehung (d.h., Maria trägt einen gelben Hut). 4. Für die Relationen \u0027perform\u0027 (zwischen \u0027maria\u0027 und \u0027wear\u0027), \u0027synonym\u0027 (zwischen \u0027wear\u0027 und \u0027hat\u0027), \u0027attached\u0027 (zwischen \u0027hat\u0027 und \u0027yellow\u0027) gibt es passende Typkodierungen (IDs 8, 3, 5). 5. Der GraphCode wurde erstellt.\"\n}"
+}

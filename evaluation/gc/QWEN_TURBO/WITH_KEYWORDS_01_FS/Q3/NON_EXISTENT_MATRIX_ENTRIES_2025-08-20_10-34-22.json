@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde basierend auf der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 erstellt. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027 und \u0027pool\u0027. Die Bewertungsmatrix repräsentiert die Beziehungen zwischen diesen Begriffen, wobei die Einheitsdiagonalen die Identitäten der Begriffe definieren und die außer-diagonalen Einträge die Beziehungen wie \u0027perform\u0027 oder \u0027target\u0027 darstellen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde basierend auf der Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 erstellt. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027swim\u0027, \u0027own\u0027 und \u0027pool\u0027. Die Bewertungsmatrix repräsentiert die Beziehungen zwischen diesen Begriffen, wobei die Einheitsdiagonalen die Identitäten der Begriffe definieren und die außer-diagonalen Einträge die Beziehungen wie \u0027perform\u0027 oder \u0027target\u0027 darstellen.\"\n}"
+}

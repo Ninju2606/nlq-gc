@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Situation \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Begriffe \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027lake\u0027 sind im Vokabular enthalten. Die Einträge der Matrix kodieren die Beziehungen zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Situation \u0027Meine Tochter und ich fahren Boot auf einem See\u0027. Die Begriffe \u0027Maria\u0027, \u0027daughter\u0027, \u0027boat\u0027 und \u0027lake\u0027 sind im Vokabular enthalten. Die Einträge der Matrix kodieren die Beziehungen zwischen den Begriffen gemäß den vorgegebenen Typkodierungen.\"\n}"
+}

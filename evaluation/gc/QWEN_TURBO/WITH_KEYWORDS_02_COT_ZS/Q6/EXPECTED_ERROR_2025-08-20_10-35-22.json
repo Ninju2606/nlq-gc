@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt. Es gibt keine aufgelösten relative Verweise, da der Nutzer direkt benannt wird. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object, IdentityMapping: true), \u0027make\u0027 (activity, IdentityMapping: false), \u0027appointment\u0027 (object, IdentityMapping: true). 3. \u0027Maria\u0027 und \u0027make\u0027 stehen in einer Beziehung, wobei \u0027make\u0027 eine Aktivität ist, die \u0027Maria\u0027 ausführt. \u0027appointment\u0027 ist ein Objekt, das mit der Aktivität \u0027make\u0027 verbunden ist. 4. Für die Beziehung \u0027Maria\u0027 → \u0027make\u0027 existiert keine passende Typkodierung, da \u0027make\u0027 nicht als direkt zur Identität von \u0027Maria\u0027 gehörend kodiert wird. Für \u0027make\u0027 → \u0027appointment\u0027 existiert keine passende Typkodierung. Für \u0027Maria\u0027 → \u0027appointment\u0027 existiert keine passende Typkodierung. 5. Der GraphCode wurde erstellt, wobei die Einträge in der Diagonalen gemäß den identityMapping-Regeln gesetzt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular berücksichtigt. Es gibt keine aufgelösten relative Verweise, da der Nutzer direkt benannt wird. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object, IdentityMapping: true), \u0027make\u0027 (activity, IdentityMapping: false), \u0027appointment\u0027 (object, IdentityMapping: true). 3. \u0027Maria\u0027 und \u0027make\u0027 stehen in einer Beziehung, wobei \u0027make\u0027 eine Aktivität ist, die \u0027Maria\u0027 ausführt. \u0027appointment\u0027 ist ein Objekt, das mit der Aktivität \u0027make\u0027 verbunden ist. 4. Für die Beziehung \u0027Maria\u0027 → \u0027make\u0027 existiert keine passende Typkodierung, da \u0027make\u0027 nicht als direkt zur Identität von \u0027Maria\u0027 gehörend kodiert wird. Für \u0027make\u0027 → \u0027appointment\u0027 existiert keine passende Typkodierung. Für \u0027Maria\u0027 → \u0027appointment\u0027 existiert keine passende Typkodierung. 5. Der GraphCode wurde erstellt, wobei die Einträge in der Diagonalen gemäß den identityMapping-Regeln gesetzt wurden.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde der Anfrage zugeordnet. Der Nutzer wird als \u0027person\u0027 identifiziert, was die Beziehung zwischen \u0027maria\u0027 und \u0027person\u0027 erfasst. 2. Die Attribute der Stichwörter: \u0027maria\u0027 ist eine Person (IdentityMapping: object), \u0027person\u0027 ist eine abstrakte Einheit (IdentityMapping: object), \u0027drive\u0027 beschreibt eine Aktivität (IdentityMapping: activity), \u0027boat\u0027 ist ein Objekt (IdentityMapping: object), \u0027lake\u0027 ist ein Ort (IdentityMapping: object). 3. Die Beziehungen sind: \u0027maria\u0027 und \u0027person\u0027 (identisch), \u0027person\u0027 und \u0027drive\u0027 (person perform drive, ID: 8), \u0027boat\u0027 und \u0027lake\u0027 (boat is on lake, ID: 7). 4. Alle Relationen haben einen zugehörigen Eintrag in der Typkodierung. 5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde der Anfrage zugeordnet. Der Nutzer wird als \u0027person\u0027 identifiziert, was die Beziehung zwischen \u0027maria\u0027 und \u0027person\u0027 erfasst. 2. Die Attribute der Stichwörter: \u0027maria\u0027 ist eine Person (IdentityMapping: object), \u0027person\u0027 ist eine abstrakte Einheit (IdentityMapping: object), \u0027drive\u0027 beschreibt eine Aktivität (IdentityMapping: activity), \u0027boat\u0027 ist ein Objekt (IdentityMapping: object), \u0027lake\u0027 ist ein Ort (IdentityMapping: object). 3. Die Beziehungen sind: \u0027maria\u0027 und \u0027person\u0027 (identisch), \u0027person\u0027 und \u0027drive\u0027 (person perform drive, ID: 8), \u0027boat\u0027 und \u0027lake\u0027 (boat is on lake, ID: 7). 4. Alle Relationen haben einen zugehörigen Eintrag in der Typkodierung. 5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

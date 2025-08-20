@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "Maria",
+    "wear",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"ich\", \"trage\", \"gelber Hut\".\n        2. Es gibt keine relativen Verweise.\n        3. Die englischen Stichwörter sind \"I\", \"wear\", \"yellow\", \"hat\".\n        4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"wear\", \"yellow\", \"hat\".\n        5. \"Maria\" und \"hat\" sind Objekte der Anfrage. \"wear\" ist eine Aktivität. \"yellow\" ist ein Kontext.\n        6. \"Maria\" führt die Aktivität \"wear\" aus. \"wear\" bezieht sich auf \"hat\". \"yellow\" ist eine Charakteristik von \"hat\".\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"wear\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 3, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"ich\\\", \\\"trage\\\", \\\"gelber Hut\\\".\\n        2. Es gibt keine relativen Verweise.\\n        3. Die englischen Stichwörter sind \\\"I\\\", \\\"wear\\\", \\\"yellow\\\", \\\"hat\\\".\\n        4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"wear\\\", \\\"yellow\\\", \\\"hat\\\".\\n        5. \\\"Maria\\\" und \\\"hat\\\" sind Objekte der Anfrage. \\\"wear\\\" ist eine Aktivität. \\\"yellow\\\" ist ein Kontext.\\n        6. \\\"Maria\\\" führt die Aktivität \\\"wear\\\" aus. \\\"wear\\\" bezieht sich auf \\\"hat\\\". \\\"yellow\\\" ist eine Charakteristik von \\\"hat\\\".\\n        7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 3.\"\n}"
+}

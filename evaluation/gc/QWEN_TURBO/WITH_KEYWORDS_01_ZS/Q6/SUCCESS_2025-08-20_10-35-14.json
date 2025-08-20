@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine klaren Objekte, Attribute oder AktivitÃ¤ten, die mit den vorgegebenen Typkodierungen eindeutig zugeordnet werden kÃ¶nnen. Es fehlen spezifische Beziehungen zwischen den Begriffen, um eine sinnvolle Bewertungsmatrix zu erstellen.",
+  "error": "no_graph_code_generated",
+  "responsePlain": "{\n  \"error\": \"no_graph_code_generated\",\n  \"description\": \"Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine klaren Objekte, Attribute oder AktivitÃ¤ten, die mit den vorgegebenen Typkodierungen eindeutig zugeordnet werden kÃ¶nnen. Es fehlen spezifische Beziehungen zwischen den Begriffen, um eine sinnvolle Bewertungsmatrix zu erstellen.\"\n}"
+}

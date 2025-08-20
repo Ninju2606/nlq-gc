@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da sie selbst genannt wurde. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 als \u0027object\u0027 (Identität), \u0027make\u0027 als \u0027activity\u0027 (Handlung), \u0027appointment\u0027 als \u0027object\u0027 (Objekt). 3. \u0027Maria\u0027 und \u0027make\u0027 stehen in einer Beziehung, bei der \u0027Maria\u0027 die Handlung \u0027make\u0027 ausführt. \u0027Make\u0027 und \u0027appointment\u0027 stehen in einer Beziehung, bei der \u0027make\u0027 auf \u0027appointment\u0027 abzielt. 4. Für die Beziehung \u0027Maria\u0027 → \u0027make\u0027 wurde die ID 8 (perform) verwendet. Für die Beziehung \u0027make\u0027 → \u0027appointment\u0027 wurde die ID 9 (target) verwendet. Alle Relationen sind in den bereitgestellten Typkodierungen vorhanden. 5. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da sie selbst genannt wurde. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 als \u0027object\u0027 (Identität), \u0027make\u0027 als \u0027activity\u0027 (Handlung), \u0027appointment\u0027 als \u0027object\u0027 (Objekt). 3. \u0027Maria\u0027 und \u0027make\u0027 stehen in einer Beziehung, bei der \u0027Maria\u0027 die Handlung \u0027make\u0027 ausführt. \u0027Make\u0027 und \u0027appointment\u0027 stehen in einer Beziehung, bei der \u0027make\u0027 auf \u0027appointment\u0027 abzielt. 4. Für die Beziehung \u0027Maria\u0027 → \u0027make\u0027 wurde die ID 8 (perform) verwendet. Für die Beziehung \u0027make\u0027 → \u0027appointment\u0027 wurde die ID 9 (target) verwendet. Alle Relationen sind in den bereitgestellten Typkodierungen vorhanden. 5. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

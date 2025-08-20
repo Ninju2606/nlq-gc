@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. \u0027Maria\u0027 ist als Benutzer identifiziert und \u0027basketball\u0027 als Aktivität. Die Einträge auf der Diagonalen entsprechen den identityMapping-Regeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. \u0027Maria\u0027 ist als Benutzer identifiziert und \u0027basketball\u0027 als Aktivität. Die Einträge auf der Diagonalen entsprechen den identityMapping-Regeln.\"\n}"
+}

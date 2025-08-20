@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 mit dem Vokabular [\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027]. Der Eintrag in der Einheitsdiagonalen zeigt, dass \u0027maria\u0027 als Objekt, \u0027make\u0027 als Aktivität und \u0027appointment\u0027 als Objekt kodiert ist. Die Beziehungen zwischen \u0027maria\u0027 und \u0027make\u0027 sowie zwischen \u0027make\u0027 und \u0027appointment\u0027 sind mit der Typkodierung \u0027perform\u0027 dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Wir müssen bald einen Termin ausmachen\u0027 mit dem Vokabular [\u0027maria\u0027, \u0027make\u0027, \u0027appointment\u0027]. Der Eintrag in der Einheitsdiagonalen zeigt, dass \u0027maria\u0027 als Objekt, \u0027make\u0027 als Aktivität und \u0027appointment\u0027 als Objekt kodiert ist. Die Beziehungen zwischen \u0027maria\u0027 und \u0027make\u0027 sowie zwischen \u0027make\u0027 und \u0027appointment\u0027 sind mit der Typkodierung \u0027perform\u0027 dargestellt.\"\n}"
+}

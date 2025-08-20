@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da in der Anfrage \u0027Tim rennt\u0027 keine direkten selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, aber die Nutzeridentifikation explizit angegeben ist.\n2. Die Attribute der Stichwörter sind:\n   - \u0027tim\u0027: object (ID 1), da es sich um einen Gegenstand (Person) handelt.\n   - \u0027run\u0027: activity (ID 4), da es sich um eine Aktion handelt.\n   - \u0027maria\u0027: object (ID 1), da es sich ebenfalls um einen Gegenstand (Person) handelt.\n3. Die Stichwörter \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027tim\u0027 die Aktion \u0027run\u0027 ausführt. Es handelt sich um eine \u0027perform\u0027-Beziehung (ID 8), da \u0027tim\u0027 die Aktivität \u0027run\u0027 durchführt.\n4. Es gibt einen passenden Eintrag für die \u0027perform\u0027-Beziehung (ID 8). Für die Beziehung \u0027tim\u0027 zu \u0027maria\u0027 gibt es keine passende Kodierung im Vorgabeset.\n5. Der GraphCode wurde erstellt, indem das Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und die Bewertungsmatrix [ [1, 0, 0], [0, 4, 0], [0, 0, 1] ] verwendet wurden. Die Beziehung \u0027tim\u0027 -\u003e \u0027run\u0027 wurde als \u0027perform\u0027 (ID 8) kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da in der Anfrage \u0027Tim rennt\u0027 keine direkten selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommen, aber die Nutzeridentifikation explizit angegeben ist.\\n2. Die Attribute der Stichwörter sind:\\n   - \u0027tim\u0027: object (ID 1), da es sich um einen Gegenstand (Person) handelt.\\n   - \u0027run\u0027: activity (ID 4), da es sich um eine Aktion handelt.\\n   - \u0027maria\u0027: object (ID 1), da es sich ebenfalls um einen Gegenstand (Person) handelt.\\n3. Die Stichwörter \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027tim\u0027 die Aktion \u0027run\u0027 ausführt. Es handelt sich um eine \u0027perform\u0027-Beziehung (ID 8), da \u0027tim\u0027 die Aktivität \u0027run\u0027 durchführt.\\n4. Es gibt einen passenden Eintrag für die \u0027perform\u0027-Beziehung (ID 8). Für die Beziehung \u0027tim\u0027 zu \u0027maria\u0027 gibt es keine passende Kodierung im Vorgabeset.\\n5. Der GraphCode wurde erstellt, indem das Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und die Bewertungsmatrix [ [1, 0, 0], [0, 4, 0], [0, 0, 1] ] verwendet wurden. Die Beziehung \u0027tim\u0027 -\u003e \u0027run\u0027 wurde als \u0027perform\u0027 (ID 8) kodiert.\"\n}"
+}

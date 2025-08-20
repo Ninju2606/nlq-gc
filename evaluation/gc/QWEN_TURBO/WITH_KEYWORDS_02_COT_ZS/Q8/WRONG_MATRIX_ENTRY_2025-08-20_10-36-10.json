@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert und bezieht sich auf \u0027mich\u0027 in der Anfrage. Dies wird im Vokabular als \u0027maria\u0027 berücksichtigt. 2. Die Attribute der Stichwörter sind wie folgt: - \u0027maria\u0027: object (Identität des Nutzers) - \u0027person\u0027: object (allgemeiner Begriff für eine Person) - \u0027drive\u0027: activity (Handlung, die ausgeübt wird) - \u0027boat\u0027: object (Gegenstand, der benutzt wird) - \u0027lake\u0027: context (Umgebung, in der die Handlung stattfindet) 3. Die Stichwörter stehen in folgenden Beziehungen zueinander: - \u0027maria\u0027 (object) und \u0027person\u0027 (object): Identität (1) - \u0027maria\u0027 (object) und \u0027drive\u0027 (activity): unter (6) - \u0027maria\u0027 (object) und \u0027boat\u0027 (object): attached (5) - \u0027maria\u0027 (object) und \u0027lake\u0027 (context): under (6) - \u0027person\u0027 (object) und \u0027drive\u0027 (activity): perform (8) - \u0027person\u0027 (object) und \u0027boat\u0027 (object): attached (5) - \u0027person\u0027 (object) und \u0027lake\u0027 (context): under (6) - \u0027drive\u0027 (activity) und \u0027boat\u0027 (object): target (9) - \u0027drive\u0027 (activity) und \u0027lake\u0027 (context): under (6) - \u0027boat\u0027 (object) und \u0027lake\u0027 (context): under (6) 4. Alle Beziehungen sind in den vorgegebenen Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Der Nutzer hat sich als \u0027Maria\u0027 identifiziert und bezieht sich auf \u0027mich\u0027 in der Anfrage. Dies wird im Vokabular als \u0027maria\u0027 berücksichtigt. 2. Die Attribute der Stichwörter sind wie folgt: - \u0027maria\u0027: object (Identität des Nutzers) - \u0027person\u0027: object (allgemeiner Begriff für eine Person) - \u0027drive\u0027: activity (Handlung, die ausgeübt wird) - \u0027boat\u0027: object (Gegenstand, der benutzt wird) - \u0027lake\u0027: context (Umgebung, in der die Handlung stattfindet) 3. Die Stichwörter stehen in folgenden Beziehungen zueinander: - \u0027maria\u0027 (object) und \u0027person\u0027 (object): Identität (1) - \u0027maria\u0027 (object) und \u0027drive\u0027 (activity): unter (6) - \u0027maria\u0027 (object) und \u0027boat\u0027 (object): attached (5) - \u0027maria\u0027 (object) und \u0027lake\u0027 (context): under (6) - \u0027person\u0027 (object) und \u0027drive\u0027 (activity): perform (8) - \u0027person\u0027 (object) und \u0027boat\u0027 (object): attached (5) - \u0027person\u0027 (object) und \u0027lake\u0027 (context): under (6) - \u0027drive\u0027 (activity) und \u0027boat\u0027 (object): target (9) - \u0027drive\u0027 (activity) und \u0027lake\u0027 (context): under (6) - \u0027boat\u0027 (object) und \u0027lake\u0027 (context): under (6) 4. Alle Beziehungen sind in den vorgegebenen Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

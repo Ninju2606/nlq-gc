@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet, da die Anfrage \u0027ich\u0027 enthält. 2. Die Stichwörter besitzen folgende Attribute: \u0027maria\u0027 ist ein Objekt (object, ID 1), \u0027wear\u0027 ist eine Aktivität (activity, ID 4), \u0027hat\u0027 ist ein Kontext (context, ID 2), \u0027yellow\u0027 ist ein Merkmal (characteristic, ID 14). 3. \u0027maria\u0027 und \u0027wear\u0027 stehen in einer Beziehung, bei der \u0027maria\u0027 eine Aktivität ausführt. \u0027maria\u0027 und \u0027hat\u0027 sind in einem Kontext verbunden, wohingegen \u0027maria\u0027 und \u0027yellow\u0027 ein Merkmal haben. 4. Alle Relationen sind in der Typkodierung vorhanden: \u0027maria\u0027 und \u0027wear\u0027 → ID 8 (perform), \u0027maria\u0027 und \u0027hat\u0027 → ID 9 (target), \u0027maria\u0027 und \u0027yellow\u0027 → ID 14 (characteristic). 5. Der GraphCode wurde erfolgreich zusammengefügt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde zugeordnet, da die Anfrage \u0027ich\u0027 enthält. 2. Die Stichwörter besitzen folgende Attribute: \u0027maria\u0027 ist ein Objekt (object, ID 1), \u0027wear\u0027 ist eine Aktivität (activity, ID 4), \u0027hat\u0027 ist ein Kontext (context, ID 2), \u0027yellow\u0027 ist ein Merkmal (characteristic, ID 14). 3. \u0027maria\u0027 und \u0027wear\u0027 stehen in einer Beziehung, bei der \u0027maria\u0027 eine Aktivität ausführt. \u0027maria\u0027 und \u0027hat\u0027 sind in einem Kontext verbunden, wohingegen \u0027maria\u0027 und \u0027yellow\u0027 ein Merkmal haben. 4. Alle Relationen sind in der Typkodierung vorhanden: \u0027maria\u0027 und \u0027wear\u0027 → ID 8 (perform), \u0027maria\u0027 und \u0027hat\u0027 → ID 9 (target), \u0027maria\u0027 und \u0027yellow\u0027 → ID 14 (characteristic). 5. Der GraphCode wurde erfolgreich zusammengefügt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da in der Anfrage explizit erwähnt wird, dass der Nutzer \u0027ich\u0027 bin. Die anderen Begriffe (\u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027) sind die relevanten Stichwörter der Anfrage.\n\n2. Die Attribute der Stichwörter sind:\n   - \u0027maria\u0027: Objekt (id\u003d1)\n   - \u0027swim\u0027: Aktivität (id\u003d4)\n   - \u0027own\u0027: Kontext (id\u003d2)\n   - \u0027pool\u0027: Objekt (id\u003d1)\n\n3. Die Stichwörter stehen in folgender Beziehung:\n   - \u0027maria\u0027 (Objekt) und \u0027swim\u0027 (Aktivität): Die Aktivität \u0027swim\u0027 wird von \u0027maria\u0027 ausgeführt. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\n   - \u0027swim\u0027 (Aktivität) und \u0027pool\u0027 (Objekt): Das \u0027swim\u0027 erfolgt in oder im \u0027pool\u0027. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\n   - \u0027maria\u0027 (Objekt) und \u0027own\u0027 (Kontext): \u0027maria\u0027 besitzt den \u0027pool\u0027. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\n   - \u0027own\u0027 (Kontext) und \u0027pool\u0027 (Objekt): \u0027own\u0027 beschreibt, dass \u0027pool\u0027 in Besitz von \u0027maria\u0027 ist. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\n\n4. Es gibt keine direkte Typkodierung, die die Beziehung zwischen \u0027maria\u0027 und \u0027swim\u0027, \u0027swim\u0027 und \u0027pool\u0027, \u0027maria\u0027 und \u0027own\u0027, oder \u0027own\u0027 und \u0027pool\u0027 beschreibt. Daher ist keine ID aufzufinden, die diese Beziehungen exakt repräsentiert. Es wurden nur die direkten Objekt-/Aktivitätsbeziehungen in der Einheitsdiagonalen abgebildet.\n\n5. Der GraphCode wurde auf Grundlage der gegebenen Stichwörter und der Typkodierungen erstellt. Die Einträge in der Matrix entsprechen den Objekt- und Aktivitäts-Identitäten, da die anderen Beziehungen keine direkte Kodierung im System besitzen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde im Vokabular berücksichtigt, da in der Anfrage explizit erwähnt wird, dass der Nutzer \u0027ich\u0027 bin. Die anderen Begriffe (\u0027swim\u0027, \u0027own\u0027, \u0027pool\u0027) sind die relevanten Stichwörter der Anfrage.\\n\\n2. Die Attribute der Stichwörter sind:\\n   - \u0027maria\u0027: Objekt (id\u003d1)\\n   - \u0027swim\u0027: Aktivität (id\u003d4)\\n   - \u0027own\u0027: Kontext (id\u003d2)\\n   - \u0027pool\u0027: Objekt (id\u003d1)\\n\\n3. Die Stichwörter stehen in folgender Beziehung:\\n   - \u0027maria\u0027 (Objekt) und \u0027swim\u0027 (Aktivität): Die Aktivität \u0027swim\u0027 wird von \u0027maria\u0027 ausgeführt. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\\n   - \u0027swim\u0027 (Aktivität) und \u0027pool\u0027 (Objekt): Das \u0027swim\u0027 erfolgt in oder im \u0027pool\u0027. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\\n   - \u0027maria\u0027 (Objekt) und \u0027own\u0027 (Kontext): \u0027maria\u0027 besitzt den \u0027pool\u0027. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\\n   - \u0027own\u0027 (Kontext) und \u0027pool\u0027 (Objekt): \u0027own\u0027 beschreibt, dass \u0027pool\u0027 in Besitz von \u0027maria\u0027 ist. Es gibt keine vordefinierte Relation, die dies direkt beschreibt, daher ist dies eine implizite Beziehung.\\n\\n4. Es gibt keine direkte Typkodierung, die die Beziehung zwischen \u0027maria\u0027 und \u0027swim\u0027, \u0027swim\u0027 und \u0027pool\u0027, \u0027maria\u0027 und \u0027own\u0027, oder \u0027own\u0027 und \u0027pool\u0027 beschreibt. Daher ist keine ID aufzufinden, die diese Beziehungen exakt repräsentiert. Es wurden nur die direkten Objekt-/Aktivitätsbeziehungen in der Einheitsdiagonalen abgebildet.\\n\\n5. Der GraphCode wurde auf Grundlage der gegebenen Stichwörter und der Typkodierungen erstellt. Die Einträge in der Matrix entsprechen den Objekt- und Aktivitäts-Identitäten, da die anderen Beziehungen keine direkte Kodierung im System besitzen.\"\n}"
+}

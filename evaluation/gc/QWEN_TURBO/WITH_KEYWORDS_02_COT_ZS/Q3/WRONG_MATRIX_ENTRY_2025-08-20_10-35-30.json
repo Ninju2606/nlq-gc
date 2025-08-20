@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie verweist. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. \u0027Maria\u0027 und \u0027pool\u0027 stehen in der Beziehung \u0027own\u0027, was bedeutet, dass Maria dem Pool gehört. \u0027swim\u0027 ist eine Aktivität, die mit \u0027pool\u0027 in Verbindung steht. \u0027own\u0027 beschreibt den Kontext der Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027. 4. Die Relationen \u0027own\u0027 (ID 5), \u0027swim\u0027 (ID 4) und \u0027pool\u0027 (ID 4) sind in den Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonalen durch identityMapping (ID 1, 2, 4) belegt wurden und die Beziehungen durch passende IDs dargestellt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie verweist. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. \u0027Maria\u0027 und \u0027pool\u0027 stehen in der Beziehung \u0027own\u0027, was bedeutet, dass Maria dem Pool gehört. \u0027swim\u0027 ist eine Aktivität, die mit \u0027pool\u0027 in Verbindung steht. \u0027own\u0027 beschreibt den Kontext der Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027. 4. Die Relationen \u0027own\u0027 (ID 5), \u0027swim\u0027 (ID 4) und \u0027pool\u0027 (ID 4) sind in den Typkodierungen vorhanden. 5. Der GraphCode wurde erstellt, wobei die Einheitsdiagonalen durch identityMapping (ID 1, 2, 4) belegt wurden und die Beziehungen durch passende IDs dargestellt wurden.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie verweist. \u0027Ich schwimme in einem Pool, der mir gehört\u0027 impliziert, dass \u0027Maria\u0027 die Person ist, die handelt.\n2. Die Attribute der Stichwörter sind:\n   - \u0027maria\u0027: Objekt (ID 1), da es sich um die Identifikation der Person handelt.\n   - \u0027swim\u0027: Aktivität (ID 4), da es eine Handlung beschreibt.\n   - \u0027own\u0027: Kontext (ID 2), da es eine Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 darstellt.\n   - \u0027pool\u0027: Objekt (ID 1), da es ein physisches Objekt ist.\n3. Die Stichwörter stehen in folgenden Relationen:\n   - \u0027maria\u0027 und \u0027swim\u0027: \u0027swim\u0027 ist eine Aktivität, die \u0027maria\u0027 ausübt (ID 8: perform).\n   - \u0027maria\u0027 und \u0027own\u0027: Die Beziehung beschreibt, dass \u0027maria\u0027 etwas besitzt (ID 6: under).\n   - \u0027own\u0027 und \u0027pool\u0027: Die Beziehung zeigt, dass \u0027pool\u0027 von \u0027maria\u0027 besessen wird (ID 6: under).\n   - \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 erfolgt in \u0027pool\u0027 (ID 7: above).\n4. Für alle Relationen existieren passende Typkodierungen:\n   - \u0027maria\u0027 und \u0027swim\u0027 → ID 8 (perform)\n   - \u0027maria\u0027 und \u0027own\u0027 → ID 6 (under)\n   - \u0027own\u0027 und \u0027pool\u0027 → ID 6 (under)\n   - \u0027swim\u0027 und \u0027pool\u0027 → ID 7 (above)\n5. Der GraphCode wurde mit den gegebenen Stichwörtern und der zugehörigen Bewertungsmatrix erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie verweist. \u0027Ich schwimme in einem Pool, der mir gehört\u0027 impliziert, dass \u0027Maria\u0027 die Person ist, die handelt.\\n2. Die Attribute der Stichwörter sind:\\n   - \u0027maria\u0027: Objekt (ID 1), da es sich um die Identifikation der Person handelt.\\n   - \u0027swim\u0027: Aktivität (ID 4), da es eine Handlung beschreibt.\\n   - \u0027own\u0027: Kontext (ID 2), da es eine Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 darstellt.\\n   - \u0027pool\u0027: Objekt (ID 1), da es ein physisches Objekt ist.\\n3. Die Stichwörter stehen in folgenden Relationen:\\n   - \u0027maria\u0027 und \u0027swim\u0027: \u0027swim\u0027 ist eine Aktivität, die \u0027maria\u0027 ausübt (ID 8: perform).\\n   - \u0027maria\u0027 und \u0027own\u0027: Die Beziehung beschreibt, dass \u0027maria\u0027 etwas besitzt (ID 6: under).\\n   - \u0027own\u0027 und \u0027pool\u0027: Die Beziehung zeigt, dass \u0027pool\u0027 von \u0027maria\u0027 besessen wird (ID 6: under).\\n   - \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 erfolgt in \u0027pool\u0027 (ID 7: above).\\n4. Für alle Relationen existieren passende Typkodierungen:\\n   - \u0027maria\u0027 und \u0027swim\u0027 → ID 8 (perform)\\n   - \u0027maria\u0027 und \u0027own\u0027 → ID 6 (under)\\n   - \u0027own\u0027 und \u0027pool\u0027 → ID 6 (under)\\n   - \u0027swim\u0027 und \u0027pool\u0027 → ID 7 (above)\\n5. Der GraphCode wurde mit den gegebenen Stichwörtern und der zugehörigen Bewertungsmatrix erstellt.\"\n}"
+}

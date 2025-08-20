@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage des Nutzers \"Wir mÃ¼ssen bald einen Termin ausmachen.\" beinhaltet keine direkten relativen Verweise oder Identifikationen auÃŸer der Identifikation \"Maria\", die explizit gegeben ist. Somit wird die Identifikation \"Maria\" in das Vokabular aufgenommen.\n\n2. Die Attribute der StichwÃ¶rter sind wie folgt:\n- \"maria\": Es handelt sich um eine Person, also ein Objekt.\n- \"make\": Dies ist eine AktivitÃ¤t, da es sich um eine Handlung handelt.\n- \"appointment\": Dies ist ein Objekt, nÃ¤mlich ein Termin.\n\n3. Die StichwÃ¶rter stehen in folgenden Beziehungen zueinander:\n- \"maria\" und \"make\": \"maria\" fÃ¼hrt die AktivitÃ¤t \"make\" aus.\n- \"make\" und \"appointment\": Die AktivitÃ¤t \"make\" bezieht sich auf den Objekttyp \"appointment\".\n- \"maria\" und \"appointment\": Es besteht eine Beziehung, bei der \"maria\" einen Termin \"make\".\n\n4. FÃ¼r die Beziehungen zwischen den StichwÃ¶rtern sind folgende Typkodierungen passend:\n- \"maria\" und \"make\": Die Beziehung \"perform\" (ID 8) ist passend, da \"maria\" die AktivitÃ¤t \"make\" ausfÃ¼hrt.\n- \"make\" und \"appointment\": Die Beziehung \"target\" (ID 9) ist passend, da \"make\" auf den \"appointment\" zielt.\n- \"maria\" und \"appointment\": Die Beziehung \"target\" (ID 9) ist passend, da \"maria\" den \"appointment\" \"make\".\n\n5. Der GraphCode wurde zusammengefasst. Die EintrÃ¤ge auf der Einheitsdiagonalen entsprechen den identityMapping-Attributen (Objekt, AktivitÃ¤t, AktivitÃ¤t). Die Beziehungen auÃŸerhalb der Diagonalen entsprechen den identityMapping\u003dfalse-Attributen (target, target).",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Anfrage des Nutzers \\\"Wir mÃ¼ssen bald einen Termin ausmachen.\\\" beinhaltet keine direkten relativen Verweise oder Identifikationen auÃŸer der Identifikation \\\"Maria\\\", die explizit gegeben ist. Somit wird die Identifikation \\\"Maria\\\" in das Vokabular aufgenommen.\\n\\n2. Die Attribute der StichwÃ¶rter sind wie folgt:\\n- \\\"maria\\\": Es handelt sich um eine Person, also ein Objekt.\\n- \\\"make\\\": Dies ist eine AktivitÃ¤t, da es sich um eine Handlung handelt.\\n- \\\"appointment\\\": Dies ist ein Objekt, nÃ¤mlich ein Termin.\\n\\n3. Die StichwÃ¶rter stehen in folgenden Beziehungen zueinander:\\n- \\\"maria\\\" und \\\"make\\\": \\\"maria\\\" fÃ¼hrt die AktivitÃ¤t \\\"make\\\" aus.\\n- \\\"make\\\" und \\\"appointment\\\": Die AktivitÃ¤t \\\"make\\\" bezieht sich auf den Objekttyp \\\"appointment\\\".\\n- \\\"maria\\\" und \\\"appointment\\\": Es besteht eine Beziehung, bei der \\\"maria\\\" einen Termin \\\"make\\\".\\n\\n4. FÃ¼r die Beziehungen zwischen den StichwÃ¶rtern sind folgende Typkodierungen passend:\\n- \\\"maria\\\" und \\\"make\\\": Die Beziehung \\\"perform\\\" (ID 8) ist passend, da \\\"maria\\\" die AktivitÃ¤t \\\"make\\\" ausfÃ¼hrt.\\n- \\\"make\\\" und \\\"appointment\\\": Die Beziehung \\\"target\\\" (ID 9) ist passend, da \\\"make\\\" auf den \\\"appointment\\\" zielt.\\n- \\\"maria\\\" und \\\"appointment\\\": Die Beziehung \\\"target\\\" (ID 9) ist passend, da \\\"maria\\\" den \\\"appointment\\\" \\\"make\\\".\\n\\n5. Der GraphCode wurde zusammengefasst. Die EintrÃ¤ge auf der Einheitsdiagonalen entsprechen den identityMapping-Attributen (Objekt, AktivitÃ¤t, AktivitÃ¤t). Die Beziehungen auÃŸerhalb der Diagonalen entsprechen den identityMapping\u003dfalse-Attributen (target, target).\"\n}"
+}

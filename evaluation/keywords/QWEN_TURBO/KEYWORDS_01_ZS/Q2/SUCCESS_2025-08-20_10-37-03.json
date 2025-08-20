@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter \u0027Tim\u0027 und \u0027run\u0027 wurden aus der Nutzeranfrage \u0027Tim rennt\u0027 extrahiert und entsprechen den Objekten und Aktivitäten im Vokabular des GraphCodes.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Stichwörter \u0027Tim\u0027 und \u0027run\u0027 wurden aus der Nutzeranfrage \u0027Tim rennt\u0027 extrahiert und entsprechen den Objekten und Aktivitäten im Vokabular des GraphCodes.\"\n}"
+}

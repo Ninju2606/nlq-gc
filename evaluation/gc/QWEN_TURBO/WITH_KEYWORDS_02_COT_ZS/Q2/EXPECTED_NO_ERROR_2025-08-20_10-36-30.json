@@ -1,0 +1,29 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer hat sich als \u0027Maria\u0027 identifiziert. Da in der Anfrage \u0027Tim rennt\u0027 steht und \u0027Tim\u0027 nicht als selbstidentifizierendes Wort wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommt, wird \u0027Maria\u0027 nicht in das Vokabular aufgenommen. 2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (id\u003d1), \u0027run\u0027 ist eine Aktivität (id\u003d4). 3. Relationen zwischen den Stichwörtern: \u0027Tim\u0027 und \u0027run\u0027 sind in der Anfrage verbunden, wobei \u0027tim\u0027 die Person ist, die \u0027run\u0027 (rennen) ausführt. 4. Typkodierungen: Für die Beziehung \u0027tim\u0027 und \u0027run\u0027 ist keine passende Type Kodierung im Vorrat vorhanden. Es wurde ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt.",
+  "error": "Es wurde kein passender Typkodierungs-Eintrag gefunden, um die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 darzustellen.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer hat sich als \u0027Maria\u0027 identifiziert. Da in der Anfrage \u0027Tim rennt\u0027 steht und \u0027Tim\u0027 nicht als selbstidentifizierendes Wort wie \u0027ich\u0027 oder \u0027mein\u0027 vorkommt, wird \u0027Maria\u0027 nicht in das Vokabular aufgenommen. 2. Attributeigenschaften der Stichwörter: \u0027tim\u0027 ist ein Objekt (id\u003d1), \u0027run\u0027 ist eine Aktivität (id\u003d4). 3. Relationen zwischen den Stichwörtern: \u0027Tim\u0027 und \u0027run\u0027 sind in der Anfrage verbunden, wobei \u0027tim\u0027 die Person ist, die \u0027run\u0027 (rennen) ausführt. 4. Typkodierungen: Für die Beziehung \u0027tim\u0027 und \u0027run\u0027 ist keine passende Type Kodierung im Vorrat vorhanden. Es wurde ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt.\",\n  \"error\": \"Es wurde kein passender Typkodierungs-Eintrag gefunden, um die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 darzustellen.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "me",
+    "yellow hat",
+    "situation"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027. 2. Relative Verweise: \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027situations\u0027, \u0027I\u0027, \u0027yellow hat\u0027. 4. Ersetzen der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027me\u0027 ersetzt. 5. Attributeigenschaften: \u0027me\u0027 ist ein \u0027object\u0027, \u0027yellow hat\u0027 ist ein \u0027object\u0027, \u0027situation\u0027 ist ein \u0027context\u0027. 6. Relationen: \u0027me\u0027 ist mit \u0027yellow hat\u0027 in Beziehung (Typ: \u0027attached\u0027), \u0027me\u0027 ist mit \u0027situation\u0027 in Beziehung (Typ: \u0027under\u0027). 7. Typkodierungen: \u0027attached\u0027 (ID: 5), \u0027under\u0027 (ID: 6). 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"me\", \"yellow hat\", \"situation\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Situationen\u0027, \u0027ich\u0027, \u0027gelben Hut\u0027. 2. Relative Verweise: \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027situations\u0027, \u0027I\u0027, \u0027yellow hat\u0027. 4. Ersetzen der Nutzeridentifikation: \u0027ich\u0027 wird durch \u0027me\u0027 ersetzt. 5. Attributeigenschaften: \u0027me\u0027 ist ein \u0027object\u0027, \u0027yellow hat\u0027 ist ein \u0027object\u0027, \u0027situation\u0027 ist ein \u0027context\u0027. 6. Relationen: \u0027me\u0027 ist mit \u0027yellow hat\u0027 in Beziehung (Typ: \u0027attached\u0027), \u0027me\u0027 ist mit \u0027situation\u0027 in Beziehung (Typ: \u0027under\u0027). 7. Typkodierungen: \u0027attached\u0027 (ID: 5), \u0027under\u0027 (ID: 6). 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

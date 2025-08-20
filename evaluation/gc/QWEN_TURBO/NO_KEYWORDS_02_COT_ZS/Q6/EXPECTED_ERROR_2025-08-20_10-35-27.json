@@ -1,0 +1,20 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we must",
+    "make an appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027we must\u0027, \u0027make an appointment\u0027.\n2. Es gibt keine relativen Verweise, die es zu lösen gilt.\n3. Die Stichwörter sind bereits auf Englisch.\n4. Es gibt keine Identifikation des Nutzers, die ersetzt werden müsste.\n5. Die Attribute der Stichwörter sind:\n   - \u0027we must\u0027: Dies ist eine Verneinung/Verpflichtung; es handelt sich um eine Aktivität, die ausgeführt werden muss.\n   - \u0027make an appointment\u0027: Dies ist eine Aktivität, die ausgeführt werden soll.\n6. Die Stichwörter \u0027we must\u0027 und \u0027make an appointment\u0027 stehen in einer Beziehung, die auf einer Notwendigkeit (we must) und einer Aktion (make an appointment) beruht.\n7. Für die Beziehung \u0027we must\u0027 wird der Typ \u0027activity\u0027 (ID 4) verwendet. Für \u0027make an appointment\u0027 wird der Typ \u0027activity\u0027 (ID 4) verwendet. Beide haben identityMapping \u003d true. Für die Beziehung zwischen \u0027we must\u0027 und \u0027make an appointment\u0027 steht kein passender Eintrag in den Typkodierungen zur Verfügung.\n8. Der GraphCode wurde erstellt, basierend auf den Stichwörtern und den verfügbaren Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"we must\", \"make an appointment\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027we must\u0027, \u0027make an appointment\u0027.\\n2. Es gibt keine relativen Verweise, die es zu lösen gilt.\\n3. Die Stichwörter sind bereits auf Englisch.\\n4. Es gibt keine Identifikation des Nutzers, die ersetzt werden müsste.\\n5. Die Attribute der Stichwörter sind:\\n   - \u0027we must\u0027: Dies ist eine Verneinung/Verpflichtung; es handelt sich um eine Aktivität, die ausgeführt werden muss.\\n   - \u0027make an appointment\u0027: Dies ist eine Aktivität, die ausgeführt werden soll.\\n6. Die Stichwörter \u0027we must\u0027 und \u0027make an appointment\u0027 stehen in einer Beziehung, die auf einer Notwendigkeit (we must) und einer Aktion (make an appointment) beruht.\\n7. Für die Beziehung \u0027we must\u0027 wird der Typ \u0027activity\u0027 (ID 4) verwendet. Für \u0027make an appointment\u0027 wird der Typ \u0027activity\u0027 (ID 4) verwendet. Beide haben identityMapping \u003d true. Für die Beziehung zwischen \u0027we must\u0027 und \u0027make an appointment\u0027 steht kein passender Eintrag in den Typkodierungen zur Verfügung.\\n8. Der GraphCode wurde erstellt, basierend auf den Stichwörtern und den verfügbaren Typkodierungen.\"\n}"
+}

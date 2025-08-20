@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "meeting",
+    "schedule",
+    "appointment"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter wurden aus der Nutzeranfrage extrahiert und entsprechen den Objekten, Attributen und Aktivitäten, die im Vokabular des GraphCodes enthalten sind.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"meeting\",\n    \"schedule\",\n    \"appointment\"\n  ],\n  \"description\": \"Die Stichwörter wurden aus der Nutzeranfrage extrahiert und entsprechen den Objekten, Attributen und Aktivitäten, die im Vokabular des GraphCodes enthalten sind.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \"Ich\", \"spiele\", \"Basketball\". 2. Relative Verweise: \"Ich\" wird auf die Identifikation des Nutzers \"Maria\" gelöst. 3. Übersetzung der Stichwörter ins Englische: \"Maria\", \"basketball\". 4. Ersetzen der Identifikation des Nutzers: \"Ich\" wird durch \"Maria\" ersetzt. 5. Attributeigenschaften: \"Maria\" ist ein Objekt (id 1), \"basketball\" ist eine Aktivität (id 4). 6. Relationen: Der Nutzer \"Maria\" spielt \"Basketball\", was mit der Typkodierung \"perform\" (id 8) beschrieben wird. 7. Prüfung der Typkodierungen: Für \"Maria\" (Objekt) ist id 1 gültig. Für \"basketball\" (Aktivität) ist id 4 gültig. Die Relation zwischen \"Maria\" und \"basketball\" ist \"perform\", id 8 ist gültig. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \\\"Ich\\\", \\\"spiele\\\", \\\"Basketball\\\". 2. Relative Verweise: \\\"Ich\\\" wird auf die Identifikation des Nutzers \\\"Maria\\\" gelöst. 3. Übersetzung der Stichwörter ins Englische: \\\"Maria\\\", \\\"basketball\\\". 4. Ersetzen der Identifikation des Nutzers: \\\"Ich\\\" wird durch \\\"Maria\\\" ersetzt. 5. Attributeigenschaften: \\\"Maria\\\" ist ein Objekt (id 1), \\\"basketball\\\" ist eine Aktivität (id 4). 6. Relationen: Der Nutzer \\\"Maria\\\" spielt \\\"Basketball\\\", was mit der Typkodierung \\\"perform\\\" (id 8) beschrieben wird. 7. Prüfung der Typkodierungen: Für \\\"Maria\\\" (Objekt) ist id 1 gültig. Für \\\"basketball\\\" (Aktivität) ist id 4 gültig. Die Relation zwischen \\\"Maria\\\" und \\\"basketball\\\" ist \\\"perform\\\", id 8 ist gültig. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

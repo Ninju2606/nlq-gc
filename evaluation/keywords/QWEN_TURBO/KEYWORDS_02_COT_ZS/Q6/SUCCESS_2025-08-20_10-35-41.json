@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "appointment",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Nutzeranfrage extrahiert. Die Identifikation des Nutzers (Maria) wurde berücksichtigt und in das Vokabular aufgenommen. Die Stichwörter wurden ins Englische übersetzt und verallgemeinert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"appointment\", \"soon\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Nutzeranfrage extrahiert. Die Identifikation des Nutzers (Maria) wurde berücksichtigt und in das Vokabular aufgenommen. Die Stichwörter wurden ins Englische übersetzt und verallgemeinert.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Die Identifikation des Nutzers \"Maria\" wurde aufgelöst und dem Vokabular hinzugefügt. Der Begriff \"spielte\" wurde als \"play\" kodiert, und \"Basketball\" als \"basketball\". 2. Die Attribute der Stichwörter: - \"maria\": object (identitätsgemäß) - \"play\": activity (identitätsgemäß) - \"basketball\": object (identitätsgemäß) 3. Die Beziehungen: - \"maria\" und \"play\": \"play\" beschreibt eine Aktivität, die \"maria\" ausführt. - \"maria\" und \"basketball\": \"maria\" ist der Ausführende, während \"basketball\" der Gegenstand ist. - \"play\" und \"basketball\": \"play\" bezieht sich auf die Aktivität, bei der \"basketball\" als Objekt verwendet wird. 4. Für alle Relationen existieren passende Typkodierungen: - \"maria\" (object) → ID: 1 - \"play\" (activity) → ID: 4 - \"basketball\" (object) → ID: 1 5. Der GraphCode wurde erstellt, basierend auf dem Vokabular und der Bewertungsmatrix, wobei die Einträge der Einheitsdiagonalen korrekt mit identityMapping \u003d true belegt wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \\\"Maria\\\" wurde aufgelöst und dem Vokabular hinzugefügt. Der Begriff \\\"spielte\\\" wurde als \\\"play\\\" kodiert, und \\\"Basketball\\\" als \\\"basketball\\\". 2. Die Attribute der Stichwörter: - \\\"maria\\\": object (identitätsgemäß) - \\\"play\\\": activity (identitätsgemäß) - \\\"basketball\\\": object (identitätsgemäß) 3. Die Beziehungen: - \\\"maria\\\" und \\\"play\\\": \\\"play\\\" beschreibt eine Aktivität, die \\\"maria\\\" ausführt. - \\\"maria\\\" und \\\"basketball\\\": \\\"maria\\\" ist der Ausführende, während \\\"basketball\\\" der Gegenstand ist. - \\\"play\\\" und \\\"basketball\\\": \\\"play\\\" bezieht sich auf die Aktivität, bei der \\\"basketball\\\" als Objekt verwendet wird. 4. Für alle Relationen existieren passende Typkodierungen: - \\\"maria\\\" (object) → ID: 1 - \\\"play\\\" (activity) → ID: 4 - \\\"basketball\\\" (object) → ID: 1 5. Der GraphCode wurde erstellt, basierend auf dem Vokabular und der Bewertungsmatrix, wobei die Einträge der Einheitsdiagonalen korrekt mit identityMapping \u003d true belegt wurden.\"\n}"
+}

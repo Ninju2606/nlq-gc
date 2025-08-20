@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. Die Person \u0027maria\u0027 ist im Vokabular enthalten, da sie in der Anfrage explizit genannt wird. Die Beziehung \u0027trage\u0027 ist als \u0027wear\u0027 kodiert und im Feld (1,2) der Matrix mit der ID 8 (attributiv: \u0027attached\u0027) verknüpft. Der Begriff \u0027gelb\u0027 wird als \u0027yellow\u0027 verarbeitet und der Hut als \u0027hat\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 7, 0, 0],\n    [0, 9, 8, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Zeig mir Situationen, in denen ich einen gelben Hut trage\u0027. Die Person \u0027maria\u0027 ist im Vokabular enthalten, da sie in der Anfrage explizit genannt wird. Die Beziehung \u0027trage\u0027 ist als \u0027wear\u0027 kodiert und im Feld (1,2) der Matrix mit der ID 8 (attributiv: \u0027attached\u0027) verknüpft. Der Begriff \u0027gelb\u0027 wird als \u0027yellow\u0027 verarbeitet und der Hut als \u0027hat\u0027.\"\n}"
+}

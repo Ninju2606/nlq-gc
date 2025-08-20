@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Basketball\": 0,\n    \"Ich\": 1\n  },\n  \"matrix\": [\n    [0, 0],\n    [0, 0]\n  ]\n}\n\n\n### Erläuterung:\n- Da die Anfrage „Ich spiele Basketball“ nur zwei Begriffe beinhaltet (`\"Ich\"` und `\"Basketball\"`), ist die Adjazenzmatrix 2x2.\n- Es gibt keine Beziehungen zwischen den Begriffen, die in der gegebenen Typkodierung (z.B. `object`, `context`, `synonym`, etc.) vorkommen. Deshalb sind alle Werte in der Matrix `0`.\n- Die `dictionary`-Struktur ordnet jedem Begriff eine eindeutige ID zu (0 für `\"Basketball\"`, 1 für `\"Ich\"`)."
+}

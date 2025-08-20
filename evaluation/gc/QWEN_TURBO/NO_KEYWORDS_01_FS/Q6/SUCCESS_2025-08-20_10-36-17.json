@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir m黶sen bald einen Termin ausmachen.\u0027 enth鋖t keine klaren Begriffe f黵 Objekte, Attribute oder Aktivit鋞en, die in den GraphCode 眉bertragen werden k鰊nen. Zudem fehlen pr鋤ise Angaben zu Szenen im Metaverse.",
+  "error": "Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Wir m黶sen bald einen Termin ausmachen.\u0027 enth鋖t keine klaren Begriffe f黵 Objekte, Attribute oder Aktivit鋞en, die in den GraphCode 眉bertragen werden k鰊nen. Zudem fehlen pr鋤ise Angaben zu Szenen im Metaverse.\"\n}"
+}

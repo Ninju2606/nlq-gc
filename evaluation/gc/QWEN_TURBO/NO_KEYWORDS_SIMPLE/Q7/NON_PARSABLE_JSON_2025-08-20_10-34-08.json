@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage **\"Häuser um Fragen zu malen\"** als **GraphCode nach Wagenpfeil** (also eine typcodierte Adjazenzmatrix), dargestellt als JSON-Objekt, wie von dir gefordert:\n\n\n{\n  \"dictionary\": {\n    \"Häuser\": 0,\n    \"Fragen\": 1,\n    \"malen\": 2\n  },\n  \"matrix\": [\n    [0, 0, 0],\n    [0, 0, 0],\n    [0, 0, 0]\n  ]\n}\n\n\nDa die Anfrage **\"Häuser um Fragen zu malen\"** **keine klaren Beziehungen** zwischen den Begriffen enthält, die in den gegebenen **Typkodierungen** (z. B. `object`, `context`, `synonym`, `activity`, etc.) passen, wurden alle **Typwerte auf 0** gesetzt, was hier als \"keine Beziehung\" interpretiert wird.\n\nWenn du die Anfrage genauer spezifizieren oder Beziehungen zwischen den Begriffen hinzufügen möchtest, kann ich die Matrix entsprechend anpassen."
+}

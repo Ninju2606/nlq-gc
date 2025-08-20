@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "Der GraphCode repräsentiert die Beziehung zwischen Maria, dem Tragen eines gelben Huts und der Situation. Die Einträge auf der Diagonalen entsprechen den identitätsbasierten Beziehungen (object, context, synonym, activity), während außerhalb der Diagonalen nur 0 vorkommen, da keine weiteren Relationen definiert wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Beziehung zwischen Maria, dem Tragen eines gelben Huts und der Situation. Die Einträge auf der Diagonalen entsprechen den identitätsbasierten Beziehungen (object, context, synonym, activity), während außerhalb der Diagonalen nur 0 vorkommen, da keine weiteren Relationen definiert wurden.\"\n}"
+}

@@ -1,0 +1,36 @@
+{
+  "state": "NON_MATCHING_MATRIX",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Tim, rennt. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers erforderlich. 5. \u0027Tim\u0027 ist ein Objekt (ID 1), \u0027run\u0027 ist eine Aktivität (ID 8). 6. \u0027Tim\u0027 ist eine Person, die \u0027run\u0027 ausführt. 7. Alle Relationen sind in den Typkodierungen enthalten. 8. GraphCode erstellt mit 2 Einträgen im Vokabular und einer 2x2-Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Tim, rennt. 2. Keine relativen Verweise. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers erforderlich. 5. \u0027Tim\u0027 ist ein Objekt (ID 1), \u0027run\u0027 ist eine Aktivität (ID 8). 6. \u0027Tim\u0027 ist eine Person, die \u0027run\u0027 ausführt. 7. Alle Relationen sind in den Typkodierungen enthalten. 8. GraphCode erstellt mit 2 Einträgen im Vokabular und einer 2x2-Bewertungsmatrix.\"\n}"
+}

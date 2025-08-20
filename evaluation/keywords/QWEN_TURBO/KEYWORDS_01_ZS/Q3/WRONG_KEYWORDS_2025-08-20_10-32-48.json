@@ -1,0 +1,12 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own",
+    "user"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter wurden aus der Nutzeranfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 extrahiert und in das Vokabular des GraphCodes aufgenommen.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"swim\",\n    \"pool\",\n    \"own\",\n    \"user\"\n  ],\n  \"description\": \"Die Stichwörter wurden aus der Nutzeranfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 extrahiert und in das Vokabular des GraphCodes aufgenommen.\"\n}"
+}

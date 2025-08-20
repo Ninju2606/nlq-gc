@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "term",
+    "arrange",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"term\", \"arrange\", \"soon\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert.\"\n}"
+}

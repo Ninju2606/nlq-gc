@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Situationen\": 0,\n    \"ich\": 1,\n    \"trage\": 2,\n    \"einen\": 3,\n    \"gelben\": 4,\n    \"Hut\": 5\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\n- **Dictionary**: Jeder Begriff aus der Anfrage hat eine eindeutige numerische Zuordnung.\n- **Matrix**: Es handelt sich um eine leere Adjazenzmatrix, da in der gegebenen Anfrage **keine expliziten Beziehungen** zwischen den Begriffen (z. B. „trage“ als Verbindung zwischen „ich“ und „Hut“) im Sinne der Typkodierung von Wagenpfeil identifiziert wurden.\n\nWenn du Beziehungen wie „ich trage einen gelben Hut“ explizit als Typbeziehungen kodieren möchtest (z. B. `perform`, `target`, `characteristic`), dann könnte die Matrix entsprechend befüllt werden. Lass mich wissen, wenn du das möchtest."
+}

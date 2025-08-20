@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzernachricht \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine klaren Objekte, Attribute oder AktivitÃ¤ten, die mit den gegebenen Typkodierungen in Verbindung gebracht werden kÃ¶nnen. Es fehlen spezifische Begriffe, die in das Vokabular passten und eine sinnvolle Bewertungsmatrix erlauben wÃ¼rden.",
+  "error": "Kein passender GraphCode generiert",
+  "responsePlain": "{\n  \"error\": \"Kein passender GraphCode generiert\",\n  \"description\": \"Die Nutzernachricht \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthÃ¤lt keine klaren Objekte, Attribute oder AktivitÃ¤ten, die mit den gegebenen Typkodierungen in Verbindung gebracht werden kÃ¶nnen. Es fehlen spezifische Begriffe, die in das Vokabular passten und eine sinnvolle Bewertungsmatrix erlauben wÃ¼rden.\"\n}"
+}

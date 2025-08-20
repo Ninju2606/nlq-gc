@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode repräsentiert die Anfrage \u0027Ich spiele Basketball\u0027 mit der Identifikation \u0027Maria\u0027. Die Beziehungen sind im Vokabular als \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027 definiert, wobei \u0027Maria\u0027 und \u0027basketball\u0027 jeweils ihren eigenen Typ (object) auf der Diagonalen haben, während \u0027play\u0027 als Aktivität (activity) kodiert ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode repräsentiert die Anfrage \u0027Ich spiele Basketball\u0027 mit der Identifikation \u0027Maria\u0027. Die Beziehungen sind im Vokabular als \u0027Maria\u0027, \u0027play\u0027 und \u0027basketball\u0027 definiert, wobei \u0027Maria\u0027 und \u0027basketball\u0027 jeweils ihren eigenen Typ (object) auf der Diagonalen haben, während \u0027play\u0027 als Aktivität (activity) kodiert ist.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "meeting",
+    "schedule",
+    "soon"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter wurden aus der Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 extrahiert und ins Englische übersetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\n    \"meeting\",\n    \"schedule\",\n    \"soon\"\n  ],\n  \"description\": \"Die Stichwörter wurden aus der Nutzeranfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 extrahiert und ins Englische übersetzt.\"\n}"
+}

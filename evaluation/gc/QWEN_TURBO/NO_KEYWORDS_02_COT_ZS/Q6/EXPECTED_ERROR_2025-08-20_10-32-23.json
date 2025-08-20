@@ -1,0 +1,38 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we",
+    "need",
+    "soon",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. Da es sich um eine deutsche Anfrage handelt und \u0027Termin\u0027 und \u0027ausmachen\u0027 als relevante Begriffe identifiziert werden, wird \u0027Termin\u0027 als \u0027appointment\u0027 übersetzt. 2. Keine relativen Verweise auf Nutzeridentifikation gefunden. 3. Übersetzung ins Englische: \u0027we\u0027, \u0027need\u0027, \u0027soon\u0027, \u0027appointment\u0027. 4. Keine Identifikation des Nutzers in den Stichwörtern. 5. Attributeigenschaften: \u0027we\u0027 (object), \u0027need\u0027 (activity), \u0027soon\u0027 (context), \u0027appointment\u0027 (object). 6. Beziehungen: \u0027we\u0027 und \u0027need\u0027 (activity), \u0027need\u0027 und \u0027soon\u0027 (context), \u0027need\u0027 und \u0027appointment\u0027 (object). 7. Für \u0027we\u0027 (object), \u0027need\u0027 (activity), \u0027soon\u0027 (context), \u0027appointment\u0027 (object) existieren entsprechende Typkodierungen (IDs 1, 4, 2, 1). 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we\", \"need\", \"soon\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027einen\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027. Da es sich um eine deutsche Anfrage handelt und \u0027Termin\u0027 und \u0027ausmachen\u0027 als relevante Begriffe identifiziert werden, wird \u0027Termin\u0027 als \u0027appointment\u0027 übersetzt. 2. Keine relativen Verweise auf Nutzeridentifikation gefunden. 3. Übersetzung ins Englische: \u0027we\u0027, \u0027need\u0027, \u0027soon\u0027, \u0027appointment\u0027. 4. Keine Identifikation des Nutzers in den Stichwörtern. 5. Attributeigenschaften: \u0027we\u0027 (object), \u0027need\u0027 (activity), \u0027soon\u0027 (context), \u0027appointment\u0027 (object). 6. Beziehungen: \u0027we\u0027 und \u0027need\u0027 (activity), \u0027need\u0027 und \u0027soon\u0027 (context), \u0027need\u0027 und \u0027appointment\u0027 (object). 7. Für \u0027we\u0027 (object), \u0027need\u0027 (activity), \u0027soon\u0027 (context), \u0027appointment\u0027 (object) existieren entsprechende Typkodierungen (IDs 1, 4, 2, 1). 8. Der GraphCode wurde erstellt.\"\n}"
+}

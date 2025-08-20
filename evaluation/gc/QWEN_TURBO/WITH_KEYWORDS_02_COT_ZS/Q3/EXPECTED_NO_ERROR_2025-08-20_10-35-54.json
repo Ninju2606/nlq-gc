@@ -1,0 +1,39 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 ist direkt im Vokabular enthalten. Es gibt keine weiteren gelösten relativen Verweise.\n2. Die Attribute der Stichwörter sind wie folgt:\n   - \u0027maria\u0027: Objekt (identityMapping \u003d true)\n   - \u0027swim\u0027: Aktivität (identityMapping \u003d true)\n   - \u0027own\u0027: Kontext (identityMapping \u003d true)\n   - \u0027pool\u0027: Objekt (identityMapping \u003d true)\n3. Die Stichwörter stehen in folgenden Beziehungen zueinander:\n   - \u0027maria\u0027 und \u0027swim\u0027: \u0027swim\u0027 ist eine Aktivität, die \u0027maria\u0027 ausführt.\n   - \u0027maria\u0027 und \u0027own\u0027: \u0027maria\u0027 besitzt \u0027pool\u0027.\n   - \u0027maria\u0027 und \u0027pool\u0027: \u0027maria\u0027 besitzt \u0027pool\u0027.\n   - \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 wird in \u0027pool\u0027 ausgeführt.\n4. Für die Beziehungen \u0027swim\u0027 (Aktivität) und \u0027pool\u0027 (Objekt) gibt es keine passenden Typkodierungen mit identityMapping \u003d false. Somit wurde ein Fehler ausgelöst.\n5. Der GraphCode wurde mit den gegebenen Einträgen und deren Beziehungen erstellt. Da einige Beziehungen nicht korrekt in der Typkodierung dargestellt werden können, ist ein Fehler aufgetreten.",
+  "error": "Nicht alle Beziehungen können korrekt in der Typkodierung dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [[1, 0, 0, 0], [0, 4, 0, 0], [0, 0, 2, 0], [0, 0, 0, 1]],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 ist direkt im Vokabular enthalten. Es gibt keine weiteren gelösten relativen Verweise.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n   - \u0027maria\u0027: Objekt (identityMapping \u003d true)\\n   - \u0027swim\u0027: Aktivität (identityMapping \u003d true)\\n   - \u0027own\u0027: Kontext (identityMapping \u003d true)\\n   - \u0027pool\u0027: Objekt (identityMapping \u003d true)\\n3. Die Stichwörter stehen in folgenden Beziehungen zueinander:\\n   - \u0027maria\u0027 und \u0027swim\u0027: \u0027swim\u0027 ist eine Aktivität, die \u0027maria\u0027 ausführt.\\n   - \u0027maria\u0027 und \u0027own\u0027: \u0027maria\u0027 besitzt \u0027pool\u0027.\\n   - \u0027maria\u0027 und \u0027pool\u0027: \u0027maria\u0027 besitzt \u0027pool\u0027.\\n   - \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 wird in \u0027pool\u0027 ausgeführt.\\n4. Für die Beziehungen \u0027swim\u0027 (Aktivität) und \u0027pool\u0027 (Objekt) gibt es keine passenden Typkodierungen mit identityMapping \u003d false. Somit wurde ein Fehler ausgelöst.\\n5. Der GraphCode wurde mit den gegebenen Einträgen und deren Beziehungen erstellt. Da einige Beziehungen nicht korrekt in der Typkodierung dargestellt werden können, ist ein Fehler aufgetreten.\",\n  \"error\": \"Nicht alle Beziehungen können korrekt in der Typkodierung dargestellt werden.\"\n}"
+}

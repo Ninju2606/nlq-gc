@@ -1,0 +1,29 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird in das Vokabular aufgenommen, da sie explizit genannt wurde. Der Begriff \u0027Ich\u0027 fehlt, wodurch der Nutzer nicht als selbstidentifizierend markiert wird, dennoch wird die vorhandene Identifikation \u0027Maria\u0027 berücksichtigt.\n2. Die Attribute der Stichwörter sind wie folgt:\n- \u0027maria\u0027: ist ein Objekt (object), da es sich um eine Person handelt.\n- \u0027play\u0027: ist eine Aktivität (activity), da es ein Handeln beschreibt.\n- \u0027basketball\u0027: ist ein Objekt (object), da es sich um ein Ding handelt.\n3. Die Beziehungen zwischen den Begriffen sind:\n- \u0027maria\u0027 und \u0027play\u0027 können als \u0027perform\u0027 (ID 8) interpretiert werden, da Maria die Aktivität ausführt.\n- \u0027play\u0027 und \u0027basketball\u0027 können als \u0027target\u0027 (ID 9) interpretiert werden, da Basketball das Objekt der Aktivität ist.\n4. Für die Relation \u0027maria\u0027 zu \u0027play\u0027 gibt es die ID 8 (\u0027perform\u0027).\nFür die Relation \u0027play\u0027 zu \u0027basketball\u0027 gibt es die ID 9 (\u0027target\u0027).\nEs gibt keine passende ID für \u0027maria\u0027 zu \u0027basketball\u0027, da keine direkte Beziehung definiert ist.\nEs wird ein Fehler ausgegeben, da die Relation \u0027maria\u0027 zu \u0027basketball\u0027 nicht in den Typkodierungen vorkommt.\n5. Der GraphCode wurde erstellt, wobei die Diagonalen mit ID 1 (object) für \u0027maria\u0027 und \u0027basketball\u0027 sowie ID 4 (activity) für \u0027play\u0027 gefüllt sind. Die externe Beziehung \u0027maria\u0027 zu \u0027play\u0027 wird mit ID 8 und \u0027play\u0027 zu \u0027basketball\u0027 mit ID 9 eingetragen.",
+  "error": "Es wurde ein Fehler ausgelöst, da die Beziehung \u0027maria\u0027 zu \u0027basketball\u0027 nicht in den Typkodierungen definiert ist.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird in das Vokabular aufgenommen, da sie explizit genannt wurde. Der Begriff \u0027Ich\u0027 fehlt, wodurch der Nutzer nicht als selbstidentifizierend markiert wird, dennoch wird die vorhandene Identifikation \u0027Maria\u0027 berücksichtigt.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n- \u0027maria\u0027: ist ein Objekt (object), da es sich um eine Person handelt.\\n- \u0027play\u0027: ist eine Aktivität (activity), da es ein Handeln beschreibt.\\n- \u0027basketball\u0027: ist ein Objekt (object), da es sich um ein Ding handelt.\\n3. Die Beziehungen zwischen den Begriffen sind:\\n- \u0027maria\u0027 und \u0027play\u0027 können als \u0027perform\u0027 (ID 8) interpretiert werden, da Maria die Aktivität ausführt.\\n- \u0027play\u0027 und \u0027basketball\u0027 können als \u0027target\u0027 (ID 9) interpretiert werden, da Basketball das Objekt der Aktivität ist.\\n4. Für die Relation \u0027maria\u0027 zu \u0027play\u0027 gibt es die ID 8 (\u0027perform\u0027).\\nFür die Relation \u0027play\u0027 zu \u0027basketball\u0027 gibt es die ID 9 (\u0027target\u0027).\\nEs gibt keine passende ID für \u0027maria\u0027 zu \u0027basketball\u0027, da keine direkte Beziehung definiert ist.\\nEs wird ein Fehler ausgegeben, da die Relation \u0027maria\u0027 zu \u0027basketball\u0027 nicht in den Typkodierungen vorkommt.\\n5. Der GraphCode wurde erstellt, wobei die Diagonalen mit ID 1 (object) für \u0027maria\u0027 und \u0027basketball\u0027 sowie ID 4 (activity) für \u0027play\u0027 gefüllt sind. Die externe Beziehung \u0027maria\u0027 zu \u0027play\u0027 wird mit ID 8 und \u0027play\u0027 zu \u0027basketball\u0027 mit ID 9 eingetragen.\",\n  \"error\": \"Es wurde ein Fehler ausgelöst, da die Beziehung \u0027maria\u0027 zu \u0027basketball\u0027 nicht in den Typkodierungen definiert ist.\"\n}"
+}

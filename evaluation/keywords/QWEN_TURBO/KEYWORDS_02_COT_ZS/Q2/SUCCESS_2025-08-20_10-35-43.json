@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde nicht in der Anfrage erwähnt und wird daher nicht im Vokabular berücksichtigt. Potenzielle Stichwörter wurden extrahiert und in Englisch verallgemeinert. Der GraphCode wurde erfolgreich generiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde nicht in der Anfrage erwähnt und wird daher nicht im Vokabular berücksichtigt. Potenzielle Stichwörter wurden extrahiert und in Englisch verallgemeinert. Der GraphCode wurde erfolgreich generiert.\"\n}"
+}

@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde erfolgreich generiert. \u0027tim\u0027 ist als Objekt mit Typkodierung \u0027object\u0027 (ID 1) definiert, während \u0027run\u0027 als Aktivität mit Typkodierung \u0027activity\u0027 (ID 9) identifiziert wird. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch die Typkodierung \u0027perform\u0027 (ID 8) dargestellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"Der GraphCode wurde erfolgreich generiert. \u0027tim\u0027 ist als Objekt mit Typkodierung \u0027object\u0027 (ID 1) definiert, während \u0027run\u0027 als Aktivität mit Typkodierung \u0027activity\u0027 (ID 9) identifiziert wird. Die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 wird durch die Typkodierung \u0027perform\u0027 (ID 8) dargestellt.\"\n}"
+}

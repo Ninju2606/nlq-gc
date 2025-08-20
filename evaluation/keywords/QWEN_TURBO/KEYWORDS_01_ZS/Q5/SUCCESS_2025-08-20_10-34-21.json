@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Schlüsselwörter des Vokabulars des GraphCodes wurden basierend auf der Nutzermanfrage extrahiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Die Schlüsselwörter des Vokabulars des GraphCodes wurden basierend auf der Nutzermanfrage extrahiert.\"\n}"
+}

@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde aus der Anfrage \u0027Wir müssenn bald einen Termin ausmachen.\u0027 generiert. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027, wobei \u0027maria\u0027 aufgrund der Nutzeridentifikation hinzugefügt wurde. Die Bewertungsmatrix wurde entsprechend den Typkodierungen gefüllt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde aus der Anfrage \u0027Wir müssenn bald einen Termin ausmachen.\u0027 generiert. Das Vokabular enthält die Begriffe \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027, wobei \u0027maria\u0027 aufgrund der Nutzeridentifikation hinzugefügt wurde. Die Bewertungsmatrix wurde entsprechend den Typkodierungen gefüllt.\"\n}"
+}

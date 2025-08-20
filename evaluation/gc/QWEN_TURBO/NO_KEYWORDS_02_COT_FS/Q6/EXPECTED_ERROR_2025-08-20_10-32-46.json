@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "Maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      7,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Maria\", \"müssen\", \"Termin\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \"I\", \"have to\", \"appointment\". 4. Die Stichwörter mit Nutzeridentifikation sind \"Maria\", \"have to\", \"appointment\". 5. \"Maria\" und \"appointment\" sind Objekte der Anfrage. \"have to\" ist eine Aktivität. 6. \"Maria\" muss einen \"appointment\" ausmachen. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"make\", \"appointment\"],\n  \"matrix\": [[1, 7, 0], [0, 9, 8], [0, 0, 1]],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Maria\\\", \\\"müssen\\\", \\\"Termin\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"I\\\", \\\"have to\\\", \\\"appointment\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"have to\\\", \\\"appointment\\\". 5. \\\"Maria\\\" und \\\"appointment\\\" sind Objekte der Anfrage. \\\"have to\\\" ist eine Aktivität. 6. \\\"Maria\\\" muss einen \\\"appointment\\\" ausmachen. 7. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8.\"\n}"
+}

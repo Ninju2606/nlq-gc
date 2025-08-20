@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Tim\": 0,\n    \"rennt\": 1\n  },\n  \"matrix\": [\n    [0, 8],\n    [0, 0]\n  ]\n}\n\n\n### Erklärung:\n- **`dictionary`** mappingt jeden Begriff (`\"Tim\"`, `\"rennt\"`) auf einen Index.\n- **`matrix`** ist eine Adjazenzmatrix, wobei die Zeilen und Spalten den Begriffen entsprechen.\n- Der Wert `8` steht für den **Typ `perform`**, der in der Typkodierung mit `id\u003d8` und `attribute\u003d\"perform\"` definiert ist.\n- Es wird angenommen, dass **\"Tim\"** die **Aktivität** **\"rennt\"** ausübt, weshalb eine Beziehung vom Typ `perform` von `Tim` zu `rennt` besteht."
+}

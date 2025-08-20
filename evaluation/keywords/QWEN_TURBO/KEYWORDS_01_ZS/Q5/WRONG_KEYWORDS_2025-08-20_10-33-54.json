@@ -1,0 +1,13 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "yellow",
+    "hat",
+    "wear",
+    "situation",
+    "Maria"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert und in englischer Sprache formatiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"yellow\", \"hat\", \"wear\", \"situation\", \"Maria\"],\n  \"description\": \"Die Stichwörter des Vokabulars wurden aus der Nutzeranfrage extrahiert und in englischer Sprache formatiert.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Die Stichwörter \u0027schwimme\u0027 und \u0027Pool\u0027 wurden ins Englische übersetzt und als \u0027swim\u0027 und \u0027pool\u0027 in das Vokabular aufgenommen.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"description\": \"Die Nutzeridentifikation \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Die Stichwörter \u0027schwimme\u0027 und \u0027Pool\u0027 wurden ins Englische übersetzt und als \u0027swim\u0027 und \u0027pool\u0027 in das Vokabular aufgenommen.\"\n}"
+}

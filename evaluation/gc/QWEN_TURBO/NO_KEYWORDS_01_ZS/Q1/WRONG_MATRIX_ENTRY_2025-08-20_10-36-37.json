@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "Der GraphCode wurde basierend auf der Anfrage \u0027Ich spiele Basketball\u0027 generiert. \u0027Maria\u0027 wurde als Nutzer identifiziert und als Begriff im Vokabular aufgenommen. \u0027play\u0027 und \u0027basketball\u0027 wurden verallgemeinert und als Begriffe im Vokabular verwendet. Die Einträge der Einheitsdiagonalen entsprechen den identityMapping-Typen \u0027object\u0027 und \u0027activity\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode wurde basierend auf der Anfrage \u0027Ich spiele Basketball\u0027 generiert. \u0027Maria\u0027 wurde als Nutzer identifiziert und als Begriff im Vokabular aufgenommen. \u0027play\u0027 und \u0027basketball\u0027 wurden verallgemeinert und als Begriffe im Vokabular verwendet. Die Einträge der Einheitsdiagonalen entsprechen den identityMapping-Typen \u0027object\u0027 und \u0027activity\u0027.\"\n}"
+}

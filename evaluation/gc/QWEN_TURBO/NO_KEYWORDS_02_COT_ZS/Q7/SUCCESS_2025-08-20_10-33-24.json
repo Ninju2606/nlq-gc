@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Fehler bei der Erstellung des GraphCodes",
+  "error": "Fehler bei der Erstellung des GraphCodes",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027.\\n2. Keine relativen Verweise gefunden.\\n3. Übersetzung ins Englische: \u0027Häuser\u0027 → \u0027houses\u0027, \u0027Fragen\u0027 → \u0027questions\u0027, \u0027malen\u0027 → \u0027paint\u0027.\\n4. Keine Identifikation des Nutzers \u0027Maria\u0027 in den Stichwörtern gefunden.\\n5. Attributeigenschaften:\\n   - \u0027houses\u0027: object\\n   - \u0027questions\u0027: context\\n   - \u0027paint\u0027: activity\\n6. Beziehungen:\\n   - zwischen \u0027houses\u0027 und \u0027questions\u0027: keine spezifizierte Relation\\n   - zwischen \u0027houses\u0027 und \u0027paint\u0027: keine spezifizierte Relation\\n   - zwischen \u0027questions\u0027 und \u0027paint\u0027: keine spezifizierte Relation\\n7. Keine passende Typkodierung für die Beziehungen gefunden.\\n8. Der GraphCode kann nicht erstellt werden, da nicht alle Beziehungen in den Typkodierungen vorhanden sind.\",\n  \"error\": \"Fehler bei der Erstellung des GraphCodes\",\n  \"description\": \"Fehler bei der Erstellung des GraphCodes\"\n}"
+}

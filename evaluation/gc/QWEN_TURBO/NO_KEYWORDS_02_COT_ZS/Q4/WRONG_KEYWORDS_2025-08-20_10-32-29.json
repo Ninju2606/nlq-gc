@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "Maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027ich\u0027. 2. Relative Verweise: \u0027ich\u0027 verweist auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id 4), \u0027pool\u0027 ist ein Objekt (id 1), \u0027Maria\u0027 ist eine Identität (id 1). 6. Beziehungen: \u0027swim\u0027 und \u0027pool\u0027 haben eine \u0027perform\u0027-Relation (id 8), \u0027swim\u0027 und \u0027Maria\u0027 haben eine \u0027perform\u0027-Relation (id 8), \u0027pool\u0027 und \u0027Maria\u0027 haben keine direkte Relation. 7. Prüfung der Typkodierungen: \u0027perform\u0027 (id 8) ist gültig, \u0027object\u0027 (id 1) ist gültig, \u0027identity\u0027 (id 1) ist gültig. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"Maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 1, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027schwimme\u0027, \u0027Pool\u0027, \u0027ich\u0027. 2. Relative Verweise: \u0027ich\u0027 verweist auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027, \u0027Maria\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (id 4), \u0027pool\u0027 ist ein Objekt (id 1), \u0027Maria\u0027 ist eine Identität (id 1). 6. Beziehungen: \u0027swim\u0027 und \u0027pool\u0027 haben eine \u0027perform\u0027-Relation (id 8), \u0027swim\u0027 und \u0027Maria\u0027 haben eine \u0027perform\u0027-Relation (id 8), \u0027pool\u0027 und \u0027Maria\u0027 haben keine direkte Relation. 7. Prüfung der Typkodierungen: \u0027perform\u0027 (id 8) ist gültig, \u0027object\u0027 (id 1) ist gültig, \u0027identity\u0027 (id 1) ist gültig. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

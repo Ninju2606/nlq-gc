@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "wear",
+    "hat",
+    "yellow"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.75,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird in das Vokabular aufgenommen, da die Anfrage mit \u0027ich\u0027 formuliert ist. 2. Die Attribute der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027hat\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 ist ein Objekt (Typ 1). 3. Beziehungen: \u0027maria\u0027 und \u0027wear\u0027 stehen in einer \u0027perform\u0027-Beziehung (Typ 8), \u0027maria\u0027 und \u0027hat\u0027 in einer \u0027target\u0027-Beziehung (Typ 9), \u0027hat\u0027 und \u0027yellow\u0027 in einer \u0027attached\u0027-Beziehung (Typ 5). 4. Alle Relationen sind in den Typkodierungen enthalten: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5). 5. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"wear\", \"hat\", \"yellow\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird in das Vokabular aufgenommen, da die Anfrage mit \u0027ich\u0027 formuliert ist. 2. Die Attribute der Stichwörter: \u0027maria\u0027 ist ein Objekt (Typ 1), \u0027wear\u0027 ist eine Aktivität (Typ 4), \u0027hat\u0027 ist ein Objekt (Typ 1), \u0027yellow\u0027 ist ein Objekt (Typ 1). 3. Beziehungen: \u0027maria\u0027 und \u0027wear\u0027 stehen in einer \u0027perform\u0027-Beziehung (Typ 8), \u0027maria\u0027 und \u0027hat\u0027 in einer \u0027target\u0027-Beziehung (Typ 9), \u0027hat\u0027 und \u0027yellow\u0027 in einer \u0027attached\u0027-Beziehung (Typ 5). 4. Alle Relationen sind in den Typkodierungen enthalten: \u0027perform\u0027 (ID 8), \u0027target\u0027 (ID 9), \u0027attached\u0027 (ID 5). 5. Der GraphCode wurde erstellt.\"\n}"
+}

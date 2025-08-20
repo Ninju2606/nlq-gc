@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular verwendet, da der Nutzer angibt, dass er etwas tut (Schwimmen). 2. Die Stichwörter haben folgende Attribute: \u0027maria\u0027 ist ein \u0027object\u0027, \u0027swim\u0027 ist eine \u0027activity\u0027, \u0027own\u0027 ist ein \u0027context\u0027, \u0027pool\u0027 ist ein \u0027object\u0027. 3. \u0027maria\u0027 ist in Beziehung zu \u0027swim\u0027 (die Person schwimmt), \u0027swim\u0027 ist in Beziehung zu \u0027pool\u0027 (der Ort, an dem geschwommen wird), und \u0027maria\u0027 ist in Beziehung zu \u0027pool\u0027 (die Person besitzt den Pool). 4. Die Relationen \u0027object\u0027, \u0027activity\u0027, und \u0027context\u0027 haben entsprechende Typkodierungen (IDs 1, 4, und 2). Die Relation \u0027own\u0027 ist nicht in der vorliegenden Typkodierung enthalten. 5. Der GraphCode wurde erstellt mit den gegebenen Vokabular- und Typkodierungsregeln.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wird im Vokabular verwendet, da der Nutzer angibt, dass er etwas tut (Schwimmen). 2. Die Stichwörter haben folgende Attribute: \u0027maria\u0027 ist ein \u0027object\u0027, \u0027swim\u0027 ist eine \u0027activity\u0027, \u0027own\u0027 ist ein \u0027context\u0027, \u0027pool\u0027 ist ein \u0027object\u0027. 3. \u0027maria\u0027 ist in Beziehung zu \u0027swim\u0027 (die Person schwimmt), \u0027swim\u0027 ist in Beziehung zu \u0027pool\u0027 (der Ort, an dem geschwommen wird), und \u0027maria\u0027 ist in Beziehung zu \u0027pool\u0027 (die Person besitzt den Pool). 4. Die Relationen \u0027object\u0027, \u0027activity\u0027, und \u0027context\u0027 haben entsprechende Typkodierungen (IDs 1, 4, und 2). Die Relation \u0027own\u0027 ist nicht in der vorliegenden Typkodierung enthalten. 5. Der GraphCode wurde erstellt mit den gegebenen Vokabular- und Typkodierungsregeln.\"\n}"
+}

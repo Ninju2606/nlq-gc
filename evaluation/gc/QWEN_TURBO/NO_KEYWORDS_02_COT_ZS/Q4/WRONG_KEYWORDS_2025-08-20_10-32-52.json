@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "my",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      4,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027]\n2. Relative Verweise: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\n3. Übersetzung ins Englische: [\u0027Maria\u0027, \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027]\n4. Identifikation des Nutzers ersetzt: \u0027Maria\u0027, \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027\n5. Attributeigenschaften:\n   - \u0027Maria\u0027 ist ein \u0027object\u0027 (Typ 1)\n   - \u0027swim\u0027 ist eine \u0027activity\u0027 (Typ 4)\n   - \u0027my\u0027 ist ein \u0027context\u0027 (Typ 2)\n   - \u0027pool\u0027 ist ein \u0027object\u0027 (Typ 1)\n6. Relationen:\n   - \u0027Maria\u0027 und \u0027swim\u0027 haben eine \u0027perform\u0027 (Typ 8) Beziehung\n   - \u0027swim\u0027 und \u0027my\u0027 haben eine \u0027target\u0027 (Typ 9) Beziehung\n   - \u0027my\u0027 und \u0027pool\u0027 haben eine \u0027attached\u0027 (Typ 5) Beziehung\n7. Alle Relationen haben gültige Typkodierungen.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: [\u0027Ich\u0027, \u0027schwimme\u0027, \u0027meinem\u0027, \u0027Pool\u0027]\\n2. Relative Verweise: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt.\\n3. Übersetzung ins Englische: [\u0027Maria\u0027, \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027]\\n4. Identifikation des Nutzers ersetzt: \u0027Maria\u0027, \u0027swim\u0027, \u0027my\u0027, \u0027pool\u0027\\n5. Attributeigenschaften:\\n   - \u0027Maria\u0027 ist ein \u0027object\u0027 (Typ 1)\\n   - \u0027swim\u0027 ist eine \u0027activity\u0027 (Typ 4)\\n   - \u0027my\u0027 ist ein \u0027context\u0027 (Typ 2)\\n   - \u0027pool\u0027 ist ein \u0027object\u0027 (Typ 1)\\n6. Relationen:\\n   - \u0027Maria\u0027 und \u0027swim\u0027 haben eine \u0027perform\u0027 (Typ 8) Beziehung\\n   - \u0027swim\u0027 und \u0027my\u0027 haben eine \u0027target\u0027 (Typ 9) Beziehung\\n   - \u0027my\u0027 und \u0027pool\u0027 haben eine \u0027attached\u0027 (Typ 5) Beziehung\\n7. Alle Relationen haben gültige Typkodierungen.\\n8. Der GraphCode wurde erfolgreich erstellt.\",\n  \"dictionary\": [\"Maria\", \"swim\", \"my\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [8, 4, 9, 0],\n    [0, 0, 2, 5],\n    [0, 0, 0, 1]\n  ]\n}"
+}

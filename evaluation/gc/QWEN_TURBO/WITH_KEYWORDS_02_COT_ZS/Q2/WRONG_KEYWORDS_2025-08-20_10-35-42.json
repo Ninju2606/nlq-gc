@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer in der Anfrage explizit genannt wurde und die Anfrage \u0027Tim rennt\u0027 impliziert, dass \u0027Tim\u0027 ein Objekt in der Szene ist.\n2. Die Attribute der Stichwörter sind: \u0027tim\u0027 (object), \u0027run\u0027 (activity), \u0027maria\u0027 (object). Das Stichwort \u0027tim\u0027 ist ein Objekt, \u0027run\u0027 beschreibt eine Aktivität und \u0027maria\u0027 ist ebenfalls ein Objekt.\n3. \u0027Tim\u0027 und \u0027maria\u0027 sind unterschiedliche Objekte. \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Es gibt keine direkte Beziehung zwischen \u0027maria\u0027 und \u0027run\u0027.\n4. Für \u0027tim\u0027 → \u0027tim\u0027 ist die ID 1 (object). Für \u0027run\u0027 → \u0027run\u0027 ist die ID 4 (activity). Für \u0027maria\u0027 → \u0027maria\u0027 ist die ID 1 (object). Es gibt keine Beziehung zwischen \u0027tim\u0027 und \u0027maria\u0027, also kein Eintrag in der Matrix. Es gibt keine Beziehung zwischen \u0027maria\u0027 und \u0027run\u0027, also kein Eintrag in der Matrix.\n5. Der GraphCode wurde mit dem Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und der Bewertungsmatrix [[1, 0, 0], [0, 4, 0], [0, 0, 1]] erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer in der Anfrage explizit genannt wurde und die Anfrage \u0027Tim rennt\u0027 impliziert, dass \u0027Tim\u0027 ein Objekt in der Szene ist.\\n2. Die Attribute der Stichwörter sind: \u0027tim\u0027 (object), \u0027run\u0027 (activity), \u0027maria\u0027 (object). Das Stichwort \u0027tim\u0027 ist ein Objekt, \u0027run\u0027 beschreibt eine Aktivität und \u0027maria\u0027 ist ebenfalls ein Objekt.\\n3. \u0027Tim\u0027 und \u0027maria\u0027 sind unterschiedliche Objekte. \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Es gibt keine direkte Beziehung zwischen \u0027maria\u0027 und \u0027run\u0027.\\n4. Für \u0027tim\u0027 → \u0027tim\u0027 ist die ID 1 (object). Für \u0027run\u0027 → \u0027run\u0027 ist die ID 4 (activity). Für \u0027maria\u0027 → \u0027maria\u0027 ist die ID 1 (object). Es gibt keine Beziehung zwischen \u0027tim\u0027 und \u0027maria\u0027, also kein Eintrag in der Matrix. Es gibt keine Beziehung zwischen \u0027maria\u0027 und \u0027run\u0027, also kein Eintrag in der Matrix.\\n5. Der GraphCode wurde mit dem Vokabular [\u0027tim\u0027, \u0027run\u0027, \u0027maria\u0027] und der Bewertungsmatrix [[1, 0, 0], [0, 4, 0], [0, 0, 1]] erstellt.\"\n}"
+}

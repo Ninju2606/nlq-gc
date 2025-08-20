@@ -1,0 +1,12 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "yellow",
+    "hat",
+    "wear"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter des Vokabulars basieren auf der Nutzeridentifikation \u0027Maria\u0027, dem Objekt \u0027Hut\u0027 und der Aktivität \u0027trage\u0027, wobei \u0027gelben\u0027 in die englische Form \u0027yellow\u0027 verallgemeinert wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"yellow\", \"hat\", \"wear\"],\n  \"description\": \"Die Stichwörter des Vokabulars basieren auf der Nutzeridentifikation \u0027Maria\u0027, dem Objekt \u0027Hut\u0027 und der Aktivität \u0027trage\u0027, wobei \u0027gelben\u0027 in die englische Form \u0027yellow\u0027 verallgemeinert wurde.\"\n}"
+}

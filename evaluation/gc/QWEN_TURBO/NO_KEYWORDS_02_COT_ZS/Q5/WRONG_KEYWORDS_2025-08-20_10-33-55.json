@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "situation",
+    "yellow",
+    "hat"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Situationen, gelb, Hut, trage. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: situations, yellow, hat, wear. 4. Identifikation des Nutzers (Maria) wurde berücksichtigt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027situation\u0027 ist ein Kontext (ID 2), \u0027yellow\u0027 ist ein Merkmal (ID 14), \u0027hat\u0027 ist eine Aktivität (ID 4). 6. Beziehungen: \u0027Maria\u0027 ist in \u0027situationen\u0027, \u0027gelb\u0027 ist ein Merkmal von \u0027Hut\u0027, \u0027Hut\u0027 wird getragen. 7. Alle Relationen haben passende Typkodierungen. 8. GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"situation\", \"yellow\", \"hat\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Situationen, gelb, Hut, trage. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: situations, yellow, hat, wear. 4. Identifikation des Nutzers (Maria) wurde berücksichtigt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (ID 1), \u0027situation\u0027 ist ein Kontext (ID 2), \u0027yellow\u0027 ist ein Merkmal (ID 14), \u0027hat\u0027 ist eine Aktivität (ID 4). 6. Beziehungen: \u0027Maria\u0027 ist in \u0027situationen\u0027, \u0027gelb\u0027 ist ein Merkmal von \u0027Hut\u0027, \u0027Hut\u0027 wird getragen. 7. Alle Relationen haben passende Typkodierungen. 8. GraphCode wurde erstellt.\"\n}"
+}

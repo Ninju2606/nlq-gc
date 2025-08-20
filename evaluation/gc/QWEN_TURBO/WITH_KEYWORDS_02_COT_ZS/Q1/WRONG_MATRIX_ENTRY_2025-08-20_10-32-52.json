@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Der Begriff \u0027play\u0027 steht für die Aktivität, \u0027basketball\u0027 für das Objekt. 2. \u0027maria\u0027 ist ein Objekt (ID 1), \u0027play\u0027 ist eine Aktivität (ID 4), \u0027basketball\u0027 ist ein Objekt (ID 1). 3. Der Nutzer \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus, wobei \u0027basketball\u0027 das Objekt dieser Aktivität ist. 4. Für die Beziehung \u0027maria\u0027 → \u0027play\u0027 gibt es keine passende Typkodierung, da dies eine relationale Beziehung ist und nicht direkt in den vorgegebenen Typen abgebildet wird. Für \u0027play\u0027 → \u0027basketball\u0027 gibt es keine passende Typkodierung. 5. Der GraphCode wurde entsprechend der gegebenen Regeln und Vorgaben erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen. Der Begriff \u0027play\u0027 steht für die Aktivität, \u0027basketball\u0027 für das Objekt. 2. \u0027maria\u0027 ist ein Objekt (ID 1), \u0027play\u0027 ist eine Aktivität (ID 4), \u0027basketball\u0027 ist ein Objekt (ID 1). 3. Der Nutzer \u0027maria\u0027 führt die Aktivität \u0027play\u0027 aus, wobei \u0027basketball\u0027 das Objekt dieser Aktivität ist. 4. Für die Beziehung \u0027maria\u0027 → \u0027play\u0027 gibt es keine passende Typkodierung, da dies eine relationale Beziehung ist und nicht direkt in den vorgegebenen Typen abgebildet wird. Für \u0027play\u0027 → \u0027basketball\u0027 gibt es keine passende Typkodierung. 5. Der GraphCode wurde entsprechend der gegebenen Regeln und Vorgaben erstellt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \"Maria\" ist in der Anfrage identifiziert und wird im Vokabular berücksichtigt. 2. Attributeigenschaften der Stichwörter: - \"maria\": objekt (ID 1) - \"swim\": aktivität (ID 4) - \"own\": kontext (ID 2) - \"pool\": objekt (ID 1) 3. Beziehungen der Stichwörter: - \"maria\" und \"swim\": \"swim\" ist eine Aktivität, die von \"maria\" ausgeführt wird (ID 8: perform). - \"maria\" und \"own\": \"own\" beschreibt den Kontext, in dem \"maria\" handelt (ID 6: under). - \"maria\" und \"pool\": \"pool\" ist der Ort, an dem \"maria\" schwimmt (ID 7: above). - \"swim\" und \"own\": \"swim\" ist eine Aktivität, die \"maria\" in ihrem \"pool\" ausübt (ID 8: perform). - \"swim\" und \"pool\": \"swim\" geschieht in oder an \"pool\" (ID 7: above). - \"own\" und \"pool\": \"own\" beschreibt den Kontext, in dem \"pool\" steht (ID 6: under). 4. Typkodierungen: Alle Relationen haben eine passende ID in den bereitgestellten Typkodierungen. 5. Der GraphCode wurde erstellt und enthält das Vokabular sowie eine quadratische Bewertungsmatrix, die die Beziehungen zwischen den Begriffen repräsentiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen: Der Nutzer \\\"Maria\\\" ist in der Anfrage identifiziert und wird im Vokabular berücksichtigt. 2. Attributeigenschaften der Stichwörter: - \\\"maria\\\": objekt (ID 1) - \\\"swim\\\": aktivität (ID 4) - \\\"own\\\": kontext (ID 2) - \\\"pool\\\": objekt (ID 1) 3. Beziehungen der Stichwörter: - \\\"maria\\\" und \\\"swim\\\": \\\"swim\\\" ist eine Aktivität, die von \\\"maria\\\" ausgeführt wird (ID 8: perform). - \\\"maria\\\" und \\\"own\\\": \\\"own\\\" beschreibt den Kontext, in dem \\\"maria\\\" handelt (ID 6: under). - \\\"maria\\\" und \\\"pool\\\": \\\"pool\\\" ist der Ort, an dem \\\"maria\\\" schwimmt (ID 7: above). - \\\"swim\\\" und \\\"own\\\": \\\"swim\\\" ist eine Aktivität, die \\\"maria\\\" in ihrem \\\"pool\\\" ausübt (ID 8: perform). - \\\"swim\\\" und \\\"pool\\\": \\\"swim\\\" geschieht in oder an \\\"pool\\\" (ID 7: above). - \\\"own\\\" und \\\"pool\\\": \\\"own\\\" beschreibt den Kontext, in dem \\\"pool\\\" steht (ID 6: under). 4. Typkodierungen: Alle Relationen haben eine passende ID in den bereitgestellten Typkodierungen. 5. Der GraphCode wurde erstellt und enthält das Vokabular sowie eine quadratische Bewertungsmatrix, die die Beziehungen zwischen den Begriffen repräsentiert.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "daughter",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027daughter\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (context). 6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 (identity), \u0027Maria\u0027 und \u0027boat\u0027 (activity), \u0027Maria\u0027 und \u0027lake\u0027 (context), \u0027daughter\u0027 und \u0027boat\u0027 (activity). 7. Typkodierungen: \u0027Maria\u0027 (id 1), \u0027daughter\u0027 (id 1), \u0027boat\u0027 (id 4), \u0027lake\u0027 (id 2). 8. GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"daughter\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027auf\u0027, \u0027einem\u0027, \u0027See\u0027. 2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Maria\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027on\u0027, \u0027a\u0027, \u0027lake\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027daughter\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (context). 6. Relationen: \u0027Maria\u0027 und \u0027daughter\u0027 (identity), \u0027Maria\u0027 und \u0027boat\u0027 (activity), \u0027Maria\u0027 und \u0027lake\u0027 (context), \u0027daughter\u0027 und \u0027boat\u0027 (activity). 7. Typkodierungen: \u0027Maria\u0027 (id 1), \u0027daughter\u0027 (id 1), \u0027boat\u0027 (id 4), \u0027lake\u0027 (id 2). 8. GraphCode wurde erstellt.\"\n}"
+}

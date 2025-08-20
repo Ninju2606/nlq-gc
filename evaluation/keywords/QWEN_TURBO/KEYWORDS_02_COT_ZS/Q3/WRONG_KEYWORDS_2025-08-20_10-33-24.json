@@ -1,0 +1,11 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "swim",
+    "pool",
+    "own"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die Stichwörter \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027 wurden in \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027 übersetzt. Die Identifikation \u0027Maria\u0027 wurde in der Anfrage nicht explizit referenziert, daher wurde sie nicht in das Vokabular aufgenommen. Die Verweise auf \u0027ich\u0027 und \u0027mir\u0027 wurden verarbeitet und als \u0027own\u0027 kodiert.",
+  "responsePlain": "{\n  \"dictionary\": [\"swim\", \"pool\", \"own\"],\n  \"description\": \"Die Stichwörter \u0027ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027 wurden in \u0027swim\u0027, \u0027pool\u0027, \u0027own\u0027 übersetzt. Die Identifikation \u0027Maria\u0027 wurde in der Anfrage nicht explizit referenziert, daher wurde sie nicht in das Vokabular aufgenommen. Die Verweise auf \u0027ich\u0027 und \u0027mir\u0027 wurden verarbeitet und als \u0027own\u0027 kodiert.\"\n}"
+}

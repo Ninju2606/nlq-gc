@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"schwimme\": 0,\n    \"in\": 1,\n    \"meinem\": 2,\n    \"Pool\": 3\n  },\n  \"matrix\": [\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"relationships\": [\n    {\n      \"from\": 0,\n      \"to\": 1,\n      \"type\": 8\n    },\n    {\n      \"from\": 1,\n      \"to\": 2,\n      \"type\": 6\n    },\n    {\n      \"from\": 2,\n      \"to\": 3,\n      \"type\": 9\n    }\n  ]\n}\n\n\n### Erklärung:\n- **dictionary**: Weist jedem eindeutigen Begriff eine Nummer zu (0 bis 3).\n- **matrix**: Eine 4x4-Adjazenzmatrix mit `0` als Startwert (dieser kann später mit Typwerten gefüllt werden).\n- **relationships**: Enthält die Beziehungen zwischen den Begriffen gemäß der Typkodierungen.  \n  - `schwimme -\u003e in` → Typ `perform` (ID 8)\n  - `in -\u003e meinem` → Typ `under` (ID 6)\n  - `meinem -\u003e Pool` → Typ `target` (ID 9)\n\nWenn du eine vollständige, typcodierte Matrix haben möchtest, kann ich dies auch auf Basis der Beziehungen ergänzen."
+}

@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer \"Maria\" wurde identifiziert und in das Vokabular aufgenommen. Der Befehl \"Tim rennt\" wird durch die Begriffe \"tim\" und \"run\" repräsentiert.\n2. Die Attribute der Stichwörter sind wie folgt:\n   - \"tim\": Objekt (id 1), da es sich um einen Personenname handelt.\n   - \"run\": Aktivität (id 4), da es eine Handlung beschreibt.\n   - \"maria\": Objekt (id 1), da es sich ebenfalls um einen Personenname handelt.\n3. Die Beziehungen zwischen den Stichwörtern sind:\n   - \"tim\" und \"run\": \"tim\" führt die Aktivität \"run\" aus (Typkodierung: perform, id 8).\n   - \"maria\" und \"tim\": Keine direkte Beziehung, da keine weiteren Angaben vorhanden sind.\n4. Es gibt für die Beziehung \"tim\" und \"run\" eine passende Typkodierung (id 8, performance). Für \"maria\" und \"tim\" gibt es keine Beziehung, daher keine Typkodierung.\n5. Der GraphCode wurde mit dem Vokabular [\"tim\", \"run\", \"maria\"] und der Bewertungsmatrix [[1, 8, 0], [0, 4, 0], [0, 0, 1]] erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \\\"Maria\\\" wurde identifiziert und in das Vokabular aufgenommen. Der Befehl \\\"Tim rennt\\\" wird durch die Begriffe \\\"tim\\\" und \\\"run\\\" repräsentiert.\\n2. Die Attribute der Stichwörter sind wie folgt:\\n   - \\\"tim\\\": Objekt (id 1), da es sich um einen Personenname handelt.\\n   - \\\"run\\\": Aktivität (id 4), da es eine Handlung beschreibt.\\n   - \\\"maria\\\": Objekt (id 1), da es sich ebenfalls um einen Personenname handelt.\\n3. Die Beziehungen zwischen den Stichwörtern sind:\\n   - \\\"tim\\\" und \\\"run\\\": \\\"tim\\\" führt die Aktivität \\\"run\\\" aus (Typkodierung: perform, id 8).\\n   - \\\"maria\\\" und \\\"tim\\\": Keine direkte Beziehung, da keine weiteren Angaben vorhanden sind.\\n4. Es gibt für die Beziehung \\\"tim\\\" und \\\"run\\\" eine passende Typkodierung (id 8, performance). Für \\\"maria\\\" und \\\"tim\\\" gibt es keine Beziehung, daher keine Typkodierung.\\n5. Der GraphCode wurde mit dem Vokabular [\\\"tim\\\", \\\"run\\\", \\\"maria\\\"] und der Bewertungsmatrix [[1, 8, 0], [0, 4, 0], [0, 0, 1]] erstellt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie verweist. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object, identityMapping: true), \u0027swim\u0027 (activity, identityMapping: false), \u0027own\u0027 (context, identityMapping: true), \u0027pool\u0027 (object, identityMapping: true). 3. \u0027Maria\u0027 besitzt den \u0027Pool\u0027 (own), und \u0027Maria\u0027 schwimmt (swim). 4. Für \u0027Maria\u0027 (object) ist ID: 1, \u0027own\u0027 (context) ist ID: 2, \u0027swim\u0027 (activity) ist ID: 4, \u0027pool\u0027 (object) ist ID: 1. Die Relation \u0027own\u0027 ist nicht in den Typkodierungen vorhanden, daher wird ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt, wobei die Matrix gemäß den Regeln gefüllt wurde.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage explizit auf sie verweist. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object, identityMapping: true), \u0027swim\u0027 (activity, identityMapping: false), \u0027own\u0027 (context, identityMapping: true), \u0027pool\u0027 (object, identityMapping: true). 3. \u0027Maria\u0027 besitzt den \u0027Pool\u0027 (own), und \u0027Maria\u0027 schwimmt (swim). 4. Für \u0027Maria\u0027 (object) ist ID: 1, \u0027own\u0027 (context) ist ID: 2, \u0027swim\u0027 (activity) ist ID: 4, \u0027pool\u0027 (object) ist ID: 1. Die Relation \u0027own\u0027 ist nicht in den Typkodierungen vorhanden, daher wird ein Fehler ausgegeben. 5. Der GraphCode wurde erstellt, wobei die Matrix gemäß den Regeln gefüllt wurde.\"\n}"
+}

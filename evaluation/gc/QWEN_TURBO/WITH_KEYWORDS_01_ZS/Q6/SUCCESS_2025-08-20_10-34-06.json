@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen\u0027 enthÃ¤lt keine eindeutigen Objekte, Attribute oder AktivitÃ¤ten, die mit den vorgegebenen Typkodierungen in Verbindung gebracht werden kÃ¶nnen. Die Verwendung des Vokabulars [\"maria\", \"make\", \"appointment\"] ist nicht ausreichend zur Erstellung einer sinnvollen Bewertungsmatrix und der Einheitsdiagonale kann nicht korrekt gefÃ¼llt werden.",
+  "error": "No valid GraphCode could be generated",
+  "responsePlain": "{\n  \"error\": \"No valid GraphCode could be generated\",\n  \"description\": \"Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen\u0027 enthÃ¤lt keine eindeutigen Objekte, Attribute oder AktivitÃ¤ten, die mit den vorgegebenen Typkodierungen in Verbindung gebracht werden kÃ¶nnen. Die Verwendung des Vokabulars [\\\"maria\\\", \\\"make\\\", \\\"appointment\\\"] ist nicht ausreichend zur Erstellung einer sinnvollen Bewertungsmatrix und der Einheitsdiagonale kann nicht korrekt gefÃ¼llt werden.\"\n}"
+}

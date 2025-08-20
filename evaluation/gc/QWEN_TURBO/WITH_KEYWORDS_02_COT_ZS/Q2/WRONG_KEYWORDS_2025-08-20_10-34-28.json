@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage \"Tim rennt\" wurde von dem Nutzer Maria gestellt. Da der Name \"Tim\" explizit genannt wird, wird er im Vokabular berücksichtigt. Da keine weiteren selbstidentifizierenden Wörter wie \"ich\" oder \"mein\" in der Anfrage vorkommen, ist die Identifikation des Nutzers \"Maria\" nicht zwingend notwendig, kann aber im Vokabular enthalten sein. 2. Die Attribute der Stichwörter sind wie folgt:\n- \"tim\": object\n- \"run\": activity\n- \"maria\": object\n3. Die Stichwörter stehen in der folgenden Relation:\n- \"tim\" ist ein Objekt (object) und \"run\" ist eine Aktivität (activity). In der Anfrage \"Tim rennt\" gibt es eine Beziehung, bei der \"tim\" die Aktivität \"run\" ausführt. Daher ist die Beziehung typkodiert als \"perform\" (ID 8). 4. Es gibt einen passenden Eintrag für die Beziehung \"perform\", der ID 8 ist. 5. Der GraphCode wurde entsprechend der Vorgaben erstellt, wobei die Einträge in der Diagonalen korrekt mit identityMapping\u003dtrue gefüllt sind und der Eintrag außerhalb der Diagonalen mit ID 8 (perform) verwendet wird.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Anfrage \\\"Tim rennt\\\" wurde von dem Nutzer Maria gestellt. Da der Name \\\"Tim\\\" explizit genannt wird, wird er im Vokabular berücksichtigt. Da keine weiteren selbstidentifizierenden Wörter wie \\\"ich\\\" oder \\\"mein\\\" in der Anfrage vorkommen, ist die Identifikation des Nutzers \\\"Maria\\\" nicht zwingend notwendig, kann aber im Vokabular enthalten sein. 2. Die Attribute der Stichwörter sind wie folgt:\\n- \\\"tim\\\": object\\n- \\\"run\\\": activity\\n- \\\"maria\\\": object\\n3. Die Stichwörter stehen in der folgenden Relation:\\n- \\\"tim\\\" ist ein Objekt (object) und \\\"run\\\" ist eine Aktivität (activity). In der Anfrage \\\"Tim rennt\\\" gibt es eine Beziehung, bei der \\\"tim\\\" die Aktivität \\\"run\\\" ausführt. Daher ist die Beziehung typkodiert als \\\"perform\\\" (ID 8). 4. Es gibt einen passenden Eintrag für die Beziehung \\\"perform\\\", der ID 8 ist. 5. Der GraphCode wurde entsprechend der Vorgaben erstellt, wobei die Einträge in der Diagonalen korrekt mit identityMapping\u003dtrue gefüllt sind und der Eintrag außerhalb der Diagonalen mit ID 8 (perform) verwendet wird.\"\n}"
+}

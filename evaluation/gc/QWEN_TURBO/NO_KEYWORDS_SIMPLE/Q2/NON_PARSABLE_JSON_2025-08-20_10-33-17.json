@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Tim\": 0\n  },\n  \"matrix\": [\n    [0]\n  ]\n}\n \n\n### Erklärung:\nDa die Anfrage „Tim rennt“ nur den Begriff **„Tim“** enthält und keine Beziehungen zu anderen Begriffen (z. B. „rennt“, „Lauf“, „Sport“ usw.), wird die Adjazenzmatrix nur eine Zeile/Spalte enthalten.  \nDas Attribut `dictionary` ordnet den Begriff „Tim“ der Indexnummer `0` zu.  \nDa es keine Beziehungen gibt, ist die Matrix eine `1x1`-Matrix mit einem einzigen Wert `0`.  \n\nWenn du weitere Begriffe oder Beziehungen hinzufügst, kann ich dir entsprechend eine größere Matrix erstellen."
+}

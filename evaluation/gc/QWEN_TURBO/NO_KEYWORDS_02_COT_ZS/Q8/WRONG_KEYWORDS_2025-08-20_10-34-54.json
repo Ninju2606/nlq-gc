@@ -1,0 +1,39 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "My daughter",
+    "Maria",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Tochter\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027\n4. Ersetzen der Identifikation: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt\n5. Attributeigenschaften: \u0027My daughter\u0027 (object), \u0027Maria\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (object)\n6. Relationen zwischen den Stichwörtern: \u0027My daughter\u0027 und \u0027I\u0027 (person) fahren \u0027boat\u0027 auf \u0027lake\u0027\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027above\u0027 (ID 7) für \u0027auf\u0027, \u0027perform\u0027 (ID 8) für \u0027fahre\u0027\n8. GraphCode: \n{\n  \"dictionary\": [\"My daughter\", \"Maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Tochter\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027\\n4. Ersetzen der Identifikation: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt\\n5. Attributeigenschaften: \u0027My daughter\u0027 (object), \u0027Maria\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (object)\\n6. Relationen zwischen den Stichwörtern: \u0027My daughter\u0027 und \u0027I\u0027 (person) fahren \u0027boat\u0027 auf \u0027lake\u0027\\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027above\u0027 (ID 7) für \u0027auf\u0027, \u0027perform\u0027 (ID 8) für \u0027fahre\u0027\",\n  \"error\": \"\"\n}",
+  "error": "",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Tochter\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027\\n4. Ersetzen der Identifikation: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt\\n5. Attributeigenschaften: \u0027My daughter\u0027 (object), \u0027Maria\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (object)\\n6. Relationen zwischen den Stichwörtern: \u0027My daughter\u0027 und \u0027I\u0027 (person) fahren \u0027boat\u0027 auf \u0027lake\u0027\\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027above\u0027 (ID 7) für \u0027auf\u0027, \u0027perform\u0027 (ID 8) für \u0027fahre\u0027\\n8. GraphCode: \\n{\\n  \\\"dictionary\\\": [\\\"My daughter\\\", \\\"Maria\\\", \\\"boat\\\", \\\"lake\\\"],\\n  \\\"matrix\\\": [\\n    [1, 0, 0, 0],\\n    [0, 1, 0, 0],\\n    [0, 0, 1, 0],\\n    [0, 0, 0, 1]\\n  ],\\n  \\\"description\\\": \\\"1. Potenzielle Stichwörter: \u0027Meine Tochter\u0027, \u0027ich\u0027, \u0027Boot\u0027, \u0027See\u0027\\\\n2. Relative Verweise: \u0027Meine Tochter\u0027 bezieht sich auf \u0027Tochter\u0027, \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027\\\\n3. Übersetzung ins Englische: \u0027My daughter\u0027, \u0027I\u0027, \u0027boat\u0027, \u0027lake\u0027\\\\n4. Ersetzen der Identifikation: \u0027I\u0027 wird durch \u0027Maria\u0027 ersetzt\\\\n5. Attributeigenschaften: \u0027My daughter\u0027 (object), \u0027Maria\u0027 (object), \u0027boat\u0027 (object), \u0027lake\u0027 (object)\\\\n6. Relationen zwischen den Stichwörtern: \u0027My daughter\u0027 und \u0027I\u0027 (person) fahren \u0027boat\u0027 auf \u0027lake\u0027\\\\n7. Typkodierungen: \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027object\u0027 (ID 1), \u0027above\u0027 (ID 7) für \u0027auf\u0027, \u0027perform\u0027 (ID 8) für \u0027fahre\u0027\\\",\\n  \\\"error\\\": \\\"\\\"\\n}\",\n  \"dictionary\": [\"My daughter\", \"Maria\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 1, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"error\": \"\"\n}"
+}

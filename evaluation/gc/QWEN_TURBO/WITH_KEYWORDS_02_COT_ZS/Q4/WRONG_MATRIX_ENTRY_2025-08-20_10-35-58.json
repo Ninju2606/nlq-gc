@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers (Maria) wird dem Vokabular hinzugefügt, da die Anfrage mit \u0027Ich\u0027 formuliert ist. 2. Die Attribute der Stichwörter: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. Die Beziehungen: \u0027maria\u0027 und \u0027swim\u0027 (perform), \u0027swim\u0027 und \u0027pool\u0027 (under), \u0027own\u0027 und \u0027pool\u0027 (attached), \u0027maria\u0027 und \u0027own\u0027 (attached). 4. Es gibt passende Typkodierungen: \u0027perform\u0027 (ID 8), \u0027under\u0027 (ID 6), \u0027attached\u0027 (ID 5), \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027context\u0027 (ID 2). 5. Der GraphCode wurde zusammenge-setzt mit dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers (Maria) wird dem Vokabular hinzugefügt, da die Anfrage mit \u0027Ich\u0027 formuliert ist. 2. Die Attribute der Stichwörter: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. Die Beziehungen: \u0027maria\u0027 und \u0027swim\u0027 (perform), \u0027swim\u0027 und \u0027pool\u0027 (under), \u0027own\u0027 und \u0027pool\u0027 (attached), \u0027maria\u0027 und \u0027own\u0027 (attached). 4. Es gibt passende Typkodierungen: \u0027perform\u0027 (ID 8), \u0027under\u0027 (ID 6), \u0027attached\u0027 (ID 5), \u0027object\u0027 (ID 1), \u0027activity\u0027 (ID 4), \u0027context\u0027 (ID 2). 5. Der GraphCode wurde zusammenge-setzt mit dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

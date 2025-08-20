@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Termin\": 0,\n    \"ausmachen\": 1,\n    \"müssen\": 2,\n    \"bald\": 3,\n    \"wir\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Erklärung:\n\nDie Anfrage **\"Wir müsseneinen Termin ausmachen.\"** enthält die folgenden Begriffe:\n\n- \"Termin\"\n- \"ausmachen\"\n- \"müssen\"\n- \"bald\"\n- \"wir\"\n\nDa kein konkreter Typ (z. B. `object`, `context`, `synonym`, usw.) in der Anfrage explizit angegeben ist, und die Beziehungen zwischen den Begriffen nicht klar definiert sind, wird die `matrix` mit Nullen gefüllt, da keine Beziehungen zwischen den Begriffen identifiziert wurden.\n\nWenn du **konkrete Beziehungen** zwischen den Begriffen kennzeichnen möchtest (z. B. \"müssen\" ist eine **activity** zu \"Termin\"), kannst du dies in einer klareren Anfrage angeben. Dann kann ich die `matrix` entsprechend füllen."
+}

@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Der Nutzer \"Maria\" wurde identifiziert und in das Vokabular aufgenommen. Es gibt keine weiteren relativen Verweise.\n2. \"Maria\" und \"person\" sind Objekte der Anfrage. \"drive\" und \"boat\" sowie \"lake\" sind Aktivitäten oder Objekte.\n3. \"Maria\" und \"person\" beziehen sich auf dieselbe Person. \"Maria\" fährt mit \"boat\" auf dem \"lake\". Die Aktivität \"drive\" bezieht sich auf \"boat\". Das Objekt \"boat\" ist auf dem \"lake\".\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 7, 0, 0],\n    [0, 1, 7, 0, 0],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Der Nutzer \\\"Maria\\\" wurde identifiziert und in das Vokabular aufgenommen. Es gibt keine weiteren relativen Verweise.\\n2. \\\"Maria\\\" und \\\"person\\\" sind Objekte der Anfrage. \\\"drive\\\" und \\\"boat\\\" sowie \\\"lake\\\" sind Aktivitäten oder Objekte.\\n3. \\\"Maria\\\" und \\\"person\\\" beziehen sich auf dieselbe Person. \\\"Maria\\\" fährt mit \\\"boat\\\" auf dem \\\"lake\\\". Die Aktivität \\\"drive\\\" bezieht sich auf \\\"boat\\\". Das Objekt \\\"boat\\\" ist auf dem \\\"lake\\\".\\n4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Ausführen (perform) ist 7. Die ID für Beziehen (target) ist 8. Die ID für in (in) ist 6.\"\n}"
+}

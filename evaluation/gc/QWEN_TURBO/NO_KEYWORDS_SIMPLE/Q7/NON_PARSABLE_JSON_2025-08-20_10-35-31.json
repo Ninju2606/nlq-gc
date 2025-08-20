@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Häuser\": 0,\n    \"um\": 1,\n    \"Fragen\": 2,\n    \"zu\": 3,\n    \"malen\": 4\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Bemerkung:\nDie Anfrage **„Häuser um Fragen zu malen“** enthält keine klaren semantischen Beziehungen, die mit den angegebenen Typkodierungen (z.B. `object`, `context`, `synonym`, `activity`, etc.) eindeutig zugeordnet werden können. Daher ist die Adjazenzmatrix vollständig mit `0` gefüllt, was bedeutet, dass keine spezifischen Beziehungen erkannt oder kodiert wurden.\n\nFalls du die Anfrage genauer spezifizieren möchtest oder Beziehungen zwischen den Begriffen hinzufügen möchtest, kann ich gerne eine entsprechende Matrix erstellen."
+}

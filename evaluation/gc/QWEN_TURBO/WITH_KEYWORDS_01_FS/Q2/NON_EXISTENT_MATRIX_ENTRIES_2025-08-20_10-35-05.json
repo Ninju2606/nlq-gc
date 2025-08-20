@@ -1,0 +1,20 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      8
+    ],
+    [
+      0,
+      9
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode wurde aus der Anfrage \u0027Tim rennt\u0027 generiert. Das Vokabular enthält \u0027tim\u0027 und \u0027run\u0027. In der Bewertungsmatrix ist der Eintrag (1,1) mit 9 (attribut: \u0027activity\u0027) und (2,2) mit 8 (attribut: \u0027perform\u0027) gefüllt. Der Eintrag (1,2) ist 0, da keine Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 im Vokabular besteht.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\"],\n  \"matrix\": [[1, 8], [0, 9]],\n  \"description\": \"Der GraphCode wurde aus der Anfrage \u0027Tim rennt\u0027 generiert. Das Vokabular enthält \u0027tim\u0027 und \u0027run\u0027. In der Bewertungsmatrix ist der Eintrag (1,1) mit 9 (attribut: \u0027activity\u0027) und (2,2) mit 8 (attribut: \u0027perform\u0027) gefüllt. Der Eintrag (1,2) ist 0, da keine Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 im Vokabular besteht.\"\n}"
+}

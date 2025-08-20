@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. 2. Relative Verweise: \u0027mir\u0027 und \u0027der\u0027 verweisen auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027pool\u0027 ist ein Objekt (ID 1), \u0027Maria\u0027 ist ein Objekt (ID 1). 6. Beziehungen: \u0027Maria\u0027 und \u0027swim\u0027 haben die Beziehung \u0027perform\u0027 (ID 8), \u0027swim\u0027 und \u0027pool\u0027 haben die Beziehung \u0027under\u0027 (ID 6). 7. Alle Relationen haben passende Einträge in den Typkodierungen. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 2]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. 2. Relative Verweise: \u0027mir\u0027 und \u0027der\u0027 verweisen auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027swim\u0027, \u0027pool\u0027. 4. Ersetzen der Identifikation des Nutzers: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027pool\u0027 ist ein Objekt (ID 1), \u0027Maria\u0027 ist ein Objekt (ID 1). 6. Beziehungen: \u0027Maria\u0027 und \u0027swim\u0027 haben die Beziehung \u0027perform\u0027 (ID 8), \u0027swim\u0027 und \u0027pool\u0027 haben die Beziehung \u0027under\u0027 (ID 6). 7. Alle Relationen haben passende Einträge in den Typkodierungen. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

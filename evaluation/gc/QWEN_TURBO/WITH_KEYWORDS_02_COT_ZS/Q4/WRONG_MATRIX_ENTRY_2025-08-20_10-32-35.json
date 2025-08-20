@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt. Der Nutzer hat sich selbst identifiziert, daher wird \u0027maria\u0027 als Eintrag im Vokabular verwendet. 2. Die Attribute der Stichwörter sind wie folgt: - \u0027maria\u0027: object (Identität des Nutzers) - \u0027swim\u0027: activity (Handlung) - \u0027own\u0027: object (Beziehung zur Eigentümerrolle) - \u0027pool\u0027: object (Gegenstand) 3. Die Stichwörter stehen in folgenden Beziehungen zueinander: - \u0027maria\u0027 und \u0027swim\u0027: \u0027maria\u0027 performt die \u0027swim\u0027-Aktivität (ID 8). - \u0027maria\u0027 und \u0027own\u0027: \u0027maria\u0027 besitzt das \u0027pool\u0027 (ID 5). - \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 erfolgt im \u0027pool\u0027 (ID 6). 4. Für alle Beziehungen stehen passende Typkodierungen zur Verfügung: \u0027perform\u0027 (ID 8), \u0027attached\u0027 (ID 5), \u0027under\u0027 (ID 6). 5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt. Der Nutzer hat sich selbst identifiziert, daher wird \u0027maria\u0027 als Eintrag im Vokabular verwendet. 2. Die Attribute der Stichwörter sind wie folgt: - \u0027maria\u0027: object (Identität des Nutzers) - \u0027swim\u0027: activity (Handlung) - \u0027own\u0027: object (Beziehung zur Eigentümerrolle) - \u0027pool\u0027: object (Gegenstand) 3. Die Stichwörter stehen in folgenden Beziehungen zueinander: - \u0027maria\u0027 und \u0027swim\u0027: \u0027maria\u0027 performt die \u0027swim\u0027-Aktivität (ID 8). - \u0027maria\u0027 und \u0027own\u0027: \u0027maria\u0027 besitzt das \u0027pool\u0027 (ID 5). - \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 erfolgt im \u0027pool\u0027 (ID 6). 4. Für alle Beziehungen stehen passende Typkodierungen zur Verfügung: \u0027perform\u0027 (ID 8), \u0027attached\u0027 (ID 5), \u0027under\u0027 (ID 6). 5. Der GraphCode wurde erstellt, bestehend aus dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "SUCCESS",
+  "dictionary": [
+    "Maria",
+    "meeting",
+    "arrange"
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Die potenziellen Stichwörter wurden aus der Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 extrahiert. Dabei wurde \u0027Maria\u0027 als Identifikation des Nutzers beibehalten, da die Anfrage auf sie verweist. \u0027Termin\u0027 wurde ins Englische Ã¼bersetzt als \u0027meeting\u0027, und \u0027ausmachen\u0027 wurde verallgemeinert zu \u0027arrange\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"meeting\", \"arrange\"],\n  \"description\": \"Die potenziellen Stichwörter wurden aus der Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 extrahiert. Dabei wurde \u0027Maria\u0027 als Identifikation des Nutzers beibehalten, da die Anfrage auf sie verweist. \u0027Termin\u0027 wurde ins Englische Ã¼bersetzt als \u0027meeting\u0027, und \u0027ausmachen\u0027 wurde verallgemeinert zu \u0027arrange\u0027.\"\n}"
+}

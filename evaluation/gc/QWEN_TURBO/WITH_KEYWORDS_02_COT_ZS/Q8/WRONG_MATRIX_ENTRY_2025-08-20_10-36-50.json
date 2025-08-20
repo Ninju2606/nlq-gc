@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde erfolgreich zugeordnet. Es gibt keine weiteren aufgelösten relative Verweise.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027maria\u0027 ist eine Identifikation (Typ: \u0027object\u0027)\n   - \u0027person\u0027 ist eine Identifikation (Typ: \u0027object\u0027)\n   - \u0027drive\u0027 ist eine Aktivität (Typ: \u0027activity\u0027)\n   - \u0027boat\u0027 ist ein Objekt (Typ: \u0027object\u0027)\n   - \u0027lake\u0027 ist ein Objekt (Typ: \u0027object\u0027)\n3. Die Stichwörter stehen in folgender Relation:\n   - \u0027maria\u0027 und \u0027person\u0027 sind identisch (Typ: \u0027object\u0027)\n   - \u0027maria\u0027 und \u0027drive\u0027 zeigen eine Aktivität (Typ: \u0027perform\u0027)\n   - \u0027maria\u0027 und \u0027boat\u0027 zeigen eine Verbindung (Typ: \u0027attached\u0027)\n   - \u0027maria\u0027 und \u0027lake\u0027 zeigen eine Verbindung (Typ: \u0027under\u0027)\n   - \u0027person\u0027 und \u0027drive\u0027 zeigen eine Aktivität (Typ: \u0027perform\u0027)\n   - \u0027person\u0027 und \u0027boat\u0027 zeigen eine Verbindung (Typ: \u0027attached\u0027)\n   - \u0027person\u0027 und \u0027lake\u0027 zeigen eine Verbindung (Typ: \u0027under\u0027)\n   - \u0027drive\u0027 und \u0027boat\u0027 stehen in Beziehung (Typ: \u0027target\u0027)\n   - \u0027boat\u0027 und \u0027lake\u0027 stehen in Beziehung (Typ: \u0027under\u0027)\n4. Alle Relationen aus Schritten 2 und 3 haben einen passenden Eintrag in den Typkodierungen.\n5. Der GraphCode wurde erfolgreich zusammengesetzt mit dem gegebenen Vokabular und den zugehörigen Typkodierungen.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde erfolgreich zugeordnet. Es gibt keine weiteren aufgelösten relative Verweise.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027maria\u0027 ist eine Identifikation (Typ: \u0027object\u0027)\\n   - \u0027person\u0027 ist eine Identifikation (Typ: \u0027object\u0027)\\n   - \u0027drive\u0027 ist eine Aktivität (Typ: \u0027activity\u0027)\\n   - \u0027boat\u0027 ist ein Objekt (Typ: \u0027object\u0027)\\n   - \u0027lake\u0027 ist ein Objekt (Typ: \u0027object\u0027)\\n3. Die Stichwörter stehen in folgender Relation:\\n   - \u0027maria\u0027 und \u0027person\u0027 sind identisch (Typ: \u0027object\u0027)\\n   - \u0027maria\u0027 und \u0027drive\u0027 zeigen eine Aktivität (Typ: \u0027perform\u0027)\\n   - \u0027maria\u0027 und \u0027boat\u0027 zeigen eine Verbindung (Typ: \u0027attached\u0027)\\n   - \u0027maria\u0027 und \u0027lake\u0027 zeigen eine Verbindung (Typ: \u0027under\u0027)\\n   - \u0027person\u0027 und \u0027drive\u0027 zeigen eine Aktivität (Typ: \u0027perform\u0027)\\n   - \u0027person\u0027 und \u0027boat\u0027 zeigen eine Verbindung (Typ: \u0027attached\u0027)\\n   - \u0027person\u0027 und \u0027lake\u0027 zeigen eine Verbindung (Typ: \u0027under\u0027)\\n   - \u0027drive\u0027 und \u0027boat\u0027 stehen in Beziehung (Typ: \u0027target\u0027)\\n   - \u0027boat\u0027 und \u0027lake\u0027 stehen in Beziehung (Typ: \u0027under\u0027)\\n4. Alle Relationen aus Schritten 2 und 3 haben einen passenden Eintrag in den Typkodierungen.\\n5. Der GraphCode wurde erfolgreich zusammengesetzt mit dem gegebenen Vokabular und den zugehörigen Typkodierungen.\"\n}"
+}

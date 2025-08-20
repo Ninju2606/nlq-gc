@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Ich, schwimme, in, einem, Pool, der, mir, gehört. 2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: Maria, swim, pool, belong. 4. Ersetzen der Identifikation: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (attribute: object, identityMapping: true), \u0027swim\u0027 ist eine Aktivität (attribute: activity, identityMapping: true), \u0027pool\u0027 ist ein Objekt (attribute: object, identityMapping: true), \u0027belong\u0027 ist eine Beziehung (attribute: attached, identityMapping: false). 6. Relationen: \u0027Maria\u0027 und \u0027swim\u0027 haben eine \u0027perform\u0027-Beziehung (ID: 8), \u0027swim\u0027 und \u0027pool\u0027 haben eine \u0027target\u0027-Beziehung (ID: 9), \u0027pool\u0027 und \u0027belong\u0027 haben eine \u0027attached\u0027-Beziehung (ID: 5). 7. Alle Relationen sind in den Typkodierungen vorhanden. 8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Ich, schwimme, in, einem, Pool, der, mir, gehört. 2. Relative Verweise: \u0027mir\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: Maria, swim, pool, belong. 4. Ersetzen der Identifikation: \u0027Ich\u0027 wird durch \u0027Maria\u0027 ersetzt. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein Objekt (attribute: object, identityMapping: true), \u0027swim\u0027 ist eine Aktivität (attribute: activity, identityMapping: true), \u0027pool\u0027 ist ein Objekt (attribute: object, identityMapping: true), \u0027belong\u0027 ist eine Beziehung (attribute: attached, identityMapping: false). 6. Relationen: \u0027Maria\u0027 und \u0027swim\u0027 haben eine \u0027perform\u0027-Beziehung (ID: 8), \u0027swim\u0027 und \u0027pool\u0027 haben eine \u0027target\u0027-Beziehung (ID: 9), \u0027pool\u0027 und \u0027belong\u0027 haben eine \u0027attached\u0027-Beziehung (ID: 5). 7. Alle Relationen sind in den Typkodierungen vorhanden. 8. Der GraphCode wurde erfolgreich erstellt.\"\n}"
+}

@@ -1,0 +1,36 @@
+{
+  "state": "NON_MATCHING_MATRIX",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: Tim, rennt. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers (Maria) vorhanden. 5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity). 6. Beziehung: \u0027Tim\u0027 performt \u0027run\u0027. 7. Es gibt einen passenden Eintrag (ID 8 für \u0027perform\u0027). 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 8, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: Tim, rennt. 2. Keine relativen Verweise vorhanden. 3. Übersetzung ins Englische: Tim, run. 4. Keine Identifikation des Nutzers (Maria) vorhanden. 5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity). 6. Beziehung: \u0027Tim\u0027 performt \u0027run\u0027. 7. Es gibt einen passenden Eintrag (ID 8 für \u0027perform\u0027). 8. Der GraphCode wurde erstellt.\"\n}"
+}

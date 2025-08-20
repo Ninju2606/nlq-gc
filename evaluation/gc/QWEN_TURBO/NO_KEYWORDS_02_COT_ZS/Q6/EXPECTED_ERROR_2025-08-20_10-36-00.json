@@ -1,0 +1,20 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "we have to",
+    "make an appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027we have to\u0027, \u0027make an appointment\u0027. 2. Keine relativen Verweise gefunden. 3. Die Stichwörter sind bereits auf Englisch. 4. Keine Identifikation des Nutzers (\u0027Maria\u0027) in den Stichwörtern gefunden. 5. \u0027we have to\u0027 ist ein Aktivitätsbegriff (attribute: activity). \u0027make an appointment\u0027 ist ein Aktivitätsbegriff (attribute: activity). 6. Die Stichwörter stehen in einer Beziehung, die eine Aktion (\u0027make an appointment\u0027) beschreibt, die durchgeführt werden muss (\u0027we have to\u0027). 7. Die Attribute \u0027activity\u0027 sind in den Typkodierungen vorhanden (ID: 4). 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"we have to\", \"make an appointment\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027we have to\u0027, \u0027make an appointment\u0027. 2. Keine relativen Verweise gefunden. 3. Die Stichwörter sind bereits auf Englisch. 4. Keine Identifikation des Nutzers (\u0027Maria\u0027) in den Stichwörtern gefunden. 5. \u0027we have to\u0027 ist ein Aktivitätsbegriff (attribute: activity). \u0027make an appointment\u0027 ist ein Aktivitätsbegriff (attribute: activity). 6. Die Stichwörter stehen in einer Beziehung, die eine Aktion (\u0027make an appointment\u0027) beschreibt, die durchgeführt werden muss (\u0027we have to\u0027). 7. Die Attribute \u0027activity\u0027 sind in den Typkodierungen vorhanden (ID: 4). 8. Der GraphCode wurde erstellt.\"\n}"
+}

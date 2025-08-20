@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers ist \u0027Maria\u0027, was direkt im Vokabular enthalten ist. Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält relative Verweise wie \u0027meinem\u0027, die auf \u0027Maria\u0027 verweisen. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. \u0027maria\u0027 (object) perform (activity) \u0027swim\u0027 (activity). \u0027maria\u0027 (object) own (context) \u0027pool\u0027 (object). 4. Für \u0027perform\u0027 ist die ID 8, für \u0027own\u0027 ist keine ID mit identityMapping\u003dtrue vorhanden. Es wurde ein Fehler ausgegeben, da \u0027own\u0027 nicht in der Typkodierung mit identityMapping\u003dtrue vorkommt. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers ist \u0027Maria\u0027, was direkt im Vokabular enthalten ist. Die Anfrage \u0027Ich schwimme in meinem Pool\u0027 enthält relative Verweise wie \u0027meinem\u0027, die auf \u0027Maria\u0027 verweisen. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 (object), \u0027swim\u0027 (activity), \u0027own\u0027 (context), \u0027pool\u0027 (object). 3. \u0027maria\u0027 (object) perform (activity) \u0027swim\u0027 (activity). \u0027maria\u0027 (object) own (context) \u0027pool\u0027 (object). 4. Für \u0027perform\u0027 ist die ID 8, für \u0027own\u0027 ist keine ID mit identityMapping\u003dtrue vorhanden. Es wurde ein Fehler ausgegeben, da \u0027own\u0027 nicht in der Typkodierung mit identityMapping\u003dtrue vorkommt. 5. Der GraphCode wurde erstellt mit dem Vokabular und der Bewertungsmatrix.\"\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist zu unklar und enthält keine spezifischen Begriffe, um einen GraphCode gemäß den Regeln zu erstellen.",
+  "error": "Ich kann die Anfrage leider nicht verständig genug interpretieren, um einen sinnvollen GraphCode zu generieren. Bitte formuliere eine klare und vollständige Anfrage.",
+  "responsePlain": "{\n  \"error\": \"Ich kann die Anfrage leider nicht verständig genug interpretieren, um einen sinnvollen GraphCode zu generieren. Bitte formuliere eine klare und vollständige Anfrage.\",\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 ist zu unklar und enthält keine spezifischen Begriffe, um einen GraphCode gemäß den Regeln zu erstellen.\"\n}"
+}

@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.76,
+  "description": "1. Die relative Verweisung \"Meine Tochter und ich\" wurde aufgelöst: \"Maria\" ist die Identifikation des Nutzers, und \"person\" steht für die Person, also die Tochter. 2. Die Attribute der Stichwörter sind wie folgt: - \"maria\": object (Identität, identityMapping \u003d true), - \"person\": object (Identität, identityMapping \u003d true), - \"drive\": activity (identityMapping \u003d false), - \"boat\": object (identityMapping \u003d true), - \"lake\": object (identityMapping \u003d true). 3. Die Stichwörter stehen in folgender Relation zueinander: - Maria (person) fährt mit dem Boot (boat) auf dem See (lake). - Der Vorgang \"fahrend\" wird durch den Begriff \"drive\" beschrieben. 4. Für alle Relationen sind passende Typkodierungen vorhanden: - \"maria\" ↔ \"person\": id 1 (object) - \"person\" ↔ \"person\": id 1 (object) - \"drive\" ↔ \"drive\": id 4 (activity) - \"boat\" ↔ \"boat\": id 1 (object) - \"lake\" ↔ \"lake\": id 1 (object). 5. Der GraphCode wurde erfolgreich zusammengefügt, wobei die Beziehungen durch die Typkodierungen abgebildet wurden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 1, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relative Verweisung \\\"Meine Tochter und ich\\\" wurde aufgelöst: \\\"Maria\\\" ist die Identifikation des Nutzers, und \\\"person\\\" steht für die Person, also die Tochter. 2. Die Attribute der Stichwörter sind wie folgt: - \\\"maria\\\": object (Identität, identityMapping \u003d true), - \\\"person\\\": object (Identität, identityMapping \u003d true), - \\\"drive\\\": activity (identityMapping \u003d false), - \\\"boat\\\": object (identityMapping \u003d true), - \\\"lake\\\": object (identityMapping \u003d true). 3. Die Stichwörter stehen in folgender Relation zueinander: - Maria (person) fährt mit dem Boot (boat) auf dem See (lake). - Der Vorgang \\\"fahrend\\\" wird durch den Begriff \\\"drive\\\" beschrieben. 4. Für alle Relationen sind passende Typkodierungen vorhanden: - \\\"maria\\\" ↔ \\\"person\\\": id 1 (object) - \\\"person\\\" ↔ \\\"person\\\": id 1 (object) - \\\"drive\\\" ↔ \\\"drive\\\": id 4 (activity) - \\\"boat\\\" ↔ \\\"boat\\\": id 1 (object) - \\\"lake\\\" ↔ \\\"lake\\\": id 1 (object). 5. Der GraphCode wurde erfolgreich zusammengefügt, wobei die Beziehungen durch die Typkodierungen abgebildet wurden.\"\n}"
+}

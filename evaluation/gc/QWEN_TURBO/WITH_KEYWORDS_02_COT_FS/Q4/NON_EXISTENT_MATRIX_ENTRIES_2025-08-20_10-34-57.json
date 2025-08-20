@@ -1,0 +1,38 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      7,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Das Wort \"Ich\" wurde zu dem Eintrag \"maria\" identifiziert.\n        2. \"maria\" und \"pool\" sind Objekte der Anfrage. \"swim\" ist eine Aktivität. \"own\" ist ein Kontext oder eine Beschreibung.\n        3. \"maria\" schwimmt in ihrem eigenen Pool. Die Aktivität \"swim\" bezieht sich auf \"pool\". Der Kontext \"own\" beschreibt die Beziehung zwischen \"maria\" und \"pool\".\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2. Keine ID für \"own\" ist in der vorliegenden Typkodierung gegeben. Es fehlt also ein passender Eintrag für den Kontext \"own\".",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 8, 0, 0],\n    [0, 9, 7, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Das Wort \\\"Ich\\\" wurde zu dem Eintrag \\\"maria\\\" identifiziert.\\n        2. \\\"maria\\\" und \\\"pool\\\" sind Objekte der Anfrage. \\\"swim\\\" ist eine Aktivität. \\\"own\\\" ist ein Kontext oder eine Beschreibung.\\n        3. \\\"maria\\\" schwimmt in ihrem eigenen Pool. Die Aktivität \\\"swim\\\" bezieht sich auf \\\"pool\\\". Der Kontext \\\"own\\\" beschreibt die Beziehung zwischen \\\"maria\\\" und \\\"pool\\\".\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Beziehen (target) ist 8. Die ID für Kontext (context) ist 2. Keine ID für \\\"own\\\" ist in der vorliegenden Typkodierung gegeben. Es fehlt also ein passender Eintrag für den Kontext \\\"own\\\".\"\n}"
+}

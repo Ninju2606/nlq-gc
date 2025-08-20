@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und enthält keine eindeutigen Szenenbeschreibungen oder Begriffe, die für die Generierung eines GraphCodes benötigt werden.",
+  "error": "No valid GraphCode could be generated.",
+  "responsePlain": "{\n  \"error\": \"No valid GraphCode could be generated.\",\n  \"description\": \"Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist unklar und enthält keine eindeutigen Szenenbeschreibungen oder Begriffe, die für die Generierung eines GraphCodes benötigt werden.\"\n}"
+}

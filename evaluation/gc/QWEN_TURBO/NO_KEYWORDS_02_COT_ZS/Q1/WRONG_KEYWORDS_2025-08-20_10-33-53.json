@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Basketball\u0027 und \u0027ich\u0027. 2. Relative Verweise: \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Basketball\u0027 bleibt \u0027basketball\u0027, \u0027ich\u0027 wird \u0027Maria\u0027. 4. Identifikation des Nutzers wird ersetzt: \u0027ich\u0027 wird \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027basketball\u0027 ist ein \u0027object\u0027. 6. Beziehung der Stichwörter: \u0027Maria\u0027 performt die Aktivität \u0027basketball\u0027 (Typkodierung: 8). 7. Es gibt eine passende Typkodierung für \u0027perform\u0027 mit ID 8. 8. Der GraphCode wurde erfolgreich zusammenge-setzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"basketball\"],\n  \"matrix\": [\n    [1, 0],\n    [0, 4]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Basketball\u0027 und \u0027ich\u0027. 2. Relative Verweise: \u0027ich\u0027 bezieht sich auf \u0027Maria\u0027. 3. Übersetzung ins Englische: \u0027Basketball\u0027 bleibt \u0027basketball\u0027, \u0027ich\u0027 wird \u0027Maria\u0027. 4. Identifikation des Nutzers wird ersetzt: \u0027ich\u0027 wird \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 ist ein \u0027object\u0027, \u0027basketball\u0027 ist ein \u0027object\u0027. 6. Beziehung der Stichwörter: \u0027Maria\u0027 performt die Aktivität \u0027basketball\u0027 (Typkodierung: 8). 7. Es gibt eine passende Typkodierung für \u0027perform\u0027 mit ID 8. 8. Der GraphCode wurde erfolgreich zusammenge-setzt.\"\n}"
+}

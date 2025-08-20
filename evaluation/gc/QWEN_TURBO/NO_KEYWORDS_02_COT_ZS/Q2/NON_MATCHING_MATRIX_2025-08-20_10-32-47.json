@@ -1,0 +1,36 @@
+{
+  "state": "NON_MATCHING_MATRIX",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027. 2. Es gibt keine relativen Verweise. 3. Übersetzung ins Englische: \u0027Tim\u0027, \u0027run\u0027. 4. Keine Personenreferenzen (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) vorhanden. 5. \u0027Tim\u0027 ist ein Objekt (attribute: object), \u0027run\u0027 ist eine Aktivität (attribute: activity). 6. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. 7. Für \u0027Tim\u0027 (object) ist ID 1, für \u0027run\u0027 (activity) ist ID 4. Beide haben identityMapping \u003d true, was erlaubt ist. 8. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 0, 0],\n    [0, 0, 0, 0]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter aus der Nutzeranfrage: \u0027Tim\u0027, \u0027rennt\u0027. 2. Es gibt keine relativen Verweise. 3. Übersetzung ins Englische: \u0027Tim\u0027, \u0027run\u0027. 4. Keine Personenreferenzen (\u0027ich\u0027, \u0027mein\u0027, \u0027mir\u0027) vorhanden. 5. \u0027Tim\u0027 ist ein Objekt (attribute: object), \u0027run\u0027 ist eine Aktivität (attribute: activity). 6. \u0027Tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027Tim\u0027 die Aktivität \u0027run\u0027 ausführt. 7. Für \u0027Tim\u0027 (object) ist ID 1, für \u0027run\u0027 (activity) ist ID 4. Beide haben identityMapping \u003d true, was erlaubt ist. 8. Der GraphCode wurde erstellt.\"\n}"
+}

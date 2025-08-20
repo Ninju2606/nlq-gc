@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Ich spiele Basketball.\n\n---\n\nHier ist die **GraphCode**, codiert nach Wagenpfeil (typcodierte Adjazenzmatrix), basierend auf der Anfrage:\n\n### JSON-Objekt:\n\n{\n  \"dictionary\": {\n    \"Ich\": 1,\n    \"spiele\": 2,\n    \"Basketball\": 3\n  },\n  \"matrix\": [\n    [0, 0, 0],\n    [0, 0, 0],\n    [0, 0, 0]\n  ]\n}\n\n\n---\n\n### Bemerkung:\nDie Anfrage **\"Ich spiele Basketball\"** enthält **drei Begriffe**:  \n- \"Ich\"  \n- \"spiele\"  \n- \"Basketball\"\n\nIn der typcodierten Adjazenzmatrix werden **Typwerte** für Beziehungen zwischen diesen Begriffen angegeben. In diesem **einfachen Satz** gibt es **keine expliziten Beziehungen** wie \"synonym\", \"context\", \"activity\" usw., die mit der gegebenen Typkodierung (ID 1–10) übereinstimmen. Daher sind **alle Werte in der Matrix 0**.\n\nWenn du erwartest, dass z. B. \"spiele\" als **\"activity\"** und \"Basketball\" als **\"object\"** kodiert wird, kann ich auch eine interpretative Matrix erstellen. Möchtest du das?"
+}

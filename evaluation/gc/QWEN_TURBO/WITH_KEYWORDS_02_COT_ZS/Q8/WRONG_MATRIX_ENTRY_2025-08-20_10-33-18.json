@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "matrixSimilarity": 0.72,
+  "description": "1. Die relative Verweisung \u0027Meine Tochter und ich\u0027 wurde aufgelöst. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt. 2. Die Attribute der Begriffe sind wie folgt: \u0027maria\u0027 ist ein \u0027person\u0027 (objekt), \u0027person\u0027 ist ein \u0027context\u0027 (kontext), \u0027drive\u0027 ist eine \u0027activity\u0027 (aktivität), \u0027boat\u0027 ist ein \u0027object\u0027 (objekt) und \u0027lake\u0027 ist ein \u0027context\u0027 (kontext). 3. \u0027Maria\u0027 steht in Relation zur \u0027person\u0027 als Identität. \u0027Person\u0027 und \u0027Maria\u0027 sind im Kontext der Szene. \u0027Drive\u0027 ist eine Aktivität, die mit \u0027boat\u0027 ausgeübt wird, und \u0027boat\u0027 befindet sich auf \u0027lake\u0027. 4. Die Relationen wurden mit den Typkodierungen abgebildet: \u0027maria\u0027 -\u003e \u0027person\u0027 (ID:1), \u0027person\u0027 -\u003e \u0027context\u0027 (ID:2), \u0027drive\u0027 -\u003e \u0027activity\u0027 (ID:4), \u0027boat\u0027 -\u003e \u0027object\u0027 (ID:1), \u0027lake\u0027 -\u003e \u0027context\u0027 (ID:2). Alle Relationen sind zulässig. 5. Der GraphCode wurde erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 2, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 2]\n  ],\n  \"description\": \"1. Die relative Verweisung \u0027Meine Tochter und ich\u0027 wurde aufgelöst. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt. 2. Die Attribute der Begriffe sind wie folgt: \u0027maria\u0027 ist ein \u0027person\u0027 (objekt), \u0027person\u0027 ist ein \u0027context\u0027 (kontext), \u0027drive\u0027 ist eine \u0027activity\u0027 (aktivität), \u0027boat\u0027 ist ein \u0027object\u0027 (objekt) und \u0027lake\u0027 ist ein \u0027context\u0027 (kontext). 3. \u0027Maria\u0027 steht in Relation zur \u0027person\u0027 als Identität. \u0027Person\u0027 und \u0027Maria\u0027 sind im Kontext der Szene. \u0027Drive\u0027 ist eine Aktivität, die mit \u0027boat\u0027 ausgeübt wird, und \u0027boat\u0027 befindet sich auf \u0027lake\u0027. 4. Die Relationen wurden mit den Typkodierungen abgebildet: \u0027maria\u0027 -\u003e \u0027person\u0027 (ID:1), \u0027person\u0027 -\u003e \u0027context\u0027 (ID:2), \u0027drive\u0027 -\u003e \u0027activity\u0027 (ID:4), \u0027boat\u0027 -\u003e \u0027object\u0027 (ID:1), \u0027lake\u0027 -\u003e \u0027context\u0027 (ID:2). Alle Relationen sind zulässig. 5. Der GraphCode wurde erstellt.\"\n}"
+}

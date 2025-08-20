@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.625,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 ist direkt in der Anfrage gegeben und wurde entsprechend in das Vokabular aufgenommen. Keine weiteren relativen Verweise sind vorhanden. \n2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Kontext (ID 2), \u0027pool\u0027 ist ein Objekt (ID 1). \n3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 (Objekt) \u0027swim\u0027 (Aktivität) über \u0027perform\u0027 (ID 8), \u0027maria\u0027 (Objekt) \u0027own\u0027 (Kontext) über \u0027attached\u0027 (ID 5), \u0027own\u0027 (Kontext) \u0027pool\u0027 (Objekt) über \u0027target\u0027 (ID 9). \n4. Alle Relationen aus Schritten 2 und 3 haben entsprechende Einträge in den Typkodierungen. \n5. Der GraphCode wurde entsprechend den Vorgaben erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 4]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 ist direkt in der Anfrage gegeben und wurde entsprechend in das Vokabular aufgenommen. Keine weiteren relativen Verweise sind vorhanden. \\n2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (ID 1), \u0027swim\u0027 ist eine Aktivität (ID 4), \u0027own\u0027 ist ein Kontext (ID 2), \u0027pool\u0027 ist ein Objekt (ID 1). \\n3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 (Objekt) \u0027swim\u0027 (Aktivität) über \u0027perform\u0027 (ID 8), \u0027maria\u0027 (Objekt) \u0027own\u0027 (Kontext) über \u0027attached\u0027 (ID 5), \u0027own\u0027 (Kontext) \u0027pool\u0027 (Objekt) über \u0027target\u0027 (ID 9). \\n4. Alle Relationen aus Schritten 2 und 3 haben entsprechende Einträge in den Typkodierungen. \\n5. Der GraphCode wurde entsprechend den Vorgaben erstellt.\"\n}"
+}

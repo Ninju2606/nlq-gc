@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 explizit auf die Person Bezug nimmt. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 als Objekt (id 1), \u0027swim\u0027 als Aktivität (id 4), \u0027own\u0027 als Kontext (id 2), \u0027pool\u0027 als Objekt (id 1). 3. \u0027Maria\u0027 performiert die Aktivität \u0027swim\u0027, \u0027own\u0027 beschreibt den Kontext der Beziehung zwischen \u0027Maria\u0027 und \u0027pool\u0027, und \u0027pool\u0027 ist ein Objekt, das \u0027Maria\u0027 gehört. 4. Für alle beschriebenen Relationen gibt es passende Typkodierungen: \u0027perform\u0027 (id 8) zwischen \u0027maria\u0027 und \u0027swim\u0027, \u0027attached\u0027 (id 5) zwischen \u0027own\u0027 und \u0027pool\u0027, \u0027object\u0027 (id 1) für \u0027pool\u0027, \u0027object\u0027 (id 1) für \u0027maria\u0027. 5. Der GraphCode wurde entsprechend der Anforderungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 2, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular aufgenommen, da die Anfrage \u0027Ich schwimme in einem Pool, der mir gehört\u0027 explizit auf die Person Bezug nimmt. 2. Die Attribute der Stichwörter sind: \u0027maria\u0027 als Objekt (id 1), \u0027swim\u0027 als Aktivität (id 4), \u0027own\u0027 als Kontext (id 2), \u0027pool\u0027 als Objekt (id 1). 3. \u0027Maria\u0027 performiert die Aktivität \u0027swim\u0027, \u0027own\u0027 beschreibt den Kontext der Beziehung zwischen \u0027Maria\u0027 und \u0027pool\u0027, und \u0027pool\u0027 ist ein Objekt, das \u0027Maria\u0027 gehört. 4. Für alle beschriebenen Relationen gibt es passende Typkodierungen: \u0027perform\u0027 (id 8) zwischen \u0027maria\u0027 und \u0027swim\u0027, \u0027attached\u0027 (id 5) zwischen \u0027own\u0027 und \u0027pool\u0027, \u0027object\u0027 (id 1) für \u0027pool\u0027, \u0027object\u0027 (id 1) für \u0027maria\u0027. 5. Der GraphCode wurde entsprechend der Anforderungen erstellt.\"\n}"
+}

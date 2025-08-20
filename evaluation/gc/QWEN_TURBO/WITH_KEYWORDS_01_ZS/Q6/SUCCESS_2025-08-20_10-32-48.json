@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssenn bald einen Termin ausmachen\u0027 enthält keine eindeutig zuordenbaren Beziehungen zwischen den Begriffen des Vokabulars, um eine gültige Bewertungsmatrix zu erstellen.",
+  "error": "No valid relation found between terms",
+  "responsePlain": "{\n  \"error\": \"No valid relation found between terms\",\n  \"description\": \"Die Anfrage \u0027Wir müssenn bald einen Termin ausmachen\u0027 enthält keine eindeutig zuordenbaren Beziehungen zwischen den Begriffen des Vokabulars, um eine gültige Bewertungsmatrix zu erstellen.\"\n}"
+}

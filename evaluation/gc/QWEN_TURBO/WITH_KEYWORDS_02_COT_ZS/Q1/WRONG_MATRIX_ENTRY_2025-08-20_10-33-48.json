@@ -1,0 +1,28 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "play",
+    "basketball"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.7777777777777778,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular übernommen, da die Anfrage \u0027Ich spiele Basketball\u0027 explizit auf die Person Bezug nimmt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027play\u0027 stehen in einer \u0027perform\u0027-Beziehung (da Maria die Aktivität \u0027play\u0027 ausführt), \u0027play\u0027 und \u0027basketball\u0027 stehen in einer \u0027target\u0027-Beziehung (da \u0027play\u0027 auf \u0027basketball\u0027 abzielt). 4. Für die Beziehung \u0027perform\u0027 existiert der Typkodierungs-Eintrag mit ID 8. Für die Beziehung \u0027target\u0027 existiert der Typkodierungs-Eintrag mit ID 9. 5. Der GraphCode wurde gebildet, wobei die Einträge auf der Diagonalen die identityMapping-Eigenschaft erfüllen und die Beziehungen außerhalb der Diagonalen korrekt kodiert sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"play\", \"basketball\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde in das Vokabular übernommen, da die Anfrage \u0027Ich spiele Basketball\u0027 explizit auf die Person Bezug nimmt. 2. Die Attribute der Stichwörter sind wie folgt: \u0027maria\u0027 ist ein Objekt (object), \u0027play\u0027 ist eine Aktivität (activity), \u0027basketball\u0027 ist ein Objekt (object). 3. Die Beziehungen zwischen den Stichwörtern sind: \u0027maria\u0027 und \u0027play\u0027 stehen in einer \u0027perform\u0027-Beziehung (da Maria die Aktivität \u0027play\u0027 ausführt), \u0027play\u0027 und \u0027basketball\u0027 stehen in einer \u0027target\u0027-Beziehung (da \u0027play\u0027 auf \u0027basketball\u0027 abzielt). 4. Für die Beziehung \u0027perform\u0027 existiert der Typkodierungs-Eintrag mit ID 8. Für die Beziehung \u0027target\u0027 existiert der Typkodierungs-Eintrag mit ID 9. 5. Der GraphCode wurde gebildet, wobei die Einträge auf der Diagonalen die identityMapping-Eigenschaft erfüllen und die Beziehungen außerhalb der Diagonalen korrekt kodiert sind.\"\n}"
+}

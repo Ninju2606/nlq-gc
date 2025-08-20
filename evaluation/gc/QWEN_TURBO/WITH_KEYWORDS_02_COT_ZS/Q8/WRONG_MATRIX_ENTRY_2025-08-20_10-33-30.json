@@ -1,0 +1,50 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027. Der Begriff \u0027person\u0027 bezieht sich auf Maria. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (id 1), \u0027person\u0027 ist ein Objekt (id 1), \u0027drive\u0027 ist eine Aktivität (id 4), \u0027boat\u0027 ist ein Objekt (id 1), \u0027lake\u0027 ist ein Objekt (id 1). 3. Beziehungen zwischen den Stichwörtern: \u0027maria\u0027 und \u0027person\u0027 sind identisch (id 1). \u0027maria\u0027 und \u0027drive\u0027 stehen in einer Aktivitätsbeziehung (id 8). \u0027maria\u0027 und \u0027boat\u0027 sind nicht direkt verknüpft. \u0027maria\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. \u0027person\u0027 und \u0027drive\u0027 stehen in einer Aktivitätsbeziehung (id 8). \u0027person\u0027 und \u0027boat\u0027 sind nicht direkt verknüpft. \u0027person\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. \u0027drive\u0027 und \u0027boat\u0027 sind nicht direkt verknüpft. \u0027drive\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. \u0027boat\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. 4. Es gibt für alle Relationen passende Typkodierungen. 5. Der GraphCode wurde mit dem gegebenen Vokabular und Typkodierungen erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Aufgelöste relative Verweise und Identifikationen des Nutzers: Der Nutzer identifiziert sich als \u0027Maria\u0027. Der Begriff \u0027person\u0027 bezieht sich auf Maria. 2. Attributeigenschaften der Stichwörter: \u0027maria\u0027 ist ein Objekt (id 1), \u0027person\u0027 ist ein Objekt (id 1), \u0027drive\u0027 ist eine Aktivität (id 4), \u0027boat\u0027 ist ein Objekt (id 1), \u0027lake\u0027 ist ein Objekt (id 1). 3. Beziehungen zwischen den Stichwörtern: \u0027maria\u0027 und \u0027person\u0027 sind identisch (id 1). \u0027maria\u0027 und \u0027drive\u0027 stehen in einer Aktivitätsbeziehung (id 8). \u0027maria\u0027 und \u0027boat\u0027 sind nicht direkt verknüpft. \u0027maria\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. \u0027person\u0027 und \u0027drive\u0027 stehen in einer Aktivitätsbeziehung (id 8). \u0027person\u0027 und \u0027boat\u0027 sind nicht direkt verknüpft. \u0027person\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. \u0027drive\u0027 und \u0027boat\u0027 sind nicht direkt verknüpft. \u0027drive\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. \u0027boat\u0027 und \u0027lake\u0027 sind nicht direkt verknüpft. 4. Es gibt für alle Relationen passende Typkodierungen. 5. Der GraphCode wurde mit dem gegebenen Vokabular und Typkodierungen erstellt.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_KEYWORDS",
+  "dictionary": [
+    "Maria",
+    "swim",
+    "pool",
+    "belong"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. 2. Relative Verweise: \u0027mir\u0027 und \u0027der\u0027 beziehen sich auf \u0027Ich\u0027 (Maria). 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027. 4. Ersetzen von \u0027Ich\u0027, \u0027mir\u0027, \u0027der\u0027 mit \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027swim\u0027 (activity), \u0027pool\u0027 (object), \u0027belong\u0027 (attached). 6. Beziehungen: \u0027Maria\u0027 schwimmt (activity) im \u0027pool\u0027 (object) und \u0027pool\u0027 gehört (attached) \u0027Maria\u0027. 7. Typkodierungen korrekt: \u0027Maria\u0027 \u003d 1 (object), \u0027swim\u0027 \u003d 8 (activity), \u0027pool\u0027 \u003d 1 (object), \u0027belong\u0027 \u003d 5 (attached). 8. GraphCode erfolgreich erstellt.",
+  "responsePlain": "{\n  \"dictionary\": [\"Maria\", \"swim\", \"pool\", \"belong\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 4, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Potenzielle Stichwörter: \u0027Ich\u0027, \u0027schwimme\u0027, \u0027in\u0027, \u0027einem\u0027, \u0027Pool\u0027, \u0027der\u0027, \u0027mir\u0027, \u0027gehört\u0027. 2. Relative Verweise: \u0027mir\u0027 und \u0027der\u0027 beziehen sich auf \u0027Ich\u0027 (Maria). 3. Übersetzung ins Englische: \u0027Maria\u0027, \u0027swim\u0027, \u0027pool\u0027, \u0027belong\u0027. 4. Ersetzen von \u0027Ich\u0027, \u0027mir\u0027, \u0027der\u0027 mit \u0027Maria\u0027. 5. Attributeigenschaften: \u0027Maria\u0027 (object), \u0027swim\u0027 (activity), \u0027pool\u0027 (object), \u0027belong\u0027 (attached). 6. Beziehungen: \u0027Maria\u0027 schwimmt (activity) im \u0027pool\u0027 (object) und \u0027pool\u0027 gehört (attached) \u0027Maria\u0027. 7. Typkodierungen korrekt: \u0027Maria\u0027 \u003d 1 (object), \u0027swim\u0027 \u003d 8 (activity), \u0027pool\u0027 \u003d 1 (object), \u0027belong\u0027 \u003d 5 (attached). 8. GraphCode erfolgreich erstellt.\"\n}"
+}

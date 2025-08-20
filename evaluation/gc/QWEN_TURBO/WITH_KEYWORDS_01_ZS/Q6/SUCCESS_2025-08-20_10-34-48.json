@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 kann nicht vollständig in den vorgegebenen GraphCode-Format übertragen werden, da die erforderlichen Beziehungen zwischen den Begriffen nicht mit den verfügbaren Typkodierungen darstellbar sind.",
+  "error": "No valid GraphCode could be generated",
+  "responsePlain": "{\n  \"error\": \"No valid GraphCode could be generated\",\n  \"description\": \"Die Anfrage \u0027Wir m\\u00FCssen bald einen Termin ausmachen.\u0027 kann nicht vollst\\u00E4ndig in den vorgegebenen GraphCode-Format \\u00FCbertragen werden, da die erforderlichen Beziehungen zwischen den Begriffen nicht mit den verf\\u00FCgbaren Typkodierungen darstellbar sind.\"\n}"
+}

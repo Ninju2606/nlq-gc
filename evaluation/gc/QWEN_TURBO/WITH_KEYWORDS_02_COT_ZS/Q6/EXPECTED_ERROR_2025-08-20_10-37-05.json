@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage \"Wir mÃ¼ssen bald einen Termin ausmachen.\" enthÃ¤lt keine direkten, aufgelÃ¶sten relativen Verweise oder Identifikationen, auÃŸer der Name \"Maria\", der als Identifikation des Nutzers spezifiziert ist und somit im Vokabular berÃ¼cksichtigt wird.\n2. Die Attribute der StichwÃ¶rter sind wie folgt:\n   - \"maria\": Bezeichnet eine Person (identityMapping: true, Typ: object)\n   - \"make\": Bezeichnet eine AktivitÃ¤t (identityMapping: false, Typ: activity)\n   - \"appointment\": Bezeichnet ein Objekt (identityMapping: true, Typ: object)\n3. Die StichwÃ¶rter stehen in folgender Relation:\n   - \"maria\" und \"make\": Beziehung \"perform\" (Typ: activity, identityMapping: false)\n   - \"make\" und \"appointment\": Beziehung \"target\" (Typ: target, identityMapping: false)\n   - \"maria\" und \"appointment\": Keine direkte Beziehung angegeben.\n4. FÃ¼r die Beziehungen \"perform\" und \"target\" sind passende Typkodierungen vorhanden:\n   - \"perform\": ID 8\n   - \"target\": ID 9\n   Keine passende Kodierung fÃ¼r die Beziehung zwischen \"maria\" und \"appointment\".\n5. Der GraphCode wurde zusammengefasst, wobei die Attribute und Beziehungen entsprechend den vorgegebenen Typkodierungen dargestellt werden.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 8, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Anfrage \\\"Wir mÃ¼ssen bald einen Termin ausmachen.\\\" enthÃ¤lt keine direkten, aufgelÃ¶sten relativen Verweise oder Identifikationen, auÃŸer der Name \\\"Maria\\\", der als Identifikation des Nutzers spezifiziert ist und somit im Vokabular berÃ¼cksichtigt wird.\\n2. Die Attribute der StichwÃ¶rter sind wie folgt:\\n   - \\\"maria\\\": Bezeichnet eine Person (identityMapping: true, Typ: object)\\n   - \\\"make\\\": Bezeichnet eine AktivitÃ¤t (identityMapping: false, Typ: activity)\\n   - \\\"appointment\\\": Bezeichnet ein Objekt (identityMapping: true, Typ: object)\\n3. Die StichwÃ¶rter stehen in folgender Relation:\\n   - \\\"maria\\\" und \\\"make\\\": Beziehung \\\"perform\\\" (Typ: activity, identityMapping: false)\\n   - \\\"make\\\" und \\\"appointment\\\": Beziehung \\\"target\\\" (Typ: target, identityMapping: false)\\n   - \\\"maria\\\" und \\\"appointment\\\": Keine direkte Beziehung angegeben.\\n4. FÃ¼r die Beziehungen \\\"perform\\\" und \\\"target\\\" sind passende Typkodierungen vorhanden:\\n   - \\\"perform\\\": ID 8\\n   - \\\"target\\\": ID 9\\n   Keine passende Kodierung fÃ¼r die Beziehung zwischen \\\"maria\\\" und \\\"appointment\\\".\\n5. Der GraphCode wurde zusammengefasst, wobei die Attribute und Beziehungen entsprechend den vorgegebenen Typkodierungen dargestellt werden.\"\n}"
+}

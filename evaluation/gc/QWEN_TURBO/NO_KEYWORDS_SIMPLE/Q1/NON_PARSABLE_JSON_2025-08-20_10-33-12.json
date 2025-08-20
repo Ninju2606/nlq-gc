@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": {\n    \"Basketball\": 1\n  },\n  \"matrix\": [\n    [0]\n  ]\n}\n\n\n### Erklärung:\nDie Anfrage **„Ich spiele Basketball“** enthält den Begriff **„Basketball“**. Da in der Anfrage keine anderen Begriffe wie „Ich“, „spiele“ usw. genannt werden, wird nur **„Basketball“** als Begriff in die Adjazenzmatrix aufgenommen.\n\nDie Matrix ist daher nur 1 × 1 groß und enthält nur eine 0, da keine Beziehung (z. B. synonym, context, activity usw.) zwischen Begriffen besteht.\n\nWenn du eine größere Anfrage hast, bei der mehr Begriffe und Beziehungen vorkommen, dann teile sie gerne. Dann kann ich dir eine vollständigere Adjazenzmatrix erstellen."
+}

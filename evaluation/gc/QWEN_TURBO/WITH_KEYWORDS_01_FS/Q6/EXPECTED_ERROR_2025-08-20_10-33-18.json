@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      9,
+      8
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "Der GraphCode stellt die Beziehung zwischen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 dar. \u0027make\u0027 wird als Aktivität (ID 8) kodiert, \u0027appointment\u0027 als Objekt (ID 1). Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 wird durch die Aktivität \u0027make\u0027 (ID 8) dargestellt, wohingegen \u0027maria\u0027 und \u0027appointment\u0027 direkt verknüpft sind.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 8, 0],\n    [0, 9, 8],\n    [0, 0, 1]\n  ],\n  \"description\": \"Der GraphCode stellt die Beziehung zwischen \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 dar. \u0027make\u0027 wird als Aktivität (ID 8) kodiert, \u0027appointment\u0027 als Objekt (ID 1). Die Beziehung zwischen \u0027maria\u0027 und \u0027make\u0027 wird durch die Aktivität \u0027make\u0027 (ID 8) dargestellt, wohingegen \u0027maria\u0027 und \u0027appointment\u0027 direkt verknüpft sind.\"\n}"
+}

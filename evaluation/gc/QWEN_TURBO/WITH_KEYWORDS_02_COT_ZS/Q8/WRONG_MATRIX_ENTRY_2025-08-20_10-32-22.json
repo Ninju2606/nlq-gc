@@ -1,0 +1,51 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.8,
+  "description": "1. Die relative Verweisung \u0027Meine Tochter\u0027 ist auf \u0027maria\u0027 angewiesen, da der Nutzer \u0027Maria\u0027 als Identifikation spezifiziert hat. Der Begriff \u0027ich\u0027 wird identifiziert als \u0027maria\u0027.\n2. Attribute der Stichwörter:\n   - \u0027maria\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\n   - \u0027person\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\n   - \u0027drive\u0027 ist ein \u0027activity\u0027 (ID 4), nicht identitätsbasiert.\n   - \u0027boat\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\n   - \u0027lake\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\n3. Die Relationen:\n   - \u0027maria\u0027 und \u0027person\u0027 sind synonym (ID 3), da \u0027maria\u0027 eine Person ist.\n   - \u0027maria\u0027 und \u0027drive\u0027 zeigen eine \u0027perform\u0027-Beziehung (ID 8), da \u0027maria\u0027 ein Boot fährt.\n   - \u0027drive\u0027 und \u0027boat\u0027 sind \u0027attached\u0027 (ID 5), da der Aktivitätsort \u0027boat\u0027 ist.\n   - \u0027drive\u0027 und \u0027lake\u0027 sind \u0027under\u0027 (ID 6), da das Fahren auf einem See stattfindet.\n4. Alle Relationen haben entsprechende Typkodierungen:\n   - \u0027synonym\u0027 (ID 3)\n   - \u0027perform\u0027 (ID 8)\n   - \u0027attached\u0027 (ID 5)\n   - \u0027under\u0027 (ID 6)\n5. Der GraphCode wurde erfolgreich aufgebaut mit den gegebenen Stichwörtern und Typkodierungen.",
+  "error": "",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [0, 1, 0, 0, 0],\n    [0, 0, 4, 0, 0],\n    [0, 0, 0, 1, 0],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die relative Verweisung \u0027Meine Tochter\u0027 ist auf \u0027maria\u0027 angewiesen, da der Nutzer \u0027Maria\u0027 als Identifikation spezifiziert hat. Der Begriff \u0027ich\u0027 wird identifiziert als \u0027maria\u0027.\\n2. Attribute der Stichwörter:\\n   - \u0027maria\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\\n   - \u0027person\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\\n   - \u0027drive\u0027 ist ein \u0027activity\u0027 (ID 4), nicht identitätsbasiert.\\n   - \u0027boat\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\\n   - \u0027lake\u0027 ist ein \u0027object\u0027 (ID 1), identitätsbasiert.\\n3. Die Relationen:\\n   - \u0027maria\u0027 und \u0027person\u0027 sind synonym (ID 3), da \u0027maria\u0027 eine Person ist.\\n   - \u0027maria\u0027 und \u0027drive\u0027 zeigen eine \u0027perform\u0027-Beziehung (ID 8), da \u0027maria\u0027 ein Boot fährt.\\n   - \u0027drive\u0027 und \u0027boat\u0027 sind \u0027attached\u0027 (ID 5), da der Aktivitätsort \u0027boat\u0027 ist.\\n   - \u0027drive\u0027 und \u0027lake\u0027 sind \u0027under\u0027 (ID 6), da das Fahren auf einem See stattfindet.\\n4. Alle Relationen haben entsprechende Typkodierungen:\\n   - \u0027synonym\u0027 (ID 3)\\n   - \u0027perform\u0027 (ID 8)\\n   - \u0027attached\u0027 (ID 5)\\n   - \u0027under\u0027 (ID 6)\\n5. Der GraphCode wurde erfolgreich aufgebaut mit den gegebenen Stichwörtern und Typkodierungen.\",\n  \"error\": \"\"\n}"
+}

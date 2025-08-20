@@ -1,0 +1,29 @@
+{
+  "state": "EXPECTED_NO_ERROR",
+  "dictionary": [
+    "tim",
+    "run",
+    "maria"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer in der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet hat.\n2. Attributeigenschaften der Stichwörter:\n   - \u0027tim\u0027: Objekt (identityMapping \u003d true)\n   - \u0027run\u0027: Aktivität (identityMapping \u003d true)\n   - \u0027maria\u0027: Objekt (identityMapping \u003d true)\n3. Beziehungen der Stichwörter:\n   - \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 die Aktivität des Objekts \u0027tim\u0027 beschreibt.\n   - \u0027maria\u0027 hat keine direkte Beziehung zu \u0027tim\u0027 oder \u0027run\u0027, da keine Verknüpfung in der Anfrage steht.\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 gibt es keinen passenden Eintrag in den Typkodierungen, da keine der vorhandenen Kodierungen die Beziehung zwischen Objekt und Aktivität direkt beschreibt. Somit wird ein Fehler ausgegeben.\n5. Der GraphCode wurde aufgrund der mangelnden Kodierung der Objekt-Aktivitäts-Beziehung nicht vollständig generiert.",
+  "error": "Kein passender Eintrag in den Typkodierungen für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027.",
+  "responsePlain": "{\n  \"dictionary\": [\"tim\", \"run\", \"maria\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde dem Vokabular hinzugefügt, da der Nutzer in der Anfrage keine selbstidentifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 verwendet hat.\\n2. Attributeigenschaften der Stichwörter:\\n   - \u0027tim\u0027: Objekt (identityMapping \u003d true)\\n   - \u0027run\u0027: Aktivität (identityMapping \u003d true)\\n   - \u0027maria\u0027: Objekt (identityMapping \u003d true)\\n3. Beziehungen der Stichwörter:\\n   - \u0027tim\u0027 und \u0027run\u0027 stehen in einer Beziehung, bei der \u0027run\u0027 die Aktivität des Objekts \u0027tim\u0027 beschreibt.\\n   - \u0027maria\u0027 hat keine direkte Beziehung zu \u0027tim\u0027 oder \u0027run\u0027, da keine Verknüpfung in der Anfrage steht.\\n4. Für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027 gibt es keinen passenden Eintrag in den Typkodierungen, da keine der vorhandenen Kodierungen die Beziehung zwischen Objekt und Aktivität direkt beschreibt. Somit wird ein Fehler ausgegeben.\\n5. Der GraphCode wurde aufgrund der mangelnden Kodierung der Objekt-Aktivitäts-Beziehung nicht vollständig generiert.\",\n  \"error\": \"Kein passender Eintrag in den Typkodierungen für die Beziehung zwischen \u0027tim\u0027 und \u0027run\u0027.\"\n}"
+}

@@ -1,0 +1,38 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "maria",
+    "swim",
+    "own",
+    "pool"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.6875,
+  "description": "1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde korrekt zugeordnet. Es gibt keine weiteren relativen Verweise in der Anfrage. \n2. Die Attribute der Stichwörter sind wie folgt:\n- \u0027maria\u0027 ist ein \u0027object\u0027 (Identität des Nutzers)\n- \u0027swim\u0027 ist eine \u0027activity\u0027 (Handlung, die ausgeübt wird)\n- \u0027own\u0027 ist ein \u0027object\u0027 (Eigentum oder Verbindung)\n- \u0027pool\u0027 ist ein \u0027object\u0027 (Ort oder Gegenstand)\n3. Die Beziehungen zwischen den Stichwörtern sind:\n- \u0027maria\u0027 und \u0027swim\u0027: \u0027maria\u0027 performt die Aktivität \u0027swim\u0027 (Typkodierung 8, \u0027perform\u0027)\n- \u0027maria\u0027 und \u0027own\u0027: \u0027maria\u0027 besitzt oder hat einen \u0027pool\u0027 (Typkodierung 5, \u0027attached\u0027)\n- \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 findet im \u0027pool\u0027 statt (Typkodierung 6, \u0027under\u0027)\n- \u0027own\u0027 und \u0027pool\u0027: \u0027own\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 (Typkodierung 5, \u0027attached\u0027)\n4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen.\n5. Der GraphCode wurde auf Basis der gegebenen Anfrage und der bereitgestellten Typkodierungen erzeugt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"swim\", \"own\", \"pool\"],\n  \"matrix\": [\n    [1, 0, 0, 0],\n    [0, 4, 0, 0],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n  ],\n  \"description\": \"1. Die Identifikation des Nutzers \u0027Maria\u0027 wurde korrekt zugeordnet. Es gibt keine weiteren relativen Verweise in der Anfrage. \\n2. Die Attribute der Stichwörter sind wie folgt:\\n- \u0027maria\u0027 ist ein \u0027object\u0027 (Identität des Nutzers)\\n- \u0027swim\u0027 ist eine \u0027activity\u0027 (Handlung, die ausgeübt wird)\\n- \u0027own\u0027 ist ein \u0027object\u0027 (Eigentum oder Verbindung)\\n- \u0027pool\u0027 ist ein \u0027object\u0027 (Ort oder Gegenstand)\\n3. Die Beziehungen zwischen den Stichwörtern sind:\\n- \u0027maria\u0027 und \u0027swim\u0027: \u0027maria\u0027 performt die Aktivität \u0027swim\u0027 (Typkodierung 8, \u0027perform\u0027)\\n- \u0027maria\u0027 und \u0027own\u0027: \u0027maria\u0027 besitzt oder hat einen \u0027pool\u0027 (Typkodierung 5, \u0027attached\u0027)\\n- \u0027swim\u0027 und \u0027pool\u0027: \u0027swim\u0027 findet im \u0027pool\u0027 statt (Typkodierung 6, \u0027under\u0027)\\n- \u0027own\u0027 und \u0027pool\u0027: \u0027own\u0027 beschreibt die Beziehung zwischen \u0027maria\u0027 und \u0027pool\u0027 (Typkodierung 5, \u0027attached\u0027)\\n4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen.\\n5. Der GraphCode wurde auf Basis der gegebenen Anfrage und der bereitgestellten Typkodierungen erzeugt.\"\n}"
+}

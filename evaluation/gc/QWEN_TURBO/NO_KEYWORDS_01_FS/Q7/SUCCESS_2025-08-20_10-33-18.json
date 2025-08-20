@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \"Häuser um Fragen zu malen\" enthält eine unklare oder grammatikalisch falsche Struktur. Der Begriff \"um\" kann nicht zugeordnet werden, da keine passende Typkodierung existiert, um die Relation darzustellen.",
+  "error": "Die Relation \"um\" ist nicht bekannt.",
+  "responsePlain": "{\n  \"error\": \"Die Relation \\\"um\\\" ist nicht bekannt.\",\n  \"description\": \"Die Anfrage \\\"Häuser um Fragen zu malen\\\" enthält eine unklare oder grammatikalisch falsche Struktur. Der Begriff \\\"um\\\" kann nicht zugeordnet werden, da keine passende Typkodierung existiert, um die Relation darzustellen.\"\n}"
+}

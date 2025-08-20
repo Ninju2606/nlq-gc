@@ -1,0 +1,20 @@
+{
+  "state": "WRONG_MATRIX_ENTRY",
+  "dictionary": [
+    "Tim",
+    "run"
+  ],
+  "matrix": [
+    [
+      1,
+      0
+    ],
+    [
+      8,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.5,
+  "description": "1. Potenzielle Stichwörter: [\u0027Tim\u0027, \u0027rennt\u0027]\n2. Keine relativen Verweise gefunden.\n3. Übersetzung ins Englische: [\u0027Tim\u0027, \u0027run\u0027]\n4. Keine Benutzeridentifikation zu ersetzen.\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\n6. Beziehung: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Dies entspricht der Relation \u0027perform\u0027 (ID: 8).\n7. Es gibt eine passende Typkodierung für die Beziehung \u0027perform\u0027 (ID: 8). Für die Einträge auf der Diagonalen sind nur \u0027object\u0027 und \u0027activity\u0027 erlaubt, was erfüllt ist.\n8. Der GraphCode wurde erfolgreich erstellt.",
+  "responsePlain": "{\n  \"description\": \"1. Potenzielle Stichwörter: [\u0027Tim\u0027, \u0027rennt\u0027]\\n2. Keine relativen Verweise gefunden.\\n3. Übersetzung ins Englische: [\u0027Tim\u0027, \u0027run\u0027]\\n4. Keine Benutzeridentifikation zu ersetzen.\\n5. Attributeigenschaften: \u0027Tim\u0027 ist ein Objekt (object), \u0027run\u0027 ist eine Aktivität (activity).\\n6. Beziehung: \u0027Tim\u0027 führt die Aktivität \u0027run\u0027 aus. Dies entspricht der Relation \u0027perform\u0027 (ID: 8).\\n7. Es gibt eine passende Typkodierung für die Beziehung \u0027perform\u0027 (ID: 8). Für die Einträge auf der Diagonalen sind nur \u0027object\u0027 und \u0027activity\u0027 erlaubt, was erfüllt ist.\\n8. Der GraphCode wurde erfolgreich erstellt.\",\n  \"dictionary\": [\"Tim\", \"run\"],\n  \"matrix\": [\n    [1, 0],\n    [8, 4]\n  ]\n}"
+}

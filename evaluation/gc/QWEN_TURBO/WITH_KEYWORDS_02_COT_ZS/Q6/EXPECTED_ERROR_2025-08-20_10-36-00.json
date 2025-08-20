@@ -1,0 +1,28 @@
+{
+  "state": "EXPECTED_ERROR",
+  "dictionary": [
+    "maria",
+    "make",
+    "appointment"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      4
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Die Anfrage \"Wir mÃ¼ssen bald einen Termin ausmachen\" enthÃ¤lt keine aufgelÃ¶sten relative Verweise oder Identifikationen des Nutzers, auÃŸer der explizit genannte Nutzername \"Maria\". Dieser wird im Vokabular berÃ¼cksichtigt. 2. Die Attributeigenschaften sind wie folgt: - \"maria\": Objekt (ID 1) - \"make\": AktivitÃ¤t (ID 4) - \"appointment\": Objekt (ID 1) 3. Die StichwÃ¶rter stehen in folgender Beziehung: - \"maria\" und \"make\": Die Beziehung wird durch die AktivitÃ¤t \"make\" (ID 4) dargestellt. - \"maria\" und \"appointment\": Keine explizite Beziehung, daher 0. - \"make\" und \"appointment\": Die Beziehung wird durch \"make\" als AktivitÃ¤t (ID 4) dargestellt. 4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde entsprechend zusammengesetzt.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"make\", \"appointment\"],\n  \"matrix\": [\n    [1, 0, 0],\n    [0, 4, 0],\n    [0, 0, 4]\n  ],\n  \"description\": \"1. Die Anfrage \\\"Wir mÃ¼ssen bald einen Termin ausmachen\\\" enthÃ¤lt keine aufgelÃ¶sten relative Verweise oder Identifikationen des Nutzers, auÃŸer der explizit genannte Nutzername \\\"Maria\\\". Dieser wird im Vokabular berÃ¼cksichtigt. 2. Die Attributeigenschaften sind wie folgt: - \\\"maria\\\": Objekt (ID 1) - \\\"make\\\": AktivitÃ¤t (ID 4) - \\\"appointment\\\": Objekt (ID 1) 3. Die StichwÃ¶rter stehen in folgender Beziehung: - \\\"maria\\\" und \\\"make\\\": Die Beziehung wird durch die AktivitÃ¤t \\\"make\\\" (ID 4) dargestellt. - \\\"maria\\\" und \\\"appointment\\\": Keine explizite Beziehung, daher 0. - \\\"make\\\" und \\\"appointment\\\": Die Beziehung wird durch \\\"make\\\" als AktivitÃ¤t (ID 4) dargestellt. 4. Alle Relationen haben einen passenden Eintrag in den Typkodierungen. 5. Der GraphCode wurde entsprechend zusammengesetzt.\"\n}"
+}

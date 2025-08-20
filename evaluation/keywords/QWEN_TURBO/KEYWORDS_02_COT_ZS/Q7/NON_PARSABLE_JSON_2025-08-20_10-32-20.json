@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "{\n  \"dictionary\": [\"house\", \"ask\", \"paint\"],\n  \"description\": \"Potenzielle Stichwörter aus der Nutzeranfrage wurden ermittelt: \u0027Häuser\u0027, \u0027um\u0027, \u0027Fragen\u0027, \u0027zu\u0027, \u0027malen\u0027. Nach Verarbeitung und Übersetzung ins Englische sowie Entfernung von nicht relevanten Wörtern wie \u0027um\u0027 und \u0027zu\u0027 ergeben sich die Begriffe \u0027house\u0027, \u0027ask\u0027, und \u0027paint\u0027.\u0027\n}"
+}

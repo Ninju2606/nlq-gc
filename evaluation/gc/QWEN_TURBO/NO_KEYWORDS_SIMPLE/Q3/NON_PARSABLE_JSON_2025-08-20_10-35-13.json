@@ -1,0 +1,5 @@
+{
+  "state": "NON_PARSABLE_JSON",
+  "matrixSimilarity": 0.0,
+  "responsePlain": "Hier ist die Anfrage **„Ich schwimme in einem Pool, der mir gehört“** als **GraphCode nach Wagenpfeil** (typcodierte Adjazenzmatrix) im gewünschten JSON-Format:\n\n\n{\n  \"dictionary\": {\n    \"Ich\": 0,\n    \"schwimme\": 1,\n    \"in\": 2,\n    \"einem\": 3,\n    \"Pool\": 4,\n    \"der\": 5,\n    \"mir\": 6,\n    \"geh%C3%B6rt\": 7\n  },\n  \"matrix\": [\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0],\n    [0, 0, 0, 0, 0, 0, 0, 0]\n  ]\n}\n\n\n### Bemerkung:\nDie Anfrage „Ich schwimme in einem Pool, der mir gehört“ enthält keine Begriffe, die mit den **Typkodierungen** von Wagenpfeil (z. B. `object`, `context`, `synonym`, etc.) korrespondieren. Daher ist die Adjazenzmatrix zunächst leer.\n\nWenn du die typcodierte Adjazenzmatrix mit **konkreten Beziehungen** oder ein Referenzmodell hinzufügen möchtest, dann erkläre bitte, was du genau suchst. Ich helfe dir gerne weiter!"
+}

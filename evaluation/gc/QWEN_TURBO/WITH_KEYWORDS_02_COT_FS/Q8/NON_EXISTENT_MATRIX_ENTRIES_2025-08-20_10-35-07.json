@@ -1,0 +1,50 @@
+{
+  "state": "NON_EXISTENT_MATRIX_ENTRIES",
+  "dictionary": [
+    "maria",
+    "person",
+    "drive",
+    "boat",
+    "lake"
+  ],
+  "matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      1,
+      7,
+      5,
+      6
+    ],
+    [
+      0,
+      0,
+      9,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise. \"Meine Tochter\" und \"ich\" wurden zu den Stichwörtern \"maria\" und \"person\" zugewiesen, wobei \"person\" die Tochter von \"maria\" ist.\n        2. \"maria\", \"person\", \"boat\" und \"lake\" sind Objekte der Anfrage. \"drive\" ist eine Aktivität.\n        3. \"person\" ist Tochter von \"maria\". \"person\" fährt die Aktivität \"drive\" aus. \"person\" befindet sich auf \"boat\", \"person\" befindet sich auf \"lake\". \"drive\" bezieht sich auf \"boat\". \"boat\" befindet sich auf \"lake\".\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf (above) ist 5. Die ID für in (in) ist 6. Die ID für Beziehen (target) ist 8.",
+  "responsePlain": "{\n  \"dictionary\": [\"maria\", \"person\", \"drive\", \"boat\", \"lake\"],\n  \"matrix\": [\n    [1, 0, 0, 0, 0],\n    [10, 1, 7, 5, 6],\n    [0, 0, 9, 8, 0],\n    [0, 0, 0, 1, 6],\n    [0, 0, 0, 0, 1]\n  ],\n  \"description\": \"1. Es gibt keine relativen Verweise. \\\"Meine Tochter\\\" und \\\"ich\\\" wurden zu den Stichwörtern \\\"maria\\\" und \\\"person\\\" zugewiesen, wobei \\\"person\\\" die Tochter von \\\"maria\\\" ist.\\n        2. \\\"maria\\\", \\\"person\\\", \\\"boat\\\" und \\\"lake\\\" sind Objekte der Anfrage. \\\"drive\\\" ist eine Aktivität.\\n        3. \\\"person\\\" ist Tochter von \\\"maria\\\". \\\"person\\\" fährt die Aktivität \\\"drive\\\" aus. \\\"person\\\" befindet sich auf \\\"boat\\\", \\\"person\\\" befindet sich auf \\\"lake\\\". \\\"drive\\\" bezieht sich auf \\\"boat\\\". \\\"boat\\\" befindet sich auf \\\"lake\\\".\\n        4. Die ID für Objekt (object) ist 1. Die ID für Aktivität (activity) ist 9. Die ID für Tochter (daughter) ist 10. Die ID für Ausführen (perform) ist 7. Die ID für auf (above) ist 5. Die ID für in (in) ist 6. Die ID für Beziehen (target) ist 8.\"\n}"
+}

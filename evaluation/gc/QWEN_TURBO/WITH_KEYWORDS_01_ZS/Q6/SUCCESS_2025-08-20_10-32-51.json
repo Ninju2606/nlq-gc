@@ -1,0 +1,7 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthielt keine klaren Beziehungen zwischen den Begriffen des Vokabulars, die mit den gegebenen Typkodierungen dargestellt werden kÃ¶nnen. Es fehlen relevante Beziehungen, um eine sinnvolle Bewertungsmatrix zu erstellen.",
+  "error": "No valid GraphCode could be generated",
+  "responsePlain": "{\n  \"error\": \"No valid GraphCode could be generated\",\n  \"description\": \"Die Anfrage \u0027Wir mÃ¼ssen bald einen Termin ausmachen.\u0027 enthielt keine klaren Beziehungen zwischen den Begriffen des Vokabulars, die mit den gegebenen Typkodierungen dargestellt werden kÃ¶nnen. Es fehlen relevante Beziehungen, um eine sinnvolle Bewertungsmatrix zu erstellen.\"\n}"
+}
