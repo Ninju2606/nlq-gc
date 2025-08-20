@@ -40,6 +40,12 @@ public enum ModelLiterals {
         public LanguageModel getLLM() {
             return OpenRouterLLM.getInstance("qwen/qwen-turbo");
         }
+    },
+    QWEN3_235B {
+        @Override
+        public LanguageModel getLLM() {
+            return OpenRouterLLM.getInstance("qwen/qwen3-235b-a22b-2507");
+        }
     };
 
     /**
