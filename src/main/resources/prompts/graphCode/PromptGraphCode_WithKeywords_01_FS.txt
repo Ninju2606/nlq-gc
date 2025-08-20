@@ -77,17 +77,10 @@ Anfrage: Ich bin unter einem Baum
 Vokabular: ["Max Mustermann", "tree"]
 Antwort:
 {
-    "error":["Die Relation \"Unter\" ist nicht bekannt."]
+    "error":"Die Relation \"Unter\" ist nicht bekannt."
 }
 
 * Beispiel4:
-Anfrage: "qwertz und ist laufen groß"
-Antwort:
-{
-    "error":["Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage."]
-}
-
-* Beispiel5:
 Anfrage: "Tom trägt ein rotes Shirt und redet mit Lea"
 Vokabular: ["Tom", "wear", "shirt", "red", "talk", "Lea"]
 Antwort:

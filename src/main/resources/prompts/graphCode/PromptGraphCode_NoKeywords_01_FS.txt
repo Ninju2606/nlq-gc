@@ -75,14 +75,14 @@ Antwort:
 Anfrage: Ich bin unter einem Baum
 Antwort:
 {
-    "error":["Die Relation \"Unter\" ist nicht bekannt."]
+    "error":"Die Relation \"Unter\" ist nicht bekannt."
 }
 
 * Beispiel4:
 Anfrage: "qwertz und ist laufen groß"
 Antwort:
 {
-    "error":["Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage."]
+    "error":"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage."
 }
 
 * Beispiel5:
