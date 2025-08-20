@@ -15,7 +15,7 @@ public class Execution {
     private static final Gson GSON = new Gson();
     private static final String USER = "Maria";
     private static final List<EncodingMapping> ENCODINGS = createEncodings();
-    private static final ModelLiterals MODEL = ModelLiterals.QWEN2_5_72B_INSTRUCT;
+    private final ModelLiterals MODEL = ModelLiterals.QWEN2_5_72B_INSTRUCT;
 
     private final Prompt prompt;
     private final Query nlq;
@@ -34,8 +34,12 @@ public class Execution {
     }
 
     protected String getPath() {
+        return getPath(MODEL);
+    }
+
+    protected String getPath(final ModelLiterals model) {
         String goal = isKeywordPrompt() ? "keywords" : "gc";
-        return String.format("evaluation/%s/%s/%s/%s/", goal, MODEL, prompt.toString(), nlq.name());
+        return String.format("evaluation/%s/%s/%s/%s/", goal, model, prompt.toString(), nlq.name());
     }
 
     protected String getFileName(final ExecutionState state) {

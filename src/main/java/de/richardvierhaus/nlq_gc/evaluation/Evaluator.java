@@ -7,7 +7,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -26,8 +28,9 @@ public class Evaluator {
 
     public static void main(final String[] args) {
         Evaluator evaluator = new Evaluator();
-        evaluator.print();
-        evaluator.run();
+        evaluator.reevaluate();
+        //        evaluator.print();
+        //        evaluator.run();
     }
 
     private Evaluator() {
@@ -136,6 +139,54 @@ public class Evaluator {
         } catch (IOException e) {
             LOGGER.error("Error while creating file", e);
         }
+    }
+
+    /**
+     * Checks for each file if there are updates with a new {@link ResponseChecker} implementation.
+     */
+    private void reevaluate() {
+        List<ModelLiterals> models = List.of(ModelLiterals.QWEN2_5_72B_INSTRUCT, ModelLiterals.QWEN3_235B, ModelLiterals.QWEN3_14B,
+                ModelLiterals.QWEN3_CODER, ModelLiterals.QWEN_TURBO);
+        for (ModelLiterals model : models) {
+            for (Execution execution : completedExecutions.keySet()) {
+                File folder = new File(execution.getPath(model));
+                for (File file : folder.listFiles()) {
+                    try {
+                        String fileContent = readFile(file);
+                        ExecutionState stateBefore = ResponseChecker.getState(fileContent);
+                        final ResponseChecker checker = new ResponseChecker(ResponseChecker.getResponsePlain(fileContent), execution);
+                        String checkedResult = checker.check().getAsString();
+
+                        if (stateBefore != checker.getState()) {
+                            LOGGER.info("Updating file {}", file.getPath());
+                            String timestamp = "2025" + file.getName().split("_2025")[1].replace(".json", "");
+                            writeFile(String.format("%s%s_%s_REEVALUATED.json", execution.getPath(model), checker.getState().name(), timestamp), checkedResult);
+                            file.delete();
+                        }
+                    } catch (Exception e) {
+                        LOGGER.error("Error at file {}", file.getPath());
+                        LOGGER.error("Exception:", e);
+                    }
+                }
+            }
+        }
+    }
+
+    private String readFile(final File file) {
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            StringBuilder sb = new StringBuilder();
+            String line = br.readLine();
+
+            while (line != null) {
+                sb.append(line);
+                sb.append(System.lineSeparator());
+                line = br.readLine();
+            }
+            return sb.toString();
+        } catch (IOException e) {
+            LOGGER.error("Error at file {}", file.getPath());
+        }
+        return "";
     }
 
 }

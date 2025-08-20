@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "",
+  "error": [
+    "Die Anfrage enthält keine Informationen, die zur Erstellung eines sinnvollen GraphCodes notwendig sind. Bitte beschreibe eine Szene oder Situation im Metaverse."
+  ],
+  "responsePlain": "{\n    \"error\": [\"Die Anfrage enthält keine Informationen, die zur Erstellung eines sinnvollen GraphCodes notwendig sind. Bitte beschreibe eine Szene oder Situation im Metaverse.\"],\n    \"description\": \"\"\n}"
+}

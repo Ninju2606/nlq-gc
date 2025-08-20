@@ -1,0 +1,8 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "error": [
+    "Die Relation \u0027um Fragen zu malen\u0027 kann nicht in eine gültige Beziehung zwischen den Begriffen umgewandelt werden. Bitte formuliere eine neue Anfrage."
+  ],
+  "responsePlain": "{\n    \"error\": [\"Die Relation \u0027um Fragen zu malen\u0027 kann nicht in eine gültige Beziehung zwischen den Begriffen umgewandelt werden. Bitte formuliere eine neue Anfrage.\"]\n}"
+}

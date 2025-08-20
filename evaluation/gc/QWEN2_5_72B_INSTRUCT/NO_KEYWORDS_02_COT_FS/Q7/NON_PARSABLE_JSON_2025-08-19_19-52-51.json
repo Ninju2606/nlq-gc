@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n    \"error\": [\"Die Relation \u0027um\u0027 ist nicht bekannt und kann nicht in die Bereitgestellten Typkodierungen übersetzt werden.\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \u0027Häuser\u0027, \u0027um\u0027, \u0027Frage\u0027, \u0027malen\u0027.\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \u0027houses\u0027, \u0027around\u0027, \u0027question\u0027, \u0027paint\u0027.\\n4. Da keine selbst identifizierenden Wörter wie \u0027ich\u0027 oder \u0027mein\u0027 in der Anfrage vorkommen, wird die Nutzeridentifikation ignoriert.\\n5. \u0027houses\u0027 ist ein Objekt, \u0027question\u0027 ist ein Kontext, \u0027paint\u0027 ist eine Aktivität.\\n6. \u0027paint\u0027 bezieht sich auf \u0027question\u0027 und \u0027houses\u0027 befindet sich um \u0027question\u0027.\\n7. Die Relation \u0027um\u0027 ist nicht bekannt und kann nicht in die Bereitgestellten Typkodierungen übersetzt werden.\"\n}"
-}

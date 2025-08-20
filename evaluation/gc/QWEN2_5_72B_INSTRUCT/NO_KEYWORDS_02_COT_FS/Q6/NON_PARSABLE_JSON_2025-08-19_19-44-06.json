@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n  \"error\": [\"Die Anfrage enthält keine sinnvollen Stichwörter für die Erstellung eines GraphCodes, da sie keine genaue Szenenbeschreibung im Metaverse enthält.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind „Wir“, „müssen“, „bald“, „Termin“, „ausmachen“. 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind „We“, „must“, „soon“, „appointment“, „arrange“. 4. Die Stichwörter mit Nutzeridentifikation sind „Maria“, „must“, „soon“, „appointment“, „arrange“. 5. „Maria“ und „appointment“ sind Objekte der Anfrage. „Must“, „soon“ und „arrange“ sind Aktivitäten. 6. „Maria“ muss „bald“ einen „Termin“ „arrangieren“. 7. Es gibt keine passenden Typkodierungen für „must“, „soon“ und „arrange“, da diese Wörter keine spezifischen Aktivitäten oder Objekte im Metaverse beschreiben.\"\n}"
-}

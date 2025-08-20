@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n  \"error\": [\"Die Anfrage enthält keine sinnvollen Stichwörter, die für die Generierung eines GraphCodes verwendet werden können.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Wir\\\", \\\"müssen\\\", \\\"bald\\\", \\\"Termin\\\", \\\"ausmachen\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"We\\\", \\\"must\\\", \\\"soon\\\", \\\"appointment\\\", \\\"arrange\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"Maria\\\", \\\"must\\\", \\\"soon\\\", \\\"appointment\\\", \\\"arrange\\\". 5. \\\"Maria\\\" ist ein Objekt der Anfrage. \\\"must\\\", \\\"soon\\\", \\\"arrange\\\" sind Kontexte. \\\"appointment\\\" ist ein Objekt. 6. Es gibt keine klaren Relationen zwischen den Stichwörtern, die in den bereitgestellten Typkodierungen dargestellt werden können. 7. Es gibt keine passende Relation für \\\"must\\\", \\\"soon\\\", oder \\\"arrange\\\" in den bereitgestellten Typkodierungen.\"\n}"
-}

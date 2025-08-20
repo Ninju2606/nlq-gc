@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n  \"error\": [\"Die Anfrage enthält keine sinnvollen Stichwörter, die eine Szene im Metaverse beschreiben können.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Wir\\\", \\\"müssen\\\", \\\"bald\\\", \\\"Termin\\\", \\\"ausmachen\\\". Diese Wörter beschreiben keine spezifische Szene oder Aktivität im Metaverse. 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"We\\\", \\\"must\\\", \\\"soon\\\", \\\"appointment\\\", \\\"make\\\". 4. Es gibt keine Nutzeridentifikation. 5. Die Wörter „We“, „must“, „soon“, „appointment“, „make“ sind nicht in der Position, um ein Objekt, eine Aktivität oder einen Kontext zu beschreiben. 6. Die Wörter stehen in keiner spezifischen Relation zueinander, die für die Szenebeschreibung relevant wäre. 7. Es gibt keine passenden Typkodierungen für diese Anfrage.\"\n}"
-}

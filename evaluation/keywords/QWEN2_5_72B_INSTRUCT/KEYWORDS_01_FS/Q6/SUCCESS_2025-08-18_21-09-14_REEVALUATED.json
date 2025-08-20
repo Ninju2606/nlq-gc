@@ -1,0 +1,8 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "error": [
+    "Die Nutzeranfrage enthält keine Informationen über eine spezifische Szene im Metaverse. Bitte beschreibe eine Situation oder ein Ereignis."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Nutzeranfrage enthält keine Informationen über eine spezifische Szene im Metaverse. Bitte beschreibe eine Situation oder ein Ereignis.\"]\n}"
+}

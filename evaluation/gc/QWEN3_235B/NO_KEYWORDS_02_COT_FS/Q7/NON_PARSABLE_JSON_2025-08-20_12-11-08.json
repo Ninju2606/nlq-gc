@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n  \"error\": [\n    \"Die Anfrage ist grammatikalisch nicht sinnvoll verständlich. Es fehlt eine klare Relation oder Handlungsvorschrift wie \u0027ich male Häuser\u0027 oder \u0027Häuser fragen jemanden\u0027. Der Ausdruck \u0027Häuser um Fragen zu malen\u0027 ist mehrdeutig und syntaktisch inkorrekt.\"\n  ],\n  \"description\": \"Es können keine sinnvollen Stichwörter mit klaren Relationen ermittelt werden. Die Anfrage \u0027Häuser um Fragen zu malen\u0027 ist grammatikalisch wirr und semantisch unklar. Es lässt sich nicht bestimmen, ob \u0027Häuser\u0027 etwas tun sollen (malt Häuser eine Frage?) oder ob jemand Häuser im Sinne von \u0027Frage stellen\u0027 malen möchte. Daher kann kein gültiger GraphCode generiert werden.\"\n}"
-}

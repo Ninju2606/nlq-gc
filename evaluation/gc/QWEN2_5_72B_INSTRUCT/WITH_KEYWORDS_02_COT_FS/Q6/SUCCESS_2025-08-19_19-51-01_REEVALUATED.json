@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\n2. Die Wörter \u0027make\u0027 und \u0027appointment\u0027 sind Aktivitäten, \u0027Maria\u0027 ist die Identifikation des Nutzers.\n3. Es besteht keine klare Relation zwischen den Stichwörtern, die in einem Metaverse-Szene beschrieben werden können.\n4. Für die Relationen im Metaverse-Szenario gibt es keine passenden Typkodierungen, da die Anfrage keine Szenenbeschreibung enthält.",
+  "error": [
+    "Es konnte kein GraphCode generiert werden, da die Anfrage keine Szenenbeschreibung im Metaverse enthält."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Es konnte kein GraphCode generiert werden, da die Anfrage keine Szenenbeschreibung im Metaverse enthält.\"],\n  \"description\": \"1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\\n2. Die Wörter \u0027make\u0027 und \u0027appointment\u0027 sind Aktivitäten, \u0027Maria\u0027 ist die Identifikation des Nutzers.\\n3. Es besteht keine klare Relation zwischen den Stichwörtern, die in einem Metaverse-Szene beschrieben werden können.\\n4. Für die Relationen im Metaverse-Szenario gibt es keine passenden Typkodierungen, da die Anfrage keine Szenenbeschreibung enthält.\"\n}"
+}

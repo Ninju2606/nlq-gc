@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \"Häuser\", \"Fragen\", \"malen\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \"houses\", \"questions\", \"paint\". 4. Die Stichwörter mit Nutzeridentifikation sind \"houses\", \"questions\", \"paint\". 5. \"houses\" ist ein Objekt, \"questions\" ist ein Kontext, \"paint\" ist eine Aktivität. 6. \"paint\" bezieht sich auf \"houses\" und \"questions\". 7. Die Relation \"um\" ist nicht bekannt.",
+  "error": [
+    "Die Relation \"um\" ist nicht bekannt."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Relation \\\"um\\\" ist nicht bekannt.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"Fragen\\\", \\\"malen\\\". 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \\\"houses\\\", \\\"questions\\\", \\\"paint\\\". 4. Die Stichwörter mit Nutzeridentifikation sind \\\"houses\\\", \\\"questions\\\", \\\"paint\\\". 5. \\\"houses\\\" ist ein Objekt, \\\"questions\\\" ist ein Kontext, \\\"paint\\\" ist eine Aktivität. 6. \\\"paint\\\" bezieht sich auf \\\"houses\\\" und \\\"questions\\\". 7. Die Relation \\\"um\\\" ist nicht bekannt.\"\n}"
+}

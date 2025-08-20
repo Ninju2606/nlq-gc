@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "The given request \u0027Wir müssen bald einen Termin ausmachen.\u0027 contains relationships and actions that cannot be represented with the available type codings.",
+  "error": [
+    "There are no applicable type codings for the \u0027bald\u0027 relationship and the \u0027we must\u0027 action in the provided set of type codings. Please provide a more detailed or clear request that can be mapped using the available types."
+  ],
+  "responsePlain": "{\n  \"error\": [\"There are no applicable type codings for the \u0027bald\u0027 relationship and the \u0027we must\u0027 action in the provided set of type codings. Please provide a more detailed or clear request that can be mapped using the available types.\"],\n  \"description\": \"The given request \u0027Wir müssen bald einen Termin ausmachen.\u0027 contains relationships and actions that cannot be represented with the available type codings.\"\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "",
+  "error": [
+    "Die Anfrage enthält keine Informationen zu einem Medienobjekt im Metaverse und kann daher keinen GraphCode generieren. Bitte beschreibe eine Szene oder Situation im Metaverse."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Anfrage enthält keine Informationen zu einem Medienobjekt im Metaverse und kann daher keinen GraphCode generieren. Bitte beschreibe eine Szene oder Situation im Metaverse.\"],\n  \"description\": \"\"\n}"
+}

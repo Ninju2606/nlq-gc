@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält Aktivitäten und Beziehungen, die nicht mit den verfügbaren Typkodierungen abgebildet werden können.",
+  "error": [
+    "Die Relation \u0027muss+ausmachen\u0027 ist nicht bekannt, da es keine passende Typkodierung gibt."
+  ],
+  "responsePlain": "{\n    \"error\": [\"Die Relation \u0027muss+ausmachen\u0027 ist nicht bekannt, da es keine passende Typkodierung gibt.\"],\n    \"description\": \"Die Anfrage enthält Aktivitäten und Beziehungen, die nicht mit den verfügbaren Typkodierungen abgebildet werden können.\"\n}"
+}

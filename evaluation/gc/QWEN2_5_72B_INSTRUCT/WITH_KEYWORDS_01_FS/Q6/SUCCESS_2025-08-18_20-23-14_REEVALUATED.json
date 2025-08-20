@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält eine Relation, die nicht in den vorgegebenen Typkodierungen enthalten ist.",
+  "error": [
+    "Die Relation \u0027make appointment\u0027 ist nicht bekannt."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Relation \u0027make appointment\u0027 ist nicht bekannt.\"],\n  \"description\": \"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 enthält eine Relation, die nicht in den vorgegebenen Typkodierungen enthalten ist.\"\n}"
+}

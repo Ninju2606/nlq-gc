@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „malen“. \n                   2. Es gibt keine relativen Verweise. \n                   3. Die englischen Stichwörter sind „houses“, „around“, „questions“, „paint“. \n                   4. Die Stichwörter mit Nutzeridentifikation sind „houses“, „around“, „questions“, „paint“. \n                   5. „houses“, „questions“ sind Objekte der Anfrage. „paint“ ist eine Aktivität. \n                   6. „questions“ befinden sich um „houses“. „paint“ bezieht sich auf „questions“. \n                   7. Die Relation „around“ ist nicht bekannt.",
+  "error": [
+    "Die Relation „um“ ist nicht bekannt."
+  ],
+  "responsePlain": "{\n    \"error\": [\"Die Relation „um“ ist nicht bekannt.\"],\n    \"description\": \"1. Die relevanten Stichwörter sind „Häuser“, „um“, „Fragen“, „malen“. \\\n                   2. Es gibt keine relativen Verweise. \\\n                   3. Die englischen Stichwörter sind „houses“, „around“, „questions“, „paint“. \\\n                   4. Die Stichwörter mit Nutzeridentifikation sind „houses“, „around“, „questions“, „paint“. \\\n                   5. „houses“, „questions“ sind Objekte der Anfrage. „paint“ ist eine Aktivität. \\\n                   6. „questions“ befinden sich um „houses“. „paint“ bezieht sich auf „questions“. \\\n                   7. Die Relation „around“ ist nicht bekannt.\"\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027.\n2. Es gibt keine relativen Verweise.\n3. Die englischen Stichwörter sind \u0027We\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027appointment\u0027, \u0027arrange\u0027.\n4. Die Stichwörter mit Nutzeridentifikation sind \u0027We\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027appointment\u0027, \u0027arrange\u0027.\n5. \u0027We\u0027, \u0027appointment\u0027, und \u0027arrange\u0027 sind Objekte der Anfrage.\n6. Es gibt keine klar definierten Relationen zwischen den Stichwörtern.\n7. Es gibt keine passenden Relationen in den bereitgestellten Typkodierungen, die die Anfrage repräsentieren können.",
+  "error": [
+    "Die Anfrage enthält keine relevanten Stichwörter, die eine Szene im Metaverse beschreiben."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Anfrage enthält keine relevanten Stichwörter, die eine Szene im Metaverse beschreiben.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \u0027Wir\u0027, \u0027müssen\u0027, \u0027bald\u0027, \u0027Termin\u0027, \u0027ausmachen\u0027.\\n2. Es gibt keine relativen Verweise.\\n3. Die englischen Stichwörter sind \u0027We\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027appointment\u0027, \u0027arrange\u0027.\\n4. Die Stichwörter mit Nutzeridentifikation sind \u0027We\u0027, \u0027must\u0027, \u0027soon\u0027, \u0027appointment\u0027, \u0027arrange\u0027.\\n5. \u0027We\u0027, \u0027appointment\u0027, und \u0027arrange\u0027 sind Objekte der Anfrage.\\n6. Es gibt keine klar definierten Relationen zwischen den Stichwörtern.\\n7. Es gibt keine passenden Relationen in den bereitgestellten Typkodierungen, die die Anfrage repräsentieren können.\"\n}"
+}

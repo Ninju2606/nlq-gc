@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers. \u0027Wir\u0027 bezieht sich auf mehrere Personen, aber es wird keine spezifische Person oder Szenenbeschreibung im Metaverse erwähnt.\n2. \u0027Maria\u0027 ist die Identifikation des Nutzers. \u0027make\u0027 und \u0027appointment\u0027 sind Aktivitäten.\n3. Die Relationen sind \u0027make\u0027 -\u003e \u0027appointment\u0027, aber dies bezieht sich nicht auf eine Szenenbeschreibung im Metaverse.\n4. Es gibt keine geeignete Typkodierung für diese Art von Anfrage, da sie nicht im Kontext des Metaverse-Suchens liegt.",
+  "error": [
+    "Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine Szene im Metaverse, sondern auf eine absichtsvolle Aktion oder Kommunikation zwischen Personen. Es kann kein sinnvoller GraphCode generiert werden."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Anfrage \u0027Wir müssen bald einen Termin ausmachen.\u0027 bezieht sich nicht auf eine Szene im Metaverse, sondern auf eine absichtsvolle Aktion oder Kommunikation zwischen Personen. Es kann kein sinnvoller GraphCode generiert werden.\"],\n  \"description\": \"1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers. \u0027Wir\u0027 bezieht sich auf mehrere Personen, aber es wird keine spezifische Person oder Szenenbeschreibung im Metaverse erwähnt.\\n2. \u0027Maria\u0027 ist die Identifikation des Nutzers. \u0027make\u0027 und \u0027appointment\u0027 sind Aktivitäten.\\n3. Die Relationen sind \u0027make\u0027 -\u003e \u0027appointment\u0027, aber dies bezieht sich nicht auf eine Szenenbeschreibung im Metaverse.\\n4. Es gibt keine geeignete Typkodierung für diese Art von Anfrage, da sie nicht im Kontext des Metaverse-Suchens liegt.\"\n}"
+}

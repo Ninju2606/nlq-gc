@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n    \"error\": [\"Ich kann die Anfrage leider nicht sinnvoll in einen GraphCode übersetzen, da keine konkrete Szenenbeschreibung vorliegt. Die Anfrage enthält nur eine allgemeine Aussage über einen zukünftigen Termin, aber keine Beschreibung einer Szene im Metaverse.\"],\n    \"description\": \"Es können keine sinnvollen Stichwörter für eine Szenenbeschreibung ermittelt werden, da die Anfrage keine relevante Szene beschreibt.\"\n}"
-}

@@ -154,6 +154,16 @@ public class ResponseChecker {
         return query.getMatrix()[index1][index2];
     }
 
+    protected static ExecutionState getState(final String response) {
+        ResponseDTO dto = GSON.fromJson(response, ResponseDTO.class);
+        return dto.state;
+    }
+
+    protected static String getResponsePlain(final String response) {
+        ResponseDTO dto = GSON.fromJson(response, ResponseDTO.class);
+        return dto.responsePlain;
+    }
+
     protected static class ResponseDTO {
 
         public ExecutionState state;

@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Unable to generate a valid GraphCode due to unknown relations.",
+  "error": [
+    "The relation \u0027bald\u0027 is not known. The relation \u0027Wir müssen\u0027 is not known. The relation \u0027ausmachen\u0027 is not known."
+  ],
+  "responsePlain": "{\n  \"error\": [\"The relation \u0027bald\u0027 is not known. The relation \u0027Wir müssen\u0027 is not known. The relation \u0027ausmachen\u0027 is not known.\"],\n  \"description\": \"Unable to generate a valid GraphCode due to unknown relations.\"\n}"
+}

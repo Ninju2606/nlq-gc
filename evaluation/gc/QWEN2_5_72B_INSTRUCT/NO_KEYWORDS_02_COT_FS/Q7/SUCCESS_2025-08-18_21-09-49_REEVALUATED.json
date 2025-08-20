@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Die relevanten Stichwörter sind \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027. 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 4. Es wird keine Nutzeridentifikation verwendet. 5. \u0027house\u0027 und \u0027paint\u0027 sind Objekte der Anfrage, \u0027ask\u0027 ist eine Aktivität. 6. Die Beziehung zwischen \u0027house\u0027 und \u0027paint\u0027 ist nicht klar. \u0027ask\u0027 bezieht sich möglicherweise auf \u0027paint\u0027. 7. Die Relation \u0027um\u0027 ist nicht bekannt.",
+  "error": [
+    "Die Relation \u0027um\u0027 ist nicht bekannt."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Relation \u0027um\u0027 ist nicht bekannt.\"],\n  \"description\": \"1. Die relevanten Stichwörter sind \u0027Häuser\u0027, \u0027Fragen\u0027, \u0027malen\u0027. 2. Es gibt keine relativen Verweise. 3. Die englischen Stichwörter sind \u0027house\u0027, \u0027ask\u0027, \u0027paint\u0027. 4. Es wird keine Nutzeridentifikation verwendet. 5. \u0027house\u0027 und \u0027paint\u0027 sind Objekte der Anfrage, \u0027ask\u0027 ist eine Aktivität. 6. Die Beziehung zwischen \u0027house\u0027 und \u0027paint\u0027 ist nicht klar. \u0027ask\u0027 bezieht sich möglicherweise auf \u0027paint\u0027. 7. Die Relation \u0027um\u0027 ist nicht bekannt.\"\n}"
+}

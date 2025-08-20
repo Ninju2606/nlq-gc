@@ -1,0 +1,8 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "error": [
+    "Ich kann aus der Anfrage keine relevanten Szenenbeschreibungen für einen GraphCode identifizieren. Die Anfrage bezieht sich auf eine zukünftige Handlung und enthält keine aktuelle Szene oder Aktivität im Metaverse."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Ich kann aus der Anfrage keine relevanten Szenenbeschreibungen für einen GraphCode identifizieren. Die Anfrage bezieht sich auf eine zukünftige Handlung und enthält keine aktuelle Szene oder Aktivität im Metaverse.\"]\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\n2. \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 sind Objekte der Anfrage.\n3. \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus, und \u0027make\u0027 bezieht sich auf \u0027appointment\u0027.\n4. Die Relation \u0027ausmachen\u0027 ist nicht bekannt.",
+  "error": [
+    "Die Relation \u0027ausmachen\u0027 ist nicht bekannt."
+  ],
+  "responsePlain": "{\n    \"error\": [\"Die Relation \u0027ausmachen\u0027 ist nicht bekannt.\"],\n    \"description\": \"1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\\n2. \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 sind Objekte der Anfrage.\\n3. \u0027maria\u0027 führt die Aktivität \u0027make\u0027 aus, und \u0027make\u0027 bezieht sich auf \u0027appointment\u0027.\\n4. Die Relation \u0027ausmachen\u0027 ist nicht bekannt.\"\n}"
+}

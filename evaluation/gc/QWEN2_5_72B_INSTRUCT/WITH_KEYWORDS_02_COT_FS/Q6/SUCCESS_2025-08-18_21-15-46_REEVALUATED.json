@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise oder Identifikationen des Nutzers. Maria wird nicht in der Anfrage erwähnt.\n2. \"make\", \"appointment\" sind Aktivitäten, aber keine objektiven Elemente, die in einer Szene dargestellt werden können.\n3. Es gibt keine klare Relation zwischen den Stichwörtern, die eine Szene beschreiben würden.\n4. Da es keine passenden Relationen gibt, die in der Anfrage beschrieben werden, kann kein sinnvoller GraphCode generiert werden.",
+  "error": [
+    "Die Anfrage enthält keine objektiven Elemente, die in einer Szene im Metaverse dargestellt werden können."
+  ],
+  "responsePlain": "{\n    \"error\": [\n        \"Die Anfrage enthält keine objektiven Elemente, die in einer Szene im Metaverse dargestellt werden können.\"\n    ],\n    \"description\": \"1. Es gibt keine relativen Verweise oder Identifikationen des Nutzers. Maria wird nicht in der Anfrage erwähnt.\\n2. \\\"make\\\", \\\"appointment\\\" sind Aktivitäten, aber keine objektiven Elemente, die in einer Szene dargestellt werden können.\\n3. Es gibt keine klare Relation zwischen den Stichwörtern, die eine Szene beschreiben würden.\\n4. Da es keine passenden Relationen gibt, die in der Anfrage beschrieben werden, kann kein sinnvoller GraphCode generiert werden.\"\n}"
+}

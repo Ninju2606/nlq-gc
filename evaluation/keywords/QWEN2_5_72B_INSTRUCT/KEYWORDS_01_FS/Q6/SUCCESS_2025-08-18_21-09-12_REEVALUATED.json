@@ -1,0 +1,8 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "error": [
+    "Ich kann keine spezifischen Begriffe für einen GraphCode in der Anfrage identifizieren. Bitte beschreibe eine Szene im Metaverse mit klar identifizierbaren Objekten, Personen oder Aktivitäten."
+  ],
+  "responsePlain": "{\n    \"error\": [\"Ich kann keine spezifischen Begriffe für einen GraphCode in der Anfrage identifizieren. Bitte beschreibe eine Szene im Metaverse mit klar identifizierbaren Objekten, Personen oder Aktivitäten.\"]\n}"
+}

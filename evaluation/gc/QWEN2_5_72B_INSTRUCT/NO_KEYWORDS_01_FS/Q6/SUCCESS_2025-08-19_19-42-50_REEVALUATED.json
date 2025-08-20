@@ -1,0 +1,8 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "error": [
+    "Die Anfrage enthält keine Beschreibung einer Szene im Metaverse. Es wird kein GraphCode generiert."
+  ],
+  "responsePlain": "{\n  \"error\": [\n    \"Die Anfrage enthält keine Beschreibung einer Szene im Metaverse. Es wird kein GraphCode generiert.\"\n  ]\n}"
+}

@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält eine Zeitangabe (\u0027bald\u0027), die in den vorgegebenen Typkodierungen nicht unterstützt wird.",
+  "error": [
+    "Ich kann die Relation \u0027bald\u0027 nicht darstellen. Die Zeitangabe \u0027bald\u0027 ist kein bekannter Typ in den vorgegebenen Typkodierungen."
+  ],
+  "responsePlain": "{\n    \"error\": [\"Ich kann die Relation \u0027bald\u0027 nicht darstellen. Die Zeitangabe \u0027bald\u0027 ist kein bekannter Typ in den vorgegebenen Typkodierungen.\"],\n    \"description\": \"Die Anfrage enthält eine Zeitangabe (\u0027bald\u0027), die in den vorgegebenen Typkodierungen nicht unterstützt wird.\"\n}"
+}

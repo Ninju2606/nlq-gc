@@ -1,0 +1,10 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\n   2. \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 sind Objekte der Anfrage.\n   3. Es gibt keine direkten Relationen zwischen den Stichwörtern, die in den vorgegebenen Typkodierungen repräsentiert werden können.\n   4. Die Relationen \u0027bald\u0027 und \u0027ausmachen\u0027 sind nicht in den vorgegebenen Typkodierungen enthalten.",
+  "error": [
+    "Die Relation \u0027bald\u0027 ist nicht bekannt.",
+    "Die Relation \u0027ausmachen\u0027 ist nicht bekannt."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Die Relation \u0027bald\u0027 ist nicht bekannt.\", \"Die Relation \u0027ausmachen\u0027 ist nicht bekannt.\"],\n  \"description\": \"1. Es gibt keine relativen Verweise und keine Identifikationen des Nutzers.\\n   2. \u0027maria\u0027, \u0027make\u0027 und \u0027appointment\u0027 sind Objekte der Anfrage.\\n   3. Es gibt keine direkten Relationen zwischen den Stichwörtern, die in den vorgegebenen Typkodierungen repräsentiert werden können.\\n   4. Die Relationen \u0027bald\u0027 und \u0027ausmachen\u0027 sind nicht in den vorgegebenen Typkodierungen enthalten.\"\n}"
+}

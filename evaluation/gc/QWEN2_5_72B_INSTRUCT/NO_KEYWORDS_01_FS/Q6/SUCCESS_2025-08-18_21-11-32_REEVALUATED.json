@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einem GraphCode repräsentiert werden könnten.",
+  "error": [
+    "Im gegebenen Text \u0027Wir müssen bald einen Termin ausmachen.\u0027 sind keine passenden Objekte, Attribute oder Aktivitäten zum Generieren des GraphCodes vorhanden. Es wird kein passender GraphCode generiert."
+  ],
+  "responsePlain": "{\n  \"error\": [\"Im gegebenen Text \u0027Wir müssen bald einen Termin ausmachen.\u0027 sind keine passenden Objekte, Attribute oder Aktivitäten zum Generieren des GraphCodes vorhanden. Es wird kein passender GraphCode generiert.\"],\n  \"description\": \"Die Anfrage enthält keine spezifischen Objekte, Attribute oder Aktivitäten, die in einem GraphCode repräsentiert werden könnten.\"\n}"
+}

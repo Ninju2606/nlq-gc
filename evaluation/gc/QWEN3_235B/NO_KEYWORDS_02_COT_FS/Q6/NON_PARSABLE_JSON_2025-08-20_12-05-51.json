@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n  \"error\": [\n    \"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.\"\n  ],\n  \"description\": \"Es können keine sinnvollen Stichwörter im Kontext einer Metaverse-Szene ermittelt werden. Die Anfrage \\\"Wir müssen bald einen Termin ausmachen\\\" beschreibt keine räumliche, visuelle oder interaktive Situation, sondern einen organisatorischen Vorgang, der keine Objekte, Attribute oder Aktivitäten im Sinne eines Szenen-GraphCodes beinhaltet. Es fehlen konkrete Entitäten oder Handlungen, die in einem Metaverse abgebildet werden könnten. Daher ist die Generierung eines GraphCodes nicht möglich.\"\n}"
-}

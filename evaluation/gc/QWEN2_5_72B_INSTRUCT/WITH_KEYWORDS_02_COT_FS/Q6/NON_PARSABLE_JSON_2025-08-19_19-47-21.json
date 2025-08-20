@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n  \"error\": [\"Fehlende oder unklare Szenenbeschreibung\"],\n  \"description\": \"1. Es gibt keine relativen Verweise oder Identifikationen des Nutzers innerhalb der Anfrage. 2. Die Wörter \u0027make\u0027 und \u0027appointment\u0027 sind Aktivitäten, \u0027maria\u0027 ist ein Objekt. 3. \u0027Maria\u0027 führt die Aktivität \u0027make\u0027 aus, die sich auf \u0027appointment\u0027 bezieht. 4. Es gibt keine Szenenbeschreibung, die die Relationen zwischen den Wörtern ausreichend klärt, um einen sinnvollen GraphCode zu erstellen.\"\n}"
-}

@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n  \"error\": [\"Ich kann die Anfrage leider nicht verstehen. Die Anfrage bezieht sich nicht auf eine Szene im Metaverse.\"],\n  \"description\": \"1. Es können keine relevanten Stichwörter ermittelt werden, da die Anfrage keinen Bezug zu einer Szene im Metaverse hat.\\n2. Es gibt keine relativen Verweise.\\n3. Eine Übersetzung der Stichwörter ins Englische ist daher nicht möglich.\\n4. Da es keine relevanten Stichwörter gibt, die Nutzeridentifikation kann ignoriert werden.\\n5. Es können keine Attributeigenschaften definiert werden.\\n6. Es können keine Relationen zwischen den Stichwörtern definiert werden.\\n7. Da es keine relevanten Stichwörter gibt, können auch keine passenden Typkodierungen gefunden werden.\"\n}"
-}

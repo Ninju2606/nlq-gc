@@ -1,0 +1,9 @@
+{
+  "state": "SUCCESS",
+  "matrixSimilarity": 0.0,
+  "description": "Es können keine sinnvollen Stichwörter aus der Anfrage \"Häuser um Fragen zu malen\" ermittelt werden. Der Satz ist grammatikalisch inkorrekt oder mehrdeutig: Es ist unklar, ob Häuser Fragen malen sollen, ob jemand Häuser malt, um Fragen zu stellen, oder ob es um eine metaphorische Handlung geht. Da keine klare Objekt-Aktivitäts-Beziehung hergestellt werden kann und die Semantik der Handlung (\"Fragen malen\") nicht interpretierbar ist, kann kein gültiger GraphCode generiert werden.",
+  "error": [
+    "Die Anfrage ist grammatikalisch unklar und lässt keine sinnvolle Ableitung von Objekten, Attributen oder Aktivitäten zu."
+  ],
+  "responsePlain": "{\n  \"error\": [\n    \"Die Anfrage ist grammatikalisch unklar und lässt keine sinnvolle Ableitung von Objekten, Attributen oder Aktivitäten zu.\"\n  ],\n  \"description\": \"Es können keine sinnvollen Stichwörter aus der Anfrage \\\"Häuser um Fragen zu malen\\\" ermittelt werden. Der Satz ist grammatikalisch inkorrekt oder mehrdeutig: Es ist unklar, ob Häuser Fragen malen sollen, ob jemand Häuser malt, um Fragen zu stellen, oder ob es um eine metaphorische Handlung geht. Da keine klare Objekt-Aktivitäts-Beziehung hergestellt werden kann und die Semantik der Handlung (\\\"Fragen malen\\\") nicht interpretierbar ist, kann kein gültiger GraphCode generiert werden.\"\n}"
+}

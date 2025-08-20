@@ -1,5 +1,0 @@
-{
-  "state": "NON_PARSABLE_JSON",
-  "matrixSimilarity": 0.0,
-  "responsePlain": "{\n    \"error\": [\"Die Relation \\\"malen\\\" und der Kontext \\\"um Fragen zu\\\" sind nicht bekannt.\"],\n    \"description\": \"1. Die relevanten Stichwörter sind \\\"Häuser\\\", \\\"um Fragen zu malen\\\".\\n    2. Es gibt keine relativen Verweise.\\n    3. Die englischen Stichwörter sind \\\"houses\\\", \\\"to paint questions\\\".\\n    4. Die Stichwörter mit Nutzeridentifikation sind \\\"houses\\\", \\\"to paint questions\\\".\\n    5. \\\"houses\\\" ist ein Objekt, \\\"to paint questions\\\" ist ein unklarer Begriff.\\n    6. Die Relation zwischen den Begriffen ist unklar.\\n    7. Die Relation \\\"malen\\\" und der Kontext \\\"um Fragen zu\\\" sind nicht bekannt.\"\n}"
-}
