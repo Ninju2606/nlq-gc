@@ -96,7 +96,7 @@ Antwort:
 Anfrage: Ich bin unter einem Baum
 Antwort:
 {
-    "error":["Die Relation \"Unter\" ist nicht bekannt."],
+    "error":"Die Relation \"Unter\" ist nicht bekannt.",
     "description":"1. Die relevanten Stichwörter sind \"Ich\", \"Baum\".
         2. Es gibt keine relativen Verweise.
         3. Die englischen Stichwörter sind \"I\", \"tree\".
@@ -111,7 +111,7 @@ Antwort:
 Anfrage: "qwertz und ist laufen groß"
 Antwort:
 {
-    "error":["Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage."],
+    "error":"Ich kann die Anfrage leider nicht verstehen. Bitte formuliere eine neue Anfrage.",
     "description":"Es können keine sinnvollen Stichwörter ermittelt werden."
 }
 

@@ -90,7 +90,7 @@ Anfrage: Ich bin unter einem Baum
 Vokabular: ["Max Mustermann", "tree"]
 Antwort:
 {
-    "error":["Die Relation \"Unter\" ist nicht bekannt."],
+    "error":"Die Relation \"Unter\" ist nicht bekannt.",
     "description":"1. Es gibt keine relativen Verweise. \"Ich\" wurde zu \"Max Mustermann\".
         2. \"Max Mustermann\" und \"tree\" sind Objekte der Anfrage.
         3. \"Max Mustermann\" befindet sich unter \"tree\".
