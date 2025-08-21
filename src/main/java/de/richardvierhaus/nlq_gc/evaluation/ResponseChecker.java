@@ -6,17 +6,21 @@ import com.google.gson.JsonSyntaxException;
 import de.richardvierhaus.nlq_gc.encoding.EncodingMapping;
 import org.springframework.util.StringUtils;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Predicate;
 
 public class ResponseChecker {
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
+    private static final Map<String, List<String>> synonyms = new HashMap<>();
 
     private final Execution execution;
     private final ResponseDTO responseDTO;
+
+    static {
+        synonyms.put("own", List.of("belong"));
+        synonyms.put("belong", List.of("own"));
+    }
 
     protected ResponseChecker(final String response, final Execution execution) {
         this.execution = execution;
@@ -81,7 +85,20 @@ public class ResponseChecker {
         if (responseDTO.dictionary.size() != keywordsExpected.size()) // compare dictionary size
             return false;
         for (String entry : responseDTO.dictionary) { // verify dictionary contains all keywords
-            if (keywordsExpected.stream().noneMatch(keyword -> keyword.equalsIgnoreCase(entry)))
+            boolean found = false;
+            for (String keyword : keywordsExpected) {
+                if (keyword.equalsIgnoreCase(entry)) {
+                    found = true;
+                    break;
+                }
+
+                List<String> synonyms = ResponseChecker.synonyms.get(keyword.toLowerCase());
+                if (synonyms != null && synonyms.contains(entry.toLowerCase())) {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found)
                 return false;
         }
         return true;
